@@ -43,7 +43,6 @@ jobs:
 
       - name: Execute script
         run: |
-          pip install transifex-client
           cd repo
-          npm install --prefix ../script
-          node ../script/src/ci/i18n-upload-source.js
+          pip install transifex-client
+          tx push --source --use-git-timestamps --skip
