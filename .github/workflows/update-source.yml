@@ -44,9 +44,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
-      - name: Go to the repository folder
-        run: cd repo
-      - name: Install dependencies
-        run: npm install --prefix ../script
       - name: Execute script
-        run: node ../script/src/ci/i18n-update-source.js
+        run: |
+          cd repo
+          npm install --prefix ../script
+          node ../script/src/ci/i18n-update-source.js
