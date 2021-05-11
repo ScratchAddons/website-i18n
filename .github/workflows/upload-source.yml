@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x 
-      - name: Cache dependencies
+      - name: Cache Node.js dependencies
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - name: Cache dependencies
+      - name: Cache Python dependencies
         uses: actions/cache@v2
         with:
             path: ~\AppData\Local\pip\Cache
@@ -43,7 +43,7 @@ jobs:
 
       - name: Execute script
         run: |
-          pip insall transifex-client
+          pip install transifex-client
           cd repo
           npm install --prefix ../script
           node ../script/src/ci/i18n-upload-source.js
