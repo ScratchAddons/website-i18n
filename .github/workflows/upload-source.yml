@@ -4,8 +4,8 @@ on:
 name: Source Upload
 
 jobs:
-  update:
-    name: Update
+  upload:
+    name: Upload
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ScratchAddons/website-i18n
