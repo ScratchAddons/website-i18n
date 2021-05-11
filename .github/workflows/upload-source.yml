@@ -10,39 +10,21 @@ jobs:
     steps:
       - name: Checkout ScratchAddons/website-i18n
         uses: actions/checkout@v2
-        with:
-          path: repo
-      - name: Checkout ScratchAddons/website-i18n-script
-        uses: actions/checkout@v2
-        with:
-          repository: ScratchAddons/website-i18n-script
-          path: script
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x 
-      - name: Cache Node.js dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - name: Cache Python dependencies
+      - name: Cache dependencies
         uses: actions/cache@v2
         with:
-            path: ~\AppData\Local\pip\Cache
-            key: ${{ runner.os }}-pip-scratchaddons-website-i18n-transifex
-            restore-keys: |
-              ${{ runner.os }}-pip-
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-scratchaddons-website-i18n-transifex
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Execute script
         run: |
-          cd repo
+          export TX_TOKEN=${{ secrets.TX_TOKEN }}
           pip install transifex-client
           tx push --source --use-git-timestamps --skip
