@@ -29,8 +29,21 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+            path: ~\AppData\Local\pip\Cache
+            key: ${{ runner.os }}-pip-scratchaddons-website-i18n-transifex
+            restore-keys: |
+              ${{ runner.os }}-pip-
+
       - name: Execute script
         run: |
+          pip insall transifex-client
           cd repo
           npm install --prefix ../script
           node ../script/src/ci/i18n-upload-source.js
