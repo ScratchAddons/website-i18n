@@ -1,0 +1,37 @@
+Global:
+  ScratchAddons: Scratch Addons
+  LogoAlt: Logotip Scratch Addons
+
+Nav:
+  Contributors: Sodelavci
+  Feedback: Povratne informacije
+  Repository: Repository
+  Install: Namesti
+
+Footer:
+  Pages:
+    Header: Glava
+    FAQ: Pogosta vprašanja
+    Feedback: Povratne informacije
+    Contributors: Sodelavci
+    Changelog: Seznam sprememb
+    Addons: Dodatki
+  Discuss:
+    Header: Razpravljaj
+    Discussion Forum: Forum
+    Issues: Issues
+    DiscordCom: Community Discord
+    DiscordDev: Development Discord
+  Resources:
+    Header: Gradivo
+    Organization: Organizacija
+    Repository: Repository
+    Documentation: Dokumentacija
+  Legal:
+    Copyright: "© {{.Count}} sodelavci Scratch Addons"
+    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
+    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+
+DarkTheme:
+  Title: Kliknite za preklop med svetlim in temnim načinom.
+  Label: Gumb za temni način

@@ -1,0 +1,37 @@
+Global:
+  ScratchAddons: Scratch Addons
+  LogoAlt: Scratch Addonsのロゴ
+
+Nav:
+  Contributors: 貢献者
+  Feedback: フィードバックを送る
+  Repository: リポジトリ
+  Install: インストール
+
+Footer:
+  Pages:
+    Header: ヘッダー
+    FAQ: FAQ
+    Feedback: フィードバックを送る
+    Contributors: 貢献者
+    Changelog: 変更履歴
+    Addons: 拡張機能
+  Discuss:
+    Header: ディスカッション
+    Discussion Forum: ディスカッションフォーラム
+    Issues: 不具合
+    DiscordCom: Discordコミュニティ
+    DiscordDev: 開発者向けDiscordコミュニティ
+  Resources:
+    Header: リソース
+    Organization: 組織
+    Repository: リポジトリ
+    Documentation: ドキュメント
+  Legal:
+    Copyright: "© {{.Count}} Scratch Addons contributors"
+    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
+    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+
+DarkTheme:
+  Title: Click to toggle the dark theme.
+  Label: Dark theme switch button

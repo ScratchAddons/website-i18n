@@ -1,0 +1,37 @@
+Global:
+  ScratchAddons: Scratch Addons
+  LogoAlt: Scratch Addons-Logo
+
+Nav:
+  Contributors: Entwickler
+  Feedback: Feedback senden
+  Repository: Repository
+  Install: Installieren
+
+Footer:
+  Pages:
+    Header: Header
+    FAQ: FAQ
+    Feedback: Feedback senden
+    Contributors: Entwickler
+    Changelog: Updates
+    Addons: Addons
+  Discuss:
+    Header: Diskutieren
+    Discussion Forum: Diskussionsforum
+    Issues: Probleme
+    DiscordCom: Community-Discord
+    DiscordDev: Entwickler-Discord
+  Resources:
+    Header: Ressourcen
+    Organization: Organisation
+    Repository: Repository
+    Documentation: Dokumentation
+  Legal:
+    Copyright: "© {{.Count}} Scratch Addons-Entwickler"
+    NoAffiliation: "Scratch Addons ist nicht angegliedert, assoziiert oder in irgendeiner Weise offiziell mit Scratch, dem Scratch Team, der Scratch Foundation oder einer ihrer Tochtergesellschaften und deren verbundenen Unternehmen verbunden."
+    License: Scratch Addons ist lizenziert unter den Bedingungen der GNU General Public License v3.0.
+
+DarkTheme:
+  Title: "Hier klicken, um den Dunklen Modus umzuschalten."
+  Label: Umschaltetaste für Dunklen Modus

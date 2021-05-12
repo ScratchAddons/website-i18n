@@ -1,0 +1,37 @@
+Global:
+  ScratchAddons: Scratch Addon
+  LogoAlt: Logo degli Scratch Addon
+
+Nav:
+  Contributors: Sviluppatori
+  Feedback: Invia Feedback
+  Repository: Archivio
+  Install: Installa
+
+Footer:
+  Pages:
+    Header: Intestazione
+    FAQ: Domande Frequenti
+    Feedback: Invia Feedback
+    Contributors: Sviluppatori
+    Changelog: Changelog
+    Addons: Addon
+  Discuss:
+    Header: Discuti
+    Discussion Forum: Forum di Discussione
+    Issues: Problemi
+    DiscordCom: Disaccordo Comunità
+    DiscordDev: Disaccordo nello Sviluppo
+  Resources:
+    Header: Risorse
+    Organization: Organizzazione
+    Repository: Archivio
+    Documentation: Documentazione
+  Legal:
+    Copyright: "© {{.Count}} Sviluppatori degli Scratch Addon"
+    NoAffiliation: "Scratch Addon non è affiliato, associato o connesso ufficialmente in alcun modo con Scratch, lo Scratch Team, la Scratch Foundation o qualunque loro filiale o affiliata."
+    License: Scratch Addon è concesso in licenza secondo i termini della GNU General Public License v3.0.
+
+DarkTheme:
+  Title: Clicca per passare al tema scuro.
+  Label: Pulsante di passaggio al tema scuro
