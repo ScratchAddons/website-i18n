@@ -25,6 +25,8 @@ jobs:
 
       - name: Execute script
         run: |
-          export TX_TOKEN=${{ secrets.TX_TOKEN }}
+          echo Running...
           pip install transifex-client
           tx push --source --use-git-timestamps --skip
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}

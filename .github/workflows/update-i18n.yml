@@ -1,9 +1,9 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 0 * * *"
 
-name: Source Update
+name: Localization Update
 
 jobs:
   update:
@@ -39,15 +39,31 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-scratchaddons-website-i18n-transifex
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Execute script
         run: |
           echo Running...
           cd repo
+          pip install transifex-client
+          tx pull --all --use-git-timestamps --skip
           npm install --prefix ../script
-          node ../script/src/ci/i18n-update-source.js
+          node ../script/src/ci/i18n-update-i18n.js
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
-      - name: Invoke workflow
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: Source Upload
-          token: ${{ steps.generate-token.outputs.token }}
+      # - name: Invoke workflow
+      #   uses: benc-uk/workflow-dispatch@v1
+      #   with:
+      #     workflow: Source Upload
+      #     token: ${{ steps.generate-token.outputs.token }}
