@@ -27,6 +27,11 @@ jobs:
         with:
           repository: ScratchAddons/website-i18n-script
           path: script
+      - name: Checkout ScratchAddons/website-v2
+        uses: actions/checkout@v2
+        with:
+          repository: ScratchAddons/website-v2
+          path: website
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
