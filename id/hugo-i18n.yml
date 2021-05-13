@@ -1,34 +1,35 @@
 Global:
   ScratchAddons: Scratch Addons
-  LogoAlt: Scratch Addons logo
+  LogoAlt: Logo Scratch Addons
 
 Nav:
-  Contributors: Contributors
-  Feedback: Send Feedback
-  Repository: Repository
-  Install: Install
+  Contributors: Kontributor
+  Feedback: Kirim Umpan Balik
+  Repository: Repositori
+  Install: Pasang
 
 Footer:
   Pages:
-    Header: Header
+    Header: Pages
     FAQ: FAQ
-    Feedback: Send Feedback
-    Contributors: Contributors
-    Changelog: Changelog
+    Feedback: Kirim Umpan Balik
+    Contributors: Kontributor
+    Changelog: Daftar
     Addons: Addons
   Discuss:
-    Header: Discuss
-    Discussion Forum: Discussion Forum
+    Header: Diskusikan
+    Discussion Forum: Forum Diskusi
     Issues: Issues
-    DiscordCom: Community Discord
-    DiscordDev: Development Discord
+    DiscordCom: Discord Komunitas
+    DiscordDev: Discord Pengembangan
   Resources:
     Header: Resources
-    Organization: Organization
-    Repository: Repository
-    Documentation: Documentation
+    Organization: Organisasi
+    Repository: Repositori
+    Documentation: Dokumentasi
+    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons contributors"
+    Copyright: "© {{.Count}} kontributor Scratch Addons"
     NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
     License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
 
