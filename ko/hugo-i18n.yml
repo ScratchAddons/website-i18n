@@ -10,7 +10,7 @@ Nav:
 
 Footer:
   Pages:
-    Header: 헤더
+    Header: Pages
     FAQ: 자주 묻는 질문
     Feedback: 문의하기
     Contributors: 기여자
@@ -27,11 +27,12 @@ Footer:
     Organization: 기관
     Repository: 레포지토리
     Documentation: 설명서
+    YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} 스크래치 애드온 기여자"
     NoAffiliation: "스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다."
     License: 스크래치 애드온은 GNU General Public License v3.0 라이센스로 공유됩니다.
 
 DarkTheme:
-  Title: 어두운 테마를 전환하려면 클릭하세요.
+  Title: 어두운 테마로 전환하려면 클릭하세요.
   Label: 어두운 테마 전환 버튼

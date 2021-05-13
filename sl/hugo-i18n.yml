@@ -10,7 +10,7 @@ Nav:
 
 Footer:
   Pages:
-    Header: Glava
+    Header: Pages
     FAQ: Pogosta vprašanja
     Feedback: Povratne informacije
     Contributors: Sodelavci
@@ -27,6 +27,7 @@ Footer:
     Organization: Organizacija
     Repository: Repository
     Documentation: Dokumentacija
+    YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} sodelavci Scratch Addons"
     NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."

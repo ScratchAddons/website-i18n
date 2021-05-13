@@ -10,7 +10,7 @@ Nav:
 
 Footer:
   Pages:
-    Header: Intestazione
+    Header: Pages
     FAQ: Domande Frequenti
     Feedback: Invia Feedback
     Contributors: Sviluppatori
@@ -27,6 +27,7 @@ Footer:
     Organization: Organizzazione
     Repository: Archivio
     Documentation: Documentazione
+    YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} Sviluppatori degli Scratch Addon"
     NoAffiliation: "Scratch Addon non è affiliato, associato o connesso ufficialmente in alcun modo con Scratch, lo Scratch Team, la Scratch Foundation o qualunque loro filiale o affiliata."

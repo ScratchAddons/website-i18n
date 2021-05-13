@@ -1,37 +1,38 @@
 Global:
-  ScratchAddons: Dodatki do zdrapek
-  LogoAlt: Logo dodatków do zdrapek
+  ScratchAddons: Dodatki Scratch
+  LogoAlt: logo Scratch Addons
 
 Nav:
-  Contributors: Contributors
-  Feedback: Send Feedback
-  Repository: Repository
+  Contributors: Współtwórcy
+  Feedback: Prześlij opinię
+  Repository: Repozytorium
   Install: Instaluj
 
 Footer:
   Pages:
-    Header: Header
+    Header: Pages
     FAQ: FAQ
-    Feedback: Send Feedback
-    Contributors: Contributors
+    Feedback: Prześlij opinię
+    Contributors: Współtwórcy
     Changelog: Dziennik zmian
     Addons: Addons
   Discuss:
-    Header: Discuss
-    Discussion Forum: Discussion Forum
-    Issues: Issues
+    Header: Dyskusja
+    Discussion Forum: Forum Dyskusyjne
+    Issues: Problemy
     DiscordCom: Społeczność Discord
-    DiscordDev: Development Discord
+    DiscordDev: Discord Deweloperski
   Resources:
-    Header: Resources
-    Organization: Organization
-    Repository: Repository
-    Documentation: Documentation
+    Header: Zasoby
+    Organization: Organizacja
+    Repository: Repozytorium
+    Documentation: Dokumentacja
+    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons contributors"
-    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
-    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+    Copyright: "© {{.Count}} Współtwórcy Scratch Addons"
+    NoAffiliation: "Scratch Addons nie jest stowarzyszone, powiązane ani w żaden sposób oficjalnie połączone ze Scratch, Scratch Team, Scratch Foundation ani żadną z jej spółek zależnych lub stowarzyszonych."
+    License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
 
 DarkTheme:
-  Title: Click to toggle the dark theme.
-  Label: Dark theme switch button
+  Title: "Kliknij, aby przełączyć ciemny motyw."
+  Label: Przycisk przełączania ciemnego motywu

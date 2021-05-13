@@ -1,37 +1,38 @@
 Global:
   ScratchAddons: Scratch Addons
-  LogoAlt: Scratch Addons logo
+  LogoAlt: Logo de Scratch Addons
 
 Nav:
-  Contributors: Contributors
-  Feedback: Send Feedback
-  Repository: Repository
-  Install: Install
+  Contributors: Colaboradores
+  Feedback: Enviar Comentarios
+  Repository: Repositori
+  Install: Instalar
 
 Footer:
   Pages:
-    Header: Header
-    FAQ: FAQ
-    Feedback: Send Feedback
-    Contributors: Contributors
-    Changelog: Changelog
+    Header: Pages
+    FAQ: Preguntas frecuentes
+    Feedback: Enviar Comentarios
+    Contributors: Colaboradores
+    Changelog: Lista de Cambios
     Addons: Addons
   Discuss:
-    Header: Discuss
-    Discussion Forum: Discussion Forum
+    Header: Debatir
+    Discussion Forum: Foro de Discusió
     Issues: Issues
-    DiscordCom: Community Discord
-    DiscordDev: Development Discord
+    DiscordCom: Discord de la Comunidad
+    DiscordDev: Discord de los Desarrolladores
   Resources:
-    Header: Resources
-    Organization: Organization
-    Repository: Repository
-    Documentation: Documentation
+    Header: Recursos
+    Organization: Organizació
+    Repository: Repositori
+    Documentation: Documentación
+    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons contributors"
-    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
-    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+    Copyright: "© {{.Count}} Colaboradores de Scratch Addons"
+    NoAffiliation: "Este proyecto no está afiliado, asociado, o de ninguna manera conectado oficialmente con la página web de Scratch, su Equipo, Fundación, o cualquiera de sus afiliados."
+    License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
 
 DarkTheme:
-  Title: Click to toggle the dark theme.
-  Label: Dark theme switch button
+  Title: Activar/desacticar el modo oscuro.
+  Label: Botón de modo oscuro

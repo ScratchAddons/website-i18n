@@ -10,7 +10,7 @@ Nav:
 
 Footer:
   Pages:
-    Header: Header
+    Header: Pages
     FAQ: FAQ
     Feedback: Envoyer des retours
     Contributors: Contributeurs
@@ -19,7 +19,7 @@ Footer:
   Discuss:
     Header: Discuter
     Discussion Forum: Forum de discussion
-    Issues: Issues
+    Issues: Problèmes
     DiscordCom: Community Discord
     DiscordDev: Development Discord
   Resources:
@@ -27,6 +27,7 @@ Footer:
     Organization: Organisation
     Repository: Repository
     Documentation: Documentation
+    YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} contributeurs de Scratch Addons"
     NoAffiliation: "Scratch Addons n'est pas affilié, associé, ou en aucun cas officiellement connecté avec Scratch, l'Équipe Scratch, La Scratch Foundation, ou l'une de ses filiales ou ses sociétés affiliées."

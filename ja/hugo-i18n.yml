@@ -10,28 +10,29 @@ Nav:
 
 Footer:
   Pages:
-    Header: ヘッダー
+    Header: Pages
     FAQ: FAQ
     Feedback: フィードバックを送る
     Contributors: 貢献者
-    Changelog: 変更履歴
-    Addons: 拡張機能
+    Changelog: 更新履歴
+    Addons: アドオン
   Discuss:
-    Header: ディスカッション
+    Header: 議論
     Discussion Forum: ディスカッションフォーラム
-    Issues: 不具合
-    DiscordCom: Discordコミュニティ
-    DiscordDev: 開発者向けDiscordコミュニティ
+    Issues: 不具合を報告
+    DiscordCom: Discordコミュニティー
+    DiscordDev: 開発者向けDiscordコミュニティー
   Resources:
-    Header: リソース
+    Header: 資料
     Organization: 組織
     Repository: リポジトリ
     Documentation: ドキュメント
+    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons contributors"
-    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
-    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+    Copyright: "© {{.Count}} Scratch Addons 貢献者"
+    NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
+    License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
 
 DarkTheme:
-  Title: Click to toggle the dark theme.
-  Label: Dark theme switch button
+  Title: クリックしてダークモードを切り替えられます。
+  Label: ダークモード切り替えボタン
