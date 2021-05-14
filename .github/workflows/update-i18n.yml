@@ -23,16 +23,16 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
           path: repo
           fetch-depth: 0
-      - name: Checkout ScratchAddons/website-i18n-script
+      - name: Checkout ScratchAddons/website-v2-script
         uses: actions/checkout@v2
         with:
-          repository: ScratchAddons/website-i18n-script
+          repository: ScratchAddons/website-v2-script
           path: script
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x 
+          node-version: 14.x
       - name: Cache Node.js dependencies
         uses: actions/cache@v2
         with:
@@ -60,7 +60,7 @@ jobs:
           pip install transifex-client
           tx pull --all --use-git-timestamps --skip --mode sourceastranslation
           npm install --prefix ../script
-          node ../script/src/ci/i18n-update-i18n.js
+          node ../script/node/ci/i18n-update-i18n.js
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 

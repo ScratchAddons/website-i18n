@@ -1,9 +1,12 @@
-on:
+on: 
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+    inputs:
+      ref:
+        description: Reference on ScratchAddons/ScratchAddons
+        required: false
+        default: master
 
-name: Source Update
+name: Addons Data Update
 
 jobs:
   update:
@@ -27,11 +30,11 @@ jobs:
         with:
           repository: ScratchAddons/website-v2-script
           path: script
-      - name: Checkout ScratchAddons/website-v2
+      - name: Checkout ScratchAddons/ScratchAddons
         uses: actions/checkout@v2
         with:
-          repository: ScratchAddons/website-v2
-          path: website
+          repository: ScratchAddons/ScratchAddons
+          path: sa
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
@@ -45,11 +48,10 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
 
       - name: Execute script
-        run: |
-          echo Running...
+        run: | 
           cd repo
           npm install --prefix ../script
-          node ../script/node/ci/i18n-update-source.js
+          node ../script/node/ci/i18n-update-addons-data.js ${{ github.event.inputs.ref }}
 
       - name: Invoke workflow
         if: ${{ ! steps.script.outputs.commitSkipped }}
