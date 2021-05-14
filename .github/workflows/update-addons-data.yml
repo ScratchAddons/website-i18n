@@ -58,5 +58,6 @@ jobs:
         if: ${{ ! steps.script.outputs.commitSkipped }}
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: Source Upload
+          workflow: Site Deployment
+          repo: ScratchAddons/website-v2
           token: ${{ steps.generate-token.outputs.token }}
