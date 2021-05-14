@@ -35,6 +35,7 @@ jobs:
         with:
           repository: ScratchAddons/ScratchAddons
           path: sa
+          ref: ${{ github.event.inputs.ref }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
@@ -51,7 +52,7 @@ jobs:
         run: | 
           cd repo
           npm install --prefix ../script
-          node ../script/node/ci/i18n-update-addons-data.js ${{ github.event.inputs.ref }}
+          node ../script/node/ci/i18n-update-addons-data.js
 
       - name: Invoke workflow
         if: ${{ ! steps.script.outputs.commitSkipped }}
