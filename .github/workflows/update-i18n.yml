@@ -22,6 +22,7 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
           path: repo
+          fetch-depth: 0
       - name: Checkout ScratchAddons/website-i18n-script
         uses: actions/checkout@v2
         with:
@@ -52,17 +53,19 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Execute script
+        id: script
         run: |
           echo Running...
           cd repo
           pip install transifex-client
-          tx pull --all --force --skip --mode sourceastranslation
+          tx pull --all --use-git-timestamps --skip --mode sourceastranslation
           npm install --prefix ../script
           node ../script/src/ci/i18n-update-i18n.js
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
       - name: Invoke workflow
+        if: ${{ steps.script.outputs.commitSkipped }}
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment
