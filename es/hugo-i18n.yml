@@ -10,7 +10,7 @@ Nav:
 
 Footer:
   Pages:
-    Header: Pages
+    Header: Páginas
     FAQ: Preguntas frecuentes
     Feedback: Enviar Comentarios
     Contributors: Colaboradores
@@ -24,7 +24,7 @@ Footer:
     DiscordDev: Discord de los Desarrolladores
   Resources:
     Header: Recursos
-    Organization: Organizació
+    Organization: Organización
     Repository: Repositori
     Documentation: Documentación
     YouTube: YouTube

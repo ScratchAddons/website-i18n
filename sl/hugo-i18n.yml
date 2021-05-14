@@ -5,12 +5,12 @@ Global:
 Nav:
   Contributors: Sodelavci
   Feedback: Povratne informacije
-  Repository: Repository
+  Repository: Izvirna koda
   Install: Namesti
 
 Footer:
   Pages:
-    Header: Pages
+    Header: Strani
     FAQ: Pogosta vprašanja
     Feedback: Povratne informacije
     Contributors: Sodelavci
@@ -19,19 +19,19 @@ Footer:
   Discuss:
     Header: Razpravljaj
     Discussion Forum: Forum
-    Issues: Issues
-    DiscordCom: Community Discord
-    DiscordDev: Development Discord
+    Issues: Težave
+    DiscordCom: Discord za skupnost
+    DiscordDev: Discord za razvijalce
   Resources:
     Header: Gradivo
     Organization: Organizacija
-    Repository: Repository
+    Repository: Izvirna koda
     Documentation: Dokumentacija
     YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} sodelavci Scratch Addons"
-    NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
-    License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
+    NoAffiliation: "Scratch Addons ni na noben način povezan s Scratchem, skupino Scratch ali fundacijo Scratch."
+    License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
 
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
