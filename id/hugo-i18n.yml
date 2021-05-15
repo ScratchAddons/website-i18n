@@ -19,11 +19,11 @@ Footer:
   Discuss:
     Header: Diskusikan
     Discussion Forum: Forum Diskusi
-    Issues: Issues
+    Issues: Masalah
     DiscordCom: Discord Komunitas
     DiscordDev: Discord Pengembangan
   Resources:
-    Header: Resources
+    Header: Sumber-sumber
     Organization: Organisasi
     Repository: Repositori
     Documentation: Dokumentasi
@@ -34,5 +34,5 @@ Footer:
     License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
 
 DarkTheme:
-  Title: Click to toggle the dark theme.
+  Title: Tekan untuk mengaktifkan dark theme
   Label: Dark theme switch button
