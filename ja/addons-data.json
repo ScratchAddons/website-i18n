@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "2D カラーピッカー",
+		"description": "カラーピッカーを2Dにする。Shiftキーを押して輝度や彩度のみを変更する。",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "60FPSモード",
+		"description": "緑の旗をAltキーを押しながらクリックして60FPSにする。",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "何もしないアドオン",
+		"description": "何もしないアドオン。",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "サムネイル設定",
+		"description": "プロジェクトのサムネイルを設定するボタンを、エディターに追加する。",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "絵文字の変更",
+		"description": "Scratchのコメントの猫の絵文字をベクター画像に変える。",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "プロフィールページバナー",
+		"description": "プロフィールページの注目のプロジェクト表示をバナーにする。",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "選択範囲を引用",
+		"description": "フォーラム投稿の一部を選択し、Quoteボタンを押して選択範囲を引用する。",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "ビットマップ画像をコピー",
+		"description": "ペイントエディターでビットマップ画像をコピー可能にする。",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "ブロックパレットアイコン",
+		"description": "ブロックパレットのカテゴリーにアイコンを追加する。",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "ブロック置換",
+		"description": "ブロックを右クリックして類似のブロックに変える。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "ブロックを画像に出力",
+		"description": "コードペインを右クリックしてブロックをSVG/PNGとして出力する。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "キャットブロック",
+		"description": "2020年のエイプリルフールの「キャットブロック」を追加する。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "クローンカウンター",
+		"description": "クローンの合計数を表示する。",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "クラウドゲーム",
+		"description": "Scratch Addonsアイコンをクリックしたときに、マルチプレイヤーゲームで遊んでいるScratcherの数とユーザー名を表示する。",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "16進数カラーピッカー",
+		"description": "16進数カラーコードの入力欄を追加する。",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "コメント改行",
+		"description": "コメント中の改行を表示する。",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "確認画面",
+		"description": "プロジェクトの共有などを行うときに確認する。",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "コメントのリンクをコピー",
+		"description": "コメントへのリンクをコピーするボタンを「報告」ボタンの横に追加する。",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "キュレーターリンク",
+		"description": "トップページの「選んだプロジェクト」欄のユーザー名をリンクにする。",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "ブロックの形をカスタマイズ",
+		"description": "ブロックのパディング、角、切れ込みを調節する。",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "カスタムズーム設定",
+		"description": "コードペインのズーム設定をカスタマイズする。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "団子 (エイプリルフール機能)",
+		"description": "「dango」と書かれているプロフィールに団子の雨を表示する。",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "ウェブサイトダークモード",
+		"description": "ウェブサイトのダークモード。複数の実装から選べる。",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "変数ブロック改良",
+		"description": "エディターの変数ブロックの表示を改良する。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "自動保存を無効化",
+		"description": "編集時の自動保存を無効化する。",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "話すボタン",
+		"description": "話すボタンを追加する。",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "ファイルをドロップ",
+		"description": "エディターのスプライトペインやコスチュームペインにファイルをドロップしたり、リストや「聞いて待つ」画面にテキストファイルをドロップできるようにする。",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "右クリックメニューを色付け",
+		"description": "右クリックメニューに色を付ける。",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "エディターのダークモードとカスタマイズ",
+		"description": "エディターの色をカスタマイズする。さまざまなダークテーマが利用できる。ダークモードが不要な場合は、「Scratchの既定の色」を選択すること。",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "開発者ツール",
+		"description": "検索バー、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他。",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "エディター内でメッセージ数表示",
+		"description": "メッセージ数をエディター内に表示する。",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "ドロップダウン検索",
+		"description": "エディター内のドロップダウンの選択肢を検索する。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "エディター効果音",
+		"description": "ブロックをつなげたり削除したりするときに効果音を鳴らす。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "ステージを左側に表示",
+		"description": "ステージを左側に表示する。",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "実行中のブロック表示",
+		"description": "実行中のブロックの周りに青い枠線を表示する。",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "ブロックの色をカスタマイズ",
+		"description": "ブロックの色をカテゴリーごとに変更する。",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "正確な数を表示",
+		"description": "ユーザーやスタジオに関する正確な値を表示。フォーラムに関する情報はScratchDBを使用。",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "非共有プロジェクトを注目のプロジェクトに設定",
+		"description": "プロフィールページの「注目のプロジェクト」を非共有プロジェクトにする。",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "SVGアップロードの修正",
+		"description": "SVGアップロード時のバグを修正する。",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "スプライトフォルダー",
+		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "フォーラム引用のカスタマイズ",
+		"description": "フォーラムの引用・コードをきれいにする。",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "フォーラム検索",
+		"description": "フォーラム検索を追加する。ScratchDB使用。",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "フォーラムのタイムゾーン表示変更",
+		"description": "投稿日時をコンピューターのタイムゾーンで表示する。データ提供元: ScratchDB",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "表示域拡大",
+		"description": "署名や「私が取り組んでいること」など、サイズの制限がある部分をスクロールしたり、サイズ変更可能にしたりする。",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "ゲームパッド",
+		"description": "USBかBluetoothのコントローラーやゲームパッドを利用する。",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "ブロックパレット隠し",
+		"description": "ブロックパレットをホバーしていないときに隠す。ロックアイコンをクリックして表示し続けたり、「カテゴリー・クリック」を使うこともできる。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "フォーラム画像アップローダー",
+		"description": "画像をアップロードし、フォーラムに投稿する。",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "無限スクロール",
+		"description": "「もっと読み込む」を押さずにスクロールできるようにする。",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "新しいスプライトの位置を変更",
+		"description": "新しいスプライトの位置を固定する。",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "共有・編集日表示",
+		"description": "プロジェクトの共有日をホバーして、正確な共有日時と編集日時を表示する。",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "注目のプロジェクトを動かす",
+		"description": "プロフィールページの「注目のプロジェクト」を直接遊べるようにする。Mega Scratch Userscriptをもとに作成。",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "拡張機能の自動追加",
+		"description": "プロジェクトに自動で拡張機能を追加する。",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "「私が取り組んでいること」文字数制限増加",
+		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "投稿画面のアイコン変更",
+		"description": "フォーラムの投稿画面のアイコンを変更する。",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "ステージを録画",
+		"description": "ステージを録画するボタンを追加する。",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "リンク化",
+		"description": "scratch.mit.edu外にリンクしているURLをクリック可能にする。",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "マウスの座標",
+		"description": "緑の旗の横にマウスの座標を表示する。",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "アイコンにメッセージ数を表示",
+		"description": "Scratch Addonsアイコンにメッセージ数を表示する。",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "プロジェクトをミュート",
+		"description": "緑の旗をCtr+クリックでミュートする。",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "ocular.jeffalo.netステータスとリアクションを表示する",
+		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "半透明コスチュームエディター",
+		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの下のボタンで制御可能。",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "一時停止ボタン",
+		"description": "緑の旗の横に一時停止ボタンを追加する。",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "読み込み進捗バー",
+		"description": "プロジェクトの読み込みや保存の進捗状況を表示する。",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "スプライト・スクリプト数表示",
+		"description": "プロジェクトのスプライト数とスクリプト数を表示する。",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "使い方タブ",
+		"description": "プロジェクトページの「使い方」「メモとクレジット」表示をタブにする。",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "リミックスツリーボタン",
+		"description": "リミックスツリーボタンを追加する。",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "ステージの枠の丸み除去",
+		"description": "ステージの枠の丸みをなくし、角を見れるようにする。",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "スプライト削除確認",
+		"description": "スプライトの削除時に確認画面を表示する。",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "コメント欄のサイズ変更",
+		"description": "プロジェクトページのコメント欄の大きさを変更できるようにする。",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Scratchメッセージ",
+		"description": "Scratch Addonsアイコンをクリックして利用する。メッセージを簡単に確認し、コメントの全文を確認し、直接返信する。",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Scratch通知",
+		"description": "メッセージを通知する。クリックしてメッセージの対象(コメント、スタジオなど)に直接行く。",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 3.0化",
+		"description": "Scratch 2.0風のページを3.0化する。",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "プロフィール統計",
+		"description": "プロフィールにScratchDBの統計を追加する。",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "プロフィール検索",
+		"description": "ユーザー名で検索時に、プロフィールページへ行くリンクを追加する。",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "セミコロンのバグ",
+		"description": "有名なセミコロンのバグを追加する。",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "BBCodeを表示",
+		"description": "投稿のBBCodeを表示するボタンを加える。",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "スタジオ管理ツール",
+		"description": "キュレータータブにて、簡単にキュレーターを昇格・削除したり、スタジオから抜けたりする。",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "YouTubeリンク修正",
+		"description": "YouTube動画プレイヤーへのリンクを本物へのリンクに置き換える。",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "変数マネージャー",
+		"description": "エディターに変数とリストを管理するためのタブを追加する。",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "YouTube全画面表示",
+		"description": "ScratchのYouTube動画プレイヤーで、全画面表示を有効化する。",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]

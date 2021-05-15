@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "2차원 색상 선택기",
+		"description": "채도, 밝기 슬라이더를 2차원 색상 선택기로 바꿉니다. Shift 키를 누른 채로 커서를 끌어 한 가지의 값을 변경할 수 있습니다.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "Alt+깃발 60fps 플레이어 모드",
+		"description": "Alt+깃발 클릭하여 60fps를 토글합니다.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "계정 설정 대문자화 수정",
+		"description": "계정 메뉴에서 \"Account settings\"을 \"Account Settings\"으로 변경합니다. (영어 전용)",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "썸네일 설정기",
+		"description": "편집기에 버튼을 추가하여 프로젝트의 썸네일을 모든 이미지(gif 포함)로 설정합니다.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "더 좋은 이모지",
+		"description": "스크래치 주석의 고양이 이모지를 개선된 벡터 사진으로 바꿉니다.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "프로필 페이지 배너",
+		"description": "사용자의 프로필 페이지에 있는 추천 프로젝트를 보기 좋은 배너로 만듭니다.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "더 좋은 토론방 인용기",
+		"description": "토론방 게시물에서 문자를 선택하고 오른쪽 하단 모서리의 따옴표를 클릭하여 선택한 문자를 따옴표로 묶습니다.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "비트맵 사진 복사",
+		"description": "다른 웹사이트나 소프트웨어에 붙여넣을 수 있도록 페인트 편집기에서 비트맵 이미지를 실제로 복사할 수 있습니다.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "블럭 팔레트 카테고리 아이콘",
+		"description": "색칠된 원형 내부에 블록 카데고리를 식별하는 아이콘을 추가합니다.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "블럭 바꾸기",
+		"description": "블럭을 마우스 오른쪽 버튼으로 클릭하여 관련 블럭으로 전환합니다.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "블럭을 이미지로 저장하기",
+		"description": "편집기 작업영역에서 마우스 오른쪽 단추를 눌러 블록을 SVG/PNG 이미지로 내보냅니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "고양이 블럭",
+		"description": "2020년 만우절의 편집기 고양이 모자 블록을 되돌립니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "복제본 계수기",
+		"description": "편집기에 총 복제본 양을 표시하는 계수기를 추가합니다.",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "클라우드 게임",
+		"description": "스크래치 애드온 아이콘을 클릭할 때 사용할 수 있습니다. 클라우드 게임에 현재 얼마나 많은 스크래쳐가 있는지와 해당 사용자 이름을 표시합니다.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "HEX 색상 선택기",
+		"description": "색상 선택기에 HEX 코드 입력을 추가합니다.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "댓글 줄바꿈 보이기",
+		"description": "댓글 줄바꿈(엔터 키 누르기)을 표시합니다.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "활동 확인하기",
+		"description": "스크래치 계정에서 프로젝트 공유와 같은 작업을 수행할 때 한 번 더 묻습니다.",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "댓글 버튼에 복사 링크 추가",
+		"description": "모든 스크래치 댓글에서 \"신고하기\" 버튼 옆에 \"링크 복사\" 버튼을 추가합니다.",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "큐레이터 링크",
+		"description": "첫 페이지의 큐레이터에 대한 클릭 가능한 링크를 만듭니다.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "블럭 모양 사용자 지정",
+		"description": "Scratch 블록의 높이, 모서리 곡률 및  홈 높이를 조정합니다.",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "사용자 지정 스크립트 영역 확대/축소 설정",
+		"description": "프로젝트 코드 편집기에서 줌의 최소, 최대, 속도 및 시작 크기를 조정하고 컨트롤을 자동으로 숨깁니다",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "프로필에서 떡꼬치(Dango)비 (만우절)",
+		"description": "'내 소개'에 'Dango'라는 단어가 포함된 사용자는 프로필 측면에 떡꼬치가 비처럼 내립니다.",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "웹사이드 어두운 모드",
+		"description": "어두운 테마는 2.0과 3.0페이지 둘 모두에서 작동합니다. 개발자별 여러 설정을 사용할 수 있습니다.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "데이터 카테고리 개선",
+		"description": "편집기에서 데이터(\"변수\") 카테고리를 개선합니다.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "자동 저장 끄기",
+		"description": "편집하는 중에 프로젝트의 자동 저장을 사용하지 않습니다.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "토론 버튼",
+		"description": "내비게이션 바에 토론 버튼을 추가합니다.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "파일 드래그 앤 드롭",
+		"description": "파일 탐색기에서 이미지, 소리를 스프라이트 창이나 의상/사운드 목록으로 끌어다 놓을 수 있습니다. 또한 텍스트 파일을 목록으로 끌어다 놓거나 \"묻고 기다리기\" 프롬프트를 표시할 수 있습니다.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "컨텍스트 메뉴 색상",
+		"description": "블록을 마우스 오른쪽 단추로 클릭할 때 편집기 컨텍스트 메뉴를 컬러로 만듭니다.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "편집기 어두운 모드와 컬러 사용자 지정",
+		"description": "프로젝트 편집기에서 사용하는 색상을 사용자 정의합니다. 개발자가 작성한 여러 개의 어두운 테마를 사용할 수 있습니다. 어두운 모드는 필요 없지만 기본 색상을 변경하려면 \"스크래치의 기본 색상\" 사전 설정을 선택하고 조정할 수 있습니다.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "개발자 도구",
+		"description": "편집기에 찾기 상자 및 새 메뉴 옵션, 블록 복사/붙여넣기, 더 좋은 정리, 사용자 지정 블록 정의로 이동과 그 이상을 지원합니다!",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "편집기 내 메시지",
+		"description": "편집기에서 메시지 개수를 보여줍니다.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "검색 가능한 드롭다운",
+		"description": "스크래치 에디터의 드롭다운에 검색을 허용합니다.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "편집기 음향 효과",
+		"description": "블록을 연결하거나 삭제할 때 음향 효과를 재생합니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "무대 왼쪽에서 보이기",
+		"description": "무대를 편집기의 왼쪽으로 옮깁니다.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "실행중인 블럭 정확히 강조하기",
+		"description": "프로젝트에서 현재 실행 중인 블록에 파란색 테두리를 추가합니다.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "블럭 색 커스텀",
+		"description": "편집기의 각 카테고리에 대한 블록 색상을 편집합니다.",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "정밀한 셈 표시",
+		"description": "사용자 및 스튜디오 정보의 정확한 셈이 나와 있습니다. 토론방 정보는 ScratchDB를 사용합니다.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "비공유된 프로젝트 특집 프로젝트 설정 허용",
+		"description": "프로필에서 \"특집 프로젝트 바꾸기\"를 클릭한 후 공유되지 않은 프로젝트를 선택할 수 있습니다.",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "고장난 SVG 업로드 수정하기",
+		"description": "Affinity Designer와 같은 일부 이미지 편집기로 생성된 SVG 파일을 제대로 업로드하지 못하는 버그를 스크래치 편집기에서 수정합니다.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "스프라이트 폴더",
+		"description": "스프라이트 목록뿐만 아니라 의상 및 사운드 목록에도 폴더를 추가합니다. 폴더를 만들려면 스프라이트를 마우스 오른쪽 단추로 클릭하고 \"폴더 생성\"을 클릭합니다. 폴더를 클릭하여 열거나 닫습니다. 스프라이트를 마우스 오른쪽 단추로 클릭하여 이동할 수 있는 폴더를 확인하거나 열려 있는 폴더에 끌어다 놓습니다.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "사용자 지정 인용 & 토론방 코드 블럭",
+		"description": "토론방에서 더 좋은 코드와 인용블럭을 보입니디.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "토론방 찾기",
+		"description": "토론방 홈페이지에 게시글 검색을 추가합니다. 정보는 ScratchDB를 사용합니다.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "토론방 지역 시간 사용",
+		"description": "게시물 날짜를 당신의 표준시를 이용합니다. ScratchDB의 정보를 사용합니다.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "전체 구역 보기",
+		"description": "토론방의 사용자 서명 및 프로필에서 수행한 작업과 같이 제한된 높이 크기를 조정하거나 스크롤할 수 있는 요소를 만듭니다.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "게임패드 지원",
+		"description": "USB 또는 Bluetooth 컨트롤러/게임 패드를 사용하여 프로젝트와 상호작용합니다.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "블럭 팔레트 자동으로 숨기기",
+		"description": "사용되지 않은 경우 블록 팔레트를 숨깁니다. 잠금 아이콘을 클릭하여 일시적으로 제자리에 잠그거나 또는 \"카테고리 클릭\" 모드를 사용하세요.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "토론방 사진 업로더",
+		"description": "이미지 올리기를 토론방에 내장합니다.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "무한 스크롤링",
+		"description": "사이트의 여러 부분에서 \"Load more\"버튼을 클릭할 필요 없이 스크롤할 수 있습니다.",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "새 스프라이트 기본 위치 변경",
+		"description": "스프라이트를 생성할 때 지정된 x/y 위치로 이동합니다.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "공유/편집 날짜 설명 툴팁",
+		"description": "프로젝트의 공유 날짜 위에 마우스를 올려 놓으면 프로젝트의 공유 날짜와 마지막으로 편집된 시간에 대한 정보가 표시됩니다.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "실시간 특집 프로젝트",
+		"description": "사용자의 프로필 페이지에서 직접 제공된 프로젝트의 대화형 임베드를 표시합니다. Mega의 스크래치 사용자 스크립트에 구현된 내용을 기반으로 합니다.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "편집기 확장 기능 자동 보이기",
+		"description": "음악, 펜 및 기타 편집기 확장 기능을 블록 카테고리 목록에 자동으로 추가합니다.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "\"내가 하고 있는 일\"의 글자수 제한 높이기",
+		"description": "프로필의 \"내가 하고 있는 일\"에 55자를 더 입력할 수 있습니다. 스크래치에 있는 모든 사람이 추가 문자를 볼 수 있습니다.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "더 나은 토론방 편집기 게시 버튼",
+		"description": "토론방 게시 편집기 UI 아이콘을 작은 16x16 비트맵에서 SVG 자료 아이콘으로 변경합니다.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "프로젝트 영상 녹화하기",
+		"description": "프로젝트의 무대를 기록할 수 있는 \"녹화 시작\" 버튼을 편집기에 추가합니다.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "더 많은 링크",
+		"description": "scratch.mit.edu 외부의 URL도 링크됩니다.",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "마우스 위치",
+		"description": "편집기 안의 깃발 옆에 당신의 마우스 위치를 표시합니다.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "스튜디오 아이콘에서 메시지 개수 표기하기",
+		"description": "스크래치 애드온 아이콘에 받은 메시지 수를 추가합니다.",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "프로젝트 플레이어 음소거",
+		"description": "녹색 깃발을 Ctrl+클릭하여 프로젝트를 음소거/음소거 해제합니다.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "ocular.jeffalo.net 상태와 게시글 반응 보이기",
+		"description": "ocular 상태 및 반응을 표시합니다. jeffalo.net을 사용하여 데이터를 가져옵니다.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "어니언 스킨",
+		"description": "모양을 편집할 때 이전 모양 또는 다음 모양의 투명한 오버레이를 표시합니다. 확대/축소 버튼에 의해 편집기 아래의 버튼으로 제어됩니다.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "일시정지 버튼",
+		"description": "초록 깃발 옆에 일시 정지 버튼을 추가합니다.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "프로젝트 진행 표시줄",
+		"description": "프로젝트를 불러오거나 저장할 때 진행 표시줄을 추가합니다.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "스프라이트와 스크립트 세기",
+		"description": "프로젝트가 가진 스프라이트와 스크립트 수를 보입니다.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "프로젝트 노트 탭",
+		"description": "프로젝트 페이지에 \"사용 방법\" 부분과 \"참고사항 및 참여자\" 부분에 탭을 만듭니다.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "리믹스 트리 버튼을 프로젝트 페이지에 추가합니다.",
+		"description": "프로젝트 페이지에 리믹스 트리를 되돌려 놓습니다.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "무대 테두리 곡선 제거",
+		"description": "모서리를 볼 수 있도록 무대 주위의 곡선 테두리를 제거합니다.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "스프라이트 제거 허락",
+		"description": "스프라이트를 지울 때 한 번 더 묻습니다.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "크기 조절 가능한 댓글 입력창",
+		"description": "스크래치 3.0 스타일 페이지에서 댓글 입력 상자의 크기를 상하로 조정합니다.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "스크래치 메시지",
+		"description": "스크래치 애드온 아이콘을 클릭할 때 사용할 수 있습니다. 스크래치 메시지를 쉽게 읽고 답장할 수 있습니다. 메시지를 프로젝트별로 그룹화하고, 전체 댓글 텍스트와 컨텍스트를 표시하며, 직접 메시지를 답장할 수 있습니다.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "스크래치 알리미",
+		"description": "새 스크래치 메시지에 알리미입니다. 알림을 클릭하여 메시지(댓글, 프로젝트 등)로 바로 이동합니다.",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "스크래치 2.0 → 3.0",
+		"description": "스크래치 2.0 형식의 페이지를 스크래치 3.0처럼 보이게 합니다.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "프로필 통계",
+		"description": "프로필 페이지에 ScratchDB의 통계를 표시합니다.",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "프로필 찾기",
+		"description": "사용자 이름을 검색할 때 사용자의 프로필로 이동할 수 있습니다.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "세미콜론 버그",
+		"description": "세미콜론 버그를 스크래치에 되돌립니다\n;",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "BBCode 보기",
+		"description": "토론방에 게시물의 BBCode 소스를 보여주는 단추를 추가합니다.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "스튜디오 관리자 도구",
+		"description": "\"큐레이터\" 탭을 통해 스튜디오에서 나갈 뿐만 아니라 스튜디오에서 다른 사용자를 쉽게 승급 또는 추방할 수 있습니다.",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "토론방 실제 YouTube 링크",
+		"description": "임베드 사이트에 대한 링크를 실제 YouTube 링크로 바꿉니다.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "변수 관리자",
+		"description": "변수 및 리스트를 쉽게 업데이트할 수 있도록 편집기의 \"소리\"탭 옆에 탭을 추가합니다.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "YouTube 전체 화면",
+		"description": "스크래치의 YouTube 영상 재생기의 전체 화면을 허용합니다.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]

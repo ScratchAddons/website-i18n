@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "Paletă de culoare 2D",
+		"description": "Replaces saturation and brightness sliders with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "Modul Alt+SteagulVerde 60 Cadre Pe Secundă",
+		"description": "Alt+Apasă pe steag pentru a comuta modul 60FPS (Cadre Pe Secundă).",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "Repară scrierea cu majuscule a Setărilor Contului",
+		"description": "Înlocuiește „Setările contului” în meniul contului cu „Setările Contului”.",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "Poze ale proiectelor personalizate",
+		"description": "Adaugă un buton la editor pentru a seta poza proiectului la orice imagine (incluzând gif-uri).",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "Emojiuri mai bune",
+		"description": "Înlocuiește emojiurile pisică din comentariile Scratch cu imagini vectoriale improvizate.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "Banner al paginii de profil",
+		"description": "Transformă proiectul recomandat de pe pagina de profil a oricărui Scratcher într-un banner atrăgător.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "Generator de citate mai bun pe forumuri",
+		"description": "Selectează text într-o postare de pe forumuri și apasă pe „quote” în colțul din stânga jos pentru a cita doar textul selectat.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "Copiere imagini bitmap",
+		"description": "Vă permite să realmente copiați o imagine bitmap din editorul de costume, așa că o puteți insera în alte site-uri sau programe.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "Pictograme ale categoriilor din paleta de blocuri",
+		"description": "Adds icons inside the colored circles that identify block categories.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "Schimbarea blocurilor",
+		"description": "Dați click-dreapta pe un bloc pentru a-l schimba într-unul cu un conținut asemânător.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "Salvează blocurile ca imagine",
+		"description": "Dă clic dreapta pe zona scripturilor din editor pentru a exporta blocurile ca imagini.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "Blocuri Pisică",
+		"description": "Aduce înapoi în editor blocurile pălărie pisică din Ziua Farselor din 2020.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "Contor de clone",
+		"description": "Adaugă un contor în editor care arată întreaga cantitate de clone.",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "Jocuri Cloud",
+		"description": "Disponibil când dați click pe pictograma Extensii Scratch. Vă arată cât de mulți Scratcheri joacă în acest moment jocuri multiplayer, și numele lor de utilizator.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "Selector de culoare hex",
+		"description": "Adaugă introducerea de culori hex în selectoarele de culoare.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "Terminarea liniilor în comentarii",
+		"description": "Arată despărțitoarele de linii (apăsarea enter) în comentarii.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "Confirmă acțiunile",
+		"description": "Te întreabă dacă ești sigur când vrei să faci anumite lucruri în contul tău Scratch, ca partajarea proiectelor.",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "Buton Copiază Linkul la comentariu",
+		"description": "Adaugă un buton „Copiază Link-ul” la toate comentariile Scratch, lângă butonul „Raportează”.",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "Link pentru curator",
+		"description": "Creează un link pe care se poate apăsa pentru profilul curatorului paginii principale.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "Formă personalizată a blocurilor",
+		"description": "Adjust the padding, corner radius, and notch height of Scratch blocks.",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "Setări personalizate pentru zoom",
+		"description": "Ajustează minimul, maximul, viteza și valoarea de început a zoom-ului din editor.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "Dango rain on profiles (April Fools Day)",
+		"description": "Users that include the word \"dango\" on their \"About Me\" will have dango emojis raining on the sides of their profile.",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "Mod întunecat pe site",
+		"description": "Temă întunecată pentru site-ul web Scratch, și pentru paginile 2.0, și pentru paginile 3.0. Opțiuni multiple de autori diferiți sunt valabile.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "Îmbunătățiri pentru categoriile de date",
+		"description": "Asigură modificări pentru categoria Date („Variabile”) în editor.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "Dezactivează salvarea automată",
+		"description": "Dezactivează salvarea automată cât timp editați un proiect.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "Buton de forumuri",
+		"description": "Adaugă butonul de forumuri la bara de navigare.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "Trage și dă drumul fișierelor",
+		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "Meniuri de context colorate",
+		"description": "Face meniurile de context colorate când se dă click-dreapta pe un bloc.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "Mod întunecat în editor și culori personalizate",
+		"description": "Personalizează culorile folosite de editorul de proiecte. Mai multe teme întunecate disponibile. Dacă nu ai nevoie de o temă întunecată, poți selecta pre-setarea Culorile implicite ale Scratch și să o personalizezi.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "Instrumente pentru dezvoltatori",
+		"description": "Adaugă o bară de căutare și noi opțiuni pentru meniurile din editor: copiază/inserează blocuri, aranjare a blocurilor mai bună, mergi la definiția blocului personalizat, și multe altele!",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "Mesaje în editor",
+		"description": "Arată numărul mesajelor tale în editor.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "Căutare în listele de opțiuni",
+		"description": "Vă permite să căutați în listele de opțiuni din editorul Scratch.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "Sunete în editor",
+		"description": "Redă efecte de sunet la conectarea și la ștergerea blocurilor.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "Afișează scena pe partea stângă",
+		"description": "Mută scena în partea stângă a editorului.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "Scoate în evidență blocurile care rulează",
+		"description": "Adaugă o margine albastră în jurul blocurilor care rulează într-un proiect.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "Culori personalizate ale blocurilor",
+		"description": "Editează culoarea blocurilor pentru fiecare categorie în editor.",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "Arată numărătoarea exactă",
+		"description": "Arată numărătoarea exactă pentru utilizatori și informațiile studiourilor. Folosește ScratchDB pentru informații.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "Recomandarea proiectelor nepartajate",
+		"description": "Îți permite să recomanzi proiecte nepartajate după ce dați click pe „schimbă proiectul recomandat” pe profilul tău.",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "Repară încărcările SVG stricate",
+		"description": "Repară o eroare în editorul Scratch care eșuează în încărcarea corectă a fișierelor SVG create cu unii editori de imagini, cum ar fi Affinity Designer.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "Dosare de Personaje",
+		"description": "Adaugă dosare listei de personaje, și de asemenea listei de costume și de sunete. Pentru a crea un dosar, clic-dreapta pe orice personaj și apasă pe „creează un dosar”. Apasă pe un dosar pentru a îl deschide sau a îl închide. Clic-dreapta pe un personaj pentru a vedea în ce dosare ai putea să-l muți, sau trage-l și dă-i drumul direct într-un dosar deschis.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "Citate și blocuri de cod personalizate pe forumuri",
+		"description": "Arată cod și citate mai plăcute pe forumuri.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "Căutare în Forumuri",
+		"description": "Adaugă o bară de căutare pentru postări pe pagina principală de forumuri. Folosește ScratchDB pentru informații",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "Afișează fusul orar local pe forumuri",
+		"description": "Înlocuiește data postărilor pe forumuri cu fusul orar local al utilizatorului.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "Arată zonele întregi",
+		"description": "Makes some elements with limited height resizable or scrollable, such as user signatures on the forums and What I've been doing on profiles.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "Suport gamepad",
+		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "Ascunde paleta de blocuri automat",
+		"description": "Ascunde paleta de blocuri dacă nu se ține mouse-ul deasupra ei. Apasă pe pictograma blochează pentru a o ține la locul ei temporar. Altfel, folosește modul „clic pe categorie”.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "Încărcați imagini pe forumuri",
+		"description": "Integrează încărcarea de imagini în forumuri.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "Scroll infinit",
+		"description": "Permite să dați scroll pe diferite părți ale site-ului fără să fiți nevoiți să dați click pe „Încarcă mai mult”.",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "Change new sprite default position",
+		"description": "Moves sprites to a specified x/y position when they are created.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "Shared/edited dates tooltip",
+		"description": "Hover over a project's share date for information on when exactly it was shared and last edited.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "Proiect recomandat live",
+		"description": "Arată o incorporare interactivă a proiectului recomandat, direct din pagina profilului utilizatorului. Bazat pe implementarea din Mega Scratch Userscript.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "Arată extensiile editorului automat",
+		"description": "Adaugă automat la lista categoriilor de blocuri extensiile stilou, muzică, și altele.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "Limită a caracterelor mai mare în secțiunea „La Ce Lucrez”",
+		"description": "Îți permite să scrii cu 55 mai multe caractere în secțiunea „La Ce Lucrez” a profilului tău. Oricine de pe Scratch va vedea caracterele în plus.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "Butoane mai bune pentru editorul de postări de pe forumuri",
+		"description": "Schimbă iconițele editorului de postări de pe forumuri din imagini mici 16x16 în iconițe materiale SVG.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "Înregistrează proiectul ca video",
+		"description": "Adaugă un buton „pornește înregistrarea” care îți permite să înregistrezi scena proiectului în editor.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "Mai multe linkuri",
+		"description": "Adaugă linkuri pentru URL-uri aflate în afara scratch.mit.edu.",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "Poziția cursorului",
+		"description": "Afișează poziția cursorului tău lângă steag în editor.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "Numărătoarea mesajelor pe pictograma extensiei",
+		"description": "Adaugă numărătoarea ta curentă de mesaje pe pictograma Extensii Scratch.",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "Proiecte cu sunetul dezactivat",
+		"description": "Ctrl+Apasă pe steag pentru a activa/dezactiva sunetul proiectului.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "Show ocular.jeffalo.net statuses and post reactions",
+		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "Modul Costume suprapuse - Onion skinning",
+		"description": "Arată suprapuneri transparente pentru costumele anterioare sau următoare când editați un costum. Controlat de butoanele de sub editor, de lângă butoanele pentru zoom.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "Buton de Pauză",
+		"description": "Adaugă un buton de pauză lângă steagul verde.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "Bară de progres pentru proiecte",
+		"description": "Adaugă o bară de progres pentru încărcarea și salvarea proiectelor.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "Contor de personaje și script-uri",
+		"description": "Arată numărul de personaje și de script-uri ale proiectelor.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "Tab-uri cu observațiile proiectelor",
+		"description": "Creează file separate pentru secțiunile „Instrucțiuni” și „Observații și credite” pe pagina unui proiect.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "Buton pentru Copacul Amestecărilor pe paginile proiectelor",
+		"description": "Aduce înapoi butonul pentru copacul amestecărilor pe paginile proiectelor.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "Elimină marginea scenei curbată",
+		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "Confirmă ștergerea personajelor",
+		"description": "Te întreabă dacă ești sigur când ștergi un personaj în interiorul unui proiect.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "Cutii de comentarii redimensionabile",
+		"description": "Face cutiile de introducere a comentariilor redimensionabile pe paginile cu stilul Scratch 3.0.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Mesageria Scratch",
+		"description": "Valabil când se apasă pe pictograma Extensii Scratch. Dispune citirea și răspunderea ușoară a mesajelor tale Scratch: grupează mesajele după proiect, arată conținutul și comentariile întregi, permite răspunderea directă a comentariilor.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Notificator Scratch",
+		"description": "Notificări pentru noi mesaje Scratch. Dați click pe notificare ca să navigați direct către mesajul respectiv (comentariu, proiect, etc.)",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "Face paginile stilizate ca Scratch 2.0 să arate ca Scratch 3.0.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "Statisticile profilului",
+		"description": "Arată statisticile din ScratchDB pe paginile de profil.",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "Caută profiluri",
+		"description": "Îți permite să ajungi la profilul unui utilizator când îi cauți numele de utilizator.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "Eroarea punct și virgulă",
+		"description": "Adaugă eroarea punct și virgulă înapoi în Scratch.",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "Arată formatarea BBCode",
+		"description": "Adaugă un buton care arată sursa formatării BBCode a unei postări de pe forumuri.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "Instrumentele managerului unui studio",
+		"description": "Îți permite să promovezi sau elimini pe oricine din studiourile tale ușor, de asemenea să părăsești orice studio, prin fila „curatori”.",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "Linkuri YouTube adevărate pe forumuri",
+		"description": "Înlocuiește linkurile către site-ul încorporat cu linkuri YouTube reale.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "Administrator de Variabile",
+		"description": "Adaugă o filă lângă „sunete” în editor pentru pentru a actualiza ușor variabile și liste.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "Ecran complet YouTube",
+		"description": "Activează butonul pentru ecran complet în player-ul de videoclipuri YouTube din Scratch.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]

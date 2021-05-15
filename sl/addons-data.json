@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "2D izbira barv",
+		"description": "Zamenja drsnika za svetlost in nasičenost barv z 2D drsnikom. Držite tipko Shift med vlečenjem, da spremenite vrednost samo ene osi.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "Alt + zelena zastavica za 60FPS način v predvajalniku",
+		"description": "Alt+kliknite zeleno zastavico, da preklopite 60FPS.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "Popravi veliko začetnico v \"Account Settings\"",
+		"description": "Če je Scratch v angleščini, spremeni \"Account settings\" v meniju računa v \"Account Settings\".",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "Nastavi sličico",
+		"description": "V urejevalnik doda gumb, ki nastavi sličico vašega projekta na poljubno sliko (ali gif).",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "Boljši emoji",
+		"description": "Zamenja emoji z mačkom v komentarjih z izboljšanimi v vektorski obliki.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "Naslovna slika na profilih",
+		"description": "Spremeni izpostavljen projekt na profilu katerega koli uporabnika v naslovno sliko.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "Boljši navedki v forumih",
+		"description": "Izberite besedilo v forumih in kliknite \"Quote\" v spodnjem desnem kotu objave, da navedete samo izbrano besedilo.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "Kopiranje bitnih slik",
+		"description": "Omogoči, da dejansko kopirate bitno sliko iz urejevalnika videzov in jo prilepite v druge spletne strani ali programe.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "Ikone kategorij blokov",
+		"description": "V barvne kroge, ki označujejo kategorije blokov, doda ikone.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "Menjava blokov",
+		"description": "Kliknite na blok z desno miškino tipko, da ga zamenjate s podobnim blokom.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "Shrani bloke kot sliko",
+		"description": "Kliknite delovni prostor v urejevalniku z desno miškino tipko, da izvozite bloke kot sliko SVG/PNG.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "Mačji bloki",
+		"description": "Vrne mačje bloke iz 1. aprila 2020 v urejevalnik.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "Števec dvojnikov",
+		"description": "V urejevalnik doda števec, ki prikaže skupno število dvojnikov figur.",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "Igre v oblaku",
+		"description": "Na voljo, ko kliknete ikono Scratch Addons. Pokaže, koliko Scratcherjev je trenutno na projektih za več igralcev in njihova uporabniška imena.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "Šestnajstiške barve",
+		"description": "Doda polje za vnos šestnajstiške kode, ko izbirate barvo.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "Prelomi vrstic v komentarjih",
+		"description": "Pokaže prelome vrstic (tipka \"enter\") v komentarjih.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "Potrdi dejanja",
+		"description": "Vpraša, če ste prepričani, ko počnete stvari z vašim Scratch računom, kot je deljenje projektov.",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "Gumb za kopiranje povezave do komentarja",
+		"description": "Vsem komentarjem na Scratchu doda gumb \"Kopiraj povezavo\", poleg gumba \"Prijavi\".",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "Povezava do kustosa",
+		"description": "Ustvari delujočo povezavo za kustosa na naslovni strani.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "Prilagojena oblika blokov",
+		"description": "Spremenite velikost, zaobljenost robov in velikost zareze blokov.",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "Prilagojene nastavitve povečave skript",
+		"description": "Prilagodite najmanjšo in največjo povečavo ter hitrost in začetno vrednost povečave v urejevalniku kode. Lahko tudi samodejno skrije gumbe za povečavo.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "Dež dangov na profilih (prvi april)",
+		"description": "Pokaže dež dangov ob straneh profilov uporabnikov, ki imajo v svojem polju \"O meni\" besedo \"dango\".",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "Temni način za spletno stran",
+		"description": "Temni videz za vso Scratchevo spletno stran. Na voljo je več možnosti različnih avtorjev.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "Izboljšana kategorija spremenljivk",
+		"description": "Izboljša kategorijo podatkov (Spremenljivke) v urejevalniku.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "Onemogoči samodejno shranjevanje",
+		"description": "Onemogoči samodejno shranjevanje projektov med urejanjem.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "Gumb \"Razpravljaj\"",
+		"description": "Doda gumb Razpravljaj v zgornjo vrstico.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "Povleci datoteke v urejevalnik",
+		"description": "Omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko tudi povlečete besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "Barvni meniji",
+		"description": "Naredi menije, ki se odprejo, ko kliknete blok z desno miškino tipko, barvne.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "Temni način in prilagoditev barv v urejevalniku",
+		"description": "Prilagodite barve, uporabljene v urejevalniku projektov. Na voljo je več temnih načinov različnih avtorjev. Če ne potrebujete temnega načina in bi radi spremenili barve, izberite prednastavitev \"Scratcheve barve\" in spremenite ustrezne nastavitve.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "Developer tools",
+		"description": "Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje blokov, boljše čiščenje, skok k definiciji bloka, in drugo.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "Sporočila v urejevalniku",
+		"description": "Pokaže število novih sporočil v urejevalniku.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "Iskanje po spustnih menijih",
+		"description": "Omogoči iskanje po spustnih menijih v Scratchevem urejevalniku.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "Zvočni učinki v urejevalniku",
+		"description": "Doda zvočne učnike, ko povežete ali izbrišete bloke.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "Pokaži oder na levi strani",
+		"description": "Premakne oder na levo stran urejevalnika.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "Označi trenutno izvajajoče se bloke",
+		"description": "Doda moder okvir blokom, ki se v projektu trenutno izvajajo.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "Prilagojene barve blokov",
+		"description": "Uredite barve blokov za vse kategorije v urejevalniku.",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "Pokaži točna števila",
+		"description": "Pokaže točna števila v podatkih o uporabnikih in studiih. Za podatke o forumih uporablja ScratchDB.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "Izpostavi nedeljene projekte",
+		"description": "Omogoči, da izberete nedeljene projekte, ko kliknete \"spremeni izpostavljene projekte\" na vašem profilu.",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "Popravi nalaganje SVG-jev",
+		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da se datoteke SVG, ustvarjene z nekaterimi urejevalniki, kot je Affinity Designer, ne naložijo pravilno.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "Mape figur",
+		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško premaknite v odprto mapo.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "Prilagojeni navedki in koda v forumih",
+		"description": "Pokaže lepšo kodo in navedke v forumih.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "Iskanje po forumih",
+		"description": "Doda iskanje objav v forume. Za podatke uporablja ScratchDB.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "Uporabi krajevni časovni pas v forumih",
+		"description": "Spremeni datume objav v vaš časovni pas. Za podatke uporablja ScratchDB.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "Pokaži cela območja",
+		"description": "Omogoči spreminjanje velikosti ali drsenje po nekaterih elementih z omejeno višino, kot so podpisi uporabnikov na forumih in Kaj sem počel na profilih.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "Podpora igralnih ploščkov",
+		"description": "Uporabljajte USB ali Bluetooth igralni plošček v projektih.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "Samodejno skrij paleto blokov",
+		"description": "Skrije paleto blokov, če miška ni na njej. Kliknite ikono ključavnice, da jo začasno zaklenete. Lahko pa uporabite tudi način \"Ko kliknem kategorijo\".",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "Nalaganje slik v forumih",
+		"description": "Doda enostavno nalaganje slik v forume.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "Neskončno drsenje",
+		"description": "Omogoča drsenje navzdol, ne da bi kliknili \"naloži več\".",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "Spremeni začetni položaj novih figur",
+		"description": "Premakne na novo ustvarjene figure na določen x/y položaj.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "Datum deljenja/zadnje spremembe",
+		"description": "Premaknite miško na datum, ko je bil projekt deljen, da vidite, kdaj točno je bil deljen in kdaj nazadnje urejen.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "Interaktivni izpostavljeni projekti",
+		"description": "Pokaže interaktiven izpostavljen projekt neposredno na profilu uporabnika. Narejeno na podlagi funkcije v Mega Scratch Userscript.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "Samodejno pokaži razširitve v urejevalniku",
+		"description": "Samodejno doda bloke za glasbo, svinčnik, in druge razširitve urejevalnika na seznam kategorij blokov.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "Večja omejitev števila znakov v polju \"S čim se ukvarjam\"",
+		"description": "Omogoči, da v polje \"S čim se ukvarjam\" vnesete 55 več znakov. Vsi uporabniki Scratcha bodo videli dodatne znake.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "Boljši gumbi v urejevalniku objav v forumih",
+		"description": "Spremeni majhne ikone velikosti 16x16 slikovnih pik v urejevalniku objav v forumih v ikone v formatu SVG.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "Posnemi video projekta",
+		"description": "V urejevalnik doda gumb \"začni snemanje\", ki omogoča snemanje odra.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "Več povezav",
+		"description": "Doda povezave za URL-je zunaj scratch.mit.edu.",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "Položaj miške",
+		"description": "Prikaže položaj miške zraven zelene zastavice v urejevalniku.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "Število sporočil na ikoni razširitve",
+		"description": "Ikoni Scratch Addons doda trenutno število sporočil.",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "Utišaj predvajalnik projekta",
+		"description": "Ctrl+kliknite zeleno zastavico, da vključite ali izključite zvok v projektu.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "Pokaži statuse in odzive na objave s strani ocular.jeffalo.net",
+		"description": "Pokaže statuse in odzive s strani ocular. Podatki so z jeffalo.net.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "Onion skinning",
+		"description": "Pokaže prosojne slike prejšnjih ali naslednjih videzov v urejevalniku videzov. Za upravljanje uporabite gumbe pod urejevalnikom poleg gumbov za povečavo.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "Gumb za premor",
+		"description": "Doda gumb za premor poleg zelene zastavice.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "Vrstica napredka pri nalaganju projektov",
+		"description": "Doda vrstico napredka med nalaganjem in shranjevanjem projektov.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "Število figur in skript",
+		"description": "Pokaže število figur in skript v projektu.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "Zavihki v opombah projekta",
+		"description": "Na strani s projektom ustvari zavihka za \"Navodila\" ter \"Opombe in zasluge\".",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "Gumb za drevo predelav projekta",
+		"description": "Vrne gumb za drevo predelav na strani projektov.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "Odstrani zaobljen okvir odra",
+		"description": "Odstrani zaobljen okvir odra in s tem naredi robove vidne.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "Potrdi brisanje figure",
+		"description": "Vpraša, če ste prepričani, preden izbrišete figuro v projektu.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "Spremenljiva velikost polja za komentar",
+		"description": "Omogoči spreminjanje višine polja za komentar na straneh, ki izgledajo kot Scratch 3.0.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Scratch sporočila",
+		"description": "Na voljo, ko kliknete ikono Scratch Addons. Omogoča enostavno branje in odgovarjanje na vaša sporočila na Scratchu: združi sporočila po projektih, pokaže celotno besedilo komentarjev, omogoča, da na komentarje takoj odgovorite.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Scratch sporočila",
+		"description": "Obvestila o novih sporočilih na Scratchu. Kliknite obvestilo, da si ogledate sporočilo (komentar, projekt itd.)",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "Naredi, da strani, oblikovane kot Scratch 2.0, izgledajo kot Scratch 3.0.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "Statistika o uporabnikih",
+		"description": "Pokaže statistične podatke iz ScratchDB na profilih uporabnikov.",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "Išči profile",
+		"description": "Omogoči, da obiščete uporabnikov profil, ko v polje za iskanje vnesete njegovo ime.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "Podpičje",
+		"description": "Znova doda podpičje na dnu strani, ki ga je povzročila napaka v kodi.",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "Pokaži BBCode",
+		"description": "V forume doda gumb, ki pokaže kodo BBCode objave.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "Orodja za upravitelje studiov",
+		"description": "Omogoča, da enostavno kogarkoli naredite upravitelja, ga odstranite iz vaših studiov ali zapustite poljuben studio na zavihku \"kustosi\".",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "Prave povezave na YouTube v forumih",
+		"description": "Zamenja povezave na Scratchev prevajalnik s pravimi povezavami na YouTube.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "Upravitelj spremenljivk",
+		"description": "Doda zavihek za enostavno urejanje spremenljivk in seznamov v urejevalnik, poleg zavihka \"zvoki\".",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "Celoten zaslon v YouTube videih",
+		"description": "Omogoči gumb za celoten zaslon v Scratchevem predvajalniku YouTube videov.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]

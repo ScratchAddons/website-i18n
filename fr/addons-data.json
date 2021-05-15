@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "Sélecteur de couleurs 2D",
+		"description": "Remplace les curseurs de saturation et de luminosité par un sélecteur de couleurs 2D. Maintenez Shit enfoncé tout en déplaçant le curseur pour changer les valeurs sur un seul axe.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "Alt+DrapeauVert lecteur en mode 60FPS",
+		"description": "Alt+Clic sur le drapeau vert pour activer le mode 60FPS.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "Corriger les majuscules dans Paramètres du Compte",
+		"description": "Change \"Paramètres du compte\" dans le menu du compte à \"Paramètres du Compte\".",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "Régleur de miniature",
+		"description": "Ajoute un boutton à l'éditeur pour permettre de changer la miniature du projet avec n'importe quelle image (y compris les gifs).",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "Meilleurs emojis",
+		"description": "Remplace les émojis chat dans les commentaires Scratch par des versions améliorées en vectoriel.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "Bannière de page de profil",
+		"description": "Fais en sorte que le projet mis à l'affiche de n'importe quel utilisateur soit affiché en une belle bannière.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "Meilleures citations sur le forum",
+		"description": "Sélectionnez du texte dans un post de forum et cliquez sur le bouton \"citation\" dans le coin en bas à droite pour citer uniquement le texte sélectionné.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "Copiage des images bitmap",
+		"description": "Vous permet de copier une image bitmap de l'éditeur d'images, pour pouvoir la coller ensuite dans d'autres sites ou logiciels.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "Icones de catégories de blocs de la palette",
+		"description": "Ajoute des icônes dans les cercles qui identifient les catégories de blocs",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "Echangement de bloc",
+		"description": "Faites un clic droit sur un bloc pour le remplacer par un autre bloc associé.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "Save blocks as image",
+		"description": "Right click the editor workspace to export blocks as SVG/PNG images.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "Blocs chat",
+		"description": "Ramène les blocs de tête en chat venant du Poisson d'Avril 2020.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "Compteur de clones",
+		"description": "Ajoute un compteur dans l'éditeur pour voir le compte total de clones.",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "Jeux en ligne",
+		"description": "Disponible lorsque l'icone Scratch Addons est cliqué. Vous montre combien d'utilisateurs sont actuellement en train de jouer sur des projets mulitjoueurs, et donne leurs pseudonymes.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "Palette de couleurs hexa",
+		"description": "Ajoute une entrée pour code hexa aux palettes de couleurs.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "Saut de lignes dans les commentaires",
+		"description": "Affiche les sauts de ligne (en appuyant sur entrée) dans les commentaires.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "Confirmation des actions",
+		"description": "Vous demande si vous voulez vraiment effectuer des actions avec votre compte Scratch, comme par exemple celle de partager un projet.",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "Bouton copier le lien d'un commentaire",
+		"description": "Ajoute un bouton \"Copier le Lien\" sur tous les commentaires Scratch, à côté du bouton \"Signaler\".",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "Lien pour les curateurs",
+		"description": "Créé un lien cliquable pour le curateur de la page d'accueil",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "Forme de blocs personnalisée",
+		"description": "Ajuster le remplissage du bloc, la taille des coins et la hauteur de l'entaille des blocs Scratch.",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "Custom scripts area zoom settings",
+		"description": "Adjust the minimum, maximum, speed, and start size of the zoom in the project code editor, and autohide the controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "Pluie de dango sur les profils (Poisson d'avril)",
+		"description": "Les utilisateurs ayant ajouté le mot \"dango\" dans leur \"A Propos De Moi\" auront une pluie d'émojis de dango sur les côtés de leur profil. ",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "Site web en mode sombre",
+		"description": "Mode sombre pour le site web de Scratch, autant sur les pages en mode 2.0 que 3.0. De multiples options par différent auteurs sont disponibles.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "Améliorations de la catégorie des blocs de données",
+		"description": "Apporte des améliorations pour la catégorie des blocs de données (\"Variables\") dans l'éditeur.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "Désactiver la sauvegarde automatique",
+		"description": "Désactive la sauvegarde automatique du projet durant sa modification.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "Bouton de discussion",
+		"description": "Ajoute le bouton discussion  à la barre de navigation",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "Glisser et déposer des fichiers",
+		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "Menus déroulants colorés",
+		"description": "Fait en sorte que les menus déroulants de l'éditeur soient colorés lorsque vous faites un clic droit sur un bloc.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "Éditeur en mode sombre et couleurs personnalisables",
+		"description": "Personnaliser les couleurs utilisées dans l'éditeur de projets. Plusieurs thèmes sombres créés par différents auteurs sont disponibles. Si vous ne voulez pas utiliser le mode sombre mais que vous voulez changer les couleurs utilisées par défaut, vous pouvez sélectionner le préréglage \" Couleurs par défaut de Scratch \" et le modifier.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "Outils pour Développeurs",
+		"description": "Ajoute une une barre de recherche et de nouvelles options de menus à l'éditeur : copier/coller des blocs, un meilleur nettoyage, aller à la définition d'un bloc personnalisé, et plus !",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "Messages dans l'éditeur",
+		"description": "Affiche votre nombre de messages dans l'éditeur",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "Menus déroulants recherchables",
+		"description": "Vous permet de rechercher dans les menus déroulants dans l'éditeur Scratch.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "Effets sonores dans l'éditeur",
+		"description": "Produit un son lorsque vous connectez ou supprimez des blocs.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "Afficher la scène sur le côté gauche",
+		"description": "Déplace la scène sur le côté gauche de l'éditeur.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "Surligner les blocs en cours d'exécution",
+		"description": "Ajoute un contour bleu sur les blocs qui sont actuellement exécutés dans un projet.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "Couleur des blocs personnalisable",
+		"description": "Personnalisez la couleur des blocs pour chaque catégorie dans l'éditeur.",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "Montre le nombre exact",
+		"description": "Montre le compte exact pour les informations d'utilisateurs et de studios. Utilise ScratchDB pour les informations concernant les forums.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "Projet non partagé à l'affiche",
+		"description": "Vous permet de choisir un projet non partagé au moment de changer le projet à l'affiche sur votre page de profil.",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "Règler les exportations échouées des graphismes au format SVG",
+		"description": "Règle un bug dans l'éditeur Scratch qui n'arrivait pas à exporter des fichiers SVG créés avec certains éditeurs d'images correctement, comme Affinity Designer.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "Dossiers de sprites",
+		"description": "Ajoute des dossiers à la liste des sprites, des costumes et des sons. Pour créer un dossier, faites un clic droit sur n'importe quel sprite et cliquez \"créer un dossier\". Cliquez sur un dossier pour l'ouvrir ou le fermer. Faites un clic droit sur un sprite pour voir dans quels dossiers vous pouvez le déplacer, ou alors glissez le dans un dossier ouvert.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "Citations customisées & blocs de code sur les forums.",
+		"description": "Affiche du code et des citations de manière plus agréable sur les forums.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "Recherche sur les forums",
+		"description": "Ajoute une barre de recherche de posts sur la page d'accueil des forums. Utilise ScratchDB pour obtenir les informations.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "Utiliser le fuseau horaire local dans les forums",
+		"description": "Converts the post dates to your time zone. Uses ScratchDB for information.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "Montrer les zones entièrement",
+		"description": "Fait que certains éléments avec taille limitée soient réajustables ou défilables, comme les signatures d'utilisateurs sur les forumes et Ce Que Je Suis En Train De Faire sur les profils.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "Gamepad support",
+		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "Masquer automatiquement la palette de blocs",
+		"description": "Cache la palette des blocs si elle n'est pas survolée. Cliquez sur l'icône de cadenas pour la maintenir en place temporairement. Sinon, utilisez le mode \"clic sur catégorie\".",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "Chargeur d'images pour forums",
+		"description": "Intègre un moyen de télécharger des images vers les forums.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "Scrolling infini",
+		"description": "Permet un scrolling sur différents endroits du site sans avoir à cliquer sur \"montrer plus\".",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "Changer la nouvelle position par défaut des sprites",
+		"description": "Déplace les sprites à une position x/y spécifié lorsque qu'ils sont créés",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "Shared/edited dates tooltip",
+		"description": "Passez la souris sur la date de partage d'un projet pour savoir quand il a été modifié pour la dernière fois.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "Projet à l'affiche en direct",
+		"description": "Affiche une bannière avec le projet a l'affiche de l'utilisateur directement sur son profil. Basé sur l'implémentation de Mega Scratch Userscript.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "Afficher les extensions de l'éditeur automatiquement",
+		"description": "Ajoute l'extension de musique, stylo, et autres extensions de l'éditeur automatiquement dans la liste des catégories de blocs.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "Plus grande limite de caractères dans \"Ce Que Je Suis En Train De Faire\"",
+		"description": "Vous permet de taper 55 caractères en plus dans \"Ce Que Je Suis En Train De Faire\" sur votre profil. N'importe qui sur Scratch verra les caractères en plus.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "Better forums post editor buttons",
+		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "Enregistrer en vidéo un projet",
+		"description": "Ajoute un bouton \"démarrer l'enregistrement\" à l'éditeur qui vous permet d'enregistrer la scène du projet.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "Plus de liens",
+		"description": "Affiche des liens pour les URLs provenant d'ailleurs que scratch.mit.edu.",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "Position de la souris",
+		"description": "Affiche la position de la souris a côté du drapeau vert dans l'éditeur.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "Nombre de messages sur l'icône de l'extension",
+		"description": "Affiche le nombre de messages non lus sur l'icône de Scratch Addons",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "Rendre le lecteur de projet muet",
+		"description": "Ctrl+Clic sur le drapeau vert pour couper/rétablir le son du projet.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "Montrer les statuts ocular.jeffalo.net et les réactions aux posts",
+		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "Pelure d'oignon",
+		"description": "Affiche des couches transparentes des costumes suivants et précédents lors de l'édition d'un costume. Contrôlés par des boutons en dessous de l'éditeur, à côté des boutons de zoom.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "Bouton pause",
+		"description": "Ajoute un bouton pause a côté du drapeau vert.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "Barre de chargement du projet",
+		"description": "Ajoute une barre de chargement lors du chargement et la sauvegarde des projets.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "Nombre de sprites et de scripts",
+		"description": "Affiche le nombre de sprites et de scripts que contient un projet.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "Onglet notes du projet",
+		"description": "Crée des onglets sur les pages de projets pour les sections \"Instructions\" et \"Notes et Crédits\" du projet.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "Bouton de l'arbre des remix sur la page des projets",
+		"description": "Ramène le bouton de l'arbre des remix sur les projets.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "Enlever la bordure de la scène courbée",
+		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "Confirmer la suppression du sprite",
+		"description": "Vous demande si vous êtes sûrs de supprimer un sprite dans un projet.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "Zone d'écriture des commentaires redimensionnable",
+		"description": "Fait en sorte que la zone d'écriture de commentaire puisse être redimensionnable dans les pages en style Scratch 3.0.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Messagerie Scratch",
+		"description": "Disponible lorsque vous cliquez sur l’icone de Scratch Addons. Permet une lecture et un moyen pour répondre simple pour vos messages Scratch : groupés par projets, montre les commentaires entiers avec leur contexte, donne un moyen de répondre direct.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Notificateur Scratch",
+		"description": "Notification lors de nouveaux messages Scratch. Cliquez sur la notification pour aller directement sur le message (commentaire, projet, etc.)",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "Fait en sorte que les pages de Scratch 2.0 ressemblent à celles de Scratch 3.0.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "Statistiques de profil",
+		"description": "Montre les statistiques provenant de ScratchDB sur les pages de profil.",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "Profil sur la page des résultats",
+		"description": "Vous permet d'aller sur le profil d'un utilisateur lorsque vous recherchez son pseudo.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "Bug de demi-colonne",
+		"description": "Ramène le bug de demi-colonne sur Scratch",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "Montrer le BBCode",
+		"description": "Ajoute un bouton sur les forums qui affiche la source BBCode d'un post.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "Outils de gestion de studio",
+		"description": "Vous permet de promouvoir ou retirer facilement n'importe qui de vos studios, ainsi que quitter n'importe quel studio par l'onglet \"curateurs\".",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "Vrais liens Youtube dans les forums",
+		"description": "Remplace les liens vers le site intégré par de vrais liens YouTube.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "Gestionnaire de variables",
+		"description": "Ajoute un nouvel onglet à côté de \"sons\"  dans l'éditeur pour mettre à jour les variables et listes facilement.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "Plein écran pour Youtube",
+		"description": "Affiche le bouton plein écran dans le lecteur Youtube de  Scratch.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]

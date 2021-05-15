@@ -1,0 +1,766 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "2D renk toplayıcı",
+		"description": "Replaces saturation and brightness sliders with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "Alt + Yeşil Bayrak 60FPS oyuncu modu",
+		"description": "60FPS'e geçmek için yeşil bayrağa alt ile tıklayın",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "Hesap Ayarları'nın büyük küçük harflerini düzeltme",
+		"description": "Changes \"Account settings\" in the account menu to \"Account Settings\".",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "Kapak fotoğrafları değiştiricisi",
+		"description": "Düzenleyiciye, projenizin kapak fotoğrafını herhangi bir görüntüye (gifler dahil) ayarlamak için bir düğme ekler.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{
+				"name": "World_Languages",
+				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
+			},
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "better-emojis",
+		"name": "Daha iyi emojiler",
+		"description": "Scratch yorumlarındaki kedi emojilerini iyileştirilmiş vektör tasarımlarıyla değiştirir.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "Profil sayfası bandı",
+		"description": "Herhangi bir kullanıcının profil sayfasındaki öne çıkan projeyi güzel görünen bir banda yerleştirir.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+	},
+	{
+		"id": "better-quoter",
+		"name": "Daha iyi forum alıntısı",
+		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metinden alıntı yapmak için sağ alt köşedeki alıntıya tıklayın.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "Bitmap resimleri kopyalama",
+		"description": "Diğer web sitelerine veya yazılımlara yapıştırabilmeniz için görüntü editöründen bir bitmap görüntüsünü gerçekten kopyalamanıza olanak tanır.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "Blok paleti kategori simgeleri",
+		"description": "Adds icons inside the colored circles that identify block categories.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "Blok Anahtarlama",
+		"description": "İlgili bloğa geçmek için bir bloğa sağ tıklayın.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "blocks2image",
+		"name": "Blokları resim olarak kaydedin",
+		"description": "Right click the editor workspace to export blocks as SVG/PNG images.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "Kedi blokları",
+		"description": "Brings back editor cat hat blocks from April Fools 2020.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "İkiz sayacı",
+		"description": "Düzenleyiciye toplam klon miktarını gösteren bir sayaç ekler.",
+		"tags": ["editor", "projectPlayer"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "Bulut oyunları",
+		"description": "Scratch Addons simgesine tıklandığında kullanılabilir. Şu anda çok oyunculu projelerde kaç Scratcher olduğunu ve kullanıcı adlarını gösterir.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-picker",
+		"name": "Hex rengi toplayıcısı",
+		"description": "Renk seçicilere onaltılık kod girişleri ekler.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "Linebreaks in comments",
+		"description": "Shows the linebreaks (pressing enter) in comments.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "Eylemleri onaylayın",
+		"description": "Scratch hesabınız altında projeleri paylaşmak gibi eylemler gerçekleştirirken emin olup olmadığınızı sorar.",
+		"tags": ["community", "recommended", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "Yoruma bağlantıyı kopyala butonu",
+		"description": "Tüm Scratch yorumlarına \"Şikayet Et\" butonunun yanına bir \"Bağlantıyı Kopyala\" butonu ekler.",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "Yapımcı Bağlantısı",
+		"description": "Ön sayfanın yapımcısı için tıklanabilir bir bağlantı oluşturur.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "Custom block shape",
+		"description": "Adjust the padding, corner radius, and notch height of Scratch blocks.",
+		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "Custom scripts area zoom settings",
+		"description": "Adjust the minimum, maximum, speed, and start size of the zoom in the project code editor, and autohide the controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "dango-rain",
+		"name": "Profillerde Dango yağmuru (1 Nisan Şaka Günü)",
+		"description": "Users that include the word \"dango\" on their \"About Me\" will have dango emojis raining on the sides of their profile.",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "Website karanlık modu",
+		"description": "Scratch 3.0 websitesinin hem 2.0 hem 3.0 sayfaları için karanlık mod. Farklı kullanıcıların oluşturduğu farklı seçenekler mevcuttur. ",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (Experimental Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "Veri kategorisi ince ayarları",
+		"description": "Düzenleyicideki Veri (\"Değişkenler\") kategorisi için ince ayarlar sağlar.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "Otomatik kaydetmeyi devre dışı bırak",
+		"description": "Düzenleme sırasında projelerin otomatik olarak kaydedilmesini devre dışı bırakır.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "Tartışma Butonu",
+		"description": "Tartışma düğmesini gezinme çubuğuna ekler.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+	},
+	{
+		"id": "drag-drop",
+		"name": "Dosyaları sürükleyip bırakın",
+		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "Renkli bağlam menüleri",
+		"description": "Bir bloğa sağ tıklandığında düzenleyici bağlam menülerini renkli hale getirir.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "Editör karanlık modu ve özelleştirilebilir renkler",
+		"description": "Proje düzenleyicide olan renkleri düzenleyin. Birden fazla karanlık mod seçeneği vardır. Eğer karanlık mod istemiyorsanız, önceden belirlenmiş, \"Scratch'in varsayılan renkleri\"'ni düzenleyebilirsiniz.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"link": "https://github.com/mxmou/customize-scratch"
+			},
+			{
+				"name": "infinitytec (3.Dark, 3.Darker)",
+				"link": "https://github.com/infinitytec"
+			},
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "Geliştirici araçları",
+		"description": "Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: Blokları kopyalama/yapıştırma, daha iyi düzenleme, özel blok tanımına gitme ve daha fazlası!",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-messages",
+		"name": "Mesajlar editörü",
+		"description": "Editörde mesaj sayınızı gösterir.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "Aranabilen açılır listeler",
+		"description": "Scratch düzenleyicide açılır menüleri aramanıza izin verir.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "Editör ses efektleri",
+		"description": "Blokları bağladığınızda veya sildiğinizde ses efektleri çalar.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "Sahne ekranın solunda",
+		"description": "Sahneyi editörün sol tarafına taşır.",
+		"tags": ["editor", "theme", "recommended"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "Şu anda çalışan blokları vurgulayın",
+		"description": "Bir projede çalışan bloklara mavi bir kontur ekler.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "Özelleştirilebilen blok renkleri",
+		"description": "Düzenleyicideki her kategori için blok renklerini düzenleyin.",
+		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "exact-count",
+		"name": "Tam sayıyı göster",
+		"description": "Kullanıcı ve stüdyo bilgilerinin tam sayısını gösterir. Forum bilgileri için ScratchDB kullanır.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "Paylaşılmayan projeleri öne çıkar",
+		"description": "Profilinizde \"öne çıkan projeyi değiştir\" seçeneğini tıkladıktan sonra paylaşılmayan projeleri seçmenize olanak sağlar.",
+		"tags": ["community", "profiles", "beta"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "Bozuk SVG yüklemelerini düzeltin",
+		"description": "Scratch düzenleyicide Affinity Designer gibi bazı görüntü düzenleyicilerle oluşturulmuş SVG dosyalarını düzgün şekilde yüklemeyen bir hatayı düzeltir.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "Kukla klasörleri",
+		"description": "Kukla listelerinin yanı sıra kostüm ve ses listelerine de klasörler ekler. Bir klasör oluşturmak için herhangi bir kuklaya sağ tıklayın ve \"klasör oluştur\" a tıklayın. Açmak veya kapatmak için bir klasöre tıklayın. Hangi klasörlere taşıyabileceğinizi görmek için bir kuklaya sağ tıklayın veya alternatif olarak açık bir klasöre sürükleyip bırakın.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "Forumlarda özelleştirilmiş teklifler ve kod blokları",
+		"description": "Forumlarda daha güzel kod ve alıntı blokları gösterir.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH (Port)" },
+			{ "name": "Boomer001 (Userstyle)" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "Forum araması",
+		"description": "Forum ana sayfasına bir gönderi araması ekler. Bilgi için ScratchDB kullanır.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "Forum saat dilimi",
+		"description": "Gönderim saatlerini kullanıcının saat dilimine dönüştürür.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "full-signature",
+		"name": "Tam yerleri göster",
+		"description": "Makes some elements with limited height resizable or scrollable, such as user signatures on the forums and What I've been doing on profiles.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "Oyun kumandası desteği",
+		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "Blok paletini otomatik olarak gizle",
+		"description": "Hides the block palette if not hovered. Click the lock icon to lock it in place temporarily. Alternatively, use \"category click\" mode.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "Forum resim yükleyicisi",
+		"description": "Forumlara resim yüklemeyi ekler.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "Sonsuz kaydırma",
+		"description": "\"Daha fazla yüklemek\" için tıklamak zorunda kalmadan sitenin farklı bölümlerinde kaydırmaya izin verin.",
+		"tags": ["community"],
+		"credits": [{ "name": "DatOneLefty" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "Yeni kuklaların varsayılan konumunu değiştir",
+		"description": "Oluşturulan kuklaları belirtilen konuma taşır.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "Shared/edited dates tooltip",
+		"description": "Hover over a project's share date for information on when exactly it was shared and last edited.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "Öne çıkan projeyi canlı yap",
+		"description": "Öne çıkan projenin etkileşimli yerleştirmesini doğrudan kullanıcının profil sayfasından gösterir. Mega Scratch Userscript üzerindeki uygulamaya dayanmaktadır.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "GRA0007 (original)",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958 (remake)" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "Auto-show editor extensions",
+		"description": "Adds music, pen, and other editor extensions automatically to the block category list.",
+		"tags": ["editor", "codeEditor"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "Higher character limit in \"What I'm Working On\"",
+		"description": "Allows you to type 55 more characters in your profile's \"What I'm Working On\". Everyone on Scratch will see the extra characters.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "Better forums post editor buttons",
+		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest (Port)",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "Proje videosu kaydet",
+		"description": "Editöre, projenin aşamasını kaydetmenize izin veren bir \"kaydı başlat\" düğmesi ekler.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "more-links",
+		"name": "Daha Fazla Bağlantı",
+		"description": "Scratch.mit.edu dışını gösteren URL'ler için bağlantılar ekler.",
+		"tags": ["community"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "Fare Konumu",
+		"description": "Düzenleyicideki bayrağın yanında fare konumunuzu görüntüler.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "Eklenti simgesindeki mesaj sayımı",
+		"description": "Scratch Addons simgesine mevcut mesaj sayısını ekler.",
+		"tags": ["popup", "recommended"]
+	},
+	{
+		"id": "mute-project",
+		"name": "Proje oynatıcısının sesini kapat",
+		"description": "Projeyi susturmak/susturmayı kaldırmak için yeşil bayrağa ctrl ile tıklayın.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "Show ocular.jeffalo.net statuses and post reactions",
+		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "Önceki kostümün izi",
+		"description": "Bir kostümü düzenlerken önceki veya sonraki kostümlerin şeffaf katmanlarını gösterir. Editörün altındaki yakınlaştırma butonlarının yanından kontrol edilir",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "Duraklat butonu",
+		"description": "Yeşil bayrağın yanına bir duraklat düğmesi ekler.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "Proje ilerleme çubuğu",
+		"description": "Projeleri yüklemek ve kaydetmek için bir ilerleme çubuğu ekler",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "Kukla ve komut miktarı",
+		"description": "Bir projenin sahip olduğu kukla ve komut dosyası miktarısını gösterir.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "Proje notları",
+		"description": "Bir proje sayfasında \"Talimatlar\" bölümü ve \"Notlar ve Krediler\" bölümü için sekmeler oluşturur.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "Proje sayfalarında Katkı ağacı butonu",
+		"description": "Katkı ağacı butonunu projelerde geri döndürtür.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "Bozuk sahne sınırını siler",
+		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "Kukla silinmesini onayla",
+		"description": "Bir projenin içindeki kuklayı silerken emin olup olmadığını sorar.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "Yeniden boyutlandırılabilen yorum girişi",
+		"description": "Scratch 3.0 stilindeki sayfalarda yorum giriş kutusunu dikey olarak yeniden boyutlandırılabilir hale getirir.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Scratch mesajlama",
+		"description": "Scratch Addons simgesine tıklandığında kullanılabilir. Scratch mesajlarınızı kolay okuma ve yanıtlama sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamı gösterir, doğrudan yorum yanıtlamaya izin verir.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Scratch Bildirimi",
+		"description": "Yeni Scratch mesajlarıyla ilgili bildirimler. Doğrudan mesaja (yorum, proje vb.) Gitmek için bildirime tıklayın.",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "Scratch 2.0 stilindeki sayfaların Scratch 3.0 gibi görünmesini sağlar.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "Profil istatistikleri",
+		"description": "Profil sayfalarında ScratchDB'den alınan istatistikleri gösterir.",
+		"tags": ["community", "profiles"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "search-profile",
+		"name": "Profil Ara",
+		"description": "Kullanıcı adını aradığınızda bir kullanıcının profiline gitmenizi sağlar.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "semicolon",
+		"name": "Noktalı virgül hatası",
+		"description": "Noktalı virgül hatasını Scratch'e geri ekler.",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "BBCode'u Göster",
+		"description": "Adds a button to the forums that shows the BBCode source of a post.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "Maximouse" }]
+	},
+	{
+		"id": "studio-tools",
+		"name": "Stüdyo yönetici araçları",
+		"description": "\"İdareciler\" sekmesi aracılığıyla herhangi bir stüdyodan ayrılmanın yanı sıra stüdyolarınızdan herhangi birini kolayca yükseltmenize veya kaldırmanıza olanak tanır.",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "Gerçek forum youtube linkleri",
+		"description": "Gömülü siteye giden bağlantıları gerçek YouTube bağlantılarıyla değiştirir.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "variable-manager",
+		"name": "Değişken Yöneticisi",
+		"description": "Editörde \"sesler\" sekmesinin yanına değişken ve listelerinizi kolaylıkla güncelleyebileceğiniz bir sekme ekler.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "YouTube tam ekran",
+		"description": "Scratch'in YouTube video oynatıcısında tam ekran butonunu etkinleştirir.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+			}
+		]
+	}
+]
