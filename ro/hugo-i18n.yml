@@ -1,32 +1,32 @@
 Global:
-  ScratchAddons: Scratch Addons
-  LogoAlt: Scratch Addons logo
+  ScratchAddons: Extensii Scratch
+  LogoAlt: Logo-ul Extensii Scratch
 
 Nav:
-  Contributors: Contributors
-  Feedback: Send Feedback
-  Repository: Repository
-  Install: Install
+  Contributors: Contribuitori
+  Feedback: Trimite feedback
+  Repository: Depozit
+  Install: Instalează
 
 Footer:
   Pages:
-    Header: Pages
-    FAQ: FAQ
-    Feedback: Send Feedback
-    Contributors: Contributors
-    Changelog: Changelog
-    Addons: Addons
+    Header: Pagini
+    FAQ: Întrebări frecvente
+    Feedback: Trimite feedback
+    Contributors: Contribuitori
+    Changelog: Jurnalul schimbărilor
+    Addons: Extensii
   Discuss:
-    Header: Discuss
-    Discussion Forum: Discussion Forum
-    Issues: Issues
-    DiscordCom: Community Discord
-    DiscordDev: Development Discord
+    Header: Discuții
+    Discussion Forum: Forum de discuții
+    Issues: Probleme
+    DiscordCom: Discord comunitate
+    DiscordDev: Discord dezvoltatori
   Resources:
-    Header: Resources
-    Organization: Organization
-    Repository: Repository
-    Documentation: Documentation
+    Header: Resurse
+    Organization: Organizație
+    Repository: Depozit
+    Documentation: Documentație
     YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} Scratch Addons contributors"
