@@ -49,8 +49,7 @@ jobs:
         run: |
           echo Running...
           cd repo
-          npm install --prefix ../script
-          node ../script/node/ci/i18n-update-source.js
+          bash ../script/sh/i18n-update-source.sh
 
       - name: Invoke workflow
         if: ${{ ! steps.script.outputs.commitSkipped }}

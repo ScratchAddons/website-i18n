@@ -50,9 +50,9 @@ jobs:
 
       - name: Execute script
         run: | 
+          echo Running...
           cd repo
-          npm install --prefix ../script
-          node ../script/node/ci/i18n-update-addons-data.js
+          bash ../script/sh/i18n-update-addons-data.sh
 
       - name: Invoke workflow
         if: ${{ ! steps.script.outputs.commitSkipped }}
