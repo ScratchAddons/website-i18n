@@ -1,0 +1,4 @@
+docs/_index.md:
+  toc_root: true
+  cascade:
+    section_site_name: Docs.SectionSiteName
