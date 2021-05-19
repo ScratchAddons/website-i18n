@@ -65,7 +65,7 @@ jobs:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
       - name: Invoke workflow
-        if: ! steps.script.outputs.commitSkipped
+        if: ${{ ! steps.script.outputs.commitSkipped }}
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment

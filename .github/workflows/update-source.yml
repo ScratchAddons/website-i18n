@@ -53,7 +53,7 @@ jobs:
           node ../script/node/ci/i18n-update-source.js
 
       - name: Invoke workflow
-        if: ! steps.script.outputs.commitSkipped
+        if: ${{ ! steps.script.outputs.commitSkipped }}
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Source Upload
