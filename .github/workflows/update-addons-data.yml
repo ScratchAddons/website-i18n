@@ -55,7 +55,7 @@ jobs:
           bash ../script/sh/i18n-update-addons-data.sh
 
       - name: Invoke workflow
-        if: ${{ ! steps.script.outputs.commitSkipped }}
+        # if: ${{ ! steps.script.outputs.commitSkipped }}
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment
