@@ -371,7 +371,7 @@
 	{
 		"id": "exact-count",
 		"name": "Pokaż dokładną liczbę",
-		"description": "Shows the exact count for user and studio info. Uses ScratchDB for forums information.",
+		"description": "Pokazuje dokładną liczbę informacji o użytkowniku i studiu. Używa ScratchDB do informacji na forach.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -409,8 +409,8 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Customized quotes & code blocks on forums",
-		"description": "Shows nicer code and quote blocks on the forums.",
+		"name": "Niestandardowe cytaty i bloki kodu na forach",
+		"description": "Pokazuje ładniejszy kod i bloki cytatów na forach.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH (Port)" },
@@ -505,8 +505,8 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "Live featured project",
-		"description": "Shows interactive embed of the featured project, directly from the user's profile page. Based on the implementation on Mega Scratch Userscript.",
+		"name": "Działający polecany projekt",
+		"description": "Pokazuję interaktywne osadzenie polecanego projektu, od razu z profilu użytkownika. Bazowany na implementacji na Mega Scratch Userscript.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -616,7 +616,7 @@
 	{
 		"id": "project-info",
 		"name": "Liczba duszków i skryptów",
-		"description": "Shows the number of sprites and scripts a project has.",
+		"description": "Pokazuje liczbę duszków i skryptów które ma projekt.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{

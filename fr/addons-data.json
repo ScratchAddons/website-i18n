@@ -101,8 +101,8 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Save blocks as image",
-		"description": "Right click the editor workspace to export blocks as SVG/PNG images.",
+		"name": "Enregistrer les blocs en une image.",
+		"description": "Faites un clic droit sur l'espace de travail de l'éditeur pour exporter les blocs sous formes d'images SVG / PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -447,7 +447,7 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "Gamepad support",
+		"name": "Support manette",
 		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
 		"tags": ["editor", "beta"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -533,7 +533,7 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Better forums post editor buttons",
+		"name": "Meilleurs boutons sur l'éditeur de posts du forum",
 		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [

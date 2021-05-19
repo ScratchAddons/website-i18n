@@ -21,8 +21,8 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Memeriksa kapitalisasi huruf dari \"Pengaturan akun\"",
-		"description": "Mengganti \"Pengaturan akun\" di menu akun menjadi \"Pengaturan Akun\"",
+		"name": "Fix capitalization of Account Settings",
+		"description": "Changes \"Account settings\" in the account menu to \"Account Settings\".",
 		"tags": ["easterEgg", "community"]
 	},
 	{
@@ -174,8 +174,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "Salin tautan ke tombol komentar",
-		"description": "Menambahkan tombol \"Salin Tautan\" ke semua komentar, di samping tombol \"Lapor\".",
+		"name": "Copy link to comment button",
+		"description": "Adds a \"Copy Link\" button to all Scratch comments, next to the \"Report\" button.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -719,8 +719,8 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "Lihat BBCode",
-		"description": "Menambahkan tombol yang melihatkan BBCodenya.",
+		"name": "Show BBCode",
+		"description": "Adds a button to the forums that shows the BBCode source of a post.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }]
 	},

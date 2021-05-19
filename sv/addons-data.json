@@ -1,8 +1,8 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "Tvådimensionell färgväljare",
-		"description": "Byter ut sliders för mättnad och ljus med tvådimensionell färgväljare. Håll shift medans du drar musen för att ändra på värdena på en axel.",
+		"name": "2D color picker",
+		"description": "Replaces saturation and brightness sliders with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Ikoner för blockkategorier",
+		"name": "Block palette category icons",
 		"description": "Adds icons inside the colored circles that identify block categories.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
@@ -101,8 +101,8 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Spara block som en bild",
-		"description": "Högerklicka i arbetsytan föra tt exportera block som SVG/PNG bilder.",
+		"name": "Save blocks as image",
+		"description": "Right click the editor workspace to export blocks as SVG/PNG images.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -195,8 +195,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Justera blockform",
-		"description": "Justera utfyllnad, kantstorlek och utstick på block.",
+		"name": "Custom block shape",
+		"description": "Adjust the padding, corner radius, and notch height of Scratch blocks.",
 		"tags": ["editor", "codeEditor", "theme", "recommended"],
 		"credits": [
 			{
@@ -215,8 +215,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Zoominställningar för kodytan",
-		"description": "Justera minimum, maximum, hastighet och grundstorleken för zoom i kodytan, och göm automatiskt kontroller.",
+		"name": "Custom scripts area zoom settings",
+		"description": "Adjust the minimum, maximum, speed, and start size of the zoom in the project code editor, and autohide the controls.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -227,8 +227,8 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "Dangoregn på profiler! (Första april)",
-		"description": "Hos användare som inkluderar ordet \"dango\" på sin \"Om Mig\" visas ett regn av dango emojis vid sidan av profilen.",
+		"name": "Dango rain on profiles (April Fools Day)",
+		"description": "Users that include the word \"dango\" on their \"About Me\" will have dango emojis raining on the sides of their profile.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -247,8 +247,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Mörkt läge för hemsidan",
-		"description": "Mörkt läge för Scratch hemsida, både för sidor från 2.0 och i 3.0. Flera inställningar från flera upphovsmän finns tillgängliga.",
+		"name": "Website dark mode",
+		"description": "Dark theme for the Scratch website, both for 2.0 and 3.0 pages. Multiple options by different authors available.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -285,22 +285,22 @@
 	},
 	{
 		"id": "drag-drop",
-		"name": "Drag och släpp filer",
+		"name": "Drag and drop files",
 		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "Färgade sammanhangsmenyer",
-		"description": "Gör så att sammanhangsmenyerna blir färgglada när du högerklickar på ett block.",
+		"name": "Colored context menus",
+		"description": "Makes the editor context menus colorful when right-clicking a block.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Mörkt läge i projektredigeraren och justerbara färger",
-		"description": "Justera färgerna i projektredigeraren. Flera mörka teman av olika upphovsmän finns tillgängliga. Om du inte vill/behöver ha mörkt läge men vill lägga till egna färger kan du välja \"Scratch standardtema\" och justera därifrån.",
+		"name": "Editor dark mode and customizable colors",
+		"description": "Customize colors used by the project editor. Multiple dark themes by different authors available. If you don't need dark mode but want to change the default colors you can select the \"Scratch's default colors\" preset and tweak it.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
 			{
@@ -344,8 +344,8 @@
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Flytta scenen till den vänstra sidan.",
-		"description": "Flyttar scenen till den vänstra sidan av projektredigeraren.",
+		"name": "Display stage on left side",
+		"description": "Moves the stage to the left side of the editor.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -357,8 +357,8 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Justerbara blockfärger",
-		"description": "Ändra blockfärger för varje kategori i projektredigeraren.",
+		"name": "Customizable block colors",
+		"description": "Edit block colors for each category in the editor.",
 		"tags": ["editor", "theme", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -402,8 +402,8 @@
 	},
 	{
 		"id": "folders",
-		"name": "Sprite grupper",
-		"description": "Lägger till grupper till spritelistor, samt kostym och ljud listor. För att skapa en grupp, högerklicka en sprite och välj \"skapa grupp\". Klicka på en grupp för att öppna eller stänga den. Högerklicka en sprite för att se vilka grupper som du kan flytta den till, eller drag och släpp i en öppen grupp.",
+		"name": "Sprite folders",
+		"description": "Adds folders to sprite lists, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -480,8 +480,8 @@
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Justera en ny sprites grundposition",
-		"description": "Flyttar spriter till en specifik position när de skapas.",
+		"name": "Change new sprite default position",
+		"description": "Moves sprites to a specified x/y position when they are created.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -687,7 +687,7 @@
 	{
 		"id": "scratchr2",
 		"name": "Scratch 2.0 → 3.0",
-		"description": "Gör så att sidor från 2.0 får den nya stilen från 3.0.",
+		"description": "Makes Scratch 2.0-styled pages look like Scratch 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{

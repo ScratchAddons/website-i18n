@@ -43,7 +43,7 @@
 	},
 	{
 		"id": "better-emojis",
-		"name": "더 좋은 이모지",
+		"name": "개선된 이모지",
 		"description": "스크래치 주석의 고양이 이모지를 개선된 벡터 사진으로 바꿉니다.",
 		"tags": ["community", "comments"],
 		"credits": [
@@ -59,7 +59,7 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "더 좋은 토론방 인용기",
+		"name": "개선된 토론방 인용기",
 		"description": "토론방 게시물에서 문자를 선택하고 오른쪽 하단 모서리의 따옴표를 클릭하여 선택한 문자를 따옴표로 묶습니다.",
 		"tags": ["forums", "community"],
 		"credits": [
@@ -285,7 +285,7 @@
 	},
 	{
 		"id": "drag-drop",
-		"name": "파일 드래그 앤 드롭",
+		"name": "파일 끌어다 놓기",
 		"description": "파일 탐색기에서 이미지, 소리를 스프라이트 창이나 의상/사운드 목록으로 끌어다 놓을 수 있습니다. 또한 텍스트 파일을 목록으로 끌어다 놓거나 \"묻고 기다리기\" 프롬프트를 표시할 수 있습니다.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
@@ -317,7 +317,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "개발자 도구",
-		"description": "편집기에 찾기 상자 및 새 메뉴 옵션, 블록 복사/붙여넣기, 더 좋은 정리, 사용자 지정 블록 정의로 이동과 그 이상을 지원합니다!",
+		"description": "편집기에 찾기 상자 및 새 메뉴 옵션, 블록 복사/붙여넣기, 개선된 정리, 사용자 지정 블록 정의로 이동과 그 이상을 지원합니다!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -370,8 +370,8 @@
 	},
 	{
 		"id": "exact-count",
-		"name": "정밀한 셈 표시",
-		"description": "사용자 및 스튜디오 정보의 정확한 셈이 나와 있습니다. 토론방 정보는 ScratchDB를 사용합니다.",
+		"name": "정확한 정보 표시",
+		"description": "사용자 및 스튜디오 정보의 정확한 정보를 보입니다. 토론방 정보는 ScratchDB를 사용합니다.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -410,7 +410,7 @@
 	{
 		"id": "forum-quote-code-beautifier",
 		"name": "사용자 지정 인용 & 토론방 코드 블럭",
-		"description": "토론방에서 더 좋은 코드와 인용블럭을 보입니디.",
+		"description": "토론방에서 더 예쁜 코드와 인용문을 보입니다.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH (Port)" },
@@ -420,7 +420,7 @@
 	{
 		"id": "forum-search",
 		"name": "토론방 찾기",
-		"description": "토론방 홈페이지에 게시글 검색을 추가합니다. 정보는 ScratchDB를 사용합니다.",
+		"description": "토론방 홈페이지에 게시글 검색을 추가합니다. ScratchDB의 정보를 사용합니다.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
@@ -533,7 +533,7 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "더 나은 토론방 편집기 게시 버튼",
+		"name": "개선된 토론방 편집기 게시 버튼",
 		"description": "토론방 게시 편집기 UI 아이콘을 작은 16x16 비트맵에서 SVG 자료 아이콘으로 변경합니다.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [

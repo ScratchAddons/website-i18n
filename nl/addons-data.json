@@ -1,7 +1,7 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D kleurenkiezer",
+		"name": "2D color picker",
 		"description": "Replaces saturation and brightness sliders with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
@@ -43,7 +43,7 @@
 	},
 	{
 		"id": "better-emojis",
-		"name": "Betere emoji's",
+		"name": "Better emojis",
 		"description": "Replaces the cat emojis in Scratch comments with improved vector designs.",
 		"tags": ["community", "comments"],
 		"credits": [
@@ -59,8 +59,8 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "Betere forum quoter",
-		"description": "Selecter tekst in een forum bericht en klik dan op citeer rechts onderaan het bericht om alleen de geselecteerde tekst te citeren.",
+		"name": "Better forum quoter",
+		"description": "Select text in a forum post and click quote in the bottom right corner to only quote the select text.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -184,7 +184,7 @@
 	{
 		"id": "curator-link",
 		"name": "Curator link",
-		"description": "Maakt een klikbare link voor de curator van de voor pagina.",
+		"description": "Creates a clickable link for the curator of the front page.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -247,7 +247,7 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Website donkere modus",
+		"name": "Website dark mode",
 		"description": "Dark theme for the Scratch website, both for 2.0 and 3.0 pages. Multiple options by different authors available.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
@@ -299,7 +299,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Editor donkere modus en aanpasbare kleuren",
+		"name": "Editor dark mode and customizable colors",
 		"description": "Customize colors used by the project editor. Multiple dark themes by different authors available. If you don't need dark mode but want to change the default colors you can select the \"Scratch's default colors\" preset and tweak it.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
@@ -316,7 +316,7 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "Ontwikkelaar hulpmiddelen",
+		"name": "Developer tools",
 		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
@@ -330,7 +330,7 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Doorzoekbare dropdowns",
+		"name": "Searchable dropdowns",
 		"description": "Allows you to search dropdowns in the Scratch editor.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -357,7 +357,7 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Bewerkbare blok kleuren",
+		"name": "Customizable block colors",
 		"description": "Edit block colors for each category in the editor.",
 		"tags": ["editor", "theme", "codeEditor", "recommended"],
 		"credits": [
@@ -402,7 +402,7 @@
 	},
 	{
 		"id": "folders",
-		"name": "Sprite mappen",
+		"name": "Sprite folders",
 		"description": "Adds folders to sprite lists, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -419,7 +419,7 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "Doorzoek Forums",
+		"name": "Forum search",
 		"description": "Adds a post search to the forum homepage. Uses ScratchDB for information.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
@@ -555,7 +555,7 @@
 	},
 	{
 		"id": "more-links",
-		"name": "Meer links",
+		"name": "More links",
 		"description": "Adds links for URLs pointing outside scratch.mit.edu.",
 		"tags": ["community"],
 		"credits": [{ "name": "Hans5958" }]
@@ -575,7 +575,7 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Project speler dempen",
+		"name": "Mute project player",
 		"description": "Ctrl+Click the green flag to mute/unmute the project.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -746,7 +746,7 @@
 	},
 	{
 		"id": "variable-manager",
-		"name": "Variabele manager",
+		"name": "Variable manager",
 		"description": "Adds a tab next to \"sounds\" in the editor for easily updating variables and lists.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]

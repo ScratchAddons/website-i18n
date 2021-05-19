@@ -426,8 +426,8 @@
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Forum saat dilimi",
-		"description": "Gönderim saatlerini kullanıcının saat dilimine dönüştürür.",
+		"name": "Use local timezone on forums",
+		"description": "Converts the post dates to your time zone. Uses ScratchDB for information.",
 		"tags": ["forums", "community"]
 	},
 	{

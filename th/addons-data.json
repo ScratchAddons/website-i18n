@@ -123,8 +123,8 @@
 	},
 	{
 		"id": "clones",
-		"name": "ตัวนับโคลน",
-		"description": "เพิ่มตัวนับในหน้าต่างแก้ไขซึ่งแสดงจำนวนโคลนทั้งหมด",
+		"name": "Clone counter",
+		"description": "Adds a counter in the editor which shows the total amount of clones.",
 		"tags": ["editor", "projectPlayer"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -266,8 +266,8 @@
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "ปิดการบันทึกอัตโนมัติ",
-		"description": "ปิดการบันทึกโครงงานอัตโนมัติเมื่อแก้ไขอยู่",
+		"name": "Disable auto-save",
+		"description": "Disables the automatic saving of projects while editing.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -601,8 +601,8 @@
 	},
 	{
 		"id": "pause",
-		"name": "ปุ่มหยุดชั่วคราว",
-		"description": "เพิ่มปุ่มหยุดชั่วคราวไว้ข้างๆธงเขียว",
+		"name": "Pause button",
+		"description": "Adds a pause button next to the green flag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},

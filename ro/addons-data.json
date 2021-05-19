@@ -426,8 +426,8 @@
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Afișează fusul orar local pe forumuri",
-		"description": "Înlocuiește data postărilor pe forumuri cu fusul orar local al utilizatorului.",
+		"name": "Use local timezone on forums",
+		"description": "Converts the post dates to your time zone. Uses ScratchDB for information.",
 		"tags": ["forums", "community"]
 	},
 	{
