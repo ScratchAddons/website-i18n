@@ -26,13 +26,22 @@ Footer:
     Header: 자료
     Organization: 기관
     Repository: 레포지토리
-    Documentation: 설명서
+    Documentation: 도움말
     YouTube: YouTube
   Legal:
     Copyright: "© {{.Count}} 스크래치 애드온 기여자"
     NoAffiliation: "스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다."
-    License: 스크래치 애드온은 GNU General Public License v3.0 라이센스로 공유됩니다.
+    License: 스크래치 애드온은 GNU General Public License v3.0 라이선스로 공유됩니다.
 
 DarkTheme:
-  Title: 어두운 테마로 전환하려면 클릭하세요.
-  Label: 어두운 테마 전환 버튼
+  Title: "어두운 테마로 전환하려면\n클릭하세요."
+  Label: Dark theme switch
+
+Docs:
+  SectionSiteName: Scratch Addons Docs
+  DocsNav: Docs navigation
+  DocsNavToggleLabel: Toggle docs navigation sidebar
+  TOC: Table of contents
+  TOCToggleLabel: Toggle table of contents sidebar
+  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
+  Improve: Improve this page.
