@@ -15,3 +15,27 @@ source_file = en/html-front.yml
 source_lang = en
 type = YAML_GENERIC
 
+[scractch-addons-website.markdown_docs__index]
+file_filter = <lang>/markdown/docs/_index.md
+source_file = en/markdown/docs/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scractch-addons-website.html-content_farewell]
+file_filter = <lang>/html-content/farewell.html
+source_file = en/html-content/farewell.html
+source_lang = en
+type = HTML
+
+[scractch-addons-website.html-content_welcome]
+file_filter = <lang>/html-content/welcome.html
+source_file = en/html-content/welcome.html
+source_lang = en
+type = HTML
+
+[scractch-addons-website.html-content__index]
+file_filter = <lang>/html-content/_index.html
+source_file = en/html-content/_index.html
+source_lang = en
+type = HTML
+
