@@ -8,3 +8,10 @@ source_file = en/hugo-i18n.yml
 source_lang = en
 type = YAML_GENERIC
 
+[scratch-addons-website.html-front]
+file_filter = <lang>/html-front.yml
+minimum_perc = 0
+source_file = en/html-front.yml
+source_lang = en
+type = YAML_GENERIC
+
