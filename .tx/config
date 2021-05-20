@@ -15,24 +15,31 @@ source_file = en/html-front.yml
 source_lang = en
 type = YAML_GENERIC
 
-[scratch-addons-website.en_html-content_farewell]
+[scratch-addons-website.html-content_farewell]
 file_filter = <lang>/html-content/farewell.html
 minimum_perc = 0
 source_file = en/html-content/farewell.html
 source_lang = en
 type = HTML_FRAGMENT
 
-[scratch-addons-website.en_html-content_welcome]
+[scratch-addons-website.html-content_welcome]
 file_filter = <lang>/html-content/welcome.html
 minimum_perc = 0
 source_file = en/html-content/welcome.html
 source_lang = en
 type = HTML_FRAGMENT
 
-[scratch-addons-website.en_html-content__index]
+[scratch-addons-website.html-content__index]
 file_filter = <lang>/html-content/_index.html
 minimum_perc = 0
 source_file = en/html-content/_index.html
 source_lang = en
 type = HTML_FRAGMENT
+
+[scratch-addons-website.markdown_docs__index]
+file_filter = <lang>/markdown/docs/_index.md
+minimum_perc = 0
+source_file = en/markdown/docs/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
 
