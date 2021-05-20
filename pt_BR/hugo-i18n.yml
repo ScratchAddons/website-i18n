@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: Clique para ligar/desligar o tema escuro.
-  Label: Dark theme switch
+  Label: Ligar/desligar tema escuro
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: Documentação do Scratch Addons
+  DocsNav: Navegação
+  DocsNavToggleLabel: Ligar/desligar barra de navegação
+  TOC: Índice
+  TOCToggleLabel: Ligar/desligar barra de índice
+  LastUpdated: "Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}."
+  Improve: Melhore essa página.

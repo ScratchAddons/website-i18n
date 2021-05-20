@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
-  Label: Dark theme switch
+  Label: Gumb za temni način
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: Dokumentacija Scratch Addons
+  DocsNav: Navigacija po dokumentaciji
+  DocsNavToggleLabel: Pokaži/skrij stolpec za navigacijo
+  TOC: Vsebina
+  TOCToggleLabel: Pokaži/skrij stolpec s kazalom vsebine
+  LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} ({{.Commit}}). "
+  Improve: Izboljšajte to stran.

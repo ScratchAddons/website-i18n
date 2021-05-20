@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: "Hier klicken, um den Dunklen Modus umzuschalten."
-  Label: Dark theme switch
+  Label: Dunkles Design umschalten
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: Scratch Addons-Dokumentation
+  DocsNav: Dokumentationsnavigation
+  DocsNavToggleLabel: Navigationsleiste umschalten
+  TOC: Inhaltetabelle
+  TOCToggleLabel: Inhaltetabelle umschalten
+  LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
+  Improve: Diese Seite verbessern.

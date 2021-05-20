@@ -29,7 +29,7 @@ Footer:
     Documentation: Documentație
     YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons contributors"
+    Copyright: "© {{.Count}} Contribuitorii Extensii Scratch"
     NoAffiliation: "Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates."
     License: Scratch Addons is licensed under the terms of GNU General Public License v3.0.
 
@@ -44,4 +44,4 @@ Docs:
   TOC: Table of contents
   TOCToggleLabel: Toggle table of contents sidebar
   LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  Improve: Îmbunătățește această pagină

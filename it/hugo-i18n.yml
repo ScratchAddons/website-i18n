@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: Clicca per passare al tema scuro.
-  Label: Dark theme switch
+  Label: Passaggio a tema scuro
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: Documentazione Scratch Addon
+  DocsNav: Navigazione documentazione
+  DocsNavToggleLabel: Mostra/nascondi barra di navigazione della documentazione
+  TOC: Tavola dei contenuti
+  TOCToggleLabel: Mostra/nascondi barra della tavola dei contenuti
+  LastUpdated: "Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}."
+  Improve: Migliora questa pagina.
