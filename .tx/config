@@ -29,13 +29,6 @@ source_file = en/html-content/welcome.html
 source_lang = en
 type = HTML_FRAGMENT
 
-[scratch-addons-website.html-content__index]
-file_filter = <lang>/html-content/_index.html
-minimum_perc = 0
-source_file = en/html-content/_index.html
-source_lang = en
-type = HTML_FRAGMENT
-
 [scratch-addons-website.markdown_docs__index]
 file_filter = <lang>/markdown/docs/_index.md
 minimum_perc = 0
