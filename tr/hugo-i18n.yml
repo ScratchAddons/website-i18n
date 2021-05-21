@@ -1,21 +1,21 @@
 Global:
-  ScratchAddons: Scratch Addons
-  LogoAlt: Scratch Addons logo
+  ScratchAddons: Scratch Eklentileri
+  LogoAlt: Scratch Eklentileri logosu
 
 Nav:
   Contributors: Contributors
-  Feedback: Send Feedback
+  Feedback: Geri Bildirim Gönder
   Repository: Repository
-  Install: Install
+  Install: İndir
 
 Footer:
   Pages:
-    Header: Pages
+    Header: Sayfalar
     FAQ: FAQ
     Feedback: Send Feedback
     Contributors: Contributors
-    Changelog: Changelog
-    Addons: Addons
+    Changelog: Değişiklik günlüğü
+    Addons: Eklentiler
   Discuss:
     Header: Discuss
     Discussion Forum: Discussion Forum

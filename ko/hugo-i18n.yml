@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: "어두운 테마로 전환하려면\n클릭하세요."
-  Label: Dark theme switch
+  Label: 어두운 테마 전환
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: 스크래치 애드온 문서
+  DocsNav: 문서 탐색
+  DocsNavToggleLabel: 문서 측면 탐색줄을 기능 전환 상태로 놓기
+  TOC: 목차
+  TOCToggleLabel: 측면 목차줄 전환 상태로 놓기
+  LastUpdated: "{{.Commit}}커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
+  Improve: 이 페이지 개선하기

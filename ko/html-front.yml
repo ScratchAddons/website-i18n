@@ -1,9 +1,9 @@
 welcome.html:
-  title: Welcome!
-  description: Scratch Addons has been installed successfully! Thank you for installing. We hope you enjoy the extension!
+  title: 반갑습니다!
+  description: 스크래치 애드온이 성공적으로 설치되었습니다! 설치에 주셔서 매우 감사드립니다. 애드온을 잘 사용하시길 바랍니다!
 farewell.html:
   title: Farewell!
-  description: Scratch Addons has been uninstalled. We thank you for using the extension!
+  description: 스크래치 애드온이 제거되었습니다. 지금까지 애드온을 사용해 주셔서 감사합니다!
 _index.html:
   title: Index
   description: "Scratch Addons is an browser extension that provides new features and themes for the Scratch (scratch.mit.edu) website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."

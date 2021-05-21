@@ -35,13 +35,13 @@ Footer:
 
 DarkTheme:
   Title: "Kliknij, aby przełączyć ciemny motyw."
-  Label: Dark theme switch
+  Label: Przełącznik ciemnego motywu
 
 Docs:
   SectionSiteName: Dokumentacja Dodatków Scratch
   DocsNav: Nawigacja po dokumentacji
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  DocsNavToggleLabel: Przełącz pasek boczny dokumentacji
+  TOC: Spis treści
+  TOCToggleLabel: Przełącz pasek boczny spisu treści
+  LastUpdated: "Ostatni raz aktulizowane {{.Date}}przez {{.Name}}na commitcie {{.Commit}}."
+  Improve: Ulepsz tą stronę.
