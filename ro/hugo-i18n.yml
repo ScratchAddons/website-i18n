@@ -1,6 +1,12 @@
 Global:
   ScratchAddons: Extensii Scratch
   LogoAlt: Logo-ul Extensii Scratch
+  ChromeLong: Google Chrome
+  FirefoxLong: Mozilla Firefox
+  ChromeShort: Chrome
+  FirefoxShort: Firefox
+  Install: Instalare
+  InstallFor: "Instalează pentru {{.Browser}}"
 
 Nav:
   Contributors: Contribuitori
@@ -38,10 +44,63 @@ DarkTheme:
   Label: Dark theme switch
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
+  SectionSiteName: Documentație Extensii Scratch
   DocsNav: Docs navigation
   DocsNavToggleLabel: Toggle docs navigation sidebar
   TOC: Table of contents
   TOCToggleLabel: Toggle table of contents sidebar
   LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
   Improve: Îmbunătățește această pagină
+
+IndexPage:
+  Intro:
+    Tagline: All in one browser extension for Scratch
+    Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+    InstallButton:
+      Loading: Se incarcă...
+      Description: "free, open source"
+    ReadMore: or read more
+    Carousel:
+      Video: 
+        Caption: The trailer.
+        LabelPlay: Play
+        ModalTitle: Video
+      Popup:
+        Caption: The extension pop-up.
+        ImgAlt: Extension pop-up
+      Settings:
+        Caption: The settings page.
+        ImgAlt: Settings page
+      Demo:
+        Caption: "Demonstration of the extension. ({{.Count}})"
+        ImgAlt: "Demonstration ({{.Count}})"
+      Previous: Previous
+      Next: Next
+  Features:
+    Heading: Funcții
+    AddonsHeading: Extensii
+    AddonsParagraph: "Extensii Scratch are extensii, care sunt funcții care pot face experiența ta Scratch mai bună."
+    CustomizableHeading: Personalizabil
+    CustomizableParagraph: Extensii Scratch are o interfață ușor de folosit pentru controlarea setărilor fiecărui funcții.
+    InternationalHeading: Internațional
+    InternationalParagraph: "Nu doar engleză. Extensii Scratch este disponibil în spaniolă, rusă, japoneză, franceză, și multe altele."
+    OSHeading: Open source
+    OSParagraph: "Extensii Scratch este gratuit, open source, și făcut de Scratcheri."
+  Highlights:
+    Heading: Evidențieri
+    Paragraph: "Ține minte, acestea sunt doar evidențierile. {{.OpenTag1}} Există mai mult! {{.CloseTag1}}"
+    ScratchMessagingHeading: Mesagerie Scratch
+    ScratchMessagingParagraph: '"Bunicul" Extensii Scratch. Este disponibil la apăsarea iconiței Extensii Scratch, și pune la dispoziție citire și răspundere ușoară la mesajele tale Scratch: grupează mesajele pe proiect, afișează conținutul și contextul complet al comentariilor, permite răspundere directă la comentarii.'
+    ScratchNotifierHeading: Notificator Scratch
+    ScratchNotifierParagraph: "Adaugă notificări de browser pe mesajele noi Scratch. Poți da copiilo clic pe notificare pentru a ajunge direct la mesaj (comentariu, proiect, etc.)"
+    DeveloperToolsHeading: Instrumente pentru dezvoltatori
+    DeveloperToolsParagraph: '{{.OpenTag1}} Din extensia originală. {{.CloseTag1}} Adaugă o casetă de căutare și opțiuni noi in editor: copiere/lipire blocuri, curățare mai bună, mergi la definiția blocului și multe altele!'
+  Install:
+    Heading: Instalează    
+    Paragraph: "Satisfăcut? Nu ezita să o instalezi acum!"
+    InstallButton:
+      Other: "...sau {{.OpenTag1}} descarc-o de pe GitHub {{.CloseTag1}} sau {{.OpenTag2}} instaleaz-o din sursă {{.CloseTag2}}."
+
+AddonsPage:
+  EasterEggAddon: Aceasta este o extensie ou de paște.
+  RecommendedAddon: Aceasta este o extensie recomandată.
