@@ -17,22 +17,29 @@ type = YAML_GENERIC
 
 [scratch-addons-website.html-content_farewell]
 file_filter = <lang>/html-content/farewell.html
-minimum_perc = 0
+minimum_perc = 100
 source_file = en/html-content/farewell.html
 source_lang = en
 type = HTML_FRAGMENT
 
 [scratch-addons-website.html-content_welcome]
 file_filter = <lang>/html-content/welcome.html
-minimum_perc = 0
+minimum_perc = 100
 source_file = en/html-content/welcome.html
 source_lang = en
 type = HTML_FRAGMENT
 
 [scratch-addons-website.markdown_docs__index]
 file_filter = <lang>/markdown/docs/_index.md
-minimum_perc = 0
+minimum_perc = 100
 source_file = en/markdown/docs/_index.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[scratch-addons-website.html-content_addons]
+file_filter = <lang>/html-content/addons.html
+minimum_perc = 100
+source_file = en/html-content/addons.html
+source_lang = en
+type = HTML_FRAGMENT
 
