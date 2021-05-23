@@ -5,8 +5,8 @@ Global:
   FirefoxLong: Mozilla Firefox
   ChromeShort: Chrome
   FirefoxShort: Firefox
-  Install: Install
-  InstallFor: "Install for {{.Browser}}"
+  Install: Instalar
+  InstallFor: "Instalar no {{.Browser}}"
 
 Nav:
   Contributors: Contribuidores
@@ -54,53 +54,53 @@ Docs:
 
 IndexPage:
   Intro:
-    Tagline: All in one browser extension for Scratch
-    Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+    Tagline: Extensão de navegador tudo-em-um para o Scratch
+    Description: "Scratch Addons é uma extensão de navegador que adiciona novas funções e temas ao website e editor de projeto do Scratch. Nossa missão é coletar, arquivar e colocar em uso userstyles e userscripts, desenvolvidos por diversos membros da comunidade Scratch."
     InstallButton:
-      Loading: Loading...
-      Description: "free, open source"
-    ReadMore: or read more
+      Loading: Carregando...
+      Description: "grátis, código aberto"
+    ReadMore: ou leia mais
     Carousel:
       Video: 
-        Caption: The trailer.
+        Caption: O trailer.
         LabelPlay: Play
-        ModalTitle: Video
+        ModalTitle: Vídeo
       Popup:
-        Caption: The extension pop-up.
-        ImgAlt: Extension pop-up
+        Caption: O pop-up da extensão.
+        ImgAlt: Pop-up da extensão
       Settings:
-        Caption: The settings page.
-        ImgAlt: Settings page
+        Caption: A página de configurações.
+        ImgAlt: Página de configurações
       Demo:
-        Caption: "Demonstration of the extension. ({{.Count}})"
-        ImgAlt: "Demonstration ({{.Count}})"
-      Previous: Previous
-      Next: Next
+        Caption: "Demonstração da extensão. ({{.Count}})"
+        ImgAlt: "Demonstração ({{.Count}})"
+      Previous: Anterior
+      Next: Próximo
   Features:
-    Heading: Features
+    Heading: Funções
     AddonsHeading: Addons
-    AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
-    CustomizableHeading: Customizable
-    CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
-    InternationalHeading: International
-    InternationalParagraph: "Not just English. Scratch Addons is available in Spanish, Russian, Japanese, French, and many more."
-    OSHeading: Open source
-    OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
+    AddonsParagraph: "O Scratch Addons é feito de addons, que são funções para empoderar sua experiência com o website e editor do Scratch."
+    CustomizableHeading: Customizável
+    CustomizableParagraph: A interface fácil de usar do Scratch Addons te deixa controlar várias opções para cada função e tema.
+    InternationalHeading: Internacional
+    InternationalParagraph: "Não apenas em inglês. O Scratch Addons está disponível em português, espanhol, russo, japonês, francês, e muito mais."
+    OSHeading: Código aberto
+    OSParagraph: "O Scratch Addons é grátis, de código aberto e criado por uma comunidade de Scratchers."
   Highlights:
-    Heading: Highlights
-    Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
-    ScratchMessagingHeading: Scratch Messaging
-    ScratchMessagingParagraph: 'The "grandfather" of Scratch Addons. It is available when clicking the Scratch Addons icon, and provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.'
-    ScratchNotifierHeading: Scratch Notifier
-    ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
-    DeveloperToolsHeading: Developer tools
-    DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
+    Heading: Destaques
+    Paragraph: "Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito mais!{{.CloseTag1}}"
+    ScratchMessagingHeading: Mensagens Scratch
+    ScratchMessagingParagraph: 'O "ancião" do Scratch Addons. Está disponível ao clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o texto e contexto completos do comentário, te deixa responder diretamente.'
+    ScratchNotifierHeading: Notificador do Scratch
+    ScratchNotifierParagraph: "Permite que o navegador te notifique sobre novas mensagens no Scratch. Você pode clicar na notificação para ir direto à mensagem (comentário, projeto, etc.)"
+    DeveloperToolsHeading: Ferramentas de desenvolvedor
+    DeveloperToolsParagraph: '{{.OpenTag1}}Da extensão original.{{.CloseTag1}} Adiciona uma barra de busca e novas opções ao editor: copiar e colar blocos, melhor função de limpar, encontrar definição de bloco, e mais!'
   Install:
-    Heading: Install    
-    Paragraph: "Satisfied? Don't hesitate to install it now!"
+    Heading: Instalar    
+    Paragraph: "Parece bom? Não hesite e instale agora!"
     InstallButton:
-      Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
+      Other: "...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}."
 
 AddonsPage:
-  EasterEggAddon: This is an easter egg addon.
-  RecommendedAddon: This is a recommended addon.
+  EasterEggAddon: Isso é um addon secreto.
+  RecommendedAddon: Isso é um addon recomendado.
