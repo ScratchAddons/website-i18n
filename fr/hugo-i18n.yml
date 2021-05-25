@@ -58,7 +58,7 @@ IndexPage:
     Description: "Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch."
     InstallButton:
       Loading: Chargement...
-      Description: "free, open source"
+      Description: "gratuit, open source"
     ReadMore: ou en lire plus
     Carousel:
       Video: 
@@ -79,13 +79,13 @@ IndexPage:
   Features:
     Heading: Fonctionnalités
     AddonsHeading: Addons
-    AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
+    AddonsParagraph: "Scratch Addons consiste en addons, qui sont des fonctionnalités qui peuvent améliorer votre site Scratch et votre expérience de l'éditeur. "
     CustomizableHeading: Personnalisable
     CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
     InternationalHeading: International
     InternationalParagraph: "Pas seulement en anglais. Scratch Addons est disponible en espagnol, russe, japonais, français et bien plus !"
     OSHeading: Open source
-    OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
+    OSParagraph: "Scratch Addons est gratuit, open source et construit par une communauté de Scratcheurs."
   Highlights:
     Heading: Highlights
     Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
@@ -104,3 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: C'est un addon clin d'œil
   RecommendedAddon: C'est un addon recommandé.
+  ListViewLabel: List view
+  EasterEggLabel: Clin d'œil
+  EasterEggTooltip:
+    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
+    L2: "Sur cette page, un addon clin d'œil aura un symbole d'œuf en plus de son nom."

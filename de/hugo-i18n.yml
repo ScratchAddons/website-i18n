@@ -104,3 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Dies ist ein Easter Egg-Addon.
   RecommendedAddon: Dies ist ein empfohlenes Addon.
+  ListViewLabel: Listenansicht
+  EasterEggLabel: Easter Egg
+  EasterEggTooltip:
+    L1: "Um die Addons zu aktivieren, mache den Konami-Code (↑↑↓↓←→←→BA) auf der Einstellungenseite. Lies die FAQ für mehr Infos."
+    L2: In dieser Seite wird ein Easter Egg-Addon ein Eisymbol neben seinem Namen haben.

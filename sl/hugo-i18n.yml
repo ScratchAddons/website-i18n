@@ -104,3 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
+  ListViewLabel: Pogled seznama
+  EasterEggLabel: Skrivni dodatki
+  EasterEggTooltip:
+    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
+    L2: "In this page, an easter egg addon will have an egg symbol besides its name."

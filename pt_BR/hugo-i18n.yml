@@ -104,3 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Isso é um addon secreto.
   RecommendedAddon: Isso é um addon recomendado.
+  ListViewLabel: List view
+  EasterEggLabel: Easter egg
+  EasterEggTooltip:
+    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
+    L2: "In this page, an easter egg addon will have an egg symbol besides its name."
