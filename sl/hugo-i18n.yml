@@ -107,5 +107,5 @@ AddonsPage:
   ListViewLabel: Pogled seznama
   EasterEggLabel: Skrivni dodatki
   EasterEggTooltip:
-    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
-    L2: "In this page, an easter egg addon will have an egg symbol besides its name."
+    L1: "Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji."
+    L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.

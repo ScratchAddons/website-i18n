@@ -1,11 +1,11 @@
 _index.html:
-  description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch (scratch.mit.edu) website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+  description: "스크래치 애드온은 스크래치(scratch.mit.edu) 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다."
 welcome.html:
   title: 반갑습니다!
   description: 스크래치 애드온이 성공적으로 설치되었습니다! 설치에 주셔서 매우 감사드립니다. 애드온을 잘 사용하시길 바랍니다!
 farewell.html:
-  title: Farewell!
+  title: 안녕히 계세요!
   description: 스크래치 애드온이 제거되었습니다. 지금까지 애드온을 사용해 주셔서 감사합니다!
 addons.html:
-  title: Addons
-  description: This page lists all of the addons that are implemented on Scratch Addons.
+  title: 애드온
+  description: 이 페이지에는 스크래치 애드온에 구현된 모든 추가 기능이 나열됩니다.

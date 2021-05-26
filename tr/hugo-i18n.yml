@@ -5,8 +5,8 @@ Global:
   FirefoxLong: Mozilla Firefox
   ChromeShort: Chrome
   FirefoxShort: Firefox
-  Install: Install
-  InstallFor: "Install for {{.Browser}}"
+  Install: İndir
+  InstallFor: "{{.Browser}} için indir"
 
 Nav:
   Contributors: Katkısı olanlar
@@ -55,34 +55,34 @@ Docs:
 IndexPage:
   Intro:
     Tagline: All in one browser extension for Scratch
-    Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+    Description: "Scratch Eklentileri Scratch websitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır."
     InstallButton:
-      Loading: Loading...
-      Description: "free, open source"
-    ReadMore: or read more
+      Loading: Yükleniyor...
+      Description: "ücretsiz, açık kaynak"
+    ReadMore: veya daha fazlasını oku
     Carousel:
       Video: 
         Caption: The trailer.
-        LabelPlay: Play
+        LabelPlay: Oynat
         ModalTitle: Video
       Popup:
         Caption: The extension pop-up.
         ImgAlt: Extension pop-up
       Settings:
         Caption: The settings page.
-        ImgAlt: Settings page
+        ImgAlt: Ayarlar sayfası
       Demo:
         Caption: "Demonstration of the extension. ({{.Count}})"
         ImgAlt: "Demonstration ({{.Count}})"
-      Previous: Previous
-      Next: Next
+      Previous: Sonraki
+      Next: Önceki
   Features:
-    Heading: Features
-    AddonsHeading: Addons
+    Heading: Özellikler
+    AddonsHeading: Eklentiler
     AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
-    CustomizableHeading: Customizable
+    CustomizableHeading: Özelleştirilebilir
     CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
-    InternationalHeading: International
+    InternationalHeading: Uluslararası
     InternationalParagraph: "Not just English. Scratch Addons is available in Spanish, Russian, Japanese, French, and many more."
     OSHeading: Open source
     OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
@@ -96,7 +96,7 @@ IndexPage:
     DeveloperToolsHeading: Developer tools
     DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
   Install:
-    Heading: Install    
+    Heading: İndir    
     Paragraph: "Satisfied? Don't hesitate to install it now!"
     InstallButton:
       Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."

@@ -1,12 +1,12 @@
 Global:
   ScratchAddons: 스크래치 애드온
   LogoAlt: 스크래치 애드온 로고
-  ChromeLong: Google Chrome
-  FirefoxLong: Mozilla Firefox
-  ChromeShort: Chrome
+  ChromeLong: 구글 크롬
+  FirefoxLong: 모질라 Firefox
+  ChromeShort: 크롬
   FirefoxShort: Firefox
-  Install: Install
-  InstallFor: "Install for {{.Browser}}"
+  Install: 설치하기
+  InstallFor: "{{.Browser}}에 설치하기"
 
 Nav:
   Contributors: 기여자
@@ -54,58 +54,58 @@ Docs:
 
 IndexPage:
   Intro:
-    Tagline: All in one browser extension for Scratch
-    Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+    Tagline: 스크래치를 위한 모든 기능이 하나에 집약되어 있는 브라우저 확장 프로그램
+    Description: "스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다."
     InstallButton:
-      Loading: Loading...
-      Description: "free, open source"
-    ReadMore: or read more
+      Loading: 불러오는 중...
+      Description: "무료, 오픈소스"
+    ReadMore: 또는 더 읽어보기
     Carousel:
       Video: 
-        Caption: The trailer.
-        LabelPlay: Play
-        ModalTitle: Video
+        Caption: 트래일러
+        LabelPlay: 재생하기
+        ModalTitle: 영상
       Popup:
-        Caption: The extension pop-up.
-        ImgAlt: Extension pop-up
+        Caption: 확장 프로그램 팝업
+        ImgAlt: 확장 프로그램 팝업
       Settings:
-        Caption: The settings page.
-        ImgAlt: Settings page
+        Caption: 설정 페이지
+        ImgAlt: 설정 페이지
       Demo:
-        Caption: "Demonstration of the extension. ({{.Count}})"
-        ImgAlt: "Demonstration ({{.Count}})"
-      Previous: Previous
-      Next: Next
+        Caption: "확장 프로그램의 예시 ({{.Count}})"
+        ImgAlt: "예시 ({{.Count}})"
+      Previous: 이전
+      Next: 다음
   Features:
-    Heading: Features
-    AddonsHeading: Addons
-    AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
-    CustomizableHeading: Customizable
-    CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
-    InternationalHeading: International
-    InternationalParagraph: "Not just English. Scratch Addons is available in Spanish, Russian, Japanese, French, and many more."
-    OSHeading: Open source
-    OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
+    Heading: 기능
+    AddonsHeading: 애드온
+    AddonsParagraph: 스크래치 애드온은 스크래치 웹 사이트와 편집기를 더욱 편하게 사용할 수 있는 기능인 추가 기능으로 구성됩니다.
+    CustomizableHeading: 사용자 지정 설정하기
+    CustomizableParagraph: 스크래치 애드온에는 각 기능과 테마의 다양한 설정을 제어하는 사용하기 쉬운 인터페이스가 있습니다.
+    InternationalHeading: 국제적
+    InternationalParagraph: "영어뿐만이 아닙니다. 스크래치 애드온은 한국어를 포함해 스페인어, 프랑스어와 더 많은 언어로 사용하실 수 있습니다."
+    OSHeading: 오픈소스
+    OSParagraph: 스크래치 애드온은 무료이며 오픈소스이고 스크래치 사용자들에 의해 만들어졌습니다.
   Highlights:
-    Heading: Highlights
-    Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
-    ScratchMessagingHeading: Scratch Messaging
-    ScratchMessagingParagraph: 'The "grandfather" of Scratch Addons. It is available when clicking the Scratch Addons icon, and provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.'
-    ScratchNotifierHeading: Scratch Notifier
-    ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
-    DeveloperToolsHeading: Developer tools
-    DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
+    Heading: 주요 기능
+    Paragraph: "기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더 알아보세요{{.CloseTag1}}."
+    ScratchMessagingHeading: 스크래치 메시징
+    ScratchMessagingParagraph: '스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며 스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달 수 있습니다.'
+    ScratchNotifierHeading: 스크래치 알림
+    ScratchNotifierParagraph: 이 기능인 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여 댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
+    DeveloperToolsHeading: 개발자 도구
+    DeveloperToolsParagraph: '{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새 메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다.'
   Install:
-    Heading: Install    
-    Paragraph: "Satisfied? Don't hesitate to install it now!"
+    Heading: 설치하기    
+    Paragraph: "만족하시나요? 주저하지 마시고 지금 설치하세요!"
     InstallButton:
-      Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
+      Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터 설치하세요{{.CloseTag2}}. "
 
 AddonsPage:
-  EasterEggAddon: This is an easter egg addon.
-  RecommendedAddon: This is a recommended addon.
-  ListViewLabel: List view
-  EasterEggLabel: Easter egg
+  EasterEggAddon: 이 애드온은 이스터에그입니다.
+  RecommendedAddon: 이 애드온은 권장하는 애드온입니다.
+  ListViewLabel: 리스트로 보기
+  EasterEggLabel: 이스터에그
   EasterEggTooltip:
-    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
-    L2: "In this page, an easter egg addon will have an egg symbol besides its name."
+    L1: 이스터에그를 활성화하려면 코나미 코드 (↑↑↓↓←→←→BA)를 설정창에서 입력하세요. 더 알아보려면 FAQ페이지를 참고하세요
+    L2: "이 페이지에선, 이스터에그 애드온의 이름에는 알 모양의 표식이 들어갑니다."
