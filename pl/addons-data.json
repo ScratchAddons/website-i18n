@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Potwierdź akcje",
 		"description": "Pyta, czy jesteś pewien, kiedy wykonujesz działania na koncie Scratch, takie jak udostępnianie projektów.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+Klik, aby uruchomić skrypty",
+		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Do not automatically run duplicated blocks",
+		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Napraw zepsute przesyłanie plików SVG",
 		"description": "Naprawia błąd w Edytorze Scratcha edytor zawodzi dokładnie przesłać pliki SVG stworzone z niektórymi edytorami zdjęć np. Affinity Designer",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "Wsparcie dla padów",
 		"description": "Interakcja z projektami za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -554,6 +575,18 @@
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
+		"id": "message-filters",
+		"name": "Filter messages on Scratch's messages page",
+		"description": "Lets you select what types of messages to hide or show on Scratch's messages page.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
+	},
+	{
 		"id": "more-links",
 		"name": "Więcej linków",
 		"description": "Dodaje linki do adresów URL wychodzących poza scratch.mit.edu.",
@@ -646,8 +679,8 @@
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Remove curved stage border",
-		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"name": "Usuń zaokrąglone krawędzie odtwarzacza",
+		"description": "Usuwa zaokrąglone krawędzie sceny, pozwala tobie spojrzeć w jej rogi",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Block transparency",
+		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

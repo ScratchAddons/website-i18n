@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Confirmă acțiunile",
 		"description": "Te întreabă dacă ești sigur când vrei să faci anumite lucruri în contul tău Scratch, ca partajarea proiectelor.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+Click to run scripts",
+		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Do not automatically run duplicated blocks",
+		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Repară încărcările SVG stricate",
 		"description": "Repară o eroare în editorul Scratch care eșuează în încărcarea corectă a fișierelor SVG create cu unii editori de imagini, cum ar fi Affinity Designer.",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "Suport gamepad",
 		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -552,6 +573,18 @@
 		"name": "Înregistrează proiectul ca video",
 		"description": "Adaugă un buton „pornește înregistrarea” care îți permite să înregistrezi scena proiectului în editor.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Filter messages on Scratch's messages page",
+		"description": "Lets you select what types of messages to hide or show on Scratch's messages page.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
 	},
 	{
 		"id": "more-links",
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Block transparency",
+		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

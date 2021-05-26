@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Potrdi dejanja",
 		"description": "Vpraša, če ste prepričani, ko počnete stvari z vašim Scratch računom, kot je deljenje projektov.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+klik za izvajanje skript",
+		"description": "Ne izvede zaporedij blokov ko jih kliknete, razen če med tem držite tipko Ctrl.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Ne izvedi podvojenih blokov samodejno",
+		"description": "Popravi napako v Scratchevem urejevalniku, kjer dodajanje podvojenega bloka v skripto izvede skripto.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Popravi nalaganje SVG-jev",
 		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da se datoteke SVG, ustvarjene z nekaterimi urejevalniki, kot je Affinity Designer, ne naložijo pravilno.",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "Podpora igralnih ploščkov",
 		"description": "Uporabljajte USB ali Bluetooth igralni plošček v projektih.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -552,6 +573,18 @@
 		"name": "Posnemi video projekta",
 		"description": "V urejevalnik doda gumb \"začni snemanje\", ki omogoča snemanje odra.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Filtriraj sporočila na Scratchevi strani za sporočila",
+		"description": "Omogoča, da izberete, katere vrste sporočil naj bodo prikazane na Scratchevi strani s sporočili.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
 	},
 	{
 		"id": "more-links",
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Prosojnost blokov",
+		"description": "Prilagodi prosojnost blokov v urejevalniku, z ločenima možnostma za neuporabljene bloke (tiste, ki niso povezani z dogodkom) in bloke, ki jih vlečete z miško.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

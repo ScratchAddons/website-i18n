@@ -1,15 +1,15 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D カラーピッカー",
-		"description": "カラーピッカーを2Dにする。Shiftキーを押して輝度や彩度のみを変更する。",
+		"name": "2D color picker",
+		"description": "Replaces saturation and brightness sliders with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "60FPSモード",
-		"description": "緑の旗をAltキーを押しながらクリックして60FPSにする。",
+		"name": "Alt+GreenFlag 60FPS player mode",
+		"description": "Alt+Click the green flag to toggle 60FPS.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
@@ -21,14 +21,14 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "何もしないアドオン",
-		"description": "何もしないアドオン。",
+		"name": "Fix capitalization of Account Settings",
+		"description": "Changes \"Account settings\" in the account menu to \"Account Settings\".",
 		"tags": ["easterEgg", "community"]
 	},
 	{
 		"id": "animated-thumb",
-		"name": "サムネイル設定",
-		"description": "プロジェクトのサムネイルを設定するボタンを、エディターに追加する。",
+		"name": "Thumbnails setter",
+		"description": "Adds a button to the editor to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{
@@ -43,8 +43,8 @@
 	},
 	{
 		"id": "better-emojis",
-		"name": "絵文字の変更",
-		"description": "Scratchのコメントの猫の絵文字をベクター画像に変える。",
+		"name": "Better emojis",
+		"description": "Replaces the cat emojis in Scratch comments with improved vector designs.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
@@ -52,15 +52,15 @@
 	},
 	{
 		"id": "better-featured-project",
-		"name": "プロフィールページバナー",
-		"description": "プロフィールページの注目のプロジェクト表示をバナーにする。",
+		"name": "Profile page banner",
+		"description": "Makes the featured project on any user's profile page into a nice-looking banner.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
 		"id": "better-quoter",
-		"name": "選択範囲を引用",
-		"description": "フォーラム投稿の一部を選択し、Quoteボタンを押して選択範囲を引用する。",
+		"name": "Better forum quoter",
+		"description": "Select text in a forum post and click quote in the bottom right corner to only quote the select text.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -75,14 +75,14 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "ビットマップ画像をコピー",
-		"description": "ペイントエディターでビットマップ画像をコピー可能にする。",
+		"name": "Bitmap images copying",
+		"description": "Allows you to actually copy a bitmap image from the paint editor, so that you can paste it in other websites or software.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "ブロックパレットアイコン",
-		"description": "ブロックパレットのカテゴリーにアイコンを追加する。",
+		"name": "Block palette category icons",
+		"description": "Adds icons inside the colored circles that identify block categories.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{
@@ -94,15 +94,15 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "ブロック置換",
-		"description": "ブロックを右クリックして類似のブロックに変える。",
+		"name": "Block switching",
+		"description": "Right click on a block to switch it to a related block.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "blocks2image",
-		"name": "ブロックを画像に出力",
-		"description": "コードペインを右クリックしてブロックをSVG/PNGとして出力する。",
+		"name": "Save blocks as image",
+		"description": "Right click the editor workspace to export blocks as SVG/PNG images.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -110,8 +110,8 @@
 	},
 	{
 		"id": "cat-blocks",
-		"name": "キャットブロック",
-		"description": "2020年のエイプリルフールの「キャットブロック」を追加する。",
+		"name": "Cat blocks",
+		"description": "Brings back editor cat hat blocks from April Fools 2020.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -123,22 +123,22 @@
 	},
 	{
 		"id": "clones",
-		"name": "クローンカウンター",
-		"description": "クローンの合計数を表示する。",
+		"name": "Clone counter",
+		"description": "Adds a counter in the editor which shows the total amount of clones.",
 		"tags": ["editor", "projectPlayer"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "cloud-games",
-		"name": "クラウドゲーム",
-		"description": "Scratch Addonsアイコンをクリックしたときに、マルチプレイヤーゲームで遊んでいるScratcherの数とユーザー名を表示する。",
+		"name": "Cloud games",
+		"description": "Available when clicking the Scratch Addons icon. Shows you how many Scratchers are currently on multiplayer projects, and their usernames.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "color-picker",
-		"name": "16進数カラーピッカー",
-		"description": "16進数カラーコードの入力欄を追加する。",
+		"name": "Hex color picker",
+		"description": "Adds hex code inputs to color pickers.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -150,8 +150,8 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "コメント改行",
-		"description": "コメント中の改行を表示する。",
+		"name": "Linebreaks in comments",
+		"description": "Shows the linebreaks (pressing enter) in comments.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -162,8 +162,8 @@
 	},
 	{
 		"id": "confirm-actions",
-		"name": "確認画面",
-		"description": "プロジェクトの共有などを行うときに確認する。",
+		"name": "Confirm actions",
+		"description": "Asks if you're sure when committing actions under your Scratch account, such as sharing projects. ",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -174,8 +174,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "コメントのリンクをコピー",
-		"description": "コメントへのリンクをコピーするボタンを「報告」ボタンの横に追加する。",
+		"name": "Copy link to comment button",
+		"description": "Adds a \"Copy Link\" button to all Scratch comments, next to the \"Report\" button.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -183,8 +183,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Ctrl+Clickでスクリプトを実行",
-		"description": "Ctrlキーを押してスクリプトを押さないと実行しないようにする。",
+		"name": "Ctrl+Click to run scripts",
+		"description": "Only run block stacks on click if also holding the Ctrl key.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -193,8 +193,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "キュレーターリンク",
-		"description": "トップページの「選んだプロジェクト」欄のユーザー名をリンクにする。",
+		"name": "Curator link",
+		"description": "Creates a clickable link for the curator of the front page.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -205,8 +205,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "ブロックの形をカスタマイズ",
-		"description": "ブロックのパディング、角、切れ込みを調節する。",
+		"name": "Custom block shape",
+		"description": "Adjust the padding, corner radius, and notch height of Scratch blocks.",
 		"tags": ["editor", "codeEditor", "theme", "recommended"],
 		"credits": [
 			{
@@ -225,8 +225,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "カスタムズーム設定",
-		"description": "コードペインのズーム設定をカスタマイズする。",
+		"name": "Custom scripts area zoom settings",
+		"description": "Adjust the minimum, maximum, speed, and start size of the zoom in the project code editor, and autohide the controls.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -237,8 +237,8 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "団子 (エイプリルフール機能)",
-		"description": "「dango」と書かれているプロフィールに団子の雨を表示する。",
+		"name": "Dango rain on profiles (April Fools Day)",
+		"description": "Users that include the word \"dango\" on their \"About Me\" will have dango emojis raining on the sides of their profile.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -257,8 +257,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "ウェブサイトダークモード",
-		"description": "ウェブサイトのダークモード。複数の実装から選べる。",
+		"name": "Website dark mode",
+		"description": "Dark theme for the Scratch website, both for 2.0 and 3.0 pages. Multiple options by different authors available.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -269,15 +269,15 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "変数ブロック改良",
-		"description": "エディターの変数ブロックの表示を改良する。",
+		"name": "Data category tweaks",
+		"description": "Provides tweaks for the Data (\"Variables\") category in the editor.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "自動保存を無効化",
-		"description": "編集時の自動保存を無効化する。",
+		"name": "Disable auto-save",
+		"description": "Disables the automatic saving of projects while editing.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -288,29 +288,29 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "話すボタン",
-		"description": "話すボタンを追加する。",
+		"name": "Discuss button",
+		"description": "Adds the discuss button to the navbar.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
 	},
 	{
 		"id": "drag-drop",
-		"name": "ファイルをドロップ",
-		"description": "エディターのスプライトペインやコスチュームペインにファイルをドロップしたり、リストや「聞いて待つ」画面にテキストファイルをドロップできるようにする。",
+		"name": "Drag and drop files",
+		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "右クリックメニューを色付け",
-		"description": "右クリックメニューに色を付ける。",
+		"name": "Colored context menus",
+		"description": "Makes the editor context menus colorful when right-clicking a block.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "エディターのダークモードとカスタマイズ",
-		"description": "エディターの色をカスタマイズする。さまざまなダークテーマが利用できる。ダークモードが不要な場合は、「Scratchの既定の色」を選択すること。",
+		"name": "Editor dark mode and customizable colors",
+		"description": "Customize colors used by the project editor. Multiple dark themes by different authors available. If you don't need dark mode but want to change the default colors you can select the \"Scratch's default colors\" preset and tweak it.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
 			{
@@ -326,49 +326,49 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "開発者ツール",
-		"description": "検索バー、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他。",
+		"name": "Developer tools",
+		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "editor-messages",
-		"name": "エディター内でメッセージ数表示",
-		"description": "メッセージ数をエディター内に表示する。",
+		"name": "Messages in editor",
+		"description": "Displays your message count in the editor.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "ドロップダウン検索",
-		"description": "エディター内のドロップダウンの選択肢を検索する。",
+		"name": "Searchable dropdowns",
+		"description": "Allows you to search dropdowns in the Scratch editor.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-sounds",
-		"name": "エディター効果音",
-		"description": "ブロックをつなげたり削除したりするときに効果音を鳴らす。",
+		"name": "Editor sound effects",
+		"description": "Plays sound effects when you connect or delete blocks.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "ステージを左側に表示",
-		"description": "ステージを左側に表示する。",
+		"name": "Display stage on left side",
+		"description": "Moves the stage to the left side of the editor.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
-		"name": "実行中のブロック表示",
-		"description": "実行中のブロックの周りに青い枠線を表示する。",
+		"name": "Highlight currently executing blocks",
+		"description": "Adds a blue border to the blocks that are currently running in a project.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
 		"id": "editor-theme3",
-		"name": "ブロックの色をカスタマイズ",
-		"description": "ブロックの色をカテゴリーごとに変更する。",
+		"name": "Customizable block colors",
+		"description": "Edit block colors for each category in the editor.",
 		"tags": ["editor", "theme", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -380,8 +380,8 @@
 	},
 	{
 		"id": "exact-count",
-		"name": "正確な数を表示",
-		"description": "ユーザーやスタジオに関する正確な値を表示。フォーラムに関する情報はScratchDBを使用。",
+		"name": "Show exact count",
+		"description": "Shows the exact count for user and studio info. Uses ScratchDB for forums information.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -394,8 +394,8 @@
 	},
 	{
 		"id": "feature-unshared",
-		"name": "非共有プロジェクトを注目のプロジェクトに設定",
-		"description": "プロフィールページの「注目のプロジェクト」を非共有プロジェクトにする。",
+		"name": "Feature unshared projects",
+		"description": "Allows you to choose unshared projects after clicking \"change featured project\" in your profile.",
 		"tags": ["community", "profiles", "beta"],
 		"credits": [
 			{
@@ -406,8 +406,8 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "複製したブロックの実行禁止",
-		"description": "ブロックを複製したときに勝手に実行されるバグを修正する。",
+		"name": "Do not automatically run duplicated blocks",
+		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -417,21 +417,21 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "SVGアップロードの修正",
-		"description": "SVGアップロード時のバグを修正する。",
+		"name": "Fix broken SVG uploads",
+		"description": "Fixes a bug in the Scratch editor that fails to properly upload SVG files created with some image editors, such as Affinity Designer.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "folders",
-		"name": "スプライトフォルダー",
-		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。",
+		"name": "Sprite folders",
+		"description": "Adds folders to sprite lists, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "フォーラム引用のカスタマイズ",
-		"description": "フォーラムの引用・コードをきれいにする。",
+		"name": "Customized quotes & code blocks on forums",
+		"description": "Shows nicer code and quote blocks on the forums.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH (Port)" },
@@ -440,21 +440,21 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "フォーラム検索",
-		"description": "フォーラム検索を追加する。ScratchDB使用。",
+		"name": "Forum search",
+		"description": "Adds a post search to the forum homepage. Uses ScratchDB for information.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "フォーラムのタイムゾーン表示変更",
-		"description": "投稿日時をコンピューターのタイムゾーンで表示する。データ提供元: ScratchDB",
+		"name": "Use local timezone on forums",
+		"description": "Converts the post dates to your time zone. Uses ScratchDB for information.",
 		"tags": ["forums", "community"]
 	},
 	{
 		"id": "full-signature",
-		"name": "表示域拡大",
-		"description": "署名や「私が取り組んでいること」など、サイズの制限がある部分をスクロールしたり、サイズ変更可能にしたりする。",
+		"name": "Show full areas",
+		"description": "Makes some elements with limited height resizable or scrollable, such as user signatures on the forums and What I've been doing on profiles.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -468,15 +468,15 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "ゲームパッド",
-		"description": "USBかBluetoothのコントローラーやゲームパッドを利用する。",
+		"name": "Gamepad support",
+		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hide-flyout",
-		"name": "ブロックパレット隠し",
-		"description": "ブロックパレットをホバーしていないときに隠す。ロックアイコンをクリックして表示し続けたり、「カテゴリー・クリック」を使うこともできる。",
+		"name": "Auto-hide block palette",
+		"description": "Hides the block palette if not hovered. Click the lock icon to lock it in place temporarily. Alternatively, use \"category click\" mode.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -487,22 +487,22 @@
 	},
 	{
 		"id": "image-uploader",
-		"name": "フォーラム画像アップローダー",
-		"description": "画像をアップロードし、フォーラムに投稿する。",
+		"name": "Forums image uploader",
+		"description": "Integrates image uploading into the forums.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "infinite-scroll",
-		"name": "無限スクロール",
-		"description": "「もっと読み込む」を押さずにスクロールできるようにする。",
+		"name": "Infinite scrolling",
+		"description": "Allow for scrolling on different parts of the site without having to click to \"load more\".",
 		"tags": ["community"],
 		"credits": [{ "name": "DatOneLefty" }]
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "新しいスプライトの位置を変更",
-		"description": "新しいスプライトの位置を固定する。",
+		"name": "Change new sprite default position",
+		"description": "Moves sprites to a specified x/y position when they are created.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -513,8 +513,8 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "共有・編集日表示",
-		"description": "プロジェクトの共有日をホバーして、正確な共有日時と編集日時を表示する。",
+		"name": "Shared/edited dates tooltip",
+		"description": "Hover over a project's share date for information on when exactly it was shared and last edited.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -526,8 +526,8 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "注目のプロジェクトを動かす",
-		"description": "プロフィールページの「注目のプロジェクト」を直接遊べるようにする。Mega Scratch Userscriptをもとに作成。",
+		"name": "Live featured project",
+		"description": "Shows interactive embed of the featured project, directly from the user's profile page. Based on the implementation on Mega Scratch Userscript.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -539,14 +539,14 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "拡張機能の自動追加",
-		"description": "プロジェクトに自動で拡張機能を追加する。",
+		"name": "Auto-show editor extensions",
+		"description": "Adds music, pen, and other editor extensions automatically to the block category list.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "「私が取り組んでいること」文字数制限増加",
-		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
+		"name": "Higher character limit in \"What I'm Working On\"",
+		"description": "Allows you to type 55 more characters in your profile's \"What I'm Working On\". Everyone on Scratch will see the extra characters.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
@@ -554,8 +554,8 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "投稿画面のアイコン変更",
-		"description": "フォーラムの投稿画面のアイコンを変更する。",
+		"name": "Better forums post editor buttons",
+		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -570,14 +570,14 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "ステージを録画",
-		"description": "ステージを録画するボタンを追加する。",
+		"name": "Record project video",
+		"description": "Adds a \"start recording\" button to the editor that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
-		"name": "メッセージフィルター",
-		"description": "Scratchのメッセージページに表示するメッセージの種類を選ぶ。",
+		"name": "Filter messages on Scratch's messages page",
+		"description": "Lets you select what types of messages to hide or show on Scratch's messages page.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -588,28 +588,28 @@
 	},
 	{
 		"id": "more-links",
-		"name": "リンク化",
-		"description": "scratch.mit.edu外にリンクしているURLをクリック可能にする。",
+		"name": "More links",
+		"description": "Adds links for URLs pointing outside scratch.mit.edu.",
 		"tags": ["community"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
 		"id": "mouse-pos",
-		"name": "マウスの座標",
-		"description": "緑の旗の横にマウスの座標を表示する。",
+		"name": "Mouse position",
+		"description": "Displays your mouse position next to the flag in the editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "アイコンにメッセージ数を表示",
-		"description": "Scratch Addonsアイコンにメッセージ数を表示する。",
+		"name": "Message count on extension icon",
+		"description": "Adds the current message count in the Scratch Addons icon.",
 		"tags": ["popup", "recommended"]
 	},
 	{
 		"id": "mute-project",
-		"name": "プロジェクトをミュート",
-		"description": "緑の旗をCtr+クリックでミュートする。",
+		"name": "Mute project player",
+		"description": "Ctrl+Click the green flag to mute/unmute the project.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -620,36 +620,36 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular.jeffalo.netステータスとリアクションを表示する",
-		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
+		"name": "Show ocular.jeffalo.net statuses and post reactions",
+		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "onion-skinning",
-		"name": "半透明コスチュームエディター",
-		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの下のボタンで制御可能。",
+		"name": "Onion skinning",
+		"description": "Shows transparent overlays of previous or next costumes when editing a costume. Controlled by buttons under the editor by the zoom buttons.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "pause",
-		"name": "一時停止ボタン",
-		"description": "緑の旗の横に一時停止ボタンを追加する。",
+		"name": "Pause button",
+		"description": "Adds a pause button next to the green flag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
-		"name": "読み込み進捗バー",
-		"description": "プロジェクトの読み込みや保存の進捗状況を表示する。",
+		"name": "Project progress bar",
+		"description": "Adds a progress bar for loading and saving projects.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "project-info",
-		"name": "スプライト・スクリプト数表示",
-		"description": "プロジェクトのスプライト数とスクリプト数を表示する。",
+		"name": "Sprite and script count",
+		"description": "Shows the number of sprites and scripts a project has.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -660,8 +660,8 @@
 	},
 	{
 		"id": "project-notes-tabs",
-		"name": "使い方タブ",
-		"description": "プロジェクトページの「使い方」「メモとクレジット」表示をタブにする。",
+		"name": "Project notes tabs",
+		"description": "Creates tabs on a project page for the \"Instructions\" section and the \"Notes and Credits\" section.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -672,15 +672,15 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "リミックスツリーボタン",
-		"description": "リミックスツリーボタンを追加する。",
+		"name": "Remix tree button on project pages",
+		"description": "Brings back the remix tree button to project pages.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "ステージの枠の丸み除去",
-		"description": "ステージの枠の丸みをなくし、角を見れるようにする。",
+		"name": "Remove curved stage border",
+		"description": "Removes the curved border around the stage, allowing you to see the corners.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -688,28 +688,28 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "スプライト削除確認",
-		"description": "スプライトの削除時に確認画面を表示する。",
+		"name": "Confirm sprite deletion",
+		"description": "Asks if you're sure when deleting a sprite inside a project.",
 		"tags": ["editor", "recommended"]
 	},
 	{
 		"id": "resizable-comment-input",
-		"name": "コメント欄のサイズ変更",
-		"description": "プロジェクトページのコメント欄の大きさを変更できるようにする。",
+		"name": "Resizable comment input",
+		"description": "Makes the comment input box vertically resizable in Scratch 3.0-styled pages.",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [{ "name": "Maximouse" }]
 	},
 	{
 		"id": "scratch-messaging",
-		"name": "Scratchメッセージ",
-		"description": "Scratch Addonsアイコンをクリックして利用する。メッセージを簡単に確認し、コメントの全文を確認し、直接返信する。",
+		"name": "Scratch Messaging",
+		"description": "Available when clicking the Scratch Addons icon. Provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratch通知",
-		"description": "メッセージを通知する。クリックしてメッセージの対象(コメント、スタジオなど)に直接行く。",
+		"name": "Scratch Notifier",
+		"description": "Notifications on new Scratch messages. Click the notification to go straight to the message (comment, project, etc.)",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -719,8 +719,8 @@
 	},
 	{
 		"id": "scratchr2",
-		"name": "Scratch 3.0化",
-		"description": "Scratch 2.0風のページを3.0化する。",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "Makes Scratch 2.0-styled pages look like Scratch 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -731,36 +731,36 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "プロフィール統計",
-		"description": "プロフィールにScratchDBの統計を追加する。",
+		"name": "Profile statistics",
+		"description": "Shows statistics from ScratchDB on profile pages.",
 		"tags": ["community", "profiles"],
 		"credits": [{ "name": "Maximouse" }]
 	},
 	{
 		"id": "search-profile",
-		"name": "プロフィール検索",
-		"description": "ユーザー名で検索時に、プロフィールページへ行くリンクを追加する。",
+		"name": "Search profile",
+		"description": "Allows you to go to a user's profile when you search their username.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
 	},
 	{
 		"id": "semicolon",
-		"name": "セミコロンのバグ",
-		"description": "有名なセミコロンのバグを追加する。",
+		"name": "Semicolon glitch",
+		"description": "Adds the semicolon glitch back to Scratch.",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }]
 	},
 	{
 		"id": "show-bbcode",
-		"name": "BBCodeを表示",
-		"description": "投稿のBBCodeを表示するボタンを加える。",
+		"name": "Show BBCode",
+		"description": "Adds a button to the forums that shows the BBCode source of a post.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }]
 	},
 	{
 		"id": "studio-tools",
-		"name": "スタジオ管理ツール",
-		"description": "キュレータータブにて、簡単にキュレーターを昇格・削除したり、スタジオから抜けたりする。",
+		"name": "Studio manager tools",
+		"description": "Lets you easily promote or remove anyone from your studios, as well as leaving any studio, through the \"curators\" tab.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -772,8 +772,8 @@
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "透明ブロック",
-		"description": "エディター内のつながっていないブロックやドラッグ中のブロックの透明度を調整する。",
+		"name": "Block transparency",
+		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -785,22 +785,22 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "YouTubeリンク修正",
-		"description": "YouTube動画プレイヤーへのリンクを本物へのリンクに置き換える。",
+		"name": "True forums YouTube links",
+		"description": "Replaces links to the embedded site with real YouTube links.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
 	},
 	{
 		"id": "variable-manager",
-		"name": "変数マネージャー",
-		"description": "エディターに変数とリストを管理するためのタブを追加する。",
+		"name": "Variable manager",
+		"description": "Adds a tab next to \"sounds\" in the editor for easily updating variables and lists.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "youtube-fullscreen",
-		"name": "YouTube全画面表示",
-		"description": "ScratchのYouTube動画プレイヤーで、全画面表示を有効化する。",
+		"name": "YouTube full screen",
+		"description": "Enables the full screen button in Scratch's YouTube video player.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

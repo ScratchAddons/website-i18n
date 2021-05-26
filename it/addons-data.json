@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Conferma azioni",
 		"description": "Chiede se sei sicuro quando esegui delle azioni nel tuo account di Scratch, ad esempio quando condividi dei progetti.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+Click per eseguire gli script",
+		"description": "Esegue gli script cliccati solo se si preme contemporaneamente il tasto Ctrl.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Non eseguire automaticamente blocchi duplicati",
+		"description": "Corregge un bug dell'editor che causa l'esecuzione di uno script quando si duplica un blocco e lo si attacca allo script.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Correggi errore caricamento file SVG",
 		"description": "Risolve un errore nell'editor di Scratch a causa del quale fallisce il caricamento di file SVG creati con alcuni editor di immagini, come ad esempio Affinity Designer.",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "Supporto Gamepad",
 		"description": "Interagisci con i progetti usando un controller/gamepad USB o bluetooth.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -552,6 +573,18 @@
 		"name": "Registra video del progetto",
 		"description": "Aggiunge all’editor un pulsante “Avvia registrazione” che permette di registrare cioè che avviene sullo stage del progetto.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Filtra i messaggi nella pagina dei messaggi di Scratch",
+		"description": "Ti permette di selezionare quali tipi di messaggi nascondere o mostrare nella pagina dei messaggi di Scratch.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
 	},
 	{
 		"id": "more-links",
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Trasparenza dei blocchi",
+		"description": "Scegli la trasparenza dei blocchi nell'editor, con opzioni separate per i blocchi \"orfani\" (blocchi che non sono attaccati da un cappello) e i blocchi che vengono trascinati.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

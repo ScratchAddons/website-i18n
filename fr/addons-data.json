@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Confirmation des actions",
 		"description": "Vous demande si vous voulez vraiment effectuer des actions avec votre compte Scratch, comme par exemple celle de partager un projet.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl + Clic pour exécuter les scripts",
+		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -215,8 +225,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Custom scripts area zoom settings",
-		"description": "Adjust the minimum, maximum, speed, and start size of the zoom in the project code editor, and autohide the controls.",
+		"name": "Paramètres personnalisés pour le zoom dans la zone des scripts",
+		"description": "Ajuste le minimum, le maximum, la vitesse et la taille de base du zoom dans l'éditeur de code du projet, et cache automatiquement les contrôles.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Ne pas exécuter automatiquement les blocs dupliqués",
+		"description": "Corrige un bug dans l'éditeur Scratch, où dupliquer un bloc et l'attacher à une pile entraîne l'exécution de la pile.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Règler les exportations échouées des graphismes au format SVG",
 		"description": "Règle un bug dans l'éditeur Scratch qui n'arrivait pas à exporter des fichiers SVG créés avec certains éditeurs d'images correctement, comme Affinity Designer.",
@@ -448,8 +469,8 @@
 	{
 		"id": "gamepad",
 		"name": "Support manette",
-		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
-		"tags": ["editor", "beta"],
+		"description": "Interagissez avec les projets en utilisant une manette USB ou Bluetooth.",
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -534,7 +555,7 @@
 	{
 		"id": "material-forum-editor-buttons",
 		"name": "Meilleurs boutons sur l'éditeur de posts du forum",
-		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
+		"description": "Remplace les icônes de 16x16 pixels de l'éditeur de posts du forum par des icônes Material en SVG.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -552,6 +573,18 @@
 		"name": "Enregistrer en vidéo un projet",
 		"description": "Ajoute un bouton \"démarrer l'enregistrement\" à l'éditeur qui vous permet d'enregistrer la scène du projet.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Filtrer les messages sur la page des messages de Scratch",
+		"description": "Vous permet de choisir quels types de messages montrer ou cacher sur la page des messages de Scratch",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
 	},
 	{
 		"id": "more-links",
@@ -646,8 +679,8 @@
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Enlever la bordure de la scène courbée",
-		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"name": "Enlever les bords arrondis de la scène",
+		"description": "Retire les bords arrondis de la scène, permettant de voir les coins.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Transparence des blocs",
+		"description": "Ajuste la transparence des blocs dans l'éditeur, avec des options séparées pour les blocs orphelins (ceux sans chapeau en haut) et les blocs qui sont déplacés.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

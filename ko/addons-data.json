@@ -21,7 +21,7 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "계정 설정 대문자화 수정",
+		"name": "계정 설정에서 \"settings\" 대문자로 수정",
 		"description": "계정 메뉴에서 \"Account settings\"을 \"Account Settings\"으로 변경합니다. (영어 전용)",
 		"tags": ["easterEgg", "community"]
 	},
@@ -123,8 +123,8 @@
 	},
 	{
 		"id": "clones",
-		"name": "복제본 계수기",
-		"description": "편집기에 총 복제본 양을 표시하는 계수기를 추가합니다.",
+		"name": "복제본 개수 표시",
+		"description": "편집기에 총 복제본 양을 표시합니다.",
 		"tags": ["editor", "projectPlayer"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "활동 확인하기",
 		"description": "스크래치 계정에서 프로젝트 공유와 같은 작업을 수행할 때 한 번 더 묻습니다.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -179,6 +179,16 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+클릭으로 스크립트 실행하기",
+		"description": "당신이 Ctrl키를 누르고 있을 경우에만 블럭이 실행됩니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -292,8 +302,8 @@
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "컨텍스트 메뉴 색상",
-		"description": "블록을 마우스 오른쪽 단추로 클릭할 때 편집기 컨텍스트 메뉴를 컬러로 만듭니다.",
+		"name": "우클릭 메뉴 색상",
+		"description": "블록을 마우스 오른쪽 단추로 클릭할 때 편집기 우클릭 메뉴를 컬러로 만듭니다.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -331,7 +341,7 @@
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "검색 가능한 드롭다운",
-		"description": "스크래치 에디터의 드롭다운에 검색을 허용합니다.",
+		"description": "스크래치 에디터의 드롭다운 메뉴에 검색 가능하게 합니다.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "블럭을 복제한 뒤 자동으로 실행되는 버그 고치기",
+		"description": "스크래치 편집기에서 복제 뒤 블럭이 다른 블럭에 붙을 경우 실행되는 버그를 고칩니다.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "고장난 SVG 업로드 수정하기",
 		"description": "Affinity Designer와 같은 일부 이미지 편집기로 생성된 SVG 파일을 제대로 업로드하지 못하는 버그를 스크래치 편집기에서 수정합니다.",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "게임패드 지원",
 		"description": "USB 또는 Bluetooth 컨트롤러/게임 패드를 사용하여 프로젝트와 상호작용합니다.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -554,6 +575,18 @@
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
+		"id": "message-filters",
+		"name": "스크래치의 메시지 페이지의 메시지 분류하기",
+		"description": "스크래치의 메시지 페이지에서 보이거나 숨길 메시지 분류를 선택합니다.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
+	},
+	{
 		"id": "more-links",
 		"name": "더 많은 링크",
 		"description": "scratch.mit.edu 외부의 URL도 링크됩니다.",
@@ -562,7 +595,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "마우스 위치",
+		"name": "마우스 위치 표시",
 		"description": "편집기 안의 깃발 옆에 당신의 마우스 위치를 표시합니다.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
@@ -594,7 +627,7 @@
 	},
 	{
 		"id": "onion-skinning",
-		"name": "어니언 스킨",
+		"name": "어니언 스키닝",
 		"description": "모양을 편집할 때 이전 모양 또는 다음 모양의 투명한 오버레이를 표시합니다. 확대/축소 버튼에 의해 편집기 아래의 버튼으로 제어됩니다.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -615,7 +648,7 @@
 	},
 	{
 		"id": "project-info",
-		"name": "스프라이트와 스크립트 세기",
+		"name": "스프라이트와 스크립트 개수 표시",
 		"description": "프로젝트가 가진 스프라이트와 스크립트 수를 보입니다.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -669,7 +702,7 @@
 	{
 		"id": "scratch-messaging",
 		"name": "스크래치 메시지",
-		"description": "스크래치 애드온 아이콘을 클릭할 때 사용할 수 있습니다. 스크래치 메시지를 쉽게 읽고 답장할 수 있습니다. 메시지를 프로젝트별로 그룹화하고, 전체 댓글 텍스트와 컨텍스트를 표시하며, 직접 메시지를 답장할 수 있습니다.",
+		"description": "스크래치 애드온 아이콘을 클릭할 때 사용할 수 있습니다. 스크래치 메시지를 쉽게 읽고 답장할 수 있습니다. 메시지를 프로젝트별로 그룹화하고, 댓글과 답글을 표시하며, 직접 메시지를 답장할 수 있습니다.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "블럭 투명도",
+		"description": "분리된 블럭(맨 위에 모자 블럭이 없는 블럭) 및 드래그 중인 블럭에 대한 별도의 설정을 사용하여 편집기에서 블럭의 투명도를 조정합니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{

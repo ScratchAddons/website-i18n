@@ -164,7 +164,7 @@
 		"id": "confirm-actions",
 		"name": "Eylemleri onaylayın",
 		"description": "Scratch hesabınız altında projeleri paylaşmak gibi eylemler gerçekleştirirken emin olup olmadığınızı sorar.",
-		"tags": ["community", "recommended", "studios"],
+		"tags": ["community", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -182,6 +182,16 @@
 		]
 	},
 	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+Click to run scripts",
+		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "curator-link",
 		"name": "Yapımcı Bağlantısı",
 		"description": "Ön sayfanın yapımcısı için tıklanabilir bir bağlantı oluşturur.",
@@ -195,7 +205,7 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Custom block shape",
+		"name": "Özel blok şekli",
 		"description": "Adjust the padding, corner radius, and notch height of Scratch blocks.",
 		"tags": ["editor", "codeEditor", "theme", "recommended"],
 		"credits": [
@@ -228,7 +238,7 @@
 	{
 		"id": "dango-rain",
 		"name": "Profillerde Dango yağmuru (1 Nisan Şaka Günü)",
-		"description": "Users that include the word \"dango\" on their \"About Me\" will have dango emojis raining on the sides of their profile.",
+		"description": "\"Hakkımda\" kısmında \"dango\" kelimesini içeren kullanıcıların profillerinin yan kısımlarında yağan dango emojileri olacak.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -395,6 +405,17 @@
 		]
 	},
 	{
+		"id": "fix-pasted-scripts",
+		"name": "Otomatik olarak kopyalanmış blokları çalıştırmayın.",
+		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
 		"id": "fix-uploaded-svgs",
 		"name": "Bozuk SVG yüklemelerini düzeltin",
 		"description": "Scratch düzenleyicide Affinity Designer gibi bazı görüntü düzenleyicilerle oluşturulmuş SVG dosyalarını düzgün şekilde yüklemeyen bir hatayı düzeltir.",
@@ -449,7 +470,7 @@
 		"id": "gamepad",
 		"name": "Oyun kumandası desteği",
 		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -533,7 +554,7 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Better forums post editor buttons",
+		"name": "Daha iyi forum gönderi butonları",
 		"description": "Changes the forums post editor UI icons from tiny 16x16 bitmaps to SVG material icons.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -552,6 +573,18 @@
 		"name": "Proje videosu kaydet",
 		"description": "Editöre, projenin aşamasını kaydetmenize izin veren bir \"kaydı başlat\" düğmesi ekler.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Filter messages on Scratch's messages page",
+		"description": "Lets you select what types of messages to hide or show on Scratch's messages page.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
 	},
 	{
 		"id": "more-links",
@@ -735,6 +768,19 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Block transparency",
+		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{
