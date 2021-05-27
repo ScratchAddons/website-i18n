@@ -87,10 +87,10 @@ IndexPage:
     OSHeading: Open source
     OSParagraph: "Scratch Addons est gratuit, open source et construit par une communauté de Scratcheurs."
   Highlights:
-    Heading: Highlights
-    Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
+    Heading: Aperçu
+    Paragraph: "N'oubliez pas que ce n'est qu'un aperçu. {{.OpenTag1}}Il y a bien plus !{{.CloseTag1}}"
     ScratchMessagingHeading: Messagerie Scratch
-    ScratchMessagingParagraph: 'The "grandfather" of Scratch Addons. It is available when clicking the Scratch Addons icon, and provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.'
+    ScratchMessagingParagraph: '"L''ancêtre" de Scratch Addons. Scratch Messaging est disponible en cliquant sur l''icône de Scratch Addons, et permet de lire et de répondre facilement à vos messages Scratch : regroupe les messages par projet, affiche le commentaire en entier et son contexte, permet de répondre directement aux commentaires.'
     ScratchNotifierHeading: Scratch Notifier
     ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
     DeveloperToolsHeading: Outils de développeur

@@ -1,5 +1,5 @@
 _index.html:
-  description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch (scratch.mit.edu) website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+  description: "Scratch Eklentileri Scratch (scratch.mit.edu) ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır."
 welcome.html:
   title: Hoş Geldiniz!
   description: Scratch Eklentileri başarılı bir şekilde yüklendi! Yüklediğiniz için teşekkür ederiz. Umuyoruz ki eklentiyi beğenirsiniz!
@@ -7,5 +7,5 @@ farewell.html:
   title: Güle Güle!
   description: Scratch Eklentileri kaldırıldı. Eklentiyi kullandığınız için teşekkür ederiz!
 addons.html:
-  title: Addons
-  description: This page lists all of the addons that are implemented on Scratch Addons.
+  title: Eklentiler
+  description: "Bu sayfa, Scratch Eklentileri'nde bulunan tüm eklentileri listeler."

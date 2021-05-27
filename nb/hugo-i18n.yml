@@ -1,31 +1,31 @@
 Global:
-  ScratchAddons: Scratch Addons
-  LogoAlt: Scratch Addons logo
+  ScratchAddons: Scratch Utvidelser
+  LogoAlt: Scratch Utvidelser logo
   ChromeLong: Google Chrome
   FirefoxLong: Mozilla Firefox
   ChromeShort: Chrome
   FirefoxShort: Firefox
-  Install: Install
-  InstallFor: "Install for {{.Browser}}"
+  Install: Installer
+  InstallFor: "Installer for {{.Browser}}"
 
 Nav:
   Contributors: Contributors
   Feedback: Send Feedback
   Repository: Repository
-  Install: Install
+  Install: Installer
 
 Footer:
   Pages:
-    Header: Pages
+    Header: Sider
     FAQ: FAQ
-    Feedback: Send Feedback
+    Feedback: Send tilbakemelding
     Contributors: Contributors
     Changelog: Changelog
     Addons: Addons
   Discuss:
     Header: Discuss
-    Discussion Forum: Discussion Forum
-    Issues: Issues
+    Discussion Forum: Forum
+    Issues: Feil
     DiscordCom: Community Discord
     DiscordDev: Development Discord
   Resources:
@@ -57,7 +57,7 @@ IndexPage:
     Tagline: All in one browser extension for Scratch
     Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
     InstallButton:
-      Loading: Loading...
+      Loading: Laster inn...
       Description: "free, open source"
     ReadMore: or read more
     Carousel:
@@ -75,10 +75,10 @@ IndexPage:
         Caption: "Demonstration of the extension. ({{.Count}})"
         ImgAlt: "Demonstration ({{.Count}})"
       Previous: Previous
-      Next: Next
+      Next: Neste
   Features:
     Heading: Features
-    AddonsHeading: Addons
+    AddonsHeading: Utvidelser
     AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
     CustomizableHeading: Customizable
     CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
@@ -96,13 +96,13 @@ IndexPage:
     DeveloperToolsHeading: Developer tools
     DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
   Install:
-    Heading: Install    
+    Heading: Installer    
     Paragraph: "Satisfied? Don't hesitate to install it now!"
     InstallButton:
       Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
 
 AddonsPage:
-  EasterEggAddon: This is an easter egg addon.
+  EasterEggAddon: Dette er en easter egg utvidelse.
   RecommendedAddon: This is a recommended addon.
   ListViewLabel: List view
   EasterEggLabel: Easter egg

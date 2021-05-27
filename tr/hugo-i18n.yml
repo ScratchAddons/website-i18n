@@ -69,7 +69,7 @@ IndexPage:
         Caption: The extension pop-up.
         ImgAlt: Extension pop-up
       Settings:
-        Caption: The settings page.
+        Caption: Ayarlar sayfası.
         ImgAlt: Ayarlar sayfası
       Demo:
         Caption: "Demonstration of the extension. ({{.Count}})"
