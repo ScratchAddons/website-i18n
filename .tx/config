@@ -43,24 +43,3 @@ source_file = en/html-content/addons.html
 source_lang = en
 type = HTML_FRAGMENT
 
-[scratch-addons-website.html-content_feedback]
-file_filter = <lang>/html-content/feedback.html
-minimum_perc = 100
-source_file = en/html-content/feedback.html
-source_lang = en
-type = HTML_FRAGMENT
-
-[scratch-addons-website.html-content_unsupported-browser]
-file_filter = <lang>/html-content/unsupported-browser.html
-minimum_perc = 100
-source_file = en/html-content/unsupported-browser.html
-source_lang = en
-type = HTML_FRAGMENT
-
-[scratch-addons-website.html-content_scratch-messaging-transition]
-file_filter = <lang>/html-content/scratch-messaging-transition.html
-minimum_perc = 100
-source_file = en/html-content/scratch-messaging-transition.html
-source_lang = en
-type = HTML_FRAGMENT
-
