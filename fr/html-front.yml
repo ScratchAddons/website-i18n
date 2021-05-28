@@ -7,5 +7,5 @@ farewell.html:
   title: Au revoir !
   description: Scratch Addons a été désinstallé. Nous vous remercions d'avoir utilisé l'extension !
 addons.html:
-  title: Les addons
-  description: Cette page reprend tous les addons présents dans Scratch Addons.
+  title: Addons
+  description: Cette page liste tous les addons implémentés dans Scratch Addons
