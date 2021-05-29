@@ -9,3 +9,12 @@ farewell.html:
 addons.html:
   title: Addons
   description: "Diese Seite listet alle Addons auf, die in Scratch Addons implementiert sind."
+feedback.html:
+  title: Feedback senden
+  description: Gib den Scratch Addons-Entwicklern dein Feedback.
+scratch-messaging-transition.html:
+  title: Erweiterungsupdate (Übergang)
+  description: "Die Scratch Messaging Extension (von griffpatch) wurde aktualisiert und heißt nun Scratch Addons. Klicke auf das Scratch Addons-Icon in der Erweiterungenleiste, um die aktualisierte Nachrichtenzusammenfassung zu sehen!"
+unsupported-browser.html:
+  title: Browser nicht untersützt
+  description: "Scratch Addons unterstützt den Browser, den du gerade verwendest, nicht."

@@ -9,3 +9,12 @@ farewell.html:
 addons.html:
   title: Dodatki
   description: "Na tej strani je seznam vseh dodatkov, ki so del Scratch Addons."
+feedback.html:
+  title: Povratne informacije
+  description: Pošljite povratne informacije razvijalcem Scratch Addons.
+scratch-messaging-transition.html:
+  title: Posodobitev razširitve
+  description: "Razširitev Scratch Messaging Extension (avtorja griffpatch) je posodobljena in se zdaj imenuje Scratch Addons. Kliknite ikono Scratch Addons v vrstici z razširitvami, da odprete na novo oblikovan pregled sporočil!"
+unsupported-browser.html:
+  title: Brskalnik ni podprt
+  description: "Scratch Addons ne deluje v brskalniku, ki ga uporabljate."

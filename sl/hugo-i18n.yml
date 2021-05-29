@@ -109,3 +109,13 @@ AddonsPage:
   EasterEggTooltip:
     L1: "Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji."
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
+
+FeedbackPage:
+  Status:
+    Sending: Pošiljanje...
+    Success: Poslano! Hvala za informacije.
+    Failed: Prišlo je do težave. Poskusite znova.
+  UsernameLabel: "Scratch username, or other identifiers (optional)"
+  ContentLabel: Povratne informacije
+  ContentPlaceholder: "Prosimo, da navedete čim več podrobnosti."
+  SubmitButton: Pošlji

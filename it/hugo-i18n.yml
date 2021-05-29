@@ -109,3 +109,13 @@ AddonsPage:
   EasterEggTooltip:
     L1: "Per attivare gli addon, fai il Codice Konami (↑↑↓↓←→←→BA) nella pagina delle impostazioni. Scopri di più nel FAQ."
     L2: "In questa pagina, un addon a sorpresa avrà il simbolo di un uovo accanto al nome."
+
+FeedbackPage:
+  Status:
+    Sending: Sending...
+    Success: Sent! Thanks for the feedback.
+    Failed: "Something went wrong. Try sending again?"
+  UsernameLabel: "Scratch username, or other identifiers (optional)"
+  ContentLabel: Feedback
+  ContentPlaceholder: Please provide as much detail as you can.
+  SubmitButton: Send

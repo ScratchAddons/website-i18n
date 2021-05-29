@@ -109,3 +109,13 @@ AddonsPage:
   EasterEggTooltip:
     L1: "Um die Addons zu aktivieren, mache den Konami-Code (↑↑↓↓←→←→BA) auf der Einstellungenseite. Lies die FAQ für mehr Infos."
     L2: In dieser Seite wird ein Easter Egg-Addon ein Eisymbol neben seinem Namen haben.
+
+FeedbackPage:
+  Status:
+    Sending: Wird gesendet…
+    Success: Gesendet! Danke für dein Feedback!
+    Failed: "Es ist ein Fehler aufgetreten? Erneut senden?"
+  UsernameLabel: "Scratch-Benutzername, oder andere Erkennungen (optional)"
+  ContentLabel: Feedback
+  ContentPlaceholder: Bitt stelle so viele Details wie du kannst zu Verfügung.
+  SubmitButton: Senden

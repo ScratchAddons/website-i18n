@@ -109,3 +109,13 @@ AddonsPage:
   EasterEggTooltip:
     L1: "Para ativar esses addons, faça o Konami Code (↑↑↓↓←→←→BA) na página de configuração. Leia o FAQ para mais informações."
     L2: "Nessa página, um addon secreto terá um ícone de ovo do lado do seu nome."
+
+FeedbackPage:
+  Status:
+    Sending: Enviando...
+    Success: Enviado! Obrigado pelo feedback.
+    Failed: Algo deu errado. Tente enviar de novo.
+  UsernameLabel: "Nome de usuário no Scratch, ou outro apelido (opcional)"
+  ContentLabel: Feedback
+  ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
+  SubmitButton: Enviar
