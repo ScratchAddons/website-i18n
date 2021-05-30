@@ -7,5 +7,14 @@ farewell.html:
   title: Au revoir !
   description: Scratch Addons a été désinstallé. Nous vous remercions d'avoir utilisé l'extension !
 addons.html:
-  title: Addons
-  description: Cette page liste tous les addons implémentés dans Scratch Addons
+  title: Les addons
+  description: Cette page reprend tous les addons présents dans Scratch Addons.
+feedback.html:
+  title: Envoyer des retours
+  description: Envoyer des retours aux développeurs de Scratch Addons.
+scratch-messaging-transition.html:
+  title: Mise à jour de l'extension (transition)
+  description: Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons. Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
+unsupported-browser.html:
+  title: Navigateur non supporté
+  description: Scratch Addons ne supporte pas le navigateur que vous utilisez.

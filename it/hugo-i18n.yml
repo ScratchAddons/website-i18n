@@ -107,15 +107,15 @@ AddonsPage:
   ListViewLabel: Visualizzazione lista
   EasterEggLabel: Addon a Sorpresa
   EasterEggTooltip:
-    L1: "Per attivare gli addon, fai il Codice Konami (↑↑↓↓←→←→BA) nella pagina delle impostazioni. Scopri di più nel FAQ."
-    L2: "In questa pagina, un addon a sorpresa avrà il simbolo di un uovo accanto al nome."
+    L1: "Per attivare gli addon, digita il Codice Konami (↑↑↓↓←→←→BA) nella pagina delle impostazioni. Scopri di più nelle Domande Frequenti."
+    L2: "In questa pagina, troverai un addon a sorpresa con il simbolo di un uovo accanto al suo nome."
 
 FeedbackPage:
   Status:
-    Sending: Sending...
-    Success: Sent! Thanks for the feedback.
-    Failed: "Something went wrong. Try sending again?"
-  UsernameLabel: "Scratch username, or other identifiers (optional)"
+    Sending: Invio in corso...
+    Success: Inviato! Grazie per il tuo feedback.
+    Failed: "Qualcosa non ha funzionato. Vuoi provare a inviare di nuovo?"
+  UsernameLabel: "Username del sito di Scratch, o altro identificatore (opzionale)"
   ContentLabel: Feedback
-  ContentPlaceholder: Please provide as much detail as you can.
-  SubmitButton: Send
+  ContentPlaceholder: Dacci più dettagli che puoi.
+  SubmitButton: Invia

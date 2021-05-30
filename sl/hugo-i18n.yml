@@ -115,7 +115,7 @@ FeedbackPage:
     Sending: Pošiljanje...
     Success: Poslano! Hvala za informacije.
     Failed: Prišlo je do težave. Poskusite znova.
-  UsernameLabel: "Scratch username, or other identifiers (optional)"
+  UsernameLabel: Scratch uporabniško ime ali drug kontakt (neobvezno)
   ContentLabel: Povratne informacije
   ContentPlaceholder: "Prosimo, da navedete čim več podrobnosti."
   SubmitButton: Pošlji
