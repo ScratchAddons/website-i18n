@@ -5,8 +5,8 @@ Global:
   FirefoxLong: Mozilla Firefox
   ChromeShort: Chrome
   FirefoxShort: Firefox
-  Install: Install
-  InstallFor: "Install for {{.Browser}}"
+  Install: インストール
+  InstallFor: "{{.Browser}}用をインストール"
 
 Nav:
   Contributors: 貢献者
@@ -41,81 +41,81 @@ Footer:
 
 DarkTheme:
   Title: クリックしてダークモードを切り替えられます。
-  Label: Dark theme switch
+  Label: ダークモード切り替えボタン
 
 Docs:
-  SectionSiteName: Scratch Addons Docs
-  DocsNav: Docs navigation
-  DocsNavToggleLabel: Toggle docs navigation sidebar
-  TOC: Table of contents
-  TOCToggleLabel: Toggle table of contents sidebar
-  LastUpdated: "Last updated at {{.Date}} by {{.Name}} on commit {{.Commit}}."
-  Improve: Improve this page.
+  SectionSiteName: 説明文書
+  DocsNav: ナビゲーション
+  DocsNavToggleLabel: ナビゲーションサイドバーを切り替える
+  TOC: 目次
+  TOCToggleLabel: 目次サイドバーを切り替える
+  LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
+  Improve: ページを改善する
 
 IndexPage:
   Intro:
-    Tagline: All in one browser extension for Scratch
-    Description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+    Tagline: Scratchの改良を詰め合わせた拡張機能
+    Description: Scratch Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
     InstallButton:
-      Loading: Loading...
-      Description: "free, open source"
-    ReadMore: or read more
+      Loading: 読み込み中...
+      Description: 無料、オープンソース
+    ReadMore: 詳細を確認
     Carousel:
       Video: 
-        Caption: The trailer.
-        LabelPlay: Play
-        ModalTitle: Video
+        Caption: 紹介動画
+        LabelPlay: 再生
+        ModalTitle: 動画
       Popup:
-        Caption: The extension pop-up.
-        ImgAlt: Extension pop-up
+        Caption: 拡張機能のポップアップ
+        ImgAlt: 拡張機能のポップアップ
       Settings:
-        Caption: The settings page.
-        ImgAlt: Settings page
+        Caption: 設定ページ
+        ImgAlt: 設定ページ
       Demo:
-        Caption: "Demonstration of the extension. ({{.Count}})"
-        ImgAlt: "Demonstration ({{.Count}})"
-      Previous: Previous
-      Next: Next
+        Caption: "拡張機能の紹介 ({{.Count}})"
+        ImgAlt: "紹介 ({{.Count}})"
+      Previous: 戻る
+      Next: 進む
   Features:
-    Heading: Features
-    AddonsHeading: Addons
-    AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
-    CustomizableHeading: Customizable
-    CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
-    InternationalHeading: International
-    InternationalParagraph: "Not just English. Scratch Addons is available in Spanish, Russian, Japanese, French, and many more."
-    OSHeading: Open source
-    OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
+    Heading: 機能
+    AddonsHeading: アドオン
+    AddonsParagraph: Scratch Addonsは、アドオンにより構成されていて、それによりScratchのウェブサイトとエディターの機能が強化されます。
+    CustomizableHeading: 変更可能
+    CustomizableParagraph: Scratch Addonsには、簡単に使える各機能やテーマの設定画面があります。
+    InternationalHeading: 多言語対応
+    InternationalParagraph: 英語だけではありません。スペイン語、ロシア語、日本語、フランス語、その他の言語で利用できます。
+    OSHeading: オープンソース
+    OSParagraph: Scratch Addonsは無料かつオープンソースで、Scratchコミュニティーのメンバーによって開発されています。
   Highlights:
-    Heading: Highlights
-    Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
-    ScratchMessagingHeading: Scratch Messaging
-    ScratchMessagingParagraph: 'The "grandfather" of Scratch Addons. It is available when clicking the Scratch Addons icon, and provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.'
-    ScratchNotifierHeading: Scratch Notifier
-    ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
-    DeveloperToolsHeading: Developer tools
-    DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
+    Heading: ハイライト
+    Paragraph: "これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}"
+    ScratchMessagingHeading: Scratchメッセージ
+    ScratchMessagingParagraph: 'Scratch Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。'
+    ScratchNotifierHeading: Scratch通知
+    ScratchNotifierParagraph: Scratchメッセージが来た時に通知します。通知をクリックしてメッセージに直接行けます。
+    DeveloperToolsHeading: 開発者ツール
+    DeveloperToolsParagraph: '{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。'
   Install:
-    Heading: Install    
-    Paragraph: "Satisfied? Don't hesitate to install it now!"
+    Heading: インストール    
+    Paragraph: "満足しましたか? 今すぐインストールを!"
     InstallButton:
-      Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
+      Other: "あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。"
 
 AddonsPage:
-  EasterEggAddon: This is an easter egg addon.
-  RecommendedAddon: This is a recommended addon.
-  ListViewLabel: List view
-  EasterEggLabel: Easter egg
+  EasterEggAddon: イースターエッグです。
+  RecommendedAddon: おすすめのアドオンです。
+  ListViewLabel: 一覧表示
+  EasterEggLabel: イースターエッグ
   EasterEggTooltip:
-    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
-    L2: "In this page, an easter egg addon will have an egg symbol besides its name."
+    L1: 有効化するには、設定画面でコナミコマンドを入力してください。FAQページで詳細が確認できます。
+    L2: イースターエッグアドオンには卵のマークがあります。
 
 FeedbackPage:
   Status:
-    Sending: Sending...
-    Success: Sent! Thanks for the feedback.
-    Failed: "Something went wrong. Try sending again?"
-  UsernameLabel: "Scratch username, or other identifiers (optional)"
-  ContentLabel: Feedback
-  ContentPlaceholder: Please provide as much detail as you can.
-  SubmitButton: Send
+    Sending: 送信中...
+    Success: 送信されました。意見ありがとうございます。
+    Failed: 送信に失敗しました。もう一度やり直してください。
+  UsernameLabel: Scratchのユーザー名 (任意)
+  ContentLabel: フィードバック
+  ContentPlaceholder: 可能な限り詳細を提供してください。
+  SubmitButton: 送信
