@@ -54,23 +54,23 @@ Docs:
 
 IndexPage:
   Intro:
-    Tagline: Une extension pour Scratch tout-en-un
+    Tagline: Une extension tout-en-un pour Scratch
     Description: "Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch."
     InstallButton:
       Loading: Chargement...
       Description: "gratuit, open source"
-    ReadMore: ou en lire plus
+    ReadMore: ou en savoir plus
     Carousel:
       Video: 
         Caption: La bande-annonce.
-        LabelPlay: Jouer
+        LabelPlay: Lire
         ModalTitle: Vidéo
       Popup:
-        Caption: L'extension pop-up.
-        ImgAlt: Extension pop-up.
+        Caption: Le popup de l'extension.
+        ImgAlt: Popup de l'extension
       Settings:
         Caption: La page des paramètres.
-        ImgAlt: Page des paramètres.
+        ImgAlt: Page des paramètres
       Demo:
         Caption: "Démonstration de l'extension. ({{.Count}})"
         ImgAlt: "Démonstration ({{.Count}})"
@@ -79,22 +79,22 @@ IndexPage:
   Features:
     Heading: Fonctionnalités
     AddonsHeading: Addons
-    AddonsParagraph: "Scratch Addons consiste en addons, qui sont des fonctionnalités qui peuvent améliorer votre site Scratch et votre expérience de l'éditeur. "
+    AddonsParagraph: "Scratch Addons rassemble des addons, qui sont des fonctionnalités qui enrichissent le site de Scratch et votre expérience dans l'éditeur."
     CustomizableHeading: Personnalisable
-    CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
+    CustomizableParagraph: Scratch Addons a une interface simple d'utilisation pour contrôler les paramètres de chaque thème et fonctionnalité.
     InternationalHeading: International
-    InternationalParagraph: "Pas seulement en anglais. Scratch Addons est disponible en espagnol, russe, japonais, français et bien plus !"
+    InternationalParagraph: "Pas seulement en anglais. Scratch Addons est disponible en espagnol, russe, japonais, français et bien plus."
     OSHeading: Open source
-    OSParagraph: "Scratch Addons est gratuit, open source et construit par une communauté de Scratcheurs."
+    OSParagraph: "Scratch Addons est gratuit, open source, et est développé par des scratcheurs de la communauté."
   Highlights:
     Heading: Aperçu
-    Paragraph: "N'oubliez pas que ce n'est qu'un aperçu. {{.OpenTag1}}Il y a bien plus !{{.CloseTag1}}"
-    ScratchMessagingHeading: Messagerie Scratch
+    Paragraph: "N'oubliez pas que ce n'est qu'un aperçu. {{.OpenTag1}}Il y a encore bien plus !{{.CloseTag1}}"
+    ScratchMessagingHeading: Scratch Messaging
     ScratchMessagingParagraph: '"L''ancêtre" de Scratch Addons. Scratch Messaging est disponible en cliquant sur l''icône de Scratch Addons, et permet de lire et de répondre facilement à vos messages Scratch : regroupe les messages par projet, affiche le commentaire en entier et son contexte, permet de répondre directement aux commentaires.'
     ScratchNotifierHeading: Scratch Notifier
-    ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
-    DeveloperToolsHeading: Outils de développeur
-    DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
+    ScratchNotifierParagraph: "Scratch Notifier envoie des notifications à votre navigateur lorsque vous avez de nouveaux messages Scratch. Vous pouvez cliquer sur les notifications pour accéder directement au message (commentaire, projet, etc.)."
+    DeveloperToolsHeading: Outils de développement
+    DeveloperToolsParagraph: '{{.OpenTag1}}Provenant de l''extension originale.{{.CloseTag1}} L''addon ajoute une boîte de recherche et de nouvelles options au menu de l''éditeur : copier/coller des blocs, meilleur rangement des blocs, aller à la définition d''un bloc personnalisé, et bien plus encore !'
   Install:
     Heading: Installer    
     Paragraph: "Satisfait ? N'hésitez pas à l'installer maintenant !"
@@ -102,10 +102,20 @@ IndexPage:
       Other: "... ou {{.OpenTag1}} installez-le depuis GitHub {{.CloseTag1}} ou {{.OpenTag2}} installez-le depuis la source {{.CloseTag2}}."
 
 AddonsPage:
-  EasterEggAddon: C'est un addon clin d'œil
-  RecommendedAddon: C'est un addon recommandé.
-  ListViewLabel: List view
-  EasterEggLabel: Clin d'œil
+  EasterEggAddon: Cet addon est un easer egg.
+  RecommendedAddon: Cet addon est recommandé.
+  ListViewLabel: Affichage en mode liste
+  EasterEggLabel: Easter egg
   EasterEggTooltip:
-    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
-    L2: "Sur cette page, un addon clin d'œil aura un symbole d'œuf en plus de son nom."
+    L1: "Pour activer les addons, entrez le code Konami (↑↑↓↓←→←→BA) sur la page des paramètres. Lisez la FAQ pour plus d'informations."
+    L2: "Sur cette page, un addon easter egg aura une icône d'œuf à côté de son nom."
+
+FeedbackPage:
+  Status:
+    Sending: Envoi...
+    Success: Envoyé ! Merci du commentaire.
+    Failed: Quelque chose s'est mal passé. Essayez d'envoyer à nouveau.
+  UsernameLabel: Nom d'utilisateur Scratch ou autres identifiants (optionnel)
+  ContentLabel: Commentaire
+  ContentPlaceholder: Merci de donner autant de détails que possible.
+  SubmitButton: Envoyer

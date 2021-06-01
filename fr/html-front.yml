@@ -10,11 +10,11 @@ addons.html:
   title: Les addons
   description: Cette page reprend tous les addons présents dans Scratch Addons.
 feedback.html:
-  title: Envoyer des retours
-  description: Envoyer des retours aux développeurs de Scratch Addons.
+  title: Envoyer des commentaires
+  description: Envoyer des commentaires aux développeurs de Scratch Addons.
 scratch-messaging-transition.html:
   title: Mise à jour de l'extension (transition)
-  description: Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons. Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
+  description: L'extension Scratch Messaging (crée par Griffpatch) a été mise à jour et s'appelle maintenant Scratch Addons. Cliquez sur l'icône de Scratch Addons dans la barre des extensions pour voir le nouveau résumé des messages relooké !
 unsupported-browser.html:
   title: Navigateur non supporté
   description: Scratch Addons ne supporte pas le navigateur que vous utilisez.
