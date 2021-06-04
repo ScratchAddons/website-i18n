@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Addons
   LogoAlt: Scratch Addons-Logo
@@ -8,12 +9,14 @@ Global:
   Install: Installieren
   InstallFor: "Installieren auf {{.Browser}}"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: Entwickler
   Feedback: Feedback senden
   Repository: Repository
   Install: Installieren
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: Seiten
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "Scratch Addons ist nicht angegliedert, assoziiert oder in irgendeiner Weise offiziell mit Scratch, dem Scratch Team, der Scratch Foundation oder einer ihrer Tochtergesellschaften und deren verbundenen Unternehmen verbunden."
     License: Scratch Addons ist lizenziert unter den Bedingungen der GNU General Public License v3.0.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: "Hier klicken, um den Dunklen Modus umzuschalten."
   Label: Dunkles Design umschalten
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Scratch Addons-Dokumentation
   DocsNav: Dokumentationsnavigation
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
   Improve: Diese Seite verbessern.
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: All-in-one-Browsererweiterung für Scratch
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "...oder {{.OpenTag1}}lade es von GitHub herunter{{.CloseTag1}} oder {{.OpenTag2}}installiere es von der Quelle{{.CloseTag2}}. "
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: Dies ist ein Easter Egg-Addon.
   RecommendedAddon: Dies ist ein empfohlenes Addon.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: "Um die Addons zu aktivieren, mache den Konami-Code (↑↑↓↓←→←→BA) auf der Einstellungenseite. Lies die FAQ für mehr Infos."
     L2: In dieser Seite wird ein Easter Egg-Addon ein Eisymbol neben seinem Namen haben.
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: Wird gesendet…
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: Feedback
   ContentPlaceholder: Bitt stelle so viele Details wie du kannst zu Verfügung.
   SubmitButton: Senden
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

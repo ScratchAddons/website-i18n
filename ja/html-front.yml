@@ -1,20 +1,20 @@
 _index.html:
-  description: "Scratch Addons is a browser extension that provides new features and themes for the Scratch (scratch.mit.edu) website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community."
+  description: Scratch Addonsは、Scratchウェブサイト(scratch.mit.edu)とプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
 welcome.html:
-  title: Welcome!
-  description: Scratch Addons has been installed successfully! Thank you for installing. We hope you enjoy the extension!
+  title: ようこそ!
+  description: Scratch Addonsがインストールされました!インストールありがとうございます。ぜひ、この拡張機能をお楽しみください。
 farewell.html:
-  title: Farewell!
-  description: Scratch Addons has been uninstalled. We thank you for using the extension!
+  title: ご利用ありがとうございました。
+  description: Scratch Addonsはアンインストールされました。ご利用ありがとうございました。
 addons.html:
-  title: Addons
-  description: This page lists all of the addons that are implemented on Scratch Addons.
+  title: アドオン
+  description: Scratch Addonsのすべてのアドオンを掲載しています。
 feedback.html:
-  title: Send Feedback
-  description: Send feedback to Scratch Addons developers.
+  title: フィードバックを送信
+  description: Scratch Addonsの開発者にフィードバックを送信できます。
 scratch-messaging-transition.html:
-  title: Extension Update (Transition)
-  description: Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons. Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
+  title: 拡張機能の更新
+  description: griffpatchのScratch Messaging Extensionは、Scratch Addonsに更新されました。Scratch Addonsアイコンをクリックして新しいメッセージを確認できます!
 unsupported-browser.html:
-  title: Unsupported Browser
-  description: Scratch Addons doesn't support the browser you're using.
+  title: ブラウザーはサポートされていません
+  description: Scratch Addonsは、このブラウザーでは動作しません。

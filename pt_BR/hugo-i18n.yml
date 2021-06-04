@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Addons
   LogoAlt: Logo do Scratch Addons
@@ -8,12 +9,14 @@ Global:
   Install: Instalar
   InstallFor: "Instalar no {{.Browser}}"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: Contribuidores
   Feedback: Dar Feedback
   Repository: Repositório
   Install: Instalar
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: Páginas
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "O Scratch Addons não é afiliado, associado, ou conectado oficialmente de nenhuma forma com o Scratch, a Equipe do Scratch, a Fundação Scratch, ou qualquer outra de suas subsidiárias ou afiliadas."
     License: O Scratch Addons é licenciado sob os termos da GNU General Public License v3.0.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: Clique para ligar/desligar o tema escuro.
   Label: Ligar/desligar tema escuro
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Documentação do Scratch Addons
   DocsNav: Navegação
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}."
   Improve: Melhore essa página.
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Extensão de navegador tudo-em-um para o Scratch
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}."
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: Isso é um addon secreto.
   RecommendedAddon: Isso é um addon recomendado.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: "Para ativar esses addons, faça o Konami Code (↑↑↓↓←→←→BA) na página de configuração. Leia o FAQ para mais informações."
     L2: "Nessa página, um addon secreto terá um ícone de ovo do lado do seu nome."
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: Enviando...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: Feedback
   ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
   SubmitButton: Enviar
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

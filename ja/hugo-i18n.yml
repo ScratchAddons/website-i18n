@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Addons
   LogoAlt: Scratch Addonsのロゴ
@@ -8,12 +9,14 @@ Global:
   Install: インストール
   InstallFor: "{{.Browser}}用をインストール"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: 貢献者
   Feedback: フィードバックを送る
   Repository: リポジトリ
   Install: インストール
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: ページ
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
     License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: クリックしてダークモードを切り替えられます。
   Label: ダークモード切り替えボタン
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: 説明文書
   DocsNav: ナビゲーション
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
   Improve: ページを改善する
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Scratchの改良を詰め合わせた拡張機能
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。"
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: イースターエッグです。
   RecommendedAddon: おすすめのアドオンです。
@@ -110,6 +117,7 @@ AddonsPage:
     L1: 有効化するには、設定画面でコナミコマンドを入力してください。FAQページで詳細が確認できます。
     L2: イースターエッグアドオンには卵のマークがあります。
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: 送信中...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: フィードバック
   ContentPlaceholder: 可能な限り詳細を提供してください。
   SubmitButton: 送信
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

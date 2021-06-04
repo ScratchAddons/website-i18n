@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: 스크래치 애드온
   LogoAlt: 스크래치 애드온 로고
@@ -8,12 +9,14 @@ Global:
   Install: 설치하기
   InstallFor: "{{.Browser}}에 설치하기"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: 기여자
   Feedback: 문의하기
   Repository: 레포지토리
   Install: 설치하기
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: 페이지
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다."
     License: 스크래치 애드온은 GNU General Public License v3.0 라이선스로 공유됩니다.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: "어두운 테마로 전환하려면\n클릭하세요."
   Label: 어두운 테마 전환
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: 스크래치 애드온 문서
   DocsNav: 문서 탐색
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "{{.Commit}}커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
   Improve: 이 페이지 개선하기
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터 설치하세요{{.CloseTag2}}. "
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: 이 애드온은 이스터에그입니다.
   RecommendedAddon: 이 애드온은 권장하는 애드온입니다.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: 이스터에그를 활성화하려면 코나미 코드 (↑↑↓↓←→←→BA)를 설정창에서 입력하세요. 더 알아보려면 FAQ페이지를 참고하세요
     L2: "이 페이지에선, 이스터에그 애드온의 이름에는 알 모양의 표식이 들어갑니다."
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: 보내는 중...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: 문의하기
   ContentPlaceholder: 가능한 한 많은 정보를 작성해주세요.
   SubmitButton: 보내기
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

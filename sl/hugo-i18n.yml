@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Addons
   LogoAlt: Logotip Scratch Addons
@@ -8,12 +9,14 @@ Global:
   Install: Namesti
   InstallFor: "Namestitev za {{.Browser}}"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: Sodelavci
   Feedback: Povratne informacije
   Repository: Izvirna koda
   Install: Namesti
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: Strani
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "Scratch Addons ni na noben način povezan s Scratchem, skupino Scratch ali fundacijo Scratch."
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
   Label: Gumb za temni način
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Dokumentacija Scratch Addons
   DocsNav: Navigacija po dokumentaciji
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}."
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: "Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji."
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: Pošiljanje...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: Povratne informacije
   ContentPlaceholder: "Prosimo, da navedete čim več podrobnosti."
   SubmitButton: Pošlji
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

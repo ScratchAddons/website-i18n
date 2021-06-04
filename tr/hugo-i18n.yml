@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Eklentileri
   LogoAlt: Scratch Eklentileri logosu
@@ -8,17 +9,19 @@ Global:
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: Katkısı olanlar
   Feedback: Geri Bildirim Gönder
   Repository: Depo
   Install: İndir
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: Sayfalar
     FAQ: Sıkça Sorulan Sorular
-    Feedback: Geri Bildirim Göster
+    Feedback: Geri Bildirim Gönder
     Contributors: Katkısı olanlar
     Changelog: Değişiklik günlüğü
     Addons: Eklentiler
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi bir şekilde resmi olarak bağlı değildir."
     License: Scratch Eklentileri GNU General Public License v3.0 altında lisanslanmıştır.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: Karanlık modu açmak için tıklayın.
   Label: Karanlık mod anahtarı
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
   DocsNav: Belgeler navigasyon
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
   Improve: Bu Sayfayı Geliştirin
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: All in one browser extension for Scratch
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: This is an easter egg addon.
   RecommendedAddon: This is a recommended addon.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
     L2: "In this page, an easter egg addon will have an egg symbol besides its name."
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: Sending...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: Feedback
   ContentPlaceholder: Please provide as much detail as you can.
   SubmitButton: Send
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo

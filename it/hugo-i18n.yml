@@ -1,3 +1,4 @@
+# Strings used across the website
 Global:
   ScratchAddons: Scratch Addon
   LogoAlt: Logo degli Scratch Addon
@@ -8,12 +9,14 @@ Global:
   Install: Installa
   InstallFor: "Installa per {{.Browser}}"
 
+# Strings used for the site navigation bar
 Nav:
   Contributors: Sviluppatori
   Feedback: Invia Feedback
   Repository: Archivio
   Install: Installa
 
+# Strings used for the site footer
 Footer:
   Pages:
     Header: Pagine
@@ -39,10 +42,12 @@ Footer:
     NoAffiliation: "Scratch Addon non è affiliato, associato o connesso ufficialmente in alcun modo con Scratch, lo Scratch Team, la Scratch Foundation o qualunque loro filiale o affiliata."
     License: Scratch Addon è concesso in licenza secondo i termini della GNU General Public License v3.0.
 
+# Strings used for the dark theme switch
 DarkTheme:
   Title: Clicca per passare al tema scuro.
   Label: Passaggio a tema scuro
 
+# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Documentazione Scratch Addon
   DocsNav: Navigazione documentazione
@@ -52,6 +57,7 @@ Docs:
   LastUpdated: "Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}."
   Improve: Migliora questa pagina.
 
+# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Tutto in una sola estensione per Scratch
@@ -101,6 +107,7 @@ IndexPage:
     InstallButton:
       Other: "...o {{.OpenTag1}}scaricala da GitHub{{.CloseTag1}} o {{.OpenTag2}}installata dal codice sorgente{{.CloseTag2}}."
 
+# Strings used for /addons
 AddonsPage:
   EasterEggAddon: Questo addon è un easter egg.
   RecommendedAddon: Questo addon è raccomandato.
@@ -110,6 +117,7 @@ AddonsPage:
     L1: "Per attivare gli addon, digita il Codice Konami (↑↑↓↓←→←→BA) nella pagina delle impostazioni. Scopri di più nelle Domande Frequenti."
     L2: "In questa pagina, troverai un addon a sorpresa con il simbolo di un uovo accanto al suo nome."
 
+# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: Invio in corso...
@@ -119,3 +127,7 @@ FeedbackPage:
   ContentLabel: Feedback
   ContentPlaceholder: Dacci più dettagli che puoi.
   SubmitButton: Invia
+
+# Strings used for /scratch-messaging-transition
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging Extension logo
