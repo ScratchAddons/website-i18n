@@ -2,10 +2,10 @@
 Global:
   ScratchAddons: Scratch Addons
   LogoAlt: Scratch Addons logo
-  ChromeLong: Google Chrome
-  FirefoxLong: Mozilla Firefox
-  ChromeShort: Chrome
-  FirefoxShort: Firefox
+  ChromeLong: جوجل كروم
+  FirefoxLong: موزيلا فايرفوكس
+  ChromeShort: كروم
+  FirefoxShort: فايرفوكس
   Install: Install
   InstallFor: "Install for {{.Browser}}"
 
