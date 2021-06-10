@@ -11,7 +11,7 @@ For more information, [read here](https://scratchaddons.com/docs/localization/jo
 
 ## Folder structure
 
-To learn about the folder structure, [read here](https://github.com/ScratchAddons/website-v2/wiki/Explanation-for-i18n-repository-files).
+To learn about the folder structure, [read here](https://github.com/ScratchAddons/website-v2/wiki/i18n-repository-files).
 
 ## License
 
