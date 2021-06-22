@@ -1,22 +1,13 @@
-# Strings used across the website
 Global:
   ScratchAddons: Scratch Eklentileri
   LogoAlt: Scratch Eklentileri logosu
-  ChromeLong: Google Chrome
-  FirefoxLong: Mozilla Firefox
-  ChromeShort: Chrome
-  FirefoxShort: Firefox
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
-
-# Strings used for the site navigation bar
 Nav:
   Contributors: Katkısı olanlar
   Feedback: Geri Bildirim Gönder
   Repository: Depo
   Install: İndir
-
-# Strings used for the site footer
 Footer:
   Pages:
     Header: Sayfalar
@@ -36,18 +27,16 @@ Footer:
     Organization: Organizasyon
     Repository: Depo
     Documentation: Belgeleme
-    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Eklentileri çalışanları"
-    NoAffiliation: "Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi bir şekilde resmi olarak bağlı değildir."
-    License: Scratch Eklentileri GNU General Public License v3.0 altında lisanslanmıştır.
-
-# Strings used for the dark theme switch
+    Copyright: © {{.Count}} Scratch Eklentileri çalışanları
+    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation
+      veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi
+      bir şekilde resmi olarak bağlı değildir.
+    License: Scratch Eklentileri GNU General Public License v3.0 altında
+      lisanslanmıştır.
 DarkTheme:
   Title: Karanlık modu açmak için tıklayın.
   Label: Karanlık mod anahtarı
-
-# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
   DocsNav: Belgeler navigasyon
@@ -56,78 +45,28 @@ Docs:
   TOCToggleLabel: İçindekiler tablosu kenar çubuğunu aç
   LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
   Improve: Bu Sayfayı Geliştirin
-
-# Strings used for / (index)
 IndexPage:
   Intro:
-    Tagline: All in one browser extension for Scratch
-    Description: "Scratch Eklentileri Scratch websitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır."
+    Description: Scratch Eklentileri Scratch websitesi ve proje editörü için yeni
+      özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch
+      topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve
+      kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
-      Description: "ücretsiz, açık kaynak"
+      Description: ücretsiz, açık kaynak
     ReadMore: veya daha fazlasını oku
     Carousel:
-      Video: 
-        Caption: The trailer.
+      Video:
         LabelPlay: Oynat
-        ModalTitle: Video
-      Popup:
-        Caption: The extension pop-up.
-        ImgAlt: Extension pop-up
       Settings:
         Caption: Ayarlar sayfası.
         ImgAlt: Ayarlar sayfası
-      Demo:
-        Caption: "Demonstration of the extension. ({{.Count}})"
-        ImgAlt: "Demonstration ({{.Count}})"
       Previous: Sonraki
       Next: Önceki
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
-    AddonsParagraph: "Scratch Addons consists of addons, which are features that can empower your Scratch website and editor experience."
     CustomizableHeading: Özelleştirilebilir
-    CustomizableParagraph: Scratch Addons has an easy-to-use interface to control various settings of each feature and theme.
     InternationalHeading: Uluslararası
-    InternationalParagraph: "Not just English. Scratch Addons is available in Spanish, Russian, Japanese, French, and many more."
-    OSHeading: Open source
-    OSParagraph: "Scratch Addons is free, open source, and built by a community of Scratchers."
-  Highlights:
-    Heading: Highlights
-    Paragraph: "Remember, these are just the highlights. {{.OpenTag1}}There's more!{{.CloseTag1}}"
-    ScratchMessagingHeading: Scratch Messaging
-    ScratchMessagingParagraph: 'The "grandfather" of Scratch Addons. It is available when clicking the Scratch Addons icon, and provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.'
-    ScratchNotifierHeading: Scratch Notifier
-    ScratchNotifierParagraph: "It adds browser notifications on new Scratch messages. You can click the notification to go straight to the message (comment, project, etc.)"
-    DeveloperToolsHeading: Developer tools
-    DeveloperToolsParagraph: '{{.OpenTag1}}From the original extension.{{.CloseTag1}} It adds a find box and new menu options to the editor: copy/paste blocks, better tidy up, go to custom block definition, and more!'
   Install:
-    Heading: İndir    
-    Paragraph: "Satisfied? Don't hesitate to install it now!"
-    InstallButton:
-      Other: "...or {{.OpenTag1}}download it from GitHub{{.CloseTag1}} or {{.OpenTag2}}install it from the source{{.CloseTag2}}."
-
-# Strings used for /addons
-AddonsPage:
-  EasterEggAddon: This is an easter egg addon.
-  RecommendedAddon: This is a recommended addon.
-  ListViewLabel: List view
-  EasterEggLabel: Easter egg
-  EasterEggTooltip:
-    L1: "To activate the addons, do the Konami Code (↑↑↓↓←→←→BA) on the settings page. Read the FAQ page for more information."
-    L2: "In this page, an easter egg addon will have an egg symbol besides its name."
-
-# Strings used for /feedback
-FeedbackPage:
-  Status:
-    Sending: Sending...
-    Success: Sent! Thanks for the feedback.
-    Failed: "Something went wrong. Try sending again?"
-  UsernameLabel: "Scratch username, or other identifiers (optional)"
-  ContentLabel: Feedback
-  ContentPlaceholder: Please provide as much detail as you can.
-  SubmitButton: Send
-
-# Strings used for /scratch-messaging-transition
-SMTPage:
-  ScratchMessagingLogoAlt: Scratch Messaging Extension logo
+    Heading: İndir

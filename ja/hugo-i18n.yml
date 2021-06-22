@@ -1,26 +1,15 @@
-# Strings used across the website
 Global:
-  ScratchAddons: Scratch Addons
   LogoAlt: Scratch Addonsのロゴ
-  ChromeLong: Google Chrome
-  FirefoxLong: Mozilla Firefox
-  ChromeShort: Chrome
-  FirefoxShort: Firefox
   Install: インストール
   InstallFor: "{{.Browser}}用をインストール"
-
-# Strings used for the site navigation bar
 Nav:
   Contributors: 貢献者
   Feedback: フィードバックを送る
   Repository: リポジトリ
   Install: インストール
-
-# Strings used for the site footer
 Footer:
   Pages:
     Header: ページ
-    FAQ: FAQ
     Feedback: フィードバックを送る
     Contributors: 貢献者
     Changelog: 更新履歴
@@ -36,18 +25,14 @@ Footer:
     Organization: 組織
     Repository: リポジトリ
     Documentation: ドキュメント
-    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} Scratch Addons 貢献者"
-    NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
+    Copyright: © {{.Count}} Scratch Addons 貢献者
+    NoAffiliation: Scratch
+      Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
     License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
-
-# Strings used for the dark theme switch
 DarkTheme:
   Title: クリックしてダークモードを切り替えられます。
   Label: ダークモード切り替えボタン
-
-# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: 説明文書
   DocsNav: ナビゲーション
@@ -56,18 +41,17 @@ Docs:
   TOCToggleLabel: 目次サイドバーを切り替える
   LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
   Improve: ページを改善する
-
-# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Scratchの改良を詰め合わせた拡張機能
-    Description: Scratch Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
+    Description: Scratch
+      Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
     InstallButton:
       Loading: 読み込み中...
       Description: 無料、オープンソース
     ReadMore: 詳細を確認
     Carousel:
-      Video: 
+      Video:
         Caption: 紹介動画
         LabelPlay: 再生
         ModalTitle: 動画
@@ -78,8 +62,8 @@ IndexPage:
         Caption: 設定ページ
         ImgAlt: 設定ページ
       Demo:
-        Caption: "拡張機能の紹介 ({{.Count}})"
-        ImgAlt: "紹介 ({{.Count}})"
+        Caption: 拡張機能の紹介 ({{.Count}})
+        ImgAlt: 紹介 ({{.Count}})
       Previous: 戻る
       Next: 進む
   Features:
@@ -94,20 +78,20 @@ IndexPage:
     OSParagraph: Scratch Addonsは無料かつオープンソースで、Scratchコミュニティーのメンバーによって開発されています。
   Highlights:
     Heading: ハイライト
-    Paragraph: "これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}"
+    Paragraph: これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}
     ScratchMessagingHeading: Scratchメッセージ
-    ScratchMessagingParagraph: 'Scratch Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。'
+    ScratchMessagingParagraph: Scratch
+      Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。
     ScratchNotifierHeading: Scratch通知
     ScratchNotifierParagraph: Scratchメッセージが来た時に通知します。通知をクリックしてメッセージに直接行けます。
     DeveloperToolsHeading: 開発者ツール
-    DeveloperToolsParagraph: '{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。'
+    DeveloperToolsParagraph: "{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコ\
+      ピペ、定義ブロックに移動する機能などを追加しました。"
   Install:
-    Heading: インストール    
-    Paragraph: "満足しましたか? 今すぐインストールを!"
+    Heading: インストール
+    Paragraph: 満足しましたか? 今すぐインストールを!
     InstallButton:
-      Other: "あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。"
-
-# Strings used for /addons
+      Other: あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。
 AddonsPage:
   EasterEggAddon: イースターエッグです。
   RecommendedAddon: おすすめのアドオンです。
@@ -116,8 +100,6 @@ AddonsPage:
   EasterEggTooltip:
     L1: 有効化するには、設定画面でコナミコマンドを入力してください。FAQページで詳細が確認できます。
     L2: イースターエッグアドオンには卵のマークがあります。
-
-# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: 送信中...
@@ -127,7 +109,5 @@ FeedbackPage:
   ContentLabel: フィードバック
   ContentPlaceholder: 可能な限り詳細を提供してください。
   SubmitButton: 送信
-
-# Strings used for /scratch-messaging-transition
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ

@@ -1,5 +1,6 @@
 _index.html:
-  description: Scratch Addonsは、Scratchウェブサイト(scratch.mit.edu)とプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
+  description: Scratch
+    Addonsは、Scratchウェブサイト(scratch.mit.edu)とプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
 welcome.html:
   title: ようこそ!
   description: Scratch Addonsがインストールされました!インストールありがとうございます。ぜひ、この拡張機能をお楽しみください。
@@ -14,7 +15,8 @@ feedback.html:
   description: Scratch Addonsの開発者にフィードバックを送信できます。
 scratch-messaging-transition.html:
   title: 拡張機能の更新
-  description: griffpatchのScratch Messaging Extensionは、Scratch Addonsに更新されました。Scratch Addonsアイコンをクリックして新しいメッセージを確認できます!
+  description: griffpatchのScratch Messaging Extensionは、Scratch
+    Addonsに更新されました。Scratch Addonsアイコンをクリックして新しいメッセージを確認できます!
 unsupported-browser.html:
   title: ブラウザーはサポートされていません
   description: Scratch Addonsは、このブラウザーでは動作しません。

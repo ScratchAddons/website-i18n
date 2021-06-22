@@ -1,20 +1,28 @@
 _index.html:
-  description: "Scratch Addons ist eine Browsererweiterung, die neue Features und Themes für die Scratch-Website (scratch.mit.edu) und den Projekteditor zur Verfügung stellt. Seine Mission ist es, Userstyles und Userscripts von verschiedenen Mitgliedern der Scratch-Community zu sammeln, zu archivieren und in Betrieb zu setzen."
+  description: Scratch Addons ist eine Browsererweiterung, die neue Features und
+    Themes für die Scratch-Website (scratch.mit.edu) und den Projekteditor zur
+    Verfügung stellt. Seine Mission ist es, Userstyles und Userscripts von
+    verschiedenen Mitgliedern der Scratch-Community zu sammeln, zu archivieren
+    und in Betrieb zu setzen.
 welcome.html:
   title: Willkommen!
-  description: "Scratch Addons wurde erfolgreich installiert! Danke fürs installieren. Wir hoffen, dass du die Erweiterung mögen wirst!"
+  description: Scratch Addons wurde erfolgreich installiert! Danke fürs
+    installieren. Wir hoffen, dass du die Erweiterung mögen wirst!
 farewell.html:
   title: Auf Wiedersehen!
-  description: "Scratch Addons wurde deinstalliert. Danke, dass du die Erweiterung verwendet hast!"
+  description: Scratch Addons wurde deinstalliert. Danke, dass du die Erweiterung
+    verwendet hast!
 addons.html:
-  title: Addons
-  description: "Diese Seite listet alle Addons auf, die in Scratch Addons implementiert sind."
+  description: Diese Seite listet alle Addons auf, die in Scratch Addons implementiert sind.
 feedback.html:
   title: Feedback senden
   description: Gib den Scratch Addons-Entwicklern dein Feedback.
 scratch-messaging-transition.html:
   title: Erweiterungsupdate (Übergang)
-  description: "Die Scratch Messaging Extension (von griffpatch) wurde aktualisiert und heißt nun Scratch Addons. Klicke auf das Scratch Addons-Icon in der Erweiterungenleiste, um die aktualisierte Nachrichtenzusammenfassung zu sehen!"
+  description: Die Scratch Messaging Extension (von griffpatch) wurde aktualisiert
+    und heißt nun Scratch Addons. Klicke auf das Scratch Addons-Icon in der
+    Erweiterungenleiste, um die aktualisierte Nachrichtenzusammenfassung zu
+    sehen!
 unsupported-browser.html:
   title: Browser nicht untersützt
-  description: "Scratch Addons unterstützt den Browser, den du gerade verwendest, nicht."
+  description: Scratch Addons unterstützt den Browser, den du gerade verwendest, nicht.

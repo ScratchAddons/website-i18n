@@ -1,22 +1,12 @@
-# Strings used across the website
 Global:
-  ScratchAddons: Scratch Addons
   LogoAlt: Logo do Scratch Addons
-  ChromeLong: Google Chrome
-  FirefoxLong: Mozilla Firefox
-  ChromeShort: Chrome
-  FirefoxShort: Firefox
   Install: Instalar
-  InstallFor: "Instalar no {{.Browser}}"
-
-# Strings used for the site navigation bar
+  InstallFor: Instalar no {{.Browser}}
 Nav:
   Contributors: Contribuidores
   Feedback: Dar Feedback
   Repository: Repositório
   Install: Instalar
-
-# Strings used for the site footer
 Footer:
   Pages:
     Header: Páginas
@@ -24,11 +14,9 @@ Footer:
     Feedback: Dar Feedback
     Contributors: Contribuidores
     Changelog: Atualizações
-    Addons: Addons
   Discuss:
     Header: Discuta
     Discussion Forum: Fórum de Discussão
-    Issues: Issues
     DiscordCom: Discord da Comunidade
     DiscordDev: Discord de Desenvolvimento
   Resources:
@@ -36,40 +24,38 @@ Footer:
     Organization: Organização
     Repository: Repositório
     Documentation: Documentação
-    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} contribuidores do Scratch Addons"
-    NoAffiliation: "O Scratch Addons não é afiliado, associado, ou conectado oficialmente de nenhuma forma com o Scratch, a Equipe do Scratch, a Fundação Scratch, ou qualquer outra de suas subsidiárias ou afiliadas."
-    License: O Scratch Addons é licenciado sob os termos da GNU General Public License v3.0.
-
-# Strings used for the dark theme switch
+    Copyright: © {{.Count}} contribuidores do Scratch Addons
+    NoAffiliation: O Scratch Addons não é afiliado, associado, ou conectado
+      oficialmente de nenhuma forma com o Scratch, a Equipe do Scratch, a
+      Fundação Scratch, ou qualquer outra de suas subsidiárias ou afiliadas.
+    License: O Scratch Addons é licenciado sob os termos da GNU General Public
+      License v3.0.
 DarkTheme:
   Title: Clique para ligar/desligar o tema escuro.
   Label: Ligar/desligar tema escuro
-
-# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: Documentação do Scratch Addons
   DocsNav: Navegação
   DocsNavToggleLabel: Ligar/desligar barra de navegação
   TOC: Índice
   TOCToggleLabel: Ligar/desligar barra de índice
-  LastUpdated: "Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}."
+  LastUpdated: Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}.
   Improve: Melhore essa página.
-
-# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: Extensão de navegador tudo-em-um para o Scratch
-    Description: "Scratch Addons é uma extensão de navegador que adiciona novas funções e temas ao website e editor de projeto do Scratch. Nossa missão é coletar, arquivar e colocar em uso userstyles e userscripts, desenvolvidos por diversos membros da comunidade Scratch."
+    Description: Scratch Addons é uma extensão de navegador que adiciona novas
+      funções e temas ao website e editor de projeto do Scratch. Nossa missão é
+      coletar, arquivar e colocar em uso userstyles e userscripts, desenvolvidos
+      por diversos membros da comunidade Scratch.
     InstallButton:
       Loading: Carregando...
-      Description: "grátis, código aberto"
+      Description: grátis, código aberto
     ReadMore: ou leia mais
     Carousel:
-      Video: 
+      Video:
         Caption: O trailer.
-        LabelPlay: Play
         ModalTitle: Vídeo
       Popup:
         Caption: O pop-up da extensão.
@@ -78,56 +64,62 @@ IndexPage:
         Caption: A página de configurações.
         ImgAlt: Página de configurações
       Demo:
-        Caption: "Demonstração da extensão. ({{.Count}})"
-        ImgAlt: "Demonstração ({{.Count}})"
+        Caption: Demonstração da extensão. ({{.Count}})
+        ImgAlt: Demonstração ({{.Count}})
       Previous: Anterior
       Next: Próximo
   Features:
     Heading: Funções
-    AddonsHeading: Addons
-    AddonsParagraph: "O Scratch Addons é feito de addons, que são funções para empoderar sua experiência com o website e editor do Scratch."
+    AddonsParagraph: O Scratch Addons é feito de addons, que são funções para
+      empoderar sua experiência com o website e editor do Scratch.
     CustomizableHeading: Customizável
-    CustomizableParagraph: A interface fácil de usar do Scratch Addons te deixa controlar várias opções para cada função e tema.
+    CustomizableParagraph: A interface fácil de usar do Scratch Addons te deixa
+      controlar várias opções para cada função e tema.
     InternationalHeading: Internacional
-    InternationalParagraph: "Não apenas em inglês. O Scratch Addons está disponível em português, espanhol, russo, japonês, francês, e muito mais."
+    InternationalParagraph: Não apenas em inglês. O Scratch Addons está disponível
+      em português, espanhol, russo, japonês, francês, e muito mais.
     OSHeading: Código aberto
-    OSParagraph: "O Scratch Addons é grátis, de código aberto e criado por uma comunidade de Scratchers."
+    OSParagraph: O Scratch Addons é grátis, de código aberto e criado por uma
+      comunidade de Scratchers.
   Highlights:
     Heading: Destaques
-    Paragraph: "Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito mais!{{.CloseTag1}}"
+    Paragraph: Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito
+      mais!{{.CloseTag1}}
     ScratchMessagingHeading: Mensagens Scratch
-    ScratchMessagingParagraph: 'O "ancião" do Scratch Addons. Está disponível ao clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o texto e contexto completos do comentário, te deixa responder diretamente.'
+    ScratchMessagingParagraph: 'O "ancião" do Scratch Addons. Está disponível ao
+      clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder
+      às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o
+      texto e contexto completos do comentário, te deixa responder diretamente.'
     ScratchNotifierHeading: Notificador do Scratch
-    ScratchNotifierParagraph: "Permite que o navegador te notifique sobre novas mensagens no Scratch. Você pode clicar na notificação para ir direto à mensagem (comentário, projeto, etc.)"
+    ScratchNotifierParagraph: Permite que o navegador te notifique sobre novas
+      mensagens no Scratch. Você pode clicar na notificação para ir direto à
+      mensagem (comentário, projeto, etc.)
     DeveloperToolsHeading: Ferramentas de desenvolvedor
-    DeveloperToolsParagraph: '{{.OpenTag1}}Da extensão original.{{.CloseTag1}} Adiciona uma barra de busca e novas opções ao editor: copiar e colar blocos, melhor função de limpar, encontrar definição de bloco, e mais!'
+    DeveloperToolsParagraph: "{{.OpenTag1}}Da extensão original.{{.CloseTag1}}
+      Adiciona uma barra de busca e novas opções ao editor: copiar e colar
+      blocos, melhor função de limpar, encontrar definição de bloco, e mais!"
   Install:
-    Heading: Instalar    
-    Paragraph: "Parece bom? Não hesite e instale agora!"
+    Heading: Instalar
+    Paragraph: Parece bom? Não hesite e instale agora!
     InstallButton:
-      Other: "...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}."
-
-# Strings used for /addons
+      Other: ...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou
+        {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}.
 AddonsPage:
   EasterEggAddon: Isso é um addon secreto.
   RecommendedAddon: Isso é um addon recomendado.
   ListViewLabel: Lista
   EasterEggLabel: Secretos
   EasterEggTooltip:
-    L1: "Para ativar esses addons, faça o Konami Code (↑↑↓↓←→←→BA) na página de configuração. Leia o FAQ para mais informações."
-    L2: "Nessa página, um addon secreto terá um ícone de ovo do lado do seu nome."
-
-# Strings used for /feedback
+    L1: Para ativar esses addons, faça o Konami Code (↑↑↓↓←→←→BA) na página de
+      configuração. Leia o FAQ para mais informações.
+    L2: Nessa página, um addon secreto terá um ícone de ovo do lado do seu nome.
 FeedbackPage:
   Status:
     Sending: Enviando...
     Success: Enviado! Obrigado pelo feedback.
     Failed: Algo deu errado. Tente enviar de novo.
-  UsernameLabel: "Nome de usuário no Scratch, ou outro apelido (opcional)"
-  ContentLabel: Feedback
+  UsernameLabel: Nome de usuário no Scratch, ou outro apelido (opcional)
   ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
   SubmitButton: Enviar
-
-# Strings used for /scratch-messaging-transition
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension

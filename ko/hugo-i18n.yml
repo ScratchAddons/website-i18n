@@ -1,22 +1,16 @@
-# Strings used across the website
 Global:
   ScratchAddons: 스크래치 애드온
   LogoAlt: 스크래치 애드온 로고
   ChromeLong: 구글 크롬
   FirefoxLong: 모질라 Firefox
   ChromeShort: 크롬
-  FirefoxShort: Firefox
   Install: 설치하기
   InstallFor: "{{.Browser}}에 설치하기"
-
-# Strings used for the site navigation bar
 Nav:
   Contributors: 기여자
   Feedback: 문의하기
   Repository: 레포지토리
   Install: 설치하기
-
-# Strings used for the site footer
 Footer:
   Pages:
     Header: 페이지
@@ -36,18 +30,15 @@ Footer:
     Organization: 기관
     Repository: 레포지토리
     Documentation: 도움말
-    YouTube: YouTube
   Legal:
-    Copyright: "© {{.Count}} 스크래치 애드온 기여자"
-    NoAffiliation: "스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다."
+    Copyright: © {{.Count}} 스크래치 애드온 기여자
+    NoAffiliation: 스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다.
     License: 스크래치 애드온은 GNU General Public License v3.0 라이선스로 공유됩니다.
-
-# Strings used for the dark theme switch
 DarkTheme:
-  Title: "어두운 테마로 전환하려면\n클릭하세요."
+  Title: |-
+    어두운 테마로 전환하려면
+    클릭하세요.
   Label: 어두운 테마 전환
-
-# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: 스크래치 애드온 문서
   DocsNav: 문서 탐색
@@ -56,18 +47,17 @@ Docs:
   TOCToggleLabel: 측면 목차줄 전환 상태로 놓기
   LastUpdated: "{{.Commit}}커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
   Improve: 이 페이지 개선하기
-
-# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
-    Description: "스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다."
+    Description: 스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다.
+      스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
     InstallButton:
       Loading: 불러오는 중...
-      Description: "무료, 오픈소스"
+      Description: 무료, 오픈소스
     ReadMore: 또는 더 읽어보기
     Carousel:
-      Video: 
+      Video:
         Caption: 트래일러
         LabelPlay: 재생하기
         ModalTitle: 영상
@@ -78,8 +68,8 @@ IndexPage:
         Caption: 설정 페이지
         ImgAlt: 설정 페이지
       Demo:
-        Caption: "확장 프로그램의 예시 ({{.Count}})"
-        ImgAlt: "예시 ({{.Count}})"
+        Caption: 확장 프로그램의 예시 ({{.Count}})
+        ImgAlt: 예시 ({{.Count}})
       Previous: 이전
       Next: 다음
   Features:
@@ -89,25 +79,29 @@ IndexPage:
     CustomizableHeading: 사용자 지정 설정하기
     CustomizableParagraph: 스크래치 애드온에는 각 기능과 테마의 다양한 설정을 제어하는 사용하기 쉬운 인터페이스가 있습니다.
     InternationalHeading: 국제적
-    InternationalParagraph: "영어뿐만이 아닙니다. 스크래치 애드온은 한국어를 포함해 스페인어, 프랑스어와 더 많은 언어로 사용하실 수 있습니다."
+    InternationalParagraph: 영어뿐만이 아닙니다. 스크래치 애드온은 한국어를 포함해 스페인어, 프랑스어와 더 많은 언어로 사용하실 수 있습니다.
     OSHeading: 오픈소스
     OSParagraph: 스크래치 애드온은 무료이며 오픈소스이고 스크래치 사용자들에 의해 만들어졌습니다.
   Highlights:
     Heading: 주요 기능
-    Paragraph: "기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더 알아보세요{{.CloseTag1}}."
+    Paragraph: 기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더
+      알아보세요{{.CloseTag1}}.
     ScratchMessagingHeading: 스크래치 메시지 확장 프로그램
-    ScratchMessagingParagraph: '스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며 스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달 수 있습니다.'
+    ScratchMessagingParagraph: 스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며
+      스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달
+      수 있습니다.
     ScratchNotifierHeading: 스크래치 알리미
-    ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여 댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
+    ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여
+      댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
     DeveloperToolsHeading: 개발자 도구
-    DeveloperToolsParagraph: '{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새 메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다.'
+    DeveloperToolsParagraph: "{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새
+      메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다."
   Install:
-    Heading: 설치하기    
-    Paragraph: "만족하시나요? 주저하지 마시고 지금 설치하세요!"
+    Heading: 설치하기
+    Paragraph: 만족하시나요? 주저하지 마시고 지금 설치하세요!
     InstallButton:
-      Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터 설치하세요{{.CloseTag2}}. "
-
-# Strings used for /addons
+      Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터
+        설치하세요{{.CloseTag2}}. "
 AddonsPage:
   EasterEggAddon: 이 애드온은 이스터에그입니다.
   RecommendedAddon: 이 애드온은 권장하는 애드온입니다.
@@ -115,19 +109,15 @@ AddonsPage:
   EasterEggLabel: 이스터에그
   EasterEggTooltip:
     L1: 이스터에그를 활성화하려면 코나미 코드 (↑↑↓↓←→←→BA)를 설정창에서 입력하세요. 더 알아보려면 FAQ페이지를 참고하세요
-    L2: "이 페이지에선, 이스터에그 애드온의 이름에는 알 모양의 표식이 들어갑니다."
-
-# Strings used for /feedback
+    L2: 이 페이지에선, 이스터에그 애드온의 이름에는 알 모양의 표식이 들어갑니다.
 FeedbackPage:
   Status:
     Sending: 보내는 중...
     Success: 보내졌습니다! 피드백 감사드립니다.
-    Failed: "무언가 잘못되었습니다. 다시 보내보시겠습니까?"
+    Failed: 무언가 잘못되었습니다. 다시 보내보시겠습니까?
   UsernameLabel: 스크래치 사용자 이름 혹은 다른 인식 표식 (선택)
   ContentLabel: 문의하기
   ContentPlaceholder: 가능한 한 많은 정보를 작성해주세요.
   SubmitButton: 보내기
-
-# Strings used for /scratch-messaging-transition
 SMTPage:
   ScratchMessagingLogoAlt: 스크래치 메시지 확장 프로그램 로고
