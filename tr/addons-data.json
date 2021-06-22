@@ -111,7 +111,7 @@
 	{
 		"id": "cat-blocks",
 		"name": "Kedi blokları",
-		"description": "Brings back editor cat hat blocks from April Fools 2020.",
+		"description": "Bir Mayıs Şaka Günü 2020'den kedi şapka bloklarını geri getirir.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -183,7 +183,7 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Ctrl+Click to run scripts",
+		"name": "Kodları çalıştırmak için Ctrl+Tıkla",
 		"description": "Only run block stacks on click if also holding the Ctrl key.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Website karanlık modu",
-		"description": "Scratch 3.0 websitesinin hem 2.0 hem 3.0 sayfaları için karanlık mod. Farklı kullanıcıların oluşturduğu farklı seçenekler mevcuttur. ",
+		"description": "2.0 ve 3.0 siteleri için karanlık mod",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Düzenleyicideki Veri (\"Değişkenler\") kategorisi için ince ayarlar sağlar.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Hata Ayıklayıcısı",
+		"description": "Düzenleyiciye yeni bir \"hata ayıklayıcı\" blok kategorisi ve bir \"günlük\" penceresi ekler. \"günlük\", \"uyarı\" ve \"hata\" blokları belirtilmiş mesajı günlük ekranına yazdıracaktır. \"duraksatma\" bloğu çalıştırıldığında projeyi durduracaktır.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Genişletilebilir arama çubuğu",
+		"description": "Üzerine odaklandığı zaman gezinme çubuğundaki arama çubuğunu daha geniş yapar.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Paylaşılmayan projeleri öne çıkar",
 		"description": "Profilinizde \"öne çıkan projeyi değiştir\" seçeneğini tıkladıktan sonra paylaşılmayan projeleri seçmenize olanak sağlar.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Oyun kumandası desteği",
 		"description": "Interact with projects using a USB or Bluetooth controller/gamepad.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -576,7 +594,7 @@
 	},
 	{
 		"id": "message-filters",
-		"name": "Filter messages on Scratch's messages page",
+		"name": "Scratch'in mesajlar sayfasındaki mesajları filtrele",
 		"description": "Lets you select what types of messages to hide or show on Scratch's messages page.",
 		"tags": ["community"],
 		"credits": [
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Mobil forumları ana forumlara yönlendirme",
+		"description": "Sizi \"/discuss/m/\"'den \"/discuss/\"'a yönlendirir.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Proje sayfalarında Katkı ağacı butonu",
 		"description": "Katkı ağacı butonunu projelerde geri döndürtür.",
@@ -680,7 +705,7 @@
 	{
 		"id": "remove-curved-stage-border",
 		"name": "Bozuk sahne sınırını siler",
-		"description": "Removes the curved border around the stage, allowing you to see the corners.",
+		"description": "Sahnenin etrafındaki kavisli kenarlığı kaldırır, böylelikle köşeleri görmenize izin verir.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -697,7 +722,12 @@
 		"name": "Yeniden boyutlandırılabilen yorum girişi",
 		"description": "Scratch 3.0 stilindeki sayfalarda yorum giriş kutusunu dikey olarak yeniden boyutlandırılabilir hale getirir.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Profil istatistikleri",
 		"description": "Profil sayfalarında ScratchDB'den alınan istatistikleri gösterir.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "BBCode'u Göster",
 		"description": "Adds a button to the forums that shows the BBCode source of a post.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Stüdyo yönetici araçları",
 		"description": "\"İdareciler\" sekmesi aracılığıyla herhangi bir stüdyodan ayrılmanın yanı sıra stüdyolarınızdan herhangi birini kolayca yükseltmenize veya kaldırmanıza olanak tanır.",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -772,7 +812,7 @@
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "Block transparency",
+		"name": "Blok saydamlığı",
 		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

@@ -237,7 +237,7 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "프로필에서 떡꼬치(Dango)비 (만우절)",
+		"name": "프로필에서 Dango(떡꼬치)비가 내립니다. (만우절)",
 		"description": "'내 소개'에 'Dango'라는 단어가 포함된 사용자는 프로필 측면에 떡꼬치가 비처럼 내립니다.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "웹사이드 어두운 모드",
-		"description": "어두운 테마는 2.0과 3.0페이지 둘 모두에서 작동합니다. 개발자별 여러 설정을 사용할 수 있습니다.",
+		"description": "2.0과 3.0 페이지 모두에서 스크래치 웹사이트를 위한 어두운 테마",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "편집기에서 데이터(\"변수\") 카테고리를 개선합니다.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "디버거",
+		"description": "편집기에 새 \"디버거\" 블록 카테고리와 \"기록\" 창을 추가합니다. \"로그\", \"경고\" 및 \"오류\" 블록은 지정된 메시지를 기록 창에 저장됩니다. 중단점 블록은 실행될 때 프로젝트를 일시 중지합니다.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -289,7 +300,7 @@
 	{
 		"id": "discuss-button",
 		"name": "토론 버튼",
-		"description": "내비게이션 바에 토론 버튼을 추가합니다.",
+		"description": "탐색 표시줄에 토론 버튼을 추가합니다.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
 	},
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "확장되는 검색창",
+		"description": "창에 마우스를 클릭했을 떼 탐색 표시줄의 검색창이 넓어집니다.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "비공유된 프로젝트 특집 프로젝트 설정 허용",
 		"description": "프로필에서 \"특집 프로젝트 바꾸기\"를 클릭한 후 공유되지 않은 프로젝트를 선택할 수 있습니다.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "게임패드 지원",
 		"description": "USB 또는 Bluetooth 컨트롤러/게임 패드를 사용하여 프로젝트와 상호작용합니다.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -495,7 +513,7 @@
 	{
 		"id": "infinite-scroll",
 		"name": "무한 스크롤링",
-		"description": "사이트의 여러 부분에서 \"Load more\"버튼을 클릭할 필요 없이 스크롤할 수 있습니다.",
+		"description": "사이트의 여러 부분에서 \"load more\" 버튼을 클릭할 필요 없이 스크롤할 수 있습니다.",
 		"tags": ["community"],
 		"credits": [{ "name": "DatOneLefty" }]
 	},
@@ -546,7 +564,7 @@
 	{
 		"id": "longer-wiwo",
 		"name": "\"내가 하고 있는 일\"의 글자수 제한 높이기",
-		"description": "프로필의 \"내가 하고 있는 일\"에 55자를 더 입력할 수 있습니다. 스크래치에 있는 모든 사람이 추가 문자를 볼 수 있습니다.",
+		"description": "프로필의 \"내가 하고 있는 일\"에 55자를 더 입력할 수 있습니다. 스크래치에 있는 모든 사람이 더 작성한 내용을 볼 수 있습니다.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
@@ -576,7 +594,7 @@
 	},
 	{
 		"id": "message-filters",
-		"name": "스크래치의 메시지 페이지의 메시지 분류하기",
+		"name": "스크래치의 메시지 페이지의 메시지 분류",
 		"description": "스크래치의 메시지 페이지에서 보이거나 숨길 메시지 분류를 선택합니다.",
 		"tags": ["community"],
 		"credits": [
@@ -671,8 +689,15 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "모바일 토론방에서 메인 토론방으로 리다이렉트합니다",
+		"description": "/discuss/m/에서 /discuss/로 리다이렉트시키기",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
-		"name": "리믹스 트리 버튼을 프로젝트 페이지에 추가합니다.",
+		"name": "리믹스 트리 버튼 프로젝트 페이지에 추가",
 		"description": "프로젝트 페이지에 리믹스 트리를 되돌려 놓습니다.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
@@ -688,7 +713,7 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "스프라이트 제거 허락",
+		"name": "스프라이트 제거 확인",
 		"description": "스프라이트를 지울 때 한 번 더 묻습니다.",
 		"tags": ["editor", "recommended"]
 	},
@@ -697,7 +722,12 @@
 		"name": "크기 조절 가능한 댓글 입력창",
 		"description": "스크래치 3.0 스타일 페이지에서 댓글 입력 상자의 크기를 상하로 조정합니다.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "프로필 통계",
 		"description": "프로필 페이지에 ScratchDB의 통계를 표시합니다.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "BBCode 보기",
 		"description": "토론방에 게시물의 BBCode 소스를 보여주는 단추를 추가합니다.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "스튜디오 관리자 도구",
 		"description": "\"큐레이터\" 탭을 통해 스튜디오에서 나갈 뿐만 아니라 스튜디오에서 다른 사용자를 쉽게 승급 또는 추방할 수 있습니다.",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

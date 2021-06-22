@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Website-Dunkelmodus",
-		"description": "Dunkler Theme für die Scratch Webseite auf 2.0- und 3.0-Seiten. Mehrere Optionen von verschiedenen Autoren verfügbar.",
+		"description": "Dunkles Design für die Scratch-Website auf 2.0- und 3.0-Seiten.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Bietet Optimierungen für die Kategorie Daten (\"Variablen\") im Editor.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Debugger",
+		"description": "Fügt die neue Blockkategorie \"Debugger\" und ein \"Logs\"-Fenster im Editor hinzu. Die \"Log\", \"Warnung\" und \"Fehler\"-Blöcke werden die bestimmte Nachricht ins Logfenster schreiben. Der \"Breakpoint\"-Block wird das Projekt pausieren.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Erweiterbare Suchleiste",
+		"description": "Macht die Suchleiste beim Fokussieren breiter.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Stelle unveröffentlichte Projekte vor",
 		"description": "Erlaubt es dir, unveröffentlichte Projekte auszuwählen, nachdem du \"Ändere das vorgestellte Projekt\" auf deinem Profil anklickst.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Gamepad-Unterstützung",
 		"description": "Interagiere mit einem USB- oder Bluetoothcontroller/Gamepad mit Projekten.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Mobile Foren zu Hauptforen weiterleiten",
+		"description": "Leitet dich von /discuss/m/ zu /discuss/ weiter.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Remixbaumknopf auf Projektseiten",
 		"description": "Bringt den Remixbaumknopf auf Projektseiten zurück.",
@@ -697,7 +722,12 @@
 		"name": "Größe der Kommentarbox ändern",
 		"description": "Macht, dass die Größe der Kommentarbox auf Seiten, die Scratch 3.0-stilisiert sind, vertikal veränderbar ist.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Profilstatistiken",
 		"description": "Zeigt Statistiken von ScratchDB of Profilseiten an.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "BBCode anzeigen",
 		"description": "Fügt einen Button hinzu, der die BBCode-Quelle eines posts anzeigt.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Studiomanager-Tools",
 		"description": "Erlaubt es dir, einfacher im Kuratorentab Benutzer von deinen Studios zu befördern oder zu entfernen und Studios zu verlassen.",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

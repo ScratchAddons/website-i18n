@@ -184,7 +184,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl + Clic pour exécuter les scripts",
-		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"description": "N'exécuter que les piles de blocs cliquées si la touche Ctrl est enfoncée.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Site web en mode sombre",
-		"description": "Mode sombre pour le site web de Scratch, autant sur les pages en mode 2.0 que 3.0. De multiples options par différent auteurs sont disponibles.",
+		"description": "Thème sombre pour le site Web Scratch, à la fois pour les pages 2.0 et 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Apporte des améliorations pour la catégorie des blocs de données (\"Variables\") dans l'éditeur.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Debugger",
+		"description": "Ajoute une nouvelle catégorie de bloc \"debugger\" et une fenêtre \"Console\" à l'éditeur. Les blocs \"log\", \"warn\" et \"error\" imprimeront le message spécifié dans la console. Le bloc \"breakpoint\" mettra le projet en pause lors de son exécution.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -296,7 +307,7 @@
 	{
 		"id": "drag-drop",
 		"name": "Glisser et déposer des fichiers",
-		"description": "Lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" prompts.",
+		"description": "Vous permet de pourvoir déplacer des images ou des sons directement sur la listes des sprites/lutins ou dans la listes des sons ou costumes. Vous pouvez également faire glisser des fichiers texte dans les listes ou des entées de textes le bloc \"demander et attendre\" dans la scène",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -368,7 +379,7 @@
 	{
 		"id": "editor-theme3",
 		"name": "Couleur des blocs personnalisable",
-		"description": "Personnalisez la couleur des blocs pour chaque catégorie dans l'éditeur.",
+		"description": "Personnalisez la couleur des blocs pour chaque catégorie de bloc dans l'éditeur.",
 		"tags": ["editor", "theme", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Barre de recherche extensible",
+		"description": "Rendre la barre de recherche plus grande lorsqu'elle est active.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Projet non partagé à l'affiche",
 		"description": "Vous permet de choisir un projet non partagé au moment de changer le projet à l'affiche sur votre page de profil.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -448,7 +466,7 @@
 	{
 		"id": "forum-time-zones",
 		"name": "Utiliser le fuseau horaire local dans les forums",
-		"description": "Converts the post dates to your time zone. Uses ScratchDB for information.",
+		"description": "Convertit les dates de publication dans votre fuseau horaire. Utilise ScratchDB pour afficher ces informations   ",
 		"tags": ["forums", "community"]
 	},
 	{
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Support manette",
 		"description": "Interagissez avec les projets en utilisant une manette USB ou Bluetooth.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -513,7 +531,7 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Shared/edited dates tooltip",
+		"name": "Montre la date de dernière modifications et date du partage du projet",
 		"description": "Passez la souris sur la date de partage d'un projet pour savoir quand il a été modifié pour la dernière fois.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -621,7 +639,7 @@
 	{
 		"id": "my-ocular",
 		"name": "Montrer les statuts ocular.jeffalo.net et les réactions aux posts",
-		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
+		"description": "Afiche les statuts Ocular et les réactions. Utilise jeffalo.net pour obtenir les données.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Rediriger la version mobile des forums vers la version normale.",
+		"description": "Vous redirige de /discuss/m/ à /discuss/.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Bouton de l'arbre des remix sur la page des projets",
 		"description": "Ramène le bouton de l'arbre des remix sur les projets.",
@@ -697,7 +722,12 @@
 		"name": "Zone d'écriture des commentaires redimensionnable",
 		"description": "Fait en sorte que la zone d'écriture de commentaire puisse être redimensionnable dans les pages en style Scratch 3.0.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Statistiques de profil",
 		"description": "Montre les statistiques provenant de ScratchDB sur les pages de profil.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "Montrer le BBCode",
 		"description": "Ajoute un bouton sur les forums qui affiche la source BBCode d'un post.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Outils de gestion de studio",
 		"description": "Vous permet de promouvoir ou retirer facilement n'importe qui de vos studios, ainsi que quitter n'importe quel studio par l'onglet \"curateurs\".",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

@@ -184,7 +184,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl+Klik, aby uruchomić skrypty",
-		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"description": "Uruchamiaj stosy bloków, klikając i przytrzymując klawisz Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Tryb ciemny strony",
-		"description": "Ciemny motyw dla serwisu Scratch, zarówno dla stron 2.0, jak i 3.0. Dostępnych jest wiele opcji różnych autorów.",
+		"description": "Ciemny motyw dla strony Scratch, zarówno dla stron 2.0, jak i 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Zapewnia poprawki dla kategorii Dane („Zmienne”) w edytorze.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Debuger",
+		"description": "Adds a new \"debugger\" block category and a \"logs\" window to the editor. The \"log\", \"warn\" and \"error\" blocks will print the specified message into the logs window. The \"breakpoint\" block will pause the project when executed.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Rozwijany pasek wyszukiwania",
+		"description": "Makes the search bar on the navbar wider when it's focused.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Udostępniaj niewspółdzielone projekty",
 		"description": "Umożliwia wybór niewspółdzielonych projektów po kliknięciu opcji „zmień polecany projekt” w swoim profilu.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -406,7 +424,7 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "Do not automatically run duplicated blocks",
+		"name": "Nie uruchamiaj automatycznie zduplikowanych bloków",
 		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Wsparcie dla padów",
 		"description": "Interakcja z projektami za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Redirect mobile forums to main forums",
+		"description": "Redirects you from /discuss/m/ to /discuss/.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Przycisk drzewa remiksów na stronach projektu",
 		"description": "Przywraca przycisk drzewa remiksów do stron projektu.",
@@ -697,7 +722,12 @@
 		"name": "Możliwość zmiany rozmiaru wprowadzania komentarzy",
 		"description": "Umożliwia zmianę rozmiaru pola wprowadzania komentarzy w pionie na stronach stylizowanych na Scratch 3.0.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Statystyki profili",
 		"description": "Pokazuje statystyki z ScratchDB na stronach profilowych",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "Pokaż BBCode",
 		"description": "Dodaje przycisk do forów, który pokazuje źródło BBCode postu.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Narzędzia menadżera studia",
 		"description": "Pozwala łatwo promować lub usuwać kogokolwiek ze swoich studiów, a także opuszczać dowolne studio za pośrednictwem zakładki „kuratorzy”.\n \n\n \n \n \n \n ",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -772,8 +812,8 @@
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "Block transparency",
-		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
+		"name": "Przezroczystość bloku",
+		"description": "Dostosuj przezroczystość bloków w edytorze, korzystając z osobnych opcji dla bloków osieroconych (bez grzybka u góry) i bloków przeciąganych.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

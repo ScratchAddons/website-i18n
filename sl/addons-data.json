@@ -184,7 +184,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl+klik za izvajanje skript",
-		"description": "Ne izvede zaporedij blokov ko jih kliknete, razen če med tem držite tipko Ctrl.",
+		"description": "Ne izvede zaporedij blokov, ko jih kliknete, razen če med tem držite tipko Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Temni način za spletno stran",
-		"description": "Temni videz za vso Scratchevo spletno stran. Na voljo je več možnosti različnih avtorjev.",
+		"description": "Temni videz za vso Scratchevo spletno stran.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Izboljša kategorijo podatkov (Spremenljivke) v urejevalniku.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Orodje za razhroščevanje",
+		"description": "Doda novo kategorijo blokov in okno za razhroščevanje v urejevalnik. Bloki \"log\", \"warn\" (opozorilo) in \"error\" (napaka) zapišejo določeno sporočilo v okno za razhroščevanje. Blok \"breakpoint\" začasno zaustavi projekt.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Razširjena iskalna vrstica",
+		"description": "Naredi vrstico za iskanje na vrhu strani širšo, ko iščete.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Izpostavi nedeljene projekte",
 		"description": "Omogoči, da izberete nedeljene projekte, ko kliknete \"spremeni izpostavljene projekte\" na vašem profilu.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Podpora igralnih ploščkov",
 		"description": "Uporabljajte USB ali Bluetooth igralni plošček v projektih.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Preusmeritev iz mobilnih forumov v glavne forume",
+		"description": "Preusmeri strani /discuss/m/ v /discuss/.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Gumb za drevo predelav projekta",
 		"description": "Vrne gumb za drevo predelav na strani projektov.",
@@ -697,7 +722,12 @@
 		"name": "Spremenljiva velikost polja za komentar",
 		"description": "Omogoči spreminjanje višine polja za komentar na straneh, ki izgledajo kot Scratch 3.0.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Statistika o uporabnikih",
 		"description": "Pokaže statistične podatke iz ScratchDB na profilih uporabnikov.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "Pokaži BBCode",
 		"description": "V forume doda gumb, ki pokaže kodo BBCode objave.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Orodja za upravitelje studiov",
 		"description": "Omogoča, da enostavno kogarkoli naredite upravitelja, ga odstranite iz vaših studiov ali zapustite poljuben studio na zavihku \"kustosi\".",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}

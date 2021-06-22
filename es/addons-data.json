@@ -258,12 +258,12 @@
 	{
 		"id": "dark-www",
 		"name": "Modo oscuro de la web",
-		"description": "Modo oscuro en la web de Scratch, tanto como para páginas de 2.0 y 3.0. Múltiples opciones por diferentes autores disponibles.",
+		"description": "Modo oscuro en la web de Scratch, tanto como para páginas de 2.0 y 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
-				"name": "Maximouse (Experimental Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -273,6 +273,17 @@
 		"description": "Proporciona retoques para la categoría \"datos\" (variables) del editor.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Depurador",
+		"description": "Agrega una nueva categoría \"depurador\" y una ventana \"logs\" al editor. Los bloques \"log\", \"warn\" y \"error\" imprimirán el mensaje especificado a la ventana de logs. El bloque \"breakpoint\" pausará el proyecto cuando se ejecute.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -315,7 +326,7 @@
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
-				"link": "https://github.com/mxmou/customize-scratch"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
 				"name": "infinitytec (3.Dark, 3.Darker)",
@@ -393,10 +404,17 @@
 		]
 	},
 	{
+		"id": "expanding-search-bar",
+		"name": "Barra de búsqueda expandible",
+		"description": "Hace más ancha la barra de búsqueda de la barra de navegación cuando está enfocada.",
+		"tags": ["community"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Destacar proyectos no compartidos",
 		"description": "Le permite elegir proyectos no compartidos luego de clickear \"cambiar proyecto destacado\" en su perfil.",
-		"tags": ["community", "profiles", "beta"],
+		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -470,7 +488,7 @@
 		"id": "gamepad",
 		"name": "Soporte de mando de videojuegos",
 		"description": "Interactúe con proyectos usando un control/mando de videojuegos mediante USB o Bluetooth.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -671,6 +689,13 @@
 		]
 	},
 	{
+		"id": "redirect-mobile-forums",
+		"name": "Redirigir página móvil de los foros a página principal",
+		"description": "Le redirige de /discuss/m a /discuss/.",
+		"tags": ["community", "forums", "easterEgg"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "remix-tree-button",
 		"name": "Botón de arbol de reinvenciones en páginas de proyecto",
 		"description": "Pone de nuevo el botón de árbol de reinvenciones en las páginas de proyecto.",
@@ -697,7 +722,12 @@
 		"name": "Caja de comentarios ajustable",
 		"description": "Hace que la caja donde se escriben los comentarios sea verticalmente ajustable en páginas con estilos de Scratch 3.0.",
 		"tags": ["community", "comments", "recommended", "theme"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "scratch-messaging",
@@ -725,7 +755,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#scratch-30-look-for-old-parts-of-the-website"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -734,7 +764,12 @@
 		"name": "Estadísticas en perfiles",
 		"description": "Muestra estadísticas de ScratchDB en los perfiles.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "search-profile",
@@ -755,13 +790,18 @@
 		"name": "Mostrar BBCode",
 		"description": "Agrega un botón a los foros que muestra el código fuente BBCode de la publicación.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }]
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "studio-tools",
 		"name": "Herramientas de manager de estudios",
 		"description": "Le permite fácilmente promover o quitar curadores de sus estudios, como también abandonarlos, en la pestaña de \"curadores\".",
-		"tags": ["community", "studios", "recommended"],
+		"tags": ["community", "studios", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -805,7 +845,7 @@
 		"credits": [
 			{
 				"name": "Maximouse",
-				"link": "https://github.com/mxmou/customize-scratch#watch-youtube-videos-on-scratch-in-full-screen"
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	}
