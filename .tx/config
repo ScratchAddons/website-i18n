@@ -64,3 +64,122 @@ source_file = en/html-content/scratch-messaging-transition.html
 source_lang = en
 type = HTML_FRAGMENT
 
+[scratch-addons-website.markdown_docs_develop__index]
+file_filter = <lang>/markdown/docs/develop/_index.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_adding-an-icon-to-a-setting-name]
+file_filter = <lang>/markdown/docs/develop/adding-an-icon-to-a-setting-name.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/adding-an-icon-to-a-setting-name.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_addon-types__index]
+file_filter = <lang>/markdown/docs/develop/addon-types/_index.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/addon-types/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_addon-types_persistent-scripts]
+file_filter = <lang>/markdown/docs/develop/addon-types/persistent-scripts.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/addon-types/persistent-scripts.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_addon-types_userstyles]
+file_filter = <lang>/markdown/docs/develop/addon-types/userstyles.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/addon-types/userstyles.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_addon-types_userscripts]
+file_filter = <lang>/markdown/docs/develop/addon-types/userscripts.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/addon-types/userscripts.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_getting-started__index]
+file_filter = <lang>/markdown/docs/develop/getting-started/_index.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/getting-started/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_getting-started_addon-basics]
+file_filter = <lang>/markdown/docs/develop/getting-started/addon-basics.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/getting-started/addon-basics.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_develop_getting-started_creating-an-addon]
+file_filter = <lang>/markdown/docs/develop/getting-started/creating-an-addon.md
+minimum_perc = 100
+source_file = en/markdown/docs/develop/getting-started/creating-an-addon.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_localization_joining-the-localization-team]
+file_filter = <lang>/markdown/docs/localization/joining-the-localization-team.md
+minimum_perc = 100
+source_file = en/markdown/docs/localization/joining-the-localization-team.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_localization_localizing-addons]
+file_filter = <lang>/markdown/docs/localization/localizing-addons.md
+minimum_perc = 100
+source_file = en/markdown/docs/localization/localizing-addons.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_localization__index]
+file_filter = <lang>/markdown/docs/localization/_index.md
+minimum_perc = 100
+source_file = en/markdown/docs/localization/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_getting-started_installing]
+file_filter = <lang>/markdown/docs/getting-started/installing.md
+minimum_perc = 100
+source_file = en/markdown/docs/getting-started/installing.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_getting-started__index]
+file_filter = <lang>/markdown/docs/getting-started/_index.md
+minimum_perc = 100
+source_file = en/markdown/docs/getting-started/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.markdown_docs_getting-started_quick-start]
+file_filter = <lang>/markdown/docs/getting-started/quick-start.md
+minimum_perc = 100
+source_file = en/markdown/docs/getting-started/quick-start.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[scratch-addons-website.html-content_contributors]
+file_filter = <lang>/html-content/contributors.html
+minimum_perc = 100
+source_file = en/html-content/contributors.html
+source_lang = en
+type = HTML_FRAGMENT
+
+[scratch-addons-website.html-content_changelog]
+file_filter = <lang>/html-content/changelog.html
+minimum_perc = 100
+source_file = en/html-content/changelog.html
+source_lang = en
+type = HTML_FRAGMENT
+

@@ -1,26 +1,26 @@
 _index.html:
-  description: Scratch Addons is a browser extension that provides new features
-    and themes for the Scratch (scratch.mit.edu) website and project editor. It
-    has a mission to collect, archive, and put into use userstyles and
-    userscripts, developed by several members of the Scratch community.
-welcome.html:
-  title: Welcome!
-  description: Scratch Addons has been installed successfully! Thank you for
-    installing. We hope you enjoy the extension!
-farewell.html:
-  title: Farewell!
-  description: Scratch Addons has been uninstalled. We thank you for using the extension!
+  description: Scratch Addons is a browser extension that provides new features and themes for the Scratch (scratch.mit.edu) website and project editor. It has a mission to collect, archive, and put into use userstyles and userscripts, developed by several members of the Scratch community.
 addons.html:
   title: Addons
   description: This page lists all of the addons that are implemented on Scratch Addons.
+changelog.html:
+  title: Changelog
+  description: All notable changes to this project will be documented in this page.
+contributors.html:
+  title: Contributors
+  description: Many thanks to these amazing people for contributing to the project by working on Scratch Addons, its features, its themes, its website, etc.
+farewell.html:
+  title: Farewell!
+  description: Scratch Addons has been uninstalled. We thank you for using the extension!
 feedback.html:
   title: Send Feedback
   description: Send feedback to Scratch Addons developers.
 scratch-messaging-transition.html:
   title: Extension Update (Transition)
-  description: Scratch Messaging Extension (by griffpatch) has been updated and is
-    now called Scratch Addons. Click the Scratch Addons icon in the extension
-    bar to check out the new redesigned messages summary!
+  description: Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons. Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
 unsupported-browser.html:
   title: Unsupported Browser
   description: Scratch Addons doesn't support the browser you're using.
+welcome.html:
+  title: Welcome!
+  description: Scratch Addons has been installed successfully! Thank you for installing. We hope you enjoy the extension!

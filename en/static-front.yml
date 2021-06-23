@@ -4,3 +4,21 @@ docs/_index.md:
   toc_root: true
   cascade:
     section_site_name: Docs.SectionSiteName
+docs/develop/_index.md:
+  weight: 2
+docs/getting-started/_index.md:
+  weight: 1
+docs/getting-started/installing.md:
+  weight: 2
+docs/getting-started/quick-start.md:
+  weight: 1
+docs/localization/_index.md:
+  weight: 2
+docs/develop/addon-types/_index.md:
+  weight: 2
+docs/develop/getting-started/_index.md:
+  weight: 1
+docs/develop/getting-started/addon-basics.md:
+  weight: 1
+docs/develop/getting-started/creating-an-addon.md:
+  weight: 3
