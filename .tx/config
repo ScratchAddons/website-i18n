@@ -169,13 +169,6 @@ source_file = en/markdown/docs/getting-started/quick-start.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[scratch-addons-website.html-content_contributors]
-file_filter = <lang>/html-content/contributors.html
-minimum_perc = 100
-source_file = en/html-content/contributors.html
-source_lang = en
-type = HTML_FRAGMENT
-
 [scratch-addons-website.html-content_changelog]
 file_filter = <lang>/html-content/changelog.html
 minimum_perc = 100
