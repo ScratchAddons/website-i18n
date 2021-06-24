@@ -27,11 +27,8 @@ Footer:
     Documentation: Dokumentacja
   Legal:
     Copyright: © {{.Count}} Współtwórcy Scratch Addons
-    NoAffiliation: Scratch Addons nie jest stowarzyszone, powiązane ani w żaden
-      sposób oficjalnie połączone ze Scratch, Scratch Team, Scratch Foundation
-      ani żadną z jej spółek zależnych lub stowarzyszonych.
-    License: Scratch Addons jest licencjonowany na warunkach GNU General Public
-      License v3.0.
+    NoAffiliation: Scratch Addons nie jest stowarzyszone, powiązane ani w żaden sposób oficjalnie połączone ze Scratch, Scratch Team, Scratch Foundation ani żadną z jej spółek zależnych lub stowarzyszonych.
+    License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
 DarkTheme:
   Title: Kliknij, aby przełączyć ciemny motyw.
   Label: Przełącznik ciemnego motywu
@@ -53,7 +50,6 @@ IndexPage:
     Carousel:
       Video:
         Caption: Zwiastun.
-        ModalTitle: Film
       Settings:
         Caption: Strona ustawień
         ImgAlt: Strona ustawień

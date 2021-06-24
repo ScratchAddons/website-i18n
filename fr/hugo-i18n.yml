@@ -24,9 +24,7 @@ Footer:
     Repository: Dépot
   Legal:
     Copyright: © {{.Count}} contributeurs de Scratch Addons
-    NoAffiliation: Scratch Addons n'est pas affilié, associé, ou en aucun cas
-      officiellement lié avec Scratch, l'Équipe Scratch, la Scratch Foundation,
-      ou l'une de ses filiales ou ses sociétés affiliées.
+    NoAffiliation: Scratch Addons n'est pas affilié, associé, ou en aucun cas officiellement lié avec Scratch, l'Équipe Scratch, la Scratch Foundation, ou l'une de ses filiales ou ses sociétés affiliées.
     License: Scratch Addons est disponible sous licence GNU General Public License v3.0.
 DarkTheme:
   Title: Cliquer pour activer le thème sombre.
@@ -42,11 +40,7 @@ Docs:
 IndexPage:
   Intro:
     Tagline: Une extension tout-en-un pour Scratch
-    Description: Scratch Addons est une extension pour navigateur qui ajoute de
-      nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à
-      l'éditeur de projets. Son but est de collecter, d'archiver et de permettre
-      d'utiliser des thèmes et scripts utilisateur, développés par plusieurs
-      membres de la communauté Scratch.
+    Description: Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch.
     InstallButton:
       Loading: Chargement...
       Description: gratuit, open source
@@ -54,8 +48,6 @@ IndexPage:
     Carousel:
       Video:
         Caption: La bande-annonce.
-        LabelPlay: Lire
-        ModalTitle: Vidéo
       Popup:
         Caption: Le popup de l'extension.
         ImgAlt: Popup de l'extension
@@ -69,48 +61,29 @@ IndexPage:
       Next: Suivant
   Features:
     Heading: Fonctionnalités
-    AddonsParagraph: Scratch Addons rassemble des addons, qui sont des
-      fonctionnalités qui enrichissent le site de Scratch et votre expérience
-      dans l'éditeur.
+    AddonsParagraph: Scratch Addons rassemble des addons, qui sont des fonctionnalités qui enrichissent le site de Scratch et votre expérience dans l'éditeur.
     CustomizableHeading: Personnalisable
-    CustomizableParagraph: Scratch Addons a une interface simple d'utilisation pour
-      contrôler les paramètres de chaque thème et fonctionnalité.
-    InternationalParagraph: Pas seulement en anglais. Scratch Addons est disponible
-      en espagnol, russe, japonais, français et bien plus.
-    OSParagraph: Scratch Addons est gratuit, open source, et est développé par des
-      scratcheurs de la communauté.
+    CustomizableParagraph: Scratch Addons a une interface simple d'utilisation pour contrôler les paramètres de chaque thème et fonctionnalité.
+    InternationalParagraph: Pas seulement en anglais. Scratch Addons est disponible en espagnol, russe, japonais, français et bien plus.
+    OSParagraph: Scratch Addons est gratuit, open source, et est développé par des scratcheurs de la communauté.
   Highlights:
     Heading: Aperçu
-    Paragraph: N'oubliez pas que ce n'est qu'un aperçu. {{.OpenTag1}}Il y a encore
-      bien plus !{{.CloseTag1}}
-    ScratchMessagingParagraph: "\"L'ancêtre\" de Scratch Addons. Scratch Messaging
-      est disponible en cliquant sur l'icône de Scratch Addons, et permet de
-      lire et de répondre facilement à vos messages Scratch : regroupe les
-      messages par projet, affiche le commentaire en entier et son contexte,
-      permet de répondre directement aux commentaires."
-    ScratchNotifierParagraph: Scratch Notifier envoie des notifications à votre
-      navigateur lorsque vous avez de nouveaux messages Scratch. Vous pouvez
-      cliquer sur les notifications pour accéder directement au message
-      (commentaire, projet, etc.).
+    Paragraph: N'oubliez pas que ce n'est qu'un aperçu. {{.OpenTag1}}Il y a encore bien plus !{{.CloseTag1}}
+    ScratchMessagingParagraph: "\"L'ancêtre\" de Scratch Addons. Scratch Messaging est disponible en cliquant sur l'icône de Scratch Addons, et permet de lire et de répondre facilement à vos messages Scratch : regroupe les messages par projet, affiche le commentaire en entier et son contexte, permet de répondre directement aux commentaires."
+    ScratchNotifierParagraph: Scratch Notifier envoie des notifications à votre navigateur lorsque vous avez de nouveaux messages Scratch. Vous pouvez cliquer sur les notifications pour accéder directement au message (commentaire, projet, etc.).
     DeveloperToolsHeading: Outils de développement
-    DeveloperToolsParagraph: "{{.OpenTag1}}Provenant de l'extension
-      originale.{{.CloseTag1}} L'addon ajoute une boîte de recherche et de
-      nouvelles options au menu de l'éditeur : copier/coller des blocs, meilleur
-      rangement des blocs, aller à la définition d'un bloc personnalisé, et bien
-      plus encore !"
+    DeveloperToolsParagraph: "{{.OpenTag1}}Provenant de l'extension originale.{{.CloseTag1}} L'addon ajoute une boîte de recherche et de nouvelles options au menu de l'éditeur : copier/coller des blocs, meilleur rangement des blocs, aller à la définition d'un bloc personnalisé, et bien plus encore !"
   Install:
     Heading: Installer
     Paragraph: Satisfait ? N'hésitez pas à l'installer maintenant !
     InstallButton:
-      Other: ... ou {{.OpenTag1}} installez-le depuis GitHub {{.CloseTag1}} ou
-        {{.OpenTag2}} installez-le depuis la source {{.CloseTag2}}.
+      Other: ... ou {{.OpenTag1}} installez-le depuis GitHub {{.CloseTag1}} ou {{.OpenTag2}} installez-le depuis la source {{.CloseTag2}}.
 AddonsPage:
   EasterEggAddon: Cet addon est un easer egg.
   RecommendedAddon: Cet addon est recommandé.
   ListViewLabel: Affichage en mode liste
   EasterEggTooltip:
-    L1: Pour activer les addons, entrez le code Konami (↑↑↓↓←→←→BA) sur la page des
-      paramètres. Lisez la FAQ pour plus d'informations.
+    L1: Pour activer les addons, entrez le code Konami (↑↑↓↓←→←→BA) sur la page des paramètres. Lisez la FAQ pour plus d'informations.
     L2: Sur cette page, un addon easter egg aura une icône d'œuf à côté de son nom.
 FeedbackPage:
   Status:

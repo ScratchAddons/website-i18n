@@ -24,10 +24,7 @@ Footer:
     Documentation: Documentación
   Legal:
     Copyright: © {{.Count}} Colaboradores de Scratch Addons
-    NoAffiliation: Este proyecto no está afiliado, asociado, o de ninguna manera
-      conectado oficialmente con la página web de Scratch, su Equipo, Fundación,
-      o cualquiera de sus afiliados.
-    License: Scratch Addons está licenciado dentro de los términos de la licencia
-      GNU General Public License v3.0.
+    NoAffiliation: Este proyecto no está afiliado, asociado, o de ninguna manera conectado oficialmente con la página web de Scratch, su Equipo, Fundación, o cualquiera de sus afiliados.
+    License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
 DarkTheme:
   Title: Activar/desacticar el modo oscuro.

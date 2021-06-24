@@ -11,6 +11,6 @@ title: Naslovna stran
 
 Če vas zanima oblikovanje projekta, [kliknite tu](reference/design).
 
-Imate vprašanja o Scratch Addons? [Vprašajte tu](https://github.com/ScratchAddons/ScratchAddons/discussions)?
+Imate vprašanja o Scratch Addons? [Vprašajte tu](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
 Nove dodatke lahko predlagate na [zavihku Issues](https://github.com/ScratchAddons/ScratchAddons/issues).

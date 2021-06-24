@@ -28,8 +28,7 @@ Footer:
     Documentation: Dokumentacija
   Legal:
     Copyright: © {{.Count}} sodelavci Scratch Addons
-    NoAffiliation: Scratch Addons ni na noben način povezan s Scratchem, skupino
-      Scratch ali fundacijo Scratch.
+    NoAffiliation: Scratch Addons ni na noben način povezan s Scratchem, skupino Scratch ali fundacijo Scratch.
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
@@ -45,10 +44,7 @@ Docs:
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
-    Description: Scratch Addons je razširitev za brskalnike, ki doda nove funkcije
-      in teme za spletno stran in urejevalnik projektov Scratch. Njen cilj je
-      zbrati in omogočiti lažjo uporabo uporabniških slogov in skript, ki so jih
-      razvili člani Scratcheve skupnosti.
+    Description: Scratch Addons je razširitev za brskalnike, ki doda nove funkcije in teme za spletno stran in urejevalnik projektov Scratch. Njen cilj je zbrati in omogočiti lažjo uporabo uporabniških slogov in skript, ki so jih razvili člani Scratcheve skupnosti.
     InstallButton:
       Loading: Nalaganje...
       Description: brezplačno, odprta koda
@@ -56,7 +52,6 @@ IndexPage:
     Carousel:
       Video:
         Caption: Video o razširitvi.
-        LabelPlay: Predvajaj
       Popup:
         Caption: Okno razširitve.
         ImgAlt: Okno razširitve
@@ -71,46 +66,31 @@ IndexPage:
   Features:
     Heading: Funkcije
     AddonsHeading: Dodatki
-    AddonsParagraph: "Scratch Addons je sestavljen iz dodatkov: izboljšav za
-      Scratchevo spletno stran in urejevalnik."
+    AddonsParagraph: "Scratch Addons je sestavljen iz dodatkov: izboljšav za Scratchevo spletno stran in urejevalnik."
     CustomizableHeading: Prilagodljiv
-    CustomizableParagraph: Scratch Addons ima preprost uporabniški vmesnik za nadzor
-      raznih nastavitev vsake funkcije ali teme.
+    CustomizableParagraph: Scratch Addons ima preprost uporabniški vmesnik za nadzor raznih nastavitev vsake funkcije ali teme.
     InternationalHeading: Mednaroden
-    InternationalParagraph: Scratch Addons je na voljo tudi v angleščini, španščini,
-      ruščini, japonščini, francoščini in drugih jezikih.
+    InternationalParagraph: Scratch Addons je na voljo tudi v angleščini, španščini, ruščini, japonščini, francoščini in drugih jezikih.
     OSHeading: Odprtokoden
-    OSParagraph: Scratch Addons je brezplačen in odprtokoden. Razvija ga skupnost
-      Scratcherjev.
+    OSParagraph: Scratch Addons je brezplačen in odprtokoden. Razvija ga skupnost Scratcherjev.
   Highlights:
     Heading: Izpostavljeno
-    Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To
-      še ni vse!{{.CloseTag1}}
-    ScratchMessagingParagraph: "Prednik razširitve Scratch Addons. Na voljo je, ko
-      kliknite ikono Scratch Addons, in omogoča enostavno branje in odgovarjanje
-      na sporočila: združi sporočila glede na projekt, prikaže celo besedilo in
-      sobesedilo komentarjev, omogoča neposredno odgovarjanje na komentarje."
-    ScratchNotifierParagraph: Doda obvestila brskalnika, ko dobite nova sporočila na
-      Scratchu. Obvestilo lahko kliknete, da odprete sporočilo (komentar,
-      projekt, itd.)
-    DeveloperToolsParagraph: "{{.OpenTag1}}Iz originalne razširitve.{{.CloseTag1}}
-      Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje in
-      lepljenje blokov, boljše čiščenje kodo, premik do definicije bloka, in
-      več!"
+    Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
+    ScratchMessagingParagraph: "Prednik razširitve Scratch Addons. Na voljo je, ko kliknite ikono Scratch Addons, in omogoča enostavno branje in odgovarjanje na sporočila: združi sporočila glede na projekt, prikaže celo besedilo in sobesedilo komentarjev, omogoča neposredno odgovarjanje na komentarje."
+    ScratchNotifierParagraph: Doda obvestila brskalnika, ko dobite nova sporočila na Scratchu. Obvestilo lahko kliknete, da odprete sporočilo (komentar, projekt, itd.)
+    DeveloperToolsParagraph: "{{.OpenTag1}}Iz originalne razširitve.{{.CloseTag1}} Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje in lepljenje blokov, boljše čiščenje kodo, premik do definicije bloka, in več!"
   Install:
     Heading: Namesti
     Paragraph: Ste zadovoljni? Namestite zdaj!
     InstallButton:
-      Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali
-        {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
+      Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
   ListViewLabel: Pogled seznama
   EasterEggLabel: Skrivni dodatki
   EasterEggTooltip:
-    L1: Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z
-      nastavitvami. Več informacij je na strani s pogostimi vprašanji.
+    L1: Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji.
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
 FeedbackPage:
   Status:
@@ -123,3 +103,17 @@ FeedbackPage:
   SubmitButton: Pošlji
 SMTPage:
   ScratchMessagingLogoAlt: Logotip razširitve Scratch Messaging Extension
+ChangelogPage:
+  Highlights:
+    Title: Izpostavljeno
+  Links:
+    Title: Povezave
+    ReleaseGitHub: Stran različice na GitHub
+    RepoState: Izvirna koda te različice
+    CommitsMade: Spremembe kode v tej različici
+  Status:
+    Latest: Najnovejša različica
+    Yanked: Izpuščena različica
+PlayerModal:
+  LabelPlay: Predvajaj
+  AltText: Kliknite za ogled videa.

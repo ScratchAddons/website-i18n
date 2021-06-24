@@ -50,8 +50,7 @@ Docs:
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
-    Description: 스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다.
-      스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
+    Description: 스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
     InstallButton:
       Loading: 불러오는 중...
       Description: 무료, 오픈소스
@@ -59,8 +58,6 @@ IndexPage:
     Carousel:
       Video:
         Caption: 트래일러
-        LabelPlay: 재생하기
-        ModalTitle: 영상
       Popup:
         Caption: 확장 프로그램 팝업
         ImgAlt: 확장 프로그램 팝업
@@ -84,24 +81,18 @@ IndexPage:
     OSParagraph: 스크래치 애드온은 무료이며 오픈소스이고 스크래치 사용자들에 의해 만들어졌습니다.
   Highlights:
     Heading: 주요 기능
-    Paragraph: 기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더
-      알아보세요{{.CloseTag1}}.
+    Paragraph: 기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더 알아보세요{{.CloseTag1}}.
     ScratchMessagingHeading: 스크래치 메시지 확장 프로그램
-    ScratchMessagingParagraph: 스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며
-      스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달
-      수 있습니다.
+    ScratchMessagingParagraph: 스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며 스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달 수 있습니다.
     ScratchNotifierHeading: 스크래치 알리미
-    ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여
-      댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
+    ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여 댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
     DeveloperToolsHeading: 개발자 도구
-    DeveloperToolsParagraph: "{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새
-      메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다."
+    DeveloperToolsParagraph: "{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새 메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다."
   Install:
     Heading: 설치하기
     Paragraph: 만족하시나요? 주저하지 마시고 지금 설치하세요!
     InstallButton:
-      Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터
-        설치하세요{{.CloseTag2}}. "
+      Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터 설치하세요{{.CloseTag2}}. "
 AddonsPage:
   EasterEggAddon: 이 애드온은 이스터에그입니다.
   RecommendedAddon: 이 애드온은 권장하는 애드온입니다.

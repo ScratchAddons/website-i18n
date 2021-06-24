@@ -27,8 +27,7 @@ Footer:
     Documentation: ドキュメント
   Legal:
     Copyright: © {{.Count}} Scratch Addons 貢献者
-    NoAffiliation: Scratch
-      Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
+    NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
     License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
 DarkTheme:
   Title: クリックしてダークモードを切り替えられます。
@@ -44,8 +43,7 @@ Docs:
 IndexPage:
   Intro:
     Tagline: Scratchの改良を詰め合わせた拡張機能
-    Description: Scratch
-      Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
+    Description: Scratch Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
     InstallButton:
       Loading: 読み込み中...
       Description: 無料、オープンソース
@@ -53,8 +51,6 @@ IndexPage:
     Carousel:
       Video:
         Caption: 紹介動画
-        LabelPlay: 再生
-        ModalTitle: 動画
       Popup:
         Caption: 拡張機能のポップアップ
         ImgAlt: 拡張機能のポップアップ
@@ -80,13 +76,11 @@ IndexPage:
     Heading: ハイライト
     Paragraph: これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}
     ScratchMessagingHeading: Scratchメッセージ
-    ScratchMessagingParagraph: Scratch
-      Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。
+    ScratchMessagingParagraph: Scratch Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。
     ScratchNotifierHeading: Scratch通知
     ScratchNotifierParagraph: Scratchメッセージが来た時に通知します。通知をクリックしてメッセージに直接行けます。
     DeveloperToolsHeading: 開発者ツール
-    DeveloperToolsParagraph: "{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコ\
-      ピペ、定義ブロックに移動する機能などを追加しました。"
+    DeveloperToolsParagraph: "{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。"
   Install:
     Heading: インストール
     Paragraph: 満足しましたか? 今すぐインストールを!

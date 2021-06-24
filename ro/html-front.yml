@@ -1,6 +1,5 @@
-welcome.html:
-  title: Bun venit
 farewell.html:
   title: La revedere!
-  description: Extensii Scratch a fost dezinstalat. Vă mulțumim pentru că ați
-    folosit extensia.
+  description: Extensii Scratch a fost dezinstalat. Vă mulțumim pentru că ați folosit extensia.
+welcome.html:
+  title: Bun venit

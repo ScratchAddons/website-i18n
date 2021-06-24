@@ -25,9 +25,7 @@ Footer:
     Documentation: Документация
   Legal:
     Copyright: © {{.Count}} внёсшие вклад в Scratch Addons
-    NoAffiliation: Scratch Addons не является аффилированным лицом, связан, или в
-      любом виде официально соединён с сайтом Scratch, Команды Scratch,
-      Учреждением Scratch, или любой из его дочерних компаний или филиалов.
+    NoAffiliation: Scratch Addons не является аффилированным лицом, связан, или в любом виде официально соединён с сайтом Scratch, Команды Scratch, Учреждением Scratch, или любой из его дочерних компаний или филиалов.
     License: Scratch Addons лицензирован под условиями GNU General Public License v3.0.
 DarkTheme:
   Title: Нажмите, чтобы переключить тёмную тему

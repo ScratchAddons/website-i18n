@@ -39,39 +39,26 @@ IndexPage:
   Features:
     Heading: Funcții
     AddonsHeading: Extensii
-    AddonsParagraph: Extensii Scratch are extensii, care sunt funcții care pot face
-      experiența ta Scratch mai bună.
+    AddonsParagraph: Extensii Scratch are extensii, care sunt funcții care pot face experiența ta Scratch mai bună.
     CustomizableHeading: Personalizabil
-    CustomizableParagraph: Extensii Scratch are o interfață ușor de folosit pentru
-      controlarea setărilor fiecărui funcții.
+    CustomizableParagraph: Extensii Scratch are o interfață ușor de folosit pentru controlarea setărilor fiecărui funcții.
     InternationalHeading: Internațional
-    InternationalParagraph: Nu doar engleză. Extensii Scratch este disponibil în
-      spaniolă, rusă, japoneză, franceză, și multe altele.
+    InternationalParagraph: Nu doar engleză. Extensii Scratch este disponibil în spaniolă, rusă, japoneză, franceză, și multe altele.
     OSParagraph: Extensii Scratch este gratuit, open source, și făcut de Scratcheri.
   Highlights:
     Heading: Evidențieri
-    Paragraph: Ține minte, acestea sunt doar evidențierile. {{.OpenTag1}} Există mai
-      mult! {{.CloseTag1}}
+    Paragraph: Ține minte, acestea sunt doar evidențierile. {{.OpenTag1}} Există mai mult! {{.CloseTag1}}
     ScratchMessagingHeading: Mesagerie Scratch
-    ScratchMessagingParagraph: '"Bunicul" Extensii Scratch. Este disponibil la
-      apăsarea iconiței Extensii Scratch, și pune la dispoziție citire și
-      răspundere ușoară la mesajele tale Scratch: grupează mesajele pe proiect,
-      afișează conținutul și contextul complet al comentariilor, permite
-      răspundere directă la comentarii.'
+    ScratchMessagingParagraph: '"Bunicul" Extensii Scratch. Este disponibil la apăsarea iconiței Extensii Scratch, și pune la dispoziție citire și răspundere ușoară la mesajele tale Scratch: grupează mesajele pe proiect, afișează conținutul și contextul complet al comentariilor, permite răspundere directă la comentarii.'
     ScratchNotifierHeading: Notificator Scratch
-    ScratchNotifierParagraph: Adaugă notificări de browser pe mesajele noi Scratch.
-      Poți da copiilo clic pe notificare pentru a ajunge direct la mesaj
-      (comentariu, proiect, etc.)
+    ScratchNotifierParagraph: Adaugă notificări de browser pe mesajele noi Scratch. Poți da copiilo clic pe notificare pentru a ajunge direct la mesaj (comentariu, proiect, etc.)
     DeveloperToolsHeading: Instrumente pentru dezvoltatori
-    DeveloperToolsParagraph: "{{.OpenTag1}} Din extensia originală. {{.CloseTag1}}
-      Adaugă o casetă de căutare și opțiuni noi in editor: copiere/lipire
-      blocuri, curățare mai bună, mergi la definiția blocului și multe altele!"
+    DeveloperToolsParagraph: "{{.OpenTag1}} Din extensia originală. {{.CloseTag1}} Adaugă o casetă de căutare și opțiuni noi in editor: copiere/lipire blocuri, curățare mai bună, mergi la definiția blocului și multe altele!"
   Install:
     Heading: Instalează
     Paragraph: Satisfăcut? Nu ezita să o instalezi acum!
     InstallButton:
-      Other: ...sau {{.OpenTag1}} descarc-o de pe GitHub {{.CloseTag1}} sau
-        {{.OpenTag2}} instaleaz-o din sursă {{.CloseTag2}}.
+      Other: ...sau {{.OpenTag1}} descarc-o de pe GitHub {{.CloseTag1}} sau {{.OpenTag2}} instaleaz-o din sursă {{.CloseTag2}}.
 AddonsPage:
   EasterEggAddon: Aceasta este o extensie ou de paște.
   RecommendedAddon: Aceasta este o extensie recomandată.

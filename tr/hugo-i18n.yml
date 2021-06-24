@@ -29,11 +29,8 @@ Footer:
     Documentation: Belgeleme
   Legal:
     Copyright: © {{.Count}} Scratch Eklentileri çalışanları
-    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation
-      veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi
-      bir şekilde resmi olarak bağlı değildir.
-    License: Scratch Eklentileri GNU General Public License v3.0 altında
-      lisanslanmıştır.
+    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi bir şekilde resmi olarak bağlı değildir.
+    License: Scratch Eklentileri GNU General Public License v3.0 altında lisanslanmıştır.
 DarkTheme:
   Title: Karanlık modu açmak için tıklayın.
   Label: Karanlık mod anahtarı
@@ -47,17 +44,12 @@ Docs:
   Improve: Bu Sayfayı Geliştirin
 IndexPage:
   Intro:
-    Description: Scratch Eklentileri Scratch websitesi ve proje editörü için yeni
-      özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch
-      topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve
-      kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
+    Description: Scratch Eklentileri Scratch websitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
     ReadMore: veya daha fazlasını oku
     Carousel:
-      Video:
-        LabelPlay: Oynat
       Settings:
         Caption: Ayarlar sayfası.
         ImgAlt: Ayarlar sayfası
