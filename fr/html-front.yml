@@ -1,8 +1,11 @@
 _index.html:
-  description: Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch (scratch.mit.edu) et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch.
+  description: "Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch (scratch.mit.edu) et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch."
 addons.html:
   title: Les addons
   description: Cette page reprend tous les addons présents dans Scratch Addons.
+changelog.html:
+  title: Liste des modifications
+  description: Tous les changements notables de ce projet seront documentés sur cette page.
 farewell.html:
   title: Au revoir !
   description: Scratch Addons a été désinstallé. Nous vous remercions d'avoir utilisé l'extension !

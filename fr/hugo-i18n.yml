@@ -96,3 +96,11 @@ FeedbackPage:
   SubmitButton: Envoyer
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
+ChangelogPage:
+  Links:
+    Title: Liens
+  Status:
+    Latest: Le plus ancien
+PlayerModal:
+  LabelPlay: Jouer
+  ModalTitle: Vidéo

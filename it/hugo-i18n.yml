@@ -114,5 +114,6 @@ ChangelogPage:
     CommitsMade: Commit in questa versione
   Status:
     Latest: Ultima
+    Yanked: Non rilasciato
 PlayerModal:
   AltText: Clicca per guardare questo video.
