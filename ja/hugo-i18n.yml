@@ -105,3 +105,18 @@ FeedbackPage:
   SubmitButton: 送信
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
+ChangelogPage:
+  Highlights:
+    Title: ハイライト
+  Links:
+    Title: リンク
+    ReleaseGitHub: GitHubのリリースページ
+    RepoState: リリース時のリポジトリ
+    CommitsMade: 前バージョンとのコード比較
+  Status:
+    Latest: 最新
+    Yanked: リリース中止
+PlayerModal:
+  LabelPlay: 再生
+  ModalTitle: 動画
+  AltText: クリックして動画を再生
