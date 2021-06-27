@@ -102,3 +102,16 @@ FeedbackPage:
   SubmitButton: Enviar
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension
+ChangelogPage:
+  Highlights:
+    Title: Destaques
+  Links:
+    ReleaseGitHub: Página de lançamentos no GitHub
+    RepoState: Estado do repositório na época do lançamento
+    CommitsMade: Commits feitos nessa versão
+  Status:
+    Latest: Mais recente
+PlayerModal:
+  LabelPlay: Tocar
+  ModalTitle: Vídeo
+  AltText: Clique para ver o vídeo.
