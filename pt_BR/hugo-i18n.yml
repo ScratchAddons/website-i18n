@@ -74,7 +74,7 @@ IndexPage:
     Heading: Destaques
     Paragraph: Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito mais!{{.CloseTag1}}
     ScratchMessagingHeading: Mensagens Scratch
-    ScratchMessagingParagraph: 'O "ancião" do Scratch Addons. Está disponível ao clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o texto e contexto completos do comentário, te deixa responder diretamente.'
+    ScratchMessagingParagraph: 'O "avô" do Scratch Addons. Está disponível ao clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o texto e contexto completos do comentário, te deixa responder diretamente.'
     ScratchNotifierHeading: Notificador do Scratch
     ScratchNotifierParagraph: Permite que o navegador te notifique sobre novas mensagens no Scratch. Você pode clicar na notificação para ir direto à mensagem (comentário, projeto, etc.)
     DeveloperToolsHeading: Ferramentas de desenvolvedor
