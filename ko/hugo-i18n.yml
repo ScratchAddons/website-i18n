@@ -17,7 +17,7 @@ Footer:
     FAQ: 자주 묻는 질문
     Feedback: 문의하기
     Contributors: 기여자
-    Changelog: 변경 사항
+    Changelog: 변경 내역
     Addons: 애드온
   Discuss:
     Header: 토론하기
@@ -47,6 +47,7 @@ Docs:
   TOCToggleLabel: 측면 목차줄 전환 상태로 놓기
   LastUpdated: "{{.Commit}}커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
   Improve: 이 페이지 개선하기
+  SectionPages: 문서 페이지
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
@@ -112,3 +113,18 @@ FeedbackPage:
   SubmitButton: 보내기
 SMTPage:
   ScratchMessagingLogoAlt: 스크래치 메시지 확장 프로그램 로고
+ChangelogPage:
+  Highlights:
+    Title: 하이라이트
+  Links:
+    Title: 링크
+    ReleaseGitHub: GitHub의 릴리즈 페이지
+    RepoState: 릴리즈에서의 레포지토리 상태
+    CommitsMade: 이 버전을 만든 커밋
+  Status:
+    Latest: 최신
+    Yanked: 버전 건너뛰기
+PlayerModal:
+  LabelPlay: 재생하기
+  ModalTitle: 영상
+  AltText: 클릭해서 영상을 봅니다.
