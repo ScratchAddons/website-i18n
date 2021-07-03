@@ -41,6 +41,7 @@ Docs:
   TOCToggleLabel: Pokaži/skrij stolpec s kazalom vsebine
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
+  SectionPages: Strani v tem razdelku
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
