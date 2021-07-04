@@ -184,7 +184,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Kodları çalıştırmak için Ctrl+Tıkla",
-		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"description": "Ctrl tuşunu da basılı tutuyorsanız, yalnızca tıklamada blok yığınlarını çalıştırın.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -425,7 +425,7 @@
 	{
 		"id": "fix-pasted-scripts",
 		"name": "Otomatik olarak kopyalanmış blokları çalıştırmayın.",
-		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
+		"description": "Scratch düzenleyicisinde, bir bloğun kopyalanmasının ve bir yığına eklenmesinin yığının çalışmasına neden olduğu bir hatayı düzeltir.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
