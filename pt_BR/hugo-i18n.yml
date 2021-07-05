@@ -39,6 +39,7 @@ Docs:
   TOCToggleLabel: Ligar/desligar barra de índice
   LastUpdated: Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}.
   Improve: Melhore essa página.
+  SectionPages: Páginas de Seção
 IndexPage:
   Intro:
     Tagline: Extensão de navegador tudo-em-um para o Scratch
