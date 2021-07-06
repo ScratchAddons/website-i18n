@@ -1,5 +1,7 @@
 Global:
   LogoAlt: Logo de Scratch Addons
+  Install: Instalar
+  InstallFor: Instalar para {{.Browser}}
 Nav:
   Contributors: Colaboradores
   Feedback: Enviar Comentarios
@@ -28,3 +30,88 @@ Footer:
     License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
 DarkTheme:
   Title: Activar/desacticar el modo oscuro.
+  Label: Interruptor de modo oscuro
+Docs:
+  SectionSiteName: Docs de Scratch Addons
+  DocsNav: Navegación de docs
+  DocsNavToggleLabel: Activar o desactivar barra lateral de navegación
+  TOC: Tabla de contenidos
+  TOCToggleLabel: Activar o desactivar barra lateral de tabla de contenidos
+  LastUpdated: Actualizado por última vez el {{.Date}} por {{.Name}} en commit {{.Commit}}.
+  Improve: Mejorar esta página.
+  SectionPages: Páginas de Sección
+IndexPage:
+  Intro:
+    Tagline: Extensión todo en uno para Scratch
+    Description: Scratch Addons es una extensión para navegador que proporciona nuevas funcionalidades y temas para la web de Scratch y el editor de proyectos. Tiene como misión reunir, archivar y poner en uso userstyles y userscripts desarrollados por varios miembros de la comunidad de Scratch.
+    InstallButton:
+      Loading: Cargando...
+      Description: gratis, código abierto
+    ReadMore: o leer más
+    Carousel:
+      Video:
+        Caption: El trailer.
+      Popup:
+        Caption: El pop-up de la extensión.
+        ImgAlt: Pop-up de la extensión
+      Settings:
+        Caption: La página de configuración.
+        ImgAlt: Página de configuración
+      Demo:
+        Caption: Demonstración de la extensión. ({{.Count}})
+        ImgAlt: Demonstración ({{.Count}})
+      Previous: Anterior
+      Next: Siguiente
+  Features:
+    Heading: Funciones
+    AddonsParagraph: Scratch Addons consiste de addons, que son funciones que pueden potenciar su experiencia en la web y editor de Scratch.
+    CustomizableHeading: Personalizable
+    CustomizableParagraph: Scratch Addons tiene una interfaz fácil de usar para controlar varios ajustes de cada función y tema.
+    InternationalHeading: Internacional
+    InternationalParagraph: No solo inglés. Scratch Addons está disponible en español, ruso, japonés, francés y muchos más.
+    OSHeading: Código abierto
+    OSParagraph: Scratch Addons es gratuito, código abierto y desarrollado por una comunidad de Scratchers.
+  Highlights:
+    Heading: Destacados
+    Paragraph: Recuerde, estos solo son los addons destacados. {{.OpenTag1}}¡Hay más!{{.CloseTag1}}
+    ScratchMessagingParagraph: 'El "abuelo" de Scratch Addons. Está disponible al hacer click en el ícono de Scratch Addons, y provee fácil lectura y respuesta a tus mensajes: agrupa los mensajes por proyecto, muestra todo el contenido de los comentarios y permite responder a ellos directamente.'
+    ScratchNotifierParagraph: Agrega notificaciones del navegador cuando recibe nuevos mensajes. Haga click en la notificación para ir directamente al mensaje (comentario, proyecto, etc.)
+    DeveloperToolsHeading: Herramientas de desarrollador
+    DeveloperToolsParagraph: "{{.OpenTag1}}De la extensión original.{{.CloseTag1}} Agrega una barra de búsqueda y nuevas opciones de menú para el editor: copie y pegue bloques, ordene de mejor manera, vaya directamente a la definición de un bloque propio y más."
+  Install:
+    Heading: Instalar
+    Paragraph: ¿Satisfecho? ¡No dudes en instalar ahora!
+    InstallButton:
+      Other: ...o {{.OpenTag1}}descárguelo de GitHub{{.CloseTag1}} o {{.OpenTag2}}instálelo de la fuente{{.CloseTag2}}.
+AddonsPage:
+  EasterEggAddon: Este es un addon easter egg.
+  RecommendedAddon: Este es un addon recomendado
+  ListViewLabel: Vista de lista
+  EasterEggTooltip:
+    L1: Para activar los addons, haga el Código Konami (↑↑↓↓←→←→BA) en la página de configuración. Lea la página de preguntas frecuentes para más información.
+    L2: En esta página, un addon easter egg tendrá un símbolo de un huevo al lado de su nombre.
+FeedbackPage:
+  Status:
+    Sending: Enviando...
+    Success: ¡Enviado! Gracias por sus comentarios.
+    Failed: Algo anduvo mal. ¿Intente enviar de nuevo?
+  UsernameLabel: Nombre de usuario de Scratch, u otros identificadores (opcional)
+  ContentLabel: Comentarios
+  ContentPlaceholder: Por favor proporcione tantos detalles como pueda.
+  SubmitButton: Enviar
+SMTPage:
+  ScratchMessagingLogoAlt: Logo de Scratch Messaging Extensio
+ChangelogPage:
+  Highlights:
+    Title: Destacados
+  Links:
+    Title: Enlaces
+    ReleaseGitHub: Página de lanzamiento en GitHub
+    RepoState: Estado del repositorio en lanzamiento
+    CommitsMade: Commits hechos en esta versión
+  Status:
+    Latest: Últim
+    Yanked: Descartado
+PlayerModal:
+  LabelPlay: Reproducir
+  AltText: Haga click para ver este video.

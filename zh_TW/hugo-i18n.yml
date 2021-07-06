@@ -1,0 +1,26 @@
+Global:
+  Install: 安裝
+  InstallFor: 安裝為了{{.Browser}}
+Nav:
+  Contributors: 貢獻者
+  Feedback: 发送评价
+  Repository: 存儲庫
+  Install: 安裝
+Footer:
+  Pages:
+    Header: 頁面
+    FAQ: 常見問題
+    Feedback: 发送评价
+    Contributors: 貢獻者
+    Changelog: 更改日誌
+  Discuss:
+    Issues: 問題
+  Resources:
+    Repository: 存儲庫
+Docs:
+  TOC: 目錄
+  LastUpdated: "最後更新時間在 {{.Date}} "
+IndexPage:
+  Intro:
+    InstallButton:
+      Loading: 加载中...

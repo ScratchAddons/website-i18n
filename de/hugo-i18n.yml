@@ -37,6 +37,7 @@ Docs:
   TOCToggleLabel: Inhaltetabelle umschalten
   LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
   Improve: Diese Seite verbessern.
+  SectionPages: Sektions-Seiten
 IndexPage:
   Intro:
     Tagline: All-in-one-Browsererweiterung für Scratch
