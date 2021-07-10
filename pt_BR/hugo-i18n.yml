@@ -40,6 +40,10 @@ Docs:
   LastUpdated: Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}.
   Improve: Melhore essa página.
   SectionPages: Páginas de Seção
+PlayerModal:
+  LabelPlay: Tocar
+  ModalTitle: Vídeo
+  AltText: Clique para ver o vídeo.
 IndexPage:
   Intro:
     Tagline: Extensão de navegador tudo-em-um para o Scratch
@@ -112,7 +116,3 @@ ChangelogPage:
     CommitsMade: Commits feitos nessa versão
   Status:
     Latest: Mais recente
-PlayerModal:
-  LabelPlay: Tocar
-  ModalTitle: Vídeo
-  AltText: Clique para ver o vídeo.

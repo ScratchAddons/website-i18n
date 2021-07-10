@@ -41,6 +41,9 @@ Docs:
   TOCToggleLabel: Mostra/nascondi barra della tavola dei contenuti
   LastUpdated: Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}.
   Improve: Migliora questa pagina.
+PlayerModal:
+  LabelPlay: Riproduci
+  AltText: Clicca per guardare questo video.
 IndexPage:
   Intro:
     Tagline: Tutto in una sola estensione per Scratch
@@ -115,6 +118,3 @@ ChangelogPage:
   Status:
     Latest: Ultima
     Yanked: Non rilasciato
-PlayerModal:
-  LabelPlay: Riproduci
-  AltText: Clicca per guardare questo video.

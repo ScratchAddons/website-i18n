@@ -41,6 +41,10 @@ Docs:
   LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
   Improve: ページを改善する
   SectionPages: 目次
+PlayerModal:
+  LabelPlay: 再生
+  ModalTitle: 動画
+  AltText: クリックして動画を再生
 IndexPage:
   Intro:
     Tagline: Scratchの改良を詰め合わせた拡張機能
@@ -117,7 +121,3 @@ ChangelogPage:
   Status:
     Latest: 最新
     Yanked: リリース中止
-PlayerModal:
-  LabelPlay: 再生
-  ModalTitle: 動画
-  AltText: クリックして動画を再生

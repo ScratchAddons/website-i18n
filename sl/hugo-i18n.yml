@@ -42,6 +42,9 @@ Docs:
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
   SectionPages: Strani v tem razdelku
+PlayerModal:
+  LabelPlay: Predvajaj
+  AltText: Kliknite za ogled videa.
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
@@ -115,6 +118,3 @@ ChangelogPage:
   Status:
     Latest: Najnovejša različica
     Yanked: Izpuščena različica
-PlayerModal:
-  LabelPlay: Predvajaj
-  AltText: Kliknite za ogled videa.

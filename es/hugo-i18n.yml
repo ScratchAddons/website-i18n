@@ -40,6 +40,9 @@ Docs:
   LastUpdated: Actualizado por última vez el {{.Date}} por {{.Name}} en commit {{.Commit}}.
   Improve: Mejorar esta página.
   SectionPages: Páginas de Sección
+PlayerModal:
+  LabelPlay: Reproducir
+  AltText: Haga click para ver este video.
 IndexPage:
   Intro:
     Tagline: Extensión todo en uno para Scratch
@@ -112,6 +115,3 @@ ChangelogPage:
   Status:
     Latest: Últim
     Yanked: Descartado
-PlayerModal:
-  LabelPlay: Reproducir
-  AltText: Haga click para ver este video.

@@ -48,6 +48,10 @@ Docs:
   LastUpdated: "{{.Commit}}커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
   Improve: 이 페이지 개선하기
   SectionPages: 문서 페이지
+PlayerModal:
+  LabelPlay: 재생하기
+  ModalTitle: 영상
+  AltText: 클릭해서 영상을 봅니다.
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
@@ -124,7 +128,3 @@ ChangelogPage:
   Status:
     Latest: 최신
     Yanked: 버전 건너뛰기
-PlayerModal:
-  LabelPlay: 재생하기
-  ModalTitle: 영상
-  AltText: 클릭해서 영상을 봅니다.

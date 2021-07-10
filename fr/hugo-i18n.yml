@@ -37,6 +37,9 @@ Docs:
   TOCToggleLabel: Activer la barre contenant la table des matières
   LastUpdated: Dernière mise-à-jour le {{.Date}} par {{.Name}} lors du commit {{.Commit}}.
   Improve: Améliorer cette page
+PlayerModal:
+  LabelPlay: Jouer
+  ModalTitle: Vidéo
 IndexPage:
   Intro:
     Tagline: Une extension tout-en-un pour Scratch
@@ -101,6 +104,3 @@ ChangelogPage:
     Title: Liens
   Status:
     Latest: Le plus ancien
-PlayerModal:
-  LabelPlay: Jouer
-  ModalTitle: Vidéo

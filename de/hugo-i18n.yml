@@ -38,6 +38,9 @@ Docs:
   LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
   Improve: Diese Seite verbessern.
   SectionPages: Sektions-Seiten
+PlayerModal:
+  LabelPlay: Abspielen
+  AltText: Klicke, um dieses Video anzuzeigen
 IndexPage:
   Intro:
     Tagline: All-in-one-Browsererweiterung für Scratch
@@ -106,6 +109,3 @@ ChangelogPage:
   Status:
     Latest: Neuestes
     Yanked: Verworfen
-PlayerModal:
-  LabelPlay: Abspielen
-  AltText: Klicke, um dieses Video anzuzeigen
