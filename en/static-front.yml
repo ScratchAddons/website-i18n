@@ -4,6 +4,8 @@ docs/_index.md:
   toc_root: true
   cascade:
     section_site_name: Docs.SectionSiteName
+docs/faq.md:
+  weight: 51
 docs/develop/_index.md:
   weight: 2
 docs/getting-started/_index.md:

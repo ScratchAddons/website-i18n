@@ -176,3 +176,10 @@ source_file = en/html-content/changelog.html
 source_lang = en
 type = HTML_FRAGMENT
 
+[scratch-addons-website.markdown_docs_faq]
+file_filter = <lang>/markdown/docs/faq.md
+minimum_perc = 100
+source_file = en/markdown/docs/faq.md
+source_lang = en
+type = GITHUBMARKDOWN
+
