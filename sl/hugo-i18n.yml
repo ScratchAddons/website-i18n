@@ -118,3 +118,6 @@ ChangelogPage:
   Status:
     Latest: Najnovejša različica
     Yanked: Izpuščena različica
+UnsupportedBrowserPage:
+  Download: Prenos
+  HowToUpdate: Navodila za posodobitev

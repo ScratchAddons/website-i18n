@@ -109,3 +109,6 @@ ChangelogPage:
   Status:
     Latest: Neuestes
     Yanked: Verworfen
+UnsupportedBrowserPage:
+  Download: Herunterladen
+  HowToUpdate: Wie man es aktualisiert
