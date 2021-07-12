@@ -121,3 +121,6 @@ ChangelogPage:
   Status:
     Latest: 最新
     Yanked: リリース中止
+UnsupportedBrowserPage:
+  Download: ダウンロード
+  HowToUpdate: 更新方法
