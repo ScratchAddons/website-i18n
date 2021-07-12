@@ -29,7 +29,7 @@ Sarai accettato in breve tempo come membro del team Transifex e riceverai delle 
 ### Note:
 
 - Scratch deve essere già tradotto in quella lingua..
-- A differenza di Scratch, noi supportiamo un solo dialetto per ogni lingua (Scratch Addon non avrà mai Spagnolo Latino Americano o Portoghese del Portogallo). 
+- A differenza di Scratch, supportiamo un solo dialetto per ciascuna lingua (Scratch Addon non ha quindi i dialetti Spagnolo America Latina o Portoghese Portogallo).
 - Potrebbero essere necessarie alcune ore/giorni prima che la tua richiesta venga accettata.
 - Se vieni accettato puoi aggiungerti (o essere aggiunto) alla nostra [pagina di chi contribuisce al nostro sito](https://scratchaddons.com/contributors).
 - Cose legali: la tua traduzione sarà concessa in licenza secondo la stessa licenza di Scratch Addon (GPL v3.0)

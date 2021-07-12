@@ -50,7 +50,4 @@ hungry2 = msg("eat", {food: msg("salmon")}) // mostra "Voglio mangiare salmone!"
 ```
 
 ### Sicureza
-Se stai scrivendo del semplice HTML, `msg` dovrebbe essere rimpiazzato con la sua versione più sicura `safeMsg`.
-
-## Abilitare la localizzazione
-Modifica il file `addon.json` del tuo addon aggiungendo `"l10n": true`. Non devi fare altro!
+Se stai scrivendo HTML puro, `msg` dovrebbe essere rimpiazzato con la sua versione sicura `safeMsg`. Nota che `safeMsg` non è disponibile negli script persistenti.

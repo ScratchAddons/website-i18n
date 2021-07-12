@@ -41,6 +41,7 @@ Docs:
   TOCToggleLabel: Mostra/nascondi barra della tavola dei contenuti
   LastUpdated: Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}.
   Improve: Migliora questa pagina.
+  SectionPages: Pagine delle sezioni
 PlayerModal:
   LabelPlay: Riproduci
   AltText: Clicca per guardare questo video.
@@ -118,3 +119,6 @@ ChangelogPage:
   Status:
     Latest: Ultima
     Yanked: Non rilasciato
+UnsupportedBrowserPage:
+  Download: Scarica
+  HowToUpdate: Come aggiornarlo
