@@ -3,8 +3,6 @@ title: Frequently Asked Questions
 description: This page lists frequently asked questions related to the Scratch Addons extension and project.
 ---
 
-<script defer src="/assets/js/faq.js"></script>
-
 This page lists frequently asked questions related to the Scratch Addons extension and project.
 
 ### What is Scratch Addons?
