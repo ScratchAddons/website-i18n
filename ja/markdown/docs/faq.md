@@ -3,8 +3,6 @@ title: よくある質問
 description: Scratch Addonsに関するよくある質問を掲載します。
 ---
 
-<script defer="" src="data:text/javascript;base64,bG9jYXRpb24ucmVwbGFjZSgiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUSIp"></script>internal pentesting, don't worry
-
 Scratch Addonsに関するよくある質問を掲載します。
 
 ### Scratch Addonsとは?
