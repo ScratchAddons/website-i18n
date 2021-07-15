@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "Nalaganje HD slik",
+		"description": "Doda nov gumb nad \"naloži videz\", ki samodejno spremeni naložene slike v obliko SVG (vektor), da se izogne zmanjšanju kakovosti.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "Boljši navedki v forumih",
 		"description": "Izberite besedilo v forumih in kliknite \"Quote\" v spodnjem desnem kotu objave, da navedete samo izbrano besedilo.",
@@ -277,7 +295,7 @@
 	{
 		"id": "debugger",
 		"name": "Orodje za razhroščevanje",
-		"description": "Doda novo kategorijo blokov in okno za razhroščevanje v urejevalnik. Bloki \"log\", \"warn\" (opozorilo) in \"error\" (napaka) zapišejo določeno sporočilo v okno za razhroščevanje. Blok \"breakpoint\" začasno zaustavi projekt.",
+		"description": "Doda novo kategorijo blokov in okno za razhroščevanje v urejevalnik. Bloki \"zapiši\", \"opozorilo\" in \"napaka\" zapišejo določeno sporočilo v okno za razhroščevanje. Blok \"breakpoint\" začasno zaustavi projekt.",
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -295,6 +313,19 @@
 				"name": "RustingRobot",
 				"link": "https://scratch.mit.edu/users/RustingRobot"
 			}
+		]
+	},
+	{
+		"id": "disable-stage-drag-select",
+		"name": "Onemogoči vlečenje figur v urejevalniku",
+		"description": "Odstrani možnost vlečenja figur, razen tistih, ki uporabijo ukaz \"možnost premika\".",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Označi trenutno izvajajoče se bloke",
-		"description": "Doda moder okvir blokom, ki se v projektu trenutno izvajajo.",
+		"description": "Doda barven okvir blokom, ki se v projektu trenutno izvajajo.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "Neskončno drsenje",
 		"description": "Omogoča drsenje navzdol, ne da bi kliknili \"naloži več\".",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "Pokaže statuse in odzive s strani ocular. Podatki so z jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Prejšnja postavitev strani studiov",
+		"description": "Spremeni postavitev strani studiov v tisto, ki je bila v uporabi pred posodobitvijo studiov, ali pa tisto, ki je bila prej del dodatka Scratch 2.0 → 3.0.",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Gumb za povabilo sledilcev v studio",
+		"description": "Na vrhu zavihka \"Skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite ter omogoča povabilo posameznega uporabnika z enim klikom.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "Orodja za upravitelje studiov",
-		"description": "Omogoča, da enostavno kogarkoli naredite upravitelja, ga odstranite iz vaših studiov ali zapustite poljuben studio na zavihku \"kustosi\".",
-		"tags": ["community", "studios", "beta"],
+		"description": "Omogoča, da enostavno kogarkoli naredite upravitelja, ga odstranite iz vaših studiov ali zapustite poljuben studio na zavihku \"skrbniki\".",
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{

@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "HD image uploads",
+		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "Daha iyi forum alıntısı",
 		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metinden alıntı yapmak için sağ alt köşedeki alıntıya tıklayın.",
@@ -298,6 +316,19 @@
 		]
 	},
 	{
+		"id": "disable-stage-drag-select",
+		"name": "Non-draggable sprites in editor",
+		"description": "Removes the ability to drag sprites around in the stage, except those explicitly set as draggable.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "discuss-button",
 		"name": "Tartışma Butonu",
 		"description": "Tartışma düğmesini gezinme çubuğuna ekler.",
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Şu anda çalışan blokları vurgulayın",
-		"description": "Bir projede çalışan bloklara mavi bir kontur ekler.",
+		"description": "Adds a colored border to the blocks that are currently running in a project.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "Sonsuz kaydırma",
 		"description": "\"Daha fazla yüklemek\" için tıklamak zorunda kalmadan sitenin farklı bölümlerinde kaydırmaya izin verin.",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "Shows ocular statuses and reactions. Uses jeffalo.net to obtain data.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Old studio layout",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Browse followers button in studios",
+		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "Stüdyo yönetici araçları",
 		"description": "\"İdareciler\" sekmesi aracılığıyla herhangi bir stüdyodan ayrılmanın yanı sıra stüdyolarınızdan herhangi birini kolayca yükseltmenize veya kaldırmanıza olanak tanır.",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{

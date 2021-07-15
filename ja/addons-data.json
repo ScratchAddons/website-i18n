@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "画像のHD アップロード",
+		"description": "「コスチュームをアップロード」ボタンの上に、画像を自動的にSVGに変換して画質を保つ「HDアップロード」ボタンを追加する。",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "選択範囲を引用",
 		"description": "フォーラム投稿の一部を選択し、Quoteボタンを押して選択範囲を引用する。",
@@ -298,6 +316,19 @@
 		]
 	},
 	{
+		"id": "disable-stage-drag-select",
+		"name": "ドラッグできないスプライト",
+		"description": "ステージでスプライトをドラッグできないようにする。",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "discuss-button",
 		"name": "話すボタン",
 		"description": "話すボタンを追加する。",
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "実行中のブロック表示",
-		"description": "実行中のブロックの周りに青い枠線を表示する。",
+		"description": "実行中のブロックの周りに枠線を表示する。",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "無限スクロール",
 		"description": "「もっと読み込む」を押さずにスクロールできるようにする。",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "以前のスタジオレイアウト",
+		"description": "スタジオのレイアウトを、アップデート前のものや、以前Scratch 3.0化アドオンによって提供されていたものに戻す。",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "フォロワー招待ボタン",
+		"description": "スタジオのキュレータータブに、フォロワーを個別に招待できるボタンを追加する。",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "スタジオ管理ツール",
 		"description": "キュレータータブにて、簡単にキュレーターを昇格・削除したり、スタジオから抜けたりする。",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{

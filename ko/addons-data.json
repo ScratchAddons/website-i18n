@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "HD image uploads",
+		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "개선된 토론방 인용기",
 		"description": "토론방 게시물에서 문자를 선택하고 오른쪽 하단 모서리의 따옴표를 클릭하여 선택한 문자를 따옴표로 묶습니다.",
@@ -237,7 +255,7 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "프로필에서 Dango(떡꼬치)비가 내립니다. (만우절)",
+		"name": "프로필에서 떡꼬치비가 내립니다. (만우절)",
 		"description": "'내 소개'에 'Dango'라는 단어가 포함된 사용자는 프로필 측면에 떡꼬치가 비처럼 내립니다.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
@@ -295,6 +313,19 @@
 				"name": "RustingRobot",
 				"link": "https://scratch.mit.edu/users/RustingRobot"
 			}
+		]
+	},
+	{
+		"id": "disable-stage-drag-select",
+		"name": "편집기에서 스프라이트 드래그 끄기",
+		"description": "무대에서 드래그가 가능하도록 설정된 스프라이트를 제외한 스프라이트는 드래그되지 않습니다.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
 		]
 	},
 	{
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "실행중인 블럭 정확히 강조하기",
-		"description": "프로젝트에서 현재 실행 중인 블록에 파란색 테두리를 추가합니다.",
+		"description": "Adds a colored border to the blocks that are currently running in a project.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "무한 스크롤링",
 		"description": "사이트의 여러 부분에서 \"load more\" 버튼을 클릭할 필요 없이 스크롤할 수 있습니다.",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "ocular 상태 및 반응을 표시합니다. jeffalo.net을 사용하여 데이터를 가져옵니다.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Old studio layout",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Browse followers button in studios",
+		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "스튜디오 관리자 도구",
 		"description": "\"큐레이터\" 탭을 통해 스튜디오에서 나갈 뿐만 아니라 스튜디오에서 다른 사용자를 쉽게 승급 또는 추방할 수 있습니다.",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{

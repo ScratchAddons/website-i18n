@@ -2,13 +2,13 @@
 	{
 		"id": "2d-color-picker",
 		"name": "Sélecteur de couleurs 2D",
-		"description": "Remplace les curseurs de saturation et de luminosité par un sélecteur de couleurs 2D. Maintenez Shit enfoncé tout en déplaçant le curseur pour changer les valeurs sur un seul axe.",
+		"description": "Remplace les curseurs de saturation et de luminosité par un sélecteur de couleurs 2D. Maintenez Maj. enfoncé tout en déplaçant le curseur pour changer les valeurs sur un seul axe.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "Alt+DrapeauVert lecteur en mode 60FPS",
+		"name": "Alt + Drapeau vert lecteur en mode 60FPS",
 		"description": "Alt+Clic sur le drapeau vert pour activer le mode 60FPS.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -21,8 +21,8 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Corriger les majuscules dans Paramètres du Compte",
-		"description": "Change \"Paramètres du compte\" dans le menu du compte à \"Paramètres du Compte\".",
+		"name": "Corriger les majuscules dans les paramètres du compte",
+		"description": "Change \"Paramètres du compte\" dans le menu du compte en \"Paramètres du Compte\".",
 		"tags": ["easterEgg", "community"]
 	},
 	{
@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "HD image uploads",
+		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "Meilleures citations sur le forum",
 		"description": "Sélectionnez du texte dans un post de forum et cliquez sur le bouton \"citation\" dans le coin en bas à droite pour citer uniquement le texte sélectionné.",
@@ -81,8 +99,8 @@
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Icones de catégories de blocs de la palette",
-		"description": "Ajoute des icônes dans les cercles qui identifient les catégories de blocs",
+		"name": "Icones des catégories de la palette des blocs",
+		"description": "Ajoute des icônes dans les cercles colorés qui identifient les catégories de blocs",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{
@@ -101,7 +119,7 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Enregistrer les blocs en une image.",
+		"name": "Enregistrer les blocs en tant qu'image",
 		"description": "Faites un clic droit sur l'espace de travail de l'éditeur pour exporter les blocs sous formes d'images SVG / PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
@@ -111,7 +129,7 @@
 	{
 		"id": "cat-blocks",
 		"name": "Blocs chat",
-		"description": "Ramène les blocs de tête en chat venant du Poisson d'Avril 2020.",
+		"description": "Ramène les blocs chapeaux avec une tête de chat, venant du poisson d'avril 2020.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -150,8 +168,8 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "Saut de lignes dans les commentaires",
-		"description": "Affiche les sauts de ligne (en appuyant sur entrée) dans les commentaires.",
+		"name": "Sauts de ligne dans les commentaires",
+		"description": "Affiche les sauts de ligne (quand on appuie sur entrée) dans les commentaires.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -175,7 +193,7 @@
 	{
 		"id": "copy-message-link",
 		"name": "Bouton copier le lien d'un commentaire",
-		"description": "Ajoute un bouton \"Copier le Lien\" sur tous les commentaires Scratch, à côté du bouton \"Signaler\".",
+		"description": "Ajoute un bouton \"Copier le lien\" aux commentaires sur Scratch, à côté du bouton \"Signaler\".",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -184,7 +202,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl + Clic pour exécuter les scripts",
-		"description": "N'exécuter que les piles de blocs cliquées si la touche Ctrl est enfoncée.",
+		"description": "N'exécuter, lors d'un clic, les piles de blocs que si la touche Ctrl est enfoncée.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -205,8 +223,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Forme de blocs personnalisée",
-		"description": "Ajuster le remplissage du bloc, la taille des coins et la hauteur de l'entaille des blocs Scratch.",
+		"name": "Forme personnalisée pour les blocs",
+		"description": "Ajustez les marges, le rayon des coins et la hauteur de l'entaille des blocs Scratch.",
 		"tags": ["editor", "codeEditor", "theme", "recommended"],
 		"credits": [
 			{
@@ -237,8 +255,8 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "Pluie de dango sur les profils (Poisson d'avril)",
-		"description": "Les utilisateurs ayant ajouté le mot \"dango\" dans leur \"A Propos De Moi\" auront une pluie d'émojis de dango sur les côtés de leur profil. ",
+		"name": "Pluie de dangos sur les profils (Poisson d'avril)",
+		"description": "Les utilisateurs ayant ajouté le mot \"dango\" dans leur section \"À Propos de moi\" auront une pluie d'émojis de dangos sur les côtés de leur profil. ",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -258,7 +276,7 @@
 	{
 		"id": "dark-www",
 		"name": "Site web en mode sombre",
-		"description": "Thème sombre pour le site Web Scratch, à la fois pour les pages 2.0 et 3.0.",
+		"description": "Thème sombre pour le site web de Scratch, à la fois pour les pages 2.0 et 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -269,15 +287,15 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "Améliorations de la catégorie des blocs de données",
-		"description": "Apporte des améliorations pour la catégorie des blocs de données (\"Variables\") dans l'éditeur.",
+		"name": "Amélioration pour la catégorie des blocs de donnée",
+		"description": "Apporte des améliorations pour la catégorie des blocs de donnée (\"Variables\") dans l'éditeur.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Ajoute une nouvelle catégorie de bloc \"debugger\" et une fenêtre \"Console\" à l'éditeur. Les blocs \"log\", \"warn\" et \"error\" imprimeront le message spécifié dans la console. Le bloc \"breakpoint\" mettra le projet en pause lors de son exécution.",
+		"description": "Ajoute une nouvelle catégorie de bloc \"Debugger\" et une fenêtre \"Logs\" à l'éditeur. Les blocs \"message\", \"avertissement\" et \"erreur\" afficheront le message spécifié dans la console. Le bloc \"point d'arrêt\" mettra le projet en pause lors de son exécution.",
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -298,6 +316,19 @@
 		]
 	},
 	{
+		"id": "disable-stage-drag-select",
+		"name": "Sprite non glissables dans l'éditeur",
+		"description": "Enlève la possibilité de déplacer les lutins dans la scène, sauf s'ils sont définis explicitement comme glissables.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "discuss-button",
 		"name": "Bouton de discussion",
 		"description": "Ajoute le bouton discussion  à la barre de navigation",
@@ -307,7 +338,7 @@
 	{
 		"id": "drag-drop",
 		"name": "Glisser et déposer des fichiers",
-		"description": "Vous permet de pourvoir déplacer des images ou des sons directement sur la listes des sprites/lutins ou dans la listes des sons ou costumes. Vous pouvez également faire glisser des fichiers texte dans les listes ou des entées de textes le bloc \"demander et attendre\" dans la scène",
+		"description": "Vous permet de glisser des images ou des sons depuis votre explorateur de fichiers directement dans la listes des sprites, des sons et des costumes. Vous pouvez également faire glisser des fichiers texte dans les listes ou dans la boîte de dialogue \"demander et attendre\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
@@ -320,7 +351,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Éditeur en mode sombre et couleurs personnalisables",
+		"name": "Mode sombre de l'éditeur et couleurs personnalisables",
 		"description": "Personnaliser les couleurs utilisées dans l'éditeur de projets. Plusieurs thèmes sombres créés par différents auteurs sont disponibles. Si vous ne voulez pas utiliser le mode sombre mais que vous voulez changer les couleurs utilisées par défaut, vous pouvez sélectionner le préréglage \" Couleurs par défaut de Scratch \" et le modifier.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Surligner les blocs en cours d'exécution",
-		"description": "Ajoute un contour bleu sur les blocs qui sont actuellement exécutés dans un projet.",
+		"description": "Adds a colored border to the blocks that are currently running in a project.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -405,7 +436,7 @@
 	},
 	{
 		"id": "expanding-search-bar",
-		"name": "Barre de recherche extensible",
+		"name": "Barre de recherche expansible",
 		"description": "Rendre la barre de recherche plus grande lorsqu'elle est active.",
 		"tags": ["community"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
@@ -442,7 +473,7 @@
 	{
 		"id": "folders",
 		"name": "Dossiers de sprites",
-		"description": "Ajoute des dossiers à la liste des sprites, des costumes et des sons. Pour créer un dossier, faites un clic droit sur n'importe quel sprite et cliquez \"créer un dossier\". Cliquez sur un dossier pour l'ouvrir ou le fermer. Faites un clic droit sur un sprite pour voir dans quels dossiers vous pouvez le déplacer, ou alors glissez le dans un dossier ouvert.",
+		"description": "Ajoute des dossiers à la liste des sprites, ainsi qu'aux costumes et aux sons. Pour créer un dossier, faites un clic droit sur n'importe quel sprite et cliquez sur \"créer un dossier\". Cliquez sur un dossier pour l'ouvrir ou le fermer. Faites un clic droit sur un sprite pour voir dans quels dossiers vous pouvez le déplacer, ou alors glissez le dans un dossier ouvert.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -466,13 +497,13 @@
 	{
 		"id": "forum-time-zones",
 		"name": "Utiliser le fuseau horaire local dans les forums",
-		"description": "Convertit les dates de publication dans votre fuseau horaire. Utilise ScratchDB pour afficher ces informations   ",
+		"description": "Convertit les dates des posts dans votre fuseau horaire. Utilise ScratchDB comme source d'information.",
 		"tags": ["forums", "community"]
 	},
 	{
 		"id": "full-signature",
 		"name": "Montrer les zones entièrement",
-		"description": "Fait que certains éléments avec taille limitée soient réajustables ou défilables, comme les signatures d'utilisateurs sur les forumes et Ce Que Je Suis En Train De Faire sur les profils.",
+		"description": "Rend certains éléments avec taille limitée réajustables ou défilables, comme les signatures des utilisateurs sur les forums et la section  \"Ce que j'ai fait\" sur leur profils.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -493,8 +524,8 @@
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Masquer automatiquement la palette de blocs",
-		"description": "Cache la palette des blocs si elle n'est pas survolée. Cliquez sur l'icône de cadenas pour la maintenir en place temporairement. Sinon, utilisez le mode \"clic sur catégorie\".",
+		"name": "Masquer automatiquement la palette des blocs",
+		"description": "Cache la palette des blocs si elle n'est pas survolée. Cliquez sur l'icône de cadenas pour la maintenir en place temporairement. Sinon, utilisez le mode \"Clic sur la catégorie\".",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -515,12 +546,12 @@
 		"name": "Scrolling infini",
 		"description": "Permet un scrolling sur différents endroits du site sans avoir à cliquer sur \"montrer plus\".",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
 		"name": "Changer la nouvelle position par défaut des sprites",
-		"description": "Déplace les sprites à une position x/y spécifié lorsque qu'ils sont créés",
+		"description": "Déplace les sprites à une position x/y spécifiée lorsque qu'ils sont créés.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -531,7 +562,7 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Montre la date de dernière modifications et date du partage du projet",
+		"name": "Affiche la date de dernière modifications et date du partage du projet",
 		"description": "Passez la souris sur la date de partage d'un projet pour savoir quand il a été modifié pour la dernière fois.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -557,14 +588,14 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Afficher les extensions de l'éditeur automatiquement",
-		"description": "Ajoute l'extension de musique, stylo, et autres extensions de l'éditeur automatiquement dans la liste des catégories de blocs.",
+		"name": "Afficher automatiquement les extensions de l'éditeur",
+		"description": "Ajoute automatiquement l'extension musique, stylo, et d'autres extensions de l'éditeur à la liste des catégories de blocs.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Plus grande limite de caractères dans \"Ce Que Je Suis En Train De Faire\"",
-		"description": "Vous permet de taper 55 caractères en plus dans \"Ce Que Je Suis En Train De Faire\" sur votre profil. N'importe qui sur Scratch verra les caractères en plus.",
+		"name": "Plus grande limite de caractères dans la section \"Ce que je suis en train de faire\"",
+		"description": "Vous permet de taper 55 caractères de plus dans la section \"Ce que je suis en train de faire\" sur votre profil. N'importe qui sur Scratch verra les caractères en plus.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
@@ -589,7 +620,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Enregistrer en vidéo un projet",
-		"description": "Ajoute un bouton \"démarrer l'enregistrement\" à l'éditeur qui vous permet d'enregistrer la scène du projet.",
+		"description": "Ajoute un bouton \"démarrer l'enregistrement\" à l'éditeur, qui vous permet d'enregistrer la scène du projet.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
@@ -627,7 +658,7 @@
 	{
 		"id": "mute-project",
 		"name": "Rendre le lecteur de projet muet",
-		"description": "Ctrl+Clic sur le drapeau vert pour couper/rétablir le son du projet.",
+		"description": "Ctrl + Clic sur le drapeau vert pour couper/rétablir le son du projet.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -639,9 +670,21 @@
 	{
 		"id": "my-ocular",
 		"name": "Montrer les statuts ocular.jeffalo.net et les réactions aux posts",
-		"description": "Afiche les statuts Ocular et les réactions. Utilise jeffalo.net pour obtenir les données.",
+		"description": "Affiche les statuts Ocular et les réactions. Utilise jeffalo.net pour obtenir les données.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Ancienne disposition des studios",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -679,7 +722,7 @@
 	{
 		"id": "project-notes-tabs",
 		"name": "Onglet notes du projet",
-		"description": "Crée des onglets sur les pages de projets pour les sections \"Instructions\" et \"Notes et Crédits\" du projet.",
+		"description": "Crée des onglets sur les pages de projets pour les sections \"Instructions\" et \"Notes et crédits\" du projet.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -705,7 +748,7 @@
 	{
 		"id": "remove-curved-stage-border",
 		"name": "Enlever les bords arrondis de la scène",
-		"description": "Retire les bords arrondis de la scène, permettant de voir les coins.",
+		"description": "Enlève les bords arrondis de la scène, vous permettant de voir les coins.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -761,7 +804,7 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "Statistiques de profil",
+		"name": "Statistiques du profil",
 		"description": "Montre les statistiques provenant de ScratchDB sur les pages de profil.",
 		"tags": ["community", "profiles"],
 		"credits": [
@@ -780,8 +823,8 @@
 	},
 	{
 		"id": "semicolon",
-		"name": "Bug de demi-colonne",
-		"description": "Ramène le bug de demi-colonne sur Scratch",
+		"name": "Bug du point-virgule",
+		"description": "Ramène le bug du point-virgule sur Scratch.",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }]
 	},
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Browse followers button in studios",
+		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "Outils de gestion de studio",
 		"description": "Vous permet de promouvoir ou retirer facilement n'importe qui de vos studios, ainsi que quitter n'importe quel studio par l'onglet \"curateurs\".",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
@@ -813,7 +866,7 @@
 	{
 		"id": "transparent-orphans",
 		"name": "Transparence des blocs",
-		"description": "Ajuste la transparence des blocs dans l'éditeur, avec des options séparées pour les blocs orphelins (ceux sans chapeau en haut) et les blocs qui sont déplacés.",
+		"description": "Ajuste la transparence des blocs dans l'éditeur, avec des options séparées pour les blocs orphelins (ceux sans chapeau en haut de la pile) et les blocs qui sont déplacés.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -833,7 +886,7 @@
 	{
 		"id": "variable-manager",
 		"name": "Gestionnaire de variables",
-		"description": "Ajoute un nouvel onglet à côté de \"sons\"  dans l'éditeur pour mettre à jour les variables et listes facilement.",
+		"description": "Ajoute un nouvel onglet à côté de \"sons\" dans l'éditeur pour mettre à jour facilement les variables et les listes.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},

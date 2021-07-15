@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "Caricamento di immagini HD",
+		"description": "Aggiunge un pulsante sopra il pulsante \"carica costume\" che converte automaticamente le immagini bitmap in immagini SVG (vettoriali) per evitare di perdere qualità.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "Citazioni forum migliorate",
 		"description": "Seleziona del testo in un post del forum e clicca su Citazione nell'angolo in basso a destra per citare solo il testo selezionato.",
@@ -258,7 +276,7 @@
 	{
 		"id": "dark-www",
 		"name": "Tema scuro per il sito web",
-		"description": "Tema scuro per il sito Scratch, per pagine 2.0 e 3.0.",
+		"description": "Tema scuro per il sito Scratch, sia per pagine 2.0 che 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -270,7 +288,7 @@
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "Modifiche per la categoria Variabili",
-		"description": "Modifica nell'editor la categoria Variabili.",
+		"description": "Modifica nell'editor la categoria \"Variabili\".",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -298,6 +316,19 @@
 		]
 	},
 	{
+		"id": "disable-stage-drag-select",
+		"name": "Sprite non trascinabili nell'editor",
+		"description": "Rimuove la possibilità di trascinare gli sprite visibili nello stage, tranne quelli esplicitamente indicati come trascinabili.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "discuss-button",
 		"name": "Pulsante Discuti",
 		"description": "Aggiunge il pulsante Discuti alla barra di navigazione.",
@@ -306,7 +337,7 @@
 	},
 	{
 		"id": "drag-drop",
-		"name": "Trascinamento file",
+		"name": "Trascinamento dei file",
 		"description": "TI permette di trascinare immagini e suoni da una cartella nella lista degli sprite o dei costumi/suoni. Puoi anche trascinare file di testo su una lista o nella caselle mostrate dai blocchi \"chiedi e attendi\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
@@ -320,7 +351,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Editor tema scuro e coloro personalizzabili",
+		"name": "Editor tema scuro e colori personalizzabili",
 		"description": "Personalizza i colori usati dall'editor di progetti. Disponibili diversi temi scuri di autori diversi. Se non ti interessa il tema scuro ma vuoi personalizzare i colori predefiniti puoi selezionare \"Colori predefiniti di Scratch\" e modificarlo. ",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Evidenzia blocchi in esecuzione.",
-		"description": "Aggiunge un contorno blu ai blocchi in esecuzione del progetto.",
+		"description": "Aggiunge un bordo colorato ai blocchi in esecuzione nel progetto.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "Scorrimento infinito",
 		"description": "Permette di scorrere in diverse pagine del sito senza dover cliccare su \"Mostra i successivi\".",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "Mostra gli stati e le reazioni di ocular. Usa jeffalo.net per ricavare i dati.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Precedente layout delle gallerie",
+		"description": "RIporta il layout delle pagine delle gallerie a quello usato prima dell'aggiornamento delle gallerie o a quello disponibile in precedenza usando l'addon \"Scratch 2.0 → 3.0\".",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Pulsante per mostrare gli iscritti delle gallerie",
+		"description": "Aggiunge un pulsante nelle gallerie che gestisci in cima alla scheda \"curatori\" che di permette di vedere chi ti segue e chi stai seguendo permettendoti di invitare con un singolo click chiunque degli utenti elencati.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "Strumenti per la gestione delle gallerie",
 		"description": "Ti permettono di promuovere o rimuovere chiunque dalle tue gallerie, di abbandonare una galleria usando la scheda \"Curatori\".",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{

@@ -58,6 +58,24 @@
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
 	{
+		"id": "better-img-uploads",
+		"name": "Bilder mit hoher Auflösung hochladen",
+		"description": "Fügt einen neuen Knopf über dem \"Kostüm hochladen\"-Knopf, der hochgeladene Raster-Bilder automatisch in SVG (Vektor) umwandelt, um die Qualität nicht zu verlieren.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
 		"id": "better-quoter",
 		"name": "Besseres Forumzitieren",
 		"description": "Markiere einen Text in einem Forumsbeitrag und klicke unten rechts auf \"Zitieren\", um nur den markierten Text zu zitieren.",
@@ -298,6 +316,19 @@
 		]
 	},
 	{
+		"id": "disable-stage-drag-select",
+		"name": "Nich ziehbare Figuren im Editor",
+		"description": "Entfernt die Möglichkeit, Figuren auf der Bühne herumzuziehen, explizit ziehbare Figuren ausgenommen.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "discuss-button",
 		"name": "Diskussionsknopf",
 		"description": "Fügt den Diskussionsknopf der Navigationsleiste hinzu.",
@@ -320,7 +351,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Editor-DUnkelmodus und anpassbare Farben",
+		"name": "Editor-Dunkelmodus und anpassbare Farben",
 		"description": "Passe die vom Editor verwendeten Farben an. Mehere Dunkelmodi von verschiedenen Autoren verfügbar. Falls du den Dunkelmodus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
@@ -373,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Aktuell ausgeführte Blöcke markieren",
-		"description": "Fügt den Blöcken, die gerade im Projekt ausgeführt werden, einen blauen Rahmen hinzu.",
+		"description": "Fügt den Blöcken, die gerade im Projekt ausgeführt werden, einen farbigen Rahmen hinzu.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -515,7 +546,7 @@
 		"name": "Unendliches Scrollen",
 		"description": "Erlaubt das Scrollen an verschiedenen Stellen der Seite, ohne auf \"Mehr anzeigen\" klicken zu müssen.",
 		"tags": ["community"],
-		"credits": [{ "name": "DatOneLefty" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -642,6 +673,18 @@
 		"description": "Zeigt ocular-Statuse und Reaktionen an. Erhält Daten von jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Altes Studiolayout",
+		"description": "Wandelt das Layout der Studios-Seite zum Layout, das vor dem Studio-Update verwendet wurde, um.",
+		"tags": ["community", "theme", "studios"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "onion-skinning",
@@ -798,10 +841,20 @@
 		]
 	},
 	{
+		"id": "studio-followers",
+		"name": "Follower durchsuchen-Knopf in Studios",
+		"description": "Fügt einen Knopf oben im \"Kuratoren\"-Tab in Studios, die du verwaltest, hinzu, der deine Follower und die Nutzer, denen du folgst, auflistet, um sie mit einem Klick einzuladen.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
 		"id": "studio-tools",
 		"name": "Studiomanager-Tools",
 		"description": "Erlaubt es dir, einfacher im Kuratorentab Benutzer von deinen Studios zu befördern oder zu entfernen und Studios zu verlassen.",
-		"tags": ["community", "studios", "beta"],
+		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{
