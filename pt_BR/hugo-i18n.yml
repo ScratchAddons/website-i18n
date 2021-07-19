@@ -116,3 +116,6 @@ ChangelogPage:
     CommitsMade: Commits feitos nessa versão
   Status:
     Latest: Mais recente
+UnsupportedBrowserPage:
+  Download: Baixar
+  HowToUpdate: Como atualizar
