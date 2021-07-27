@@ -3,15 +3,13 @@ title: Domande Frequenti
 description: Questa pagina elenca le domande frequenti sull'estensione e sul progetto Scratch Addon.
 ---
 
-<script defer src="/assets/js/faq.js"></script>
-
 Questa pagina elenca le domande frequenti sull'estensione e sul progetto Scratch Addon.
 
 ### Cos'è Scratch Addon?
 
-Scratch Addon è un'estensione del browser che rende disponibili nuove funzionalità e nuovi temi per il sito web e l'editor di progetti di Scratch. L'obiettivo è quello di riunificare tutte le estensioni, gli userstyle e gli userscript sviluppati da membri della comunità di  Scratch in un unico strumento, pur lasciando gli utenti liberi di scegliere quali desiderano attivare.
+Scratch Addon è un'estensione del browser che raccoglie e rende disponibili nuove funzionalità e nuovi temi (chiamati addon) per il sito web e l'editor di progetti di Scratch. L'obiettivo è quello di riunificare tutte le estensioni, gli userstyle e gli userscript sviluppati da membri della comunità di  Scratch in un unico strumento, pur lasciando gli utenti liberi di scegliere quali desiderano attivare.
 
-### Ma cose quindi esattamente un "addon"?
+### Ma cos'è quindi esattamente un "addon"?
 
 Un addon è simile ad un'estensione o uno userscript, ma usa le speciali API rese disponibili dall'estensione Scratch Addon. Queste API permettono agli addon di eseguire script in una pagina di Scratch (userscript), di eseguire script in background (script persistenti) o di applicare degli stili al sito di Scratch (userstyle).
 
