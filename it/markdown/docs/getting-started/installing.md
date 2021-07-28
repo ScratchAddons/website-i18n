@@ -4,7 +4,7 @@ title: Installazione
 
 ## Dagli store di estensioni
 
-Scratch Addons è disponibile sia nel Chrome Web Store sia in Add-ons per Firefox.
+Scratch Addon è disponibile sia nel Chrome Web Store sia in Add-ons per Firefox.
 
 - Chrome Web Store (per Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79) e altri brower basati su Chromium)  
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco  
@@ -34,7 +34,7 @@ $ git fetch
 $ git pull
 ```
 
-Questo aggiornerà Scratch Addons e lo preparerà per le successive modifiche al codice. Nota che dovrai consultare le sezione per il completamento dell'aggiornamento che trovi [here](#install-on-google-chrome) se stai usando Google Chrome.
+Questo aggiornerà Scratch Addon e lo preparerà per le successive modifiche al codice. Nota che dovrai consultare la sezione per il completamento dell'aggiornamento che trovi [qui](#install-on-google-chrome) se stai usando Google Chrome.
 
 
 ### Scaricamento del file zip
@@ -45,7 +45,7 @@ Se non hai installato Git puoi provare questo metodo alternativo. Nota che dovra
 
    ![Screenshot del pulsante per lo scaricamento del codice](/assets/img/docs/download-code-button.png)
 
-2. Cliccalo e seleziona "Scarica ZIP".
+2. Cliccalo e seleziona "Download ZIP".
 
    ![Screenshot del pulsante Scarica ZIP](/assets/img/docs/download-zipball-button.png)
 
@@ -53,7 +53,7 @@ Se non hai installato Git puoi provare questo metodo alternativo. Nota che dovra
 
 ### Installazione su Google Chrome
 
-1. DIgita `chrome://extensions` nella barra degli indirizzi per aprire la pagina di Gestione delle Estensioni.
+1. Digita `chrome://extensions` nella barra degli indirizzi per aprire la pagina di gestione delle Estensioni.
 
 2. Clicca il selettore a fianco a `Modalità sviluppatore` per attivare la Modalità sviluppatore. Questo ti permette di installare estesioni da una cartella o da un file.
 
@@ -79,7 +79,7 @@ Per completare l'aggiornamento (assumendo che tu abbia seguito i passi di aggior
 
    ![Screenshot del menu sinistro](/assets/img/docs/left-hand-menu.png)
 
-4. Click `Carica Add-on Temporaneo...`.
+4. Clicca `Carica componente aggiuntivo temporaneo...`.
 
    ![Screenshot pulsante Carica Add-on Temporaneo](/assets/img/docs/load-addon.png)
 

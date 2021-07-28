@@ -7,4 +7,4 @@ Per aggiungere un'icona ad una particolare impostazione senza [causare](https://
 - Scrivi `@NOMEFILEICONA.svg nome impostazione` in `addon.json`
 - Aggiungi `NOMEFILEICONA.svg` a `/images/icons/` se manca
 - Modifica `/background/load-addon-manifests.js` aggiungendo `iconfilenameIcon: "@NOMEFILEICONA.svg",`
-- Mdofica `/addons/scratch-notifier/background.js` per le impostazioni delle Notifiche di Scratch
+- Modifica `/addons/scratch-notifier/background.js` per le impostazioni delle Notifiche di Scratch

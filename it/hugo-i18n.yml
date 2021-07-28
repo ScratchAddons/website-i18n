@@ -4,7 +4,7 @@ Global:
   Install: Installa
   InstallFor: Installa per {{.Browser}}
 Nav:
-  Contributors: Sviluppatori
+  Contributors: Chi ha contribuito
   Feedback: Invia Feedback
   Repository: Archivio
   Install: Installa
@@ -14,13 +14,13 @@ Footer:
     FAQ: Domande Frequenti
     Feedback: Invia Feedback
     Contributors: Sviluppatori
-    Addons: Addon
+    Addons: Gli Addon
   Discuss:
     Header: Discuti
-    Discussion: Forum di Discussione
+    Discussion: Pagina di Discussione
     Issues: Problemi
-    DiscordCom: Disaccordo Comunità
-    DiscordDev: Disaccordo nello Sviluppo
+    DiscordCom: Comunità su Discord
+    DiscordDev: Sviluppo su Discord
   Resources:
     Header: Risorse
     Organization: Organizzazione
@@ -80,7 +80,7 @@ IndexPage:
     Heading: Esempi
     Paragraph: Ricorda, questi sono solo alcuni esempi. {{.OpenTag1}}C'è molto di più!{{.CloseTag1}}
     ScratchMessagingHeading: Messaggi di Scratch
-    ScratchMessagingParagraph: "E' il \"nonno\" degli Scratch Addon. Lo trovi quando clicchi l'icona Scratch Addons e ti permette di leggere e rispondere facilmente ai tuoi messaggi del sito di Scratch: raggruppa i messaggi per progetto, mostra il testo completo e il contesto del commento, ti permette di rispondere direttamente ad un commento."
+    ScratchMessagingParagraph: "E' il \"nonno\" degli Scratch Addon. Lo trovi quando clicchi l'icona Scratch Addon e ti permette di leggere e rispondere facilmente ai tuoi messaggi del sito di Scratch: raggruppa i messaggi per progetto, mostra il testo completo e il contesto del commento, ti permette di rispondere direttamente ad un commento."
     ScratchNotifierHeading: Notifiche di Scratch
     ScratchNotifierParagraph: Abilita le notifiche del browser per i nuovi messaggi del sito di Scratch. Puoi cliccare la notifica per andare direttamente al messaggio (al commento, al progetto, ecc).
     DeveloperToolsHeading: Strumenti per sviluppatori

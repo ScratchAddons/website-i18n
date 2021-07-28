@@ -5,7 +5,7 @@ description: Localizzare gli addon è semplice.
 Localizzare gli addon è semplice.
 
 ## Aggiungere messaggi
-Nella cartella `addons-l10n/en/`, crea un file chiamato `ADDONID.json`, dove ADDONID è l'ID dell'addon's (il nome della cartella). Scrivi lì i messaggi che vuoi tradurre:
+Nella cartella `addons-l10n/en/`, crea un file chiamato `ADDONID.json`, dove ADDONID è l'ID dell'addon (il nome della cartella). Scrivi lì i messaggi che vuoi tradurre:
 
 ```json
 {

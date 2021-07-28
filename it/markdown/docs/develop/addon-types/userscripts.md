@@ -6,8 +6,8 @@ description: Gli userscript ti permettono di eseguire del codice all'interno del
 Gli userscript ti permettono di eseguire del codice all'interno delle pagine di Scratch - puoi aggiungere pulsanti, migliorare l'editor di Scratch e fare tutto quello che ti viene in mente.
 
 ## Come si fa ad aggiungere uno userscript?
-**Assicurati di aggiornare Scratch Addons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
-Vai al manifest del tuo addon (addon.json) e aggiungi una proprietà chiamata `userscripts"`.  
+**Assicurati di aggiornare Scratch Addon in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
+Vai al manifest del tuo addon (addon.json) e aggiungi una proprietà chiamata `"userscripts"`.  
 Questa proprietà deve essere un array.  
 Ogni elemento dell'array deve avere le seguenti proprietà: `"url"` e `"matches"`.  
 `"url"` deve essere un URL relativo ad un file JavaScript.  
@@ -44,7 +44,7 @@ Se vuoi scrivere le tue funzioni in modo che il codice sia più pulito, devi ins
 **Questo funziona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // This works!
+  // Questo funziona!
   sayHello();
   function sayHello() {
     console.log("Hello, " + addon.auth.username);
@@ -63,15 +63,15 @@ function sayHello() {
 }
 ```
 
-## [`addon.*` APIs](/docs/developing/addon-apis-reference)
-Puoi accedere molte delle API `addon.*` negli userscript. Per ulteriori informazioni consulta la documentazione.
+## [`addon.*` API](/docs/developing/addon-apis-reference)
+Negli userscript puoi accedere molte delle API `addon.*`. Per ulteriori informazioni consulta la documentazione.
 
 ## Aspetti tecnici degli userscript
 Gli userscript vengono eseguiti dopo che la pagina Scratch è stata completamente caricata - in altre parole vengono eseguiti in modalità `defer`.
 In termini tecnici, ogni userscript è un modulo JavaScript che esporta una funzione. I moduli JavaScript vengono sempre eseguiti in "strict mode".  
 Questo significa che gli userscript dello stesso addon NON condividono variabili e funzioni! Se vuoi farlo devi usare l'oggetto `global` object (vedi qui sotto per ulteriori informazioni).
-Scratch Addon chiama questi moduli funzione esportati dando loro accesso alle API `addon.*` oltre ad alcuni wrapper speciali:  
-- `addon`: fornisce allo script persistente accesso alla [`addon.*` APIs](/docs/developing/addon-apis-reference).
+Scratch Addon chiama poi questi moduli funzione esportati, dando loro accesso alle API `addon.*` oltre ad alcuni speciali wrapper:
+- `addon`: fornisce allo script persistente accesso alle [`addon.*` API](/docs/developing/addon-apis-reference).
 - `global`: questo è un oggetto condiviso tra tutti gli userscript dello stesso addon. **Esempio di uso:**
 ```js
 // userscript-1.js
@@ -92,5 +92,5 @@ export default async function ({ addon, global, console }) {
 Per debuggare gli userscript assicurati prima di tutto di abilitare il tuo addon. 
 Poi vai all'URL dove il tuo userscript dovrebbe essere eseguito.
 Apri la console premendo Ctrl+Shift+J. 
-Dovresti vedere i logs degli addons, inclusi i tuoi. Se sei un professionista dei devtools non avrai problemi a definire i necessari breakpoint nel tuo codice. 
+Dovresti vedere i log degli addon, inclusi i tuoi. Se sei un professionista dei devtools non avrai problemi a definire i necessari breakpoint nel tuo codice. 
 Suggerimento da professionisti: se vuoi testare la API `addon.*` senza modificare ogni volta il tuo file, inserisci nel tuo addon l'istruzione `window.addon = addon;` (dentro la funzione principale) così potrai accedere all'oggetto `addon` del tuo addon dalla console. Assicurati di rimuovere questa istruzione prima di rilasciare il tuo contributo in questo repository! Gli userscript non devono "sporcare" l'oggetto global.

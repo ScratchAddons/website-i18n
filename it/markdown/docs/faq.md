@@ -17,14 +17,14 @@ Gli userscript e gli script persistenti possono usare le API `addon.*` che perme
 
 ### Se tutto è un addon allora cosa fa Scratch Addon?
 
-Di per se Scratch Addon è soltanto un caricatore di addon. I suoi compiti principali sono:
+Di per sé Scratch Addon è soltanto un caricatore di addon. I suoi compiti principali sono:
 
 - Permettere agli utenti di abilitare, disabilitare e configurare gli addon.
 - Eseguire gli addon e rendere disponibili le loro API.
 - Rendere disponibile uno stato globale per gli addon (ad esempio l'API addon.auth).
 - Modificare i prototipi degli oggetti di base per poter essere usati con gli userscript degli addon.
 - Rendere accessibile e modificabile lo stato della libreria Redux.
-- Evitare che gli addon interferiscano gli uni con gli altri.
+- Evitare che gli addon interferiscano tra di loro.
 - Evitare la sovrapposizione di funzionalità in addon diversi.
 
 ### Scratch Addon è sicuro?
@@ -33,13 +33,13 @@ Si. Scratch Addon non dovrebbe avere nessun problema di sicurezza nella sua vers
 
 ### Come posso segnalare una vulnerabilità?
 
-Se ti capita di trovare una vulnerabilità contatta subito World_Languages in privato scrivendo a `worldxlanguages (at) gmail.com`. Se non ricevi una risposta in 48 ore crea una segnalazione [here](https://github.com/ScratchAddons/ScratchAddons/issues/) specificando che hai inviato un'email.
+Se ti capita di trovare una vulnerabilità contatta subito World_Languages in privato scrivendo a `worldxlanguages (at) gmail.com`. Se non ricevi una risposta in 48 ore crea una segnalazione [qui](https://github.com/ScratchAddons/ScratchAddons/issues/) specificando che hai inviato un'email.
 
-Puoi [leggere la nostra policy sulla sicurezza](https://github.com/ScratchAddons/ScratchAddons/security/policy) o [controllare gli avvisi che abbiamo pubblicato](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Puoi [leggere la nostra policy sulla sicurezza](https://github.com/ScratchAddons/ScratchAddons/security/policy) o [controllare gli avvisi di sicurezza che abbiamo pubblicato](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Il mio account sarà al sicuro quando uso Scratch Addon?
 
-Scratch Addon non usa le tue credenziali per poter funzionare. Infatti puoi scollegarti da Scratch e Scratch Addon continuerà a funzionare. Scratch Addon invierà solo richieste basate sui cookie che vengono resi disponibili dal browser ad ogni richiesta, quindi anche se alcuni addon come Scratch Messaging non funzioneranno quando ti stai collegando questo non interferirà con altre parti dell'estensione.
+Scratch Addon non usa le tue credenziali per funzionare. Infatti Scratch Addon continuerà a funzionare anche se ti scolleghi da Scratch. Scratch Addon invierà solo richieste basate sui cookie che vengono resi disponibili dal browser ad ogni richiesta, quindi, anche se alcuni addon come Scratch Messaging non funzioneranno quando ti stai collegando, questo non interferirà con altre parti dell'estensione.
 
 Gli addon di Scratch Addon sono stati verificati da molti tra coloro che hanno contribuito al repository, quindi nessuno può far scivolare del codice nocivo sotto i nostri occhi.
 
@@ -61,7 +61,7 @@ Ma torniamo alla domanda. Puoi contribuire in diversi modi, alcuni davvero molto
 
   Se sai programmare in Javascript, HTML5 e CSS puoi contribuire programmando. Puoi correggere bug, farti carico di qualche richiesta o creare il tuo addon.
 
-  Una volta finito dovrai creare una richiesta di pull. Puoi farlo creando un fork del [repository](https://github.com/ScratchAddons/ScratchAddons/), fai le tue modifiche e crea una richiesta di pull. Se è ritenuto fattibile, verrà inserito nel codice ufficiale.
+  Una volta finito dovrai creare una richiesta di pull. Puoi farlo creando un fork del [repository](https://github.com/ScratchAddons/ScratchAddons/), facendo le tue modifiche e creando poi una richiesta di pull. Se è ritenuto fattibile, verrà inserito nel codice ufficiale.
 
   Sono disponibili anche altre forme di contributo. Puoi vedere i nostri repository nelle [pagine GitHub dell'organizzazione](https://github.com/ScratchAddons) e aiutarci a costruirli.
 
@@ -79,11 +79,11 @@ Ma torniamo alla domanda. Puoi contribuire in diversi modi, alcuni davvero molto
 
 - **Scrivi la documentazione**
 
-  Conosci bene Scratch Addon? In questo caso puoi scrivere la sua documentazione. La documentazione sia su come usarlo che su come funziona. Contattati nella [nostra scheda Discussione](https://github.com/ScratchAddons/ScratchAddons/discussions) per ulteriori informazioni.
+  Conosci bene Scratch Addon? In questo caso puoi aiutarci a scriverne la documentazione. Documentazione sia su come usarlo che su come funziona. Contattaci nella [nostra pagina di Discussione](https://github.com/ScratchAddons/ScratchAddons/discussions) per ulteriori informazioni.
 
 - **Invia feedback**  
 
-  Puoi inviarci del feedback usando il modulo che trovi alla [pagina del feedback](https://scratchaddons.com/feedback). Il tuo feedback può darci una diversa prospettiva nello sviluppo dell'estensione e ci aiuta a sapere cosa richiede la nostra attenzione e a correggere i bug.
+  Puoi inviarci del feedback usando il modulo che trovi alla [pagina del feedback](https://scratchaddons.com/feedback). Il tuo feedback può darci una diversa prospettiva nello sviluppo dell'estensione, ci aiuta a sapere cosa richiede attenzione e a correggere i bug.
 
 - **Pubblica una recensione negli store**
 
@@ -95,11 +95,11 @@ Ma torniamo alla domanda. Puoi contribuire in diversi modi, alcuni davvero molto
 
 - **Spargi la voce**
 
-  Puoi far sapere a chiunque di Scratch Addon. Ai tuoi amici, ai tuoi parenti, ai membri della tua famiglia o anche ai tuoi insegnanti se vuoi. Ti chiediamo soltanto di [non farlo su sito di Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Puoi far sapere a chiunque di Scratch Addon. Ai tuoi amici, ai tuoi parenti, ai membri della tua famiglia o anche ai tuoi insegnanti se vuoi. Ti chiediamo soltanto di [non farlo sul sito di Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Come posso creare il mio addon?
 
-Trovi ulteriori informazioni su come creare un addon per Scratch Addons [qui](/docs/develop/getting-started).
+Trovi ulteriori informazioni su come creare un addon per Scratch Addon [qui](/docs/develop/getting-started).
 
 ### Come posso mettere il mio nome alla [pagina di chi ha contribuito](/contributors)?
 
@@ -113,22 +113,22 @@ Se non vuoi che il tuo nome compaia nella pagina di chi ha contribuito, faccelo 
 
 Puoi farcelo sapere usando uno di questi metodi.
 
-- Faccelo sapere usando il [nostro modulo dei feedback](https://scratchaddons.com/feedback).
+- Faccelo sapere usando il [nostro modulo del feedback](https://scratchaddons.com/feedback).
 - Crea un issue nel [repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Crea un post nella [nostra scheda Discussione](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Crea un post nella [nostra pagina delle Discussioni](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Diccelo nel [nostro server Discord](https://discord.gg/R5NBqwMjNc).
 
 ### Penso che manchi una funzionalità. Cosa posso fare?
 
-Se pensi che manchi una funzionalità o vuoi suggerire un addon per questa estensione o hai una buona idea, faccelo sapere [seguendo uno dei metodi menzionati qui sopra](#what-can-i-do-if-i-find-a-problem)
+Se pensi che manchi una funzionalità o vuoi suggerire un addon per questa estensione o hai una buona idea, faccelo sapere [seguendo uno dei metodi menzionati qui sopra](#what-can-i-do-if-i-find-a-problem).
 
 ### Dove posso discutere di Scratch Addon?
 
-Puoi farlo nella [nostra scheda Discussione](https://github.com/ScratchAddons/ScratchAddons/discussions) o nel [nostro server Discord](https://discord.gg/R5NBqwMjNc). Lì puoi discutere di Scratch Addon e fare domande se hai problemi.
+Puoi farlo nella [nostra pagina delle Discussioni](https://github.com/ScratchAddons/ScratchAddons/discussions) o nel [nostro server Discord](https://discord.gg/R5NBqwMjNc). Lì puoi discutere di Scratch Addon e fare domande se hai problemi.
 
 ### Penso che Scratch Addon rallenti Scratch. Cosa posso fare?
 
-Prova a disabilitare gli addon che non ti occorrono. Verifica anche le note e gli avvisi degli addon per decidere quali addon dovrebbero essere disabiliti per migliorare le performance. 
+Prova a disabilitare gli addon che non ti occorrono. Verifica anche le note e gli avvisi degli addon per decidere quali addon dovrebbero essere disabilitati per migliorare le performance. 
 
 ### Come posso abilitare l'addon dell'easter egg?
 
@@ -136,6 +136,6 @@ Per far comparire gli'addon easter egg, digita il codice Konami (↑↑↓↓←
 
 Alcuni dei nostri addon easter egg sono "Correggi le maiuscole di Impostazioni Account" e "glitch del Punto e virgola". Guarda nella [scheda addon](/addons) per una lista completa.
 
-### Ho altri domande!
+### Ho altre domande!
 
-Se hai altri domande per le quali cerchi risposte, puoi creare un post nella nostra [scheda Discussione](https://github.com/ScratchAddons/ScratchAddons/discussions) o invia un messaggio nel [nostro server Discord](https://discord.gg/R5NBqwMjNc). Qualcuno proverà a risponderti.
+Se hai altri domande per le quali cerchi risposte, puoi creare un post nella nostra [pagina delle Discussioni](https://github.com/ScratchAddons/ScratchAddons/discussions) o invia un messaggio nel [nostro server Discord](https://discord.gg/R5NBqwMjNc). Qualcuno proverà a risponderti.

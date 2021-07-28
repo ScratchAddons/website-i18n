@@ -5,13 +5,13 @@ description: Grazie per il tuo interesse ad aggiungerti al Team di volontari che
 
 > _Già tradotti: **Giapponese e Spagnolo**. Non accettiamo nuovi traduttori per queste lingue_
 
-**TGrazie per il tuo interesse ad aggiungerti al Team di volontari che traducono Scratch Addon in altre lingue!**
+**Grazie per il tuo interesse ad aggiungerti al Team di volontari che traducono Scratch Addon in altre lingue!**
 
 Scratch Addon è un progetto open source no-profit che si occupa di mantenere l'estensione e creare nuovi addon grazie a sviluppatori web volontari.
 
 Anche se non hai mai programmato una sola linea di JavaScript puoi ancora aiutarci a raggiungere il nostro obiettivo di rendere migliore per tutti l'esperienza di uso di Scratch!
 
-**E' sufficiente che tu conosca l'inglese e un'altra lingua e sia disponibile a investire qualche minuto alla settimana per tradurre le nuove frasi di Scratch Addons aggiunte di volta in volta.** 
+**E' sufficiente che tu conosca l'inglese e un'altra lingua e sia disponibile a investire qualche minuto alla settimana per tradurre le nuove frasi di Scratch Addon aggiunte di volta in volta.** 
 
 In questo modo chiunque parli la tua lingua potrà usare Scratch Addon nella sua lingua madre, invece di doversi sforzare a capire l'inglese.
 
@@ -28,7 +28,7 @@ Sarai accettato in breve tempo come membro del team Transifex e riceverai delle 
 
 ### Note:
 
-- Scratch deve essere già tradotto in quella lingua..
+- Scratch deve essere già tradotto in quella lingua.
 - A differenza di Scratch, supportiamo un solo dialetto per ciascuna lingua (Scratch Addon non ha quindi i dialetti Spagnolo America Latina o Portoghese Portogallo).
 - Potrebbero essere necessarie alcune ore/giorni prima che la tua richiesta venga accettata.
 - Se vieni accettato puoi aggiungerti (o essere aggiunto) alla nostra [pagina di chi contribuisce al nostro sito](https://scratchaddons.com/contributors).

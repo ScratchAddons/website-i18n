@@ -20,16 +20,16 @@ Nota: puoi ignorare tranquillamente il messaggio "errors". E' solo un avvertimen
 
 ## Passo 4: Cosa farà il tuo addon?
 Ora arriva la parte divertente! 
-Cosa farà il tuo addon? Pensa ad un ID per l'addon che sia autodescrittivo )no spazi o caratteri speciali, ad eccesione dei trattini). 
+Cosa farà il tuo addon? Pensa ad un ID per l'addon che sia autodescrittivo (no spazi o caratteri speciali, ad eccezione dei trattini). 
 Capito?
 
 ## Passo 5: Crea una cartelle per l'addon
-Usando un file explorer vai alla cartella dove si hai salvato Scratch Addon nel tuo filesystem. Localizza la cartella `addons`. 
+Usando un file explorer vai alla cartella dove hai salvato Scratch Addon nel tuo filesystem. Localizza la cartella `addons`. 
 Ora crea una nuova cartella chiamata come l'ID del tuo addon.
 
 ## Passo 6: Aggiungi il file manifest
 Il manifest dell'addon dice a Scratch Addon come funziona il tuo addon. Assicurati che non ci siano errori per evitare problemi.  
-Dentro la cartella che hai appena creato, crea un file Inside the folder you just created, create an `addon.json`. 
+Dentro la cartella che hai appena creato, crea un file `addon.json`. 
 Questo è quello che ti serve per iniziare a scrivere il tuo codice, assicurati di adattarlo alle tue esigenze future:
 ```json
 {
@@ -43,14 +43,14 @@ Per ulteriori informazioni su cosa puoi indicare nel manifest, vai a [questo art
 
 
 ## Passo 7: Indica a Scratch Addon quale è l'ID del tuo addon
-Scratch Addons non è in grado di trovare le nuove cartelle da solo, devi aggiungerne il nome da un file speciale.  
+Scratch Addon non è in grado di trovare le nuove cartelle da solo, devi aggiungerne il nome in un file speciale.  
 Vai a `scratchAddonsFolder/addons/addons.json` e aggiungi l'ID del tuo addon all'array.
 
 ## Passo 8: Hello world
-Il tuo addon per ora non fa ancora nulla, quindi questo è un buon momento per verificare che tutto quello che abbiamo fatto finora funziona correttamente.  
+Il tuo addon per ora non fa ancora nulla, quindi questo è un buon momento per verificare che tutto quello che abbiamo fatto finora funzioni correttamente.  
 Vai a `chrome://extensions` e ricarica Scratch Addon cliccando il simbolo di aggiornamento nel suo riquadro.  
 Ora clicca con il tasto destro l'icona di Scratch Addon e seleziona "opzioni".  
-Dovresti vedere il tuo addon nella lista! Quando lo trovi abilitalo e abilita ogni impostazione.
+Dovresti vedere il tuo addon nella lista! Quando lo trovi abilitalo e abilita tutte le impostazioni.
 
 ## Passo 9: La parte divertente: il codice!
 *Prima di procedere assicurati di leggere l'articolo del wiki linkato nel passo 1.*  
@@ -58,7 +58,7 @@ Dovresti vedere il tuo addon nella lista! Quando lo trovi abilitalo e abilita og
 E ora arriva la parte divertente: crea i tuoi file JS o CSS!  
 Suggerimento da professionisti: dopo aver fatto tutte le modifiche al tuo addon, assicurati di aggiornare l'estensione Scratch Addon come hai fatto nel passo 8.  
 
-A seconda di cosa vuoi che il addon faccia, dovresti dare un'occhiata alle seguenti pagine wiki:
+A seconda di cosa vuoi che il tuo addon faccia, dovresti dare un'occhiata alle seguenti pagine wiki:
 - [Gli script persistenti](/docs/develop/addon-types/persistent-scripts)
 - [Gli userscript](/docs/develop/addon-types/userscripts)
 - [Gli userstyle](/docs/develop/addon-types/userstyles)
@@ -72,7 +72,7 @@ Ora leggi la [documentazione addon.settings](/docs/reference/addon-api/addon.set
 ## Passo 11: Prima di pubblicare il tuo addon
 Ora che il tuo addon funziona, assicurati che sia possibile aggiungerlo alla libreria degli addon.  
 Assicurati che il manifest del tuo addon sia adatto, [trovi altre informazioni qui](/docs/reference/addon-manifest). Fai molta attenzione al nome, alla descrizione e ai tag del tuo addon. Assicurati di impostare `"enabledByDefault"` a `false` o rimuovilo.  
-Assicurati che il tuo addon non intereferisca con gli altri addon.  
+Assicurati che il tuo addon non interferisca con gli altri addon.  
 Assicurati che il tuo codice sia comprensibile; commenti non indispensabili sono sempre meglio che nessun commento.
 
 ## Passo 12: Invia una richiesta di pull!

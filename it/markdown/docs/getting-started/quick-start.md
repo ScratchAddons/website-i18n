@@ -7,7 +7,7 @@ title: Come iniziare subito
 Iniziamo installando Scratch Addon. Scratch Addon è disponibile sia nel Chrome Web Store sia in Add-ons per Firefox.
 
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (per Google Chrome e altri browser basati su Chromium)  
-- [Add-ons per Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (èer Mozilla Firefox)  
+- [Add-ons per Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (per Mozilla Firefox)  
 
 ## Come iniziare
 
