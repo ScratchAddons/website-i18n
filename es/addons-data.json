@@ -59,8 +59,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD image uploads",
-		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"name": "Subida de imágenes HD",
+		"description": "Agrega un nuevo botón arriba del botón \"subir disfraz\" que automáticamente convierte imágenes bitmap subidas a imágenes SVG (vector) para evitar perder calidad.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -317,8 +317,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "Non-draggable sprites in editor",
-		"description": "Removes the ability to drag sprites around in the stage, except those explicitly set as draggable.",
+		"name": "Objetos no arrastrables en el editor",
+		"description": "Elimina la posibilidad de arrastrar objetos en el escenario, exceptuando aquellos fijados explicitamente como arrastrables.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -404,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Destacar bloques ejecutándose actualmente",
-		"description": "Adds a colored border to the blocks that are currently running in a project.",
+		"description": "Agrega un borde colorido a los bloques que están ejecutándose actualmente en un proyecto.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -676,8 +676,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"name": "Diseño antiguo en estudios",
+		"description": "Revierte el diseño de la página de estudios a la usada antes de la actualización de estudios o al previamente disponible como parte del addon Scratch 2.0 → 3.0.",
 		"tags": ["community", "theme", "studios"],
 		"credits": [
 			{
@@ -842,8 +842,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Browse followers button in studios",
-		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"name": "Botón de navegar seguidores en estudios",
+		"description": "Agrega un botón en la cima de la pestaña \"curadores\" de los estudios en los que sea manager, que lista sus seguidores/seguidos y le permite invitar a un usuario mostrado con un solo click.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },

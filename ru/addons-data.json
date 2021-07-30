@@ -8,8 +8,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Alt+GreenFlag 60FPS player mode",
-		"description": "Alt+Click the green flag to toggle 60FPS.",
+		"name": "Alt+ЗелёныйФлаг режим проигрывателя 60FPS",
+		"description": "Alt+Клик по зелёному флагу, для включения 60FPS.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
@@ -59,8 +59,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD image uploads",
-		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"name": "HD загрузка изображений",
+		"description": "Добавляет новую кнопку над кнопкой \"загрузить костюм\", которая автоматически преобразует загруженные растровые изображения в изображения SVG (векторные), чтобы избежать потери качества.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -201,8 +201,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Ctrl+Click to run scripts",
-		"description": "Only run block stacks on click if also holding the Ctrl key.",
+		"name": "Ctrl+Клик для запуска скриптов",
+		"description": "Запускать стопки блоков по щелчку можно только при нажатой клавише Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -276,7 +276,7 @@
 	{
 		"id": "dark-www",
 		"name": "Тёмная версия вебсайта",
-		"description": "Dark theme for the Scratch website, both for 2.0 and 3.0 pages.",
+		"description": "Тёмная тема для сайта Scratch, как для страниц 2.0, так и 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -294,7 +294,7 @@
 	},
 	{
 		"id": "debugger",
-		"name": "Debugger",
+		"name": "Отладчик",
 		"description": "Adds a new \"debugger\" block category and a \"logs\" window to the editor. The \"log\", \"warn\" and \"error\" blocks will print the specified message into the logs window. The \"breakpoint\" block will pause the project when executed.",
 		"tags": ["editor", "beta"],
 		"credits": [
@@ -317,8 +317,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "Non-draggable sprites in editor",
-		"description": "Removes the ability to drag sprites around in the stage, except those explicitly set as draggable.",
+		"name": "Неперетаскиваемые спрайты в редакторе",
+		"description": "Удаляет возможность перетаскивать спрайты по сцене, кроме тех, которые явно заданы как перетаскиваемые.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -436,8 +436,8 @@
 	},
 	{
 		"id": "expanding-search-bar",
-		"name": "Expandable search bar",
-		"description": "Makes the search bar on the navbar wider when it's focused.",
+		"name": "Расширяемая панель поиска",
+		"description": "Делает панель поиска на навигационной панели шире, когда она находится в фокусе.",
 		"tags": ["community"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
@@ -456,7 +456,7 @@
 	{
 		"id": "fix-pasted-scripts",
 		"name": "Do not automatically run duplicated blocks",
-		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a stack causes the stack to run.",
+		"description": "Исправляет ошибку в редакторе Scratch, когда дублирование блока и присоединение его к стопке приводит к запуску стопки.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -489,8 +489,8 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "Forum search",
-		"description": "Adds a post search to the forum homepage. Uses ScratchDB for information.",
+		"name": "Поиск по форуму",
+		"description": "Добавляет поиск сообщений на главную страницу форума. Для информации использует ScratchDB.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
@@ -676,8 +676,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"name": "Старый макет студии",
+		"description": "Возвращает макет страницы студии к тому, который использовался до обновления студии, или к тому, который ранее был доступен как часть надстройки Scratch 2.0 → 3.0.",
 		"tags": ["community", "theme", "studios"],
 		"credits": [
 			{
@@ -733,8 +733,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums",
-		"name": "Redirect mobile forums to main forums",
-		"description": "Redirects you from /discuss/m/ to /discuss/.",
+		"name": "Перенаправить мобильные форумы на основные форумы",
+		"description": "Перенаправляет с /discuss/m/ на /discuss/.",
 		"tags": ["community", "forums", "easterEgg"],
 		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
 	},
@@ -842,8 +842,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Browse followers button in studios",
-		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"name": "Кнопка просмотра подписчиков в студиях",
+		"description": "Добавляет кнопку в верхней части вкладки \"кураторы\" в студиях, которыми вы управляете, которая отображает список ваших подписчиков/подписок и позволяет вам пригласить показанного пользователя одним щелчком мыши.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
@@ -865,7 +865,7 @@
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "Block transparency",
+		"name": "Прозрачность блоков",
 		"description": "Adjust the transparency for blocks in the editor, with separate options for orphaned blocks (those without a hat block at the top) and blocks that are being dragged.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [

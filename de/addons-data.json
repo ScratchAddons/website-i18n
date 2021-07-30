@@ -275,7 +275,7 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Website-Dunkelmodus",
+		"name": "Dunkler Modus für die Website",
 		"description": "Dunkles Design für die Scratch-Website auf 2.0- und 3.0-Seiten.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
@@ -351,8 +351,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Editor-Dunkelmodus und anpassbare Farben",
-		"description": "Passe die vom Editor verwendeten Farben an. Mehere Dunkelmodi von verschiedenen Autoren verfügbar. Falls du den Dunkelmodus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
+		"name": "Dunkler Modus und anpassbare Farben im Editor",
+		"description": "Passe die vom Editor verwendeten Farben an. Mehere Dunkelmodi von verschiedenen Autoren verfügbar. Falls du den Dunklen Modus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
 			{

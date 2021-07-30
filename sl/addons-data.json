@@ -120,7 +120,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Shrani bloke kot sliko",
-		"description": "Kliknite delovni prostor v urejevalniku z desno miškino tipko, da izvozite bloke kot sliko SVG/PNG.",
+		"description": "Kliknite delovni prostor v urejevalniku z desno miškino tipko, da izvozite bloke kot sliko SVG ali PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -202,7 +202,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl+klik za izvajanje skript",
-		"description": "Ne izvede zaporedij blokov, ko jih kliknete, razen če med tem držite tipko Ctrl.",
+		"description": "Prepreči izvajanje zaporedij blokov ob kliku, razen če držite tipko Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -318,7 +318,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Onemogoči vlečenje figur v urejevalniku",
-		"description": "Odstrani možnost vlečenja figur, razen tistih, ki uporabijo ukaz \"možnost premika\".",
+		"description": "Odstrani možnost vlečenja figur na odru, razen tistih, ki vlečenje omogočijo z ukazom \"možnost premika\".",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -338,7 +338,7 @@
 	{
 		"id": "drag-drop",
 		"name": "Povleci datoteke v urejevalnik",
-		"description": "Omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko tudi povlečete besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
+		"description": "Omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko povlečete tudi besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
@@ -352,7 +352,7 @@
 	{
 		"id": "editor-dark-mode",
 		"name": "Temni način in prilagoditev barv v urejevalniku",
-		"description": "Prilagodite barve, uporabljene v urejevalniku projektov. Na voljo je več temnih načinov različnih avtorjev. Če ne potrebujete temnega načina in bi radi spremenili barve, izberite prednastavitev \"Scratcheve barve\" in spremenite ustrezne nastavitve.",
+		"description": "Prilagodite barve, uporabljene v urejevalniku projektov. Na voljo je več temnih načinov različnih avtorjev. Če ne potrebujete temnega načina, a bi radi spremenili barve, izberite prednastavitev \"Scratcheve barve\" in spremenite ustrezne nastavitve.",
 		"tags": ["editor", "theme", "recommended"],
 		"credits": [
 			{
@@ -437,7 +437,7 @@
 	{
 		"id": "expanding-search-bar",
 		"name": "Razširjena iskalna vrstica",
-		"description": "Naredi vrstico za iskanje na vrhu strani širšo, ko iščete.",
+		"description": "Naredi vrstico za iskanje na vrhu strani med iskanjem širšo.",
 		"tags": ["community"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
@@ -473,7 +473,7 @@
 	{
 		"id": "folders",
 		"name": "Mape figur",
-		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško premaknite v odprto mapo.",
+		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško povlecite v odprto mapo.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -804,7 +804,7 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "Statistika o uporabnikih",
+		"name": "Statistika na profilih",
 		"description": "Pokaže statistične podatke iz ScratchDB na profilih uporabnikov.",
 		"tags": ["community", "profiles"],
 		"credits": [
@@ -843,7 +843,7 @@
 	{
 		"id": "studio-followers",
 		"name": "Gumb za povabilo sledilcev v studio",
-		"description": "Na vrhu zavihka \"Skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite ter omogoča povabilo posameznega uporabnika z enim klikom.",
+		"description": "Na vrhu zavihka \"skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite, ter omogoča povabilo posameznega uporabnika z enim klikom.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },

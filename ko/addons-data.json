@@ -59,8 +59,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD image uploads",
-		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"name": "HD 사진 업로드",
+		"description": "\"모양 업로드\" 버튼 위에 자동으로 비트맵 사진을 SVG(벡터) 사진으로 바꾸어 낮은 화질을 피하는 버튼을 추가합니다.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -275,7 +275,7 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "웹사이드 어두운 모드",
+		"name": "어두운 모드의 페이지",
 		"description": "2.0과 3.0 페이지 모두에서 스크래치 웹사이트를 위한 어두운 테마",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
@@ -404,12 +404,12 @@
 	{
 		"id": "editor-stepping",
 		"name": "실행중인 블럭 정확히 강조하기",
-		"description": "Adds a colored border to the blocks that are currently running in a project.",
+		"description": "프로젝트에서 현재 실행 중인 블록에 색 테두리를 추가합니다.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
 		"id": "editor-theme3",
-		"name": "블럭 색 커스텀",
+		"name": "바꿀 수 있는 블럭 색",
 		"description": "편집기의 각 카테고리에 대한 블록 색상을 편집합니다.",
 		"tags": ["editor", "theme", "codeEditor", "recommended"],
 		"credits": [
@@ -676,8 +676,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"name": "이전 스튜디오 레이아웃",
+		"description": "스튜디오 페이지의 레이아웃을 스크래치 2.0 → 3.0 애드온이 업데이트하기 전의 버전의 레이아웃으로 다시 변경합니다",
 		"tags": ["community", "theme", "studios"],
 		"credits": [
 			{
@@ -842,8 +842,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Browse followers button in studios",
-		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"name": "스튜디오에 팔로워를 검색하는 버튼 추가",
+		"description": "\"큐레이터\" 탭에 팔로워를 처리하고 팔로워나 팔로우 하고 있는 사람을 보여주는 버튼을 추가해 보이는 사용자를 단 한번의 클릭에 초대할 수 있게 합니다.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },

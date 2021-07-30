@@ -22,7 +22,7 @@
 	{
 		"id": "account-settings-capitalize",
 		"name": "Corrigir capitalização de Configurações de Conta",
-		"description": "Muda \"Configurações de Conta\" no menu de conta para \"Configurações de Conta\".",
+		"description": "Muda \"Configurações de conta\" no menu de conta para \"Configurações De Conta\". (ainda errado, mas... diferente?)",
 		"tags": ["easterEgg", "community"]
 	},
 	{
@@ -59,8 +59,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD image uploads",
-		"description": "Adds a new button above the \"upload costume\" button that automatically converts uploaded bitmap images into SVG (vector) images to avoid losing quality.",
+		"name": "Upload de imagens HD",
+		"description": "Adiciona um novo botão em cima do botão \"Carregar Fantasia\" que automaticamente converte um arquivo de imagem bitmap para imagens SVG (vetoriais) para não perder qualidade.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -317,8 +317,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "Non-draggable sprites in editor",
-		"description": "Removes the ability to drag sprites around in the stage, except those explicitly set as draggable.",
+		"name": "Atores não arrastáveis no editor",
+		"description": "Remove a habilidade de arrastar atores no palco, a não ser aqueles cujo \"modo de arrasto\" é arrastável.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -404,7 +404,7 @@
 	{
 		"id": "editor-stepping",
 		"name": "Destacar blocos em execução",
-		"description": "Adds a colored border to the blocks that are currently running in a project.",
+		"description": "Adiciona uma borda colorida aos blocos que estão rodando em um projeto.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -676,8 +676,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
+		"name": "Layout de estúdio antigo",
+		"description": "Reverte o layout da página de estúdio para como ele era antes do update, ou para como ele era anteriormente se você está usando o addon Scratch 2.0 → 3.0.",
 		"tags": ["community", "theme", "studios"],
 		"credits": [
 			{
@@ -842,8 +842,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Browse followers button in studios",
-		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers/following and lets you invite a shown user with a single click.",
+		"name": "Convidar seguidores para estúdios",
+		"description": "Adiciona um botão no topo da aba de \"curadores\" em estúdios que você administra, que mostra seus seguidores/usuários que você segue e te deixa convidar um usuário com um só clique.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
