@@ -112,5 +112,5 @@ ChangelogPage:
     RepoState: Estado del repositorio en lanzamiento
     CommitsMade: Commits hechos en esta versión
   Status:
-    Latest: Últim
+    Latest: Último
     Yanked: Descartado
