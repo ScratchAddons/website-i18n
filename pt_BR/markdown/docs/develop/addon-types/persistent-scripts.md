@@ -2,6 +2,9 @@
 title: Scripts Persistentes
 description: Scripts persistentes te deixam rodar JavaScript em segundo plano! Eles são super úteis para notificar o usuário sobre alguma coisa, ou pré-carregar dados até que o usuário precise.
 ---
+
+> **Recomendamos você evitar de usar scripts persistentes o máximo possível. Uma migração futura para o [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/#background-service-workers) necessitará que nós usemos service workers ao invés de páginas rodando em segundo plano, o que deixa a criação de scripts persistentes mais difícil. Quanto menos scripts persistentes houver até migrarmos, melhor será.**
+
 ## O que são?
 Scripts persistentes te deixam rodar JavaScript em segundo plano! Eles são super úteis para notificar o usuário sobre alguma coisa, ou pré-carregar dados até que o usuário precise.
 
