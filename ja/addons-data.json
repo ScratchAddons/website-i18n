@@ -2,7 +2,7 @@
 	{
 		"id": "2d-color-picker",
 		"name": "2D カラーピッカー",
-		"description": "カラーピッカーを2Dにする。Shiftキーを押して輝度や彩度のみを変更する。",
+		"description": "コスチュームエディターの鮮やかさと明るさのスライダーを2Dカラーピッカーにする。Shiftキーを押して一方のみを変更する。",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -28,7 +28,7 @@
 	{
 		"id": "animated-thumb",
 		"name": "サムネイル設定",
-		"description": "プロジェクトのサムネイルを設定するボタンを、エディターに追加する。",
+		"description": "プロジェクトのサムネイルを設定するボタンを、エディターのメニューバーに追加する。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{
@@ -44,7 +44,7 @@
 	{
 		"id": "better-emojis",
 		"name": "絵文字の変更",
-		"description": "Scratchのコメントの猫の絵文字をベクター画像に変える。",
+		"description": "コメント欄の猫の絵文字をベクター画像に変える。",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
@@ -120,7 +120,7 @@
 	{
 		"id": "blocks2image",
 		"name": "ブロックを画像に出力",
-		"description": "コードペインを右クリックしてブロックをSVG/PNGとして出力する。",
+		"description": "コードエリアを右クリックしてブロックをSVG/PNGとして出力する。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -142,7 +142,7 @@
 	{
 		"id": "clones",
 		"name": "クローンカウンター",
-		"description": "クローンの合計数を表示する。",
+		"description": "クローンの合計数をステージの上に表示する。",
 		"tags": ["editor", "projectPlayer"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -168,7 +168,7 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "コメント改行",
+		"name": "コメント内の改行を表示",
 		"description": "コメント中の改行を表示する。",
 		"tags": ["community", "comments"],
 		"credits": [
@@ -176,6 +176,15 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
+		]
+	},
+	{
+		"id": "compact-messages",
+		"name": "コンパクトなメッセージ",
+		"description": "Scratchのメッセージページをコンパクトにする。",
+		"tags": ["community", "theme"],
+		"credits": [
+			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
 		]
 	},
 	{
@@ -210,8 +219,15 @@
 		]
 	},
 	{
+		"id": "ctrl-enter-post",
+		"name": "Ctrl+Enterで投稿",
+		"description": "Ctrl+Enterキーが押されたときに、コメントやフォーラムの投稿を送信する。",
+		"tags": ["community"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "curator-link",
-		"name": "キュレーターリンク",
+		"name": "トップページのキュレーターリンク",
 		"description": "トップページの「選んだプロジェクト」欄のユーザー名をリンクにする。",
 		"tags": ["community"],
 		"credits": [
@@ -254,6 +270,13 @@
 		]
 	},
 	{
+		"id": "customize-avatar-border",
+		"name": "プロフィール画像の枠線変更",
+		"description": "プロジェクトやスタジオコメントに表示されるプロフィール画像の枠線を消したり、変更したりする。",
+		"tags": ["community", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+	},
+	{
 		"id": "dango-rain",
 		"name": "団子 (エイプリルフール機能)",
 		"description": "「dango」と書かれているプロフィールに団子の雨を表示する。",
@@ -276,7 +299,7 @@
 	{
 		"id": "dark-www",
 		"name": "ウェブサイトダークモード",
-		"description": "ウェブサイトのダークモード。",
+		"description": "Scratchウェブサイト用のダークテーマ。",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -288,7 +311,7 @@
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "変数ブロック改良",
-		"description": "エディターの変数ブロックの表示を改良する。",
+		"description": "変数ブロックの表示を改良する。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -296,12 +319,19 @@
 		"id": "debugger",
 		"name": "デバッガー",
 		"description": "「デバッガー」ブロックカテゴリーとログ画面をエディターに追加する。「log」、「warn」、「error」ブロックはログ画面に内容を表示する。「breakpoint」ブロックはプロジェクトを一時停止させる。",
-		"tags": ["editor", "beta"],
+		"tags": ["editor"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-project",
+		"name": "デフォルトのプロジェクトを変更",
+		"description": "デフォルトのプロジェクトを変更する。",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "disable-auto-save",
@@ -331,7 +361,7 @@
 	{
 		"id": "discuss-button",
 		"name": "話すボタン",
-		"description": "話すボタンを追加する。",
+		"description": "「話す」ボタンをナビゲーションバーに追加する。",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
 	},
@@ -345,7 +375,7 @@
 	{
 		"id": "editor-colored-context-menus",
 		"name": "右クリックメニューを色付け",
-		"description": "右クリックメニューに色を付ける。",
+		"description": "コンテキストメニューに色を付ける。",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -363,7 +393,11 @@
 				"name": "infinitytec (3.Dark, 3.Darker)",
 				"link": "https://github.com/infinitytec"
 			},
-			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" },
+			{
+				"name": "GarboMuffin (TurboWarp Dark)",
+				"link": "https://github.com/GarboMuffin"
+			}
 		]
 	},
 	{
@@ -376,14 +410,14 @@
 	{
 		"id": "editor-messages",
 		"name": "エディター内でメッセージ数表示",
-		"description": "メッセージ数をエディター内に表示する。",
+		"description": "メッセージ数をエディターのメニューバーに表示する。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "ドロップダウン検索",
-		"description": "エディター内のドロップダウンの選択肢を検索する。",
+		"description": "ブロックのドロップダウンの選択肢を検索する。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -403,8 +437,8 @@
 	},
 	{
 		"id": "editor-stepping",
-		"name": "実行中のブロック表示",
-		"description": "実行中のブロックの周りに枠線を表示する。",
+		"name": "実行中のブロック枠線",
+		"description": "実行中のブロックの周りに色のついた枠線を表示する。",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -490,14 +524,14 @@
 	{
 		"id": "forum-search",
 		"name": "フォーラム検索",
-		"description": "フォーラム検索を追加する。ScratchDB使用。",
+		"description": "フォーラムに検索バーを追加する。ScratchDB使用。",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "forum-time-zones",
 		"name": "フォーラムのタイムゾーン表示変更",
-		"description": "投稿日時をコンピューターのタイムゾーンで表示する。データ提供元: ScratchDB",
+		"description": "投稿日時をコンピューターのタイムゾーンで表示する。",
 		"tags": ["forums", "community"]
 	},
 	{
@@ -537,7 +571,7 @@
 	{
 		"id": "image-uploader",
 		"name": "フォーラム画像アップローダー",
-		"description": "画像をアップロードし、フォーラムに投稿する。",
+		"description": "画像を直接アップロードし、フォーラムに投稿するボタンを追加する。",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -551,12 +585,24 @@
 	{
 		"id": "initialise-sprite-position",
 		"name": "新しいスプライトの位置を変更",
-		"description": "新しいスプライトの位置を固定する。",
+		"description": "新しいスプライトのデフォルトのX・Y座標を変更する。",
 		"tags": ["editor"],
 		"credits": [
 			{
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "items-per-row",
+		"name": "一行当たりの表示数増加",
+		"description": "プロジェクト、スタジオ、ユーザーを表示するときの、一行当たりの表示数を変更する。",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -620,13 +666,13 @@
 	{
 		"id": "mediarecorder",
 		"name": "ステージを録画",
-		"description": "ステージを録画するボタンを追加する。",
+		"description": "ステージを録画するボタンをエディターのメニューバーに追加する。",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
 		"name": "メッセージフィルター",
-		"description": "Scratchのメッセージページに表示するメッセージの種類を選ぶ。",
+		"description": "Scratchのメッセージページに表示するメッセージの種類を選択できるようにする。",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -645,7 +691,7 @@
 	{
 		"id": "mouse-pos",
 		"name": "マウスの座標",
-		"description": "緑の旗の横にマウスの座標を表示する。",
+		"description": "ステージの上にマウスの座標を表示する。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -669,7 +715,7 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular.jeffalo.netステータスとリアクションを表示する",
+		"name": "ocular.jeffalo.net上のステータスとリアクションを表示する",
 		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
@@ -689,7 +735,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "半透明コスチュームエディター",
-		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの下のボタンで制御可能。",
+		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの横のボタンで制御可能。",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -710,7 +756,7 @@
 	{
 		"id": "project-info",
 		"name": "スプライト・スクリプト数表示",
-		"description": "プロジェクトのスプライト数とスクリプト数を表示する。",
+		"description": "プロジェクトのスプライト数とスクリプト数をリミックスボタンの横に表示する。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -734,14 +780,14 @@
 	{
 		"id": "redirect-mobile-forums",
 		"name": "モバイル版フォーラムを自動リダイレクト",
-		"description": "/discuss/m/から/discuss/に自動でリダイレクトさせる。",
+		"description": "モバイル版のフォーラムにアクセスしたときに、標準版に自動でリダイレクトさせる。",
 		"tags": ["community", "forums", "easterEgg"],
 		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
 	},
 	{
 		"id": "remix-tree-button",
 		"name": "リミックスツリーボタン",
-		"description": "リミックスツリーボタンを追加する。",
+		"description": "リミックスツリーボタンを「リンクをコピー」ボタンの横に追加する。",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -756,7 +802,7 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "スプライト削除確認",
+		"name": "スプライト削除確認画面",
 		"description": "スプライトの削除時に確認画面を表示する。",
 		"tags": ["editor", "recommended"]
 	},
@@ -830,7 +876,7 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "BBCodeを表示",
+		"name": "BBCodeのソースを表示",
 		"description": "投稿のBBCodeを表示するボタンを加える。",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -843,7 +889,7 @@
 	{
 		"id": "studio-followers",
 		"name": "フォロワー招待ボタン",
-		"description": "スタジオのキュレータータブに、フォロワーを個別に招待できるボタンを追加する。",
+		"description": "スタジオのキュレータータブに、フォロワーやフォロー中のユーザーを個別に招待できるボタンを追加する。",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
@@ -882,6 +928,18 @@
 		"description": "YouTube動画プレイヤーへのリンクを本物へのリンクに置き換える。",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "turbowarp-player",
+		"name": "TurboWarpボタン",
+		"description": "リミックスボタンの横に、プロジェクトをTurboWarp.orgで動かすボタンを追加する。",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
 	},
 	{
 		"id": "variable-manager",

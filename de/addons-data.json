@@ -2,13 +2,13 @@
 	{
 		"id": "2d-color-picker",
 		"name": "2D-Farbenwähler",
-		"description": "Ersetzt die Schattierungs- und Helligkeitsschieberegler durch einen 2D-Farbenregler. Halte die Umschalttaste während dem Ziehen des Mauszeigers gedrückt, um die Werte auf einer einzigen Achse zu ändern.",
+		"description": "Replaces saturation and brightness sliders in the costume editor with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "Alt+GrüneFlagge-60FPS-Playermodus",
+		"name": "60FPS project player mode",
 		"description": "Alt+Klicke die grüne Flagge, um den 60FPS-Modus einzustellen.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -21,14 +21,14 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Großschreibung in Kontoeinstellungen korrigieren; Nur für Englisch",
+		"name": "Capitalized Account Settings",
 		"description": "Dieses Addon wird im Deutschen nicht benötigt, da das Problem nicht vorhanden ist. Es wird keine Änderung zum aktuellen Text geben.",
 		"tags": ["easterEgg", "community"]
 	},
 	{
 		"id": "animated-thumb",
 		"name": "Thumbnailsetzer",
-		"description": "Fügt einen Knopf dem Editor hinzu, mit dem du das Thumbnail deines Projektes auf ein beliebiges Bild (einschließlich gifs) setzen kannst.",
+		"description": "Adds a button to the editor menu bar to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{
@@ -44,7 +44,7 @@
 	{
 		"id": "better-emojis",
 		"name": "Bessere Emojis",
-		"description": "Ersetzt die Katzenemojis in den Kommentaren mit verbesserten Vektorversionen.",
+		"description": "Replaces the cat emojis in comments on the website with improved vector designs.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
@@ -53,7 +53,7 @@
 	{
 		"id": "better-featured-project",
 		"name": "Profilseiten-Banner",
-		"description": "Macht das Vorgestellte Projekt auf der Profilseite jedes Nutzers zu einem gut aussehendem Banner.",
+		"description": "Turns the featured project on any user's profile into a nice-looking banner.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
 	},
@@ -94,7 +94,7 @@
 	{
 		"id": "bitmap-copy",
 		"name": "Raster-Bilder Kopieren",
-		"description": "Erlaubt es dir, Raster-Bilder aus dem Maleditor richtig zu Kopieren, sodass sie auf anderen Seiten oder Programmen eingefügt werden können.",
+		"description": "Allows you to copy a bitmap image from the costume editor into the system clipboard, so that you can paste it in other websites or software.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
@@ -120,7 +120,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Blöcke als Bild speichern",
-		"description": "Klicke mit der rechten Maustaste in den Arbeitsbereich des Editors, um Blöcke als SVG/PNG-Bilder zu exportieren",
+		"description": "Right click the code area to export blocks as SVG/PNG images.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -142,7 +142,7 @@
 	{
 		"id": "clones",
 		"name": "Klonzähler",
-		"description": "Fügt einen Zähler zum Editor hinzu, der die Anzahl der vorhandenen Klone anzeigt.",
+		"description": "Adds a counter above the stage in the editor which shows the total amount of clones.",
 		"tags": ["editor", "projectPlayer"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -179,9 +179,18 @@
 		]
 	},
 	{
+		"id": "compact-messages",
+		"name": "Compact messages",
+		"description": "Makes Scratch's messages page more compact and easier to read.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+		]
+	},
+	{
 		"id": "confirm-actions",
-		"name": "Aktionen bestätigen",
-		"description": "Fragt, ob du dir bei bestimmten Aktionen sicher bist, wie das Veröffentlichen eines Projektes.",
+		"name": "Confirmations",
+		"description": "Asks if you're sure when committing actions under your Scratch account, such as sharing projects.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -193,7 +202,7 @@
 	{
 		"id": "copy-message-link",
 		"name": "Link zum Kommentar kopieren",
-		"description": "Fügt einen \"Link kopieren\"-Button zu allen Scratch-Kommetnaren neben dem \"Melden\"-Button hinzu.",
+		"description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -202,7 +211,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Strg+Klick, um Skripte auszuführen",
-		"description": "Blockstapel beim Klicken nur ausführen, wenn auch die Strg-Taste gedrückt wird.",
+		"description": "Only run scripts on click if also holding the Ctrl key.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -210,9 +219,16 @@
 		]
 	},
 	{
+		"id": "ctrl-enter-post",
+		"name": "Ctrl+Enter to post",
+		"description": "Automatically posts the comment or forum post on Ctrl+Enter.",
+		"tags": ["community"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
 		"id": "curator-link",
-		"name": "Kuratorlink",
-		"description": "Erstellt einen anklickbaren Link für den Homepage-Kurator.",
+		"name": "Front page curator link",
+		"description": "Makes the username of the front page curator a clickable link to their profile.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -223,8 +239,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Anpassbare Blockgröße ",
-		"description": "Ändere die Blockhöhe, den Eckenradius und die Höhe der Laschen von Scratch-Blöcken.",
+		"name": "Customizable block shape",
+		"description": "Adjust the padding, corner radius, and notch height of blocks.",
 		"tags": ["editor", "codeEditor", "theme", "recommended"],
 		"credits": [
 			{
@@ -243,8 +259,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Benutzerdefinierte Einstellungen für den Zoom im Skriptbereich",
-		"description": "Regle den Minimum-, Maximum-, und Startzoom und die Zoom-Geschwindigkeit für den Skriptbereich im Editor, und blende die Steuerelemente automatisch aus.",
+		"name": "Customizable code area zoom",
+		"description": "Choose custom settings for the minimum, maximum, speed, and start size of the zoom of scripts in the code area, and autohide the controls.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -252,6 +268,13 @@
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			}
 		]
+	},
+	{
+		"id": "customize-avatar-border",
+		"name": "Customizable profile picture border",
+		"description": "Allows you to hide or change the outline around profile pictures in project and studio comments.",
+		"tags": ["community", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "dango-rain",
@@ -276,7 +299,7 @@
 	{
 		"id": "dark-www",
 		"name": "Dunkler Modus für die Website",
-		"description": "Dunkles Design für die Scratch-Website auf 2.0- und 3.0-Seiten.",
+		"description": "Dark theme for the Scratch website.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -288,7 +311,7 @@
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "Optimierungen für die Datenkategorie",
-		"description": "Bietet Optimierungen für die Kategorie Daten (\"Variablen\") im Editor.",
+		"description": "Provides tweaks for the Data (\"Variables\") block category.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -296,12 +319,19 @@
 		"id": "debugger",
 		"name": "Debugger",
 		"description": "Fügt die neue Blockkategorie \"Debugger\" und ein \"Logs\"-Fenster im Editor hinzu. Die \"Log\", \"Warnung\" und \"Fehler\"-Blöcke werden die bestimmte Nachricht ins Logfenster schreiben. Der \"Breakpoint\"-Block wird das Projekt pausieren.",
-		"tags": ["editor", "beta"],
+		"tags": ["editor"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-project",
+		"name": "Customizable default project",
+		"description": "Change the default project from the Scratch Cat to any existing project.",
+		"tags": ["editor", "beta"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "disable-auto-save",
@@ -318,7 +348,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Nich ziehbare Figuren im Editor",
-		"description": "Entfernt die Möglichkeit, Figuren auf der Bühne herumzuziehen, explizit ziehbare Figuren ausgenommen.",
+		"description": "Removes the ability to drag sprites around on the stage in the editor, except those explicitly set as draggable.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -331,7 +361,7 @@
 	{
 		"id": "discuss-button",
 		"name": "Diskussionsknopf",
-		"description": "Fügt den Diskussionsknopf der Navigationsleiste hinzu.",
+		"description": "Adds the discuss button to the navigation bar.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
 	},
@@ -345,7 +375,7 @@
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Farbige Kontextmenüs",
-		"description": "Macht die Kontextmenüs des Editors farbig, wenn mit der rechten Maustaste auf einen Block geklickt wird.",
+		"description": "Makes block right click context menus colorful.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -363,27 +393,31 @@
 				"name": "infinitytec (3.Dark, 3.Darker)",
 				"link": "https://github.com/infinitytec"
 			},
-			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" },
+			{
+				"name": "GarboMuffin (TurboWarp Dark)",
+				"link": "https://github.com/GarboMuffin"
+			}
 		]
 	},
 	{
 		"id": "editor-devtools",
 		"name": "Entwicklertools",
-		"description": "Fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Kopieren/Einfügen von Blöcken, besseres Aufräumen, gehe zu Definitionen von Benutzerdefinierten Blöcken und vieles mehr!",
+		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "editor-messages",
 		"name": "Nachrichten im Editor",
-		"description": "Zeigt die Anzahl deiner Nachrichten im Editor.",
+		"description": "Displays your message count in the editor menu bar.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Suchbare Dropdown-Menüs",
-		"description": "Erlaubt es dir, Dropdown-Listen im Scratch Editor zu durchsuchen.",
+		"description": "Allows you to search block dropdowns.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -403,8 +437,8 @@
 	},
 	{
 		"id": "editor-stepping",
-		"name": "Aktuell ausgeführte Blöcke markieren",
-		"description": "Fügt den Blöcken, die gerade im Projekt ausgeführt werden, einen farbigen Rahmen hinzu.",
+		"name": "Running block border",
+		"description": "Adds a colored highlight to the blocks that are currently being executed in a project.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -437,7 +471,7 @@
 	{
 		"id": "expanding-search-bar",
 		"name": "Erweiterbare Suchleiste",
-		"description": "Macht die Suchleiste beim Fokussieren breiter.",
+		"description": "Makes the search bar in the navigation bar wider when it's focused.",
 		"tags": ["community"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
@@ -456,7 +490,7 @@
 	{
 		"id": "fix-pasted-scripts",
 		"name": "Duplizierte Blöcke nicht automatisch ausführen",
-		"description": "Löst einen Bug im Scratch-Editor, der beim Duplizieren und Anfügen von Blöcken einen Start auslöst.",
+		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a script causes the script to run.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -473,13 +507,13 @@
 	{
 		"id": "folders",
 		"name": "Figurenordner",
-		"description": "Fügt Ordner zur Figurenliste hinzu, sowie zur Kostüm- und Klangliste. Um einen Ordner zu erstellen, klicke mit der rechten Maustaste auf eine Figur und wähle \"neuer Ordner\". Klicke mit der rechten Maustaste eine Figur an, um sie in einen Ordner zu verschieben, oder ziehe sie in einen offenen Ordner.",
+		"description": "Adds folders to the sprite pane, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Angepasste Zitate & Codeblöcke in Foren",
+		"name": "Customizable quotes and code blocks on forums",
 		"description": "Zeigt schönere Skript- und Zitatblöcke in Foren.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -490,7 +524,7 @@
 	{
 		"id": "forum-search",
 		"name": "Forumsuche",
-		"description": "Fügt eine Postsuche zur Forumhomepage hinzu. Verwendet ScratchDB, um die Informationen zu erhalten.",
+		"description": "Adds a post search bar to the forums. Uses ScratchDB for information.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
@@ -502,8 +536,8 @@
 	},
 	{
 		"id": "full-signature",
-		"name": "Vollständige Bereiche anzeigen",
-		"description": "Macht manche Elemente mit limitierter Höhe vergrößerbar oder scrollbar, wie Nutzersignaturen in Foren und Was ich gemacht habe in Profilen.",
+		"name": "Full areas",
+		"description": "Shows the full content of areas with limited height, such as user signatures on the forums and What I've been doing on profiles, by making them resizable or scrollable.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -524,7 +558,7 @@
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Blockpalette automatisch ausblenden",
+		"name": "Auto-hiding block palette",
 		"description": "Blendet die Blockpalette automatisch aus, wenn sich die Maus nicht darüber befindet. Klicke auf das Schlossymbol, um es temporär zu fixieren. Alternativ kannst du den \"Kategorien klicken\"-Modus verwenden.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -537,7 +571,7 @@
 	{
 		"id": "image-uploader",
 		"name": "Bild-Uploader in Foren",
-		"description": "Integriert das Hochladen von Bildern in Foren.",
+		"description": "Adds a button to directly upload and insert images into forum posts.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -550,13 +584,25 @@
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Ändere die Standardposition von neuen Figuren",
-		"description": "Bewegt Figuren zu einer festgelegtn X/Y-Position, wenn sie erstellt werden.",
+		"name": "Customizable new sprite position",
+		"description": "Change the default x/y position of new sprites.",
 		"tags": ["editor"],
 		"credits": [
 			{
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "items-per-row",
+		"name": "More items per row",
+		"description": "Lets you change the number of items displayed in a single row in a grid of projects, studios, or users.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -576,7 +622,7 @@
 	{
 		"id": "live-featured-project",
 		"name": "Aktives vorgestelltes Projekt",
-		"description": "Zeigt einen interaktiven Embed des vorgestellten Projektes direkt auf der Profilseite des Benutzers. Basiert auf der Implementierung auf Mega Scratch Userscript.",
+		"description": "Shows an interactive featured project, directly from the user's profile. Based on the implementation in Mega Scratch Userscript.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -588,8 +634,8 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Editorerweiterungen automatisch anzeigen",
-		"description": "Fügt Musik, Malstift, und weitere Editorerweiterungen automatisch zur Blockkategorienliste hinzu.",
+		"name": "Automatically add extensions",
+		"description": "Auto-shows music, pen, and other extensions in the block category menu in the editor.",
 		"tags": ["editor", "codeEditor"]
 	},
 	{
@@ -619,14 +665,14 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "Projektvideo aufnehmen",
-		"description": "Fügt einen \"Aufnehmen\"-Knopf zum Editor hinzu, mit dem du die Bühne des Projekts aufnehmen kannst.",
+		"name": "Project video recorder",
+		"description": "Adds a \"start recording\" button to the editor menu bar that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
-		"name": "Nachrichten auf der Scratch-Nachrichtenseite filtern",
-		"description": "Lässt dich auswählen, welche Arten von Nachrichten auf Scratch's Nachrichtenseite angezeigt oder ausgeblendet werden.",
+		"name": "Message filters",
+		"description": "Lets you select filters for types of messages to hide or show on Scratch's messages page.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -645,7 +691,7 @@
 	{
 		"id": "mouse-pos",
 		"name": "Mauszeigerposition",
-		"description": "Zeigt die Position des Mauszeigers neben der Flagge im Editor an.",
+		"description": "Displays your mouse x/y position above the stage in the editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -657,7 +703,7 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Projektplayer stummschalten",
+		"name": "Muted project player mode",
 		"description": "Strg+Klicke auf die grüne Flagge, um das Projekt stummzuschalten bzw. die Stummschaltung aufzuheben.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -669,8 +715,8 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular.jeffalo.net-Status anzeigen und poste Reaktionen",
-		"description": "Zeigt ocular-Statuse und Reaktionen an. Erhält Daten von jeffalo.net.",
+		"name": "ocular.jeffalo.net integration",
+		"description": "Shows ocular statuses and forum post reactions. Uses my-ocular.jeffalo.net to obtain data.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -689,7 +735,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "Onion Skinning",
-		"description": "Zeigt ein transparentes Bild des vorherigen oder nächsten Kostüms während dem Bearbeiten eines Kostüms. Du kannst es mit Knöpfen neben den Zoom-Knöpfen im Kostümeditor steuern.",
+		"description": "Shows transparent overlays of previous or next costumes when editing a costume. Controlled by buttons under the costume editor by the zoom buttons.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -710,7 +756,7 @@
 	{
 		"id": "project-info",
 		"name": "Figuren- und Skriptanzahl",
-		"description": "Zeigt die Anzahl der Figuren und Skripte, die ein Projekt besitzt.",
+		"description": "Shows the number of sprites and scripts a project has next to the Remix button.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -740,8 +786,8 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Remixbaumknopf auf Projektseiten",
-		"description": "Bringt den Remixbaumknopf auf Projektseiten zurück.",
+		"name": "Remix tree button",
+		"description": "Brings back the remix tree button to project pages, next to the Copy Link button.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -756,7 +802,7 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "Figurenlöschung bestätigen",
+		"name": "Sprite deletion confirmation",
 		"description": "Fragt, ob du sicher bist, wenn du eine Figur innerhalb eines Projektes löschst.",
 		"tags": ["editor", "recommended"]
 	},
@@ -805,7 +851,7 @@
 	{
 		"id": "scratchstats",
 		"name": "Profilstatistiken",
-		"description": "Zeigt Statistiken von ScratchDB of Profilseiten an.",
+		"description": "Shows statistics from ScratchDB on user profiles.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -830,7 +876,7 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "BBCode anzeigen",
+		"name": "BBCode source button",
 		"description": "Fügt einen Button hinzu, der die BBCode-Quelle eines posts anzeigt.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -843,7 +889,7 @@
 	{
 		"id": "studio-followers",
 		"name": "Follower durchsuchen-Knopf in Studios",
-		"description": "Fügt einen Knopf oben im \"Kuratoren\"-Tab in Studios, die du verwaltest, hinzu, der deine Follower und die Nutzer, denen du folgst, auflistet, um sie mit einem Klick einzuladen.",
+		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers and followed users and lets you invite a shown user with a single click.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
@@ -852,8 +898,8 @@
 	},
 	{
 		"id": "studio-tools",
-		"name": "Studiomanager-Tools",
-		"description": "Erlaubt es dir, einfacher im Kuratorentab Benutzer von deinen Studios zu befördern oder zu entfernen und Studios zu verlassen.",
+		"name": "Studio tools",
+		"description": "Lets managers easily promote curators to managers or remove anyone from a studio on the \"curators\" tab, and adds the ability to leave a studio using a button under \"Follow Studio\".",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -882,6 +928,18 @@
 		"description": "Ersetzt Links zu der Embed-Seite mit richtigen YouTube Links.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "turbowarp-player",
+		"name": "TurboWarp button",
+		"description": "Adds a button on project pages to play the project in TurboWarp.org, next to the Remix button.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
 	},
 	{
 		"id": "variable-manager",
