@@ -1,5 +1,35 @@
 Global:
+  ScratchAddons: سكراتش اضافه
+  LogoAlt: شعار سكراتش اضافه
   ChromeLong: جوجل كروم
   FirefoxLong: موزيلا فايرفوكس
   ChromeShort: كروم
   FirefoxShort: فايرفوكس
+  Install: ثبيت
+  InstallFor: تثبيت ل {{.Browser}}
+Nav:
+  Contributors: المساهمين
+  Feedback: ارسل رأيك
+  Repository: المستأمن
+  Install: ثبيت
+Footer:
+  Pages:
+    Header: الصفحات
+    FAQ: التعليمات
+    Feedback: ارسل رأيك
+    Contributors: المساهمين
+    Changelog: التغيير
+    Addons: اضافه
+  Discuss:
+    Header: مناقشة
+    Discussion: منتدى للنقاش
+    Issues: مسائل
+  Resources:
+    Header: مصادر
+    Organization: منظمة
+    Repository: المستأمن
+    Documentation: توثيق
+    YouTube: اليوتيوب
+PlayerModal:
+  LabelPlay: لعب
+  ModalTitle: فيديو
