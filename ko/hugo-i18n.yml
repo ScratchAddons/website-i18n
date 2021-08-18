@@ -4,6 +4,7 @@ Global:
   ChromeLong: 구글 크롬
   FirefoxLong: 모질라 Firefox
   ChromeShort: 크롬
+  FirefoxShort: 파이어폭스
   Install: 설치하기
   InstallFor: "{{.Browser}}에 설치하기"
 Nav:
@@ -21,6 +22,7 @@ Footer:
     Addons: 애드온
   Discuss:
     Header: 토론하기
+    Discussion: 토론방
     Issues: 이슈
     DiscordCom: 디스코드 커뮤니티
     DiscordDev: 개발자 디스코드
@@ -127,3 +129,6 @@ ChangelogPage:
   Status:
     Latest: 최신
     Yanked: 버전 건너뛰기
+UnsupportedBrowserPage:
+  Download: 내려받기
+  HowToUpdate: 업데이트 받기
