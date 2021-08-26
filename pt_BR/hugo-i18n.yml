@@ -104,6 +104,7 @@ FeedbackPage:
     Failed: Algo deu errado. Tente enviar de novo.
   UsernameLabel: Nome de usuário no Scratch, ou outro apelido (opcional)
   ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
+  SendEnabled: Enviar lista de addons ativados atualmente (recomendado)
   SubmitButton: Enviar
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension
