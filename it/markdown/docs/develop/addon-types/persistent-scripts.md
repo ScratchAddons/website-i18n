@@ -2,6 +2,9 @@
 title: Script Persistenti
 description: Gli script persistenti ti permettono di eseguire JavaScript in background! Sono eccezionali per notificare qualcosa all'utente o per precaricare i dati in modo che siano pronti quando l'utente ne ha bisogno.
 ---
+
+> **Raccomandiamo di evitare l'uso degli script persistenti ogni volta che è possibile. La futura migrazione a  [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/#background-service-workers) richiederà di usare i service workers invece delle pagine in background, rendendo gli script persistenti una sfida. Meno script persistenti ci saranno quando migreremo, più semplice sarà la migrazione.**
+
 ## Cosa sono?
 Gli script persistenti ti permettono di eseguire JavaScript in background! Sono eccezionali per notificare qualcosa all'utente o per precaricare i dati in modo che siano pronti quando l'utente ne ha bisogno.
 

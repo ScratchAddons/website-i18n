@@ -1,11 +1,23 @@
 _index.html:
-  description: Scratch Eklentileri Scratch (scratch.mit.edu) ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
+  description: "Scratch Eklentileri Scratch (scratch.mit.edu) ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır."
 addons.html:
   title: Eklentiler
-  description: Bu sayfa, Scratch Eklentileri'nde bulunan tüm eklentileri listeler.
+  description: "Bu sayfa, Scratch Eklentileri'nde bulunan tüm eklentileri listeler."
+changelog.html:
+  title: Değişiklik günlüğü
+  description: Bu projedeki tüm önemli değişiklikler bu sayfada belgelenecektir.
 farewell.html:
   title: Güle Güle!
   description: Scratch Eklentileri kaldırıldı. Eklentiyi kullandığınız için teşekkür ederiz!
+feedback.html:
+  title: Geri Bildirim
+  description: Scratch Eklentileri geliştiricilerine geri bildirim gönderin.
+scratch-messaging-transition.html:
+  title: Eklenti Güncellemesi (Geçiş)
+  description: (griffpatch tarafından yapılan) Scratch Mesajlaşma Eklentisi güncellenmiştir ve artık Scratch Eklentileri olarak isimlendirilmektedir. Yeniden tasarlanmış yeni mesaj özetini incelemek için eklenti görev çubuğundaki Scratch Eklentileri simgesine tıklayın!
+unsupported-browser.html:
+  title: Desteklenmeyen Tarayıcı
+  description: Scratch Eklentileri kullandığınız tarayıcıyı desteklememektedir.
 welcome.html:
   title: Hoş Geldiniz!
   description: Scratch Eklentileri başarılı bir şekilde yüklendi! Yüklediğiniz için teşekkür ederiz. Umuyoruz ki eklentiyi beğenirsiniz!
