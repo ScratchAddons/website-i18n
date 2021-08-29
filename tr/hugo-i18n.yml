@@ -19,15 +19,15 @@ Footer:
   Discuss:
     Header: Tartışma
     Issues: Sorunlar
-    DiscordCom: Topluluk Discord
-    DiscordDev: Geliştirici Discord
+    DiscordCom: Topluluk Discord'u
+    DiscordDev: Geliştirici Discord'u
   Resources:
     Header: Kaynaklar
     Organization: Organizasyon
     Repository: Depo
     Documentation: Belgeleme
   Legal:
-    Copyright: © {{.Count}} Scratch Eklentileri çalışanları
+    Copyright: © {{.Count}} Scratch Eklentileri yazarları
     NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi bir şekilde resmi olarak bağlı değildir.
     License: Scratch Eklentileri GNU General Public License v3.0 altında lisanslanmıştır.
 DarkTheme:
@@ -61,3 +61,8 @@ IndexPage:
     InternationalHeading: Uluslararası
   Install:
     Heading: İndir
+AddonsPage:
+  EasterEggTooltip:
+    L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
+FeedbackPage:
+  SendEnabled: Şu anda etkinleştirilmiş eklentilerimin bir listesini gönder (önerilir)
