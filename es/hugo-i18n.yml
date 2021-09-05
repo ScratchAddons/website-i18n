@@ -16,6 +16,7 @@ Footer:
     Changelog: Lista de Cambios
   Discuss:
     Header: Debatir
+    Discussion: Foro de Discusión
     DiscordCom: Discord de la Comunidad
     DiscordDev: Discord de los Desarrolladores
   Resources:
@@ -100,6 +101,7 @@ FeedbackPage:
   UsernameLabel: Nombre de usuario de Scratch, u otros identificadores (opcional)
   ContentLabel: Comentarios
   ContentPlaceholder: Por favor proporcione tantos detalles como pueda.
+  SendEnabled: Enviar lista de mis addons actualmente activados (recomendado)
   SubmitButton: Enviar
 SMTPage:
   ScratchMessagingLogoAlt: Logo de Scratch Messaging Extensio
@@ -114,3 +116,6 @@ ChangelogPage:
   Status:
     Latest: Último
     Yanked: Descartado
+UnsupportedBrowserPage:
+  Download: Descargar
+  HowToUpdate: Cómo actualizar
