@@ -107,6 +107,7 @@ FeedbackPage:
   UsernameLabel: Scratchのユーザー名 (任意)
   ContentLabel: フィードバック
   ContentPlaceholder: 可能な限り詳細を提供してください。
+  SendEnabled: 現在有効のアドオンの一覧を送信する (推奨)
   SubmitButton: 送信
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
