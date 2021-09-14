@@ -14,6 +14,7 @@ Footer:
     Changelog: Journal des modifications
   Discuss:
     Header: Discuter
+    Discussion: Forums de discussion
     Issues: Problèmes
     DiscordCom: Serveur Discord communautaire
     DiscordDev: Serveur Discord pour le développement
@@ -36,9 +37,11 @@ Docs:
   TOCToggleLabel: Activer la barre contenant la table des matières
   LastUpdated: Dernière mise-à-jour le {{.Date}} par {{.Name}} lors du commit {{.Commit}}.
   Improve: Améliorer cette page
+  SectionPages: Pages de section
 PlayerModal:
   LabelPlay: Jouer
   ModalTitle: Vidéo
+  AltText: Cliquez pour voir la vidéo
 IndexPage:
   Intro:
     Tagline: Une extension tout-en-un pour Scratch
@@ -95,11 +98,20 @@ FeedbackPage:
   UsernameLabel: Nom d'utilisateur Scratch ou autres identifiants (optionnel)
   ContentLabel: Commentaire
   ContentPlaceholder: Merci de donner autant de détails que possible.
+  SendEnabled: Envoyer la liste de mes addons activés (recommandé)
   SubmitButton: Envoyer
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
 ChangelogPage:
+  Highlights:
+    Title: Aperçu
   Links:
     Title: Liens
+    ReleaseGitHub: Page de publication sur GitHub
+    RepoState: État du dépôt lors de la publication
+    CommitsMade: Commits faits concernant cette version
   Status:
     Latest: Le plus ancien
+UnsupportedBrowserPage:
+  Download: Télécharger
+  HowToUpdate: Comment mettre à jour
