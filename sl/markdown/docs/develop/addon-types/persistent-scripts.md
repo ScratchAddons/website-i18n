@@ -86,4 +86,4 @@ Pred razhroščevanjem se prepričajte, da je dodatek vključen.
 Potem pojdite na stran `chrome://extensions`. Prepričajte se, da je vključen način za razvijalce, in poiščite Scratch Addons.  
 Kliknite povezavo "inspect views: background/background.html".  
 To je vse - tam bodo vsi izpisi vašega dodatka, in če ste profesionalni uporabnik orodja za razvijalce, ne boste imeli težav z dodajanjem prekinitev (breakpoints).  
-Če bi radi preizkušali vmesnik `addon.*`, ne da bi vsakič spremenili skripto, uporabite `window.addon = addon;` (v glavni funkciji), da lahko iz konzole dostopate do svojega objekta `addon`. Ne pozabite te vrstice odstranite, preden dodatek prispevate na GitHub! Skripte v ozadju ne smejo onesnažiti globalnega objekta.
+Če bi radi preizkušali vmesnik `addon.*`, ne da bi vsakič spremenili skripto, uporabite `window.addon = addon;` (v glavni funkciji), da lahko iz konzole dostopate do svojega objekta `addon`. Ne pozabite te vrstice odstraniti, preden dodatek prispevate na GitHub! Skripte v ozadju ne smejo onesnažiti globalnega objekta.
