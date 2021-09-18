@@ -54,8 +54,8 @@
 		"id": "better-featured-project",
 		"name": "Banner de perfil",
 		"description": "Transforma o projeto em destaque do perfil de qualquer usuário em um banner.",
-		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+		"tags": ["community", "featured", "profiles"],
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
 	{
 		"id": "better-img-uploads",
@@ -98,10 +98,22 @@
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
+		"id": "block-cherry-picking",
+		"name": "Arrastar um único bloco com a tecla Ctrl",
+		"description": "Te deixa arrastar um único bloco do meio de um script (ao invés de levar junto todos os blocos conectados a ele) ao segurar a tecla Ctrl.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
 		"id": "block-palette-icons",
 		"name": "Ícones nas categorias da paleta de blocos",
 		"description": "Adiciona ícones dentro dos círculos coloridos nas categorias de bloco.",
-		"tags": ["editor", "codeEditor", "theme"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "--Explosion--",
@@ -115,7 +127,13 @@
 		"name": "Trocar blocos",
 		"description": "Clique com o botão direito em um bloco para trocá-lo por um bloco relacionado.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
 	},
 	{
 		"id": "blocks2image",
@@ -130,7 +148,7 @@
 		"id": "cat-blocks",
 		"name": "Blocos de gato",
 		"description": "Adiciona de volta os blocos de gato no editor de primeiro de abril de 2020.",
-		"tags": ["editor", "codeEditor"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -143,7 +161,7 @@
 		"id": "clones",
 		"name": "Contador de clones",
 		"description": "Adiciona um contador acima do palco no editor que mostra o número total de clones.",
-		"tags": ["editor", "projectPlayer"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
@@ -184,7 +202,7 @@
 		"description": "Deixa a página de mensagens do Scratch mais compacta e fácil de ler.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
 		]
 	},
 	{
@@ -241,7 +259,7 @@
 		"id": "custom-block-shape",
 		"name": "Formato de bloco customizável",
 		"description": "Ajuste o tamanho, raio de canto e altura do encaixe dos blocos do Scratch.",
-		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "SheepTester",
@@ -261,7 +279,7 @@
 		"id": "custom-zoom",
 		"name": "Configurações de zoom na área de script",
 		"description": "Mude o zoom mínimo, máximo, inicial, e sua velocidade no editor de código, e deixe os controles esconderem sozinhos.",
-		"tags": ["editor", "codeEditor"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "ErrorGamer2000",
@@ -300,7 +318,7 @@
 		"id": "dark-www",
 		"name": "Tema escuro para o website",
 		"description": "Tema escuro para o website do Scratch.",
-		"tags": ["community", "theme", "recommended"],
+		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -319,7 +337,7 @@
 		"id": "debugger",
 		"name": "Depurador",
 		"description": "Adiciona a nova categoria de blocos \"debug\" e uma janela de \"logs\" ao editor. Os blocos \"log\", \"aviso\" e \"erro\" irão adicionar a mensagem especificada à janela de logs. O bloco \"breakpoint\" interromperá o projeto temporariamente quando for executado.",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
@@ -349,7 +367,7 @@
 		"id": "disable-stage-drag-select",
 		"name": "Atores não arrastáveis no editor",
 		"description": "Remove a habilidade de arrastar atores no palco no editor, a não ser aqueles cujo \"modo de arrasto\" é arrastável.",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{
 				"name": "Chrome_Cat",
@@ -376,14 +394,14 @@
 		"id": "editor-colored-context-menus",
 		"name": "Menus de contexto coloridos",
 		"description": "Põe cor no menu que aparece ao clicar em um bloco com o botão direito.",
-		"tags": ["editor", "codeEditor", "theme"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-dark-mode",
 		"name": "Tema escuro no editor e cores customizadas",
 		"description": "Mude as cores usadas no editor de projeto. Vários temas escuros por autores diferentes estão disponíveis. Se você não quer um tema escuro mas quer mudar as cores do editor, você pode escolher a predefinição \"cores padrão do Scratch\" e ajustá-lo.",
-		"tags": ["editor", "theme", "recommended"],
+		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
@@ -406,6 +424,15 @@
 		"description": "Adiciona uma caixa de busca e novas opções de menu ao editor: copiar/colar blocos, organização melhor, ir para a definição de um bloco customizado, e mais!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-extra-keys",
+		"name": "Suporte a mais teclas",
+		"description": "Adiciona mais teclas às opções do bloco \"tecla () pressionada?\", como enter, ponto, vírgula, entre outras.",
+		"tags": ["editor", "codeEditor", "beta"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
 	},
 	{
 		"id": "editor-messages",
@@ -432,20 +459,20 @@
 		"id": "editor-stage-left",
 		"name": "Mostrar palco do lado esquerdo",
 		"description": "Move o palco para o lado esquerdo do editor.",
-		"tags": ["editor", "theme", "recommended"],
+		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
 		"name": "Destacar blocos em execução",
 		"description": "Adiciona uma borda colorida aos blocos que estão rodando em um projeto.",
-		"tags": ["editor", "codeEditor"]
+		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "editor-theme3",
 		"name": "Cores de bloco customizadas",
 		"description": "Edite as cores dos blocos de cada categoria no editor.",
-		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
@@ -453,6 +480,13 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
 		]
+	},
+	{
+		"id": "editor-unshare-button",
+		"name": "Botão de descompartilhar no editor",
+		"description": "Troca o botão \"Compartilhado\" ao lado do título do projeto por um botão para descompartilhar o projeto.",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "exact-count",
@@ -472,14 +506,14 @@
 		"id": "expanding-search-bar",
 		"name": "Barra de pesquisa expansível",
 		"description": "Faz a barra de pesquisa de projetos se expandir quando está em foco.",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
 	{
 		"id": "feature-unshared",
 		"name": "Destacar projetos não compartilhados",
 		"description": "Te permite escolher projetos não compartilhados depois de clicar em \"alterar projeto em destaque\" no seu perfil.",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -512,6 +546,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "forum-copy-code",
+		"name": "Botão de copiar código no fórum",
+		"description": "Adiciona um botão de \"copiar código\" acima de caixas de código em postagens do fórum que copia o texto.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Blocos de citação e código customizados nos fóruns",
 		"description": "Mostra blocos de código e citação mais bonitos nos fóruns.",
@@ -535,6 +576,12 @@
 		"tags": ["forums", "community"]
 	},
 	{
+		"id": "forum-toolbar",
+		"name": "Mais botões no editor de postagem do fórum",
+		"description": "Adiciona botões na barra de ferramentas do editor de postagem do fórum para adicionar mais tags do BBCode, como [center] ou [cor].",
+		"tags": ["community", "forums"]
+	},
+	{
 		"id": "full-signature",
 		"name": "Áreas completas",
 		"description": "Mostra o conteúdo completo de áreas com tamanho limitado, como assinaturas no fórum e a seção O que ando fazendo em perfis, podem ser redimensionados e scrollados.",
@@ -553,8 +600,14 @@
 		"id": "gamepad",
 		"name": "Suporte para controle",
 		"description": "Interaja com projetos usando um controle USB ou Bluetooth",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-delete-button",
+		"name": "Esconder botão de deletar",
+		"description": "Esconde o botão de deletar (ícone da lata de lixo) de atores, fantasias e sons. Eles ainda podem ser deletados clicando com o botão direito do mouse.",
+		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "hide-flyout",
@@ -569,6 +622,20 @@
 		]
 	},
 	{
+		"id": "hide-new-variables",
+		"name": "Esconder novas variáveis",
+		"description": "Não criar monitores automaticamente para novos variáveis ou listas.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-project-stats",
+		"name": "Esconder estatísticas de projetos",
+		"description": "Te deixa esconder a contagem de corações, favoritos, remixes e visualizações na página inicial e páginas de projetos.",
+		"tags": ["community", "projectPage"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+	},
+	{
 		"id": "image-uploader",
 		"name": "Envio de imagens para os fóruns",
 		"description": "Adiciona um botão para diretamente carregar e inserir imagens em postagens no fórum.",
@@ -579,14 +646,14 @@
 		"id": "infinite-scroll",
 		"name": "Scroll infinito",
 		"description": "Te deixa descer numa página em diferentes partes do site sem ter que clicar em \"carregar mais\".",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
 		"name": "Posição padrão customizável para novos atores",
 		"description": "Muda a posição x/y padrão de novos atores.",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{
 				"name": "pufferfish101007",
@@ -598,7 +665,7 @@
 		"id": "items-per-row",
 		"name": "Mais itens por linha",
 		"description": "Te deixa mudar o número de itens mostrados em uma linha de uma grade de projetos, estúdios ou usuários.",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -623,7 +690,7 @@
 		"id": "live-featured-project",
 		"name": "Projeto em destaque interativo",
 		"description": "Mostra uma versão interativa do projeto em destaque, direto no perfil do usuário. Baseado na implementação do Mega Scratch Userscript.",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
 				"name": "GRA0007 (original)",
@@ -636,13 +703,13 @@
 		"id": "load-extensions",
 		"name": "Automaticamente adicionar extensões",
 		"description": "Adiciona as extensões de música, caneta, e outras automaticamente à lista de categorias de blocos.",
-		"tags": ["editor", "codeEditor"]
+		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "longer-wiwo",
 		"name": "Limite de caractere maior no \"Em que estou trabalhando\"",
 		"description": "Te deixa digitar mais 55 caracteres na seção \"Em que estou trabalhando do seu perfil. Todos poderão ver os caracteres extra.",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
 		]
@@ -685,7 +752,7 @@
 		"id": "more-links",
 		"name": "Mais links",
 		"description": "Adiciona links para URLs de fora do scratch.mit.edu.",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
@@ -694,6 +761,12 @@
 		"description": "Mostra a posição do mouse próxima à bandeira acima do palco no editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "move-to-top-bottom",
+		"name": "Mover fantasia ao topo ou ao fundo da lista",
+		"description": "Adiciona uma opção no menu de botão direito de uma fantasia ou som para movê-lo para o topo ou fundo da lista. Antes parte das ferramentas de desenvolvedor.",
+		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -715,16 +788,30 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "Integração com ocular.jeffalo.net",
+		"name": "Integração com ocular",
 		"description": "Mostra status e reações de postagens do forum do ocular. Dados obtidos de my-ocular.jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
+		"id": "name-backpack-items",
+		"name": "Nomear scripts ao adicioná-los na mochila",
+		"description": "Te pede para dar um nome a novos scripts que você adicionar à mochila, ao invés de usar o nome padrão de \"code\".",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "no-script-bumping",
+		"name": "Não mover scripts sobrepostos automaticamente",
+		"description": "Permite que você mova e modifique scripts sem que eles movam ao serem sobrepostos por outro script.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
 		"id": "old-studio-layout",
 		"name": "Layout de estúdio antigo",
 		"description": "Reverte o layout da página de estúdio para como ele era antes do update, ou para como ele era anteriormente se você está usando o addon Scratch 2.0 → 3.0.",
-		"tags": ["community", "theme", "studios"],
+		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -737,6 +824,13 @@
 		"name": "Onion skinning",
 		"description": "Mostra uma cópia transparente das fantasias anteriores e posteriores ao editar uma fantasia. Controlado por botões em baixo do editor de fantasia ao lado dos botões de zoom.",
 		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "paint-by-default",
+		"name": "Pintar nova fantasia por padrão",
+		"description": "Muda a ação padrão dos botões \"Selecionar novo Ator/Fantasia/Fundo/Som\" que, por padrão, abrem a biblioteca do Scratch.",
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -757,7 +851,7 @@
 		"id": "project-info",
 		"name": "Contador de atores e scripts",
 		"description": "Mostra o número de atores e scripts que um projeto tem próximo ao botão de Remix.",
-		"tags": ["community", "projectPage"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -781,8 +875,15 @@
 		"id": "redirect-mobile-forums",
 		"name": "Redirecionar para os fóruns normais",
 		"description": "Te redireciona para o fórum normal ao clicar em um link para o fórum mobile.",
-		"tags": ["community", "forums", "easterEgg"],
+		"tags": ["community", "forums"],
 		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
+		"id": "remix-button",
+		"name": "Botão de remixar nos seus próprios projetos",
+		"description": "Adiciona o botão de remixar nos seus próprios projetos.",
+		"tags": ["community", "projectPage"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "remix-tree-button",
@@ -834,6 +935,17 @@
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
 			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchblocks",
+		"name": "Scratchblocks estilo 3.0 nos fóruns",
+		"description": "Ativa a nova versão dos scratchblocks nos fóruns.",
+		"tags": ["community", "forums", "beta"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" },
+			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -890,7 +1002,7 @@
 		"id": "studio-followers",
 		"name": "Convidar seguidores para estúdios",
 		"description": "Adiciona um botão no topo da aba de \"curadores\" em estúdios que você administra que mostra seus seguidores e usuários que você segue e te deixa convidar um usuário com um só clique.",
-		"tags": ["community", "studios"],
+		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
 			{ "name": "World_Languages" }
@@ -933,7 +1045,7 @@
 		"id": "turbowarp-player",
 		"name": "Botão do TurboWarp",
 		"description": "Adiciona um botão em páginas de projetos para rodar o projeto no TurboWarp.org, próximo ao botão de Remix.",
-		"tags": ["community", "projectPage"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -942,10 +1054,19 @@
 		]
 	},
 	{
+		"id": "user-id",
+		"name": "Mostrar IDs de usuários",
+		"description": "Adiciona o ID de um usuário ao lado do nome no topo de páginas de perfil.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+		]
+	},
+	{
 		"id": "variable-manager",
 		"name": "Administrador de variáveis",
 		"description": "Adiciona uma aba do lado de \"Sons\" no editor para facilmente editar variáveis e listas.",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{

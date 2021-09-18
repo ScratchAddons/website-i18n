@@ -54,8 +54,8 @@
 		"id": "better-featured-project",
 		"name": "プロフィールページバナー",
 		"description": "プロフィールページの注目のプロジェクト表示をバナーにする。",
-		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Ezlambry", "link": "https://ezlambry.github.io/" }]
+		"tags": ["community", "featured", "profiles"],
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
 	{
 		"id": "better-img-uploads",
@@ -98,10 +98,22 @@
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
+		"id": "block-cherry-picking",
+		"name": "Ctrlキーでブロックをつかむ",
+		"description": "Ctrlキーを押している間、ブロックをつかむとそのブロックだけが移動するようにする。",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
 		"id": "block-palette-icons",
 		"name": "ブロックパレットアイコン",
 		"description": "ブロックパレットのカテゴリーにアイコンを追加する。",
-		"tags": ["editor", "codeEditor", "theme"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "--Explosion--",
@@ -115,7 +127,13 @@
 		"name": "ブロック置換",
 		"description": "ブロックを右クリックして類似のブロックに変える。",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
 	},
 	{
 		"id": "blocks2image",
@@ -130,7 +148,7 @@
 		"id": "cat-blocks",
 		"name": "キャットブロック",
 		"description": "2020年のエイプリルフールの「キャットブロック」を追加する。",
-		"tags": ["editor", "codeEditor"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -143,7 +161,7 @@
 		"id": "clones",
 		"name": "クローンカウンター",
 		"description": "クローンの合計数をステージの上に表示する。",
-		"tags": ["editor", "projectPlayer"],
+		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
@@ -184,7 +202,7 @@
 		"description": "Scratchのメッセージページをコンパクトにする。",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
 		]
 	},
 	{
@@ -241,7 +259,7 @@
 		"id": "custom-block-shape",
 		"name": "ブロックの形をカスタマイズ",
 		"description": "ブロックのパディング、角、切れ込みを調節する。",
-		"tags": ["editor", "codeEditor", "theme", "recommended"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "SheepTester",
@@ -261,7 +279,7 @@
 		"id": "custom-zoom",
 		"name": "カスタムズーム設定",
 		"description": "コードペインのズーム設定をカスタマイズする。",
-		"tags": ["editor", "codeEditor"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "ErrorGamer2000",
@@ -300,7 +318,7 @@
 		"id": "dark-www",
 		"name": "ウェブサイトダークモード",
 		"description": "Scratchウェブサイト用のダークテーマ。",
-		"tags": ["community", "theme", "recommended"],
+		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -319,7 +337,7 @@
 		"id": "debugger",
 		"name": "デバッガー",
 		"description": "「デバッガー」ブロックカテゴリーとログ画面をエディターに追加する。「log」、「warn」、「error」ブロックはログ画面に内容を表示する。「breakpoint」ブロックはプロジェクトを一時停止させる。",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
@@ -349,7 +367,7 @@
 		"id": "disable-stage-drag-select",
 		"name": "ドラッグできないスプライト",
 		"description": "ステージでスプライトをドラッグできないようにする。",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{
 				"name": "Chrome_Cat",
@@ -376,14 +394,14 @@
 		"id": "editor-colored-context-menus",
 		"name": "右クリックメニューを色付け",
 		"description": "コンテキストメニューに色を付ける。",
-		"tags": ["editor", "codeEditor", "theme"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-dark-mode",
 		"name": "エディターのダークモードとカスタマイズ",
 		"description": "エディターの色をカスタマイズする。さまざまなダークテーマが利用できる。ダークモードが不要な場合は、「Scratchの既定の色」を選択すること。",
-		"tags": ["editor", "theme", "recommended"],
+		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse (addon, \"Experimental\" Dark)",
@@ -406,6 +424,15 @@
 		"description": "検索バー、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他。",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-extra-keys",
+		"name": "キー入力オプションの追加",
+		"description": "\"() キーが押された?\" ブロックのドロップダウンに、Enter、ドット、カンマなどのキーを追加する。",
+		"tags": ["editor", "codeEditor", "beta"],
+		"credits": [
+			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+		]
 	},
 	{
 		"id": "editor-messages",
@@ -432,20 +459,20 @@
 		"id": "editor-stage-left",
 		"name": "ステージを左側に表示",
 		"description": "ステージを左側に表示する。",
-		"tags": ["editor", "theme", "recommended"],
+		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
 		"name": "実行中のブロック枠線",
 		"description": "実行中のブロックの周りに色のついた枠線を表示する。",
-		"tags": ["editor", "codeEditor"]
+		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "editor-theme3",
 		"name": "ブロックの色をカスタマイズ",
 		"description": "ブロックの色をカテゴリーごとに変更する。",
-		"tags": ["editor", "theme", "codeEditor", "recommended"],
+		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
@@ -453,6 +480,13 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
 		]
+	},
+	{
+		"id": "editor-unshare-button",
+		"name": "非共有ボタン",
+		"description": "エディター内タイトル横の「共有されたもの」ボタンをプロジェクトを非共有にするボタンで置き換える。",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "exact-count",
@@ -472,14 +506,14 @@
 		"id": "expanding-search-bar",
 		"name": "伸縮可能検索バー",
 		"description": "フォーカスされたときに検索バーを大きくする。",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
 	{
 		"id": "feature-unshared",
 		"name": "非共有プロジェクトを注目のプロジェクトに設定",
 		"description": "プロフィールページの「注目のプロジェクト」を非共有プロジェクトにする。",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -512,6 +546,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "forum-copy-code",
+		"name": "コードをコピーボタン",
+		"description": "フォーラムの投稿のコードボックスの上に、「コードをコピー」ボタンを追加する。",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "フォーラム引用のカスタマイズ",
 		"description": "フォーラムの引用・コードをきれいにする。",
@@ -535,6 +576,12 @@
 		"tags": ["forums", "community"]
 	},
 	{
+		"id": "forum-toolbar",
+		"name": "フォーラムのツールバーのボタン追加",
+		"description": "[center]や[color]といったBBCodeタグを追加するボタンを、フォーラムの編集ツールバーに追加する。",
+		"tags": ["community", "forums"]
+	},
+	{
 		"id": "full-signature",
 		"name": "表示域拡大",
 		"description": "署名や「私が取り組んでいること」など、サイズの制限がある部分をスクロールしたり、サイズ変更可能にしたりする。",
@@ -553,8 +600,14 @@
 		"id": "gamepad",
 		"name": "ゲームパッド",
 		"description": "USBかBluetoothのコントローラーやゲームパッドを利用する。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-delete-button",
+		"name": "削除ボタンを隠す",
+		"description": "削除ボタン(ゴミ箱アイコン)を、スプライト、コスチュームや音から隠す。コンテキストメニューを使えば、通常通り削除できる。",
+		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "hide-flyout",
@@ -569,6 +622,20 @@
 		]
 	},
 	{
+		"id": "hide-new-variables",
+		"name": "変数を自動で隠す",
+		"description": "新しく作成した変数やリストのモニターを自動で隠す。",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-project-stats",
+		"name": "プロジェクト統計を隠す",
+		"description": "トップページやプロジェクトページの、プロジェクトの好き、お気に入り、リミックス、閲覧数を隠す。",
+		"tags": ["community", "projectPage"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+	},
+	{
 		"id": "image-uploader",
 		"name": "フォーラム画像アップローダー",
 		"description": "画像を直接アップロードし、フォーラムに投稿するボタンを追加する。",
@@ -579,14 +646,14 @@
 		"id": "infinite-scroll",
 		"name": "無限スクロール",
 		"description": "「もっと読み込む」を押さずにスクロールできるようにする。",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
 		"name": "新しいスプライトの位置を変更",
 		"description": "新しいスプライトのデフォルトのX・Y座標を変更する。",
-		"tags": ["editor"],
+		"tags": ["editor", "featured"],
 		"credits": [
 			{
 				"name": "pufferfish101007",
@@ -598,7 +665,7 @@
 		"id": "items-per-row",
 		"name": "一行当たりの表示数増加",
 		"description": "プロジェクト、スタジオ、ユーザーを表示するときの、一行当たりの表示数を変更する。",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -623,7 +690,7 @@
 		"id": "live-featured-project",
 		"name": "注目のプロジェクトを動かす",
 		"description": "プロフィールページの「注目のプロジェクト」を直接遊べるようにする。Mega Scratch Userscriptをもとに作成。",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
 				"name": "GRA0007 (original)",
@@ -636,13 +703,13 @@
 		"id": "load-extensions",
 		"name": "拡張機能の自動追加",
 		"description": "プロジェクトに自動で拡張機能を追加する。",
-		"tags": ["editor", "codeEditor"]
+		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "longer-wiwo",
 		"name": "「私が取り組んでいること」文字数制限増加",
 		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
-		"tags": ["community", "profiles"],
+		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
 		]
@@ -685,7 +752,7 @@
 		"id": "more-links",
 		"name": "リンク化",
 		"description": "scratch.mit.edu外にリンクしているURLをクリック可能にする。",
-		"tags": ["community"],
+		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
@@ -694,6 +761,12 @@
 		"description": "ステージの上にマウスの座標を表示する。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "move-to-top-bottom",
+		"name": "コスチュームを一番上や一番下に移動",
+		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。以前は「開発者ツール」の一部であった。",
+		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -715,16 +788,30 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular.jeffalo.net上のステータスとリアクションを表示する",
+		"name": "ocular上のステータスとリアクションを表示する",
 		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
+		"id": "name-backpack-items",
+		"name": "バックパックのスクリプトを命名",
+		"description": "バックパックに追加するときに、スクリプトに名前を付ける画面を表示する。",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "no-script-bumping",
+		"name": "スクリプト重ね配置",
+		"description": "スクリプトを重ねて配置できるようにする。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
 		"id": "old-studio-layout",
 		"name": "以前のスタジオレイアウト",
 		"description": "スタジオのレイアウトを、アップデート前のものや、以前Scratch 3.0化アドオンによって提供されていたものに戻す。",
-		"tags": ["community", "theme", "studios"],
+		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -737,6 +824,13 @@
 		"name": "半透明コスチュームエディター",
 		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの横のボタンで制御可能。",
 		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "paint-by-default",
+		"name": "空のコスチュームを追加ボタン",
+		"description": "「スプライト・コスチューム・背景・音を選ぶ」ボタンの既定の動作を変更する。",
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -757,7 +851,7 @@
 		"id": "project-info",
 		"name": "スプライト・スクリプト数表示",
 		"description": "プロジェクトのスプライト数とスクリプト数をリミックスボタンの横に表示する。",
-		"tags": ["community", "projectPage"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -781,8 +875,15 @@
 		"id": "redirect-mobile-forums",
 		"name": "モバイル版フォーラムを自動リダイレクト",
 		"description": "モバイル版のフォーラムにアクセスしたときに、標準版に自動でリダイレクトさせる。",
-		"tags": ["community", "forums", "easterEgg"],
+		"tags": ["community", "forums"],
 		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+	},
+	{
+		"id": "remix-button",
+		"name": "自分のプロジェクトをリミックス",
+		"description": "自分が所有するプロジェクトにリミックスボタンを追加する。",
+		"tags": ["community", "projectPage"],
+		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
 	},
 	{
 		"id": "remix-tree-button",
@@ -834,6 +935,17 @@
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
 			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+		]
+	},
+	{
+		"id": "scratchblocks",
+		"name": "3.0風フォーラムブロック表示",
+		"description": "新しいバージョンのscratchblocksを有効にする。",
+		"tags": ["community", "forums", "beta"],
+		"credits": [
+			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" },
+			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
 	},
 	{
@@ -890,7 +1002,7 @@
 		"id": "studio-followers",
 		"name": "フォロワー招待ボタン",
 		"description": "スタジオのキュレータータブに、フォロワーやフォロー中のユーザーを個別に招待できるボタンを追加する。",
-		"tags": ["community", "studios"],
+		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
 			{ "name": "World_Languages" }
@@ -933,7 +1045,7 @@
 		"id": "turbowarp-player",
 		"name": "TurboWarpボタン",
 		"description": "リミックスボタンの横に、プロジェクトをTurboWarp.orgで動かすボタンを追加する。",
-		"tags": ["community", "projectPage"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -942,10 +1054,19 @@
 		]
 	},
 	{
+		"id": "user-id",
+		"name": "ユーザーIDを表示",
+		"description": "プロフィールページのユーザー名の横にユーザーIDを表示する。",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+		]
+	},
+	{
 		"id": "variable-manager",
 		"name": "変数マネージャー",
 		"description": "エディターに変数とリストを管理するためのタブを追加する。",
-		"tags": ["editor", "recommended"],
+		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
