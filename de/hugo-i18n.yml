@@ -14,6 +14,7 @@ Footer:
     Changelog: Updates
   Discuss:
     Header: Diskutieren
+    Discussion: Diskussions-Forum
     Issues: Probleme
     DiscordCom: Community-Discord
     DiscordDev: Entwickler-Discord
@@ -97,6 +98,7 @@ FeedbackPage:
     Failed: Es ist ein Fehler aufgetreten? Erneut senden?
   UsernameLabel: Scratch-Benutzername, oder andere Erkennungen (optional)
   ContentPlaceholder: Bitt stelle so viele Details wie du kannst zu Verfügung.
+  SendEnabled: Liste der Addons, die gerade aktiviert sind, senden (empfohlen)
   SubmitButton: Senden
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-Logo
