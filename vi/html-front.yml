@@ -1,23 +1,23 @@
 _index.html:
-  description: ""
+  description: "Scratch Addons là một tiện ích mở rộng của trình duyệt cung cấp các tính năng và chủ đề mới cho trang web Scratch (scratch.mit.edu) và trình chỉnh sửa project. Nó có sứ mệnh thu thập, lưu trữ và đưa vào kiểu sử dụng của người dùng, được phát triển bởi một số thành viên của cộng đồng Scratch."
 addons.html:
-  title: ""
-  description: ""
+  title: Các tiện ích
+  description: Trang này liệt kê tất cả các addon được thực hiện trên Scratch Addons.
 changelog.html:
-  title: ""
-  description: ""
+  title: Nhật kí thay đổi
+  description: Tất cả những thay đổi đáng chú ý đối với dự án này sẽ được ghi lại trong trang này.
 farewell.html:
-  title: ""
-  description: ""
+  title: Tạm biệt!
+  description: Scratch Addons đã được gỡ cài đặt. Chúng tôi cảm ơn bạn đã sử dụng tiện ích!
 feedback.html:
-  title: ""
-  description: ""
+  title: Gửi phản hồi
+  description: Gửi phản hồi đến những lập trình viên của Scratch Addons
 scratch-messaging-transition.html:
-  title: ""
-  description: ""
+  title: Cập nhật tiện ích (Chuyển tiếp)
+  description: Phần tiện ích nhắn tin Scratch (của griffpatch) đã được cập nhật và hiện được gọi là Scratch Addons. Nhấn vào Scratch Addons biểu tượng trong thanh tiện ích mở rộng để xem bản tóm tắt tin nhắn mới đã được thiết kế!
 unsupported-browser.html:
-  title: ""
-  description: ""
+  title: Trình duyệt không hỗ trợ
+  description: Scratch Addons không hỗ trợ trình duyệt bạn đang sử dụng
 welcome.html:
-  title: ""
-  description: ""
+  title: Chào mừng!
+  description: Scratch Addons đã được gỡ cài đặt. Chúng tôi cảm ơn bạn đã sử dụng tiện ích này! Mong bạn thích tiện ích này
