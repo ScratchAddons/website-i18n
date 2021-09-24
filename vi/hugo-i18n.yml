@@ -37,7 +37,32 @@ DarkTheme:
 Docs:
   SectionSiteName: Tài liệu Scratch Addons
   DocsNav: Chuyển hướng tới tài liệu
+  DocsNavToggleLabel: Chuyển đổi thanh tài liệu bên
+  TOC: Mục lục
+  TOCToggleLabel: Chuyển đổi thanh mục lục bên
+  LastUpdated: Lần cập nhật cuối lúc {{.Date}} bởi {{.Name}} trên cam kết {{.Commit}}.
+  Improve: Cải thiện trang web
+  SectionPages: Phần của các trang
+PlayerModal:
+  LabelPlay: Chơi
+  AltText: Ấn để xem video này
 IndexPage:
+  Intro:
+    Tagline: Tiện ích "Tất cả trong một" cho Scratch
+    Description: Scratch Addons là một tiện ích mở rộng của trình duyệt cung cấp các tính năng và chủ đề mới cho trang web Scratch và trình chỉnh sửa dự án. Nó có sứ mệnh thu thập, lưu trữ và đưa vào sử dụng trong kiểu người dùng, được phát triển bởi một số thành viên của cộng đồng Scratch.
+    InstallButton:
+      Loading: Đang tải...
+      Description: miễn phí, mã nguồn mở
+    ReadMore: hoặc đọc thêm
+    Carousel:
+      Video:
+        Caption: Đoạn trailer.
+      Popup:
+        Caption: Phần bật lên của tiện ích
+        ImgAlt: Phần bật lên của tiện ích
+      Settings:
+        Caption: Cài đặt trang web
+        ImgAlt: Các cài đặt trang web
   Highlights:
     ScratchMessagingParagraph: '"Ông nội" của Scratch Addons. Nó có sẵn khi nhấp vào biểu tượng Scratch Addons và giúp bạn dễ dàng đọc và trả lời các tin nhắn Scratch: nhóm các tin nhắn theo dự án, hiển thị toàn bộ văn bản và ngữ cảnh nhận xét, cho phép trả lời bình luận trực tiếp.'
     ScratchNotifierHeading: Thông báo Scratch
