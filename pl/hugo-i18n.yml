@@ -16,6 +16,7 @@ Footer:
     Changelog: Dziennik zmian
   Discuss:
     Header: Dyskusja
+    Discussion: ""
     Issues: Problemy
     DiscordCom: Społeczność Discord
     DiscordDev: Discord Deweloperski
@@ -39,9 +40,15 @@ Docs:
   TOCToggleLabel: Przełącz pasek boczny spisu treści
   LastUpdated: Ostatni raz aktulizowane {{.Date}}przez {{.Name}}na commitcie {{.Commit}}.
   Improve: Ulepsz tą stronę.
+  SectionPages: ""
+PlayerModal:
+  LabelPlay: ""
+  ModalTitle: ""
+  AltText: ""
 IndexPage:
   Intro:
     Tagline: Wszystkie w jednym rozszerzeniu do Scratcha
+    Description: ""
     InstallButton:
       Loading: Ładowanie...
       Description: darmowe, otwarte źródło
@@ -49,10 +56,72 @@ IndexPage:
     Carousel:
       Video:
         Caption: Zwiastun.
+      Popup:
+        Caption: ""
+        ImgAlt: ""
       Settings:
         Caption: Strona ustawień
         ImgAlt: Strona ustawień
+      Demo:
+        Caption: ""
+        ImgAlt: ""
       Previous: Poprzedni
       Next: Następny
   Features:
+    Heading: ""
     AddonsHeading: Dodatki
+    AddonsParagraph: ""
+    CustomizableHeading: ""
+    CustomizableParagraph: ""
+    InternationalHeading: ""
+    InternationalParagraph: ""
+    OSHeading: ""
+    OSParagraph: ""
+  Highlights:
+    Heading: ""
+    Paragraph: ""
+    ScratchMessagingHeading: ""
+    ScratchMessagingParagraph: ""
+    ScratchNotifierHeading: ""
+    ScratchNotifierParagraph: ""
+    DeveloperToolsHeading: ""
+    DeveloperToolsParagraph: ""
+  Install:
+    Heading: ""
+    Paragraph: ""
+    InstallButton:
+      Other: ""
+AddonsPage:
+  EasterEggAddon: ""
+  RecommendedAddon: ""
+  ListViewLabel: ""
+  EasterEggLabel: ""
+  EasterEggTooltip:
+    L1: ""
+    L2: ""
+FeedbackPage:
+  Status:
+    Sending: ""
+    Success: ""
+    Failed: ""
+  UsernameLabel: ""
+  ContentLabel: ""
+  ContentPlaceholder: ""
+  SendEnabled: ""
+  SubmitButton: ""
+SMTPage:
+  ScratchMessagingLogoAlt: ""
+ChangelogPage:
+  Highlights:
+    Title: ""
+  Links:
+    Title: ""
+    ReleaseGitHub: ""
+    RepoState: ""
+    CommitsMade: ""
+  Status:
+    Latest: ""
+    Yanked: ""
+UnsupportedBrowserPage:
+  Download: ""
+  HowToUpdate: ""

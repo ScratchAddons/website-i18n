@@ -1,5 +1,11 @@
 Global:
   LogoAlt: Логотип Scratch Addons
+  ChromeLong: ""
+  FirefoxLong: ""
+  ChromeShort: ""
+  FirefoxShort: ""
+  Install: ""
+  InstallFor: ""
 Nav:
   Contributors: Внёсшие вклад
   Feedback: Отправить отзыв
@@ -14,6 +20,7 @@ Footer:
     Addons: Аддоны
   Discuss:
     Header: Обсудить
+    Discussion: ""
     Issues: Проблемы
     DiscordCom: Discord сообщества
     DiscordDev: Discord разработки
@@ -28,3 +35,97 @@ Footer:
     License: Scratch Addons лицензирован под условиями GNU General Public License v3.0.
 DarkTheme:
   Title: Нажмите, чтобы переключить тёмную тему
+  Label: ""
+Docs:
+  SectionSiteName: ""
+  DocsNav: ""
+  DocsNavToggleLabel: ""
+  TOC: ""
+  TOCToggleLabel: ""
+  LastUpdated: ""
+  Improve: ""
+  SectionPages: ""
+PlayerModal:
+  LabelPlay: ""
+  ModalTitle: ""
+  AltText: ""
+IndexPage:
+  Intro:
+    Tagline: ""
+    Description: ""
+    InstallButton:
+      Loading: ""
+      Description: ""
+    ReadMore: ""
+    Carousel:
+      Video:
+        Caption: ""
+      Popup:
+        Caption: ""
+        ImgAlt: ""
+      Settings:
+        Caption: ""
+        ImgAlt: ""
+      Demo:
+        Caption: ""
+        ImgAlt: ""
+      Previous: ""
+      Next: ""
+  Features:
+    Heading: ""
+    AddonsHeading: ""
+    AddonsParagraph: ""
+    CustomizableHeading: ""
+    CustomizableParagraph: ""
+    InternationalHeading: ""
+    InternationalParagraph: ""
+    OSHeading: ""
+    OSParagraph: ""
+  Highlights:
+    Heading: ""
+    Paragraph: ""
+    ScratchMessagingHeading: ""
+    ScratchMessagingParagraph: ""
+    ScratchNotifierHeading: ""
+    ScratchNotifierParagraph: ""
+    DeveloperToolsHeading: ""
+    DeveloperToolsParagraph: ""
+  Install:
+    Heading: ""
+    Paragraph: ""
+    InstallButton:
+      Other: ""
+AddonsPage:
+  EasterEggAddon: ""
+  RecommendedAddon: ""
+  ListViewLabel: ""
+  EasterEggLabel: ""
+  EasterEggTooltip:
+    L1: ""
+    L2: ""
+FeedbackPage:
+  Status:
+    Sending: ""
+    Success: ""
+    Failed: ""
+  UsernameLabel: ""
+  ContentLabel: ""
+  ContentPlaceholder: ""
+  SendEnabled: ""
+  SubmitButton: ""
+SMTPage:
+  ScratchMessagingLogoAlt: ""
+ChangelogPage:
+  Highlights:
+    Title: ""
+  Links:
+    Title: ""
+    ReleaseGitHub: ""
+    RepoState: ""
+    CommitsMade: ""
+  Status:
+    Latest: ""
+    Yanked: ""
+UnsupportedBrowserPage:
+  Download: ""
+  HowToUpdate: ""
