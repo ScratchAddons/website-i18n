@@ -18,6 +18,7 @@ Footer:
     Addons: Eklentiler
   Discuss:
     Header: Tartışma
+    Discussion: Tartışma forumu
     Issues: Sorunlar
     DiscordCom: Topluluk Discord'u
     DiscordDev: Geliştirici Discord'u
@@ -41,28 +42,86 @@ Docs:
   TOCToggleLabel: İçindekiler tablosu kenar çubuğunu aç
   LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
   Improve: Bu Sayfayı Geliştirin
+  SectionPages: Bölüm Sayfaları
+PlayerModal:
+  LabelPlay: Oynat
+  AltText: Bu videoyu görmek için tıklayın.
 IndexPage:
   Intro:
+    Tagline: Scratch için hepsi bir arada tarayıcı uzantısı
     Description: Scratch Eklentileri Scratch websitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
     ReadMore: veya daha fazlasını oku
     Carousel:
+      Video:
+        Caption: Fragman.
+      Popup:
+        Caption: Uzantı açılır penceresi.
+        ImgAlt: Uzantı açılır penceresi
       Settings:
         Caption: Ayarlar sayfası.
         ImgAlt: Ayarlar sayfası
+      Demo:
+        Caption: Uzantının görüntülenmesi. ({{.Count}})
+        ImgAlt: Görüntüleme ({{.Count}})
       Previous: Sonraki
       Next: Önceki
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
+    AddonsParagraph: Scratch Eklentileri, Scratch web sitenizi ve editör deneyiminizi güçlendirebilecek özellikler olan eklentilerden oluşur.
     CustomizableHeading: Özelleştirilebilir
+    CustomizableParagraph: Scratch Eklentiler, her özelliğin ve temanın çeşitli ayarlarını kontrol etmek için kullanımı kolay bir arayüze sahiptir.
     InternationalHeading: Uluslararası
+    InternationalParagraph: Sadece İngilizce değil. Scratch Eklentiler, İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dilde çevirisi mevcuttur.
+    OSHeading: Açık kaynaklı
+    OSParagraph: Scratch Eklentileri ücretsizdir, açık kaynaklıdır ve bir Scratchers topluluğu tarafından oluşturulmuştur.
+  Highlights:
+    Heading: Öne Çıkanlar
+    Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Fazlası var!{{.CloseTag1}}
+    ScratchMessagingHeading: Scratch Mesajlaşma
+    ScratchMessagingParagraph: "Scratch Eklentiler' in \"dedesi\". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamını gösterir, doğrudan yorum yanıtlamaya izin verir."
+    ScratchNotifierHeading: Scratch Bildirimcisi
+    ScratchNotifierParagraph: Yeni Scratch mesajlarına tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayabilirsiniz.
+    DeveloperToolsHeading: Geliştirici araçları
+    DeveloperToolsParagraph: "{{.OpenTag1}}Orijinal uzantıdan.{{.CloseTag1}} Düzenleyiciye bir bulma kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme gibi özellikler ve daha fazlası!"
   Install:
     Heading: İndir
+    Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
+    InstallButton:
+      Other: ...veya{{.OpenTag1}} GitHub'dan indirin{{.CloseTag1}} veya {{.OpenTag2}}kaynaktan yükleyin{{.CloseTag2}}.
 AddonsPage:
+  EasterEggAddon: Bu bir easter egg eklentisidir.
+  RecommendedAddon: Bu önerilen bir eklentidir.
+  ListViewLabel: Görüntülenmeyi listele
   EasterEggTooltip:
     L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
+    L2: Bu sayfada, bir easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
 FeedbackPage:
+  Status:
+    Sending: Gönderiliyor...
+    Success: Gönderildi! Geri dönüşünüz için teşekkür ederiz.
+    Failed: Bir şeyler ters gitti. Tekrar göndermeyi denemek ister misin?
+  UsernameLabel: Scratch kullanıcı adı veya diğer tanımlayıcılar (isteğe bağlı)
+  ContentLabel: Geri bildirim
+  ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.
   SendEnabled: Şu anda etkinleştirilmiş eklentilerimin bir listesini gönder (önerilir)
+  SubmitButton: Gönder
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Mesajlaşma Uzantısı logosu
+ChangelogPage:
+  Highlights:
+    Title: Öne Çıkanlar
+  Links:
+    Title: Linkler
+    ReleaseGitHub: GitHub sayfası
+    RepoState: Yayınlanma sırasındaki depo durumu
+    CommitsMade: Bu sürümde yapılan iyileştirmeler
+  Status:
+    Latest: En sonuncu
+    Yanked: Eski sürüm
+UnsupportedBrowserPage:
+  Download: İndir
+  HowToUpdate: Nasıl güncellenir
