@@ -1,6 +1,6 @@
 Global:
   ScratchAddons: Scratch Eklentileri
-  LogoAlt: Scratch Eklentileri logosu
+  LogoAlt: Scratch Eklentileri' nin logosu
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
 Nav:
@@ -11,14 +11,14 @@ Nav:
 Footer:
   Pages:
     Header: Sayfalar
-    FAQ: Sıkça Sorulan Sorular
+    FAQ: SSS
     Feedback: Geri Bildirim Gönder
     Contributors: Katkısı olanlar
     Changelog: Değişiklik günlüğü
     Addons: Eklentiler
   Discuss:
     Header: Tartışma
-    Discussion: Tartışma forumu
+    Discussion: Tartışma Forumu
     Issues: Sorunlar
     DiscordCom: Topluluk Discord'u
     DiscordDev: Geliştirici Discord'u
@@ -26,14 +26,14 @@ Footer:
     Header: Kaynaklar
     Organization: Organizasyon
     Repository: Depo
-    Documentation: Belgeleme
+    Documentation: Dökümantasyon
   Legal:
     Copyright: © {{.Count}} Scratch Eklentileri yazarları
-    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Foundation veya herhangi bir kuruluşa bağlı ve ilişkili değildir veya kısaca herhangi bir şekilde resmi olarak bağlı değildir.
+    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantılı değildir.
     License: Scratch Eklentileri GNU General Public License v3.0 altında lisanslanmıştır.
 DarkTheme:
   Title: Karanlık modu açmak için tıklayın.
-  Label: Karanlık mod anahtarı
+  Label: Karanlık mod ayarı
 Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
   DocsNav: Belgeler navigasyon
@@ -66,8 +66,8 @@ IndexPage:
       Demo:
         Caption: Uzantının görüntülenmesi. ({{.Count}})
         ImgAlt: Görüntüleme ({{.Count}})
-      Previous: Sonraki
-      Next: Önceki
+      Previous: Önceki
+      Next: Sonraki
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
@@ -91,21 +91,22 @@ IndexPage:
     Heading: İndir
     Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
     InstallButton:
-      Other: ...veya{{.OpenTag1}} GitHub'dan indirin{{.CloseTag1}} veya {{.OpenTag2}}kaynaktan yükleyin{{.CloseTag2}}.
+      Other: ...ama istersen{{.OpenTag1}} GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
 AddonsPage:
-  EasterEggAddon: Bu bir easter egg eklentisidir.
+  EasterEggAddon: Bu bir süpriz yumurta eklentisidir.
   RecommendedAddon: Bu önerilen bir eklentidir.
   ListViewLabel: Görüntülenmeyi listele
+  EasterEggLabel: Süpriz yumurta
   EasterEggTooltip:
     L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
-    L2: Bu sayfada, bir easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
+    L2: Bu sayfada, bir süpriz yumurta eklentisinin adının yanında bir yumurta sembolü olacaktır.
 FeedbackPage:
   Status:
     Sending: Gönderiliyor...
     Success: Gönderildi! Geri dönüşünüz için teşekkür ederiz.
     Failed: Bir şeyler ters gitti. Tekrar göndermeyi denemek ister misin?
   UsernameLabel: Scratch kullanıcı adı veya diğer tanımlayıcılar (isteğe bağlı)
-  ContentLabel: Geri bildirim
+  ContentLabel: Geri dönüt
   ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.
   SendEnabled: Şu anda etkinleştirilmiş eklentilerimin bir listesini gönder (önerilir)
   SubmitButton: Gönder
