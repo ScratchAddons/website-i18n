@@ -14,7 +14,7 @@ feedback.html:
   description: Scratch Eklentileri geliştiricilerine geri bildirim gönderin.
 scratch-messaging-transition.html:
   title: Eklenti Güncellemesi (Geçiş)
-  description: (griffpatch tarafından yapılan) Scratch Mesajlaşma Eklentisi güncellenmiştir ve artık Scratch Eklentileri olarak isimlendirilmektedir. Yeniden tasarlanmış yeni mesaj özetini incelemek için eklenti görev çubuğundaki Scratch Eklentileri simgesine tıklayın!
+  description: (griffpatch tarafından yapılan) Scratch Mesajlaşma Eklentisi güncellendi ve artık bir Scratch Eklentisi olarak adlandırılıyor. Yeniden tasarlanmış yeni mesaj özetini incelemek için eklenti görev çubuğundaki Scratch Eklentileri simgesine tıklayın!
 unsupported-browser.html:
   title: Desteklenmeyen Tarayıcı
   description: Scratch Eklentileri kullandığınız tarayıcıyı desteklememektedir.

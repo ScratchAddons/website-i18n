@@ -48,7 +48,7 @@ PlayerModal:
   AltText: Bu videoyu görmek için tıklayın.
 IndexPage:
   Intro:
-    Tagline: Scratch için hepsi bir arada tarayıcı uzantısı
+    Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
     Description: Scratch Eklentileri Scratch websitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
@@ -75,7 +75,7 @@ IndexPage:
     CustomizableHeading: Özelleştirilebilir
     CustomizableParagraph: Scratch Eklentiler, her özelliğin ve temanın çeşitli ayarlarını kontrol etmek için kullanımı kolay bir arayüze sahiptir.
     InternationalHeading: Uluslararası
-    InternationalParagraph: Sadece İngilizce değil. Scratch Eklentiler, İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dilde çevirisi mevcuttur.
+    InternationalParagraph: Scratch Eklentilerinin sadece İngilizce değil. İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dilde çevirisi mevcuttur.
     OSHeading: Açık kaynaklı
     OSParagraph: Scratch Eklentileri ücretsizdir, açık kaynaklıdır ve bir Scratchers topluluğu tarafından oluşturulmuştur.
   Highlights:
