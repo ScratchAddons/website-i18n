@@ -41,7 +41,7 @@ Docs:
   TOC: İçindekiler tablosu
   TOCToggleLabel: İçindekiler tablosu kenar çubuğunu aç
   LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
-  Improve: Bu Sayfayı Geliştirin
+  Improve: Bu sayfayı geliştirin
   SectionPages: Bölüm Sayfaları
 PlayerModal:
   LabelPlay: Oynat
@@ -75,14 +75,14 @@ IndexPage:
     CustomizableHeading: Özelleştirilebilir
     CustomizableParagraph: Scratch Eklentiler, her özelliğin ve temanın çeşitli ayarlarını kontrol etmek için kullanımı kolay bir arayüze sahiptir.
     InternationalHeading: Uluslararası
-    InternationalParagraph: Scratch Eklentilerinin sadece İngilizce değil. İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dilde çevirisi mevcuttur.
+    InternationalParagraph: Scratch Eklentileri sadece İngilizce değil. İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dile çevrilmiştir.
     OSHeading: Açık kaynaklı
     OSParagraph: Scratch Eklentileri ücretsizdir, açık kaynaklıdır ve bir Scratchers topluluğu tarafından oluşturulmuştur.
   Highlights:
     Heading: Öne Çıkanlar
     Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Fazlası var!{{.CloseTag1}}
     ScratchMessagingHeading: Scratch Mesajlaşma
-    ScratchMessagingParagraph: "Scratch Eklentiler' in \"dedesi\". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamını gösterir, doğrudan yorum yanıtlamaya izin verir."
+    ScratchMessagingParagraph: "Scratch Eklentiler' in \"dedesi\". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırmaya, tam yorum metni ve bağlamını göstermeye, doğrudan yorum yanıtlamaya izin verir."
     ScratchNotifierHeading: Scratch Bildirimcisi
     ScratchNotifierParagraph: Yeni Scratch mesajlarına tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayabilirsiniz.
     DeveloperToolsHeading: Geliştirici araçları
