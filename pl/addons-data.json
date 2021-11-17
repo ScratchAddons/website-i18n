@@ -28,32 +28,23 @@
 	{
 		"id": "animated-thumb",
 		"name": "Ustawiacz miniaturek",
-		"description": "Adds a button to the editor menu bar to set the thumbnail of your project to any image (including gifs).",
-		"tags": ["editor", "editorMenuBar", "recommended"],
-		"credits": [
-			{
-				"name": "World_Languages",
-				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
-			},
-			{
-				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
-			}
-		]
+		"description": "Adds a button to the bottom-right of the project page to set the thumbnail of your project to any image (including gifs).",
+		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
 		"id": "better-emojis",
 		"name": "Lepsze emoji",
-		"description": "Replaces the cat emojis in comments on the website with improved vector designs.",
+		"description": "Replaces the emojis in comments on the website with improved vector designs.",
 		"tags": ["community", "comments"],
 		"credits": [
-			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
+			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
 		]
 	},
 	{
 		"id": "better-featured-project",
 		"name": "banner strony profilu",
-		"description": "Turns the featured project on any user's profile into a nice-looking banner.",
+		"description": "Zamienia wyróżniony projekt w profilu dowolnego użytkownika w ładnie wyglądający baner.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
@@ -106,8 +97,16 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
-			}
+			},
+			{ "name": "GarboMuffin" }
 		]
+	},
+	{
+		"id": "block-duplicate",
+		"name": "Duplicate script with Alt key",
+		"description": "Szybko zduplikuj skrypt, przeciągając go, trzymając klawisz Alt. Przytrzymaj również klawisz Ctrl, aby zduplikować tylko pojedynczy blok zamiast całego stosu dołączonego pod nim.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "block-palette-icons",
@@ -185,6 +184,15 @@
 		]
 	},
 	{
+		"id": "columns",
+		"name": "Dwu-kolumnowe menu kategorii",
+		"description": "Splits the block category menu into two columns and moves it to the top of the block palette, like in Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
+		]
+	},
+	{
 		"id": "comments-linebreaks",
 		"name": "Nowe linie w komentarzach",
 		"description": "Pokazuje nowe linie (przyciskanie enter) w komentarzach.",
@@ -198,8 +206,8 @@
 	},
 	{
 		"id": "compact-messages",
-		"name": "Compact messages",
-		"description": "Makes Scratch's messages page more compact and easier to read.",
+		"name": "Kompaktowe wiadomości",
+		"description": "Sprawia, że strona wiadomości Scratcha jest bardziej kompaktowa i łatwiejsza do odczytania.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
@@ -241,7 +249,9 @@
 		"name": "Ctrl+Enter to post",
 		"description": "Automatically posts the comment or forum post on Ctrl+Enter.",
 		"tags": ["community"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
 	},
 	{
 		"id": "curator-link",
@@ -290,7 +300,7 @@
 	{
 		"id": "customize-avatar-border",
 		"name": "Customizable profile picture border",
-		"description": "Allows you to hide or change the outline around profile pictures in project and studio comments.",
+		"description": "Pozwala ukryć lub zmienić kontur wokół zdjęć profilowych w komentarzach do projektów i studia.",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
@@ -317,7 +327,7 @@
 	{
 		"id": "dark-www",
 		"name": "Tryb ciemny strony",
-		"description": "Dark theme for the Scratch website.",
+		"description": "Ciemny motyw dla strony Scratcha",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -349,7 +359,9 @@
 		"name": "Customizable default project",
 		"description": "Change the default project from the Scratch Cat to any existing project.",
 		"tags": ["editor", "beta"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -362,6 +374,13 @@
 				"link": "https://scratch.mit.edu/users/RustingRobot"
 			}
 		]
+	},
+	{
+		"id": "disable-paste-offset",
+		"name": "Do not shift pasted items",
+		"description": "Paste copied items at their original position instead of shifted slightly in the costume editor.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -385,17 +404,36 @@
 	},
 	{
 		"id": "drag-drop",
-		"name": "Przeciągnij i upuść pliki",
-		"description": "Umożliwia przeciąganie obrazów i dźwięków z eksploratora plików do panelu duszków lub listy kostiumów/dźwięków. Możesz także przeciągać pliki tekstowe na listy lub bloki „zapytaj i czekaj”.",
+		"name": "File drag and drop",
+		"description": "Lets you drag images and sounds from your file manager into the sprite pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" question inputs.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
+		"id": "echo-effect",
+		"name": "Przycisk efektu echa",
+		"description": "Przywraca przycisk Echo w edytorze dźwięku.",
+		"tags": ["editor"]
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Kolorowe menu kontekstowe",
-		"description": "Makes block right click context menus colorful.",
+		"description": "Tworzy kolorowe menu kontekstowe, klikając prawym przyciskiem myszy na blok.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-comment-previews",
+		"name": "Editor comment previews",
+		"description": "Allows you to preview the contents of comments by hovering over collapsed comments and blocks. You can use this to view comments that are off-screen, identify a loop block from the bottom by its preview, fit many long comments in a small space, and more.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "editor-dark-mode",
@@ -428,7 +466,7 @@
 	{
 		"id": "editor-extra-keys",
 		"name": "Extra key support",
-		"description": "Adds more keys to the \"key () pressed?\" block dropdown, such as enter, dot, comma, and more.",
+		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -486,7 +524,16 @@
 		"name": "Unshare button in editor",
 		"description": "Replaces the \"Shared\" button next to the project title box with a button to unshare the project.",
 		"tags": ["editor", "editorMenuBar"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "emoji-picker",
+		"name": "Emoji picker for comments",
+		"description": "Adds a button to insert emojis to comments on the website.",
+		"tags": ["community", "comments", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "exact-count",
@@ -522,6 +569,16 @@
 		]
 	},
 	{
+		"id": "fix-editor-comments",
+		"name": "Lepszy edytor komentarzy",
+		"description": "Makes numerous changes to comments in the Scratch editor: fixes a bug where comments attached to blocks don't save their positions correctly after dragging, adds a scroll bar on comments where text is clipped, and allows you to edit standalone comments by clicking directly where you want to start typing.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+		]
+	},
+	{
 		"id": "fix-pasted-scripts",
 		"name": "Nie uruchamiaj automatycznie zduplikowanych bloków",
 		"description": "Fixes a bug in the Scratch editor, where duplicating a block and attaching it to a script causes the script to run.",
@@ -553,6 +610,13 @@
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
 	{
+		"id": "forum-id",
+		"name": "Quote post number",
+		"description": "Click the \"quote post number\" button to include a link to the post in your reply.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Customizable quotes and code blocks on forums",
 		"description": "Pokazuje ładniejszy kod i bloki cytatów na forach.",
@@ -571,8 +635,8 @@
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Używaj lokalnej strefy czasowej na forach",
-		"description": "Konwertuje daty publikacji na twoją strefę czasową. Używa ScratchDB do informacji.",
+		"name": "Lokalna strefa czasowa na forum",
+		"description": "Uses your local time zone for displaying post dates and times on the forums.",
 		"tags": ["forums", "community"]
 	},
 	{
@@ -597,6 +661,15 @@
 		]
 	},
 	{
+		"id": "fullscreen",
+		"name": "Ulepszony pełny ekran",
+		"description": "Naprawia niektóre niepożądane efekty w trybie pełnoekranowym odtwarzacza projektu, otwiera go w trybie pełnoekranowym przeglądarki i ukrywa pasek z zieloną flagą.",
+		"tags": ["editor", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+		]
+	},
+	{
 		"id": "gamepad",
 		"name": "Wsparcie dla padów",
 		"description": "Interakcja z projektami za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
@@ -605,8 +678,8 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "Hide delete button",
-		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu.",
+		"name": "Ukryj przycisk usuwania",
+		"description": "Ukrywa przycisk usuwania (ikonę kosza na śmieci) przed duszkami, kostiumami i dźwiękami. Nadal można je usunąć za pomocą prawego przycisku myszy.",
 		"tags": ["editor", "featured"]
 	},
 	{
@@ -623,17 +696,19 @@
 	},
 	{
 		"id": "hide-new-variables",
-		"name": "Hide new variables",
+		"name": "Ukryj \"nową zmienną\"",
 		"description": "Do not automatically create monitors for newly created variables or lists.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "Hide project stats",
-		"description": "Lets you hide love, favorite, remix and view counts in the front page and project pages.",
+		"name": "Ukrywa statystyki projektów",
+		"description": "Pozwala ukryć liczniki polubień, pokochań, remiksów i wyświetleń na stronie głównej i stronach projektów.",
 		"tags": ["community", "projectPage"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "image-uploader",
@@ -683,7 +758,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			},
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
 		]
 	},
 	{
@@ -738,7 +813,7 @@
 	},
 	{
 		"id": "message-filters",
-		"name": "Message filters",
+		"name": "Filtr wiadomości",
 		"description": "Lets you select filters for types of messages to hide or show on Scratch's messages page.",
 		"tags": ["community"],
 		"credits": [
@@ -758,7 +833,7 @@
 	{
 		"id": "mouse-pos",
 		"name": "Pozycja kursora",
-		"description": "Displays your mouse x/y position above the stage in the editor.",
+		"description": "Wyświetla pozycję x/y twojej myszy nad sceną w edytorze.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -809,7 +884,7 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
+		"name": "Stary wygląd studia",
 		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
@@ -876,18 +951,22 @@
 		"name": "Redirect to standard forums",
 		"description": "Redirects you to the standard (\"main\") forums when you click a link to the mobile forums.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix button in own projects",
-		"description": "Adds the Remix button to your own projects.",
+		"name": "Przycisk remixu na własnych projektach",
+		"description": "Dodaje przycisk remixu do twoich projektów",
 		"tags": ["community", "projectPage"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Remix tree button",
+		"name": "Przycisk drzewka remixów",
 		"description": "Brings back the remix tree button to project pages, next to the Copy Link button.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
@@ -929,7 +1008,7 @@
 	{
 		"id": "scratch-notifier",
 		"name": "Powiadomienia Scratch",
-		"description": "Notifications on new Scratch messages. Click the notification to go straight to the message (comment, project, etc.)",
+		"description": "Powiadomienia o nowych wiadomościach na Scratchu. Kliknij powiadomienie, aby przejść bezpośrednio do wiadomości (komentarza, projektu itp.).",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -939,11 +1018,11 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0 Scratchblocks on forums",
-		"description": "Enables the new version of scratchblocks on the forums.",
+		"name": "Bloki 3.0 Scratchblocks na forach",
+		"description": "Włącza nową wersję bloków na forach.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" },
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
@@ -963,12 +1042,24 @@
 	{
 		"id": "scratchstats",
 		"name": "Statystyki profili",
-		"description": "Shows statistics from ScratchDB on user profiles.",
+		"description": "Pokazuj  statystyki z ScratchDB na profilach użytkowników",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "search-my-stuff",
+		"name": "Search bar on My Stuff",
+		"description": "Umożliwia przeszukiwanie projektów, studiów i śmietnika na stronie Moje rzeczy. Po prostu zacznij wpisywać tekst w dowolnym miejscu na stronie, aby rozpocząć wyszukiwanie. Po zakończeniu wyszukiwania można także użyć kombinacji klawiszy Ctrl+Enter, aby szybko otworzyć górny wynik wyszukiwania.",
+		"tags": ["community", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1004,7 +1095,7 @@
 		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers and followed users and lets you invite a shown user with a single click.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
 			{ "name": "World_Languages" }
 		]
 	},
@@ -1020,6 +1111,13 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
 		]
+	},
+	{
+		"id": "swap-local-global",
+		"name": "Switch variables between \"For all sprites\" and \"For this sprite only\"",
+		"description": "Adds more options when renaming an existing variable or list: allows changing between \"For all sprites\" and \"For this sprite only\" and whether variables are stored in the cloud. Also adds a new option when right clicking a variable/list to quickly change its scope.",
+		"tags": ["editor", "codeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "transparent-orphans",
@@ -1043,8 +1141,8 @@
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "TurboWarp button",
-		"description": "Adds a button on project pages to play the project in TurboWarp.org, next to the Remix button.",
+		"name": "Przycisk TurboWarp",
+		"description": "Dodaje przycisk na stronach projektu do odtwarzania projektu w TurboWarp.org, obok przycisku remixu.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1054,9 +1152,21 @@
 		]
 	},
 	{
+		"id": "tutorials-button",
+		"name": "Ukryj przycisk Samouczków",
+		"description": "Ukrywa przycisk Samouczków na pasku menu edytora.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		]
+	},
+	{
 		"id": "user-id",
-		"name": "Show user IDs",
-		"description": "Adds the user ID next to the username at the top of profile pages.",
+		"name": "Pokaż ID użytkownika",
+		"description": "Dodaje ID użytkownika obok nazwy użytkownika na górze strony profilu.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }

@@ -28,26 +28,17 @@
 	{
 		"id": "animated-thumb",
 		"name": "썸네일 설정기",
-		"description": "편집기에 메뉴바를 추가하여 프로젝트의 썸네일을 모든 이미지(gif 포함)로 설정합니다.",
-		"tags": ["editor", "editorMenuBar", "recommended"],
-		"credits": [
-			{
-				"name": "World_Languages",
-				"link": "https://github.com/WorldLanguages/animatedThumbnailsBookmarklet/blob/master/code.js"
-			},
-			{
-				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
-			}
-		]
+		"description": "편집기의 오른쪽 모퉁이에 메뉴바를 추가하여 프로젝트의 썸네일을 모든 이미지(gif 포함)로 설정합니다.",
+		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
 		"id": "better-emojis",
 		"name": "개선된 이모지",
-		"description": "웹사이트 댓글에서의 고양의 이모지를 개선된 벡터 디자인으로 변경합니다.",
+		"description": "웹사이트 댓글에서의 이모지들을 개선된 벡터 디자인으로 변경합니다.",
 		"tags": ["community", "comments"],
 		"credits": [
-			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" }
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
+			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
 		]
 	},
 	{
@@ -106,8 +97,16 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
-			}
+			},
+			{ "name": "GarboMuffin" }
 		]
+	},
+	{
+		"id": "block-duplicate",
+		"name": "Alt 키로 스크립트 복제하기",
+		"description": "Alt 키를 누르면서 스크립트를 드래그해 빠르게 복제합니다. Ctrl 키를 같이 누르면 한 개의 스크립트만 복사됩니다.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "block-palette-icons",
@@ -185,6 +184,15 @@
 		]
 	},
 	{
+		"id": "columns",
+		"name": "2열 카테고리 메뉴",
+		"description": "블럭 카테고리 메뉴를 2열로 쪼개 스크래치 2.0처럼 블록 팔레트의 맨 위로 옮깁니다.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
+		]
+	},
+	{
 		"id": "comments-linebreaks",
 		"name": "댓글에서 줄바꿈 보이기",
 		"description": "웹사이트의 댓글에서 Enter 키를 눌러 줄 분리를 볼 수 있게 합니다.",
@@ -241,7 +249,9 @@
 		"name": "Ctr+엔터로 게시하기",
 		"description": "Ctrl+엔터로 게시글이나 댓글을 자동으로 게시합니다.",
 		"tags": ["community"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
 	},
 	{
 		"id": "curator-link",
@@ -349,7 +359,9 @@
 		"name": "기본 프로젝트 사용자 지정하기",
 		"description": "기본 프로젝트를 스크래치캣에서 아무 존재하는 프로젝트로 변경합니다",
 		"tags": ["editor", "beta"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "disable-auto-save",
@@ -362,6 +374,13 @@
 				"link": "https://scratch.mit.edu/users/RustingRobot"
 			}
 		]
+	},
+	{
+		"id": "disable-paste-offset",
+		"name": "불여넣어진 아이템 원래 자리에 놓기",
+		"description": "모양 편집기에서 복사한 모양을 살짝 이동시키지 않고 원래 위치에 붙여넣습니다.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -391,11 +410,30 @@
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
+		"id": "echo-effect",
+		"name": "에코 효과 버튼",
+		"description": "소리 에디터에 에코 버튼을 다시 넣습니다.",
+		"tags": ["editor"]
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "우클릭 메뉴 색상",
 		"description": "우클릭 메뉴에 색상을 입힙니다.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-comment-previews",
+		"name": "편집기 댓글 미리보기",
+		"description": "접혀 있는 주석이나 블록 위에 마우스를 올려놓아 주석의 내용을 미리볼 수 있도록 합니다. 이를 통해 화면 밖에서 주석을 보고, 미리보기로 루프 블록을 아래쪽에서 확인하며, 작은 공간에 많은 긴 주석을 맞추는 등의 작`업을 수행할 수 있습니다.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "editor-dark-mode",
@@ -428,7 +466,7 @@
 	{
 		"id": "editor-extra-keys",
 		"name": "추가 키 지원하기",
-		"description": "\"()키를 눌렀는가?\"블럭 드롭다운에 엔터, 마침표, 쉼표 등의 키를 더 추가합니다.",
+		"description": "\"()키를 눌렀는가?\"와 \"()키를 눌렀을 때\" 블록의 드롭다운에 엔터, 마침표, 쉼표 등의 더 많은 키를 추가힙니다.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
 			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
@@ -486,7 +524,16 @@
 		"name": "편집기에서 공유 취소 버튼 만들기",
 		"description": "프로젝트 제목 상자 옆의 \"공유됨\" 버튼을 프로젝트 공유 취소하기 으로 변경하기",
 		"tags": ["editor", "editorMenuBar"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "emoji-picker",
+		"name": "댓글 이모지 선택기",
+		"description": "웹사이트의 댓글에서 이모지를 추가할 수 있는 버튼을 추가합니다.",
+		"tags": ["community", "comments", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "exact-count",
@@ -522,6 +569,16 @@
 		]
 	},
 	{
+		"id": "fix-editor-comments",
+		"name": "더 나은 편집기 주석",
+		"description": "스크래치 편집기에서 여러 주석을 변경합니다. 블록에 연결된 주석이 드래그 후 해당 위치에 올바르게 저장하지 않는 버그를 수정하고, 텍스트가 잘리는 주석에 스크롤 막대를 추가하며 입력을 시작할 위치를 직접 클릭하여 각각의 주석을 편집할 수 있습니다.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+		]
+	},
+	{
 		"id": "fix-pasted-scripts",
 		"name": "블럭을 복제한 뒤 자동으로 실행되는 버그 고치기",
 		"description": "스크래치 편집기에서 복제 뒤 블럭이 다른 블럭에 붙을 경우 실행되는 버그를 고칩니다.",
@@ -551,6 +608,13 @@
 		"description": "토론방 게시글에서 코드 상자 위에 \"코드 복사하기\" 버튼을 추가해 내용을 클립보드에 복사할 수 있습니다.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+	},
+	{
+		"id": "forum-id",
+		"name": "게시글 인용수",
+		"description": "\"게시글 인용수\"버튼으로 당신의 답글에 게시글의 링크를 포함시킬 수 있습니다.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -597,6 +661,15 @@
 		]
 	},
 	{
+		"id": "fullscreen",
+		"name": "향상된 전체 화면",
+		"description": "전체 화면 모드에서 발생하는 몇몇 의도하지 않은 효과들을 고치고, 브라우저의 전체 화면 모드로 열 수 있으며, 녹색 깃발 툴바를 숨깁니다.",
+		"tags": ["editor", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+		]
+	},
+	{
 		"id": "gamepad",
 		"name": "게임패드 지원",
 		"description": "USB 또는 Bluetooth 컨트롤러/게임 패드를 사용하여 프로젝트와 상호작용합니다.",
@@ -633,7 +706,9 @@
 		"name": "프로젝트 통계 숨기기",
 		"description": "프런트 페이지와 프로젝트 페이지에서 좋아요와 즐겨찾기를 숨깁니다.",
 		"tags": ["community", "projectPage"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "image-uploader",
@@ -683,7 +758,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			},
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
 		]
 	},
 	{
@@ -876,14 +951,18 @@
 		"name": "모바일 토론방에서 일반 토론방으로 리다이렉트하기",
 		"description": "모바일 토론방을 클릭했을 때 일반(\"메인\") 토론방으로 리다이렉트됩니다.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
 	},
 	{
 		"id": "remix-button",
 		"name": "자신의 프로젝트에서 리믹스 버튼 추가",
 		"description": "자신의 프로젝트에 리믹스 버튼을 추가합니다.",
 		"tags": ["community", "projectPage"],
-		"credits": [{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" }]
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
 	},
 	{
 		"id": "remix-tree-button",
@@ -943,7 +1022,7 @@
 		"description": "토론방에서 스크래치 3.0 블록을 사용합니다.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr/" },
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
@@ -969,6 +1048,18 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "search-my-stuff",
+		"name": "내 작업실 검색창",
+		"description": "내 작업실에서 프로젝트, 스튜디오, 휴지통을 검색할 수 있도록 합니다. 내 작업실에서 아무곳에나 타이핑하면 검색이 시작됩니다. Ctrl+엔터로 검색 결과의 맨 위로 빠르게 갈 수 있습니다.",
+		"tags": ["community", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1004,7 +1095,7 @@
 		"description": "\"큐레이터\" 탭에 팔로워를 처리하고 팔로워나 팔로우 하고 있는 사람을 보여주는 버튼을 추가해 보이는 사용자를 단 한번의 클릭에 초대할 수 있게 합니다.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
-			{ "name": "9gr", "link": "https://scratch.mit.edu/users/9gr" },
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
 			{ "name": "World_Languages" }
 		]
 	},
@@ -1020,6 +1111,13 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
 		]
+	},
+	{
+		"id": "swap-local-global",
+		"name": "변수의 '모든 스프라이트에서 사용'과 '이 스프라이트에서만 사용'을 전환하기",
+		"description": "기존 변수 또는 목록의 이름을 바꿀 때 추가 설정을 추가합니다. \"모든 스프라이트의 경우\"와 \"이 스프라이트의 경우에만\" 사이에서 변경할 수 있고 변수가 클라우드에 저장되는지 여부를 변경할 수 있습니다. 또한 변수/리스트를 마우스 오른쪽 단추로 클릭하여 범위를 빠르게 변경할 수 있는 설정을 추가합니다.",
+		"tags": ["editor", "codeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "transparent-orphans",
@@ -1050,6 +1148,18 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "tutorials-button",
+		"name": "튜토리얼 버튼 숨기기",
+		"description": "튜토리얼 버튼을 편집기 메뉴 바에서 숨깁니다.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
