@@ -4,7 +4,7 @@ Global:
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
 Nav:
-  Contributors: Katkısı olanlar
+  Contributors: Katkısı Olanlar
   Feedback: Geri Bildirim Gönder
   Repository: Depo
   Install: İndir
@@ -13,8 +13,8 @@ Footer:
     Header: Sayfalar
     FAQ: SSS
     Feedback: Geri Bildirim Gönder
-    Contributors: Katkısı olanlar
-    Changelog: Değişiklik günlüğü
+    Contributors: Katkısı Olanlar
+    Changelog: Değişiklik Günlüğü
     Addons: Eklentiler
   Discuss:
     Header: Tartışma
@@ -36,8 +36,8 @@ DarkTheme:
   Label: Karanlık mod ayarı
 Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
-  DocsNav: Belgeler navigasyon
-  DocsNavToggleLabel: Belgeler navigasyon kenar çubuğunu aç
+  DocsNav: Belge navigasyonları
+  DocsNavToggleLabel: Belge navigasyonlarının kenar çubuğunu aç
   TOC: İçindekiler tablosu
   TOCToggleLabel: İçindekiler tablosu kenar çubuğunu aç
   LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
@@ -53,7 +53,7 @@ IndexPage:
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
-    ReadMore: veya daha fazlasını oku
+    ReadMore: veya fazlasını oku
     Carousel:
       Video:
         Caption: Fragman.
@@ -104,9 +104,9 @@ FeedbackPage:
   Status:
     Sending: Gönderiliyor...
     Success: Gönderildi! Geri dönüşünüz için teşekkür ederiz.
-    Failed: Bir şeyler ters gitti. Tekrar göndermeyi denemek ister misin?
+    Failed: Bir şeyler ters gitti. Tekrar denemek ister misin?
   UsernameLabel: Scratch kullanıcı adı veya diğer tanımlayıcılar (isteğe bağlı)
-  ContentLabel: Geri dönüt
+  ContentLabel: Geri bildirim
   ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.
   SendEnabled: Şu anda etkinleştirilmiş eklentilerimin bir listesini gönder (önerilir)
   SubmitButton: Gönder
