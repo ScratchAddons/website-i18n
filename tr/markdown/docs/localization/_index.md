@@ -10,7 +10,7 @@ title: Yerelleştirme
 
 ## Geliştiriciler için
 - [Eklentileri Yerelleştirme](localizing-addons)
-- [Arka Planı Yerelleştirme](yerelleştirme-arka plan) _Yazma ihtiyacı var_
+- [Arka Planı Yerelleştirme](localizing-background) _Yazma ihtiyacı var_
 - [Addons-l10n çevirisinin teknik özellikleri](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
 
 ## Transifex yöneticileri için

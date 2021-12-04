@@ -40,7 +40,7 @@ Docs:
   DocsNavToggleLabel: Belge navigasyonlarının kenar çubuğunu aç
   TOC: İçindekiler tablosu
   TOCToggleLabel: İçindekiler tablosu kenar çubuğunu aç
-  LastUpdated: "{{.Commit}}, son olarak {{.Date}}' da {{.Name}} tarafından değiştirildi."
+  LastUpdated: "{{.Commit}} önerisi, en son {{.Date}} tarihinde {{.Name}} tarafından değiştirildi."
   Improve: Bu sayfayı geliştirin
   SectionPages: Bölüm Sayfaları
 PlayerModal:
