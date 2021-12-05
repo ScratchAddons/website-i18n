@@ -80,7 +80,7 @@ IndexPage:
     OSParagraph: Scratch Eklentileri ücretsizdir, açık kaynaklıdır ve bir Scratchers topluluğu tarafından oluşturulmuştur.
   Highlights:
     Heading: Öne Çıkanlar
-    Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Fazlası var!{{.CloseTag1}}
+    Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Çok daha fazlası var!{{.CloseTag1}}
     ScratchMessagingHeading: Scratch Mesajlaşma
     ScratchMessagingParagraph: "Scratch Eklentiler' in \"dedesi\". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırmaya, tam yorum metni ve bağlamını göstermeye, doğrudan yorum yanıtlamaya izin verir."
     ScratchNotifierHeading: Scratch Bildirimcisi

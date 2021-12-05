@@ -1,5 +1,5 @@
 ---
-title: Bir Ayar İçin Simge Ekleme
+title: Bir Ayar için Simge Ekleme
 ---
 Bir ayar adına [neden](https://github.com/ScratchAddons/ScratchAddons/pull/1529) [çöküyor](https://github.com/ScratchAddons/ScratchAddons/commit/ead64b9da1434e7ed593c141cba7b02addd70a54), bir simge eklemek için
 
