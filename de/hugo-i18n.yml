@@ -97,7 +97,7 @@ FeedbackPage:
     Success: Gesendet! Danke für dein Feedback!
     Failed: Es ist ein Fehler aufgetreten? Erneut senden?
   UsernameLabel: Scratch-Benutzername, oder andere Erkennungen (optional)
-  ContentPlaceholder: Bitt stelle so viele Details wie du kannst zu Verfügung.
+  ContentPlaceholder: Bitte stelle so viele Details wie du kannst zu Verfügung.
   SendEnabled: Liste der Addons, die gerade aktiviert sind, senden (empfohlen)
   SubmitButton: Senden
 SMTPage:
