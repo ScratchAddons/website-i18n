@@ -104,7 +104,7 @@ FeedbackPage:
   UsernameLabel: Scratch uporabniško ime ali drug kontakt (neobvezno)
   ContentLabel: Povratne informacije
   ContentPlaceholder: Prosimo, da navedete čim več podrobnosti.
-  SendEnabled: ""
+  SendEnabled: Pošlji seznam dodatkov, ki jih imam trenutno vključene (priporočeno)
   SubmitButton: Pošlji
 SMTPage:
   ScratchMessagingLogoAlt: Logotip razširitve Scratch Messaging Extension
