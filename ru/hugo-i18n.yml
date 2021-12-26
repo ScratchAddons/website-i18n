@@ -1,11 +1,7 @@
 Global:
   LogoAlt: Логотип Scratch Addons
-  ChromeLong: ""
-  FirefoxLong: ""
-  ChromeShort: ""
-  FirefoxShort: ""
-  Install: ""
-  InstallFor: ""
+  Install: Установить
+  InstallFor: Установить для {{.Browser}}
 Nav:
   Contributors: Внёсшие вклад
   Feedback: Отправить отзыв
@@ -20,7 +16,7 @@ Footer:
     Addons: Аддоны
   Discuss:
     Header: Обсудить
-    Discussion: ""
+    Discussion: Форум обсуждения
     Issues: Проблемы
     DiscordCom: Discord сообщества
     DiscordDev: Discord разработки
@@ -35,9 +31,9 @@ Footer:
     License: Scratch Addons лицензирован под условиями GNU General Public License v3.0.
 DarkTheme:
   Title: Нажмите, чтобы переключить тёмную тему
-  Label: ""
+  Label: Кнопка переключения тёмной темы
 Docs:
-  SectionSiteName: ""
+  SectionSiteName: Документация Scratch Addons
   DocsNav: ""
   DocsNavToggleLabel: ""
   TOC: ""
@@ -46,40 +42,40 @@ Docs:
   Improve: ""
   SectionPages: ""
 PlayerModal:
-  LabelPlay: ""
-  ModalTitle: ""
-  AltText: ""
+  LabelPlay: Играть
+  ModalTitle: Видео
+  AltText: Кликните, чтобы посмотреть это видео.
 IndexPage:
   Intro:
-    Tagline: ""
-    Description: ""
+    Tagline: Браузерное расширение «всё в одном» для Scratch
+    Description: Scratch Addons — расширение для браузера, которое даёт новые возможности для веб сайта Scratch и его редактора проектов. Его миссия — коллекционировать, архивировать и делать юзерстили и юзерскрипты используемыми, которые разработаны некоторыми участниками сообщества Scratch.
     InstallButton:
-      Loading: ""
-      Description: ""
-    ReadMore: ""
+      Loading: Загрузка...
+      Description: бесплатный, с открытым исходным кодом
+    ReadMore: или прочитайте ещё
     Carousel:
       Video:
-        Caption: ""
+        Caption: Трейлер.
       Popup:
-        Caption: ""
-        ImgAlt: ""
+        Caption: Всплывающее окно расширения.
+        ImgAlt: Всплывающее окно расширения
       Settings:
-        Caption: ""
-        ImgAlt: ""
+        Caption: Страница настроек.
+        ImgAlt: Страница настроек
       Demo:
-        Caption: ""
-        ImgAlt: ""
-      Previous: ""
-      Next: ""
+        Caption: Демонстрация расширения. ({{.Count}})
+        ImgAlt: Демонстрация ({{.Count}})
+      Previous: Предыдущий
+      Next: Следующий
   Features:
-    Heading: ""
-    AddonsHeading: ""
+    Heading: Особенности
+    AddonsHeading: Аддоны
     AddonsParagraph: ""
     CustomizableHeading: ""
     CustomizableParagraph: ""
     InternationalHeading: ""
-    InternationalParagraph: ""
-    OSHeading: ""
+    InternationalParagraph: Не только на английском. Scratch Addons есть на испанском, русском, японском, французском и на многих других языках.
+    OSHeading: С открытым исходным кодом
     OSParagraph: ""
   Highlights:
     Heading: ""

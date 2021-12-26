@@ -3,14 +3,14 @@ title: Главная страница
 ---
 **Добро пожаловать в документацию Scratch Addons!**
 
-If you're looking into creating an addon, [start here](develop/getting-started/creating-an-addon).
+Если Вы хотите создать аддон, [начните отсюда](develop/getting-started/creating-an-addon).
 
-If you want to help localize the extension, [learn how here](localization/joining-the-localization-team).
+Если Вы хотите помочь с переводом расширения, [посмотрите, как здесь](localization/joining-the-localization-team).
 
-If you need help starting with Scratch Addons, [look here](getting-started/quick-start).
+Если Вам нужна помощь с Scratch Addons, [посмотрите сюда](getting-started/quick-start).
 
-If you are interested in the design of the project, [look here](reference/design).
+Если Вы заинтересованы в дизайне проекта, [посмотрите сюда](reference/design).
 
-Have questions about Scratch Addons? [Ask here](https://github.com/ScratchAddons/ScratchAddons/discussions)!
+Есть вопросы о Scratch Addons? [Спросите их тут](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
-Ideas for new addons can go in the [issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+Идеи для новых аддонов могут быть в [вкладке «Issues»](https://github.com/ScratchAddons/ScratchAddons/issues).
