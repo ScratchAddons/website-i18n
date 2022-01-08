@@ -36,10 +36,10 @@ Docs:
   SectionSiteName: Документация Scratch Addons
   DocsNav: ""
   DocsNavToggleLabel: ""
-  TOC: ""
+  TOC: Содержание
   TOCToggleLabel: ""
-  LastUpdated: ""
-  Improve: ""
+  LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
+  Improve: Улучшить эту страницу.
   SectionPages: ""
 PlayerModal:
   LabelPlay: Играть
@@ -76,46 +76,46 @@ IndexPage:
     InternationalHeading: ""
     InternationalParagraph: Не только на английском. Scratch Addons есть на испанском, русском, японском, французском и на многих других языках.
     OSHeading: С открытым исходным кодом
-    OSParagraph: ""
+    OSParagraph: Scratch Addons бесплатный, с открытым исходным кодом и разработан сообществом Скретчеров.
   Highlights:
-    Heading: ""
-    Paragraph: ""
+    Heading: Основное
+    Paragraph: Это всего-лишь самое основное. {{.OpenTag1}}Есть ещё!{{.CloseTag1}}
     ScratchMessagingHeading: ""
-    ScratchMessagingParagraph: ""
+    ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Его можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
     ScratchNotifierHeading: ""
     ScratchNotifierParagraph: ""
-    DeveloperToolsHeading: ""
+    DeveloperToolsHeading: Инструменты разработчика
     DeveloperToolsParagraph: ""
   Install:
-    Heading: ""
-    Paragraph: ""
+    Heading: Установить
+    Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!
     InstallButton:
-      Other: ""
+      Other: ...или {{.OpenTag1}}скачайте с GitHub{{.CloseTag1}} или {{.OpenTag2}}установите с исходного кода{{.CloseTag2}}.
 AddonsPage:
-  EasterEggAddon: ""
-  RecommendedAddon: ""
+  EasterEggAddon: Это аддон в виде пасхалки.
+  RecommendedAddon: Это рекомендованный аддон.
   ListViewLabel: ""
-  EasterEggLabel: ""
+  EasterEggLabel: Пасхалка
   EasterEggTooltip:
-    L1: ""
+    L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.
     L2: ""
 FeedbackPage:
   Status:
-    Sending: ""
-    Success: ""
-    Failed: ""
-  UsernameLabel: ""
-  ContentLabel: ""
+    Sending: Отправка...
+    Success: Отправлено! Спасибо за отзыв.
+    Failed: Что-то пошло не так. Попробуйте отправить опять?
+  UsernameLabel: Имя пользователя Scratch или другие обозначения (необязательно)
+  ContentLabel: Обратная связь
   ContentPlaceholder: ""
   SendEnabled: ""
-  SubmitButton: ""
+  SubmitButton: Отправить
 SMTPage:
-  ScratchMessagingLogoAlt: ""
+  ScratchMessagingLogoAlt: Логотип расширения Scratch Messaging
 ChangelogPage:
   Highlights:
     Title: ""
   Links:
-    Title: ""
+    Title: Ссылки
     ReleaseGitHub: ""
     RepoState: ""
     CommitsMade: ""
@@ -123,5 +123,5 @@ ChangelogPage:
     Latest: ""
     Yanked: ""
 UnsupportedBrowserPage:
-  Download: ""
-  HowToUpdate: ""
+  Download: Скачать
+  HowToUpdate: Как обновиться
