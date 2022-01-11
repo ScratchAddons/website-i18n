@@ -70,12 +70,12 @@ IndexPage:
   Features:
     Heading: Особенности
     AddonsHeading: Аддоны
-    AddonsParagraph: ""
-    CustomizableHeading: ""
-    CustomizableParagraph: ""
-    InternationalHeading: ""
+    AddonsParagraph: Scratch Addons содержит аддоны — возможности, которые могут расширить Ваше впечатление веб сайта Scratch и редактора.
+    CustomizableHeading: Настраиваемый
+    CustomizableParagraph: У Scratch Addons есть интерфейс, который лёгкий в использовании, чтобы изменять различные настройки каждой возможности и темы.
+    InternationalHeading: На разных языках
     InternationalParagraph: Не только на английском. Scratch Addons есть на испанском, русском, японском, французском и на многих других языках.
-    OSHeading: С открытым исходным кодом
+    OSHeading: Открытый исходный код
     OSParagraph: Scratch Addons бесплатный, с открытым исходным кодом и разработан сообществом Скретчеров.
   Highlights:
     Heading: Основное
