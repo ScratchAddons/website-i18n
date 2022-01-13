@@ -1,28 +1,18 @@
-# Strings used across the website
 Global:
-  ScratchAddons: ""
-  LogoAlt: ""
-  ChromeLong: ""
-  FirefoxLong: ""
-  ChromeShort: ""
-  FirefoxShort: ""
-  Install: ""
-  InstallFor: ""
-
-# Strings used for the site navigation bar
+  LogoAlt: Scratch Addons-logo
+  Install: Installeer
+  InstallFor: Installeer voor {{.Browser}}
 Nav:
-  Contributors: ""
-  Feedback: ""
-  Repository: ""
-  Install: ""
-
-# Strings used for the site footer
+  Contributors: Bijdragers
+  Feedback: Feedback Geven
+  Repository: Archief
+  Install: Installeer
 Footer:
   Pages:
-    Header: ""
-    FAQ: ""
-    Feedback: ""
-    Contributors: ""
+    Header: Pagina's
+    FAQ: Veelgestelde vragen
+    Feedback: Feedback Geven
+    Contributors: Bijdragers
     Changelog: ""
     Addons: ""
   Discuss:
@@ -41,13 +31,9 @@ Footer:
     Copyright: ""
     NoAffiliation: ""
     License: ""
-
-# Strings used for the dark theme switch
 DarkTheme:
   Title: ""
   Label: ""
-
-# Strings used for Scratch Addons Docs
 Docs:
   SectionSiteName: ""
   DocsNav: ""
@@ -57,14 +43,10 @@ Docs:
   LastUpdated: ""
   Improve: ""
   SectionPages: ""
-
-# Strings used for player modals
-PlayerModal: 
+PlayerModal:
   LabelPlay: ""
   ModalTitle: ""
   AltText: ""
-
-# Strings used for / (index)
 IndexPage:
   Intro:
     Tagline: ""
@@ -74,7 +56,7 @@ IndexPage:
       Description: ""
     ReadMore: ""
     Carousel:
-      Video: 
+      Video:
         Caption: ""
       Popup:
         Caption: ""
@@ -101,18 +83,16 @@ IndexPage:
     Heading: ""
     Paragraph: ""
     ScratchMessagingHeading: ""
-    ScratchMessagingParagraph: ''
+    ScratchMessagingParagraph: ""
     ScratchNotifierHeading: ""
     ScratchNotifierParagraph: ""
     DeveloperToolsHeading: ""
-    DeveloperToolsParagraph: ''
+    DeveloperToolsParagraph: ""
   Install:
-    Heading: ""    
+    Heading: ""
     Paragraph: ""
     InstallButton:
       Other: ""
-
-# Strings used for /addons
 AddonsPage:
   EasterEggAddon: ""
   RecommendedAddon: ""
@@ -121,8 +101,6 @@ AddonsPage:
   EasterEggTooltip:
     L1: ""
     L2: ""
-
-# Strings used for /feedback
 FeedbackPage:
   Status:
     Sending: ""
@@ -133,12 +111,8 @@ FeedbackPage:
   ContentPlaceholder: ""
   SendEnabled: ""
   SubmitButton: ""
-
-# Strings used for /scratch-messaging-transition
 SMTPage:
   ScratchMessagingLogoAlt: ""
-
-# Strings used for /changelog
 ChangelogPage:
   Highlights:
     Title: ""
@@ -150,8 +124,6 @@ ChangelogPage:
   Status:
     Latest: ""
     Yanked: ""
-
-# Strings used for /unsupported-browser
 UnsupportedBrowserPage:
   Download: ""
   HowToUpdate: ""
