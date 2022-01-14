@@ -130,11 +130,11 @@ Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/disc
 
 İhtiyacınız olmayan eklentileri kapatmayı deneyin. Ayrıca, daha iyi performans için hangi eklentilerin kapatılması gerektiğine karar vermek için eklenti bildirimlerini ve uyarılarını kontrol edin.
 
-### Paskalya yumurtası eklentilerini nasıl etkinleştirebilirsiniz?
+### Easter egg eklentilerini nasıl etkinleştirebilirsiniz?
 
-Paskalya yumurtası eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yapın. Bundan sonra, paskalya yumurtası eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
+Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yazın. Bundan sonra, easter egg eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
 
-Paskalya yumurtası eklentilerimizden bazıları "Hesap Ayarlarının büyük harf kullanımını düzeltin" ve "Noktalı virgül aksaklığı"' dır. Tam bir liste için [eklentiler sekmesine](/addons) göz atın.
+Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"' dır. Tam bir liste için [eklentiler sekmesine](/addons) göz atın.
 
 ### Daha fazla sorum var!
 
