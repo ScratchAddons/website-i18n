@@ -3,33 +3,33 @@ title: Sık Sorulan Sorular
 description: Bu sayfa, Scratch Eklentiler uzantısı ve projesiyle ilgili sık sorulan soruları listeler.
 ---
 
-Bu sayfa, Scratch Eklentiler uzantısı ve projesiyle ilgili sık sorulan soruları listeler.
+Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan soruları listeler.
 
 ### Scratch Eklentileri Nedir?
 
-Scratch Eklentileri, Scratch web sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch web sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentileri'nin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, kullanıcı komut dosyalarını ve kullanıcı stillerini, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
+Scratch Eklentileri, Scratch web sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch web sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, kullanıcı komut dosyalarını ve kullanıcı stillerini, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
 ### "Eklenti" tam olarak nedir?
 
-Eklenti, bir uzantıya veya kullanıcı yazısına benzer, ancak Scratch Eklentiler uzantısı tarafından sağlanan özel API' leri kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (userscripts), arka planda komut dosyaları çalıştırmasına (persistent scripts) veya Scratch web sitesine stiller uygulamasına (userstyles) izin verir.
+Eklenti, bir uzantıya veya kullanıcı yazısına benzer. Ancak Scratch Eklentileri, alan adı tarafından sağlanan özel API' ler kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (kullanıcı komut dosyaları), arka planda komut dosyaları çalıştırmasına (kalıcı komut dosyaları) veya Scratch web sitesine stiller uygulamasına (kullanıcı stilleri) izin verir.
 
-Userscripts ve persistent scripts, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API' lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API' lerini kullanabilir.
+Kullanıcı komut dosyaları ve kalıcı komut dosyaları, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API' lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API' lerini kullanabilir.
 
-### Her şey bir eklenti ise, Scratch Eklentileri ne yapar?
+### Her şey bir eklenti ise, Scratch Eklentileri ne yapıyor o halde?
 
 Kendi başına, Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca görevleri şunlardır:
 
 - Kullanıcıların eklentileri etkinleştirmesine, devre dışı bırakmasına ve yapılandırmasına izin verir.
-- Eklentileri çalıştırır ve onlara API' ler sağlar.
+- Eklentileri çalıştırın ve onlara API' ler sağlayın.
 - Eklentilere genel durum sağlar (örneğin, addon.auth API).
-- Eklenti userscript' leri tarafından kullanılmak üzere prototipleri kirletir.
-- Redux durumuna erişmenin ve değiştirmenin yollarını sağlar.
+- Eklenti kullanıcı komut dosyaları tarafından kullanılmak üzere prototipleri kirletin.
+- Redux durumuna erişmenin ve değiştirmenin yollarını sağlayın.
 - Eklentilerin birbirine müdahale etmesini önler.
-- Farklı eklentilerde yinelenen özelliklerden kaçınır.
+- Farklı eklentilerde tekrarlanan, gereksiz özelliklerden kaçınır.
 
-### Scratch Eklentileri Güvenli mi?
+### Scratch Eklentileri güvenli mi?
 
-Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir, bu nedenle kod, Scratch Eklentilere katkıda bulunanların yanı sıra Chrome Web Mağazası ve Firefox Eklentileri' nden gözden geçiren kişiler tarafından sürekli olarak doğrulanır.
+Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir. Bu nedenle kod, Scratch Eklentilere katkıda bulunanların yanı sıra Chrome Web Mağazası ve Firefox Eklentileri' nden gözden geçiren kişiler tarafından sürekli olarak doğrulanır.
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
@@ -39,9 +39,9 @@ Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` ad
 
 ### Scratch Eklentilerini kullanırken hesabım güvende olacak mı?
 
-Scratch Eklentileri, esasen çalışmak için hesap bilgilerinizi kullanmaz. Aslında, Scratch' den çıkış yapabilirsiniz ve Scratch Eklentileri çalışmaya devam eder. Scratch Eklentileri, yalnızca sahip olduğunuz ve her istek için tarayıcı tarafından sağlanan çerezlere dayalı olarak istek gönderir, bu nedenle, Scratch Mesajlaşma gibi bazı eklentiler, oturum sadece oturum açtığınızda çalışır, ancak diğer bölümleri etkilemez.
+Scratch Eklentileri, esasen çalışmak için hesap bilgilerinizi kullanmaz. Aslında, Scratch' den çıkış yapabilirsiniz ve Scratch Eklentileri çalışmaya devam eder. Scratch Eklentileri, yalnızca sahip olduğunuz ve her istek için tarayıcı tarafından sağlanan çerezlere dayalı olarak istek gönderir, bu nedenle, Scratch Mesajlaşma gibi bazı eklentiler, sadece oturum açtığınızda çalışır, ancak diğer bölümleri etkilemez.
 
-Scratch Eklentileri' ndeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da denetlenir, bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
+Scratch Eklentilerindeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
 
 Scratch hesap bilgilerini veya uzantı ayarlarını asla tarayıcınızın dışına göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikasına](/docs/privacy/policies/extension) bakın.
 
@@ -51,9 +51,9 @@ Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss
 
 ### Scratch Eklentilerine nasıl katkıda bulunabilirim?
 
-Öncelikle, Scratch Eklentiler' e katkıda bulunmaya gösterdiğiniz ilgi için teşekkür ederiz. İlginiz ve sonraki katkılarınız için teşekkür ederiz.
+Öncelikle, Scratch Eklentilere katkıda bulunmaya gösterdiğiniz ilgi için teşekkür ederiz. İlginiz ve sonraki katkılarınız için de teşekkür ederiz.
 
-Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Bize sormanıza veya belirli bir rütbeye sahip olmanıza bile gerek yok. Herkes açığız. Projeye katkıda bulunduğunuzun farkında bile olmama ihtimaliniz bile var!
+Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Bizden izin almanıza veya belirli bir rütbeye sahip olmanıza bile gerek yok. Herkese açığız. Projeye katkıda bulunduğunuzun farkında olmama ihtimaliniz bile var!
 
 Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıları gerçekten çok kolay.
 
@@ -61,7 +61,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   JavaScript, HTML5 ve CSS ile kod yazabiliyorsanız, biraz kodlama/programlama yaparak katkıda bulunabilirsiniz. Hataları düzeltebilir, bazı istekleri yerine getirebilir veya kendi eklentinizi oluşturabilirsiniz.
 
-  Bundan sonra, bir çekme isteği oluşturmanız gerekir. Bunu [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak yapabilir, gerekli değişiklikleri yapabilir ve bir çekme isteği oluşturabilirsiniz. Uygun görülürse birleştireceğiz.
+  Bundan sonra, bir çekme isteği oluşturmanız gerekir. Bunu [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak yapabilir, gerekli değişiklikleri yapabilir ve bir çekme isteği oluşturabilirsiniz. Eğer her şeyin uygun olduğu görülürse ana proje ile sizin projenizi birleştireceğiz.
 
   Uzantı dışındaki diğer yönlerin katkılarına da açığız. Depolarımızı [GitHub organizasyon sayfamızda](https://github.com/ScratchAddons) görüntüleyebilir ve bunları oluşturmamıza yardımcı olabilirsiniz.
 
@@ -77,15 +77,15 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   İngilizce'den başka bir dili akıcı bir şekilde konuşabiliyorsanız, Scratch Eklentilerini kendi dilinize çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Buradan](/docs/localization/joining-the-localization-team) başlayabilirsiniz.
 
-- **Kılavuz yazın**
+- **Belgelerinizi yazın**
 
-  Scratch Eklentilerine aşina mısınız? Eğer öyleyse, bunun için kılavuzlar yazabilirsiniz. Kılavuzlar, eklentileri nasıl kullanılacağınızı veya nasıl çalıştığınızı anlatabilir. Daha fazla bilgi için lütfen [Tartışma sekmemizden](https://github.com/ScratchAddons/ScratchAddons/discussions) bizimle iletişime geçin.
+  Scratch Eklentilerine aşina mısınız? Eğer öyleyse, bunun için kılavuzlar yazabilirsiniz. Kılavuzlar, eklentileri nasıl kullanılacağınızı veya nasıl çalıştığınızı anlatır. Daha fazla bilgi için lütfen [Tartışma sekmemizden](https://github.com/ScratchAddons/ScratchAddons/discussions) bizimle iletişime geçin.
 
 - **Geribildirim yolla**
 
   [Geri bildirim sayfasında](https://scratchaddons.com/feedback) bulunan formumuza geri bildirim gönderebilirsiniz. Geri bildiriminiz, uzantı geliştirmede bize farklı bir bakış açısı verebilir ve dikkat edilmesi gereken şeyleri bilmemize ve hataları düzeltmemize yardımcı olabilir.
 
-- **Mağazalarda Scratch Eklentiler hakkında yorum bırakın**
+- **Mağazalarda Scratch Eklentileri hakkında yorum bırakın**
 
   [Chrome uzantı sayfasında](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) veya [Firefox eklenti sayfasında](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/). Scratch Eklentileri hakkında bize bir inceleme bırakabilirsiniz. 
 
@@ -103,17 +103,17 @@ Scratch Eklentilerinde nasıl eklenti oluşturulacağı hakkında daha fazla bil
 
 ### Adımı [katkıda bulunanlar sayfasına](/contributors) nasıl koyabilirim?
 
-Adınızın söz konusu sayfada yer alması için lütfen [bu gönderinin](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) talimatını okuyun ve uygulayın.
+Adınızın söz konusu sayfada yer alması için lütfen [bu gönderinin](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) talimatlarını okuyun ve uygulayın.
 
 ### Adımı [katkıda bulunanlar sayfasından](/contributors) nasıl kaldırabilirim?
 
-Adınızın sayfada görünmesini istemiyorsanız, lütfen [katkıda bulunanlar havuzumuzda](https://github.com/ScratchAddons/contributors/issues/) veya diğer iletişim araçlarını kullanarak bir sorun oluşturarak bize bildirin. . Rahatsızlık için özür dileriz.
+Adınızın sayfada görünmesini istemiyorsanız, lütfen [katkıda bulunanlar havuzumuzdan](https://github.com/ScratchAddons/contributors/issues/) veya diğer iletişim araçlarını kullanarak bir sorun oluşturarak bize bildirin. Rahatsızlık için özür dileriz.
 
 ### Bir sorun bulursam ne yapabilirim?
 
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
-- [Geri bildirim formumuz](https://scratchaddons.com/feedback) aracılığıyla bildirin.
+- [Geri bildirim formumuz](https://scratchaddons.com/feedback) aracılığıyla bize bildirin.
 - [Depoda](https://github.com/ScratchAddons/ScratchAddons/issues) bir sorun oluşturun.
 - [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturun.
 - [Discord sunucumuzdan](https://discord.gg/R5NBqwMjNc) bize bildirin.
@@ -124,11 +124,11 @@ Bir özelliğin eksik olduğunu düşünüyorsanız veya uzantıya bir eklenti �
 
 ### Scratch Eklentileri hakkında nerede tartışabilirim?
 
-Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) yapabilirsiniz. Orada, bunun hakkında tartışabilir ve sorun yaşıyorsanız soru sorabilirsiniz.
+Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) yapabilirsiniz. Orada, bunun hakkında tartışabilir ve sorun yaşıyorsanız destek bulabilirsiniz.
 
-### Scratch Eklentilerinin Scratch' i yavaşlattığını düşünüyorum. Ne yapabilirim?
+### Scratch Eklentilerinin, Scratch' i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
-İhtiyacınız olmayan eklentileri kapatmayı deneyin. Ayrıca, daha iyi performans için hangi eklentilerin kapatılması gerektiğine karar vermek için eklenti bildirimlerini ve uyarılarını kontrol edin.
+İhtiyacınız olmayan eklentileri kapatmayı deneyin. Ayrıca, daha iyi performans için hangi eklentilerin kapatılması gerektiğine karar vermek için eklenti bildirimlerine ve uyarılarına dikkat edin.
 
 ### Easter egg eklentilerini nasıl etkinleştirebilirsiniz?
 
@@ -138,4 +138,4 @@ Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Nok
 
 ### Daha fazla sorum var!
 
-Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturabilir veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) bir mesaj gönderebilirsiniz. Birisi sizin için cevaplamaya çalışacaktır.
+Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturabilir veya [discord sunucumuza](https://discord.gg/R5NBqwMjNc) bir mesaj gönderebilirsiniz. Birisi sizin için cevaplamaya çalışacaktır.

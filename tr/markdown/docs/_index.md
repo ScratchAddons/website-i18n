@@ -1,9 +1,9 @@
 ---
 title: Giriş
 ---
-**Scratch Eklentileri Belgeleri'ne hoşgeldiniz!**
+**Scratch Eklenti Belgelerine hoş geldiniz!**
 
-Eğer bir eklenti oluşturmak için bakınıyorsanız, [buradan başlayın](develop/getting-started/creating-an-addon).
+Eğer bir eklenti oluşturmayı düşünüyorsanız, [buradan başlayın](develop/getting-started/creating-an-addon).
 
 Eklentiyi yerelleştirmeye yardımcı olmak istiyorsanız, [buradan nasıl olduğunu öğrenin](localization/joining-the-localization-team).
 
@@ -13,4 +13,4 @@ Eğer projenin tasarımı ile ilgileniyorsanız, [buraya bakın](reference/desig
 
 Scratch Eklentileri ile ilgili sorularınız mı var? [Burada sorun](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
-Yeni eklentiler için fikirler [raporlar sekmesine](https://github.com/ScratchAddons/ScratchAddons/issues) iletilebilir.
+Yeni eklentiler için fikirlerini [tavsiye sayfasına](https://github.com/ScratchAddons/ScratchAddons/issues) iletebilirsin.

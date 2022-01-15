@@ -2,7 +2,7 @@
 title: Yerelleştirme
 ---
 
-İşte Scratch Eklentileri' nin yerelleştirilmesi (l10n) hakkında bazı sayfalar.
+İşte Scratch Eklentilerinin yerelleştirilmesi (l10n) hakkında bazı sayfalar.
 
 ## Çevirmenler için
 - [Yerelleştirme Ekibine Katılma](joining-the-localization-team)
@@ -10,7 +10,7 @@ title: Yerelleştirme
 
 ## Geliştiriciler için
 - [Eklentileri Yerelleştirme](localizing-addons)
-- [Arka Planı Yerelleştirme](localizing-background) _Yazma ihtiyacı var_
+- [Arka Planı Yerelleştirme](localizing-background) _Yazılması gerekiyor_
 - [Addons-l10n çevirisinin teknik özellikleri](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
 
 ## Transifex yöneticileri için
