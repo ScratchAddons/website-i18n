@@ -13,24 +13,21 @@ Footer:
     FAQ: Veelgestelde vragen
     Feedback: Feedback Geven
     Contributors: Bijdragers
-    Changelog: ""
-    Addons: ""
   Discuss:
-    Header: ""
-    Discussion: ""
-    Issues: ""
-    DiscordCom: ""
-    DiscordDev: ""
+    Header: Discussie
+    Discussion: Discussie-Forum
+    Issues: Problemen
+    DiscordCom: Discord voor Gebruikers
+    DiscordDev: Discord voor Beheerders
   Resources:
-    Header: ""
-    Organization: ""
-    Repository: ""
-    Documentation: ""
-    YouTube: ""
+    Header: Bronnen
+    Organization: Organisatie
+    Repository: Archief
+    Documentation: Documentatie
   Legal:
-    Copyright: ""
-    NoAffiliation: ""
-    License: ""
+    Copyright: © {{.Count}} Scratch Addons-helpers
+    NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met Scratch, het Scratch-Team, het Scratch-fundament, of iedere dochteronderneming of geassocieerden.
+    License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
 DarkTheme:
   Title: ""
   Label: ""

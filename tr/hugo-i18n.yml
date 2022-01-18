@@ -38,7 +38,7 @@ Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
   DocsNav: Belgelerde gezinme
   DocsNavToggleLabel: Belge gezinme çubuğunu göster/gizle
-  TOC: İçindekiler tablosu
+  TOC: İçindekiler
   TOCToggleLabel: İçindekiler çubuğunu göster/gizle
   LastUpdated: "{{.Commit}} önerisi, en son {{.Date}} tarihinde {{.Name}} tarafından değiştirildi."
   Improve: Bu sayfayı geliştirin
@@ -49,7 +49,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
-    Description: Scratch Eklentileri, Scratch web sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı kodlarını toplamak, arşivlemek ve kullanıma sokmaktır.
+    Description: Scratch Eklentileri, Scratch web sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
