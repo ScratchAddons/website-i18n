@@ -111,12 +111,12 @@ ChangelogPage:
   Highlights:
     Title: Hoogtepunten
   Links:
-    ReleaseGitHub: ""
-    RepoState: ""
-    CommitsMade: ""
+    ReleaseGitHub: Release-pagina op GitHub
+    RepoState: Archiefstatus op release
+    CommitsMade: Commits gemaakt op deze versie
   Status:
-    Latest: ""
-    Yanked: ""
+    Latest: Recent
+    Yanked: Overgeslagen
 UnsupportedBrowserPage:
-  Download: ""
-  HowToUpdate: ""
+  Download: Downloaden
+  HowToUpdate: Hoe je updatet
