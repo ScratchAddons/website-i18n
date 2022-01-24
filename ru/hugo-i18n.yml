@@ -40,7 +40,7 @@ Docs:
   TOCToggleLabel: ""
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
-  SectionPages: ""
+  SectionPages: Содержание
 PlayerModal:
   LabelPlay: Играть
   ModalTitle: Видео
@@ -83,9 +83,9 @@ IndexPage:
     ScratchMessagingHeading: ""
     ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Его можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
     ScratchNotifierHeading: ""
-    ScratchNotifierParagraph: ""
+    ScratchNotifierParagraph: Добавляет браузерные уведомления к сообщениям на Scratch. Вы можете кликнуть на уведомление, чтобы перейти прямо к сообщению (комментарию, проекту и т. д.)
     DeveloperToolsHeading: Инструменты разработчика
-    DeveloperToolsParagraph: ""
+    DeveloperToolsParagraph: "{{.OpenTag1}}С оригинального расширения.{{.CloseTag1}} Добавляет текстовое поле для нахождения блоков и новые опции меню к редактору: копировать/вставлять блоки, очистка блоков получше, перейти к другому блоку и др.!"
   Install:
     Heading: Установить
     Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!
