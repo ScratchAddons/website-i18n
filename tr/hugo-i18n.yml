@@ -28,7 +28,7 @@ Footer:
     Repository: Depo
     Documentation: Dökümantasyon
   Legal:
-    Copyright: © {{.Count}} Scratch Eklentileri yazarları
+    Copyright: © {{.Count}} Scratch Eklentileri katkıda bulunanlar
     NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
     License: Scratch Eklentileri, GNU General Public License v3.0 altında lisanslanmıştır.
 DarkTheme:
@@ -48,7 +48,7 @@ PlayerModal:
   AltText: Bu videoyu görmek için tıklayın.
 IndexPage:
   Intro:
-    Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
+    Tagline: Scratch için hepsi bir arada tarayıcı uzantısı
     Description: Scratch Eklentileri, Scratch web sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
