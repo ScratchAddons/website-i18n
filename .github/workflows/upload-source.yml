@@ -19,9 +19,6 @@ jobs:
           tar -zxvf ${RUNNER_TEMP}/tx.tar.gz -C ${RUNNER_TEMP} tx
           ls ${RUNNER_TEMP}
           echo "${RUNNER_TEMP}/tx"
-          chmod -x "${RUNNER_TEMP}/tx"
-          shopt -s expand_aliases
-          alias tx="${RUNNER_TEMP}/tx"
-          sudo "${RUNNER_TEMP}/tx" push --source --use-git-timestamps --skip
+          "${RUNNER_TEMP}/tx" push --source --use-git-timestamps --skip
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
