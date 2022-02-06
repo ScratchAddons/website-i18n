@@ -1,4 +1,3 @@
-# Strings used across the website
 Global:
   ScratchAddons: سكراتش اضافه
   LogoAlt: شعار سكراتش اضافه
@@ -7,16 +6,12 @@ Global:
   ChromeShort: كروم
   FirefoxShort: فايرفوكس
   Install: ثبيت
-  InstallFor: "تثبيت ل {{.Browser}}"
-
-# Strings used for the site navigation bar
+  InstallFor: تثبيت ل {{.Browser}}
 Nav:
   Contributors: المساهمين
   Feedback: ارسل رأيك
   Repository: المستأمن
   Install: ثبيت
-
-# Strings used for the site footer
 Footer:
   Pages:
     Header: الصفحات
@@ -29,129 +24,12 @@ Footer:
     Header: مناقشة
     Discussion: منتدى للنقاش
     Issues: مسائل
-    DiscordCom: ""
-    DiscordDev: ""
   Resources:
     Header: مصادر
     Organization: منظمة
     Repository: المستأمن
     Documentation: توثيق
     YouTube: اليوتيوب
-  Legal:
-    Copyright: ""
-    NoAffiliation: ""
-    License: ""
-
-# Strings used for the dark theme switch
-DarkTheme:
-  Title: ""
-  Label: ""
-
-# Strings used for Scratch Addons Docs
-Docs:
-  SectionSiteName: ""
-  DocsNav: ""
-  DocsNavToggleLabel: ""
-  TOC: ""
-  TOCToggleLabel: ""
-  LastUpdated: ""
-  Improve: ""
-  SectionPages: ""
-
-# Strings used for player modals
-PlayerModal: 
+PlayerModal:
   LabelPlay: لعب
   ModalTitle: فيديو
-  AltText: ""
-
-# Strings used for / (index)
-IndexPage:
-  Intro:
-    Tagline: ""
-    Description: ""
-    InstallButton:
-      Loading: ""
-      Description: ""
-    ReadMore: ""
-    Carousel:
-      Video: 
-        Caption: ""
-      Popup:
-        Caption: ""
-        ImgAlt: ""
-      Settings:
-        Caption: ""
-        ImgAlt: ""
-      Demo:
-        Caption: ""
-        ImgAlt: ""
-      Previous: ""
-      Next: ""
-  Features:
-    Heading: ""
-    AddonsHeading: ""
-    AddonsParagraph: ""
-    CustomizableHeading: ""
-    CustomizableParagraph: ""
-    InternationalHeading: ""
-    InternationalParagraph: ""
-    OSHeading: ""
-    OSParagraph: ""
-  Highlights:
-    Heading: ""
-    Paragraph: ""
-    ScratchMessagingHeading: ""
-    ScratchMessagingParagraph: ''
-    ScratchNotifierHeading: ""
-    ScratchNotifierParagraph: ""
-    DeveloperToolsHeading: ""
-    DeveloperToolsParagraph: ''
-  Install:
-    Heading: ""    
-    Paragraph: ""
-    InstallButton:
-      Other: ""
-
-# Strings used for /addons
-AddonsPage:
-  EasterEggAddon: ""
-  RecommendedAddon: ""
-  ListViewLabel: ""
-  EasterEggLabel: ""
-  EasterEggTooltip:
-    L1: ""
-    L2: ""
-
-# Strings used for /feedback
-FeedbackPage:
-  Status:
-    Sending: ""
-    Success: ""
-    Failed: ""
-  UsernameLabel: ""
-  ContentLabel: ""
-  ContentPlaceholder: ""
-  SendEnabled: ""
-  SubmitButton: ""
-
-# Strings used for /scratch-messaging-transition
-SMTPage:
-  ScratchMessagingLogoAlt: ""
-
-# Strings used for /changelog
-ChangelogPage:
-  Highlights:
-    Title: ""
-  Links:
-    Title: ""
-    ReleaseGitHub: ""
-    RepoState: ""
-    CommitsMade: ""
-  Status:
-    Latest: ""
-    Yanked: ""
-
-# Strings used for /unsupported-browser
-UnsupportedBrowserPage:
-  Download: ""
-  HowToUpdate: ""
