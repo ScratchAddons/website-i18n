@@ -11,18 +11,6 @@ jobs:
       - name: Checkout ScratchAddons/website-i18n
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~\AppData\Local\pip\Cache
-          key: ${{ runner.os }}-pip-scratchaddons-website-i18n-transifex
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Execute script
         run: |
           echo Running...
