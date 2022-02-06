@@ -85,13 +85,6 @@ source_file = en/markdown/docs/develop/addon-types/_index.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_addon-types_persistent-scripts]
-file_filter = <lang>/markdown/docs/develop/addon-types/persistent-scripts.md
-minimum_perc = 100
-source_file = en/markdown/docs/develop/addon-types/persistent-scripts.md
-source_lang = en
-type = GITHUBMARKDOWN
-
 [o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_addon-types_userstyles]
 file_filter = <lang>/markdown/docs/develop/addon-types/userstyles.md
 minimum_perc = 100
