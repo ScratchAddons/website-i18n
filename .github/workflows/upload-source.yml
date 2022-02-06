@@ -22,6 +22,7 @@ jobs:
           chmod -x "${RUNNER_TEMP}/tx"
           shopt -s expand_aliases
           alias tx="${RUNNER_TEMP}/tx"
-          sudo ${RUNNER_TEMP}/tx push --source --use-git-timestamps --skip
+          which tx
+          tx push --source --use-git-timestamps --skip
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
