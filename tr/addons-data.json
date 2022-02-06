@@ -1,15 +1,15 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D renk toplayıcı",
+		"name": "2D renk seçici",
 		"description": "Kostüm düzenleyicideki doygunluk ve parlaklık kaydırıcılarını 2B renk seçiciyle değiştirir. Tek bir eksendeki değerleri değiştirmek için imleci sürüklerken Shift tuşunu basılı tutun.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS editör modu",
-		"description": "60FPS'e geçmek için yeşil bayrağa alt ile tıklayın",
+		"name": "60FPS proje oynatıcı modu",
+		"description": "60FPS' e geçmek için yeşil bayrağa alt tuşuna basılı iken tıklayın",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
@@ -22,19 +22,19 @@
 	{
 		"id": "account-settings-capitalize",
 		"name": "Büyük Harfli Hesap Ayarları",
-		"description": "Hesap menüsündeki \"Hesap ayarları\"nı \"Hesap Ayarları\" ile değiştirir.",
+		"description": "Hesap menüsündeki \"Hesap ayarları\"' nı \"Hesap Ayarları\" ile değiştirir.",
 		"tags": ["easterEgg", "community"]
 	},
 	{
 		"id": "animated-thumb",
 		"name": "Kapak fotoğrafları değiştiricisi",
-		"description": "Projenizin küçük resmini herhangi bir görüntüye (gifler dahil) değiştirmek için proje sayfasının sağ alt kısmına bir düğme ekler.",
+		"description": "Projenizin küçük resmini herhangi bir görüntüyle (gifler dahil) değiştirmek için proje sayfasının sağ alt kısmına bir düğme ekler.",
 		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
 		"id": "better-emojis",
 		"name": "Daha iyi emojiler",
-		"description": "Web sitesindeki yorumlardaki emojileri geliştirilmiş vektör tasarımlarıyla değiştirir.",
+		"description": "Web sitesindeki yorumlardaki emojileri daha iyi vektörel tasarımlarla değiştirir.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
@@ -44,14 +44,14 @@
 	{
 		"id": "better-featured-project",
 		"name": "Profil sayfası bandı",
-		"description": "Herhangi bir kullanıcının profilindeki öne çıkan projeyi güzel görünen bir afişe dönüştürür.",
+		"description": "Herhangi bir kullanıcının profilindeki öne çıkan projeyi, güzel görünen bir afişe dönüştürür.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD görüntü yükle",
-		"description": "\"kostüm yükle\" düğmesinin üzerine kalite kaybını önlemek için yüklenen bitmap görüntülerini otomatik olarak SVG (vektör) görüntülerine dönüştüren yeni bir düğme ekler.",
+		"name": "HD görsel yüklemeleri",
+		"description": "Kaliteyi kaybetmemek için yüklenen bitmap görsellerini otomatik olarak SVG (vektör) görsellerine dönüştüren \"kostüm yükle\" düğmesinin üzerine yeni bir düğme ekler.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -69,7 +69,7 @@
 	{
 		"id": "better-quoter",
 		"name": "Daha iyi forum alıntısı",
-		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metinden alıntı yapmak için sağ alt köşedeki alıntıya tıklayın.",
+		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metinden alıntı yapmak için sağ alt köşedeki alıntı butonuna tıklayın.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -85,13 +85,13 @@
 	{
 		"id": "bitmap-copy",
 		"name": "Bitmap resimleri kopyalama",
-		"description": "Kostüm düzenleyiciden bir bitmap görüntüsünü sistem panosuna kopyalamanıza izin verir, böylece başka web sitelerine veya yazılımlara yapıştırabilirsiniz.",
+		"description": "Kostüm düzenleyiciden bir bitmap görüntüsünü sistem panosuna kopyalamanıza izin verir. Böylece görselleri başka web siteleriyle veya yazılımlarla paylaşabilirsiniz.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "block-cherry-picking",
-		"name": "Ctrl tuşu ile tek blok alın",
-		"description": "Ctrl tuşunu basılı tutarken tek bir bloğu bir komut dosyasının ortasından (aşağıya eklenen tüm yığın yerine) sürükleme yeteneği ekler.",
+		"name": "Ctrl tuşu ile yalnızca tek bir blok alın",
+		"description": "Ctrl tuşuna basılı tutarken tek bir bloğu bir betiğin ortasından (aşağısındaki tüm yığın yerine) sadece o bloğu almanızı sağlar.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -102,9 +102,21 @@
 		]
 	},
 	{
+		"id": "block-count",
+		"name": "Blok sayısı",
+		"description": "Düzenleyicideki menü çubuğunda, o projedeki toplam blok sayısını gösterir. Önceden \"kukla ve komut dosyası sayımı\" eklentisiniz bir parçasıydı.",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "block-duplicate",
-		"name": "Alt tuşu ile kodu çoğaltın",
-		"description": "Alt tuşuna basılı iken bir bloğu sürükleyerek hızlıca çoğaltın. Bir bloğun altındaki tüm bloklar yerine yalnızca tek bir bloğu çoğaltmak için Ctrl tuşunu basılı tutun.",
+		"name": "Alt tuşu ile bloğu çoğaltma",
+		"description": "Alt tuşuna basılı iken bir bloğu sürükleyerek hızlıca o bloğu çoğaltın. Bir bloğun altındaki tüm bloklar yerine yalnızca tek bir bloğu çoğaltmak için Ctrl tuşuna basılı tutun.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -123,8 +135,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "Blok Anahtarlama",
-		"description": "İlgili bloğa geçmek için bir bloğa sağ tıklayın.",
+		"name": "Blok değiştirme",
+		"description": "İlgili bloğa geçmek için bloğa sağ tıklayın.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -137,7 +149,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Blokları resim olarak kaydedin",
-		"description": "Blokları SVG/PNG görüntüleri olarak dışa aktarmak için kod alanına sağ tıklayın.",
+		"description": "Blokları SVG/PNG olarak dışa aktarmak için kod alanına sağ tıklayın.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -146,7 +158,7 @@
 	{
 		"id": "cat-blocks",
 		"name": "Kedi blokları",
-		"description": "Bir Mayıs Şaka Günü 2020'den kedi şapka bloklarını geri getirir.",
+		"description": "Bir Nisan Şaka Günü 2020' den şapkalı kedi bloklarını geri getirir.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -158,7 +170,7 @@
 	},
 	{
 		"id": "clones",
-		"name": "İkiz sayacı",
+		"name": "Klon sayacı",
 		"description": "Düzenleyicide sahnedeki toplam klon miktarını gösteren bir sayaç ekler.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
@@ -166,13 +178,13 @@
 	{
 		"id": "cloud-games",
 		"name": "Bulut oyunları",
-		"description": "Scratch Addons simgesine tıklandığında kullanılabilir. Şu anda çok oyunculu projelerde kaç Scratcher olduğunu ve kullanıcı adlarını gösterir.",
+		"description": "Scratch Eklentileri simgesine tıklandığında kullanılabilir. O anda çok oyunculu projelerde kaç oyuncu olduğunu ve kullanıcıların adlarını gösterir.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "color-picker",
-		"name": "Hex rengi toplayıcısı",
+		"name": "Hex renk seçici",
 		"description": "Renk seçicilere onaltılık kod girişleri ekler.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
@@ -185,7 +197,7 @@
 	},
 	{
 		"id": "columns",
-		"name": "İki sütunlu kategori menüsü",
+		"name": "İki-sütunlu kategori menüsü",
 		"description": "Blok kategorisi menüsünü iki sütuna böler ve Scratch 2.0' daki gibi blok paletinin en üstüne taşır.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -195,7 +207,7 @@
 	{
 		"id": "comments-linebreaks",
 		"name": "Yorumlarda satır sonları",
-		"description": "Web sitesindeki yorumları boşluklara dönüştürmek yerine satır sonlarını (Enter tuşuna basarak) görünür hale getirir.",
+		"description": "Sitesindeki yorumları boşluklara dönüştürmek yerine satır sonlarını (Enter tuşuna basarak) görünür hale getirir.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -207,7 +219,7 @@
 	{
 		"id": "compact-messages",
 		"name": "Kompakt mesajlar",
-		"description": "Scratch'in mesajlar sayfasını daha kompakt ve okunması daha kolay hale getirir.",
+		"description": "Scratch' in mesajlar sayfasını daha kompakt ve okunması kolay hale getirir.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
@@ -216,7 +228,7 @@
 	{
 		"id": "confirm-actions",
 		"name": "Onaylamalar",
-		"description": "Scratch hesabınızdan proje paylaşma gibi eylemler gerçekleştirirken emin olup olmadığınızı sorar.",
+		"description": "Scratch hesabınızdan proje paylaşma gibi eylemlerde emin olup olmadığınızı sorar.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -237,7 +249,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Kodları çalıştırmak için Ctrl+Tıkla",
-		"description": "Sadece eğer Ctrl tuşu da basılı tutuluyorsa blok dizilerini çalıştırın.",
+		"description": "Sadece Ctrl tuşuna basılı tutuluyorsa blok dizilerini çalıştırın.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -247,7 +259,7 @@
 	{
 		"id": "ctrl-enter-post",
 		"name": "Göndermek için Ctrl+Enter",
-		"description": "Ctrl+Enter tuşlarına basıldığında forum gönderisini veya yorumu otomatik olarak gönderir.",
+		"description": "Ctrl+Enter tuşlarına basıldığında forum gönderisini ya da yorumu otomatik olarak gönderir.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -255,8 +267,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "Ön sayfa yapımcı bağlantısı",
-		"description": "Ön sayfada idarecinin kullanıcı adını ve profillerine tıklanabilir bir bağlantı yapar.",
+		"name": "Ön sayfada yöneticinin bağlantısı",
+		"description": "Ön sayfada yöneticinin kullanıcı adını ve profillerine tıklanabilir bir bağlantı ekler.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -286,9 +298,19 @@
 		]
 	},
 	{
+		"id": "custom-block-text",
+		"name": "Özelleştirilebilir blok yazı stili",
+		"description": "Bloklardaki metnin kalınlığını değiştirir ve isteğe bağlı olarak bir metin gölgesi ekler.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
+			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
 		"id": "custom-zoom",
-		"name": "Özelleştirilebilir kod büyütmesi",
-		"description": "Kod bölmesindeki yakınlaştırma ayarlarını özelleştirin.",
+		"name": "Özelleştirilebilir kod alanı büyütmesi",
+		"description": "Kod alanındaki blokların yakınlaştırmasının minimum, maksimum, hız ve başlangıç boyutu için özel ayarları seçin ve kontrolleri otomatik olarak gizleyin.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -306,7 +328,7 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "Profillerde Dango yağmuru (1 Nisan Şaka Günü)",
+		"name": "Profillerde dango yağmuru (1 Nisan Şaka Günü)",
 		"description": "\"Hakkımda\" kısmında \"dango\" kelimesini içeren kullanıcıların profillerinin yan kısımlarında yağan dango emojileri olacak.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
@@ -326,13 +348,21 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Website karanlık modu",
-		"description": "Scratch websitesi için karanlık mod",
+		"name": "Site koyu teması ve özelleştirilebilir renkler",
+		"description": "Scratch sitesi tarafından kullanılan renkleri özelleştirin. Farklı kişilere ait birden fazla karanlık tema mevcuttur. Karanlık modu istemiyorsunuz ama varsayılan renkleri değiştirmek istiyorsanız, \"Scratch' in varsayılan renkleri\" ön ayarını seçip oynamalar yapabilirsiniz.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			},
+			{
+				"name": "Ucrash",
+				"note": "Dark WWW",
+				"id": "darkwww",
+				"link": "https://github.com/gducrash"
 			}
 		]
 	},
@@ -346,9 +376,14 @@
 	{
 		"id": "debugger",
 		"name": "Hata Ayıklayıcısı",
-		"description": "Düzenleyiciye yeni bir \"hata ayıklayıcı\" blok kategorisi ve bir \"günlük\" penceresi ekler. \"günlük\", \"uyarı\" ve \"hata\" blokları belirtilmiş mesajı günlük ekranına yazdıracaktır. \"duraksatma\" bloğu çalıştırıldığında projeyi durduracaktır.",
+		"description": "Düzenleyiciye yeni bir \"hata ayıklayıcı\" penceresi ekler. \"Günlük\", \"uyarı\" ve \"hata\" bloklarını kullanarak hata ayıklayıcı penceresinin \"Günlükler\" sekmesine bildirim gelmesini sağlanabilir. \"Durdurucu\" bloğu, çalıştığında projeyi duraklatacaktır. Çalışan tüm dizeleri hata ayıklayıcının \"Çalışan Dizeler\" sekmesinde görüntülenebilir ve duraklatıldığında bir sonraki bloğu yürütmek için \"Adım\" düğmesi kullanılabilir. \"Performans\" sekmesinde saniye başına kare sayısı ve klon sayısının grafiği görüntülenebilir.",
 		"tags": ["editor", "featured"],
 		"credits": [
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			},
+			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
@@ -366,7 +401,7 @@
 	{
 		"id": "disable-auto-save",
 		"name": "Otomatik kaydetmeyi devre dışı bırak",
-		"description": "Düzenleme sırasında projelerin otomatik olarak kaydedilmesini devre dışı bırakır.",
+		"description": "Düzenleme sırasında projelerin otomatik olarak kaydedilmesini iptal eder.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -377,15 +412,25 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "Yapıştırılan öğeleri kaydırma",
-		"description": "Kopyalanan öğeleri kostüm düzenleyicide hafifçe kaydırmak yerine orijinal konumlarına yapıştırın.",
+		"name": "Yapıştırılan öğeleri kaydırmama",
+		"description": "Kopyalanan öğeleri kostüm düzenleyicide eski yerine koymaya uğraşmak yerine orijinal konumlarına çoğaltın.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "disable-sprite-wobble",
+		"name": "Kukla bölmesinde kukla hareketini devre dışı bırak",
+		"description": "Blokların, kostümlerin ve seslerin, kuklalar bölmesi içinde hareket eden parçalar olmadan farklı kuklalara taşınmasına izin verir.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+		]
+	},
+	{
 		"id": "disable-stage-drag-select",
 		"name": "Düzenleyicide sürüklenemeyen kuklalar",
-		"description": "Açıkça sürüklenebilir olarak ayarlanmış olanlar dışında, düzenleyicide sahnedeki kuklaları sürükleme özelliğini kaldırır.",
+		"description": "Açıkça sürüklenebilir olarak ayarlanmış olan kuklalar dışında, düzenleyicide sahnedeki kuklaları sürükleme özelliğini kaldırır.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -397,27 +442,26 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "Tartışma Butonu",
-		"description": "Tartış düğmesini gezinme çubuğuna ekler.",
-		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+		"name": "Özelleştirilebilir gezinme çubuğu",
+		"description": "Gezinme çubuğunda görüntülenecek bağlantıların listesini seçin.",
+		"tags": ["community", "featured"]
 	},
 	{
 		"id": "drag-drop",
-		"name": "Dosya sürükle ve bırak",
-		"description": "Dosya yöneticinizden görüntüleri ve sesleri kukla bölmesine veya kostüm/ses listesine sürüklemenizi sağlar. Ayrıca metin dosyalarını listelere veya \"sor ve bekle\" soru girişlerine sürükleyebilirsiniz.",
+		"name": "Dosya sürükleme ve bırakma",
+		"description": "Dosya yöneticinizden görselleri ve sesleri kukla bölmesine veya kostüm/ses listesine sürükleyebilmenizi sağlar. Ayrıca metin dosyalarını listelere veya \"sor ve bekle\" soru girişlerine sürükleyebilirsiniz.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
 		"id": "echo-effect",
 		"name": "Yankı efekti butonu",
-		"description": "Ses düzenleyicideki Yankı düğmesini geri getirir.",
+		"description": "Ses düzenleyicisindeki Yankı düğmesini geri getirir.",
 		"tags": ["editor"]
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "Renkli bağlam menüleri",
+		"name": "Renkli sağ tık menüleri",
 		"description": "Bloklara sağ tıklayınca açılan menüyü renklendirir.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -425,8 +469,8 @@
 	{
 		"id": "editor-comment-previews",
 		"name": "Düzenleyici yorum ön izlemeleri",
-		"description": "Daraltılmış yorumların veya blokların üzerine gelerek yorumların içeriğini ön izlemenize olanak tanır. Bunu ekranın dışındaki yorumları görüntülemek, ön izleme ile alttan bir döngü bloğunu belirlemek, birçok uzun yorumu küçük bir alana sığdırmak ve daha fazlası için kullanabilirsiniz.",
-		"tags": ["editor", "codeEditor"],
+		"description": "Daraltılmış yorumların veya blokların üzerine gelerek yorumların içeriğini ön izlemenize olanak tanır. Bunu ekranın dışındaki yorumları görüntülemek, ön izleme ile alttan bir döngü bloğunu belirlemek, birçok uzun yorumu küçük bir alana sığdırmak ve çok daha fazlası için kullanabilirsiniz.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
@@ -438,20 +482,31 @@
 	{
 		"id": "editor-dark-mode",
 		"name": "Editör karanlık modu ve özelleştirilebilir renkler",
-		"description": "Proje düzenleyicide olan renkleri düzenleyin. Birden fazla karanlık mod seçeneği vardır. Eğer karanlık mod istemiyorsanız, önceden belirlenmiş, \"Scratch'in varsayılan renkleri\"'ni düzenleyebilirsiniz.",
+		"description": "Proje düzenleyicide olan renkleri düzenleyin. Birden fazla karanlık mod seçeneği vardır. Eğer karanlık mod istemiyorsanız, önceden belirlenmiş, \"Scratch' in varsayılan renkleri\"'ni kendiniz düzenleyebilirsiniz.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
-				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
-				"name": "infinitytec (3.Dark, 3.Darker)",
+				"name": "infinitytec",
+				"note": "3.Dark, 3.Darker",
+				"id": "darker",
 				"link": "https://github.com/infinitytec"
 			},
-			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" },
 			{
-				"name": "GarboMuffin (TurboWarp Dark)",
+				"name": "_nix",
+				"note": "Dark editor",
+				"id": "dark",
+				"link": "https://github.com/towerofnix"
+			},
+			{
+				"name": "GarboMuffin",
+				"note": "TurboWarp Dark",
+				"id": "twdark",
 				"link": "https://github.com/GarboMuffin"
 			}
 		]
@@ -459,22 +514,25 @@
 	{
 		"id": "editor-devtools",
 		"name": "Geliştirici araçları",
-		"description": "Arama çubuğu, menü seçenekleri, blokları kopyalayıp yapıştırın, temizleyin, tanım bloklarına gidin ve daha fazlasını yapın.",
+		"description": "Arama çubuğu, menü seçenekleri, blokları kopyalayıp yapıştırma, temizleme, tanım bloklarına gitme ve çok daha fazlasını yapın.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "editor-extra-keys",
 		"name": "Ekstra tuş desteği",
-		"description": "\"() tuşuna basıldı mı?\" bloğu için daha fazla tuş ekler ve \"() tuşuna basıldığında\" bloğundaki açılır menüde enter, nokta, virgül ve daha fazla seçeneği engeller.",
+		"description": "\"() tuşuna basıldı mı?\" bloğu için daha fazla tuş ekler ve \"() tuşuna basıldığında\" bloğundaki açılır menüde enter, nokta, virgül ve çok daha fazla seçeneği editöre ekler.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
-			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
 		]
 	},
 	{
 		"id": "editor-messages",
-		"name": "Mesajlar editörü",
+		"name": "Editördeki mesajlar",
 		"description": "Editördeki menü çubuğunda mesaj sayınızı gösterir.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
@@ -482,7 +540,7 @@
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Aranabilen açılır listeler",
-		"description": "Blok listelerini aramanıza olanak sağlar.",
+		"description": "Blok listelerini aramanıza olanak tanır.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -495,20 +553,20 @@
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Sahne ekranın solunda",
+		"name": "Sahne, ekranın solunda",
 		"description": "Sahneyi editörün sol tarafına taşır.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
-		"name": "Çalışan blok sınırı",
+		"name": "Çalışan blok kenarlığı",
 		"description": "Projede çalışmakta olan bloklara renkli bir vurgu ekler.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Özelleştirilebilen blok renkleri",
+		"name": "Özelleştirilebilir blok renkleri",
 		"description": "Düzenleyicideki her kategori için blok renklerini düzenleyin.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
@@ -521,8 +579,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Paylaşımdan çek butonu editörde",
-		"description": "Proje başlık kutusunun yanındaki \"Paylaşılan\" düğmesini, projenin paylaşımını kaldırmak için bir düğmeyle değiştirir.",
+		"name": "Editörde paylaşımdan çek butonu",
+		"description": "Proje başlığının yanındaki \"Paylaşıldı\" düğmesini, projeyi paylaşımdan çekmek için bir düğme ile değiştirir.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -530,8 +588,8 @@
 	},
 	{
 		"id": "emoji-picker",
-		"name": "Yorumlar için emoji seçin",
-		"description": "Web sitedeki yorumlara emoji eklemek için bir buton ekler",
+		"name": "Yorumlar için emoji seçme",
+		"description": "Sitedeki yorumlara emoji eklemek için bir buton ekler",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
@@ -559,7 +617,7 @@
 	{
 		"id": "feature-unshared",
 		"name": "Paylaşılmayan projeleri öne çıkar",
-		"description": "Profilinizde \"öne çıkan projeyi değiştir\" seçeneğini tıkladıktan sonra paylaşılmayan projeleri seçmenize olanak sağlar.",
+		"description": "Profilinizde \"öne çıkan projeyi değiştir\" seçeneğine tıkladıktan sonra paylaşılmayan projeleri de seçmenize olanak tanır.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -571,17 +629,20 @@
 	{
 		"id": "fix-editor-comments",
 		"name": "Daha iyi editör yorumları",
-		"description": "Scratch editöründe yorumlarda çok sayıda değişiklik yapar: bloklara eklenen yorumların sürükledikten sonra konumlarını doğru şekilde kaydetmediği bir hatayı düzeltir, metnin kırpıldığı yorumlara bir kaydırma çubuğu ekler ve doğrudan nereye tıklayarak bağımsız yorumları düzenlemenize olanak tanır.",
+		"description": "Scratch editöründe yorumlarda çok sayıda değişiklik yapar: bloklara eklenen yorumların, sürüklendikten sonra konumlarını doğru şekilde kaydedilmediği bir hatayı düzeltir. Büyük boyutlu komutların blok yorumlarının ekran dışına taşmasını engeller. Blok yorum bağlantılarını düz tutar ve çok daha fazlasını yapar.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "Otomatik olarak kopyalanmış blokları çalıştırmayın.",
-		"description": "Scratch editöründe, bir bloğun kopyalanıp bir komut dosyasına eklenmesinin komut dosyasının çalışmasına neden olduğu bir hatayı düzeltir.",
+		"name": "Çoğaltılan blokları otomatik olarak çalıştırma",
+		"description": "Scratch editöründe, bir bloğun kopyalanıp bir bloğa eklenmesinin bloğun istemsizce çalışmasına neden olduğu bir hatayı düzeltir.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -604,15 +665,15 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Forumlarda kodu kopyala düğmesİ",
-		"description": "İçeriği panoya kopyalayan forum gönderilerindeki kod kutularının üzerine bir \"kodu kopyala\" düğmesi ekler.",
+		"name": "Forumlarda kodu kopyala düğmesi",
+		"description": "Forum gönderilerindeki kod satırlarının üzerine, içeriğin panoya kopyalanmasını sağlayan bir \"kodu kopyala\" düğmesi ekler.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
 	{
 		"id": "forum-id",
 		"name": "Alıntı gönderi numarası",
-		"description": "Cevabınıza bir gönderinin bağlantısını eklemek için \"posta numarasını alıntıla\" düğmesine tıklayın.",
+		"description": "Cevabınıza bir gönderinin bağlantısını eklemek için \"posta numarasını al\" düğmesine tıklayın.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
@@ -622,14 +683,14 @@
 		"description": "Forumlarda daha güzel kod ve alıntı blokları gösterir.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
-			{ "name": "GrahamSH (Port)" },
-			{ "name": "Boomer001 (Userstyle)" }
+			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
+			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
 		]
 	},
 	{
 		"id": "forum-search",
-		"name": "Forum araması",
-		"description": "Forumlara bir forum arama çubuğu ekler. Bilgi için ScratchDB' yi kullanır.",
+		"name": "Forumlarda arama",
+		"description": "Forumlara bir arama çubuğu ekler. Veriler için ScratchDB' yi kullanır.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
@@ -643,12 +704,20 @@
 		"id": "forum-toolbar",
 		"name": "Forumlarda daha fazla araç çubuğu düğmesi",
 		"description": "[Merkez] veya [renk] gibi BBCode etiketlerini eklemek için forumdaki araç çubuğuna düğmeler ekler.",
-		"tags": ["community", "forums"]
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Silk",
+				"note": "icons",
+				"id": "icons",
+				"link": "http://www.famfamfam.com/lab/icons/silk/"
+			}
+		]
 	},
 	{
 		"id": "full-signature",
-		"name": "Dolu yerler",
-		"description": "İmzalar ve \"üzerinde çalıştığım şey\" gibi karakter sınırları olan kısımları kaydırın ve yeniden boyutlandırın.",
+		"name": "Dolu bölgeler",
+		"description": "Forum imzaları ve Üzerinde Çalıştığım Proje gibi karakter sınırları olan kısımları kaydırın ve yeniden boyutlandırın.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -663,7 +732,7 @@
 	{
 		"id": "fullscreen",
 		"name": "Geliştirilmiş tam ekran",
-		"description": "Editörde tam ekran modundaki bazı istenmeyen efektleri düzeltir, tarayıcınızın tam ekran modunda açar ve yeşil bayrak araç çubuğunu gizler.",
+		"description": "Editörde tam ekran modundaki bazı istenmeyen hataları düzeltir, tarayıcınızın tam ekran modunda açar ve yeşil bayrak araç çubuğunu gizler.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -672,20 +741,29 @@
 	{
 		"id": "gamepad",
 		"name": "Oyun kumandası desteği",
-		"description": "Bir USB veya Bluetooth denetleyici/oyun kumandası kullanarak projelerle etkileşim kurun.",
+		"description": "Bir USB veya Bluetooth denetleyicisi/oyun kumandası kullanarak projelerle etkileşim kurun.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "hi-res-thumbnails",
+		"name": "Yüksek çözünürlüklü küçük resimler",
+		"description": "Sitedeki küçük resimleri daha yüksek çözünürlüklü resimlerle değiştirir. Retina (yüksek piksel yoğunluğu) olan ekranlarda ve %100'den daha fazla yakınlaştırmada gezinmek için kullanışlıdır.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
+		]
+	},
+	{
 		"id": "hide-delete-button",
 		"name": "Kaldır butonunu gizle",
-		"description": "Kuklalardan, kostümlerden ve seslerden silme düğmesini (çöp kutusu simgesi) gizler. Sağ tıklama bağlam menüsü kullanılarak yine de silinebilirler.",
+		"description": "Kuklalar kısmından, kostümler kısmından ve sesler kısmından, silme düğmesini (çöp kutusu simgesini) gizler. Ama yine de sağ tıkladığınızda açılan menüden silebilirsiniz.",
 		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "hide-flyout",
 		"name": "Otomatik gizlenen blok paleti",
-		"description": "Üzerine gelinmezse blok paletini gizler. Geçici olarak yerine kilitlemek için kilit simgesine tıklayın. Alternatif olarak, \"kategori tıklaması\" modunu kullanın.",
+		"description": "İmleç üzerine getirilmezse blok paletini gizler. Geçici olarak gizlenmesini önlemek için kilit simgesine tıklayın. Alternatif olarak, \"kategori tıklaması\" modunu kullanın.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -696,16 +774,25 @@
 	},
 	{
 		"id": "hide-new-variables",
-		"name": "Yeni değişkenleri gizle",
-		"description": "Yeni oluşturulan değişkenler veya listeler için otomatik olarak monitörler oluşturmayın.",
+		"name": "Yeni oluşturulan değişkenleri gizle",
+		"description": "Yeni oluşturulan değişkenlero veya listeleri, otomatik olarak görünmesini engelleyin.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hide-project-stats",
 		"name": "Proje istatistiklerini gizle",
-		"description": "Ön sayfada ve proje sayfalarında aşk, favori, remix ve görüntüleme sayılarını gizlemenizi sağlar.",
+		"description": "Ön sayfada ve proje sayfalarında kalp, favori, katkı ve görüntüleme sayılarını gizlemenizi sağlar.",
 		"tags": ["community", "projectPage"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-signatures",
+		"name": "Forumlarda imzaları gizle",
+		"description": "Forum gönderilerindeki imzaları gizler ve bir \"İmzayı göster\" düğmesi ekler.",
+		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
 		]
@@ -720,13 +807,13 @@
 	{
 		"id": "infinite-scroll",
 		"name": "Sonsuz kaydırma",
-		"description": "\"Daha fazla yüklemek\" için tıklamak zorunda kalmadan sitenin farklı bölümlerinde kaydırmaya izin verin.",
+		"description": "\"Daha fazla yükle\" için tıklamak zorunda kalmadan sitenin farklı bölümlerinde kaydırmaya izin verin.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Düzenlenebilir Yeni Eklenen Kukla Konumunu",
+		"name": "Özelleştirilebilir yeni eklenen kukla konumunu",
 		"description": "Yeni kuklanın varsayılan x/y konumunu değiştirin.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -739,7 +826,7 @@
 	{
 		"id": "items-per-row",
 		"name": "Satır başına daha fazla öğe",
-		"description": "Projeler, stüdyolar veya kullanıcılardan oluşan bir ızgarada tek bir satırda görüntülenen öğelerin sayısını değiştirmenize olanak tanır.",
+		"description": "Projelerden, stüdyolardan veya kullanıcılardan oluşan bir ızgarada tek bir satırda görüntülenen öğelerin sayısını değiştirmenize imkan tanır.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -750,8 +837,8 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Paylaşılan/düzenlenen tarihler ipucu",
-		"description": "Tam olarak ne zaman paylaşıldığı ve en son düzenlendiği tarih hakkında bilgi almak için bir projenin paylaşım tarihinin üzerine gelin.",
+		"name": "Paylaşılan/düzenlenen tarihler araç ipucu",
+		"description": "Bir projenin tam olarak paylaşıldığı ve en son düzenlendiği tarih hakkında bilgi almak için o projenin paylaşım tarihinin üzerine gelin.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -763,15 +850,17 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "Öne çıkan projeyi canlı yap",
-		"description": "\"Öne Çıkan Projeler\"i doğrudan profil sayfanızda oynamanıza izin verir. Mega Scratch Userscript temel alınarak oluşturulmuştur.",
+		"name": "Canlı öne çıkan proje",
+		"description": "Doğrudan kullanıcının profil sayfasından etkileşim kurulabilecek bir proje gösterir. Mega Scratch Userscript temel alınmıştır.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
-				"name": "GRA0007 (original)",
+				"name": "GRA0007",
+				"note": "original",
+				"id": "original",
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
-			{ "name": "Hans5958 (remake)" }
+			{ "name": "Hans5958", "note": "remake", "id": "remake" }
 		]
 	},
 	{
@@ -782,7 +871,7 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "\"Ne Üzerinde Çalışıyorum\" bölümündeki karakter sınırını yükseltir",
+		"name": "\"Ne Üzerinde Çalışıyorum\" bölümündeki karakter sınırını yükselt",
 		"description": "Profilinizin \"Ne Üzerinde Çalışıyorum\" bölümüne 55 karakter daha yazmanıza izin verir. Scratch' teki herkes tarafından ekstra karakterler görünecek.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
@@ -791,7 +880,7 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Daha iyi forum gönderi düzenleyicisi düğmeleri",
+		"name": "Daha iyi forum gönderi düzenleyici düğmeleri",
 		"description": "Forum gönderi ekranındaki simgeyi değiştirin.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -800,7 +889,9 @@
 				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
 			},
 			{
-				"name": "Secret-chest (Port)",
+				"name": "Secret-chest",
+				"note": "addon version",
+				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
 			}
 		]
@@ -808,13 +899,13 @@
 	{
 		"id": "mediarecorder",
 		"name": "Proje video kaydedicisi",
-		"description": "Editörün menü çubuğuna projenin aşamasını kaydetmenizi sağlayan bir \"kaydı başlat\" düğmesi ekler.",
+		"description": "Editörün menü çubuğuna projenizin videosunu kaydetmenizi sağlayan bir \"kaydı başlat\" düğmesi ekler.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
 		"name": "Mesaj filtreleri",
-		"description": "Scratch' in mesajlar sayfasında gizlenecek veya gösterilecek mesaj türleri için filtreler seçmenizi sağlar.",
+		"description": "Scratch' in mesajlar sayfasında gizlenecek veya gösterilecek mesaj türleri için filtreleme yapmanızı sağlar.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -825,29 +916,37 @@
 	},
 	{
 		"id": "more-links",
-		"name": "Daha Fazla Bağlantı",
-		"description": "Scratch.mit.edu dışını gösteren URL'ler için bağlantılar ekler.",
+		"name": "Daha fazla bağlantı",
+		"description": "Scratch.mit.edu dışını gösteren bağlantılar için bağlantılar ekler.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Fare Konumu",
-		"description": "Düzenleyicide farenizin x/y konumunu sahne bölümünün üzerinde görüntüler.",
+		"name": "Fare konumu",
+		"description": "Düzenleyicide farenizin x/y konumunu sahnenin üzerinde görüntüler.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "move-to-top-bottom",
 		"name": "Kostümü yukarı veya aşağı taşı",
-		"description": "Bir kostümü veya sesi listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsü öğesi ekler. Önceden geliştirici araçlarının bir parçasıydı.",
+		"description": "Bir kostümü veya sesi, listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsü öğesini ekler. Önceden geliştirici araçlarının bir parçasıydı.",
 		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "Eklenti simgesindeki mesaj sayımı",
-		"description": "Scratch Addons simgesine mevcut mesaj sayısını ekler.",
-		"tags": ["popup", "recommended"]
+		"name": "Uzantı simgesindeki mesaj sayısı",
+		"description": "Scratch Eklentileri simgesine mevcut mesaj sayısını ekler.",
+		"tags": ["popup", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "William Horning", "link": "https://wgyt.tk/" },
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
 	},
 	{
 		"id": "mute-project",
@@ -863,21 +962,21 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular entegrasyon",
+		"name": "oküler entegrasyon",
 		"description": "Oküler durumları ve forum sonrası tepkileri gösterir. Veri elde etmek için my-ocular.jeffalo.net' i kullanır.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Kodları sırt çantasına koymadan önce adlandır",
-		"description": "Komut dosyalarını, varsayılan \"kod\" adını kullanmak yerine, onları sırt çantasına sürükledikten sonra adlandırmanızı ister.",
+		"name": "Kodları, sırt çantasına koymadan önce adlandır",
+		"description": "Blokları, varsayılan olarak \"kod\" adını kullanmak yerine, onları sırt çantasına sürükledikten sonra adlandırmanızı ister.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "no-script-bumping",
-		"name": "Çakışan komut dosyalarını otomatik olarak aralamayın",
+		"name": "Üst üste gelen blokları otomatik olarak kaydırma",
 		"description": "Üst üste binen komut dosyalarının hareket etmesine neden olmadan komut dosyalarının taşınmasına ve değiştirilmesine izin verir.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -885,7 +984,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Eski stüdyo düzeni",
-		"description": "Stüdyoların düzenini Stüdyo Güncellemesi'nden önceki haline, yani eskiden Scratch 2.0 → Scratch 3.0 eklentisinde kullanılan haline geri getirir.",
+		"description": "Stüdyoların düzenini \"Stüdyo Güncellemesi\"' nden önceki haline, yani eskiden Scratch 2.0 → Scratch 3.0 eklentisinde kullanılan haline geri getirir.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -897,14 +996,14 @@
 	{
 		"id": "onion-skinning",
 		"name": "Önceki kostümün izi",
-		"description": "Bir kostümü düzenlerken önceki veya sonraki kostümlerin şeffaf katmanlarını gösterir. Yakınlaştırma düğmeleri tarafından kostüm editörünün altındaki düğmelerle kontrol edilir.",
+		"description": "Bir kostümü düzenlerken önceki veya sonraki kostümlerin şeffaf hallerini gösterir. Kostüm editöründeki yakınlaştırma düğmelerinin altındaki düğmelerle kontrol edilir.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Varsayılan olarak boya kostümü",
-		"description": "Kitaplığı varsayılan olarak açan \"Bir Kukla/Kostüm/Arka Plan/Ses Seç\" düğmelerinin varsayılan eylemini değiştirir.",
+		"name": "Kostümü varsayılan olarak boya",
+		"description": "Kitaplığı varsayılan olarak açan \"Kukla/Kostüm/Arka Plan/Ses\" düğmelerinin varsayılan eylemlerini değiştirir.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -924,8 +1023,8 @@
 	},
 	{
 		"id": "project-info",
-		"name": "Kukla ve komut miktarı",
-		"description": "Katkı düğmesinin yanında proje kuklalarının ve komut dosyalarının sayısını gösterir.",
+		"name": "Kukla ve blok miktarı",
+		"description": "Katkı yap düğmesinin yanında proje kuklalarının ve komut dosyalarının sayısını gösterir.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -936,8 +1035,8 @@
 	},
 	{
 		"id": "project-notes-tabs",
-		"name": "Proje notları",
-		"description": "Bir proje sayfasında \"Talimatlar\" bölümü ve \"Notlar ve Krediler\" bölümü için sekmeler oluşturur.",
+		"name": "Proje notları sekmeleri",
+		"description": "Proje sayfalarında \"Talimatlar\" bölümü ve \"Notlar ve Taktikler\" bölümü için ayrı sekmeler oluşturur.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -949,7 +1048,7 @@
 	{
 		"id": "redirect-mobile-forums",
 		"name": "Standart forumlara yönlendir",
-		"description": "Mobil forumlara bir bağlantıya tıkladığınızda sizi standart (\"ana\") forumlara yönlendirir.",
+		"description": "Mobil forumlara giden bir bağlantıya tıkladığınızda sizi standart (\"ana\") forumlara yönlendirir.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -957,8 +1056,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Kendi projelerine Remix butonu",
-		"description": "Kendi projene Remix butonu ekler.",
+		"name": "Kendi projelerine Katkı butonu",
+		"description": "Kendi projelerine de Katkı düğmesi ekler.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -973,17 +1072,20 @@
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Bozuk sahne sınırını siler",
-		"description": "Sahnenin etrafındaki kavisli kenarlığı kaldırır, böylelikle köşeleri görmenize izin verir.",
+		"name": "Bozuk sahne sınırını sil",
+		"description": "Sahnenin etrafındaki kavisli kenarlığı kaldırır. Böylelikle köşelerin görünmesine izin verir.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
-			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
 		]
 	},
 	{
 		"id": "remove-sprite-confirm",
 		"name": "Kukla silme onayı",
-		"description": "Bir projenin içindeki kuklayı silerken emin olup olmadığını sorar.",
+		"description": "Bir kuklayı silerken emin olup olmadığınızı sorar.",
 		"tags": ["editor", "recommended"]
 	},
 	{
@@ -1000,26 +1102,30 @@
 	},
 	{
 		"id": "scratch-messaging",
-		"name": "Scratch mesajlama",
-		"description": "Scratch Addons simgesine tıklandığında kullanılabilir. Scratch mesajlarınızı kolay okuma ve yanıtlama sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamı gösterir, doğrudan yorum yanıtlamaya izin verir.",
+		"name": "Scratch mesajlaşma",
+		"description": "Scratch Eklentileri simgesine tıklandığında kullanılabilir. Scratch mesajlarınızı kolay okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamı gösterir, doğrudan yorum yanıtlamaya izin verir.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratch Bildirimi",
-		"description": "Yeni Scratch mesajlarıyla ilgili bildirimler. Doğrudan mesaja (yorum, proje vb.) Gitmek için bildirime tıklayın.",
+		"name": "Scratch Bildirimcisi",
+		"description": "Yeni Scratch mesajlarıyla ilgili bildirimler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayın.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
-			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+			{
+				"name": "notificationsounds.com",
+				"note": "Scratch Addons ping",
+				"id": "scratchAddonsPing"
+			}
 		]
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Forumlarda 3.0 Scratchblocks",
-		"description": "Forumlarda scratchblocks'un yeni sürümünü etkinleştirir.",
+		"name": "Forumlarda 3.0 Scratch Blokları",
+		"description": "Forumlarda scratch bloklarının yeni sürümünü etkinleştirir.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
@@ -1052,9 +1158,26 @@
 		]
 	},
 	{
+		"id": "script-snap",
+		"name": "Blokları ızgaraya yapıştır",
+		"description": "Konumunu kod alanındaki noktalara otomatik olarak hizalamak için bir komut dosyasını sürükleyin.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
 		"id": "search-my-stuff",
-		"name": "Kendiminkiler' deki arama çubuğu",
-		"description": "Kendiminkiler sayfasında projelerinizi, stüdyolarınızı ve çöp kutularınızı aramanıza izin verir. Bir arama başlatmak için sayfanın herhangi bir yerinde yazmaya başlamanız yeterlidir. En iyi arama sonucunu hızlı bir şekilde açmak için arama yaptıktan sonra Ctrl+Enter' ı da kullanabilirsiniz.",
+		"name": "Kendiminkiler kısmında arama çubuğu",
+		"description": "Kendiminkiler sayfasında projelerinizi, stüdyolarınızı ve çöp kutularınızı aramanıza izin verir. Bir arama başlatmak için sayfanın herhangi bir yerinde yazmaya başlamanız yeterlidir. En iyi arama sonucunu hızlı bir şekilde açmak için arama yaptıktan sonra Ctrl+Enter kombinasyonunu da kullanabilirsiniz.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1065,15 +1188,28 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Profil Ara",
+		"name": "Profil ara",
 		"description": "Kullanıcı adını aradığınızda bir kullanıcının profiline gitmenizi sağlar.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
 	},
 	{
+		"id": "search-sprites",
+		"name": "Kuklaları ada göre ara",
+		"description": "Kuklaları ada göre aramak için kukla bölmesine bir arama kutusu ekler.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
 		"id": "semicolon",
 		"name": "Noktalı virgül hatası",
-		"description": "Noktalı virgül hatasını Scratch'e geri ekler.",
+		"description": "Noktalı virgül hatasını Scratch' e geri ekler.",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }]
 	},
@@ -1091,8 +1227,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Stüdyolarda takipçilere göz at düğmesi",
-		"description": "Yönettiğiniz stüdyolarda \"idareciler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görülen bir kullanıcıyı tek bir tıklamayla stüdyoya davet etmenizi sağlar.",
+		"name": "Stüdyolarda takipçilere gözat düğmesi",
+		"description": "Yönettiğiniz stüdyolarda \"yöneticiler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görülen bir kullanıcıyı tek bir tıklamayla stüdyoya davet etmenizi sağlar.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
@@ -1102,7 +1238,7 @@
 	{
 		"id": "studio-tools",
 		"name": "Stüdyo araçları",
-		"description": "Yöneticilerin \"idareciler\" sekmesinde idarecileri kolayca yöneticiliğe terfi ettirmelerine veya bir stüdyodan herhangi birini çıkarılmasına olanak tanır ve \"Stüdyoyu Takip Et\" butonunun altındaki bir düğmeyi kullanarak stüdyodan ayrılma yeteneğini getirir.",
+		"description": "Yöneticilerin \"yöneticiler\" sekmesinde yöneticileri kolayca yöneticiliğe terfi ettirmelerine veya stüdyodan kaldırmasına olanak tanır ve \"Stüdyoyu Takip Et\" butonunun altındaki bir düğmeyi kullanarak stüdyodan ayrılma yeteneğini getirir.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1115,14 +1251,14 @@
 	{
 		"id": "swap-local-global",
 		"name": "Değişkenleri \"Tüm kuklalar için\" ve \"Yalnızca bu kukla için\" arasında değiştirin",
-		"description": "Mevcut bir değişkeni veya listeyi yeniden adlandırırken daha fazla seçenek ekler: \"Tüm kuklalar için\" ve \"Yalnızca bu kukla için\" arasında değişiklik yapılmasına ve değişkenlerin bulutta depolanıp saklanmayacağına izin verir. Ayrıca, kapsamını hızlı bir şekilde değiştirmek için bir değişkene/listeye sağ tıklandığında yeni bir seçenek ekler.",
-		"tags": ["editor", "codeEditor", "featured", "beta"],
+		"description": "Mevcut bir değişkeni veya listeyi yeniden adlandırırken daha fazla seçenek ekler: \"Tüm kuklalar için\" ve \"Yalnızca bu kukla için\" arasında değişiklik yapılmasına, ve değişkenlerin bulutta depolanıp depolanmamasına izin verir. Ayrıca, kapsamını hızlı bir şekilde değiştirmek için bir değişkene/listeye sağ tıklandığında yeni bir seçenek ekler.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "transparent-orphans",
 		"name": "Blok saydamlığı",
-		"description": "Artık bloklar (üstte şapka bloğu olmayanlar) ve sürüklenen bloklar için ayrı seçeneklerle düzenleyicide blokların şeffaflığını ayarlayın.",
+		"description": "Artık bloklar (üstte şapka bloğu olanlar dışında) ve sürüklenen bloklar için ayrı seçeneklerle düzenleyicide blokların şeffaflığını ayarlayın.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -1134,7 +1270,7 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "Gerçek forum youtube linkleri",
+		"name": "Gerçek forum Youtube bağlantıları",
 		"description": "Gömülü siteye giden bağlantıları gerçek YouTube bağlantılarıyla değiştirir.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
@@ -1142,7 +1278,7 @@
 	{
 		"id": "turbowarp-player",
 		"name": "TurboWarp butonu",
-		"description": "Projeyi TurboWarp.org'ta oynatmak için, proje sayfalarında Katkı Yap butonunun yanına bir buton ekler.",
+		"description": "Projeyi TurboWarp.org' ta oynatmak için, proje sayfalarında Katkı Yap butonunun yanına bir buton ekler.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1153,7 +1289,7 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "Öğreticileri Gizle düğmesi",
+		"name": "Öğreticileri gizle düğmesi",
 		"description": "Düzenleyici menü çubuğundaki Öğreticiler düğmesini gizler.",
 		"tags": ["editor"],
 		"credits": [
@@ -1165,8 +1301,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Kullanıcı IDini göster",
-		"description": "Profil sayfalarının üstündeki kullanıcı adının yanına kullanıcı kimliğini ekler.",
+		"name": "Kullanıcı kimlik numaralarını göster",
+		"description": "Profil sayfalarının üstündeki kullanıcı adının yanına kullanıcının kimlik numarasını ekler.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
@@ -1174,8 +1310,8 @@
 	},
 	{
 		"id": "variable-manager",
-		"name": "Değişken Yöneticisi",
-		"description": "Editörde \"sesler\" sekmesinin yanına değişken ve listelerinizi kolaylıkla güncelleyebileceğiniz bir sekme ekler.",
+		"name": "Değişken yöneticisi",
+		"description": "Editörde \"sesler\" sekmesinin yanına değişken ve listelerinizi kolaylıkla yönetebileceğiniz bir sekme ekler.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},

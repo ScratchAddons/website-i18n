@@ -102,6 +102,18 @@
 		]
 	},
 	{
+		"id": "block-count",
+		"name": "Blockanzahl",
+		"description": "Zeigt die volle Anzahl von Blöcken in der Menüleiste des Projekteditors an. Früher Teil von \"Figuren- und Skriptanzahl\".",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "block-duplicate",
 		"name": "Skripte mit Alt-Taste duplizieren",
 		"description": "Dupliziere schnell ein SKript, indem du es mit gedrückter Alt-Taste ziehst. Halte gleichzeitig auch Strg gedrückt, um nur den einzelnen Block zu duplizieren.",
@@ -286,6 +298,16 @@
 		]
 	},
 	{
+		"id": "custom-block-text",
+		"name": "Benutzerdefinierter Stil von Text auf Blöcken",
+		"description": "Ändert die Dicke von Text auf Blöcken und fügt einen Textschatten hinzu.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
+			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
 		"id": "custom-zoom",
 		"name": "Benutzerdefinierter Codebereichzoom",
 		"description": "Personalisiere den Minimum-, Maximum-, und Startzoom und die Zoom-Geschwindigkeit für den Skriptbereich im Editor, und blende die Steuerelemente automatisch aus.",
@@ -326,13 +348,21 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Dunkler Modus für die Website",
-		"description": "Dark Mode für die Scratch-Website.",
+		"name": "Dunkler Modus und anpassbare Farben auf der Website",
+		"description": "Passe die von der Scratch-Website verwendeten Farben an. Mehere Designs von verschiedenen Autoren verfügbar. Falls du den Dunklen Modus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			},
+			{
+				"name": "Ucrash",
+				"note": "Dark WWW",
+				"id": "darkwww",
+				"link": "https://github.com/gducrash"
 			}
 		]
 	},
@@ -346,9 +376,14 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Fügt die neue Blockkategorie \"Debugger\" und ein \"Logs\"-Fenster im Editor hinzu. Die \"Log\", \"Warnung\" und \"Fehler\"-Blöcke werden die bestimmte Nachricht ins Logfenster schreiben. Der \"Breakpoint\"-Block wird das Projekt pausieren.",
+		"description": "Fügt ein neues \"Debugger\"-Fenster im Editor hinzu. Erlaubt das loggen in den \"Logs\"-Tab des Debugger-Fenster mit den Blöcken \"loggen\", \"warnen\" und \"Fehler\". Der \"Unterbrechen\"-Block wird das Projekt pausieren. Alle aktuell ausgeführten Threads können im \"Threads\"-Tab angezeigt werden und wenn das Projekt pausiert ist kann der \"Schritt\"-Knopf verwendet werden, um einen Block nach dem anderen auszuführen. Ein Graph der Bildwiederholrate und der Klonanzahl kann im \"Leistung\"-Tab angezeigt werden.",
 		"tags": ["editor", "featured"],
 		"credits": [
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			},
+			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
@@ -383,6 +418,16 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "disable-sprite-wobble",
+		"name": "Figurenwackeln in Figurenleiste deaktivieren",
+		"description": "Lässt Skripte, Kostüme und Klänge in verschiedene Figuren verschieben, ohne dass sich die Figuren innerhalb der Figurenleiste herumbewegen.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+		]
+	},
+	{
 		"id": "disable-stage-drag-select",
 		"name": "Nicht ziehbare Figuren im Editor",
 		"description": "Entfernt die Möglichkeit, Figuren auf der Bühne herumzuziehen, explizit ziehbare Figuren ausgenommen.",
@@ -397,10 +442,9 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "Diskussionsknopf",
-		"description": "Fügt den Diskussionsknopf zur Navigationsleiste hinzu.",
-		"tags": ["community", "forums"],
-		"credits": [{ "name": "Maximouse" }, { "name": "World_Languages" }]
+		"name": "Benutzerdefinierte Navigationsleiste",
+		"description": "Wähle eine Liste von Links, die auf der Navigationsleiste angezeigt werden sollen.",
+		"tags": ["community", "featured"]
 	},
 	{
 		"id": "drag-drop",
@@ -426,7 +470,7 @@
 		"id": "editor-comment-previews",
 		"name": "Vorschau für Editorkommentare",
 		"description": "Ermöglicht das Anzeigen einer Vorschau, wenn die Maus über reduzierten Kommentaren und Blöcken. Du kannst dies verwenden, um Kommentare außerhalb des Bildschirms anzuzeigen, einen Schleifenblock von seiner Unterseite anhand der Vorschau zu identifizieren, mehrere lange Kommentare in einen kleinen Bereich anzupassen und mehr.",
-		"tags": ["editor", "codeEditor"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
@@ -442,16 +486,27 @@
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
-				"name": "Maximouse (addon, \"Experimental\" Dark)",
+				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			},
 			{
-				"name": "infinitytec (3.Dark, 3.Darker)",
+				"name": "infinitytec",
+				"note": "3.Dark, 3.Darker",
+				"id": "darker",
 				"link": "https://github.com/infinitytec"
 			},
-			{ "name": "_nix (Dark editor)", "link": "https://github.com/towerofnix" },
 			{
-				"name": "GarboMuffin (TurboWarp Dark)",
+				"name": "_nix",
+				"note": "Dark editor",
+				"id": "dark",
+				"link": "https://github.com/towerofnix"
+			},
+			{
+				"name": "GarboMuffin",
+				"note": "TurboWarp Dark",
+				"id": "twdark",
 				"link": "https://github.com/GarboMuffin"
 			}
 		]
@@ -469,7 +524,10 @@
 		"description": "Fügt mehr Tasten zum \"Taste () gedrückt?\" und \"Wenn Taste () gedrückt\" Block-Dropdown hinzu, wie Enter, Punkt, Komma und mehr.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
-			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
 		]
 	},
 	{
@@ -571,11 +629,14 @@
 	{
 		"id": "fix-editor-comments",
 		"name": "Bessere Editorkommentare",
-		"description": "Nimmt zahlreiche Änderungen auf Kommentare im Scratch-Editor vor: löst einen Fehler, der an Blöcken hängende Kommentare nicht an der richtigen Position speichert, fügt eine Scrolleiste auf Kommentaren mit geschnittenem Text hinzu und ermöglicht das direkte Bearbeiten von alleinstehenden Kommentaren mit einem Klick auf die Stelle, wo du mit er Eingabe beginnen möchtest.",
+		"description": "Nimmt zahlreiche Änderungen auf Kommentare im Scratch-Editor vor: löst einen Fehler, der an Blöcken hängende Kommentare nach dem Ziehen nicht an der richtigen Position speichert, fügt eine Scrolleiste auf Kommentaren mit geschnittenem Text hinzu, verhindert das Erstellen von Kommentaren außerhalb des sichtbaren Bereiches, und mehr.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -622,8 +683,8 @@
 		"description": "Zeigt schönere Skript- und Zitatblöcke in Foren.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
-			{ "name": "GrahamSH (Port)" },
-			{ "name": "Boomer001 (Userstyle)" }
+			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
+			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
 		]
 	},
 	{
@@ -642,8 +703,16 @@
 	{
 		"id": "forum-toolbar",
 		"name": "Mehr Werkzeuge in Foren",
-		"description": "Fügt Knöpfe in der Forum-Editor-Toolbar zum Hinzufügen von BBCode-Tags, wie [center] oder [color], hinzu.",
-		"tags": ["community", "forums"]
+		"description": "Fügt Knöpfe in der Forum-Editor-Toolbar zum Einfügen von BBCode-Tags hinzu, wie [center] oder [color], hinzu.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Silk",
+				"note": "icons",
+				"id": "icons",
+				"link": "http://www.famfamfam.com/lab/icons/silk/"
+			}
+		]
 	},
 	{
 		"id": "full-signature",
@@ -677,6 +746,15 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "hi-res-thumbnails",
+		"name": "HD-Profilbilder",
+		"description": "Ersetzt Profilbilder auf der Website mit höher aufgelösten Bidlern. Praktisch für Retina-Anzeigen (hohe Pixeldichte) und beim Surfen mit einem höheren Zoom als 100%.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
+		]
+	},
+	{
 		"id": "hide-delete-button",
 		"name": "Löschen-Knopf verstecken",
 		"description": "Versteckt den Löschen-Knopf (das Mülleimer-Icon) von FIguren, Kostümen und Klängen. Sie können weiterhin mit dem Rechtsklick-Kontextmenü glöscht werden.",
@@ -706,6 +784,15 @@
 		"name": "Projektstatistiken ausblenden",
 		"description": "Lässt dich mag ich-, Favoriten-, Remix- und Aufruf-Anzahlen auf der Startseite und auf Projektseiten ausblenden.",
 		"tags": ["community", "projectPage"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-signatures",
+		"name": "Forumsignaturen ausblenden",
+		"description": "Versteckt Signaturen von Benutzern auf Foren. Du kannst sie mit einem Knopf wieder sichtbar machen.",
+		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
 		]
@@ -768,10 +855,12 @@
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
-				"name": "GRA0007 (original)",
+				"name": "GRA0007",
+				"note": "original",
+				"id": "original",
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
-			{ "name": "Hans5958 (remake)" }
+			{ "name": "Hans5958", "note": "remake", "id": "remake" }
 		]
 	},
 	{
@@ -800,7 +889,9 @@
 				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
 			},
 			{
-				"name": "Secret-chest (Port)",
+				"name": "Secret-chest",
+				"note": "addon version",
+				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
 			}
 		]
@@ -847,7 +938,15 @@
 		"id": "msg-count-badge",
 		"name": "Nachrichtenanzahl auf dem Erweiterungssymbol",
 		"description": "Zeigt die momentane Nachrichtenanzahl auf dem Scratch Addons-Symbol an.",
-		"tags": ["popup", "recommended"]
+		"tags": ["popup", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "William Horning", "link": "https://wgyt.tk/" },
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
 	},
 	{
 		"id": "mute-project",
@@ -977,7 +1076,10 @@
 		"description": "Entfernt den runden Rand um die Bühne, um die Ecken sichtbar zu machen.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
-			{ "name": "Tacodude7729", "link": "https://github.com/Tacodude7729" }
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
 		]
 	},
 	{
@@ -1013,7 +1115,11 @@
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
-			{ "name": "notificationsounds.com (Scratch Addons ping)" }
+			{
+				"name": "notificationsounds.com",
+				"note": "Scratch Addons ping",
+				"id": "scratchAddonsPing"
+			}
 		]
 	},
 	{
@@ -1052,6 +1158,23 @@
 		]
 	},
 	{
+		"id": "script-snap",
+		"name": "Skripte am Raster ausrichten",
+		"description": "Richtet Skripte nach dem Ziehen automatisch an den Punkten des Codebereichs aus.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
 		"id": "search-my-stuff",
 		"name": "Suchleiste in Meine Sachen",
 		"description": "Ermöglicht das Durchsuchen deiner Projekte, Studios und deines Papierkorbs auf der Meine Sachen-Seite. Beginne irgendwo auf der Seite mit der Eingabe, um mit der Suche zu beginnen. Du kannst nach der Suche auch Strg+Enter drücken, um das erste Suchergebnis zu öffnen.",
@@ -1069,6 +1192,19 @@
 		"description": "Ermöglicht es dir, direkt zum Profil eines Benutzers zu gehen, wenn du nach dessen Benutzernamen suchst.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "search-sprites",
+		"name": "Figuren nach Namen suchen",
+		"description": "Fügt ein Suchfeld zur Figurenleiste hinzu.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "semicolon",
@@ -1116,7 +1252,7 @@
 		"id": "swap-local-global",
 		"name": "Variablentyp ändern",
 		"description": "Fügt weitere Optionen beim Umbenennen einer vorhandenen Variablen oder Liste hinzu: ermöglicht das Wechseln zwischen \"Für alle Figuren\" und \"Nur für diese Figur\" und ob Variablen in der Cloud gespeichert werden. Fügt auch eine neue Option beim Rechtsklicken auf eine Variable/Liste hinzu, um deren Typ schnell zu ändern.",
-		"tags": ["editor", "codeEditor", "featured", "beta"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
