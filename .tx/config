@@ -182,4 +182,3 @@ minimum_perc = 100
 source_file = en/markdown/docs/faq.md
 source_lang = en
 type = GITHUBMARKDOWN
-
