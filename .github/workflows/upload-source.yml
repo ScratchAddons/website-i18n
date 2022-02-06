@@ -19,6 +19,8 @@ jobs:
           tar -zxvf ${RUNNER_TEMP}/tx.tar.gz -C ${RUNNER_TEMP} tx
           ls ${RUNNER_TEMP}
           echo "${RUNNER_TEMP}/tx"
-          "${RUNNER_TEMP}/tx" push --source --use-git-timestamps --skip
+          shopt -s expand_aliases
+          alias tx="${RUNNER_TEMP}/tx"
+          tx push --source --use-git-timestamps --skip
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
