@@ -89,6 +89,7 @@ IndexPage:
     Paragraph: Parece bom? Não hesite e instale agora!
     InstallButton:
       Other: ...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}.
+  Users: Usuários
 AddonsPage:
   EasterEggAddon: Isso é um addon secreto.
   RecommendedAddon: Isso é um addon recomendado.

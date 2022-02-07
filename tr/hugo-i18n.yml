@@ -92,6 +92,7 @@ IndexPage:
     Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
     InstallButton:
       Other: ...ama istersen {{.OpenTag1}}GitHub' dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
+  Users: Kullanıcılar
 AddonsPage:
   EasterEggAddon: Bu bir easter egg eklentisidir.
   RecommendedAddon: Bu, önerilen bir eklentidir.

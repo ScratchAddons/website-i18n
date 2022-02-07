@@ -1,79 +1,79 @@
 ---
-title: Bir Eklenti Oluşturma
+title: Creating an Addon
 ---
-Gerekli yazılım: metin düzenleyici, Chrome.
-Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğiniz Scratch Eklentileri uzantısını devre dışı bırakın.
+Required software: text editor, Chrome.  
+If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.
 
-## 1. Adım: [Eklenti temelleri](addon-basics) hakkında bilgi edinin
-Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
+## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
+Make sure to read that article to be familiar with the terminology.
 
-## 2. Adım: Depoyu çatallayın/klonlayın
-Veya isterseniz ZIP olarak indirin. Başka bir deyişle, kaynak kodunu yerel olarak indirmeniz yeterlidir.
+## Step 2: Fork/clone the repo
+Or download as ZIP, if you want. In other words, just download the source code locally.
 
-## 3. Adım: Uzantıyı Chrome' a yükleyin
-*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de eklentilerin Firefox' da da çalışma ihtimali var.*
-Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`' a gidin ve "geliştirici modu"' nu etkinleştirin.
-"Sıkıştırılmamış' ı yükle"' ye tıklayın, ardından Scratch Eklentilerin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun.
-İşte bu, uzantıyı yüklediniz! Şuna benzer görünmelidir:
-![görsel](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
-Not: "hatalar" yazdığını güvenle görmezden gelebilirsiniz. Bu, Firefox' un tanınmayan bir "manifest anahtarı" için yalnızca bir uyarıdır.
+## Step 3: Load the extension into Chrome
+*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox.*  
+Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
+Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
+That's it, you loaded the extension! It should look similar to this:  
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
+Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
-## 4. Adım: Eklentiniz ne hakkında?
-Şimdi eğlenceli kısım geliyor!
-Eklentiniz ne yapacak? Kendini açıklayıcı bir eklenti kimliği düşünün (tireler dışında boşluk veya özel karakter koymayın).
-Anladın mı?
+## Step 4: What's your addon about?
+Now comes the fun part!  
+What will your addon do? Think of a self descriptive addon ID (no spaces or special characters, except hyphens).  
+Got it?
 
-## 5. Adım: Eklenti için bir klasör oluşturun
-Bir dosya gezgini kullanarak Scratch Eklentilerin dosya sisteminizde bulunduğu klasöre gidin. `addons` klasörünü bulun.
-Ardından, adı olarak epik eklenti kimliğinizle yeni bir klasör oluşturun.
+## Step 5: Create the folder for the addon
+Using a file explorer, go to the folder where Scratch Addons resides in your filesystem. Locate the `addons` folder.  
+Then, create a new folder with your epic addon ID as its name.
 
-## 6. Adım: Bir manifest eklentisi ekleyin
-Eklenti manifesti, Scratch Eklentilerine eklentinizin nasıl çalıştığını söyler. Baş ağrısından kurtulmak için bunu yaptığınızdan emin olun.
-Az önce oluşturduğunuz klasörün içinde bir `addon.json` dosyası oluşturun.
-Bu, kodlamaya başlamak için kullanabileceğiniz bir temeldir, gelecekte değiştirdiğinizden emin olun:
+## Step 6: Add an addon manifest
+The addon manifest tells Scratch Addons how your addon works. Make sure to get this right to avoid headaches.  
+Inside the folder you just created, create an `addon.json` file.  
+This is a base you can use to start coding, make sure to change it in the future:
 ```json
 {
-  "name": "Aaaaaaaaaa eklentim",
-  "description": "Merhaba dünya!",
+  "name": "Epic placeholder text in place of addon name",
+  "description": "Hello World! It would be really smart to replace this placeholder text with a description.",
   "tags": ["community"],
   "enabledByDefault": false
 }
 ```
-Manifest' de ne beyan edebileceğiniz hakkında daha fazla bilgi için [bu makaleye](/docs/developing/the-addon-manifest-(addon.json)) bakın.
+For more information on what you can declare in the manifest, check [this article](/docs/reference/addon-manifest/).
 
 
-## 7. Adım: Scratch Eklentilere eklentinizin kimliğinin ne olduğunu söyleyin
-Scratch Eklentileri kendi başına yeni klasörler bulamaz, bu nedenle adı özel bir dosyaya eklemeniz gerekir.
-`scratchAddonsFolder/addons/addons.json` adresine gidin ve eklentinizin kimliğini diziye ekleyin.
+## Step 7: Tell Scratch Addons what your addon's ID is
+Scratch Addons can't find new folders by itself, so you have to add the name to a special file.  
+Go to `scratchAddonsFolder/addons/addons.json` and add the ID of your addon to the array.
 
-## 8. Adım: Merhaba dünya
-Eklentiniz şu anda hiçbir şey yapmıyor, bu nedenle daha önce yaptığımız her şeyin çalışıp çalışmadığını kontrol etmek için iyi bir zaman.
-` chrome://extensions`' a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
-Şimdi, Scratch Eklentiler simgesine sağ basın ve "seçenekler" e tıklayın.
-Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve sahip olabileceğiniz tüm ayarları yapın.
+## Step 8: Hello world
+Your addon does nothing at the moment, so it's a good time to check if everything we made previously worked.  
+Go to `chrome://extensions` and reload Scratch Addons by clicking the refresh symbol on its card.  
+Now, right-click the Scratch Addons icon, and click "options".  
+You should see your addon on the list! Once you find it, enable it, and set any settings that you may have.
 
-## 9. Adım: Eğlenceli kısım, kod!
-*Devam etmeden önce 1. adımda bağlantısı verilen wiki makalesini okuduğunuzdan emin olun.*
+## Step 9: The fun part, code!
+*Before proceeding, make sure you read the wiki article linked in step 1.*  
 
-İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentiler uzantısını yenilediğinizden emin olun.
+Here comes the fun part: create your own JS or CSS files!  
+Protip: after making any change to your addon, make sure to refresh the Scratch Addons extension like you did in step 8.  
 
-Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
-- [Kalıcı komut dosyaları](/docs/develop/addon-types/persistent-scripts)
-- [Kullanıcı Komut Dosyaları](/docs/develop/addon-types/userscripts)
-- [Kullanıcı stilleri](/docs/develop/addon-types/userstyles)
+Depending on what you want your addon to do, you should now check these wiki pages:
+- [Userscripts](/docs/develop/addon-types/userscripts)
+- [Userstyles](/docs/develop/addon-types/userstyles)
 
-## 10. Adım: Eklentinizi özelleştirilebilir yapın
-İsterseniz eklentinizi özelleştirilebilir hale getirebilirsiniz!
-Eklentinizin kullanıcıları ayarları değiştirebilir, sayı girebilir veya daha fazlasını yapabilir!
-Başlamak için [manifest eklentisinde ayarların nasıl bildirileceğine](/docs/reference/addon-manifest/#settings-object) bakın.
-Ardından, kullanıcı komut dosyalarından ve kalıcı komut dosyalarından kullanıcı seçimlerine nasıl erişileceğini öğrenmek için [addon.settings belgelerine](/docs/reference/addon-api/addon.settings) gidin.
+## Step 10: Make your addon customizable
+If you want, you can make your addon customizable!  
+Users of your addon will be able to toggle settings, enter numbers, and more!  
+To get started, see [how to declare settings in the addon manifest](/docs/reference/addon-manifest/#settings-object).  
+Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon.settings) to learn how to access user choices from userscripts.
 
-## 11. Adım: Eklentinizi yayınlamadan önce
-Artık eklentiniz çalıştığına göre, onu eklenti kitaplığına ekleyebileceğimizden emin olalım.
-Eklentinizin manifest dosyasının uygun olduğundan emin olun, [daha fazla bilgi için buraya tıklayın](/docs/reference/addon-manifest). Eklentinizin adına, açıklamasına ve etiketlerine çok dikkat edin. `"enabledByDefault"`u `false` olarak ayarladığınızdan veya kaldırdığınızdan emin olun.
-Eklentinizin diğer eklentileri bozmadığından emin olun.
-Kodunuzun anlaşılır olduğundan emin olun; Gereksiz yorumlara sahip olmak, hiç yorum yapmamaktan iyidir.
+## Step 11: Before publishing your addon
+Now that your addon works, let's make sure we can add it to the addon library.  
+Make sure your addon's manifest is suitable, [more info here](/docs/reference/addon-manifest). Keep close attention to the name, description and tags of your addon. Make sure to set `"enabledByDefault"` to `false` or remove it.  
+Make sure your addon doesn't break other addons.  
+Make sure your code is understandable; having unnecessary comments is better than no comments.
 
-## 12. Adım: Bir çekme isteği gönderin!
-Henüz yapmadıysanız, depoyu çatallayın, yeni eklentinizi yapın ve bir çekme isteği gönderin!
-Bazı değişiklikler yapmanızı isteyebileceğimizi unutmayın, ancak eklentinizi minimum düzeyde uygun olduğu sürece muhtemelen kabul edeceğiz.
+## Step 12: Send a pull request!
+Fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

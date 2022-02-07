@@ -91,6 +91,7 @@ IndexPage:
     Paragraph: 満足しましたか? 今すぐインストールを!
     InstallButton:
       Other: あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。
+  Users: ユーザー
 AddonsPage:
   EasterEggAddon: イースターエッグです。
   RecommendedAddon: おすすめのアドオンです。

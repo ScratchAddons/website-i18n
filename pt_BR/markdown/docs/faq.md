@@ -1,141 +1,141 @@
 ---
-title: Perguntas Frequentes
-description: Essa página contém perguntas frequentes relacionadas à extensão e projeto do Scratch Addons.
+title: Frequently Asked Questions
+description: This page lists frequently asked questions related to the Scratch Addons extension and project.
 ---
 
-Essa página contém perguntas frequentes relacionadas à extensão e projeto do Scratch Addons.
+This page lists frequently asked questions related to the Scratch Addons extension and project.
 
-### O que é o Scratch Addons?
+### What is Scratch Addons?
 
-O Scratch Addons é uma extensão de navegador "tudo-em-um" para o site e editor de projeto do Scratch. Ele adiciona funções e temas (chamados de addons) ambos para o site do Scratch e para o editor de projeto. A missão do Scratch Addons é combinar todas as extensões, userscripts e userstyles existentes para o Scratch, desenvolvidos por diversos membros da comunidade, em um único lugar de fácil acesso, e ainda deixar os usuários escolherem quais funções querem usar.
+Scratch Addons is an "all-in-one" browser extension for the Scratch website and project editor. It provides features and themes (called addons internally), both for the Scratch website and the project editor. Scratch Addons' mission is to combine all existing Scratch extensions, userscripts and userstyles, developed by several members of the Scratch community, into a single easy-to-access place, while still letting users choose which ones to enable.
 
-### O que exatamente é um "addon"?
+### What is an "addon", exactly?
 
-Um addon é parecido com uma extensão ou userscript, mas usa APIs especiais da extensão do Scratch Addons. Essas APIs permitem que addons rodem scripts em uma página do Scratch (userscripts), rodem scripts em segundo plano (scripts persistentes), ou mudem a aparência do site do Scratch (userstyles).
+An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
 
-Userscripts e scripts persistentes podem utilizar as APIs JavaScript `addon.*`, que lhes permitem obter informações relacionadas ao Scratch (por exemplo, obter o usuário atual logado) e também utilizar APIs de extensão (como o envio de notificações).
+Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
 
-### Se tudo é um addon, então o que o Scratch Addons faz?
+### If everything is an addon, then what does Scratch Addons do?
 
-Sozinho, o Scratch Addons é apenas um carregador de addons. Suas principais tarefas são:
+By itself, Scratch Addons is just an addon loader. Its main tasks are:
 
-- Permitir aos usuários ativar, desativar e configurar addons.
-- Executar addons e fornecer APIs.
-- Fornecer um estado global para addons (por exemplo, a API addon.auth).
-- Fornecer protótipos que os addons userscript podem usar.
-- Fornecer maneiras de acessar e modificar o estado Redux.
-- Não deixar que addons interfiram uns com os outros.
-- Evitar que addons diferentes façam o mesmo trabalho.
+- Allow users to enable, disable and configure addons.
+- Run addons and provide APIs to them.
+- Provide global state to addons (for example, the addon.auth API).
+- Pollute prototypes for use by addon userscripts.
+- Provide ways to access and modify Redux state.
+- Avoid addons from interfering with each other.
+- Avoid duplicate work from different addons.
 
-### O Scratch Addons é seguro?
+### Is Scratch Addons safe? 
 
-Sim. A versão mais recente do Scratch Addons não deve ter nenhum problema de segurança. Scratch Addons é um projeto de código aberto, portanto o código está sendo constantemente verificado por colaboradores do Scratch Addons, bem como por revisores da Chrome Web Store e Add-ons for Firefox.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store and Add-ons for Firefox.
 
-### Como posso reportar uma vulnerabilidade de segurança?
+### How can I report a security vulnerability?
 
-Se você encontrar uma vulnerabilidade de segurança, por favor, entre em contato com World_Languages em particular, enviando um e-mail para `worldxlanguages (arroba) gmail.com`. Se você não receber uma resposta dentro de 48 horas, por favor, crie um issue [aqui](https://github.com/ScratchAddons/ScratchAddons/issues/) mencionando que você enviou um e-mail.
+If you happen to find a security vulnerability please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please create an issue [here](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning you sent an email.
 
-Você pode [ler nossa política de segurança](https://github.com/ScratchAddons/ScratchAddons/security/policy), ou [verificar os conselhos que publicamos](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy), or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Minha conta estará segura se eu usar o Scratch Addons?
+### Will my account be safe when using Scratch Addons?
 
-O Scratch Addons não usa as credenciais de sua conta para funcionar. Na verdade, você pode nem estar logado no Scratch, e o Scratch Addons ainda funcionará. O Scratch Addons só envia pedidos baseados nos cookies que você tem, que são fornecidos pelo navegador para cada pedido, portanto alguns addons como Mensagens do Scratch não funcionarão quando você estiver logando, mas não afetarão outras partes da extensão.
+Scratch Addons doesn't use your account credentials to essentially work. In fact, you can be logged out from Scratch, and Scratch Addons will still work. Scratch Addons will only send requests based on the cookies that you have, which is supplied by the browser for each request, so some addons like Scratch Messaging won't work when you are logging in, but it won't affect other parts of the extension.
 
-Addons do Scratch Addons também foram revisados por vários colaboradores no repositório, de modo que ninguém pode simplesmente passar código malicioso sem a gente perceber.
+Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
 
-Nunca enviamos informações de contas do Scratch ou configurações da extensão para fora de seu navegador. Consulte [a política de privacidade da extensão](/docs/privacy/policies/extension) para mais informações.
+We never send Scratch account information or extension settings outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
 
-### Posso falar do Scratch Addons no Scratch?
+### Can I tell people about Scratch Addons on Scratch?
 
-Você não pode, e por favor não fale. Existe uma política no Scratch que proíbe usuários de propagarem extensões/userscripts [aqui](https://scratch.mit.edu/discuss/post/2907564/). Você pode, porém, usar outros métodos para contar sobre o Scratch Addons pros seus amigos.
+You can't, and please don't. There is a policy that forbids advertising browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/). You may, however, use different methods to tell your friends about Scratch Addons.
 
-### Como posso contribuir com o Scratch Addons?
+### How can I contribute to Scratch Addons?
 
-Primeiramente, obrigado por se interessar em contribuir com o Scratch Addons. Agradecemos seu interesse e suas próximas contribuições.
+Firstly, thank you for your interest of contributing to Scratch Addons. We appreciate your interest and your later contributions. 
 
-Como um projeto de código aberto, acolhemos qualquer tipo de contribuição. Você nem precisa nos pedir ou ser conhecido. Qualquer um é bem-vindo. Há até mesmo uma chance de que você nem perceba que contribuiu para o projeto!
+As an open source project, we welcome any kind of contributions. You don't even need to ask us or to have a certain rank. Anyone is welcome. There's even a chance that you don't even realize that you have contributed to the project! 
 
-Voltando ao ponto. Você pode contribuir de muitas maneiras, e algumas delas são super fáceis.
+Anyway, back to the point. You can contribute in many ways, and some of it is really easy.
 
-- **Contribuir com código**
+- **Contribute some code**
 
-  Se você sabe programar em JavaScript, HTML5 e CSS, você pode contribuir programando. Você pode corrigir bugs, resolver alguns pedidos, ou criar seu próprio addon.
+  If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
 
-  Depois disso, você precisa criar um pull request. Você pode fazer isso criando um fork do [repositório](https://github.com/ScratchAddons/ScratchAddons/), fazendo suas mudanças necessárias e criando um pull request. Se for viável, faremos o merge.
+  After that, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), do your necessary changes, and create a pull request. If it is deemed feasible, we will merge it.
 
-  Também estamos abertos para contribuições de outros aspectos que não a extensão. Você pode ver nossos repositórios na [nossa página de organização no GitHub] (https://github.com/ScratchAddons) e ajudar a desenvolvê-los.
+  We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
 
-- **Sugerir uma ideia**
+- **Suggest an idea**  
 
-  Tem alguma ideia que você acha que seria uma boa adição ao Scratch Addons? [Conte-nos!](#i-think-you-missed-a-feature-what-can-i-do)
+  Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **Reportar um bug**
+- **Report a bug**
 
-  Encontrou um bug em um de nossos addons, na página de configurações, ou qualquer outra coisa em nossa extensão? [Envie-nos um relatório de bug](#what-can-i-do-if-i-find-a-problem).
+  Found a bug in one of our addon, the settings page, or anything else on our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
 
-- **Traduzir o Scratch Addons**
+- **Translate Scratch Addons**  
 
-  Se você fala inglês e outro idioma fluentemente, você pode ajudar a traduzir/localizar o Scratch Addons para seu idioma. Você pode começar [aqui](/docs/localization/joining-the-localization-team).
+  If you can speak another language than English fluently, you can help translate/localize Scratch Addons to your language. You can start from [here](/docs/localization/joining-the-localization-team).
 
-- **Escrever a documentação**
+- **Write the documentation**
 
-  Está familiarizado com o Scratch Addons? Se sim, você pode escrever a documentação. A documentação pode incluir informações sobre como usar a extensão, ou como ela funciona. Entre em contato conosco pela [nossa aba Discussão] (https://github.com/ScratchAddons/ScratchAddons/discussions) para mais informações.
+  Are you familiar with Scratch Addons? If so, you can write the documentation for it. The documentation can include how to use it, or how it works. Please contact us on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) for further information.
 
-- **Mandar feedback**
+- **Send feedback**  
 
-  Você pode enviar feedback em nosso formulário, que está na [página de feedback] (https://scratchaddons.com/feedback). Seu feedback pode nos dar uma perspectiva diferente no desenvolvimento da extensão e nos ajudar a saber que coisas precisam de atenção e que bugs corrigir.
+  You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
-- **Deixar uma resenha nas lojas**
+- **Leave a review on the stores**
 
-  Você pode nos deixar uma resenha sobre o Scratch Addons na [página da extensão no Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) ou na [página do addon no Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
 
-- **Deixar uma estrela no nosso repositório**
+- **Star our repository**
 
-  Basicamente, o botão de estrela de GitHub é semelhante ao botão de estrela/favorito no Scratch. Você pode fazer isso indo até o [nosso repositório](https://github.com/ScratchAddons/ScratchAddons) e clicando no botão "Star" no canto superior direito.
+  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and click the "Star" button on the top-right corner.
 
-- **Divulgar**
+- **Spread the word**
 
-  Você pode falar sobre o Scratch Addons pra qualquer pessoa, como seus amigos, seus parentes, seus familiares ou até mesmo seu professor, se quiser. Só pedimos que você [não faça isso no site Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
+  You can tell anyone about Scratch Addons, like your friends, your relatives, your family members, or even your teacher, if you want. We're just asking you to [not do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### Como posso criar meu próprio addon?
+### How can I create my own addon?
 
-Leia mais sobre como criar um addon no Scratch Addons [aqui](/docs/develop/getting-started).
+Read more about how to create an addon on Scratch Addons [here](/docs/develop/getting-started).
 
-### Como posso colocar o meu nome na [página de contribuidores](/contributors)?
+### How can I put my name on the [contributors page](/contributors)?
 
-Por favor leia e siga as instruções [nesse issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) para incluir seu nome na página.
+Please read and follow the instruction of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) in order to have your name on said page.
 
-### Como posso remover meu nome da [página de contribuidores](/contributors)?
+### How can I remove my name from the [contributors page](/contributors)?
 
-Se você não quiser que seu nome esteja na página, por favor, nos diga criando um issue no [nosso repositório de colaboradores](https://github.com/ScratchAddons/contributors/issues/), ou por outros meios de contato. Pedimos desculpas pelo inconveniente.
+If you don't want your name to be on the page, please tell us by creating an issue on [our contributors repository](https://github.com/ScratchAddons/contributors/issues/), or by other means of contact. We're sorry for the inconvenience.
 
-### O que posso fazer se encontrar um problema?
+### What can I do if I find a problem?
 
-Você pode nos contar usando um desses meios:
+You can tell us using one of these methods.
 
-- Envie através de [nosso formulário de feedback](https://scratchaddons.com/feedback).
-- Crie um issue no [repositório](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Crie uma postagem na [nossa aba Discussão](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Conte-nos no [nosso servidor do Discord](https://discord.gg/R5NBqwMjNc).
+- Send it through [our feedback form](https://scratchaddons.com/feedback).
+- Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).
 
-### Acho que falta uma função na extensão. O que posso fazer?
+### I think you missed a feature. What can I do?
 
-Se você acha que falta uma função, ou se quiser sugerir uma adição à extensão, ou se tiver uma boa ideia, nos diga [através de um dos métodos mencionados acima](#what-can-i-do-if-i-find-a-problem).
+If you think a feature is missing, or you want to suggest an addon to the extension, or you have a good idea, tell us by [following one of the methods mentioned above](#what-can-i-do-if-i-find-a-problem).
 
-### Onde posso falar sobre o Scratch Addons?
+### Where can I discuss about Scratch Addons?
 
-Você pode discutir na [nossa aba Discussão](https://github.com/ScratchAddons/ScratchAddons/discussions) ou no [nosso servidor do Discord](https://discord.gg/R5NBqwMjNc). Lá, você pode discutir e fazer perguntas se estiver tendo problemas.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can discuss about it and ask questions if you're having trouble.
 
-### Acho que o Scratch Addons está deixando o Scratch mais lento. O que posso fazer?
+### I think Scratch Addons slows down Scratch. What can I do?
 
-Tente desligar os addons que você não precisa. Além disso, verifique os avisos de cada addon para decidir quais devem ser desligados para um melhor desempenho.
+Try to turn off addons that you don't need. Also, check addon notices and warnings to decide which addons should be turned off for better performance. 
 
-### Como ativo os addons secretos?
+### How can you activate the easter egg addons?
 
-Para mostrar os easter eggs, faça o Konami Code (↑↑↓↓←→←→BA) no seu teclado na página de configurações. Assim, os addons secretos aparecerão, e você poderá ativá-los.
+To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
 
-Alguns de nossos addons secretos são "Corrigir capitalização de Configurações de Conta" e "Glitch do ponto e vírgula". Confira [a aba de addons](/addons) para uma lista completa.
+Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-### Tenho mais perguntas!
+### I have more questions!
 
-Se você tiver mais perguntas que precisam de respostas, você pode criar uma postagem na [nossa aba Discussão](https://github.com/ScratchAddons/ScratchAddons/discussions) ou enviar uma mensagem no [nosso servidor do Discord](https://discord.gg/R5NBqwMjNc). Alguém tentará respondê-lo para você.
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.

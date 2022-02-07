@@ -1,141 +1,141 @@
 ---
-title: よくある質問
-description: Scratch Addonsに関するよくある質問を掲載します。
+title: Frequently Asked Questions
+description: This page lists frequently asked questions related to the Scratch Addons extension and project.
 ---
 
-Scratch Addonsに関するよくある質問を掲載します。
+This page lists frequently asked questions related to the Scratch Addons extension and project.
 
-### Scratch Addonsとは?
+### What is Scratch Addons?
 
-Scratch Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、アドオンとして利用できるようにしています。アドオンは各自に有効化できます。
+Scratch Addons is an "all-in-one" browser extension for the Scratch website and project editor. It provides features and themes (called addons internally), both for the Scratch website and the project editor. Scratch Addons' mission is to combine all existing Scratch extensions, userscripts and userstyles, developed by several members of the Scratch community, into a single easy-to-access place, while still letting users choose which ones to enable.
 
-### アドオンとは?
+### What is an "addon", exactly?
 
-アドオンは拡張機能のようなものですが、Scratch AddonsのAPIを利用できます。このAPIによって、Scratchページ上でスクリプトを実行したり、バックグラウンドで処理を行ったり、Scratchウェブサイトの外観を変えることができます。
+An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
 
-こうしたスクリプトは`addon.*`JavaScript APIを使って、Scratchに関連する情報(たとえば、現在ログイン中のユーザー名)を入手したり、通知の送信など拡張機能のAPIを利用できます。
+Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
 
-### もしすべてがアドオンなら、Scratch Addonsの役目は何ですか?
+### If everything is an addon, then what does Scratch Addons do?
 
-Scratch Addonsはアドオンを読み込みます。たとえば:
+By itself, Scratch Addons is just an addon loader. Its main tasks are:
 
-- アドオンを個別に有効化したり、設定を変更したりする。
-- アドオンにAPIを提供し、実行する。
-- addon.auth APIなど、データを提供する。
-- スクリプトの実行用にコードを挿入する。
-- Reduxへのアクセスを提供する。
-- アドオン間の干渉を防ぐ。
-- アドオン間でのコードの重複を防ぐ。
+- Allow users to enable, disable and configure addons.
+- Run addons and provide APIs to them.
+- Provide global state to addons (for example, the addon.auth API).
+- Pollute prototypes for use by addon userscripts.
+- Provide ways to access and modify Redux state.
+- Avoid addons from interfering with each other.
+- Avoid duplicate work from different addons.
 
-### Scratch Addonsは安全ですか?
+### Is Scratch Addons safe? 
 
-はい。Scratch Addonsの最新バージョンにはセキュリティー上の問題は存在しないはずです。Scratch Addonsはオープンソースソフトウェアで、コードは常時Scratch Addonsの貢献者によってレビューされています。また、Chrome Web StoreとAdd-ons for Firefoxのレビュアーによっても確認済みです。
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store and Add-ons for Firefox.
 
-### どうやって脆弱性を報告できますか?
+### How can I report a security vulnerability?
 
-脆弱性情報は、World_Languages氏に直接連絡してください。メールアドレスは`worldxlanguages (at) gmail.com`です。48時間以内に回答がない場合は、[ここ](https://github.com/ScratchAddons/ScratchAddons/issues/)にてIssueを作成してください。そのときは、メールを送信したことを述べてください。
+If you happen to find a security vulnerability please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please create an issue [here](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning you sent an email.
 
-[セキュリティー方針](https://github.com/ScratchAddons/ScratchAddons/security/policy)と[過去に発見された脆弱性情報](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)は各ウェブサイトで確認できます。
+You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy), or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Scratch Addonsを使っても、アカウントは安全ですか?
+### Will my account be safe when using Scratch Addons?
 
-Scratch Addonsの基礎は、アカウントの認証情報を必要しません。そのため、多くの機能は、ログアウト時でも動作します。Scratch Addonsは、ブラウザーから提供されるクッキーを用いて認証します。Scratchメッセージのようなアドオンはログアウト時は動作しませんが、それ以外の部分は問題ありません。
+Scratch Addons doesn't use your account credentials to essentially work. In fact, you can be logged out from Scratch, and Scratch Addons will still work. Scratch Addons will only send requests based on the cookies that you have, which is supplied by the browser for each request, so some addons like Scratch Messaging won't work when you are logging in, but it won't affect other parts of the extension.
 
-Scratch Addonsのコードはすべて複数の貢献者によりチェックされているため、ウイルスなどを隠すことはできません。
+Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
 
-Scratchのアカウント情報や拡張機能設定は、ブラウザー内にとどまります。詳細は[プライバシーポリシー](/docs/privacy/policies/extension)を参照してください。
+We never send Scratch account information or extension settings outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
 
-### Scratch Addonsについて、Scratch上で言及していいですか?
+### Can I tell people about Scratch Addons on Scratch?
 
-できません - しないでください。[方針](https://scratch.mit.edu/discuss/post/2907564/)により、拡張機能等の宣伝は禁止されています。ただし、Scratch外であれば、問題はありません。
+You can't, and please don't. There is a policy that forbids advertising browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/). You may, however, use different methods to tell your friends about Scratch Addons.
 
-### どうやってScratch Addonsに貢献できますか?
+### How can I contribute to Scratch Addons?
 
-Scratch Addonsへの貢献を考えてくれて、ありがとございます。
+Firstly, thank you for your interest of contributing to Scratch Addons. We appreciate your interest and your later contributions. 
 
-オープンソースプロジェクトとして、どのような貢献も歓迎します。特別な役職は必要ありません。だれでも参加できます。
+As an open source project, we welcome any kind of contributions. You don't even need to ask us or to have a certain rank. Anyone is welcome. There's even a chance that you don't even realize that you have contributed to the project! 
 
-以下のような方法があります:
+Anyway, back to the point. You can contribute in many ways, and some of it is really easy.
 
-- **コードを貢献する**
+- **Contribute some code**
 
-  JavaScript、HTML5、CSSの知識がある場合は、コーディングで貢献できます。バグを修正したり、機能追加の要請にこたえたり、自分のアドオンを作れます。
+  If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
 
-  [リポジトリ](https://github.com/ScratchAddons/ScratchAddons/)をフォークした後は、変更をし、プルリクエストを送信できます。その後開発者たちがマージします。
+  After that, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), do your necessary changes, and create a pull request. If it is deemed feasible, we will merge it.
 
-  拡張機能以外への貢献も大歓迎です。[GitHub ページ](https://github.com/ScratchAddons)でリポジトリの一覧を確認できます。
+  We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
 
-- **提案する**
+- **Suggest an idea**  
 
-  Scratch Addonsにほしい機能がありますか? [提案してみましょう!](#i-think-you-missed-a-feature-what-can-i-do)
+  Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **バグを報告する**
+- **Report a bug**
 
-  アドオンや設定ページなど、拡張機能に問題がある場合は、[バグレポートを送信できます](#what-can-i-do-if-i-find-a-problem)。
+  Found a bug in one of our addon, the settings page, or anything else on our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
 
-- **翻訳する**
+- **Translate Scratch Addons**  
 
-  英語以外の言語を話す場合は、Scratch Addonの翻訳に協力できます。なお、日本語の翻訳者は受け付けていません。[詳細](/docs/localization/joining-the-localization-team)を確認できます。
+  If you can speak another language than English fluently, you can help translate/localize Scratch Addons to your language. You can start from [here](/docs/localization/joining-the-localization-team).
 
-- **説明文書を書く**
+- **Write the documentation**
 
-  Scratch Addonsに詳しい場合は、使用方法、動作などを含む説明文書を書くこともできます。詳細について気になる場合は、[Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)にて連絡してください。
+  Are you familiar with Scratch Addons? If so, you can write the documentation for it. The documentation can include how to use it, or how it works. Please contact us on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) for further information.
 
-- **感想を送る**
+- **Send feedback**  
 
-  [フィードバックフォーム](https://scratchaddons.com/feedback)から、感想や意見を送れます。これらの意見は、拡張機能の開発に役立ちます。
+  You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
-- **ストアでレビューする**
+- **Leave a review on the stores**
 
-  [Chrome 拡張機能ストア](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)や[Firefox 拡張機能ストア](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)で、Scratch Addonsのレビューを投稿できます。
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
 
-- **リポジトリにスターをつける**
+- **Star our repository**
 
-  [リポジトリ](https://github.com/ScratchAddons/ScratchAddons)にて、Starボタンを押してスターをつけられます。
+  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and click the "Star" button on the top-right corner.
 
-- **拡散する**
+- **Spread the word**
 
-  Scratch Addonsを友人などに広めてください。ただし、[Scratch ウェブサイト上ではしないでください](#can-i-tell-people-about-scratch-addons-on-scratch)。
+  You can tell anyone about Scratch Addons, like your friends, your relatives, your family members, or even your teacher, if you want. We're just asking you to [not do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### どうやってアドオンを作れますか?
+### How can I create my own addon?
 
-[アドオンの作り方](/docs/develop/getting-started)に関しては、別のページにて記載されています。
+Read more about how to create an addon on Scratch Addons [here](/docs/develop/getting-started).
 
-### どうやって[貢献者ページ](/contributors)に名前を掲載できますか?
+### How can I put my name on the [contributors page](/contributors)?
 
-[このIssue]((https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}))を読んで、説明に従ってください。
+Please read and follow the instruction of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) in order to have your name on said page.
 
-### どうやって[貢献者ページ](/contributors)から名前を削除できますか?
+### How can I remove my name from the [contributors page](/contributors)?
 
-貢献者ページに名前を掲載されたくない場合は、[貢献者ページのリポジトリ](https://github.com/ScratchAddons/contributors/issues/)にIssueを作成するか、その他の方法で連絡してください。
+If you don't want your name to be on the page, please tell us by creating an issue on [our contributors repository](https://github.com/ScratchAddons/contributors/issues/), or by other means of contact. We're sorry for the inconvenience.
 
-### 問題を見つけた場合はどうすればいいですか?
+### What can I do if I find a problem?
 
-以下の方法で連絡できます:
+You can tell us using one of these methods.
 
-- [フィードバックフォーム](https://scratchaddons.com/feedback)から送る。
-- [リポジトリ](https://github.com/ScratchAddons/ScratchAddons/issues)にてIssueを作成する。
-- [Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)にて投稿する。
-- [Discord サーバー](https://discord.gg/R5NBqwMjNc)にて投稿する。
+- Send it through [our feedback form](https://scratchaddons.com/feedback).
+- Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).
 
-### 機能を追加してほしいです。どうすればいいですか?
+### I think you missed a feature. What can I do?
 
-機能を提案したい場合は、[上に挙げた方法で連絡できます](#what-can-i-do-if-i-find-a-problem)。
+If you think a feature is missing, or you want to suggest an addon to the extension, or you have a good idea, tell us by [following one of the methods mentioned above](#what-can-i-do-if-i-find-a-problem).
 
-### Scratch Addonsに関して議論できる場所はありますか?
+### Where can I discuss about Scratch Addons?
 
-[Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)や[Discord サーバー](https://discord.gg/R5NBqwMjNc)にて行えます。Scratch Addonsに関して話したり、質問ができます。
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can discuss about it and ask questions if you're having trouble.
 
-### Scratch Addonsが重いです。どうすればいいですか?
+### I think Scratch Addons slows down Scratch. What can I do?
 
-不要なアドオンを無効にしてみてください。また、アドオン設定の注意書きにて、パフォーマンスに影響を及ぼすアドオンを確認できます。
+Try to turn off addons that you don't need. Also, check addon notices and warnings to decide which addons should be turned off for better performance. 
 
-### イースターエッグはありますか?
+### How can you activate the easter egg addons?
 
-はい。イースターエッグを表示するには、設定ページにて「コナミコマンド」(↑↑↓↓←→←→BA)を入力してください。その後、イースターエッグのアドオンが表示されます。
+To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
 
-イースターエッグのアドオンには「何もしないアドオン」や「セミコロンのバグ」があります。詳細は[アドオンページ](/addons)を確認してください。
+Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-### 他にも質問があります!
+### I have more questions!
 
-質問がある場合は、[Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)や[Discord サーバー](https://discord.gg/R5NBqwMjNc)にて投稿できます。
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.

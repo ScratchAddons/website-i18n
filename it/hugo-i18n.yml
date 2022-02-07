@@ -90,6 +90,7 @@ IndexPage:
     Paragraph: Soddisfatto? Non aspettare, installala subito!
     InstallButton:
       Other: ...o {{.OpenTag1}}scaricala da GitHub{{.CloseTag1}} o {{.OpenTag2}}installata dal codice sorgente{{.CloseTag2}}.
+  Users: Utenti
 AddonsPage:
   EasterEggAddon: Questo addon è un easter egg.
   RecommendedAddon: Questo addon è raccomandato.
