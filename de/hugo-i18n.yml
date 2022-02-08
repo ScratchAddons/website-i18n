@@ -44,7 +44,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: All-in-one-Browsererweiterung für Scratch
-    Description: Scratch Addons ist eine Browsererweiterung, die neue Features und Themes für die Scratch-Website und den Projekteditor zur Verfügung stellt. Seine Mission ist es, Userstyles und Userscripts von verschiedenen Mitgliedern der Scratch-Community zu sammeln, zu archivieren und in Betrieb zu setzen.
+    Description: Scratch Addons ist eine Browsererweiterung, die neue Funktionen und Designs für die Scratch-Website und den Projekteditor zur Verfügung stellt. Seine Mission ist es, Userstyles und Userscripts von verschiedenen Mitgliedern der Scratch-Community zu sammeln, zu archivieren und in Betrieb zu setzen.
     InstallButton:
       Loading: Laden...
       Description: kostenlos, open-source
@@ -66,7 +66,7 @@ IndexPage:
   Features:
     AddonsParagraph: Scratch Addons besteht aus Funktionen, die deine Erfahrung auf der Scratch-Website und dem Scratch-Editor verbessern.
     CustomizableHeading: Anpassbar
-    CustomizableParagraph: Scratch Addons hat eine einfach zu verwendende Oberfläche zum Steuern von verschiedenen Einstellungen jedes Features und Themes.
+    CustomizableParagraph: Scratch Addons hat eine einfach zu verwendende Oberfläche zum Steuern von verschiedenen Einstellungen jedes Funktionen und Designs.
     InternationalParagraph: Nicht nur Englisch. Scratch Addons ist auf Spanisch, Russisch, Japanisch, Französisch, Deutsch und mehr Sprachen verfügbar.
     OSHeading: Open-Source
     OSParagraph: Scratch Addons ist kostenlos, open-source und von einer Scratcher-Community entwickelt.
@@ -83,6 +83,7 @@ IndexPage:
     Paragraph: Zufrieden? Zögere nicht und installiere es jetzt!
     InstallButton:
       Other: "...oder {{.OpenTag1}}lade es von GitHub herunter{{.CloseTag1}} oder {{.OpenTag2}}installiere es von der Quelle{{.CloseTag2}}. "
+  Users: Nutzer
 AddonsPage:
   EasterEggAddon: Dies ist ein Easter Egg-Addon.
   RecommendedAddon: Dies ist ein empfohlenes Addon.
