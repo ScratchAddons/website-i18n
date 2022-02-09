@@ -7,11 +7,13 @@ Nav:
   Install: Pasang
 Footer:
   Pages:
+    Header: Halaman-Halaman
     Feedback: Kirim Umpan Balik
     Contributors: Kontributor
     Changelog: Daftar
   Discuss:
     Header: Diskusikan
+    Discussion: Forum Diskusi
     Issues: Masalah
     DiscordCom: Discord Komunitas
     DiscordDev: Discord Pengembangan
