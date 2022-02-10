@@ -1,23 +1,23 @@
 _index.html:
-  description: ""
+  description: "Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch (scratch.mit.edu) i edytora projektu. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a."
 addons.html:
-  title: ""
-  description: ""
+  title: Dodatki
+  description: "Ta strona zawiera listę wszystkich dodatków, które są zaimplementowane w dodatkach Scratch. "
 changelog.html:
-  title: ""
-  description: ""
+  title: Lista zmian
+  description: "Wszystkie godne uwagi zmiany w tym projekcie zostaną udokumentowane na tej stronie. "
 farewell.html:
   title: Pożegnanie!
-  description: ""
+  description: "Dodatki Scratch zostały odinstalowane. Dziękujemy za skorzystanie z rozszerzenia! "
 feedback.html:
-  title: ""
-  description: ""
+  title: Wyślij Opinię
+  description: Wyślij opinię do Developerów Scratch Addons
 scratch-messaging-transition.html:
-  title: ""
-  description: ""
+  title: "Aktualizacja rozszerzenia (przejście) "
+  description: "Rozszerzenie Scratch Messaging (od griffpatch) zostało zaktualizowane i nosi teraz nazwę Scratch Addons. Kliknij ikonę Scratch Addons na pasku rozszerzeń, aby sprawdzić nowe, przeprojektowane podsumowanie wiadomości! "
 unsupported-browser.html:
-  title: ""
-  description: ""
+  title: Niewspierana przeglądarka
+  description: "Scratch Addons nie wspiera przeglądarki, której używasz!"
 welcome.html:
-  title: ""
-  description: ""
+  title: Witamy!
+  description: "Dodatki Scratch zostały pomyślnie zainstalowane! Dziękujemy za instalację. Mamy nadzieję, że rozszerzenie przypadnie Ci do gustu! "

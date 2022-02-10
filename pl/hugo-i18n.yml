@@ -40,9 +40,15 @@ Docs:
   TOCToggleLabel: Przełącz pasek boczny spisu treści
   LastUpdated: Ostatni raz aktulizowane {{.Date}}przez {{.Name}}na commitcie {{.Commit}}.
   Improve: Ulepsz tą stronę.
+  SectionPages: Sekcje Strony
+PlayerModal:
+  LabelPlay: Puść
+  ModalTitle: Film
+  AltText: Kliknij, aby zobaczyć ten film.
 IndexPage:
   Intro:
     Tagline: Wszystkie w jednym rozszerzeniu do Scratcha
+    Description: Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch i edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a
     InstallButton:
       Loading: Ładowanie...
       Description: darmowe, otwarte źródło
@@ -50,10 +56,73 @@ IndexPage:
     Carousel:
       Video:
         Caption: Zwiastun.
+      Popup:
+        Caption: "Wyskakujące okienko rozszerzenia. "
+        ImgAlt: "Wyskakujące okienko rozszerzenia "
       Settings:
         Caption: Strona ustawień
         ImgAlt: Strona ustawień
+      Demo:
+        Caption: Demonstracja rozszerzenia ({{.Count}}).
+        ImgAlt: Demonstracjia ({{.Count}})
       Previous: Poprzedni
       Next: Następny
   Features:
+    Heading: Funkcjonalności
     AddonsHeading: Dodatki
+    AddonsParagraph: "Scratch Addons składa się z dodatków, które są funkcjami ulepszającymi stronę Scratch i  funkcje edytora. "
+    CustomizableHeading: Konfigurowalne
+    CustomizableParagraph: Scratch Addons mają bardzo proste menu do edytowania ustawień i kolorów stron.
+    InternationalHeading: Międzynarodowe
+    InternationalParagraph: Nie tylko Angielski. Scratch Addons są dostępne po Hiszpańsku, Rosyjsku, Japońsku, Polsku i wiele więcej.
+    OSHeading: Otwarte źródła
+    OSParagraph: Scratch Addons jest darmowy, z otwartym źródłem i budowany przez grupę użytkowników Scratch.
+  Highlights:
+    Heading: Podkreślenia
+    Paragraph: Pamiętaj, to nie są tylko podkreślenia. {{.OpenTag1}} Jest więcej! {{.CloseTag1}}
+    ScratchMessagingHeading: Wiadomości Scratch
+    ScratchMessagingParagraph: "Pierwszy dodatek do Scratch. Jest dostępny po kliknięciu ikony Scratch Addons i zapewnia łatwe czytanie i odpowiadanie na Twoje wiadomości . Grupuje je według projektu, pokazuje pełny tekst komentarza i kontekst, umożliwia bezpośrednie odpowiadanie na komentarze. "
+    ScratchNotifierHeading: Powiadomienia Scratch
+    ScratchNotifierParagraph: Dodaje powiadomienia na każdą nową wiadomość. Możesz kliknąć na powiadomienie, aby przejść prosto do wiadomości (komentarzy, projektów itp.).
+    DeveloperToolsHeading: Narzędzia Developerskie
+    DeveloperToolsParagraph: "{{.OpenTag1}} Z oryginalnego rozszerzenia. {{.CloseTag1}} Dodaje możliwość szukania kodu, nowe opcje do edytora, funkcje kopiowania i dodawania bloku, lepsze sprzątanie bloków i więcej!"
+  Install:
+    Heading: Instalowanie
+    Paragraph: "Zadowolony/a? Nie wahaj się go teraz zainstalować Nasz dodatek! "
+    InstallButton:
+      Other: ...lub {{.OpenTag1}} pobierz kod z GitHub{{.CloseTag1}} lub{{.OpenTag2}}zainstaluj z źródła{{.CloseTag2}}.
+  Users: Użytkownicy
+AddonsPage:
+  EasterEggAddon: To jest ukryta funkcjonalność dodatku.
+  RecommendedAddon: To jest polecany dodatek.
+  ListViewLabel: "Widok listy "
+  EasterEggLabel: Ukryta funkcjonalność
+  EasterEggTooltip:
+    L1: "Aby aktywować dodatki, wykonaj Konami Code (↑↑↓↓←→←→BA) na stronie ustawień. Przeczytaj stronę z najczęściej zadawanymi pytaniami, aby uzyskać więcej informacji. "
+    L2: "Na tej stronie specjalny dodatek będzie miał nazwę obok symbolu jajka. "
+FeedbackPage:
+  Status:
+    Sending: Wysyłanie...
+    Success: Wysłane! Dziękujemy za opinię!
+    Failed: Coś poszło nie tak. Spróbuj wysłać wiadomość ponownie!
+  UsernameLabel: "Nazwa użytkownika w Scratch lub inne identyfikatory (opcjonalnie) "
+  ContentLabel: Twoja opinia
+  ContentPlaceholder: Proszę podaj nam najwięcej informacji jak możesz.
+  SendEnabled: "Wyślij listę moich aktualnie włączonych dodatków (zalecane) "
+  SubmitButton: Wyślij
+SMTPage:
+  ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
+ChangelogPage:
+  Highlights:
+    Title: Podkreślenia
+  Links:
+    Title: Linki
+    ReleaseGitHub: Wydania na stronie GitHub
+    RepoState: "Stan repozytorium w chwili wydania "
+    CommitsMade: "Zmiany zrobione w tej wersji "
+  Status:
+    Latest: Najnowsza stabilna
+    Yanked: "Najnowsza testowa "
+UnsupportedBrowserPage:
+  Download: Pobierz
+  HowToUpdate: Jak aktualizować
