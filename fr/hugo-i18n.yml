@@ -83,6 +83,7 @@ IndexPage:
     Paragraph: Satisfait ? N'hésitez pas à l'installer maintenant !
     InstallButton:
       Other: ... ou {{.OpenTag1}} installez-le depuis GitHub {{.CloseTag1}} ou {{.OpenTag2}} installez-le depuis la source {{.CloseTag2}}.
+  Users: Les Utilisateurs
 AddonsPage:
   EasterEggAddon: Cet addon est un easer egg.
   RecommendedAddon: Cet addon est recommandé.
