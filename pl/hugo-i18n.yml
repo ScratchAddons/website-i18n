@@ -78,19 +78,19 @@ IndexPage:
     OSHeading: Otwarte źródła
     OSParagraph: Scratch Addons jest darmowy, z otwartym źródłem i budowany przez grupę użytkowników Scratch.
   Highlights:
-    Heading: Podkreślenia
-    Paragraph: Pamiętaj, to nie są tylko podkreślenia. {{.OpenTag1}} Jest więcej! {{.CloseTag1}}
+    Heading: Warte wyróżnienia
+    Paragraph: Po za tymi dodatkami wspaniałymi dodatkami, znajdziesz {{.OpenTag1}} jeszcze więcej! {{.CloseTag1}}
     ScratchMessagingHeading: Wiadomości Scratch
     ScratchMessagingParagraph: "Pierwszy dodatek do Scratch. Jest dostępny po kliknięciu ikony Scratch Addons i zapewnia łatwe czytanie i odpowiadanie na Twoje wiadomości . Grupuje je według projektu, pokazuje pełny tekst komentarza i kontekst, umożliwia bezpośrednie odpowiadanie na komentarze. "
     ScratchNotifierHeading: Powiadomienia Scratch
     ScratchNotifierParagraph: Dodaje powiadomienia na każdą nową wiadomość. Możesz kliknąć na powiadomienie, aby przejść prosto do wiadomości (komentarzy, projektów itp.).
-    DeveloperToolsHeading: Narzędzia Developerskie
-    DeveloperToolsParagraph: "{{.OpenTag1}} Z oryginalnego rozszerzenia. {{.CloseTag1}} Dodaje możliwość szukania kodu, nowe opcje do edytora, funkcje kopiowania i dodawania bloku, lepsze sprzątanie bloków i więcej!"
+    DeveloperToolsHeading: Narzędzia Deweloperskie
+    DeveloperToolsParagraph: "{{.OpenTag1}} Skopiowane z oryginalnego rozszerzenia. {{.CloseTag1}}. Dodaje możliwość szukania w kodzie, nowe opcje do edytora, funkcje kopiowania i dodawania bloku, lepsze sprzątanie bloków i więcej!"
   Install:
-    Heading: Instalowanie
-    Paragraph: "Zadowolony/a? Nie wahaj się go teraz zainstalować Nasz dodatek! "
+    Heading: Instalacja
+    Paragraph: "Zainstaluj Nasz dodatek na różne przeglądarki:"
     InstallButton:
-      Other: ...lub {{.OpenTag1}} pobierz kod z GitHub{{.CloseTag1}} lub{{.OpenTag2}}zainstaluj z źródła{{.CloseTag2}}.
+      Other: ...lub {{.OpenTag1}} pobierz kod z GitHub{{.CloseTag1}} lub {{.OpenTag2}}zainstaluj z źródła{{.CloseTag2}}.
   Users: Użytkownicy
 AddonsPage:
   EasterEggAddon: To jest ukryta funkcjonalność dodatku.
@@ -114,15 +114,15 @@ SMTPage:
   ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
 ChangelogPage:
   Highlights:
-    Title: Podkreślenia
+    Title: Wyróżnione
   Links:
     Title: Linki
     ReleaseGitHub: Wydania na stronie GitHub
     RepoState: "Stan repozytorium w chwili wydania "
     CommitsMade: "Zmiany zrobione w tej wersji "
   Status:
-    Latest: Najnowsza stabilna
-    Yanked: "Najnowsza testowa "
+    Latest: Najnowsza
+    Yanked: Zepsuta
 UnsupportedBrowserPage:
   Download: Pobierz
   HowToUpdate: Jak aktualizować
