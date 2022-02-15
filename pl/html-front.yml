@@ -1,23 +1,23 @@
 _index.html:
-  description: "Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch (scratch.mit.edu) i edytora projektu. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a."
+  description: Scratch Addons to dodatek dodający nowe funkcjonalności i style do strony Scratch (scratch.mit.edu). Naszą misją jest zbieranie wszystkich dodatków i łączenie ich w jedną całość.
 addons.html:
   title: Dodatki
-  description: "Ta strona zawiera listę wszystkich dodatków, które są zaimplementowane w dodatkach Scratch. "
+  description: "Ta strona zawiera listę wszystkich dodatków, które znajdują się w rozszerzeniu Scratch Addons. "
 changelog.html:
   title: Lista zmian
-  description: "Wszystkie godne uwagi zmiany w tym projekcie zostaną udokumentowane na tej stronie. "
+  description: "Wszystkie aktualizacje w tym projekcie zostaną udokumentowane na tej stronie. "
 farewell.html:
   title: Pożegnanie!
-  description: "Dodatki Scratch zostały odinstalowane. Dziękujemy za skorzystanie z rozszerzenia! "
+  description: "Scratch Addons został odinstalowany. Dziękujemy za skorzystanie z rozszerzenia! "
 feedback.html:
   title: Wyślij Opinię
   description: Wyślij opinię do Developerów Scratch Addons
 scratch-messaging-transition.html:
   title: "Aktualizacja rozszerzenia (przejście) "
-  description: "Rozszerzenie Scratch Messaging (od griffpatch) zostało zaktualizowane i nosi teraz nazwę Scratch Addons. Kliknij ikonę Scratch Addons na pasku rozszerzeń, aby sprawdzić nowe, przeprojektowane podsumowanie wiadomości! "
+  description: "Rozszerzenie Scratch Messaging (od Griffpatch) zostało zaktualizowane i nosi teraz nazwę Scratch Addons. Kliknij ikonę Scratch Addons na pasku rozszerzeń, aby sprawdzić nowe, przeprojektowane podsumowanie wiadomości! "
 unsupported-browser.html:
   title: Niewspierana przeglądarka
   description: "Scratch Addons nie wspiera przeglądarki, której używasz!"
 welcome.html:
   title: Witamy!
-  description: "Dodatki Scratch zostały pomyślnie zainstalowane! Dziękujemy za instalację. Mamy nadzieję, że rozszerzenie przypadnie Ci do gustu! "
+  description: "Rozszerzenie Scratch Addons zostało pomyślnie zainstalowane! Mamy nadzieję, że rozszerzenie pomoże Ci w kodowaniu! "
