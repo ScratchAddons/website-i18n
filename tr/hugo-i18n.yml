@@ -29,7 +29,7 @@ Footer:
     Documentation: Dökümantasyon
   Legal:
     Copyright: © {{.Count}} Scratch Eklentileri katkıda bulunanlar
-    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Takımı, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
+    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Ekibi, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
     License: Scratch Eklentileri, GNU General Public License v3.0 altında lisanslanmıştır.
 DarkTheme:
   Title: Koyu temayı açmak için tıklayın.
@@ -83,7 +83,7 @@ IndexPage:
     Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Çok daha fazlası var!{{.CloseTag1}}
     ScratchMessagingHeading: Scratch Mesajlaşma
     ScratchMessagingParagraph: 'O, Scratch Eklentilerinin "dedesi". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırmaya, tam yorum metni ve bağlamını göstermeye, doğrudan yorum yanıtlamaya izin verir.'
-    ScratchNotifierHeading: Scratch Bildirimleri
+    ScratchNotifierHeading: Scratch Bildirimcisi
     ScratchNotifierParagraph: Scratch mesajlarına yeni tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayabilirsiniz.
     DeveloperToolsHeading: Geliştirici araçları
     DeveloperToolsParagraph: "{{.OpenTag1}}Orijinal uzantıdan.{{.CloseTag1}} Düzenleyiciye bir bulma kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme gibi özellikler ve daha fazlası!"
@@ -92,7 +92,7 @@ IndexPage:
     Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
     InstallButton:
       Other: ...ama istersen {{.OpenTag1}}GitHub' dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
-  Users: Kullanıcılar
+  Users: Kullanıcı
 AddonsPage:
   EasterEggAddon: Bu bir easter egg eklentisidir.
   RecommendedAddon: Bu, önerilen bir eklentidir.
