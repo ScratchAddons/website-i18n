@@ -468,7 +468,7 @@
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Editor comment previews",
+		"name": "Podgląd komentarzy w edytorze",
 		"description": "Allows you to preview the contents of comments by hovering over collapsed comments and blocks. You can use this to view comments that are off-screen, identify a loop block from the bottom by its preview, fit many long comments in a small space, and more.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -679,7 +679,7 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Customizable quotes and code blocks on forums",
+		"name": "Dostosuj cytaty i bloki kodu na forach",
 		"description": "Pokazuje ładniejszy kod i bloki cytatów na forach.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -1250,8 +1250,8 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Switch variables between \"For all sprites\" and \"For this sprite only\"",
-		"description": "Adds more options when renaming an existing variable or list: allows changing between \"For all sprites\" and \"For this sprite only\" and whether variables are stored in the cloud. Also adds a new option when right clicking a variable/list to quickly change its scope.",
+		"name": "Przełącz zmienną między ustawieniami \"Dla wszystkich duszków\" lub \"Tylko dla tego duszka\"",
+		"description": "Dodaje więcej opcji w czasie zmieniania nazwy obecnej zmiennej lub listy. Możesz zmienić czy dana zmienna jest dla \"Wszystkich duszków\" lub \"Tylko dla tego duszka\" oraz czy jest zapisywana w chmurze.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},

@@ -116,7 +116,7 @@
 	{
 		"id": "block-duplicate",
 		"name": "Дублировать скрипт с клавишей Alt",
-		"description": "Quickly duplicate a script by dragging it while holding the Alt key. Hold Ctrl as well to only duplicate a single block instead of the entire stack attached below it.",
+		"description": "Быстро дублирует скрипт, зажимая клавишу Alt и передвигая скрипт. Также зажимайте Ctrl, чтобы дублировать один блок.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -412,8 +412,8 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "Do not shift pasted items",
-		"description": "Paste copied items at their original position instead of shifted slightly in the costume editor.",
+		"name": "Не двигать вставленные предметы",
+		"description": "Вставляет скопированные предметы на их оригинальные позиции вместо слегка сдвинутого в редакторе костюмов.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -455,8 +455,8 @@
 	},
 	{
 		"id": "echo-effect",
-		"name": "Echo effect button",
-		"description": "Brings back the Echo button in the sound editor.",
+		"name": "Кнопка эхо",
+		"description": "Возвращает кнопку эхо в редакторе звуков.",
 		"tags": ["editor"]
 	},
 	{
@@ -588,8 +588,8 @@
 	},
 	{
 		"id": "emoji-picker",
-		"name": "Emoji picker for comments",
-		"description": "Adds a button to insert emojis to comments on the website.",
+		"name": "Выбор эмодзи для комментариев",
+		"description": "Добавляет кнопку, чтобы добавить эмодзи к комментариям на сайте.",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
@@ -731,8 +731,8 @@
 	},
 	{
 		"id": "fullscreen",
-		"name": "Enhanced full screen",
-		"description": "Fixes some undesired effects in the project player's full screen mode, opens it in your browser's full screen mode, and hides the green flag toolbar.",
+		"name": "Улучшенный полноэкранный режим",
+		"description": "Исправляет некоторые неблагоприятные эффекты в полноэкранном режиме плеере проекта, открывает его в полноэкранном режиме Вашего браузера и прячет панель инструментов зелёного флажка.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -775,7 +775,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Скрывать новые переменные",
-		"description": "Do not automatically create monitors for newly created variables or lists.",
+		"description": "Не создавать мониторы автоматически для новых переменных или списков.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -930,8 +930,8 @@
 	},
 	{
 		"id": "move-to-top-bottom",
-		"name": "Move costume to top or bottom",
-		"description": "Adds a right click context menu item to move a costume or a sound to the top or the bottom of the list. Previously part of the developer tools.",
+		"name": "Переместить костюм на самый вверх или в самый низ",
+		"description": "Добавляет кнопку к контекстному меню ПКМ для перемещения костюма в самый верх или в самый низ списка. Первоначально было частью инструментов разработчика.",
 		"tags": ["editor", "featured"]
 	},
 	{
@@ -1177,7 +1177,7 @@
 	{
 		"id": "search-my-stuff",
 		"name": "Строка поиска в Моих работах",
-		"description": "Allows you to search your projects, studios, and trash on the My Stuff page. Simply start typing anywhere on the page to start a search. You can also use Ctrl+Enter after searching to quickly open the top search result.",
+		"description": "Позволяет искать Ваши проекты, студии и корзину на странице «Мои работы». Просто начните писать что-либо на странице, чтобы начать поиск. Вы также можете нажать Ctrl+Ввод после поиска, чтобы быстро открыть самый верхний ответ.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1196,7 +1196,7 @@
 	{
 		"id": "search-sprites",
 		"name": "Поиск спрайтов по имени",
-		"description": "Добавляет поле поиске к панели спрайтов, чтобы искать спрайты по имени.",
+		"description": "Добавляет поле поиска к панели спрайтов, чтобы искать спрайты по имени.",
 		"tags": ["editor"],
 		"credits": [
 			{

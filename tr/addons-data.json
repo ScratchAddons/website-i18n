@@ -267,8 +267,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "Ön sayfada yöneticinin bağlantısı",
-		"description": "Ön sayfada yöneticinin kullanıcı adını ve profillerine tıklanabilir bir bağlantı ekler.",
+		"name": "Ön sayfada idarecinin bağlantısı",
+		"description": "Ön sayfada idarecinin kullanıcı adına ve profillerine tıklanabilir bir bağlantı ekler.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -419,8 +419,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Kukla bölmesinde kukla hareketini devre dışı bırak",
-		"description": "Blokların, kostümlerin ve seslerin, kuklalar bölmesi içinde hareket eden parçalar olmadan farklı kuklalara taşınmasına izin verir.",
+		"name": "Kukla bölmesinde kuklaların sallanmasını devre dışı bırak",
+		"description": "Blokların, kostümlerin ve seslerin, kuklalar bölmesi içinde sallanan parçalar olmadan farklı kuklalara taşınmasına izin verir.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -1228,7 +1228,7 @@
 	{
 		"id": "studio-followers",
 		"name": "Stüdyolarda takipçilere gözat düğmesi",
-		"description": "Yönettiğiniz stüdyolarda \"yöneticiler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görülen bir kullanıcıyı tek bir tıklamayla stüdyoya davet etmenizi sağlar.",
+		"description": "Yönettiğiniz stüdyolarda \"idareciler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görülen bir kullanıcıyı tek bir tıklamayla stüdyoya davet etmenizi sağlar.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
@@ -1238,7 +1238,7 @@
 	{
 		"id": "studio-tools",
 		"name": "Stüdyo araçları",
-		"description": "Yöneticilerin \"yöneticiler\" sekmesinde yöneticileri kolayca yöneticiliğe terfi ettirmelerine veya stüdyodan kaldırmasına olanak tanır ve \"Stüdyoyu Takip Et\" butonunun altındaki bir düğmeyi kullanarak stüdyodan ayrılma yeteneğini getirir.",
+		"description": "İdarecilerin \"idareciler\" sekmesinde yöneticileri kolayca idareciliğe terfi ettirmelerine veya stüdyodan kaldırmasına olanak tanır ve \"Stüdyoyu Takip Et\" butonunun altındaki bir düğmeyi kullanarak stüdyodan ayrılma yeteneğini getirir.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },

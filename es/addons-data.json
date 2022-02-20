@@ -104,7 +104,7 @@
 	{
 		"id": "block-count",
 		"name": "Contador de bloques",
-		"description": "Muestra el número total de bloques de un proyecto en la barra de menú del editor. Previamente parte de \"contador de objectos y scripts\".",
+		"description": "Muestra el número total de bloques de un proyecto en la barra de menú del editor. Previamente parte de \"contador de objetos y scripts\".",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -148,7 +148,7 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Guardas bloques como imagen",
+		"name": "Guardar bloques como imagen",
 		"description": "Haga click derecho en el área de código para exportar bloques como imágenes SVG/PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
@@ -198,7 +198,7 @@
 	{
 		"id": "columns",
 		"name": "Menú de categorías de dos columnas",
-		"description": "Divide el menú de categorías de bloques en dos columna y lo mueve a la cima de la paleta de bloques, como en Scratch 2.0.",
+		"description": "Divide el menú de categorías de bloques en dos columnas y lo mueve a la cima de la paleta de bloques, como en Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -279,7 +279,7 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Forma de bloque personalizada ",
+		"name": "Forma de bloque personalizada",
 		"description": "Ajuste el relleno, radio de esquinas y altura de la muesca de los bloques.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
@@ -533,13 +533,13 @@
 	{
 		"id": "editor-messages",
 		"name": "Mensajes en el editor",
-		"description": "Muestra su numero de mensajes en la barra de menú del editor.",
+		"description": "Muestra su número de mensajes en la barra de menú del editor.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Búsqueda en menus ",
+		"name": "Búsqueda en menús ",
 		"description": "Le permite buscar en bloques que tienen menús.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -567,7 +567,7 @@
 	{
 		"id": "editor-theme3",
 		"name": "Colores de bloques personalizables",
-		"description": "Edite los colores para cada categoria de bloques del editor.",
+		"description": "Edite los colores para cada categoría de bloques del editor.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -629,7 +629,7 @@
 	{
 		"id": "fix-editor-comments",
 		"name": "Mejores comentarios en editor",
-		"description": "Realiza varios cambios a los comentarios en el editor de Scratch: arregla un bug donde los comentarios enganchados a bloques no guardan sus posiciones correctamente luego de arrastrar, previene que los comentarios se creen fuera de la pantalla en scripts grande, mantiene las conexiones a comentarios rectas y más.",
+		"description": "Realiza varios cambios a los comentarios en el editor de Scratch: arregla un bug donde los comentarios enganchados a bloques no guardan sus posiciones correctamente luego de arrastrar, previene que los comentarios se creen fuera de la pantalla en scripts grandes, mantiene las conexiones a comentarios rectas y más.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
@@ -702,7 +702,7 @@
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "Más botones en barra de herramientas del foro",
+		"name": "Más botones en barra de herramientas de los foros",
 		"description": "Agrega botones a la barra de herramientas de edición de los foros para insertar etiquetas BBCode, como [center] o [color].",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -880,7 +880,7 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Mejores botones en editor de publicación en foros",
+		"name": "Mejores botones en el editor de publicación en foros",
 		"description": "Cambia los íconos de la interfaz del editor de publicaciones de los foros de íconos pixelados bitmap a íconos Material.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -996,7 +996,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "Capa sobre capa (onion skinning)",
-		"description": "Muestra capas transparentes de los disfraces anteriores o siguientes mientras edite un disfraz. Controlado con los botones debajo del editor de disfraces, al lado de los botones de zoom.",
+		"description": "Muestra capas transparentes de los disfraces anteriores o siguientes mientras edita un disfraz. Controlado con los botones debajo del editor de disfraces, al lado de los botones de zoom.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -1056,7 +1056,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Boton de reinventar en mis propios proyectos",
+		"name": "Botón de reinventar en mis propios proyectos",
 		"description": "Agrega el botón de Reinventar a sus proyectos.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -1250,8 +1250,8 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Cambiar variables entre \"Para todos los objetos\" y \"Sólo para este objeto\"",
-		"description": "Agrega más opciones al renombrar una variable o lista existente: permite cambiar entre \"Para todos los objetos\" y \"Sólo para este objeto\" y si las variables son almacenadas en la nube. También agrega una nueva opción al hacer click derecho en una variable/lista para cambiar rápidamente su ámbito.",
+		"name": "Cambiar variables entre \"Para todos los objetos\" y \"Solo para este objeto\"",
+		"description": "Agrega más opciones al renombrar una variable o lista existente: permite cambiar entre \"Para todos los objetos\" y \"Solo para este objeto\" y si las variables son almacenadas en la nube. También agrega una nueva opción al hacer click derecho en una variable/lista para cambiar rápidamente su ámbito.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
