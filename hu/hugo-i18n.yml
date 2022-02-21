@@ -1,0 +1,29 @@
+Global:
+  LogoAlt: Scratch Addons logó
+  Install: Telepítés
+  InstallFor: Telepítés {{.Browser}}-re
+Nav:
+  Contributors: Közreműködők
+  Feedback: Visszajelzés küldése
+  Repository: Adattár
+  Install: Telepítés
+Footer:
+  Pages:
+    Header: Oldalak
+    FAQ: GYIK
+    Feedback: Visszajelzés küldése
+    Contributors: Közreműködők
+    Changelog: Változtatásnapló
+    Addons: Kiegészítők
+  Discuss:
+    Header: Megvitatás
+    Discussion: Vitafórum
+    Issues: Problémák
+    DiscordCom: Közösségi Discord
+    DiscordDev: Fejlesztői Discord
+  Resources:
+    Header: Alapanyagok
+    Organization: Szervezet
+    Documentation: Dokumentáció
+  Legal:
+    Copyright: © {{.Count}} Scratch Addons közreműködői

@@ -86,12 +86,14 @@ IndexPage:
     Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!
     InstallButton:
       Other: ...или {{.OpenTag1}}скачайте с GitHub{{.CloseTag1}} или {{.OpenTag2}}установите с исходного кода{{.CloseTag2}}.
+  Users: Пользователи
 AddonsPage:
   EasterEggAddon: Это аддон в виде пасхалки.
   RecommendedAddon: Это рекомендованный аддон.
   EasterEggLabel: Пасхалка
   EasterEggTooltip:
     L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.
+    L2: На этой странице у пасхального аддона будет символ яйца рядом с его названием.
 FeedbackPage:
   Status:
     Sending: Отправка...
@@ -99,12 +101,20 @@ FeedbackPage:
     Failed: Что-то пошло не так. Попробуйте отправить опять?
   UsernameLabel: Имя пользователя Scratch или другие обозначения (необязательно)
   ContentLabel: Обратная связь
+  ContentPlaceholder: Предоставьте нам как можно больше деталей, пожалуйста.
+  SendEnabled: Отправить список моих включённых аддонов (рекомендовано)
   SubmitButton: Отправить
 SMTPage:
   ScratchMessagingLogoAlt: Логотип расширения Scratch Messaging
 ChangelogPage:
+  Highlights:
+    Title: Основное
   Links:
     Title: Ссылки
+    ReleaseGitHub: Страница релиза на GitHub
+    CommitsMade: Количество commit'ов, сделанные на этой версии
+  Status:
+    Latest: Последняя версия
 UnsupportedBrowserPage:
   Download: Скачать
   HowToUpdate: Как обновиться
