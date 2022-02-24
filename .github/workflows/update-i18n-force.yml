@@ -1,0 +1,56 @@
+on:
+  workflow_dispatch:
+
+name: Localization Update (Force)
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token
+        uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.BOT_APP_ID }}
+          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
+
+      - name: Checkout ScratchAddons/website-i18n
+        uses: actions/checkout@v2
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          path: repo
+          fetch-depth: 0
+      - name: Checkout ScratchAddons/website-v2-script
+        uses: actions/checkout@v2
+        with:
+          repository: ScratchAddons/website-v2-script
+          path: script
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Cache Node.js dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
+      - name: Execute script
+        id: script
+        run: |
+          echo Running...
+          cd repo
+          bash ../script/sh/i18n-update-i18n-force.sh
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+
+      - name: Invoke workflow
+        # if: ${{ ! steps.script.outputs.commitSkipped }}
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Site Deployment
+          repo: ScratchAddons/website-v2
+          token: ${{ steps.generate-token.outputs.token }}
