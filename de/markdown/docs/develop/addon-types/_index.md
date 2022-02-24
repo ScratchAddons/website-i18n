@@ -1,3 +1,0 @@
----
-title: Arten von Addons
----
