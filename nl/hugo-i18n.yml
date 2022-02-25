@@ -30,14 +30,13 @@ Footer:
     License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
 DarkTheme:
   Title: Klik om het donkere thema te wisselen.
-  Label: Donker thema-schakelaar
+  Label: Donker themaschakelaar
 Docs:
-  SectionSiteName: Scratch Addons-Documenten
-  DocsNav: Documentnavigatie
-  DocsNavToggleLabel: Wissel documentnavigatie-venster
+  DocsNav: Docs-navigatie
+  DocsNavToggleLabel: Wissel docs-navigatievenster
   TOC: Inhoudsopgave
-  TOCToggleLabel: Wissel inhoudsopgave-venster
-  LastUpdated: Laatst geüpdatet op {{.Date}} door {{.Name}} op commit {{.Commit}}.
+  TOCToggleLabel: Inhoudsopgavevenster wisselen
+  LastUpdated: Laatst bijgewerkt op {{.Date}} door {{.Name}} op commit {{.Commit}}.
   Improve: Verbeter deze pagina.
   SectionPages: Sectiepagina's
 PlayerModal:
@@ -45,8 +44,8 @@ PlayerModal:
   AltText: Klik om de video te bekijken.
 IndexPage:
   Intro:
-    Tagline: Alles-in-een browser-extensie voor Scratch
-    Description: Scratch Addons is een browser-extensie die je nieuwe functies en thema's voor de Scratch website en projecteditor laat gebruiken. Het heeft een doel om userstyles en userscripts te verzamelen, archiveren en te gebruiken, gemaakt door meerdere leden van de Scratchgemeenschap.
+    Tagline: Alles-in-een browserextensie voor Scratch
+    Description: Scratch Addons is een browserextensie die je nieuwe functies en thema's voor de Scratchwebsite en projecteditor laat gebruiken. Het heeft een doel om userstyles en userscripts te verzamelen, archiveren en gebruiken, gemaakt door meerdere leden van de Scratchgemeenschap.
     InstallButton:
       Loading: Laden...
       Description: gratis, open-bron
@@ -55,8 +54,8 @@ IndexPage:
       Video:
         Caption: De trailer.
       Popup:
-        Caption: De extensie-pop-up.
-        ImgAlt: Extensie-pop-up
+        Caption: De extensiepop-up.
+        ImgAlt: Extensiepop-up
       Settings:
         Caption: De instellingspagina.
         ImgAlt: Instellingspagina
@@ -67,7 +66,7 @@ IndexPage:
       Next: Volgende
   Features:
     Heading: Functies
-    AddonsParagraph: Scratch Addons bestaat uit addons, dat zijn functies die je Scratch website en editor-ervaring versterken.
+    AddonsParagraph: Scratch Addons bestaat uit addons, dat zijn functies die je Scratchwebsite en editorervaring versterken.
     CustomizableHeading: Aanpasbaar
     CustomizableParagraph: Scratch Addons heeft een simpele interface om verschillende instellingen van elke functie en thema te veranderen.
     InternationalHeading: Internationaal
@@ -77,14 +76,14 @@ IndexPage:
   Highlights:
     Heading: Hoogtepunten
     Paragraph: Onthoud, dit zijn nog maar de hoogtepunten. {{.OpenTag1}}Er is nog meer!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratch-Berichten
-    ScratchMessagingParagraph: 'De "grootvader" van Scratch Addons. Het is beschikbaar door op het Scratch Addons-icoon te klikken, en laat je makkelijker je Scratchberichten lezen en erop antwoorden: groepeert berichten per project, laat volledige opmerking-tekst en -context zien, antwoord direct op opmerkingen.'
-    ScratchNotifierHeading: Scratch-Berichtgever
-    ScratchNotifierParagraph: Geeft je browser-notificaties bij nieuwe Scratch-berichten. Je kunt op de notificatie klikken om er direct heen te gaan (opmerking, project, etc.)
+    ScratchMessagingHeading: Scratch Berichten
+    ScratchMessagingParagraph: 'De "grootvader" van Scratch Addons. Het is beschikbaar door op het Scratch Addons-icoon te klikken, en laat je makkelijker je Scratchberichten lezen en erop antwoorden: groepeert berichten per project, laat volledige opmerkingtekst en -context zien, antwoord direct op opmerkingen.'
+    ScratchNotifierHeading: Scratch Berichtgever
+    ScratchNotifierParagraph: Geeft je browsernotificaties bij nieuwe Scratchberichten. Je kunt op de notificatie klikken om er direct heen te gaan (opmerking, project, etc.)
     DeveloperToolsHeading: Ontwikkelaarstools
-    DeveloperToolsParagraph: "{{.OpenTag1}}Van de originele extensie.{{.CloseTag1}} Het voegt een zoekbalk en nieuwe menu-opties toe aan de editor: kopieer/plak blokken, betere opruimer, naar blokdefinitie springen, en meer!"
+    DeveloperToolsParagraph: "{{.OpenTag1}}Van de originele extensie.{{.CloseTag1}} Het voegt een zoekbalk en nieuwe menuopties toe aan de editor: kopieer/plak blokken, betere opruimer, naar blokdefinitie springen, en meer!"
   Install:
-    Heading: Installeer
+    Heading: Installeren
     Paragraph: Tevreden? Aarzel niet en installeer het nu!
     InstallButton:
       Other: ...of {{.OpenTag1}}download het van GitHub{{.CloseTag1}} of {{.OpenTag2}}installeer het van de bron{{.CloseTag2}}.
@@ -102,22 +101,22 @@ FeedbackPage:
     Sending: Verzenden...
     Success: Verzonden! Bedankt voor de feedback.
     Failed: Er is iets misgegaan. Probeer het opnieuw te verzenden?
-  UsernameLabel: Scratch-gebruikersnaam, of andere identificaties (optioneel)
+  UsernameLabel: Scratchgebruikersnaam, of andere identificaties (optioneel)
   ContentPlaceholder: Probeer zo gedetailleerd mogelijk te zijn.
-  SendEnabled: Geef een lijst met mijn gebruikte addons mee (aanbevolen)
-  SubmitButton: Verzend
+  SendEnabled: Verstuur een lijst met mijn gebruikte addons (aanbevolen)
+  SubmitButton: Verzenden
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
 ChangelogPage:
   Highlights:
     Title: Hoogtepunten
   Links:
-    ReleaseGitHub: Release-pagina op GitHub
+    ReleaseGitHub: Releasepagina op GitHub
     RepoState: Archiefstatus op release
     CommitsMade: Commits gemaakt op deze versie
   Status:
-    Latest: Recent
+    Latest: Nieuwst
     Yanked: Overgeslagen
 UnsupportedBrowserPage:
   Download: Downloaden
-  HowToUpdate: Hoe je updatet
+  HowToUpdate: Hoe je bijwerkt

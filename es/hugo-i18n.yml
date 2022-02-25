@@ -86,6 +86,7 @@ IndexPage:
     Paragraph: ¿Satisfecho? ¡No dudes en instalar ahora!
     InstallButton:
       Other: ...o {{.OpenTag1}}descárguelo de GitHub{{.CloseTag1}} o {{.OpenTag2}}instálelo de la fuente{{.CloseTag2}}.
+  Users: ""
 AddonsPage:
   EasterEggAddon: Este es un addon easter egg.
   RecommendedAddon: Este es un addon recomendado
