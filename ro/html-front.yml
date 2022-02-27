@@ -1,5 +1,23 @@
+_index.html:
+  description: ""
+addons.html:
+  title: Extensii
+  description: ""
+changelog.html:
+  title: Jurnalul schimbărilor
+  description: ""
 farewell.html:
   title: La revedere!
   description: Extensii Scratch a fost dezinstalat. Vă mulțumim pentru că ați folosit extensia.
+feedback.html:
+  title: Trimite feedback
+  description: ""
+scratch-messaging-transition.html:
+  title: ""
+  description: ""
+unsupported-browser.html:
+  title: ""
+  description: ""
 welcome.html:
   title: Bun venit
+  description: ""

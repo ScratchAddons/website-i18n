@@ -7,4 +7,4 @@ Da v ime nastavitve dodate ikono, ne da bi to [povzročilo](https://github.com/S
 - Spremenite ime nastavitve v datoteki `addon.json` v `@IMEIKONE.svg ime nastavitve`
 - Dodajte datoteko `IMEIKONE.svg` v mapo `/images/icons/`, če je tam še ni
 - Dodajte `imeikoneIcon: "@IMEIKONE.svg",` v `/background/load-addon-manifests.js`
-- Edit `/addons/scratch-notifier/notifier.js` for Scratch Notifier settings
+- Če gre za nastavitev dodatka Scratch Notifier, uredite še datoteko `/addons/scratch-notifier/notifier.js`

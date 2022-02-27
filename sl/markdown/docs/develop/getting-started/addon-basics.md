@@ -3,21 +3,21 @@ title: O dodatkih
 ---
 
 ## Kaj sploh je dodatek?
-Actually, an addon isn't much more than a userscript, a userstyle, or a combination of the two. If any of these are related, then we make them part of the same addon, under a single name. For example, the "Scratch 3 Developer Tools" addon has a userscript in charge of adding a find box to the editor, and a userstyle that adds CSS to that box.
+Pravzaprav dodatek ni nič drugega kot uporabniška skripta, uporabniški slog ali kombinacija obojega. Če je karkoli od tega povezano, združimo vse v en dodatek z enim imenom. Tako ima dodatek "Scratch 3 Developer Tools" uporabniško skripto, namenjeno dodajanju polja za iskanje v urejevalnik, in uporabniški slog, ki temu polju doda CSS.
 
-## What's a userscript?
-A userscript is a piece of JavaScript code that runs together with a Scratch tab. You can specify where that userscript will run, for example, only project pages. Userscripts are similar to content scripts on browser extensions, and if you've ever used a userscript manager, you'll notice these are basically the same.  
-Userscripts are useful to change the behavior of the Scratch website, for example, adding or removing buttons to the navbar.
+## Kaj je uporabniška skripta?
+Uporabniška skripta je delček kode JavaScript, ki deluje v zavihku Scratcheve spletne strani. Lahko določite, da bo delovala samo npr. na straneh projektov. Uporabniške skripte so podobne vsebinskim skriptam v razširitvah brskalnikov, in če ste kdaj uporabljali upravitelja uporabniških skript, boste opazili, da gre pravzaprav za isto stvar.  
+Uporabniške skripte so uporabne za spreminjanje vedenja Scratcheve spletne strani, na primer dodajanje ali odstranjevanje gumbov iz vrstice za navigacijo.
 
-## What's a userstyle?
-A userstyle is similar to a userscript; you can also specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
+## Kaj je uporabniški slog?
+Uporabniški slog je podoben uporabniški skripti in tudi zanje lahko določite vzorce URL-jev, vendar uporabniški slogi strani dodajo CSS in ne JavaScripta. Pogosto jih uporabimo hkrati z uporabniškimi skriptami za oblikovanje elementov, ki jih te dodajo, lahko pa spremenijo tudi videz Scratchevih elementov. V tem primeru jih običajno imenujemo "teme".
 
-## Conceptually, what should be an addon?
-You might wonder if it's a better idea to create a new addon, or modify an existing one.  
-If 2 addons share some of these, they should probably be merged. 
-- Both need, or don't need, permissions that require user interaction (like notifications).
-- They share lots of code.
-- The user would expect that addon to offer both features.
-- If being separated, they would interfere with each other.  
+## Kaj sodi v dodatek?
+Morda niste prepričani, če je bolje narediti nov dodatek ali spremeniti obstoječega.  
+Če si 2 dodatka delita nekaj naslednjih lastnosti, bi ju verjetno bilo treba združiti.
+- Oba potrebujeta ali ne potrebujeta dovoljenj, ki zahtevajo dejanje uporabnika (npr. obvestila).
+- Delita si veliko kode.
+- Uporabnik bi pričakoval, da bi dodatek vseboval obe funkciji.
+- Če bi bila ločena, bi motila drug drugega.
 
-Remember addons are customizable by the user - adding new functionality does not affect old users of the addon, unless we intentionally make it do so.
+Ne pozabite, da lahko uporabniki prilagajajo dodatke - dodajanje novih funkcionalnosti ne vpliva na obstoječe uporabnike dodatka, razen če namenoma naredimo tako.

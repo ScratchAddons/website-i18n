@@ -27,3 +27,102 @@ Footer:
     Documentation: Dokumentáció
   Legal:
     Copyright: © {{.Count}} Scratch Addons közreműködői
+    NoAffiliation: ""
+    License: ""
+DarkTheme:
+  Title: ""
+  Label: ""
+Docs:
+  SectionSiteName: ""
+  DocsNav: ""
+  DocsNavToggleLabel: ""
+  TOC: ""
+  TOCToggleLabel: ""
+  LastUpdated: ""
+  Improve: ""
+  SectionPages: ""
+PlayerModal:
+  LabelPlay: ""
+  ModalTitle: ""
+  AltText: ""
+IndexPage:
+  Intro:
+    Tagline: ""
+    Description: ""
+    InstallButton:
+      Loading: ""
+      Description: ""
+    ReadMore: ""
+    Carousel:
+      Video:
+        Caption: ""
+      Popup:
+        Caption: ""
+        ImgAlt: ""
+      Settings:
+        Caption: ""
+        ImgAlt: ""
+      Demo:
+        Caption: ""
+        ImgAlt: ""
+      Previous: ""
+      Next: ""
+  Features:
+    Heading: ""
+    AddonsHeading: Kiegészítők
+    AddonsParagraph: ""
+    CustomizableHeading: ""
+    CustomizableParagraph: ""
+    InternationalHeading: ""
+    InternationalParagraph: ""
+    OSHeading: ""
+    OSParagraph: ""
+  Highlights:
+    Heading: ""
+    Paragraph: ""
+    ScratchMessagingHeading: ""
+    ScratchMessagingParagraph: ""
+    ScratchNotifierHeading: ""
+    ScratchNotifierParagraph: ""
+    DeveloperToolsHeading: ""
+    DeveloperToolsParagraph: ""
+  Install:
+    Heading: Telepítés
+    Paragraph: ""
+    InstallButton:
+      Other: ""
+  Users: ""
+AddonsPage:
+  EasterEggAddon: ""
+  RecommendedAddon: ""
+  ListViewLabel: ""
+  EasterEggLabel: ""
+  EasterEggTooltip:
+    L1: ""
+    L2: ""
+FeedbackPage:
+  Status:
+    Sending: ""
+    Success: ""
+    Failed: ""
+  UsernameLabel: ""
+  ContentLabel: ""
+  ContentPlaceholder: ""
+  SendEnabled: ""
+  SubmitButton: ""
+SMTPage:
+  ScratchMessagingLogoAlt: ""
+ChangelogPage:
+  Highlights:
+    Title: ""
+  Links:
+    Title: ""
+    ReleaseGitHub: ""
+    RepoState: ""
+    CommitsMade: ""
+  Status:
+    Latest: ""
+    Yanked: ""
+UnsupportedBrowserPage:
+  Download: ""
+  HowToUpdate: ""

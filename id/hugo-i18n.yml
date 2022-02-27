@@ -1,5 +1,11 @@
 Global:
   LogoAlt: Logo Scratch Addons
+  ChromeLong: ""
+  FirefoxLong: ""
+  ChromeShort: ""
+  FirefoxShort: ""
+  Install: Pasang
+  InstallFor: ""
 Nav:
   Contributors: Kontributor
   Feedback: Kirim Umpan Balik
@@ -8,9 +14,11 @@ Nav:
 Footer:
   Pages:
     Header: Halaman-Halaman
+    FAQ: ""
     Feedback: Kirim Umpan Balik
     Contributors: Kontributor
     Changelog: Daftar
+    Addons: ""
   Discuss:
     Header: Diskusikan
     Discussion: Forum Diskusi
@@ -24,5 +32,102 @@ Footer:
     Documentation: Dokumentasi
   Legal:
     Copyright: © {{.Count}} Kontributor Scratch Addons
+    NoAffiliation: ""
+    License: ""
 DarkTheme:
   Title: Tekan untuk mengaktifkan dark theme
+  Label: ""
+Docs:
+  SectionSiteName: ""
+  DocsNav: ""
+  DocsNavToggleLabel: ""
+  TOC: ""
+  TOCToggleLabel: ""
+  LastUpdated: ""
+  Improve: ""
+  SectionPages: ""
+PlayerModal:
+  LabelPlay: ""
+  ModalTitle: ""
+  AltText: ""
+IndexPage:
+  Intro:
+    Tagline: ""
+    Description: ""
+    InstallButton:
+      Loading: ""
+      Description: ""
+    ReadMore: ""
+    Carousel:
+      Video:
+        Caption: ""
+      Popup:
+        Caption: ""
+        ImgAlt: ""
+      Settings:
+        Caption: ""
+        ImgAlt: ""
+      Demo:
+        Caption: ""
+        ImgAlt: ""
+      Previous: ""
+      Next: ""
+  Features:
+    Heading: ""
+    AddonsHeading: ""
+    AddonsParagraph: ""
+    CustomizableHeading: ""
+    CustomizableParagraph: ""
+    InternationalHeading: ""
+    InternationalParagraph: ""
+    OSHeading: ""
+    OSParagraph: ""
+  Highlights:
+    Heading: ""
+    Paragraph: ""
+    ScratchMessagingHeading: ""
+    ScratchMessagingParagraph: ""
+    ScratchNotifierHeading: ""
+    ScratchNotifierParagraph: ""
+    DeveloperToolsHeading: ""
+    DeveloperToolsParagraph: ""
+  Install:
+    Heading: Pasang
+    Paragraph: ""
+    InstallButton:
+      Other: ""
+  Users: ""
+AddonsPage:
+  EasterEggAddon: ""
+  RecommendedAddon: ""
+  ListViewLabel: ""
+  EasterEggLabel: ""
+  EasterEggTooltip:
+    L1: ""
+    L2: ""
+FeedbackPage:
+  Status:
+    Sending: ""
+    Success: ""
+    Failed: ""
+  UsernameLabel: ""
+  ContentLabel: ""
+  ContentPlaceholder: ""
+  SendEnabled: ""
+  SubmitButton: ""
+SMTPage:
+  ScratchMessagingLogoAlt: ""
+ChangelogPage:
+  Highlights:
+    Title: ""
+  Links:
+    Title: ""
+    ReleaseGitHub: ""
+    RepoState: ""
+    CommitsMade: ""
+  Status:
+    Latest: ""
+    Yanked: ""
+UnsupportedBrowserPage:
+  Download: ""
+  HowToUpdate: ""

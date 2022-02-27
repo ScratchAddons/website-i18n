@@ -1,0 +1,23 @@
+_index.html:
+  description: ""
+addons.html:
+  title: افزونه ها
+  description: در این صفحه همه افزونه هایی که در Scratch Addons وجود دارند فهرست شده است.
+changelog.html:
+  title: تغییرات
+  description: همه تغییرات قابل توجه به این پروژه در این صفحه ثبت می شود.
+farewell.html:
+  title: خداحافظ!
+  description: Scratch Addons حذف شده است. از شما برای استفاده ازاین  افزونه تشکر می کنیم!
+feedback.html:
+  title: ""
+  description: ""
+scratch-messaging-transition.html:
+  title: ""
+  description: ""
+unsupported-browser.html:
+  title: ""
+  description: ""
+welcome.html:
+  title: ""
+  description: ""

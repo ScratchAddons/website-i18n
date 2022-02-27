@@ -18,6 +18,7 @@ Footer:
     Addons: Extensii
   Discuss:
     Header: Discuții
+    Discussion: Forum de discuții
     Issues: Probleme
     DiscordCom: Discord comunitate
     DiscordDev: Discord dezvoltatori
@@ -28,13 +29,46 @@ Footer:
     Documentation: Documentație
   Legal:
     Copyright: © {{.Count}} Contribuitorii Extensii Scratch
+    NoAffiliation: ""
+    License: ""
+DarkTheme:
+  Title: ""
+  Label: ""
 Docs:
   SectionSiteName: Documentație Extensii Scratch
+  DocsNav: ""
+  DocsNavToggleLabel: ""
+  TOC: ""
+  TOCToggleLabel: ""
+  LastUpdated: ""
   Improve: Îmbunătățește această pagină
+  SectionPages: ""
+PlayerModal:
+  LabelPlay: ""
+  ModalTitle: ""
+  AltText: ""
 IndexPage:
   Intro:
+    Tagline: ""
+    Description: ""
     InstallButton:
       Loading: Se incarcă...
+      Description: ""
+    ReadMore: ""
+    Carousel:
+      Video:
+        Caption: ""
+      Popup:
+        Caption: ""
+        ImgAlt: ""
+      Settings:
+        Caption: ""
+        ImgAlt: ""
+      Demo:
+        Caption: ""
+        ImgAlt: ""
+      Previous: ""
+      Next: ""
   Features:
     Heading: Funcții
     AddonsHeading: Extensii
@@ -58,6 +92,38 @@ IndexPage:
     Paragraph: Satisfăcut? Nu ezita să o instalezi acum!
     InstallButton:
       Other: ...sau {{.OpenTag1}} descarc-o de pe GitHub {{.CloseTag1}} sau {{.OpenTag2}} instaleaz-o din sursă {{.CloseTag2}}.
+  Users: ""
 AddonsPage:
   EasterEggAddon: Aceasta este o extensie ou de paște.
   RecommendedAddon: Aceasta este o extensie recomandată.
+  ListViewLabel: ""
+  EasterEggLabel: ""
+  EasterEggTooltip:
+    L1: ""
+    L2: ""
+FeedbackPage:
+  Status:
+    Sending: ""
+    Success: ""
+    Failed: ""
+  UsernameLabel: ""
+  ContentLabel: ""
+  ContentPlaceholder: ""
+  SendEnabled: ""
+  SubmitButton: ""
+SMTPage:
+  ScratchMessagingLogoAlt: ""
+ChangelogPage:
+  Highlights:
+    Title: Evidențieri
+  Links:
+    Title: ""
+    ReleaseGitHub: ""
+    RepoState: ""
+    CommitsMade: ""
+  Status:
+    Latest: ""
+    Yanked: ""
+UnsupportedBrowserPage:
+  Download: ""
+  HowToUpdate: ""

@@ -1,2 +1,23 @@
+_index.html:
+  description: ""
+addons.html:
+  title: Utvidelser
+  description: ""
+changelog.html:
+  title: ""
+  description: ""
+farewell.html:
+  title: ""
+  description: ""
+feedback.html:
+  title: Send tilbakemelding
+  description: ""
+scratch-messaging-transition.html:
+  title: ""
+  description: ""
+unsupported-browser.html:
+  title: ""
+  description: ""
 welcome.html:
   title: Velkommen!
+  description: ""

@@ -1,16 +1,23 @@
+_index.html:
+  description: ""
 addons.html:
   title: Аддоны
-  description: Список всех аддонов, созданные в Scratch Addons.
+  description: "Список всех аддонов, созданные в Scratch Addons."
 changelog.html:
   title: Список изменений
+  description: ""
 farewell.html:
+  title: Прощайте!
   description: Scratch Addons был успешно удалён. Спасибо за использование нашего расширения!
 feedback.html:
   title: Отправить отзыв
   description: Отправить отзыв разработчикам Scratch Addons.
+scratch-messaging-transition.html:
+  title: ""
+  description: ""
 unsupported-browser.html:
   title: Не поддерживаемый браузер
-  description: Scratch Addons не поддерживает Ваш браузер, который Вы используете.
+  description: "Scratch Addons не поддерживает Ваш браузер, который Вы используете."
 welcome.html:
   title: Добро пожаловать!
-  description: Scratch Addons был успешно установлен! Спасибо Вам за установку. Мы надеемся, что Вам понравится расширение!
+  description: "Scratch Addons был успешно установлен! Спасибо Вам за установку. Мы надеемся, что Вам понравится расширение!"

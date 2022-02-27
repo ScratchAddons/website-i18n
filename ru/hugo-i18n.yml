@@ -34,7 +34,10 @@ DarkTheme:
   Label: Кнопка переключения тёмной темы
 Docs:
   SectionSiteName: Документация Scratch Addons
+  DocsNav: ""
+  DocsNavToggleLabel: ""
   TOC: Содержание
+  TOCToggleLabel: ""
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
   SectionPages: Содержание
@@ -77,7 +80,9 @@ IndexPage:
   Highlights:
     Heading: Основное
     Paragraph: Это всего-лишь самое основное. {{.OpenTag1}}Есть ещё!{{.CloseTag1}}
-    ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Его можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
+    ScratchMessagingHeading: Сообщения Scratch
+    ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Это можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
+    ScratchNotifierHeading: ""
     ScratchNotifierParagraph: Добавляет браузерные уведомления к сообщениям на Scratch. Вы можете кликнуть на уведомление, чтобы перейти прямо к сообщению (комментарию, проекту и т. д.)
     DeveloperToolsHeading: Инструменты разработчика
     DeveloperToolsParagraph: "{{.OpenTag1}}С оригинального расширения.{{.CloseTag1}} Добавляет текстовое поле для нахождения блоков и новые опции меню к редактору: копировать/вставлять блоки, очистка блоков получше, перейти к другому блоку и др.!"
@@ -90,6 +95,7 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Это аддон в виде пасхалки.
   RecommendedAddon: Это рекомендованный аддон.
+  ListViewLabel: ""
   EasterEggLabel: Пасхалка
   EasterEggTooltip:
     L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.
@@ -112,9 +118,11 @@ ChangelogPage:
   Links:
     Title: Ссылки
     ReleaseGitHub: Страница релиза на GitHub
+    RepoState: ""
     CommitsMade: Количество commit'ов, сделанные на этой версии
   Status:
     Latest: Последняя версия
+    Yanked: ""
 UnsupportedBrowserPage:
   Download: Скачать
   HowToUpdate: Как обновиться
