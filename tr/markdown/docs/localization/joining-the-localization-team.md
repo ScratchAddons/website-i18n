@@ -28,12 +28,12 @@ Yakında Transifex ekibine kabul edileceksiniz ve çevrilecek yeni dizeler oldu�
 
 ### Notlar:
 
-- Scratch' in o dile çevrilmiş olması gerekiyor.
-- Scratch' in aksine, dil başına yalnızca bir tane lehçeyi destekliyoruz (Scratch Eklentilerinde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacak).
+- Scratch'in o dile çevrilmiş olması gerekiyor.
+- Scratch'in aksine, dil başına yalnızca bir tane lehçeyi destekliyoruz (Scratch Eklentilerinde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacak).
 - Talebinizin kabul edilmesi birkaç saat/gün sürebilir.
 - Kabul edilirseniz, kendinizi [web sitemizin katkıda bulunanlar sayfamıza](https://scratchaddons.com/contributors) ekleyebilir (veya eklenebilirsiniz).
 - Yasal konular: çevirileriniz, Scratch Eklentiler (GPL v3.0) ile aynı lisans altında lisanslanacaktır.
 
 ### Sorusu olan?
 
-Çeviri hakkında herhangi bir sorunuz varsa [bir tartışma açmaktan](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub hesabı gereklidir) veya [geri bildirim göndermekten](https://scratchaddons.com/feedback) çekinmeyin. (hesap gerekmez, ancak gönderinizde Scratch' deki kullanıcı adınızı belirttiğinizden emin olun).
+Çeviri hakkında herhangi bir sorunuz varsa [bir tartışma açmaktan](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub hesabı gereklidir) veya [geri bildirim göndermekten](https://scratchaddons.com/feedback) çekinmeyin. (hesap gerekmez, ancak gönderinizde Scratch'deki kullanıcı adınızı belirttiğinizden emin olun).

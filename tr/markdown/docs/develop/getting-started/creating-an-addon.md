@@ -10,13 +10,13 @@ Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
 ## 2. Adım: Depoyu çatallayın/klonlayın
 Veya isterseniz ZIP olarak indirin. Başka bir deyişle, kaynak kodunu yerel olarak indirmeniz yeterlidir.
 
-## 3. Adım: Uzantıyı Chrome' a yükleyin
-*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de eklentilerin Firefox' da da çalışma ihtimali var.*
-Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`' a gidin ve "geliştirici modu"' nu etkinleştirin.
-"Sıkıştırılmamış' ı yükle"' ye tıklayın, ardından Scratch Eklentilerin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun.
+## 3. Adım: Uzantıyı Chrome'a yükleyin
+*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de eklentilerin Firefox'da da çalışma ihtimali var.*
+Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`'a gidin ve "geliştirici modu"nu etkinleştirin.
+"Sıkıştırılmamış'ı yükle"ye tıklayın, ardından Scratch Eklentilerin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun.
 İşte bu, uzantıyı yüklediniz! Şuna benzer görünmelidir:
 ![görsel](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
-Not: "hatalar" yazdığını güvenle görmezden gelebilirsiniz. Bu, Firefox' un tanınmayan bir "manifest anahtarı" için yalnızca bir uyarıdır.
+Not: "hatalar" yazdığını güvenle görmezden gelebilirsiniz. Bu, Firefox'un tanınmayan bir "manifest anahtarı" için yalnızca bir uyarıdır.
 
 ## 4. Adım: Eklentiniz ne hakkında?
 Şimdi eğlenceli kısım geliyor!
@@ -48,7 +48,7 @@ Scratch Eklentileri kendi başına yeni klasörler bulamaz, bu nedenle adı öze
 
 ## 8. Adım: Merhaba dünya
 Eklentiniz şu anda hiçbir şey yapmıyor, bu nedenle daha önce yaptığımız her şeyin çalışıp çalışmadığını kontrol etmek için iyi bir zaman.
-` chrome://extensions`' a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
+` chrome://extensions`'a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
 Şimdi, Scratch Eklentiler simgesine sağ basın ve "seçenekler" e tıklayın.
 Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve sahip olabileceğiniz tüm ayarları yapın.
 

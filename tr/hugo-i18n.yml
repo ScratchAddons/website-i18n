@@ -1,6 +1,6 @@
 Global:
   ScratchAddons: Scratch Eklentileri
-  LogoAlt: Scratch Eklentileri' nin logosu
+  LogoAlt: Scratch Eklentileri'nin logosu
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
 Nav:
@@ -91,14 +91,14 @@ IndexPage:
     Heading: İndir
     Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
     InstallButton:
-      Other: ...ama istersen {{.OpenTag1}}GitHub' dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
+      Other: ...ama istersen {{.OpenTag1}}GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
   Users: Kullanıcı
 AddonsPage:
   EasterEggAddon: Bu bir easter egg eklentisidir.
   RecommendedAddon: Bu, önerilen bir eklentidir.
   ListViewLabel: Görüntülenmeyi listele
   EasterEggTooltip:
-    L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu' nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
+    L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
     L2: Bu sayfada, easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
 FeedbackPage:
   Status:

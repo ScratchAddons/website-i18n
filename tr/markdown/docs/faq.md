@@ -11,16 +11,16 @@ Scratch Eklentileri, Scratch web sitesi ve proje düzenleyicisi için "hepsi bir
 
 ### "Eklenti" tam olarak nedir?
 
-Bir eklenti, bir uzantıya veya kullanıcı komut dosyasına benzer, ancak Scratch Eklentileri uzantısı tarafından sağlanan özel API' leri kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (kullanıcı komut dosyalarına) veya Scratch sitesine stiller uygulamasına (kullanıcı stillerine) izin verir.
+Bir eklenti, bir uzantıya veya kullanıcı komut dosyasına benzer, ancak Scratch Eklentileri uzantısı tarafından sağlanan özel API'leri kullanırlar. Bu API'ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (kullanıcı komut dosyalarına) veya Scratch sitesine stiller uygulamasına (kullanıcı stillerine) izin verir.
 
-Kullanıcı komut dosyaları, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API' lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API' lerini kullanabilir.
+Kullanıcı komut dosyaları, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
 
 ### Her şey bir eklenti ise, Scratch Eklentileri ne yapıyor o halde?
 
 Kendi başına, Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca görevleri şunlardır:
 
 - Kullanıcıların eklentileri etkinleştirmesine, devre dışı bırakmasına ve yapılandırmasına izin verir.
-- Eklentileri çalıştırın ve onlara API' ler sağlayın.
+- Eklentileri çalıştırın ve onlara API'ler sağlayın.
 - Eklentilere genel durum sağlar (örneğin, addon.auth API).
 - Eklenti kullanıcı komut dosyaları tarafından kullanılmak üzere prototipleri kirletin.
 - Redux durumuna erişmenin ve değiştirmenin yollarını sağlayın.
@@ -29,7 +29,7 @@ Kendi başına, Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca 
 
 ### Scratch Eklentileri güvenli mi?
 
-Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir. Bu nedenle kod, Scratch Eklentilere katkıda bulunanların yanı sıra Chrome Web Mağazası ve Firefox Eklentileri' nden gözden geçiren kişiler tarafından sürekli olarak doğrulanır.
+Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir. Bu nedenle kod, Scratch Eklentilere katkıda bulunanların yanı sıra Chrome Web Mağazası ve Firefox Eklentileri'nden gözden geçiren kişiler tarafından sürekli olarak doğrulanır.
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
@@ -39,13 +39,13 @@ Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` ad
 
 ### Scratch Eklentilerini kullanırken hesabım güvende olacak mı?
 
-Scratch Eklentileri, esasen çalışmak için hesap bilgilerinizi kullanmaz. Aslında, Scratch' den çıkış yapabilirsiniz ve Scratch Eklentileri çalışmaya devam eder. Scratch Eklentileri, yalnızca sahip olduğunuz ve her istek için tarayıcı tarafından sağlanan çerezlere dayalı olarak istek gönderir, bu nedenle, Scratch Mesajlaşma gibi bazı eklentiler, sadece oturum açtığınızda çalışır, ancak diğer bölümleri etkilemez.
+Scratch Eklentileri, esasen çalışmak için hesap bilgilerinizi kullanmaz. Aslında, Scratch'den çıkış yapabilirsiniz ve Scratch Eklentileri çalışmaya devam eder. Scratch Eklentileri, yalnızca sahip olduğunuz ve her istek için tarayıcı tarafından sağlanan çerezlere dayalı olarak istek gönderir, bu nedenle, Scratch Mesajlaşma gibi bazı eklentiler, sadece oturum açtığınızda çalışır, ancak diğer bölümleri etkilemez.
 
 Scratch Eklentilerindeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
 
 Scratch hesap bilgilerini veya uzantı ayarlarını asla tarayıcınızın dışına göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikasına](/docs/privacy/policies/extension) bakın.
 
-### Scratch' teki insanlara Scratch Eklentilerinden bahsedebilir miyim?
+### Scratch'teki insanlara Scratch Eklentileri'nden bahsedebilir miyim?
 
 Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarının/kullanıcı komut dosyalarının reklamını yasaklayan bir politika vardır. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
 
@@ -67,7 +67,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
 - **Bir fikir önerin**
 
-  Scratch Eklentiler' e iyi bir katkı olacağını düşündüğünüz bir şey mi var? [Bize anlatın!](#i-think-you-missed-a-feature-what-can-i-do)
+  Scratch Eklentiler'e iyi bir katkı olacağını düşündüğünüz bir şey mi var? [Bize anlatın!](#i-think-you-missed-a-feature-what-can-i-do)
 
 - **Bir hata bildir**
 
@@ -126,7 +126,7 @@ Bir özelliğin eksik olduğunu düşünüyorsanız veya uzantıya bir eklenti �
 
 Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) yapabilirsiniz. Orada, bunun hakkında tartışabilir ve sorun yaşıyorsanız destek bulabilirsiniz.
 
-### Scratch Eklentilerinin, Scratch' i yavaşlattığını düşünüyorum. Ne yapabilirim?
+### Scratch Eklentilerinin, Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
 İhtiyacınız olmayan eklentileri kapatmayı deneyin. Ayrıca, daha iyi performans için hangi eklentilerin kapatılması gerektiğine karar vermek için eklenti bildirimlerine ve uyarılarına dikkat edin.
 
@@ -134,7 +134,7 @@ Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/disc
 
 Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yazın. Bundan sonra, easter egg eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
 
-Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"' dır. Tam bir liste için [eklentiler sekmesine](/addons) göz atın.
+Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesine](/addons) göz atın.
 
 ### Daha fazla sorum var!
 

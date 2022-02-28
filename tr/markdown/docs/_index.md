@@ -7,7 +7,7 @@ Eğer bir eklenti oluşturmayı düşünüyorsanız, [buradan başlayın](develo
 
 Eklentiyi yerelleştirmeye yardımcı olmak istiyorsanız, [buradan nasıl olduğunu öğrenin](localization/joining-the-localization-team).
 
-Eğer Scratch Eklentileri' ni kullanmaya başlamak için yardıma ihtiyaç duyuyorsanız, [buraya bakın](getting-started/quick-start).
+Eğer Scratch Eklentileri'ni kullanmaya başlamak için yardıma ihtiyaç duyuyorsanız, [buraya bakın](getting-started/quick-start).
 
 Eğer projenin tasarımı ile ilgileniyorsanız, [buraya bakın](reference/design).
 
