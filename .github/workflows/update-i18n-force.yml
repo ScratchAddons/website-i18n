@@ -40,15 +40,22 @@ jobs:
 
       - name: Set up Transifex Client
         run: curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh
-
+      
       - name: Execute script
         id: script
+        continue-on-error: true
         run: |
           echo Running...
           cd repo
           bash ../script/sh/i18n-update-i18n-force.sh
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
+
+      - name: Upload whole repo (to check i18n)
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: ./repo
 
       - name: Invoke workflow
         if: ${{ steps.script.outputs.do_invoke }}
