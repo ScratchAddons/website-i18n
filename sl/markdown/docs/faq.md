@@ -11,9 +11,9 @@ Scratch Addons je razširitev brskalnikov za spletno stran in urejevalnik projek
 
 ### Kaj točno je "dodatek"?
 
-An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
+Dodatek je podoben razširitvi ali uporabniški skripti, vendar uporablja posebne programske vmesnike, ki so del razširitve Scratch Addons. Dodatkom omogočajo, da izvajajo kodo na Scratchevih straneh (uporabniške skripte) ali pa Scratchevi spletni strani dodajo sloge (uporabniški slogi).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
+Uporabniške skripte lahko uporabljajo vmesnike `addon.*`, ki jim omogočajo dostop do podatkov, povezanih s Scratchem (npr. o trenutno vpisanem uporabniku) in do vmesnikov za razširitve (npr. pošiljanje obvestil).
 
 ### Če je vse dodatek, kaj naredi Scratch Addons?
 
@@ -136,6 +136,6 @@ To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA)
 
 Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-### I have more questions!
+### Še imam vprašanja!
 
 If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.

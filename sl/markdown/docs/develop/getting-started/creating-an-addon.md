@@ -4,7 +4,7 @@ title: Izdelava dodatka
 Potrebna programska oprema: urejevalnik besedila, brskalnik Chrome.  
 Preden nadaljujete, izključite morebitno že nameščeno razširitev Scratch Addons, da se izognete težavam.
 
-## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
+## 1. korak: Preberite [članek o dodatkih](/docs/develop/getting-started/addon-basics/)
 Najprej preberite članek na zgornji povezavi, da se seznanite z izrazi.
 
 ## 2. korak: Fork/podvojite kodo

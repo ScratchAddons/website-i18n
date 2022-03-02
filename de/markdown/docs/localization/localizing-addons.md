@@ -36,7 +36,7 @@ export default async function ({ addon, console, msg }) {
 
 The `msg` added is the function you use to get translations. For example, `text = "Meow"` can now be `text = msg("meow")`. The addon ID and the slash is omitted.
 
-### Placeholders
+### Platzhalter
 You can provide placeholder values:
 ```js
 cat = msg("cats", {number: 1}) // shows "1 cat"

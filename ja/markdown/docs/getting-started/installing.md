@@ -57,34 +57,34 @@ Gitをインストールしていない場合は、この方法が利用でき�
 
 2. `開発者モード` をトグルし、開発者モードを有効にします。有効にすると、フォルダーやファイルから拡張機能をインストールできるようになります。
 
-   ![Extension Managment top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+   ![拡張機能管理ページのスクリーンショット](/assets/img/docs/developer-mode-toggle.png)
 
-3. You should see the `Load unpacked` button appear. Clicking it will allow you to select a folder to upload.
+3. `Load unpacked` ボタンが表示されるので、クリックしてフォルダーを選択してください。
 
-   ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
+   ![Load unpacked ボタンのスクリーンショット](/assets/img/docs/load-unpacked-button.png)
 
-4. Select the extracted folder.
-5. The extension should now be loaded.
+4. 解凍したフォルダーを選択してください。
+5. 拡張機能が読み込まれたはずです。
 
-To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
+[クローンの更新後](#cloning-the-repository) アップデートを完了させるには、 `更新` ボタンを押してください。
 
-![Update button screenshot](/assets/img/docs/update-button.png)
+![更新ボタンスクリーンショット](/assets/img/docs/update-button.png)
 
 
-### Installing on Mozilla Firefox
+### Mozilla Firefox上でのインストール
 
-1. Type `about:debugging` into your address bar to open the debugging page.
+1. アドレスバーに `about:debugging` と入力し、デバッグページを開きます。
 
-2. Click `This Firefox` on the left-hand menu.
+2. 画面左の `This Firefox` を選択します。
 
-   ![Left-hand menu screenshot](/assets/img/docs/left-hand-menu.png)
+   ![画面左のスクリーンショット](/assets/img/docs/left-hand-menu.png)
 
-4. Click `Load Temporary Add-on...`.
+4. `Load Temporary Add-on...` をクリックします。
 
-   ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
+   ![Load Temporary Add-on ボタンのスクリーンショット](/assets/img/docs/load-addon.png)
 
-6. Select the manifest.json file inside the extracted folder.
-7. The extension should now be loaded.
+6. 解凍したフォルダー内のmanifest.jsonファイルを選択します。
+7. 拡張機能が読み込まれたはずです。
 
-Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
+注意: Firefoxのアドオンは一時的に読み込まれただけなので、ブラウザー再起動後に削除されます。開発版のバージョンを常時使用する場合は、Google ChomeなどのChromiumベースのブラウザーの使用をおすすめします。
 

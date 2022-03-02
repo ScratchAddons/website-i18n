@@ -1,24 +1,24 @@
 ---
-title: Namestitev
+title: Installation
 ---
 
-## Iz trgovin z razširitvami
+## From extension stores
 
-Scratch Addons je na voljo v Spletni trgovini Chrome in v Dodatkih za Firefox.
+Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
 
-- Spletna trgovina Chrome (za Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79), in druge brskalnike, narejene na osnovi Chromium)  
+- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79), and other Chromium-based browsers)  
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco  
-- Dodatki za Firefox (za brskalnik Mozilla Firefox)  
+- Add-ons for Firefox (for Mozilla Firefox)  
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/  
 
 
-## Z izvirno kodo
+## From source
 
 ### About GitHub releases
 
 [The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
 
-### Podvajanje kode
+### Cloning the repository
 
 This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
 
@@ -37,7 +37,7 @@ $ git pull
 This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
 
 
-### Prenos datoteke .zip
+### Downloading the zipball
 
 If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
 
@@ -51,40 +51,40 @@ If you don't have Git installed, you can try this method instead. Note that you 
 
 3. Extract the archive into a folder.
 
-### Namestitev v brskalniku Google Chrome
+### Installing on Google Chrome
 
-1. V naslovno vrstico vnesite `chrome://extensions`, da odprete stran za upravljanje razširitev.
+1. Type `chrome://extensions` into your address bar to open the Extension Management page.
 
-2. Kliknite stikalo `Način za razvijalce`, da vključite način za razvijalce. To omogoča nameščanje razširitev iz map ali datotek.
+2. Click the toggle next to `Developer mode` to turn on the Developer Mode. This allows you to install extensions from a folder or file.
 
-   ![Posnetek zaslona orodne vrstice na strani z razširitvami](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Managment top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
-3. Prikazati bi se moral gumb `Naloži razpakirano`. Ko ga kliknite, lahko izberete mapo.
+3. You should see the `Load unpacked` button appear. Clicking it will allow you to select a folder to upload.
 
-   ![Posnetek zaslona z gumbom Naloži razpakirano](/assets/img/docs/load-unpacked-button.png)
+   ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
 
 4. Select the extracted folder.
-5. Razširitev bi zdaj morala biti naložena.
+5. The extension should now be loaded.
 
 To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
 
 ![Update button screenshot](/assets/img/docs/update-button.png)
 
 
-### Namestitev v brskalniku Mozilla Firefox
+### Installing on Mozilla Firefox
 
-1. V naslovno vrstico vnesite `about:debugging`, da odprete stran za razhroščevanje.
+1. Type `about:debugging` into your address bar to open the debugging page.
 
 2. Click `This Firefox` on the left-hand menu.
 
-   ![Posnetek zaslona menija na levi strani](/assets/img/docs/left-hand-menu.png)
+   ![Left-hand menu screenshot](/assets/img/docs/left-hand-menu.png)
 
-4. Kliknite `Naloži začasen dodatek...`.
+4. Click `Load Temporary Add-on...`.
 
    ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
 
 6. Select the manifest.json file inside the extracted folder.
-7. Razširitev bi zdaj morala biti naložena.
+7. The extension should now be loaded.
 
 Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
 

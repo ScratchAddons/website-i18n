@@ -1,63 +1,63 @@
 ---
-title: Foire Aux Questions
-description: Cette page liste toute les questions posées fréquemment sur l'extension et le projet Scratch Addon.
+title: Frequently Asked Questions
+description: This page lists frequently asked questions related to the Scratch Addons extension and project.
 ---
 
-Cette page liste toute les questions posées fréquemment sur l'extension et le projet Scratch Addon.
+This page lists frequently asked questions related to the Scratch Addons extension and project.
 
-### Qu'est-ce que Scratch Addons ?
+### Scratch Addons là gì?
 
-Scratch Addons est une extension de navigateur tout-en-un pour le site web Scratch et l'éditeur de projet. Il fournis des fonctionnalités et des thèmes (appelé addons en interne), autant que pour le site Scratch que pour l'éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch,  les scripts et les styles d'utilisateur, développé pas plusieurs membre de la communauté Scratch, vers un seul et même endroit facile d'accès, out en laissant les utilisateurs choisir ceux à activer.
+Scratch Addons is an "all-in-one" browser extension for the Scratch website and project editor. It provides features and themes (called addons internally), both for the Scratch website and the project editor. Scratch Addons' mission is to combine all existing Scratch extensions, userscripts and userstyles, developed by several members of the Scratch community, into a single easy-to-access place, while still letting users choose which ones to enable.
 
-### Qu'est-ce qu'un "Addon" exactement ?
+### What is an "addon", exactly?
 
-Un addon est similaire à une extension ou à un userscript, mais ils utilisent des API spéciales fournies par l'extension Scratch Addons. Ces API permettent aux addons d'exécuter des scripts sur une page Scratch (userscripts) ou d'appliquer des styles au site Web Scratch (userstyles).
+An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
 
-Les scripts utilisateur peuvent utiliser les API JavaScript `addon.*`, qui leur permettent d'obtenir des informations relatives à Scratch (par exemple, obtenir l'utilisateur actuellement connecté) et également d'utiliser des API d'extension (comme l'envoi de notifications).
+Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
 
-### Si tout est un addon, alors que fait Scratch Addons ? 
+### If everything is an addon, then what does Scratch Addons do?
 
-En soi, Scratch Addons n’est qu’un chargeur d’addons. Ses principales tâches sont :
+By itself, Scratch Addons is just an addon loader. Its main tasks are:
 
-- Autorise l'utilisateur d'activer, de désactiver ou de configurer les addons. 
-- Exécutez des addons et fournissez-leur des API. 
-- Fournir des statistiques globale aux addons (par exemple, addon.auth API) 
-- Polluer les prototypes pour une utilisation par des scripts d'utilisateur de l'addon. 
-- Fournissez des moyens d’accéder à l’état Redux et de le modifier. 
-- Évitez aux addons d’interférer les uns avec les autres. 
-- Évitez de dupliquer le travail de différents addons. 
+- Allow users to enable, disable and configure addons.
+- Run addons and provide APIs to them.
+- Provide global state to addons (for example, the addon.auth API).
+- Pollute prototypes for use by addon userscripts.
+- Provide ways to access and modify Redux state.
+- Avoid addons from interfering with each other.
+- Avoid duplicate work from different addons.
 
-### Scratch Addons est-il sûr ?
+### Is Scratch Addons safe? 
 
-Oui. Scratch Addons n’a aucun problème de sécurité dans la version la plus récente. Scratch Addons est un projet open source, de sorte que le code est constamment vérifié par les contributeurs Scratch Addons, ainsi que par les réviseurs du Chrome Web Store et add-ons pour Firefox. 
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store and Add-ons for Firefox.
 
-### Comment puis-je signaler une faille de sécurité ?
+### How can I report a security vulnerability?
 
-Si vous trouvez une faille de sécurité, veuillez contacter World_Languages ​​en privé en envoyant un e-mail à `worldxlanguages ​​(at) gmail.com`. Si vous ne recevez pas de réponse dans les 48 heures, veuillez créer un problème [ici](https://github.com/ScratchAddons/ScratchAddons/issues/) en mentionnant que vous avez envoyé un e-mail.
+If you happen to find a security vulnerability please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please create an issue [here](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning you sent an email.
 
-Vous pouvez soit [lire notre politique de sécurité](https://github.com/ScratchAddons/ScratchAddons/security/policy), soit [consulter nos avis que nous avons publiés](https://github.com/ScratchAddons/ScratchAddons/ security/advisories?state=published).
+You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy), or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Mon compte sera-t-il en sécurité lorsque j'utilise Scratch Addons ?
+### Will my account be safe when using Scratch Addons?
 
-Scratch Addons n'utilise pas les informations d'identification de votre compte pour fonctionner essentiellement. En fait, vous pouvez être déconnecté de Scratch et les addons Scratch fonctionneront toujours. Scratch Addons n'enverra que des demandes basées sur les cookies que vous avez, qui sont fournis par le navigateur pour chaque demande, donc certains addons comme Scratch Messaging ne fonctionneront pas lorsque vous vous connecterez, mais cela n'affectera pas les autres parties de l'extension.
+Scratch Addons doesn't use your account credentials to essentially work. In fact, you can be logged out from Scratch, and Scratch Addons will still work. Scratch Addons will only send requests based on the cookies that you have, which is supplied by the browser for each request, so some addons like Scratch Messaging won't work when you are logging in, but it won't affect other parts of the extension.
 
-Addons sur Scratch Les addons ont également été audités par plusieurs contributeurs sur le référentiel, donc personne ne peut simplement glisser du code malveillant sous nos yeux.
+Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
 
-Nous n'envoyons jamais les informations de compte Scratch ou les paramètres d'extension en dehors de votre navigateur. Voir [la politique de confidentialité de l'extension](/docs/privacy/policies/extension) pour plus d'informations.
+We never send Scratch account information or extension settings outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
 
-### Puis-je parler aux gens de Scratch Addons sur Scratch ?
+### Can I tell people about Scratch Addons on Scratch?
 
-Vous ne pouvez pas, et s'il vous plaît ne le faites pas. Il existe une politique qui interdit la publicité des extensions de navigateur/scripts utilisateur [ici](https://scratch.mit.edu/discuss/post/2907564/). Vous pouvez cependant utiliser différentes méthodes pour informer vos amis de Scratch Addons.
+You can't, and please don't. There is a policy that forbids advertising browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/). You may, however, use different methods to tell your friends about Scratch Addons.
 
-### Comment puis-je contribuer à Scratch Addons ?
+### How can I contribute to Scratch Addons?
 
-Tout d'abord, merci de votre intérêt à contribuer à Scratch Addons. Nous apprécions votre intérêt et vos contributions ultérieures.
+Firstly, thank you for your interest of contributing to Scratch Addons. We appreciate your interest and your later contributions. 
 
-En tant que projet open source, nous accueillons tout type de contributions. Vous n'avez même pas besoin de nous demander ou d'avoir un certain rang. Tout le monde est le bienvenu. Il est même possible que vous ne réalisiez même pas que vous avez contribué au projet !
+As an open source project, we welcome any kind of contributions. You don't even need to ask us or to have a certain rank. Anyone is welcome. There's even a chance that you don't even realize that you have contributed to the project! 
 
-Anyway, back to the point. You can contribute in many ways, and some of it is really easy
+Anyway, back to the point. You can contribute in many ways, and some of it is really easy.
 
-- **Contribuez du code**
+- **Contribute some code**
 
   If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
 
@@ -65,7 +65,7 @@ Anyway, back to the point. You can contribute in many ways, and some of it is re
 
   We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
 
-- **Suggérer une idée** 
+- **Suggest an idea**  
 
   Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
 

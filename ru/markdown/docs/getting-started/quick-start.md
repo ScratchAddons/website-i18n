@@ -21,4 +21,4 @@ title: Начало
 2. Press the gear icon to go to the Settings page.
 
 3. Feel free to look through the addons list and turn on/off whatever you want.  
-   You can also configure each of the addons on the bottom section of each addons.
+   Вы также можете настроить каждый аддон в нижней части каждого аддона.

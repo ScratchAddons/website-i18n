@@ -2,14 +2,14 @@
 title: Quick Start
 ---
 
-## Namestitev
+## Installing
 
-Začnite tako, da namestite Scratch Addons. Na voljo je v Spletni trgovini Chrome in Dodatkih za Firefox.
+Let's get started by installing Scratch Addons. Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
 
-- [Spletna trgovina Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (za Google Chrome in druge brskalnike, narejene na podlagi Chromium)
-- [Dodatki za Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (za Mozilla Firefox)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (for Google Chrome and other Chromium-based browsers)  
+- [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (for Mozilla Firefox)  
 
-## Za začetek
+## Zaczynajmy
 
 To get started, you need to access the settings page of the addon to see the functions of it.
 
@@ -21,4 +21,4 @@ To get started, you need to access the settings page of the addon to see the fun
 2. Press the gear icon to go to the Settings page.
 
 3. Feel free to look through the addons list and turn on/off whatever you want.  
-   Lahko tudi spremenite nastavitve posameznega dodatka.
+   Możesz również skonfigurować każdy z dodatków w dolnej sekcji każdego z nich.

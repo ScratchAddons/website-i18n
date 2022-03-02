@@ -59,21 +59,21 @@ Scratch Addons не может найти новые папки самому, п
 Важно: после изменения Вашего аддона, не забудьте перезагрузить расширение Scratch Addons так, как Вы сделали в 8-ом шагу.  
 
 В зависимости от того, что будет делать Ваш аддон, Вы можете посмотреть эти вики статьи:
-- [Userscripts](/docs/develop/addon-types/userscripts)
-- [Userstyles](/docs/develop/addon-types/userstyles)
+- [Юзерскрипты](/docs/develop/addon-types/userscripts)
+- [Юзерстили](/docs/develop/addon-types/userstyles)
 
-## Step 10: Make your addon customizable
+## Шаг 10: Сделайте свой аддон настраиваемым
 If you want, you can make your addon customizable!  
 Users of your addon will be able to toggle settings, enter numbers, and more!  
 To get started, see [how to declare settings in the addon manifest](/docs/reference/addon-manifest/#settings-object).  
 Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon.settings) to learn how to access user choices from userscripts.
 
-## Step 11: Before publishing your addon
-Now that your addon works, let's make sure we can add it to the addon library.  
-Make sure your addon's manifest is suitable, [more info here](/docs/reference/addon-manifest). Keep close attention to the name, description and tags of your addon. Make sure to set `"enabledByDefault"` to `false` or remove it.  
-Make sure your addon doesn't break other addons.  
-Make sure your code is understandable; having unnecessary comments is better than no comments.
+## Шаг 11: До публикования аддона
+Теперь когда Ваш аддон работает, давайте убедимся в том, что мы можем его добавить в библиотеку аддонов.  
+Убедитесь в том, что манифест Вашего аддона подходящий, [больше информации находится здесь](/docs/reference/addon-manifest). Обращайте внимание на имя, описание и тэги аддона. Не забудьте поставить `"enabledByDefault"` значение `false` или удалить этот ключ.  
+Убедитесь в том, что Ваш аддон не ломает другие.  
+Убедитесь, что Ваш код понятен; необязательные комментарии лучше, чем никаких комментариев.
 
-## Step 12: Send a pull request!
-Fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+## Шаг 12: Отправьте pull запрос!
+Сделайте fork репозитории, если не сделали, зафиксируйте свой новый аддон и отправьте pull request!  
+Мы можем Вас попросить сделать некоторые изменения, однако мы скорее всего подтвердим Ваш аддон, если он хотя бы минимально подходящий.

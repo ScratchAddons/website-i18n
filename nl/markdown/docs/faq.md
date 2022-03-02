@@ -1,45 +1,45 @@
 ---
 title: Veelgestelde Vragen
-description: Op deze pagina staan veelgestelde vragen verwant mer de Scratch Addons-extensie en project.
+description: Op deze pagina staan veelgestelde vragen verwant met de Scratch Addons-extensie en -project.
 ---
 
-Op deze pagina staan veelgestelde vragen verwant mer de Scratch Addons-extensie en project.
+Op deze pagina staan veelgestelde vragen verwant met de Scratch Addons-extensie en -project.
 
 ### Wat is Scratch Addons?
 
-Scratch Addons is een alles-in-een browserextensie voor de Scratch-website en projecteditor. Het geeft je functies en thema's (intern genaamd addons) voor zowel de Scratch-website als de projecteditor. De missie van Scratch Addons is om alle bestaande Scratchextensies, userscripts en userstyles te combineren, gemaakt door meerdere leden van de Scratchgemeenschap, in een enkele makkelijk toegankelijke plaats, terwijl gebruikers nog steeds mogen kiezen welke ze willen aanzetten.
+Scratch Addons is een alles-in-een browserextensie voor de Scratchwebsite en -projecteditor. Het geeft je functies en thema's (intern genaamd addons) voor zowel de Scratchwebsite als de projecteditor. De missie van Scratch Addons is om alle bestaande Scratchextensies, userscripts en userstyles te combineren, gemaakt door meerdere leden van de Scratchgemeenschap, in een enkele makkelijk toegankelijke plaats, terwijl gebruikers nog steeds mogen kiezen welke ze willen aanzetten.
 
 ### Wat is precies een "addon"?
 
-An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
+Een addon is vergelijkbaar met een extensie of een userscript, maar ze gebruiken speciale API's geleverd door de Scratch Addons-extensie. Deze API's geven addons de mogelijkheid om scripts op een Scratchpagina uit te voeren (userscripts) of stijlen toepassen op de Scratchwebsite (userstyles).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
+Userscripts kunnen de `addon.*` JavaScript-API's gebruiken, waar ze Scratch-gerelateerde informatie vandaan halen (bijvoorbeeld de ingelogde gebruiker), en ze gebruiken ook extensie-API's (zoals notificaties sturen).
 
 ### Als alles een addon is, wat doet Scratch Addons dan?
 
-Op zichzelf is Scratch Addons gewoon een addon-lader. Zijn hoofdtaken zijn:
+Op zichzelf is Scratch Addons gewoon een addonlader. Zijn hoofdtaken zijn:
 
-- Allow users to enable, disable and configure addons.
-- Run addons and provide APIs to them.
-- Provide global state to addons (for example, the addon.auth API).
+- Laat gebruikers addons in- of uitschakelen en instellen.
+- Addons uitvoeren en ze API's leveren.
+- De globale status aan addons leveren (zoals de addon.auth API).
 - Pollute prototypes for use by addon userscripts.
-- Provide ways to access and modify Redux state.
-- Avoid addons from interfering with each other.
-- Avoid duplicate work from different addons.
+- Manieren om toegang te krijgen tot Redux-status en het te bewerken geven.
+- Vermijden dat addons elkaar onderbreken.
+- Dubbel werk van andere addons vermijden.
 
-### Is Scratch Addons safe? 
+### Is Scratch Addons veilig?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store and Add-ons for Firefox.
+Ja. Scratch Addons zou geen beveiligingsproblemen moeten hebben in zijn laatste versie. Scratch Addons is een open-bron project, dus de code wordt constant gecheckt door Scratch Addons-helpers, net zoals door recensenten van de Chrome Web Store en Addons voor Firefox.
 
-### How can I report a security vulnerability?
+### Hoe kan ik een beveiligingskwetsbaarheid melden?
 
-If you happen to find a security vulnerability please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please create an issue [here](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning you sent an email.
+Als je een beveiligingskwetsbaarheid tegenkomt, neem dan privé contact op met World_Languages door een e-mail te sturen naar `worldxlanguages (at) gmail.com`. Als je binnen 48 uur geen antwoord krijgt, maak dan [hier](https://github.com/ScratchAddons/ScratchAddons/issues/) een issue dat vermeldt dat je een e-mail hebt gestuurd.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy), or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Je kunt [ons beveiligingsbeleid lezen](https://github.com/ScratchAddons/ScratchAddons/security/policy), of [onze gepubliceerde adviezen checken](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Will my account be safe when using Scratch Addons?
+### Zal mijn account veilig zijn als ik Scratch Addons gebruik?
 
-Scratch Addons doesn't use your account credentials to essentially work. In fact, you can be logged out from Scratch, and Scratch Addons will still work. Scratch Addons will only send requests based on the cookies that you have, which is supplied by the browser for each request, so some addons like Scratch Messaging won't work when you are logging in, but it won't affect other parts of the extension.
+Scratch Addons gebruikt niet je accountgegevens om echt te werken. In feite kun je uitgelogd zijn van Scratch, en Scratch Addons zal nog steeds werken. Scratch Addons verstuurt alleen verzoeken gebaseerd op de cookies die je hebt, die worden geleverd door de browser voor elk verzoek, dus sommige addons zoals Scratch-Berichtgeving zullen niet werken als je niet bent ingelogd, maar het zal andere delen van de extensie niet beïnvloeden.
 
 Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
 
