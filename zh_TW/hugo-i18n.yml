@@ -14,113 +14,17 @@ Footer:
     Contributors: 貢獻者
     Changelog: 更改日誌
   Discuss:
-    Header: ""
-    Discussion: ""
     Issues: 問題
-    DiscordCom: ""
-    DiscordDev: ""
   Resources:
-    Header: ""
-    Organization: ""
     Repository: 存儲庫
-    Documentation: ""
   Legal:
     Copyright: © {{.Count}} Scratch Addons 的貢獻者
-    NoAffiliation: ""
-    License: ""
-DarkTheme:
-  Title: ""
-  Label: ""
 Docs:
-  SectionSiteName: ""
-  DocsNav: ""
-  DocsNavToggleLabel: ""
   TOC: 目錄
-  TOCToggleLabel: ""
   LastUpdated: "最後更新時間在 {{.Date}} "
-  Improve: ""
-  SectionPages: ""
-PlayerModal:
-  LabelPlay: ""
-  ModalTitle: ""
-  AltText: ""
 IndexPage:
   Intro:
-    Tagline: ""
-    Description: ""
     InstallButton:
       Loading: 加载中...
-      Description: ""
-    ReadMore: ""
-    Carousel:
-      Video:
-        Caption: ""
-      Popup:
-        Caption: ""
-        ImgAlt: ""
-      Settings:
-        Caption: ""
-        ImgAlt: ""
-      Demo:
-        Caption: ""
-        ImgAlt: ""
-      Previous: ""
-      Next: ""
-  Features:
-    Heading: ""
-    AddonsParagraph: ""
-    CustomizableHeading: ""
-    CustomizableParagraph: ""
-    InternationalHeading: ""
-    InternationalParagraph: ""
-    OSHeading: ""
-    OSParagraph: ""
-  Highlights:
-    Heading: ""
-    Paragraph: ""
-    ScratchMessagingHeading: ""
-    ScratchMessagingParagraph: ""
-    ScratchNotifierHeading: ""
-    ScratchNotifierParagraph: ""
-    DeveloperToolsHeading: ""
-    DeveloperToolsParagraph: ""
   Install:
     Heading: 安裝
-    Paragraph: ""
-    InstallButton:
-      Other: ""
-  Users: ""
-AddonsPage:
-  EasterEggAddon: ""
-  RecommendedAddon: ""
-  ListViewLabel: ""
-  EasterEggLabel: ""
-  EasterEggTooltip:
-    L1: ""
-    L2: ""
-FeedbackPage:
-  Status:
-    Sending: ""
-    Success: ""
-    Failed: ""
-  UsernameLabel: ""
-  ContentLabel: ""
-  ContentPlaceholder: ""
-  SendEnabled: ""
-  SubmitButton: ""
-SMTPage:
-  ScratchMessagingLogoAlt: ""
-ChangelogPage:
-  Highlights:
-    Title: ""
-  Links:
-    Title: ""
-    ReleaseGitHub: ""
-    RepoState: ""
-    CommitsMade: ""
-  Status:
-    Latest: ""
-    Yanked: ""
-UnsupportedBrowserPage:
-  Download: ""
-  HowToUpdate: ""

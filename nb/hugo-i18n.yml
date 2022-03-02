@@ -1,132 +1,28 @@
 Global:
   ScratchAddons: Scratch Utvidelser
   LogoAlt: Scratch Utvidelser logo
-  FirefoxLong: ""
-  FirefoxShort: ""
   Install: Installer
   InstallFor: Installer for {{.Browser}}
 Nav:
-  Contributors: ""
   Feedback: Send tilbakemelding
-  Repository: ""
   Install: Installer
 Footer:
   Pages:
     Header: Sider
-    FAQ: ""
     Feedback: Send tilbakemelding
-    Contributors: ""
-    Changelog: ""
     Addons: Utvidelser
   Discuss:
-    Header: ""
     Discussion: Forum
     Issues: Feil
-    DiscordCom: ""
-    DiscordDev: ""
-  Resources:
-    Header: ""
-    Organization: ""
-    Repository: ""
-    Documentation: ""
-  Legal:
-    Copyright: ""
-    NoAffiliation: ""
-    License: ""
-DarkTheme:
-  Title: ""
-  Label: ""
-Docs:
-  SectionSiteName: ""
-  DocsNav: ""
-  DocsNavToggleLabel: ""
-  TOC: ""
-  TOCToggleLabel: ""
-  LastUpdated: ""
-  Improve: ""
-  SectionPages: ""
-PlayerModal:
-  LabelPlay: ""
-  ModalTitle: ""
-  AltText: ""
 IndexPage:
   Intro:
-    Tagline: ""
-    Description: ""
     InstallButton:
       Loading: Laster inn...
-      Description: ""
-    ReadMore: ""
     Carousel:
-      Video:
-        Caption: ""
-      Popup:
-        Caption: ""
-        ImgAlt: ""
-      Settings:
-        Caption: ""
-        ImgAlt: ""
-      Demo:
-        Caption: ""
-        ImgAlt: ""
-      Previous: ""
       Next: Neste
   Features:
-    Heading: ""
     AddonsHeading: Utvidelser
-    AddonsParagraph: ""
-    CustomizableHeading: ""
-    CustomizableParagraph: ""
-    InternationalHeading: ""
-    InternationalParagraph: ""
-    OSHeading: ""
-    OSParagraph: ""
-  Highlights:
-    Heading: ""
-    Paragraph: ""
-    ScratchMessagingHeading: ""
-    ScratchMessagingParagraph: ""
-    ScratchNotifierHeading: ""
-    ScratchNotifierParagraph: ""
-    DeveloperToolsHeading: ""
-    DeveloperToolsParagraph: ""
   Install:
     Heading: Installer
-    Paragraph: ""
-    InstallButton:
-      Other: ""
-  Users: ""
 AddonsPage:
   EasterEggAddon: Dette er en easter egg utvidelse.
-  RecommendedAddon: ""
-  ListViewLabel: ""
-  EasterEggLabel: ""
-  EasterEggTooltip:
-    L1: ""
-    L2: ""
-FeedbackPage:
-  Status:
-    Sending: ""
-    Success: ""
-    Failed: ""
-  UsernameLabel: ""
-  ContentLabel: ""
-  ContentPlaceholder: ""
-  SendEnabled: ""
-  SubmitButton: ""
-SMTPage:
-  ScratchMessagingLogoAlt: ""
-ChangelogPage:
-  Highlights:
-    Title: ""
-  Links:
-    Title: ""
-    ReleaseGitHub: ""
-    RepoState: ""
-    CommitsMade: ""
-  Status:
-    Latest: ""
-    Yanked: ""
-UnsupportedBrowserPage:
-  Download: ""
-  HowToUpdate: ""
