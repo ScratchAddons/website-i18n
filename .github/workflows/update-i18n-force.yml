@@ -39,7 +39,7 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
 
       - name: Set up Transifex Client
-        run: curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh
+        run: curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
       
       - name: Execute script
         id: script
