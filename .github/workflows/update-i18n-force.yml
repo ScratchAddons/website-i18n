@@ -8,17 +8,9 @@ jobs:
     name: Update
     runs-on: ubuntu-latest
     steps:
-      - name: Generate token
-        uses: tibdex/github-app-token@v1
-        id: generate-token
-        with:
-          app_id: ${{ secrets.BOT_APP_ID }}
-          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - name: Checkout ScratchAddons/website-i18n
         uses: actions/checkout@v2
         with:
-          token: ${{ steps.generate-token.outputs.token }}
           path: repo
           fetch-depth: 0
       - name: Checkout ScratchAddons/website-v2-script
@@ -53,6 +45,13 @@ jobs:
         with:
           name: public
           path: ./repo
+
+      - name: Generate token
+        uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.BOT_APP_ID }}
+          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
 
       - name: Invoke workflow
         if: ${{ steps.script.outputs.do_invoke }}
