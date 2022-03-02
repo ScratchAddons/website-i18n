@@ -11,12 +11,10 @@ jobs:
       - name: Checkout ScratchAddons/website-i18n
         uses: actions/checkout@v2
 
-      - name: Set up Transifex Client
-        run: curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
-
       - name: Execute script
         run: |
           echo Running...
+          curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
           tx push --source --use-git-timestamps --skip
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
