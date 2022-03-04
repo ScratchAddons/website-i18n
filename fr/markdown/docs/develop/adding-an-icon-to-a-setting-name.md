@@ -7,4 +7,4 @@ Pour ajouter une icône à un nom de paramètre sans [causer](https://github.com
 - Écrivez `@ICONFILENAME.svg nom du paramètre` sur `addon.json`
 - Ajouter `ICONFILENAME.svg` à `/images/icons/` si manquant
 - Modifiez `/background/load-addon-manifests.js` pour ajouter `iconfilenameIcon : "@ICONFILENAME.svg",`
-- Éditer`/addons/scratch-notifier/notifier.js` pour les paramètres des notification Scratch
+- Éditer manuellement `/addons/scratch-notifier/notifier.js` pour personnaliser les paramètres des notification Scratch

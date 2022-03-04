@@ -67,30 +67,30 @@ function sayHello() {
 Je kunt toegang krijgen tot sommige  `addon.*` API's van userscripts. Voor meer informatie, check de documentatie.
 
 ## Technische aspecten van userscripts
-Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
-Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
-This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
-Scratch Addons then calls that function modules exported, giving it access to the `addon.*` APIs, as well as special wrappers:  
-- `addon`: gives userscripts access to the [`addon.*` APIs](/docs/developing/addon-apis-reference).
-- `global`: this is a shared object between all userscripts of the same addon. **Example usage:**
+Userscripts voeren uit nadat de Scratchpagina volledig is geladen - in andere woorden, ze voeren uit in de `defer`-stand.
+Technisch gezien is elke userscript een JavaScript-module die een functie exporteert. JavaScript-modules voeren altijd uit op "stricte modus". 
+Dit betekent dat userscripts van dezelfde addon GEEN variabelen en functies delen! Als je dat wilt doen, moet je het `global`-object gebruiken (meer informatie beneden).
+Scratch Addons noemt dan die functiemodules geëxporteerd, waardoor het toegang krijgt tot de `addon.*`-API's, net zoals speciale wrappers:
+- `addon`: geeft userscripts toegang tot de [`addon.*`-API's](/docs/developing/addon-apis-reference).
+- `global`: dit een een gedeeld object tussen alle userscripts van dezelfde addon. **Voorbeeld:**
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.username);
+  global.zegHallo = () => console.log("Hallo, " + addon.auth.username);
 }
 
 // userscript-2.js
 export default async function ({ addon, global, console }) {
-  global.sayHello();
-  // This works, as long as in the addon manifest, userscript-1.js is before userscript-2.js in the userscripts array.
+  global.zegHallo();
+  // Dit werkt zolang userscript-1.js voor userscript-2.js in de userscripts-array staat in de addon-manifest.
 }
 ```
-- `console`: this is a wrapper that allows you to see what addon triggered the log you're seeing easily.
+- `console`: dit is een wrapper die je makkelijk laat zien welke addon de log die je ziet heeft getriggerd.
 
-## Debugging userscripts
-**Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
-To debug userscripts, first of all make sure your addon is enabled.  
-Then, go to a URL where you specified your userscript should run.  
-Open the console by pressing Ctrl+Shift+J.  
-You should see console logs by addons, including yours. If you're a devtools pro, you won't have any trouble setting breakpoints in your code.  
-Protip: if you want to test the `addon.*` API without changing your file every time, make your addon `window.addon = addon;` (inside the main function), and you'll be able to access your addon's `addon` object from the console. Make sure to remove that line before contributing to this repo! Userscripts must not pollute the global object.
+## Userscripts debuggen
+**Zorg ervoor dat je Scratch Addons ververst van `chrome://extensions` na het maken van veranderingen aan je addon.**
+Om userscripts te debuggen, zorg er eerst voor dat je addon aanstaat.
+Ga dan naar een URL waar je hebt gespecificeerd waar je userscript zou moeten uitvoeren.
+Open de console door Ctrl+Shift+J in te voeren.
+Je zou console-logs moeten zien bij addons, inclusief de jouwe. Als je goed bent in devtools, zal je geen probleem hebben met breakpoints in je code zetten.
+Pro-tip: als je de `addon.*`-API wilt testen zonder steeds je bestand te veranderen, maak dan je addon `window.addon = addon;` (binnen de hoofdfunctie), en je zou in de console toegang moeten hebben tot het `addon`-object van je addon. Zorg ervoor dat je die regel verwijdert voordat je bijdraagt aan deze repo! Userscripts zouden het globale object niet moeten vervuilen.

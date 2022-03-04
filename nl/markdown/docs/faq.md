@@ -22,7 +22,7 @@ Op zichzelf is Scratch Addons gewoon een addonlader. Zijn hoofdtaken zijn:
 - Laat gebruikers addons in- of uitschakelen en instellen.
 - Addons uitvoeren en ze API's leveren.
 - De globale status aan addons leveren (zoals de addon.auth API).
-- Pollute prototypes for use by addon userscripts.
+- Maak prototypes voor gebruik door addonsuserscripts.
 - Manieren om toegang te krijgen tot Redux-status en het te bewerken geven.
 - Vermijden dat addons elkaar onderbreken.
 - Dubbel werk van andere addons vermijden.
@@ -41,101 +41,101 @@ Je kunt [ons beveiligingsbeleid lezen](https://github.com/ScratchAddons/ScratchA
 
 Scratch Addons gebruikt niet je accountgegevens om echt te werken. In feite kun je uitgelogd zijn van Scratch, en Scratch Addons zal nog steeds werken. Scratch Addons verstuurt alleen verzoeken gebaseerd op de cookies die je hebt, die worden geleverd door de browser voor elk verzoek, dus sommige addons zoals Scratch-Berichtgeving zullen niet werken als je niet bent ingelogd, maar het zal andere delen van de extensie niet beïnvloeden.
 
-Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
+Addons op Scratch Addons zijn ook gecontroleerd door meerdere helpers op het archief, dus niemand kan gewoon stiekem gevaarlijke code gebruiken.
 
-We never send Scratch account information or extension settings outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+We versturen nooit Scratchaccountinformatie of extensie-instellingen buiten je browser. Bekijk [het extensie-privacybeleid](/docs/privacy/policies/extension) voor meer informatie.
 
-### Can I tell people about Scratch Addons on Scratch?
+### Kan ik andere mensen over Scratch Addons vertellen op Scratch?
 
-You can't, and please don't. There is a policy that forbids advertising browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/). You may, however, use different methods to tell your friends about Scratch Addons.
+Nee, en doe het alsjeblieft niet. Er is een beleid dat het reclame maken voor extensies/userscripts verbiedt [hier](https://scratch.mit.edu/discuss/post/2907564/). Je kunt wel andere manieren gebruiken om je vrienden te vertellen over Scratch Addons.
 
-### How can I contribute to Scratch Addons?
+### Hoe kan ik meehelpen met Scratch Addons?
 
-Firstly, thank you for your interest of contributing to Scratch Addons. We appreciate your interest and your later contributions. 
+Allereerst, bedankt dat je geïnteresseerd bent om mee te helpen aan Scratch Addons. We stellen je interesse en je latere bijdragen op prijs.
 
-As an open source project, we welcome any kind of contributions. You don't even need to ask us or to have a certain rank. Anyone is welcome. There's even a chance that you don't even realize that you have contributed to the project! 
+Als een open-bron project heten we alle soorten bijdragen welkom. Je hoeft het ons niet eens te vragen en je hebt geen rang nodig. Iedereen is welkom. Er is zelfs een kans dat je niet eens weet dat je hebt meegeholpen aan het project!
 
-Anyway, back to the point. You can contribute in many ways, and some of it is really easy.
+Hoe dan ook, je kunt in veel manieren meehelpen, en sommige zijn heel makkelijk.
 
-- **Contribute some code**
+- **Code bijdragen**
 
-  If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
+  Als je JavaScript, HTML 5, en CSS kent, kun je meehelpen door een beetje te coderen/programmeren. Je kunt bugs oplossen, enkele verzoeken aanpakken, of je eigen addon maken.
 
-  After that, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), do your necessary changes, and create a pull request. If it is deemed feasible, we will merge it.
+  Daarna moet je een pull-verzoek maken. Dat kun je doen door een vertakking te maken van [het archief](https://github.com/ScratchAddons/ScratchAddons/), maak je nodige veranderingen, en maak een pull-verzoek. Als het goedgekeurd wordt, zullen we het samenvoegen.
 
-  We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
+  We heten ook bijdragen aan andere aspecten dan de extensie welkom. Je kunt onze archieven zien op [onze GitHub-organisatiepagina](https://github.com/ScratchAddons) en ons helpen met ze te bouwen.
 
-- **Suggest an idea**  
+- **Een idee geven**
 
-  Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
+  Heb je een idee voor iets wat een goede bijdrage zou leveren aan Scratch Addons? [Vertel het ons!](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **Report a bug**
+- **Een bug melden**
 
-  Found a bug in one of our addon, the settings page, or anything else on our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Heb je een bug gevonden in een van onze addons, de instellingspagina, of iets anders in onze extensie? [Verstuur ons een bug-melding](#what-can-i-do-if-i-find-a-problem).
 
-- **Translate Scratch Addons**  
+- **Scratch Addons Vertalen**
 
-  If you can speak another language than English fluently, you can help translate/localize Scratch Addons to your language. You can start from [here](/docs/localization/joining-the-localization-team).
+  Als je Engels en een andere taal vloeiend spreekt, kun je helpen met vertalen/lokaliseren van Scratch Addons in je eigen taal. Je kunt [hier](/docs/localization/joining-the-localization-team) starten.
 
-- **Write the documentation**
+- **De documentatie schrijven**
 
-  Are you familiar with Scratch Addons? If so, you can write the documentation for it. The documentation can include how to use it, or how it works. Please contact us on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) for further information.
+  Ben je bekend met Scratch Addons? Zo ja, dan kun je zijn documentatie schrijven. De documentatie kan inhouden hoe je het moet gebruiken of hoe het werkt. Neem contact met ons op op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) voor meer informatie.
 
-- **Send feedback**  
+- **Feedback geven**
 
-  You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  Je kunt ons feedback geven op ons formulier op [de feedbackpagina](https://scratchaddons.com/feedback). Je feedback kan ons een ander beeld geven in de ontwikkeling van de extensie en laat ons weten over dingen die aandacht of oplossingen nodig hebben.
 
-- **Leave a review on the stores**
+- **Laat een recensie achter op de winkels**
 
-  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  Je kunt ons een recensie over Scratch Addons achterlaten op [de Chrome-extensiepagina](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) of [de Firefox-addonpagina](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
 
-- **Star our repository**
+- **Geef ons archief een ster**
 
-  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and click the "Star" button on the top-right corner.
+  Eigenlijk is de GitHub-ster gelijk aan de Scratch-ster/favoriet. Je kunt dit doen door naar [ons archief](https://github.com/ScratchAddons/ScratchAddons) te gaan en te klikken op de "Ster"-knop rechtsbovenin.
 
-- **Spread the word**
+- **Vertel het verder**
 
-  You can tell anyone about Scratch Addons, like your friends, your relatives, your family members, or even your teacher, if you want. We're just asking you to [not do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Je kunt iedereen over Scratch Addons vertellen, zoals je vrienden, je bekenden, je familieleden, of zelfs je leerkracht, als je dat wilt. We vragen je alleen om dit [niet te doen op de Scratchwebsite](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### How can I create my own addon?
+### Hoe maak ik mijn eigen addon?
 
-Read more about how to create an addon on Scratch Addons [here](/docs/develop/getting-started).
+Lees [hier](/docs/develop/getting-started) meer over hoe je een addon op Scratch Addons maakt.
 
-### How can I put my name on the [contributors page](/contributors)?
+### Hoe zet ik mijn naam op de [helperspagina](/contributors)?
 
-Please read and follow the instruction of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) in order to have your name on said page.
+Lees en volg graag de instructies van [deze issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) om je naam op de pagina te krijgen.
 
-### How can I remove my name from the [contributors page](/contributors)?
+### Hoe verwijder ik mijn naam van de [helperspagina](/contributors)?
 
-If you don't want your name to be on the page, please tell us by creating an issue on [our contributors repository](https://github.com/ScratchAddons/contributors/issues/), or by other means of contact. We're sorry for the inconvenience.
+Als je je naam niet op de pagina wilt hebben, vertel het ons graag door een issue op [ons helpersarchief](https://github.com/ScratchAddons/contributors/issues/) te openen, of op andere contactmethodes. Excuses voor het ongemak.
 
-### What can I do if I find a problem?
+### Wat kan ik doen als ik een probleem vind?
 
-You can tell us using one of these methods.
+Je kunt het ons vertellen door een van deze methodes.
 
-- Send it through [our feedback form](https://scratchaddons.com/feedback).
-- Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).
+- Verzend het door [ons feedbackformulier](https://scratchaddons.com/feedback).
+- Maak een issue op [het archief](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Maak een post op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Vertel het ons op [onze Discord-server](https://discord.gg/R5NBqwMjNc).
 
-### I think you missed a feature. What can I do?
+### Ik denk dat jullie een functie hebben gemist. Wat kan ik doen?
 
-If you think a feature is missing, or you want to suggest an addon to the extension, or you have a good idea, tell us by [following one of the methods mentioned above](#what-can-i-do-if-i-find-a-problem).
+Als je denkt dat er een functie mist, of je wilt een addon voorstellen, of je hebt een goed idee, vertel het ons door [een van de bovengenoemde methodes te volgen](#what-can-i-do-if-i-find-a-problem).
 
-### Where can I discuss about Scratch Addons?
+### Waar kan ik discussiëren over Scratch Addons?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can discuss about it and ask questions if you're having trouble.
+Je kunt het doen op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of [onze Discord-server](https://discord.gg/R5NBqwMjNc). Daar kun je erover discussiëren en vragen stellen als je problemen hebt.
 
-### I think Scratch Addons slows down Scratch. What can I do?
+### Ik heb het idee dat Scratch Addons Scratch vertraagd. Wat kan ik doen?
 
-Try to turn off addons that you don't need. Also, check addon notices and warnings to decide which addons should be turned off for better performance. 
+Probeer addons uit te zetten die je niet nodig hebt. Controleer ook opmerkingen en waarschuwingen in addons om te beslissen welke addons aan of uit moeten voor betere prestaties.
 
-### How can you activate the easter egg addons?
+### Hoe kun je de easter-egg-addons inschakelen?
 
-To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
+Om de easter-egg-addons te gebruiken, voer de Konami Code (↑↑↓↓←→←→BA) in op de instellingspagina. Daarna zullen de easter-egg-addons zichtbaar zijn zodat je ze kan aanzetten.
 
-Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
+Sommige van onze easter-egg-addons zijn "Accountinstellingen Met Hoofdletters" en "Puntkommaglitch". Bekijk [de addonspagina](/addons) voor een complete lijst.
 
-### I have more questions!
+### Ik heb nog meer vragen!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.
+Als je nog onbeantwoorde vragen hebt, kun je een post maken op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of verstuur een bericht [op onze Discord-server](https://discord.gg/R5NBqwMjNc). Iemand zal het voor je proberen te antwoorden.
