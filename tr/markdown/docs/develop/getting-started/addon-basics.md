@@ -10,7 +10,7 @@ Kullanıcı komut dosyası, bir Scratch sekmesiyle birlikte çalışan bir JavaS
 Kullanıcı komut dosyaları, örneğin gezinme çubuğuna düğmeler eklemek veya kaldırmak gibi, Scratch sitesinin davranışını değiştirmek için yararlıdır.
 
 ## Kullanıcı stili nedir?
-Kullanıcı stili, kullanıcı komut dosyasına benzer; onlar için URL kalıpları da belirtebilirsiniz. Ancak, kullanıcı stilleri JavaScript yerine CSS'i kullanır. Bunlar genellikle kullanıcı komut dosyalarında kendileri tarafından eklenen öğelere stil vermek için kullanılırlar, ancak yerel Scratch öğelerine stil vermek için de kullanılabilirler. Durum böyle olduğundan, genellikle onlara "temalar" deriz.
+Kullanıcı stili, kullanıcı komut dosyasına benzer; onlar için bağlantı kalıpları da belirtebilirsiniz. Ancak, kullanıcı stilleri JavaScript yerine CSS'i kullanır. Bunlar genellikle kullanıcı komut dosyalarında kendileri tarafından eklenen öğelere stil vermek için kullanılırlar, ancak yerel Scratch öğelerine stil vermek için de kullanılabilirler. Durum böyle olduğundan, genellikle onlara "temalar" deriz.
 
 ## Kavramsal olarak, bir eklenti ne olmalıdır?
 Yeni bir eklenti oluşturmanın veya mevcut bir eklentiyi değiştirmenin daha iyi bir fikir olup olmadığını merak edebilirsiniz.

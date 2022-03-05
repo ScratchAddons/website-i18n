@@ -6,12 +6,12 @@ description: Kullanıcı komut dosyaları, Scratch sayfaları boyunca kod çalı
 Kullanıcı komut dosyaları, Scratch sayfaları boyunca kod çalıştırmanıza izin verir - düğme ekleme, Scratch düzenleyiciyi geliştirme veya hayal edebileceğiniz herhangi bir şey gibi şeyler yapabilirsiniz.
 
 ## Nasıl bir kullanıcı komut dosyası eklerim?
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions`'dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions` dan yenilemeyi unutmayın.**
 Eklentinizin (addon.json) manifest dosyasına gidin ve `userscripts"` adında bir özellik ekleyin.
 Bu özellik bir dizi olmalıdır.
 Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleşir"`.
-`"url"`, bir JavaScript dosyasına göreli bir URL olmalıdır.
-`"matches"`, kullanıcı komut dosyalarını çalıştırmak istediğiniz URL'lerin bir dizisi olmalıdır. Yıldız işaretlerini kullanabilirsiniz.
+`"url"`, bir JavaScript dosyasına göreli bir bağlantı olmalıdır.
+`"matches"`, kullanıcı komut dosyalarını çalıştırmak istediğiniz bağlantırları bir dizisi olmalıdır. Yıldız işaretlerini kullanabilirsiniz.
 Örnek manifest:
 ```json
 {
