@@ -103,11 +103,11 @@ Scratch Eklentilerinde nasıl eklenti oluşturulacağı hakkında daha fazla bil
 
 ### Adımı [katkıda bulunanlar sayfasına](/contributors) nasıl koyabilirim?
 
-Adınızın söz konusu sayfada yer alması için lütfen [bu gönderinin](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) talimatlarını okuyun ve uygulayın.
+Adınızın söz konusu sayfada yer alması için lütfen [bu sorunun](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) talimatlarını okuyun ve uygulayın.
 
 ### Adımı [katkıda bulunanlar sayfasından](/contributors) nasıl kaldırabilirim?
 
-Adınızın sayfada görünmesini istemiyorsanız, lütfen [katkıda bulunanlar havuzumuzdan](https://github.com/ScratchAddons/contributors/issues/) veya diğer iletişim araçlarını kullanarak bir sorun oluşturarak bize bildirin. Rahatsızlık için özür dileriz.
+Adınızın sayfada görünmesini istemiyorsanız, lütfen [katkıda bulunanlar depomuzdan](https://github.com/ScratchAddons/contributors/issues/) veya diğer iletişim araçlarını kullanarak bir sorun oluşturarak bize bildirin. Rahatsızlık için özür dileriz.
 
 ### Bir sorun bulursam ne yapabilirim?
 
