@@ -15,6 +15,13 @@ source_file = en/html-front.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:scratch-addons:p:scratch-addons-website:r:contributor-types]
+file_filter = <lang>/contributor-types.yml
+minimum_perc = 0
+source_file = en/contributor-types.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:scratch-addons:p:scratch-addons-website:r:html-content_farewell]
 file_filter = <lang>/html-content/farewell.html
 minimum_perc = 100
