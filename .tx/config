@@ -182,3 +182,10 @@ minimum_perc = 100
 source_file = en/markdown/docs/faq.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:html-content_credits]
+file_filter = <lang>/html-content/credits.html
+minimum_perc = 100
+source_file = en/html-content/credits.html
+source_lang = en
+type = HTML_FRAGMENT
