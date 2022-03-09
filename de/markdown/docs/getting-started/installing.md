@@ -6,11 +6,14 @@ title: Installation
 
 Scratch Addons ist sowohl im Chrome Web Store als auch in den Firefox-Addons erhältlich.
 
-- Chrone Web Store (für Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79) und weitere auf Chromium basierende Browser)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco  
-- Add-ons for Firefox (für Mozilla Firefox)  
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/  
+- Chrome Web Store (für Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79 und weitere auf Chromium basierende Browser)
+  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
+- Add-ons for Firefox (für Mozilla Firefox)  
+  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
+
+- Microsoft Edge Add-ons (für Microsoft Edge >79)  
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Aus Quelle
 

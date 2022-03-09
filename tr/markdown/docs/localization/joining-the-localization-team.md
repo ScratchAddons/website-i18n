@@ -3,7 +3,11 @@ title: Yerelleştirme Ekibine Katılma
 description: Scratch Eklentilerini diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz! Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kar amacı gütmeyen bir açık kaynak projesidir.
 ---
 
-> _**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** Dillerinin zaten tercümesi yapıldı. Bu diller için yeni çevirmen kabul etmeyeceğiz_
+{{< admonition info >}}
+
+_**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten tercüme edildi. Bu diller için yeni çevirmen kabul etmeyeceğiz_
+
+{{< /admonition >}}
 
 **Scratch Eklentilerini diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz!**
 
@@ -13,7 +17,7 @@ Tek bir JavaScript satırı kodlamamış olsanız bile, herkesin Scratch deneyim
 
 **Tek yapmanız gereken hem İngilizce hem de başka bir dil bilmek ve haftada birkaç dakikanızı o dönemde eklenen yeni cümlelerini çevirmek için harcamak.**
 
-Bu şekilde, sizin dilinizi konuşan herkes, İngilizceyi anlamak zorunda kalmak yerine Scratch Eklentileri kendi ana dilinde kullanabilir.
+Bu sayede, sizin dilinizi konuşan herkes, İngilizce bilmek zorunda kalmadan Scratch Eklentilerini kendi diinde kullanabilir.
 
 **Yardım etmekle ilgileniyorsanız, lütfen şu adımları izleyin:**
 
@@ -31,8 +35,8 @@ Yakında Transifex ekibine kabul edileceksiniz ve çevrilecek yeni dizeler oldu�
 - Scratch'in o dile çevrilmiş olması gerekiyor.
 - Scratch'in aksine, dil başına yalnızca bir tane lehçeyi destekliyoruz (Scratch Eklentilerinde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacak).
 - Talebinizin kabul edilmesi birkaç saat/gün sürebilir.
-- Kabul edilirseniz, kendinizi [web sitemizin katkıda bulunanlar sayfamıza](https://scratchaddons.com/contributors) ekleyebilir (veya eklenebilirsiniz).
-- Yasal konular: çevirileriniz, Scratch Eklentiler (GPL v3.0) ile aynı lisans altında lisanslanacaktır.
+- Kabul edilirseniz, kendinizi [sitemizin katkıda bulunanlar sayfamıza](https://scratchaddons.com/contributors) ekleyebilir (veya eklenebilirsiniz).
+- Yasal konular: çevirileriniz, Scratch Eklentiler (GPL v3.0) ile aynı lisans altında lisanslanacaktır
 
 ### Sorusu olan?
 

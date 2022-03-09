@@ -1,24 +1,25 @@
 ---
-title: Quick Start
+title: クイックスタート
 ---
 
 ## インストール
 
-Let's get started by installing Scratch Addons. Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+Scratch Addonsをインストールしましょう。Scratch AddonsはChrome Web StoreとAdd-ons for Firefoxの両方で入手できます。
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (for Google Chrome and other Chromium-based browsers)  
-- [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (for Mozilla Firefox)  
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (Google ChromeとChromiumベースのブラウザー用)
+- [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (Mozilla Firefox用)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (Microsoft Edge用) 
 
 ## 始め方
 
-To get started, you need to access the settings page of the addon to see the functions of it.
+始めるには、アドオン設定ページにアクセスして、機能を確認してみましょう。
 
-<!-- TODO: Add pictures -->
+<!-- TODO: 画像を追加 -->
 
-1. Locate Scratch Addons on the toolbar and click it.  
-   Usually, it is on the top-right corner of your browser. For Google Chrome users, if you are not browsing Scratch, you need to click the puzzle icon to find the extension icon.
+1. Scratch Addonsがツールバーにあるのでクリックしてください。
+   ほとんどの場合ブラウザーの右上部にあります。Google Chromeユーザーは、Scratchを閲覧していない間は、パズルのアイコンをクリックすると拡張機能アイコンが表示されます。
 
-2. Press the gear icon to go to the Settings page.
+2. 歯車アイコンをクリックして設定ページを表示します。
 
-3. Feel free to look through the addons list and turn on/off whatever you want.  
+3. アドオン一覧を見て好きなだけ機能を有効化・無効化してみてください。
    アドオンには、さらに細かく設定できるものもあります。

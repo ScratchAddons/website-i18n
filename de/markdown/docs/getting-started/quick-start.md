@@ -8,6 +8,7 @@ Lass uns beginnen, indem wir Scratch Addons installieren. Scratch Addons ist sow
 
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (für Google Chrome und andere auf Chromium basierende Browser)  
 - [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (für Mozilla Firefox)  
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (für Microsoft Edge)  
 
 ## Erste Schritte
 

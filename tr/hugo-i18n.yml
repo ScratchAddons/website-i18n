@@ -3,17 +3,26 @@ Global:
   LogoAlt: Scratch Eklentileri'nin logosu
   Install: İndir
   InstallFor: "{{.Browser}} için indir"
+  ReadTime:
+    one: "{{.Count}} dakika"
+    other: "{{.Count}} dakika"
+  RSSDescription: "{{ .SiteName }} ile ilgili son içerikler"
+  Website: Site
+  Extension: Uzantı
+Links:
+  Credits: Emeği Geçenler
+  PrivacyPolicy: Gizlilik Politikası
 Nav:
-  Contributors: Katkısı Olanlar
   Feedback: Geri Bildirim Gönder
   Repository: Depo
+  RepositoryLabel: GitHub'daki Depo
   Install: İndir
+  ToggleNavigation: Gezinme ayarı
 Footer:
   Pages:
     Header: Sayfalar
     FAQ: SSS
     Feedback: Geri Bildirim Gönder
-    Contributors: Katkısı Olanlar
     Changelog: Değişiklik Günlüğü
     Addons: Eklentiler
   Discuss:
@@ -48,7 +57,7 @@ PlayerModal:
   AltText: Bu videoyu görmek için tıklayın.
 IndexPage:
   Intro:
-    Tagline: Scratch için hepsi bir arada tarayıcı uzantısı
+    Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
     Description: Scratch Eklentileri, Scratch web sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
@@ -86,7 +95,7 @@ IndexPage:
     ScratchNotifierHeading: Scratch Bildirimcisi
     ScratchNotifierParagraph: Scratch mesajlarına yeni tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayabilirsiniz.
     DeveloperToolsHeading: Geliştirici araçları
-    DeveloperToolsParagraph: "{{.OpenTag1}}Orijinal uzantıdan.{{.CloseTag1}} Düzenleyiciye bir bulma kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme gibi özellikler ve daha fazlası!"
+    DeveloperToolsParagraph: "Orijinal uzantıdan. Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme ve çok daha fazlası!"
   Install:
     Heading: İndir
     Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
@@ -100,6 +109,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
     L2: Bu sayfada, easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
+  NAddons: "{{.Count}} eklenti"
+  SourceCodeLabel: GitHub'daki kaynak kodu
 FeedbackPage:
   Status:
     Sending: Gönderiliyor...
@@ -126,3 +137,9 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: İndir
   HowToUpdate: Nasıl güncellenir
+Blog:
+  SectionSiteName: Scratch Eklentileri Blog
+ContributorsPage:
+  NContributors: "{{.Count}} emeği geçen"
+  NProfilePicture: "{{.Name}} profil resmi"
+  NCommits: "{{.Count}} taahhüt"

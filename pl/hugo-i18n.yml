@@ -4,7 +4,6 @@ Global:
   Install: Zainstaluj
   InstallFor: Zainstaluj dla {{.Browser}}
 Nav:
-  Contributors: Współtwórcy
   Feedback: Prześlij opinię
   Repository: Repozytorium
   Install: Instaluj
@@ -12,7 +11,6 @@ Footer:
   Pages:
     Header: Strony
     Feedback: Prześlij opinię
-    Contributors: Współtwórcy
     Changelog: Dziennik zmian
   Discuss:
     Header: Dyskusja
@@ -47,7 +45,6 @@ PlayerModal:
   AltText: Kliknij, aby zobaczyć ten film.
 IndexPage:
   Intro:
-    Tagline: Wszystkie dodatki w jednym rozszerzeniu do Scratch
     Description: Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch i edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a
     InstallButton:
       Loading: Ładowanie...
@@ -85,7 +82,6 @@ IndexPage:
     ScratchNotifierHeading: Powiadomienia Scratch
     ScratchNotifierParagraph: Wysyła powiadomienia, gdy otrzymasz nową wiadomość. Możesz kliknąć na powiadomienie, aby przejść prosto do wiadomości (komentarza, projektu itp.).
     DeveloperToolsHeading: Narzędzia Deweloperskie
-    DeveloperToolsParagraph: "{{.OpenTag1}} Skopiowane z oryginalnego rozszerzenia. {{.CloseTag1}} Dodaje możliwość szukania elementów w kodzie, nowe opcje do edytora, funkcje kopiowania i dodawania bloku, lepsze sprzątanie bloków i więcej!"
   Install:
     Heading: Instalacja
     Paragraph: "Zainstaluj Nasz dodatek na różne przeglądarki:"

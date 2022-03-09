@@ -3,17 +3,26 @@ Global:
   LogoAlt: Logo degli Scratch Addon
   Install: Installa
   InstallFor: Installa per {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuto"
+    other: "{{.Count}} minuti"
+  RSSDescription: Contenuto recente su {{ .SiteName }}
+  Website: Sito web
+  Extension: Estensione
+Links:
+  Credits: Crediti
+  PrivacyPolicy: Politica della Privacy
 Nav:
-  Contributors: Chi ha contribuito
   Feedback: Invia Feedback
   Repository: Archivio
+  RepositoryLabel: Repository su GitHub
   Install: Installa
+  ToggleNavigation: Attiva/disattiva navigazione
 Footer:
   Pages:
     Header: Pagine
     FAQ: Domande Frequenti
     Feedback: Invia Feedback
-    Contributors: Sviluppatori
     Addons: Gli Addon
   Discuss:
     Header: Discuti
@@ -84,7 +93,7 @@ IndexPage:
     ScratchNotifierHeading: Notifiche di Scratch
     ScratchNotifierParagraph: Abilita le notifiche del browser per i nuovi messaggi del sito di Scratch. Puoi cliccare la notifica per andare direttamente al messaggio (al commento, al progetto, ecc).
     DeveloperToolsHeading: Strumenti per sviluppatori
-    DeveloperToolsParagraph: "{{.OpenTag1}}Dall'estensione originale.{{.CloseTag1}} Aggiunge una casella di ricerca e nuove opzioni nei menu dell'editor: copia/incolla dei blocchi, riordino migliorato, passaggio alla definizione dei blocchi personalizzati e molto altro!"
+    DeveloperToolsParagraph: "Dall'estensione originale. Aggiunge una casella di ricerca e nuove opzioni nei menu dell'editor: copia/incolla dei blocchi, riordino migliorato, ricerca della definizione dei blocchi personalizzati e molto altro!"
   Install:
     Heading: Installa
     Paragraph: Soddisfatto? Non aspettare, installala subito!
@@ -99,6 +108,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: Per attivare gli addon, digita il Codice Konami (↑↑↓↓←→←→BA) nella pagina delle impostazioni. Scopri di più nelle Domande Frequenti.
     L2: In questa pagina, troverai un addon a sorpresa con il simbolo di un uovo accanto al suo nome.
+  NAddons: "{{.Count}} addon"
+  SourceCodeLabel: Codice sorgente su GitHub
 FeedbackPage:
   Status:
     Sending: Invio in corso...
@@ -124,3 +135,9 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Scarica
   HowToUpdate: Come aggiornarlo
+Blog:
+  SectionSiteName: Blog di Scratch Addons
+ContributorsPage:
+  NContributors: "{{.Count}} hanno contribuito"
+  NProfilePicture: "{{.Name}} immagine del profilo"
+  NCommits: "{{.Count}} commit"

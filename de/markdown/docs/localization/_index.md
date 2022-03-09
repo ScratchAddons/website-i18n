@@ -1,17 +1,17 @@
 ---
-title: Localization
+title: Übersetzung
 ---
 
-Here are some pages about Scratch Addons' localization (l10n).
+Hier sind ein paar Seiten über das Übersetzen von Scratch Addons (l10n).
 
 ## Für Übersetzer
-- [Joining the Localization Team](joining-the-localization-team)
-- [Translating Scratch Addons](translating-scratch-addons) _Needs writing_
+- [Übersetzungs-Team beitreten](joining-the-localization-team)
+- [Scratch Addons übersetzen](translating-scratch-addons) _Benötigt Schreiben_
 
 ## Für Entwickler
-- [Localizing Addons](localizing-addons)
-- [Localizing Background](localizing-background) _Needs writing_
-- [Technical specs of addons-l10n translation](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
+- [Addons übersetzen](localizing-addons)
+- [Hintergrund übersetzen](localizing-background) _Benötigt Schreiben_
+- [Technische Details zur addons-l10n-Übersetzung](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
 
-## For Transifex admins
-- [Pushing and Pulling Messages](pushing-and-pulling-messages) _Needs writing_
+## Für Transifex-Admins
+- [Nachrichten pushen und pullen](pushing-and-pulling-messages) _Benötigt Schreiben_

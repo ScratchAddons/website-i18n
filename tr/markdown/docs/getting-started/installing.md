@@ -6,11 +6,14 @@ title: Yükleme
 
 Scratch Eklentileri hem Chrome Web Mağazası'nda hem de Firefox Eklentilerinde mevcuttur.
 
-- Chrome Web Mağazası (Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79) ve diğer Chromium tabanlı tarayıcılar için)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco 
-- Firefox için Eklentiler (Mozilla Firefox için)
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/ 
+- Chrome Web Mağazası (Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79 ve diğer Chromium tabanlı tarayıcılar için)
+  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
+- Firefox için Eklentiler (Mozilla Firefox için)
+  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
+
+- Microsoft Edge Eklentileri (Microsoft Edge >79 için)
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Kaynağından
 
@@ -77,7 +80,7 @@ Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme ad
 
 2. Soldaki menüden `This Firefox` butonuna tıklayın.
 
-   ![Sol menünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
+   ![Sol-el menüsünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
 
 4. `Geçici Eklenti Yükle` seçeneğine tıklayın.
 

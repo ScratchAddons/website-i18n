@@ -6,11 +6,14 @@ title: インストール
 
 Scratch Addonsは、Chrome Web StoreとAdd-ons for Firefoxの両方で入手可能です。
 
-- Chrome Web Store (Google Chrome、Opera、Brave、Vivaldi、Microsoft Edge (>79)、その他のChromiumベースのブラウザー)
+- Chrome Web Store (Google Chrome、Opera、Brave、Vivaldi、Microsoft Edge >79、その他のChromiumベースのブラウザー)
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
+
 - Add-ons for Firefox (Mozilla Firefox)
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
+- Microsoft Edge Add-ons (Microsoft Edge >79用)
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## ソースコードから
 

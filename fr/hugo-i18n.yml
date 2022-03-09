@@ -3,14 +3,12 @@ Global:
   Install: Installer
   InstallFor: Installer pour {{.Browser}}
 Nav:
-  Contributors: Contributeurs
   Feedback: Envoyer des retours
   Repository: Dépot
   Install: Installer
 Footer:
   Pages:
     Feedback: Envoyer des retours
-    Contributors: Contributeurs
     Changelog: Journal des modifications
   Discuss:
     Header: Discuter
@@ -44,7 +42,6 @@ PlayerModal:
   AltText: Cliquez pour voir la vidéo
 IndexPage:
   Intro:
-    Tagline: Une extension tout-en-un pour Scratch
     Description: Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch.
     InstallButton:
       Loading: Chargement...
@@ -77,7 +74,6 @@ IndexPage:
     ScratchMessagingParagraph: "\"L'ancêtre\" de Scratch Addons. Scratch Messaging est disponible en cliquant sur l'icône de Scratch Addons, et permet de lire et de répondre facilement à vos messages Scratch : regroupe les messages par projet, affiche le commentaire en entier et son contexte, permet de répondre directement aux commentaires."
     ScratchNotifierParagraph: Scratch Notifier envoie des notifications à votre navigateur lorsque vous avez de nouveaux messages Scratch. Vous pouvez cliquer sur les notifications pour accéder directement au message (commentaire, projet, etc.).
     DeveloperToolsHeading: Outils de développement
-    DeveloperToolsParagraph: "{{.OpenTag1}}Provenant de l'extension originale.{{.CloseTag1}} L'addon ajoute une boîte de recherche et de nouvelles options au menu de l'éditeur : copier/coller des blocs, meilleur rangement des blocs, aller à la définition d'un bloc personnalisé, et bien plus encore !"
   Install:
     Heading: Installer
     Paragraph: Satisfait ? N'hésitez pas à l'installer maintenant !

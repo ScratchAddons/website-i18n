@@ -2,15 +2,23 @@ Global:
   LogoAlt: Scratch Addons-Logo
   Install: Installieren
   InstallFor: Installieren auf {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} Minute"
+    other: "{{.Count}} Minuten"
+  RSSDescription: Neuer Inhalt auf {{ .SiteName }}
+  Extension: Erweiterung
+Links:
+  Credits: Danksagungen
+  PrivacyPolicy: Datenschutzerklärung
 Nav:
-  Contributors: Entwickler
   Feedback: Feedback senden
+  RepositoryLabel: Repository auf GitHub
   Install: Installieren
+  ToggleNavigation: Navigation umschalten
 Footer:
   Pages:
     Header: Seiten
     Feedback: Feedback senden
-    Contributors: Entwickler
     Changelog: Updates
   Discuss:
     Header: Diskutieren
@@ -77,7 +85,7 @@ IndexPage:
     ScratchNotifierHeading: Scratch-Notifier
     ScratchNotifierParagraph: Es fügt Browser-Benachrichtigungen bei neuen Scatch-Nachrichten hinzu. Du kanst die Benachrichtigung anklicken, um schnell zur Nachricht zu gelangen (Kommentar, Projekt, usw.)
     DeveloperToolsHeading: Entwicklertools
-    DeveloperToolsParagraph: "{{.OpenTag1}}Von der ursprünglichen Erweiterung.{{.CloseTag1}} Es fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Blöcke kopieren und einfügen, besseres Aufräumen, gehe zur Definition eines benutzerdefinierten Blocks, und mehr!"
+    DeveloperToolsParagraph: "Von der ursprünglichen Erweiterung. Es fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Blöcke kopieren und einfügen, besseres Aufräumen, gehe zur Definition eines benutzerdefinierten Blocks, und mehr!"
   Install:
     Heading: Installieren
     Paragraph: Zufrieden? Zögere nicht und installiere es jetzt!
@@ -92,6 +100,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: Um die Addons zu aktivieren, mache den Konami-Code (↑↑↓↓←→←→BA) auf der Einstellungenseite. Lies die FAQ für mehr Infos.
     L2: In dieser Seite wird ein Easter Egg-Addon ein Eisymbol neben seinem Namen haben.
+  NAddons: "{{.Count}} Addons"
+  SourceCodeLabel: Quellcode auf GitHub
 FeedbackPage:
   Status:
     Sending: Wird gesendet…
@@ -114,3 +124,7 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Herunterladen
   HowToUpdate: Wie man es aktualisiert
+ContributorsPage:
+  NContributors: "{{.Count}} Mitarbeiter"
+  NProfilePicture: "{{.Name}} Profilbild"
+  NCommits: "{{.Count}} Beiträge"

@@ -3,7 +3,6 @@ Global:
   Install: Namesti
   InstallFor: Namestitev za {{.Browser}}
 Nav:
-  Contributors: Sodelavci
   Feedback: Povratne informacije
   Repository: Izvirna koda
   Install: Namesti
@@ -12,7 +11,6 @@ Footer:
     Header: Strani
     FAQ: Pogosta vprašanja
     Feedback: Povratne informacije
-    Contributors: Sodelavci
     Changelog: Seznam sprememb
     Addons: Dodatki
   Discuss:
@@ -47,7 +45,6 @@ PlayerModal:
   AltText: Kliknite za ogled videa.
 IndexPage:
   Intro:
-    Tagline: Razširitev brskalnikov za Scratch
     Description: Scratch Addons je razširitev za brskalnike, ki doda nove funkcije in teme za spletno stran in urejevalnik projektov Scratch. Njen cilj je zbrati in omogočiti lažjo uporabo uporabniških slogov in skript, ki so jih razvili člani Scratcheve skupnosti.
     InstallButton:
       Loading: Nalaganje...
@@ -82,7 +79,6 @@ IndexPage:
     Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
     ScratchMessagingParagraph: "Prednik razširitve Scratch Addons. Na voljo je, ko kliknite ikono Scratch Addons, in omogoča enostavno branje in odgovarjanje na sporočila: združi sporočila glede na projekt, prikaže celo besedilo in sobesedilo komentarjev, omogoča neposredno odgovarjanje na komentarje."
     ScratchNotifierParagraph: Doda obvestila brskalnika, ko dobite nova sporočila na Scratchu. Obvestilo lahko kliknete, da odprete sporočilo (komentar, projekt, itd.)
-    DeveloperToolsParagraph: "{{.OpenTag1}}Iz originalne razširitve.{{.CloseTag1}} Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje in lepljenje blokov, boljše čiščenje kodo, premik do definicije bloka, in več!"
   Install:
     Heading: Namesti
     Paragraph: Ste zadovoljni? Namestite zdaj!

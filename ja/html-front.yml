@@ -6,6 +6,9 @@ addons.html:
 changelog.html:
   title: 更新履歴
   description: 主要な更新内容が以下に掲載されます。
+credits.html:
+  title: クレジット
+  description: Scratch Addonsや、機能、テーマ、ウェブサイトなどに貢献していただき、ありがとうございます。
 farewell.html:
   title: ご利用ありがとうございました。
   description: Scratch Addonsはアンインストールされました。ご利用ありがとうございました。

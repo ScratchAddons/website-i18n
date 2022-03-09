@@ -2,16 +2,26 @@ Global:
   LogoAlt: Scratch Addonsのロゴ
   Install: インストール
   InstallFor: "{{.Browser}}用をインストール"
+  ReadTime:
+    one: "{{.Count}}分"
+    other: "{{.Count}}分"
+  RSSDescription: "{{ .SiteName }}の最近のコンテンツ"
+  Website: ウェブサイト
+  Extension: 拡張機能
+Links:
+  Blog: ブログ
+  Credits: クレジット
+  PrivacyPolicy: プライバシーポリシー
 Nav:
-  Contributors: 貢献者
   Feedback: フィードバックを送る
   Repository: リポジトリ
+  RepositoryLabel: GitHubのリポジトリ
   Install: インストール
+  ToggleNavigation: ナビゲーションバーを切り替え
 Footer:
   Pages:
     Header: ページ
     Feedback: フィードバックを送る
-    Contributors: 貢献者
     Changelog: 更新履歴
     Addons: アドオン
   Discuss:
@@ -85,7 +95,7 @@ IndexPage:
     ScratchNotifierHeading: Scratch通知
     ScratchNotifierParagraph: Scratchメッセージが来た時に通知します。通知をクリックしてメッセージに直接行けます。
     DeveloperToolsHeading: 開発者ツール
-    DeveloperToolsParagraph: "{{.OpenTag1}}オリジナルの拡張機能から追加。{{.CloseTag1}}検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。"
+    DeveloperToolsParagraph: オリジナルの拡張機能から追加。検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。
   Install:
     Heading: インストール
     Paragraph: 満足しましたか? 今すぐインストールを!
@@ -100,6 +110,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: 有効化するには、設定画面でコナミコマンドを入力してください。FAQページで詳細が確認できます。
     L2: イースターエッグアドオンには卵のマークがあります。
+  NAddons: "{{.Count}} アドオン"
+  SourceCodeLabel: GitHubでソースコードを見る
 FeedbackPage:
   Status:
     Sending: 送信中...
@@ -126,3 +138,9 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: ダウンロード
   HowToUpdate: 更新方法
+Blog:
+  SectionSiteName: Scratch Addons ブログ
+ContributorsPage:
+  NContributors: "{{.Count}} 貢献者"
+  NProfilePicture: "{{.Name}} プロフィール画像"
+  NCommits: "{{.Count}} コミット"

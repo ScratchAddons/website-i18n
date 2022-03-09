@@ -5,6 +5,9 @@ addons.html:
   description: Questa pagina elenca tutti gli addon implementati in Scratch Addon.
 changelog.html:
   description: Tutti i cambiamenti più importanti a questo progetto saranno documentati in questa pagina.
+credits.html:
+  title: Crediti
+  description: Grazie mille a queste persone fantaistiche per aver dato il loro contributo al progetto lavorando a Scratch Addon, alle sue funzionalità, i suoi temi, il sito web, ecc.
 farewell.html:
   title: Arrivederci!
   description: Scratch Addon è stato disinstallato. Grazie per aver usato questa estensione!

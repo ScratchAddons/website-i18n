@@ -8,6 +8,7 @@ Scratch Eklentilerini kurarak başlayalım. Scratch Eklentileri hem Chrome Web M
 
 - [Chrome Web Mağazası](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (Google Chrome ve diğer Chromium tabanlı tarayıcılar için)
 - [Firefox için Eklentiler](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (Mozilla Firefox için)
+- [Microsoft Edge Eklentileri](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (Microsoft Edge için)
 
 ## Başlarken
 
@@ -21,4 +22,4 @@ Başlamak için, eklentinin ayarlar sayfasına erişmeniz gerekir.
 2. Ayarlar sayfasına gitmek için dişli simgesine tıklayın.
 
 3. Eklentiler listesine bakmaktan ve istediğinizi açıp kapatmaktan çekinmeyin.
-   Eklentilerin her birini, her bir eklentinin alt bölümünde de yapılandırabilirsiniz.
+   Ayrıca her eklentinin aşağı kısımlarından eklentileri ayarlayabilirsiniz.
