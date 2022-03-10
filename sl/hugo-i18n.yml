@@ -2,10 +2,21 @@ Global:
   LogoAlt: Logotip Scratch Addons
   Install: Namesti
   InstallFor: Namestitev za {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuta"
+    other: "{{.Count}} minut"
+  RSSDescription: Nedavna vsebina na {{ .SiteName }}
+  Website: Spletna stran
+  Extension: Razširitev
+Links:
+  Credits: Zahvale
+  PrivacyPolicy: Politika zasebnosti
 Nav:
   Feedback: Povratne informacije
   Repository: Izvirna koda
+  RepositoryLabel: Izvirna koda na GitHub
   Install: Namesti
+  ToggleNavigation: Pokaži/skrij navigacijo
 Footer:
   Pages:
     Header: Strani
@@ -45,6 +56,7 @@ PlayerModal:
   AltText: Kliknite za ogled videa.
 IndexPage:
   Intro:
+    Tagline: Razširitev brskalnikov za Scratch
     Description: Scratch Addons je razširitev za brskalnike, ki doda nove funkcije in teme za spletno stran in urejevalnik projektov Scratch. Njen cilj je zbrati in omogočiti lažjo uporabo uporabniških slogov in skript, ki so jih razvili člani Scratcheve skupnosti.
     InstallButton:
       Loading: Nalaganje...
@@ -79,6 +91,7 @@ IndexPage:
     Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
     ScratchMessagingParagraph: "Prednik razširitve Scratch Addons. Na voljo je, ko kliknite ikono Scratch Addons, in omogoča enostavno branje in odgovarjanje na sporočila: združi sporočila glede na projekt, prikaže celo besedilo in sobesedilo komentarjev, omogoča neposredno odgovarjanje na komentarje."
     ScratchNotifierParagraph: Doda obvestila brskalnika, ko dobite nova sporočila na Scratchu. Obvestilo lahko kliknete, da odprete sporočilo (komentar, projekt, itd.)
+    DeveloperToolsParagraph: "Iz originalne razširitve. Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje in lepljenje blokov, boljše čiščenje kodo, premik do definicije bloka, in več!"
   Install:
     Heading: Namesti
     Paragraph: Ste zadovoljni? Namestite zdaj!
@@ -93,6 +106,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji.
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
+  NAddons: "{{.Count}} dodatkov"
+  SourceCodeLabel: Izvirna koda na GitHub
 FeedbackPage:
   Status:
     Sending: Pošiljanje...
@@ -119,3 +134,8 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Prenos
   HowToUpdate: Navodila za posodobitev
+Blog:
+  SectionSiteName: Blog Scratch Addons
+ContributorsPage:
+  NContributors: "{{.Count}} sodelavcev"
+  NProfilePicture: Slika profile {{.Name}}

@@ -3,7 +3,6 @@ Global:
   Install: Installeer
   InstallFor: Installeer voor {{.Browser}}
 Nav:
-  Contributors: Bijdragers
   Feedback: Feedback Geven
   Repository: Archief
   Install: Installeer
@@ -12,7 +11,6 @@ Footer:
     Header: Pagina's
     FAQ: Veelgestelde vragen
     Feedback: Feedback Geven
-    Contributors: Bijdragers
   Discuss:
     Header: Discussie
     Discussion: Discussie-Forum
@@ -44,7 +42,6 @@ PlayerModal:
   AltText: Klik om de video te bekijken.
 IndexPage:
   Intro:
-    Tagline: Alles-in-een browserextensie voor Scratch
     Description: Scratch Addons is een browserextensie die je nieuwe functies en thema's voor de Scratchwebsite en projecteditor laat gebruiken. Het heeft een doel om userstyles en userscripts te verzamelen, archiveren en gebruiken, gemaakt door meerdere leden van de Scratchgemeenschap.
     InstallButton:
       Loading: Laden...
@@ -81,7 +78,6 @@ IndexPage:
     ScratchNotifierHeading: Scratch Berichtgever
     ScratchNotifierParagraph: Geeft je browsernotificaties bij nieuwe Scratchberichten. Je kunt op de notificatie klikken om er direct heen te gaan (opmerking, project, etc.)
     DeveloperToolsHeading: Ontwikkelaarstools
-    DeveloperToolsParagraph: "{{.OpenTag1}}Van de originele extensie.{{.CloseTag1}} Het voegt een zoekbalk en nieuwe menuopties toe aan de editor: kopieer/plak blokken, betere opruimer, naar blokdefinitie springen, en meer!"
   Install:
     Heading: Installeren
     Paragraph: Tevreden? Aarzel niet en installeer het nu!

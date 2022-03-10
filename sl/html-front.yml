@@ -6,6 +6,8 @@ addons.html:
 changelog.html:
   title: Seznam sprememb
   description: Vse pomembne spremembe v tem projektu bodo naštete na tej strani.
+credits.html:
+  title: Zahvale
 farewell.html:
   title: Nasvidenje!
   description: Scratch Addons je odstranjen. Hvala za uporabo razširitve!

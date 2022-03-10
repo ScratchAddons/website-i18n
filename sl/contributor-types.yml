@@ -1,32 +1,18 @@
-a11y: ""
-audio: ""
-blog: ""
-bug: ""
-business: ""
-code: ""
-content: ""
-data: ""
-design: ""
+a11y: Dostopnost
+audio: Zvoki
+blog: Blog
+bug: Prijavljanje napak
+code: Koda
+content: Vsebina
+data: Podatki
+design: Oblikovanje
 doc: Dokumentacija
-eventOrganizing: ""
-example: ""
-financial: ""
-fundingFinding: ""
-ideas: ""
-infra: ""
-maintenance: ""
-mentoring: ""
-platform: ""
-plugin: ""
-projectManagement: ""
-question: ""
-review: ""
-security: ""
-talk: ""
-test: ""
-tool: ""
-translation: ""
-tutorial: ""
-userTesting: ""
-video: ""
-mod: ""
+eventOrganizing: Organizacija dogodkov
+example: Primeri
+ideas: Zamisli, načrti in povratne informacije
+projectManagement: Upravljanje projekta
+security: Varnost
+tool: Orodje
+translation: Prevod
+tutorial: Vodiči
+video: Videi
