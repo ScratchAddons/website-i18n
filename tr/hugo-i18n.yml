@@ -10,7 +10,7 @@ Global:
   Website: Site
   Extension: Uzantı
 Links:
-  Credits: Emeği Geçenler
+  Credits: Krediler
   PrivacyPolicy: Gizlilik Politikası
 Nav:
   Feedback: Geri Bildirim Gönder
@@ -140,6 +140,6 @@ UnsupportedBrowserPage:
 Blog:
   SectionSiteName: Scratch Eklentileri Blog
 ContributorsPage:
-  NContributors: "{{.Count}} emeği geçen"
+  NContributors: "{{.Count}} katkısı olan"
   NProfilePicture: "{{.Name}} profil resmi"
   NCommits: "{{.Count}} taahhüt"
