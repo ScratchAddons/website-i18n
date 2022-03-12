@@ -8,6 +8,7 @@ Začnite tako, da namestite Scratch Addons. Na voljo je v Spletni trgovini Chrom
 
 - [Spletna trgovina Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (za Google Chrome in druge brskalnike, narejene na podlagi Chromium)
 - [Dodatki za Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (za Mozilla Firefox)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (for Microsoft Edge)  
 
 ## Za začetek
 

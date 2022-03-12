@@ -8,7 +8,6 @@ Global:
   Install: ثبيت
   InstallFor: تثبيت ل {{.Browser}}
 Nav:
-  Contributors: المساهمين
   Feedback: ارسل رأيك
   Repository: المستأمن
   Install: ثبيت
@@ -17,7 +16,6 @@ Footer:
     Header: الصفحات
     FAQ: التعليمات
     Feedback: ارسل رأيك
-    Contributors: المساهمين
     Changelog: التغيير
     Addons: اضافه
   Discuss:

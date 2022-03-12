@@ -3,7 +3,11 @@ title: Entrando na Equipe de Tradutores
 description: Obrigado pelo interesse em se voluntariar para traduzir o Scratch Addons para outras línguas! O Scratch Addons é um projeto de código aberto sem fins lucrativos onde desenvolvedores voluntários mantêm a extensão e criam os addons.
 ---
 
-> _Já traduzidos: **italiano, japonês, português, esloveno e espanhol**. Não aceitaremos nenhum novo tradutor para esses idiomas_
+{{< admonition info >}}
+
+_Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. We won't be accepting any new translators for these languages_
+
+{{< /admonition >}}
 
 **Obrigado pelo interesse em se voluntariar para traduzir o Scratch Addons para outras línguas!**
 

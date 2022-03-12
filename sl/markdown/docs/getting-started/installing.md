@@ -6,11 +6,14 @@ title: Namestitev
 
 Scratch Addons je na voljo v Spletni trgovini Chrome in v Dodatkih za Firefox.
 
-- Spletna trgovina Chrome (za Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79), in druge brskalnike, narejene na osnovi Chromium)  
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco  
-- Dodatki za Firefox (za brskalnik Mozilla Firefox)  
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/  
+- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
+- Dodatki za Firefox (za brskalnik Mozilla Firefox)  
+  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
+
+- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Z izvirno kodo
 

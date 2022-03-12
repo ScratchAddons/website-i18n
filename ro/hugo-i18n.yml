@@ -4,7 +4,6 @@ Global:
   Install: Instalare
   InstallFor: Instalează pentru {{.Browser}}
 Nav:
-  Contributors: Contribuitori
   Feedback: Trimite feedback
   Repository: Depozit
   Install: Instalează
@@ -13,7 +12,6 @@ Footer:
     Header: Pagini
     FAQ: Întrebări frecvente
     Feedback: Trimite feedback
-    Contributors: Contribuitori
     Changelog: Jurnalul schimbărilor
     Addons: Extensii
   Discuss:
@@ -53,7 +51,6 @@ IndexPage:
     ScratchNotifierHeading: Notificator Scratch
     ScratchNotifierParagraph: Adaugă notificări de browser pe mesajele noi Scratch. Poți da copiilo clic pe notificare pentru a ajunge direct la mesaj (comentariu, proiect, etc.)
     DeveloperToolsHeading: Instrumente pentru dezvoltatori
-    DeveloperToolsParagraph: "{{.OpenTag1}} Din extensia originală. {{.CloseTag1}} Adaugă o casetă de căutare și opțiuni noi in editor: copiere/lipire blocuri, curățare mai bună, mergi la definiția blocului și multe altele!"
   Install:
     Heading: Instalează
     Paragraph: Satisfăcut? Nu ezita să o instalezi acum!

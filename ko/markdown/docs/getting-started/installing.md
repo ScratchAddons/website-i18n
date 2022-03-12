@@ -6,11 +6,14 @@ title: 설치하기
 
 스크래치 애드온은 크롬 웹 스토어와 파이어폭스 애드온에서 사용하실 수 있습니다.
 
-- 크롬 웹 스토어 (구글 크롬, 오페라, 브레이브, 비발디, 마이크로소프트 엣지 (>79), 그 외 크로미움 기반 브라우저들 지원)
+- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
+
 - 파이어폭스 애드온 (모질라 파이어폭스 지원)
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
+- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## 소스로부터
 

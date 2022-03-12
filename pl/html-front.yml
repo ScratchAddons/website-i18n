@@ -17,7 +17,7 @@ scratch-messaging-transition.html:
   description: "Rozszerzenie Scratch Messaging (od Griffpatch) zostało zaktualizowane i nosi teraz nazwę Scratch Addons. Kliknij ikonę Scratch Addons na pasku rozszerzeń, aby sprawdzić nowe, przeprojektowane podsumowanie wiadomości! "
 unsupported-browser.html:
   title: Niewspierana przeglądarka
-  description: "Scratch Addons nie wspiera przeglądarki, której używasz!"
+  description: Scratch Addons nie wspiera przeglądarki, której używasz!
 welcome.html:
   title: Witamy!
   description: "Rozszerzenie Scratch Addons zostało pomyślnie zainstalowane! Mamy nadzieję, że rozszerzenie pomoże Ci w kodowaniu! "

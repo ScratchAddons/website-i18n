@@ -59,29 +59,29 @@ Anyway, back to the point. You can contribute in many ways, and some of it is re
 
 - **Contribuez du code**
 
-  If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
+  Si vous connaissez le JavaScript, HTML5 et CSS, vous pouvez contribuer en programmant. Vous pouvez corriger des bugs, ajouter de nouvelles fonctionnalités ou même créer votre propre addon.
 
-  After that, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), do your necessary changes, and create a pull request. If it is deemed feasible, we will merge it.
+  Après ça, vous pouvez ouvrir une demande de fusion (pull request). Pour cela, créez un fork [du dépôt](https://github.com/ScratchAddons/ScratchAddons/), faites-y vos changements et créez une demande de fusion. Si votre addon s'inscrit dans la lignée de ce que propose Scratch Addons, alors il sera ajouté.
 
-  We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
+  Nous acceptons aussi des contributions autres que celles concernant l'extension. Vous pouvez consulter nos dépôts sur [la page de notre organisation GitHub](https://github.com/ScratchAddons) et nous aider en y contribuant.
 
 - **Suggérer une idée** 
 
-  Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
+  Vous pensez avoir une idée qui serait une bonne addition à Scratch Addons ? [Dites-le nous !](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **Report a bug**
+- **Rapporter un bug**
 
-  Found a bug in one of our addon, the settings page, or anything else on our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Vous avez trouvé un bug dans un de nos addons, sur la page des paramètres ou concernant notre extension ? [Envoyez-nous un rapport de bug](#what-can-i-do-if-i-find-a-problem).
 
-- **Translate Scratch Addons**  
+- **Traduire Scratch Addons**
 
-  If you can speak another language than English fluently, you can help translate/localize Scratch Addons to your language. You can start from [here](/docs/localization/joining-the-localization-team).
+  Si vous parlez une langue autre que l'anglais couramment, vous pouvez aider à traduire Scratch Addons dans cette langue. Vous pouvez vous renseigner [ici](/docs/localization/joining-the-localization-team).
 
-- **Write the documentation**
+- **Écrire de la documentation**
 
-  Are you familiar with Scratch Addons? If so, you can write the documentation for it. The documentation can include how to use it, or how it works. Please contact us on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) for further information.
+  Vous êtes familier avec Scratch Addons ? Si oui, vous pouvez écrire de la documentation sur ce sujet. La documentation peut être entre-autre sur comment utiliser Scratch Addons ou sur comment Scratch Addons fonctionne. Contactez-nous sur [notre page de discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) pour plus d'information.
 
-- **Send feedback**  
+- **Envoyer des commentaires**
 
   You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 

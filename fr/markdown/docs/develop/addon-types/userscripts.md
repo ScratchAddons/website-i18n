@@ -1,5 +1,5 @@
 ---
-title: Scripts d'utilisateurs
+title: Scripts utilisateurs
 description: Les scripts d'utilisateurs vous permettent de jouer du code sur les pages de Scratch - vous pouvez y faire des choses comme ajouter des boutons, améliore l'éditeur Scratch ou tous ce que vous pouvez imaginer.
 ---
 ## De quoi s’agit-il ?
@@ -33,15 +33,15 @@ Exemples d'un manifest
 ```
 
 ## À quoi un fichier JavaScript ressemble?
-Userscripts JS files require a specific structure to work.  
-For userscripts, you **must** wrap all your code inside a function looking like this:
+Les scripts utilisateurs ont besoin d'une structure spéciale pour fonctionner.
+Vous **devez absolument** implanter votre code dans une fonction comme ceci:
 ```js
 export default async function ({ addon, global, console }) {
 console.log("Hello, " + addon.auth.username);
 }
 ```
-If you want to write your own functions to have cleaner code, you should include them inside the main function:  
-**This will work:**
+Si souhaitez écrire vos propres fonction pour avoir un code plus aéré, vous devez les inclure dans la fonction principale:
+**Comme ceci:**
 ```js
 export default async function ({ addon, global, console }) {
 // Ça marche!
@@ -71,7 +71,7 @@ Userscripts run after the Scratch page has fully loaded - in other words, they r
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
 Scratch Addons then calls that function modules exported, giving it access to the `addon.*` APIs, as well as special wrappers:  
-- `addon`: gives userscripts access to the [`addon.*` APIs](/docs/developing/addon-apis-reference).
+- `addon`: donne aux scripts utilisateurs l'accès à [`addon.*` APIs](/docs/developing/addon-apis-reference).
 - `global`: this is a shared object between all userscripts of the same addon. **Example usage:**
 ```js
 // userscript-1.js

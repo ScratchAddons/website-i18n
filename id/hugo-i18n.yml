@@ -2,7 +2,6 @@ Global:
   LogoAlt: Logo Scratch Addons
   Install: Pasang
 Nav:
-  Contributors: Kontributor
   Feedback: Kirim Umpan Balik
   Repository: Repositori
   Install: Pasang
@@ -10,7 +9,6 @@ Footer:
   Pages:
     Header: Halaman-Halaman
     Feedback: Kirim Umpan Balik
-    Contributors: Kontributor
     Changelog: Daftar
   Discuss:
     Header: Diskusikan

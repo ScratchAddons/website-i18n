@@ -3,7 +3,6 @@ Global:
   Install: Tải xuống
   InstallFor: Tải xuông cho {{.Browser}}
 Nav:
-  Contributors: Những Người đóng góp
   Feedback: Gửi phản hồi
   Repository: Kho
   Install: Tải xuống
@@ -12,7 +11,6 @@ Footer:
     Header: Các trang
     FAQ: FAQ - Câu hỏi thường gặp
     Feedback: Gửi phản hồi
-    Contributors: Những người đóng góp
     Changelog: Nhật kí thay đổi
     Addons: Tiện ích
   Discuss:
@@ -48,7 +46,6 @@ PlayerModal:
   AltText: Ấn để xem video này
 IndexPage:
   Intro:
-    Tagline: Tiện ích "Tất cả trong một" cho Scratch
     Description: Scratch Addons là một tiện ích mở rộng của trình duyệt cung cấp các tính năng và chủ đề mới cho trang web Scratch và trình chỉnh sửa dự án. Nó có sứ mệnh thu thập, lưu trữ và đưa vào sử dụng trong kiểu người dùng, được phát triển bởi một số thành viên của cộng đồng Scratch.
     InstallButton:
       Loading: Đang tải...

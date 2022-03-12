@@ -8,7 +8,6 @@ Global:
   Install: 설치하기
   InstallFor: "{{.Browser}}에 설치하기"
 Nav:
-  Contributors: 기여자
   Feedback: 문의하기
   Repository: 레포지토리
   Install: 설치하기
@@ -17,7 +16,6 @@ Footer:
     Header: 페이지
     FAQ: 자주 묻는 질문
     Feedback: 문의하기
-    Contributors: 기여자
     Changelog: 변경 내역
     Addons: 애드온
   Discuss:
@@ -55,7 +53,6 @@ PlayerModal:
   AltText: 클릭해서 영상을 봅니다.
 IndexPage:
   Intro:
-    Tagline: 스크래치 사용자를 위한 단 하나의 애드온
     Description: 스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
     InstallButton:
       Loading: 불러오는 중...
@@ -93,7 +90,6 @@ IndexPage:
     ScratchNotifierHeading: 스크래치 알리미
     ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여 댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
     DeveloperToolsHeading: 개발자 도구
-    DeveloperToolsParagraph: "{{.OpenTag1}}원본 애드온 보기.{{.CloseTag1}} 이 애드온은 검색 상자 및 새 메뉴 설정(블록 복사/붙여넣기, 더 나은 정리, 사용자 지정 블록 정의로 이동 등)을 편집기에 추가합니다."
   Install:
     Heading: 설치하기
     Paragraph: 만족하시나요? 주저하지 마시고 지금 설치하세요!

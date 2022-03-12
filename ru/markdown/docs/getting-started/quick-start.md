@@ -8,8 +8,9 @@ title: Начало
 
 - [Магазин расширений Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (для Google Chrome и других браузеров, основанные на Chromium)  
 - [Дополнения для Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (для Mozilla Firefox)  
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (for Microsoft Edge)  
 
-## Приступим
+## Давайте начнём
 
 Чтобы приступить, Вам надо получить доступ к странице настроек расширения, чтобы посмотреть его функции.
 

@@ -3,7 +3,11 @@ title: Joining the Localization Team
 description: Thanks for being interested on volunteering to translate Scratch Addons to other languages! Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
 ---
 
-> _Déjà traduit : **Italien, Japonais, Portugais, Slovène et Espagnol**. Nous n'accepterons pas de nouveaux traducteurs pour ces langues_
+{{< admonition info >}}
+
+_Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. We won't be accepting any new translators for these languages_
+
+{{< /admonition >}}
 
 **Thanks for being interested on volunteering to translate Scratch Addons to other languages!**
 

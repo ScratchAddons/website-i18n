@@ -10,6 +10,7 @@ title: 빠른 시작
 (https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (구글 크롬과 엣지나 웨일과 같은 크로미움 기반 브라우저들)
 - [파이어폭스 애드온]
 (https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (모질라 파이어폭스용)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (for Microsoft Edge)  
 
 ## 시작하기
 

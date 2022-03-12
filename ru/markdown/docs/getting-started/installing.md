@@ -6,11 +6,14 @@ title: Установка
 
 Scratch Addons есть в магазине расширений Chrome и в дополнениях для Firefox.
 
-- Магазин расширений Chrome (подойдёт для Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge (>79) и других браузерах, основанные на Chromium)  
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco  
-- Дополнения для Firefox (подойдёт для Mozilla Firefox)
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/  
+- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
+- Дополнения для Firefox (подойдёт для Mozilla Firefox)
+  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
+
+- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Из исходного кода
 
@@ -64,7 +67,7 @@ $ git pull
    ![Скриншот кнопки «Загрузить распакованное расширение»](/assets/img/docs/load-unpacked-button.png)
 
 4. Выберите распакованную папку.
-5. Расширение теперь должно быть загружено
+5. Расширение должно быть сейчас загружено.
 
 Чтобы завершить обновления (предполагая, что Вы выполнили [эти шаги](#cloning-the-repository)), кликните кнопку `Обновить`:
 
