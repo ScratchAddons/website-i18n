@@ -4,7 +4,7 @@ addons.html:
   description: Esta página lista todos los addons que están implementados en Scratch Addons.
 changelog.html:
   title: Lista de Cambios
-  description: Todas los cambios notables en este proyecto serán documentados en esta página.
+  description: Todos los cambios notables en este proyecto serán documentados en esta página.
 farewell.html:
   title: ¡Adiós!
   description: Scratch Addons fue desinstalado. ¡Le agradecemos por haber usado la extensión!

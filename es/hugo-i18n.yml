@@ -43,10 +43,11 @@ PlayerModal:
   AltText: Haga click para ver este video.
 IndexPage:
   Intro:
+    Tagline: Extensión todo en uno para Scratch
     Description: Scratch Addons es una extensión para navegador que proporciona nuevas funcionalidades y temas para la web de Scratch y el editor de proyectos. Tiene como misión reunir, archivar y poner en uso userstyles y userscripts desarrollados por varios miembros de la comunidad de Scratch.
     InstallButton:
       Loading: Cargando...
-      Description: gratis, código abierto
+      Description: gratis, de código abierto
     ReadMore: o leer más
     Carousel:
       Video:
@@ -70,7 +71,7 @@ IndexPage:
     InternationalHeading: Internacional
     InternationalParagraph: No solo inglés. Scratch Addons está disponible en español, ruso, japonés, francés y muchos más.
     OSHeading: Código abierto
-    OSParagraph: Scratch Addons es gratuito, código abierto y desarrollado por una comunidad de Scratchers.
+    OSParagraph: Scratch Addons es gratuito, de código abierto y desarrollado por una comunidad de Scratchers.
   Highlights:
     Heading: Destacados
     Paragraph: Recuerde, estos solo son los addons destacados. {{.OpenTag1}}¡Hay más!{{.CloseTag1}}
@@ -100,7 +101,7 @@ FeedbackPage:
   SendEnabled: Enviar lista de mis addons actualmente activados (recomendado)
   SubmitButton: Enviar
 SMTPage:
-  ScratchMessagingLogoAlt: Logo de Scratch Messaging Extensio
+  ScratchMessagingLogoAlt: Logo de Scratch Messaging Extension
 ChangelogPage:
   Highlights:
     Title: Destacados
