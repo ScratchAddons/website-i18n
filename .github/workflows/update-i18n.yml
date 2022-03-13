@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "30 0 * * 1-6"
 
 name: Localization Update
 
@@ -41,7 +41,15 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
+      - name: Upload whole repo (to check i18n)
+        if: GITHUB_EVENT_NAME == 'workflow_dispatch'
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: ./repo
+
       - name: Generate token
+        if: steps.script.outputs.do_invoke == 'true'
         uses: tibdex/github-app-token@v1
         id: generate-token
         with:
@@ -49,7 +57,7 @@ jobs:
           private_key: ${{ secrets.BOT_PRIVATE_KEY }}
 
       - name: Invoke workflow
-        if: ${{ steps.script.outputs.do_invoke }}
+        if: steps.script.outputs.do_invoke == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment
