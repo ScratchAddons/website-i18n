@@ -42,12 +42,14 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
-      - name: Upload whole repo (to check i18n)
-        if: GITHUB_EVENT_NAME == 'workflow_dispatch'
+      - name: Upload whole repo on manual (to check i18n)
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v2
         with:
           name: public
-          path: ./repo
+          path: |
+            ./repo
+            !./repo/.git
 
       - name: Generate token
         if: steps.script.outputs.do_invoke == 'true'
