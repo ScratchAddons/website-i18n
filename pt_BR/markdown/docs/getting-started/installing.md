@@ -6,13 +6,13 @@ title: Como instalar
 
 O Scratch Addons está disponível na loja de extensões do Chrome e do Firefox.
 
-- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+- Chrome Web Store (para Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, e outros navegadores baseado em Chromium)  
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
 - Add-ons for Firefox (para Mozilla Firefox)
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
-- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+- Microsoft Edge Add-ons (para Microsoft Edge >79)  
   https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Usando o código fonte

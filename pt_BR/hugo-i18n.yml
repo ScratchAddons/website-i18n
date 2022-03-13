@@ -2,10 +2,20 @@ Global:
   LogoAlt: Logo do Scratch Addons
   Install: Instalar
   InstallFor: Instalar no {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuto"
+    other: "{{.Count}} minutos"
+  RSSDescription: Conteúdo recente no {{ .SiteName }}
+  Extension: Extensão
+Links:
+  Credits: Créditos
+  PrivacyPolicy: Política de Privacidade
 Nav:
   Feedback: Dar Feedback
   Repository: Repositório
+  RepositoryLabel: Repositório no GitHub
   Install: Instalar
+  ToggleNavigation: Alternar navegação
 Footer:
   Pages:
     Header: Páginas
@@ -44,6 +54,7 @@ PlayerModal:
   AltText: Clique para ver o vídeo.
 IndexPage:
   Intro:
+    Tagline: A extensão tudo-em-um para o Scratch
     Description: Scratch Addons é uma extensão de navegador que adiciona novas funções e temas ao website e editor de projeto do Scratch. Nossa missão é coletar, arquivar e colocar em uso userstyles e userscripts, desenvolvidos por diversos membros da comunidade Scratch.
     InstallButton:
       Loading: Carregando...
@@ -80,6 +91,7 @@ IndexPage:
     ScratchNotifierHeading: Notificador do Scratch
     ScratchNotifierParagraph: Permite que o navegador te notifique sobre novas mensagens no Scratch. Você pode clicar na notificação para ir direto à mensagem (comentário, projeto, etc.)
     DeveloperToolsHeading: Ferramentas de desenvolvedor
+    DeveloperToolsParagraph: "Da extensão original. Adiciona uma barra de busca e novas opções ao menu do editor, com funções de: copiar e colar blocos, função de limpar aprimorado, encontrar definição de bloco, e mais!"
   Install:
     Heading: Instalar
     Paragraph: Parece bom? Não hesite e instale agora!
@@ -94,6 +106,7 @@ AddonsPage:
   EasterEggTooltip:
     L1: Para ativar esses addons, faça o Konami Code (↑↑↓↓←→←→BA) na página de configuração. Leia o FAQ para mais informações.
     L2: Nessa página, um addon secreto terá um ícone de ovo do lado do seu nome.
+  SourceCodeLabel: Código-fonte no GitHub
 FeedbackPage:
   Status:
     Sending: Enviando...
@@ -117,3 +130,8 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Baixar
   HowToUpdate: Como atualizar
+Blog:
+  SectionSiteName: Blog do Scratch Addons
+ContributorsPage:
+  NContributors: "{{.Count}} contribuidores"
+  NProfilePicture: foto de perfil de {{.Name}}

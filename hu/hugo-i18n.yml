@@ -2,10 +2,21 @@ Global:
   LogoAlt: Scratch Addons logó
   Install: Telepítés
   InstallFor: Telepítés {{.Browser}}-re
+  ReadTime:
+    one: "{{.Count}} perc"
+    other: "{{.Count}} perc"
+  RSSDescription: Friss tartalom a {{ .SiteName }} oldalon
+  Website: Weboldal
+  Extension: Bővítmény
+Links:
+  Credits: Készítők
+  PrivacyPolicy: Adatvédelmi irányelvek
 Nav:
   Feedback: Visszajelzés küldése
   Repository: Adattár
+  RepositoryLabel: GitHub Repository
   Install: Telepítés
+  ToggleNavigation: Navigáció átkapcsolása
 Footer:
   Pages:
     Header: Oldalak
@@ -14,19 +25,103 @@ Footer:
     Changelog: Változtatásnapló
     Addons: Kiegészítők
   Discuss:
-    Header: Megvitatás
+    Header: Megbeszélés
     Discussion: Vitafórum
     Issues: Problémák
     DiscordCom: Közösségi Discord
     DiscordDev: Fejlesztői Discord
   Resources:
-    Header: Alapanyagok
+    Header: Erőforrások
     Organization: Szervezet
     Documentation: Dokumentáció
   Legal:
     Copyright: © {{.Count}} Scratch Addons közreműködői
+    NoAffiliation: A Scratch Addons nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a Scratch-el, a Scratch Team-el, a Scratch Alapítvánnyal, vagy bármilyen leány-, és társvállalatával.
+    License: A Scratch Addons a <i>GNU General Public License 3.0</i> feltételei alatt van licenszelve.
+DarkTheme:
+  Title: Kattintson a sötét téma-világos téma váltogatásához
+  Label: Sötét témára átváltás
+Docs:
+  SectionSiteName: Scratch Addons Dokumentáció
+  DocsNav: Dokumentumnavigáció
+  DocsNavToggleLabel: Navigációs mező elrejtése/megjelenítése
+  TOC: Tartalomjegyzék
+  TOCToggleLabel: A tartalomjegyzék oldalsáv ki-be kapcsolása
+  Improve: Javítsa ezt az oldalt.
+PlayerModal:
+  LabelPlay: Lejátszás
+  ModalTitle: Videó
+  AltText: Kattintson a videó megtekintéséhez.
 IndexPage:
+  Intro:
+    Tagline: Minden-egyben böngésző bővítmény a Scratch-hez
+    Description: A Scratch Addons egy webböngésző-bővítmény, ami rengeteg új funkciót, és témát kínál a Scratch weboldalhoz és a projektszerkesztőjéhez. Küldetése, hogy összegyűjtse, eltárolja, és használatba vigye a userstyle-okat, userscriptreket a Scratch közösség különböző tagjai által fejlesztve.
+    InstallButton:
+      Loading: Betöltés...
+      Description: szabad, nyíltforráskódú
+    ReadMore: vagy több olvasása
+    Carousel:
+      Video:
+        Caption: Az előzetes
+      Popup:
+        Caption: A böngésző felugróablaka.
+        ImgAlt: Bővítmény felugróablak
+      Settings:
+        Caption: A beállítások oldal.
+        ImgAlt: Beállítások oldal
+      Demo:
+        Caption: A bővítmény bemutatása. ({{.Count}})
+        ImgAlt: Demonstráció ({{.Count}})
+      Previous: Előző
+      Next: Következő
   Features:
+    Heading: Jellemzők
     AddonsHeading: Kiegészítők
+    AddonsParagraph: A Scratch Addons kiegészítők sokaságából áll, amik mind olyan funkcióik amik feljavítják a Scratch weboldal és szerkesztő élményét.
+    CustomizableHeading: Személyre szabható
+    CustomizableParagraph: A Scratch Addons egy könnyen használható felülettel rendelkezik, hogy vezérelni lehessen minden beállítását a kínált funkcióknak és témáknak.
+    InternationalHeading: Nemzetközi
+    InternationalParagraph: Nem csak angol. A Scratch elérhető már spanyolul, oroszul, japánul, franciául, és még rengeteg más nyelven is, többek között magyarul is.
+    OSHeading: Nyílt forráskódú
+    OSParagraph: A Scratch Addons szabad, nyílt forráskódú és a Scratch közösség által felépített projekt.
+  Highlights:
+    Heading: Kiemelések
+    Paragraph: Emlékezzen, hogy ezek csak a kiemelések. {{.OpenTag1}}Van több is!{{.CloseTag1}}
+    ScratchMessagingHeading: Scratch Üzenetküldés
+    ScratchMessagingParagraph: 'A "nagyapja" a Scratch Addons-nak. Elérhető a Scratch Addons ikonjára kattintás után. Könnyű olvasást és válaszolást biztosít a Scratch üzeneteihez: összecsoportosítja az üzeneteket projektenként, megmutatja a teljes komment szövegét, és annak környezetét, valamint a közvetlen válaszolást is lehetővé teszi.'
+    ScratchNotifierHeading: Scratch Emlékeztető
+    ScratchNotifierParagraph: Böngésző emlékeztetőket ad az új Scratch üzenetekhez. Rá kattinthat az emlékeztetőre, hogy egyenesen az üzenet (komment, projekt, stb.) oldalához menjen.
+    DeveloperToolsHeading: Fejlesztői eszközök
+    DeveloperToolsParagraph: "Az eredeti bővítményből. Hozzáad egy keresőablakot és új menü-opciókat a szerkesztőhöz: blokkok másolása/beillesztése, jobb „rendrakás”, a saját blokk definiálásához menés és több!"
   Install:
     Heading: Telepítés
+    Paragraph: Megelégedett az ígért funkciókkal? Ne habozzon letölteni már most!
+    InstallButton:
+      Other: ...vagy {{.OpenTag1}}töltse le a GitHub-ról{{.CloseTag1}} vagy {{.OpenTag2}}telepítse a forráskódból{{.CloseTag2}}.
+  Users: Felhasználók
+AddonsPage:
+  EasterEggAddon: Ez egy "easter egg" kiegészítő
+  RecommendedAddon: Ez egy ajánlott kiegészítő
+  ListViewLabel: Listanézet
+  EasterEggTooltip:
+    L1: Az ilyen kiegészítőkhöz csinálja végig a beállítások oldalon a "Konami Code"-ot (↑↑↓↓←→←→BA (fel-nyíl×2, le-nyíl×2, balra, jobbra, majd a B és az A gomb lenyomása)). Olvassa el a GYIK oldalunkat további információkért.
+    L2: Ezen a lapon egy easter egg kiegészítő egy tojás szimbólumot fog tartalmazni a neve mellett.
+  NAddons: "{{.Count}} kiegészítők"
+  SourceCodeLabel: Forráskód a GitHubon
+FeedbackPage:
+  Status:
+    Sending: Küldés...
+    Success: Elküldve! Köszönjük visszajelzését.
+    Failed: Valami hiba történt. Megpróbálja újra elküldeni?
+  UsernameLabel: Scratch felhasználónév, vagy egyéb azonosító (opcionális)
+  ContentLabel: Visszajelzés
+  ContentPlaceholder: Kérjük adjon meg minél annyi információt, amennyit csak tud.
+  SendEnabled: Lista küldése a jelenlegi használatban lévő kiegészítőkről (javasolt)
+  SubmitButton: Küldés
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Üzenetküldés bővítmény logója
+ChangelogPage:
+  Highlights:
+    Title: Kiemelések
+  Links:
+    Title: Linkek
