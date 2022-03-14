@@ -23,14 +23,14 @@ Scratch Eklentileri hem Chrome Web Mağazası'nda hem de Firefox Eklentilerinde 
 
 ### Depoyu klonla
 
-Scratch Eklentilerini geliştirme amacıyla kurmanın önerilen yol budur. Bu, Git'in halihazırda kurulu olduğunu varsayar.
+Scratch Eklentilerini geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in halihazırda kurulu olduğunu varsayar.
 
 Depoyu indirmek için `https://github.com/ScratchAddons/ScratchAddons.git` dosyasını klonlamanız yeterlidir.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-Scratch Eklentilerini güncellemek için önce `cd` klasörüne gidin, ve ardından aşağıdaki komutları çalıştırın.
+Scratch Eklentilerini güncellemek için önce `cd` ile klasöre gidin, ve ardından aşağıdaki komutları çalıştırın.
 
 ```sh
 $ git fetch
@@ -40,17 +40,17 @@ $ git pull
 Bu, Scratch Eklentilerini güncelleyecek ve kodu düzenlemeye hazır hale getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
 
 
-### Zipball'u İndirmek
+### Zipball'u indirmek
 
 Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her güncellemek istediğinizde bu işlemi manuel olarak tekrarlamanız gerekeceğini unutmayın.
 
 1. [Depoya](https://github.com/ScratchAddons/ScratchAddons) gidin ve kodu indir düğmesini bulun.
 
-   ![Kod düğmesinin ekran görüntüsünü indir](/assets/img/docs/download-code-button.png)
+   ![Kodu indir düğmesinin ekran görüntüsü](/assets/img/docs/download-code-button.png)
 
-2. Tıklayın ve "ZIP'i İndir" seçeneğini seçin.
+2. Tıklayın ve "ZIP'i indir" seçeneğini seçin.
 
-   ![ZIP düğmesi ekran görüntüsünü indir](/assets/img/docs/download-zipball-button.png)
+   ![ZIP'i indir düğmesinin ekran görüntüsü](/assets/img/docs/download-zipball-button.png)
 
 3. Arşivi bir klasöre çıkarın.
 
@@ -60,31 +60,31 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her g�
 
 2. Geliştirici Modunu açmak için `Geliştirici modu`'nun yanındaki geçiş düğmesine tıklayın. Bu, bir klasörden veya dosyadan uzantılar yüklemenize olanak tanır.
 
-   ![Uzantı Yönetim çubuğu ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
+   ![Uzantı Yönetim çubuğunun ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
 
 3. `Sıkıştırılmamış'ı yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
 
-   ![Paketlenmemiş düğmenin ekran görüntüsünü yükle](/assets/img/docs/load-unpacked-button.png)
+   ![Paketlenmemiş'i yükle düğmenin ekran görüntüsü](/assets/img/docs/load-unpacked-button.png)
 
 4. Çıkarılan klasörü seçin.
 5. Uzantı artık yüklenmiş olmalıdır.
 
-Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme adımlarını uyguladığınızı varsayarak), `Update` düğmesine tıklayın:
+Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme adımlarını uyguladığınızı varsayarak), `Güncelle` düğmesine tıklayın:
 
-![Güncelleme düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
+![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
 
 
-### Mozilla Firefox'da Kurulum
+### Mozilla Firefox'da indirme
 
 1. Hata ayıklama sayfasını açmak için adres çubuğunuza `about:debugging` yazın.
 
-2. Soldaki menüden `This Firefox` butonuna tıklayın.
+2. Soldaki menüden `Bu Firefox` butonuna tıklayın.
 
    ![Sol-el menüsünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
 
-4. `Geçici Eklenti Yükle` seçeneğine tıklayın.
+4. `Geçici Eklenti Yükle...` seçeneğine tıklayın.
 
-   ![Geçici Eklenti düğmesinin ekran görüntüsünü yükle](/assets/img/docs/load-addon.png)
+   ![Geçici Eklenti yükle düğmesinin ekran görüntüsü](/assets/img/docs/load-addon.png)
 
 6. Çıkarılan klasörün içindeki manifest.json dosyasını seçin.
 7. Uzantı artık yüklenmiş olmalıdır.

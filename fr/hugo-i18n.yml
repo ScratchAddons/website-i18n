@@ -2,6 +2,10 @@ Global:
   LogoAlt: Logo de Scratch Addons
   Install: Installer
   InstallFor: Installer pour {{.Browser}}
+  Website: Sites web
+  Extension: Extensions
+Links:
+  Credits: Remerciements
 Nav:
   Feedback: Envoyer des retours
   Repository: Dépot
@@ -24,6 +28,7 @@ Footer:
     Copyright: © {{.Count}} contributeurs de Scratch Addons
     NoAffiliation: Scratch Addons n'est pas affilié, associé, ou en aucun cas officiellement lié avec Scratch, l'Équipe Scratch, la Scratch Foundation, ou l'une de ses filiales ou ses sociétés affiliées.
     License: Scratch Addons est disponible sous licence GNU General Public License v3.0.
+  Intro: Actuellement {{ .Version }} avec {{ .AddonCount }} addons.
 DarkTheme:
   Title: Cliquer pour activer le thème sombre.
   Label: Bouton thème sombre

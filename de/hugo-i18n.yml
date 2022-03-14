@@ -34,6 +34,7 @@ Footer:
     Copyright: © {{.Count}} Scratch Addons-Entwickler
     NoAffiliation: Scratch Addons ist nicht angegliedert, assoziiert oder in irgendeiner Weise offiziell mit Scratch, dem Scratch Team, der Scratch Foundation oder einer ihrer Tochtergesellschaften und deren verbundenen Unternehmen verbunden.
     License: Scratch Addons ist lizenziert unter den Bedingungen der GNU General Public License v3.0.
+  Intro: Momentan auf Version {{ .Version }} mit {{ .AddonCount }} Addons.
 DarkTheme:
   Title: Hier klicken, um den Dunklen Modus umzuschalten.
   Label: Dunkles Design umschalten

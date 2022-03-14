@@ -31,6 +31,6 @@ Cette propriété doit être un tableau.  Chaque élément du tableau doit avoir
 ```Messagerie Scratch
 
 ## Style d'utilisateur de débogage
-**Soyez sûre de rafraichir Scratch Addons par `chrome://extensions` après avoir fait toute modification.** 
-Si vous ne voyez pas votre style d'utilisateur marcher, soyez sûre que vous avez activé votre addons(extension). 
-Si vous avez toujours des problèmes, SVP créer une issue dans ce "repostery".
+**Assurez-vous d'actualiser Scratch Addons à partir de `chrome://extensions` après avoir apporté des modifications à votre addon.** 
+Si vous ne voyez pas votre style d'utilisateur fonctionner, vérifiez que votre addon est activé. 
+Si vous rencontrez toujours des problèmes, veuillez créer un problème dans ce dépôt.

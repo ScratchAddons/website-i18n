@@ -40,6 +40,7 @@ Footer:
     Copyright: © {{.Count}} Scratch Eklentileri katkıda bulunanlar
     NoAffiliation: Scratch Eklentileri, Scratch, Scratch Ekibi, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
     License: Scratch Eklentileri, GNU General Public License v3.0 altında lisanslanmıştır.
+  Intro: Şu anki sürüm {{ .Version }} ve {{ .AddonCount }} eklenti içeriyor.
 DarkTheme:
   Title: Koyu temayı açmak için tıklayın.
   Label: Koyu tema ayarı

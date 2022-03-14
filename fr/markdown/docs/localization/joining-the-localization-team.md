@@ -1,6 +1,6 @@
 ---
 title: Joining the Localization Team
-description: Thanks for being interested on volunteering to translate Scratch Addons to other languages! Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
+description: Merci d'être volontaire pour traduire Scratch Addons dans d'autres langues ! Scratch Addons est un projet open source à but non lucratif où des développeurs web bénévoles assurent la maintenance de l'extension et créent ses addons.
 ---
 
 {{< admonition info >}}
@@ -9,35 +9,35 @@ _Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. W
 
 {{< /admonition >}}
 
-**Thanks for being interested on volunteering to translate Scratch Addons to other languages!**
+**Merci d'être volontaire pour traduire Scratch Addons dans d'autres langues !**
 
 Scratch Addons est un projet open source à but non lucratif dans lequel des développeurs web bénévoles assurent la maintenance de l'extension et créent des addons.
 
-Even if you haven't ever coded a single line of JavaScript, you can still help us achieve our goal of making everyone's experience with Scratch better!
+Même si vous n'avez jamais codé une seule ligne de JavaScript, vous pouvez toujours nous aider à atteindre notre objectif qui est d'améliorer l'expérience de chacun avec Scratch !
 
-**All you need to do is know both English and another language, and spend a few minutes a week translating any new sentences Scratch Addons added during that period.** 
+**Tout ce que vous avez à faire est de connaître à la fois l'anglais et une autre langue, et de passer quelques minutes par semaine à traduire les nouvelles phrases ajoutées par Scratch Addons pendant cette période.**
 
-This way, anyone that speaks your language can use Scratch Addons in their native language, instead of having to understand English.
+De cette manière, toute personne qui parle votre langue peut utiliser Scratch Addons dans sa langue maternelle au lieu de devoir comprendre l'anglais.
 
-**If you're interested in helping, please follow these steps:**
+**Si vous souhaitez aider, veuillez suivre ces étapes :**
 
-- Go to [our Transifex page](https://www.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
-- Use the same username as your Scratch account. Enter your email, a new password, then Sign Up.
+- Allez sur [notre page Transifex](https://www.transifex.com/scratch-addons/scratch-addons-extension/), et cliquez sur le bouton bleu "Aidez à traduire Scratch Addons".
+- Utilisez le même nom d'utilisateur que votre compte Scratch. Entrez votre e-mail, un nouveau mot de passe puis inscrivez-vous.
 - Enter your username as your name and surname - **do not use your real name**.
-_Note: choose any option for "department" and "job title", we recommend "localization" and "individual contributor"_
-- On then next step, select "join an existing project".
-- Choose the language you want to help with.
+_Remarque : choisissez n'importe quelle option pour "service" et "intitulé du poste", nous recommandons "localisation" et "contributeur individuel"_
+- Sélectionnez "Rejoindre un projet existant" dans l'étape suivante.
+- Choisissez la langue pour laquelle vous souhaitez aider.
 
-You'll soon be accepted into the Transifex team and you'll get email notifications when there are new strings to translate.
+Vous serez bientôt accepté dans l'équipe Transifex et vous recevrez des notifications par e-mail lorsqu'il y aura de nouvelles chaînes à traduire.
 
-### Notes:
+### Remarques :
 
-- Scratch must be translated in that language.
-- Unlike Scratch, we only support one dialect per language (Scratch Addons will never have Latin American Spanish, nor Portugal Portuguese).
-- It may take a few hours/days before your request is accepted.
-- If you get accepted, you may add yourself (or be added) to our [website's contributors page](https://scratchaddons.com/contributors).
-- Legal stuff: your translations will be licensed under the same license as Scratch Addons (GPL v3.0)
+- Scratch doit être traduit dans cette langue.
+- Contrairement à Scratch, nous ne prenons en charge qu'un seul dialecte par langue (Scratch Addons n'aura par exemple jamais d'espagnol latino-américain).
+- Cela peut prendre quelques heures/jours avant que votre demande ne soit acceptée.
+- Si vous êtes accepté, vous pouvez vous ajouter (ou être ajouté) à notre [page des contributeurs] (https://scratchaddons.com/contributors).
+- Mentions légales : vos traductions seront sous la même licence que Scratch Addons (GPL v3.0)
 
-### Any questions?
+### Des questions ?
 
-If you have any questions about translating, feel free to [open a discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required) or [send feedback](https://scratchaddons.com/feedback) (no account required, but make sure to specify your Scratch username).
+Si vous avez des questions sur la traduction, n'hésitez pas à [ouvrir une discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) (compte GitHub requis) ou [envoyer des commentaires](https://scratchaddons.com/feedback) (aucun compte requis, mais assurez-vous de spécifier votre nom d'utilisateur Scratch).

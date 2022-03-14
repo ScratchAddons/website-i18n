@@ -37,7 +37,8 @@ Footer:
   Legal:
     Copyright: © {{.Count}} Scratch Addons közreműködői
     NoAffiliation: A Scratch Addons nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a Scratch-el, a Scratch Team-el, a Scratch Alapítvánnyal, vagy bármilyen leány-, és társvállalatával.
-    License: A Scratch Addons a <i>GNU General Public License 3.0</i> feltételei alatt van licenszelve.
+    License: A Scratch Addons a GNU General Public License 3.0 feltételei alatt van licenszelve.
+  Intro: Jelenleg {{ .Version }} {{ .AddonCount }}kiegészítővel
 DarkTheme:
   Title: Kattintson a sötét téma-világos téma váltogatásához
   Label: Sötét témára átváltás
@@ -90,7 +91,7 @@ IndexPage:
     ScratchMessagingHeading: Scratch Üzenetküldés
     ScratchMessagingParagraph: 'A "nagyapja" a Scratch Addons-nak. Elérhető a Scratch Addons ikonjára kattintás után. Könnyű olvasást és válaszolást biztosít a Scratch üzeneteihez: összecsoportosítja az üzeneteket projektenként, megmutatja a teljes komment szövegét, és annak környezetét, valamint a közvetlen válaszolást is lehetővé teszi.'
     ScratchNotifierHeading: Scratch Emlékeztető
-    ScratchNotifierParagraph: Böngésző emlékeztetőket ad az új Scratch üzenetekhez. Rá kattinthat az emlékeztetőre, hogy egyenesen az üzenet (komment, projekt, stb.) oldalához menjen.
+    ScratchNotifierParagraph: Böngésző emlékeztetőket ad az új Scratch üzenetekhez. Rákattinthat az emlékeztetőre, hogy egyenesen az üzenet (komment, projekt, stb.) oldalához menjen.
     DeveloperToolsHeading: Fejlesztői eszközök
     DeveloperToolsParagraph: "Az eredeti bővítményből. Hozzáad egy keresőablakot és új menü-opciókat a szerkesztőhöz: blokkok másolása/beillesztése, jobb „rendrakás”, a saját blokk definiálásához menés és több!"
   Install:
@@ -98,7 +99,7 @@ IndexPage:
     Paragraph: Megelégedett az ígért funkciókkal? Ne habozzon letölteni már most!
     InstallButton:
       Other: ...vagy {{.OpenTag1}}töltse le a GitHub-ról{{.CloseTag1}} vagy {{.OpenTag2}}telepítse a forráskódból{{.CloseTag2}}.
-  Users: Felhasználók
+  Users: Felhasználó
 AddonsPage:
   EasterEggAddon: Ez egy "easter egg" kiegészítő
   RecommendedAddon: Ez egy ajánlott kiegészítő
@@ -125,3 +126,15 @@ ChangelogPage:
     Title: Kiemelések
   Links:
     Title: Linkek
+    ReleaseGitHub: Közzétételi oldal a GitHubon
+    RepoState: Repository állapota a közzétételnél
+    CommitsMade: Rábízások
+  Status:
+    Latest: Legutolsó
+    Yanked: Megrántott
+UnsupportedBrowserPage:
+  Download: Letöltés
+  HowToUpdate: Hogyan frissítse
+ContributorsPage:
+  NContributors: "{{.Count}} hozzájáruló"
+  NProfilePicture: "{{.Name}} profilkép"

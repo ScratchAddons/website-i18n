@@ -19,7 +19,7 @@ Başlamak için, eklentinin ayarlar sayfasına erişmeniz gerekir.
 1. Araç çubuğunda Scratch Eklentilerini bulun ve tıklayın.
    Genellikle tarayıcınızın sağ üst köşesinde bulunur. Google Chrome kullanıcıları için, Scratch'e göz atmıyorsanız, uzantı simgesini bulmak için bulmaca simgesine tıklamanız gerekir.
 
-2. Ayarlar sayfasına gitmek için dişli simgesine tıklayın.
+2. Ayarlar sayfasına gitmek için çark simgesine tıklayın.
 
 3. Eklentiler listesine bakmaktan ve istediğinizi açıp kapatmaktan çekinmeyin.
    Ayrıca her eklentinin aşağı kısımlarından eklentileri ayarlayabilirsiniz.

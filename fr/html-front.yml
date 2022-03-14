@@ -6,6 +6,8 @@ addons.html:
 changelog.html:
   title: Liste des modifications
   description: Tous les changements notables de ce projet seront documentés sur cette page.
+credits.html:
+  title: Remerciements
 farewell.html:
   title: Au revoir !
   description: Scratch Addons a été désinstallé. Nous vous remercions d'avoir utilisé l'extension !
