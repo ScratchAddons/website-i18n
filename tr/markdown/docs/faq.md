@@ -120,7 +120,7 @@ Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
 ### Sanırım bir özelliği atlamışsınız. Ne yapabilirim?
 
-Bir özelliğin eksik olduğunu düşünüyorsanız veya uzantıya bir eklenti önermek istiyorsanız ya da iyi bir fikriniz varsa [yukarıda belirtilen yöntemlerden birini uygulayarak](#what-can-i-do-if-i-find-a-problem). bize bildirin.
+Bir özelliğin eksik olduğunu düşünüyorsanız, uzantıya bir eklenti önermek istiyorsanız veya iyi bir fikriniz varsa [yukarıda belirtilen yöntemlerden birini uygulayarak](#what-can-i-do-if-i-find-a-problem) bize bildirin.
 
 ### Scratch Eklentileri hakkında nerede tartışabilirim?
 
