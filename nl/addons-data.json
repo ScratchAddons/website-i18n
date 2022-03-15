@@ -1,15 +1,15 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "Próbnik kolorów 2D",
-		"description": "Zamienia paski wyboru jasności i saturacji na paletę kolorów 2D w edytorze kostiumów. Przytrzymaj Shift, aby zmieniać wartość na tylko jednej płaszczyźnie.",
+		"name": "2D-kleurenkiezer",
+		"description": "Vervangt saturatie en helderheidsliders in de kostuumeditor met een 2D-kleurenkiezer. Houd Shift ingedrukt en beweeg de muisaanwijzer om de waarden op een enkele as te veranderen.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS w trybie gracza",
-		"description": "Kliknij trzymając Alt na zieloną flagę by włączyć tryb 60FPS",
+		"name": "60FPS projectspelermodus",
+		"description": "Alt+Klik de groene vlag om 60FPS aan of uit te zetten.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
@@ -21,20 +21,20 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Ustawienia Konta pisane dużymi literami",
-		"description": "Zmienia \"Ustawienia konta\" w menu konta na \"Ustawienia Konta\".",
+		"name": "Accountinstellingen Met Hoofdletters",
+		"description": "Zorgt ervoor dat \"Accountinstellingen\" in het accountmenu goede hoofdletters heeft in de Engelse versie van Scratch.",
 		"tags": ["easterEgg", "community"]
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Zmień miniaturkę",
-		"description": "Dodaje przycisk w dolnym prawym rogu strony Twojego projektu, który pozwala ustawić miniaturkę Twojego projektu (także na animowane pliki jak gif).",
+		"name": "Thumbnail-insteller",
+		"description": "Voegt een knop rechtsonder de projectpagina toe om de thumbnail van je project in te stellen op een afbeelding (inclusief GIFs).",
 		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
 		"id": "better-emojis",
-		"name": "Lepsze emotki",
-		"description": "Zamień emotki w komentarzach na stronie, na poprawione wektorowe ikony.",
+		"name": "Betere emoji's",
+		"description": "Vervangt de emoji's in opmerkingen op de website met verbeterde vector-designs.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
@@ -43,15 +43,15 @@
 	},
 	{
 		"id": "better-featured-project",
-		"name": "banner strony profilu",
-		"description": "Zamienia wyróżniony projekt w profilu dowolnego użytkownika na ładnie wyglądający baner.",
+		"name": "Profielpaginabanner",
+		"description": "Verandert het uitgelichte project op elk profiel in een mooi-uitziende banner.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "Przesyłanie obrazów HD ",
-		"description": "Dodaje nowy przycisk nad przyciskiem „prześlij kostium”, który automatycznie konwertuje przesłane obrazy bitmapowe na obrazy SVG (wektorowe), aby uniknąć utraty jakości.",
+		"name": "HD-afbeelding uploads",
+		"description": "Voegt een nieuwe knop toe boven de \"upload uiterlijk\"-knop die geüploade bitmapafbeeldingen automatisch converteert naar SVG (vector)-afbeeldingen om de kwaliteit te behouden.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -68,8 +68,8 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "Lepszy cytat z forum",
-		"description": "Zaznacz tekst w poście na forum i kliknij cytat w prawym dolnym rogu, aby zacytować tylko zaznaczony tekst.",
+		"name": "Betere forumciteerder",
+		"description": "Selecteer tekst in een forumbericht en klik dan rechtsonderaan op citeer om alleen de geselecteerde tekst te citeren.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -84,14 +84,14 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Kopiowanie obrazów bitmapowych",
-		"description": "Pozwala ci kopiować zdjęcie z edytora kostiumu do schowka w systemie, abyś mógł wkleić do innych programów.",
+		"name": "Bitmapafbeeldingen kopiëren",
+		"description": "Geeft je de mogelijkheid om bitmapafbeeldingen van de kostuumeditor te kopiëren naar je klembord, zodat je het in andere websites of software kunt plakken.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "block-cherry-picking",
-		"name": "Złap pojedynczy blok klawiszem Ctrl",
-		"description": "Daje możliwość do wyciągnięcia jednego bloku z środku kodu (zamiast wyciągania wszystkich poniżej). Aby to zrobić należy kliknąć trzymając klawisz Ctr.",
+		"name": "Enkel blok slepen met Ctrl-toets",
+		"description": "Sleep een enkel blok uit een script met de Ctrl-toets (zonder dat alle blokken eronder ook meegaan).",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -103,8 +103,8 @@
 	},
 	{
 		"id": "block-count",
-		"name": "Liczba bloków",
-		"description": "Pokazuje ilość bloków użytych w edytorze. Wcześniej część dodatku \"Sprite and script count\".",
+		"name": "Blokkenteller",
+		"description": "Laat je het totaal aantal blokken in een project zien in de menubalk van de editor. Hoorde vroeger bij \"sprite- en scriptteller\".",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -115,15 +115,15 @@
 	},
 	{
 		"id": "block-duplicate",
-		"name": "Duplikuj skrypt przyciskiem Alt",
-		"description": "Szybko zduplikuj skrypt, przeciągając go, trzymając klawisz Alt. Przytrzymaj również klawisz Ctrl, aby zduplikować tylko pojedynczy blok zamiast całego stosu dołączonego pod nim.",
+		"name": "Scripts dupliceren met de Alt-toets",
+		"description": "Dupliceer snel een script door het te slepen met de Alt-toets ingedrukt. Houd Ctrl ook ingedrukt om alleen een enkel blok te dupliceren in plaats van het hele script eronder.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Ikony dla poszczególnych kategorii",
-		"description": "Dodaje ikony wewnątrz kolorowych okręgów, które identyfikują kategorie bloków.",
+		"name": "Blokpalet categorie-iconen",
+		"description": "Voegt iconen binnen de gekleurde cirkels van blokcategorieën toe.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -135,8 +135,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "Zmiana bloków",
-		"description": "Kliknij prawym przyciskiem myszy na blok, aby zamienić go na powiązany blok.",
+		"name": "Blokken wisselen",
+		"description": "Rechtermuisknop op een blok om het te wisselen naar een gerelateerde blok.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -148,8 +148,8 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Zapisz bloki jako obraz",
-		"description": "Kliknij prawym klawiszem w polu kodu, aby wyeksportować bloki jako obrazy SVG/PNG.",
+		"name": "Blokken opslaan als afbeelding",
+		"description": "Gebruik de rechtermuisknop op het codegebied om blokken te exporteren als SVG/PNG-afbeeldingen.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -157,8 +157,8 @@
 	},
 	{
 		"id": "cat-blocks",
-		"name": "Kocie Bloki",
-		"description": "Przywraca do edytora kocie bloki z prima aprilis 2020.",
+		"name": "Kat-blokken",
+		"description": "Brengt de kat-blokken in de editor van 1 April 2020 terug.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -170,22 +170,22 @@
 	},
 	{
 		"id": "clones",
-		"name": "Licznik klonów",
-		"description": "Dodaje licznik nad sceną pokazujący ilość klonów.",
+		"name": "Kloonteller",
+		"description": "Voegt een teller boven het speelveld toe in de editor die het totale aantal klonen laat zien.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "cloud-games",
-		"name": "Gry w chmurze",
-		"description": "Dostępne po kliknięciu w ikonkę Scratch Addons. Pokazuje ile graczy jest w projektach multiplayer oraz ich nicki.",
+		"name": "Cloudspellen",
+		"description": "Beschikbaar wanneer je klikt op het Scratch Addons-icoon. Laat je zien hoeveel Scratchers op dit moment multiplayerprojecten spelen, en hun gebruikersnaam.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "color-inputs",
-		"name": "Dane wejściowe w wyborze koloru",
-		"description": "Pozwala wybrać dokładną wartość (0-100) dla każdego suwaka w edytorze kostiumu,",
+		"name": "Color picker inputs",
+		"description": "Allows setting an exact value (0-100) for each slider in the costume editor color picker.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -196,8 +196,8 @@
 	},
 	{
 		"id": "color-picker",
-		"name": "Wybieracz koloru hex",
-		"description": "Dodaje opcję koloru hex do menu wyboru kolorów.",
+		"name": "Hex-kleurenkiezer",
+		"description": "Voegt hex-codeingangen toe aan kleurenkiezers.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -209,8 +209,8 @@
 	},
 	{
 		"id": "columns",
-		"name": "Dwu-kolumnowe menu kategorii",
-		"description": "Dzieli menu kategorii bloków na dwie kolumny i przenosi je na górę palety bloków, tak jak w Scratch 2.0.",
+		"name": "Categorie-menu met 2 kolommen",
+		"description": "Verdeelt het blokcategoriemenu in 2 kolommen en zet het boven het blokpalet, net zoals in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -218,8 +218,8 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "Nowe linie w komentarzach",
-		"description": "Pozwala tworzyć nowe linie w komentarzach (Klikając Enter) zamiast zamieniać je na spacje.",
+		"name": "Regeleinden in opmerkingen",
+		"description": "Maakt regeleinden (op Enter drukken) in opmerkingen op de website zichtbaar in plaats van ze vervangen met spaties.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -230,8 +230,8 @@
 	},
 	{
 		"id": "compact-messages",
-		"name": "Kompaktowe wiadomości",
-		"description": "Sprawia, że strona wiadomości Scratcha jest bardziej kompaktowa i łatwiejsza do odczytania.",
+		"name": "Compacte berichten",
+		"description": "Maakt Scratch's berichtpagina compacter en fijner om te lezen.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
@@ -239,8 +239,8 @@
 	},
 	{
 		"id": "confirm-actions",
-		"name": "Potwierdzenia",
-		"description": "Upewnia się że chcesz wykonać akcję na Twoim koncie, jak pokazywanie projektów.",
+		"name": "Bevestigingen",
+		"description": "Vraagt je of je zeker bent over de acties die je uitvoert onder je Scratchaccount, zoals projecten delen.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -251,8 +251,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "Kopiuj link do przycisku komentarza",
-		"description": "Dodaje przycisk \"Skopiuj Link\" do wszystkich komentarzy na stronie. Znajduje się na przeciwko przycisku \"Zgłoś\".",
+		"name": "Kopieer link naar opmerking-knop",
+		"description": "Voegt een \"Kopieer Link\"-knop toe aan alle opmerkingen op de website, naast de \"Melden\"-knop.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -260,8 +260,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Użyj Ctrl+Klik, aby uruchomić skrypty",
-		"description": "Uruchamiaj skrypty tylko po kliknięciu myszką trzymając klawisz Ctrl",
+		"name": "Ctrl+Klik om scripts uit te voeren",
+		"description": "Voer alleen scripts op klik uit als je ook de Ctrl-toets ingedrukt hebt.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -270,8 +270,8 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enter, aby opublikować",
-		"description": "Automatycznie wyślij komentarz lub post klikając Ctrl+Enter",
+		"name": "Ctrl+Enter om te posten",
+		"description": "Post automatisch de opmerking of forumpost met Ctrl+Enter",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -279,8 +279,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "Link kuratora na stronie głównej",
-		"description": "Zamienia nick kuratora na głównej stronie jako link do jego profilu.",
+		"name": "Homepagina beheerder-link",
+		"description": "Maakt de gebruikersnaam van de homepagina-projectbeheerder een klikbare link naar hun profiel.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -291,8 +291,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Zmień kształt bloków",
-		"description": "Dostosuj obramowanie, zaokrąglenie rogów i wysokość bloków.",
+		"name": "Aanpasbare blokvorm",
+		"description": "Verander de opvulling, hoekgrootte, en inkepingshoogte van blokken.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -311,8 +311,8 @@
 	},
 	{
 		"id": "custom-block-text",
-		"name": "Konfigurowalny styl tekstu bloków",
-		"description": "Zmienia nasycenie tekstu na blokach, opcjonalnie dodaje cień.",
+		"name": "Bewerkbare bloktekststijlen",
+		"description": "Verandert de dikte van de bloktekst en voegt eventueel een tekstschaduw toe.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -321,8 +321,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Dowolne powiększenie obszaru kodowania",
-		"description": "Wybierz niestandardowe ustawienia dla minimalnej i maksymalnej szybkości, oraz dla początkowego rozmiaru powiększenia skryptów w obszarze kodu.",
+		"name": "Aanpasbare codegebied-zoom",
+		"description": "Kies zelf instellingen voor de minimale, maximale, snelheid, en beginzoom van de zoom van scripts in het codegebied, en verberg automatisch de knoppen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -333,15 +333,15 @@
 	},
 	{
 		"id": "customize-avatar-border",
-		"name": "Możliwość dostosowania obramowania zdjęcia profilowego",
-		"description": "Pozwala ukryć lub zmienić kontur wokół zdjęć profilowych w komentarzach do projektów lub studia. ",
+		"name": "Aanpasbare profielfotorand",
+		"description": "Geeft je de mogelijkheid om de rand van profielfoto's in project- en studio-opmerkingen te verbergen of te veranderen.",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "dango-rain",
-		"name": "Deszcz Dango na profilach (prima aprilis)",
-		"description": "Użytkownicy, którzy w swojej sekcji „O mnie” zamieścili słowo „dango”, będą mieli emotikony dango po bokach profilu.",
+		"name": "Dango-regen op profiel (1 April)",
+		"description": "Gebruikers die het woord \"dango\" op hun \"Over Mij\" hebben zullen dango-emoji's zien regenen aan de weerszijden van hun profiel.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -360,8 +360,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Ciemny tryb strony oraz konfigurowalne kolory",
-		"description": "Dostosuj kolory używane przez witrynę Scratch. Dostępnych jest wiele ciemnych motywów różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić domyślne kolory, możesz wybrać ustawienie „Domyślne kolory programu Scratch” i dostosować je.",
+		"name": "Website-donkere modus en aanpasbare kleuren",
+		"description": "Pas de kleuren van de Scratchwebsite aan. Je kunt kiezen tussen meerdere donkere thema's door verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer de \"Scratch-standaardkleuren\"-voorinstelling en verander het.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -380,15 +380,15 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "Kategorie typów danych",
-		"description": "Zapewnia poprawki dla kategorii bloku Dane („Zmienne”). ",
+		"name": "Gegevenscategorie-aanpassingen",
+		"description": "Maakt aanpassingen aan de Gegevens (\"Variabelen\")-blokcategorie.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Dodaje do edytora nowe okno \"debuggera\". Umożliwia zalogowanie informacji do zakładki „Logi” za pomocą bloków „log”, „warn” i „error”. Blok „punkt przerwania” zatrzyma projekt po wykonaniu. Wszystkie uruchomione wątki można wyświetlić w zakładce „Wątki” debugera, a po wstrzymaniu można użyć przycisku „Krok” do wykonania następnego bloku.W dodatku w zakładce \"Wydajność\" możesz zobaczyć wykres liczby ilość klatek na sekundę oraz liczby klonów.",
+		"description": "Voegt een nieuw \"debugger\"-venster toe in de editor. Je kunt loggen in het \"Logs\"-venster van de debugger met de \"log\", \"waarschuwing\" en \"error\"-blokken. Het \"onderbreking\"-blok pauzeert het project wanneer uitgevoerd. Alle uitvoerende threads kan je zien in het \"Threads\"-venster van de debugger, en wanneer gepauzeerd kan de \"Stap\"-knop gebruikt worden om het volgende blok uit te voeren. Een grafiek van frames per seconde en aantal klonen kun je zien in het \"Prestaties\"-venster.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -403,8 +403,8 @@
 	},
 	{
 		"id": "default-project",
-		"name": "Konfiguruj domyślny projekt ",
-		"description": "Zmień domyślny projekt ze Scratch Cat na dowolny istniejący projekt.",
+		"name": "Aanpasbare standaardproject",
+		"description": "Verander het standaardproject met de Scratch-Kat naar een bestaand project.",
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -412,8 +412,8 @@
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "Wyłącz automatyczne zapisywanie",
-		"description": "Wyłącza opcje automatycznego zapisywania podczas tworzenia projektu.",
+		"name": "Niet automatisch opslaan",
+		"description": "Zorgt ervoor dat projecten niet automatisch opslaan terwijl je bewerkt.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -424,15 +424,15 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "Nie przesuwaj wklejonych obiektów.",
-		"description": "Wklej skopiowane kostiumy w jej oryginalnej pozycji, zamiast je delikatnie przesuwać.",
+		"name": "Geplakte items niet verplaatsen",
+		"description": "Plak gekopieerde items op hun originele plek in plaats van een beetje verplaatst in de uiterlijkeditor.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Wyłącz chybotanie duszków w panelu duszków",
-		"description": "Włącz możliwość przenoszenia kodu, kostiumów i dźwięków do innych duszków bez konieczności przenoszenia całych duszków.",
+		"name": "Laat sprites niet bewegen in spritevenster",
+		"description": "Laat scripts, uiterlijken, en geluiden verplaatsen naar andere sprites zonder dat de sprites rondbewegen in het spritevenster.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -441,8 +441,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "Blokada przesuwania duszków w edytorze",
-		"description": "Usuwa możliwość przeciągania duszków w trybie edycji, z wyjątkiem tych których tryb jest ustawiony na \"Przeciągalne\".",
+		"name": "Niet-sleepbare sprites in editor",
+		"description": "Maakt het niet meer mogelijk om sprites rond te slepen in de editor, behalve diegene die ingesteld zijn als sleepbaar.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -454,34 +454,34 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "Konfigurowalny pasek nawigacyjny ",
-		"description": "Wybierz listę przycisków wyświetlanych w pasku nawigacji.",
+		"name": "Aanpasbare navigatiebalk",
+		"description": "Kies een lijst van links om te laten zien in de navigatiebalk.",
 		"tags": ["community", "featured"]
 	},
 	{
 		"id": "drag-drop",
-		"name": "Przeciągnij i upuść pliki",
-		"description": "Pozwala przesuwać obrazy i dźwięki z Twojego managera plików do miejsca docelowego jak: lista duszków/kostiumów/dźwięków. W dodatku możesz przesuwać pliki tekstowe do pola \"Zapytaj i czekaj.\"",
+		"name": "Bestand slepen en neerzetten",
+		"description": "Laat je afbeeldingen en geluiden slepen van je bestandsverkenner in het spritevenster of kostuum-/geluidlijst. Je kunt ook tekstbestanden naar lijsten of naar \"vraag en wacht\"-invoeren slepen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
 		"id": "echo-effect",
-		"name": "Przycisk efektu echa",
-		"description": "Przywraca przycisk Echo w edytorze dźwięku.",
+		"name": "Echo-effectknop",
+		"description": "Brengt de Echoknop terug in de geluidseditor.",
 		"tags": ["editor"]
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "Kolorowe menu kontekstowe",
-		"description": "Tworzy kolorowe menu kontekstowe, klikając prawym przyciskiem myszy na blok.",
+		"name": "Gekleurde rechterklikmenu's",
+		"description": "Geeft rechterklikmenu's van blokken een kleur.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Podgląd komentarzy w edytorze",
-		"description": "Pozwala podejrzeć zawartość komentarza najeżdżając na połączone bloki. Możesz zobaczyć komentarze, które zachodzą za ekran. Dodatkowo możesz zmieścić duże komentarze w małej przestrzeni orazwięcej!",
+		"name": "Editoropmerkingvoorbeelden",
+		"description": "Geeft je de mogelijkheid om de inhoud van opmerkingen te zien door je muisaanwijzer over samengeklapte opmerkingen en blokken te zetten. Hiermee kun je opmerkingen zien die van het scherm af zijn, herhalingsblokken te onderscheiden vanaf de onderkant door zijn voorbeeld, veel grote opmerkingen in een kleine plek passen, en meer.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -493,8 +493,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Ciemny tryb edytora i konfigurowalne kolory",
-		"description": "Dostosuj kolory używane przez edytor projektów. Dostępnych jest wiele ciemnych motywów różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić domyślne kolory, możesz wybrać ustawienie \"domyślne kolory Scratcha” i dostosować je.",
+		"name": "Editor-donkere modus en aanpasbare kleuren",
+		"description": "Pas de kleuren van de project-editor aan. Je kunt kiezen tussen meerdere donkere thema's door verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer de \"Scratch-standaardkleuren\"-voorinstelling en verander het.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -525,15 +525,15 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "Narzędzia Developerskie",
-		"description": "Dodaje pole wyszukiwania i kilka nowych opcji w menu edytora jak: kopiuj/wklej bloki, lepsze sprzątanie bloków, przejdź do definicji bloku i więcej!",
+		"name": "Ontwikkelaarstools",
+		"description": "Voegt een zoekbalk en nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, betere opruimer, naar blokdefinitie springen, en meer!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Obsługa dodatkowych klawiszy",
-		"description": "Dodaje więcej  obsługiwanych przycisków do bloku \"Klawisz () został naciśnięty?\" i \"Gdy klawisz () zostanie kliknięty\", m.in. \"enter\", \"kropka\", \"przecinek\" i więcej.",
+		"name": "Extra toetsondersteuning",
+		"description": "Voegt meer toetsen toe aan de \"toets () ingedrukt?\" en \"wanneer () is ingedrukt\" blokdropdowns, zoals enter, punt, komma, en meer.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
 			{
@@ -544,42 +544,42 @@
 	},
 	{
 		"id": "editor-messages",
-		"name": "Wiadomości w edytorze",
-		"description": "Wyświetla ilość wysłanych wiadomości w Menu Edytora.",
+		"name": "Berichten in editor",
+		"description": "Laat je berichtenteller in de editortaakbalk zien.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Możliwość szukania w liście",
-		"description": "Umożliwia wyszukiwanie zawartości list rozwijanych należących do bloków. ",
+		"name": "Doorzoekbare dropdowns",
+		"description": "Geeft je de mogelijkheid om blok-dropdownitems te zoeken.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-sounds",
-		"name": "Efekty dźwiękowe edytora",
-		"description": "Pusza efekty dźwiękowe kiedy połączysz lub rozłączysz bloki.",
+		"name": "Editor-geluidseffecten",
+		"description": "Speelt geluiden af wanneer je blokken verbindt of verwijdert.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Wyświetl scenę po lewej stronie",
-		"description": "Przesuwa scenę na lewą stronę edytora.",
+		"name": "Zet speelveld aan linkerkant",
+		"description": "Zet het speelveld aan de linkerkant van de editor.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
-		"name": "Obramowanie wykonujących się bloków",
-		"description": "Dodaje kolorowe podkreślenie do bloków, których kod wykonuje się w danym momencie.",
+		"name": "Rand om uitvoerende blokken",
+		"description": "Voegt een gekleurde markering toe aan de blokken die op dit moment worden uitgevoerd in een project.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Niestandardowe kolory bloków",
-		"description": "Edytuj kolory bloków dla każdej kategorii w edytorze.",
+		"name": "Aanpasbare blokkleuren",
+		"description": "Pas blokkleuren aan voor elke categorie in de editor.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -591,8 +591,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Przycisk cofnięcia udostępniania w edytorze",
-		"description": "Zastępuje przycisk „Udostępnione” obok pola tytułu projektu, przyciskiem do anulowania udostępniania projektu. ",
+		"name": "Stoppen met delen-knop in editor",
+		"description": "Vervangt de \"Gedeeld\"-knop naast de projecttitel met een knop om te stoppen met delen.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -600,15 +600,15 @@
 	},
 	{
 		"id": "emoji-picker",
-		"name": "Miejsce wyboru emotek dla komentarzy",
-		"description": "Dodaje przycisk do wstawiania emotki do komentarzy",
+		"name": "Emoji-kiezer voor opmerkingen",
+		"description": "Voegt een knop toe om emoji's in je opmerkingen te zetten op de website.",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "exact-count",
-		"name": "Pokaż dokładną liczbę",
-		"description": "Pokazuje dokładną liczbę informacji o użytkowniku i studiu. Używa ScratchDB do informacji na forach.",
+		"name": "Exacte tellers",
+		"description": "Laat de exacte tellers voor gebruikers- en studio-informatie zien. Gebruikt ScratchDB voor foruminformatie.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -621,15 +621,15 @@
 	},
 	{
 		"id": "expanding-search-bar",
-		"name": "Rozwijany pasek wyszukiwania",
-		"description": "Zamienia pasek wyszukiwania na szerszy, gdy na niego klikniesz.",
+		"name": "Uitrekkende zoekbalk",
+		"description": "Maakt de zoekbalk in de navigatiebalk groter wanneer je het selecteert.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
 	{
 		"id": "feature-unshared",
-		"name": "Udostępniaj niewspółdzielone projekty",
-		"description": "Umożliwia wybór niewspółdzielonych projektów po kliknięciu opcji „zmień polecany projekt” w swoim profilu.",
+		"name": "Licht niet-gedeelde projecten uit",
+		"description": "Laat je niet-gedeelde projecten kiezen in \"verander uitgelicht project\" in je profiel.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -640,8 +640,8 @@
 	},
 	{
 		"id": "fix-editor-comments",
-		"name": "Lepszy edytor komentarzy",
-		"description": "Wprowadza liczne zmiany w komentarzach w edytorze Scratch: naprawia błąd, w którym komentarze dołączone do bloków nie zapisują poprawnie swoich pozycji po przeciągnięciu, zapobiega pojawianiu się komentarzy poza ekranem w dużych skryptach oraz utrzymuje proste połączenia z komentarzami i wiele więcej. ",
+		"name": "Betere editoropmerkingen",
+		"description": "Verandert een paar dingen aan opmerkingen in de editor: lost een bug op waarbij opmerkingen verbonden aan blokken hun positie niet goed opslaan na het slepen, voorkomt dat opmerkingen van het scherm af gaan bij grote scripts, houdt de verbinding tussen blokken en opmerkingen recht, en meer.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
@@ -653,8 +653,8 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "Nie uruchamiaj automatycznie zduplikowanych bloków",
-		"description": "Naprawia błąd w Edytorze Scratch, kiedy kopiowanie bloku i przyczepianie go do kodu wywołuje ten skrypt.",
+		"name": "Voer gekopieerde blokken niet automatisch uit",
+		"description": "Lost een bug in de Scratcheditor op die een script uitvoert als je er gekopieerde blokken in plaatst.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -664,35 +664,35 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "Naprawienie wgrywania plików SVG",
-		"description": "Naprawia błąd w Edytorze Kostiumów powodujący, że pliki SVG są czasami zepsute.",
+		"name": "SVG-uploads oplossen",
+		"description": "Lost een bug in de Scratcheditor op die geüploade SVG-bestanden gemaakt met enkele afbeeldingeditors, zoals Affinity Designer, kapotmaakt.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "folders",
-		"name": "Foldery duszków",
-		"description": "Dodaje foldery do listy duszków, tak samo do listy kostiumów i dźwięków. Aby stworzyć folder kliknij prawym klawiszem i wybierz funkcję \"Stwórz folder\". Kliknij na folder aby go otworzyć bądź zamknąć. Kliknij prawy przyciskiem na duszka, aby zobaczyć jakie foldery zawiera. Alternatywnie możesz przesunąć i upuścić folder do innego duszka.",
+		"name": "Spritemappen",
+		"description": "Voegt mappen toe aan het spritevenster, en ook kostuum- en geluidlijsten. Om een map aan te maken, gebruik de rechtermuisknop op een sprite en klik op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Przycisk \"Kopiuj Kod\" w fragmentach kodu na forach",
-		"description": "Dodaje przycisk \"kopiuj kod\" w miejscach z kodem, który kopiuje jego zawartość do schowka.",
+		"name": "Kopieer Code-knop op forums",
+		"description": "Voegt een \"code kopiëren\"-knop toe boven code-velden in forumposts dat de inhoud kopieert naar het klembord.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
 	{
 		"id": "forum-id",
-		"name": "Cytuj numer posta",
-		"description": "Kliknij przycisk „cytuj numer posta”, aby w odpowiedzi umieścić link do posta. ",
+		"name": "Post-nummer citeren",
+		"description": "Klik op de \"post-nummer citeren\"-knop om een link naar de post bij te voegen in je antwoord.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
 		"id": "forum-live-preview",
-		"name": "Automatyczny podgląd wiadomości na forach",
-		"description": "Automatycznie pokazuje podgląd kiedy przestajesz klikać klawisze w trakcie pisania nowego komentarza, lub edytowania obecnego.",
+		"name": "Live forumpostvoorbeeld",
+		"description": "Laat automatisch een voorbeeld zien wanneer je stopt met typen tijdens het schrijven of bewerken van een forumpost.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -703,8 +703,8 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Dostosuj cytaty i bloki kodu na forach",
-		"description": "Pokazuje ładniejszy kod i bloki w cytatach na forach.",
+		"name": "Aanpasbare citaties en codeblokken op forums",
+		"description": "Laat fijnere code- en citatieblokken zien op de forums.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
@@ -713,21 +713,21 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "Szukaj na forum",
-		"description": "Dodaje posty do pasku wyszukiwania. Używa ScratchDB do informacji.",
+		"name": "Forums Doorzoeken",
+		"description": "Voegt een zoekbalk toe aan de forums. Gebruikt ScratchDB voor informatie.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Lokalna strefa czasowa na forum",
-		"description": "Używa Twojej lokalnej strefy czasowej, aby wyświetlać daty na forach.",
+		"name": "Lokale tijdzone op forums",
+		"description": "Gebruikt je lokale tijdzone voor het weergeven van postdatums en -tijden op de forums.",
 		"tags": ["forums", "community"]
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "Więcej przycisków na pasku narzędzi forum ",
-		"description": "Dodaje przycisk w edytorze forum, aby dodawać tagi kodu BBCode jak: [center] i [color].",
+		"name": "Meer forum-taakbalkknoppen",
+		"description": "Voegt knoppen in de forumeditor-taakbalk om BBCode in te voegen, zoals [center] of [color].",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -740,8 +740,8 @@
 	},
 	{
 		"id": "full-signature",
-		"name": "Pełne Obszary",
-		"description": "Pojawia pełną zawartość obszarów z limitowaną wysokością jak: podpisy użytkowników o \"Co robiłem?\", dając możliwość przewijania ich zawartości.",
+		"name": "Volledige gebieden",
+		"description": "Laat de volledige inhoud van gebieden met gelimiteerde hoogte zien, zoals handtekeningen op de forums en Wat ik heb gedaan op profielen, door ze vergrootbaar of scrollbaar te maken.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -755,8 +755,8 @@
 	},
 	{
 		"id": "fullscreen",
-		"name": "Ulepszony pełny ekran",
-		"description": "Naprawia niektóre niepożądane efekty w trybie pełnoekranowym odtwarzacza projektu. Otwiera go w trybie pełnoekranowym przeglądarki oraz ukrywa pasek z zieloną flagą.",
+		"name": "Verbeterd volledig scherm",
+		"description": "Lost een paar ongewenste dingen op in de volledig scherm-modus van de projectspeler, opent het in je browser's volledig scherm-modus, en verbergt de werkbalk met de groene vlag.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -764,15 +764,15 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "Wsparcie dla padów",
-		"description": "Interakcja z projektami za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
+		"name": "Gamepad-ondersteuning",
+		"description": "Gebruik projecten met een USB- of Bluetooth-controller/gamepad",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "Wysokiej jakości miniaturki",
-		"description": "Zastępuje miniatury w witrynie obrazami o wyższej rozdzielczości. Przydatne w przypadku wyświetlaczy Retina (o dużej gęstości pikseli) i przeglądania przy powiększeniu większym niż 100%. ",
+		"name": "Hoge-resolutie thumbnails",
+		"description": "Vervangt alle thumbnails met hogere-resolutie afbeeldingen. Handig voor Retina (high pixel density)-weergaven en browsen met een zoom groter dan 100%.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -780,14 +780,14 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "Ukryj przycisk usuwania",
-		"description": "Ukrywa przycisk usuwania (ikonę kosza na śmieci) przed duszkami, kostiumami i dźwiękami. Nadal można je usunąć za pomocą prawego przycisku myszy.",
+		"name": "Verwijderknop verbergen",
+		"description": "Verbergt de verwijderknop (afvalbakpictogram) in sprites, uiterlijken en geluiden. Ze kunnen nog steeds worden verwijderd in het rechterklikmenu.",
 		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Automatycznie chowająca się lista bloków",
-		"description": "Ukrywa paletę bloków, jeśli nie jest najechana. Kliknij ikonę kłódki, aby tymczasowo zablokować ją na miejscu. Możesz też użyć trybu „kliknięcie kategorii”.",
+		"name": "Blokpalet automatisch verbergen",
+		"description": "Verbergt het blokpalet als niet gefocust. Klik op het sloticoon om het tijdelijk vast te zetten. Gebruik de \"categorie-klik\"-modus als alternatief.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -798,15 +798,15 @@
 	},
 	{
 		"id": "hide-new-variables",
-		"name": "Ukryj nowo stworzone zmienne",
-		"description": "Po stworzeniu listy lub zmiennej nie pokazuj jej podglądu.",
+		"name": "Nieuwe variabelen verbergen",
+		"description": "Geen monitors maken voor nieuwe variabelen of lijsten.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "Ukrywa statystyki projektów",
-		"description": "Pozwala ukryć liczniki polubień, pokochań, remiksów i wyświetleń na stronie głównej i stronach projektów.",
+		"name": "Projectstatistieken verbergen ",
+		"description": "Laat je de hartjes-, sterren-, remix- en weergaventellers verbergen in de homepagina en projectpagina's.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -814,8 +814,8 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Ukryj podpisy na forach",
-		"description": "Ukrywa podpisy na forach oraz dodaje przyciski na pokazanie ich.",
+		"name": "Handtekeningen verbergen op forums",
+		"description": "Verbergt handtekeningen in forumposts en voegt een \"Handtekening tonen\"-knop toe.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -823,8 +823,8 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Poziome zakładki w Moich Rzeczach",
-		"description": "Przesuwa przyciski \"Moje Rzeczy\" (\"Wszystkie Projekty\", \"Moje Studia\", \"Kosz\") na górę strony, zamiast zostawić je na lewej stronie ekranu.",
+		"name": "Horizontale tabbladen in Mijn Projecten",
+		"description": "Verplaatst de Mijn Projecten-navigatieknoppen (\"Alle Projecten\", \"Mijn Studio's\", \"Prullenbak\") naar bovenaan de pagina, in plaats van links.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -835,22 +835,22 @@
 	},
 	{
 		"id": "image-uploader",
-		"name": "Przesyłanie obrazów na forach",
-		"description": "Dodaje przycisk do bezpośredniego publikowania i wklejania obrazów na forach.",
+		"name": "Forumafbeeldinguploader",
+		"description": "Voegt een knop toe om direct afbeeldingen te uploaden en invoegen in forumposts.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "infinite-scroll",
-		"name": "Nieskończone przewijanie",
-		"description": "Pozwala przewijać różne części strony, bez konieczności klikania przycisku \"Załaduj więcej\".",
+		"name": "Oneindig scrollen",
+		"description": "Laat je scrollen op verschillende delen van de site zonder te hoeven klikken op \"meer laden\".",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Dowolna pozycja nowych duszków",
-		"description": "Zmień domyślną pozycję x i y nowych duszków.",
+		"name": "Aanpasbare nieuwe sprite-positie",
+		"description": "Verander de standaard x/y-positie van nieuwe sprites.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -861,8 +861,8 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "Więcej przedmiotów w rzędzie ",
-		"description": "Pozwala zmienić liczbę elementów wyświetlanych w jednym wierszu projektów, studiów lub użytkowników. ",
+		"name": "Meer items per rij",
+		"description": "Laat je het aantal items in een enkele rij van projecten, studio's of gebruikers aanpassen.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -873,8 +873,8 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Etykietka dat udostępnienia/edycji",
-		"description": "Najedź na projekt, aby zobaczyć datę kiedy ostatni raz został skopiowany lub zedytowany.",
+		"name": "Deel-/wijzigingsdatums-info",
+		"description": "Plaats je muisaanwijzer over de deeldatum van een project voor exacte informatie over wanneer het gedeeld en voor het laatst gewijzigd is.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -886,8 +886,8 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "Automatyczny polecany projekt",
-		"description": "Pokazuje interaktywny ulubiony projekt, bezpośrednio z profilu użytkownika. Opiera się na implementacji z Mega Scratch Usersrcipt.",
+		"name": "Live uitgelicht project",
+		"description": "Laat een interactieve uitgelicht project zien, direct van het profiel van de gebruiker. Gebaseerd op de implementatie in Mega Scratch Userscript.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -901,14 +901,14 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Automatycznie dodaj rozszerzenia Scratch",
-		"description": "Automatycznie pokazuje muzykę, pióro i inne rozszerzenia w liście kategorii menu w edytorze.",
+		"name": "Extensies automatisch toevoegen",
+		"description": "Laat muziek, pen, en andere extensies automatisch zien in de blokcategoriemenu in de editor.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Większy limit znaków w polu \"Na czym pracuję\"",
-		"description": "Pozwala ci napisać o 55 więcej znaków w polu \"Na czym pracuję\" w twoim profilu. Wszyscy na Scratch będą widzieć dodatkowe znaki.",
+		"name": "Hogere tekenlimiet in \"Waar Ik Mee Bezig Ben\"",
+		"description": "Laat je 55 meer tekens typen in je profiel's \"Waar Ik Mee Bezig Ben\". Iedereen op Scratch kan de extra tekens zien.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
@@ -916,8 +916,8 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Lepsze przyciski edytora postów na forum ",
-		"description": "Zmienia ikony przycisków w edytorze postów na forum z pikselowanych map bitowych na ikony materiałów.",
+		"name": "Betere forumpost-editorknoppen",
+		"description": "Verandert de pictogrammen voor knoppen in de forumposteditor van bitmaps naar Materiële pictogrammen.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -934,14 +934,14 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "Nagrywanie Video z projektu",
-		"description": "Dodaje przycisk \"Włącz nagrywania\" w panelu pozwalający nagrać scenę.",
+		"name": "Projectvideo-opnemer",
+		"description": "Voegt een \"opname starten\"-knop aan de editortaakbalk toe die je het speelveld laat opnemen.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
-		"name": "Filtr wiadomości",
-		"description": "Pozwala wybrać filtry dla typów wiadomości, które mają być ukrywane lub pokazywane na stronie wiadomości Scratch'a. ",
+		"name": "Berichtfilters",
+		"description": "Laat je filters selecteren voor soorten berichten om wel of niet te laten zien op Scratch's berichtenpagina.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -952,28 +952,28 @@
 	},
 	{
 		"id": "more-links",
-		"name": "Więcej linków",
-		"description": "Dodaje linki do adresów URL wychodzących poza scratch.mit.edu.",
+		"name": "Meer links",
+		"description": "Maakt links voor URL's die niet naar scratch.mit.edu verwijzen klikbaar.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Pozycja kursora",
-		"description": "Wyświetla pozycję x/y twojej myszy nad sceną w edytorze.",
+		"name": "Muispositie",
+		"description": "Laat de x/y-posities van je muisaanwijzer zien boven het speelveld in de editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "move-to-top-bottom",
-		"name": "Przenieś kostium do góry albo dołu",
-		"description": "Dodaje przycisk, aby przesunąć kostium lub dźwięk na górę lub na dół listy. Wcześniej część narzędzi developerskich. ",
+		"name": "Verplaats uiterlijk naar boven of beneden",
+		"description": "Voegt een optie toe in het rechterklikmenu om een uiterlijk of geluid naar boven of beneden te sturen in de lijst. Hoorde eerst bij de ontwikkelaarstools.",
 		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "Ilość wiadomości na ikonie rozszerzenia",
-		"description": "Dodaje aktualną liczbę wiadomości do ikony Scratch Addons.",
+		"name": "Berichtenteller op extensie-icoon",
+		"description": "Laat je berichtenaantal zien in de Scratch Addons-icoon.",
 		"tags": ["popup", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -986,8 +986,8 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Wycisz projekt",
-		"description": "Kliknij trzymając Ctr na zieloną flagę, żeby wyciszyć/od-ciszyć projekt.",
+		"name": "Gedempte projectspeler",
+		"description": "Ctrl+Klik de groene vlag om het project te dempen/dempen opheffen.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -998,29 +998,29 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "Interakcja z Ocular",
-		"description": "Pokaż statusy i interakcje w postach na forach. Używa my-ocular.jeffalo.net do zapisywania danych.",
+		"name": "ocular-integratie",
+		"description": "Laat ocular-statussen en forumpostopmerkingen zien. Gebruikt my-ocular.jeffalo.net om gegevens te krijgen.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Nazywaj skrypty przed wsadzeniem do plecaka",
-		"description": "Prosi o nazwanie skryptów po przeciągnięciu ich do plecaka, zamiast używania domyślnej nazwy „kod”.",
+		"name": "Geef scripts een naam voordat je ze in de rugzak doet",
+		"description": "Vraagt je om scripts een naam te geven nadat je ze in je rugzak sleept, in plaats van de standaard naam \"code\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "no-script-bumping",
-		"name": "Wyłącz automatyczne przesuwanie nakładających się skryptów",
-		"description": "Pozwala skryptom być przesuwanym lub edytowanym, bez zasłaniania innego kodu w okolicy.",
+		"name": "Overlappende scripts niet automatisch verplaatsen",
+		"description": "Laat je je scripts bewegen en veranderen zonder overlappende scripts te laten bewegen.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Stary wygląd studia",
-		"description": "Przywraca układ strony studia z powrotem poprzednio dostępnego jako część dodatku Scratch 2.0 → 3.0. ",
+		"name": "Oude studiolay-out",
+		"description": "Draait de lay-out van de studiopagina terug naar die van voor de studio-update of naar die eerst beschikbaar was in de Scratch 2.0 → 3.0-addon.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -1031,36 +1031,36 @@
 	},
 	{
 		"id": "onion-skinning",
-		"name": "Onion skinning",
-		"description": "Pokazuje przezroczyste nakładki poprzednich lub następnych kostiumów podczas edycji kostiumu. Aby zmienić klatkę kliknij w przyciski pod ikonami powiększania kostiumu. Służy do łatwego tworzenia animacji.",
+		"name": "\"Onion skinning\"",
+		"description": "Laat doorzichtige lagen van vorige of volgende uiterlijken zien bij het bewerken van uiterlijken. Bestuurd door knoppen onder de uiterlijkeditor bij de zoomknoppen.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Domyślnie koloruj kostium",
-		"description": "Zmienia domyślną akcję przycisków „Wybierz duszka/kostium/tło/dźwięk”, które domyślnie otwierają bibliotekę. ",
+		"name": "Standaard sprite tekenen",
+		"description": "Verandert de standaardactie van de \"Kies een Sprite/Uiterlijk/Achtergrond/Geluid\"-knoppen, die normaal de bibliotheek openen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "pause",
-		"name": "Przycisk pauzy",
-		"description": "Dodaje przycisk pauzy obok zielonej flagi",
+		"name": "Pauzeerknop",
+		"description": "Voegt een pauzeerknop toe naast de groene vlag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
-		"name": "Pasek postępu projektu",
-		"description": "Dodaje pasek postępu do wczytywania i zapisywania projektów.",
+		"name": "Projectlaadbalk",
+		"description": "Voegt een laadbalk voor het laden en bewaren van projecten.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "project-info",
-		"name": "Liczba duszków i skryptów",
-		"description": "Pokazuje liczbę duszków i kodu obok przycisku \"Remiksuj\".",
+		"name": "Sprite- en scriptteller",
+		"description": "Laat je het aantal sprites en scripts van een project zien naast de Remixknop.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1071,8 +1071,8 @@
 	},
 	{
 		"id": "project-notes-tabs",
-		"name": "Komentarze zakładek projektu",
-		"description": "Tworzy na stronie projektu zakładki dla sekcji „Instrukcje” i „Uwagi i podziękowania”.",
+		"name": "Projectopmerkingen-tabbladen",
+		"description": "Maakt tabbladen op een projectpagina voor de \"Instructies\" en de \"Opmerkingen en credits\"-secties.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1083,8 +1083,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums",
-		"name": "Przenosi do standardowych forów.",
-		"description": "Przekierowuje do standardowych (\"głównych\") forów po kliknięciu linku do forów mobilnych. ",
+		"name": "Omleiden naar standaardforums",
+		"description": "Leidt je om naar de standaard (\"hoofd\")-forums wanneer je klikt op een link naar de mobiele forums.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -1092,8 +1092,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Przycisk remixu na własnych projektach",
-		"description": "Dodaje przycisk remixu do twoich projektów",
+		"name": "Remixknop in eigen projecten",
+		"description": "Plaatst de Remixknop in je eigen projecten.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -1101,15 +1101,15 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Przycisk drzewka remixów",
-		"description": "Przenosi Cię do projektu z którego skopiowano projekt. Przycisk znajduje się obok przycisku \"Skopiuj Link\"",
+		"name": "Hergebruikboomknop",
+		"description": "Brengt de hergebruikboomknop terug op project-pagina's, naast de Kopieer link-knop.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Usuwa zaokrąglone krawędzie podglądu projektu",
-		"description": "Usuwa zaokrąglone krawędzie sceny, i pozwala zobaczyć jej rogi.",
+		"name": "Ronde speelveldrand verwijderen",
+		"description": "Verwijdert de ronde rand rond het speelveld zodat je de hoeken beter kunt zien.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{
@@ -1120,14 +1120,14 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "Potwierdzenie usunięcia duszka",
-		"description": "Upewnia się, czy na pewno chcesz usunąć duszka w projekcie.",
+		"name": "Sprite verwijderen bevestigen",
+		"description": "Vraagt of je zeker weet dat je een sprite in een project wilt verwijderen.",
 		"tags": ["editor", "recommended"]
 	},
 	{
 		"id": "resizable-comment-input",
-		"name": "Możliwość zmiany rozmiaru komentarzy",
-		"description": "Umożliwia zmianę rozmiaru pola wprowadzania komentarzy w pionie na stronach stylizowanych na Scratch 3.0.",
+		"name": "Vergrootbaar opmerkingsveld",
+		"description": "Maakt het opmerkingsveld verticaal vergrootbaar in Scratch 3.0-uitziende pagina's.",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [
 			{
@@ -1138,15 +1138,15 @@
 	},
 	{
 		"id": "scratch-messaging",
-		"name": "Wiadomości Scratch",
-		"description": "Dostępny po kliknięciu na ikonę dodatków Scratcha. Ułatwia czytanie i odpowiadanie na wiadomości w Scratchu: grupuje wiadomości według projektów, pokazuje pełny tekst komentarza i kontekst, pozwala na bezpośrednie odpowiadanie na komentarze.",
+		"name": "Scratchberichten",
+		"description": "Beschikbaar als je klikt op het Scratch Addons-icoon. Het laat je makkelijker je Scratchberichten lezen en erop antwoorden: groepeert berichten per project, laat volledige opmerking-tekst en -context zien, antwoord direct op opmerkingen.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Powiadomienia Scratch",
-		"description": "Powiadomienia o nowych wiadomościach na Scratchu. Kliknij powiadomienie, aby przejść bezpośrednio do wiadomości (komentarza, projektu itp.).",
+		"name": "Scratchberichtgever",
+		"description": "Notificaties bij nieuwe Scratchberichten. Klik op de notificatie om rechtstreeks naar het bericht te gaan (opmerking, project, enz.)",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1160,8 +1160,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Bloki Scratch 3.0 na forach",
-		"description": "Włącza nową wersję bloków na forach.",
+		"name": "3.0 Scratchblokken op forums",
+		"description": "Schakelt de nieuwe versie van scratchblokken in op de forums.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
@@ -1172,7 +1172,7 @@
 	{
 		"id": "scratchr2",
 		"name": "Scratch 2.0 → 3.0",
-		"description": "Powoduje że strony w stylu Scratch 2.0 wyglądają jak te z Scratch 3.0.",
+		"description": "Laat pagina's van Scratch 2.0 eruitzien als Scratch 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -1183,8 +1183,8 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "Statystyki profili",
-		"description": "Pokazuje  statystyki z ScratchDB na profilach użytkowników",
+		"name": "Profielstatistieken",
+		"description": "Laat statistieken van ScratchDB zien op gebruikersprofielen.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -1195,8 +1195,8 @@
 	},
 	{
 		"id": "script-snap",
-		"name": "Przyczep fragmenty kodu do wirtualnej siatki",
-		"description": "Po przesunięciu kodu, zostanie on \"przyczepiony\" do kropek tła w edytorze.",
+		"name": "Scripts uitlijnen op raster",
+		"description": "Sleep een script om zijn positie automatisch uit te lijnen op de codegebied-stippen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
@@ -1212,8 +1212,8 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Pasek wyszukiwania w \"moich rzeczach\"",
-		"description": "Umożliwia przeszukiwanie projektów, studiów i kosza na stronie \"Moje rzeczy\". Po prostu zacznij wpisywać tekst w dowolnym miejscu na stronie, aby rozpocząć wyszukiwanie. Po zakończeniu wyszukiwania można także użyć kombinacji klawiszy Ctrl+Enter, aby szybko otworzyć górny wynik wyszukiwania.",
+		"name": "Zoekbalk op Mijn Projecten",
+		"description": "Laat je je projecten, studios en weggegooide projecten zoeken op de Mijn Projecten-pagina. Start ergens op de pagina met typen om te zoeken. Je kunt ook Ctrl+Enter gebruiken na het zoeken om snel het eerste resultaat te openen.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1224,15 +1224,15 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Szukaj profilu",
-		"description": "Pozwala ci wejść na profil użytkownika kiedy wyszukasz jego nazwę użytkownika",
+		"name": "Profiel zoeken",
+		"description": "Laat je een gebruikers' profiel zien wanneer je hun gebruikersnaam opzoekt.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
 	},
 	{
 		"id": "search-sprites",
-		"name": "Szukaj duszków po nazwie...",
-		"description": "Dodaje pole wyszukiwania w liście duszków do szukania ich po nazwie.",
+		"name": "Sprites bij naam zoeken",
+		"description": "Voegt een zoekbalk aan het spritevenster toe om sprites bij naam te zoeken.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1244,15 +1244,15 @@
 	},
 	{
 		"id": "semicolon",
-		"name": "Błąd średnika",
-		"description": "Dodaje usterkę średnika z powrotem do Scratch. ",
+		"name": "Puntkomma-glitch",
+		"description": "Brengt de puntkomma-glitch terug in Scratch.",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }]
 	},
 	{
 		"id": "show-bbcode",
-		"name": "Przycisk źródła kodu BBCode",
-		"description": "Dodaje przycisk do forów, który pokazuje źródło BBCode postu.",
+		"name": "BBCode bron-knop",
+		"description": "Voegt een knop toe aan de forums die de BBCode bron van een post laat zien.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1263,8 +1263,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Przycisk \"wyszukaj obserwujących\" w studiach",
-		"description": "Dodaje przycisk na górze zakładki \"Kuratorzy\". Na tej liście najdziesz obserwujących użytkowników. Dodatkowo możesz za pomocą tego menu zaprosić osoby jednym kliknięciem!",
+		"name": "Knop voor volgers browsen in studios",
+		"description": "Voegt een knop toe boven het \"beheerders\"-venster in studios die je beheert, die een lijst geeft van je volgers en wie je zelf volgt en laat je iemand uitnodigen met een enkele klik.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
@@ -1273,8 +1273,8 @@
 	},
 	{
 		"id": "studio-tools",
-		"name": "Narzędzia studia",
-		"description": "Pozwól managerom łatwo promować kuratorów na managerów albo usuwać kogokolwiek z studio w zakładce \"kuratorzy\". Także dodaj możliwość opuszczenia studia pod przyciskiem \"Obserwuj\"",
+		"name": "Studiotools",
+		"description": "Laat managers gemakkelijk beheerders verhogen tot managers of iemand van een studio verwijderen op het \"beheerders\"-tabblad, en laat je zelf een studio verlaten met een knop onder \"Volg Studio\".",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1286,15 +1286,15 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Przełącz zmienną między ustawieniami \"Dla wszystkich duszków\" lub \"Tylko dla tego duszka\"",
-		"description": "Dodaje więcej opcji w czasie zmieniania nazwy zmiennej lub listy. Możesz zmienić czy dana zmienna jest dla \"Wszystkich duszków\" lub \"Tylko dla tego duszka\" oraz czy jest zapisywana w chmurze.",
+		"name": "Wissel variabelen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\"",
+		"description": "Geeft meer opties voor het hernoemen van variabelen of lijsten: laat je kiezen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\" en of variabelen voor de cloud moeten zijn. Voegt ook een optie toe voor rechterklikken op een variabele/lijst om snel zijn type te veranderen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "Przezroczystość bloku",
-		"description": "Dostosuj przezroczystość bloków w edytorze, korzystając z osobnych opcji dla bloków odłączonych i bloków przeciąganych.",
+		"name": "Blokdoorzichtigheid",
+		"description": "Pas de doorzichtigheid aan voor blokken in de editor, met aparte opties voor losse blokken (blokken zonder gebeurtenis-blokken erboven) en blokken die worden gesleept.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -1306,15 +1306,15 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "Fora z prawdziwymi linkami do YouTube",
-		"description": "Zastępuje linki do osadzonej witryny prawdziwymi linkami do YouTube.",
+		"name": "Echte forums-YouTube links",
+		"description": "Vervangt links naar de ingesloten site met echte YouTube links",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "Przycisk TurboWarp",
-		"description": "Dodaje przycisk na stronach projektu do odtwarzania danego projektu w TurboWarp.org.",
+		"name": "TurboWarp-knop",
+		"description": "Voegt een knop op projectpagina's toe om het project in TurboWarp.org uit te voeren.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1325,8 +1325,8 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "Ukryj przycisk Samouczków",
-		"description": "Ukrywa przycisk Samouczków na pasku menu edytora.",
+		"name": "Lessen-knop Verbergen",
+		"description": "Verbergt de Lessen-knop in de menubalk van de editor.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1337,8 +1337,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Pokaż ID użytkownika",
-		"description": "Dodaje ID użytkownika obok nazwy użytkownika na górze strony profilu.",
+		"name": "Gebruikers-ID's tonen",
+		"description": "Laat de gebruikers-ID naast de gebruikersnaam zien bovenaan profielpagina's.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
@@ -1346,15 +1346,15 @@
 	},
 	{
 		"id": "variable-manager",
-		"name": "Menedżer zmiennych",
-		"description": "Dodaje zakładkę obok \"dźwięków\" w edytorze żeby łatwo aktualizować zmienne i listy",
+		"name": "Variabele manager",
+		"description": "Voegt een tabblad naast \"geluiden\" toe in de editor om makkelijk variabelen en lijsten aan te passen.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "youtube-fullscreen",
-		"name": "Pełny ekran YouTube",
-		"description": "Pozwala włączyć tryb pełno ekranowy w Filmach YouTube na stronie Scratch",
+		"name": "YouTube-volledig scherm",
+		"description": "Schakelt de volledig schermknop in de Scratch YouTube-videospeler in.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "Entradas no seletor de cores",
+		"description": "Permite definir um valor exato (0-100) para cada slider de seleção de cor no editor de fantasias.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "Seletor de cor hex",
 		"description": "Adiciona entradas para código hex à paleta de cores.",
@@ -376,7 +388,7 @@
 	{
 		"id": "debugger",
 		"name": "Depurador",
-		"description": "Adiciona uma nova janela de \"debug\" ao editor. Permite fazer registros à aba \"Logs\" da janela de debug usando os blocos \"log\", \"aviso\" e \"erro\". O bloco \"breakpoint\" pausará o projeto quando executado. Todas as threads em execução podem ser vistas na aba \"Threads\" do depurador, e, quando pausado, você pode usar o botão \"Step\" para executar o próximo bloco. Um gráfico de frames por segundo e número de clones pode ser visto na aba \"Performance\".",
+		"description": "Adiciona uma nova janela de \"depuração\" ao editor. Permite fazer registros à aba \"Registros\" da janela de debug usando os blocos \"log\", \"aviso\" e \"erro\". O bloco \"breakpoint\" pausará o projeto quando executado. Todas as threads em execução podem ser vistas na aba \"Linhas de execução\" do depurador, e, quando pausado, você pode usar o botão \"Avançar um passo\" para executar o próximo bloco. Um gráfico de frames por segundo e número de clones pode ser visto na aba \"Performance\".",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "Prévia de postagem no fórum em tempo real",
+		"description": "Mostra uma prévia da postagem que você está criando ou editando automaticamente quando você para de digitar.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Blocos de citação e código customizados nos fóruns",
 		"description": "Mostra blocos de código e citação mais bonitos nos fóruns.",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Abas horizontais nas Minhas Coisas",
+		"description": "Move as abas de navegação da página Minhas Coisas (\"Todos os Projetos\", \"Meus Estúdios\", \"Lixeira\") para o topo da página, ao invés de deixá-los na esquerda.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{

@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "Vnosna polja za izbiro barve",
+		"description": "Omogoči, da pri izbiranju barve v urejevalniku videzov za vsak drsnik nastavite točno vrednost (0-100).",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "Šestnajstiške barve",
 		"description": "Doda polje za vnos šestnajstiške kode, ko izbirate barvo.",
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "Samodejni predogled objave v forumih",
+		"description": "Ko med pisanjem ali urejanjem objave v forumih nehate tipkati, pokaže predogled.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Prilagoditev navedkov in kode v forumih",
 		"description": "Pokaže lepšo kodo in navedke v forumih.",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Vodoravni zavihki v Mojih stvareh",
+		"description": "Premakne gumbo za premikanje po Mojih stvareh (\"Vsi projekti\", \"Moji studii\", \"Smeti\") z leve strani na vrh.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{

@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "Saisies dans le sélecteur de couleur",
+		"description": "Permet de définir une valeur exacte (0-100) pour chaque curseur dans le sélecteur de couleur de l'éditeur de costumes.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "Palette de couleurs hexa",
 		"description": "Ajoute une entrée pour code hexa aux palettes de couleurs.",
@@ -299,8 +311,8 @@
 	},
 	{
 		"id": "custom-block-text",
-		"name": "Style de texte pour les blocs personnalisables",
-		"description": "Change l'épaisseur du texte des blocs et ajoute une ombre optionnelle.",
+		"name": "Style de texte des blocs personnalisés",
+		"description": "Change l'épaisseur du texte des blocs et y ajoute éventuellement une ombre.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -376,7 +388,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Ajoute une nouvelle fenêtre \"debugger\" à l'éditeur. Permet de se connecter à l'onglet \"Console\" de la fenêtre du débogueur à l'aide des blocs \"log\", \"warn\" et \"error\". Le bloc \"point d'arrêt\" mettra le projet en pause lors de son exécution. Tous les threads en cours d'exécution peuvent être visualisés dans l'onglet \"Threads\" du débugger, et lorsqu'il est en pause, le bouton \"Step\" peut être utilisé pour exécuter le bloc suivant. Un graphique des FPS et du nombre de clones peut être visualisé dans l'onglet \"Performance\".",
+		"description": "Ajoute une nouvelle fenêtre \"débogage\" à l'éditeur. Permet de se connecter à la \"console\" débogueur à l'aide des blocs \"log\", \"warn\" et \"erreur\". Le bloc \"point d'arrêt\" mettra le projet en pause lors de son exécution. Tous les processus en cours d'exécution peuvent être visualisés dans l'onglet \"processus\" du débogueur, et lorsqu'il est en pause, le bouton \"étape\" peut être utilisé pour exécuter le bloc suivant. Un graphique des \"FPS\" et du nombre de clones peut être visualisé dans l'onglet \"Performance\".",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "Aperçu instantané du message sur le forum",
+		"description": "Affiche automatiquement un aperçu du message sur les forums lorsque vous arrêtez d'écrire ou d'éditer votre post.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Citations et blocs de code personnalisables sur les forums",
 		"description": "Affiche du code et des citations de manière plus agréable sur les forums.",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Onglets horizontaux dans la page des projets",
+		"description": "Mettre les onglets (\"Tous les projets\", \"Mes studios\", \"Poubelle\") au début de la page Mes projets au lieu de les laisser sur la gauche",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -1196,7 +1232,7 @@
 	{
 		"id": "search-sprites",
 		"name": "Recherche de sprites par nom",
-		"description": "Ajoute un champ de recherche au tableau des sprites pour rechercher des sprites par nom.",
+		"description": "Ajoute un champ de recherche au volet des sprites pour les rechercher par nom.",
 		"tags": ["editor"],
 		"credits": [
 			{

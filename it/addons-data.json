@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "Parametri contagocce",
+		"description": "Permette di definire valori esatti (0-100) per ogni cursore del contagocce dell'editor di immagini.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "Selettore colore esadecimale",
 		"description": "Aggiunge la selezione del colore esadecimale alla selezione dei colori.",
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "Anteprima automatica dei post nei forum",
+		"description": "Mostra automaticamente un'anteprima se interrompi la digitazione mentre scrivi o modifichi un post nei forum. ",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Citazioni e blocchi di codice personalizzati nei forum",
 		"description": "Mostra blocchi e citazioni migliorati nei forum.",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Schede orizzontali nella pagina Le Mie Cose",
+		"description": "Sposta i pulsanti di navigazione della pagina Le Mie Cose (\"Tutti i Progetti\", \"Le mie Gallerie\", \"Cestino\") in cima alla pagina invece di mantenerli allineati a sinistra in verticale.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{

@@ -91,7 +91,7 @@
 	{
 		"id": "block-cherry-picking",
 		"name": "Вытаскивать отдельный блок с клавишей Ctrl",
-		"description": "Adds the ability to drag a single block out of the middle of a script (instead of the entire stack attached below it) while holding the Ctrl key.",
+		"description": "Позволяет перемещать один блок из середины скрипта (вместо всей стопки, прикреплённая снизу блока) с помощью зажатия клавиши Ctrl.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -181,6 +181,18 @@
 		"description": "Available when clicking the Scratch Addons icon. Shows you how many Scratchers are currently on multiplayer projects, and their usernames.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-inputs",
+		"name": "Color picker inputs",
+		"description": "Allows setting an exact value (0-100) for each slider in the costume editor color picker.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
 	},
 	{
 		"id": "color-picker",
@@ -579,8 +591,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Unshare button in editor",
-		"description": "Replaces the \"Shared\" button next to the project title box with a button to unshare the project.",
+		"name": "Кнопка «не делиться» в редакторе",
+		"description": "Заменяет кнопку «опубликовано» рядом с названием проекта на кнопку для того, чтобы больше не делиться проектом.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -665,17 +677,29 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Copy code button on forums",
+		"name": "Кнопка копирования кода на форумах",
 		"description": "Adds a \"copy code\" button above code boxes in forum posts that copies the contents into the clipboard.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
 	{
 		"id": "forum-id",
-		"name": "Quote post number",
-		"description": "Click the \"quote post number\" button to include a link to the post in your reply.",
+		"name": "Номер поста в цитатах",
+		"description": "Нажмите на кнопку «номер поста в цитатах», чтобы добавить ссылку на пост в Вашем ответе.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
+		"id": "forum-live-preview",
+		"name": "Предварительный просмотр постов на форумах в реальном времени",
+		"description": "Автоматически показывает предварительный просмотр, когда Вы больше не печатаете во время создания или редактирования поста на форумах.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -782,7 +806,7 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Скрыть статистику проекта",
-		"description": "Lets you hide love, favorite, remix and view counts in the front page and project pages.",
+		"description": "Позволяет Вам спрятать счётчик лайков, звёздочек, ремиксов и просмотров на главной странице и на страницах проекта.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Горизонтальные вкладки в моих работах",
+		"description": "Moves the My Stuff navigation buttons (\"All Projects\", \"My Studios\", \"Trash\") to the top of the page, instead of keeping them on the left.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -1056,8 +1092,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix button in own projects",
-		"description": "Adds the Remix button to your own projects.",
+		"name": "Кнопка ремикса в своих проектах",
+		"description": "Добавляет кнопку «Ремикс» в своих же проектах",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -1301,8 +1337,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Show user IDs",
-		"description": "Adds the user ID next to the username at the top of profile pages.",
+		"name": "Показывать id пользователей",
+		"description": "Добавляет id пользователя рядом с ником наверху страниц профилей.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }

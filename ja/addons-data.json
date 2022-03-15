@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "カラーピッカー入力",
+		"description": "コスチュームエディターのカラーピッカーのスライダーにて正確な値(0-100)を入力する。",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "16進数カラーピッカー",
 		"description": "16進数カラーコードの入力欄を追加する。",
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "フォーラム投稿のライブプレビュー",
+		"description": "フォーラム投稿を作成・編集するときに、自動的にプレビューを表示する。",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "フォーラム引用のカスタマイズ",
 		"description": "フォーラムの引用・コードをきれいにする。",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "私の作品のタブ水平整列",
+		"description": "私の作品のボタン(「全プロジェクト」、「私のスタジオ」、「ゴミ箱」)を画面上部に移動させる。",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{

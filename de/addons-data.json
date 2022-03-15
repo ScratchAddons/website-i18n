@@ -183,6 +183,18 @@
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
+		"id": "color-inputs",
+		"name": "Eingabefelder für Farbwähler",
+		"description": "Ermöglicht das Eingeben von Werten (0-100) für die Schieberegler im Farbwähler des Kostümeditors.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
 		"id": "color-picker",
 		"name": "Hexadezimal-Farbwähler",
 		"description": "Fügt Hexadezimalcode-Eingaben zum Farbwähler hinzu.",
@@ -678,6 +690,18 @@
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
+		"id": "forum-live-preview",
+		"name": "Aktuelle Forumbeitrags-Vorschau",
+		"description": "Zeigt automatisch eine Vorschau an, sobald du aufhörst, in einem Forumbeitrag zu schreiben.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Anpassbare Zitate & Codeblöcke in Foren",
 		"description": "Zeigt schönere Skript- und Zitatblöcke in Foren.",
@@ -795,6 +819,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Waagrechte Registerkarten in Meine Sachen",
+		"description": "Verschiebt die Navigationsknöpfe in Meine Sachen (\"Alle Projekte\", \"Meine Studios\", \"Papierkorb\") auf die Oberseite der Seite, anstatt sie links zu halten.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
