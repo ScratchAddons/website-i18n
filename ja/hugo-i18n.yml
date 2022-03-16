@@ -140,7 +140,7 @@ UnsupportedBrowserPage:
   HowToUpdate: 更新方法
 Blog:
   SectionSiteName: Scratch Addons ブログ
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} 貢献者"
   NProfilePicture: "{{.Name}} プロフィール画像"
   NCommits: "{{.Count}} コミット"

@@ -73,6 +73,6 @@ Eklentinizin manifest dosyasının uygun olduğundan emin olun, [buradan](/docs/
 Eklentinizin diğer eklentilerin çalışmasını etkilemediğinden emin olun.
 Kodunuzun anlaşılır olduğundan emin olun; Gereksiz yorumlara sahip olması, hiç yorum olmamasından daha iyidir.
 
-## 12. Adım: Bir çekme isteği gönderin!
-Henüz yapmadıysanız, depoyu çatallayın, yeni eklentinizi yapın ve bir çekme isteği gönderin!
+## 12. Adım: Bir pull request gönderin!
+Henüz yapmadıysanız, depoyu çatallayın, yeni eklentinizi yapın ve bir Pull Request gönderin!
 Sizden bazı değişiklikler yapmanızı isteyebileceğimizi unutmayın, ancak eklentinizi minimum düzeyde uygun olduğu sürece muhtemelen kabul edeceğiz.

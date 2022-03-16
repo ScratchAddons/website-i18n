@@ -5,7 +5,7 @@ description: Scratch Eklentilerini diğer dillere çevirmeye gönüllü olmakla 
 
 {{< admonition info >}}
 
-_**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten tercüme edildi. Bu diller için yeni çevirmen kabul etmeyeceğiz_
+_**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten tercüme edildi. Bu diller için yeni çevirmen kabul etmeyeceğiz._
 
 {{< /admonition >}}
 
@@ -34,7 +34,7 @@ Yakında Transifex ekibine kabul edileceksiniz ve çevrilecek yeni dizeler oldu�
 
 - Scratch'in o dile çevrilmiş olması gerekiyor.
 - Scratch'in aksine, dil başına yalnızca bir tane lehçeyi destekliyoruz (Scratch Eklentilerinde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacak).
-- Talebinizin kabul edilmesi birkaç saat/gün sürebilir.
+- Request'inizin kabul edilmesi birkaç saat/gün sürebilir.
 - Kabul edilirseniz, kendinizi [sitemizin katkıda bulunanlar sayfamıza](https://scratchaddons.com/contributors) ekleyebilir (veya eklenebilirsiniz).
 - Yasal konular: çevirileriniz, Scratch Eklentiler (GPL v3.0) ile aynı lisans altında lisanslanacaktır
 

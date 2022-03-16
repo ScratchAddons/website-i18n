@@ -59,7 +59,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
-    Description: Scratch Eklentileri, Scratch web sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
+    Description: Scratch Eklentileri, Scratch sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
@@ -81,7 +81,7 @@ IndexPage:
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
-    AddonsParagraph: Scratch Eklentileri, Scratch web sitenizi ve editör deneyiminizi güçlendirebilecek eklentilerden oluşur.
+    AddonsParagraph: Scratch Eklentileri, Scratch sitenizi ve editör deneyiminizi güçlendirebilecek eklentilerden oluşur.
     CustomizableHeading: Özelleştirilebilir
     CustomizableParagraph: Scratch Eklentiler, her özelliğin ve temanın çeşitli ayarlarını kontrol etmek için kullanımı kolay bir arayüze sahiptir.
     InternationalHeading: Uluslararası
@@ -140,7 +140,10 @@ UnsupportedBrowserPage:
   HowToUpdate: Nasıl güncellenir
 Blog:
   SectionSiteName: Scratch Eklentileri Blog
-ContributorsPage:
-  NContributors: "{{.Count}} katkısı olan"
+CreditsPage:
+  NContributors: "{{.Count}} katkısı olan kişi"
   NProfilePicture: "{{.Name}} profil resmi"
   NCommits: "{{.Count}} taahhüt"
+Comments:
+  Heading: Yorumlar
+  Description: "{{ .OpenTag1 }}Davranış kurallarına{{ .CloseTag1 }} uyduğunuzdan emin olun. Bu yorum bölümünü {{ .OpenTag2 }}GitHub Tartışmalarında{{ .CloseTag2 }} görebilir, yorumunuzu düzenleyebilir ve kaldırabilirsiniz."

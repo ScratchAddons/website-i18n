@@ -133,6 +133,6 @@ UnsupportedBrowserPage:
   HowToUpdate: Como atualizar
 Blog:
   SectionSiteName: Blog do Scratch Addons
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} contribuidores"
   NProfilePicture: foto de perfil de {{.Name}}

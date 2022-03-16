@@ -69,7 +69,7 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her g�
 4. Çıkarılan klasörü seçin.
 5. Uzantı artık yüklenmiş olmalıdır.
 
-Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme adımlarını uyguladığınızı varsayarak), `Güncelle` düğmesine tıklayın:
+Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme adımlarını uyguladığınızı varsayarak), `Update` düğmesine tıklayın:
 
 ![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
 

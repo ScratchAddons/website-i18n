@@ -7,20 +7,20 @@ code: Kod
 content: İçerik
 data: Veri
 design: Tasarım
-doc: Dökümantasyon
+doc: Dokümantasyon
 eventOrganizing: Etkinlik Düzenleme
 example: Örnekler
 financial: Parasal
 fundingFinding: Fon Bulma
 ideas: "Fikirler, Planlama ve Geri Bildirim"
 infra: Altyapı
-maintenance: Bakım Onarım
+maintenance: Bakım
 mentoring: Mentorluk
 platform: Paketleme
 plugin: Eklenti/Yardımcı Program Kütüphaneleri
 projectManagement: Proje Yönetimi
 question: Soru Cevaplayıcı
-review: Çekme İsteği Gözden Geçirici
+review: Pull Request Gözden Geçirici
 security: Güvenlik
 talk: Konuşmalar
 test: Testler

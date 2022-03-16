@@ -39,6 +39,7 @@ Footer:
     Copyright: © {{.Count}} sodelavci Scratch Addons
     NoAffiliation: Scratch Addons ni na noben način povezan s Scratchem, skupino Scratch ali fundacijo Scratch.
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
+  Intro: Trenutno {{ .Version }} z {{ .AddonCount }} dodatki.
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
   Label: Gumb za temni način
@@ -136,6 +137,8 @@ UnsupportedBrowserPage:
   HowToUpdate: Navodila za posodobitev
 Blog:
   SectionSiteName: Blog Scratch Addons
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} sodelavcev"
   NProfilePicture: Slika profile {{.Name}}
+Comments:
+  Heading: Komentarji

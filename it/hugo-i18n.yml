@@ -137,7 +137,7 @@ UnsupportedBrowserPage:
   HowToUpdate: Come aggiornarlo
 Blog:
   SectionSiteName: Blog di Scratch Addons
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} hanno contribuito"
   NProfilePicture: "{{.Name}} immagine del profilo"
   NCommits: "{{.Count}} commit"

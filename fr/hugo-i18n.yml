@@ -79,6 +79,7 @@ IndexPage:
     ScratchMessagingParagraph: "\"L'ancêtre\" de Scratch Addons. Scratch Messaging est disponible en cliquant sur l'icône de Scratch Addons, et permet de lire et de répondre facilement à vos messages Scratch : regroupe les messages par projet, affiche le commentaire en entier et son contexte, permet de répondre directement aux commentaires."
     ScratchNotifierParagraph: Scratch Notifier envoie des notifications à votre navigateur lorsque vous avez de nouveaux messages Scratch. Vous pouvez cliquer sur les notifications pour accéder directement au message (commentaire, projet, etc.).
     DeveloperToolsHeading: Outils de développement
+    DeveloperToolsParagraph: "Provenant de l'extension d'origine. L'addon ajoute une boîte de recherche et de nouvelles options au menu de l'éditeur : copier/coller des blocs, un meilleur rangement, aller à la définition d'un bloc personnalisé, et plus encore !"
   Install:
     Heading: Installer
     Paragraph: Satisfait ? N'hésitez pas à l'installer maintenant !
@@ -117,3 +118,7 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Télécharger
   HowToUpdate: Comment mettre à jour
+Blog:
+  SectionSiteName: Blog Scratch Addons
+Comments:
+  Description: Assurez-vous de suivre {{ .OpenTag1 }}le code de conduite{{ .CloseTag1 }}. Vous pouvez voir cette section de commentaires sur les {{ .OpenTag2 }}discussions GitHub{{ .CloseTag2 }}, ainsi que modifier et supprimer votre commentaire.

@@ -1,9 +1,9 @@
 ---
 title: Kullanıcı Stilleri
-description: Kullanıcı stilleri, Scratch web sitesine CSS eklemenize olanak tanır - kullanıcı komut dosyaları ile eklediğiniz düğmeleri renkli hale getirmek veya yerel Scratch öğesini özelleştirmek için kullanışlıdır.
+description: Kullanıcı stilleri, Scratch sitesine CSS eklemenize olanak tanır - kullanıcı komut dosyaları ile eklediğiniz düğmeleri renkli hale getirmek veya yerel Scratch öğesini özelleştirmek için kullanışlıdır.
 ---
 ## O da neyin nesi?
-Kullanıcı stilleri, Scratch web sitesine CSS eklemenize olanak tanır - kullanıcı komut dosyaları ile eklediğiniz düğmeleri renkli hale getirmek veya yerel bir Scratch öğesini özelleştirmek için kullanışlıdır.
+Kullanıcı stilleri, Scratch sitesine CSS eklemenize olanak tanır - kullanıcı komut dosyaları ile eklediğiniz düğmeleri renkli hale getirmek veya yerel bir Scratch öğesini özelleştirmek için kullanışlıdır.
 
 ## Nasıl bir kullanıcı stili eklerim?
 **Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions` dan yenilemeyi unutmayın.**

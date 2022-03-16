@@ -7,11 +7,11 @@ Cette page liste toute les questions posées fréquemment sur l'extension et le 
 
 ### Qu'est-ce que Scratch Addons ?
 
-Scratch Addons est une extension de navigateur tout-en-un pour le site web Scratch et l'éditeur de projet. Il fournis des fonctionnalités et des thèmes (appelé addons en interne), autant que pour le site Scratch que pour l'éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch,  les scripts et les styles d'utilisateur, développé pas plusieurs membre de la communauté Scratch, vers un seul et même endroit facile d'accès, out en laissant les utilisateurs choisir ceux à activer.
+Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch, les scripts et les styles d'utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
 
 ### Qu'est-ce qu'un "Addon" exactement ?
 
-Un addon est similaire à une extension ou à un userscript, mais ils utilisent des API spéciales fournies par l'extension Scratch Addons. Ces API permettent aux addons d'exécuter des scripts sur une page Scratch (userscripts) ou d'appliquer des styles au site Web Scratch (userstyles).
+Un addon est similaire à une extension ou à un userscript, mais il utilise des API spéciales fournies par l'extension Scratch Addons. Ces API permettent aux addons d'exécuter des scripts sur une page Scratch (userscripts ou scripts utilisateur) ou d'appliquer des styles au site Web Scratch (userstyles ou styles utilisateur).
 
 Les scripts utilisateur peuvent utiliser les API JavaScript `addon.*`, qui leur permettent d'obtenir des informations relatives à Scratch (par exemple, obtenir l'utilisateur actuellement connecté) et également d'utiliser des API d'extension (comme l'envoi de notifications).
 
@@ -19,13 +19,13 @@ Les scripts utilisateur peuvent utiliser les API JavaScript `addon.*`, qui leur 
 
 En soi, Scratch Addons n’est qu’un chargeur d’addons. Ses principales tâches sont :
 
-- Autorise l'utilisateur d'activer, de désactiver ou de configurer les addons. 
-- Exécutez des addons et fournissez-leur des API. 
-- Fournir des statistiques globale aux addons (par exemple, addon.auth API) 
+- Autoriser l'utilisateur à activer, désactiver ou configurer les addons. 
+- Exécuter des addons et leur fournir des API. 
+- Apporter des statistiques globales aux addons (par exemple, l'API addon.auth).
 - Polluer les prototypes pour une utilisation par des scripts d'utilisateur de l'addon. 
-- Fournissez des moyens d’accéder à l’état Redux et de le modifier. 
-- Évitez aux addons d’interférer les uns avec les autres. 
-- Évitez de dupliquer le travail de différents addons. 
+- Fournir des moyens d'accéder et de modifier l'état de Redux.
+- Éviter aux addons d’interférer les uns avec les autres. 
+- Éviter de dupliquer le travail de différents addons. 
 
 ### Scratch Addons est-il sûr ?
 
@@ -33,21 +33,21 @@ Oui. Scratch Addons n’a aucun problème de sécurité dans la version la plus 
 
 ### Comment puis-je signaler une faille de sécurité ?
 
-Si vous trouvez une faille de sécurité, veuillez contacter World_Languages ​​en privé en envoyant un e-mail à `worldxlanguages ​​(at) gmail.com`. Si vous ne recevez pas de réponse dans les 48 heures, veuillez créer un problème [ici](https://github.com/ScratchAddons/ScratchAddons/issues/) en mentionnant que vous avez envoyé un e-mail.
+Si vous trouvez une faille de sécurité, veuillez contacter World_Languages ​​en privé en envoyant un e-mail à `worldxlanguages@gmail.com`. Si vous ne recevez pas de réponse dans les 48 heures, veuillez créer un problème [ici](https://github.com/ScratchAddons/ScratchAddons/issues/) en mentionnant que vous avez envoyé un e-mail.
 
-Vous pouvez soit [lire notre politique de sécurité](https://github.com/ScratchAddons/ScratchAddons/security/policy), soit [consulter nos avis que nous avons publiés](https://github.com/ScratchAddons/ScratchAddons/ security/advisories?state=published).
+Vous pouvez soit [lire notre politique de sécurité](https://github.com/ScratchAddons/ScratchAddons/security/policy), soit [consulter les avis que nous avons publiés](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Mon compte sera-t-il en sécurité lorsque j'utilise Scratch Addons ?
 
-Scratch Addons n'utilise pas les informations d'identification de votre compte pour fonctionner essentiellement. En fait, vous pouvez être déconnecté de Scratch et les addons Scratch fonctionneront toujours. Scratch Addons n'enverra que des demandes basées sur les cookies que vous avez, qui sont fournis par le navigateur pour chaque demande, donc certains addons comme Scratch Messaging ne fonctionneront pas lorsque vous vous connecterez, mais cela n'affectera pas les autres parties de l'extension.
+Scratch Addons n'utilise pas les informations d'identification de votre compte pour fonctionner. En fait, vous pouvez être déconnecté de Scratch, les addons Scratch fonctionneront toujours. Scratch Addons n'enverra que des requêtes basées sur vos cookies, qui sont fournis par le navigateur pour chaque requête, donc certains addons comme la Messagerie Scratch ne fonctionneront pas lorsque vous vous déconnecterez, mais cela n'affectera pas les autres parties de l'extension.
 
-Addons sur Scratch Les addons ont également été audités par plusieurs contributeurs sur le référentiel, donc personne ne peut simplement glisser du code malveillant sous nos yeux.
+Les addons de Scratch Addons ont également été audités par plusieurs contributeurs sur le dépôt, donc personne ne peut glisser du code malveillant sous nos yeux.
 
 Nous n'envoyons jamais les informations de compte Scratch ou les paramètres d'extension en dehors de votre navigateur. Voir [la politique de confidentialité de l'extension](/docs/privacy/policies/extension) pour plus d'informations.
 
 ### Puis-je parler aux gens de Scratch Addons sur Scratch ?
 
-Vous ne pouvez pas, et s'il vous plaît ne le faites pas. Il existe une politique qui interdit la publicité des extensions de navigateur/scripts utilisateur [ici](https://scratch.mit.edu/discuss/post/2907564/). Vous pouvez cependant utiliser différentes méthodes pour informer vos amis de Scratch Addons.
+Vous ne pouvez pas, et s'il vous plaît ne le faites pas. Il existe une règle qui interdit de faire de la publicité pour des extensions de navigateur/scripts utilisateur sur Scratch, voir [ici](https://scratch.mit.edu/discuss/post/2907564/). Vous pouvez en revanche utiliser d'autres méthodes pour parler de Scratch Addons autour de vous.
 
 ### Comment puis-je contribuer à Scratch Addons ?
 

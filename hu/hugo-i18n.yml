@@ -135,6 +135,6 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Letöltés
   HowToUpdate: Hogyan frissítse
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} hozzájáruló"
   NProfilePicture: "{{.Name}} profilkép"

@@ -1,11 +1,11 @@
 ---
-title: Joining the Localization Team
+title: Rejoindre l'équipe de traduction
 description: Merci d'être volontaire pour traduire Scratch Addons dans d'autres langues ! Scratch Addons est un projet open source à but non lucratif où des développeurs web bénévoles assurent la maintenance de l'extension et créent ses addons.
 ---
 
 {{< admonition info >}}
 
-_Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. We won't be accepting any new translators for these languages_
+_Déjà traduites : **Italien, Japonais, Portugais, Slovène et Espagnol**. Nous n'accepterons aucun nouveau traducteur pour ces langues._
 
 {{< /admonition >}}
 
@@ -24,7 +24,7 @@ De cette manière, toute personne qui parle votre langue peut utiliser Scratch A
 - Allez sur [notre page Transifex](https://www.transifex.com/scratch-addons/scratch-addons-extension/), et cliquez sur le bouton bleu "Aidez à traduire Scratch Addons".
 - Utilisez le même nom d'utilisateur que votre compte Scratch. Entrez votre e-mail, un nouveau mot de passe puis inscrivez-vous.
 - Enter your username as your name and surname - **do not use your real name**.
-_Remarque : choisissez n'importe quelle option pour "service" et "intitulé du poste", nous recommandons "localisation" et "contributeur individuel"_
+_Remarque : choisissez n'importe quelle option pour "service" et "intitulé du poste", nous recommandons "traduction" et "contributeur individuel"_
 - Sélectionnez "Rejoindre un projet existant" dans l'étape suivante.
 - Choisissez la langue pour laquelle vous souhaitez aider.
 

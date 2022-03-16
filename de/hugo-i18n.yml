@@ -125,7 +125,7 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Herunterladen
   HowToUpdate: Wie man es aktualisiert
-ContributorsPage:
+CreditsPage:
   NContributors: "{{.Count}} Mitarbeiter"
   NProfilePicture: "{{.Name}} Profilbild"
   NCommits: "{{.Count}} Beiträge"

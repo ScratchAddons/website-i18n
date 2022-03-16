@@ -7,7 +7,7 @@ Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan sorul
 
 ### Scratch Eklentileri Nedir?
 
-Scratch Eklentileri, Scratch web sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch web sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, kullanıcı komut dosyalarını ve kullanıcı stillerini, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
+Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, kullanıcı komut dosyalarını ve kullanıcı stillerini, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
 ### "Eklenti" tam olarak nedir?
 
@@ -61,7 +61,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   JavaScript, HTML5 ve CSS ile kod yazabiliyorsanız, biraz kodlama/programlama yaparak katkıda bulunabilirsiniz. Hataları düzeltebilir, bazı istekleri yerine getirebilir veya kendi eklentinizi oluşturabilirsiniz.
 
-  Bundan sonra, bir çekme isteği oluşturmanız gerekir. Bunu [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak yapabilir, gerekli değişiklikleri yapabilir ve bir çekme isteği oluşturabilirsiniz. Eğer her şeyin uygun olduğu görülürse ana proje ile sizin projenizi birleştireceğiz.
+  Bundan sonra, bir pull request oluşturmanız gerekir. Bunu [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak yapabilir, gerekli değişiklikleri yapabilir ve bir pull request oluşturabilirsiniz. Eğer her şeyin uygun olduğu görülürse ana proje ile sizin projenizi birleştireceğiz.
 
   Uzantı dışındaki diğer yönlerin katkılarına da açığız. Depolarımızı [GitHub organizasyon sayfamızda](https://github.com/ScratchAddons) görüntüleyebilir ve bunları oluşturmamıza yardımcı olabilirsiniz.
 
@@ -95,7 +95,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
 - **Bunu dünyaya yayın**
 
-  Arkadaşlarınız, akrabalarınız, aile üyeleriniz ve hatta isterseniz öğretmeniniz gibi herkese Scratch Eklentileri hakkında bilgi verebilirsiniz. Sizden sadece [Bunu Scratch web sitesinde yapmamanızı](#can-i-tell-people-about-scratch-addons-on-scratch) rica ediyoruz.
+  Arkadaşlarınız, akrabalarınız, aile üyeleriniz ve hatta isterseniz öğretmeniniz gibi herkese Scratch Eklentileri hakkında bilgi verebilirsiniz. Sizden sadece [Bunu Scratch sitesinde yapmamanızı](#can-i-tell-people-about-scratch-addons-on-scratch) rica ediyoruz.
 
 ### Kendi eklentimi nasıl oluşturabilirim?
 

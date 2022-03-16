@@ -1,11 +1,11 @@
 ---
-title: Localisation
+title: Traduction
 ---
 
 Voici quelques pages sur la traduction de Scratch Addons (l10n).
 
 ## Pour les traducteurs
-- [Rejoindre la traduction](joining-the-localization-team)
+- [Rejoindre l'équipe de traduction](joining-the-localization-team)
 - [Traduction en cours de Scratch Addons](translating-scratch-addons) _Besoin d'écrire_
 
 ## Pour les développeurs

@@ -5,7 +5,7 @@ description: Obrigado pelo interesse em se voluntariar para traduzir o Scratch A
 
 {{< admonition info >}}
 
-_Já estão traduzidos: **Italiano, Japonês, Português, Esloveno e Espanhol**. Não aceitaremos novos tradutores para esses idiomas._
+_Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. We won't be accepting any new translators for these languages._
 
 {{< /admonition >}}
 
