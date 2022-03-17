@@ -1,5 +1,5 @@
 ---
-title: Style d'utilisateur
+title: Styles utilisateur
 description: Les styles utilisateur vous permettent d’injecter du CSS sur le site Web Scratch - utile pour rendre les boutons que vous ajoutez avec des scripts utilisateur colorés, ou pour personnaliser l’élément Scratch natif.
 ---
 ## De quoi s’agit-il ? 
@@ -30,7 +30,7 @@ Cette propriété doit être un tableau.  Chaque élément du tableau doit avoir
 }
 ```Messagerie Scratch
 
-## Style d'utilisateur de débogage
+## Débuguer des styles utilisateur
 **Assurez-vous d'actualiser Scratch Addons à partir de `chrome://extensions` après avoir apporté des modifications à votre addon.** 
-Si vous ne voyez pas votre style d'utilisateur fonctionner, vérifiez que votre addon est activé. 
+Si vous ne voyez pas votre style utilisateur fonctionner, vérifiez que votre addon est activé. 
 Si vous rencontrez toujours des problèmes, veuillez créer un problème dans ce dépôt.

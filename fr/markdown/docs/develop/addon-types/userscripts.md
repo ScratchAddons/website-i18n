@@ -1,18 +1,18 @@
 ---
 title: Scripts utilisateurs
-description: Les scripts d'utilisateurs vous permettent de jouer du code sur les pages de Scratch - vous pouvez y faire des choses comme ajouter des boutons, améliore l'éditeur Scratch ou tous ce que vous pouvez imaginer.
+description: Les scripts utilisateur vous permettent d'exécuter du code sur les pages de Scratch - vous pouvez y faire des choses comme ajouter des boutons, améliorer l'éditeur Scratch ou tout ce que vous pouvez imaginer.
 ---
 ## De quoi s’agit-il ?
-Les scripts d'utilisateurs vous permettent de jouer du code sur les pages de Scratch - vous pouvez y faire des choses comme ajouter des boutons, améliore l'éditeur Scratch ou tous ce que vous pouvez imaginer.
+Les scripts utilisateur vous permettent d'exécuter du code sur les pages de Scratch - vous pouvez y faire des choses comme ajouter des boutons, améliorer l'éditeur Scratch ou tout ce que vous pouvez imaginer.
 
-## Comment puis-je ajouter un script d'utilisateur?
-**Soyez sûre de rafraichir Scratch Addons from `chrome://extensions` après avoir ajouter n'importe quel modification à votre addons.** 
-Allez à votre "manifest" de votre addon (addon.json) et ajouter une propriété nommé `userscripts"`.
-Cette propriété doit être tableau.
-Chacun des choses du tableau doit avoir des propriétés comme celle-ci: `"url"` et `"matches"`.
-`"url"`  doit être relatif à URL du ficher JavaScript.
- `"matches"` doit être un tableau des URLs où vous voulez faire jouer le script d'utilisateur. Vous pouvez utiliser des astérisques.
-Exemples d'un manifest
+## Comment puis-je ajouter un script utilisateur ?
+**Assurez-vous d'actualiser Scratch Addons à partir de `chrome://extensions` après avoir apporté des modifications à votre addon.**
+Accédez au manifeste de votre addon (addon.json) et ajoutez une propriété appelée `userscripts"`.
+Cette propriété doit être un tableau.
+Chaque élément du tableau doit avoir les propriétés suivantes : `"url"` et `"matches"`.
+`"url"` doit être une URL relative vers un fichier JavaScript.
+`"matches"` doit être un tableau d'URL sur lesquelles vous souhaitez exécuter le script utilisateur. Vous pouvez utiliser des astérisques.
+Exemple de manifeste :
   ```json
 {
 "name": "Messages Scratch",
@@ -33,8 +33,8 @@ Exemples d'un manifest
 ```
 
 ## À quoi un fichier JavaScript ressemble?
-Les scripts utilisateurs ont besoin d'une structure spéciale pour fonctionner.
-Vous **devez absolument** implanter votre code dans une fonction comme ceci:
+Les scripts utilisateur ont besoin d'une structure spéciale pour fonctionner.
+Vous **devez absolument** implanter votre code dans une fonction comme ceci :
 ```js
 export default async function ({ addon, global, console }) {
 console.log("Hello, " + addon.auth.username);
@@ -66,7 +66,7 @@ console.log("Hello, " + addon.auth.username);
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
 Vous pouvez accéder à certaines API `addon.*` à partir de scripts utilisateur. Pour plus d'informations, consultez la documentation.
 
-## Aspect thecnique d'un script d'utilisateur
+## Aspects techniques des scripts utilisateur
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).

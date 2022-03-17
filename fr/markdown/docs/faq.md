@@ -7,11 +7,11 @@ Cette page liste toute les questions posées fréquemment sur l'extension et le 
 
 ### Qu'est-ce que Scratch Addons ?
 
-Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch, les scripts et les styles d'utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
+Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch, les scripts et les styles utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
 
 ### Qu'est-ce qu'un "Addon" exactement ?
 
-Un addon est similaire à une extension ou à un userscript, mais il utilise des API spéciales fournies par l'extension Scratch Addons. Ces API permettent aux addons d'exécuter des scripts sur une page Scratch (userscripts ou scripts utilisateur) ou d'appliquer des styles au site Web Scratch (userstyles ou styles utilisateur).
+Un addon est similaire à une extension ou à un script utilisateur, mais il utilise des API spéciales fournies par l'extension Scratch Addons. Ces API permettent aux addons d'exécuter des scripts sur une page Scratch (scripts utilisateur) ou d'appliquer des styles au site Web Scratch (styles utilisateur).
 
 Les scripts utilisateur peuvent utiliser les API JavaScript `addon.*`, qui leur permettent d'obtenir des informations relatives à Scratch (par exemple, obtenir l'utilisateur actuellement connecté) et également d'utiliser des API d'extension (comme l'envoi de notifications).
 

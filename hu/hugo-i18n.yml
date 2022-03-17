@@ -38,7 +38,7 @@ Footer:
     Copyright: © {{.Count}} Scratch Addons közreműködői
     NoAffiliation: A Scratch Addons nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a Scratch-el, a Scratch Team-el, a Scratch Alapítvánnyal, vagy bármilyen leány-, és társvállalatával.
     License: A Scratch Addons a GNU General Public License 3.0 feltételei alatt van licenszelve.
-  Intro: Jelenleg {{ .Version }} {{ .AddonCount }}kiegészítővel
+  Intro: "Jelenlegi verzió: {{ .Version }},  {{ .AddonCount }} kiegészítővel"
 DarkTheme:
   Title: Kattintson a sötét téma-világos téma váltogatásához
   Label: Sötét témára átváltás
@@ -131,7 +131,7 @@ ChangelogPage:
     CommitsMade: Rábízások
   Status:
     Latest: Legutolsó
-    Yanked: Megrántott
+    Yanked: Átugrott verziók
 UnsupportedBrowserPage:
   Download: Letöltés
   HowToUpdate: Hogyan frissítse
