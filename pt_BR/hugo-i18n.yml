@@ -136,3 +136,6 @@ Blog:
 CreditsPage:
   NContributors: "{{.Count}} contribuidores"
   NProfilePicture: foto de perfil de {{.Name}}
+Comments:
+  Heading: Comentários
+  Description: Esteja ciente em {{ .OpenTag1 }}seguir o código de conduta{{ .CloseTag1 }}. Você pode ver a seção deste comentário no {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }}, além de editar e remover o seu comentário.

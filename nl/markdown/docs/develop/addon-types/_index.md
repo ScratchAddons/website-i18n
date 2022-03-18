@@ -1,3 +1,3 @@
 ---
-title: Addon-Types
+title: Addontypes
 ---

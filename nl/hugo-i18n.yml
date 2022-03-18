@@ -2,10 +2,19 @@ Global:
   LogoAlt: Scratch Addons-logo
   Install: Installeer
   InstallFor: Installeer voor {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuut"
+    other: "{{.Count}} minuten"
+  RSSDescription: Recente inhoud op {{ .SiteName }}
+  Extension: Extensie
+Links:
+  PrivacyPolicy: Privacybeleid
 Nav:
   Feedback: Feedback Geven
   Repository: Archief
-  Install: Installeer
+  RepositoryLabel: Archief op GitHub
+  Install: Installeren
+  ToggleNavigation: Navigatie In- of Uitschakelen
 Footer:
   Pages:
     Header: Pagina's
@@ -26,6 +35,7 @@ Footer:
     Copyright: © {{.Count}} Scratch Addons-helpers
     NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met Scratch, het Scratch-Team, het Scratch-fundament, of iedere dochteronderneming of geassocieerden.
     License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
+  Intro: Op dit moment {{ .Version }} met {{ .AddonCount }} addons.
 DarkTheme:
   Title: Klik om het donkere thema te wisselen.
   Label: Donker themaschakelaar
@@ -42,6 +52,7 @@ PlayerModal:
   AltText: Klik om de video te bekijken.
 IndexPage:
   Intro:
+    Tagline: Alles-in-een browserextensie voor Scratch
     Description: Scratch Addons is een browserextensie die je nieuwe functies en thema's voor de Scratchwebsite en projecteditor laat gebruiken. Het heeft een doel om userstyles en userscripts te verzamelen, archiveren en gebruiken, gemaakt door meerdere leden van de Scratchgemeenschap.
     InstallButton:
       Loading: Laden...
@@ -78,6 +89,7 @@ IndexPage:
     ScratchNotifierHeading: Scratch Berichtgever
     ScratchNotifierParagraph: Geeft je browsernotificaties bij nieuwe Scratchberichten. Je kunt op de notificatie klikken om er direct heen te gaan (opmerking, project, etc.)
     DeveloperToolsHeading: Ontwikkelaarstools
+    DeveloperToolsParagraph: "Van de originele extensie. Het voegt een zoekbalk en nieuwe menuopties toe aan de editor: kopieer/plak blokken, betere opruimer, naar blokdefinitie springen, en meer!"
   Install:
     Heading: Installeren
     Paragraph: Tevreden? Aarzel niet en installeer het nu!
@@ -92,6 +104,7 @@ AddonsPage:
   EasterEggTooltip:
     L1: Om de addons te activeren, gebruik de Konami Code (↑↑↓↓←→←→BA) op de instellingspagina. Lees de veelgestelde vragen voor meer informatie.
     L2: Op deze pagina zal een geheime addon een ei-symbool naast zijn naam hebben.
+  SourceCodeLabel: Broncode op GitHub
 FeedbackPage:
   Status:
     Sending: Verzenden...
@@ -116,3 +129,11 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Downloaden
   HowToUpdate: Hoe je bijwerkt
+Blog:
+  SectionSiteName: Scratch Addons-Blog
+CreditsPage:
+  NContributors: "{{.Count}} bijdragers"
+  NProfilePicture: "{{.Name}} profielfoto"
+Comments:
+  Heading: Opmerkingen
+  Description: Zorg ervoor dat je je aan {{ .OpenTag1 }}de gedragsregels{{ .CloseTag1 }} houdt. Je kunt deze opmerkingssectie bekijken op {{ .OpenTag2 }}GitHub-Discussies{{ .CloseTag2 }}, net zoals je opmerking bewerken en verwijderen.
