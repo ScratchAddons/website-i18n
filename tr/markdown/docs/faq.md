@@ -69,11 +69,11 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   Scratch Eklentiler'e iyi bir katkı olacağını düşündüğünüz bir şey mi var? [Bize anlatın!](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **Bir hata bildir**
+- **Bir hata bildirin**
 
   Eklentimizden birinde, ayarlar sayfamızda veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönderin](#what-can-i-do-if-i-find-a-problem).
 
-- **Scratch Eklentilerini Çevir**
+- **Scratch Eklentilerini Çevirin**
 
   İngilizce'den başka bir dili akıcı bir şekilde konuşabiliyorsanız, Scratch Eklentilerini kendi dilinize çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Buradan](/docs/localization/joining-the-localization-team) başlayabilirsiniz.
 
@@ -81,7 +81,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   Scratch Eklentilerine aşina mısınız? Eğer öyleyse, bunun için kılavuzlar yazabilirsiniz. Kılavuzlar, eklentileri nasıl kullanılacağınızı veya nasıl çalıştığınızı anlatır. Daha fazla bilgi için lütfen [Tartışma sekmemizden](https://github.com/ScratchAddons/ScratchAddons/discussions) bizimle iletişime geçin.
 
-- **Geribildirim yolla**
+- **Geri bildirim gönderin**
 
   [Geri bildirim sayfasında](https://scratchaddons.com/feedback) bulunan formumuza geri bildirim gönderebilirsiniz. Geri bildiriminiz, uzantı geliştirmede bize farklı bir bakış açısı verebilir ve dikkat edilmesi gereken şeyleri bilmemize ve hataları düzeltmemize yardımcı olabilir.
 
@@ -130,7 +130,7 @@ Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/disc
 
 İhtiyacınız olmayan eklentileri kapatmayı deneyin. Ayrıca, daha iyi performans için hangi eklentilerin kapatılması gerektiğine karar vermek için eklenti bildirimlerine ve uyarılarına dikkat edin.
 
-### Easter egg eklentilerini nasıl etkinleştirebilirsiniz?
+### Easter egg eklentilerini nasıl etkinleştirebilirim?
 
 Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yazın. Bundan sonra, easter egg eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
 

@@ -22,7 +22,7 @@ En soi, Scratch Addons n’est qu’un chargeur d’addons. Ses principales tâc
 - Autoriser l'utilisateur à activer, désactiver ou configurer les addons. 
 - Exécuter des addons et leur fournir des API. 
 - Apporter des statistiques globales aux addons (par exemple, l'API addon.auth).
-- Polluer les prototypes pour une utilisation par des scripts d'utilisateur de l'addon. 
+- Permettre aux scripts utilisateur d'insérer ou modifier le code de Scratch sans avoir à remplacer l'ensemble des scripts de la page.
 - Fournir des moyens d'accéder et de modifier l'état de Redux.
 - Éviter aux addons d’interférer les uns avec les autres. 
 - Éviter de dupliquer le travail de différents addons. 

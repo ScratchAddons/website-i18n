@@ -6,24 +6,24 @@ description: Userstyles laten je CSS injecteren op de Scratch-website - handig o
 Userstyles laten je CSS injecteren op de Scratch-website - handig om je knoppen uit userscripts kleurrijk te maken, of om natieve Scratch-elementen aan te passen.
 
 ## Hoe voeg ik een userstyle toe?
-**Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
-Go to the manifest of your addon (addon.json) and add a property called `"userstyles"`.  
-This property must be an array.  
-Each item of the array must have the following properties: `"url"` and `"matches"`.  
-`"url"` must be a relative URL to a CSS file.  
-`"matches"` must be an array of URLs where you want the userstyle to be injected. You can use asterisks.
-Example manifest:
+**Zorg ervoor dat je Scratch Addons ververst van `chrome://extensions` nadat je veranderingen maakt aan je addon.** 
+Ga naar de manifest van je addon (addon.json) en voeg een eigenschap toe genaamd `userstyles"`. 
+Deze eigenschap moet een array zijn. 
+Elk item van de array moet de volgende eigenschappen hebben: `"url"` en `"matches"`. 
+`"url"` moet een relatieve URL tot een JavaScript-bestand zijn. 
+`"matches"` moet een array van URLs zijn waar je de userstyle op wilt uitvoeren. Je kunt asterisken (sterretjes) gebruiken.
+Voorbeeldmanifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
-  "userstyles": [
+  "name": "Scratch Berichtgeving",
+  "description": "Laat je makkelijker je Scratchberichten lezen en erop antwoorden.",
+  "userscripts": [
     {
-      "url": "userstyle.css",
+      "url": "userstyle.js",
       "matches": ["https://scratch.mit.edu/*"]
     },
     {
-      "url": "second_userstyles.css",
+      "url": "second_userstyles.js",
       "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
     }
   ],
@@ -32,7 +32,7 @@ Example manifest:
 }
 ```
 
-## Debugging userstyles
-**Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
-If you don't see your userstyle working, make sure your addon is enabled.  
-If you're still having trouble, please create an issue in this repo.
+## Userstyles debuggen
+**Ververs Scratch Addons van `chrome://extensions` nadat je veranderingen maakt aan je addon.** 
+Als je userstyle niet werkt, zorgt ervoor dat je addon aanstaat. 
+Als je nog steeds problemen hebt, maak dan een issue in dit archief.

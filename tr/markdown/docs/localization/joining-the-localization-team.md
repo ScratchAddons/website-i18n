@@ -5,7 +5,7 @@ description: Scratch Eklentilerini diğer dillere çevirmeye gönüllü olmakla 
 
 {{< admonition info >}}
 
-_**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten tercüme edildi. Bu diller için yeni çevirmen kabul etmeyeceğiz._
+_**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten çevrildi. Bu diller için yeni çevirmen kabul etmeyeceğiz._
 
 {{< /admonition >}}
 

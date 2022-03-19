@@ -2,35 +2,35 @@
 title: Installeren
 ---
 
-## From extension stores
+## Van extensiestores
 
-Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+Scratch Addons is beschikbaar in de Chrome Web Store en Add-ons voor Firefox.
 
-- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+- Chrome Web Store (voor Google Chrome, Opera, Brave, Vivaldi, Microsoft, Edge >79, en andere Chromium-gebaseerde browsers)
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
-- Add-ons for Firefox (for Mozilla Firefox)  
+- Add-ons voor Firefox (voor Mozilla Firefox)  
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
-- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+- Microsoft Edge Add-ons (voor Microsoft Edge >79)  
   https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
-## From source
+## Van bron
 
-### About GitHub releases
+### Over GitHub-releases
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
+[De pagina met releases](https://github.com/ScratchAddons/ScratchAddons/releases) bevat de code en installatiebestanden voor alle ontwikkelingsbuilds van Scratch Addons, net zoals de spiegel van de store-builds.
 
-### Cloning the repository
+### Het archief kopiëren
 
-This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
+Dit is de aanbevolen manier om Scratch Addons voor ontwikkelingsredenen te installeren. Dit gaat ervan uit dat je Git hebt geïnstalleerd.
 
-To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
+Om het archief te downloaden, kopieer simpelweg `https://github.com/ScratchAddons/ScratchAddons.git`.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-To update Scratch Addons, first `cd` into its folder, and then run the following commands.
+Om Scratch Addons bij te werken, doe eerst `cd` in zijn map, en voer dan de volgende commando's uit.
 
 ```sh
 $ git fetch
