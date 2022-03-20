@@ -1,8 +1,8 @@
 Global:
   ScratchAddons: Scratch Eklentileri
   LogoAlt: Scratch Eklentileri'nin logosu
-  Install: İndir
-  InstallFor: "{{.Browser}} için indir"
+  Install: İndirin
+  InstallFor: "{{.Browser}} için indirin"
   ReadTime:
     one: "{{.Count}} dakika"
     other: "{{.Count}} dakika"
@@ -13,16 +13,16 @@ Links:
   Credits: Krediler
   PrivacyPolicy: Gizlilik Politikası
 Nav:
-  Feedback: Geri Bildirim Gönder
+  Feedback: Geri Bildirim Gönderin
   Repository: Depo
   RepositoryLabel: GitHub'daki Depo
-  Install: İndir
+  Install: İndirin
   ToggleNavigation: Gezinme ayarı
 Footer:
   Pages:
     Header: Sayfalar
     FAQ: SSS
-    Feedback: Geri Bildirim Gönder
+    Feedback: Geri Bildirim Gönderin
     Changelog: Değişiklik Günlüğü
     Addons: Eklentiler
   Discuss:
@@ -33,9 +33,9 @@ Footer:
     DiscordDev: Geliştirici Discord'u
   Resources:
     Header: Kaynaklar
-    Organization: Organizasyon
+    Organization: Kuruluş
     Repository: Depo
-    Documentation: Dökümantasyon
+    Documentation: Belgeler
   Legal:
     Copyright: © {{.Count}} Scratch Eklentileri katkıda bulunanlar
     NoAffiliation: Scratch Eklentileri, Scratch, Scratch Ekibi, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
@@ -63,7 +63,7 @@ IndexPage:
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
-    ReadMore: veya fazlasını oku
+    ReadMore: veya daha fazlasını okuyun
     Carousel:
       Video:
         Caption: Fragman.
@@ -85,7 +85,7 @@ IndexPage:
     CustomizableHeading: Özelleştirilebilir
     CustomizableParagraph: Scratch Eklentiler, her özelliğin ve temanın çeşitli ayarlarını kontrol etmek için kullanımı kolay bir arayüze sahiptir.
     InternationalHeading: Uluslararası
-    InternationalParagraph: Scratch Eklentileri sadece İngilizce değil, İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dile çevrilmiştir.
+    InternationalParagraph: Scratch Eklentileri sadece İngilizce değil, Türkçe, İspanyolca, Rusça, Japonca, Fransızca ve daha pek çok dile çevrilmiştir.
     OSHeading: Açık kaynaklı
     OSParagraph: Scratch Eklentileri ücretsizdir, açık kaynaklıdır ve Scratch topluluğu üyeleri tarafından oluşturulmuştur.
   Highlights:
@@ -94,19 +94,19 @@ IndexPage:
     ScratchMessagingHeading: Scratch Mesajlaşma
     ScratchMessagingParagraph: 'O, Scratch Eklentilerinin "dedesi". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırmaya, tam yorum metni ve bağlamını göstermeye, doğrudan yorum yanıtlamaya izin verir.'
     ScratchNotifierHeading: Scratch Bildirimcisi
-    ScratchNotifierParagraph: Scratch mesajlarına yeni tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje vb.) gitmek için bildirime tıklayabilirsiniz.
+    ScratchNotifierParagraph: Scratch mesajlarına yeni tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje, vb.) gitmek için bildirime tıklayabilirsiniz.
     DeveloperToolsHeading: Geliştirici araçları
     DeveloperToolsParagraph: "Orijinal uzantıdan. Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme ve çok daha fazlası!"
   Install:
-    Heading: İndir
-    Paragraph: Hoşuna gitti mi? Şimdi kurmaktan çekinme!
+    Heading: İndirin
+    Paragraph: Hoşunuza gitti mi? Şimdi kurmaktan çekinmeyin!
     InstallButton:
-      Other: ...ama istersen {{.OpenTag1}}GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da yükleyebilirsin.
+      Other: ...ama isterseniz {{.OpenTag1}}GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da indirebilirsiniz.
   Users: Kullanıcı
 AddonsPage:
   EasterEggAddon: Bu bir easter egg eklentisidir.
   RecommendedAddon: Bu, önerilen bir eklentidir.
-  ListViewLabel: Görüntülenmeyi listele
+  ListViewLabel: Liste görünümü
   EasterEggTooltip:
     L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.
     L2: Bu sayfada, easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
@@ -116,7 +116,7 @@ FeedbackPage:
   Status:
     Sending: Gönderiliyor...
     Success: Gönderildi! Geri bildiriminiz için teşekkür ederiz.
-    Failed: Bir şeyler ters gitti. Tekrar denemek ister misin?
+    Failed: Bir şeyler ters gitti. Tekrar denemek ister misiniz?
   UsernameLabel: Scratch kullanıcı adı, veya diğer tanımlayıcılar (isteğe bağlı)
   ContentLabel: Geri bildirim
   ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.

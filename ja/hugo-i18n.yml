@@ -39,6 +39,7 @@ Footer:
     Copyright: © {{.Count}} Scratch Addons 貢献者
     NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
     License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
+  Intro: 現在 {{ .Version }} 、アドオン数 {{ .AddonCount }}
 DarkTheme:
   Title: クリックしてダークモードを切り替えられます。
   Label: ダークモード切り替えボタン
@@ -144,3 +145,6 @@ CreditsPage:
   NContributors: "{{.Count}} 貢献者"
   NProfilePicture: "{{.Name}} プロフィール画像"
   NCommits: "{{.Count}} コミット"
+Comments:
+  Heading: コメント
+  Description: "{{ .OpenTag1 }}Code of Conduct{{ .CloseTag1 }} を守りましょう。このコメントは {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} で見ることができ、編集や削除もできます。"
