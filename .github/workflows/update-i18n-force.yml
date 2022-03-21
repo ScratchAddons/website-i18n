@@ -14,7 +14,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: repo
-          fetch-depth: 0
       - name: Checkout ScratchAddons/website-v2-script
         uses: actions/checkout@v2
         with:
@@ -52,15 +51,14 @@ jobs:
             !./repo/.git
 
       - name: Generate token
-        if: steps.script.outputs.do_invoke == 'true'
+        if: steps.script.outputs.has_new_commit == 'true'
         uses: tibdex/github-app-token@v1
         id: generate-token
         with:
           app_id: ${{ secrets.BOT_APP_ID }}
           private_key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - name: Invoke workflow
-        if: steps.script.outputs.do_invoke == 'true'
+        if: steps.script.outputs.has_new_commit == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment

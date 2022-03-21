@@ -10,17 +10,9 @@ jobs:
     name: Update
     runs-on: ubuntu-latest
     steps:
-      - name: Generate token
-        uses: tibdex/github-app-token@v1
-        id: generate-token
-        with:
-          app_id: ${{ secrets.BOT_APP_ID }}
-          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - name: Checkout ScratchAddons/website-i18n
         uses: actions/checkout@v2
         with:
-          token: ${{ steps.generate-token.outputs.token }}
           path: repo
       - name: Checkout ScratchAddons/website-v2-script
         uses: actions/checkout@v2
@@ -51,8 +43,15 @@ jobs:
           cd repo
           bash ../script/sh/i18n-update-source.sh
 
+      - name: Generate token
+        if: steps.script.outputs.has_new_commit == 'true'
+        uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.BOT_APP_ID }}
+          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
       - name: Invoke workflow
-        # if: ${{ ! steps.script.outputs.commitSkipped }}
+        if: steps.script.outputs.has_new_commit == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Source Upload
