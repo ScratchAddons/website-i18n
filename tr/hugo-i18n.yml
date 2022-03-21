@@ -10,19 +10,19 @@ Global:
   Website: Site
   Extension: Uzantı
 Links:
-  Credits: Krediler
+  Credits: Teşekkürler
   PrivacyPolicy: Gizlilik Politikası
 Nav:
-  Feedback: Geri Bildirim Gönderin
+  Feedback: Geri Bildirim Gönder
   Repository: Depo
   RepositoryLabel: GitHub'daki Depo
-  Install: İndirin
+  Install: İndir
   ToggleNavigation: Gezinme ayarı
 Footer:
   Pages:
     Header: Sayfalar
     FAQ: SSS
-    Feedback: Geri Bildirim Gönderin
+    Feedback: Geri Bildirim Gönder
     Changelog: Değişiklik Günlüğü
     Addons: Eklentiler
   Discuss:
@@ -141,7 +141,7 @@ UnsupportedBrowserPage:
 Blog:
   SectionSiteName: Scratch Eklentileri Blog
 CreditsPage:
-  NContributors: "{{.Count}} katkısı olan kişi"
+  NContributors: katkısı olan {{.Count}} kişi
   NProfilePicture: "{{.Name}} profil resmi"
   NCommits: "{{.Count}} taahhüt"
 Comments:
