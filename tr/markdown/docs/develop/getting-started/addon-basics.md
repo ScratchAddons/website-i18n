@@ -18,6 +18,6 @@ Yeni bir eklenti oluşturmanın veya mevcut bir eklentiyi değiştirmenin daha i
 - Her ikisi de, kullanıcı etkileşimi gerektiren izinlere (bildirimler gibi) ihtiyaç duyar veya ihtiyaç duymaz.
 - Bir sürü kod paylaşıyorlar.
 - Kullanıcı, eklentinin her iki özelliği de sunmasını bekler.
-- Ayrılırlarsa, birbirlerine müdahale edebilirler.  
+- Ayrılırlarsa, birbirlerine müdahale edebilirler.
 
 Eklentilerin kullanıcı tarafından özelleştirilebileceğini unutmayın - yeni işlevler eklemek, özellikle yapmadığımız sürece eklentinin eski kullanıcılarını etkilemez.
