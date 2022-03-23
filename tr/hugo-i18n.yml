@@ -1,7 +1,7 @@
 Global:
   ScratchAddons: Scratch Eklentileri
   LogoAlt: Scratch Eklentileri'nin logosu
-  Install: İndirin
+  Install: İndir
   InstallFor: "{{.Browser}} için indirin"
   ReadTime:
     one: "{{.Count}} dakika"
@@ -98,7 +98,7 @@ IndexPage:
     DeveloperToolsHeading: Geliştirici araçları
     DeveloperToolsParagraph: "Orijinal uzantıdan. Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme ve çok daha fazlası!"
   Install:
-    Heading: İndirin
+    Heading: İndir
     Paragraph: Hoşunuza gitti mi? Şimdi kurmaktan çekinmeyin!
     InstallButton:
       Other: ...ama isterseniz {{.OpenTag1}}GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da indirebilirsiniz.
