@@ -2,9 +2,20 @@ Global:
   LogoAlt: Логотип Scratch Addons
   Install: Установить
   InstallFor: Установить для {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} минута"
+    other: "{{.Count}} минут(-ы)"
+  RSSDescription: Последний контент на {{ .SiteName }}
+  Website: Веб-сайт
+  Extension: Расширение
+Links:
+  Blog: Блог
+  Credits: Благодарности
+  PrivacyPolicy: Политика конфедициальности
 Nav:
   Feedback: Отправить отзыв
   Repository: Репозиторий
+  RepositoryLabel: Репозиторий в GitHub
   Install: Установить
 Footer:
   Pages:
@@ -27,6 +38,7 @@ Footer:
     Copyright: © {{.Count}} внёсшие вклад в Scratch Addons
     NoAffiliation: Scratch Addons не является аффилированным лицом, связан, или в любом виде официально соединён с сайтом Scratch, Команды Scratch, Учреждением Scratch, или любой из его дочерних компаний или филиалов.
     License: Scratch Addons лицензирован под условиями GNU General Public License v3.0.
+  Intro: На данный момент {{ .Version }} с {{ .AddonCount }} аддонами.
 DarkTheme:
   Title: Нажмите, чтобы переключить тёмную тему
   Label: Кнопка переключения тёмной темы
@@ -42,6 +54,7 @@ PlayerModal:
   AltText: Кликните, чтобы посмотреть это видео.
 IndexPage:
   Intro:
+    Tagline: Расширение «всё в одном» для браузера для Scratch
     Description: Scratch Addons — расширение для браузера, которое даёт новые возможности для веб сайта Scratch и его редактора проектов. Его миссия — коллекционировать, архивировать и делать юзерстили и юзерскрипты используемыми, которые разработаны некоторыми участниками сообщества Scratch.
     InstallButton:
       Loading: Загрузка...
@@ -78,12 +91,13 @@ IndexPage:
     ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Это можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
     ScratchNotifierParagraph: Добавляет браузерные уведомления к сообщениям на Scratch. Вы можете кликнуть на уведомление, чтобы перейти прямо к сообщению (комментарию, проекту и т. д.)
     DeveloperToolsHeading: Инструменты разработчика
+    DeveloperToolsParagraph: "С оригинального расширения. Добавляет поле поиска и новые опции контекстного меню в редакторе: копировать/вставить блоки, очистка блоков получше, перейти к другому блоку и многое другое!"
   Install:
     Heading: Установить
     Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!
     InstallButton:
       Other: ...или {{.OpenTag1}}скачайте с GitHub{{.CloseTag1}} или {{.OpenTag2}}установите с исходного кода{{.CloseTag2}}.
-  Users: Пользователи
+  Users: пользователей
 AddonsPage:
   EasterEggAddon: Это аддон в виде пасхалки.
   RecommendedAddon: Это рекомендованный аддон.
@@ -91,6 +105,8 @@ AddonsPage:
   EasterEggTooltip:
     L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.
     L2: На этой странице у пасхального аддона будет символ яйца рядом с его названием.
+  NAddons: "{{.Count}} аддонов"
+  SourceCodeLabel: Исходный код на GitHub
 FeedbackPage:
   Status:
     Sending: Отправка...
@@ -109,9 +125,17 @@ ChangelogPage:
   Links:
     Title: Ссылки
     ReleaseGitHub: Страница релиза на GitHub
+    RepoState: Статус репозитория в релизе
     CommitsMade: Количество commit'ов, сделанные на этой версии
   Status:
     Latest: Последняя версия
 UnsupportedBrowserPage:
   Download: Скачать
   HowToUpdate: Как обновиться
+Blog:
+  SectionSiteName: Блог Scratch Addons
+CreditsPage:
+  NContributors: "{{.Count}} внёсших вклад"
+  NProfilePicture: "Аватарка {{.Name}} "
+Comments:
+  Heading: Комментарии

@@ -2,14 +2,25 @@ Global:
   LogoAlt: Logo de Scratch Addons
   Install: Instalar
   InstallFor: Instalar para {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuto"
+    other: "{{.Count}} minutos"
+  RSSDescription: Contenido reciente en {{ .SiteName }}
+  Website: Sitio Web
+  Extension: Extensión
+Links:
+  Credits: Créditos
+  PrivacyPolicy: Política de Privacidad
 Nav:
   Feedback: Enviar Comentarios
   Repository: Repositorio
+  RepositoryLabel: Repositorio en GitHub
   Install: Instalar
+  ToggleNavigation: Activar/desactivar navegación
 Footer:
   Pages:
     Header: Páginas
-    FAQ: Preguntas frecuentes
+    FAQ: Preguntas Frecuentes
     Feedback: Enviar Comentarios
     Changelog: Lista de Cambios
   Discuss:
@@ -26,6 +37,7 @@ Footer:
     Copyright: © {{.Count}} Colaboradores de Scratch Addons
     NoAffiliation: Este proyecto no está afiliado, asociado, o de ninguna manera conectado oficialmente con la página web de Scratch, su Equipo, Fundación, o cualquiera de sus afiliados.
     License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
+  Intro: Actualmente {{ .Version }} con {{ .AddonCount }} addons.
 DarkTheme:
   Title: Activar/desacticar el modo oscuro.
   Label: Interruptor de modo oscuro
@@ -78,11 +90,13 @@ IndexPage:
     ScratchMessagingParagraph: 'El "abuelo" de Scratch Addons. Está disponible al hacer click en el ícono de Scratch Addons, y provee fácil lectura y respuesta a tus mensajes: agrupa los mensajes por proyecto, muestra todo el contenido de los comentarios y permite responder a ellos directamente.'
     ScratchNotifierParagraph: Agrega notificaciones del navegador cuando recibe nuevos mensajes. Haga click en la notificación para ir directamente al mensaje (comentario, proyecto, etc.)
     DeveloperToolsHeading: Herramientas de desarrollador
+    DeveloperToolsParagraph: "De la extensión original. Agrega una barra de búsqueda y nuevas opciones de menú para el editor: copie y pegue bloques, ordene de mejor manera, vaya directamente a la definición de un bloque personalizado y más."
   Install:
     Heading: Instalar
-    Paragraph: ¿Satisfecho? ¡No dudes en instalar ahora!
+    Paragraph: ¿Satisfecho? ¡No dude en instalar ahora!
     InstallButton:
       Other: ...o {{.OpenTag1}}descárguelo de GitHub{{.CloseTag1}} o {{.OpenTag2}}instálelo de la fuente{{.CloseTag2}}.
+  Users: Usuarios
 AddonsPage:
   EasterEggAddon: Este es un addon easter egg.
   RecommendedAddon: Este es un addon recomendado
@@ -90,6 +104,7 @@ AddonsPage:
   EasterEggTooltip:
     L1: Para activar los addons, haga el Código Konami (↑↑↓↓←→←→BA) en la página de configuración. Lea la página de preguntas frecuentes para más información.
     L2: En esta página, un addon easter egg tendrá un símbolo de un huevo al lado de su nombre.
+  SourceCodeLabel: Código fuente en GitHub
 FeedbackPage:
   Status:
     Sending: Enviando...
@@ -116,3 +131,11 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Descargar
   HowToUpdate: Cómo actualizar
+Blog:
+  SectionSiteName: Blog de Scratch Addons
+CreditsPage:
+  NContributors: "{{.Count}} contribuidores"
+  NProfilePicture: Foto de perfil de {{.Name}}
+Comments:
+  Heading: Comentarios
+  Description: Asegúrese de seguir {{ .OpenTag1 }} el código de conducta{{ .CloseTag1 }}. Puede ver esta sección de comentarios en {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }}, como también editar y eliminar su comentario.
