@@ -37,57 +37,57 @@ $ git fetch
 $ git pull
 ```
 
-This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
+Dit zal Scratch Addons updaten en het klaarmaken voor het bewerken van code. Onthoud wel dat je [hier](#install-on-google-chrome) het stuk over updates voltooien moet lezen als je Google Chrome gebruikt.
 
 
-### Downloading the zipball
+### De zipball downloaden
 
-If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
+Als je Git niet geïnstalleerd hebt, kun je in plaats daarvan dit proberen. Onthoud dat je dit proces elke keer handmatig moet herhalen als je Scratch Addons wilt updaten.
 
-1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
+1. Ga naar het [archief](https://github.com/ScratchAddons/ScratchAddons) en vind de code downloaden-knop.
 
-   ![Download code button screenshot](/assets/img/docs/download-code-button.png)
+   ![Screenshot van code-downloadknop](/assets/img/docs/download-code-button.png)
 
-2. Click it and select "Download ZIP".
+2. Klik erop en selecteer "ZIP downloaden".
 
-   ![Download ZIP button screenshot](/assets/img/docs/download-zipball-button.png)
+   ![Screenshot van ZIP-downloadknop](/assets/img/docs/download-code-button.png)
 
-3. Extract the archive into a folder.
+3. Pak het archief in een map uit.
 
-### Installing on Google Chrome
+### Installeren op Google Chrome
 
-1. Type `chrome://extensions` into your address bar to open the Extension Management page.
+1. Typ `chrome://extensions` in je adresbalk om de Extensiebeheerpagina te openen.
 
-2. Click the toggle next to `Developer mode` to turn on the Developer Mode. This allows you to install extensions from a folder or file.
+2. Klik de schakelaar naast `Ontwikkelaarmodus` om het aan te zetten. Dit geeft je de mogelijkheid om extensies van een map of bestand te downloaden.
 
-   ![Extension Managment top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+   ![Screenshot van Extensiebeheer bovenste balk](/assets/img/docs/developer-mode-toggle.png)
 
-3. You should see the `Load unpacked` button appear. Clicking it will allow you to select a folder to upload.
+3. Je zou de `Uitgepakte extensie laden`-knop moeten zien. Als je erop klikt kun je een bestand selecteren om te uploaden.
 
-   ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
+   ![Screenshot van uitgepakte extensie laden-knop](/assets/img/docs/load-unpacked-button.png)
 
-4. Select the extracted folder.
-5. The extension should now be loaded.
+4. Selecteer het uitgepakte bestand.
+5. De extensie zou nu geladen moeten zijn.
 
-To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
+Om het updaten af te ronden (ervan uitgaand dat je [hier](#cloning-the-repository) de stappen voor het updaten hebt gevolgd), klik op de `Updaten`-knop.
 
-![Update button screenshot](/assets/img/docs/update-button.png)
+![Screenshot van updaten-knop](/assets/img/docs/update-button.png)
 
 
-### Installing on Mozilla Firefox
+### Installeren op Mozilla Firefox
 
-1. Type `about:debugging` into your address bar to open the debugging page.
+1. Typ `about:debugging` in je adresbelk om de debugpagina te openen.
 
-2. Click `This Firefox` on the left-hand menu.
+2. Klik op `Deze Firefox` in het menu links.
 
-   ![Left-hand menu screenshot](/assets/img/docs/left-hand-menu.png)
+   ![Screenshot van linker menu](/assets/img/docs/left-hand-menu.png)
 
-4. Click `Load Temporary Add-on...`.
+4. Klik op `Tijdelijke Add-on Laden...`.
 
-   ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
+   ![Screenshot van Tijdelijke Add-on Laden-knop](/assets/img/docs/load-addon.png)
 
-6. Select the manifest.json file inside the extracted folder.
-7. The extension should now be loaded.
+6. Selecteer het manifest.json-bestand in de uitgepakte map.
+7. De extensie zou nu geladen moeten zijn.
 
-Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
+Opmerking: Tijdelijke add-ons zijn ook echt tijdelijk. Firefox opnieuw opstarten zal ze verwijderen, dus als je altijd de ontwikkelingsversie van Scratch Addons wilt gebruiken, is het aanbevolen om een Chromium-gebaseerde browser te gebruiken zoals Google Chrome.
 
