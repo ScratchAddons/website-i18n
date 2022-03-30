@@ -110,6 +110,8 @@ FeedbackPage:
     Sending: Verzenden...
     Success: Verzonden! Bedankt voor de feedback.
     Failed: Er is iets misgegaan. Probeer het opnieuw te verzenden?
+    Offline: Er ging iets fout bij de feedbackservers. Probeer het later opnieuw, of gebruik de genoemde alternatieven.
+  NoAddonsList: De lijst is niet beschikbaar om te worden verzonden. Open alsjeblieft deze pagina via de extensie.
   UsernameLabel: Scratchgebruikersnaam, of andere identificaties (optioneel)
   ContentPlaceholder: Probeer zo gedetailleerd mogelijk te zijn.
   SendEnabled: Verstuur een lijst met mijn gebruikte addons (aanbevolen)

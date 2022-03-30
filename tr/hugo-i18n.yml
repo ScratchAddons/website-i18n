@@ -117,6 +117,8 @@ FeedbackPage:
     Sending: Gönderiliyor...
     Success: Gönderildi! Geri bildiriminiz için teşekkür ederiz.
     Failed: Bir şeyler ters gitti. Tekrar denemek ister misiniz?
+    Offline: Geri bildirim sunucusunda bir şeyler ters gitti. Daha sonra tekrar deneyin veya belirtilen alternatifleri kullanın.
+  NoAddonsList: Liste gönderilmeye müsait değil. Lütfen bu sayfayı uzantı ile birlikte açın.
   UsernameLabel: Scratch kullanıcı adı, veya diğer tanımlayıcılar (isteğe bağlı)
   ContentLabel: Geri bildirim
   ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.

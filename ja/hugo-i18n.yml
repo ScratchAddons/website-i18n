@@ -118,6 +118,8 @@ FeedbackPage:
     Sending: 送信中...
     Success: 送信されました。意見ありがとうございます。
     Failed: 送信に失敗しました。もう一度やり直してください。
+    Offline: フィードバックサーバーに問題が発生しました。後でもう一度確認するか、他の方法で連絡してください。
+  NoAddonsList: 現在送信できません。拡張機能経由でページを開いてください。
   UsernameLabel: Scratchのユーザー名 (任意)
   ContentLabel: フィードバック
   ContentPlaceholder: 可能な限り詳細を提供してください。

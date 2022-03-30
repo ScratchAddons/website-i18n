@@ -23,21 +23,21 @@ Op deze manier kan iedereen die je taal spreekt van Scratch Addons gebruikmaken 
 
 - Ga naar [onze Transifex-pagina](https://www.transifex.com/scratch-addons/scratch-addons-extension/), en klik op de blauwe "Help met Vertalen van Scratch Addons"-knop.
 - Gebruik dezelfde gebruikersnaam als je Scratchaccount. Vul je e-mail en een nieuw wachtwoord in, en dan Registreren.
-- Enter your username as your name and surname - **do not use your real name**.
-_Note: choose any option for "department" and "job title", we recommend "localization" and "individual contributor"_
-- On then next step, select "join an existing project".
-- Choose the language you want to help with.
+- Vul je gebruikersnaam in als je voor- en achternaam - **gebruik niet je echte naam**.
+_Opmerking: het maakt niet uit wat je kiest voor "afdeling" en "functietitel", maar we raden "lokalisatie" en "individuele bijdrager" aan_
+- In de volgende stap, selecteer "meedoen met een bestaand project".
+- Kies de taal waarmee je wilt helpen.
 
-You'll soon be accepted into the Transifex team and you'll get email notifications when there are new strings to translate.
+Je zult binnenkort geaccepteerd worden in het Transifex-team en je zult nieuwe e-mails krijgen wanneer er nieuwe strings zijn om te vertalen.
 
-### Notes:
+### Opmerkingen:
 
-- Scratch must be translated in that language.
-- Unlike Scratch, we only support one dialect per language (Scratch Addons will never have Latin American Spanish, nor Portugal Portuguese).
-- It may take a few hours/days before your request is accepted.
-- If you get accepted, you may add yourself (or be added) to our [website's contributors page](https://scratchaddons.com/contributors).
-- Legal stuff: your translations will be licensed under the same license as Scratch Addons (GPL v3.0)
+- Scratch moet vertaald zijn in die taal.
+- In tegenstelling tot Scratch ondersteunen wij maximaal één dialect per taal (Scratch Addons zal nooit Latijns-Amerikaans Spaans, of Portugal-Portugees hebben).
+- Het kan een paar uur/dagen duren voordat je verzoek is geaccepteerd.
+- Als je wordt geaccepteerd, mag je jezelf toevoegen (of worden toegevoegd) aan onze [bijdragerspagina](https://scratchaddons.com/contributors).
+- Legaal: je vertalingen zijn vergund onder dezelfde licentie als Scratch Addons (GPL v3.0)
 
-### Any questions?
+### Nog vragen?
 
-If you have any questions about translating, feel free to [open a discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required) or [send feedback](https://scratchaddons.com/feedback) (no account required, but make sure to specify your Scratch username).
+Als je nog vragen hebt over vertalen, voel je vrij om [een discussie te openen](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-account vereist) of [geef feedback](https://scratchaddons.com/feedback) (geen account vereist, maar specificeer wel je Scratch-gebruikersnaam).
