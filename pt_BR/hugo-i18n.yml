@@ -113,6 +113,8 @@ FeedbackPage:
     Sending: Enviando...
     Success: Enviado! Obrigado pelo feedback.
     Failed: Algo deu errado. Tente enviar de novo.
+    Offline: Algo deu errado no servidor de feedback. Tente novamente mais tarde, ou use uma das alternativas mencionadas.
+  NoAddonsList: A lista não pode ser enviada. Por favor, abra esta página através da extensão.
   UsernameLabel: Nome de usuário no Scratch, ou outro apelido (opcional)
   ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
   SendEnabled: Enviar lista de addons ativados atualmente (recomendado)
@@ -138,4 +140,4 @@ CreditsPage:
   NProfilePicture: foto de perfil de {{.Name}}
 Comments:
   Heading: Comentários
-  Description: Esteja ciente em {{ .OpenTag1 }}seguir o código de conduta{{ .CloseTag1 }}. Você pode ver a seção deste comentário no {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }}, além de editar e remover o seu comentário.
+  Description: Esteja ciente em {{ .OpenTag1 }}seguir o código de conduta{{ .CloseTag1 }}. Você pode ver esta seção de comentários no {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }}, além de editar e remover o seu comentário.
