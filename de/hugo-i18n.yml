@@ -108,6 +108,8 @@ FeedbackPage:
     Sending: Wird gesendet…
     Success: Gesendet! Danke für dein Feedback!
     Failed: Es ist ein Fehler aufgetreten? Erneut senden?
+    Offline: Am Feedback-Server ist etwas schiefgelaufen. Versuche es später erneut oder verwende die erwähnten Alternativen.
+  NoAddonsList: Die Liste ist nicht verfügbar. Bitte öffne diese Seite durch den Knopf in der Erweiterung.
   UsernameLabel: Scratch-Benutzername, oder andere Erkennungen (optional)
   ContentPlaceholder: Bitte stelle so viele Details wie du kannst zu Verfügung.
   SendEnabled: Liste der Addons, die gerade aktiviert sind, senden (empfohlen)
