@@ -3,10 +3,16 @@ Global:
   LogoAlt: logo Scratch Addons
   Install: Zainstaluj
   InstallFor: Zainstaluj dla {{.Browser}}
+  Extension: Rozszerzenie
+Links:
+  Credits: Twórcy
+  PrivacyPolicy: Polityka Prywatności
 Nav:
   Feedback: Prześlij opinię
   Repository: Repozytorium
+  RepositoryLabel: Repozytorium na Githubie
   Install: Instaluj
+  ToggleNavigation: Przełącz nawigację
 Footer:
   Pages:
     Header: Strony
@@ -48,7 +54,7 @@ IndexPage:
     Description: Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch i edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a
     InstallButton:
       Loading: Ładowanie...
-      Description: darmowe, otwarte źródło
+      Description: darmowe, open-source
     ReadMore: lub czytaj więcej
     Carousel:
       Video:

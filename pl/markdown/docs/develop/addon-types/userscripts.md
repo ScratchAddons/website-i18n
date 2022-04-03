@@ -1,11 +1,11 @@
 ---
-title: Userscripts
-description: Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+title: Kody strony
+description: Kody strony pozwalają wywołać kod, na stronach Scratch. Za pomocą ich możesz dodać przyciski, zmieniać editor Scratcha, lub robić cokolwiek co wymarzysz!
 ---
 ## Po co one są?
-Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+Kody strony pozwalają wywołać kod, na stronach Scratch. Za pomocą ich możesz dodać przyciski, zmieniać editor Scratcha, lub robić cokolwiek co wymarzysz!
 
-## How do I add a userscript?
+## Jak mogę dodać kod strony?
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 Go to the manifest of your addon (addon.json) and add a property called `userscripts"`.  
 This property must be an array.  

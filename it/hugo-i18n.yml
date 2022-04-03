@@ -39,6 +39,7 @@ Footer:
     Copyright: © {{.Count}} Sviluppatori degli Scratch Addon
     NoAffiliation: Scratch Addon non è affiliato, associato o connesso ufficialmente in alcun modo con Scratch, lo Scratch Team, la Scratch Foundation o qualunque loro filiale o affiliata.
     License: Scratch Addon è concesso in licenza secondo i termini della GNU General Public License v3.0.
+  Intro: Al momento {{ .Version }} con {{ .AddonCount }} addon.
 DarkTheme:
   Title: Clicca per passare al tema scuro.
   Label: Passaggio a tema scuro
@@ -115,6 +116,8 @@ FeedbackPage:
     Sending: Invio in corso...
     Success: Inviato! Grazie per il tuo feedback.
     Failed: Qualcosa non ha funzionato. Vuoi provare a inviare di nuovo?
+    Offline: Qualcosa è andato storto sul Server del Feedback. Riprova più tardi oppure usa le alternative menzionate.
+  NoAddonsList: La lista non è disponibile. Apri questa pagina attraverso il pulsante nell'estensione.
   UsernameLabel: Username del sito di Scratch, o altro identificatore (opzionale)
   ContentPlaceholder: Dacci più dettagli che puoi.
   SendEnabled: Invia la lista degli addon abilitati (raccomandato)
@@ -141,3 +144,6 @@ CreditsPage:
   NContributors: "{{.Count}} hanno contribuito"
   NProfilePicture: "{{.Name}} immagine del profilo"
   NCommits: "{{.Count}} commit"
+Comments:
+  Heading: Commenti
+  Description: "Assicurati di seguire {{ .OpenTag1 }}il codice di comportamento{{ .CloseTag1 }}. Puoi vedere questa sezione di commenti su {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} così come modificare o cancellare il tuo commento.    "

@@ -4,7 +4,7 @@ title: Создание аддона
 Нужное программное обеспечение: текстовый редактор, Chrome.  
 Если возможно, отключите расширение Scratch Addons, которое Вы скачали с магазина до продолжения, чтобы избежать проблемы.
 
-## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
+## Шаг 1: Прочитайте о [основах аддона](/ru/docs/develop/getting-started/addon-basics/)
 Не забудьте прочитать эту статью, чтобы знать терминологию.
 
 ## Шаг 2: Сделайте fork/клон репозитории
@@ -33,13 +33,13 @@ title: Создание аддона
 Это основа, на которой Вы можете начать программировать, не забудьте её поменять в будущем:
 ```json
 {
-  "name": "Epic placeholder text in place of addon name",
-  "description": "Hello World! It would be really smart to replace this placeholder text with a description.",
+  "name": "Эпичный текст-заполнитель в месте названия аддона",
+  "description": "Привет, мир! Было бы умно заменить этот текст-заполнитель описанием.",
   "tags": ["community"],
   "enabledByDefault": false
 }
 ```
-For more information on what you can declare in the manifest, check [this article](/docs/reference/addon-manifest/).
+Для большей информацией о том, что Вы можете указать в манифесте, посмотрите [эту статью](/ru/docs/reference/addon-manifest/).
 
 
 ## Шаг 7: Скажите Scratch Addons, какой ID у Вашего аддона
@@ -73,6 +73,7 @@ Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon
 Убедитесь в том, что манифест Вашего аддона подходящий, [больше информации находится здесь](/docs/reference/addon-manifest). Обращайте внимание на имя, описание и тэги аддона. Не забудьте поставить `"enabledByDefault"` значение `false` или удалить этот ключ.  
 Убедитесь в том, что Ваш аддон не ломает другие.  
 Убедитесь, что Ваш код понятен; необязательные комментарии лучше, чем никаких комментариев.
+Также не забудьте поменять название и описание на английское.
 
 ## Шаг 12: Отправьте pull запрос!
 Сделайте fork репозитории, если не сделали, зафиксируйте свой новый аддон и отправьте pull request!  

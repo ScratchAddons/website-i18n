@@ -5,7 +5,7 @@ description: Grazie per il tuo interesse ad aggiungerti al Team di volontari che
 
 {{< admonition info >}}
 
-_Already translated: **Italian, Japanese, Portuguese, Slovenian and Spanish**. We won't be accepting any new translators for these languages._
+_Già tradotti: **Italiano, Giapponese, Portoghese, Sloveno e Spagnolo**. Non accettiamo più nuovi traduttori per queste lingue._
 
 {{< /admonition >}}
 

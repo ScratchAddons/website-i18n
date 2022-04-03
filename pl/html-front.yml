@@ -6,6 +6,8 @@ addons.html:
 changelog.html:
   title: Lista zmian
   description: "Wszystkie aktualizacje w tym projekcie zostaną udokumentowane na tej stronie. "
+credits.html:
+  title: Twórcy
 farewell.html:
   title: Pożegnanie!
   description: "Scratch Addons został odinstalowany. Dziękujemy za skorzystanie z rozszerzenia! "
