@@ -4,6 +4,9 @@ Global:
   Install: Zainstaluj
   InstallFor: Zainstaluj dla {{.Browser}}
   Extension: Rozszerzenie
+  Carousel:
+    Prev: Poprzedni
+    Next: Następny
 Links:
   Credits: Twórcy
   PrivacyPolicy: Polityka Prywatności
@@ -68,8 +71,6 @@ IndexPage:
       Demo:
         Caption: Demonstracja rozszerzenia ({{.Count}}).
         ImgAlt: Demonstracjia ({{.Count}})
-      Previous: Poprzedni
-      Next: Następny
   Features:
     Heading: Funkcjonalności
     AddonsHeading: Dodatki
@@ -83,11 +84,6 @@ IndexPage:
   Highlights:
     Heading: Warte wyróżnienia
     Paragraph: Po za tymi dodatkami wspaniałymi dodatkami, znajdziesz {{.OpenTag1}} jeszcze więcej! {{.CloseTag1}}
-    ScratchMessagingHeading: Wiadomości Scratch
-    ScratchMessagingParagraph: "Pierwszy dodatek do Scratch. Jest dostępny po kliknięciu ikony Scratch Addons i zapewnia łatwe czytanie i odpowiadanie na Twoje wiadomości . Grupuje je według projektu, pokazuje pełny tekst komentarza i kontekst, umożliwia bezpośrednie odpowiadanie na komentarze. "
-    ScratchNotifierHeading: Powiadomienia Scratch
-    ScratchNotifierParagraph: Wysyła powiadomienia, gdy otrzymasz nową wiadomość. Możesz kliknąć na powiadomienie, aby przejść prosto do wiadomości (komentarza, projektu itp.).
-    DeveloperToolsHeading: Narzędzia Deweloperskie
   Install:
     Heading: Instalacja
     Paragraph: "Zainstaluj Nasz dodatek na różne przeglądarki:"

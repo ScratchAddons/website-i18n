@@ -7,6 +7,9 @@ Global:
     other: "{{.Count}} Minuten"
   RSSDescription: Neuer Inhalt auf {{ .SiteName }}
   Extension: Erweiterung
+  Carousel:
+    Prev: Vorheriges
+    Next: Nächstes
 Links:
   Credits: Danksagungen
   PrivacyPolicy: Datenschutzerklärung
@@ -70,8 +73,6 @@ IndexPage:
       Demo:
         Caption: Vorführung der Erweiterung. ({{.Count}})
         ImgAlt: Vorführung ({{.Count}})
-      Previous: Vorheriges
-      Next: Nächstes
   Features:
     AddonsParagraph: Scratch Addons besteht aus Funktionen, die deine Erfahrung auf der Scratch-Website und dem Scratch-Editor verbessern.
     CustomizableHeading: Anpassbar
@@ -81,12 +82,6 @@ IndexPage:
     OSParagraph: Scratch Addons ist kostenlos, open-source und von einer Scratcher-Community entwickelt.
   Highlights:
     Paragraph: Vergiss nicht, dies sind nur die Highlights. {{.OpenTag1}}Es gibt mehr!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratch-Nachrichten
-    ScratchMessagingParagraph: 'Der "Großvater" von Scratch Addons. Er ist verfügbar, wenn du auf das Scratch Addons-Icon klickst, und stellt schnelles Lesen und Beantworten von Scratch-Nachrichten zur Verfügung: es gruppiert Nachrichten nach Projekt, zeigt vollen Kommentartext und -kontext und erlaubt direkte Antworten auf Kommentare.'
-    ScratchNotifierHeading: Scratch-Notifier
-    ScratchNotifierParagraph: Es fügt Browser-Benachrichtigungen bei neuen Scatch-Nachrichten hinzu. Du kanst die Benachrichtigung anklicken, um schnell zur Nachricht zu gelangen (Kommentar, Projekt, usw.)
-    DeveloperToolsHeading: Entwicklertools
-    DeveloperToolsParagraph: "Von der ursprünglichen Erweiterung. Es fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Blöcke kopieren und einfügen, besseres Aufräumen, gehe zur Definition eines benutzerdefinierten Blocks, und mehr!"
   Install:
     Heading: Installieren
     Paragraph: Zufrieden? Zögere nicht und installiere es jetzt!

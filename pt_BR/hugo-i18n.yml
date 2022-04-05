@@ -7,6 +7,9 @@ Global:
     other: "{{.Count}} minutos"
   RSSDescription: Conteúdo recente no {{ .SiteName }}
   Extension: Extensão
+  Carousel:
+    Prev: Anterior
+    Next: Próximo
 Links:
   Credits: Créditos
   PrivacyPolicy: Política de Privacidade
@@ -73,8 +76,6 @@ IndexPage:
       Demo:
         Caption: Demonstração da extensão. ({{.Count}})
         ImgAlt: Demonstração ({{.Count}})
-      Previous: Anterior
-      Next: Próximo
   Features:
     Heading: Funções
     AddonsParagraph: O Scratch Addons é feito de addons, que são funções para empoderar sua experiência com o website e editor do Scratch.
@@ -87,12 +88,6 @@ IndexPage:
   Highlights:
     Heading: Destaques
     Paragraph: Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito mais!{{.CloseTag1}}
-    ScratchMessagingHeading: Mensagens Scratch
-    ScratchMessagingParagraph: 'O "avô" do Scratch Addons. Está disponível ao clicar no ícone do Scratch Addons, e te deixa facilmente ler e responder às suas mensagens do Scratch: mensagens agrupadas por projeto, mostra o texto e contexto completos do comentário, te deixa responder diretamente.'
-    ScratchNotifierHeading: Notificador do Scratch
-    ScratchNotifierParagraph: Permite que o navegador te notifique sobre novas mensagens no Scratch. Você pode clicar na notificação para ir direto à mensagem (comentário, projeto, etc.)
-    DeveloperToolsHeading: Ferramentas de desenvolvedor
-    DeveloperToolsParagraph: "Da extensão original. Adiciona uma barra de busca e novas opções ao menu do editor, com funções de: copiar e colar blocos, função de limpar aprimorado, encontrar definição de bloco, e mais!"
   Install:
     Heading: Instalar
     Paragraph: Parece bom? Não hesite e instale agora!

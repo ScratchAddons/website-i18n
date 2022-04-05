@@ -9,6 +9,9 @@ Global:
   RSSDescription: "{{ .SiteName }} ile ilgili son içerikler"
   Website: Site
   Extension: Uzantı
+  Carousel:
+    Prev: Önceki
+    Next: Sonraki
 Links:
   Credits: Teşekkürler
   PrivacyPolicy: Gizlilik Politikası
@@ -76,8 +79,6 @@ IndexPage:
       Demo:
         Caption: Uzantının görüntülenmesi. ({{.Count}})
         ImgAlt: Görüntüleme ({{.Count}})
-      Previous: Önceki
-      Next: Sonraki
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
@@ -91,12 +92,6 @@ IndexPage:
   Highlights:
     Heading: Öne Çıkanlar
     Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Çok daha fazlası var!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratch Mesajlaşma
-    ScratchMessagingParagraph: 'O, Scratch Eklentilerinin "dedesi". Scratch Eklentileri simgesine tıklandığında kullanılabilir ve Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırmaya, tam yorum metni ve bağlamını göstermeye, doğrudan yorum yanıtlamaya izin verir.'
-    ScratchNotifierHeading: Scratch Bildirimcisi
-    ScratchNotifierParagraph: Scratch mesajlarına yeni tarayıcı bildirimleri ekler. Doğrudan mesaja (yorum, proje, vb.) gitmek için bildirime tıklayabilirsiniz.
-    DeveloperToolsHeading: Geliştirici araçları
-    DeveloperToolsParagraph: "Orijinal uzantıdan. Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme, özel blok tanımına gitme ve çok daha fazlası!"
   Install:
     Heading: İndir
     Paragraph: Hoşunuza gitti mi? Şimdi kurmaktan çekinmeyin!

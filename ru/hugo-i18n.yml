@@ -8,6 +8,9 @@ Global:
   RSSDescription: Последний контент на {{ .SiteName }}
   Website: Веб-сайт
   Extension: Расширение
+  Carousel:
+    Prev: Предыдущий
+    Next: Следующий
 Links:
   Blog: Блог
   Credits: Благодарности
@@ -72,8 +75,6 @@ IndexPage:
       Demo:
         Caption: Демонстрация расширения. ({{.Count}})
         ImgAlt: Демонстрация ({{.Count}})
-      Previous: Предыдущий
-      Next: Следующий
   Features:
     Heading: Особенности
     AddonsHeading: Аддоны
@@ -87,11 +88,6 @@ IndexPage:
   Highlights:
     Heading: Основное
     Paragraph: Это всего-лишь самое основное. {{.OpenTag1}}Есть ещё!{{.CloseTag1}}
-    ScratchMessagingHeading: Сообщения Scratch
-    ScratchMessagingParagraph: "«Дедушка» Scratch Addons. Это можно открыть нажатием иконки Scratch Addons и он даёт лёгкий доступ к Вашим Scratch сообщениям: группирует сообщения по проекту, показывает полный текст комментария, позволяет ответить на комментарии."
-    ScratchNotifierParagraph: Добавляет браузерные уведомления к сообщениям на Scratch. Вы можете кликнуть на уведомление, чтобы перейти прямо к сообщению (комментарию, проекту и т. д.)
-    DeveloperToolsHeading: Инструменты разработчика
-    DeveloperToolsParagraph: "С оригинального расширения. Добавляет поле поиска и новые опции контекстного меню в редакторе: копировать/вставить блоки, очистка блоков получше, перейти к другому блоку и многое другое!"
   Install:
     Heading: Установить
     Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!

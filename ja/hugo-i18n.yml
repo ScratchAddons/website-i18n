@@ -8,6 +8,9 @@ Global:
   RSSDescription: "{{ .SiteName }}の最近のコンテンツ"
   Website: ウェブサイト
   Extension: 拡張機能
+  Carousel:
+    Prev: 戻る
+    Next: 進む
 Links:
   Blog: ブログ
   Credits: クレジット
@@ -76,8 +79,6 @@ IndexPage:
       Demo:
         Caption: 拡張機能の紹介 ({{.Count}})
         ImgAlt: 紹介 ({{.Count}})
-      Previous: 戻る
-      Next: 進む
   Features:
     Heading: 機能
     AddonsHeading: アドオン
@@ -91,12 +92,6 @@ IndexPage:
   Highlights:
     Heading: ハイライト
     Paragraph: これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratchメッセージ
-    ScratchMessagingParagraph: Scratch Addonsの元祖。拡張機能のアイコンをクリックしたときに、Scratchメッセージを簡単に読んだり返信したりできる画面を表示します。メッセージはプロジェクトごとにグループ化され、コメントの全文を表示し、そして直接返信可能です。
-    ScratchNotifierHeading: Scratch通知
-    ScratchNotifierParagraph: Scratchメッセージが来た時に通知します。通知をクリックしてメッセージに直接行けます。
-    DeveloperToolsHeading: 開発者ツール
-    DeveloperToolsParagraph: オリジナルの拡張機能から追加。検索バーやブロックのコピペ、定義ブロックに移動する機能などを追加しました。
   Install:
     Heading: インストール
     Paragraph: 満足しましたか? 今すぐインストールを!

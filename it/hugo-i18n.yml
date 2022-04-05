@@ -9,6 +9,9 @@ Global:
   RSSDescription: Contenuto recente su {{ .SiteName }}
   Website: Sito web
   Extension: Estensione
+  Carousel:
+    Prev: Precedente
+    Next: Seguente
 Links:
   Credits: Crediti
   PrivacyPolicy: Politica della Privacy
@@ -75,8 +78,6 @@ IndexPage:
       Demo:
         Caption: Dimostrazione dell'estensione. ({{.Count}})
         ImgAlt: Dimostrazione ({{.Count}})
-      Previous: Precedente
-      Next: Seguente
   Features:
     Heading: Funzionalità
     AddonsHeading: Addon
@@ -89,12 +90,6 @@ IndexPage:
   Highlights:
     Heading: Esempi
     Paragraph: Ricorda, questi sono solo alcuni esempi. {{.OpenTag1}}C'è molto di più!{{.CloseTag1}}
-    ScratchMessagingHeading: Messaggi di Scratch
-    ScratchMessagingParagraph: "E' il \"nonno\" degli Scratch Addon. Lo trovi quando clicchi l'icona Scratch Addon e ti permette di leggere e rispondere facilmente ai tuoi messaggi del sito di Scratch: raggruppa i messaggi per progetto, mostra il testo completo e il contesto del commento, ti permette di rispondere direttamente ad un commento."
-    ScratchNotifierHeading: Notifiche di Scratch
-    ScratchNotifierParagraph: Abilita le notifiche del browser per i nuovi messaggi del sito di Scratch. Puoi cliccare la notifica per andare direttamente al messaggio (al commento, al progetto, ecc).
-    DeveloperToolsHeading: Strumenti per sviluppatori
-    DeveloperToolsParagraph: "Dall'estensione originale. Aggiunge una casella di ricerca e nuove opzioni nei menu dell'editor: copia/incolla dei blocchi, riordino migliorato, ricerca della definizione dei blocchi personalizzati e molto altro!"
   Install:
     Heading: Installa
     Paragraph: Soddisfatto? Non aspettare, installala subito!

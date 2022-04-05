@@ -7,6 +7,9 @@ Global:
     other: "{{.Count}} minuten"
   RSSDescription: Recente inhoud op {{ .SiteName }}
   Extension: Extensie
+  Carousel:
+    Prev: Vorige
+    Next: Volgende
 Links:
   PrivacyPolicy: Privacybeleid
 Nav:
@@ -70,8 +73,6 @@ IndexPage:
       Demo:
         Caption: Demonstratie van de extensie. ({{.Count}})
         ImgAlt: Demonstratie ({{.Count}})
-      Previous: Vorige
-      Next: Volgende
   Features:
     Heading: Functies
     AddonsParagraph: Scratch Addons bestaat uit addons, dat zijn functies die je Scratchwebsite en editorervaring versterken.
@@ -84,12 +85,6 @@ IndexPage:
   Highlights:
     Heading: Hoogtepunten
     Paragraph: Onthoud, dit zijn nog maar de hoogtepunten. {{.OpenTag1}}Er is nog meer!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratch Berichten
-    ScratchMessagingParagraph: 'De "grootvader" van Scratch Addons. Het is beschikbaar door op het Scratch Addons-icoon te klikken, en laat je makkelijker je Scratchberichten lezen en erop antwoorden: groepeert berichten per project, laat volledige opmerkingtekst en -context zien, antwoord direct op opmerkingen.'
-    ScratchNotifierHeading: Scratch Berichtgever
-    ScratchNotifierParagraph: Geeft je browsernotificaties bij nieuwe Scratchberichten. Je kunt op de notificatie klikken om er direct heen te gaan (opmerking, project, etc.)
-    DeveloperToolsHeading: Ontwikkelaarstools
-    DeveloperToolsParagraph: "Van de originele extensie. Het voegt een zoekbalk en nieuwe menuopties toe aan de editor: kopieer/plak blokken, betere opruimer, naar blokdefinitie springen, en meer!"
   Install:
     Heading: Installeren
     Paragraph: Tevreden? Aarzel niet en installeer het nu!
