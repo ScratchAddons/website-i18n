@@ -10,6 +10,9 @@ Global:
   Carousel:
     Prev: Vorheriges
     Next: Nächstes
+    First: Zum ersten springen
+    Last: Zum letzten springen
+    SlideX: Zu {{ .Count }} springen
 Links:
   Credits: Danksagungen
   PrivacyPolicy: Datenschutzerklärung
@@ -91,6 +94,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Dies ist ein Easter Egg-Addon.
   RecommendedAddon: Dies ist ein empfohlenes Addon.
+  FeaturedAddon: Dies ist ein vorgestelltes Addon.
+  BetaAddon: Dieses Addon ist in der Beta-Version.
   ListViewLabel: Listenansicht
   EasterEggLabel: Easter Egg
   EasterEggTooltip:

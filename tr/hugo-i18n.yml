@@ -12,6 +12,9 @@ Global:
   Carousel:
     Prev: Önceki
     Next: Sonraki
+    First: Birinciye git
+    Last: Sonuncuya git
+    SlideX: "{{ .Count }}. öğeye git"
 Links:
   Credits: Teşekkürler
   PrivacyPolicy: Gizlilik Politikası
@@ -101,6 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Bu bir easter egg eklentisidir.
   RecommendedAddon: Bu, önerilen bir eklentidir.
+  FeaturedAddon: Bu eklenti öneriliyor.
+  BetaAddon: Bu eklenti beta aşamasında.
   ListViewLabel: Liste görünümü
   EasterEggTooltip:
     L1: Eklentiyi etkinleştirmek için, ayarlar sayfasında Konami Kodu'nu (↑↑↓↓←→←→BA) yapınız. Daha fazla bilgi için SSS sayfasını okuyunuz.

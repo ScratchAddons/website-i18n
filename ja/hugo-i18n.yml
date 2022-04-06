@@ -11,6 +11,9 @@ Global:
   Carousel:
     Prev: 戻る
     Next: 進む
+    First: 最初の項目へ移動
+    Last: 最後の項目へ移動
+    SlideX: 項目{{ .Count }}へ移動
 Links:
   Blog: ブログ
   Credits: クレジット
@@ -101,6 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: イースターエッグです。
   RecommendedAddon: おすすめのアドオンです。
+  FeaturedAddon: 注目のアドオンです。
+  BetaAddon: ベータ版アドオンです。
   ListViewLabel: 一覧表示
   EasterEggLabel: イースターエッグ
   EasterEggTooltip:
