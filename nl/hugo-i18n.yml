@@ -10,6 +10,9 @@ Global:
   Carousel:
     Prev: Vorige
     Next: Volgende
+    First: Naar eerste gaan
+    Last: Naar laatste gaan
+    SlideX: Naar item {{ .Count }} gaan
 Links:
   PrivacyPolicy: Privacybeleid
 Nav:
@@ -94,6 +97,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Dit is een geheime addon.
   RecommendedAddon: Dit is een aanbevolen addon.
+  FeaturedAddon: Dit is een uitgelichte addon.
+  BetaAddon: Deze addon is in bèta.
   ListViewLabel: Lijstweergave
   EasterEggLabel: Geheim
   EasterEggTooltip:
