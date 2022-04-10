@@ -7,6 +7,9 @@ Global:
   FirefoxShort: 파이어폭스
   Install: 설치하기
   InstallFor: "{{.Browser}}에 설치하기"
+  Carousel:
+    Prev: 이전
+    Next: 다음
 Nav:
   Feedback: 문의하기
   Repository: 레포지토리
@@ -70,8 +73,6 @@ IndexPage:
       Demo:
         Caption: 확장 프로그램의 예시 ({{.Count}})
         ImgAlt: 예시 ({{.Count}})
-      Previous: 이전
-      Next: 다음
   Features:
     Heading: 기능
     AddonsHeading: 애드온
@@ -85,11 +86,6 @@ IndexPage:
   Highlights:
     Heading: 주요 기능
     Paragraph: 기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더 알아보세요{{.CloseTag1}}.
-    ScratchMessagingHeading: 스크래치 메시지 확장 프로그램
-    ScratchMessagingParagraph: 스크래치 애드온의 시작입니다. 이 기능은 스크래치 애드온 아이콘을 클릭할 때 사용할 수 있으며 스크래치 메시지를 쉽게 읽고 회신할 수 있습니다. 프로젝트별로 메시지를 분류하고 전체 설명 텍스트와 문단를 표시하며 직접 답글을 달 수 있습니다.
-    ScratchNotifierHeading: 스크래치 알리미
-    ScratchNotifierParagraph: 스크래치 알리미는 새로운 스크래치 메시지가 도착하면 브라우저 알림으로 알립니다. 알림을 클릭하여 댓글이나 프로젝트와 같은 메시지의 발신원으로 바로 이동할 수 있습니다.
-    DeveloperToolsHeading: 개발자 도구
   Install:
     Heading: 설치하기
     Paragraph: 만족하시나요? 주저하지 마시고 지금 설치하세요!

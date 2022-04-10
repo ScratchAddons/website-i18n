@@ -46,11 +46,6 @@ IndexPage:
   Highlights:
     Heading: Evidențieri
     Paragraph: Ține minte, acestea sunt doar evidențierile. {{.OpenTag1}} Există mai mult! {{.CloseTag1}}
-    ScratchMessagingHeading: Mesagerie Scratch
-    ScratchMessagingParagraph: '"Bunicul" Extensii Scratch. Este disponibil la apăsarea iconiței Extensii Scratch, și pune la dispoziție citire și răspundere ușoară la mesajele tale Scratch: grupează mesajele pe proiect, afișează conținutul și contextul complet al comentariilor, permite răspundere directă la comentarii.'
-    ScratchNotifierHeading: Notificator Scratch
-    ScratchNotifierParagraph: Adaugă notificări de browser pe mesajele noi Scratch. Poți da copiilo clic pe notificare pentru a ajunge direct la mesaj (comentariu, proiect, etc.)
-    DeveloperToolsHeading: Instrumente pentru dezvoltatori
   Install:
     Heading: Instalează
     Paragraph: Satisfăcut? Nu ezita să o instalezi acum!

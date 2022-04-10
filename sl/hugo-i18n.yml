@@ -8,6 +8,9 @@ Global:
   RSSDescription: Nedavna vsebina na {{ .SiteName }}
   Website: Spletna stran
   Extension: Razširitev
+  Carousel:
+    Prev: Nazaj
+    Next: Naprej
 Links:
   Credits: Zahvale
   PrivacyPolicy: Politika zasebnosti
@@ -75,8 +78,6 @@ IndexPage:
       Demo:
         Caption: Prikaz razširitve. ({{.Count}})
         ImgAlt: Prikaz ({{.Count}})
-      Previous: Nazaj
-      Next: Naprej
   Features:
     Heading: Funkcije
     AddonsHeading: Dodatki
@@ -90,9 +91,6 @@ IndexPage:
   Highlights:
     Heading: Izpostavljeno
     Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
-    ScratchMessagingParagraph: "Prednik razširitve Scratch Addons. Na voljo je, ko kliknite ikono Scratch Addons, in omogoča enostavno branje in odgovarjanje na sporočila: združi sporočila glede na projekt, prikaže celo besedilo in sobesedilo komentarjev, omogoča neposredno odgovarjanje na komentarje."
-    ScratchNotifierParagraph: Doda obvestila brskalnika, ko dobite nova sporočila na Scratchu. Obvestilo lahko kliknete, da odprete sporočilo (komentar, projekt, itd.)
-    DeveloperToolsParagraph: "Iz originalne razširitve. Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje in lepljenje blokov, boljše čiščenje kodo, premik do definicije bloka, in več!"
   Install:
     Heading: Namesti
     Paragraph: Ste zadovoljni? Namestite zdaj!

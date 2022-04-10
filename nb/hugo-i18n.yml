@@ -3,6 +3,8 @@ Global:
   LogoAlt: Scratch Utvidelser logo
   Install: Installer
   InstallFor: Installer for {{.Browser}}
+  Carousel:
+    Next: Neste
 Nav:
   Feedback: Send tilbakemelding
   Install: Installer
@@ -18,8 +20,6 @@ IndexPage:
   Intro:
     InstallButton:
       Loading: Laster inn...
-    Carousel:
-      Next: Neste
   Features:
     AddonsHeading: Utvidelser
   Install:

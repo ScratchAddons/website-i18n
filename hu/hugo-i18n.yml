@@ -8,6 +8,9 @@ Global:
   RSSDescription: Friss tartalom a {{ .SiteName }} oldalon
   Website: Weboldal
   Extension: Bővítmény
+  Carousel:
+    Prev: Előző
+    Next: Következő
 Links:
   Credits: Készítők
   PrivacyPolicy: Adatvédelmi irányelvek
@@ -73,8 +76,6 @@ IndexPage:
       Demo:
         Caption: A bővítmény bemutatása. ({{.Count}})
         ImgAlt: Demonstráció ({{.Count}})
-      Previous: Előző
-      Next: Következő
   Features:
     Heading: Jellemzők
     AddonsHeading: Kiegészítők
@@ -88,12 +89,6 @@ IndexPage:
   Highlights:
     Heading: Kiemelések
     Paragraph: Emlékezzen, hogy ezek csak a kiemelések. {{.OpenTag1}}Van több is!{{.CloseTag1}}
-    ScratchMessagingHeading: Scratch Üzenetküldés
-    ScratchMessagingParagraph: 'A "nagyapja" a Scratch Addons-nak. Elérhető a Scratch Addons ikonjára kattintás után. Könnyű olvasást és válaszolást biztosít a Scratch üzeneteihez: összecsoportosítja az üzeneteket projektenként, megmutatja a teljes komment szövegét, és annak környezetét, valamint a közvetlen válaszolást is lehetővé teszi.'
-    ScratchNotifierHeading: Scratch Emlékeztető
-    ScratchNotifierParagraph: Böngésző emlékeztetőket ad az új Scratch üzenetekhez. Rákattinthat az emlékeztetőre, hogy egyenesen az üzenet (komment, projekt, stb.) oldalához menjen.
-    DeveloperToolsHeading: Fejlesztői eszközök
-    DeveloperToolsParagraph: "Az eredeti bővítményből. Hozzáad egy keresőablakot és új menü-opciókat a szerkesztőhöz: blokkok másolása/beillesztése, jobb „rendrakás”, a saját blokk definiálásához menés és több!"
   Install:
     Heading: Telepítés
     Paragraph: Megelégedett az ígért funkciókkal? Ne habozzon letölteni már most!

@@ -2,6 +2,9 @@ Global:
   LogoAlt: Logo của Scratch Addons
   Install: Tải xuống
   InstallFor: Tải xuông cho {{.Browser}}
+  Carousel:
+    Prev: Trước
+    Next: Tiếp
 Nav:
   Feedback: Gửi phản hồi
   Repository: Kho
@@ -60,8 +63,6 @@ IndexPage:
       Settings:
         Caption: Cài đặt trang web
         ImgAlt: Các cài đặt trang web
-      Previous: Trước
-      Next: Tiếp
   Features:
     Heading: Tính năng
     AddonsHeading: Tiện ích
@@ -73,8 +74,6 @@ IndexPage:
     OSParagraph: Scratch Addons miễn phí, mã nguồn mở và được xây dựng bởi cộng đồng Scratcher.
   Highlights:
     Heading: Điểm mạnh
-    ScratchMessagingParagraph: '"Ông nội" của Scratch Addons. Nó có sẵn khi nhấp vào biểu tượng Scratch Addons và giúp bạn dễ dàng đọc và trả lời các tin nhắn Scratch: nhóm các tin nhắn theo dự án, hiển thị toàn bộ văn bản và ngữ cảnh nhận xét, cho phép trả lời bình luận trực tiếp.'
-    ScratchNotifierHeading: Thông báo Scratch
   Install:
     Heading: Tải xuống
 ChangelogPage:

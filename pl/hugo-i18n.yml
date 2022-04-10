@@ -3,10 +3,18 @@ Global:
   LogoAlt: logo Scratch Addons
   Install: Zainstaluj
   InstallFor: Zainstaluj dla {{.Browser}}
+  ReadTime:
+    one: "{{.Count}} minuta"
+    other: "{{.Count}} minuty"
+  RSSDescription: Nowa zawartość na {{ .SiteName }}
+  Website: Strona
   Extension: Rozszerzenie
   Carousel:
     Prev: Poprzedni
     Next: Następny
+    First: Idź do pierwszego
+    Last: Idź do ostatniego
+    SlideX: Idź do obiektu {{ .Count }}
 Links:
   Credits: Twórcy
   PrivacyPolicy: Polityka Prywatności
@@ -36,6 +44,7 @@ Footer:
     Copyright: © {{.Count}} Współtwórcy Scratch Addons
     NoAffiliation: Scratch Addons nie jest stowarzyszone, powiązane ani w żaden sposób oficjalnie połączone ze Scratch, Scratch Team, Scratch Foundation ani żadną z jej spółek zależnych lub stowarzyszonych.
     License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
+  Intro: Obecnie {{ .Version }} z {{ .AddonCount }} dodatkami.
 DarkTheme:
   Title: Kliknij, aby przełączyć ciemny motyw.
   Label: Przełącznik ciemnego motywu
@@ -54,6 +63,7 @@ PlayerModal:
   AltText: Kliknij, aby zobaczyć ten film.
 IndexPage:
   Intro:
+    Tagline: Wszystkie dodatki w jednym rozszerzeniu do Scratch
     Description: Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch i edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a
     InstallButton:
       Loading: Ładowanie...
@@ -93,16 +103,22 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: To jest ukryta funkcjonalność dodatku.
   RecommendedAddon: To jest polecany dodatek.
+  FeaturedAddon: To jest wyróżniony dodatek.
+  BetaAddon: To jest dodatek beta.
   ListViewLabel: "Widok listy "
   EasterEggLabel: Ukryta funkcjonalność
   EasterEggTooltip:
     L1: "Aby aktywować dodatki, wykonaj Konami Code (↑↑↓↓←→←→BA) na stronie ustawień. Przeczytaj stronę z najczęściej zadawanymi pytaniami, aby uzyskać więcej informacji. "
     L2: "Na tej stronie specjalne dodatki będą miał obok siebie symbol Jajka Wielkanocnego. "
+  NAddons: "{{.Count}} dodatków"
+  SourceCodeLabel: Kod źródłowy na GitHub
 FeedbackPage:
   Status:
     Sending: Wysyłanie...
     Success: Wysłane! Dziękujemy za opinię!
     Failed: Coś poszło nie tak. Spróbuj wysłać wiadomość ponownie
+    Offline: Coś nie zadziałało na naszym serwerze opini. Spróbuj ponowie później, albo użyj jednej z podanych opcji.
+  NoAddonsList: Ta lista nie jest dostępna do wysłania. Otwórz tę stronę po przez rozszerzenie.
   UsernameLabel: "Nazwa użytkownika w Scratch lub inne identyfikatory (opcjonalnie) "
   ContentLabel: Twoja opinia
   ContentPlaceholder: Proszę podaj nam najwięcej informacji jak możesz.
@@ -124,3 +140,12 @@ ChangelogPage:
 UnsupportedBrowserPage:
   Download: Pobierz
   HowToUpdate: Jak aktualizować
+Blog:
+  SectionSiteName: Blog Scratch Addons
+CreditsPage:
+  NContributors: "{{.Count}} współtwórcy"
+  NProfilePicture: "{{.Name}} obrazek profilowy"
+  NCommits: "{{.Count}} commitów"
+Comments:
+  Heading: Komentarze
+  Description: Pamiętaj, aby sprawdzić {{ .OpenTag1 }}kodeks postępowania{{ .CloseTag1 }}. Możesz sprawdzić komentarze na {{ .OpenTag2 }}dyskusji GitHub{{ .CloseTag2 }}, oraz edytować lub usuwać swój komentarz.
