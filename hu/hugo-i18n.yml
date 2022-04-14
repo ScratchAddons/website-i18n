@@ -11,6 +11,9 @@ Global:
   Carousel:
     Prev: Előző
     Next: Következő
+    First: Ugrás az elsőhöz
+    Last: Ugrás az utolsóhoz
+    SlideX: Ugrás {{ .Count }} elemhez
 Links:
   Credits: Készítők
   PrivacyPolicy: Adatvédelmi irányelvek
@@ -51,7 +54,9 @@ Docs:
   DocsNavToggleLabel: Navigációs mező elrejtése/megjelenítése
   TOC: Tartalomjegyzék
   TOCToggleLabel: A tartalomjegyzék oldalsáv ki-be kapcsolása
+  LastUpdated: "Utoljára frissítve ekkor: {{.Date}} {{.Name}} által ({{.Commit}})"
   Improve: Javítsa ezt az oldalt.
+  SectionPages: Szekció Oldalak
 PlayerModal:
   LabelPlay: Lejátszás
   ModalTitle: Videó
@@ -98,6 +103,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Ez egy "easter egg" kiegészítő
   RecommendedAddon: Ez egy ajánlott kiegészítő
+  FeaturedAddon: Ez egy kiemelt bővítmény.
+  BetaAddon: Ez egy béta bővítmény.
   ListViewLabel: Listanézet
   EasterEggTooltip:
     L1: Az ilyen kiegészítőkhöz csinálja végig a beállítások oldalon a "Konami Code"-ot (↑↑↓↓←→←→BA (fel-nyíl×2, le-nyíl×2, balra, jobbra, majd a B és az A gomb lenyomása)). Olvassa el a GYIK oldalunkat további információkért.
@@ -109,6 +116,8 @@ FeedbackPage:
     Sending: Küldés...
     Success: Elküldve! Köszönjük visszajelzését.
     Failed: Valami hiba történt. Megpróbálja újra elküldeni?
+    Offline: Valami probléma adódott a feedback szerverrel. Nézz vissza később vagy használd a leírt alternatívákat.
+  NoAddonsList: A listát nem lehet elküldeni. Kérlek nyisd meg ezt az oldalt a bővítményen keresztül.
   UsernameLabel: Scratch felhasználónév, vagy egyéb azonosító (opcionális)
   ContentLabel: Visszajelzés
   ContentPlaceholder: Kérjük adjon meg minél annyi információt, amennyit csak tud.
@@ -133,3 +142,7 @@ UnsupportedBrowserPage:
 CreditsPage:
   NContributors: "{{.Count}} hozzájáruló"
   NProfilePicture: "{{.Name}} profilkép"
+  NCommits: "{{.Count}} commit"
+Comments:
+  Heading: Kommentek
+  Description: Mindenképp kövesd {{ .OpenTag1 }}a magatartási kódexet{{ .CloseTag1 }}.  Megnézheted ezt a komment szekciót a {{ .OpenTag2 }}GitHub Discussions oldalon{{ .CloseTag2 }} , illetve a kommented szerkesztésekor és eltávolításakor.
