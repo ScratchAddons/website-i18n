@@ -10,6 +10,9 @@ Global:
   Carousel:
     Prev: Anterior
     Next: Próximo
+    First: Ir para primeiro
+    Last: Ir para último
+    SlideX: Ir para item {{ .Count }}
 Links:
   Credits: Créditos
   PrivacyPolicy: Política de Privacidade
@@ -97,6 +100,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Isso é um addon secreto.
   RecommendedAddon: Isso é um addon recomendado.
+  FeaturedAddon: Este é um addon em destaque.
+  BetaAddon: Este é um addon em estado beta.
   ListViewLabel: Lista
   EasterEggLabel: Secretos
   EasterEggTooltip:
