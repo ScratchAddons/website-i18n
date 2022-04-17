@@ -1,25 +1,25 @@
 ---
-title: Quick Start
+title: Gyors Kezdés
 ---
 
 ## Telepítés
 
-Let's get started by installing Scratch Addons. Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+Kezdjük el a Scratch Addons telepítéséve. A Scratch Addons elérhető a Chrome Webáruházban és a Firefox Kiegészítőkben is.
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (for Google Chrome and other Chromium-based browsers)  
-- [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (for Mozilla Firefox)  
-- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (for Microsoft Edge)  
+- [Chrome Webáruház](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (Google Chromehoz és egyéb Chromium-alapú böngészőkhöz)
+- [Firefox Kiegészítők](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (Mozilla Firefoxhoz)
+- [Microsoft Edge Kiegészítők](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (Microsoft Edgehez)
 
 ## Elkezdés
 
-To get started, you need to access the settings page of the addon to see the functions of it.
+Hogy elkezdhesse, szüksége van a kiegészítő beállítások oldalára a funkciók megtekintéséért.
 
-<!-- TODO: Add pictures -->
+<!-- To-do: képek hozzáadása -->
 
-1. Locate Scratch Addons on the toolbar and click it.  
-   Usually, it is on the top-right corner of your browser. For Google Chrome users, if you are not browsing Scratch, you need to click the puzzle icon to find the extension icon.
+1. Rögzítse a Scratch Addonst az eszközsávban, majd kattintson rá.
+   Általában a böngészője felső jobb sarkában található meg. Chromefelhasználóknak, ha éppen nem a Scratchet böngészgetik, akkor szükségük van a puzzleikonra rákattintani a bővítmény ikonjának megtalálásához.
 
-2. Press the gear icon to go to the Settings page.
+2. Kattintson a fogaskerékre a beállításokhoz való elkalauzolódáshoz.
 
-3. Feel free to look through the addons list and turn on/off whatever you want.  
+3. Érezze teljesen szabadnak magát arra, hogy végigtekerjen a kiegészítők listáján és ki-be kapcsolgassa azokat közülük, amelyiket csak akarja.
    Minden kiegészítő alsó részében személyre is lehet szabni az adott kiegészítőt.

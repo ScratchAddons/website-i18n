@@ -22,120 +22,120 @@ A userscriptek tudják használni az `addon.*` JavaScript API-kat, amik lehetőv
 - A felhasználók számára lehetővé tenni a kiegészítők be-, kikapcsolását, meg konfigurálását.
 - A szerkesztők lefuttatása és API-k biztosítása.
 - Globális állapotot biztosítani a kiegészítőknek (mint például az addon.auth API)
-- Pollute prototypes for use by addon userscripts.
-- Provide ways to access and modify Redux state.
-- Avoid addons from interfering with each other.
-- Avoid duplicate work from different addons.
+- Prototípusok átírása használatra a userszkriptek által.
+- Lehetőségek biztosítása a Redux állapot eléréséhez és módosításához.
+- Kiegészítők egymásba beavatkozásának elkerülése.
+- Elkerülése a munka másolásának egy másik kiegészítőtől.
 
-### Is Scratch Addons safe? 
+### A Scratch Addons biztonságos?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store and Add-ons for Firefox.
+Igen. A Scratch Addonsnak nem kéne biztonsági problémái akadjanak a legfrissebb verziójában. A Scratch Addons egy nyíltforráskódú projekt, szóval a kód állandóan ellenőrzött a Scratch Addons közreműködői által, ahogy a Chrome Webáruházban és a Firefoxnál is szintén átnézik.
 
-### How can I report a security vulnerability?
+### Hogyan jelenthetek egy biztonsági rést?
 
-If you happen to find a security vulnerability please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please create an issue [here](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning you sent an email.
+Ha bármilyen biztonsági sebezhetőséggel találná szembe magát, akkor kérjük vegye fel a kapcsolatot személyesen World_Languages-sel egy e-mail által, a következő címre küldve: `worldxlanguages (at) gmail.com`. Ha nem kap 48 órán belül sem választ, akkor kérjük készítsen egy problémát [itt] (https://github.com/ScratchAddons/ScratchAddons/issues/) említve, hogy küldött egy e-mailt.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy), or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+[Elolvashatja a biztonsági irányelveinket](https://github.com/ScratchAddons/ScratchAddons/security/policy), vagy [lecsekkolhatja a advisory-kat, amiket közzé tettünk](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Will my account be safe when using Scratch Addons?
+### Biztonságban lesz a fiókom, amikor a Scratch Addons-t használom?
 
-Scratch Addons doesn't use your account credentials to essentially work. In fact, you can be logged out from Scratch, and Scratch Addons will still work. Scratch Addons will only send requests based on the cookies that you have, which is supplied by the browser for each request, so some addons like Scratch Messaging won't work when you are logging in, but it won't affect other parts of the extension.
+A Scratch Addons nem használja a fiókja hitelesítő adatait az alapvető működéséhez. Valójában lehetsz kijelentkezve is, és a Scratch Addons még úgy is működni fog. A Scratch Addons csak olyan kérelmeket fog küldeni, amik az ön által birtokolt cookie-kon alapulnak, azok pedig a böngésző látja el minden egyes kérésre, így néhány kiegészítő, mint például a Scratch Üzenetküldés nem fog működni, amikor ki van jelentkezve, de más részeit nem fogja érinteni a bővítménynek.
 
-Addons on Scratch Addons also have been audited by multiple contributors on the repository, so no-one can just slip some malicious code under our eyes.
+Valamint a kiegészítők a Scratch Addonson felülvizsgálva is vannak számos hozzájáruló által a repositoryn, szóval senki nem tud csak úgy becsúsztatni rosszindulatú kódot a szemünk előtt.
 
-We never send Scratch account information or extension settings outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Mi soha nem küldjük el a Scratch fiókinformációkat, vagy bővítménybeállításokat a böngésződön kívül. Nézze meg [a bővítmény biztonsági szabályzatát](/docs/privacy/policies/extension) több információért.
 
-### Can I tell people about Scratch Addons on Scratch?
+### Tudok beszélni a Scratch Addonsról a Scratchen?
 
-You can't, and please don't. There is a policy that forbids advertising browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/). You may, however, use different methods to tell your friends about Scratch Addons.
+Nem, nem szabad, és kérjük ne is tegye. Van erről egy irányelv [itt](https://scratch.mit.edu/discuss/post/2907564/), ami tiltja a böngészőbővítmények/userscriptek mindennemű reklámozását. Ennek ellenére használhat különböző módszereket a barátai értesítéséhez a Scratch Addonsról.
 
-### How can I contribute to Scratch Addons?
+### Hogyan tudok közreműködni a Scratch Addonsban?
 
-Firstly, thank you for your interest of contributing to Scratch Addons. We appreciate your interest and your later contributions. 
+Először is, köszönjük az érdeklődését a Scratch Addonshoz való hozzájárulásban. Értékeljük ezt is, valamint a későbbi közreműködéseit is.
 
-As an open source project, we welcome any kind of contributions. You don't even need to ask us or to have a certain rank. Anyone is welcome. There's even a chance that you don't even realize that you have contributed to the project! 
+Egy nyíltforráskódú projektként a közreműködés minden fajtájt szeretettel várjuk. Nincs is szüksége megkérdezésre, vagy egy bizonyos rangra. Mindenki szívesen látott. Még arra is van esély, hogy nem is vette észre, hogy már hozzá is járult a projekthez!
 
-Anyway, back to the point. You can contribute in many ways, and some of it is really easy.
+Mindenesetre vissza a lényeghez: több típusú módon is közre tud működni, és ezek közül néhány tényleg nagyon egyszerű.
 
-- **Contribute some code**
+- **Küldjön be kódot**
 
-  If you can code on JavaScript, HTML5, and CSS, you can contribute by doing some coding/programming. You can fix bugs, tackle some requests, or create your own addon.
+  Ha tud kódolni JavaScriptben, HTML5-ben, és CSS-ben, akkor néhány kódolással/programozással már hozzá tud járulni a projekthez. Kijavíthat hibákat, megbirkózhat kérésekkel, vagy létrehozhatja a saját kiegészítőjét.
 
-  After that, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), do your necessary changes, and create a pull request. If it is deemed feasible, we will merge it.
+  Ezek után szüksége van egy "pull requestre". Ezt meg tudja tenni a [repository] forkolásával (https://github.com/ScratchAddons/ScratchAddons/), majd a szükséges változtatások átcsinálásával, és végül egy "pull request" készítésével. Ha megvalósíthatóként lesz ítélve, akkor beolvasztjuk a főágba.
 
-  We're also open for contributions of other aspects than the extension. You can view our repositories on [our GitHub organization page](https://github.com/ScratchAddons) and help us build them.
+  Mi a közreműködés más vonatkozásaira is nyitottak vagyunk, mint a bővítmény. Megtekintheti az összes repositorynkat [a GitHub szervezetünk lapján](https://github.com/ScratchAddons), és segíthet felépíteni azokat.
 
-- **Suggest an idea**  
+- **Javasoljon egy ötletet**
 
-  Have something that you think would be a good addition to Scratch Addons? [Tell us!](#i-think-you-missed-a-feature-what-can-i-do)
+  Van valamije, amiről azt gondolja, hogy jó kiegészítés lenne a Scratch Addonshoz? [Meséljen róla!](#i-think-you-missed-a-feature-what-can-i-do)
 
-- **Report a bug**
+- **Hiba jelentése**
 
-  Found a bug in one of our addon, the settings page, or anything else on our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Talált egy "bug"-ot az egyik kiegészítőnkben, a beállítások oldalon, vagy bárhol máshol a bővítményünkön? [Küldjön egy hibajelentést róla!](#what-can-i-do-if-i-find-a-problem)
 
-- **Translate Scratch Addons**  
+- **Fordítás**
 
-  If you can speak another language than English fluently, you can help translate/localize Scratch Addons to your language. You can start from [here](/docs/localization/joining-the-localization-team).
+  Ha beszél másik nyelvet is folyékonyan, mint az angol, akkor segíthet a Scratch Addons fordításában/lokalizálásában a nyelvére. Elkezdheti [innen](/docs/localization/joining-the-localization-team).
 
-- **Write the documentation**
+- **Írjon dokumentációt**
 
-  Are you familiar with Scratch Addons? If so, you can write the documentation for it. The documentation can include how to use it, or how it works. Please contact us on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) for further information.
+  (Nagy) ismerője a Scratch Addonsnak? Ha így van, akkor bővítheti a dokumentációkat a saját írásával. A dokumentáció magába foglalhatja, hogy hogyan kell használni, vagy hogyan működik a bővítmény. Kérjük vegye fel a kapcsolatot a [Megvitatás lapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions) további információkért.
 
-- **Send feedback**  
+- **Visszajelzés küldése**
 
-  You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  Visszajelezhet az űrlapunkon, ami a [visszajelzés oldalunkra](https://scratchaddons.com/feedback) van kitéve. A visszajelzése eltérő látásmódot adhat a bővítmény fejlesztésében, valamint mindenképpen segíthet olyan dolgokról tudomás szerzésében, amik figyelmet érdemelnek, vagy hibák, amiket így megtudunk javítani.
 
-- **Leave a review on the stores**
+- **Hagyjon egy visszajelzést az áruházakban**
 
-  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  Hagyhat egy áttekintést a Scratch Addonsról a [Chrome bővítmény oldalán](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), vagy a [Firefox kiegészítő oldalán](https://addons.mozilla.org/hu/firefox/addon/scratch-messaging-extension/).
 
-- **Star our repository**
+- **Csillagozza meg a repositorynkat**
 
-  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and click the "Star" button on the top-right corner.
+  Alapjában a GitHub csillagozás olyan, mint a Scratch kedvenccé nyilvánítás. Meg tudja tenni ezt a [repositorynkra](https://github.com/ScratchAddons/ScratchAddons) látogatva, majd a "Star" gombra kattintva a jobb felső sarokban.
 
-- **Spread the word**
+- **Terjessze a hírt**
 
-  You can tell anyone about Scratch Addons, like your friends, your relatives, your family members, or even your teacher, if you want. We're just asking you to [not do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Bárkinek beszámolhat a Scratch Addonsról, mint például a barátainak, rokonainak, családtagjainak, vagy akár még a tanárának is, feltéve, ha szeretné. Csak arra kérünk, hogy [ne a Scratch honlapján tegye ezt](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### How can I create my own addon?
+### Hogyan hozhatom létre a saját kiegészítőmet?
 
-Read more about how to create an addon on Scratch Addons [here](/docs/develop/getting-started).
+Olvasson többet arról, hogy hogyan kell készíteni egy ilyen Scratch Addons kiegészítőt [itt](/docs/develop/getting-started).
 
-### How can I put my name on the [contributors page](/contributors)?
+### Hogyan tehetem rá a nevemet a [közreműködők oldalra](/contributors)?
 
-Please read and follow the instruction of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) in order to have your name on said page.
+Kérjük olvassa el, és kövesse az utasításait [ennek az "issue"-nak](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) azért a célért, hogy rajta legyen a neve az említett oldalon.
 
-### How can I remove my name from the [contributors page](/contributors)?
+### Hogyan vehetem le a nevemet a  [közreműködők oldalról](/contributors)?
 
-If you don't want your name to be on the page, please tell us by creating an issue on [our contributors repository](https://github.com/ScratchAddons/contributors/issues/), or by other means of contact. We're sorry for the inconvenience.
+Ha nem szeretné, hogy rajta legyen a neve az oldalon, akkor kérjük mondja el ezt nekünk egy issue készítésével a [közreműködők reposítornkon](https://github.com/ScratchAddons/contributors/issues/), vagy egyéb formával a kapcsolattartásnak. Elnézést kérünk a kellemetlenségért.
 
-### What can I do if I find a problem?
+### Mit tudok tenni, ha találtam egy problémát?
 
-You can tell us using one of these methods.
+Mesélhet róla nekünk a lenti eljárások egyike által.
 
-- Send it through [our feedback form](https://scratchaddons.com/feedback).
-- Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).
+- Küldje el nekünk [a visszajelzőűrlapunkon](https://scratchaddons.com/hu/feedback) keresztül
+- Hozzon létre egy issuet [a epositoryn](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Készítsen egy posztot a [vitalapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Számoljon be róla [a Discord szerverünkön](https://discord.gg/R5NBqwMjNc).
 
-### I think you missed a feature. What can I do?
+### Azt gondolom, hogy kihagytatok egy funkciót. Mit tehetek?
 
-If you think a feature is missing, or you want to suggest an addon to the extension, or you have a good idea, tell us by [following one of the methods mentioned above](#what-can-i-do-if-i-find-a-problem).
+Ha azt gondolja, hogy hiányzik egy jellemző, vagy szeretne javasolni egy kiegészítőt a bővítményhez, vagy van valami jó ötlete, akkor mondja el nekünk [a fent említett módok egyikével](#what-can-i-do-if-i-find-a-problem).
 
-### Where can I discuss about Scratch Addons?
+### Hol tudok megbeszélni dolgokat a Scratch Addonsról?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can discuss about it and ask questions if you're having trouble.
+Megteheti ezt [a Vitalapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions), vagy[a Discord szerverünkön](https://discord.gg/R5NBqwMjNc). Ott megtudja vitatni a dolgokat, valamint az kérdéseit is fel tudja tenni az esetleges problémáival kapcsolatban.
 
-### I think Scratch Addons slows down Scratch. What can I do?
+### Azt gondolom, hogy a Scratch Addons lelassítja a Scratchet. Mit tehetek?
 
-Try to turn off addons that you don't need. Also, check addon notices and warnings to decide which addons should be turned off for better performance. 
+Próbálja meg kikapcsolni azokat a kiegészítőket, amikre nincs szüksége. Valamint tekintse át a kiegészítő-figyelmeztetéseket, hogy eldönthesse, hogy melyikeket kell kikapcsolni a teljesítmény növelése érdekében.
 
-### How can you activate the easter egg addons?
+### Hogyan lehet aktiválni az easter egg kiegészítőket?
 
-To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
+Az easter egg kiegészítők megjelenítéséhez csinálja végig a Konami Kódot (↑↑↓↓←→←→BA) a beállítások oldalon a billentyűzete segítségével. Utána meg fognak már jelenni a kívánt kiegészítők aktiválhatóan.
 
-Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
+Néhány az easter-egg kiegészítőink közül: "Account Settings nagy kezdőbetűkkel" és a "Pontosvessző-hiba". Vessen egy pillantást [a kiegészítők lapra](/addons) egy teljes lista megtekintéséért.
 
-### I have more questions!
+### Több kérdésem van!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.
+Ha több kérdése is van, amik válaszra várnak, akkor készítsen egy posztot [a Vitalapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions), vagy küldjön egy üzenetet [a Discord szerverünkön](https://discord.gg/R5NBqwMjNc). Valaki majd biztos meg fog próbálni válaszolni.

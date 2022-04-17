@@ -5,7 +5,7 @@ description: Bedankt voor je interesse over het meehelpen om Scratch Addons te v
 
 {{< admonition info >}}
 
-_Al vertaald: **Italiaans, Japans, Portugees, Sloveens en Spaans**. We accepteren geen nieuwe vertalers meer voor deze talen.._
+_Al vertaald: **Italiaans, Japans, Portugees, Sloveens en Spaans**. We accepteren geen nieuwe vertalers meer voor deze talen._
 
 {{< /admonition >}}
 
