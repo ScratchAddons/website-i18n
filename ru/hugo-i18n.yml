@@ -11,6 +11,9 @@ Global:
   Carousel:
     Prev: Предыдущий
     Next: Следующий
+    First: Перейти к первому
+    Last: Перейти к последнему
+    SlideX: Перейти к предмету №{{ .Count }}
 Links:
   Blog: Блог
   Credits: Благодарности
@@ -20,6 +23,7 @@ Nav:
   Repository: Репозиторий
   RepositoryLabel: Репозиторий в GitHub
   Install: Установить
+  ToggleNavigation: Переключить навигацию
 Footer:
   Pages:
     Header: Страницы
@@ -47,7 +51,10 @@ DarkTheme:
   Label: Кнопка переключения тёмной темы
 Docs:
   SectionSiteName: Документация Scratch Addons
+  DocsNav: Навигация документации
+  DocsNavToggleLabel: Переключить навигационную панель документации
   TOC: Содержание
+  TOCToggleLabel: Переключить таблицу контента панели
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
   SectionPages: Содержание
@@ -97,6 +104,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Это аддон в виде пасхалки.
   RecommendedAddon: Это рекомендованный аддон.
+  FeaturedAddon: Это избранный аддон.
+  BetaAddon: Это — бета аддон.
   EasterEggLabel: Пасхалка
   EasterEggTooltip:
     L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.
@@ -108,6 +117,8 @@ FeedbackPage:
     Sending: Отправка...
     Success: Отправлено! Спасибо за отзыв.
     Failed: Что-то пошло не так. Попробуйте отправить опять?
+    Offline: Что-то пошло не так на сервере обратного отзыва. Попробуйте позже или используйте упомянутые альтернативы.
+  NoAddonsList: Список не доступен для отправки. Пожалуйста, откройте эту страницу с помощью расширения.
   UsernameLabel: Имя пользователя Scratch или другие обозначения (необязательно)
   ContentLabel: Обратная связь
   ContentPlaceholder: Предоставьте нам как можно больше деталей, пожалуйста.
