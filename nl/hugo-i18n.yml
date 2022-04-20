@@ -46,8 +46,9 @@ DarkTheme:
   Title: Klik om het donkere thema te wisselen.
   Label: Donker themaschakelaar
 Docs:
-  DocsNav: Docs-navigatie
-  DocsNavToggleLabel: Wissel docs-navigatievenster
+  SectionSiteName: Scratch Addons-Documentatie
+  DocsNav: Documentatienavigatie
+  DocsNavToggleLabel: Documentatie-navigatievenster wisselen
   TOC: Inhoudsopgave
   TOCToggleLabel: Inhoudsopgavevenster wisselen
   LastUpdated: Laatst bijgewerkt op {{.Date}} door {{.Name}} op commit {{.Commit}}.
