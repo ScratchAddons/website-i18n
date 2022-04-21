@@ -1,7 +1,7 @@
 Global:
   LogoAlt: Scratch Addons logó
   Install: Telepítés
-  InstallFor: Telepítés {{.Browser}}-re
+  InstallFor: Telepítés {{.Browser}}-ra
   ReadTime:
     one: "{{.Count}} perc"
     other: "{{.Count}} perc"
