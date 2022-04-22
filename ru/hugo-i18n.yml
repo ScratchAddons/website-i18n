@@ -136,6 +136,7 @@ ChangelogPage:
     CommitsMade: Количество commit'ов, сделанные на этой версии
   Status:
     Latest: Последняя версия
+    Yanked: Заянкнуто
 UnsupportedBrowserPage:
   Download: Скачать
   HowToUpdate: Как обновиться
