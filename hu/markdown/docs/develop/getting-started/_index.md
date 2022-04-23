@@ -1,4 +1,4 @@
 ---
 title: Elkezdés
 ---
-Get started with making an addon for Scratch Addons!
+Kezdje el egy kiegészítő készítésével a Scratch Addons részére!

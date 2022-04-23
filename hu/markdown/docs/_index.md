@@ -9,9 +9,8 @@ Ha szeretne segíteni a bővítmény lefordításában, [tudja meg itt](fordít�
 
 Ha segítség kell a Scratch Addons-al, [nézze meg itt](első-lépések/gyors-bemutató)
 
-If you are interested in the design of the project, [look here](reference/design).
+Ha érdekli a projekt dizájnolása, akkor [nézzen el ide](reference/design).
 
-Kérdése van a Scratch Addons-ról? [kérdezzen itt]
-(https://github.com/ScratchAddons/ScratchAddons/discussions)!
+Kérdése van a Scratch Addons-ról? [kérdezzen itt](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
-Ideas for new addons can go in the [issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+Új kiegészítőötletek mehetnek a [problémák oldalra](https://github.com/ScratchAddons/ScratchAddons/issues).

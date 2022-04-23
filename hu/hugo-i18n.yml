@@ -42,8 +42,8 @@ Footer:
     Documentation: Dokumentáció
   Legal:
     Copyright: © {{.Count}} Scratch Addons közreműködői
-    NoAffiliation: A *Scratch Addons* nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a *Scratch*-el, a *Scratch Team*-el, a *Scratch Alapítván*nyal, vagy bármilyen leány-, és társvállalatával.
-    License: A Scratch Addons a *GNU General Public License 3.0* feltételei alatt van licencelve.
+    NoAffiliation: A Scratch Addons nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a Scratch-el, a Scratch Team-el, a Scratch Alapítvánnyal, vagy bármilyen leány-, és társvállalatával.
+    License: A Scratch Addons a GNU General Public License 3.0 feltételei alatt van licencelve.
   Intro: "Jelenlegi verzió: {{ .Version }},  {{ .AddonCount }} kiegészítővel"
 DarkTheme:
   Title: Kattintson a sötét téma-világos téma váltogatásához
