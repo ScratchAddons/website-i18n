@@ -15,7 +15,7 @@ Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleş
 Örnek manifest:
 ```json
 {
-  "name": "Sıfırdan Mesajlaşma",
+  "name": "Scratch Mesajlaşma",
   "description": "Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar.",
   "userscripts": [
     {

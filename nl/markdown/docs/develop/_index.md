@@ -1,4 +1,4 @@
 ---
 title: Ontwikkeling
 ---
-Bekijk deze sectie voor onze docs voor ontwikkelaars!
+Bekijk deze sectie voor onze documentatie voor ontwikkelaars!

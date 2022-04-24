@@ -2,11 +2,11 @@
 title: Telepítés
 ---
 
-## From extension stores
+## Bővítményáruházakból
 
-Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+A Scratch Addons elérhető a Chrome Webáruházban és a Firefox kiegészítői között is.
 
-- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+- Chrome Webáruház (Google Chromehoz, Operához, Bravehez, Vivaldihoz, >79 Microsoft Edgehez és egyéb Chromium-alapú webböngészőkhöz)
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
 - Add-ons for Firefox (for Mozilla Firefox)  

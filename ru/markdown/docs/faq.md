@@ -11,9 +11,9 @@ Scratch Addons — браузерное расширение «всё в одн�
 
 ### Что такое «аддон»?
 
-An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts) or apply styles to the Scratch website (userstyles).
+Аддон похож на расширение или юзерскрипт, но они используют специальные API, которые предоставлены расширением Scratch Addons. Эти API позволяют аддонам выполнять скрипты на странице Scratch (юзерскрипты) или применять стили к веб-сайту Scratch (юзерстили).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
+Юзерскрипты могут использовать JavaScript API `addon.*`, которые позволяют им получать соответствующую информацию о Scratch (например, получать пользователя, который вошёл в систему) и также использовать API расширения (по типу отправления уведомлений).
 
 ### Если всё — это аддон, то что делает Scratch Addons?
 

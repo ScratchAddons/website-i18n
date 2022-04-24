@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
-**Welkom bij Scratch Addons Docs!**
+**Welkom bij de Scratch Addons-Documentatie!**
 
 Als je nadenkt over het maken van een addon, [begin hier](develop/getting-started/creating-an-addon).
 
