@@ -9,38 +9,38 @@ A Scratch Addons elérhető a Chrome Webáruházban és a Firefox kiegészítői
 - Chrome Webáruház (Google Chromehoz, Operához, Bravehez, Vivaldihoz, >79 Microsoft Edgehez és egyéb Chromium-alapú webböngészőkhöz)
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
-- Add-ons for Firefox (for Mozilla Firefox)  
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
+- Firefox Kiegészítők (Mozilla Firefoxhoz)
+  https://addons.mozilla.org/hu/firefox/addon/scratch-messaging-extension/
 
-- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+- Microsoft Edge Kiegészítők (Microsoft Edge >79)
   https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## From source
 
-### About GitHub releases
+### A GitHub megjelentetésekről
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
+[A kiadások oldala](https://github.com/ScratchAddons/ScratchAddons/releases) tartalmazza a kódot és a letöltési fájlokat is a Scratch Addons minden fejlesztői szerkezetéhez ugyanúgy, mint az áruházi szerkezetek másolatát is.
 
-### Cloning the repository
+### A repository másolása
 
-This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
+Ez az ajánlott módja a Scratch Addons letöltésének fejlesztői célokhoz. Ez persze felételezi, hogy már letöltötte a Gitet.
 
-To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
+A repository letöltéséhez szimplán klónozza le a `https://github.com/ScratchAddons/ScratchAddons.git` -et.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-To update Scratch Addons, first `cd` into its folder, and then run the following commands.
+A Scratch Addons frissítéséhez először `cd`-zen bele a mappájába, majd futtassa a következő parancsot:
 
 ```sh
 $ git fetch
 $ git pull
 ```
 
-This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
+Ez frissíteni fogja a Scratch Addons-t, és előkészíti a kódja másításához. Jegyezze meg, hogy látnia kell a frissítés befejezése részleget [itt](#install-on-google-chrome), ha Google Chrome-ot használ.
 
 
-### Downloading the zipball
+### A zipball letöltése
 
 If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
 
