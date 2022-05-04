@@ -33,7 +33,7 @@ Igen. A Scratch Addonsnak nem kéne biztonsági problémái akadjanak a legfriss
 
 ### Hogyan jelenthetek egy biztonsági rést?
 
-Ha bármilyen biztonsági sebezhetőséggel találná szembe magát, akkor kérjük vegye fel a kapcsolatot személyesen World_Languages-sel egy e-mail által, a következő címre küldve: `worldxlanguages (at) gmail.com`. Ha nem kap 48 órán belül sem választ, akkor kérjük készítsen egy problémát [itt] (https://github.com/ScratchAddons/ScratchAddons/issues/) említve, hogy küldött egy e-mailt.
+Ha bármilyen biztonsági sebezhetőséggel találná szembe magát, akkor kérjük vegye fel a kapcsolatot személyesen World_Languages-sel egy e-mail által, a következő címre küldve: `worldxlanguages (at) gmail.com`. Ha nem kap 48 órán belül sem választ, akkor kérjük készítsen egy problémát [itt](https://github.com/ScratchAddons/ScratchAddons/issues/) említve, hogy küldött egy e-mailt.
 
 [Elolvashatja a biztonsági irányelveinket](https://github.com/ScratchAddons/ScratchAddons/security/policy), vagy [lecsekkolhatja a advisory-kat, amiket közzé tettünk](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
