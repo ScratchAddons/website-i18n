@@ -5,7 +5,7 @@ description: Userstyles allows you to inject CSS on the Scratch website - useful
 ## Was sind sie?
 Userstyles allows you to inject CSS on the Scratch website - useful to make the buttons you add with userscripts colorful, or to customize native Scratch element.
 
-## How do I add a userstyle?
+## Wie füge ich ein Userstyle hinzu?
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 Go to the manifest of your addon (addon.json) and add a property called `"userstyles"`.  
 This property must be an array.  
@@ -32,7 +32,7 @@ Example manifest:
 }
 ```
 
-## Debugging userstyles
+## Fehlerbehebung in Userstyles
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 If you don't see your userstyle working, make sure your addon is enabled.  
 If you're still having trouble, please create an issue in this repo.

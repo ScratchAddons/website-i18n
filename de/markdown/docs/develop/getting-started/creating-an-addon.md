@@ -1,5 +1,5 @@
 ---
-title: Creating an Addon
+title: Ein Addon entwickeln
 ---
 Required software: text editor, Chrome.  
 If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.

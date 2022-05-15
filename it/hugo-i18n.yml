@@ -12,6 +12,9 @@ Global:
   Carousel:
     Prev: Precedente
     Next: Seguente
+    First: Vai all'inizio
+    Last: Vai alla fine
+    SlideX: Vai al {{ .Count }}° elemento
 Links:
   Credits: Crediti
   PrivacyPolicy: Politica della Privacy
@@ -99,6 +102,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Questo addon è un easter egg.
   RecommendedAddon: Questo addon è raccomandato.
+  FeaturedAddon: Questo è un addon in primo piano.
+  BetaAddon: Questo è un addon in fase beta.
   ListViewLabel: Visualizzazione lista
   EasterEggLabel: Addon a Sorpresa
   EasterEggTooltip:

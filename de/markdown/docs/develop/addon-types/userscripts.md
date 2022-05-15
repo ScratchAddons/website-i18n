@@ -5,7 +5,7 @@ description: Userscripts allow you to run code along Scratch pages - you can do 
 ## Was sind sie?
 Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
 
-## How do I add a userscript?
+## Wie füge ich ein Userscript hinzu?
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 Go to the manifest of your addon (addon.json) and add a property called `userscripts"`.  
 This property must be an array.  
@@ -51,7 +51,7 @@ export default async function ({ addon, global, console }) {
   }
 }
 ```
-**This will NOT work:**
+**Dies wird NICHT funktionieren:**
 ```js
 export default async function ({ addon, global, console }) {
   // This WON'T work!
@@ -66,7 +66,7 @@ function sayHello() {
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
 You can access some `addon.*` APIs from userscripts. For more information, check the documentation.
 
-## Technical aspects of userscripts
+## Technische Ansichten von Userscripts
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
@@ -87,7 +87,7 @@ export default async function ({ addon, global, console }) {
 ```
 - `console`: this is a wrapper that allows you to see what addon triggered the log you're seeing easily.
 
-## Debugging userscripts
+## Fehlerbehebung in Userscripts
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 To debug userscripts, first of all make sure your addon is enabled.  
 Then, go to a URL where you specified your userscript should run.  
