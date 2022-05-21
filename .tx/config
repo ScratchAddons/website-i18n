@@ -189,3 +189,10 @@ minimum_perc = 1
 source_file = en/html-content/credits.html
 source_lang = en
 type = HTML_FRAGMENT
+
+[o:scratch-addons:p:scratch-addons-website:r:html-content_extension-settings]
+file_filter = <lang>/html-content/extension-settings.html
+minimum_perc = 0
+source_file = en/html-content/extension-settings.html
+source_lang = en
+type = HTML_FRAGMENT
