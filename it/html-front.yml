@@ -8,6 +8,9 @@ changelog.html:
 credits.html:
   title: Crediti
   description: Grazie mille a queste persone fantaistiche per aver dato il loro contributo al progetto lavorando a Scratch Addon, alle sue funzionalità, i suoi temi, il sito web, ecc.
+extension-settings.html:
+  title: Impostazioni Scratch Addon
+  description: Istruzioni passo passo per accedere alle impostazioni di Scratch Addons
 farewell.html:
   title: Arrivederci!
   description: Scratch Addon è stato disinstallato. Grazie per aver usato questa estensione!

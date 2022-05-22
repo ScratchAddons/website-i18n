@@ -7,6 +7,9 @@ changelog.html:
 credits.html:
   title: Danksagungen
   description: Vielen Dank an all diese fantastischen Leute, die dem Projekt durch das Arbeiten auf Scfratch Addons, dessen Features, dessen Designs, dessen Website usw. beigetragen haben.
+extension-settings.html:
+  title: Scratch Addons Einstellungen
+  description: Wie man die Einstellungen von Scratch Addons öffnet, Schritt für Schritt.
 farewell.html:
   title: Auf Wiedersehen!
   description: Scratch Addons wurde deinstalliert. Danke, dass du die Erweiterung verwendet hast!

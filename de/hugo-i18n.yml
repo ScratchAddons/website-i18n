@@ -122,7 +122,7 @@ ChangelogPage:
     RepoState: Repository-Status beim Release
     CommitsMade: Commits in dieser Version
   Status:
-    Latest: Neuestes
+    Latest: Neueste
     Yanked: Verworfen
 UnsupportedBrowserPage:
   Download: Herunterladen
