@@ -234,7 +234,10 @@
 		"description": "Rende la pagina dei messaggi di Scratch più compatta e semplice da leggere.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Colori predefiniti dell'editor di immagini personalizzabili",
+		"description": "Cambia i colori e la dimensione del contorno predefiniti nell'editor di immagini.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Mostra durata del suono",
+		"description": "Mostra nell'editor dei suoni la durata totale e la durata effettiva del suono o della parte selezionata.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Pulsante per mostrare nelle gallerie chi ti sta seguendo",
 		"description": "Aggiunge un pulsante in cima alla scheda \"curatori\" nelle gallerie che gestisci che elenca tutti gli utenti che segui e chi ti seguono e che ti permette di invitare qualunque elenco mostrato nell'elenco con un solo click.",
@@ -1341,7 +1363,10 @@
 		"description": "Aggiunge l'ID dell'utente a fianco dello username in alto nella pagina del profilo.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

@@ -234,7 +234,10 @@
 		"description": "Naredi Scratchevo stran s sporočili kompaktno in lažje berljivo.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Prilagoditev privzetih barv v urejevalniku videzov",
+		"description": "Spremeni privzete barve in velikost robov v urejevalniku videzov.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -579,7 +589,7 @@
 	{
 		"id": "editor-theme3",
 		"name": "Prilagoditev barv blokov",
-		"description": "Uredite barve blokov za vse kategorije v urejevalniku.",
+		"description": "Uredite barve blokov za vsako kategorijo v urejevalniku.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -654,7 +664,7 @@
 	{
 		"id": "fix-pasted-scripts",
 		"name": "Ne izvedi podvojenih blokov samodejno",
-		"description": "Popravi napako v Scratchevem urejevalniku, kjer dodajanje podvojenega bloka v skripto izvede skripto.",
+		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da dodajanje podvojenega bloka v skripto izvede skripto.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -850,7 +860,7 @@
 	{
 		"id": "initialise-sprite-position",
 		"name": "Prilagoditev položaja novih figur",
-		"description": "Spremeni začetni x/y položaj novih figur.",
+		"description": "Spremeni začetni položaj x/y novih figur.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Prikaz dolžine zvoka",
+		"description": "V urejevalniku zvokov pokaže skupno dolžino in čas predvajanja zvoka ali njegovega izbranega dela.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Gumb za povabilo sledilcev v studio",
 		"description": "Na vrh zavihka \"skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite, ter omogoča povabilo posameznega uporabnika z enim klikom.",
@@ -1337,11 +1359,14 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Pokaži ID uporabnika",
+		"name": "Pokaži ID uporabnikov",
 		"description": "Uporabniškemu imenu na vrhu profilov doda ID uporabnika.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

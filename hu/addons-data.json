@@ -1,0 +1,1391 @@
+[
+	{
+		"id": "2d-color-picker",
+		"name": "2D-s színválasztó",
+		"description": "Kicseréli egy 2D-s színválasztóra a telítettség és fényerő csúszkákat a szereplők szerkesztőjében. Tartsd lenyomva a Shiftet miközben húzod az egérmutatót, hogy csak egy tengely mentén változtassad a színértéket.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "60fps",
+		"name": "60FPS projektlejátszó mód",
+		"description": "Alt+Katt a zöld zászlóra a 60FPS mód ki/be kapcsolgatásához.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "account-settings-capitalize",
+		"name": "Account Settings nagy kezdőbetűkkel",
+		"description": "Az angol \"Account setting\" (fiókbeállításokat) lecseréli \"Account Settings\"-re.",
+		"tags": ["easterEgg", "community"]
+	},
+	{
+		"id": "animated-thumb",
+		"name": "Indexkép beállító",
+		"description": "Hozzáad egy gombot a projekt oldal jobb alsó sarkába, amivel beállítható a projekted indexképe bármely képre (gifeket is beleértve)",
+		"tags": ["community", "projectPage", "recommended"]
+	},
+	{
+		"id": "better-emojis",
+		"name": "Jobb emojik",
+		"description": "Lecseréli fejlesztett vektor kidolgozásokkal az emojikat a weboldalon történő hozzászólások tartalmában.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
+			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
+		]
+	},
+	{
+		"id": "better-featured-project",
+		"name": "Profil oldal banner",
+		"description": "Átváltoztatja a kiemelt projektet bármely felhasználó profilján egy szépen kinéző bannerré.",
+		"tags": ["community", "featured", "profiles"],
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
+	},
+	{
+		"id": "better-img-uploads",
+		"name": "HD minőségű képek feltöltése",
+		"description": "Hozzáad egy új gombot a \"Jelmez feltöltése\" gomb fölé, ami automatikusan átalakítja a feltöltött bitmap képeket SVG (vektorgrafikus formátum) képekké, így azok nem vesztenek a minőségükből.",
+		"tags": ["editor", "beta", "costumeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "World_Languages" },
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			}
+		]
+	},
+	{
+		"id": "better-quoter",
+		"name": "Jobb fórum idéző",
+		"description": "Jelölj ki szöveget egy fórum posztban és kattints az idézésre a jobb alsó sarokban, hogy idézd a kijelölt szöveget.",
+		"tags": ["forums", "community"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "bitmap-copy",
+		"name": "Bitmap képek másolása",
+		"description": "Engedélyezi, hogy kimásolj a rendszer vágólapjára egy bitmap képet a Scratch szerkesztőjében, amit aztán be tudsz illeszteni más weboldalaknál, vagy alkalmazásoknál.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "block-cherry-picking",
+		"name": "Egy blokk megfogása Ctrl gombbal",
+		"description": "Hozzáadja a képességet, hogy kihúzhass egy blokkot egy kódsor közepéről, (ahelyett, hogy az egész parancssort mozgatnád, ami alatta van) amíg a Ctrl-t nyomva tartod.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "block-count",
+		"name": "Blokkok száma",
+		"description": "Megmutatja hány blokk van összesen egy projektben a szerkesztő menü bárjában. Korábban a \"szereplők és kódok száma\" részét képezte.",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "block-duplicate",
+		"name": "Kód duplikálása Alt gombbal",
+		"description": "Duplikálj egy kódot gyorsan azzal, hogy az Alt lenyomva tartása közben mozgatod. Ha a Ctrl-t is nyomva tartod, akkor csak egy blokkot duplikálsz az egész alatta levő blokk sor helyett.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "block-palette-icons",
+		"name": "Blokk választó kategória ikonok",
+		"description": "Ikonokat helyez el a színes körökben, amelyekkel könnyebben azonosíthatod a kategóriákat.",
+		"tags": ["editor", "codeEditor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "block-switching",
+		"name": "Blokk lecserélés",
+		"description": "Jobb klikk egy blokkra, hogy lecserélhesd egy hozzá kapcsolódó blokkra.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "blocks2image",
+		"name": "Blokkokmentése képként",
+		"description": "Jobb kattintás a kódterületre, hogy exportálni lehessen a blokkokat SVG/PNG képekként",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+		]
+	},
+	{
+		"id": "cat-blocks",
+		"name": "Cica-blokkok",
+		"description": "Visszahozza a szerkesztőbe a macskás kinézetű kezdőblokkokat a 2020-as Áprilisi Bolondok napról.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "clones",
+		"name": "Másolatszámláló",
+		"description": "Hozzáad egy számlálót a szerkesztőhöz a színpad fölé, ami megmutatja a másolatok számát.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "cloud-games",
+		"name": "Felhőalapú játékok",
+		"description": "Elérhető, amikor a Scratch Addons ikonjára kattint az ember. Megmutatja, hogy mennyi Scratcher játszik éppen az adott többjátékos projektekkel, valamint a felhasználói neveiket is felsorolja.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "color-inputs",
+		"name": "Színválasztó bemenetek",
+		"description": "Lehetővé teszi egy konkrét érték beállítását (0-tól 100-ig) a jelmezszerkesztő színválasztójának mindegyik csúszkájához.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "color-picker",
+		"name": "Hex szín választó",
+		"description": "Hozzáad egy hex kód bemenetet a szín választókhoz.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Richie Bendall",
+				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
+			},
+			{ "name": "apple502j" }
+		]
+	},
+	{
+		"id": "columns",
+		"name": "Két oszlopos kategória menü",
+		"description": "Felosztja a blokk kategória menüt két oszlopra és a blokk választó tetejére helyezi, mint a Scratch 2.0-ban.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
+		]
+	},
+	{
+		"id": "comments-linebreaks",
+		"name": "Sortörések kommentekben",
+		"description": "Láthatóvá teszi a sortöréseket (Enter) a kommentekben a weboldalon ahelyett, hogy átalakítaná őket szóközökké.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "compact-messages",
+		"name": "Kompakt üzenetek",
+		"description": "A Scratch üzenet oldalát kompaktabbá és könnyebben olvashatóvá teszi.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
+		]
+	},
+	{
+		"id": "confirm-actions",
+		"name": "Jóváhagyások",
+		"description": "Rákérdez, hogy biztos vagy-e, amikor műveleteket hajtasz végre a Scratch fiókoddal kapcsolatban, mint például a projektek megosztása.",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "copy-message-link",
+		"name": "Komment-link másolása gomb",
+		"description": "Hozzáad egy \"Link Másolása\" gombot minden kommenthez a weboldalon, a \"Jelentés\" gomb mellé.",
+		"tags": ["community", "comments", "recommended"],
+		"credits": [
+			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
+		]
+	},
+	{
+		"id": "ctrl-click-run-scripts",
+		"name": "Ctrl+Katt a szkript futtatásához",
+		"description": "Csak akkor futtatja le a blokksorozatokat, ha úgy kattintasz rá, hogy közben lenyomva tartod a Ctrl gombot.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
+		"id": "ctrl-enter-post",
+		"name": "Ctrl+Enter a posztoláshoz",
+		"description": "Automatikusan posztolja a kommented vagy fórum posztod Ctrl+Enter nyomásakor.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
+	},
+	{
+		"id": "curator-link",
+		"name": "Címlapon lévő közreműködő neve linkként",
+		"description": "A címlapon lévő kurátornak felhasználónevét (a „Projektek, amelyekben xy közreműködött” után) egy a profiljukra mutató kattintható hivatkozásként írja ki.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Hans5958",
+				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
+			}
+		]
+	},
+	{
+		"id": "custom-block-shape",
+		"name": "Személyre szabható blokk forma",
+		"description": "Állítsd be a kipárnázást, sarok sugarat, és a bemetszés magasságát a blokkokon.",
+		"tags": ["editor", "codeEditor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "SheepTester",
+				"link": "https://scratch.mit.edu/users/Sheep_maker/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "custom-block-text",
+		"name": "Személyre szabható blokk szöveg stílus",
+		"description": "Megváltoztatja a szövegek vastagságát a blokkokon és ezen kívül opcionális árnyékot is adhatsz a szövegekhez.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
+			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+		]
+	},
+	{
+		"id": "custom-zoom",
+		"name": "Szemelyre szabható kódterület nagyítása",
+		"description": "Válassz egyedi beállításokat a kódterület nagyításának minimumára, maximumára, sebességére és indító méretére, valamint rejtsd el az irányító gombokat hozzá",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			}
+		]
+	},
+	{
+		"id": "customize-avatar-border",
+		"name": "Személyre szabható profilkép szegély",
+		"description": "Megengedi, hogy elrejtsd vagy megváltoztasd a körvonalat a profilképeid körül a projekt és műhely kommentekben.",
+		"tags": ["community", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+	},
+	{
+		"id": "dango-rain",
+		"name": "Dango-eső a profilokon (Áprilisi Bolondok napja)",
+		"description": "Azon felhasználók profiljai el lesznek özönölve eső \"dango\" emojikkal, melyek a \"Magamról\" nevű részbe beleírják a \"dango\" szót a profilukon.",
+		"tags": ["easterEgg", "community", "profiles"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "World_Languages",
+				"link": "https://scratch.mit.edu/users/World_Languages"
+			},
+			{
+				"name": "griffpatch",
+				"link": "https://scratch.mit.edu/users/griffpatch"
+			}
+		]
+	},
+	{
+		"id": "dark-www",
+		"name": "Weboldal sötét mód és személyre szabható színek",
+		"description": "Szabd személyre a színeket amiket a Scratch weboldal használ. Több féle sötét mód is elérhető különféle készítőktől. Ha nem kell a sötét mód, de meg szeretnéd változtatni az alapvető színeket, akkor választhatod a \"Scratch alapvető színei\" opciót és módosíthatod.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			},
+			{
+				"name": "Ucrash",
+				"note": "Dark WWW",
+				"id": "darkwww",
+				"link": "https://github.com/gducrash"
+			}
+		]
+	},
+	{
+		"id": "data-category-tweaks-v2",
+		"name": "Adat kategória igazítások",
+		"description": "Igazításokat hajt végre az Adat (\"Változók\") blokk kategórián.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "debugger",
+		"name": "Hibakereső",
+		"description": "Hozzáad egy új \"Hibakereső\" ablakot a szerkesztőhöz. Elérhetővé teszi, hogy a \"Napló\" laphoz értékeket naplózzunk a \"naplózd\", \"figyelmeztess\" és \"hiba\" blokkok segítségével. A \"töréspont\" blokk megfogja állítani a projektet lefutásánál. Minden éppen futó szálat meg lehet figyelni a \"Szálak\" nevű fülecskéjénél a hibakeresőnek, és amikor a projekt meg van állítva, akkor a \"Továbblépés\" gomb segítségével lehet a következő blokkot lefuttatni. A képkocka-gyorsaság (fps) és a klónok mennyiségéről készült grafikonok szintén megtekinthetőek a \"Teljesítmény\" fül alatt.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			},
+			{ "name": "GarboMuffin" },
+			{ "name": "GrahamSH" },
+			{ "name": "TheColaber" },
+			{ "name": "retronbv" }
+		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Személyre szabható alapértelmezett jelmezszerkesztőszínek",
+		"description": "Megváltoztatja az alap színeit és körvonal méreteit a jelmezszerkesztőnek.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "default-project",
+		"name": "Személyre szabható alap projekt",
+		"description": "Megváltoztatja az alap projektet a Scratch Cicáról bármely létező projektre.",
+		"tags": ["editor", "beta"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "disable-auto-save",
+		"name": "Automatikus mentés kikapcsolása",
+		"description": "Kikapcsolja a projektek automatikus mentését szerkesztés közben.",
+		"tags": ["editor", "editorMenuBar", "danger"],
+		"credits": [
+			{
+				"name": "RustingRobot",
+				"link": "https://scratch.mit.edu/users/RustingRobot"
+			}
+		]
+	},
+	{
+		"id": "disable-paste-offset",
+		"name": "Ne helyezd át a bemásolt elemeket",
+		"description": "A bemásolt elemeket az eredeti helyükre kerülnek, nem tolódnak el a jelmez szerkesztőben.",
+		"tags": ["editor", "costumeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "disable-sprite-wobble",
+		"name": "Szereplők ingásának kikapcsolása a szereplő kijelzőben",
+		"description": "Lehetővé teszi a kódok, jelmezek és hangok mozgatását különböző szereplőkbe anélkül, hogy a szereplők mozgolódjanak a szereplő kijelzőben.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+		]
+	},
+	{
+		"id": "disable-stage-drag-select",
+		"name": "Nem-mozdítható szereplők a szerkesztőben",
+		"description": "Eltávolítja a lehetőséget, hogy áthelyezd a szereplőket a színpadon, kivéve azoknál, amik kifejezetten húzogathatóvá lettek beállítva.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "discuss-button",
+		"name": "Személyre szabható navigációs sáv",
+		"description": "Válassz egy listát a navigációs mezőben megjelenített linkekről.",
+		"tags": ["community", "featured"]
+	},
+	{
+		"id": "drag-drop",
+		"name": "Fájlok behúzása",
+		"description": "Elérhetővé teszi, hogy behúzzál képeket és hangokat a fájlkezelődből a szereplők táblába, vagy a jelmezek/hangok nevű oldalsávba. Még szövegfájlokat is be tudsz húzni listákba, vagy a \"kérdezd meg és várj\" blokk bemeneteli szövegét.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Sheep_maker" }]
+	},
+	{
+		"id": "echo-effect",
+		"name": "Visszhang effekt gomb",
+		"description": "Visszahozza a régi Visszhang gombot a hang szerkesztőbe.",
+		"tags": ["editor"]
+	},
+	{
+		"id": "editor-colored-context-menus",
+		"name": "Színezett helyi menük",
+		"description": "Átszínezi a blokkok jobb kattintásra megjelenő helyi menüjét.",
+		"tags": ["editor", "codeEditor", "theme", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-comment-previews",
+		"name": "Szerkesztői komment előnézetek",
+		"description": "Megengedi, hogy megtekintsd a kommentek tartalmát azzal, hogy fölé viszed az egered egy összecsukott kommentnek vagy blokknak. Ezzel elolvashatsz képernyőn kívüli kommenteket, azonosíthatsz egy ismétlő blokkot az aljáról az előnézet alapján, sok hosszú komment elhelyezése kis helyen, és további lehetőségek.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "editor-dark-mode",
+		"name": "Szerkesztő sötét mód és személyre szabható színek",
+		"description": "Szabd személyre a színeket amiket a projekt szerkesztő használ. Többféle sötét mód is elérhető különféle készítőktől. Ha nem kell a sötét mód, de meg szeretnéd változtatni az alapvető színeket, akkor választhatod a \"Scratch alapvető színei\" opciót, majd módosíthatod.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"note": "addon, \"Experimental\" Dark",
+				"id": "addon",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			},
+			{
+				"name": "infinitytec",
+				"note": "3.Dark, 3.Darker",
+				"id": "darker",
+				"link": "https://github.com/infinitytec"
+			},
+			{
+				"name": "_nix",
+				"note": "Dark editor",
+				"id": "dark",
+				"link": "https://github.com/towerofnix"
+			},
+			{
+				"name": "GarboMuffin",
+				"note": "TurboWarp Dark",
+				"id": "twdark",
+				"link": "https://github.com/GarboMuffin"
+			}
+		]
+	},
+	{
+		"id": "editor-devtools",
+		"name": "Fejlesztői eszközök",
+		"description": "Hozzáad egy keresőmezőt és új menü opciókat a szerkesztőhöz: másolj/illessz be blokkokat, jobb rendrakás, ugorj saját blokk definíciójához, és még sok más!",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
+		"id": "editor-extra-keys",
+		"name": "Extra billentyű érzékelés",
+		"description": "További lehetőségeket ad a \"() lenyomva?\" és a \"() gomb lenyomásakor\" blokkok lenyíló menüihez, például az enter, a pont, a vessző, és még sok más.",
+		"tags": ["editor", "codeEditor", "beta"],
+		"credits": [
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
+		]
+	},
+	{
+		"id": "editor-messages",
+		"name": "Üzenetek a szerkesztőben",
+		"description": "Megjeleníti az üzeneteid számát még a szerkesztőnek is a menüszalagjában.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "editor-searchable-dropdowns",
+		"name": "Keresés a legördülő menükben",
+		"description": "Megengedi, hogy keress a blokkok legördülő menüiben.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-sounds",
+		"name": "Szerkesztő hangeffektekkel",
+		"description": "Hangeffekteket játszik le, amikor csatlakoztatsz, vagy kitörölsz blokkokat.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "editor-stage-left",
+		"name": "Színpad áthelyezése bal oldalra",
+		"description": "Áthelyezi a színpadot a szerkesztő bal oldalára.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+	},
+	{
+		"id": "editor-stepping",
+		"name": "Futó blokkok körvonalai",
+		"description": "Hozzáad egy színes körvonalat azon blokkokhoz, amik éppen futnak egy projektben.",
+		"tags": ["editor", "codeEditor", "featured"]
+	},
+	{
+		"id": "editor-theme3",
+		"name": "Személyre szabható blokk színek",
+		"description": "Szerkeszd a blokkok színeit kategóriánként a szerkesztőben.",
+		"tags": ["editor", "theme", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "editor-unshare-button",
+		"name": "Ne legyen megosztva gomb a szerkesztőben",
+		"description": "Lecseréli a \"Megosztva\" gombot a projekt címe mellett egy gombbal, amivel visszavonható a megosztás.",
+		"tags": ["editor", "editorMenuBar"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "emoji-picker",
+		"name": "Emoji választó kommentekhez",
+		"description": "Hozzáad egy gombot, amivel beszúrhatsz emojikat a kommentekbe a weboldalon.",
+		"tags": ["community", "comments", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+	},
+	{
+		"id": "exact-count",
+		"name": "Mutasd a pontos számokat",
+		"description": "Megjeleníti a pontos számokat a felhasználó-, és a műhelyinformációkról. A <i>ScratchDB</i>-t használja a fórumokról való információkhoz.",
+		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "expanding-search-bar",
+		"name": "Kibővülő keresőmező",
+		"description": "Kiszélesíti a keresőmezőt, amikor az fókuszba kerül belekattintás után",
+		"tags": ["community", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+	},
+	{
+		"id": "feature-unshared",
+		"name": "Nem megosztott projektek kiemelése",
+		"description": "Lehetővé teszi, hogy nem megosztott projektek közül is válassz a profilodon lévő \"kiemelt projekt cseréje\" gombra való kattintás után.",
+		"tags": ["community", "profiles", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "fix-editor-comments",
+		"name": "Jobb szerkesztő kommentek",
+		"description": "Számos változtatást hajt végre a kommentekkel a Scratch szerkesztőben: kijavít egy hibát, ami miatt a kommentek amiket blokkokhoz csatolsz nem mentik el a pozíciójukat rendesen, amiután áthelyezed őket, megakadályozza a blokk kommentek képernyőn kívüli megjelenését nagyobb kódoknál, egyenesen tartja a blokk-komment köteléket, és további lehetősegek.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		]
+	},
+	{
+		"id": "fix-pasted-scripts",
+		"name": "Ne futtassa automatikusan a leduplikált blokkokat",
+		"description": "Helyrehoz egy bug-ot a Scratch szerkesztőjében, ahol egy blokk duplikálása, majd az beillesztése a többi blokkhoz lefuttatja a programsort.",
+		"tags": ["editor", "recommended", "codeEditor"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
+			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
+		"id": "fix-uploaded-svgs",
+		"name": "SVG feltöltés megjavítása",
+		"description": "Kijavít egy olyan hibát a Scratch szerkesztőjében, amik elrontják némely képszerkesztő program – mint például  az Affinity Designer – által készített SVG fájlokat.",
+		"tags": ["editor", "costumeEditor"]
+	},
+	{
+		"id": "folders",
+		"name": "Szereplő mappák",
+		"description": "Mappákat ad a szereplő kijelzőhöz, illetve a jelmez és hang listához. Mappa létrehozásához, jobb kattints bármely szereplőre és kattints a \"mappa létrehozása\" lehetőségre. Kattints egy mappára, hogy megnyisd vagy összezárd azt. Jobb kattints egy szereplőre, hogy lásd milyen mappákba tudod átmozgatni, vagy csak húzd az egérrel egy nyitott mappába.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "forum-copy-code",
+		"name": "Kód másolása gomb a fórumokon",
+		"description": "Hozzáad egy \"Kód másolása\" gombot a kód mezők fölé a fórum posztoknál, amivel kimásolható a mező tartalma a vágólapra.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+	},
+	{
+		"id": "forum-id",
+		"name": "Poszt szám idézése",
+		"description": "Kattints a \"poszt szám idézése\" gombra, hogy bemásolj egy linket a poszthoz a válaszodba.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
+		"id": "forum-live-preview",
+		"name": "Fórumbejegyzés előnézete élőben",
+		"description": "Automatikusan megjeleníti egy fórum poszt szerkesztése, vagy írása közben az előnézetet, amikor éppen nem gépelsz.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "forum-quote-code-beautifier",
+		"name": "Személyre szabható idézetek és kód blokkok a forúmokon",
+		"description": "Szebb kódokat és idézet blokkokat mutat a fórumokon",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
+			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
+		]
+	},
+	{
+		"id": "forum-search",
+		"name": "Fórum keresés",
+		"description": "Hozzáad egy poszt keresőmezőt a fórumokhoz. A ScratchDB-t használja információkért.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "forum-time-zones",
+		"name": "Helyi zónaidő a fórumokon",
+		"description": "A saját helyi zónaidődet használja a fórumbejegyzések dátumának és idejének megjelenítéséhez.",
+		"tags": ["forums", "community"]
+	},
+	{
+		"id": "forum-toolbar",
+		"name": "Több gomb a fórum eszköztárában",
+		"description": "Gombokat ad hozzá a fórum szerkesztői eszköztárához, hogy belehessen illeszteni BBCode címkéket, mint a [center], vagy a [color].",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Silk",
+				"note": "icons",
+				"id": "icons",
+				"link": "http://www.famfamfam.com/lab/icons/silk/"
+			}
+		]
+	},
+	{
+		"id": "full-signature",
+		"name": "Teljes területek",
+		"description": "Megszabott magassággal jeleníti meg a teljes tartalmát egyes területeknek, mint például a felhasználók aláírását a fórumokon, vagy a profilokon lévő „Amin most dolgozom” résznek úgy, hogy átméretezhetőekké, vagy görgethetővé teszik.",
+		"tags": ["community", "forums", "recommended", "profiles"],
+		"credits": [
+			{ "name": "GrahamSH" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+		]
+	},
+	{
+		"id": "fullscreen",
+		"name": "Fejlesztett teljes képernyő",
+		"description": "Kijavít pár nemkívánatos effektet a projekt lejátszó teljes képernyős módjában, megnyitja a böngésződ teljes képernyős módjában, és elrejti a zöld zászlós eszköztárat.",
+		"tags": ["editor", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
+		]
+	},
+	{
+		"id": "gamepad",
+		"name": "Gamepad támogatás",
+		"description": "Lépj kapcsolatba projektekkel USB, vagy Bluetooth kontroller/gamepad használata által.",
+		"tags": ["editor", "projectPlayer", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hi-res-thumbnails",
+		"name": "Magas felbontású indexképek",
+		"description": "Lecseréli az indexképeket a weboldalon nagyobb felbontású képekkel. Hasznos a Retina (magas pixel sűrűségű) kijelzőknél és a 100%-os nagyításnál nagyobb zoom-mal való böngészéshez.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
+		]
+	},
+	{
+		"id": "hide-delete-button",
+		"name": "Törlés gomb elrejtése",
+		"description": "Elrejti a törlés gombot (kuka ikont) a szereplőkből, jelmezekből és hangokból. Ezután még törölhetőek lesznek a jobb kattos helyi menüből.",
+		"tags": ["editor", "featured"]
+	},
+	{
+		"id": "hide-flyout",
+		"name": "Blokk választó automatikus elrejtése",
+		"description": "Elrejti a blokk választót, ha nem felette van a kurzor. Kattints a lakat ikonra, hogy átmenetileg zárold a pozícióját. Alternatívaként használd a \"kategória kattintásra\" módot.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "hide-new-variables",
+		"name": "Új változók elrejtése",
+		"description": "Ne készíts automatikusan kijelzőket az újonnan készített változóknak vagy listáknak.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "hide-project-stats",
+		"name": "Projekt statisztikák elrejtése",
+		"description": "Megengedi a szívezések, kedvencnek jelölések, remixelések és megtekintések számának elrejtését a projekt oldalakról.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-signatures",
+		"name": "Aláírások elrejtése a fórumokon",
+		"description": "Elrejti az aláírásokat a fórum posztokban és hozzáad egy \"Aláírás megjelenítése\" gombot.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "horizontal-mystuff-tabs",
+		"name": "Vízszintes fülek a Saját Dolgaimhoz",
+		"description": "Átrendezi a Saját Dolgaim navigációs gombjait (\"Minden projekt\", \"Műhelyeim\", \"Szemetes\") az oldal bal részéről a tetejére pakolva őket.",
+		"tags": ["community", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "image-uploader",
+		"name": "Fórumkép-feltöltő",
+		"description": "Hozzáad egy gombot, képek fórumbejegyzésekre történő közvetlen feltöltéséhez és beillesztéséhez.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "infinite-scroll",
+		"name": "Végtelen görgetés",
+		"description": "Engedélyezi a felület különböző részein való lejjebb görgetést anélkül, hogy a \"Több betöltése\" gombra rá kéne kattintani.",
+		"tags": ["community", "featured"],
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+	},
+	{
+		"id": "initialise-sprite-position",
+		"name": "Személyre szabható pozíció az új szereplőknek",
+		"description": "Megváltoztatja az alapértelmezett x/y pozícióját az újonnan készített szereplőknek",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007"
+			}
+		]
+	},
+	{
+		"id": "items-per-row",
+		"name": "Több elem soronként",
+		"description": "Ezzel a kiegészítővel megváltoztathatod, hogy mennyi elem kerüljön egy sorba, projektek, stúdiók, vagy felhasználók rácsozatánál",
+		"tags": ["community", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "last-edit-tooltip",
+		"name": "Megosztott/szerkesztett időpontokhoz segédeszköz",
+		"description": "Tartsd egérmutatódat egy projekt megosztási időpontja fölé olyan információért, hogy mikor volt pontosan megosztva és utoljára szerkesztve.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
+	},
+	{
+		"id": "live-featured-project",
+		"name": "Live kiemelt projekt",
+		"description": "Hozzáad egy interaktív kiemelt projektet az adott felhasználó profiljához. A Mega Scratch felhasználói szkript implementációján alapszik.",
+		"tags": ["community", "profiles", "featured"],
+		"credits": [
+			{
+				"name": "GRA0007",
+				"note": "original",
+				"id": "original",
+				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
+			},
+			{ "name": "Hans5958", "note": "remake", "id": "remake" }
+		]
+	},
+	{
+		"id": "load-extensions",
+		"name": "Automatikusan add hozzá a bővítményeket",
+		"description": "Automatikusan megjeleníti a zene, toll, és más bővítményeket a szerkesztő oldalsó blokk kategóriás menüjében.",
+		"tags": ["editor", "codeEditor", "featured"]
+	},
+	{
+		"id": "longer-wiwo",
+		"name": "Magasabb karakter korlát az \"Amin most dolgozom\" részhez",
+		"description": "Lehetővé teszi, hogy 55-tel több karaktert írj a profilod \"Amin most dolgozom\" részéhez. Mindenki láthatja a Scratch-en az extra karaktereket.",
+		"tags": ["community", "profiles", "featured"],
+		"credits": [
+			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
+		]
+	},
+	{
+		"id": "material-forum-editor-buttons",
+		"name": "Jobb fórum poszt szerkesztő gombok",
+		"description": "Megváltoztatja a gombok ikonjait a fórum poszt szerkesztőben pixeles bitmapokról Anyagi ikonokra.",
+		"tags": ["community", "forums", "theme"],
+		"credits": [
+			{
+				"name": "A-E-",
+				"link": "https://github.com/easrng/material-scratch-forum-editor-buttons"
+			},
+			{
+				"name": "Secret-chest",
+				"note": "addon version",
+				"id": "addonVersion",
+				"link": "https://github.com/Secret-chest"
+			}
+		]
+	},
+	{
+		"id": "mediarecorder",
+		"name": "Projekt videó felvevő",
+		"description": "Hozzáad egy \"felvétel indítása\" gombot a szerkesztő menü sorába, ami megengedi, hogy felvedd a projekt színpadját.",
+		"tags": ["editor", "editorMenuBar", "recommended"]
+	},
+	{
+		"id": "message-filters",
+		"name": "Üzenet szűrők",
+		"description": "Megengedi, hogy kiválaszd milyen üzeneteket mutasson vagy rejtsen el a Scratch üzenet oldala.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "--Explosion--",
+				"link": "https://github.com/explosion-scratch"
+			}
+		]
+	},
+	{
+		"id": "more-links",
+		"name": "Több link",
+		"description": "Hozzáad kattintható linkeket olyan URL-ekhez is, amik a scratch.mit.edu-n kívűlre mutatnak",
+		"tags": ["community", "featured"],
+		"credits": [{ "name": "Hans5958" }]
+	},
+	{
+		"id": "mouse-pos",
+		"name": "Egér pozíciója",
+		"description": "Megjeleníti az egered x és y helyét a színpad fölött a szerkesztőben.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "move-to-top-bottom",
+		"name": "Jelmez áthelyezése legfelülre vagy legalulra",
+		"description": "Hozzáad egy helyi menü elemet, amivel mozgathatsz egy jelmezt vagy hangot a lista tetejére vagy aljára. Korábban a fejlesztői eszközök része.",
+		"tags": ["editor", "featured"]
+	},
+	{
+		"id": "msg-count-badge",
+		"name": "Üzenetszám a bővítmény ikonján",
+		"description": "Hozzáadja a jelenlegi üzenetek számát a Scratch Addons ikonhoz.",
+		"tags": ["popup", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "William Horning", "link": "https://wgyt.tk/" },
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
+		"id": "mute-project",
+		"name": "Némított projekt lejátszó mód",
+		"description": "Ctrl+Kattints a zöld zászlóra, hogy némítsd/feloldd a némítást egy projektben.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "my-ocular",
+		"name": "Ocular beillesztés",
+		"description": "Megjeleníti az <i>ocular</i> státuszokat valamint a reakciókat a fórum posztokra. A my-ocular.jeffalo.net-től szerzi az ehhez szükséges adatokat.",
+		"tags": ["forums", "profiles", "community"],
+		"credits": [{ "name": "Jeffalo" }]
+	},
+	{
+		"id": "name-backpack-items",
+		"name": "Kódok elnevezése mielőtt a hátizsákba kerül",
+		"description": "Megkér, hogy nevezd el a kódokat miután behúztad őket a hátizsákba, ahelyett, hogy mindnek az a neve lenne, hogy \"kód\".",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "TheColaber" }]
+	},
+	{
+		"id": "no-script-bumping",
+		"name": "Ne mozgasd automatikusan a kódokat",
+		"description": "Megengedi a kódok mozgatását anélkül, hogy odébb mozdulnának az egymást fedő kódoszlopok.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "old-studio-layout",
+		"name": "Régi műhely elrendezés",
+		"description": "Visszaállítja a műhely oldal elrendezését arra, amit a műhely frissítés előtt használtak vagy arra, ami korábbiakban a Scratch 2.0 → 3.0 bővítmény része volt.",
+		"tags": ["community", "theme", "studios", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "onion-skinning",
+		"name": "Onion skinning",
+		"description": "Áttetsző rétegekként mutatja az előző illetve következő jelmezeket, amikor jelmezt szerkesztesz. Gombokkal irányítható, amik a jelmez szerkesztő alatt vannak a zoom gombok mellett.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "paint-by-default",
+		"name": "Jelmez festése alapvetően",
+		"description": "Átéllítja az alapvető műveletet a \"Válassz Szereplőt/Jelmezt/Hátteret/Hangot\" gomboknak, amik alapvetően a könyvtárat nyitják meg.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pause",
+		"name": "Megállítás gomb",
+		"description": "Hozzáad egy megállítás gombot a zöld zászló mellé.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "progress-bar",
+		"name": "Projekt fejlődésmutató",
+		"description": "Hozzáad egy fejlődésmutatót a projektek betöltéséhez és mentéséhez.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "project-info",
+		"name": "Szereplő és szkript számolása",
+		"description": "Megmutatja a „Remixelés” gomb mellett a szereplők és szkriptek számát, amit az adott projekt tartalmaz.",
+		"tags": ["community", "projectPage", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "project-notes-tabs",
+		"name": "Projekt leírása fülekkel",
+		"description": "Fülecskéket készít az „Utasítások” plusz a „Megjegyzések és stáblista” részhez a projekt oldalán.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "redirect-mobile-forums",
+		"name": "Átirányítás a standard fórumokra",
+		"description": "Átirányít a standard (\"fő\") fórumokra, amikor egy linkre rákattintasz a telefonos fórumokon.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+		]
+	},
+	{
+		"id": "remix-button",
+		"name": "Remix gomb a saját projekteknél",
+		"description": "Hozzáadja a remix gombot a saját projektjeidhez.",
+		"tags": ["community", "projectPage"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "remix-tree-button",
+		"name": "Remixfa gomb",
+		"description": "Visszahozza a remixfa gombot a projektek oldalára, amit a Link másolása gomb mellett helyez el.",
+		"tags": ["community", "recommended", "projectPage"],
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+	},
+	{
+		"id": "remove-curved-stage-border",
+		"name": "Színpad lekerekített sarkainak eltávolítása",
+		"description": "Eltávolítja az íveltségét a színpad széleinek, így láthatóvá téve a sarkokban lévő dolgokat is.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{
+				"name": "Tacodude7729",
+				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+			}
+		]
+	},
+	{
+		"id": "remove-sprite-confirm",
+		"name": "Szereplő törlésének megerősítése",
+		"description": "Megkérdezi egy projekten belüli szereplő törölésénél, hogy biztos vagy-e benne.",
+		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "resizable-comment-input",
+		"name": "Átméretezhető kommentek",
+		"description": "Függőlegesen átméretezhetővé teszi a hozzászólások bemenetének szövegdobozát a 3.0-ás kinézetű oldalakon.",
+		"tags": ["community", "comments", "recommended", "theme"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "scratch-messaging",
+		"name": "Scratch Üzenetküldés",
+		"description": "Elérhető a Scratch Addons ikonjára kattintva. Könnyű olvashatóságot és válaszolási lehetőséget nyújt a Scratch üzeneteidhez: csoportosítja az üzeneteket projektenként, a teljes komment szövegét és annak környezetét megmutatja, valamint a közvetlen komment-válaszolást is lehetővé teszi.",
+		"tags": ["popup", "recommended"],
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+	},
+	{
+		"id": "scratch-notifier",
+		"name": "Scratch Értesítő",
+		"description": "Értesítések új Scratch üzeneteken. Kattints az értesítésre, hogy egyenesen elmenj az üzenethez (komment, projekt, stb.)",
+		"tags": ["community", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{ "name": "NitroCipher/ZenithRogue" },
+			{
+				"name": "notificationsounds.com",
+				"note": "Scratch Addons ping",
+				"id": "scratchAddonsPing"
+			}
+		]
+	},
+	{
+		"id": "scratchblocks",
+		"name": "3.0 Scratch blokkok a fórumokon",
+		"description": "Engedélyezi az új verziójú Scratch blokkokat a fórumokon.",
+		"tags": ["community", "forums", "beta"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
+			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
+			{ "name": "apple502j", "link": "https://github.com/apple502j" }
+		]
+	},
+	{
+		"id": "scratchr2",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "A Scratch 2.0 stílusú oldalakat Scratch 3.0 stílusúvá teszi.",
+		"tags": ["community", "theme", "recommended"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "scratchstats",
+		"name": "Profil statisztikák",
+		"description": "Statisztikákat mutat a ScratchDB-ről a felhasználói profilokon.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "script-snap",
+		"name": "Kódok rácspontokhoz való igazítása",
+		"description": "Mozgass egy kódot és automatikusan a kód mező pontjaihoz fog igazodni.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+			}
+		]
+	},
+	{
+		"id": "search-my-stuff",
+		"name": "Kereső mező a Saját Dolgaimhoz",
+		"description": "Megengedi, hogy keress a projektjeid, műhelyeid és törölt projektjeid között a Saját Dolgaim oldalon. Egyszerűen kezdj írni bárhova az oldalon, hogy megkezdd a keresést. használhatod a Ctrl+Entert a keresés után, hogy gyorsan megnyisd a legfelső eredményt.",
+		"tags": ["community", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		]
+	},
+	{
+		"id": "search-profile",
+		"name": "Profilkeresés",
+		"description": "Lehetővé teszi, hogy elkalauzolódjál egy felhasználói profilra, amikor a nevükkel keresel.",
+		"tags": ["community", "recommended", "profiles"],
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+	},
+	{
+		"id": "search-sprites",
+		"name": "Szereplők keresése név alapján",
+		"description": "Hozzáad egy kereső mezőt a szereplő kijelzőhőz, hogy kereshess a szereplők között név alapján.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "semicolon",
+		"name": "Pontosvessző-hiba ",
+		"description": "Visszaadja a pontosvessző-hibát a Scratchhez.",
+		"tags": ["community", "easterEgg"],
+		"credits": [{ "name": "GrahamSH" }]
+	},
+	{
+		"id": "show-bbcode",
+		"name": "BBCode forrás gomb",
+		"description": "Hozzáad egy gombot a fórumokhoz, ami megmutatja a BBCode forrását az adott posztnak.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "studio-followers",
+		"name": "Követők böngészése gomb a műhelyekben",
+		"description": "Hozzáad egy gombot az általad vezetett stúdiókban a \"kurátorok\" lap tetejéhez, ami felsorolja az összes követőt és követett felhasználót, valamint lehetővé teszi, hogy csak egy gombbal meg tudj hívni egy ott látszó felhasználót.",
+		"tags": ["community", "studios", "featured"],
+		"credits": [
+			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
+			{ "name": "World_Languages" }
+		]
+	},
+	{
+		"id": "studio-tools",
+		"name": "Stúdió eszközök",
+		"description": "Lehetővé teszi a műhelyvezetőknek, hogy előléptessenek kurátorokat, vagy eltávolítson bárkit egy stúdióból a \"kurátorok\" fül alatt, valamint hozzáadja a műhely elhagyásának képességét egy gombon keresztül, ami a \"Műhely követése\" alatt lesz megtalálható.",
+		"tags": ["community", "studios", "recommended"],
+		"credits": [
+			{ "name": "World_Languages" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "swap-local-global",
+		"name": "Változók váltása \"Minden szereplőé\" és \"A kiválasztott szereplé\" között",
+		"description": "További opciókat ad hozzá a már létező változók vagy listák átnevezésénél: megengedi a váltást \"Minden szereplőé\" és \"A kiválasztott szereplőé\" között, állítható továbbá a változók megosztottsága. Hozzáad még egy új opciót, amikor jobb kattintasz egy változót/listát, hogy gyorsabban állíthasd az elérhetőségét.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
+		"id": "transparent-orphans",
+		"name": "Blokk átlátszóság",
+		"description": "Állítsd be kedvedre az átlátszóságát a blokkoknak a szerkesztőben különféle opciókkal a magányos blokkok részére (akik nem kapcsolódnak kezdeti blokkhoz) és a húzott blokkok részére is.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
+			},
+			{ "name": "GarboMuffin" }
+		]
+	},
+	{
+		"id": "true-youtube-links",
+		"name": "Igazi YouTube linkek a fórumokon",
+		"description": "Kicseréli a beágyazott oldalakra mutató linkeket valódi YouTube linkekkel.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "HTML-Fan/NT" }]
+	},
+	{
+		"id": "turbowarp-player",
+		"name": "TurboWarp gomb",
+		"description": "Hozzáad egy gombot a projekt oldalakhoz a Remix gomb mellé, amivel lejátszhatod az adott projekteket a TurboWarp.org segítségével is.",
+		"tags": ["community", "projectPage", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
+		"id": "tutorials-button",
+		"name": "Gyakorlatok gomb elrejtése",
+		"description": "Elrejti a Gyakorlatok gombot a szerkesztő menü bárjában.",
+		"tags": ["editor"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		]
+	},
+	{
+		"id": "user-id",
+		"name": "Felhasználó ID mutatása",
+		"description": "Hozzáadja a felhasználó ID-jét a név mellé a profil oldalak tetején.",
+		"tags": ["community", "profiles"],
+		"credits": [
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
+		]
+	},
+	{
+		"id": "variable-manager",
+		"name": "Változó kezelő",
+		"description": "Hozzáad egy fület a \"hangok\" mellé a szerkesztőben, melyben könnyen frissítheted a változókat és listákat.",
+		"tags": ["editor", "featured"],
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "youtube-fullscreen",
+		"name": "YouTube teljes képernyő",
+		"description": "Engedélyezi a teljes képernyő gombot a Scratch YouTube videólejátszójához.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	}
+]

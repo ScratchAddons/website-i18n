@@ -184,8 +184,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Color picker inputs",
-		"description": "Allows setting an exact value (0-100) for each slider in the costume editor color picker.",
+		"name": "Kleurenkiezeringangen",
+		"description": "Laat je een exacte waarde (0-100) voor elke slider in de kleurenkiezer van de uiterlijkeditor.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -219,7 +219,7 @@
 	{
 		"id": "comments-linebreaks",
 		"name": "Regeleinden in opmerkingen",
-		"description": "Maakt regeleinden (op Enter drukken) in opmerkingen op de website zichtbaar in plaats van ze vervangen met spaties.",
+		"description": "Maakt regeleinden (op Enter drukken) in opmerkingen op de website zichtbaar in plaats van ze te vervangen met spaties.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -234,7 +234,10 @@
 		"description": "Maakt Scratch's berichtpagina compacter en fijner om te lezen.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -271,7 +274,7 @@
 	{
 		"id": "ctrl-enter-post",
 		"name": "Ctrl+Enter om te posten",
-		"description": "Post automatisch de opmerking of forumpost met Ctrl+Enter",
+		"description": "Post automatisch de opmerking of forumpost met Ctrl+Enter.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -402,8 +405,15 @@
 		]
 	},
 	{
+		"id": "default-costume-editor-color",
+		"name": "Aanpasbare standaardkleuren in uiterlijkeditor",
+		"description": "Verandert de standaardkleuren en -randgrootte in de uiterlijkeditor.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
 		"id": "default-project",
-		"name": "Aanpasbare standaardproject",
+		"name": "Aanpasbaar standaardproject",
 		"description": "Verander het standaardproject met de Scratch-Kat naar een bestaand project.",
 		"tags": ["editor", "beta"],
 		"credits": [
@@ -677,7 +687,7 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Kopieer Code-knop op forums",
+		"name": "Knop voor code kopiëren op forums",
 		"description": "Voegt een \"code kopiëren\"-knop toe boven code-velden in forumposts dat de inhoud kopieert naar het klembord.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
@@ -726,8 +736,8 @@
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "Meer forum-taakbalkknoppen",
-		"description": "Voegt knoppen in de forumeditor-taakbalk om BBCode in te voegen, zoals [center] of [color].",
+		"name": "Meer taakbalkknoppen in forums",
+		"description": "Voegt knoppen in de taakbalk van de forumeditor om BBCode in te voegen, zoals [center] of [color].",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1005,7 +1015,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Geef scripts een naam voordat je ze in de rugzak doet",
+		"name": "Geef scripts een naam voordat je ze in de rugzak zet",
 		"description": "Vraagt je om scripts een naam te geven nadat je ze in je rugzak sleept, in plaats van de standaard naam \"code\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Weergave van geluidslengte",
+		"description": "Geeft de totale lengte en de verstreken tijd van een geluid, of het geselecteerde deel ervan, weer in de geluideditor.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Knop voor volgers browsen in studios",
 		"description": "Voegt een knop toe boven het \"beheerders\"-venster in studios die je beheert, die een lijst geeft van je volgers en wie je zelf volgt en laat je iemand uitnodigen met een enkele klik.",
@@ -1341,7 +1363,10 @@
 		"description": "Laat de gebruikers-ID naast de gebruikersnaam zien bovenaan profielpagina's.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

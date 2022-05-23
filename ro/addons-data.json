@@ -103,7 +103,7 @@
 	},
 	{
 		"id": "block-count",
-		"name": "Block count",
+		"name": "Număr de blocuri",
 		"description": "Shows the total number of blocks in a project in the editor menu bar. Previously part of \"sprite and script count\".",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
@@ -230,11 +230,14 @@
 	},
 	{
 		"id": "compact-messages",
-		"name": "Compact messages",
-		"description": "Makes Scratch's messages page more compact and easier to read.",
+		"name": "Mesaje Compacte",
+		"description": "Face pagina de mesaje Scratch mai compactă și mai ușor de citit.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -270,7 +273,7 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enter to post",
+		"name": "Ctrl+Enter pentru a posta",
 		"description": "Automatically posts the comment or forum post on Ctrl+Enter.",
 		"tags": ["community"],
 		"credits": [
@@ -360,7 +363,7 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Mod întunecat pe site",
+		"name": "Mod întunecat pe website și culori personalizate",
 		"description": "Customize colors used by the Scratch website. Multiple dark themes by different authors available. If you don't need dark mode but want to change the default colors you can select the \"Scratch's default colors\" preset and tweak it.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Customizable default costume editor colors",
+		"description": "Changes the default colors and outline size used by the costume editor.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -474,7 +484,7 @@
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Meniuri de context colorate",
-		"description": "Makes block right click context menus colorful.",
+		"description": "Face meniurile de context colorate când se dă clic-dreapta pe un bloc.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -591,8 +601,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Unshare button in editor",
-		"description": "Replaces the \"Shared\" button next to the project title box with a button to unshare the project.",
+		"name": "Buton „Oprește partajearea” în editor",
+		"description": "Înlocuiește butonul „Partajat” de lângă cutia cu titlul proiectului cu un buton pentru a opri partajarea proiectului.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -677,8 +687,8 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Copy code button on forums",
-		"description": "Adds a \"copy code\" button above code boxes in forum posts that copies the contents into the clipboard.",
+		"name": "Buton „Copiază codul” pe forumuri",
+		"description": "Adaugă un buton „copiază codul” deasupra cutiilor de cod în postările de forumuri care copiază conținutul în clipboard.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
@@ -703,7 +713,7 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Customizable quotes and code blocks on forums",
+		"name": "Citate și blocuri de cod personalizabile pe forumuri",
 		"description": "Arată cod și citate mai plăcute pe forumuri.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -780,7 +790,7 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "Hide delete button",
+		"name": "Ascunde butonul de ștergere",
 		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu.",
 		"tags": ["editor", "featured"]
 	},
@@ -805,7 +815,7 @@
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "Hide project stats",
+		"name": "Ascunde statisticile proiectului",
 		"description": "Lets you hide love, favorite, remix and view counts in the front page and project pages.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -814,7 +824,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Hide signatures on forums",
+		"name": "Ascunde semnătura",
 		"description": "Hides signatures in forum posts and adds a \"Show signature\" button.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -823,7 +833,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Horizontal tabs on My Stuff",
+		"name": "File orizontale în Materialele Mele",
 		"description": "Moves the My Stuff navigation buttons (\"All Projects\", \"My Studios\", \"Trash\") to the top of the page, instead of keeping them on the left.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -861,7 +871,7 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "More items per row",
+		"name": "Mai mulți itemi pe coloană",
 		"description": "Lets you change the number of items displayed in a single row in a grid of projects, studios, or users.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -916,8 +926,8 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Butoane mai bune pentru editorul de postări de pe forumuri",
-		"description": "Schimbă iconițele editorului de postări de pe forumuri din imagini mici 16x16 în iconițe materiale SVG.",
+		"name": "Better forum post editor buttons",
+		"description": "Changes the icons for buttons in the forum post editor from pixelated bitmaps to Material icons.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -1005,8 +1015,8 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Name scripts before placing in backpack",
-		"description": "Asks you to name scripts after you drag them into the backpack, instead of using the default name \"code\".",
+		"name": "Numește scripturile înainte să le pui în rucsac",
+		"description": "Îți cere să numești scripturile înainte să le pui în rucsac, în loc să folosească numele prestabilit „cod”.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
 	},
@@ -1019,7 +1029,7 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Old studio layout",
+		"name": "Stilul vechi pentru studiouri",
 		"description": "Reverts the layout of the studio page back to the one used before the studio update or the one previously available as part of the Scratch 2.0 → 3.0 addon.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
@@ -1038,7 +1048,7 @@
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Paint costume by default",
+		"name": "Pictează costumele în mod prestabilit",
 		"description": "Changes the default action of \"Choose a Sprite/Costume/Backdrop/Sound\" buttons, which open the library by default.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -1160,8 +1170,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0 Scratchblocks on forums",
-		"description": "Enables the new version of scratchblocks on the forums.",
+		"name": "Blocuri Scratch 3.0 pe forumuri",
+		"description": "Activează noua versiune de blocuri Scratch pe forumuri.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
@@ -1231,8 +1241,8 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Search sprites by name",
-		"description": "Adds a search box to the sprite pane to search for sprites by name.",
+		"name": "Caută personaje după nume",
+		"description": "Adaugă o cutie de căutare la panoul personajelor pentru a căuta personaje după nume.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1258,6 +1268,18 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
 			}
 		]
 	},
@@ -1313,7 +1335,7 @@
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "TurboWarp button",
+		"name": "Buton TurboWarp",
 		"description": "Adds a button on project pages to play the project in TurboWarp.org, next to the Remix button.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
@@ -1337,11 +1359,14 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Show user IDs",
-		"description": "Adds the user ID next to the username at the top of profile pages.",
+		"name": "Arată ID-ul utilizatorilor",
+		"description": "Adaugă ID-ul utilizatorilor lângă numele de utilizator din partea de sus a paginilor de profil.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

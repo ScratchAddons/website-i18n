@@ -234,7 +234,10 @@
 		"description": "Scratchのメッセージページをコンパクトにする。",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "コスチュームエディターの既定の色を変更",
+		"description": "コスチュームエディターの既定の色と輪郭の大きさを変更する。",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "音の長さ表示",
+		"description": "サウンドエディターに音の全長と経過時間や選択された部分の時間を表示する。",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "フォロワー招待ボタン",
 		"description": "スタジオのキュレータータブに、フォロワーやフォロー中のユーザーを個別に招待できるボタンを追加する。",
@@ -1341,7 +1363,10 @@
 		"description": "プロフィールページのユーザー名の横にユーザーIDを表示する。",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

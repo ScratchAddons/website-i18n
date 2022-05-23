@@ -234,7 +234,10 @@
 		"description": "스크래치 메시지 페이지에 더 많은 메시지를 보이고 읽기 쉽게 만듭니다.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Customizable default costume editor colors",
+		"description": "Changes the default colors and outline size used by the costume editor.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "스튜디오에 팔로워 검색 버튼 추가",
 		"description": "\"큐레이터\" 탭에 팔로워를 처리하고 팔로워나 팔로우 하고 있는 사람을 보여주는 버튼을 추가해 보이는 사용자를 단 한번의 클릭에 초대할 수 있게 합니다.",
@@ -1341,7 +1363,10 @@
 		"description": "프로필 페이지의 맨 위에 사용자 ID를 사용자 이름 옆에 추가합니다.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

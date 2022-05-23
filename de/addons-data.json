@@ -234,7 +234,10 @@
 		"description": "Macht die Scratch-Nachrichtenseite kompakter und einfacher zu lesen.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Benutzerdefinierte Standardfarbe im Kostümeditor",
+		"description": "Ändert die standardmäßige Farbe und Randbreite im Kostümeditor.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1160,8 +1170,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0 Scratchblocks in Foren",
-		"description": "Aktiviert die neue Version von scratchblocks in Foren",
+		"name": "3.0-Blöck in Foren",
+		"description": "Aktiviert die neue Version von scratchblocks in den Foren.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Klangdaueranzeige",
+		"description": "Fügt eine Anzeige zu Klängen hinzu, die die vollständige und verstrichene Länge des Klangs oder eines ausgewählten Teils anzeigt.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Follower durchsuchen-Knopf in Studios",
 		"description": "Fügt einen Knopf oben im \"Kuratoren\"-Tab in Studios, die du verwaltest, hinzu, der deine Follower und die Nutzer, denen du folgst, auflistet, um sie mit einem Klick einzuladen.",
@@ -1341,7 +1363,10 @@
 		"description": "Zeigt die ID des Benutzers neben seinem Benutzernamen oben in Profilseiten an.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

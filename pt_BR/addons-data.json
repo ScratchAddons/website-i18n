@@ -234,7 +234,10 @@
 		"description": "Deixa a página de mensagens do Scratch mais compacta e fácil de ler.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Customizar padrões de cor do editor de fantasias",
+		"description": "Muda o padrão das cores e do tamanho da borda usado pelo editor de fantasias.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Convidar seguidores para estúdios",
 		"description": "Adiciona um botão no topo da aba de \"curadores\" em estúdios que você administra que mostra seus seguidores e usuários que você segue e te deixa convidar um usuário com um só clique.",
@@ -1341,7 +1363,10 @@
 		"description": "Adiciona o ID de um usuário ao lado do nome no topo de páginas de perfil.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

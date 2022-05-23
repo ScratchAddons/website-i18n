@@ -34,7 +34,7 @@
 	{
 		"id": "better-emojis",
 		"name": "Улучшенные эмодзи",
-		"description": "Replaces the emojis in comments on the website with improved vector designs.",
+		"description": "Заменяет эмодзи в комментариях на сайте улучшенным векторным дизайном.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
@@ -135,8 +135,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "Block switching",
-		"description": "Right click on a block to switch it to a related block.",
+		"name": "Замена блоков",
+		"description": "Щёлкните правой кнопкой мыши по блоку, чтобы заменить его на связанный блок.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -184,8 +184,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Color picker inputs",
-		"description": "Allows setting an exact value (0-100) for each slider in the costume editor color picker.",
+		"name": "Ввод цвета",
+		"description": "Позволяет задавать точное значение (0-100) для каждого ползунка в выборе цвета редактора костюма.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -219,7 +219,7 @@
 	{
 		"id": "comments-linebreaks",
 		"name": "Переносы строк в комментариях",
-		"description": "Показывает разрывы строк (нажатие Enter) в комментариях.",
+		"description": "Делает переносы строк (Enter) в комментариях на сайте видимыми, а не преобразует их в пробелы.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -234,13 +234,16 @@
 		"description": "Делает страницу сообщений на Scratch'е более компактной и лёгкой для чтения.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
 		"id": "confirm-actions",
-		"name": "Confirmations",
-		"description": "Asks if you're sure when committing actions under your Scratch account, such as sharing projects.",
+		"name": "Подтверждения",
+		"description": "Спрашивает, уверены ли вы, когда совершаете действия под своим аккаунтом Scratch, например, делитесь проектами.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -252,7 +255,7 @@
 	{
 		"id": "copy-message-link",
 		"name": "Кнопка «скопировать ссылку на комментарий»",
-		"description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
+		"description": "Добавляет кнопку \"Копировать ссылку\" ко всем комментариям на сайте рядом с кнопкой \"Пожаловаться\".",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -261,7 +264,7 @@
 	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Ctrl+Клик для запуска скриптов",
-		"description": "Only run scripts on click if also holding the Ctrl key.",
+		"description": "Запускать скрипты, только если нажата клавиша Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -270,8 +273,8 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enter to post",
-		"description": "Automatically posts the comment or forum post on Ctrl+Enter.",
+		"name": "Ctrl+Enter для публикации",
+		"description": "Автоматически публикует комментарий или сообщение на форуме при нажатии Ctrl+Enter.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -402,6 +405,13 @@
 		]
 	},
 	{
+		"id": "default-costume-editor-color",
+		"name": "Настраиваемые заводские цвета в редакторе костюмов",
+		"description": "Меняет цвета по умолчанию и размер контура, которые используются редактором костюмов.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
 		"id": "default-project",
 		"name": "Настраиваемый проект по умолчанию",
 		"description": "Изменяет проект по умолчанию с Котом Scratch на любой существующий.",
@@ -454,14 +464,14 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "Кнопка «Форумы»",
-		"description": "Choose a list of links to be displayed in the navigation bar.",
+		"name": "Настраиваемая панель навигации",
+		"description": "Выберите список ссылок, которые будут отображаться на панели навигации.",
 		"tags": ["community", "featured"]
 	},
 	{
 		"id": "drag-drop",
 		"name": "Перетаскивание файлов",
-		"description": "Позволяет перетаскивать изображения и звуки из проводника файлов на панель спрайтов или в список костюмов/звуков. Вы также можете перетаскивать текстовые файлы в списки или подсказки типа \"спросить и ждать\".",
+		"description": "Lets you drag images and sounds from your file manager into the sprite pane or costume/sound list. You can also drag text files into lists or \"ask and wait\" question inputs.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
@@ -526,7 +536,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Инструменты разработчика",
-		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more!",
+		"description": "Добавляет в редактор поле поиска и новые параметры меню: копирование/вставка блоков, улучшение очистки, переход к определению настраиваемого блока и многое другое!",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -552,7 +562,7 @@
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Поиск в выпадающих списках",
-		"description": "Allows you to search block dropdowns.",
+		"description": "Позволяет искать в раскрывающемся списке блоков.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -664,8 +674,8 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "Исправлять сломанные загруженные SVG файлы",
-		"description": "Fixes a bug in the Scratch editor that makes uploaded SVG files created with some image editors, such as Affinity Designer, broken.",
+		"name": "Исправление загрузки SVG",
+		"description": "Исправляет ошибку в редакторе Scratch, из-за которой загруженные файлы SVG, созданные с помощью некоторых графических редакторов, таких как Affinity Designer, не работали.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
@@ -678,7 +688,7 @@
 	{
 		"id": "forum-copy-code",
 		"name": "Кнопка копирования кода на форумах",
-		"description": "Adds a \"copy code\" button above code boxes in forum posts that copies the contents into the clipboard.",
+		"description": "Добавляет кнопку «Скопировать код» у блоков кода на постах в форуме, которая копирует содержимое в буфер обмена.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
@@ -720,14 +730,14 @@
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Local timezone on forums",
-		"description": "Uses your local time zone for displaying post dates and times on the forums.",
+		"name": "Местный часовой пояс на форумах",
+		"description": "Использует ваш местный часовой пояс для отображения даты и времени сообщений на форумах.",
 		"tags": ["forums", "community"]
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "More forum toolbar buttons",
-		"description": "Adds buttons in the forum editing toolbar to insert BBCode tags, such as [center] or [color].",
+		"name": "Дополнительные кнопки панели инструментов форума",
+		"description": "Добавляет кнопки в панели инструментов форума для вставки тегов BBCode, вроде [center] или [color].",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -824,7 +834,7 @@
 	{
 		"id": "horizontal-mystuff-tabs",
 		"name": "Горизонтальные вкладки в моих работах",
-		"description": "Moves the My Stuff navigation buttons (\"All Projects\", \"My Studios\", \"Trash\") to the top of the page, instead of keeping them on the left.",
+		"description": "Перемещает навигационные кнопки Моих работ («Все проекты», «Мои студии», «Корзина») в вверх страницы, вместо хранения их в левой части экрана.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -849,8 +859,8 @@
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Customizable new sprite position",
-		"description": "Change the default x/y position of new sprites.",
+		"name": "Настраиваемая позиция нового спрайта",
+		"description": "Изменяет позицию x/y по умолчанию для новых спрайтов",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -861,8 +871,8 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "More items per row",
-		"description": "Lets you change the number of items displayed in a single row in a grid of projects, studios, or users.",
+		"name": "Больше элементов в ряду",
+		"description": "Позволяет Вам изменить кол-во элементов отображённых в одном ряду в сетке проектов, студий или пользователей.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -901,8 +911,8 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Automatically add extensions",
-		"description": "Auto-shows music, pen, and other extensions in the block category menu in the editor.",
+		"name": "Автоматически добавлять расширения",
+		"description": "Автоматически добавляет расширения Музыка, Перо и др. в меню категорий блоков в редакторе.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
@@ -934,13 +944,13 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "Project video recorder",
-		"description": "Adds a \"start recording\" button to the editor menu bar that allows you to record the project's stage.",
+		"name": "Запись проекта на видео",
+		"description": "Добавляет кнопку \"начать запись\" в меню редактора, которая позволяет записывать сцену проекта.",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
-		"name": "Message filters",
+		"name": "Фильтры сообщений",
 		"description": "Lets you select filters for types of messages to hide or show on Scratch's messages page.",
 		"tags": ["community"],
 		"credits": [
@@ -972,8 +982,8 @@
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "Message count on extension icon",
-		"description": "Adds the current message count in the Scratch Addons icon.",
+		"name": "Количество сообщений на значке расширения",
+		"description": "Добавляет текущее количество сообщений на значок Scratch Addons.",
 		"tags": ["popup", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -986,7 +996,7 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Muted project player mode",
+		"name": "Беззвучный режим проектов",
 		"description": "Клавиша Ctrl + Клик по зелёному флагу чтобы выключить/включить звук проекта.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -1006,14 +1016,14 @@
 	{
 		"id": "name-backpack-items",
 		"name": "Называть скрипты перед тем, как положить в рюкзак",
-		"description": "Asks you to name scripts after you drag them into the backpack, instead of using the default name \"code\".",
+		"description": "Спрашивает Вас называть скрипты после того, как Вы их перемещаете в рюкзак вместо названия по умолчанию «code».",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "no-script-bumping",
-		"name": "Do not automatically space overlapping scripts",
-		"description": "Allows scripts to be moved and modified without causing overlapping scripts to move around.",
+		"name": "Не делать автоматически пробел между перекрывающими скриптами",
+		"description": "Позволяет скриптам двигаться и изменяться без их перекрытия для перемещения вокруг.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -1038,15 +1048,15 @@
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Paint costume by default",
-		"description": "Changes the default action of \"Choose a Sprite/Costume/Backdrop/Sound\" buttons, which open the library by default.",
+		"name": "Рисовать костюм по умолчанию",
+		"description": "Изменяет действие по умолчанию кнопок «выберите спрайт/костюм/фон/звук», которые по умолчанию открывают библиотеку.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "pause",
 		"name": "Кнопка паузы",
-		"description": "Adds a pause button next to the green flag.",
+		"description": "Добавляет кнопку паузы рядом с зелёным флагом.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
@@ -1101,8 +1111,8 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Remix tree button",
-		"description": "Brings back the remix tree button to project pages, next to the Copy Link button.",
+		"name": "Кнопка дерева ремиксов",
+		"description": "Возвращает кнопку дерева ремиксов на страницы проектов рядом с кнопкой Копировать ссылку.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -1145,7 +1155,7 @@
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratch Notifier",
+		"name": "Уведомления Scratch",
 		"description": "Notifications on new Scratch messages. Click the notification to go straight to the message (comment, project, etc.)",
 		"tags": ["community", "recommended"],
 		"credits": [
@@ -1262,9 +1272,21 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Кнопка просмотра подписчиков в студиях",
-		"description": "Adds a button at the top of the \"curators\" tab in studios you manage, that lists your followers and followed users and lets you invite a shown user with a single click.",
+		"description": "Добавляет кнопку в верх вкладки «кураторы» в студиях в которых Вы менеджер, которая составляет список Ваших подписчиков и тех пользователей, на которых Вы подписаны и позволяет Вам приглашать показанного пользователя с помощью одного клика.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
@@ -1341,7 +1363,10 @@
 		"description": "Добавляет id пользователя рядом с ником наверху страниц профилей.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

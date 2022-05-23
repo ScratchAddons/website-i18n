@@ -209,7 +209,7 @@
 	},
 	{
 		"id": "columns",
-		"name": "Dwu-kolumnowe menu kategorii",
+		"name": "Menu kategorii podzielone na 2 kolumny",
 		"description": "Dzieli menu kategorii bloków na dwie kolumny i przenosi je na górę palety bloków, tak jak w Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -234,7 +234,10 @@
 		"description": "Sprawia, że strona wiadomości Scratcha jest bardziej kompaktowa i łatwiejsza do odczytania.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -402,6 +405,13 @@
 		]
 	},
 	{
+		"id": "default-costume-editor-color",
+		"name": "Domyślne kolory w edytorze kostiumów",
+		"description": "Zmienia domyślne kolory oraz wielkość zarysu w edytorze kostiumów.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
+	},
+	{
 		"id": "default-project",
 		"name": "Konfiguruj domyślny projekt ",
 		"description": "Zmień domyślny projekt ze Scratch Cat na dowolny istniejący projekt.",
@@ -473,15 +483,15 @@
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "Kolorowe menu kontekstowe",
-		"description": "Tworzy kolorowe menu kontekstowe, klikając prawym przyciskiem myszy na blok.",
+		"name": "Kolorowe menu zawartości",
+		"description": "Kiedy klikniesz prawym klawiszem na blok, wyświetlone menu ma kolorowe tło.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-comment-previews",
 		"name": "Podgląd komentarzy w edytorze",
-		"description": "Pozwala podejrzeć zawartość komentarza najeżdżając na połączone bloki. Możesz zobaczyć komentarze, które zachodzą za ekran. Dodatkowo możesz zmieścić duże komentarze w małej przestrzeni orazwięcej!",
+		"description": "Pozwala podejrzeć zawartość komentarza najeżdżając na połączone bloki. Możesz zobaczyć komentarze, które zachodzą za ekran. Dodatkowo możesz zmieścić duże komentarze w małej przestrzeni oraz więcej!",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -493,8 +503,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Ciemny tryb edytora i konfigurowalne kolory",
-		"description": "Dostosuj kolory używane przez edytor projektów. Dostępnych jest wiele ciemnych motywów różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić domyślne kolory, możesz wybrać ustawienie \"domyślne kolory Scratcha” i dostosować je.",
+		"name": "Ciemny tryb edytora i konfigurowalne kolory  ",
+		"description": "Dostosuj kolory używane przez edytor Scratch. W tym dodatku znajdziesz wiele ciemnych motywów stworzonych przez różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić kolory, możesz wybrać ustawienie \"Domyślne kolory” i dostosować je.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -565,7 +575,7 @@
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Wyświetl scenę po lewej stronie",
+		"name": "Przenieś scenę na lewą stronę",
 		"description": "Przesuwa scenę na lewą stronę edytora.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
@@ -703,8 +713,8 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Dostosuj cytaty i bloki kodu na forach",
-		"description": "Pokazuje ładniejszy kod i bloki w cytatach na forach.",
+		"name": "Konfigurowalne cytaty i bloki kodu na forum",
+		"description": "Pokazuje ładniejszy kod oraz bloki w cytatach na forum.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
@@ -823,8 +833,8 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Poziome zakładki w Moich Rzeczach",
-		"description": "Przesuwa przyciski \"Moje Rzeczy\" (\"Wszystkie Projekty\", \"Moje Studia\", \"Kosz\") na górę strony, zamiast zostawić je na lewej stronie ekranu.",
+		"name": "Poziome zakładki w \"Moich Rzeczach\"",
+		"description": "Przesuwa przyciski strony \"Moje Rzeczy\" (\"Wszystkie Projekty\", \"Moje Studia\", \"Kosz\") na górę strony, zamiast zostawić je na lewej stronie ekranu.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Wyświetlanie długości dźwięku",
+		"description": "Dodaje podgląd długości dźwięku, obecnie zaznaczonego momentu, lub długości zaznaczonego fragmentu. Znajdziesz go w edytorze dźwięku",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Przycisk \"wyszukaj obserwujących\" w studiach",
 		"description": "Dodaje przycisk na górze zakładki \"Kuratorzy\". Na tej liście najdziesz obserwujących użytkowników. Dodatkowo możesz za pomocą tego menu zaprosić osoby jednym kliknięciem!",
@@ -1341,7 +1363,10 @@
 		"description": "Dodaje ID użytkownika obok nazwy użytkownika na górze strony profilu.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{

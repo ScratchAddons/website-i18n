@@ -234,7 +234,10 @@
 		"description": "Rendre la page des messages de Scratch plus compacte et plus facile à lire.",
 		"tags": ["community", "theme"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.glitch.me/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
@@ -400,6 +403,13 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		]
+	},
+	{
+		"id": "default-costume-editor-color",
+		"name": "Couleurs par défaut de l'éditeur de costumes personnalisables ",
+		"description": "Modifie les couleurs par défaut et la taille du contour utilisées par l'éditeur de costumes.",
+		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
@@ -1262,6 +1272,18 @@
 		]
 	},
 	{
+		"id": "sounds-duration",
+		"name": "Sound duration display",
+		"description": "Ajoute un affichage à l'éditeur de sons qui indique la durée totale et le temps écoulé du son, ou de la sélection qu'il contient.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			}
+		]
+	},
+	{
 		"id": "studio-followers",
 		"name": "Bouton Parcourir les abonnés dans les studios",
 		"description": "Ajoute un bouton en haut de l'onglet « Curateurs» dans les studios que vous gérez, qui répertorie vos abonnés et utilisateurs suivis et vous permet d'inviter un utilisateur affiché en un seul clic.",
@@ -1341,7 +1363,10 @@
 		"description": "Ajoute l'ID utilisateur à côté du nom d'utilisateur en haut des pages de profil.",
 		"tags": ["community", "profiles"],
 		"credits": [
-			{ "name": "LankyBox01", "link": "https://lankybox01.leahcimto.com/" }
+			{
+				"name": "yes-i-am-lanky",
+				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
+			}
 		]
 	},
 	{
