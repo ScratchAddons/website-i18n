@@ -2,7 +2,6 @@ Global:
   ScratchAddons: Scratch Addon
   LogoAlt: Logo degli Scratch Addon
   Install: Installa
-  InstallFor: Installa per {{.Browser}}
   ReadTime:
     one: "{{.Count}} minuto"
     other: "{{.Count}} minuti"
