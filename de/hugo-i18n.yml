@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Scratch Addons-Logo
   Install: Installieren
+  InstallBrowser:
+    Firefox: Auf Firefox installieren
+    Chrome: Auf Chrome installieren
+    Edge: Auf Edge installieren
   ReadTime:
     one: "{{.Count}} Minute"
     other: "{{.Count}} Minuten"
