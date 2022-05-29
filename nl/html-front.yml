@@ -6,6 +6,9 @@ changelog.html:
   description: Alle opmerkelijke veranderingen aan dit project zullen in deze pagina worden gedocumenteerd.
 credits.html:
   description: Heel erg bedankt aan deze geweldige mensen voor het meehelpen aan het project door te werken aan Scratch Addons, zijn functies, zijn thema's, zijn website, etc.
+extension-settings.html:
+  title: Scratch Addons-instellingen
+  description: Hoe krijg je toegang tot Scratch Addons-instellingen, stap voor stap.
 farewell.html:
   title: Vaarwel!
   description: Scratch Addons is verwijderd. Bedankt dat je de extensie hebt gebruikt!

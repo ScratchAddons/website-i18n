@@ -9,6 +9,9 @@ changelog.html:
 credits.html:
   title: クレジット
   description: Scratch Addonsや、機能、テーマ、ウェブサイトなどに貢献していただき、ありがとうございます。
+extension-settings.html:
+  title: Scratch Addons 設定
+  description: Scratch Addons 設定画面のアクセス方法、ステップバイステップ
 farewell.html:
   title: ご利用ありがとうございました。
   description: Scratch Addonsはアンインストールされました。ご利用ありがとうございました。

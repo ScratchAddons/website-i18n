@@ -1,7 +1,6 @@
 Global:
   LogoAlt: Logotip Scratch Addons
   Install: Namesti
-  InstallFor: Namestitev za {{.Browser}}
   ReadTime:
     one: "{{.Count}} minuta"
     other: "{{.Count}} minut"

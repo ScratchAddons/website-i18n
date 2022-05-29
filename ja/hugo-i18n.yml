@@ -1,7 +1,10 @@
 Global:
   LogoAlt: Scratch Addonsのロゴ
   Install: インストール
-  InstallFor: "{{.Browser}}用をインストール"
+  InstallBrowser:
+    Firefox: Firefoxにインストール
+    Chrome: Chromeにインストール
+    Edge: Edgeにインストール
   ReadTime:
     one: "{{.Count}}分"
     other: "{{.Count}}分"

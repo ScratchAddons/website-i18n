@@ -1,5 +1,5 @@
 
-<script>const img=new Image(1,1);img.src="chrome-extension://fbeffbjdlemaoicjdapfpikkikjoneco/images/cs/icon.svg",img.onload=()=>location.href="https://scratch.mit.edu/scratch-addons-extension/settings"</script>
+<script>fetch("chrome-extension://fbeffbjdlemaoicjdapfpikkikjoneco/images/cs/icon.svg").then(t=>t.text()).then(t=>{"string"==typeof t&&t.startsWith("<svg")&&(location.href="https://scratch.mit.edu/scratch-addons-extension/settings")}).catch(t=>{})</script>
 <h1>Impostazioni Scratch Addon</h1>
 <section id=getting-started class="container mb-4">
 <h2>Come accedere alle impostazioni di Scratch Addons</h2>

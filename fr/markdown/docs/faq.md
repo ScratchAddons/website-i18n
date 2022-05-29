@@ -97,7 +97,7 @@ Anyway, back to the point. You can contribute in many ways, and some of it is re
 
   You can tell anyone about Scratch Addons, like your friends, your relatives, your family members, or even your teacher, if you want. We're just asking you to [not do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### How can I create my own addon?
+### Comment créer mon propre addon?
 
 Read more about how to create an addon on Scratch Addons [here](/docs/develop/getting-started).
 
@@ -109,7 +109,7 @@ Please read and follow the instruction of [this issue](https://github.com/Scratc
 
 If you don't want your name to be on the page, please tell us by creating an issue on [our contributors repository](https://github.com/ScratchAddons/contributors/issues/), or by other means of contact. We're sorry for the inconvenience.
 
-### What can I do if I find a problem?
+### Qu'est-ce que je peux faire si je trouve un problème ?
 
 You can tell us using one of these methods.
 
@@ -136,6 +136,6 @@ To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA)
 
 Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-### I have more questions!
+### J'ai plus de question!
 
 If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). Someone will try to answer it for you.

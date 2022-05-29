@@ -6,7 +6,6 @@ Global:
   ChromeShort: كروم
   FirefoxShort: فايرفوكس
   Install: ثبيت
-  InstallFor: تثبيت ل {{.Browser}}
 Nav:
   Feedback: ارسل رأيك
   Repository: المستأمن

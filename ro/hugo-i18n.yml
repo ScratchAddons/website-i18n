@@ -2,7 +2,6 @@ Global:
   ScratchAddons: Extensii Scratch
   LogoAlt: Logo-ul Extensii Scratch
   Install: Instalare
-  InstallFor: Instalează pentru {{.Browser}}
 Nav:
   Feedback: Trimite feedback
   Repository: Depozit

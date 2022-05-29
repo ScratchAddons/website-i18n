@@ -6,7 +6,6 @@ Global:
   ChromeShort: 크롬
   FirefoxShort: 파이어폭스
   Install: 설치하기
-  InstallFor: "{{.Browser}}에 설치하기"
   Carousel:
     Prev: 이전
     Next: 다음

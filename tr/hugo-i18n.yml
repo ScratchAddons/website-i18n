@@ -2,7 +2,10 @@ Global:
   ScratchAddons: Scratch Eklentileri
   LogoAlt: Scratch Eklentilerinin logosu
   Install: İndir
-  InstallFor: "{{.Browser}} için indirin"
+  InstallBrowser:
+    Firefox: Firefox için İndir
+    Chrome: Chrome için İndir
+    Edge: Edge için İndir
   ReadTime:
     one: "{{.Count}} dakika"
     other: "{{.Count}} dakika"

@@ -1,7 +1,6 @@
 Global:
   LogoAlt: Логотип Scratch Addons
   Install: Установить
-  InstallFor: Установить для {{.Browser}}
   ReadTime:
     one: "{{.Count}} минута"
     other: "{{.Count}} минут(-ы)"

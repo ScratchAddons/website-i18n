@@ -2,7 +2,6 @@ Global:
   ScratchAddons: Scratch Utvidelser
   LogoAlt: Scratch Utvidelser logo
   Install: Installer
-  InstallFor: Installer for {{.Browser}}
   Carousel:
     Next: Neste
 Nav:

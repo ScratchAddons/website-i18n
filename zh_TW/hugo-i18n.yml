@@ -1,6 +1,5 @@
 Global:
   Install: 安裝
-  InstallFor: 安裝為了{{.Browser}}
 Nav:
   Feedback: 发送评价
   Repository: 存儲庫

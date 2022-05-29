@@ -1,17 +1,22 @@
 Global:
   LogoAlt: Logo de Scratch Addons
   Install: Installer
-  InstallFor: Installer pour {{.Browser}}
+  RSSDescription: Contenu récent sur {{ .SiteName }}
   Website: Sites web
   Extension: Extensions
   Carousel:
     Prev: Précédent
     Next: Suivant
+    First: Aller au premier
+    Last: Aller au dernier
+    SlideX: Aller à l'item {{ .Count }}
 Links:
   Credits: Remerciements
+  PrivacyPolicy: Politique de confidentialité
 Nav:
   Feedback: Envoyer des retours
   Repository: Dépot
+  RepositoryLabel: Dépôt sur GitHub
   Install: Installer
 Footer:
   Pages:
@@ -50,6 +55,7 @@ PlayerModal:
   AltText: Cliquez pour voir la vidéo
 IndexPage:
   Intro:
+    Tagline: Extension de navigateur pour Scratch tout-en-un.
     Description: Scratch Addons est une extension pour navigateur qui ajoute de nouvelles fonctionnalités et des nouveaux thèmes au site de Scratch et à l'éditeur de projets. Son but est de collecter, d'archiver et de permettre d'utiliser des thèmes et scripts utilisateur, développés par plusieurs membres de la communauté Scratch.
     InstallButton:
       Loading: Chargement...
@@ -86,10 +92,13 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Cet addon est un easer egg.
   RecommendedAddon: Cet addon est recommandé.
+  FeaturedAddon: C'est un addon recommandé.
+  BetaAddon: C'est un addon en beta.
   ListViewLabel: Affichage en mode liste
   EasterEggTooltip:
     L1: Pour activer les addons, entrez le code Konami (↑↑↓↓←→←→BA) sur la page des paramètres. Lisez la FAQ pour plus d'informations.
     L2: Sur cette page, un addon easter egg aura une icône d'œuf à côté de son nom.
+  SourceCodeLabel: Code source sur GitHub
 FeedbackPage:
   Status:
     Sending: Envoi...
@@ -117,6 +126,9 @@ UnsupportedBrowserPage:
   HowToUpdate: Comment mettre à jour
 Blog:
   SectionSiteName: Blog Scratch Addons
+CreditsPage:
+  NContributors: "{{.Count}} contributeurs"
+  NProfilePicture: "{{.Name}} photo de profile"
 Comments:
   Heading: Commentaires
   Description: Assurez-vous de suivre {{ .OpenTag1 }}le code de conduite{{ .CloseTag1 }}. Vous pouvez voir cette section de commentaires sur les {{ .OpenTag2 }}discussions GitHub{{ .CloseTag2 }}, ainsi que modifier et supprimer votre commentaire.
