@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Logo de Scratch Addons
   Install: Instalar
+  InstallBrowser:
+    Firefox: Instalar para Firefox
+    Chrome: Instalar para Chrome
+    Edge: Instalar para Edge
   ReadTime:
     one: "{{.Count}} minuto"
     other: "{{.Count}} minutos"
@@ -96,6 +100,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Este es un addon easter egg.
   RecommendedAddon: Este es un addon recomendado
+  FeaturedAddon: Este es un addon destacado.
+  BetaAddon: Este es un addon beta.
   ListViewLabel: Vista de lista
   EasterEggTooltip:
     L1: Para activar los addons, haga el Código Konami (↑↑↓↓←→←→BA) en la página de configuración. Lea la página de preguntas frecuentes para más información.
