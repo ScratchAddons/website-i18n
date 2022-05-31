@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Logo de Scratch Addons
   Install: Installer
+  InstallBrowser:
+    Firefox: Installer pour Firefox
+    Chrome: Installer pour Chrome
+    Edge: Installer pour Edge
   RSSDescription: Contenu récent sur {{ .SiteName }}
   Website: Sites web
   Extension: Extensions
