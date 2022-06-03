@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Logotip Scratch Addons
   Install: Namesti
+  InstallBrowser:
+    Firefox: Namestitev za Firefox
+    Chrome: Namestitev za Chrome
+    Edge: Namestitev za Edge
   ReadTime:
     one: "{{.Count}} minuta"
     other: "{{.Count}} minut"
@@ -10,6 +14,9 @@ Global:
   Carousel:
     Prev: Nazaj
     Next: Naprej
+    First: Pojdi na začetek
+    Last: Pojdi na konec
+    SlideX: Pojdi na predmet {{ .Count }}
 Links:
   Credits: Zahvale
   PrivacyPolicy: Politika zasebnosti
@@ -99,6 +106,8 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
+  FeaturedAddon: To je izpostavljen dodatek.
+  BetaAddon: To je beta različica dodatka.
   ListViewLabel: Pogled seznama
   EasterEggLabel: Skrivni dodatki
   EasterEggTooltip:
@@ -111,6 +120,8 @@ FeedbackPage:
     Sending: Pošiljanje...
     Success: Poslano! Hvala za informacije.
     Failed: Prišlo je do težave. Poskusite znova.
+    Offline: Na strežniku za povratne informacije je prišlo do težave. Poskusite kasneje ali uporabite enega od drugih možnosti za komunikacijo.
+  NoAddonsList: Seznam ni na voljo. Če bi ga radi poslali, odprite to stran v nastavitvah razširitve.
   UsernameLabel: Scratch uporabniško ime ali drug kontakt (neobvezno)
   ContentLabel: Povratne informacije
   ContentPlaceholder: Prosimo, da navedete čim več podrobnosti.
