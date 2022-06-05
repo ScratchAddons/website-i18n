@@ -6,13 +6,13 @@ title: Namestitev
 
 Scratch Addons je na voljo v Spletni trgovini Chrome in v Dodatkih za Firefox.
 
-- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+- Spletna trgovina Chrome (za Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79 in druge brskalnike, narejene na osnovi Chromium)  
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
 - Dodatki za Firefox (za brskalnik Mozilla Firefox)  
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
-- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+- Dodatki Microsoft Edge (za Microsoft Edge >79)
   https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
 ## Z izvirno kodo
@@ -46,11 +46,11 @@ If you don't have Git installed, you can try this method instead. Note that you 
 
 1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
 
-   ![Download code button screenshot](/assets/img/docs/download-code-button.png)
+   ![Posnetek zaslona z gumbom Download code](/assets/img/docs/download-code-button.png)
 
-2. Click it and select "Download ZIP".
+2. Kliknite ga in izberite "Download ZIP".
 
-   ![Download ZIP button screenshot](/assets/img/docs/download-zipball-button.png)
+   ![Posnetek zaslona z gumbom Download ZIP](/assets/img/docs/download-zipball-button.png)
 
 3. Extract the archive into a folder.
 

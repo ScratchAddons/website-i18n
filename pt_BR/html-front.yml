@@ -8,6 +8,9 @@ changelog.html:
 credits.html:
   title: Créditos
   description: Agradecemos muito a todas as pessoas incríveis que contribuíram ao projeto trabalhando no Scratch Addons e nas suas funções, seus temas, no website, entre outros.
+extension-settings.html:
+  title: Configurações do Scratch Addons
+  description: Passo a passo de como acessar as configurações do Scratch Addons.
 farewell.html:
   title: Adeus!
   description: O Scratch Addons foi desinstalado. Muito obrigado por usar a extensão!

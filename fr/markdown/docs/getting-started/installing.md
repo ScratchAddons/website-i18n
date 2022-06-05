@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-## From extension stores
+## Depuis le magasin d'extension
 
 Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
 
