@@ -108,6 +108,7 @@ FeedbackPage:
     Sending: Envoi...
     Success: Envoyé ! Merci du commentaire.
     Failed: Quelque chose s'est mal passé. Essayez d'envoyer à nouveau.
+  NoAddonsList: La liste n'est pas disponible pour être envoyée. Essayez d'ouvrir cet page en utilisant l'extension.
   UsernameLabel: Nom d'utilisateur Scratch ou autres identifiants (optionnel)
   ContentLabel: Commentaire
   ContentPlaceholder: Merci de donner autant de détails que possible.

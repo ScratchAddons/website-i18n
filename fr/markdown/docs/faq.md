@@ -85,7 +85,7 @@ Anyway, back to the point. You can contribute in many ways, and some of it is re
 
   You can send feedback on our form, located at [the feedback page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
-- **Leave a review on the stores**
+- **Laissez un avis sur les boutiques**
 
   You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
 
@@ -111,7 +111,7 @@ If you don't want your name to be on the page, please tell us by creating an iss
 
 ### Qu'est-ce que je peux faire si je trouve un problème ?
 
-You can tell us using one of these methods.
+Vous pouvez nous en faire part par l'un de ces moyens.
 
 - Send it through [our feedback form](https://scratchaddons.com/feedback).
 - Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).

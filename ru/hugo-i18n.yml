@@ -109,6 +109,7 @@ AddonsPage:
   RecommendedAddon: Это рекомендованный аддон.
   FeaturedAddon: Это избранный аддон.
   BetaAddon: Это — бета аддон.
+  ListViewLabel: Вид в стиле списка
   EasterEggLabel: Пасхалка
   EasterEggTooltip:
     L1: Чтобы активировать аддоны, сделайте код Konami (↑↑↓↓←→←→BA) на странице настроек. Прочитайте страницу ЧаВО для большей информации.

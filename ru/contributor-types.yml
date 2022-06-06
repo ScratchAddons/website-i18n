@@ -1,3 +1,4 @@
+a11y: Доступность
 audio: Аудио
 blog: Посты блога
 bug: Жалобы на баги
@@ -7,10 +8,14 @@ content: Контент
 data: Данные
 design: Дизайн
 doc: Документация
+eventOrganizing: Организация событий
 example: Примеры
 financial: Финансирование
 ideas: Идеи, планирование и отзыв
+infra: Инфраструктура
+maintenance: Обслуживание
 question: Ответчик на вопросы
+review: Рецензент pull запросов
 security: Безопасность
 talk: Разговоры
 test: Тесты
