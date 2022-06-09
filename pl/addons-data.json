@@ -43,8 +43,8 @@
 	},
 	{
 		"id": "better-featured-project",
-		"name": "banner strony profilu",
-		"description": "Zamienia wyróżniony projekt w profilu dowolnego użytkownika na ładnie wyglądający baner.",
+		"name": "Banner na profilach",
+		"description": "Zamienia wyróżniony projekt w profilu użytkownika na ładnie wyglądający baner.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
@@ -116,7 +116,7 @@
 	{
 		"id": "block-duplicate",
 		"name": "Duplikuj skrypt przyciskiem Alt",
-		"description": "Szybko zduplikuj skrypt, przeciągając go, trzymając klawisz Alt. Przytrzymaj również klawisz Ctrl, aby zduplikować tylko pojedynczy blok zamiast całego stosu dołączonego pod nim.",
+		"description": "Szybko zduplikuj skrypt, przeciągając go, trzymając klawisz Alt. Możesz także przytrzymać również klawisz Ctrl, aby zduplikować tylko pojedynczy blok zamiast całego stosu dołączonego pod nim.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -184,7 +184,7 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Dane wejściowe w wyborze koloru",
+		"name": "Dane wejściowe w polu wyboru koloru",
 		"description": "Pozwala wybrać dokładną wartość (0-100) dla każdego suwaka w edytorze kostiumu,",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
@@ -273,7 +273,7 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enter, aby opublikować",
+		"name": "Ctrl+Enter aby opublikować",
 		"description": "Automatycznie wyślij komentarz lub post klikając Ctrl+Enter",
 		"tags": ["community"],
 		"credits": [
@@ -315,7 +315,7 @@
 	{
 		"id": "custom-block-text",
 		"name": "Konfigurowalny styl tekstu bloków",
-		"description": "Zmienia nasycenie tekstu na blokach, opcjonalnie dodaje cień.",
+		"description": "Zmienia nasycenie tekstu na blokach, opcjonalnie dodaje cień obok nich.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -336,8 +336,8 @@
 	},
 	{
 		"id": "customize-avatar-border",
-		"name": "Możliwość dostosowania obramowania zdjęcia profilowego",
-		"description": "Pozwala ukryć lub zmienić kontur wokół zdjęć profilowych w komentarzach do projektów lub studia. ",
+		"name": "Dostosuj obramowanie zdjęcia profilowego",
+		"description": "Pozwala ukryć lub zmienić kontury wokół zdjęć profilowych w komentarzach do projektów lub studia. ",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
@@ -364,7 +364,7 @@
 	{
 		"id": "dark-www",
 		"name": "Ciemny tryb strony oraz konfigurowalne kolory",
-		"description": "Dostosuj kolory używane przez witrynę Scratch. Dostępnych jest wiele ciemnych motywów różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić domyślne kolory, możesz wybrać ustawienie „Domyślne kolory programu Scratch” i dostosować je.",
+		"description": "Dostosuj kolory używane przez witrynę Scratch. Dostępnych jest wiele ciemnych motywów stworzonych przez różnych autorów. Jeśli nie potrzebujesz trybu ciemnego, ale chcesz zmienić domyślne kolory, możesz wybrać ustawienie „Domyślne kolory programu Scratch” i dostosować je.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -407,7 +407,7 @@
 	{
 		"id": "default-costume-editor-color",
 		"name": "Domyślne kolory w edytorze kostiumów",
-		"description": "Zmienia domyślne kolory oraz wielkość zarysu w edytorze kostiumów.",
+		"description": "Zmienia domyślne parametry narzędzi w edytorze kostiumów.",
 		"tags": ["editor", "costumeEditor", "featured", "beta"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -434,15 +434,15 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "Nie przesuwaj wklejonych obiektów.",
-		"description": "Wklej skopiowane kostiumy w jej oryginalnej pozycji, zamiast je delikatnie przesuwać.",
+		"name": "Nie przesuwaj wklejonych obiektów",
+		"description": "Wklej skopiowane kostiumy w jej oryginalnej pozycji, zamiast delikatnie je przesuwać.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-sprite-wobble",
 		"name": "Wyłącz chybotanie duszków w panelu duszków",
-		"description": "Włącz możliwość przenoszenia kodu, kostiumów i dźwięków do innych duszków bez konieczności przenoszenia całych duszków.",
+		"description": "Dzięki temu dodatkowi duszki nie będą się przesuwać, gdy będziesz przenosić kod, kostiumy, lub dźwięki do innych duszków.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -490,8 +490,8 @@
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Podgląd komentarzy w edytorze",
-		"description": "Pozwala podejrzeć zawartość komentarza najeżdżając na połączone bloki. Możesz zobaczyć komentarze, które zachodzą za ekran. Dodatkowo możesz zmieścić duże komentarze w małej przestrzeni oraz więcej!",
+		"name": "Podgląd komentarzy",
+		"description": "Pozwala podejrzeć zawartość komentarza najeżdżając na połączone bloki. Możesz nawet  zobaczyć komentarze, które zachodzą za ekran. Dodatkowo możesz zmieścić duże komentarze w małej przestrzeni oraz więcej!",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -611,7 +611,7 @@
 	{
 		"id": "emoji-picker",
 		"name": "Miejsce wyboru emotek dla komentarzy",
-		"description": "Dodaje przycisk do wstawiania emotki do komentarzy",
+		"description": "Dodaje przycisk do komentarzy służący do wstawiania emotek",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
@@ -651,7 +651,7 @@
 	{
 		"id": "fix-editor-comments",
 		"name": "Lepszy edytor komentarzy",
-		"description": "Wprowadza liczne zmiany w komentarzach w edytorze Scratch: naprawia błąd, w którym komentarze dołączone do bloków nie zapisują poprawnie swoich pozycji po przeciągnięciu, zapobiega pojawianiu się komentarzy poza ekranem w dużych skryptach oraz utrzymuje proste połączenia z komentarzami i wiele więcej. ",
+		"description": "Wprowadza liczne zmiany w komentarzach w edytorze Scratch: naprawia błąd, w którym komentarze dołączone do bloków nie zapisują poprawnie swoich pozycji po przeciągnięciu, zapobiega pojawianiu się komentarzy poza ekranem w dużych skryptach oraz utrzymuje proste połączenia bloków z komentarzami i wiele więcej. ",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
@@ -702,7 +702,7 @@
 	{
 		"id": "forum-live-preview",
 		"name": "Automatyczny podgląd wiadomości na forach",
-		"description": "Automatycznie pokazuje podgląd kiedy przestajesz klikać klawisze w trakcie pisania nowego komentarza, lub edytowania obecnego.",
+		"description": "Automatycznie pokazuje podgląd, gdy przestajesz pisać w trakcie pisania, lub edytowania komentarza.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -736,8 +736,8 @@
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "Więcej przycisków na pasku narzędzi forum ",
-		"description": "Dodaje przycisk w edytorze forum, aby dodawać tagi kodu BBCode jak: [center] i [color].",
+		"name": "Więcej przycisków na pasku narzędzi w forum ",
+		"description": "Dodaje przycisk w edytorze forum, aby dodawać tagi kodu BBCode jak np. [center] i [color].",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -765,8 +765,8 @@
 	},
 	{
 		"id": "fullscreen",
-		"name": "Ulepszony pełny ekran",
-		"description": "Naprawia niektóre niepożądane efekty w trybie pełnoekranowym odtwarzacza projektu. Otwiera go w trybie pełnoekranowym przeglądarki oraz ukrywa pasek z zieloną flagą.",
+		"name": "Polepszony pełny ekran",
+		"description": "Naprawia niektóre niepożądane efekty w trybie pełnoekranowym. Otwiera projekt w trybie pełnoekranowym przeglądarki oraz ukrywa pasek z zieloną flagą.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -781,8 +781,8 @@
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "Wysokiej jakości miniaturki",
-		"description": "Zastępuje miniatury w witrynie obrazami o wyższej rozdzielczości. Przydatne w przypadku wyświetlaczy Retina (o dużej gęstości pikseli) i przeglądania przy powiększeniu większym niż 100%. ",
+		"name": "Miniaturki w wysokiej rozdzielczości",
+		"description": "Zastępuje miniatury w witrynie obrazami o wyższej rozdzielczości. Przydatne w przypadku wyświetlaczy Retina (o dużej gęstości pikseli) oraz przy przeglądaniu przy powiększeniu większym niż 100%. ",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -815,7 +815,7 @@
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "Ukrywa statystyki projektów",
+		"name": "Ukryj statystyki projektów",
 		"description": "Pozwala ukryć liczniki polubień, pokochań, remiksów i wyświetleń na stronie głównej i stronach projektów.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -825,7 +825,7 @@
 	{
 		"id": "hide-signatures",
 		"name": "Ukryj podpisy na forach",
-		"description": "Ukrywa podpisy na forach oraz dodaje przyciski na pokazanie ich.",
+		"description": "Ukrywa podpisy na forach oraz dodaje przycisk, pozwalający na pokazanie ich.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
@@ -871,8 +871,8 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "Więcej przedmiotów w rzędzie ",
-		"description": "Pozwala zmienić liczbę elementów wyświetlanych w jednym wierszu projektów, studiów lub użytkowników. ",
+		"name": "Więcej przedmiotów w jednym wierszu",
+		"description": "Pozwala zmienić liczbę elementów wyświetlanych w jednym wierszu listy projektów, studiów lub użytkowników. ",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -926,8 +926,8 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Lepsze przyciski edytora postów na forum ",
-		"description": "Zmienia ikony przycisków w edytorze postów na forum z pikselowanych map bitowych na ikony materiałów.",
+		"name": "Lepsze ikony w edytorze postów",
+		"description": "Zmienia ikony przycisków w edytorze postów z rozpikselowanych obrazków na ładne ikony.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -976,8 +976,8 @@
 	},
 	{
 		"id": "move-to-top-bottom",
-		"name": "Przenieś kostium do góry albo dołu",
-		"description": "Dodaje przycisk, aby przesunąć kostium lub dźwięk na górę lub na dół listy. Wcześniej część narzędzi developerskich. ",
+		"name": "Przenieś kostium do góry albo do dołu",
+		"description": "Dodaje przycisk, który przesuwa kostium lub dźwięk na górę lub na dół listy. Wcześniej część narzędzi developerskich. ",
 		"tags": ["editor", "featured"]
 	},
 	{
@@ -1023,7 +1023,7 @@
 	{
 		"id": "no-script-bumping",
 		"name": "Wyłącz automatyczne przesuwanie nakładających się skryptów",
-		"description": "Pozwala skryptom być przesuwanym lub edytowanym, bez zasłaniania innego kodu w okolicy.",
+		"description": "Kiedy zasłonisz inny kod, to wtedy on się nie przesunie, tylko zostanie w tej samej pozycji.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -1170,8 +1170,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Bloki Scratch 3.0 na forach",
-		"description": "Włącza nową wersję bloków na forach.",
+		"name": "Bloki Scratch 3.0 na forum",
+		"description": "Zamienia bloki na forach, aby wyglądały jak z wersji 3.0.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
@@ -1182,7 +1182,7 @@
 	{
 		"id": "scratchr2",
 		"name": "Scratch 2.0 → 3.0",
-		"description": "Powoduje że strony w stylu Scratch 2.0 wyglądają jak te z Scratch 3.0.",
+		"description": "Zamienia wszystkie strony w stylu Scratch 2.0 wyglądają jak te z Scratch 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -1223,7 +1223,7 @@
 	{
 		"id": "search-my-stuff",
 		"name": "Pasek wyszukiwania w \"moich rzeczach\"",
-		"description": "Umożliwia przeszukiwanie projektów, studiów i kosza na stronie \"Moje rzeczy\". Po prostu zacznij wpisywać tekst w dowolnym miejscu na stronie, aby rozpocząć wyszukiwanie. Po zakończeniu wyszukiwania można także użyć kombinacji klawiszy Ctrl+Enter, aby szybko otworzyć górny wynik wyszukiwania.",
+		"description": "Umożliwia przeszukiwanie projektów, studiów i kosza na stronie \"Moje rzeczy\". Możesz po prostu zacząć wpisywać tekst w dowolnym miejscu na stronie, aby rozpocząć wyszukiwanie. Po zakończeniu wyszukiwania można także użyć kombinacji klawiszy Ctrl+Enter, aby szybko otworzyć górny wynik wyszukiwania.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1241,8 +1241,8 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Szukaj duszków po nazwie...",
-		"description": "Dodaje pole wyszukiwania w liście duszków do szukania ich po nazwie.",
+		"name": "Szukaj duszków po nazwie",
+		"description": "Dodaje pole wyszukiwania w liście duszków, za pomocą którego możesz wyszukać duszka po jego nazwie.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1274,7 +1274,7 @@
 	{
 		"id": "sounds-duration",
 		"name": "Wyświetlanie długości dźwięku",
-		"description": "Dodaje podgląd długości dźwięku, obecnie zaznaczonego momentu, lub długości zaznaczonego fragmentu. Znajdziesz go w edytorze dźwięku",
+		"description": "Wyświetla długość dźwięku, lub obecnie zaznaczonego fragmentu, oraz czasu, który upłyną. Znajdziesz go w edytorze dźwięku.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1308,7 +1308,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Przełącz zmienną między ustawieniami \"Dla wszystkich duszków\" lub \"Tylko dla tego duszka\"",
+		"name": "Przełącz zmienną między ustawieniami \"Dla wszystkich duszków\" na \"Tylko dla tego duszka\"",
 		"description": "Dodaje więcej opcji w czasie zmieniania nazwy zmiennej lub listy. Możesz zmienić czy dana zmienna jest dla \"Wszystkich duszków\" lub \"Tylko dla tego duszka\" oraz czy jest zapisywana w chmurze.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
@@ -1348,7 +1348,7 @@
 	{
 		"id": "tutorials-button",
 		"name": "Ukryj przycisk Samouczków",
-		"description": "Ukrywa przycisk Samouczków na pasku menu edytora.",
+		"description": "Ukrywa przycisk Samouczków w pasku menu edytora.",
 		"tags": ["editor"],
 		"credits": [
 			{

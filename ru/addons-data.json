@@ -149,7 +149,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Сохранить блоки как изображение",
-		"description": "Right click the code area to export blocks as SVG/PNG images.",
+		"description": "Кликните ПКМ в область кода, чтобы экспортировать блоки как изображения SVG или PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -391,7 +391,7 @@
 	{
 		"id": "debugger",
 		"name": "Отладчик",
-		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running threads can be viewed in the \"Threads\" tab of the debugger, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
+		"description": "Добавляет новое окно «отладчика» к редактору. Отладчик позволяет логировать в вкладку «Логи» окна отладчика используя блоки «логировать», «предупредить» и «ошибка». Блок «точки остановки» поставит проект на паузу при выполнении. Все выполняемые потоки могут быть просмотрены в вкладке «Потоки» отладчика, и при остановка кнопка «Шаг вперёд» может быть использован для выполнения следующего блока. График кадровой частоты (FPS) и кол-во клонов могут быть просмотрены в вкладке «Производительность».",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Неперетаскиваемые спрайты в редакторе",
-		"description": "Removes the ability to drag sprites around on the stage in the editor, except those explicitly set as draggable.",
+		"description": "Убирает возможность перетаскивать спрайты вокруг сцены в редакторе кроме тех, которые явно заданы как перетаскиваемые.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -632,7 +632,7 @@
 	{
 		"id": "expanding-search-bar",
 		"name": "Расширяемая панель поиска",
-		"description": "Makes the search bar in the navigation bar wider when it's focused.",
+		"description": "Делает панель поиска в навигационной панели шире при сфокусировании.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
@@ -663,7 +663,7 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "Do not automatically run duplicated blocks",
+		"name": "Не выполнять автоматически дублированные блоки",
 		"description": "Исправляет ошибку в редакторе Scratch, когда дублирование блока и присоединение его к стопке приводит к запуску стопки.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
@@ -1273,8 +1273,8 @@
 	},
 	{
 		"id": "sounds-duration",
-		"name": "Sound duration display",
-		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"name": "Дисплей длины звука",
+		"description": "Добавляет дисплей к редактору звуков который показывает всю длину и пройденное время звука или выделения внутри него.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
