@@ -1,0 +1,18 @@
+addons.html:
+  title: ส่วนขยาย
+  description: หน้าเว็ปนี้แสดงส่วนขยายทั้งหมดที่มีอยู่ใน ส่วนขยายสำหรับ scratch
+changelog.html:
+  title: บันทึกการเปลี่ยนแปลง
+  description: การเปลี่ยนแปลงทั้งหมดของโปรเจคต์นี้จะถูกบันทึกไว้ที่นี่
+farewell.html:
+  title: ลาก่อน!
+  description: ส่วนขยายสำหรับ Scratch ได้ถูกถอนการติดตั้งแล้ว ขอบคุณสำหรับใช้ส่วนขยายของเรา
+feedback.html:
+  title: ส่งความคิดเห็น
+  description: ส่งความคิดเห็นไปยังผู้พัฒนา ส่วนขยายสำหรับ scratch
+unsupported-browser.html:
+  title: เบราเซอร์ที่ไม่รองรับ
+  description: ส่วนขยายสำหรับ scratch ไม่รองรับเบราเซอร์ที่คุนใช้อยู่
+welcome.html:
+  title: ยินดีต้อนรับ!
+  description: ส่วนขยายสำหรับ scratch ติดตั้งสำเร็จแล้ว ขอบคุณสำหรับการติดตั้ง หวังว่าคุณจะชอบส่วนขยายของเรา

@@ -1,16 +1,16 @@
 ---
 title: Creating an Addon
 ---
-Required software: text editor, Chrome.  
-If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.
+Logiciels requirent : éditeur de texte, Chrome.
+Si possible, désactivez l'extension Scratch Addons que vous avez téléchargée de la boutique avant de procéder pour éviter des problèmes.
 
 ## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
-Make sure to read that article to be familiar with the terminology.
+Assurez-vous de lire cet article pour vous familiariser avec la terminologie.
 
 ## Step 2: Fork/clone the repo
 Or download as ZIP, if you want. In other words, just download the source code locally.
 
-## Step 3: Load the extension into Chrome
+## Étape 3 : Chargez l'extension dans Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox.*  
 Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
 Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
