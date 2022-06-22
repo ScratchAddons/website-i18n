@@ -4,6 +4,8 @@ addons.html:
 changelog.html:
   title: บันทึกการเปลี่ยนแปลง
   description: การเปลี่ยนแปลงทั้งหมดของโปรเจคต์นี้จะถูกบันทึกไว้ที่นี่
+credits.html:
+  title: เครดิต
 farewell.html:
   title: ลาก่อน!
   description: ส่วนขยายสำหรับ Scratch ได้ถูกถอนการติดตั้งแล้ว ขอบคุณสำหรับใช้ส่วนขยายของเรา
