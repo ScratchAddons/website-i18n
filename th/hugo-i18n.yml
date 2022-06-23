@@ -1,14 +1,153 @@
+Global:
+  ScratchAddons: ส่วนขยายสำหรับ scratch
+  LogoAlt: โลโก้ส่วนขยายสำหรับ scratch
+  Install: ติดตั้ง
+  InstallBrowser:
+    Firefox: ติดตั้งสำหรับ firefox
+    Chrome: ติดตั้งสำหรับ chrome
+    Edge: ติดตั้งสำหรับ edge
+  ReadTime:
+    one: "{{.Count}}นาที"
+    other: "{{.Count}}นาที"
+  RSSDescription: คอนเทนต์ล่าสุดบน {{ .SiteName }}
+  Website: เว็บไซต์
+  Extension: ส่วนขยาย
+  Carousel:
+    Prev: ก่อนหน้า
+    Next: ถัดไป
+    First: ไปอันแรกสุด
+    Last: ไปอันท้ายสุด
+    SlideX: ไปอันที่ {{ .Count }}
 Links:
   Credits: เครดิต
+  PrivacyPolicy: นโยบายความเป็นส่วนตัว
 Nav:
   Feedback: ส่งความคิดเห็น
+  RepositoryLabel: Repository บน GitHub
+  Install: ติดตั้ง
+  ToggleNavigation: เปิดปิดแถบนำทาง
 Footer:
   Pages:
+    Header: หน้าเว็บ
+    FAQ: คำถามที่พบบ่อย
     Feedback: ส่งความคิดเห็น
     Changelog: บันทึกการเปลี่ยนแปลง
     Addons: ส่วนขยาย
+  Discuss:
+    Header: พูดคุย
+    Discussion: ฟอรั่มพูดคุย
+    Issues: ปัญหา
+    DiscordCom: discord ของชุมชน
+    DiscordDev: discord ของผู้สร้าง
   Resources:
+    Header: แหล่งที่มา
+    Organization: องค์กร
     Documentation: คู่มือผู้ใช้
+  Legal:
+    Copyright: © {{.Count}} ผู้มีส่วนร่วมในส่วนขยายสำหรับ scratch
+    NoAffiliation: Scratch Addons ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับ Scratch ทีม Scratch มูลนิธิ Scratch หรือบริการอื่นๆ ของ scratch
+    License: Scratch Addons ได้มีลิขสิทธิ์ภายใต้เงื่อนไขของ GNU General Public License v3.0
+  Intro: ขณะนี้เวอร์ชั่น{{ .Version }}และมี{{ .AddonCount }}ส่วนขยาย
+DarkTheme:
+  Title: คลิกเพื่อเปิดปิดโหมดมืด
+  Label: ปุ่มเปิดปิดโหมดมืด
+Docs:
+  SectionSiteName: เอกสารเกี่ยวกับ ส่วนขยายสำหรับ scratch
+  DocsNav: แถบนำทางเอกสาร
+  DocsNavToggleLabel: แสดง/ซ่อนแถบนำทาง
+  TOC: สารบัญ
+  TOCToggleLabel: แสดง/ซ่อนแถบสารบัญ
+  LastUpdated: อัปเดตล่าสุดวันที่ {{.Date}} โดย {{.Name}} บน commit {{.Commit}}
+  Improve: ช่วยเราปรับปรุงให้หน้านี้ดีขึ้น
+  SectionPages: หมวดหมู่หน้า
+PlayerModal:
+  LabelPlay: เล่น
+  ModalTitle: วีดีโอ
+  AltText: คลิกเพื่อดูวีดีโอ
 IndexPage:
+  Intro:
+    Tagline: ทุกอย่างในส่วนขยายเดียวเพื่อ scratch
+    Description: ส่วนขยายสำหรับ scratch เป็นส่วนขยายเบราเซอร์ที่เพิ่มฟีเจอร์และธีมใหม่ให้ หน้า และตัวแก้ไขโครงงานของ scratch เรามีภารกิจที่จะเก็บรักษาและใช้งาน userstyle กับ userscript สร้างโดยผู้คนหลายคนใน ชุมชนของ scratch
+    InstallButton:
+      Loading: กำลังโหลด...
+      Description: ฟรี, โอเพ่นซอร์ส
+    ReadMore: หรืออ่านเพิ่มเติม
+    Carousel:
+      Video:
+        Caption: วีดีโอแนะนำ
+      Popup:
+        Caption: ป๊อปอัพของส่วนขยาย
+        ImgAlt: ป๊อปอัพของส่วนขยาย
+      Settings:
+        Caption: หน้าการตั้งค่า
+        ImgAlt: หน้าการตั้งค่า
+      Demo:
+        Caption: ตัวอย่างของส่วนขยาย ({{.Count}})
+        ImgAlt: ตัวอย่าง ({{.Count}})
   Features:
+    Heading: คุณสมบัติ
     AddonsHeading: ส่วนขยาย
+    AddonsParagraph: ส่วนขยายสำหรับ scratch ประกอบด้วยส่วนเสริมซึ่งสามารถ ประกอบด้วยส่วนเสริมซึ่งเพิ่มขีดความสามารถของเว็บไซต์ Scratch และประสบการณ์การใช้ตัวแก้ไข
+    CustomizableHeading: ปรับเปลี่ยนได้
+    CustomizableParagraph: ส่วนขยายสำหรับ scratch มีหน้าต่างที่ใช้งานง่ายเพื่อตั้งค่าคุณสมบัติและธีม
+    InternationalHeading: สากล
+    InternationalParagraph: "ไม่ใช่แค่ภาษาอังกฤษ ส่วนขยายสำหรับ scratch มีภาษาหลากหลายเช่น ภาษาสเปน ภาษารัสเซีย ภาษาญี่ปุ่น ภาษาฝรั่งเศษ แลธภาษาอื่นๆอีกมากมาย "
+    OSHeading: โอเพ่นซอร์ส
+    OSParagraph: ส่วนขยายสำหรับ scratch นั้นฟรี โอเพ่นซอร์ส และสร้างโดยชุมชนผู้ใช้งาน scratch
+  Highlights:
+    Heading: ไฮไลท์
+    Paragraph: อย่าลืมว่านี่เป็นเพียงไฮไลท์เท่านั้น {{.OpenTag1}}มีเพิ่มอีกเยอะ{{.CloseTag1}}
+  Install:
+    Heading: ติดตั้ง
+    Paragraph: ชอบเหรอ? ไม่ต้องลังเลที่จะติดตั้งทันที!
+    InstallButton:
+      Other: ...หรือ {{.OpenTag1}}ติดตั้งจาก github{{.CloseTag1}}หรือ {{.OpenTag2}}ติดตั้งจากแหล่งที่มา{{.CloseTag2}}
+  Users: ผู้ใช้
+AddonsPage:
+  EasterEggAddon: นี่เป็นส่วนขยายที่ถูกซ่อนไว้
+  RecommendedAddon: นี่เป็นส่วนขยายที่เราแนะนำ
+  FeaturedAddon: นี่เป็นส่วนขยายที่เป็นจุดเด่น
+  BetaAddon: นี่เป็นส่วนขยายที่อยู่ในช่วงเบต้า
+  ListViewLabel: ดูเป็นรายการ
+  EasterEggLabel: ส่วนขยายที่ถูกซ่อน
+  EasterEggTooltip:
+    L1: เพื่อเปิดใช้งานส่วนขยายพวกนี้ ทำ Konami Code (↑↑↓↓←→←→BA) เมื่ออยู่ในหน้าการตั้งค่า อ่านหน้าคำถามที่พบบ่อยสำหรับข้อมูลเพิ่มเติม
+    L2: ในหน้านี้ส่วนขยายที่ถูกซ่อนไว้จะมีรูปไข่อยู่ข้างชื่อ
+  NAddons: "{{.Count}} ส่วนขยาย"
+  SourceCodeLabel: โค้ดบน github
+FeedbackPage:
+  Status:
+    Sending: กำลังส่ง...
+    Success: ส่งแล้ว! ขอบคุณสำหรับความคิดเห็น
+    Failed: มีบางอยางผิดปกติ ลองใหม่อีกครั้ง
+    Offline: มีบางอย่างผิดพลาดบน เซิร์ฟเวอร์ความคิดเห็น ลองใหม่อีกสักครู่หรือใช้วิธีอื่นที่เราพูดถึง
+  NoAddonsList: ไม่สามารถนำรายการส่งได้ ลองเปิดหน้านี้จากหน้าส่วนขยายแทน
+  UsernameLabel: ชื่อผู้ใช้ scratch หรืออื่นๆ (ไม่บังคับ)
+  ContentLabel: ความคิดเห็น
+  ContentPlaceholder: กรุณาให้ข้อมูลมากที่สุดที่คุณทำได้
+  SendEnabled: ส่งรายการของส่วนขยายที่คุณเปิดใช้อยู่ (แนะนำ)
+  SubmitButton: ส่ง
+SMTPage:
+  ScratchMessagingLogoAlt: โลโก้ส่วนขยายส่งข้อความสำหรับ scratch
+ChangelogPage:
+  Highlights:
+    Title: ไฮไลท์
+  Links:
+    Title: ลิ้งค์
+    ReleaseGitHub: หน้าเผยแพร่บน github
+    RepoState: สถานะของ repository เมื่อเผยแพร่
+    CommitsMade: commit ทั้งหมดบนเวอร์ชั่นนี้
+  Status:
+    Latest: ล่าสุด
+    Yanked: ถูกยกเลิก
+UnsupportedBrowserPage:
+  Download: ติดตั้ง
+  HowToUpdate: วิธีอัปเดต
+Blog:
+  SectionSiteName: blog ส่วนขยายสำหรับ scratch
+CreditsPage:
+  NContributors: "{{.Count}}ผู่ร่วมโครงการ"
+  NProfilePicture: "{{.Name}}รูปโปรไฟล์"
+Comments:
+  Heading: คอมเมนต์
+  Description: อย่าลืมทำตาม{{ .OpenTag1 }}จรรยาบรรณ{{ .CloseTag1 }} คุณสามารถดูหน้าคอมเมนต์นี้บน {{ .OpenTag2 }}หน้าพูดคุยของ Github{{ .CloseTag2 }} และแก้ไขหรือลบคอมเมนต์

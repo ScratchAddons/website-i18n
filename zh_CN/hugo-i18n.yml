@@ -23,6 +23,7 @@ Footer:
     Header: 讨论
     Issues: 问题
   Resources:
+    Header: 资源
     Documentation: 文档撰写
 PlayerModal:
   LabelPlay: 播放
