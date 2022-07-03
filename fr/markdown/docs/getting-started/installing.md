@@ -4,18 +4,18 @@ title: Installation
 
 ## Depuis le magasin d'extension
 
-Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+Scratch Addons est disponible dans le Chrome Web Store et les extensions pour Firefox.
 
-- Chrome Web Store (for Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, and other Chromium-based browsers)  
+- Chrome Web Store (pour Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79, et d'autres moteurs de recherche basés sur chrome)
   https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
 
-- Add-ons for Firefox (for Mozilla Firefox)  
+- Extensions pour Firefox (pour Mozilla Firefox)
   https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
 
-- Microsoft Edge Add-ons (for Microsoft Edge >79)  
+- Extensions de Microsoft Edge (pour Microsoft Edge >79)
   https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
 
-## From source
+## Depuis la source
 
 ### About GitHub releases
 
@@ -23,7 +23,7 @@ Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
 
 ### Cloning the repository
 
-This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
+Ceci est la manière recommandée d'installer Scratch Addons pour des fins de développement. Ceci est basé sur le fait que vous avez installez Git.
 
 To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
 

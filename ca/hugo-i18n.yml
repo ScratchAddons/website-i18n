@@ -1,0 +1,146 @@
+Global:
+  Install: Instal·la
+  InstallBrowser:
+    Firefox: Instal·lar per Firefox
+    Chrome: Instal·lar per Chrome
+    Edge: Instal·lar per Edge
+  ReadTime:
+    one: "{{.Count}} minut"
+    other: "{{.Count}} minuts"
+  RSSDescription: Contingut recent a {{ .SiteName }}
+  Website: Lloc web
+  Extension: Extensió
+  Carousel:
+    Prev: Anterior
+    Next: Següent
+    First: Anar al primer
+    Last: Anar al darrer
+    SlideX: Anar al item {{ .Count }}
+Links:
+  Credits: Crèdits
+  PrivacyPolicy: Política de privacitat
+Nav:
+  Feedback: Enviar comentaris
+  Repository: Repositori
+  RepositoryLabel: Repositori a Github
+  Install: Instal·la
+  ToggleNavigation: Canvia la navegació
+Footer:
+  Pages:
+    Header: Pàgines
+    Feedback: Enviar comentaris
+    Changelog: Historial de canvis
+  Discuss:
+    Header: Discutiu
+    Discussion: Fòrum de discussió
+    Issues: Problemes
+    DiscordCom: Discord de la comunitat
+    DiscordDev: Discord de desenvolupament
+  Resources:
+    Header: Recursos
+    Organization: Organització
+    Repository: Repositori
+    Documentation: Documentació
+  Legal:
+    Copyright: © {{.Count}} Col·laboradors de Scratch Addons
+    NoAffiliation: Scratch Addons no està afiliat, associat o connectat de cap manera oficial amb Scratch, el Scratch Team, la Scratch Foundation o cap de les seves filials o afiliats.
+    License: Scratch Addons té llicència sota els termes de la GNU General Public License v3.0.
+  Intro: Actualment {{ .Version }} amb {{ .AddonCount }} addons.
+DarkTheme:
+  Title: Fes clic per canviar el tema fosc.
+  Label: Canvi de tema fosc
+Docs:
+  DocsNav: Navegació de documents
+  DocsNavToggleLabel: Commuta la barra lateral de navegació de documents
+  TOC: Taula de continguts
+  TOCToggleLabel: Commuta la barra lateral de la taula de continguts
+  LastUpdated: Darrera actualització el {{.Date}} per {{.Name}} en commit {{.Commit}}.
+  Improve: Millora aquesta pàgina.
+  SectionPages: Pàgines de la secció
+PlayerModal:
+  ModalTitle: Vídeo
+  AltText: Fes clic per veure el vídeo.
+IndexPage:
+  Intro:
+    Tagline: Extensió de navegador tot en un per a Scratch
+    Description: Scratch Addons és una extensió de navegador que incorpora noves funcions i temes per al lloc web i l'editor de projectes de Scratch. Té la missió de recopilar, arxivar i posar en ús temes d'usuaris i scripts d'usuaris, creats per membres de la comunitat del Scratch.
+    InstallButton:
+      Loading: Carregant...
+      Description: gratis, codi obert
+    ReadMore: o llegeix més
+    Carousel:
+      Video:
+        Caption: El trailer.
+      Popup:
+        Caption: El pop-up de l'extensió.
+        ImgAlt: Pop-up de l'extensió
+      Settings:
+        Caption: La pàgina de configuració.
+        ImgAlt: Pàgina de configuració
+      Demo:
+        Caption: Demostració de l'extensió.({{.Count}})
+        ImgAlt: Demostració ({{.Count}})
+  Features:
+    Heading: Característiques
+    AddonsHeading: ºAddons
+    AddonsParagraph: Scratch Addons consisteixen en Addons, que són funcions que poden millorar el vostre web i experiència de l'editor del Scratch.
+    CustomizableHeading: Personalitzable
+    CustomizableParagraph: Scratch Addons té una UI fàcil d'utilitzar per controlar diverses opcions de cada funció i tema.
+    InternationalHeading: Internacional
+    InternationalParagraph: No només anglès. Scratch Addons està disponible també en Castellà, Rus, Japonès, Francès i molts més.
+    OSHeading: Codi obert
+    OSParagraph: Scratch Addons és gratuït, de codi obert i creat per una comunitat de Scratchers.
+  Highlights:
+    Heading: Destacats
+    Paragraph: Recorda que, aquests són només els destacats.{{.OpenTag1}}N'hi ha més!{{.CloseTag1}}
+  Install:
+    Heading: Instal·la
+    Paragraph: Satisfet? No dubtis a instal·lar-lo!
+    InstallButton:
+      Other: ...o {{.OpenTag1}} descarregueu-lo de GitHub {{.CloseTag1}} o {{.OpenTag2}} instal·leu-lo des de la font {{.CloseTag2}}.
+  Users: Usuaris
+AddonsPage:
+  EasterEggAddon: Aquest és un addon d'ou de pasqua.
+  RecommendedAddon: Aquest és un addon recomanat.
+  FeaturedAddon: Aquest és un addon destacat.
+  BetaAddon: Aquest és un addon en beta.
+  ListViewLabel: Vista de llista
+  EasterEggLabel: Ou de pasqua
+  EasterEggTooltip:
+    L1: Per activar els complements, fes el "Konami Code" (↑↑↓↓←→←→BA) a la pàgina de configuració. Llegiu la pàgina de FAQ per obtenir més informació.
+    L2: En aquesta pàgina, un complement d'ou de pasqua tindrà un símbol d'ou a part del nom.
+  SourceCodeLabel: Codi font a GitHub
+FeedbackPage:
+  Status:
+    Sending: Enviant...
+    Success: Enviat! Gràcies pels teus comentaris.
+    Failed: Alguna cosa ha anat malament. Vols enviar-ho de nou?
+    Offline: S'ha produït un error al servidor de feedback. Torneu-ho a comprovar més tard o utilitzeu les alternatives mencionades.
+  NoAddonsList: La llista no està disponible per ser enviada. Obriu aquesta pàgina mitjançant l'extensió.
+  UsernameLabel: Nom d'usuari de Scratch o altres identificadors (opcional)
+  ContentLabel: Comentaris
+  ContentPlaceholder: Si us plau, proporciona tants detalls com pugis.
+  SendEnabled: Envia una llista dels meus addons activats ara mateix (recomanat)
+  SubmitButton: Envia
+ChangelogPage:
+  Highlights:
+    Title: Destacats
+  Links:
+    Title: Enllaços
+    ReleaseGitHub: Pàgina de llançament a GitHub
+    RepoState: Estat del repositori en el moment del llançament
+    CommitsMade: Canvis fets en aquesta versió
+  Status:
+    Latest: Últim
+UnsupportedBrowserPage:
+  Download: Descarrega
+  HowToUpdate: Com actualitzar
+Blog:
+  SectionSiteName: Blog de Scratch Addons
+CreditsPage:
+  NContributors: "{{.Count}} col·laboradors"
+  NProfilePicture: "{{.Name}} imatge de perfil"
+  NCommits: "{{.Count}} canvis"
+Comments:
+  Heading: Comentaris
+  Description: Assegureu-vos de seguir {{ .OpenTag1 }}el codi de conducta{{ .CloseTag1 }}. Pots veure aquesta secció de comentaris a les {{ .OpenTag2 }}Discussions de GitHub{{ .CloseTag2 }}, així com editar i eliminar el teu comentari.

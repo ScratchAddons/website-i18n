@@ -1,0 +1,28 @@
+_index.html:
+  description: Scratch Addons és una extensió del navegador que ofereix noves funcions i temes per al web i l'editor de projectes del Scratch (scratch.mit.edu). Té la missió de recopilar, arxivar i posar en ús estils d'usuari i scripts d'usuari, desenvolupats per molts membres de la comunitat del Scratch.
+addons.html:
+  description: Aquesta pàgina enumera tots els addons implementats al Scratch Addons.
+changelog.html:
+  title: Historial de canvis
+  description: Tots els canvis notoris en aquest projecte es documentaran en aquesta pàgina.
+credits.html:
+  title: Crèdits
+  description: Moltisímes gràcies a aquestes persones increïbles per contribuir al projecte treballant en el Scratch Addons, les seves característiques, els seus temes, el seu lloc web, etc.
+extension-settings.html:
+  title: Configuració del Scratch Addons
+  description: Com entar a la configuració del Scratch Addons, pas per pas.
+farewell.html:
+  title: Adéu!
+  description: Scratch Addons s'ha desinstal·lat. Us agraïm l'ús que has fet de l'extensió!
+feedback.html:
+  title: Enviar comentaris
+  description: Envieu comentaris als desenvolupadors de Scratch Addons.
+scratch-messaging-transition.html:
+  title: Actualització de l'extensió (transició)
+  description: L'extensió de Scratch Messaging Extension (de griffpatch) s'ha actualitzat i ara s'anomena Scratch Addons. Fes clic a la icona Scratch Addons a la barra d'extensió per consultar el nou resum de missatges redissenyats!
+unsupported-browser.html:
+  title: Explorador incompatible
+  description: Scratch Addons no és compatible amb l'explorador que fas servir.
+welcome.html:
+  title: Benvingut!
+  description: Scratch Addons s'ha instal·lat correctament! Gràcies per instal·lar. Esperem que disfrutis de l'extensió!
