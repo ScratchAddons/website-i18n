@@ -105,7 +105,7 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Questo addon è un easter egg.
   RecommendedAddon: Questo addon è raccomandato.
-  FeaturedAddon: Questo è un addon in primo piano.
+  FeaturedAddon: Questo è un addon in evidenza.
   BetaAddon: Questo è un addon in fase beta.
   ListViewLabel: Visualizzazione lista
   EasterEggLabel: Addon a Sorpresa
@@ -119,8 +119,8 @@ FeedbackPage:
     Sending: Invio in corso...
     Success: Inviato! Grazie per il tuo feedback.
     Failed: Qualcosa non ha funzionato. Vuoi provare a inviare di nuovo?
-    Offline: Qualcosa è andato storto sul Server del Feedback. Riprova più tardi oppure usa le alternative menzionate.
-  NoAddonsList: La lista non è disponibile. Apri questa pagina attraverso il pulsante nell'estensione.
+    Offline: Qualcosa è andato storto sul server del feedback. Riprova più tardi oppure usa le alternative menzionate.
+  NoAddonsList: La lista non è disponibile. Apri questa pagina usando il pulsante nell'estensione.
   UsernameLabel: Username del sito di Scratch, o altro identificatore (opzionale)
   ContentPlaceholder: Dacci più dettagli che puoi.
   SendEnabled: Invia la lista degli addon abilitati (raccomandato)
@@ -149,4 +149,4 @@ CreditsPage:
   NCommits: "{{.Count}} commit"
 Comments:
   Heading: Commenti
-  Description: "Assicurati di seguire {{ .OpenTag1 }}il codice di comportamento{{ .CloseTag1 }}. Puoi vedere questa sezione di commenti su {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} così come modificare o cancellare il tuo commento.    "
+  Description: "Assicurati di seguire {{ .OpenTag1 }}il codice di comportamento{{ .CloseTag1 }}. Puoi vedere questa sezione di commenti su {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} e puoi anche modificare o cancellare il tuo commento.    "
