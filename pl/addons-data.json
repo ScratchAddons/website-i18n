@@ -1,8 +1,8 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "Próbnik kolorów 2D",
-		"description": "Zamienia paski wyboru jasności i saturacji na paletę kolorów 2D w edytorze kostiumów. Przytrzymaj Shift, aby zmieniać wartość na tylko jednej płaszczyźnie.",
+		"name": "Wybieranie kolorów w 2D",
+		"description": "Zamienia paski wyboru jasności i saturacji, na paletę kolorów 2D w edytorze kostiumów. Przytrzymaj Shift, aby zmieniać wartość na tylko jednej płaszczyźnie.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -51,7 +51,7 @@
 	{
 		"id": "better-img-uploads",
 		"name": "Przesyłanie obrazów HD ",
-		"description": "Dodaje nowy przycisk nad przyciskiem „prześlij kostium”, który automatycznie konwertuje przesłane obrazy bitmapowe na obrazy SVG (wektorowe), aby uniknąć utraty jakości.",
+		"description": "Dodaje nowy przycisk, który automatycznie zamienia przesłane obrazy bitmapowe na obrazy SVG (wektorowe), aby uniknąć utraty jakości.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -122,7 +122,7 @@
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Ikony dla poszczególnych kategorii",
+		"name": "Ikony kategorii w edytorze",
 		"description": "Dodaje ikony wewnątrz kolorowych okręgów, które identyfikują kategorie bloków.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
@@ -149,7 +149,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Zapisz bloki jako obraz",
-		"description": "Kliknij prawym klawiszem w polu kodu, aby wyeksportować bloki jako obrazy SVG/PNG.",
+		"description": "Kliknij prawym klawiszem w edytorze kodu, aby wyeksportować bloki jako obrazy SVG/PNG.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -263,8 +263,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Użyj Ctrl+Klik, aby uruchomić skrypty",
-		"description": "Uruchamiaj skrypty tylko po kliknięciu myszką trzymając klawisz Ctrl",
+		"name": "Użyj Ctrl+Klik, aby uruchomić kod",
+		"description": "Uruchom kod tylko po kliknięciu myszką trzymając klawisz Ctrl.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -294,8 +294,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Zmień kształt bloków",
-		"description": "Dostosuj obramowanie, zaokrąglenie rogów i wysokość bloków.",
+		"name": "Dowolny kształt bloków",
+		"description": "Dostosuj wielkość obramowania, zaokrąglenia rogów i wysokości bloków.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -324,8 +324,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Dowolne powiększenie obszaru kodowania",
-		"description": "Wybierz niestandardowe ustawienia dla minimalnej i maksymalnej szybkości, oraz dla początkowego rozmiaru powiększenia skryptów w obszarze kodu.",
+		"name": "Dowolne powiększenie obszaru kodu",
+		"description": "Wybierz niestandardowe ustawienia dla minimalnej i maksymalnej wielkości, szybkości, oraz dla początkowego rozmiaru powiększenia skryptów w obszarze kodu.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -391,7 +391,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Dodaje do edytora nowe okno \"debuggera\". Umożliwia zalogowanie informacji do zakładki „Logi” za pomocą bloków „log”, „warn” i „error”. Blok „punkt przerwania” zatrzyma projekt po wykonaniu. Wszystkie uruchomione wątki można wyświetlić w zakładce „Wątki” debugera, a po wstrzymaniu można użyć przycisku „Krok” do wykonania następnego bloku.W dodatku w zakładce \"Wydajność\" możesz zobaczyć wykres liczby ilość klatek na sekundę oraz liczby klonów.",
+		"description": "Dodaje do edytora nowe okno \"debugger\". Umożliwia zapisanie informacji do zakładki „Logi” za pomocą bloków „loguj”, „ostrzeż” i „zgłoś błąd”. Blok „przerwij” zatrzyma projekt po jego wykonaniu. Wszystkie uruchomione wątki można wyświetlić w zakładce „Wątki”, a po wstrzymaniu można użyć przycisku „Krok”, aby wykonać następny blok. W dodatku w zakładce \"Wydajność\" możesz zobaczyć wykres ilość klatek na sekundę oraz liczby klonów.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Blokada przesuwania duszków w edytorze",
-		"description": "Usuwa możliwość przeciągania duszków w trybie edycji, z wyjątkiem tych których tryb jest ustawiony na \"Przeciągalne\".",
+		"description": "Blokuje możliwość przesuwania duszków na scenie w edytorze, z wyjątkiem tych, które są ustawione na \"przesuwanie\". Przytrzymać Shift, aby normalnie przesuwać duszki.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Przycisk efektu echa",
 		"description": "Przywraca przycisk Echo w edytorze dźwięku.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Odwrócona kolejność kontrolek projektu",
+		"description": "Przesuwa zieloną flagę oraz przyciski do zatrzymania na prawą stronę, a przycisk powiększenia ekranu na lewą stronę, tak samo jak w Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Narzędzia Developerskie",
-		"description": "Dodaje pole wyszukiwania i kilka nowych opcji w menu edytora jak: kopiuj/wklej bloki, lepsze sprzątanie bloków, przejdź do definicji bloku i więcej!",
+		"description": "Dodaje pole wyszukiwania i kilka nowych opcji w menu edytora jak: kopiuj/wklej bloki, lepsze sprzątanie bloków, przejdź do definicji bloku i więcej! Naciśnij Ctr+F, aby zacząć wyszukiwanie, i Ctr+Spacja, aby wyświetlić menu \"dodaj blok po nazwie\", oraz Ctr+Prawo/Lewo, aby przenieść się w historii wyszukiwania.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -568,8 +574,8 @@
 	},
 	{
 		"id": "editor-sounds",
-		"name": "Efekty dźwiękowe edytora",
-		"description": "Pusza efekty dźwiękowe kiedy połączysz lub rozłączysz bloki.",
+		"name": "Efekty dźwiękowe w edytorze",
+		"description": "Pusza efekty dźwiękowe, kiedy połączysz lub rozłączysz bloki.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -632,7 +638,7 @@
 	{
 		"id": "expanding-search-bar",
 		"name": "Rozwijany pasek wyszukiwania",
-		"description": "Zamienia pasek wyszukiwania na szerszy, gdy na niego klikniesz.",
+		"description": "Wydłuża pasek wyszukiwania, gdy na niego klikniesz.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
@@ -663,8 +669,8 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "Nie uruchamiaj automatycznie zduplikowanych bloków",
-		"description": "Naprawia błąd w Edytorze Scratch, kiedy kopiowanie bloku i przyczepianie go do kodu wywołuje ten skrypt.",
+		"name": "Nie uruchamiaj zduplikowanych bloków",
+		"description": "Naprawia błąd w Edytorze Scratch, kiedy kopiowanie bloku i przyczepianie go do kodu wywołuje ten kod.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Foldery duszków",
-		"description": "Dodaje foldery do listy duszków, tak samo do listy kostiumów i dźwięków. Aby stworzyć folder kliknij prawym klawiszem i wybierz funkcję \"Stwórz folder\". Kliknij na folder aby go otworzyć bądź zamknąć. Kliknij prawy przyciskiem na duszka, aby zobaczyć jakie foldery zawiera. Alternatywnie możesz przesunąć i upuścić folder do innego duszka.",
+		"description": "Dodaje foldery do panelu duszków, a także do listy kostiumów i dźwięków. Aby utworzyć folder, kliknij prawym przyciskiem myszy na dowolnego duszka i kliknij \"utwórz folder\". Kliknij folder, aby go otworzyć lub zamknąć. Kliknij prawym przyciskiem myszy na duszka, aby zobaczyć, do jakich folderów możesz go przenieść. Możesz także przeciągnąć go i upuść do otwartego folderu. Ta funkcja działa poprzez dodanie „[nazwa_folderu]//” na początku nazw twoich duszków.\n",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -774,8 +780,8 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "Wsparcie dla padów",
-		"description": "Interakcja z projektami za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
+		"name": "Wsparcie dla Gamepadów",
+		"description": "Kontroluj projekt za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Ukryj scenę i listę duszków",
+		"description": "Dodaje przycisk obok przycisków \"zmniejsz/zwiększ scenę\", który ukrywa scenę i listę duszków,znacznie zwiększając obszar kodowania.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -860,7 +882,7 @@
 	{
 		"id": "initialise-sprite-position",
 		"name": "Dowolna pozycja nowych duszków",
-		"description": "Zmień domyślną pozycję x i y nowych duszków.",
+		"description": "Zmień domyślną pozycję x i y dla nowych duszków.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Przenieś kostium do góry albo do dołu",
 		"description": "Dodaje przycisk, który przesuwa kostium lub dźwięk na górę lub na dół listy. Wcześniej część narzędzi developerskich. ",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1040,6 +1062,15 @@
 		]
 	},
 	{
+		"id": "one-click-studio-invites",
+		"name": "Zaproszenia do studia za jednym kliknięciem",
+		"description": "Zaakceptuj zaproszenia do studia bezpośrednio ze strony wiadomości Scratch'a. Przycisk akceptacji wyświetli się pod wiadomością z zaproszeniem.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+		]
+	},
+	{
 		"id": "onion-skinning",
 		"name": "Onion skinning",
 		"description": "Pokazuje przezroczyste nakładki poprzednich lub następnych kostiumów podczas edycji kostiumu. Aby zmienić klatkę kliknij w przyciski pod ikonami powiększania kostiumu. Służy do łatwego tworzenia animacji.",
@@ -1093,8 +1124,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums",
-		"name": "Przenosi do standardowych forów.",
-		"description": "Przekierowuje do standardowych (\"głównych\") forów po kliknięciu linku do forów mobilnych. ",
+		"name": "Przekierowanie na standardowe forum",
+		"description": "Przekierowuje do standardowego (\"głównego\") forum po kliknięciu linku do forum mobilnego. ",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
@@ -1118,7 +1149,7 @@
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Usuwa zaokrąglone krawędzie podglądu projektu",
+		"name": "Usuwa zaokrąglone krawędzie w podglądzie projektu",
 		"description": "Usuwa zaokrąglone krawędzie sceny, i pozwala zobaczyć jej rogi.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
@@ -1274,7 +1305,7 @@
 	{
 		"id": "sounds-duration",
 		"name": "Wyświetlanie długości dźwięku",
-		"description": "Wyświetla długość dźwięku, lub obecnie zaznaczonego fragmentu, oraz czasu, który upłyną. Znajdziesz go w edytorze dźwięku.",
+		"description": "Wyświetla długość dźwięku, lub obecnie zaznaczonego fragmentu, oraz czasu, który już upłynął. Znajdziesz go w edytorze dźwięku.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1286,7 +1317,7 @@
 	{
 		"id": "studio-followers",
 		"name": "Przycisk \"wyszukaj obserwujących\" w studiach",
-		"description": "Dodaje przycisk na górze zakładki \"Kuratorzy\". Na tej liście najdziesz obserwujących użytkowników. Dodatkowo możesz za pomocą tego menu zaprosić osoby jednym kliknięciem!",
+		"description": "Dodaje przycisk na górze zakładki \"Kuratorzy\". W tej liście znajdziesz osoby obserwujące dane studio. Dodatkowo możesz za pomocą tego menu zaprosić osoby jednym kliknięciem!",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
@@ -1316,7 +1347,7 @@
 	{
 		"id": "transparent-orphans",
 		"name": "Przezroczystość bloku",
-		"description": "Dostosuj przezroczystość bloków w edytorze, korzystając z osobnych opcji dla bloków odłączonych i bloków przeciąganych.",
+		"description": "Dostosuj przezroczystość bloków w edytorze, korzystając z osobnych opcji dla bloków odłączonych (tych bez nagłówka) i bloków przeciąganych.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{

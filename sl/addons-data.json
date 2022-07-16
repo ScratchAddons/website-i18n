@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Onemogoči vlečenje figur v urejevalniku",
-		"description": "Odstrani možnost vlečenja figur na odru v urejevalniku, razen tistih, ki vlečenje omogočijo z ukazom \"možnost premika\".",
+		"description": "Odstrani možnost vlečenja figur na odru v urejevalniku, razen tistih, ki vlečenje omogočijo z ukazom \"možnost premika\". Med vlečenjem figure držite Shift, da jo premaknete na običajen način.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Gumb za učinek odmeva",
 		"description": "V urejevalnik zvokov znova doda gumb Odmev.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Obratno zaporedje gumbov za nadzor projekta",
+		"description": "Premakne zeleno zastavico in gumb Ustavi na desno in gumb za celozaslonski način na desno, kot v Scratchu 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Developer tools",
-		"description": "Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje blokov, boljše čiščenje, skok k definiciji bloka, in drugo.",
+		"description": "Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje blokov, boljše čiščenje, skok k definiciji bloka, in drugo! Pritisnite Ctrl+F za premik na iskalno polje, Ctrl+presledek za prikaz okna za dodajanje bloka po imenu, Ctrl+levo/desno za premikanje po zgodovini iskanja.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Mape figur",
-		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško povlecite v odprto mapo.",
+		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško povlecite v odprto mapo. Ta dodatek deluje tako, da na začetek imena figure doda \"[imeMape]//\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Skrij oder in seznam figur",
+		"description": "Zraven gumbov \"manjši oder\" in \"večji oder\" doda gumb, ki skrije oder in seznam figur, kar zelo poveča prostor za kodo.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Premakni videz na vrh ali na dno",
 		"description": "V meni desne miškine tipke doda možnost, ki videz ali zvok premakne na vrh ali na dno seznama. Prej del dodatka Developer Tools.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "One-click studio invites",
+		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

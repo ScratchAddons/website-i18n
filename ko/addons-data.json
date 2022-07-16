@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "편집기에서 스프라이트 드래그 끄기",
-		"description": "편집기 무대에서(드래그가 가능하도록 설정된 스프라이트 제외) 스프라이트 드래그를 막습니다.",
+		"description": "Removes the ability to drag sprites around on the stage in the editor, except those explicitly set as draggable. Hold Shift while dragging a sprite to move it normally.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "에코 효과 버튼",
 		"description": "소리 에디터에 에코 버튼을 다시 넣습니다.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Reverse order of project controls",
+		"description": "Moves the green flag and stop buttons to the right and the full screen button to the left, like in Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "개발자 도구",
-		"description": "편집기에서 탐색창과 블록 복사/붙여넣기, 더 좋은 코드 정리, 사용자 지정 블록으로 이동과 같은 새 메뉴 설정을 추가합니다.",
+		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more! Press Ctrl+F to focus the find box, Ctrl+Space to bring up the \"add block by name\" popup, Ctrl+Left/Right to navigate find history.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "스프라이트 폴더",
-		"description": "스프라이트 창뿐만 아니라 의상 및 사운드 목록에도 폴더를 추가합니다. 폴더를 만들려면 스프라이트를 마우스 오른쪽 단추로 클릭하고 \"폴더 생성\"을 클릭합니다. 폴더를 클릭하여 열거나 닫습니다. 스프라이트를 마우스 오른쪽 단추로 클릭하여 이동할 수 있는 폴더를 확인하거나 열려 있는 폴더에 끌어다 놓습니다.",
+		"description": "Adds folders to the sprite pane, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder. This feature works by adding \"[folderName]//\" at the beginning of the names for your sprites.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Hide stage and sprite pane",
+		"description": "Adds a button next to the \"small stage\" and \"large stage\" buttons that hides the stage and the sprite pane, making the code area much larger.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "모양 블록을 맨 위로 올리거나 맨 아래로 내리기",
 		"description": "기존에는 개발자 도구에 있었던 모양이나 소리를 리스트의 맨 아래나 맨 위로 보내는 우클릭 메뉴를 추가합니다.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "One-click studio invites",
+		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

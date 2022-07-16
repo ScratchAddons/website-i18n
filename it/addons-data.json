@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Sprite non trascinabili nell'editor",
-		"description": "Impedisce di trascinare gli sprite visibili sullo stage, tranne quelli esplicitamente indicati come trascinabili.",
+		"description": "Impedisce di trascinare gli sprite visibili sullo stage, tranne quelli esplicitamente indicati come trascinabili. Tieni premuto Shift mentre li trascini per spostarli normalmente.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Pulsante effetto eco",
 		"description": "Aggiunge il pulsante Eco nell'editor di suoni.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Inverti l'ordine dei controlli del progetto",
+		"description": "Sposta la bandiera verde e il pulsante di stop a destra e il pulsante modalità presentazione a sinistra, come in Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Strumenti per sviluppatori",
-		"description": "Aggiunge una casella di ricerca e nuove opzioni nei menu dell'editor: copia/incolla dei blocchi, riordino degli script migliorato, salto alla definizione di un blocco personalizzato e molto altro!",
+		"description": "Aggiunge una casella di ricerca e nuove opzioni ai menu dell'editor: copia/incolla blocchi, riordino migliorato, vai alla definizione del blocco e altro! Premi Ctrl+F per spostarti alla casella di ricerca, Ctrl+Spazio per attivare il menu \"aggiungi blocco per nome\", Ctrl+Sinistra/Destra per navigare nella cronologia di ricerca.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Cartelle degli sprite",
-		"description": "Permette di organizzare in cartelle le liste degli sprite, dei costumi e dei suoni. Per creare una cartella clicca con il tasto destro su qualunque sprite, costume o suono e seleziona \"crea cartella\". Clicca una cartella per aprirla o chiuderla. Clicca con il tasto destro uno sprite, un costume o un suono per selezionare la cartella in cui spostarlo, oppure trascinalo in una cartella aperta.",
+		"description": "Permette di organizzare in cartelle le liste degli sprite, dei costumi e dei suoni. Per creare una cartella clicca con il tasto destro su qualunque sprite, costume o suono e seleziona \"crea cartella\". Clicca una cartella per aprirla o chiuderla. Clicca con il tasto destro uno sprite, un costume o un suono per seleziona la cartella in cui spostarlo, oppure trascinalo in una cartella aperta. Questa funzione aggiunge \"[nomeCartella]//\" all'inizio del nome dei tuoi sprite. ",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Nasconde lo stage e l'area degli sprite",
+		"description": "Aggiunge un pulsante vicino ai pulsanti \"stage piccolo\" e \"stage grande\" per nascondere lo stage e l'area degli sprite, rendendo l'area degli script molto più ampia.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Sposta costumi in cima o in fondo",
 		"description": "Aggiunge una opzione al menu contestuale per spostare un costume o un suono in cima o in fondo alla lista. In precedenza era un'opzione inserita negli strumenti per sviluppatori.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Inviti alle gallerie con un click",
+		"description": "Accetta gli inviti alle gallerie direttamente dalla pagina dei messaggi di Scratch. Apparirà un pulsante accetta sotto i messaggi di invito alle gallerie.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

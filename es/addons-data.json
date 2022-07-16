@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Objetos no arrastrables en el editor",
-		"description": "Elimina la posibilidad de arrastrar objetos en el escenario, exceptuando aquellos fijados explícitamente como arrastrables.",
+		"description": "Elimina la posibilidad de arrastrar objetos en el escenario, exceptuando aquellos fijados explícitamente como arrastrables. Presione Shift mientras arrastra un objeto para moverlo normalmente.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Botón de efecto de eco",
 		"description": "Devuelve el botón Eco al editor de sonidos.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Invertir orden de los controles del proyecto",
+		"description": "Mueve la bandera verde y el botón de detener a la derecha, y el botón de pantalla completa a la izquierda, como en Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Herramientas de desarrollador",
-		"description": "Agrega una barra de búsqueda y nuevas opciones de menú para el editor: copie y pegue bloques, ordene de mejor manera, vaya directamente a la definición de un bloque propio y más.",
+		"description": "Agrega una barra de búsqueda y nuevas opciones de menú para el editor: copie y pegue bloques, ordene de mejor manera, vaya directamente a la definición de un bloque personalizado y más Presione Ctrl+F para enfocar la barra de búsqueda, Ctrl+Espacio para abrir la ventana flotante de \"encontrar bloque por nombre\", Ctrl+Izquierda/Derecha para navegar el historial de búsqueda.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Carpetas de objetos",
-		"description": "Agrega carpetas a listas de objetos, como también a las listas de disfraces y sonidos. Para crear una carpeta, haga click derecho en un objeto y seleccione \"crear carpeta\". Haga click en una carpeta para abrirla o cerrarla. Haga click derecho en un objeto para ver a qué carpetas lo puede mover, o alternativamente arrastre y suelte a una carpeta abierta.",
+		"description": "Agrega carpetas a listas de objetos, como también a las listas de disfraces y sonidos. Para crear una carpeta, haga click derecho en un objeto y seleccione \"crear carpeta\". Haga click en una carpeta para abrirla o cerrarla. Haga click derecho en un objeto para ver a qué carpetas lo puede mover, o alternativamente arrastre y suelte a una carpeta abierta. Esta función agrega \"[nombreDeLaCarpeta]//\" al principio del nombre de sus objetos.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Esconder escenario y panel de objetos",
+		"description": "Agrega un botón al lado de los botones de \"escenario pequeño\" y \"escenario grande\" que esconde el escenario y el panel de objetos, haciendo mucho más grande el área de código.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Mover disfraz a la cima o al fondo",
 		"description": "Agrega un ítem al menú de click derecho para mover un disfraz o sonido a la posición primera o última de la lista. Previamente parte de las herramientas de desarrollador.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Invitaciones a estudios en un click",
+		"description": "Acepte invitations a estudios directamente desde la página de mensajes de Scratch. Un botón de aceptar aparecerá debajo de los mensajes de invitaciones a estudios.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

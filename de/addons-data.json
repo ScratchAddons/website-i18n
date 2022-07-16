@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Nicht ziehbare Figuren im Editor",
-		"description": "Entfernt die Möglichkeit, Figuren auf der Bühne herumzuziehen, explizit ziehbare Figuren ausgenommen.",
+		"description": "Entfernt die Möglichkeit, Figuren auf der Bühne herumzuziehen, explizit ziehbare Figuren ausgenommen. Halte Shift gedrückt, um Figuren normal zu verschieben.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Echo-Effekt-Knopf",
 		"description": "Bringt den Echo-Effekt-Knopf zum Klangeditor zurück.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Verkehrte Anordnung von Playersteuerelementen",
+		"description": "Verschiebt die grüne Flagge und den Stopp-Knopf auf die rechte und den Vollbild-Knopf auf die linke Seite, wie in Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Entwicklertools",
-		"description": "Fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Kopieren/Einfügen von Blöcken, besseres Aufräumen, gehe zu Definitionen von Benutzerdefinierten Blöcken und vieles mehr!",
+		"description": "Fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Kopieren/Einfügen von Blöcken, besseres Aufräumen, gehe zu Definitionen von Benutzerdefinierten Blöcken und vieles mehr! Drücke Strg+F zum Suchen, Strg+Leertaste zum Öffnen des \"Block nach Namen hinzufügen\"-Popups, Strg+Links/Rechts zum Navigieren im SUchverlauf.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -589,7 +595,7 @@
 	{
 		"id": "editor-theme3",
 		"name": "Anpassbare Blockfarben",
-		"description": "Bearbeite die Blockfarben für jede Kategorie im Editor.",
+		"description": "Bearbeite die Farben der Blöcke für jede Kategorie im Editor.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Figurenordner",
-		"description": "Fügt Ordner zur Figurenliste hinzu, sowie zur Kostüm- und Klangliste. Um einen Ordner zu erstellen, klicke mit der rechten Maustaste auf eine Figur und wähle \"neuer Ordner\". Klicke mit der rechten Maustaste eine Figur an, um sie in einen Ordner zu verschieben, oder ziehe sie in einen offenen Ordner.",
+		"description": "Fügt Ordner zur Figurenliste hinzu, sowie zur Kostüm- und Klangliste. Um einen Ordner zu erstellen, klicke mit der rechten Maustaste auf eine Figur und wähle \"neuer Ordner\". Klicke mit der rechten Maustaste eine Figur an, um sie in einen Ordner zu verschieben, oder ziehe sie in einen offenen Ordner. Dieses Feature funktioniert durch Hinzufügen von \"[Orndername]//\" vor dem Namen deiner Figuren.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Bühne und Figurenleiste ausblenden",
+		"description": "Fügt einen Knopf neben dem \"Kleine Bühne\"-Knopf hinzu, mit dem du die Bühne und die Figurenleiste vollständig ausblenden und damit den Codebereich viel größer machen kannst.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Element an erste/letzte Stelle verschieben",
 		"description": "Fügt ein Kontextmenüelement zum Verschieben von Kostümen und Klängen an erste oder letzte Stelle der Liste. Früher Teil der Entwicklertools.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1030,13 +1052,22 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Altes Studiolayout",
-		"description": "Wandelt das Layout der Studios-Seite zum Layout, das vor dem Studio-Update verwendet wurde, um.",
+		"description": "Wandelt das Layout der Studios-Seite zum Layout um, das vor dem Studio-Update verwendet wurde oder zum 2.0 → 3.0 Addon-Layout.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Ein-Klick-Studioeinladungen",
+		"description": "Akzeptiere Studioeinladungen direkt von Scratch's Nachrictenseite. Ein Annehmen-Knopf wird direkt unter Einladungsnachrichten erscheinen.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1170,7 +1201,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0-Blöck in Foren",
+		"name": "3.0-Blöcke in Foren",
 		"description": "Aktiviert die neue Version von scratchblocks in den Foren.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [

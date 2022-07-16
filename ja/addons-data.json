@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "ドラッグできないスプライト",
-		"description": "ステージでスプライトをドラッグできないようにする。",
+		"description": "ステージではShiftキーを押さないとスプライトをドラッグできないようにする。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "エコー効果ボタン",
 		"description": "サウンドエディターにエコーの効果のボタンを追加する。",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "プロジェクト操作ボタン反転",
+		"description": "Scratch 2.0のように、緑の旗と停止ボタンを右に、全画面表示ボタンを左に移動させる。",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "開発者ツール",
-		"description": "検索バー、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他。",
+		"description": "検索ボックス、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他さまざまな機能を追加する。 Ctrl+Fを押して検索ボックスをフォーカスし、Ctrl+スペースで「名前でブロックを追加」ポップアップを表示し、Ctrl+左右キーで検索履歴を見る。",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "スプライトフォルダー",
-		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。",
+		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。これは、「[フォルダー名]//」をスプライト名の先頭に追加することによって動作する。",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "ステージとスプライトペインを隠す",
+		"description": "「小さなステージ」と「大きなステージ」ボタンの横に、ステージとスプライトペインを隠してコードエリアを広げるボタンを追加する。",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "コスチュームを一番上や一番下に移動",
 		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。以前は「開発者ツール」の一部であった。",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "ワンクリックスタジオ招待",
+		"description": "スタジオ招待をScratchのメッセージページから直接承認する。承認ボタンはスタジオ招待メッセージの下に表示される。",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

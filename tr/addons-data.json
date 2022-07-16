@@ -363,8 +363,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Site karanlık modu ve özelleştirilebilir renkler",
-		"description": "Scratch sitesi tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla karanlık tema mevcuttur. Karanlık moda ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
+		"name": "Site koyu modu ve özelleştirilebilir renkler",
+		"description": "Scratch sitesi tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla koyu tema mevcuttur. Koyu moda ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Düzenleyicide sürüklenemeyen kuklalar",
-		"description": "Özellikle sürüklenebilir olarak ayarlanmış olanlar hariç, düzenleyicideyken sahnesindeki kuklaları sürükleme özelliğini kaldırır.",
+		"description": "Özellikle sürüklenebilir olarak ayarlanmış olanlar dışında, düzenleyicideyken sahnedeki kuklaları sürükleme özelliğini kaldırır. Bir kuklayı normal şekilde taşımak için sürüklerken Shift tuşuna basılı tutun.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -482,6 +482,12 @@
 		"tags": ["editor"]
 	},
 	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Ters çevrilmiş proje kontrolleri",
+		"description": "Scratch 2.0'daki gibi yeşil bayrak ve durdurma düğmelerini sağa, tam ekran düğmesini ise sola götürür.",
+		"tags": ["editor", "projectPlayer", "featured"]
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Renkli bağlam menüleri",
 		"description": "Blok sağ tıklandığında çıkan bağlam menülerini renkli hale getirir.",
@@ -503,8 +509,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Düzenleyici karanlık modu ve özelleştirilebilir renkler",
-		"description": "Proje editörü tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla karanlık tema mevcuttur. Karanlık moda ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız, \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
+		"name": "Düzenleyici koyu modu ve özelleştirilebilir renkler",
+		"description": "Proje editörü tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla koyu mod mevcuttur. Koyu moda ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız, \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Geliştirici araçları",
-		"description": "Arama çubuğu, menü seçenekleri, blokları kopyalayıp yapıştırma, temizleme, tanım bloklarına gitme ve çok daha fazlasını yapın.",
+		"description": "Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyala/yapıştır, daha iyi temizle, özel blok tanımına git ve çok daha fazlası! Arama kutusuna odaklanmak için Ctrl+F, \"ada göre blok ekle\" açılır penceresini açmak için Ctrl+Boşluk, arama geçmişinde gezinmek için Ctrl+Sol/Sağ tuşlarına basın.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Kukla klasörleri",
-		"description": "Kukla bölmesine klasörlerin yanı sıra, kostüm ve ses listeleri ekler. Bir klasör oluşturmak için herhangi bir kuklaya sağ tıklayın ve \"klasör oluştur\" seçeneğini tıklayın. Açmak veya kapatmak için bir klasöre tıklayın. Bir kuklayı hangi klasörlere taşıyabileceğinizi görmek için sağ tıklayın veya alternatif olarak açık bir klasöre sürükleyip bırakın.",
+		"description": "Kostüm, ses ve kukla bölmesine klasörler ekleme imkânı tanıt. Bir klasör oluşturmak için herhangi bir kuklaya sağ tıklayın ve \"klasör oluştur\" seçeneğine tıklayın. Klasörü açmak veya kapatmak için bir klasöre tıklayın. Bir kuklayı hangi klasörlere taşıyabileceğinizi görmek için sağ tıklayın veya alternatif olarak açık bir klasöre sürükleyip bırakın. Bu özellik, kuklalarınızın adlarının başına \"[klasörAdı]//\" ekleyerek çalışır.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Sahneyi ve kukla bölmesini gizle",
+		"description": "Sahne alanını ve kukla bölmesini gizleyen \"küçük sahne\" ve \"büyük sahne\" düğmelerinin yanına bir düğme daha ekleyerek kod alanını çok daha büyük hâle getirir.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Kostümü yukarı veya aşağı taşı",
 		"description": "Bir kostümü veya sesi listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsü öğesi ekler. Önceden geliştirici araçlarının bir parçasıydı.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Tek-tık stüdyo davetleri",
+		"description": "Stüdyo davetlerini doğrudan Scratch'in mesajlar sayfasından kabul edin. Stüdyo davet mesajlarının altında bir kabul et düğmesi görünecektir.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1347,7 +1378,7 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "Öğreticileri gizle düğmesi",
+		"name": "Öğreticiler düğmesini gizle",
 		"description": "Düzenleyici menü çubuğundaki Öğreticiler düğmesini gizler.",
 		"tags": ["editor"],
 		"credits": [

@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Niet-sleepbare sprites in editor",
-		"description": "Maakt het niet meer mogelijk om sprites rond te slepen in de editor, behalve diegene die ingesteld zijn als sleepbaar.",
+		"description": "Maakt het niet meer mogelijk om sprites rond te slepen in de editor, behalve diegene die ingesteld zijn als sleepbaar. Houd Shift ingedrukt om sprites zoals normaal te slepen.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Echo-effectknop",
 		"description": "Brengt de Echoknop terug in de geluidseditor.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Volgorde van projectbesturingen omkeren",
+		"description": "Verplaatst de groene vlag en stopknop naar rechts en de volledig scherm-knop naar links, zoals in Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Ontwikkelaarstools",
-		"description": "Voegt een zoekbalk en nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, betere opruimer, naar blokdefinitie springen, en meer!",
+		"description": "Voegt een zoekbalk en nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, betere opruimer, naar blokdefinitie springen, en meer! Druk op Ctrl+F om de zoekbalk te focussen, Ctrl+Spatie om de \"blok bij naam toevoegen\"-pop-up tevoorschijn te brengen, Ctrl+Links/Rechts om zoekgeschiedenis te navigeren.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Spritemappen",
-		"description": "Voegt mappen toe aan het spritevenster, en ook kostuum- en geluidlijsten. Om een map aan te maken, gebruik de rechtermuisknop op een sprite en klik op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map.",
+		"description": "Voegt mappen toe aan het spritevenster, en ook uiterlijk- en geluidlijsten. Om een map aan te maken, gebruik de rechtermuisknop op een sprite en klik op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map. Deze functie werkt door \"[folderName]//\" aan het begin van de namen van je sprites toe te voegen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Speelveld en spritevenster verbergen",
+		"description": "Voegt een knop naast de knoppen \"speelveld verkleinen\" en \"speelveld vergroten\" toe die het speelveld en spritevenster verbergt, wat het codegebied veel groter maakt.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Verplaats uiterlijk naar boven of beneden",
 		"description": "Voegt een optie toe in het rechterklikmenu om een uiterlijk of geluid naar boven of beneden te sturen in de lijst. Hoorde eerst bij de ontwikkelaarstools.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Studio-uitnodigingen in één klik",
+		"description": "Accepteer studio-uitnodigingen direct uit de berichtenpagina van Scratch. Er zal een accepteerknop onder berichten voor studio-uitnodigingen komen.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{

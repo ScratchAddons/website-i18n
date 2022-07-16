@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Nem-mozdítható szereplők a szerkesztőben",
-		"description": "Eltávolítja a lehetőséget, hogy áthelyezd a szereplőket a színpadon, kivéve azoknál, amik kifejezetten húzogathatóvá lettek beállítva.",
+		"description": "Eltávolítja a lehetőséget, hogy áthelyezd a szereplőket a színpadon, kivéve azoknál, amik kifejezetten húzogathatóvá lettek beállítva. Tarsd lenyomva a Shiftet egy szereplő megragadása közben, hogy áthelyezhesd normálisan.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Visszhang effekt gomb",
 		"description": "Visszahozza a régi Visszhang gombot a hang szerkesztőbe.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Projektirányító gombok fordított sorrendben",
+		"description": "Áthelyezi a zöld zászlót és a megállító gombot a jobboldalra, valamint a teljes képernyő gombot pedig baloldalra, ahogy a Scratch 2.0-ban volt.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Fejlesztői eszközök",
-		"description": "Hozzáad egy keresőmezőt és új menü opciókat a szerkesztőhöz: másolj/illessz be blokkokat, jobb rendrakás, ugorj saját blokk definíciójához, és még sok más!",
+		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more! Press Ctrl+F to focus the find box, Ctrl+Space to bring up the \"add block by name\" popup, Ctrl+Left/Right to navigate find history.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Szereplő mappák",
-		"description": "Mappákat ad a szereplő kijelzőhöz, illetve a jelmez és hang listához. Mappa létrehozásához, jobb kattints bármely szereplőre és kattints a \"mappa létrehozása\" lehetőségre. Kattints egy mappára, hogy megnyisd vagy összezárd azt. Jobb kattints egy szereplőre, hogy lásd milyen mappákba tudod átmozgatni, vagy csak húzd az egérrel egy nyitott mappába.",
+		"description": "Mappákat ad a szereplő kijelzőhöz, illetve a jelmez és hang listához. Mappa létrehozásához, jobb kattints bármely szereplőre és kattints a \"mappa létrehozása\" lehetőségre. Kattints egy mappára, hogy megnyisd vagy összezárd azt. Jobb kattints egy szereplőre, hogy lásd milyen mappákba tudod átmozgatni, vagy csak húzd az egérrel egy nyitott mappába. Ez a funkció a szerepelők neveinek elé a következő hozzáadásával érhető el: \"[mappa neve]//\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "A Színpad és a Szereplőmező elrejtése",
+		"description": "Adds a button next to the \"small stage\" and \"large stage\" buttons that hides the stage and the sprite pane, making the code area much larger.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Jelmez áthelyezése legfelülre vagy legalulra",
 		"description": "Hozzáad egy helyi menü elemet, amivel mozgathatsz egy jelmezt vagy hangot a lista tetejére vagy aljára. Korábban a fejlesztői eszközök része.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "One-click studio invites",
+		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1273,8 +1304,8 @@
 	},
 	{
 		"id": "sounds-duration",
-		"name": "Sound duration display",
-		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
+		"name": "Hang időtartamának mutatása",
+		"description": "Kiegészíti a hangszerkesztőt egy megjelenítővel, ami megmutatja az egész hang, vagy a kijelölés teljes hosszát és a már lejátszott időtartamot is benne.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{

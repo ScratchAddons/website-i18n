@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Atores não arrastáveis no editor",
-		"description": "Remove a habilidade de arrastar atores no palco no editor, a não ser aqueles cujo \"modo de arrasto\" é arrastável.",
+		"description": "Removes the ability to drag sprites around on the stage in the editor, except those explicitly set as draggable. Hold Shift while dragging a sprite to move it normally.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Botão de efeito de eco",
 		"description": "Trás de volta o botão de Eco no editor de som.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Reverter ordem dos botões de controle de projeto",
+		"description": "Moverá a bandeira verde e o botão de pare para direita e no modo tela cheia os moverá para a direita, como no Scratch 2.0.",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Ferramentas de desenvolvedor",
-		"description": "Adiciona uma caixa de busca e novas opções de menu ao editor: copiar/colar blocos, organização melhor, ir para a definição de um bloco customizado, e mais!",
+		"description": "Adiciona uma caixa de busca e novas opções de menu ao editor: copiar/colar blocos, organização melhorada, ir para a definição de um bloco customizado, e mais! Aperte Ctrl+F para focar na caixa de localizar, Ctrl+Espaço para abrir o pop-up de \"adicionar bloco por nome\",  Ctrl+Esquerda/Direita para navegar através do histórico de busca.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Pastas de atores",
-		"description": "Adiciona pastas à lista de atores, fantasias e sons. Para criar uma pasta, clique com o botão direito em qualquer ator e clique em \"criar pasta\". Clique em uma pasta para abrir e fechar. Clique com o botão direito em um ator para ver a quais pastas você pode movê-lo, ou arraste-o até uma pasta aberta.",
+		"description": "Adds folders to the sprite pane, as well as costume and sound lists. To create a folder, right click any sprite and click \"create folder\". Click a folder to open or close it. Right click a sprite to see what folders you can move it to, or alternatively drag and drop it into an open folder. This feature works by adding \"[folderName]//\" at the beginning of the names for your sprites.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Esconder painel do palco e sprite",
+		"description": "Adds a button next to the \"small stage\" and \"large stage\" buttons that hides the stage and the sprite pane, making the code area much larger.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Mover fantasia ao topo ou ao fundo da lista",
 		"description": "Adiciona uma opção no menu de botão direito de uma fantasia ou som para movê-lo para o topo ou fundo da lista. Antes parte das ferramentas de desenvolvedor.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "One-click studio invites",
+		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1273,7 +1304,7 @@
 	},
 	{
 		"id": "sounds-duration",
-		"name": "Sound duration display",
+		"name": "Display da duração de som",
 		"description": "Adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.",
 		"tags": ["editor", "featured"],
 		"credits": [

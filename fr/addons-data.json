@@ -452,7 +452,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Sprites non glissables dans l'éditeur",
-		"description": "Enlève la possibilité de déplacer les lutins dans la scène, sauf s'ils sont définis explicitement comme glissables.",
+		"description": "Supprime la possibilité de faire glisser des sprites sur la scène dans l'éditeur, à l'exception de ceux explicitement définis comme déplaçables. Maintenez la touche Maj enfoncée tout en faisant glisser un sprite pour le déplacer normalement.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -480,6 +480,12 @@
 		"name": "Bouton de l'effet écho",
 		"description": "Remet le bouton Echo dans l'éditeur de sons.",
 		"tags": ["editor"]
+	},
+	{
+		"id": "editor-buttons-reverse-order",
+		"name": "Inverser l'ordre des contrôles du projet",
+		"description": "Bouge le drapeau vert et le bouton stop sur la droite, et le bouton plein écran à la gauche, comme dans Scratch 2.0",
+		"tags": ["editor", "projectPlayer", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -536,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Outils pour développeurs",
-		"description": "Ajoute une une barre de recherche et de nouvelles options de menus à l'éditeur : copier/coller des blocs, un meilleur nettoyage, aller à la définition d'un bloc personnalisé, et plus !",
+		"description": "Ajoute une boîte de recherche et de nouvelles options de menu à l'éditeur : copier/coller des blocs, un meilleur nettoyage, accéder à la définition d'un bloc personnalisé, et plus encore ! Appuyez sur Ctrl+F pour sélectionner la zone de recherche, Ctrl+Espace pour afficher le pop-up \"ajouter un bloc par nom\", Ctrl+Gauche/Droite pour naviguer dans l'historique des recherches.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -681,7 +687,7 @@
 	{
 		"id": "folders",
 		"name": "Dossiers de sprites",
-		"description": "Ajoute des dossiers à la liste des sprites, ainsi qu'aux costumes et aux sons. Pour créer un dossier, faites un clic droit sur n'importe quel sprite et cliquez sur \"créer un dossier\". Cliquez sur un dossier pour l'ouvrir ou le fermer. Faites un clic droit sur un sprite pour voir dans quels dossiers vous pouvez le déplacer, ou alors glissez le dans un dossier ouvert.",
+		"description": "Ajoute des dossiers au volet sprite, ainsi que dans les listes de costumes et de sons. Pour créer un dossier, faites un clic droit sur n'importe quel sprite et cliquez sur \"créer un dossier\". Appuyez sur un dossier pour l'ouvrir ou le fermer. Faites un clic droit sur un sprite pour voir dans quels dossiers vous pouvez le déplacer, ou faites-le glisser et déposez-le dans un dossier ouvert. Cette fonctionnalité fonctionne en ajoutant \"[NomDuDossier]//\" au début des noms de vos sprites.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -803,6 +809,10 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
 	},
@@ -829,6 +839,18 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+		]
+	},
+	{
+		"id": "hide-stage",
+		"name": "Cacher la scène et la liste des sprites",
+		"description": "Ajoute un bouton à côté des boutons \"petite scène\" et \"grande scène\" qui cache la scène et la liste des sprites, rendant la zone de code plus grande.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		]
 	},
 	{
@@ -978,7 +1000,7 @@
 		"id": "move-to-top-bottom",
 		"name": "Déplacer le costume en haut ou en bas",
 		"description": "Ajoute un élément au menu contextuel du clics droit pour déplacé un costume ou un son en haut ou en bas de ça liste. Précédemment dans le Scratch Developer Tools.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
@@ -1037,6 +1059,15 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
+		]
+	},
+	{
+		"id": "one-click-studio-invites",
+		"name": "Invitations aux studios en un clic",
+		"description": "Acceptez les invitations de studio directement depuis la page des messages de Scratch. Un bouton d'acceptation apparaîtra sous les messages d'invitation de studio.",
+		"tags": ["community", "studios"],
+		"credits": [
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
