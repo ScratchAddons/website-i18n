@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Scratch Addons logó
   Install: Telepítés
+  InstallBrowser:
+    Firefox: Telepítés Firefoxra
+    Chrome: Telepítés Chrome-ra
+    Edge: Telepítés Edge-re
   ReadTime:
     one: "{{.Count}} perc"
     other: "{{.Count}} perc"
@@ -119,7 +123,7 @@ FeedbackPage:
   NoAddonsList: A listát nem lehet elküldeni. Kérlek nyisd meg ezt az oldalt a bővítményen keresztül.
   UsernameLabel: Scratch felhasználónév, vagy egyéb azonosító (opcionális)
   ContentLabel: Visszajelzés
-  ContentPlaceholder: Kérjük adjon meg minél annyi információt, amennyit csak tud.
+  ContentPlaceholder: Kérjük adjon meg annyi információt, amennyit csak tud.
   SendEnabled: Lista küldése a jelenlegi használatban lévő kiegészítőkről (javasolt)
   SubmitButton: Küldés
 SMTPage:
