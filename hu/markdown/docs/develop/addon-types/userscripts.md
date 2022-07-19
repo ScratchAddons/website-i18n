@@ -1,9 +1,9 @@
 ---
 title: Userszkriptek
-description: Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+description: A felhasználói szkriptek megengedik, hogy kódot futass le a Scratch lapokon - így adhatsz hozzá gombokat, fejlesztheted a Scratch szerkesztőjét, vagy tehetsz bármit, amit csak el tudsz képzelni.
 ---
-## What are they?
-Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+## Mik is ezek?
+A felhasználói szkriptek megengedik, hogy kódot futass le a Scratch lapokon - így adhatsz hozzá gombokat, fejlesztheted a Scratch szerkesztőjét, vagy tehetsz bármit, amit csak el tudsz képzelni.
 
 ## How do I add a userscript?
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
@@ -15,40 +15,40 @@ Each item of the array must have the following properties: `"url"` and `"matches
 Example manifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
-  "userscripts": [
-    {
-      "url": "userscript.js",
-      "matches": ["https://scratch.mit.edu/*"]
-    },
-    {
-      "url": "second_userscript.js",
-      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
-    }
-  ],
-  "tags": ["community"],
-  "enabled_by_default": false
+"name": "Scratch Messaging",
+"description": "Provides easy reading and replying to your Scratch messages.",
+"userscripts": [
+{
+"url": "userscript.js",
+"matches": ["https://scratch.mit.edu/*"]
+},
+{
+"url": "second_userscript.js",
+"matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+}
+],
+"tags": ["community"],
+"enabled_by_default": false
 }
 ```
 
-## How does the JavaScript file look like?
+## Hogy néz ki a JavaScript file?
 Userscripts JS files require a specific structure to work.  
 For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + addon.auth.username);
+console.log("Hello, " + addon.auth.username);
 }
 ```
 If you want to write your own functions to have cleaner code, you should include them inside the main function:  
 **This will work:**
 ```js
 export default async function ({ addon, global, console }) {
-  // This works!
-  sayHello();
-  function sayHello() {
-    console.log("Hello, " + addon.auth.username);
-  }
+// Ez működik!
+sayHello();
+function sayHello() {
+console.log("Hello, " + addon.auth.username);
+}
 }
 ```
 **This will NOT work:**
@@ -64,15 +64,15 @@ function sayHello() {
 ```
 
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
-You can access some `addon.*` APIs from userscripts. For more information, check the documentation.
+Hozzáférhetsz pár `addon.*` API-hez felhasználói szkriptekből. Több információért nézd meg a dokumentációt.
 
-## Technical aspects of userscripts
+## A felhasználói szkriptek technikai aspektusai
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
 Scratch Addons then calls that function modules exported, giving it access to the `addon.*` APIs, as well as special wrappers:  
-- `addon`: gives userscripts access to the [`addon.*` APIs](/docs/developing/addon-apis-reference).
-- `global`: this is a shared object between all userscripts of the same addon. **Example usage:**
+- `addon`: hozzáférést ad a felhasználói szkripteknek az [`addon.*` API-khez](/docs/developing/addon-apis-reference).
+- `global`: ez egy megosztott objektum minden felhasználói szkript között ugyanabban a bővítményben. **Példa a használatára:**
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
@@ -87,7 +87,7 @@ export default async function ({ addon, global, console }) {
 ```
 - `console`: this is a wrapper that allows you to see what addon triggered the log you're seeing easily.
 
-## Debugging userscripts
+## Felhasználói szkriptek debugolása
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 To debug userscripts, first of all make sure your addon is enabled.  
 Then, go to a URL where you specified your userscript should run.  
