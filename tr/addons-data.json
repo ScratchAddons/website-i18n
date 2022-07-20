@@ -12,10 +12,10 @@
 		"description": "60FPS'e geçmek için yeşil bayrağa alt tuşuna basılı iken tıklayın",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -74,11 +74,11 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -96,7 +96,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -109,7 +109,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -142,7 +142,7 @@
 			{ "name": "GarboMuffin" },
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -163,7 +163,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -224,7 +224,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -248,7 +248,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -277,7 +277,7 @@
 		"description": "Yorumu veya forum gönderisini Ctrl+Enter'da otomatik olarak gönderir.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -304,11 +304,11 @@
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{
 				"name": "GarboMuffin",
-				"link": "https://scratch.mit.edu/users/GarboMuffin"
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
 		]
 	},
@@ -349,15 +349,15 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "World_Languages",
-				"link": "https://scratch.mit.edu/users/World_Languages"
+				"link": "https://scratch.mit.edu/users/World_Languages/"
 			},
 			{
 				"name": "griffpatch",
-				"link": "https://scratch.mit.edu/users/griffpatch"
+				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
 		]
 	},
@@ -417,7 +417,7 @@
 		"description": "Varsayılan projeyi Scratch Kedisinden mevcut herhangi bir projeye çevirin.",
 		"tags": ["editor", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -428,7 +428,7 @@
 		"credits": [
 			{
 				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot"
+				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
 		]
 	},
@@ -457,7 +457,7 @@
 		"credits": [
 			{
 				"name": "Chrome_Cat",
-				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -485,7 +485,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Ters çevrilmiş proje kontrolleri",
 		"description": "Scratch 2.0'daki gibi yeşil bayrak ve durdurma düğmelerini sağa, tam ekran düğmesini ise sola götürür.",
-		"tags": ["editor", "projectPlayer", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -502,7 +502,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -601,7 +601,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -611,7 +611,7 @@
 		"description": "Proje başlık kutusunun yanındaki “Paylaşıldı\" düğmesini, projenin paylaşımını kaldırmak için bir düğmeyle değiştirir.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -629,7 +629,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
@@ -650,7 +650,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -764,7 +764,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
 		]
@@ -808,7 +808,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "Maximouse",
@@ -829,7 +829,7 @@
 		"description": "Ön sayfada ve proje sayfalarında beğeni, favori, katkı ve görüntüleme sayılarını gizlemenizi sağlar.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -838,7 +838,7 @@
 		"description": "Forum gönderilerindeki imzaları gizler ve bir “İmzayı göster\" düğmesi ekler.",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -887,7 +887,7 @@
 		"credits": [
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -911,9 +911,9 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1012,7 +1012,7 @@
 			{ "name": "William Horning", "link": "https://wgyt.tk/" },
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1024,7 +1024,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1106,7 +1106,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1118,7 +1118,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1128,7 +1128,7 @@
 		"description": "Mobil forumlara giden bir bağlantıya tıkladığınızda sizi standart (\"ana\") forumlara yönlendirir.",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1137,7 +1137,7 @@
 		"description": "Katkı Yap düğmesini kendi projelerinize de ekler.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1205,7 +1205,10 @@
 		"description": "Forumlarda scratchblocks’un yeni sürümünü etkinleştirir.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
@@ -1243,11 +1246,11 @@
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1310,7 +1313,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1320,7 +1323,10 @@
 		"description": "Yönettiğiniz stüdyolarda “idareciler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görüntülenen bir kullanıcıyı tek bir tıklama ile davet etmenizi sağlar.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "World_Languages" }
 		]
 	},
@@ -1333,7 +1339,7 @@
 			{ "name": "World_Languages" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1372,7 +1378,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},

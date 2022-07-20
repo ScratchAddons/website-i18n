@@ -12,10 +12,10 @@
 		"description": "緑の旗をAltキーを押しながらクリックして60FPSにする。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -74,11 +74,11 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -96,7 +96,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -109,7 +109,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -142,7 +142,7 @@
 			{ "name": "GarboMuffin" },
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -163,7 +163,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -224,7 +224,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -248,7 +248,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -277,7 +277,7 @@
 		"description": "Ctrl+Enterキーが押されたときに、コメントやフォーラムの投稿を送信する。",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -304,11 +304,11 @@
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{
 				"name": "GarboMuffin",
-				"link": "https://scratch.mit.edu/users/GarboMuffin"
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
 		]
 	},
@@ -349,15 +349,15 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "World_Languages",
-				"link": "https://scratch.mit.edu/users/World_Languages"
+				"link": "https://scratch.mit.edu/users/World_Languages/"
 			},
 			{
 				"name": "griffpatch",
-				"link": "https://scratch.mit.edu/users/griffpatch"
+				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
 		]
 	},
@@ -417,7 +417,7 @@
 		"description": "デフォルトのプロジェクトを変更する。",
 		"tags": ["editor", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -428,7 +428,7 @@
 		"credits": [
 			{
 				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot"
+				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
 		]
 	},
@@ -457,7 +457,7 @@
 		"credits": [
 			{
 				"name": "Chrome_Cat",
-				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -485,7 +485,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "プロジェクト操作ボタン反転",
 		"description": "Scratch 2.0のように、緑の旗と停止ボタンを右に、全画面表示ボタンを左に移動させる。",
-		"tags": ["editor", "projectPlayer", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -502,7 +502,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -601,7 +601,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -611,7 +611,7 @@
 		"description": "エディター内タイトル横の「共有されたもの」ボタンをプロジェクトを非共有にするボタンで置き換える。",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -629,7 +629,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
@@ -650,7 +650,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -764,7 +764,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
 		]
@@ -808,7 +808,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "Maximouse",
@@ -829,7 +829,7 @@
 		"description": "トップページやプロジェクトページの、プロジェクトの好き、お気に入り、リミックス、閲覧数を隠す。",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -838,7 +838,7 @@
 		"description": "フォーラム投稿の署名を隠し、「署名を表示する」ボタンを追加する。",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -887,7 +887,7 @@
 		"credits": [
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -911,9 +911,9 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1012,7 +1012,7 @@
 			{ "name": "William Horning", "link": "https://wgyt.tk/" },
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1024,7 +1024,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1106,7 +1106,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1118,7 +1118,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1128,7 +1128,7 @@
 		"description": "モバイル版のフォーラムにアクセスしたときに、標準版に自動でリダイレクトさせる。",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1137,7 +1137,7 @@
 		"description": "自分が所有するプロジェクトにリミックスボタンを追加する。",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1205,7 +1205,10 @@
 		"description": "新しいバージョンのscratchblocksを有効にする。",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
@@ -1243,11 +1246,11 @@
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1310,7 +1313,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1320,7 +1323,10 @@
 		"description": "スタジオのキュレータータブに、フォロワーやフォロー中のユーザーを個別に招待できるボタンを追加する。",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "World_Languages" }
 		]
 	},
@@ -1333,7 +1339,7 @@
 			{ "name": "World_Languages" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1372,7 +1378,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},

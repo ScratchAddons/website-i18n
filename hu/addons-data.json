@@ -12,10 +12,10 @@
 		"description": "Alt+Katt a zöld zászlóra a 60FPS mód ki/be kapcsolgatásához.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo" },
+			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -74,11 +74,11 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -96,7 +96,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -109,7 +109,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -142,7 +142,7 @@
 			{ "name": "GarboMuffin" },
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -163,7 +163,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -224,7 +224,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -248,7 +248,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -277,7 +277,7 @@
 		"description": "Automatikusan posztolja a kommented vagy fórum posztod Ctrl+Enter nyomásakor.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -304,11 +304,11 @@
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{
 				"name": "GarboMuffin",
-				"link": "https://scratch.mit.edu/users/GarboMuffin"
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
 		]
 	},
@@ -349,15 +349,15 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "World_Languages",
-				"link": "https://scratch.mit.edu/users/World_Languages"
+				"link": "https://scratch.mit.edu/users/World_Languages/"
 			},
 			{
 				"name": "griffpatch",
-				"link": "https://scratch.mit.edu/users/griffpatch"
+				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
 		]
 	},
@@ -391,7 +391,7 @@
 	{
 		"id": "debugger",
 		"name": "Hibakereső",
-		"description": "Hozzáad egy új \"Hibakereső\" ablakot a szerkesztőhöz. Elérhetővé teszi, hogy a \"Napló\" laphoz értékeket naplózzunk a \"naplózd\", \"figyelmeztess\" és \"hiba\" blokkok segítségével. A \"töréspont\" blokk megfogja állítani a projektet lefutásánál. Minden éppen futó szálat meg lehet figyelni a \"Szálak\" nevű fülecskéjénél a hibakeresőnek, és amikor a projekt meg van állítva, akkor a \"Továbblépés\" gomb segítségével lehet a következő blokkot lefuttatni. A képkocka-gyorsaság (fps) és a klónok mennyiségéről készült grafikonok szintén megtekinthetőek a \"Teljesítmény\" fül alatt.",
+		"description": "Hozzáad egy új \"Hibakereső\" ablakot a szerkesztőhöz. Elérhetővé teszi, hogy a \"Napló\" laphoz értékeket naplózzunk a \"naplózd\", \"figyelmeztess\" és \"hiba\" blokkok segítségével. A \"töréspont\" blokk megfogja állítani a projektet lefutásánál. Minden éppen futó szálat meg lehet figyelni a \"Szálak\" nevű fülecskéjénél a hibakeresőnek, és amikor a projekt meg van állítva, akkor a \"Továbblépés\" gomb segítségével lehet a következő blokkot lefuttatni. A képkocka-gyorsaság (FPS) és a klónok mennyiségéről készült grafikonok szintén megtekinthetőek a \"Teljesítmény\" fül alatt.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -417,7 +417,7 @@
 		"description": "Megváltoztatja az alap projektet a Scratch Cicáról bármely létező projektre.",
 		"tags": ["editor", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -428,7 +428,7 @@
 		"credits": [
 			{
 				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot"
+				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
 		]
 	},
@@ -457,7 +457,7 @@
 		"credits": [
 			{
 				"name": "Chrome_Cat",
-				"link": "https://scratch.mit.edu/users/Chrome_Cat"
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -485,7 +485,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Projektirányító gombok fordított sorrendben",
 		"description": "Áthelyezi a zöld zászlót és a megállító gombot a jobboldalra, valamint a teljes képernyő gombot pedig baloldalra, ahogy a Scratch 2.0-ban volt.",
-		"tags": ["editor", "projectPlayer", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
@@ -502,7 +502,7 @@
 		"credits": [
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
 		]
@@ -542,7 +542,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Fejlesztői eszközök",
-		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more! Press Ctrl+F to focus the find box, Ctrl+Space to bring up the \"add block by name\" popup, Ctrl+Left/Right to navigate find history.",
+		"description": "Hozzáad egy keresőmezőt és új menü opciókat a szerkesztőhöz: másolj/illessz be blokkokat, jobb rendrakás, ugorj saját blokk definíciójához, és még sok más! Nyomj Ctrl+F-t, hogy elkezdhess gépelni a keresőmezőbe, Ctrl+Szóközt, hogy felhozd az \"illessz be blokkot névalapján\" felugró menüt, Ctrl+Bal/Jobb Nyíl, hogy a keresési előzményekben kalandozz.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -601,7 +601,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -611,7 +611,7 @@
 		"description": "Lecseréli a \"Megosztva\" gombot a projekt címe mellett egy gombbal, amivel visszavonható a megosztás.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -629,7 +629,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
@@ -650,7 +650,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -764,7 +764,7 @@
 			{ "name": "NitroCipher/ZenithRogue" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
 		]
@@ -808,7 +808,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "Maximouse",
@@ -829,7 +829,7 @@
 		"description": "Megengedi a szívezések, kedvencnek jelölések, remixelések és megtekintések számának elrejtését a projekt oldalakról.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -838,13 +838,13 @@
 		"description": "Elrejti az aláírásokat a fórum posztokban és hozzáad egy \"Aláírás megjelenítése\" gombot.",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
 		"id": "hide-stage",
 		"name": "A Színpad és a Szereplőmező elrejtése",
-		"description": "Adds a button next to the \"small stage\" and \"large stage\" buttons that hides the stage and the sprite pane, making the code area much larger.",
+		"description": "Egy gombot ad hozzá a \"kicsi színpad\" és \"nagy színpad\" gombok mellé, ami a színpad és a szereplőmező elrejtésével jelentős mértékben megnöveli a kódterületet.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -887,7 +887,7 @@
 		"credits": [
 			{
 				"name": "pufferfish101007",
-				"link": "https://scratch.mit.edu/users/pufferfish101007"
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
 		]
 	},
@@ -911,9 +911,9 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1012,7 +1012,7 @@
 			{ "name": "William Horning", "link": "https://wgyt.tk/" },
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1024,7 +1024,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1063,8 +1063,8 @@
 	},
 	{
 		"id": "one-click-studio-invites",
-		"name": "One-click studio invites",
-		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"name": "Egy-katt a műhelybe híváshoz",
+		"description": "Fogadj el műhelymeghívásokat közvetlenül a Scratch üzenetek oldaláról. Meg fog jelenni egy elfogadás gomb a meghívásos üzenet alatt.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1106,7 +1106,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1118,7 +1118,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1128,7 +1128,7 @@
 		"description": "Átirányít a standard (\"fő\") fórumokra, amikor egy linkre rákattintasz a telefonos fórumokon.",
 		"tags": ["community", "forums"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1137,7 +1137,7 @@
 		"description": "Hozzáadja a remix gombot a saját projektjeidhez.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" }
+			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		]
 	},
 	{
@@ -1205,7 +1205,10 @@
 		"description": "Engedélyezi az új verziójú Scratch blokkokat a fórumokon.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion/" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
 		]
@@ -1243,11 +1246,11 @@
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{
 				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang"
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		]
 	},
@@ -1310,7 +1313,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1320,7 +1323,10 @@
 		"description": "Hozzáad egy gombot az általad vezetett stúdiókban a \"kurátorok\" lap tetejéhez, ami felsorolja az összes követőt és követett felhasználót, valamint lehetővé teszi, hogy csak egy gombbal meg tudj hívni egy ott látszó felhasználót.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
-			{ "name": "Verixion", "link": "https://scratch.mit.edu/users/Verixion" },
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
 			{ "name": "World_Languages" }
 		]
 	},
@@ -1333,7 +1339,7 @@
 			{ "name": "World_Languages" },
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
@@ -1372,7 +1378,7 @@
 		"credits": [
 			{
 				"name": "TheColaber",
-				"link": "https://scratch.mit.edu/users/TheColaber"
+				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		]
 	},
