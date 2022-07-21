@@ -16,7 +16,7 @@ Exemple de manifest:
 ```json
 {
   "name": "Scratch Messaging",
-  "description": "Proporciona una lectura fàcil i resposta als vostres missatges de Scratch.",
+  "description": "Provides easy reading and replying to your Scratch messages.",
   "userscripts": [
     {
       "url": "userscript.js",
@@ -28,7 +28,7 @@ Exemple de manifest:
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Els fitxers Userscripts JS requereixen una estructura específica per funcionar.
 Per als scripts d'usuari, **has** d'embolicar tot el teu codi dins d'una funció semblant a aquesta:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + addon.auth.username);
+  console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 Si vols escriure les vostres pròpies funcions per tenir un codi més net, hauríes d'incloure-les dins de la funció principal:
 **Això funcionarà:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Això funciona!
+  // This works!
   sayHello();
   function sayHello() {
-    console.log("Hello, " + addon.auth.username);
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Això NO funcionarà:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Això NO funcionarà!
+  // This WON'T work!
   sayHello();
 }
 function sayHello() {
-  console.log("Hello, " + addon.auth.username);
-  // Error: el addon no està definit!
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
@@ -76,7 +76,7 @@ A continuació, Scratch Addons crida als mòduls de funció exportats, donant-li
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.username);
+  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

@@ -15,20 +15,20 @@ A `"matches"` egy URL array, ami azt tartalmazza hova akarod a userstyle-t alkal
 Példa manifest:
 ```json
 {
-"name": "Scratch Üzenőfal",
-"description": "Könnyen elérhető Scratch üzenetek.",
-"userstyles": [
-{
-"url": "userstyle.css",
-"matches": ["https://scratch.mit.edu/*"]
-},
-{
-"url": "second_userstyles.css",
-"matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
-}
-],
-"tags": ["community"],
-"enabled_by_default": false
+  "name": "Scratch Messaging",
+  "description": "Provides easy reading and replying to your Scratch messages.",
+  "userstyles": [
+    {
+      "url": "userstyle.css",
+      "matches": ["https://scratch.mit.edu/*"]
+    },
+    {
+      "url": "second_userstyle.css",
+      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+    }
+  ],
+  "tags": ["community"],
+  "enabledByDefault": false
 }
 ```
 
