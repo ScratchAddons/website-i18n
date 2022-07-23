@@ -2,4 +2,4 @@
 title: Començant
 ---
 
-Comença amb l'Scratch Addons amb aquestes pàgines.
+Get started with Scratch Addons with these pages.
