@@ -2,4 +2,4 @@
 title: Elkezdés
 ---
 
-Kezdje el használni a Scratch Addons-t ezekkel az oldalakkal.
+Get started with Scratch Addons with these pages.

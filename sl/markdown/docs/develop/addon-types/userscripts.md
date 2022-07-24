@@ -28,7 +28,7 @@ Primer datoteke addon.json:
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Datoteke JS uporabniških skript delujejo le, če so sestavljene na določen na�
 V uporabniških skriptah **mora** biti vsa koda v funkciji, ki izgleda nekako tako:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + addon.auth.username);
+  console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 Če bi radi za lažje berljivo kodo napisali več funkcij, to naredite znotraj glavne funkcije.  
 **To deluje:**
 ```js
 export default async function ({ addon, global, console }) {
-  // To deluje!
+  // This works!
   sayHello();
   function sayHello() {
-    console.log("Hello, " + addon.auth.username);
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **To NE bo delovalo:**
 ```js
 export default async function ({ addon, global, console }) {
-  // To NE deluje!
+  // This WON'T work!
   sayHello();
 }
 function sayHello() {
-  console.log("Hello, " + addon.auth.username);
-  // Napaka: addon ni definiran!
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
@@ -76,7 +76,7 @@ Scratch Addons pokliče funkcijo, ki jo je modul izvozil, ter ji da dostop do vm
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.username);
+  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

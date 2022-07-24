@@ -2,4 +2,4 @@
 title: Primeiros Passos
 ---
 
-Aprenda a usar o Scratch Addons com essas páginas.
+Get started with Scratch Addons with these pages.

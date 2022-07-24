@@ -13,22 +13,22 @@ Cette propriété doit être un tableau.  Chaque élément du tableau doit avoir
 `''matches''` doit être un tableau d’URL dans lequel vous souhaitez que le style utilisateur soit injecté. Vous pouvez utiliser des astérisques. Exemple de manifeste :
 ```json
 {
-"name": "Messages Scratch",
-"description": "Facilite à lire et à répondre aux messages Scratch.",
-"userstyles": [
-{
-"url": "userstyle.css",
-"matches": ["https://scratch.mit.edu/*"]
-},
-{
-"url": "second_userstyles.css",
-"matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+  "name": "Scratch Messaging",
+  "description": "Provides easy reading and replying to your Scratch messages.",
+  "userstyles": [
+    {
+      "url": "userstyle.css",
+      "matches": ["https://scratch.mit.edu/*"]
+    },
+    {
+      "url": "second_userstyle.css",
+      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+    }
+  ],
+  "tags": ["community"],
+  "enabledByDefault": false
 }
-],
-"tags": ["community"],
-"enabled_by_default": false
-}
-```Messagerie Scratch
+```
 
 ## Débuguer des styles utilisateur
 **Assurez-vous d'actualiser Scratch Addons à partir de `chrome://extensions` après avoir apporté des modifications à votre addon.** 

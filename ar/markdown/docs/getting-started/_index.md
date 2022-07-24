@@ -2,4 +2,4 @@
 title: ابدء
 ---
 
-بدء مع سكراتش اضافه سكراتش اضافه مع هذه الصفحات
+Get started with Scratch Addons with these pages.

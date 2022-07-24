@@ -2,4 +2,4 @@
 title: Başlarken
 ---
 
-Bu sayfalarla Scratch Eklentilerini kullanmaya başlayın.
+Bu sayfalarla Scratch Eklentileri'ni kullanmaya başlayın.

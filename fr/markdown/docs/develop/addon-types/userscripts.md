@@ -13,22 +13,22 @@ Chaque élément du tableau doit avoir les propriétés suivantes : `"url"` et 
 `"url"` doit être une URL relative vers un fichier JavaScript.
 `"matches"` doit être un tableau d'URL sur lesquelles vous souhaitez exécuter le script utilisateur. Vous pouvez utiliser des astérisques.
 Exemple de manifeste :
-  ```json
+```json
 {
-"name": "Messages Scratch",
-"description": "Facilite la possibilité de lire et répondre aux messages Scratch",
-"userscripts": [
-{
-"url": "userscript.js",
-"matches": ["https://scratch.mit.edu/*"]
-},
-{
-"url": "second_userscript.js",
-"matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
-}
-],
-"tags": ["community"],
-"enabled_by_default": false
+  "name": "Scratch Messaging",
+  "description": "Provides easy reading and replying to your Scratch messages.",
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["https://scratch.mit.edu/*"]
+    },
+    {
+      "url": "second_userscript.js",
+      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+    }
+  ],
+  "tags": ["community"],
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Les scripts utilisateur ont besoin d'une structure spéciale pour fonctionner.
 Vous **devez absolument** implanter votre code dans une fonction comme ceci :
 ```js
 export default async function ({ addon, global, console }) {
-console.log("Hello, " + addon.auth.username);
+  console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 Si souhaitez écrire vos propres fonction pour avoir un code plus aéré, vous devez les inclure dans la fonction principale:
 **Comme ceci:**
 ```js
 export default async function ({ addon, global, console }) {
-// Ça marche!
-sayHello();
-function sayHello() {
-console.log("Hello, " + addon.auth.username);
-}
+  // This works!
+  sayHello();
+  function sayHello() {
+    console.log("Hello, " + await addon.auth.fetchUsername());
+  }
 }
 ```
 **Ça Ne marchera PAS:**
 ```js
 export default async function ({ addon, global, console }) {
-// This WON'T work!
-sayHello();
+  // This WON'T work!
+  sayHello();
 }
 function sayHello() {
-console.log("Hello, " + addon.auth.username);
-// Error: addon is not defined!
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
@@ -76,7 +76,7 @@ Scratch Addons then calls that function modules exported, giving it access to th
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.username);
+  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

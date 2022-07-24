@@ -2,4 +2,4 @@
 title: Rozpoczęcie
 ---
 
-Zacznij korzystać z Scratch Addons dzięki tej stronie.
+Get started with Scratch Addons with these pages.

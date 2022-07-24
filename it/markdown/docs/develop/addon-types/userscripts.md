@@ -28,7 +28,7 @@ Esempio di manifest:
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Gli userscript JS per poter funzionare devono avere una precisa struttura.
 Per gli userscript **devi** inserire tutto il tuo codice all'interno di una funzione come questa:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + addon.auth.username);
+  console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 Se vuoi scrivere le tue funzioni in modo che il codice sia più pulito, devi inserirle dentro la funzione principale:  
 **Questo funziona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Questo funziona!
+  // This works!
   sayHello();
   function sayHello() {
-    console.log("Hello, " + addon.auth.username);
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Questo NON funziona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Questo NON funziona!
+  // This WON'T work!
   sayHello();
 }
 function sayHello() {
-  console.log("Hello, " + addon.auth.username);
-  // Errore: addon non è definito!
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
@@ -76,7 +76,7 @@ Scratch Addon chiama poi questi moduli funzione esportati, dando loro accesso al
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.username);
+  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

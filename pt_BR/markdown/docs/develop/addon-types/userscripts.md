@@ -15,20 +15,20 @@ Cada item da array deve ter as seguintes propriedades: `"url"` e `"matches"`.
 Exemplo de manifest:
 ```json
 {
-  "name": "Mensagens do Scratch",
-  "description": "Te deixa facilmente ler e responder suas mensagens do Scratch.",
+  "name": "Scratch Messaging",
+  "description": "Provides easy reading and replying to your Scratch messages.",
   "userscripts": [
     {
       "url": "userscript.js",
       "matches": ["https://scratch.mit.edu/*"]
     },
     {
-      "url": "outro_userscript.js",
+      "url": "second_userscript.js",
       "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Userscripts precisam de uma estrutura específica para funcionar.
 Em userscripts, você **deve** colocar todo o seu código em uma função assim:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Olá, " + addon.auth.username);
+  console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 Se você quer escrever suas próprias funções para organizar o código, inclua todas dentro da função principal:
 **Isso funciona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Isso funcionará!
-  digaOla();
-  function digaOla() {
-    console.log("Olá, " + addon.auth.username);
+  // This works!
+  sayHello();
+  function sayHello() {
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Isso NÃO funciona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Isso NÃO funcionará!
-  digaOla();
+  // This WON'T work!
+  sayHello();
 }
-function digaOla() {
-  console.log("Olá, " + addon.auth.username);
-  // Erro: addon não foi definido!
+function sayHello() {
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
@@ -76,7 +76,7 @@ O Scratch Addons, então, executa a função exportada pelos módulos, o que dá
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.digaOla = () => console.log("Olá, " + addon.auth.username);
+  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

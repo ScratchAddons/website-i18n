@@ -17,18 +17,18 @@ Voorbeeldmanifest:
 {
   "name": "Scratch Berichtgeving",
   "description": "Laat je makkelijker je Scratchberichten lezen en erop antwoorden.",
-  "userscripts": [
+  "userstyles": [
     {
-      "url": "userstyle.js",
+      "url": "userstyle.css",
       "matches": ["https://scratch.mit.edu/*"]
     },
     {
-      "url": "second_userstyles.js",
+      "url": "second_userstyle.css",
       "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 

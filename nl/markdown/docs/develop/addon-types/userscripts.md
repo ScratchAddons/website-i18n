@@ -28,7 +28,7 @@ Voorbeeldmanifest:
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,7 +37,7 @@ Userscripts JS-bestanden hebben een specifieke structuur nodig om te werken.
 Voor userscripts **moet** je alle code in een functie zetten die er zo uitziet:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + addon.auth.username);
+  console.log("Hallo, " + await addon.auth.fetchUsername());
 }
 ```
 Als je je eigen functies wilt schrijven voor overzichtelijkere code, moet je ze in de hoofdfunctie doen: 
@@ -45,9 +45,9 @@ Als je je eigen functies wilt schrijven voor overzichtelijkere code, moet je ze 
 ```js
 export default async function ({ addon, global, console }) {
   // Dit werkt!
-  sayHello();
-  function sayHello() {
-    console.log("Hallo, " + addon.auth.username);
+  zegHallo();
+  function zegHallo() {
+    console.log("Hallo, " + await addon.auth.fetchUsername());
   }
 }
 ```
@@ -55,10 +55,10 @@ export default async function ({ addon, global, console }) {
 ```js
 export default async function ({ addon, global, console }) {
   // Dit werkt NIET!
-  sayHello();
+  zegHallo();
 }
-function sayHello() {
-  console.log("Hallo, " + addon.auth.username);
+function zegHallo() {
+  console.log("Hallo, " + await addon.auth.fetchUsername());
   // Error: addon is niet gedefinieerd!
 }
 ```
@@ -76,7 +76,7 @@ Scratch Addons noemt dan die functiemodules geëxporteerd, waardoor het toegang 
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.zegHallo = () => console.log("Hallo, " + addon.auth.username);
+  global.zegHallo = () => console.log("Hallo, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

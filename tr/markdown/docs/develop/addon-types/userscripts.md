@@ -28,7 +28,7 @@ Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleş
     }
   ],
   "tags": ["community"],
-  "enabled_by_default": false
+  "enabledByDefault": false
 }
 ```
 
@@ -37,29 +37,29 @@ Kullanıcı komut dosyaları, JS dosyalarının çalışması için belirli bir 
 Kullanıcı komut dosyaları için, tüm kodunuzu şuna benzeyen bir işlevin içine sarmanız **zorunludur**:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Merhaba, " + addon.auth.username);
+  console.log("Merhaba, " + await addon.auth.fetchUsername());
 }
 ```
 Daha temiz bir koda sahip olmak için kendi fonksiyonlarınızı yazmak istiyorsanız, bunları ana fonksiyonların içine dahil etmelisiniz:
 **Bu çalışacak:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Bu çalışıyor!
-  sayMerhaba();
-  function sayMerhaba() {
-    console.log("Merhaba, " + addon.auth.username);
+  // Bu çalışır!
+  merhabaDe();
+  function merhabaDe() {
+    console.log("Merhaba, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Bu işe YARAMAZ:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Bu işe yaramaz!
-  sayMerhaba();
+  // Bu ÇALIŞMAZ!
+  merhabaDe();
 }
-function sayMerhaba() {
-  console.log("Merhaba, " + addon.auth.username);
-  // Hata: eklenti tanımlı değil!
+function merhabaDe() {
+  console.log("Merhaba, " + await addon.auth.fetchUsername());
+  // Hata: eklenti tanımlanmadı!
 }
 ```
 
@@ -76,7 +76,7 @@ Scratch Eklentileri daha sonra dışa aktarılan bu işlev modüllerini çağır
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayMerhaba = () => console.log("Merhaba, " + addon.auth.username);
+  global.merhabaDe = () => console.log("Merhaba, " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js
