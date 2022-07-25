@@ -2,4 +2,4 @@
 title: Aan de slag
 ---
 
-Get started with Scratch Addons with these pages.
+Ga aan de slag met Scratch Addons met deze pagina's.
