@@ -1,18 +1,18 @@
 ---
-title: Installation
+title: Installing
 ---
 
-## Depuis le magasin d'extension
+## From extension stores
 
 Scratch Addons is available in these stores.
 
-| Store | Installer | Supported browsers | System requirements |
+| Store | 下载 | Supported browsers | System requirements |
 | - | - | - | - |
 | Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks less than ~6 years old
 | Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
 | Microsoft Edge Addons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
-## Depuis la source
+## From source
 
 ### About GitHub releases
 
@@ -20,7 +20,7 @@ Scratch Addons is available in these stores.
 
 ### Cloning the repository
 
-Ceci est la manière recommandée d'installer Scratch Addons pour des fins de développement. Ceci est basé sur le fait que vous avez installez Git.
+This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
 
 To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
 
@@ -64,7 +64,7 @@ If you don't have Git installed, you can try this method instead. Note that you 
    ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
 
 4. Select the extracted folder.
-5. L'extension devrait maintenant être chargée.
+5. The extension should now be loaded.
 
 To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
 
@@ -84,7 +84,7 @@ To finish updating (assuming you followed the updating steps [here](#cloning-the
    ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
 
 6. Select the manifest.json file inside the extracted folder.
-7. L'extension devrait maintenant être chargée.
+7. The extension should now be loaded.
 
 Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
 

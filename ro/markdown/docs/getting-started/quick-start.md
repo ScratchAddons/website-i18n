@@ -1,12 +1,12 @@
 ---
-title: Commencement Rapide
+title: Quick Start
 ---
 
-## Installation
+## Installing
 
 Let's get started by installing Scratch Addons.
 
-| Store | Installer | Supported browsers |
+| Store | Instalează | Supported browsers |
 | - | - | - |
 | Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome and other Chromium-based browsers
 | Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox
@@ -15,9 +15,9 @@ Let's get started by installing Scratch Addons.
 More information can be read on [Installing](../installing).
 
 
-## Commencement
+## Getting started
 
-Pour commencer, vous avez besoin d'accéder aux paramètres de vos extensions pour voir ses fonctions.
+To get started, you need to access the settings page of the addon to see the functions of it.
 
 1. Locate Scratch Addons on the toolbar and click it.
 
@@ -25,7 +25,7 @@ Pour commencer, vous avez besoin d'accéder aux paramètres de vos extensions po
 
    ![](/assets/img/getting-started/step-1.png)
 
-2. Appuyez sur l'engrenage pour vous aller dans la page des paramètres.
+2. Press the gear icon to go to the Settings page.
 
    ![](/assets/img/getting-started/step-2.png)
 

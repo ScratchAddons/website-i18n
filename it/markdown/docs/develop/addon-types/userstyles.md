@@ -16,14 +16,14 @@ Esempio di manifest:
 ```json
 {
   "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "description": "Ti permette di leggere e replicare facilmente ai tuoi messaggi Scratch.",
   "userstyles": [
     {
       "url": "userstyle.css",
       "matches": ["https://scratch.mit.edu/*"]
     },
     {
-      "url": "second_userstyle.css",
+      "url": "second_userstyles.css",
       "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
     }
   ],

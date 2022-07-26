@@ -2,4 +2,4 @@
 title: 始め方
 ---
 
-Get started with Scratch Addons with these pages.
+これらのページで、Scratch Addonsの開発の基礎を学びましょう。
