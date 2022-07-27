@@ -17,8 +17,11 @@ Global:
     Last: Anar al darrer
     SlideX: Anar al item {{ .Count }}
 Links:
+  Addons: ºAddons
   Credits: Crèdits
   PrivacyPolicy: Política de privacitat
+  DiscordCom: Discord de la comunitat
+  Discussion: Fòrum de discussió
 Nav:
   Feedback: Enviar comentaris
   Repository: Repositori
@@ -32,18 +35,13 @@ Footer:
     Changelog: Historial de canvis
   Discuss:
     Header: Discutiu
-    Discussion: Fòrum de discussió
     Issues: Problemes
-    DiscordCom: Discord de la comunitat
     DiscordDev: Discord de desenvolupament
   Resources:
     Header: Recursos
-    Organization: Organització
     Repository: Repositori
     Documentation: Documentació
   Legal:
-    Copyright: © {{.Count}} Col·laboradors de Scratch Addons
-    NoAffiliation: Scratch Addons no està afiliat, associat o connectat de cap manera oficial amb Scratch, el Scratch Team, la Scratch Foundation o cap de les seves filials o afiliats.
     License: Scratch Addons té llicència sota els termes de la GNU General Public License v3.0.
   Intro: Actualment {{ .Version }} amb {{ .AddonCount }} addons.
 DarkTheme:

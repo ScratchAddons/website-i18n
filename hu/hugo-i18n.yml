@@ -18,8 +18,11 @@ Global:
     Last: Ugrás az utolsóhoz
     SlideX: Ugrás {{ .Count }} elemhez
 Links:
+  Addons: Kiegészítők
   Credits: Készítők
   PrivacyPolicy: Adatvédelmi irányelvek
+  DiscordCom: Közösségi Discord
+  Discussion: Vitafórum
 Nav:
   Feedback: Visszajelzés küldése
   Repository: Adattár
@@ -32,20 +35,14 @@ Footer:
     FAQ: GYIK
     Feedback: Visszajelzés küldése
     Changelog: Változtatásnapló
-    Addons: Kiegészítők
   Discuss:
     Header: Megbeszélés
-    Discussion: Vitafórum
     Issues: Problémák
-    DiscordCom: Közösségi Discord
     DiscordDev: Fejlesztői Discord
   Resources:
     Header: Erőforrások
-    Organization: Szervezet
     Documentation: Dokumentáció
   Legal:
-    Copyright: © {{.Count}} Scratch Addons közreműködői
-    NoAffiliation: A Scratch Addons nem kapcsolt össze üzletileg, nem is társult, vagy bármilyen más módon sem áll kapcsolatban hivatalosan a Scratch-el, a Scratch Team-el, a Scratch Alapítvánnyal, vagy bármilyen leány-, és társvállalatával.
     License: A Scratch Addons a GNU General Public License 3.0 feltételei alatt van licencelve.
   Intro: "Jelenlegi verzió: {{ .Version }},  {{ .AddonCount }} kiegészítővel"
 DarkTheme:
