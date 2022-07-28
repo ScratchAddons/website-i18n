@@ -6,49 +6,49 @@ description: ユーザースクリプトを使うと、Scratchページでコー
 ユーザースクリプトを使うと、Scratchページでコードを実行できます。ボタンを追加したり、Scratchエディターを強化したり、その他なんでもできます。
 
 ## How do I add a userscript?
-**Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
-Go to the manifest of your addon (addon.json) and add a property called `userscripts"`.  
-This property must be an array.  
-Each item of the array must have the following properties: `"url"` and `"matches"`.  
-`"url"` must be a relative URL to a JavaScript file.  
-`"matches"` must be an array of URLs where you want to run the userscript on. You can use asterisks.
-Example manifest:
+**アドオンへの変更後はScratch Addonsを `chrome://extensions` から再読み込みしてください。**
+アドオン・マニフェスト(addon.json)にて `userscripts` プロパティを追加してください。
+これは配列でないといけません。
+各項目には `url` と `matches` プロパティが必要です。
+`url` はJavaScriptファイルへの相対URLです。
+`matches` はユーザースクリプトを実行するURLの配列です。アスタリスクが使用できます。
+例:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
-  "userscripts": [
-    {
-      "url": "userscript.js",
-      "matches": ["https://scratch.mit.edu/*"]
-    },
-    {
-      "url": "second_userscript.js",
-      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
-    }
-  ],
-  "tags": ["community"],
-  "enabledByDefault": false
+"name": "Scratch Messaging",
+"description": "Provides easy reading and replying to your Scratch messages.",
+"userscripts": [
+{
+"url": "userscript.js",
+"matches": ["https://scratch.mit.edu/*"]
+},
+{
+"url": "second_userscript.js",
+"matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/users/*"]
+}
+],
+"tags": ["community"],
+"enabledByDefault": false
 }
 ```
 
-## How does the JavaScript file look like?
+## JavaScriptファイルはどのようになりますか?
 Userscripts JS files require a specific structure to work.  
 For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
 export default async function ({ addon, global, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
+console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
 If you want to write your own functions to have cleaner code, you should include them inside the main function:  
 **This will work:**
 ```js
 export default async function ({ addon, global, console }) {
-  // This works!
-  sayHello();
-  function sayHello() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
-  }
+// This works!
+sayHello();
+function sayHello() {
+console.log("Hello, " + await addon.auth.fetchUsername());
+}
 }
 ```
 **This will NOT work:**
@@ -66,7 +66,7 @@ function sayHello() {
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
 ユーザースクリプトからは `addon.*` APIが使用できます。詳しくは、ドキュメントを確認してください。
 
-## Technical aspects of userscripts
+## ユーザースクリプトの技術的側面
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
@@ -87,10 +87,10 @@ export default async function ({ addon, global, console }) {
 ```
 - `console`: this is a wrapper that allows you to see what addon triggered the log you're seeing easily.
 
-## Debugging userscripts
-**Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
-To debug userscripts, first of all make sure your addon is enabled.  
-Then, go to a URL where you specified your userscript should run.  
-Open the console by pressing Ctrl+Shift+J.  
-You should see console logs by addons, including yours. If you're a devtools pro, you won't have any trouble setting breakpoints in your code.  
-Protip: if you want to test the `addon.*` API without changing your file every time, make your addon `window.addon = addon;` (inside the main function), and you'll be able to access your addon's `addon` object from the console. Make sure to remove that line before contributing to this repo! Userscripts must not pollute the global object.
+## ユーザースクリプトのデバッグ
+**アドオンへの変更後はScratch Addonsを `chrome://extensions` から再読み込みしてください。**
+ユーザースクリプトをデバッグするには、まずアドオンを有効化してください。
+そして、ユーザースクリプトが実行するURLに移動してください。
+Ctrl+Shift+Jを押してコンソールを開いてください。
+アドオンによるコンソールログが表示されるはずです。開発者ツールのプロならブレークポイントを設定するのもよいでしょう。
+`addon.*` APIをファイルを変更せずにテストするには、メイン関数内で `window.addon = addon;` と書いてみてください。 `addon` オブジェクトにコンソールからアクセスできます。ただし、テスト後は除去してください。

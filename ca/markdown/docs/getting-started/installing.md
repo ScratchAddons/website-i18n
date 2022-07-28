@@ -51,7 +51,7 @@ Si no tens el Git instal·lat, pots provar aquest altre mètode. Tingues en comp
 
 3. Extreu l'arxiu a una carpeta.
 
-### Instal·lació a Google Chrome
+### Installing on Google Chrome or Microsoft Edge
 
 1. Escriu `chrome://extensions` a la barra d'adreces per obrir la pàgina de gestió d'extensions.
 
