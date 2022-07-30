@@ -44,9 +44,9 @@ Se vuoi scrivere le tue funzioni in modo che il codice sia più pulito, devi ins
 **Questo funziona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Questo funziona!
+  // This works!
   sayHello();
-  function sayHello() {
+  async function sayHello() {
     console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
@@ -54,12 +54,12 @@ export default async function ({ addon, global, console }) {
 **Questo NON funziona:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Questo NON funziona!
+  // This WON'T work!
   sayHello();
 }
-function sayHello() {
+async function sayHello() {
   console.log("Hello, " + await addon.auth.fetchUsername());
-  // Errore: addon non è definito!
+  // Error: addon is not defined!
 }
 ```
 

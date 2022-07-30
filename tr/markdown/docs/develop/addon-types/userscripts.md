@@ -44,22 +44,22 @@ Daha temiz bir koda sahip olmak için kendi fonksiyonlarınızı yazmak istiyors
 **Bu çalışacak:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Bu çalışır!
-  merhabaDe();
-  function merhabaDe() {
-    console.log("Merhaba, " + await addon.auth.fetchUsername());
+  // This works!
+  sayHello();
+  async function sayHello() {
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Bu işe YARAMAZ:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Bu ÇALIŞMAZ!
-  merhabaDe();
+  // This WON'T work!
+  sayHello();
 }
-function merhabaDe() {
-  console.log("Merhaba, " + await addon.auth.fetchUsername());
-  // Hata: eklenti tanımlanmadı!
+async function sayHello() {
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 

@@ -44,11 +44,11 @@ If you want to write your own functions to have cleaner code, you should include
 **This will work:**
 ```js
 export default async function ({ addon, global, console }) {
-// This works!
-sayHello();
-function sayHello() {
-console.log("Hello, " + await addon.auth.fetchUsername());
-}
+  // This works!
+  sayHello();
+  async function sayHello() {
+    console.log("Hello, " + await addon.auth.fetchUsername());
+  }
 }
 ```
 **This will NOT work:**
@@ -57,7 +57,7 @@ export default async function ({ addon, global, console }) {
   // This WON'T work!
   sayHello();
 }
-function sayHello() {
+async function sayHello() {
   console.log("Hello, " + await addon.auth.fetchUsername());
   // Error: addon is not defined!
 }

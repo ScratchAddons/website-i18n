@@ -44,22 +44,22 @@ Als je je eigen functies wilt schrijven voor overzichtelijkere code, moet je ze 
 **Dit zal werken:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Dit werkt!
-  zegHallo();
-  function zegHallo() {
-    console.log("Hallo, " + await addon.auth.fetchUsername());
+  // This works!
+  sayHello();
+  async function sayHello() {
+    console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
 ```
 **Dit zal NIET werken:**
 ```js
 export default async function ({ addon, global, console }) {
-  // Dit werkt NIET!
-  zegHallo();
+  // This WON'T work!
+  sayHello();
 }
-function zegHallo() {
-  console.log("Hallo, " + await addon.auth.fetchUsername());
-  // Error: addon is niet gedefinieerd!
+async function sayHello() {
+  console.log("Hello, " + await addon.auth.fetchUsername());
+  // Error: addon is not defined!
 }
 ```
 
