@@ -4,16 +4,13 @@ title: Installation
 
 ## Aus Erweiterungen-Stores
 
-Scratch Addons ist sowohl im Chrome Web Store als auch in den Firefox-Addons erhältlich.
+Scratch Addons ist in diesen Stores verfügbar.
 
-- Chrome Web Store (für Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79 und weitere auf Chromium basierende Browser)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
-
-- Add-ons for Firefox (für Mozilla Firefox)  
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
-
-- Microsoft Edge Add-ons (für Microsoft Edge >79)  
-  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
+| Store | Installieren | Unterstützte Browser | Systemanforderungen |
+| - | - | - | - |
+| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks less than ~6 years old
+| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
+| Microsoft Edge Addons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
 ## Aus Quelle
 
@@ -54,7 +51,7 @@ Falls du Git nicht installiert hast, kannst du stattdessen diese Methode ausprob
 
 3. Extrahiere das Archiv in einen Ordner.
 
-### Auf Google Chrome installieren
+### Installing on Google Chrome or Microsoft Edge
 
 1. Gib `chrome://extensions` in die Adressenleiste ein, um die Erweiterungenverwaltung zu öffnen.
 

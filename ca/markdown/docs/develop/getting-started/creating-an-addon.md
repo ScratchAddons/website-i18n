@@ -11,12 +11,12 @@ Assegura't de llegir aquest article per familiaritzar-te amb la terminologia.
 O descarra'l com a ZIP, si vols. En altres paraules, només cal que baixis el codi font.
 
 ## Pas 3: Carrega l'extensió al Chrome
-*Nota: es recomana el Chrome per treballar amb complements. No obstant això, s'espera que els complements funcionin al Firefox.*
-Ara que tens l'extensió al teu sistema de fitxers, vés a `chrome://extensions` i canvieu el "mode de desenvolupador".
-Fes clic a "Carrega una extensió desempaquetada" i, a continuació, selecciona la carpeta on es troba Scratch Addons. Si tens problemes amb això, assegura't de seleccionar la carpeta on es troba el `manifest.json`.
-Això és tot, has carregat l'extensió! Hauria de ser semblant a això:
-![imatge](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
-Nota: ignora completament que diu "errors". Això és només un avís per a una clau de manifest no reconeguda que requereix el Firefox.
+*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
+Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
+Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
+That's it, you loaded the extension! It should look similar to this:  
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
+Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
 ## Pas 4: De què tracta el teu addon?
 Ara ve la part divertida!

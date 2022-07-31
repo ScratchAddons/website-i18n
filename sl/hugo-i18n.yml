@@ -18,8 +18,11 @@ Global:
     Last: Pojdi na konec
     SlideX: Pojdi na predmet {{ .Count }}
 Links:
+  Addons: Dodatki
   Credits: Zahvale
   PrivacyPolicy: Politika zasebnosti
+  DiscordCom: Discord za skupnost
+  Discussion: Forum
 Nav:
   Feedback: Povratne informacije
   Repository: Izvirna koda
@@ -32,21 +35,15 @@ Footer:
     FAQ: Pogosta vprašanja
     Feedback: Povratne informacije
     Changelog: Seznam sprememb
-    Addons: Dodatki
   Discuss:
     Header: Razpravljaj
-    Discussion: Forum
     Issues: Težave
-    DiscordCom: Discord za skupnost
     DiscordDev: Discord za razvijalce
   Resources:
     Header: Gradivo
-    Organization: Organizacija
     Repository: Izvirna koda
     Documentation: Dokumentacija
   Legal:
-    Copyright: © {{.Count}} sodelavci Scratch Addons
-    NoAffiliation: Scratch Addons ni na noben način povezan s Scratchem, skupino Scratch ali fundacijo Scratch.
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
   Intro: Trenutno {{ .Version }} z {{ .AddonCount }} dodatki.
 DarkTheme:

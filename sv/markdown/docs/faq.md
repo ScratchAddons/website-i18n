@@ -29,7 +29,7 @@ Per se, Scratch Addons är endast en tilläggsladdare. Huvuduppgifterna är:
 
 ### Är Scratch Addons säkert?
 
-Ja. Scratch Addons bör inte ha några säkerhetsbrister i den senaste versionen. Scratch Addons projektet har öppen källkod, så koden verifieras konstant av Scratch Addons medverkande, såväl som flera granskare från Chrome Web Store samt Add-ons för Firefox.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Hur kan jag rapportera en säkerhetsbrist?
 
@@ -87,7 +87,7 @@ Hur som helst, tillbaks till frågan. Du kan enkelt bidra på många sett, och v
 
 - **Lämna en recension på affären**
 
-  Du kan lämna en recension av Scratch Addons på [Chromes tilläggssida](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) eller [Firefox tilläggssida](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Ge vår kodbas en stjärna**
 

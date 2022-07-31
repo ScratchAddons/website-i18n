@@ -11,12 +11,12 @@ Assicurati di leggere quel paragrafo per acquisire familiarità con la terminolo
 Oppure scaricalo come ZIP, se preferisci. In altre parole, scarica il codice sorgente localmente.
 
 ## Passo 3: Carica l'estensione in Chrome
-*Nota: Chrome è raccomandato per lavorare con gli addon. Ciononostante, gli addon dovrebbero funzionare anche in Firefox.*  
-Ora che hai l'estensione nel tuo filesystem, vai a `chrome://extensions` e abilita la "modalità sviluppatore".  
-Clicca "carica estensione non pacchettizzata", poi seleziona la cartella dove si trovano gli Scratch Addon. Nel caso dovessi incontrare problemi, assicurati di selezionare la cartella dove si trova il file `manifest.json`.  
-E' tutto, hai caricato l'estensione! Dovrebbe somigliare a questo:  
+*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
+Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
+Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
+That's it, you loaded the extension! It should look similar to this:  
 ![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Nota: puoi ignorare tranquillamente il messaggio "errors". E' solo un avvertimento per una chiave non riconosciuta nel file manifest necessaria per Firefox.
+Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
 ## Passo 4: Cosa farà il tuo addon?
 Ora arriva la parte divertente! 

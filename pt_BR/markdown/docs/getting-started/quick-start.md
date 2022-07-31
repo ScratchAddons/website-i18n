@@ -4,22 +4,33 @@ title: Começo Rápido
 
 ## Instalando
 
-Vamos começar instalando o Scratch Addons. A extensão está disponível nas lojas de extensão do Chrome e do Firefox.
+Let's get started by installing Scratch Addons.
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (para Google Chrome e outros navegadores baseados em Chromium)  
-- [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (para Mozilla Firefox)  
-- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (para o Microsoft Edge)  
+| Store | Instalar | Supported browsers |
+| - | - | - |
+| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome and other Chromium-based browsers
+| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox
+| Microsoft Edge Addons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge
+
+More information can be read on [Installing](../installing).
+
 
 ## Primeiros passos
 
 Para começar, você precisa de acesso à página de configurações do addon para ver suas funções.
 
-<!-- TODO: Adicionar imagens -->
+1. Locate Scratch Addons on the toolbar and click it.
 
-1. Encontre o Scratch Addons na barra de ferramentas e clique nele.
-   Normalmente, ele está no canto superior direito do navegador. Para usuários do Google Chrome, se você não está no site do Scratch, você precisa clicar no ícone de quebra-cabeça para achar o ícone da extensão.
+   Usually, it is on the top-right corner of your browser. For Google Chrome users, you may need to click the puzzle icon to find the extension icon.
+
+   ![](/assets/img/getting-started/step-1.png)
 
 2. Clique no ícone de engrenagem para ir à página de Configurações.
 
-3. Explore a lista de addons e ligue/desligue o que quiser.
-   Você também pode configurar cada addon abrindo suas opções na parte inferior.
+   ![](/assets/img/getting-started/step-2.png)
+
+3. Feel free to look through the addons list and turn on/off whatever you want.
+
+   You can also configure an addon in its settings that will open when enabled or expanded.
+
+   ![](/assets/img/getting-started/step-3.png)

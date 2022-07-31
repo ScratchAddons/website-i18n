@@ -4,6 +4,11 @@ Global:
   Carousel:
     Prev: Trước
     Next: Tiếp
+Links:
+  Addons: Tiện ích
+  YouTube: Youtube
+  DiscordCom: Cộng đồng Discord
+  Discussion: Diễn đàn thảo luận
 Nav:
   Feedback: Gửi phản hồi
   Repository: Kho
@@ -14,22 +19,15 @@ Footer:
     FAQ: FAQ - Câu hỏi thường gặp
     Feedback: Gửi phản hồi
     Changelog: Nhật kí thay đổi
-    Addons: Tiện ích
   Discuss:
     Header: Thảo luận
-    Discussion: Diễn đàn thảo luận
     Issues: Các vấn đề
-    DiscordCom: Cộng đồng Discord
     DiscordDev: Lập trình viên Discord
   Resources:
     Header: Các mã nguồn
-    Organization: Tổ chức
     Repository: Kho
     Documentation: Tài liệu
-    YouTube: Youtube
   Legal:
-    Copyright: © {{.Count}} Những người đóng góp của Scratch Addons
-    NoAffiliation: Scratch Addons không được liên kết, liên kết hoặc theo bất kỳ cách nào được kết nối chính thức với Scratch, Scratch Team, Scratch Foundation, hoặc bất kỳ công ty con hoặc chi nhánh nào của nó.
     License: Scratch Addons được cấp phép theo các điều khoản của GNU General Public License v3.0.
 DarkTheme:
   Title: Ấn để bật theme tối

@@ -19,8 +19,11 @@ Global:
     Last: ไปอันท้ายสุด
     SlideX: ไปอันที่ {{ .Count }}
 Links:
+  Addons: ส่วนขยาย
   Credits: เครดิต
   PrivacyPolicy: นโยบายความเป็นส่วนตัว
+  DiscordCom: discord ของชุมชน
+  Discussion: ฟอรั่มพูดคุย
 Nav:
   Feedback: ส่งความคิดเห็น
   RepositoryLabel: Repository บน GitHub
@@ -32,20 +35,14 @@ Footer:
     FAQ: คำถามที่พบบ่อย
     Feedback: ส่งความคิดเห็น
     Changelog: บันทึกการเปลี่ยนแปลง
-    Addons: ส่วนขยาย
   Discuss:
     Header: พูดคุย
-    Discussion: ฟอรั่มพูดคุย
     Issues: ปัญหา
-    DiscordCom: discord ของชุมชน
     DiscordDev: discord ของผู้สร้าง
   Resources:
     Header: แหล่งที่มา
-    Organization: องค์กร
     Documentation: คู่มือผู้ใช้
   Legal:
-    Copyright: © {{.Count}} ผู้มีส่วนร่วมในส่วนขยายสำหรับ scratch
-    NoAffiliation: Scratch Addons ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับ Scratch ทีม Scratch มูลนิธิ Scratch หรือบริการอื่นๆ ของ scratch
     License: Scratch Addons ได้มีลิขสิทธิ์ภายใต้เงื่อนไขของ GNU General Public License v3.0
   Intro: ขณะนี้เวอร์ชั่น{{ .Version }}และมี{{ .AddonCount }}ส่วนขยาย
 DarkTheme:

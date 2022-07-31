@@ -29,7 +29,7 @@ Di per sé Scratch Addon è soltanto un caricatore di addon. I suoi compiti prin
 
 ### Scratch Addon è sicuro?
 
-Si. Scratch Addon non dovrebbe avere nessun problema di sicurezza nella sua versione più recente. Scratch Addon è un progetto opensource, quindi il codice è constantemente verificato da chi contribuisce al codice di Scratch Addon ma anche da chi rivede i contenuti del Web Store di Chrome e degli Add-on di Firefox. 
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Come posso segnalare una vulnerabilità?
 
@@ -87,7 +87,7 @@ Ma torniamo alla domanda. Puoi contribuire in diversi modi, alcuni davvero molto
 
 - **Pubblica una recensione negli store**
 
-  Puoi lasciare una recensione su Scratch Addon nella [pagina delle estensioni di Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) o nella [pagina degli addon di Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Dai una stella al nostro repository**
 

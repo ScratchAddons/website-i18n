@@ -1,6 +1,9 @@
 Global:
   LogoAlt: Logo Scratch Addons
   Install: Pasang
+Links:
+  DiscordCom: Discord Komunitas
+  Discussion: Forum Diskusi
 Nav:
   Feedback: Kirim Umpan Balik
   Repository: Repositori
@@ -12,17 +15,12 @@ Footer:
     Changelog: Daftar
   Discuss:
     Header: Diskusikan
-    Discussion: Forum Diskusi
     Issues: Masalah
-    DiscordCom: Discord Komunitas
     DiscordDev: Discord Pengembangan
   Resources:
     Header: Sumber-sumber
-    Organization: Organisasi
     Repository: Repositori
     Documentation: Dokumentasi
-  Legal:
-    Copyright: © {{.Count}} Kontributor Scratch Addons
 DarkTheme:
   Title: Tekan untuk mengaktifkan dark theme
 IndexPage:

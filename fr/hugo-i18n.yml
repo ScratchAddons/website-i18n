@@ -15,8 +15,11 @@ Global:
     Last: Aller au dernier
     SlideX: Aller à l'item {{ .Count }}
 Links:
+  Addons: Les addons
   Credits: Remerciements
   PrivacyPolicy: Politique de confidentialité
+  DiscordCom: Serveur Discord communautaire
+  Discussion: Forums de discussion
 Nav:
   Feedback: Envoyer des retours
   Repository: Dépot
@@ -28,17 +31,12 @@ Footer:
     Changelog: Journal des modifications
   Discuss:
     Header: Discuter
-    Discussion: Forums de discussion
     Issues: Problèmes
-    DiscordCom: Serveur Discord communautaire
     DiscordDev: Serveur Discord pour le développement
   Resources:
     Header: Ressources
-    Organization: Organisation
     Repository: Dépot
   Legal:
-    Copyright: © {{.Count}} contributeurs de Scratch Addons
-    NoAffiliation: Scratch Addons n'est pas affilié, associé, ou en aucun cas officiellement lié avec Scratch, l'Équipe Scratch, la Scratch Foundation, ou l'une de ses filiales ou ses sociétés affiliées.
     License: Scratch Addons est disponible sous licence GNU General Public License v3.0.
   Intro: Actuellement {{ .Version }} avec {{ .AddonCount }} addons.
 DarkTheme:
@@ -108,6 +106,7 @@ FeedbackPage:
     Sending: Envoi...
     Success: Envoyé ! Merci du commentaire.
     Failed: Quelque chose s'est mal passé. Essayez d'envoyer à nouveau.
+    Offline: Un problème est survenu sur le serveur de commentaires. Revenez plus tard, ou utilisez les alternatives mentionnées.
   NoAddonsList: La liste n'est pas disponible pour être envoyée. Essayez d'ouvrir cet page en utilisant l'extension.
   UsernameLabel: Nom d'utilisateur Scratch ou autres identifiants (optionnel)
   ContentLabel: Commentaire

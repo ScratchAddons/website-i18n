@@ -29,7 +29,7 @@ Sam po sebi je Scratch Addons samo upravitelj dodatkov. Njegove glavne naloge so
 
 ### Je Scratch Addons varen?
 
-Da. Najnovejša različica razširitve ne bi smela imeti nobenih varnostnih napak. Scratch Addons je odprtokoden projekt, zato kodo ves čas nadzorujejo tako sodelavci Scratch Addons kot pregledovalci Spletne trgovine Chrome in Dodatkov za Firefox.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Kako lahko prijavim varnostno napako?
 
@@ -87,7 +87,7 @@ Torej: sodelujete lahko na veliko različnih načinov, in nekateri so res prepro
 
 - **Leave a review on the stores**
 
-  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Star our repository**
 

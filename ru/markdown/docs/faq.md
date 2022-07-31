@@ -29,7 +29,7 @@ Scratch Addons — браузерное расширение «всё в одн�
 
 ### Scratch Addons безопасен?
 
-Да. Scratch Addons не должен иметь любые проблемы с безопасностью в его самой новой версии. Scratch Addons — проект с открытым исходным кодом, поэтому код постоянно подтверждается внесёнными вклад в Scratch Addons, а также теми, кто пишет отзывы в магазине расширений Chrome и в дополнения для Firefox.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Как я могу сказать о проблеме с безопасностью?
 
@@ -87,7 +87,7 @@ Scratch Addons не использует учётные данные Вашег�
 
 - **Написать отзыв на магазинах расширений**
 
-  Вы можете написать нам отзыв о Scratch Addons в [магазине расширений Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) или в [расширениях Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Поставить звезду на нашей репозитории**
 

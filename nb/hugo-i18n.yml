@@ -4,6 +4,9 @@ Global:
   Install: Installer
   Carousel:
     Next: Neste
+Links:
+  Addons: Utvidelser
+  Discussion: Forum
 Nav:
   Feedback: Send tilbakemelding
   Install: Installer
@@ -11,9 +14,7 @@ Footer:
   Pages:
     Header: Sider
     Feedback: Send tilbakemelding
-    Addons: Utvidelser
   Discuss:
-    Discussion: Forum
     Issues: Feil
 IndexPage:
   Intro:

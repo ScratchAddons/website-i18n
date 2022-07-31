@@ -14,9 +14,16 @@ Global:
   Carousel:
     Prev: Anterior
     Next: Siguiente
+    First: Ir al primero
+    Last: Ir al último
+    SlideX: Ir a ítem {{ .Count }}
 Links:
+  Docs: Documentación
   Credits: Créditos
   PrivacyPolicy: Política de Privacidad
+  DiscordCom: Discord de la Comunidad
+  Discussion: Foro de Discusión
+  Community: Comunidad
 Nav:
   Feedback: Enviar Comentarios
   Repository: Repositorio
@@ -31,17 +38,12 @@ Footer:
     Changelog: Lista de Cambios
   Discuss:
     Header: Debatir
-    Discussion: Foro de Discusión
-    DiscordCom: Discord de la Comunidad
     DiscordDev: Discord de los Desarrolladores
   Resources:
     Header: Recursos
-    Organization: Organización
     Repository: Repositorio
     Documentation: Documentación
   Legal:
-    Copyright: © {{.Count}} Colaboradores de Scratch Addons
-    NoAffiliation: Este proyecto no está afiliado, asociado, o de ninguna manera conectado oficialmente con la página web de Scratch, su Equipo, Fundación, o cualquiera de sus afiliados.
     License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
   Intro: Actualmente {{ .Version }} con {{ .AddonCount }} addons.
 DarkTheme:
@@ -69,7 +71,7 @@ IndexPage:
     ReadMore: o leer más
     Carousel:
       Video:
-        Caption: El trailer.
+        Caption: El tráiler.
       Popup:
         Caption: El pop-up de la extensión.
         ImgAlt: Pop-up de la extensión
@@ -93,7 +95,7 @@ IndexPage:
     Paragraph: Recuerde, estos solo son los addons destacados. {{.OpenTag1}}¡Hay más!{{.CloseTag1}}
   Install:
     Heading: Instalar
-    Paragraph: ¿Satisfecho? ¡No dude en instalar ahora!
+    Paragraph: ¿Satisfecho? ¡No dude en instalarla ahora!
     InstallButton:
       Other: ...o {{.OpenTag1}}descárguelo de GitHub{{.CloseTag1}} o {{.OpenTag2}}instálelo de la fuente{{.CloseTag2}}.
   Users: Usuarios
@@ -112,6 +114,7 @@ FeedbackPage:
     Sending: Enviando...
     Success: ¡Enviado! Gracias por sus comentarios.
     Failed: Algo anduvo mal. ¿Intente enviar de nuevo?
+    Offline: Algo salió mal en el servidor de comentarios. Intenta más tarde, o usa las alternativas mencionadas.
   UsernameLabel: Nombre de usuario de Scratch, u otros identificadores (opcional)
   ContentLabel: Comentarios
   ContentPlaceholder: Por favor proporcione tantos detalles como pueda.

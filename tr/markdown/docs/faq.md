@@ -11,9 +11,9 @@ Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir ara
 
 ### "Eklenti" tam olarak nedir?
 
-Bir eklenti, bir uzantıya veya kullanıcı komut dosyasına benzer, ancak Scratch Eklentileri uzantısı tarafından sağlanan özel API'leri kullanırlar. Bu API'ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (kullanıcı komut dosyalarına) veya Scratch sitesine stiller uygulamasına (kullanıcı stillerine) izin verir.
+Bir eklenti, bir uzantıya veya bir userscript'e benzer, ancak Scratch Eklentileri uzantısı tarafından sağlanan özel API'leri kullanırlar. Bu API'ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (userscript'lere) veya Scratch sitesine stiller uygulamasına (userstyle'lerine) izin verir.
 
-Kullanıcı komut dosyaları, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
+Userscript'ler, Scratch ile ilgili bilgileri almalarına (örneğin, oturum açmış mevcut kullanıcıyı alma) ve ayrıca uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
 
 ### Her şey bir eklenti ise, Scratch Eklentileri ne yapıyor o halde?
 
@@ -22,14 +22,14 @@ Kendi başına, Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca 
 - Kullanıcıların eklentileri etkinleştirmesine, devre dışı bırakmasına ve yapılandırmasına izin verir.
 - Eklentileri çalıştırın ve onlara API'ler sağlayın.
 - Eklentilere genel durum sağlar (örneğin, addon.auth API).
-- Eklenti kullanıcı komut dosyaları tarafından kullanılmak üzere prototipleri kirletin.
+- Eklenti, userscript'ler tarafından kullanılmak üzere prototipleri kirletin.
 - Redux durumuna erişmenin ve değiştirmenin yollarını sağlayın.
 - Eklentilerin birbirine müdahale etmesini önler.
 - Farklı eklentilerde tekrarlanan, gereksiz özelliklerden kaçınır.
 
 ### Scratch Eklentileri güvenli mi?
 
-Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir. Bu nedenle kod, Scratch Eklentilere katkıda bulunanların yanı sıra Chrome Web Mağazası ve Firefox Eklentileri'nden gözden geçiren kişiler tarafından sürekli olarak doğrulanır.
+Evet. Scratch Eklentilerinin en son sürümünde herhangi bir güvenlik sorunu bulunmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir, bu nedenle kod, Scratch Eklentileri katkıda bulunanların yanı sıra Chrome Web Mağazası, Firefox Eklentileri ve Microsoft Edge Eklentileri'nde eklentileri gözden geçiren insanlar tarafından sürekli olarak doğrulanır.
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
@@ -87,7 +87,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
 - **Mağazalarda Scratch Eklentileri hakkında yorum bırakın**
 
-  [Chrome uzantı sayfasında](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) veya [Firefox eklenti sayfasında](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/). Scratch Eklentileri hakkında bize bir inceleme bırakabilirsiniz. 
+  [Chrome uzantı sayfası](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)nda, [Firefox eklenti sayfası](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)nda veya [Microsoft Edge eklenti sayfası](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj)nda Scratch Eklentileri hakkında bize bir inceleme bırakabilirsiniz.
 
 - **Depomuza yıldız ekleyin**
 

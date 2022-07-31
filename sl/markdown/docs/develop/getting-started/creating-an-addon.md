@@ -11,12 +11,12 @@ Najprej preberite članek na zgornji povezavi, da se seznanite z izrazi.
 Ali prenesite kot ZIP, če imate to raje. Skratka, prenesite kodo na svoj računalnik.
 
 ## 3. korak: Naložite razširitev v Chrome
-*Opomba: Za delo z dodatki priporočamo Chrome. Kljub temu naj dodatki delujejo tudi v brskalniku Firefox.*  
-Ko imate izvirno kodo razširitve, pojdite na naslov `chrome://extensions` in vključite "način za razvijalce".  
-Kliknite gumb "naloži razpakirano" in izberite mapo, v kateri je Scratch Addons. Če imate pri tem težave, se prepričajte, da je v mapi, ki ste jo izbrali, datoteka `manifest.json`.  
-To je vse, zdaj ste razširitev namestili. Izgledati bi morala podobno kot na spodnji sliki:  
+*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
+Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
+Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
+That's it, you loaded the extension! It should look similar to this:  
 ![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Opomba: gumb "napake" lahko pustite pri miru. Gre le za opozorilo o ključu v datoteki manifest.json, ki ga Chrome ne prepozna, vendar je v Firefoxu potreben.
+Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
 ## 4. korak: Kaj bo vaš dodatek naredil?
 Now comes the fun part!  

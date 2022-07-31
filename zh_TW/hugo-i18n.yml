@@ -14,8 +14,6 @@ Footer:
     Issues: 問題
   Resources:
     Repository: 存儲庫
-  Legal:
-    Copyright: © {{.Count}} Scratch Addons 的貢獻者
 Docs:
   TOC: 目錄
   LastUpdated: "最後更新時間在 {{.Date}} "

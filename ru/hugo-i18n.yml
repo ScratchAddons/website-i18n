@@ -19,8 +19,11 @@ Global:
     SlideX: Перейти к предмету №{{ .Count }}
 Links:
   Blog: Блог
+  Addons: Аддоны
   Credits: Благодарности
   PrivacyPolicy: Политика конфедициальности
+  DiscordCom: Discord сообщества
+  Discussion: Форум обсуждения
 Nav:
   Feedback: Отправить отзыв
   Repository: Репозиторий
@@ -32,21 +35,15 @@ Footer:
     Header: Страницы
     Feedback: Отправить отзыв
     Changelog: Журнал изменений
-    Addons: Аддоны
   Discuss:
     Header: Обсудить
-    Discussion: Форум обсуждения
     Issues: Проблемы
-    DiscordCom: Discord сообщества
     DiscordDev: Discord разработки
   Resources:
     Header: Ресурсы
-    Organization: Организация
     Repository: Репозиторий
     Documentation: Документация
   Legal:
-    Copyright: © {{.Count}} внёсшие вклад в Scratch Addons
-    NoAffiliation: Scratch Addons не является аффилированным лицом, связан, или в любом виде официально соединён с сайтом Scratch, Команды Scratch, Учреждением Scratch, или любой из его дочерних компаний или филиалов.
     License: Scratch Addons лицензирован под условиями GNU General Public License v3.0.
   Intro: На данный момент {{ .Version }} с {{ .AddonCount }} аддонами.
 DarkTheme:

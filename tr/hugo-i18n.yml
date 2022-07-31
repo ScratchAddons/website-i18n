@@ -19,8 +19,13 @@ Global:
     Last: Sonuncuya git
     SlideX: "{{ .Count }}. öğeye git"
 Links:
-  Credits: Teşekkürler
+  Docs: Belgeler
+  Addons: Eklentiler
+  Credits: Emeği Geçenler
   PrivacyPolicy: Gizlilik Politikası
+  DiscordCom: Topluluk Discord'u
+  Discussion: Tartışma Forumu
+  Community: Topluluk
 Nav:
   Feedback: Geri Bildirim Gönder
   Repository: Depo
@@ -33,25 +38,21 @@ Footer:
     FAQ: SSS
     Feedback: Geri Bildirim Gönder
     Changelog: Değişiklik Günlüğü
-    Addons: Eklentiler
   Discuss:
     Header: Tartışma
-    Discussion: Tartışma Forumu
     Issues: Sorunlar
-    DiscordCom: Topluluk Discord'u
     DiscordDev: Geliştirici Discord'u
   Resources:
     Header: Kaynaklar
-    Organization: Kuruluş
     Repository: Depo
     Documentation: Belgeler
   Legal:
-    Copyright: © {{.Count}} Scratch Eklentileri katkıda bulunanlar
-    NoAffiliation: Scratch Eklentileri, Scratch, Scratch Ekibi, Scratch Vakfı veya herhangi bir kuruluşa bağlı değildir veya kısaca herhangi bir şekilde resmi olarak bağlantısı yoktur.
+    Copyright: "{{ .Copyleft }} {{ .Year }} Scratch Eklentileri katkıcıları"
+    NoAffiliation: Scratch Eklentileri, Scratch sitesi ve onu sürdüren kuruluşlarla herhangi bir şekilde bağlantılı, ilişkili veya resmî olarak temas hâlinde değildir.
     License: Scratch Eklentileri, GNU General Public License v3.0 altında lisanslanmıştır.
   Intro: Şu anki sürüm {{ .Version }} ve {{ .AddonCount }} eklenti içeriyor.
 DarkTheme:
-  Title: Koyu temayı açmak için tıklayın.
+  Title: Koyu temayı açmak/kapatmak için tıklayın.
   Label: Koyu tema ayarı
 Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri

@@ -6,6 +6,10 @@ Global:
   ChromeShort: كروم
   FirefoxShort: فايرفوكس
   Install: ثبيت
+Links:
+  Addons: اضافه
+  YouTube: اليوتيوب
+  Discussion: منتدى للنقاش
 Nav:
   Feedback: ارسل رأيك
   Repository: المستأمن
@@ -16,17 +20,13 @@ Footer:
     FAQ: التعليمات
     Feedback: ارسل رأيك
     Changelog: التغيير
-    Addons: اضافه
   Discuss:
     Header: مناقشة
-    Discussion: منتدى للنقاش
     Issues: مسائل
   Resources:
     Header: مصادر
-    Organization: منظمة
     Repository: المستأمن
     Documentation: توثيق
-    YouTube: اليوتيوب
 PlayerModal:
   LabelPlay: لعب
   ModalTitle: فيديو

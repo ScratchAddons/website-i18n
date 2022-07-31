@@ -4,16 +4,13 @@ title: インストール
 
 ## 拡張機能ストアから
 
-Scratch Addonsは、Chrome Web StoreとAdd-ons for Firefoxの両方で入手可能です。
+Scratch Addons は次のストアで入手できます。
 
-- Chrome Web Store (Google Chrome、Opera、Brave、Vivaldi、Microsoft Edge >79、その他のChromiumベースのブラウザー)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
-
-- Add-ons for Firefox (Mozilla Firefox)
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
-
-- Microsoft Edge Add-ons (Microsoft Edge >79用)
-  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
+| ストア | インストール | 対応ブラウザー | システム要件 |
+| - | - | - | - |
+| Chrome Web Store | [![Chrome Web Storeでインストール](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br /> ~6年以内に販売されたChromebook
+| Add-ons for Firefox | [![Add-ons for Firefoxでインストール](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
+| Microsoft Edge Addons | [![Microsoft Edge Addonsでインストール](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
 ## ソースコードから
 
@@ -54,7 +51,7 @@ Gitをインストールしていない場合は、この方法が利用でき�
 
 3. アーカイブをフォルダーに解凍します。
 
-### Google Chrome上でのインストール
+### Installing on Google Chrome or Microsoft Edge
 
 1. アドレスバーに `chrome://extensions` と入力し、拡張機能管理ページを開きます。
 

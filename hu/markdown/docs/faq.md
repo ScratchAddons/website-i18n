@@ -29,7 +29,7 @@ A userscriptek tudják használni az `addon.*` JavaScript API-kat, amik lehetőv
 
 ### A Scratch Addons biztonságos?
 
-Igen. A Scratch Addonsnak nem kéne biztonsági problémái akadjanak a legfrissebb verziójában. A Scratch Addons egy nyíltforráskódú projekt, szóval a kód állandóan ellenőrzött a Scratch Addons közreműködői által, ahogy a Chrome Webáruházban és a Firefoxnál is szintén átnézik.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Hogyan jelenthetek egy biztonsági rést?
 
@@ -87,7 +87,7 @@ Mindenesetre vissza a lényeghez: több típusú módon is közre tud működni,
 
 - **Hagyjon egy visszajelzést az áruházakban**
 
-  Hagyhat egy áttekintést a Scratch Addonsról a [Chrome bővítmény oldalán](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), vagy a [Firefox kiegészítő oldalán](https://addons.mozilla.org/hu/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Csillagozza meg a repositorynkat**
 

@@ -18,6 +18,9 @@ Global:
     SlideX: Naar item {{ .Count }} gaan
 Links:
   PrivacyPolicy: Privacybeleid
+  DiscordCom: Discord voor Gebruikers
+  Discussion: Discussie-Forum
+  Community: Gemeenschap
 Nav:
   Feedback: Feedback Geven
   Repository: Archief
@@ -31,18 +34,15 @@ Footer:
     Feedback: Feedback Geven
   Discuss:
     Header: Discussie
-    Discussion: Discussie-Forum
     Issues: Problemen
-    DiscordCom: Discord voor Gebruikers
     DiscordDev: Discord voor Beheerders
   Resources:
     Header: Bronnen
-    Organization: Organisatie
     Repository: Archief
     Documentation: Documentatie
   Legal:
-    Copyright: © {{.Count}} Scratch Addons-helpers
-    NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met Scratch, het Scratch-Team, het Scratch-fundament, of iedere dochteronderneming of geassocieerden.
+    Copyright: "{{ .Copyleft }} {{ .Year }} Bijdragers van Scratch Addons"
+    NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met de Scratch-website of de organisaties die het onderhouden.
     License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
   Intro: Op dit moment {{ .Version }} met {{ .AddonCount }} addons.
 DarkTheme:
@@ -86,7 +86,7 @@ IndexPage:
     CustomizableHeading: Aanpasbaar
     CustomizableParagraph: Scratch Addons heeft een simpele interface om verschillende instellingen van elke functie en thema te veranderen.
     InternationalHeading: Internationaal
-    InternationalParagraph: Niet alleen Nederlands. Scratch Addons is beschikbaar in Engels, Spaans, Russisch, Japans, Frans, en nog veel meer.
+    InternationalParagraph: Niet alleen in het Nederlands. Scratch Addons is beschikbaar in het Engels, Spaans, Russisch, Japans, Frans, en nog veel meer.
     OSHeading: Open-bron
     OSParagraph: Scratch Addons is gratis, open-bron, en gemaakt door een groep van Scratchers.
   Highlights:

@@ -4,16 +4,13 @@ title: Yükleme
 
 ## Eklenti mağazalarından
 
-Scratch Eklentileri hem Chrome Web Mağazası'nda hem de Firefox Eklentilerinde mevcuttur.
+Scratch Eklentileri bu mağazalarda mevcuttur
 
-- Chrome Web Mağazası (Google Chrome, Opera, Brave, Vivaldi, Microsoft Edge >79 ve diğer Chromium tabanlı tarayıcılar için)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
-
-- Firefox için Eklentiler (Mozilla Firefox için)
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
-
-- Microsoft Edge Eklentileri (Microsoft Edge >79 için)
-  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
+| Mağaza | İndir | Desteklenen tarayıcılar | Sistem gereksinimleri |
+| - | - | - | - |
+| Chrome Web Mağazası | [![Chrome Web Mağazası için İndir](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />~6 yıldan yeni Chromebook'lar
+| Firefox için eklentiler | [![Firefox Eklentileri için İndir](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
+| Microsoft Edge Eklentileri | [![Microsoft Edge Eklentileri için İndir](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
 ## Kaynağından
 
@@ -54,7 +51,7 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her g�
 
 3. Arşivi bir klasöre çıkarın.
 
-### Google Chrome'da yükleme
+### Google Chrome veya Microsoft Edge'ye yükleme
 
 1. Uzantı Yönetimi sayfasını açmak için adres çubuğunuza `chrome://extensions` yazın.
 

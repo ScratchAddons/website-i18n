@@ -11,10 +11,10 @@ Lees dat artikel om de termen te weten.
 Of download als ZIP als je dat wilt. In andere woorden, download gewoon de broncode lokaal.
 
 ## Stap 3: Laad de extensie in Chrome
-*Opmerking: Chrome is aanbevolen voor het werken aan addons. Addons zijn wel verwacht om op Firefox te werken.* 
+*Opmerking: Chrome is aanbevolen voor het werken aan addons. Addons zouden daarentegen wel op Firefox en Edge moeten werken.* 
 Nu dat je de extensie in je bestandssysteem hebt, ga naar `chrome://extensions` en schakel "ontwikkelaarmodus" in. 
 Klik op "uitgepakte extensie laden", selecteer dan de map met Scratch Addons. Als je hiermee problemen hebt, zorg ervoor dat je de map selecteert waar `manifest.json` zich bevindt. 
-Dat is het, je hebt de extensie geladen! Het zou er ongeveer zo uit moeten zien: 
+Dat is alles, je hebt de extensie geladen! Het zou er ongeveer zo uit moeten zien: 
 ![afbeelding](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
 Opmerking: je kunt de "errors" veilig negeren. Dat is gewoon een waarschuwing voor een onherkende manifest-key die Firefox nodig heeft.
 

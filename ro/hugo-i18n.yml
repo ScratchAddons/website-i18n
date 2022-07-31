@@ -2,6 +2,10 @@ Global:
   ScratchAddons: Extensii Scratch
   LogoAlt: Logo-ul Extensii Scratch
   Install: Instalare
+Links:
+  Addons: Extensii
+  DiscordCom: Discord comunitate
+  Discussion: Forum de discuții
 Nav:
   Feedback: Trimite feedback
   Repository: Depozit
@@ -12,20 +16,14 @@ Footer:
     FAQ: Întrebări frecvente
     Feedback: Trimite feedback
     Changelog: Jurnalul schimbărilor
-    Addons: Extensii
   Discuss:
     Header: Discuții
-    Discussion: Forum de discuții
     Issues: Probleme
-    DiscordCom: Discord comunitate
     DiscordDev: Discord dezvoltatori
   Resources:
     Header: Resurse
-    Organization: Organizație
     Repository: Depozit
     Documentation: Documentație
-  Legal:
-    Copyright: © {{.Count}} Contribuitorii Extensii Scratch
 Docs:
   SectionSiteName: Documentație Extensii Scratch
   Improve: Îmbunătățește această pagină

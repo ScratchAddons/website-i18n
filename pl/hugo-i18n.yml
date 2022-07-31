@@ -15,8 +15,11 @@ Global:
     Last: Idź do ostatniego
     SlideX: Idź do obiektu {{ .Count }}
 Links:
+  Addons: Dodatki
   Credits: Twórcy
   PrivacyPolicy: Polityka Prywatności
+  DiscordCom: Społeczność Discord
+  Discussion: Forum Dyskusyjne
 Nav:
   Feedback: Prześlij opinię
   Repository: Repozytorium
@@ -30,18 +33,13 @@ Footer:
     Changelog: Dziennik zmian
   Discuss:
     Header: Dyskusja
-    Discussion: Forum Dyskusyjne
     Issues: Problemy
-    DiscordCom: Społeczność Discord
     DiscordDev: Discord Deweloperski
   Resources:
     Header: Zasoby
-    Organization: Organizacja
     Repository: Repozytorium
     Documentation: Dokumentacja
   Legal:
-    Copyright: © {{.Count}} Współtwórcy Scratch Addons
-    NoAffiliation: Scratch Addons nie jest stowarzyszone, powiązane ani w żaden sposób oficjalnie połączone ze Scratch, Scratch Team, Scratch Foundation ani żadną z jej spółek zależnych lub stowarzyszonych.
     License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
   Intro: Obecnie {{ .Version }} z {{ .AddonCount }} dodatkami.
 DarkTheme:

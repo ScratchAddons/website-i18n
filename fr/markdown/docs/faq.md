@@ -29,7 +29,7 @@ En soi, Scratch Addons n’est qu’un chargeur d’addons. Ses principales tâc
 
 ### Scratch Addons est-il sûr ?
 
-Oui. Scratch Addons n’a aucun problème de sécurité dans la version la plus récente. Scratch Addons est un projet open source, de sorte que le code est constamment vérifié par les contributeurs Scratch Addons, ainsi que par les réviseurs du Chrome Web Store et add-ons pour Firefox. 
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Comment puis-je signaler une faille de sécurité ?
 
@@ -87,7 +87,7 @@ Anyway, back to the point. You can contribute in many ways, and some of it is re
 
 - **Laissez un avis sur les boutiques**
 
-  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) or [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Star our repository**
 
@@ -130,7 +130,7 @@ You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAd
 
 Try to turn off addons that you don't need. Also, check addon notices and warnings to decide which addons should be turned off for better performance. 
 
-### How can you activate the easter egg addons?
+### Comment activer l'ajout easter egg ?
 
 To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
 

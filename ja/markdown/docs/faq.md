@@ -29,7 +29,7 @@ Scratch Addonsはアドオンを読み込みます。たとえば:
 
 ### Scratch Addonsは安全ですか?
 
-はい。Scratch Addonsの最新バージョンにはセキュリティー上の問題は存在しないはずです。Scratch Addonsはオープンソースソフトウェアで、コードは常時Scratch Addonsの貢献者によってレビューされています。また、Chrome Web StoreとAdd-ons for Firefoxのレビュアーによっても確認済みです。
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### どうやって脆弱性を報告できますか?
 
@@ -87,7 +87,7 @@ Scratch Addonsへの貢献を考えてくれて、ありがとございます。
 
 - **ストアでレビューする**
 
-  [Chrome 拡張機能ストア](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)や[Firefox 拡張機能ストア](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)で、Scratch Addonsのレビューを投稿できます。
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **リポジトリにスターをつける**
 

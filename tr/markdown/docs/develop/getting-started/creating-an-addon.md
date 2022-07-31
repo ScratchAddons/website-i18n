@@ -11,12 +11,12 @@ Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
 Veya isterseniz ZIP olarak indirin. Başka bir deyişle, kaynak kodunu yerel olarak indirmeniz yeterlidir.
 
 ## 3. Adım: Uzantıyı Chrome'a yükleyin
-*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de eklentilerin Firefox'da da çalışma ihtimali var.*
-Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`'a gidin ve "geliştirici modu"nu etkinleştirin.
-"Sıkıştırılmamış'ı yükle"ye tıklayın, ardından Scratch Eklentilerin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun.
-İşte bu, uzantıyı yüklediniz! Şuna benzer görünmelidir:
-![görsel](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
-Not: "hatalar" yazdığını güvenle görmezden gelebilirsiniz. Bu, Firefox'un tanınmayan bir "manifest anahtarı" için yalnızca bir uyarıdır.
+*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de, eklentilerin Firefox ve Edge'de de çalışması bekleniyor.* 
+Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`a gidin ve "geliştirici modu"nu açın. 
+"Paketlenmemiş yükle"ye tıklayın, ardından Scratch Eklentilerinin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun. 
+İşte bu! Uzantıyı yüklediniz! Şuna benzer görünmelidir: 
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png) 
+Not: "hatalar"ı güvenle görmezden gelebilirsiniz. Bu, Firefox tarafından gerekli görülen tanınmayan bir bildirim anahtarı için yalnızca bir uyarıdır.
 
 ## 4. Adım: Eklentiniz ne hakkında?
 Şimdi eğlenceli kısım geliyor!
@@ -33,9 +33,9 @@ Az önce oluşturduğunuz klasörün içinde bir `addon.json` dosyası oluşturu
 Bu, kodlamaya başlamak için kullanabileceğiniz bir temeldir, gelecekte değiştirdiğinizden emin olun:
 ``` json
 {
-  "name": "Yer tutucu metin yerine destansı eklenti adı",
-  "description": "Merhaba Dünya! Bu yer tutucu metni bir açıklama ile değiştirmek gerçekten akıllıca olur.",
-  "tags": ["topluluk"],
+  "name": "Eklenti adının olduğu yere destansı yer tutucu metni",
+  "description": "Merhaba Dünya! Bu yer tutucu metnini bir açıklama ile değiştirmek gerçekten akıllıca olur.",
+  "tags": ["community"],
   "enabledByDefault": false
 }
 ```
@@ -48,8 +48,8 @@ Scratch Eklentileri kendi başına yeni klasörler bulamaz, bu nedenle adı öze
 
 ## 8. Adım: Merhaba dünya
 Eklentiniz şu anda hiçbir şey yapmıyor, bu nedenle daha önce yaptığımız her şeyin çalışıp çalışmadığını kontrol etmek için iyi bir zaman.
-` chrome://extensions`'a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
-Şimdi, Scratch Eklentiler simgesine sağ basın ve "seçenekler" e tıklayın.
+` chrome://extensions`a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
+Şimdi, Scratch Eklentiler simgesine sağ basın ve "seçenekler"e tıklayın.
 Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve sahip olabileceğiniz tüm ayarları yapın.
 
 ## 9. Adım: Eğlenceli kısım, kod!
@@ -58,7 +58,7 @@ Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve
 İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentiler uzantısını yenilediğinizden emin olun.
 
 Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
-- [Kullanıcı komut dosyaları](/docs/develop/addon-types/userscripts)
+- [Userscript'ler](/docs/develop/addon-types/userscripts)
 - [Kullanıcı stilleri](/docs/develop/addon-types/userstyles)
 
 ## 10. Adım: Eklentinizi özelleştirilebilir yapın

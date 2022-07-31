@@ -29,7 +29,7 @@ Op zichzelf is Scratch Addons gewoon een addonlader. Zijn hoofdtaken zijn:
 
 ### Is Scratch Addons veilig?
 
-Ja. Scratch Addons zou geen beveiligingsproblemen moeten hebben in zijn laatste versie. Scratch Addons is een open-bron project, dus de code wordt constant gecheckt door Scratch Addons-helpers, net zoals door recensenten van de Chrome Web Store en Addons voor Firefox.
+Ja. Scratch Addons zou geen beveiligingsproblemen moeten hebben in zijn laatste versie. Scratch Addons is een open-bron project, dus de code wordt constant gecheckt door Scratch Addons-helpers, net zoals door recensenten van de Chrome Web Store, Add-ons voor Firefox en Microsoft Edge Add-ons.
 
 ### Hoe kan ik een beveiligingskwetsbaarheid melden?
 
@@ -87,7 +87,7 @@ Hoe dan ook, je kunt in veel manieren meehelpen, en sommige zijn heel makkelijk.
 
 - **Laat een recensie achter op de winkels**
 
-  Je kunt ons een recensie over Scratch Addons achterlaten op [de Chrome-extensiepagina](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) of [de Firefox-addonpagina](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  Je kunt ons een recensie over Scratch Addons achterlaten op [de Chrome-extensiepagina](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [de Firefox-addonpagina](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) of de [Microsoft Edge-addonpagina](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Geef ons archief een ster**
 

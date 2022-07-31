@@ -19,8 +19,13 @@ Global:
     SlideX: 項目{{ .Count }}へ移動
 Links:
   Blog: ブログ
+  Docs: ドキュメント
+  Addons: アドオン
   Credits: クレジット
   PrivacyPolicy: プライバシーポリシー
+  DiscordCom: Discordコミュニティー
+  Discussion: ディスカッションフォーラム
+  Community: コミュニティー
 Nav:
   Feedback: フィードバックを送る
   Repository: リポジトリ
@@ -32,21 +37,17 @@ Footer:
     Header: ページ
     Feedback: フィードバックを送る
     Changelog: 更新履歴
-    Addons: アドオン
   Discuss:
     Header: 議論
-    Discussion: ディスカッションフォーラム
     Issues: 不具合を報告
-    DiscordCom: Discordコミュニティー
     DiscordDev: 開発者向けDiscordコミュニティー
   Resources:
     Header: 資料
-    Organization: 組織
     Repository: リポジトリ
     Documentation: ドキュメント
   Legal:
-    Copyright: © {{.Count}} Scratch Addons 貢献者
-    NoAffiliation: Scratch Addonsは、Scratch、Scratchチーム、Scratch財団その他一切の関係者と連携せず、また後援その他一切の公式な関係を有しません。
+    Copyright: "{{ .Copyleft }}{{ .Year }} Scratch Addons 貢献者"
+    NoAffiliation: Scratch AddonsはScratchウェブサイトの運営者と連携せず、また後援その他一切の公式な関係を有しません。
     License: Scratch AddonsはGNU General Public License v3.0でライセンスされています。
   Intro: 現在 {{ .Version }} 、アドオン数 {{ .AddonCount }}
 DarkTheme:

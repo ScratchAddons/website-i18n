@@ -9,6 +9,10 @@ Global:
   Carousel:
     Prev: 이전
     Next: 다음
+Links:
+  Addons: 애드온
+  DiscordCom: 디스코드 커뮤니티
+  Discussion: 토론방
 Nav:
   Feedback: 문의하기
   Repository: 레포지토리
@@ -19,21 +23,15 @@ Footer:
     FAQ: 자주 묻는 질문
     Feedback: 문의하기
     Changelog: 변경 내역
-    Addons: 애드온
   Discuss:
     Header: 토론하기
-    Discussion: 토론방
     Issues: 이슈
-    DiscordCom: 디스코드 커뮤니티
     DiscordDev: 개발자 디스코드
   Resources:
     Header: 자료
-    Organization: 기관
     Repository: 레포지토리
     Documentation: 도움말
   Legal:
-    Copyright: © {{.Count}} 스크래치 애드온 기여자
-    NoAffiliation: 스크래치 애드온은 스크래치, 스크래치 팀, 스크래치 재단 또는 그 자회사 또는 그 계열사에 공식적으로 연결되어 있지 않습니다.
     License: 스크래치 애드온은 GNU General Public License v3.0 라이선스로 공유됩니다.
 DarkTheme:
   Title: |-

@@ -4,16 +4,13 @@ title: Installeren
 
 ## Van extensiestores
 
-Scratch Addons is beschikbaar in de Chrome Web Store en Add-ons voor Firefox.
+Scratch Addons is beschikbaar in deze stores.
 
-- Chrome Web Store (voor Google Chrome, Opera, Brave, Vivaldi, Microsoft, Edge >79, en andere Chromium-gebaseerde browsers)
-  https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco
-
-- Add-ons voor Firefox (voor Mozilla Firefox)  
-  https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/
-
-- Microsoft Edge Add-ons (voor Microsoft Edge >79)  
-  https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj
+| Store | Installeren | Ondersteunde browsers | Systeemvereisten |
+| - | - | - | - |
+| Chrome Web Store | [![Installeren voor Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks minder dan ~6 jaar oud
+| Add-ons voor Firefox | [![Installeren voor Add-ons voor Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
+| Microsoft Edge Addons | [![Installeren voor Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
 ## Van bron
 
@@ -54,7 +51,7 @@ Als je Git niet geïnstalleerd hebt, kun je in plaats daarvan dit proberen. Onth
 
 3. Pak het archief in een map uit.
 
-### Installeren op Google Chrome
+### Installeren op Google Chrome of Microsoft Edge
 
 1. Typ `chrome://extensions` in je adresbalk om de Extensiebeheerpagina te openen.
 

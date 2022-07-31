@@ -29,7 +29,7 @@ Per si mateix, Scratch Addons és només un carregador de addons. Les seves prin
 
 ### Scratch Addons és segur? 
 
-Sí. Scratch Addons no hauria de tenir cap problema de seguretat en la seva versió més recent. Scratch Addons és un projecte de codi obert, de manera que el codi està constantment verificat pels col·laboradors de Scratch Addons, així com per revisors de Chrome Web Store i Add-ons for Firefox.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
 
 ### Com puc informar d'una vulnerabilitat de seguretat?
 
@@ -87,7 +87,7 @@ De totes maneres, tornem al punt. Pots contribuir de moltes formes, i algunes s�
 
 - **Deixa una valoració a les botigues**
 
-  Pots deixar-nos una ressenya sobre els complements de Scratch a [la pàgina d'extensió de Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) o a la [pàgina de addons de Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/).
+  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
 
 - **Dona-li una estrella al nostre repositori**
 

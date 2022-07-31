@@ -24,7 +24,7 @@ Bazen mesajların dinamik olarak oluşturulmuş şeylere sahip olması gerekir. 
 Ya yer tutucu bir sayıysa? `{placeholderName, plural, one {When There is onething} other {When There # Things}}` gibi çoğullar kullanabiliriz. Yer tutucu 1 ise, "bir şey olduğunda" gösterilir, aksi takdirde "(yer tutucu) şeyler olduğunda" yazar.
 
 ## Çevirileri kullanma
-Kullanıcı komut dosyasının ilk satırını aşağıdaki gibi değiştirin:
+Userscript'in ilk satırını aşağıdaki gibi değiştirin:
 ```
 export default async function ({ addon, console }) {
 ```

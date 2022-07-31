@@ -46,7 +46,7 @@ Si souhaitez écrire vos propres fonction pour avoir un code plus aéré, vous d
 export default async function ({ addon, global, console }) {
   // This works!
   sayHello();
-  function sayHello() {
+  async function sayHello() {
     console.log("Hello, " + await addon.auth.fetchUsername());
   }
 }
@@ -57,7 +57,7 @@ export default async function ({ addon, global, console }) {
   // This WON'T work!
   sayHello();
 }
-function sayHello() {
+async function sayHello() {
   console.log("Hello, " + await addon.auth.fetchUsername());
   // Error: addon is not defined!
 }

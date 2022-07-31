@@ -4,24 +4,33 @@ title: 빠른 시작
 
 ## 설치하기
 
-스크래치 애드온을 설치해봅시다. 스크래치 애드온은 크롬 웹 스토어와 파이어폭스 애드온 모두에서 사용할 수 있습니다.
+Let's get started by installing Scratch Addons.
 
-- [크롬 웹 스토어]
-(https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) (구글 크롬과 엣지나 웨일과 같은 크로미움 기반 브라우저들)
-- [파이어폭스 애드온]
-(https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) (모질라 파이어폭스용)
-- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) (for Microsoft Edge)  
+| Store | 설치하기 | Supported browsers |
+| - | - | - |
+| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome and other Chromium-based browsers
+| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | 모질라 Firefox
+| Microsoft Edge Addons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge
+
+More information can be read on [Installing](../installing).
+
 
 ## 시작하기
 
 시작하려면 애드온의 설정 페이지에 들어가 기능을 확인해야 합니다.
 
-<!-- 사진 추가하기 -->
+1. Locate Scratch Addons on the toolbar and click it.
 
-1. 스크래치 애드온을 툴바에 위치시키고 클릭해보세요.
-   일반적으로 브라우저의 오른쪽 상단 모서리에 있습니다. 구글 크롬 사용자의 경우 스크래치를 사용하지 않는 경우 확장 아이콘을 찾으려면 퍼즐 아이콘을 클릭해야 합니다.
+   Usually, it is on the top-right corner of your browser. For Google Chrome users, you may need to click the puzzle icon to find the extension icon.
+
+   ![](/assets/img/getting-started/step-1.png)
 
 2. 기어 아이콘은 누르고 설정 페이지로 이동하세요.
 
-3. 애드온 리스트에 있는 기능들을 원하는 대로 끄거나 키세요.
-   각 추가 기능의 아래쪽 구역에서 각 추가 기능을 구성할 수도 있습니다.
+   ![](/assets/img/getting-started/step-2.png)
+
+3. Feel free to look through the addons list and turn on/off whatever you want.
+
+   You can also configure an addon in its settings that will open when enabled or expanded.
+
+   ![](/assets/img/getting-started/step-3.png)

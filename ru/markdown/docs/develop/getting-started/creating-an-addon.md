@@ -11,12 +11,12 @@ title: Создание аддона
 Или скачайте как ZIP, если хотите. Иными словами, просто скачайте исходный код локально.
 
 ## Шаг 3: Загрузите расширение в Chrome
-*Примечание: рекомендуется Chrome для работы с аддонами. Всё же, аддоны также должны работать на Firefox.*  
-Теперь, когда у Вас есть расширение на Вашей файловой системе, зайдите на `chrome://extensions` и включите «режим разработчика».  
-Кликните на «загрузить распакованное расширение», затем выберите папку, где находится Scratch Addons. Если у Вас есть проблемы с этим, убедитесь, что Вы выбираете папку, где есть файл `manifest.json`.  
-Готово, Вы загрузили расширение! Это должно выглядеть по типу этого:  
-![изображение](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Примечание: Вы можете проигнорировать «ошибки». Это просто предупреждение о неизвестном ключе манифеста, который нужен браузеру Firefox.
+*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
+Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
+Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
+That's it, you loaded the extension! It should look similar to this:  
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
+Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
 ## Шаг 4: О чём Ваш аддон?
 Теперь самое интересное!  
