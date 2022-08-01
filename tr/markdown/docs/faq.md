@@ -1,5 +1,5 @@
 ---
-title: Sık Sorulan Sorular
+title: Sıkça Sorulan Sorular
 description: Bu sayfa, Scratch Eklentiler uzantısı ve projesiyle ilgili sık sorulan soruları listeler.
 ---
 
@@ -73,7 +73,7 @@ Her neyse, konuya dönelim. Birçok yönden katkıda bulunabilirsiniz ve bazıla
 
   Eklentimizden birinde, ayarlar sayfamızda veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönderin](#what-can-i-do-if-i-find-a-problem).
 
-- **Scratch Eklentilerini Çevirin**
+- **Scratch Eklentilerini çevirin**
 
   İngilizce'den başka bir dili akıcı bir şekilde konuşabiliyorsanız, Scratch Eklentilerini kendi dilinize çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Buradan](/docs/localization/joining-the-localization-team) başlayabilirsiniz.
 

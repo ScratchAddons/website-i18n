@@ -40,7 +40,7 @@ export default async function ({ addon, global, console }) {
   console.log("Merhaba, " + await addon.auth.fetchUsername());
 }
 ```
-Daha temiz bir koda sahip olmak için kendi fonksiyonlarınızı yazmak istiyorsanız, bunları ana fonksiyonların içine dahil etmelisiniz:
+Daha temiz bir koda sahip olmak için kendi fonksiyonlarınızı yazmak istiyorsanız, bunları ana fonksiyonların içine dâhil etmelisiniz:
 **Bu çalışacak:**
 ```js
 export default async function ({ addon, global, console }) {
@@ -92,5 +92,5 @@ export default async function ({ addon, global, console }) {
 Kullanıcı komut dosyalarında hata ayıklamak için öncelikle eklentinizin etkin olduğundan emin olun.
 Ardından, kullanıcı komut dosyanızın çalışması gerektiğini belirttiğiniz bir URL'ye gidin.
 Ctrl+Shift+J tuşlarına basarak konsolu açın.
-Sizinki de dahil olmak üzere eklentilere göre konsol günlüklerini görmelisiniz. Bir devtools uzmanıysanız, kodunuzda kesme noktaları ayarlamakta herhangi bir sorun yaşamayacaksınız.
+Sizinki de dâhil olmak üzere eklentilere göre konsol günlüklerini görmelisiniz. Bir devtools uzmanıysanız, kodunuzda kesme noktaları ayarlamakta herhangi bir sorun yaşamayacaksınız.
 İpucu: Dosyanızı her seferinde değiştirmeden `addon.*` API'sini test etmek istiyorsanız, eklentinizi `window.addon = addon;` yapın (ana işlevin içinde) ve eklentinizin konsoldan `addon` nesnesi. Bu depoya katkıda bulunmadan önce bu satırı kaldırdığınızdan emin olun! Kullanıcı komut dosyaları global nesneyi kirletmemelidir.

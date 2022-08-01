@@ -51,7 +51,7 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her g�
 
 3. Arşivi bir klasöre çıkarın.
 
-### Google Chrome veya Microsoft Edge'ye yükleme
+### Google Chrome'a veya Microsoft Edge'ye yüklemek
 
 1. Uzantı Yönetimi sayfasını açmak için adres çubuğunuza `chrome://extensions` yazın.
 
@@ -71,7 +71,7 @@ Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme ad
 ![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
 
 
-### Mozilla Firefox'da indirme
+### Mozilla Firefox'da indirmek
 
 1. Hata ayıklama sayfasını açmak için adres çubuğunuza `about:debugging` yazın.
 
