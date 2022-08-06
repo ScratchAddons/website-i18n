@@ -51,7 +51,7 @@ Gitをインストールしていない場合は、この方法が利用でき�
 
 3. アーカイブをフォルダーに解凍します。
 
-### Installing on Google Chrome or Microsoft Edge
+### Google ChromeやMicrosoft Edge上でのインストール
 
 1. アドレスバーに `chrome://extensions` と入力し、拡張機能管理ページを開きます。
 
