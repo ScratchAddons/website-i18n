@@ -1,5 +1,5 @@
 ---
-title: Installing
+title: يتم التحميل
 ---
 
 ## From extension stores

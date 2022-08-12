@@ -2,7 +2,7 @@
 title: Quick Start
 ---
 
-## Installing
+## يتم التحميل
 
 Let's get started by installing Scratch Addons.
 

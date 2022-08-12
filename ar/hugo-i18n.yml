@@ -31,7 +31,19 @@ PlayerModal:
   LabelPlay: لعب
   ModalTitle: فيديو
 IndexPage:
+  Intro:
+    InstallButton:
+      Loading: يتم التحميل...
+    ReadMore: أو إقرأ أكثر
   Features:
     AddonsHeading: اضافه
   Install:
     Heading: ثبيت
+  Users: أسماء المستخدمين
+FeedbackPage:
+  SubmitButton: إرسال
+ChangelogPage:
+  Links:
+    Title: الروابط
+UnsupportedBrowserPage:
+  Download: تحميل
