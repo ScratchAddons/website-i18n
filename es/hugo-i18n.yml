@@ -44,6 +44,8 @@ Footer:
     Repository: Repositorio
     Documentation: Documentación
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Contribuyentes de Scratch Addons"
+    NoAffiliation: Scratch Addons no está afiliado, asociado, o de ninguna manera conectado oficialmente con la página web de Scratch o las organizaciones que lo mantienen.
     License: Scratch Addons está licenciado dentro de los términos de la licencia GNU General Public License v3.0.
   Intro: Actualmente {{ .Version }} con {{ .AddonCount }} addons.
 DarkTheme:
