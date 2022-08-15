@@ -7,7 +7,7 @@ Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan sorul
 
 ### Scratch Eklentileri Nedir?
 
-Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, kullanıcı komut dosyalarını ve kullanıcı stillerini, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
+Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, userscript'lerini ve userstyle'larını, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
 ### "Eklenti" tam olarak nedir?
 
@@ -47,7 +47,7 @@ Scratch hesap bilgilerini veya uzantı ayarlarını asla tarayıcınızın dış
 
 ### Scratch'teki insanlara Scratch Eklentileri'nden bahsedebilir miyim?
 
-Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarının/kullanıcı komut dosyalarının reklamını yasaklayan bir politika vardır. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
+Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarının/userscript'lerin reklamını yasaklayan bir politika vardır. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
 
 ### Scratch Eklentilerine nasıl katkıda bulunabilirim?
 

@@ -59,13 +59,13 @@ Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve
 
 Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
 - [Userscript'ler](/docs/develop/addon-types/userscripts)
-- [Kullanıcı stilleri](/docs/develop/addon-types/userstyles)
+- [Userstyle'lar](/docs/develop/addon-types/userstyles)
 
 ## 10. Adım: Eklentinizi özelleştirilebilir yapın
-İsterseniz eklentinizi özelleştirilebilir hale getirebilirsiniz!
+İsterseniz eklentinizi özelleştirilebilir hâle getirebilirsiniz!
 Eklentinizin kullanıcıları ayarları değiştirebilir, sayı girebilir ve çok daha fazlasını yapabilir!
 Başlamak için [eklenti bildiriminde ayarların nasıl bildirileceğine](/docs/reference/addon-manifest/#settings-object) göz atın.
-Ardından, kullanıcı komut dosyalarından kullanıcı seçeneklerine nasıl erişileceğini öğrenmek için [addon.settings belgelerine](/docs/reference/addon-api/addon.settings) bakın.
+Ardından, userscript'lerden kullanıcı seçeneklerine nasıl erişileceğini öğrenmek için [addon.settings belgeleri](/docs/reference/addon-api/addon.settings)ne bakın.
 
 ## 11. Adım: Eklentinizi yayınlamadan önce
 Artık eklentiniz çalıştığına göre, onu eklenti kitaplığına ekleyebileceğimizden emin olalım.  

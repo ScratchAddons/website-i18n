@@ -17,7 +17,7 @@ Global:
     Next: Sonraki
     First: Birinciye git
     Last: Sonuncuya git
-    SlideX: "{{ .Count }}. öğeye git"
+    SlideX: "{{ .Count }}. ögeye git"
 Links:
   Docs: Belgeler
   Addons: Eklentiler
@@ -69,7 +69,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
-    Description: Scratch Eklentileri, Scratch sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen kullanıcı temalarını ve kullanıcı komut dosyalarını toplamak, arşivlemek ve kullanıma sokmaktır.
+    Description: Scratch Eklentileri, Scratch sitesi ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen userstyle'ları ve userscript'leri toplamak, arşivlemek ve kullanıma sokmaktır.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak

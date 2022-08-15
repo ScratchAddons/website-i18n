@@ -18,9 +18,9 @@ Scratch Eklentileri bu mağazalarda mevcuttur
 
 [Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentilerin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
 
-### Depoyu klonla
+### Depoyu klonlama
 
-Scratch Eklentilerini geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in halihazırda kurulu olduğunu varsayar.
+Scratch Eklentilerini geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in hâlihazırda kurulu olduğunu varsayar.
 
 Depoyu indirmek için `https://github.com/ScratchAddons/ScratchAddons.git` dosyasını klonlamanız yeterlidir.
 
@@ -34,7 +34,7 @@ $ git fetch
 $ git pull
 ```
 
-Bu, Scratch Eklentilerini güncelleyecek ve kodu düzenlemeye hazır hale getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
+Bu, Scratch Eklentilerini güncelleyecek ve kodu düzenlemeye hazır hâle getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
 
 
 ### Zipball'u indirmek
@@ -55,13 +55,13 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her g�
 
 1. Uzantı Yönetimi sayfasını açmak için adres çubuğunuza `chrome://extensions` yazın.
 
-2. Geliştirici Modunu açmak için `Geliştirici modu`'nun yanındaki geçiş düğmesine tıklayın. Bu, bir klasörden veya dosyadan uzantılar yüklemenize olanak tanır.
+2. Geliştirici Modunu açmak için `Geliştirici modu`'nun yanındaki açma/kapama düğmesini açık hâle getirin. Bu, uzantıları bir klasörden veya dosyadan yüklemenize olanak tanır.
 
    ![Uzantı Yönetim çubuğunun ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
 
-3. `Sıkıştırılmamış'ı yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
+3. `Sıkıştırılmamışı yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
 
-   ![Paketlenmemiş'i yükle düğmenin ekran görüntüsü](/assets/img/docs/load-unpacked-button.png)
+   ![Sıkıştırılmamışı yükle düğmenin ekran görüntüsü](/assets/img/docs/load-unpacked-button.png)
 
 4. Çıkarılan klasörü seçin.
 5. Uzantı artık yüklenmiş olmalıdır.
@@ -71,13 +71,13 @@ Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme ad
 ![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
 
 
-### Mozilla Firefox'da indirmek
+### Mozilla Firefox'da indirme
 
 1. Hata ayıklama sayfasını açmak için adres çubuğunuza `about:debugging` yazın.
 
 2. Soldaki menüden `Bu Firefox` butonuna tıklayın.
 
-   ![Sol-el menüsünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
+   ![Soldaki menünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
 
 4. `Geçici Eklenti Yükle...` seçeneğine tıklayın.
 

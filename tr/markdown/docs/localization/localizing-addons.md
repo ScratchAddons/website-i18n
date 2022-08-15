@@ -9,11 +9,11 @@ Eklentileri yerelleştirmek kolaydır.
 
 ```json
 {
-  "ADDONID/meow": "Miyav",
+  "ADDONID/meow": "Meow",
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
-  "ADDONID/eat": "Bir {food} yemek istiyorum!",
-  "ADDONID/salmon": "somon",
-  "ADDONID/sardine": "sardalya"
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine"
 }
 ```
 
@@ -34,19 +34,19 @@ ile:
 export default async function ({ addon, console, msg }) {
 ```
 
-Eklenen `msg`, çevirileri almak için kullandığınız işlevdir. Örneğin, `text = "Miyav"` artık `metin = msg("miyav")` olabilir. Eklenti kimliği ve eğik çizgi atlanır.
+Eklenen `msg`, çevirileri almak için kullandığınız işlevdir. Örneğin, `text = "Meow"` artık `metin = msg("meow")` olabilir. Eklenti kimliği ve eğik çizgi atlanır.
 
 ### Yer tutucular
 Yer tutucuya değer verebilirsiniz:
 ```js
-cat = msg("kediler", {number: 1}) // shows "1 kedi"
-cats = msg("kediler", {number: 3}) // shows "3 kedi"
-hungry = msg("yemek", {food: "Morina"}) // shows "Morina yemek istiyorum!"
+cat = msg("cats", {number: 1}) // "1 cat" yazısını gösterir
+cats = msg("cats", {number: 3}) // "3 cats" yazısını gösterir
+hungry = msg("eat", {food: "cod"}) // "I want to eat cod!" yazısını gösterir
 ```
 
 Ayrıca mesajları "iç içe" yerleştirebilirsiniz:
 ```js
-hungry2 = msg("yemek", {food: msg("somon")}) // shows "Bir somon yemek istiyorum!"
+hungry2 = msg("eat", {food: msg("salmon")}) // "I want to eat salmon!" yazısını gösterir
 ```
 
 ### Güvenlik

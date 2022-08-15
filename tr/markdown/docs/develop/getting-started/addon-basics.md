@@ -3,14 +3,14 @@ title: Eklenti Temelleri
 ---
 
 ## Eklenti nedir, gerçekten?
-Aslında bir eklenti, bir kullanıcı komut dosyası ile bir kullanıcı stili veya ikisinin de birleşiminden fazlası değildir. Bunlardan herhangi biri varsa, onları tek bir ad altında aynı eklenti'nin parçası yaparız. Örneğin, "Scratch 3 Geliştirici Araçları" eklentisinde, düzenleyiciye bir arama çubuğu eklemekten sorumlu bir kullanıcı komut dosyası ve bu kutuya CSS ekleyen bir kullanıcı stili vardır.
+Aslında bir eklenti, bir userscript ile bir userstyle ya da ikisinin de birleşiminden fazlası değildir. Bunlardan herhangi biri varsa, onları tek bir ad altında aynı eklentinin parçası yaparız. Örneğin, "Scratch 3 Geliştirici Araçları" eklentisinde, düzenleyiciye bir arama çubuğu eklemekten sorumlu bir userscript ve bu kutuya CSS ekleyen bir userstyle vardır.
 
 ## Userscript nedir?
 Bir userscript, bir Scratch sekmesiyle birlikte çalışan bir JavaScript kodu parçasıdır. Bu userscript'in nerede çalışacağını seçebilirsiniz, örneğin yalnızca proje sayfalarını belirtebilirsiniz. Userscript'ler, tarayıcı uzantılarındaki içerik komut dosyalarına benzer ve daha önce bir userscript yöneticisi kullandıysanız, bunların temelde aynı olduğunu göreceksiniz.
 Userscript'ler, örneğin gezinme çubuğuna düğmeler eklemek veya kaldırmak gibi, Scratch sitesinin davranışını değiştirmek için yararlıdır.
 
-## Kullanıcı stili nedir?
-Kullanıcı stili, kullanıcı komut dosyasına benzer; onlar için bağlantı kalıpları da belirtebilirsiniz. Ancak, kullanıcı stilleri JavaScript yerine CSS'i kullanır. Bunlar genellikle kullanıcı komut dosyalarında kendileri tarafından eklenen öğelere stil vermek için kullanılırlar, ancak yerel Scratch öğelerine stil vermek için de kullanılabilirler. Durum böyle olduğundan, genellikle onlara "temalar" deriz.
+## Bir userstyle nedir?
+Bir userstyle, userscript'e benzer; onlar için bağlantı kalıpları da belirtebilirsiniz. Ancak, userstyle'lar JavaScript yerine CSS'i kullanır. Bunlar genellikle userscript'lerde kendileri tarafından eklenen ögelere stil vermek için kullanılırlar, ancak yerel Scratch ögelerine stil vermek için de kullanılabilirler. Durum böyle olduğundan, genellikle onlara "temalar" deriz.
 
 ## Kavramsal olarak, bir eklenti ne olmalıdır?
 Yeni bir eklenti oluşturmanın veya mevcut bir eklentiyi değiştirmenin daha iyi bir fikir olup olmadığını merak edebilirsiniz.
