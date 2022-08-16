@@ -1,5 +1,7 @@
 Global:
   Install: 安裝
+Links:
+  Credits: 信任
 Nav:
   Feedback: 发送评价
   Repository: 存儲庫
@@ -14,6 +16,7 @@ Footer:
     Issues: 問題
   Resources:
     Repository: 存儲庫
+    Documentation: 文件
 Docs:
   TOC: 目錄
   LastUpdated: "最後更新時間在 {{.Date}} "

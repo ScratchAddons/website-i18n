@@ -4,24 +4,24 @@ title: Come iniziare subito
 
 ## Installazione
 
-Let's get started by installing Scratch Addons.
+Iniziamo installando Scratch Addons.
 
-| Store | Installa | Supported browsers |
+| Store | Installa | Browser supportati |
 | - | - | - |
-| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome and other Chromium-based browsers
-| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox
-| Microsoft Edge Addons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge
+| Web Store di Chrome | [![Installa da Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome e altri browser basati su Chromium
+| Addon per Firefox | [![Installa negli Add-ons di Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox
+| Addon di Microsoft Edge | [![Installa negli Addon di Microsoft Edge](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge
 
-More information can be read on [Installing](../installing).
+Ulteriori informazioni possono essere trovate alla pagina [Installazione](../installing).
 
 
 ## Come iniziare
 
-Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere come funziona.
+Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere le sue funzioni.
 
-1. Locate Scratch Addons on the toolbar and click it.
+1. Localizza Scratch Addons nella toolbar e cliccalo.  
 
-   Usually, it is on the top-right corner of your browser. For Google Chrome users, you may need to click the puzzle icon to find the extension icon.
+   Di solito lo trovi nell'angolo in alto a destra del tuo browser. Per gli utenti di Google Chrome può essere necessario cliccare l'icona del puzzle per trovare l'icona dell'estensione.
 
    ![](/assets/img/getting-started/step-1.png)
 
@@ -29,8 +29,8 @@ Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere 
 
    ![](/assets/img/getting-started/step-2.png)
 
-3. Feel free to look through the addons list and turn on/off whatever you want.
+3. Scorri liberamente l'elenco degli addon e abilita/disabilita quello che ti interessa.
 
-   You can also configure an addon in its settings that will open when enabled or expanded.
+   Puoi anche configurare un addon nelle sua sezione delle impostazioni che si apre quando lo abiliti o lo espandi.
 
    ![](/assets/img/getting-started/step-3.png)

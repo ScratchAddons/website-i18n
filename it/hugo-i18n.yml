@@ -19,11 +19,13 @@ Global:
     Last: Vai alla fine
     SlideX: Vai al {{ .Count }}° elemento
 Links:
+  Docs: Documenti
   Addons: Gli Addon
   Credits: Crediti
   PrivacyPolicy: Politica della Privacy
-  DiscordCom: Comunità su Discord
+  DiscordCom: Comunità Discord
   Discussion: Pagina di Discussione
+  Community: Comunità
 Nav:
   Feedback: Invia Feedback
   Repository: Archivio
@@ -44,6 +46,8 @@ Footer:
     Repository: Archivio
     Documentation: Documentazione
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Collaboratori di Scratch Addons"
+    NoAffiliation: Scratch Addon non è affiliato, associato o connesso ufficialmente in alcun modo con il sito di Scratch o l'organizzazione che lo gestisce.
     License: Scratch Addon è concesso in licenza secondo i termini della GNU General Public License v3.0.
   Intro: Al momento {{ .Version }} con {{ .AddonCount }} addon.
 DarkTheme:
