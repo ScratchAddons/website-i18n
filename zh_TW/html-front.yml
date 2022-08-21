@@ -2,6 +2,8 @@ addons.html:
   description: 此頁面列出了在 Scratch Addons 上實現的所有插件.
 changelog.html:
   title: 更改日誌
+credits.html:
+  title: 信任
 farewell.html:
   title: 告別
   description: Scratch Addons 已被卸载. 我們非常感謝您使用我們的插件!
