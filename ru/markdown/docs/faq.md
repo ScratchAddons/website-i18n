@@ -5,109 +5,173 @@ description: На этой странице перечислены часто з
 
 На этой странице перечислены часто задаваемые вопросы о расширении Scratch Addons и проекте.
 
+## General questions
+
 ### Что такое Scratch Addons?
 
 Scratch Addons — браузерное расширение «всё в одном» для веб сайта Scratch и его редактора проектов. Он даёт новые функции и темы (которые называются аддонами), для веб сайта Scratch и редактора проектов. Миссия Scratch Addons — соединить все существующие Scratch расширения, юзерскрипты и юзерстили, которые разработаны некоторыми участниками сообщества Scratch, в одно место с лёгким доступом, давая пользователям выбирать, какие нужно включить.
 
-### Что такое «аддон»?
+### Who created Scratch Addons?
 
-Аддон похож на расширение или юзерскрипт, но они используют специальные API, которые предоставлены расширением Scratch Addons. Эти API позволяют аддонам выполнять скрипты на странице Scratch (юзерскрипты) или применять стили к веб-сайту Scratch (юзерстили).
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
-Юзерскрипты могут использовать JavaScript API `addon.*`, которые позволяют им получать соответствующую информацию о Scratch (например, получать пользователя, который вошёл в систему) и также использовать API расширения (по типу отправления уведомлений).
+### What does Scratch Addons include?
 
-### Если всё — это аддон, то что делает Scratch Addons?
+Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
 
-В двух словах, Scratch Addons — загрузчик аддонов. Его основные задачи:
+### Is this the same as TurboWarp Addons?
 
-- Позволять пользователям включать, выключать и настраивать аддоны.
-- Запускать аддоны и давать им различные API.
-- Предоставлять глобальное состояние аддонам (например, API addon.auth).
-- Создавать прототипы для испольщования с помощью юзерскриптов для аддонов.
-- Предоставлять способы, чтобы получить доступ к состоянию Redux и доступ к модифицированию состояния.
-- Избегайте тех случаев, когда аддоны мешают друг другу.
-- Избегайте скопированную работу из других аддонов.
+[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+
+## System requirements
+
+### What are the system requirements for Scratch Addons?
+
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up) and [Mozilla Firefox](https://mozilla.org/firefox/) (version 74 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+
+### Can I use Scratch Addons on a mobile device?
+
+For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+
+For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+
+### Can I use Scratch Addons on Safari?
+
+Currently, you cannot.
+
+First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+
+### Can I use Scratch Addons on the offline editor?
+
+Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+
+As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+
+### Are there any incompatible programs?
+
+Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+
+- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
+- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
+- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+
+## Security and privacy
 
 ### Scratch Addons безопасен?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code is constantly being verified by Scratch Addons contributors, as well as by reviewers from the Chrome Web Store, Add-ons for Firefox and Microsoft Edge Add-ons.
+Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
 
 ### Как я могу сказать о проблеме с безопасностью?
 
-Если Вы как-то нашли проблему с безопасностью, пожалуйста, свяжитесь с World_Languages лично через электронную почту: `worldxlanguages@gmail.com`. Если Вы не получите ответ в течении 48 часов, пожалуйста, создайте проблему [здесь](https://github.com/ScratchAddons/ScratchAddons/issues/), с упоминанием того, что Вы отправили имейл.
+If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
 
-Вы можете [прочитать нашу политику безопасности](https://github.com/ScratchAddons/ScratchAddons/security/policy) или [ознакомиться с нашими рекомендациями, которые мы опубликовали](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Будет ли мой аккаунт безопасен во время использования Scratch Addons?
 
-Scratch Addons не использует учётные данные Вашего Scratch аккаунта, чтобы работать. На самом деле, если Вы выйдите из своего Scratch аккаунта, Scratch Addons будет всё равно работать. Scratch Addons будет только отправлять запросы на основах куки которые у Вас есть, который предоставляется браузером для каждого запроса, поэтому некоторые аддоны по типу Scratch Messaging не будут работать пока Вы входите, но это не затронет другие части расширения.
+Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
 
 Аддоны на Scratch Addons также были редактированы некоторыми тех, кто внёс вклад на репозитории, так что никто не может просто засунуть вредоносный код под нашими глазами.
 
-Мы никогда не отправляем информацию о аккаунте Scratch или настройки расширения вне Вашего браузера. См. [политику конфиденциальности расширения](/docs/privacy/policies/extension) для большей информации.
+We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+
+## Using Scratch Addons
+
+### How do I enable addons?
+
+To enable addons, first go to the settings by:
+
+- opening the popup and clicking the gear icon on the top-right corner
+- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+
+Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
 
 ### Могу ли я говорить людям о Scratch Addons на Scratch?
 
-Вы не можете, и, пожалуйста, не надо. Есть правило, которое запрещает рекламу браузерных расширений/юзерскриптов [здесь](https://scratch.mit.edu/discuss/post/2907564/). Правда, Вы можете использовать другие способы чтобы рассказать Вашим друзьям о Scratch Addons.
+You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+
+### Мне кажется, Scratch Addons замедляет Scratch. Что я могу сделать?
+
+You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+
+Some specific advices:
+- Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
+- "Variable manager" addon should not be used while the project is running.
+
+### I cannot receive notifications. Why?
+
+First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+
+If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+
+- Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
+- macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
+
+You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
+
+### How do I watch recordings made with the project video recorder addon?
+
+Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+
+To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
+
+### Как можно активировать пасхальные аддоны?
+
+Чтобы показать пасхальные аддоны, введите код Конами (↑↑↓↓←→←→BA) клавиатурой на странице настроек. Затем пасхальные аддоны будут показаны, позволяя Вам активировать их.
+
+Некоторые из наших пасхальных аддонов — «Аддон, который ничего не делает» («Исправить капитализацию слов "Настройки Учётной Записи"») и «Глюк точки с запятой». Вгляните на [вкладку аддонов](/addons) для полного списка.
+
+## Contributing
 
 ### Как я могу внести вклад в Scratch Addons?
 
-Во-первых, спасибо за Ваш проявленный интерес. Мы ценим Ваш интерес и Ваши последующие вклады.
+Firstly, we appreciate your interest in contributing to Scratch Addons!
 
-Как проект с открытым исходным кодом, мы приветствуем любых внёсшие вклад. Вам даже не надо спрашивать нас или иметь какой-либо ранг. Приветствуется любой желающий. Есть даже шанс, что Вы не осознаете, что помогли проекту!
-
-Итак, вернёмся к делу. Вы можете помочь проекту разными способами, и некоторые из них очень лёгкие.
+As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
 
 - **Помочь с кодом**
 
-  Если Вы умеете программировать на JavaScript, HTML5 и CSS, то Вы можете внести вклад программированием. Вы можете исправить баги, заняться некоторыми запросами или сделать свой аддон.
+  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
 
-  После этого, Вам нужно сделать pull запрос. Нужно раздвоить (fork) [репозиторию](https://github.com/ScratchAddons/ScratchAddons/), сделать нужные Ваши изменения и сделать pull запрос. Если Ваши изменения будут возможным, мы объединим их.
+  To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
 
-  Вы также можете внести вклад не только в расширение. Вы можете посмотреть наши репозитории в [странице нашей организации GitHub](https://github.com/ScratchAddons) и помочь нам их разрабатывать.
+You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
 
 - **Предложить идею**  
 
-  Есть что-то, что будет хорошим дополнением к Scratch Addons? [Скажите нам!](#i-think-you-missed-a-feature-what-can-i-do)
+  Have an idea that you think would be a good addition to Scratch Addons? [Let us know!](#i-think-you-missed-a-feature-what-can-i-do)
 
 - **Пожаловаться на баг**
 
-  Нашли баг в одном из наших аддонов, странице настроек или любое другое в нашем расширении? [Отправьте нам жалобу о баге](#what-can-i-do-if-i-find-a-problem).
+  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
 
 - **Перевести Scratch Addons**  
 
-  Если Вы можете разговаривать на другом языке, который не английский, Вы можете помочь с переводом Scratch Addons на Ваш язык. Вы можете начать [отсюда](/docs/localization/joining-the-localization-team).
+  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team].(/docs/localization/joining-the-localization-team).
 
 - **Написать документацию**
 
-  Вы знакомы с Scratch Addons? Если да, то Вы можете написать документацию для него. Документация может содержать как использовать это или как это работает. Пожалуйста, свяжитесь с нами в [вкладке обсуждений](https://github.com/ScratchAddons/ScratchAddons/discussions) для большей информации.
+  Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
 
 - **Отправить отзыв**
 
-  Вы можете отправить отзыв на нашей форме, которая находиться в [странице обратной связи](https://scratchaddons.com/feedback). Ваши отзывы могут дать нам другой взгляд на разработку расширения и помочь нам понять, на что необходимо обратить внимание, и исправить ошибки.
+  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Написать отзыв на магазинах расширений**
 
-  You can leave us a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or the [Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj).
+  You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
 
 - **Поставить звезду на нашей репозитории**
 
-  В двух словах, звёздочка в GitHub похожа на звёздочку в Scratch. Вы можете это сделать, зайдя на [нашу репозиторию](https://github.com/ScratchAddons/ScratchAddons) и кликая кнопку «Star» в правом-верхнем углу.
+  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and clicking the "Star" button on the top-right corner.
 
 - **Рассказать о Scratch Addons**
 
-  Вы можете рассказать любым о Scratch Addons, например, Вашим друзьям, родственникам, членам семьи или даже Вашему учителю, если хотите. Только пожалуйста, [не делайте это на сайте Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
+You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Как я могу сделать свой аддон?
 
-Прочитайте, как сделать аддон в Scratch Addons [здесь](/docs/develop/getting-started).
-
-### Как я могу попасть в [странице тех, кто внёс вклад](/contributors)?
-
-Пожалуйста, прочитайте и следуйте инструкции [этой проблемы (issue)](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}), чтобы попасть на ту страницу.
-
-### Как я могу удалить своё имя с [страницы тех, кто внёс вклад](/contributors)?
-
-Если Вы не хотите быть на той странице, скажите нам, создав проблему (issue) на [нашей репозитории внёсших вклад](https://github.com/ScratchAddons/contributors/issues/) или другими способами связи. Приносим извинения за причиненные неудобства.
+Read more about it [here](/docs/develop/getting-started).
 
 ### Что я могу сделать, если я найду проблему?
 
@@ -120,22 +184,40 @@ Scratch Addons не использует учётные данные Вашег�
 
 ### Мне кажется, Вы пропустили особенность. Что я могу сделать?
 
-Если Вы считаете, что какая-либо фича отсутствует, Вы хотите предложить аддон для расширения или у Вас есть хорошая идея, скажите нам [с помощью одних из этих способов](#what-can-i-do-if-i-find-a-problem).
+If you want to suggest an addon for the extension or have some other kind of good idea, tell us with [one of these methods](#what-can-i-do-if-i-find-a-problem).
 
-### Где я могу обсуждать о Scratch Addons?
+### Where can I discuss Scratch Addons?
 
-Вы можете это сделать на [нашей вкладке «Discussion»](https://github.com/ScratchAddons/ScratchAddons/discussions) или на [нашем Discord сервере](https://discord.gg/R5NBqwMjNc). Там Вы можете обсуждать это и спрашивать вопросы, если у Вас есть проблемы.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
-### Мне кажется, Scratch Addons замедляет Scratch. Что я могу сделать?
+## Technical
 
-Попробуйте отключить аддоны, которые Вам не нужны. А также проверьте уведомления и предупреждения аддонов чтобы решить, какие аддоны должны быть выключены для повышения производительности.
+### Что такое «аддон»?
 
-### Как можно активировать пасхальные аддоны?
+Аддон похож на расширение или юзерскрипт, но они используют специальные API, которые даны расширением Scratch Addons. Эти API разрешают аддонам запускать скрипты на странице Scratch (юзерскрипты), запускать скрипты на фоне (постоянные скрипты) или добавлять стили к веб сайту Scratch (юзерстили).
 
-Чтобы показать пасхальные аддоны, введите код Конами (↑↑↓↓←→←→BA) клавиатурой на странице настроек. Затем пасхальные аддоны будут показаны, позволяя Вам активировать их.
+Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
 
-Некоторые из наших пасхальных аддонов — «Аддон, который ничего не делает» («Исправить капитализацию слов "Настройки Учётной Записи"») и «Глюк точки с запятой». Вгляните на [вкладку аддонов](/addons) для полного списка.
+### Если всё — это аддон, то что делает Scratch Addons?
+
+By itself, Scratch Addons is just an addon loader. Its main tasks are to:
+
+- Позволять пользователям включать, выключать и настраивать аддоны.
+- Запускать аддоны и давать им различные API.
+- Provide useful data to addons (for example, the addon.auth API).
+- Создавать прототипы для испольщования с помощью юзерскриптов для аддонов.
+- Предоставлять способы, чтобы получить доступ к состоянию Redux и доступ к модифицированию состояния.
+- Избегайте тех случаев, когда аддоны мешают друг другу.
+- Избегайте скопированную работу из других аддонов.
+
+## Other 
+
+### How can I add/remove myself to/from the contributors page?
+
+If you want your name to be on the page, please read and follow the instructions of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
+
+If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
 
 ### У меня есть ещё вопросы!
 
-Если у Вас есть больше вопросов, Вы можете создать пост на [нашей вкладке «Disscusion»](https://github.com/ScratchAddons/ScratchAddons/discussions) или отправить сообщение [на нашем Discord сервере](https://discord.gg/R5NBqwMjNc). Кто-то попробует ответить на Ваш вопрос.
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

@@ -18,11 +18,13 @@ Global:
     Last: Pojdi na konec
     SlideX: Pojdi na predmet {{ .Count }}
 Links:
+  Docs: Dokumentacija
   Addons: Dodatki
   Credits: Zahvale
   PrivacyPolicy: Politika zasebnosti
   DiscordCom: Discord za skupnost
   Discussion: Forum
+  Community: Skupnost
 Nav:
   Feedback: Povratne informacije
   Repository: Izvirna koda
@@ -44,6 +46,8 @@ Footer:
     Repository: Izvirna koda
     Documentation: Dokumentacija
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} sodelavci Scratch Addons"
+    NoAffiliation: Scratch Addons ni na noben način povezan s Scratchevo spletno stranjo ali organizacijami, ki zanjo skrbijo.
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
   Intro: Trenutno {{ .Version }} z {{ .AddonCount }} dodatki.
 DarkTheme:
