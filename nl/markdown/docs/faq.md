@@ -5,39 +5,39 @@ description: Op deze pagina staan veelgestelde vragen verwant met de Scratch Add
 
 Op deze pagina staan veelgestelde vragen verwant met de Scratch Addons-extensie en -project.
 
-## General questions
+## Algemene vragen
 
 ### Wat is Scratch Addons?
 
 Scratch Addons is een alles-in-een browserextensie voor de Scratchwebsite en -projecteditor. Het geeft je functies en thema's (intern genaamd addons) voor zowel de Scratchwebsite als de projecteditor. De missie van Scratch Addons is om alle bestaande Scratchextensies, userscripts en userstyles te combineren, gemaakt door meerdere leden van de Scratchgemeenschap, in een enkele makkelijk toegankelijke plaats, terwijl gebruikers nog steeds mogen kiezen welke ze willen aanzetten.
 
-### Who created Scratch Addons?
+### Wie heeft Scratch Addons gemaakt?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is een teamproject geleid door World_Languages. De lijst van onze bijdragers kun je vinden in de [Bijdragers-Pagina](/contributors). Hoewel de "Scratch Berichten"- en "Ontwikkelaarstools"-addons origineel gemaakt zijn door griffpatch, onderhoudt hij de extensie niet.
 
-### What does Scratch Addons include?
+### Wat houdt Scratch Addons in?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons heeft meer dan 100 addons die allemaal apart aan of uit kunnen worden gezet. Sommige addons kunnen ook nog verder worden ingesteld, en sommigen komen met voorinstellingen, zoals een donkere modus voor het websitethema. Scratch Addons komt ook met een pop-up waarmee je snel bij je berichten, cloudspellen, en de instellingenpagina kunt komen. Scratch Addons is vertaald naar meerdere talen, inclusief Duits, Frans, Spaans, en Japans.
 
-### Is this the same as TurboWarp Addons?
+### Wat is het verschil tussen Scratch Addons en TurboWarp Addons?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) heeft een paar addons overgenomen van Scratch Addons die je kan gebruiken in hun editor zonder Scratch Addons te installeren. Scratch Addons heeft echter wel addons voor de Scratch website en de pop-up. Daarom is het nog wel handig om Scratch Addons te hebben, ook als je alleen TurboWarp gebruikt.
 
 ## Systeemvereisten
 
-### What are the system requirements for Scratch Addons?
+### Wat zijn de systeemvereisten voor Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up) and [Mozilla Firefox](https://mozilla.org/firefox/) (version 74 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons wordt officieel ondersteund op de desktop-versies van [Google Chrome](https://google.com/chrome/) (versie 80 of hoger) en [Mozilla Firefox](https://mozilla.org/firefox/) (versie 74 of hoger), en zou ook moeten werken op andere desktop-browsers die op die browsers zijn gebaseerd. Neem een kijkje op [deze pagina](../getting-started/installing/) voor complete informatie.
 
-### Can I use Scratch Addons on a mobile device?
+### Kan ik Scratch Addons op een mobiel apparaat gebruiken?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Voor Android-gebruikers: Ja, maar het is niet aangeraden. Grote browsers staan het installeren van Scratch Addons (of alle andere extensies) niet toe, dus je moet browsers zoals [Kiwi](https://kiwibrowser.com/) gebruiken. De UI van Scratch Addons is niet volledig getest op touchscreen of kleine schermen, dus sommige functies werken niet als verwacht.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+Voor iOS en iPadOS-gebruikers: Helaas kan dit niet. Het beleid van de App Store staat het uploaden van browser-implementaties niet toe, wat betekent dat alle browsers die beschikbaar zijn op dat platform eigenlijk gewoon Safari zijn. Dit veroorzaakt wat problemen (zie hieronder).
 
-### Can I use Scratch Addons on Safari?
+### Kan ik Scratch Addons op Safari gebruiken?
 
-Currently, you cannot.
+Helaas kan dat op dit moment niet.
 
 First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
 

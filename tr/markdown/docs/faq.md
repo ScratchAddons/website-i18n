@@ -5,47 +5,47 @@ description: Bu sayfa, Scratch Eklentiler uzantısı ve projesiyle ilgili sık s
 
 Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan soruları listeler.
 
-## General questions
+## Genel sorular
 
 ### Scratch Eklentileri Nedir?
 
 Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, userscript'lerini ve userstyle'larını, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
-### Who created Scratch Addons?
+### Scratch Eklentileri'ni kim kurdu?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Eklentileri, World_Languages ​​tarafından yönetilen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler](/contributors/tr) sayfasında bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, o, eklentileri sürdürmez.
 
-### What does Scratch Addons include?
+### Scratch Eklentileri neleri içerir?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırakılabilen 100'den fazla eklenti içerir. Bazı eklentiler ayrıca daha fazla yapılandırılabilir ve bazılarının site teması için karanlık mod gibi ön ayarları vardır. Scratch Eklentileri ayrıca mesajlara, bulut oyunlarına ve ayarlar sayfasına hızlı bir şekilde erişmek için kullanılabilecek bir açılır pencere içerir. Scratch Eklentileri, Almanca, Fransızca, İspanyolca, Japonca ve Türkçe de dâhil olmak üzere birçok dile çevrilmiştir.
 
-### Is this the same as TurboWarp Addons?
+### Bu TurboWarp Eklentileri ile aynı mı?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/), Scratch Eklentileri'ni yüklemeden düzenleyicilerinde kullanılabilecek Scratch Eklentileri'nden bazı eklentilere sahiptir. Ancak, Scratch Eklentileri ayrıca Scratch sitesi ve açılır ekran için eklentiler de içerir. Bu nedenle, yalnızca TurboWarp kullanarak kod yazsanız bile Scratch Eklentilerine sahip olmak yine de yararlıdır.
 
 ## Sistem gereksinimleri
 
-### What are the system requirements for Scratch Addons?
+### Scratch Eklentileri için sistem gereksinimleri nelerdir?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up) and [Mozilla Firefox](https://mozilla.org/firefox/) (version 74 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Eklentileri, [Google Chrome](https://google.com/chrome/) (sürüm 80 ve üzeri) ve [Mozilla Firefox](https://mozilla.org/firefox/)  (sürüm 74 ve üzeri) masaüstü sürümlerinde resmî olarak desteklenmektedir ve bu tarayıcıları temel alan diğer masaüstü tarayıcılarında da çalışmaktadır. Tam bilgi için lütfen [bu sayfaya](./getting-started/installing/tr/) göz atın.
 
-### Can I use Scratch Addons on a mobile device?
+### Scratch Eklentileri'ni bir mobil cihazda kullanabilir miyim?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Android kullanıcıları için: Evet, ancak önerilmez. Büyük tarayıcılar, Scratch Eklentileri'nin (veya diğer uzantıların) yüklenmesine izin vermez, bu nedenle bunu yapmak için [Kiwi](https://kiwibrowser.com/) gibi tarayıcıları kullanmanız gerekir. Scratch Eklentileri'nin kullanıcı arayüzü, dokunmatik veya küçük ekran boyutuna sahip ortamlarda iyi test edilmemiştir, bu nedenle bazı özellikler beklendiği gibi çalışmayabilir.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+iOS ve iPadOS kullanıcıları için: Ne yazık ki hayır. App Store politikası, tarayıcı uygulamalarının yüklenmesine izin vermez; bu, o platformda bulunan tüm tarayıcıların yalnızca yeniden kaplanmış bir Safari tarayıcısı olduğu anlamına gelir. Bu, bazı sorunlara neden olur (aşağıya bakın).
 
-### Can I use Scratch Addons on Safari?
+### Scratch Eklentileri'ni Safari'de kullanabilir miyim?
 
-Currently, you cannot.
+Şu anlık, hayır.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+İlk olarak, Safari uzantı mağazasındaki tüm geliştiricilerin mağazada uzantılarını listelemeleri için yıllık bir ücret ödemesini gerektirir. Scratch Eklentileri ekibinin bir gelir kaynağı olmadığı için bu uzantıyı sürdürmeyi oldukça zorlaştırıyor. Ayrıca Safari'de, tarayıcı uzantılarının uygulanmasında bazı temel özellikleri kullanılamaz hâle getiren teknik bir sorun var.
 
-### Can I use Scratch Addons on the offline editor?
+### Çevrim dışı düzenleyicide Scratch Eklentileri'ni kullanabilir miyim?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Eklentileri, çevrim dışı düzenleyici de dâhil olmak üzere resmî Scratch uygulamasında kullanılamaz.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Bir alternatif olarak ise, proje düzenleyici eklentilerinin çoğu, Windows, macOS ve Linux için [indirilebilir bir uygulamaya](https://desktop.turbowarp.org/) sahip olan [TurboWarp](https://turbowarp.org/) adresinde mevcuttur. Ayrıca Google Chrome gibi Aşamalı Web Uygulamalarını (PWA) destekleyen tarayıcılarda TurboWarp düzenleyicisini PWA olarak yükleyebilir ve internet bağlantısı olmadan kullanabilirsiniz.
 
 ### Are there any incompatible programs?
 

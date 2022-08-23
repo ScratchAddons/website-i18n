@@ -5,19 +5,19 @@ description: Esta página lista preguntas frecuentes sobre la extensión y el pr
 
 Esta página lista preguntas frecuentes sobre la extensión y el proyecto de Scratch Addons
 
-## General questions
+## Preguntas generales
 
 ### ¿Qué es Scratch Addons?
 
 Scratch Addons es una extensión de navegador "todo en uno" para el sitio web de Scratch y el editor de proyectos. Provee funciones y temas (llamados addons internamente), ambos para el sitio web de Scratch y el editor de proyectos. La misión de Scratch Addons es combinar todos las extensiones de Scratch, userscripts y userstyles, desarrollados por varios miembros de la comunidad de Scratch, en un solo lugar, mientras dejamos a los usuarios elegir cuáles habilitar.
 
-### Who created Scratch Addons?
+### ¿Quién creó Scratch Addons?
 
 Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
-### What does Scratch Addons include?
+### ¿Qué incluye Scratch Addons?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons incluye más de 100 addons, los cuales pueden ser activados o desactivados individualmente. Algunos addons pueden además ser configurados y tienen presets (conjuntos de configuraciones determinadas para un addon), como el tema del modo oscuro para la web. Scratch Addons también incluye un popup, el cual puede ser usado para acceder rápidamente a mensajes, juegos en la nube, y la página de configuración. Scratch Addons está traducido a múltiples idiomas, incluyendo alemán, francés, español y japonés.
 
 ### Is this the same as TurboWarp Addons?
 
