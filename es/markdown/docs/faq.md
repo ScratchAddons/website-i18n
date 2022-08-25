@@ -13,25 +13,25 @@ Scratch Addons es una extensión de navegador "todo en uno" para el sitio web de
 
 ### ¿Quién creó Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons es un proyecto de equipo guiado por World_Languages. Puede encontrar la lista de las personas que nos han contribuido en la página de [Créditos](/es/contributors). Aunque que los addons "Herramientas de desarrolador" y "Scratch Messaging" fueron inicialmente creados por griffpatch, él no mantiene la extensión.
 
 ### ¿Qué incluye Scratch Addons?
 
 Scratch Addons incluye más de 100 addons, los cuales pueden ser activados o desactivados individualmente. Algunos addons pueden además ser configurados y tienen presets (conjuntos de configuraciones determinadas para un addon), como el tema del modo oscuro para la web. Scratch Addons también incluye un popup, el cual puede ser usado para acceder rápidamente a mensajes, juegos en la nube, y la página de configuración. Scratch Addons está traducido a múltiples idiomas, incluyendo alemán, francés, español y japonés.
 
-### Is this the same as TurboWarp Addons?
+### ¿Es esto lo mismo que los addons de TurboWarp?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) tiene algunos de los addons de Scratch Addons, los cuales pueden ser usados en su editor sin instalar Scratch Addons. De todas formas, Scratch Addons incluye además addons para el sitio web de Scratch y el popup. Por lo tanto, sigue siendo útil tener Scratch Addons incluso si programa en TurboWarp solamente.
 
-## System requirements
+## Requerimientos del sistema
 
-### What are the system requirements for Scratch Addons?
+### ¿Cuáles son los requerimientos del sistema para Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up) and [Mozilla Firefox](https://mozilla.org/firefox/) (version 74 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons se mantiene oficialmente en las versiones de escritorio de [Google Chrome](https://google.com/chrome/) (desde la versión 80) y [Mozilla Firefox](https://www.mozilla.org/es-ES/firefox/) (desde la versión 74), y también debería funcionar en otros navegadores de escritorio que estén basados en estos navegadores. Por favor vea [esta página](../getting-started/installing) para información completa.
 
-### Can I use Scratch Addons on a mobile device?
+### ¿Puedo usar Scratch Addons en un dispositivo móvil?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Para usuarios Android: Sí, pero no es recomendado. Los navegadores principales no permiten instalar Scratch Addons (o cualquier otra extensión), por lo tanto necesita navegadores como [Kiwi](https://kiwibrowser.com/) para hacerlo. El buen funcionamento de la interfaz de usuario de Scratch Addons no está bien comprobado en paltallas táctiles oentornos con un tamaño de pantalla pequeño, entonces puede que algunas de las funciones no se ejecuten como se espera de ellas.
 
 For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 

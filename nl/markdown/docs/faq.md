@@ -39,35 +39,35 @@ Voor iOS en iPadOS-gebruikers: Helaas kan dit niet. Het beleid van de App Store 
 
 Helaas kan dat op dit moment niet.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+Allereerst, de Safari extension store eist dat alle ontwikkelaars een jaarlijks bedrag betalen om extensies in de store te houden. Het team van Scratch Addons heeft geen inkomstbronnen, wat het lastig maakt om de extensie te onderhouden. Er is ook een technisch probleem met de implementatie van browserextensies in Safari, wat sommige kernfuncties onbruikbaar maakt.
 
-### Can I use Scratch Addons on the offline editor?
+### Kan ik Scratch Addons in de offline-editor gebruiker?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Addons kan niet worden gebruikt in de officiële Scratch-applicatie, inclusief de offline-editor.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Er is wel een alternatief, [TurboWarp](https://turbowarp.org/) heeft de meerderheid van de addons voor de projecteditor beschikbaar, je kan het ook als een [app downloaden](https://desktop.turbowarp.org/) voor Windows, macOS, en Linux. Bovendien kun je op browsers die Progressive Web Applications (PWA) ondersteunen, zoals Google Chrome, ook de TurboWarp-editor als een PWA installeren en het gebruiken zonder internetverbinding.
 
-### Are there any incompatible programs?
+### Zijn er ook niet-compatibele programma's?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Sommige browserextensies en userscripts samen met Scratch Addons kunnen problemen veroorzaken. Als je problemen ervaart, zet deze extensies of addons uit:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+- Scratch 3 Developer Tools: Deze browserextensie is een kopie van de Ontwikkelaarstools-addon. Verwijder de Developer Tools-browserextensie en gebruik daarvoor in de plaats de addon.
+- Better3.0: Deze browserextensie kan problemen veroorzaken met een paar addons. Gelukkig zijn de meeste van zijn functies ook beschikbaar als addons.
+- Redux DevTools: Dit kan problemen veroorzaken met de interne manier waarop Scratch Addons werkt. Zet de Redux Devtools-extensie uit als je het niet gebruikt.
 
-## Security and privacy
+## Beveiliging en privacy
 
 ### Is Scratch Addons veilig?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Ja. Scratch Addons zou geen beveiligingsproblemen moeten hebben in zijn recentste versie. Scratch Addons is een open-bron project, dus de code is beoordeeld door bijdragers van Scratch Addons. Bovendien beoordelen Chrome Web Store, Add-ons voor Firefox, en Microsoft Edge Add-ons elke nieuwe versie van Scratch Addons voor het publiceren.
 
 ### Hoe kan ik een beveiligingskwetsbaarheid melden?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Als je een beveiligingskwetsbaarheid tegenkomt, neem dan privé contact op met World_Languages door een e-mail te sturen naar `worldxlanguages (at) gmail.com`. Als je binnen 48 uur geen antwoord krijgt, maak dan [een issue](https://github.com/ScratchAddons/ScratchAddons/issues/) en vermeld dat je een e-mail hebt gestuurd.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Je kunt [ons beveiligingsbeleid lezen](https://github.com/ScratchAddons/ScratchAddons/security/policy), of [onze gepubliceerde adviezen checken](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
-### Zal mijn account veilig zijn als ik Scratch Addons gebruik?
+### Is mijn account veilig als ik Scratch Addons gebruik?
 
 Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
 
