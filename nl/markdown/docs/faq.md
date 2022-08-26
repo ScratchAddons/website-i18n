@@ -69,40 +69,40 @@ Je kunt [ons beveiligingsbeleid lezen](https://github.com/ScratchAddons/ScratchA
 
 ### Is mijn account veilig als ik Scratch Addons gebruik?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Ja. Functies gerelateerd aan je Scratchaccount zijn diepgaand beoordeeld door bijdragers van Scratch Addons om er zeker van te zijn dat ze je Scratchaccount geen kwaad zullen doen. Scratch Addons houdt je accountgegevens veilig, en het zal je projecten of middelen niet aanpassen of verwijderen zonder jouw toestemming. Je mag de extensie ook zonder enige account-gerelateerde functies gebruiken als je dat zou willen.
 
 Addons op Scratch Addons zijn ook gecontroleerd door meerdere helpers op het archief, dus niemand kan gewoon stiekem gevaarlijke code gebruiken.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+We verzenden nooit vertrouwelijke of persoonlijk identificerende gegevens buiten je browser. Lees [het extensie-privacybeleid](/docs/privacy/policies/extension) voor meer informatie.
 
-## Using Scratch Addons
+## Scratch Addons Gebruiken
 
-### How do I enable addons?
+### Hoe zet ik addons aan?
 
-To enable addons, first go to the settings by:
+Om addons aan te zetten, ga als eerst naar de instellingen door:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- de pop-up te openen en rechtsboven op het tandwielpictogram te klikken
+- naar https://scratch.mit.edu/scratch-addons-extension/settings te gaan. Opmerking: de extensie moet geïnstalleerd zijn om deze link te laten werken.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+Nu kun je naar addons zoeken die je graag aan wilt hebben met de zijbalk of de zoekbalk. Om een addon aan te zetten, klik op de schakelaar rechts van de titel van de addon.
 
 ### Kan ik andere mensen over Scratch Addons vertellen op Scratch?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+Nee, en doe het alsjeblieft niet. Er is [hier](https://scratch.mit.edu/discuss/post/2907564/) een beleid dat het benoemen van browserextensies/userscripts verbiedt, en overtredingen hebben als resultaat dat het Scratch Team posts verwijdert of accounts dempt. Je kunt wel andere manieren gebruiken om je vrienden te vertellen over Scratch Addons.
 
-### Ik heb het idee dat Scratch Addons Scratch vertraagd. Wat kan ik doen?
+### Ik heb het idee dat Scratch Addons voor een vertraging van Scratch zorgt. Wat kan ik doen?
 
-You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+Je kunt proberen addons uit te zetten die je niet nodig hebt, zeker ingewikkelde dingen zoals het variabelentabblad, de debugger, en katblokken die naar de muisaanwijzer kijken. De meeste addons met een prestatie-impact tonen een waarschuwing in de addon-informatie.
 
-Some specific advices:
-- Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
-- "Variable manager" addon should not be used while the project is running.
+Enkele specifieke adviezen:
+- Zet de 60FPS-addon uit. De addon kan de maximumsnelheid van een project verhogen, maar het vermindert geen lag. Om zulke projecten sneller te laten werken, gebruik [TurboWarp](https://turbowarp.org/).
+- De "variabelenbeheerder"-addon moet niet worden gebruikt terwijl het project wordt afgespeeld.
 
-### I cannot receive notifications. Why?
+### Ik ontvang geen notificaties. Waarom is dat?
 
-First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+Zet allereerst de "Scratch Berichtgeving"-addon uit en dan weer aan. Dit lost sommige problemen op.
 
-If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+Als het probleem zich aanhoudt, controleer dan de notificatie-instellingen van je besturingssysteem. Je moet je browser - zoals Google Chrome - toestemming geven om notificaties te versturen.
 
 - Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
 - macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
@@ -147,7 +147,7 @@ You can also contribute to other aspects of the organization, such as our websit
 
 - **Scratch Addons Vertalen**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team].(/docs/localization/joining-the-localization-team).
+  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
 
 - **De documentatie schrijven**
 

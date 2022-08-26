@@ -31,41 +31,41 @@ Scratch Addons se mantiene oficialmente en las versiones de escritorio de [Googl
 
 ### ¿Puedo usar Scratch Addons en un dispositivo móvil?
 
-Para usuarios Android: Sí, pero no es recomendado. Los navegadores principales no permiten instalar Scratch Addons (o cualquier otra extensión), por lo tanto necesita navegadores como [Kiwi](https://kiwibrowser.com/) para hacerlo. El buen funcionamento de la interfaz de usuario de Scratch Addons no está bien comprobado en paltallas táctiles oentornos con un tamaño de pantalla pequeño, entonces puede que algunas de las funciones no se ejecuten como se espera de ellas.
+Para usuarios Android: Sí, pero no es recomendado. Los navegadores principales no permiten instalar Scratch Addons (o cualquier otra extensión), por lo tanto necesita navegadores como [Kiwi](https://kiwibrowser.com/) para hacerlo. El buen funcionamento de la interfaz de usuario de Scratch Addons no está bien comprobado en paltallas táctiles o en entornos con un tamaño de pantalla pequeño, entonces puede que algunas de las funciones no se ejecuten como se espera de ellas.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+Para usuarios de iOS y iPadOS: Tristemente, es un no. La política de la App Store no permite enviar implementaciones de navegador, lo que significa que todos los navegadores disponibles en esa plataforma son Safari con un estilo diferente. Esto causa que haya algunos problemas (vea abajo).
 
-### Can I use Scratch Addons on Safari?
+### ¿Puedo usar Scratch Addons en Safari?
 
-Currently, you cannot.
+Actualmente, no puede.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+En primer lugar, la tienda de extensiones de Safari requiere que todos los desarrolladores paguen impuestos anuales para mantener sus extensiones en la tienda. Como Scratch Addons no tiene una fuente de ingresos, se nos haría muy difícil mantener la extensión. Además, hay un problema técnico con la implementación de extensiones de navegador en Safari que haría que algunas de las características principales no se puedan usar.
 
-### Can I use Scratch Addons on the offline editor?
+### ¿Puedo usar Scratch Addons en el editor sin conexión?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Addons no puede ser usado en la aplicación oficial de Scratch, incluyendo el editor sin conexión.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Como una alternativa, la mayoría de los addons del editor de proyectos están disponibles en [TurboWarp](https://turbowarp.org/), que tiene también una [aplicación descargable](https://desktop.turbowarp.org/) para Windows, macOS y Linux. Adicionalmente, en navegadores que soportan Aplicaciones Web Progresivas (PWA), como Google Chrome, puede instalar el editor de TurboWarp como un PWA y usarlo sin conexión a Internet.
 
-### Are there any incompatible programs?
+### ¿Hay algún programa incompatible?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Algunas extensiones de navegador y userscripts pueden interferir con Scratch Addons. Si tiene problemas con su experiencia, debería intentar deshabilitar estos:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+- Scratch 3 Developer Tools: Esta extensión de navegador es una copia del addon del anterior addon de Herramientas de desarrollador. Debería desinstalar la extensión de navegador de Herramientas de desarrollador y habilitar los addons.
+- Better3.0: Esta extensión de navegador puede interferir con algunos addons. Por suerte, la mayoría de las funciones también están disponibles como addons.
+- Redux DevTools: Esta puede interferir con funciones internas de Scratch Addons. Debería deshabilitar la extensión de Redux DevTools si no la está usando.
 
-## Security and privacy
+## Seguridad y privacidad
 
 ### ¿Es Scratch Addons seguro?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Sí. Scratch Addons no debería tener ninguna vulnerabilidad de seguridad en su versión más reciente. Scratch Addons es un proyecto de código abierto, por lo tanto el código ha sido verificado por contribuyentes de Scratch Addons. Adicionalmente, la Chrome Web Store, Add-ons para Firefox, y Microsoft Edge Add-ons revisa cada nueva versión de Scratch Addons antes de que sea publicada.
 
 ### ¿Cómo puedo reportar una vulnerabilidad de seguridad?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Si llega a encontrar una vulnerabilidad de seguridad, por favor contacte a World_Languages de forma privada a través de `worldxlanguages (arroba) gmail.com`. Si no recibe una respuesta en 48 horas, por favor [cree una propuesta](https://github.com/ScratchAddons/ScratchAddons/issues/) mncionando que enviaste un correo electrónico.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Puede [leer nuestra política de seguridad](../policies/security/) o [ver los avisos que hemos publicado](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### ¿Mi cuenta estará segura usando Scratch Addons?
 
@@ -147,7 +147,7 @@ You can also contribute to other aspects of the organization, such as our websit
 
 - **Traducir Scratch Addons**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team].(/docs/localization/joining-the-localization-team).
+  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
 
 - **Escribir la documentación**
 
