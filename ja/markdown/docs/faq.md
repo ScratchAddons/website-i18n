@@ -5,35 +5,35 @@ description: Scratch Addonsに関するよくある質問を掲載します。
 
 Scratch Addonsに関するよくある質問を掲載します。
 
-## General questions
+## 一般的な質問
 
 ### Scratch Addonsとは?
 
 Scratch Addonsは、Scratchウェブサイトとプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、アドオンとして利用できるようにしています。アドオンは各自に有効化できます。
 
-### Who created Scratch Addons?
+### だれがScratch Addonsを開発しましたか?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch AddonsはWorld_Languagesによるチームプロジェクトです。私たちに貢献してくれた人々の一覧は [貢献者](/contributors) ページにあります。なお、「Scratchメッセージ」と「開発者ツール」はgriffpatchによって最初開発されましたが、以降は関わっていません。
 
-### What does Scratch Addons include?
+### Scratch Addonsには何が含まれますか?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addonsには、個別に有効化・無効化できる100個以上のアドオンが含まれます。一部のアドオンはさらに設定を変更でき、ウェブサイトテーマのダークモードのようにプリセットが利用できるものもあります。Scratch Addonsには、素早くメッセージやクラウドゲーム、設定ページにアクセスできるポップアップも含まれます。Scratch Addonsは、ドイツ語、フランス語、スペイン語、日本語など多くの言語に翻訳されています。
 
-### Is this the same as TurboWarp Addons?
+### これはTurboWarp Addonsと同じですか?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) にも、Scratch Addons 由来のアドオンが存在し、Scratch Addons をインストールせずにそのエディターで利用できます。しかし、Scratch Addons には、Scratch ウェブサイトやポップアップ表示用のアドオンも含まれています。そのため、TurboWarp を使用してコードする場合でも、Scratch Addons は便利です。
 
 ## システム要件
 
-### What are the system requirements for Scratch Addons?
+### Scratch Addons のシステム要件は何ですか?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up) and [Mozilla Firefox](https://mozilla.org/firefox/) (version 74 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
-### Can I use Scratch Addons on a mobile device?
+### モバイル端末で Scratch Addons を利用できますか?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Android ユーザー: はい、ただし推奨されません。メジャーなブラウザーは Scratch Addons (やその他の拡張機能) がインストールできないように設計されているので、 [Kiwi](https://kiwibrowser.com/) といったブラウザーを使用しないといけません。 Scratch Addons のUIはタッチスクリーンや画面が小さい環境ではテストされていないため、機能が正常に動作しない可能性があります。
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+iOS と iPadOS ユーザー: 残念ながらできません。 App Store の方針により、ブラウザー実装をアップロードすることができず、利用できるブラウザーがすべて Safari の外装を変えたものだからです。これによってさまざまな問題が生じます。 (以下参照)
 
 ### Can I use Scratch Addons on Safari?
 
@@ -147,7 +147,7 @@ You can also contribute to other aspects of the organization, such as our websit
 
 - **翻訳する**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team].(/docs/localization/joining-the-localization-team).
+  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
 
 - **説明文書を書く**
 

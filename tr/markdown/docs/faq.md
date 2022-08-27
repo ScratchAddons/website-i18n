@@ -11,9 +11,9 @@ Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan sorul
 
 Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, userscript'lerini ve userstyle'larını, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
-### Scratch Eklentileri'ni kim kurdu?
+### Scratch Eklentileri'ni kim yaptı?
 
-Scratch Eklentileri, World_Languages ​​tarafından yönetilen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler](/contributors/tr) sayfasında bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, o, eklentileri sürdürmez.
+Scratch Eklentileri, World_Languages ​​tarafından yönetilen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler](/tr/credits/) sayfasında bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, o, eklentileri sürdürmez.
 
 ### Scratch Eklentileri neleri içerir?
 
@@ -27,7 +27,7 @@ Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırak�
 
 ### Scratch Eklentileri için sistem gereksinimleri nelerdir?
 
-Scratch Eklentileri, [Google Chrome](https://google.com/chrome/) (sürüm 80 ve üzeri) ve [Mozilla Firefox](https://mozilla.org/firefox/)  (sürüm 74 ve üzeri) masaüstü sürümlerinde resmî olarak desteklenmektedir ve bu tarayıcıları temel alan diğer masaüstü tarayıcılarında da çalışmaktadır. Tam bilgi için lütfen [bu sayfaya](./getting-started/installing/tr/) göz atın.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### Scratch Eklentileri'ni bir mobil cihazda kullanabilir miyim?
 
@@ -45,179 +45,179 @@ iOS ve iPadOS kullanıcıları için: Ne yazık ki hayır. App Store politikası
 
 Scratch Eklentileri, çevrim dışı düzenleyici de dâhil olmak üzere resmî Scratch uygulamasında kullanılamaz.
 
-Bir alternatif olarak ise, proje düzenleyici eklentilerinin çoğu, Windows, macOS ve Linux için [indirilebilir bir uygulamaya](https://desktop.turbowarp.org/) sahip olan [TurboWarp](https://turbowarp.org/) adresinde mevcuttur. Ayrıca Google Chrome gibi Aşamalı Web Uygulamalarını (PWA) destekleyen tarayıcılarda TurboWarp düzenleyicisini PWA olarak yükleyebilir ve internet bağlantısı olmadan kullanabilirsiniz.
+Bir alternatif olarak ise, proje düzenleyici eklentilerinin çoğu, Windows, macOS ve Linux için [indirilebilir bir uygulama](https://desktop.turbowarp.org/)ya sahip olan [TurboWarp](https://turbowarp.org/)'ta mevcuttur. Ayrıca Google Chrome gibi Aşamalı Web Uygulamalarını (PWA) destekleyen tarayıcılarda TurboWarp düzenleyicisini PWA olarak yükleyebilir ve internet bağlantısı olmadan kullanabilirsiniz.
 
-### Are there any incompatible programs?
+### Uyumsuz programlar var mı?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Bazı tarayıcı uzantıları ve userscript'ler, Scratch Eklentileri ile etkileşime girebilir. Sorun yaşıyorsanız, şunları devre dışı bırakmayı denemelisiniz:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+- Scratch 3 Geliştirici Araçları: Bu tarayıcı uzantısı, Geliştirici araçları eklentisinin bir kopyasıdır. Geliştirici Araçları tarayıcı uzantısını kaldırmalı ve bunun yerine eklentiyi açmalısınız.
+- Better3.0: Bu tarayıcı uzantısı bazı eklentilere müdahale edebilir. Neyse ki, özelliklerinin çoğu eklenti olarak da mevcuttur.
+- Redux DevTools: Bu, Scratch Eklentileri'nin dâhilî çalışmasına müdahale edebilir. Redux DevTools uzantısını kullanmıyorsanız devre dışı bırakmalısınız.
 
-## Security and privacy
+## Güvenlik ve gizlilik
 
 ### Scratch Eklentileri güvenli mi?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Evet. Scratch Eklentileri'nin en son sürümünde herhangi bir güvenlik sorunu olmamalıdır. Scratch Eklentileri, açık kaynaklı bir projedir, bu nedenle kod, Scratch Eklentileri'nde emeği geçenler tarafından gözden geçirilmiştir. Ayrıca Chrome Web Mağazası, Firefox Eklentileri ve Microsoft Edge Eklentileri, Scratch Eklentileri'nin her yeni sürümünü mağazalarında yayınlamadan önce inceler.
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` adresine e-posta göndererek World_Languages ile özel olarak iletişime geçin. 48 saat içinde yanıt alamazsanız, lütfen bir e-posta gönderdiğinizi belirterek [bir sorun oluştur](https://github.com/ScratchAddons/ScratchAddons/issues/)un.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+[Güvenlik politikamızı oku](https://github.com/ScratchAddons/ScratchAddons/security/policy)yabilirsiniz veya [yayınladığımız tavsiyelerimizi kontrol ed](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)ebilirsiniz.
 
 ### Scratch Eklentilerini kullanırken hesabım güvende olacak mı?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Evet. Scratch hesabınızla ilgili özelliklerin, Scratch hesabınıza zarar vermeyeceklerinden emin olmak için Scratch Eklentileri, emeği geçenler tarafından kapsamlı bir şekilde incelenir. Scratch Eklentileri, hesap kimlik bilgilerinizi güvende tutar ve projelerinizi veya varlıklarınızı izniniz olmadan değiştirmez veya silmez. Ancak, isterseniz uzantıyı hesapla ilgili herhangi bir özellik olmadan kullanabilirsiniz.
 
 Scratch Eklentilerindeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Tarayıcınızın dışına asla gizli veya kişisel olarak tanımlayıcı bilgiler göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikası](/docs/privacy/policies/extension)na göz atın.
 
-## Using Scratch Addons
+## Scratch Eklentileri'ni Kullanmak
 
-### How do I enable addons?
+### Eklentileri nasıl etkinleştiririm?
 
-To enable addons, first go to the settings by:
+Eklentileri etkinleştirmek için önce şuradan ayarlara gidin:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- açılır pencereyi açın ve sağ üst köşedeki dişli çark simgesini tıklayın
+- https://scratch.mit.edu/scratch-addons-extension/settings adresine gitmiş oldunuz. Not: Bu bağlantının çalışması için uzantının kurulu olması gerekir.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+Ardından, kenar çubuğunu veya arama kutusunu kullanarak etkinleştirmek istediğiniz eklentileri bulun. Bir eklentiyi etkinleştirmek için eklenti kutucuğunun sağ tarafındaki düğmeye tıklayın.
 
 ### Scratch'teki insanlara Scratch Eklentileri'nden bahsedebilir miyim?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarından/userscript'lerden söz edilmesini yasaklayan bir politika vardır ve ihlaller, Scratch Ekibinin gönderileri kaldırmasına veya hesapların sessize alınmasına neden olmuştur. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
 
 ### Scratch Eklentilerinin, Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
-You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+Başta değişkenler sekmesi, hata ayıklayıcısı ve fare imlecini izleyen kedi blokları gibi karmaşık özellikleri olan eklentiler olmak üzere, ihtiyacınız olmayan eklentileri devre dışı bırakmayı deneyebilirsiniz. Performansa etkisi olan çoğu eklenti genişletildiğinde eklenti bilgilerinin orada bir uyarı olacaktır.
 
-Some specific advices:
-- Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
-- "Variable manager" addon should not be used while the project is running.
+Bazı özel tavsiyeler:
+- 60FPS eklentisini kapatın. Eklenti, bir projenin çalıştırabileceği maksimum hızı artırabilirken, gecikmeleri azaltmaz. Bu tür projeleri daha hızlı çalıştırabilmek için [TurboWarp](https://turbowarp.org/)'u kullanın.
+- Proje çalışırken "Değişken yöneticisi" eklentisi kullanılmamalıdır.
 
-### I cannot receive notifications. Why?
+### Bildirimleri alamıyorum. Peki neden?
 
-First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+İlk olarak, "Scratch Bildirimcisi" eklentisini devre dışı bırakın ve yeniden etkinleştirin. Bu, bazı sorunları çözebilir.
 
-If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+Sorun devam ederse, işletim sisteminin bildirim ayarlarını kontrol edin. -Google Chrome gibi- tarayıcıların bildirim göndermesine izin vermelisiniz.
 
-- Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
-- macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
+- Windows'ta: Ayarlar'ı açın, "Bildirimler ve eylemler" kategorisini açın, ardından "Bu gönderenlerden bildirim al" ögesini bulun ve tarayıcınızın yanındaki ayarı açın. Ayrıntılı bilgi için [Microsoft'un yardım makalesi](https://support.microsoft.com/tr-tr/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e)ni okuyun.
+- macOS'ta: Sistem Tercihleri'ni açın, ardından Bildirimler bölümüne gidin. Soldan tarayıcınızı (ör. Google Chrome) seçin ve bildirimleri etkinleştirin. Daha ayrıntılı bilgi için [Apple'ın yardım makalesi](https://support.apple.com/tr-tr/HT204079)ni okuyun.
 
-You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
+Ayrıca "odaklanma yardımı"nın (Windows'ta) ya da "Rahatsız Etmeyin"in (macOS'ta) devre dışı bırakıldığından da emin olmalısınız.
 
-### How do I watch recordings made with the project video recorder addon?
+### Proje video kaydedicisi eklentisi ile yapılan kayıtları nasıl izlerim?
 
-Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+Teknik sınırlamalar nedeniyle, bu eklenti ile kaydedilen videolar WebM formatındadır. .webm dosyalarını tarayıcınızı kullanarak -yani dosyayı sürükleyip bırakarak- veya [VLC Media Player](https://www.videolan.org/) gibi onu destekleyen bir medya oynatıcı kullanarak görüntüleyebilirsiniz.
 
-To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
+WebM dosyalarını MP4 veya diğer biçimlere dönüştürmek için [HandBrake](https://handbrake.fr/) veya [CloudConvert](https://cloudconvert.com/webm-to-mp4) gibi WebM'i destekleyen bir video dönüştürme yazılımı kullanabilirsiniz. Ancak bu dosyaları bir tarayıcı veya medya oynatıcı ile görüntülemenizi öneririz. Videonun boyutuna bağlı olarak bu işlemin uzun sürebileceğini unutmayın.
 
 ### Easter egg eklentilerini nasıl etkinleştirebilirim?
 
 Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yazın. Bundan sonra, easter egg eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
 
-Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesine](/addons) göz atın.
+Easter egg eklentilerimizden bazıları "Büyük harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesi](/tr/addons)ne göz atın.
 
-## Contributing
+## Katkıda bulunmak
 
 ### Scratch Eklentilerine nasıl katkıda bulunabilirim?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+Öncelikle, Scratch Eklentileri'ne katkıda bulunmaya gösterdiğiniz ilgi için teşekkür ederiz!
 
-As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
+Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden sormanıza gerek yok -- herkes katkıda bulunabilir! Birçoğu programlama bilgisi gerektirmeyen yollarla katkıda bulunabilirsiniz.
 
 - **Biraz kod ekleyin**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  JavaScript, HTML ve CSS hakkında bilginiz varsa hataları düzelterek, ayarlamalar yaparak veya özellikler ekleyerek katkıda bulunabilirsiniz.
 
-  To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
+  Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request, yani çekme isteği oluşturmanız gerekir. Bunu, [depo](https://github.com/ScratchAddons/ScratchAddons/)yu çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir çekme isteği oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce onu gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
 
-You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
+Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamız](https://github.com/ScratchAddons)da görüntüleyebilirsiniz.
 
 - **Bir fikir önerin**
 
-  Have an idea that you think would be a good addition to Scratch Addons? [Let us know!](#i-think-you-missed-a-feature-what-can-i-do)
+  Scratch Eklentileri'ne iyi bir katkı olacağını düşündüğünüz bir fikriniz mi var? [Bize söyleyin!](#sanırım-bir-özelliği-atlamışsınız-ne-yapabilirim)
 
 - **Bir hata bildirin**
 
-  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Eklentilerimizden birinde, ayarlar sayfasında veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönder](#bir-sorun-bulursam-ne-yapabilirim)in.
 
 - **Scratch Eklentilerini çevirin**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team].(/docs/localization/joining-the-localization-team).
+  Başka bir dili akıcı konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katıl](/tr/docs/localization/joining-the-localization-team)arak başlayabilirsiniz.
 
 - **Belgelerinizi yazın**
 
-  Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
+  Scratch Eklentileri'nin iç işleyişine aşina mısınız? Eğer öyleyse, bunun için belgeler yazabilirsiniz. Belgeler [sitemizin deposunda](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) mevcuttur. Bir çekme isteği açmaktan çekinmeyin!
 
 - **Geri bildirim gönderin**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  [Bu sayfa](https://scratchaddons.com/tr/feedback)da geri bildirim gönderebilirsiniz. Geri bildiriminiz, uzantı geliştirmede bize farklı bir bakış açısı verebilir ve dikkat edilmesi gereken şeyleri bilmemize ve hataları düzeltmemize yardımcı olabilir.
 
 - **Mağazalarda Scratch Eklentileri hakkında yorum bırakın**
 
-  You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
+  [Chrome uzantı sayfası](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)nda, [Firefox eklenti sayfası](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)nda veya [Microsoft Edge eklenti sayfası](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj)nda Scratch Eklentileri hakkında yorum bırakabilirsiniz. Bu, başkalarını uzantıyı yüklemeye ikna etmenin harika bir yoludur!
 
 - **Depomuza yıldız ekleyin**
 
-  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and clicking the "Star" button on the top-right corner.
+  Temel olarak GitHub'ın yıldızı, Scratch yıldızına/favorisine benzer. Bunu [depomuz](https://github.com/ScratchAddons/ScratchAddons)a gidip sağ üst köşedeki "Yıldız" düğmesine tıklayarak yapabilirsiniz.
 
 - **Bunu dünyaya yayın**
 
-You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+Arkadaşlarınız, akrabalarınız ve öğretmenleriniz de dâhil olmak üzere herkese Scratch Eklentileri hakkında bilgi verebilirsiniz. Sizden sadece [bunu Scratch sitesinde yapma](#scratchteki-insanlara-scratch-eklentilerinden-bahsedebilir-miyim)manızı istiyoruz.
 
 ### Kendi eklentimi nasıl oluşturabilirim?
 
-Read more about it [here](/docs/develop/getting-started).
+Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) okuyun.
 
 ### Bir sorun bulursam ne yapabilirim?
 
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
 - [Geri bildirim formumuz](https://scratchaddons.com/feedback) aracılığıyla bize bildirin.
-- [Depoda](https://github.com/ScratchAddons/ScratchAddons/issues) bir sorun oluşturun.
-- [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturun.
-- [Discord sunucumuzdan](https://discord.gg/R5NBqwMjNc) bize bildirin.
+- [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir sorun oluşturun.
+- [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturun.
+- [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)dan bize bildirin.
 
 ### Sanırım bir özelliği atlamışsınız. Ne yapabilirim?
 
-If you want to suggest an addon for the extension or have some other kind of good idea, tell us with [one of these methods](#what-can-i-do-if-i-find-a-problem).
+Uzantı için bir eklenti önermek istiyorsanız veya başka bir iyi fikriniz varsa, [bu yöntemlerden biri](#bir-sorun-bulursam-ne-yapabilirim)ni kullanarak bize bunu söyleyin.
 
-### Where can I discuss Scratch Addons?
+### Scratch Eklentileri hakkında nerede konuşabilirim?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+Bunu [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de veya [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)da yapabilirsiniz. Orada sorular sorabilir ve Scratch Eklentileri topluluğuyla etkileşim kurabilirsiniz.
 
-## Technical
+## Teknik taraf
 
 ### "Eklenti" tam olarak nedir?
 
-Eklenti, bir uzantıya veya kullanıcı yazısına benzer. Ancak Scratch Eklentileri, alan adı tarafından sağlanan özel API' ler kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (kullanıcı komut dosyaları), arka planda komut dosyaları çalıştırmasına (kalıcı komut dosyaları) veya Scratch web sitesine stiller uygulamasına (kullanıcı stilleri) izin verir.
+Eklenti, bir uzantıya veya kullanıcı yazısına benzer. Ancak Scratch Eklentileri, alan adı tarafından sağlanan özel API' ler kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (userscript'ler), arka planda komut dosyaları çalıştırmasına (kalıcı komut dosyaları) veya Scratch web sitesine stiller uygulamasına (userstyle'lar) izin verir.
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
+Userscript'ler, Scratch ile ilgili bilgileri (örneğin, şu anda oturum açmış olan kullanıcı) almalarına ve uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
 
 ### Her şey bir eklenti ise, Scratch Eklentileri ne yapıyor o halde?
 
-By itself, Scratch Addons is just an addon loader. Its main tasks are to:
+Kendi başına Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca görevleri şunlardır:
 
 - Kullanıcıların eklentileri etkinleştirmesine, devre dışı bırakmasına ve yapılandırmasına izin verir.
 - Eklentileri çalıştırın ve onlara API'ler sağlayın.
-- Provide useful data to addons (for example, the addon.auth API).
+- Eklentilere faydalı veriler sağlayın (örneğin, addon.auth API gibi).
 - Eklenti, userscript'ler tarafından kullanılmak üzere prototipleri kirletin.
 - Redux durumuna erişmenin ve değiştirmenin yollarını sağlayın.
 - Eklentilerin birbirine müdahale etmesini önler.
 - Farklı eklentilerde tekrarlanan, gereksiz özelliklerden kaçınır.
 
-## Other 
+## Diğer
 
-### How can I add/remove myself to/from the contributors page?
+### Kendimi katkıda bulunanlar sayfasına/sayfasından nasıl ekleyebilirim/kaldırabilirim?
 
-If you want your name to be on the page, please read and follow the instructions of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
+Adınızın sayfada yer almasını istiyorsanız lütfen [bu issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}})'nun talimatlarını okuyun ve uygulayın.
 
-If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
+Adınızın sayfada görünmesini istemiyorsanız, lütfen katkıda bulunanlar depomuzda bir issue oluşturarak veya diğer iletişim araçlarını kullanarak bize bildirin. Rahatsızlık için özür dileriz.
 
 ### Daha fazla sorum var!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturabilir veya [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)a bir mesaj gönderebilirsiniz. Elimizden geldiğince cevap vereceğiz!
