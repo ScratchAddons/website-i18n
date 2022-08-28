@@ -14,17 +14,37 @@ Links:
   PrivacyPolicy: 隐私政策
 Nav:
   Feedback: 发送反馈
+  Repository: 储存库
   Install: 下载
 Footer:
   Pages:
+    Header: 页面
     FAQ: 常问到的问题
     Feedback: 发送反馈
+    Changelog: 更新记录
   Discuss:
     Header: 讨论
     Issues: 问题
+    DiscordDev: 开发者Discord社区（被墙了）
   Resources:
     Header: 资源
+    Repository: 储存库
     Documentation: 文档撰写
+  Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Scratch Addons 开发者"
+    NoAffiliation: Scratch Addons与Scratch网页或Scratch开发者们有直接联系。
+    License: Scratch Addons根据GNU通用公共许可证v3.0的条款进行许可。
+DarkTheme:
+  Title: 点击切换主题
+  Label: 夜间模式
+Docs:
+  SectionSiteName: Scratch Addons 文章
+  DocsNav: 文章导航
+  DocsNavToggleLabel: 切换导航工具栏
+  TOC: 目录
+  TOCToggleLabel: 切换目录工具栏
+  LastUpdated: 最后于{{.Name}}在{{.Date}}通过{{.Commit}}更改。
+  Improve: 编辑页面
 PlayerModal:
   LabelPlay: 播放
   ModalTitle: 录音

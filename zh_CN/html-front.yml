@@ -1,9 +1,12 @@
 addons.html:
   description: 该页列举了所有基于 Scratch Addons 构建的插件
+changelog.html:
+  title: 更新记录
 farewell.html:
-  title: 再见!
+  title: 再见！
   description: " Scratch Addons 已经被已卸载。我们谢谢您用了这一个浏览器扩展"
 feedback.html:
   title: 发送反馈
 welcome.html:
   title: 恭喜！
+  description: Scratch Addons已成功安装！

@@ -27,7 +27,7 @@ Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırak�
 
 ### Scratch Eklentileri için sistem gereksinimleri nelerdir?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Eklentileri, [Google Chrome](https://google.com/chrome/)'un (sürüm 80 ve üzeri), [Microsoft Edge](https://www.microsoft.com/en-us/edge)'nin (sürüm 80 ve üzeri) ve [Mozilla Firefox](https://mozilla.org/firefox/)'un (sürüm 86 ve üzeri) masaüstü sürümlerinde resmî olarak desteklenmektedir ve ayrıca bu tarayıcıları temel alan diğer masaüstü tarayıcılarında da çalışması gerekir. Tam bilgi için lütfen [bu sayfa](../getting-started/installing/)ya bakın.
 
 ### Scratch Eklentileri'ni bir mobil cihazda kullanabilir miyim?
 
@@ -177,7 +177,7 @@ Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) ok
 
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
-- [Geri bildirim formumuz](https://scratchaddons.com/feedback) aracılığıyla bize bildirin.
+- [Geri bildirim formumuz](https://scratchaddons.com/tr/feedback) aracılığıyla bize bildirin.
 - [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir sorun oluşturun.
 - [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturun.
 - [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)dan bize bildirin.

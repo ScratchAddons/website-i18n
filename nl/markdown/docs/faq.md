@@ -27,7 +27,7 @@ Scratch Addons heeft meer dan 100 addons die allemaal apart aan of uit kunnen wo
 
 ### Wat zijn de systeemvereisten voor Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons wordt officieel ondersteund op de desktop-versies van [Google Chrome](https://google.com/chrome/) (versie 80 of hoger), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (versie 80 of hoger), en [Mozilla Firefox](https://mozilla.org/firefox/) (versie 86 of hoger), en zou ook moeten werken op andere desktop-browsers die op die browsers zijn gebaseerd. Neem een kijkje op [deze pagina](../getting-started/installing/) voor complete informatie.
 
 ### Kan ik Scratch Addons op een mobiel apparaat gebruiken?
 
@@ -104,16 +104,16 @@ Zet allereerst de "Scratch Berichtgeving"-addon uit en dan weer aan. Dit lost so
 
 Als het probleem zich aanhoudt, controleer dan de notificatie-instellingen van je besturingssysteem. Je moet je browser - zoals Google Chrome - toestemming geven om notificaties te versturen.
 
-- Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
-- macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
+- Windows: Open Instellingen, open de "Meldingen en acties"-categorie, en zoek dan "Meldingsinstellingen veranderen voor individuele afzenders". Lees [het hulpartikel van Microsoft](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) voor gedetailleerdere informatie.
+- macOS: Open Systeemvoorkeuren, en open dan de sectie Meldingen. Selecteer links de browser (bijv. Google Chrome) en schakel meldingen in. Lees [het hulpartikel van Apple](https://support.apple.com/en-us/HT204079) voor gedetailleerdere informatie.
 
-You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
+Zorg er ook voor dat "concentratiehulp" (op Windows) of "Niet Storen" (op macOS) uitstaan.
 
-### How do I watch recordings made with the project video recorder addon?
+### Hoe bekijk ik mijn opnames die ik heb gemaakt met de video-opnemer-addon?
 
-Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+Door technische beperkingen zijn met deze addon opgenomen video's in het WebM-formaat. Je kunt .webm-bestanden bekijken met je browser (door het bestand te slepen en neer te zetten) of met een ondersteunende mediaspeler, zoals [VLC Media Player](https://www.videolan.org/).
 
-To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
+Gebruik een video-overzetter die WebM ondersteunt om WebM-bestanden om te zetten naar MP4 of andere formaten, zoals [HandBrake](https://handbrake.fr/) of [CloudConvert](https://cloudconvert.com/webm-to-mp4), maar het wordt alsnog aangeraden om deze bestanden gewoon met een browser of mediaspeler te bekijken. Wees ervan bewust dat dit lang kan duren, afhankelijk van de grootte van de video.
 
 ### Hoe kun je de easter-egg-addons inschakelen?
 
@@ -121,53 +121,53 @@ Om de easter-egg-addons te gebruiken, voer de Konami Code (↑↑↓↓←→←
 
 Sommige van onze easter-egg-addons zijn "Accountinstellingen Met Hoofdletters" en "Puntkommaglitch". Bekijk [de addonspagina](/addons) voor een complete lijst.
 
-## Contributing
+## Bijdragen
 
 ### Hoe kan ik meehelpen met Scratch Addons?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+Allereerst willen we je bedanken dat je wilt bijdragen aan Scratch Addons!
 
-As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
+Als een open-bron project heten wij alle soorten bijdrage welkom. Je hoeft het niet vooraf te vragen -- iedereen mag meehelpen! Je kan je steentje op veel manieren bijdragen, veel waar je geen programmeerkennis voor nodig hebt.
 
 - **Code bijdragen**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  Als je bekend bent met JavaScript, HTML, en CSS, kun je bijdragen door bugs op te lossen, een paar dingen verbeteren, of nieuwe functies te maken.
 
-  To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
+  Om je veranderingen in te brengen in de hoofdextensie, moet je een pullverzoek maken. Dit kun je doen door [het archief](https://github.com/ScratchAddons/ScratchAddons/) te "forken", een vertakking te maken, de benodigde veranderingen te maken, en dan de optie te vinden om een pullverzoek te maken. Wij gaan het dan beoordelen en maken waarschijnlijk een paar kleine veranderingen voordat het samengevoegd wordt.
 
-You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
+Je kunt ook je steentje bijdragen bij andere aspecten van de organisatie, zoals onze website. Al onze archieven staan netjes bij elkaar op [onze organisatiepagina op GitHub](https://github.com/ScratchAddons).
 
 - **Een idee geven**
 
-  Have an idea that you think would be a good addition to Scratch Addons? [Let us know!](#i-think-you-missed-a-feature-what-can-i-do)
+  Heb je een goed idee voor Scratch Addons? [Laat het ons weten!](#i-think-you-missed-a-feature-what-can-i-do)
 
 - **Een bug melden**
 
-  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Een bug gevonden in een addon, de instellingenpagina, of iets anders in onze extensie? [Stuur ons een bugmelding!](#what-can-i-do-if-i-find-a-problem).
 
 - **Scratch Addons Vertalen**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
+  Als je vloeiend een andere taal spreekt, kun je helpen Scratch Addons te vertalen/lokaliseren in die taal. Begin door [mee te doen met het lokalisatieteam](/docs/localization/joining-the-localization-team).
 
 - **De documentatie schrijven**
 
-  Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
+  Ben je bekend met de manier waarop Scratch Addons werkt? Zo ja, dan kun je meehelpen met de documentatie. De documentatie kun je vinden in [ons websitearchief](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Voel je vrij om een pullverzoek te openen!
 
 - **Feedback geven**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  Je kunt ons feedback geven [in deze pagina](https://scratchaddons.com/feedback). Je feedback kan ons een ander beeld geven in de ontwikkeling van de extensie en laat ons weten over dingen die aandacht of oplossingen nodig hebben.
 
 - **Laat een recensie achter op de winkels**
 
-  You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
+  Je kunt een recensie over Scratch Addons achterlaten op [de Chrome-extensiepagina](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [de Firefox-addonpagina](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) of [de Microsoft Edge-addonpagina](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). Dit is een geweldige manier om anderen over te halen de extensie te installeren!
 
 - **Geef ons archief een ster**
 
-  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and clicking the "Star" button on the top-right corner.
+  De ster in GitHub is eigenlijk bijna hetzelfde als het sterretje/hartje in Scratch. Je doet dit door naar [ons archief](https://github.com/ScratchAddons/ScratchAddons) te gaan en rechtsboven op de "Ster"-knop te klikken.
 
 - **Vertel het verder**
 
-You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+Je kunt iedereen over Scratch Addons vertellen, inclusief je vrienden, bekenden, en leerkrachten. We vragen je alleen om [dit niet te doen op de Scratchwebsite](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Hoe maak ik mijn eigen addon?
 
