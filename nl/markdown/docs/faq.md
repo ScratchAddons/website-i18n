@@ -171,7 +171,7 @@ Je kunt iedereen over Scratch Addons vertellen, inclusief je vrienden, bekenden,
 
 ### Hoe maak ik mijn eigen addon?
 
-Read more about it [here](/docs/develop/getting-started).
+Lees er [hier](/docs/develop/getting-started) meer over.
 
 ### Wat kan ik doen als ik een probleem vind?
 
@@ -184,40 +184,40 @@ Je kunt het ons vertellen door een van deze methodes.
 
 ### Ik denk dat jullie een functie hebben gemist. Wat kan ik doen?
 
-If you want to suggest an addon for the extension or have some other kind of good idea, tell us with [one of these methods](#what-can-i-do-if-i-find-a-problem).
+Als je een suggestie voor een addon of een ander goed idee hebt, vertel het ons op [een van deze manieren](#what-can-i-do-if-i-find-a-problem).
 
-### Where can I discuss Scratch Addons?
+### Waar kan ik Scratch Addons discussiëren?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+Dat kan in [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of [onze Discord server](https://discord.gg/R5NBqwMjNc). Daar kun je vragen stellen en verbinden met de Scratch Addons-gemeenschap.
 
-## Technical
+## Technisch
 
 ### Wat is precies een "addon"?
 
 Een addon is vergelijkbaar met een extensie of een userscript, maar ze gebruiken speciale API's van de Scratch Addons-extensie. Deze API's geven addons de mogelijkheid om scripts op een Scratchpagina uit te voeren (userscripts), scripts op de achtergrond uitvoeren (aanhoudende scripts) of stijlen toepassen op de Scratchwebsite (userstyles).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
+Userscripts kunnen de `addon.*` JavaScript-API's gebruiken, waar ze Scratch-gerelateerde informatie vandaan halen (bijvoorbeeld de ingelogde gebruiker), en extensie-API's gebruiken (zoals notificaties verzenden).
 
 ### Als alles een addon is, wat doet Scratch Addons dan?
 
-By itself, Scratch Addons is just an addon loader. Its main tasks are to:
+Op zichzelf is Scratch Addons gewoon een addonlader. Zijn hoofdtaken zijn om:
 
-- Laat gebruikers addons in- of uitschakelen en instellen.
-- Addons uitvoeren en ze API's leveren.
-- Provide useful data to addons (for example, the addon.auth API).
-- Maak prototypes voor gebruik door addonsuserscripts.
-- Manieren om toegang te krijgen tot Redux-status en het te bewerken geven.
-- Vermijden dat addons elkaar onderbreken.
-- Dubbel werk van andere addons vermijden.
+- Gebruikers addons te laten in- of uit schakelen en instellen.
+- Addons uit te voeren en ze API's te leveren.
+- Handige gegevens aan addons te leveren (zoals de addon.auth API).
+- Prototypes te maken voor gebruik door addonsuserscripts.
+- Manieren om toegang te krijgen tot Redux-status en het te bewerken te geven.
+- Te vermijden dat addons elkaar onderbreken.
+- Dubbel werk van andere addons te vermijden.
 
-## Other 
+## Overig
 
-### How can I add/remove myself to/from the contributors page?
+### Hoe kan ik mezelf toevoegen aan/verwijderen van de bijdragerslijst?
 
-If you want your name to be on the page, please read and follow the instructions of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
+Als je wilt dat je naam op de pagina staat, lees en volg de instructies van [deze issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
 
-If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
+Als je niet wilt dat je naam op de pagina staat, vertel het ons door een issue te maken op ons archief voor bijdragers, of op een andere wijze van contact. Excuses voor het ongemak.
 
 ### Ik heb nog meer vragen!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+Als je nog onbeantwoorde vragen hebt, kun je een post maken op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of verstuur een bericht [op onze Discord-server](https://discord.gg/R5NBqwMjNc). We zullen het proberen je vraag zo goed mogelijk te beantwoorden!
