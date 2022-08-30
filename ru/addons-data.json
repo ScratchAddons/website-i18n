@@ -2,13 +2,13 @@
 	{
 		"id": "2d-color-picker",
 		"name": "2D-палитра цветов",
-		"description": "Replaces saturation and brightness sliders in the costume editor with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.",
+		"description": "Заменяет ползунки насыщенности и яркости в редакторе костюмов двухмерной палитрой цветов. Удерживая нажатой клавишу Shift, перетащите курсор, чтобы изменить значения на одной оси.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS project player mode",
+		"name": "Режим плеера проектов 60FPS",
 		"description": "Alt+Клик по зелёному флагу, для включения 60FPS.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -28,7 +28,7 @@
 	{
 		"id": "animated-thumb",
 		"name": "Установщик обложек",
-		"description": "Adds a button to the bottom-right of the project page to set the thumbnail of your project to any image (including gifs).",
+		"description": "Добавляет кнопку в правом нижнем углу страницы проекта, чтобы изменить обложку вашего проекта на любое изображение (включая GIF).",
 		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
@@ -85,7 +85,7 @@
 	{
 		"id": "bitmap-copy",
 		"name": "Копирование растровых изображений",
-		"description": "Allows you to copy a bitmap image from the costume editor into the system clipboard, so that you can paste it in other websites or software.",
+		"description": "Позволяет копировать растровое изображение из редактора костюмов в системный буфер обмена, чтобы его можно было вставить на другие веб-сайты или в программное обеспечение.",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
@@ -173,12 +173,15 @@
 		"name": "Счётчик клонов",
 		"description": "Adds a counter above the stage in the editor which shows the total amount of clones.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
 		"name": "Облачные игры",
-		"description": "Available when clicking the Scratch Addons icon. Shows you how many Scratchers are currently on multiplayer projects, and their usernames.",
+		"description": "Доступно при нажатии на значок Scratch Addons. Показывает, сколько Скретчеров в настоящее время участвует в многопользовательских проектах, и их имена пользователей.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
@@ -294,8 +297,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Customizable block shape",
-		"description": "Adjust the padding, corner radius, and notch height of blocks.",
+		"name": "Настраиваемая форма блоков",
+		"description": "Отрегулируйте отступы, радиус угла и высоту надреза блоков.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -324,7 +327,7 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Customizable code area zoom",
+		"name": "Настраиваемое масштабирование области кода",
 		"description": "Choose custom settings for the minimum, maximum, speed, and start size of the zoom of scripts in the code area, and autohide the controls.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -384,7 +387,7 @@
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "Поправки категории данных ",
-		"description": "Provides tweaks for the Data (\"Variables\") block category.",
+		"description": "Предоставляет настройки для категории блоков Данных (\"Переменные\").",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Настраиваемые заводские цвета в редакторе костюмов",
 		"description": "Меняет цвета по умолчанию и размер контура, которые используются редактором костюмов.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -452,7 +455,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Неперетаскиваемые спрайты в редакторе",
-		"description": "Removes the ability to drag sprites around on the stage in the editor, except those explicitly set as draggable. Hold Shift while dragging a sprite to move it normally.",
+		"description": "Удаляет возможность перетаскивать спрайты по сцене в редакторе, за исключением тех, которые установлены как перетаскиваемые. Удерживайте Shift при перетаскивании спрайта, чтобы переместить его в обычном режиме.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Инструменты разработчика",
-		"description": "Adds a find box and new menu options to the editor: copy/paste blocks, better clean up, go to custom block definition, and more! Press Ctrl+F to focus the find box, Ctrl+Space to bring up the \"add block by name\" popup, Ctrl+Left/Right to navigate find history.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more! Use Ctrl+Space (Shift+Space on macOS) to bring up the \"add block by name\" popup.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,14 +585,14 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Отображать сцену на левой стороне",
-		"description": "Перемещает сцену в левую часть редактора.",
+		"description": "Перемещает сцену в левую часть редактора, как в Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
 		"name": "Выделять выполняемые в данный момент блоки",
-		"description": "Adds a colored highlight to the blocks that are currently being executed in a project.",
+		"description": "Добавляет цветную подсветку к блокам, которые в данный момент выполняются в проекте.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Editor find bar",
+		"description": "Adds a find bar to find and jump to scripts, costumes and sounds next to the sounds tab. Use Ctrl+Left and Ctrl+Right in the code area to navigate to previous or next visited position after using the find bar.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -730,7 +746,7 @@
 	{
 		"id": "forum-search",
 		"name": "Поиск по форуму",
-		"description": "Adds a post search bar to the forums. Uses ScratchDB for information.",
+		"description": "Добавляет панель поиска сообщений на форумы. Использует информацию из ScratchDB.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
@@ -756,8 +772,8 @@
 	},
 	{
 		"id": "full-signature",
-		"name": "Full areas",
-		"description": "Shows the full content of areas with limited height, such as user signatures on the forums and What I've been doing on profiles, by making them resizable or scrollable.",
+		"name": "Полные области",
+		"description": "Показывает полное содержимое областей с ограниченной высотой, таких как подписи пользователей на форумах и Что я делал в профилях, делая их изменяемыми по размеру или прокручиваемыми.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -787,8 +803,8 @@
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "Превью с хорошим качеством",
-		"description": "Заменяет все превью на сайте высококачественным изображениям. Полезно для дисплеев Retina (высокая плотность пикселей) и масштаба более чем 100%.",
+		"name": "Обложки в высоком качестве",
+		"description": "Заменяет все обложки на сайте высококачественным изображениям. Полезно для дисплеев Retina (высокая плотность пикселей) и масштаба более чем 100%.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -843,8 +859,8 @@
 	},
 	{
 		"id": "hide-stage",
-		"name": "Hide stage and sprite pane",
-		"description": "Adds a button next to the \"small stage\" and \"large stage\" buttons that hides the stage and the sprite pane, making the code area much larger.",
+		"name": "Скрыть сцену и область спрайтов",
+		"description": "Добавляет кнопку рядом с кнопками \"маленькая сцена\" и \"большая сцена\", которая скрывает сцену и область спрайтов, делая область кода намного больше.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -868,7 +884,7 @@
 	{
 		"id": "image-uploader",
 		"name": "Загрузчик изображений на форум",
-		"description": "Adds a button to directly upload and insert images into forum posts.",
+		"description": "Добавляет кнопку для прямой загрузки и вставки изображений в сообщения форума.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -902,6 +918,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		]
+	},
+	{
+		"id": "jump-to-def",
+		"name": "Jump to custom block definition",
+		"description": "Allows you to jump to a custom block's definition using the middle mouse button or Shift+Click on the block.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "last-edit-tooltip",
@@ -992,14 +1015,14 @@
 	{
 		"id": "mouse-pos",
 		"name": "Позиция мыши",
-		"description": "Displays your mouse x/y position above the stage in the editor.",
+		"description": "Отображает координаты курсора мыши x/y в редакторе над сценой.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "move-to-top-bottom",
 		"name": "Переместить костюм на самый вверх или в самый низ",
-		"description": "Добавляет кнопку к контекстному меню ПКМ для перемещения костюма в самый верх или в самый низ списка. Первоначально было частью инструментов разработчика.",
+		"description": "Adds a right click context menu item to move a costume or a sound to the top or the bottom of the list.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1030,8 +1053,8 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular integration",
-		"description": "Shows ocular statuses and forum post reactions. Uses my-ocular.jeffalo.net to obtain data.",
+		"name": "Интеграция ocular",
+		"description": "Показывает статусы ocular и реакции на сообщения на форуме. Использует my-ocular.jeffalo.net для получения данных.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -1101,7 +1124,7 @@
 	{
 		"id": "project-info",
 		"name": "Счётчик спрайтов и скриптов",
-		"description": "Shows the number of sprites and scripts a project has next to the Remix button.",
+		"description": "Показывает количество спрайтов и скриптов в проекте рядом с кнопкой Ремикс.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1160,8 +1183,17 @@
 		]
 	},
 	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Remove autocomplete from search bar",
+		"description": "Stops web browsers from autocompleting suggestions in the navigation bar's search bar.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		]
+	},
+	{
 		"id": "remove-sprite-confirm",
-		"name": "Sprite deletion confirmation",
+		"name": "Подтверждение удаления спрайтов",
 		"description": "Спрашивает, уверены ли вы при удалении спрайта внутри проекта.",
 		"tags": ["editor", "recommended"]
 	},
@@ -1228,7 +1260,7 @@
 	{
 		"id": "scratchstats",
 		"name": "Статистика профиля",
-		"description": "Shows statistics from ScratchDB on user profiles.",
+		"description": "Показывает статистику из ScratchDB в профилях пользователей.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -1332,8 +1364,8 @@
 	},
 	{
 		"id": "studio-tools",
-		"name": "Studio tools",
-		"description": "Lets managers easily promote curators to managers or remove anyone from a studio on the \"curators\" tab, and adds the ability to leave a studio using a button under \"Follow Studio\".",
+		"name": "Инструменты студии",
+		"description": "Позволяет менеджерам легко повышать кураторов до менеджеров или удалять кого-либо из студии на вкладке \"кураторы\", а также добавляет возможность покинуть студию с помощью кнопки под \"Подписаться на студию\".",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1365,8 +1397,8 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "True forums YouTube links",
-		"description": "Replaces links to the embedded site with real YouTube links.",
+		"name": "Настоящие ссылки на YouTube на форуме",
+		"description": "Заменяет ссылки на встроенный сайт реальными ссылками YouTube.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
 	},
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Alternating nested block colors",
+		"description": "Makes blocks of the same category alternate between lighter and darker shades when nested inside each other. This is also known as zebra striping.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

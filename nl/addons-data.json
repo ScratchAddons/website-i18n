@@ -173,7 +173,10 @@
 		"name": "Kloonteller",
 		"description": "Voegt een teller boven het speelveld toe in de editor die het totale aantal klonen laat zien.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Aanpasbare standaardkleuren in uiterlijkeditor",
 		"description": "Verandert de standaardkleuren en -randgrootte in de uiterlijkeditor.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Ontwikkelaarstools",
-		"description": "Voegt een zoekbalk en nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, betere opruimer, naar blokdefinitie springen, en meer! Druk op Ctrl+F om de zoekbalk te focussen, Ctrl+Spatie om de \"blok bij naam toevoegen\"-pop-up tevoorschijn te brengen, Ctrl+Links/Rechts om zoekgeschiedenis te navigeren.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Voegt nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, betere opruimer, en meer! Druk op Ctrl+Spatie (Shift+Spatie op macOS) om de \"blok bij naam toevoegen\"-pop-up tevoorschijn te brengen.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Zet speelveld aan linkerkant",
-		"description": "Zet het speelveld aan de linkerkant van de editor.",
+		"description": "Zet het speelveld aan de linkerkant van de editor, zoals in Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Zoekbalk in editor",
+		"description": "Maakt een nieuwe zoekbalk waarmee je scripts, uiterlijken en geluiden kunt zoeken en ernaar kunt springen, naast het geluidentabblad. Gebruik Ctrl+Links en Ctrl+Rechts in het codegebied om te navigeren naar vorige of volgende bezochte posities na het gebruiken van de zoekbalk.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Springen naar definitie van eigen blok",
+		"description": "Spring naar een definitie van een eigen blok met de scrolwielknop of Shift+Klik op het blok.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Deel-/wijzigingsdatums-info",
 		"description": "Plaats je muisaanwijzer over de deeldatum van een project voor exacte informatie over wanneer het gedeeld en voor het laatst gewijzigd is.",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Verplaats uiterlijk naar boven of beneden",
-		"description": "Voegt een optie toe in het rechterklikmenu om een uiterlijk of geluid naar boven of beneden te sturen in de lijst. Hoorde eerst bij de ontwikkelaarstools.",
+		"description": "Voegt een item in een rechterklikmenu toe om een uiterlijk of geluid helemaal naar boven of beneden in de lijst te plaatsen.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Zoekbalk niet automatisch aanvullen",
+		"description": "Laat webbrowsers stoppen met het automatisch aanvullen in de zoekbalk van de navigatie.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Afwisselende kleuren van geneste blokken",
+		"description": "Wisselt de tinten van blokken met dezelfde kleur tussen licht en donker af wanneer ze in elkaar genest zijn. Dit staat ook bekend als zebrastrepen.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

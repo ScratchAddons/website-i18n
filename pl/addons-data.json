@@ -22,7 +22,7 @@
 	{
 		"id": "account-settings-capitalize",
 		"name": "Ustawienia Konta pisane dużymi literami",
-		"description": "Zmienia \"Ustawienia konta\" w menu konta na \"Ustawienia Konta\".",
+		"description": "Zmienia \"Ustawienia konta\" w menu na \"Ustawienia Konta\".",
 		"tags": ["easterEgg", "community"]
 	},
 	{
@@ -68,8 +68,8 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "Lepszy cytat z forum",
-		"description": "Zaznacz tekst w poście na forum i kliknij cytat w prawym dolnym rogu, aby zacytować tylko zaznaczony tekst.",
+		"name": "Lepszy cytaty z forum",
+		"description": "Zaznacz tekst w poście na forum i kliknij przycisk cytatu w prawym dolnym rogu, aby zacytować tylko zaznaczony tekst.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -173,7 +173,10 @@
 		"name": "Licznik klonów",
 		"description": "Dodaje licznik nad sceną pokazujący ilość klonów.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -219,7 +222,7 @@
 	{
 		"id": "comments-linebreaks",
 		"name": "Nowe linie w komentarzach",
-		"description": "Pozwala tworzyć nowe linie w komentarzach (Klikając Enter) zamiast zamieniać je na spacje.",
+		"description": "Pozwala Ci wpisywać nowe linie w komentarzach (Klikając Enter), zamiast zamieniać je na spacje.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -254,8 +257,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "Kopiuj link do przycisku komentarza",
-		"description": "Dodaje przycisk \"Skopiuj Link\" do wszystkich komentarzy na stronie. Znajduje się na przeciwko przycisku \"Zgłoś\".",
+		"name": "Przycisk kopiuj link w komentarzach",
+		"description": "Dodaje przycisk \"Skopiuj Link\" do wszystkich komentarzy na stronie. Znajduje się obok przycisku \"Zgłoś\".",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -383,8 +386,8 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "Kategorie typów danych",
-		"description": "Zapewnia poprawki dla kategorii bloku Dane („Zmienne”). ",
+		"name": "Ulepszenia kategorii danych",
+		"description": "Zapewnia poprawki dla kategorii bloków Dane („Zmienne”). ",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Domyślne kolory w edytorze kostiumów",
 		"description": "Zmienia domyślne parametry narzędzi w edytorze kostiumów.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -423,7 +426,7 @@
 	{
 		"id": "disable-auto-save",
 		"name": "Wyłącz automatyczne zapisywanie",
-		"description": "Wyłącza opcje automatycznego zapisywania podczas tworzenia projektu.",
+		"description": "Wyłącza opcje automatycznego zapisywania projektu, w trakcie edytowania kodu.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -452,7 +455,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Blokada przesuwania duszków w edytorze",
-		"description": "Blokuje możliwość przesuwania duszków na scenie w edytorze, z wyjątkiem tych, które są ustawione na \"przesuwanie\". Przytrzymać Shift, aby normalnie przesuwać duszki.",
+		"description": "Blokuje możliwość przesuwania duszków na scenie w edytorze projektu, z wyjątkiem tych, które są ustawione na \"przesuwalne\". Przytrzymać Shift, aby normalnie przesuwać duszki.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Narzędzia Developerskie",
-		"description": "Dodaje pole wyszukiwania i kilka nowych opcji w menu edytora jak: kopiuj/wklej bloki, lepsze sprzątanie bloków, przejdź do definicji bloku i więcej! Naciśnij Ctr+F, aby zacząć wyszukiwanie, i Ctr+Spacja, aby wyświetlić menu \"dodaj blok po nazwie\", oraz Ctr+Prawo/Lewo, aby przenieść się w historii wyszukiwania.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more! Use Ctrl+Space (Shift+Space on macOS) to bring up the \"add block by name\" popup.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Przenieś scenę na lewą stronę",
-		"description": "Przesuwa scenę na lewą stronę edytora.",
+		"description": "Przesuwa scenę i listę duszków na lewą stronę edytora, jak w Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -655,6 +658,19 @@
 		]
 	},
 	{
+		"id": "find-bar",
+		"name": "Editor find bar",
+		"description": "Adds a find bar to find and jump to scripts, costumes and sounds next to the sounds tab. Use Ctrl+Left and Ctrl+Right in the code area to navigate to previous or next visited position after using the find bar.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
+			}
+		]
+	},
+	{
 		"id": "fix-editor-comments",
 		"name": "Lepszy edytor komentarzy",
 		"description": "Wprowadza liczne zmiany w komentarzach w edytorze Scratch: naprawia błąd, w którym komentarze dołączone do bloków nie zapisują poprawnie swoich pozycji po przeciągnięciu, zapobiega pojawianiu się komentarzy poza ekranem w dużych skryptach oraz utrzymuje proste połączenia bloków z komentarzami i wiele więcej. ",
@@ -687,7 +703,7 @@
 	{
 		"id": "folders",
 		"name": "Foldery duszków",
-		"description": "Dodaje foldery do panelu duszków, a także do listy kostiumów i dźwięków. Aby utworzyć folder, kliknij prawym przyciskiem myszy na dowolnego duszka i kliknij \"utwórz folder\". Kliknij folder, aby go otworzyć lub zamknąć. Kliknij prawym przyciskiem myszy na duszka, aby zobaczyć, do jakich folderów możesz go przenieść. Możesz także przeciągnąć go i upuść do otwartego folderu. Ta funkcja działa poprzez dodanie „[nazwa_folderu]//” na początku nazw twoich duszków.\n",
+		"description": "Dodaje foldery do panelu duszków, a także do listy kostiumów i dźwięków. Aby utworzyć folder, kliknij prawym przyciskiem myszy na dowolnego duszka i wybierz opcję \"utwórz folder\". Kliknij folder, aby go otworzyć lub zamknąć. Naciśnij prawym przycisk myszy na duszku, aby zobaczyć, do jakich folderów możesz go przenieść. Możesz także przeciągnąć go i upuść go do dowolnego otwartego folderu. Ta funkcja działa poprzez dodanie „[nazwa_folderu]//” na początku nazw twoich duszków.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -802,8 +818,8 @@
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Automatycznie chowająca się lista bloków",
-		"description": "Ukrywa paletę bloków, jeśli nie jest najechana. Kliknij ikonę kłódki, aby tymczasowo zablokować ją na miejscu. Możesz też użyć trybu „kliknięcie kategorii”.",
+		"name": "Automatycznie chowana lista bloków",
+		"description": "Ukrywa paletę bloków, jeśli na nią nie najedziesz myszką. Kliknij ikonę kłódki, aby tymczasowo zablokować ją w miejscu. Możesz także użyć trybu „kliknięcie kategorii”.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Jump to custom block definition",
+		"description": "Allows you to jump to a custom block's definition using the middle mouse button or Shift+Click on the block.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Etykietka dat udostępnienia/edycji",
 		"description": "Najedź na projekt, aby zobaczyć datę kiedy ostatni raz został skopiowany lub zedytowany.",
@@ -933,14 +956,14 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Automatycznie dodaj rozszerzenia Scratch",
-		"description": "Automatycznie pokazuje muzykę, pióro i inne rozszerzenia w liście kategorii menu w edytorze.",
+		"name": "Automatycznie dodawaj rozszerzenia",
+		"description": "Automatycznie pokazuje bloki muzyczne, pióro i inne rozszerzenia do Twojego projektu.",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Większy limit znaków w polu \"Na czym pracuję\"",
-		"description": "Pozwala ci napisać o 55 więcej znaków w polu \"Na czym pracuję\" w twoim profilu. Wszyscy na Scratch będą widzieć dodatkowe znaki.",
+		"name": "Większy limit znaków w polu \"Nad czym pracuję\"",
+		"description": "Pozwala ci napisać o 55 więcej znaków w polu \"Na czym pracuję\" w Twoim profilu. Wszyscy na Scratch'u będą widzieć dodatkowe znaki.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
@@ -973,7 +996,7 @@
 	{
 		"id": "message-filters",
 		"name": "Filtr wiadomości",
-		"description": "Pozwala wybrać filtry dla typów wiadomości, które mają być ukrywane lub pokazywane na stronie wiadomości Scratch'a. ",
+		"description": "Pozwala Ci wybrać, które typy wiadomości mają być ukrywane lub pokazywane na stronie wiadomości Scratch'a. ",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Przenieś kostium do góry albo do dołu",
-		"description": "Dodaje przycisk, który przesuwa kostium lub dźwięk na górę lub na dół listy. Wcześniej część narzędzi developerskich. ",
+		"description": "Adds a right click context menu item to move a costume or a sound to the top or the bottom of the list.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1018,8 +1041,8 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Wycisz projekt",
-		"description": "Kliknij trzymając Ctr na zieloną flagę, żeby wyciszyć/od-ciszyć projekt.",
+		"name": "Wycisz odtwarzacz projektu",
+		"description": "Kliknij na zieloną flagę trzymając Ctr, aby wyciszyć lub od-ciszyć projekt.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -1160,6 +1183,15 @@
 		]
 	},
 	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Usuń autouzupełnianie z paska wyszukiwania",
+		"description": "Wstrzymuje przeglądarki internetowe przed autouzupełnianiem sugestii na pasku wyszukiwania w pasku nawigacyjnym.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		]
+	},
+	{
 		"id": "remove-sprite-confirm",
 		"name": "Potwierdzenie usunięcia duszka",
 		"description": "Upewnia się, czy na pewno chcesz usunąć duszka w projekcie.",
@@ -1228,7 +1260,7 @@
 	{
 		"id": "scratchstats",
 		"name": "Statystyki profili",
-		"description": "Pokazuje  statystyki z ScratchDB na profilach użytkowników",
+		"description": "Pokazuje statystyki z ScratchDB na profilach użytkowników.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -1296,7 +1328,7 @@
 	{
 		"id": "show-bbcode",
 		"name": "Przycisk źródła kodu BBCode",
-		"description": "Dodaje przycisk do forów, który pokazuje źródło BBCode postu.",
+		"description": "Dodaje przycisk do forum, który pokazuje kod źródłowy BBCode każdego postu.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1409,7 +1441,7 @@
 	{
 		"id": "variable-manager",
 		"name": "Menedżer zmiennych",
-		"description": "Dodaje zakładkę obok \"dźwięków\" w edytorze żeby łatwo aktualizować zmienne i listy",
+		"description": "Dodaje nową zakładkę obok \"dźwięków\" w edytorze, aby łatwo edytować zmienne i listy.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Alternating nested block colors",
+		"description": "Makes blocks of the same category alternate between lighter and darker shades when nested inside each other. This is also known as zebra striping.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

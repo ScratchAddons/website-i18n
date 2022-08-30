@@ -173,7 +173,10 @@
 		"name": "クローンカウンター",
 		"description": "クローンの合計数をステージの上に表示する。",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "コスチュームエディターの既定の色を変更",
 		"description": "コスチュームエディターの既定の色と輪郭の大きさを変更する。",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "開発者ツール",
-		"description": "検索ボックス、メニューオプション、ブロックのコピペ、きれいにする、定義ブロックに移動、その他さまざまな機能を追加する。 Ctrl+Fを押して検索ボックスをフォーカスし、Ctrl+スペースで「名前でブロックを追加」ポップアップを表示し、Ctrl+左右キーで検索履歴を見る。",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "検索ボックス、メニューオプション、ブロックのコピペ、きれいにする、その他さまざまな機能を追加する。 Ctrl+Fを押して検索ボックスをフォーカスし、Ctrl+スペース(macOSではShift+スペース)で「名前でブロックを追加」ポップアップを表示し、Ctrl+左右キーで検索履歴を見る。",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "ステージを左側に表示",
-		"description": "ステージを左側に表示する。",
+		"description": "Scratch 2.0のように、ステージを左側に表示する。",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "エディター検索バー",
+		"description": "スクリプト、コスチューム、音を検索する検索バーを音タブの横に追加する。Ctrl+左右キーで検索履歴から移動する。",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "カスタムブロック定義に移動",
+		"description": "中マウスボタンやShift+Clickで、カスタムブロックの定義ブロックに移動できるようにする。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "共有・編集日表示",
 		"description": "プロジェクトの共有日をホバーして、正確な共有日時と編集日時を表示する。",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "コスチュームを一番上や一番下に移動",
-		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。以前は「開発者ツール」の一部であった。",
+		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "検索バーからオートコンプリート除去",
+		"description": "ナビゲーションバーの検索バーでオートコンプリートを無効化する。",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "ブロックの色を交互に変更",
+		"description": "重なっている同じカテゴリーのブロックの色の彩度を交互に変える。「ゼブラストライピング」とも呼ばれている。",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

@@ -173,7 +173,10 @@
 		"name": "Klonzähler",
 		"description": "Fügt einen Zähler zum Editor hinzu, der die Anzahl aller Klone anzeigt.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Benutzerdefinierte Standardfarbe im Kostümeditor",
 		"description": "Ändert die standardmäßige Farbe und Randbreite im Kostümeditor.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Entwicklertools",
-		"description": "Fügt ein Suchfeld und neue Menüoptionen zum Editor hinzu: Kopieren/Einfügen von Blöcken, besseres Aufräumen, gehe zu Definitionen von Benutzerdefinierten Blöcken und vieles mehr! Drücke Strg+F zum Suchen, Strg+Leertaste zum Öffnen des \"Block nach Namen hinzufügen\"-Popups, Strg+Links/Rechts zum Navigieren im SUchverlauf.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more! Use Ctrl+Space (Shift+Space on macOS) to bring up the \"add block by name\" popup.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Bühne links anzeigen",
-		"description": "Verschiebt die Bühne auf die linke Seite des Editors.",
+		"description": "Verschiebt die Bühne auf die linke Seite des Editors, wie in Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Editor find bar",
+		"description": "Adds a find bar to find and jump to scripts, costumes and sounds next to the sounds tab. Use Ctrl+Left and Ctrl+Right in the code area to navigate to previous or next visited position after using the find bar.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -835,7 +851,7 @@
 	{
 		"id": "hide-signatures",
 		"name": "Forumsignaturen ausblenden",
-		"description": "Versteckt Signaturen von Benutzern auf Foren. Du kannst sie mit einem Knopf wieder sichtbar machen.",
+		"description": "Versteckt Signaturen von Benutzern auf Foren. Du kannst sie mit einer Schaltfläche wieder sichtbar machen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Jump to custom block definition",
+		"description": "Allows you to jump to a custom block's definition using the middle mouse button or Shift+Click on the block.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Veröffentlichungs/Änderungs-Tooltip",
 		"description": "Schwebe mit der Maus auf dem Veröffentlichungsdatum, um zu sehen, wann genau es veröffentlicht und zuletzt geändert wurde.",
@@ -949,7 +972,7 @@
 	{
 		"id": "material-forum-editor-buttons",
 		"name": "Bessere Knöpfe für den Forum-Beitragseditor",
-		"description": "Ändert die Knopf-Symbole des Foren-Beitragseditors von verpixelten 16x16-Bitmaps zu Materiellen Symbolen.",
+		"description": "Ändert die Symbole der Schaltflächen im Forumbeitragseditor von verpixelten 16x16-Bitmaps zu materiellen Symbolen.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Element an erste/letzte Stelle verschieben",
-		"description": "Fügt ein Kontextmenüelement zum Verschieben von Kostümen und Klängen an erste oder letzte Stelle der Liste. Früher Teil der Entwicklertools.",
+		"description": "Adds a right click context menu item to move a costume or a sound to the top or the bottom of the list.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Remove autocomplete from search bar",
+		"description": "Stops web browsers from autocompleting suggestions in the navigation bar's search bar.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1372,8 +1404,8 @@
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "TurboWarp-Knopf",
-		"description": "Fügt einen Knopf zu den Projektseiten neben dem Remixen-Knopf hinzu, der Projekte in TurboWarp ausführt.",
+		"name": "TurboWarp-Modus",
+		"description": "Fügt eine Schaltfläche neben dem Remixen-Knopf auf Projektseiten hinzu, der Projekte in TurboWarp ausführt.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1384,8 +1416,8 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "Tutorien-Knopf ausblenden",
-		"description": "Versteckt den Tutorien-Knopf aus der Menüleiste im Editor.",
+		"name": "Tutorien-Schaltfläche ausblenden",
+		"description": "Versteckt die Tutorien-Schaltfläche aus der Menüleiste im Editor.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Alternating nested block colors",
+		"description": "Makes blocks of the same category alternate between lighter and darker shades when nested inside each other. This is also known as zebra striping.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

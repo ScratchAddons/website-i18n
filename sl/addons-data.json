@@ -173,7 +173,10 @@
 		"name": "Števec dvojnikov",
 		"description": "Nad oder v urejevalniku doda števec, ki prikaže skupno število dvojnikov figur.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Prilagoditev privzetih barv v urejevalniku videzov",
 		"description": "Spremeni privzete barve in velikost robov v urejevalniku videzov.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -541,9 +544,9 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "Developer tools",
-		"description": "Doda iskalno polje in nove možnosti v menijih v urejevalnik: kopiranje blokov, boljše čiščenje, skok k definiciji bloka, in drugo! Pritisnite Ctrl+F za premik na iskalno polje, Ctrl+presledek za prikaz okna za dodajanje bloka po imenu, Ctrl+levo/desno za premikanje po zgodovini iskanja.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"name": "Orodje za razvijalce",
+		"description": "Doda nove možnosti v menije v urejevalniku: kopiranje blokov, izboljšano čiščenje, in več! Uporabite Ctrl+presledek (Shift+presledek, če uporabljate macOS) za prikaz okna za dodajanje blokov po imenu.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Pokaži oder na levi strani",
-		"description": "Premakne oder na levo stran urejevalnika.",
+		"description": "Premakne oder na levo stran urejevalnika, kot v Scratchu 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Iskalna vrstica v urejevalniku",
+		"description": "Poleg zavihka Zvoki doda vrstico, s katero lahko poiščete in se premaknete na skripto, videz ali zvok. Uporabite Ctrl+levo ali Ctrl+desno v prostoru za kodo, da se premaknete na prejšnji ali naslednji položaj.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Skoči na definicijo \"mojega bloka\"",
+		"description": "Omogoča, da se premaknete na definicijo \"mojega bloka\" s srednjim miškinim gumbom ali Shift+klikom.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Datum deljenja/zadnje spremembe",
 		"description": "Premaknite miško na datum, ko je bil projekt deljen, da vidite, kdaj točno je bil deljen in kdaj nazadnje urejen.",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Premakni videz na vrh ali na dno",
-		"description": "V meni desne miškine tipke doda možnost, ki videz ali zvok premakne na vrh ali na dno seznama. Prej del dodatka Developer Tools.",
+		"description": "V meni desne miškine tipke doda možnost, ki videz ali zvok premakne na vrh ali na dno seznama.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1030,8 +1053,8 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular statusi in odzivi",
-		"description": "Pokaže statuse in odzive na objave v forumih s strani ocular. Podatki so z my-ocular.jeffalo.net.",
+		"name": "Statusi in odzivi ocular",
+		"description": "Pokaže statuse ocular in odzive na objave v forumih. Za pridobivanje podatkov uporablja my-ocular.jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
@@ -1063,8 +1086,8 @@
 	},
 	{
 		"id": "one-click-studio-invites",
-		"name": "One-click studio invites",
-		"description": "Accept studio invites directly from Scratch's messages page. An accept button will appear below studio invite messages.",
+		"name": "Sprejem povabil v studie z enim klikom",
+		"description": "Sprejmite povabila v studie neposredno na Scratchevi strani s sporočili. Gumb za sprejem bo prikazan pod sporočili o povabilu v studio.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Odstrani samodejno izpolnjevanje iskalne vrstice",
+		"description": "Prepreči spletnim brskalnikom, da bi samodejno vnašali predloge v iskalno polje vrstice za navigacijo.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Izmenično obarvani ugnezdeni bloki",
+		"description": "Bloke iste kategorije pobarva izmenično s svetlejšimi in temnejšimi odtenki, kadar so postavljeni drug v drugega. To se imenuje tudi zebrine proge.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

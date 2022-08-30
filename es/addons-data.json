@@ -173,7 +173,10 @@
 		"name": "Contador de clones",
 		"description": "Agrega un contador de clones arriba del escenario en el editor que muestra la cantidad total de clones del proyecto.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Color predeterminado personalizable en el editor de disfraces",
 		"description": "Cambia los colores predeterminados y el tamaño del borde utilizados por el editor de disfraces.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Herramientas de desarrollador",
-		"description": "Agrega una barra de búsqueda y nuevas opciones de menú para el editor: copie y pegue bloques, ordene de mejor manera, vaya directamente a la definición de un bloque personalizado y más Presione Ctrl+F para enfocar la barra de búsqueda, Ctrl+Espacio para abrir la ventana flotante de \"encontrar bloque por nombre\", Ctrl+Izquierda/Derecha para navegar el historial de búsqueda.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Añade un nuevo menú de opciones al editor: copiar/pegar bloques, mejor ordenado, y más. Use Ctrl+Espacio (Shift+Espacio en macOS) para mostrar el popup de \"agregar bloque por nombre\"",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Mostrar escenario del lado izquierdo",
-		"description": "Mueve el escenario al lado izquierdo del editor.",
+		"description": "Mueve el escenario al lado izquierdo del editor, como en Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Barra de búsqueda en editor",
+		"description": "Agrega una barra de búsqueda al lado de la pestaña de sonidos para encontrar y saltar a scripts, disfraces y sonidos. Use Ctrl+Izquierda y Ctrl+Derecha en el área de código para navegar a la posición visitada anterior o siguiente luego de usar la barra de búsqueda.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Saltar a definición de bloque personalizado",
+		"description": "Le permite saltar a la definición de un bloque personalizado usando el botón del medio del ratón o presionando Shift+Click en el bloque.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Fecha de compartido/editado",
 		"description": "Mantenga el cursor arriba de la fecha en la que un proyecto fue compartido para ver exactamente cuándo fue compartido y editado por última vez.",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Mover disfraz a la cima o al fondo",
-		"description": "Agrega un ítem al menú de click derecho para mover un disfraz o sonido a la posición primera o última de la lista. Previamente parte de las herramientas de desarrollador.",
+		"description": "Agrega un ítem al menú de click derecho para mover un disfraz o sonido a la posición primera o última de la lista.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Quitar autocompletado de la barra de búsqueda",
+		"description": "No le permite a los navegadores web autocompletar sugerencias en la barra de búsqueda de la barra de navegación.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Alternar colores de bloques anidados",
+		"description": "Alterna entre tonos más claros y más oscuros a los bloques de la misma categoría anidados entre sí. Esto también es conocido como \"zebra striping\".",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

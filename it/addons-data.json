@@ -173,7 +173,10 @@
 		"name": "Numero dei cloni",
 		"description": "Mostra sopra lo stage dell'editor il numero totale di cloni.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Colori predefiniti dell'editor di immagini personalizzabili",
 		"description": "Cambia i colori e la dimensione del contorno predefiniti nell'editor di immagini.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Strumenti per sviluppatori",
-		"description": "Aggiunge una casella di ricerca e nuove opzioni ai menu dell'editor: copia/incolla blocchi, riordino migliorato, vai alla definizione del blocco e altro! Premi Ctrl+F per spostarti alla casella di ricerca, Ctrl+Spazio per attivare il menu \"aggiungi blocco per nome\", Ctrl+Sinistra/Destra per navigare nella cronologia di ricerca.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Aggiunge nuove opzioni al menu dell'editor degli script copia/incolla blocchi, riordino migliorato e altro! Usa Ctrl+Spazio (Shift+Spazio in macOS) per far comparire il menu \"aggiungi blocco per nome\".",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Sposta stage a sinistra",
-		"description": "Sposta lo stage nella parte sinistra dell'editor.",
+		"description": "Sposta lo stage nella parte sinistra dell'editor, come in Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -651,6 +654,19 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		]
+	},
+	{
+		"id": "find-bar",
+		"name": "Barra di ricerca dell'editor",
+		"description": "Aggiunge una barra di ricerca a fianco alla scheda suoni per trovare script, costumi e suoni e per passare direttamente agli elementi trovati. Usa Ctrl+Sinistra a Ctrl+Destra nell'area degli script per andare alla precedente o alla seguente posizione che hai visitato dopo che hai usato la barra di ricerca.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Vai alla definizione del blocco personalizzato",
+		"description": "Ti permette di andare alla definizione di un blocco personalizzato usando il pulsante centrale del mouse oppure cliccando il blocco mentre si preme Shift.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Tooltip che mostra la data di condivisione e di ultima modifica",
 		"description": "Passa con il mouse sopra la data di condivisione di un progetto per vedere esattamente quando é stato condiviso e quando invece é avvenuta l'ultima modifica.",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Sposta costumi in cima o in fondo",
-		"description": "Aggiunge una opzione al menu contestuale per spostare un costume o un suono in cima o in fondo alla lista. In precedenza era un'opzione inserita negli strumenti per sviluppatori.",
+		"description": "Aggiunge al menù contestuale un elemento per spostare un costume o un suono in cima o in fondo alla lista.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1157,6 +1180,15 @@
 				"name": "Tacodude7729",
 				"link": "https://scratch.mit.edu/users/Tacodude7729/"
 			}
+		]
+	},
+	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Togli l'autocompletamento dalla casella di ricerca",
+		"description": "Fai in modo che i browser non completino automaticamente i suggerimenti nella casella di ricerca della barra di navigazione.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
 		]
 	},
 	{
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "Colorazione alternata dei blocchi annidati. ",
+		"description": "Rende i blocchi della stessa categoria più chiari o più scuri quando sono annidati uno dentro l'altro. E' conosciuto anche come \"zebra striping\".",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}

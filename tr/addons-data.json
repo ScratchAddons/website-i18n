@@ -9,7 +9,7 @@
 	{
 		"id": "60fps",
 		"name": "60FPS proje oynatıcı modu",
-		"description": "60FPS'e geçmek için yeşil bayrağa alt tuşuna basılı iken tıklayın",
+		"description": "60FPS'e geçmek için yeşil bayrağa alt tuşuna basılıyken tıklayın.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -28,7 +28,7 @@
 	{
 		"id": "animated-thumb",
 		"name": "Küçük resim ayarlayıcı",
-		"description": "Projenizin küçük resmini herhangi bir görüntüyle (gifler dahil) değiştirmek için proje sayfasının sağ alt kısmına bir düğme ekler.",
+		"description": "Projenizin küçük resmini herhangi bir görüntüyle (gifler dâhil) değiştirmek için proje sayfasının sağ alt kısmına bir düğme ekler.",
 		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
@@ -173,7 +173,10 @@
 		"name": "İkiz sayacı",
 		"description": "Düzenleyicide sahnedeki toplam ikiz sayısını gösteren bir sayaç ekler.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+		]
 	},
 	{
 		"id": "cloud-games",
@@ -219,7 +222,7 @@
 	{
 		"id": "comments-linebreaks",
 		"name": "Yorumlarda satır sonları",
-		"description": "Sitesindeki yorumları boşluklara dönüştürmek yerine satır sonlarını (Enter tuşuna basarak) görünür hale getirir.",
+		"description": "Sitesindeki yorumları boşluklara dönüştürmek yerine satır sonlarını (Enter tuşuna basarak) görünür hâle getirir.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -408,7 +411,7 @@
 		"id": "default-costume-editor-color",
 		"name": "Özelleştirilebilir varsayılan kostüm düzenleyicisi renkleri",
 		"description": "Kostüm düzenleyici tarafından kullanılan varsayılan renkleri ve kenarlık boyutunu değiştirir.",
-		"tags": ["editor", "costumeEditor", "featured", "beta"],
+		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
@@ -510,7 +513,7 @@
 	{
 		"id": "editor-dark-mode",
 		"name": "Düzenleyici koyu modu ve özelleştirilebilir renkler",
-		"description": "Proje editörü tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla koyu mod mevcuttur. Koyu moda ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız, \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
+		"description": "Proje editörü tarafından kullanılan renkleri özelleştirin. Farklı yazarlara ait birden fazla koyu tema mevcuttur. Koyu temaya ihtiyacınız yoksa ancak varsayılan renkleri değiştirmek istiyorsanız, \"Scratch'in varsayılan renkleri\" ön ayarını seçebilir ve ince ayarlarınızı yapabilirsiniz.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -542,8 +545,8 @@
 	{
 		"id": "editor-devtools",
 		"name": "Geliştirici araçları",
-		"description": "Düzenleyiciye bir arama kutusu ve yeni menü seçenekleri ekler: blokları kopyala/yapıştır, daha iyi temizle, özel blok tanımına git ve çok daha fazlası! Arama kutusuna odaklanmak için Ctrl+F, \"ada göre blok ekle\" açılır penceresini açmak için Ctrl+Boşluk, arama geçmişinde gezinmek için Ctrl+Sol/Sağ tuşlarına basın.",
-		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"description": "Düzenleyiciye yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizlik ve çok daha fazlası! \"Ada göre blok ekle\" açılır penceresini açmak için Ctrl+Boşluk'u (macOS'ta Shift+Boşluk'u) kullanın.",
+		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
@@ -582,7 +585,7 @@
 	{
 		"id": "editor-stage-left",
 		"name": "Sahneyi sol tarafta göster",
-		"description": "Sahneyi editörün sol tarafına taşır.",
+		"description": "Sahneyi Scratch 2.0'daki gibi editörün sol tarafına taşır.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
@@ -655,6 +658,19 @@
 		]
 	},
 	{
+		"id": "find-bar",
+		"name": "Editörde arama çubuğu",
+		"description": "Sesler sekmesinin yanına kodları, kostümleri ve sesleri bulmak ve onlara gitmek için bir arama çubuğu ekler. Arama çubuğunu kullandıktan sonra önceki veya sonraki ziyaret edilen konuma gitmek için kod alanında Ctrl+Sol ve Ctrl+Sağ tuşlarını kullanın.",
+		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber/"
+			}
+		]
+	},
+	{
 		"id": "fix-editor-comments",
 		"name": "Daha iyi editör yorumları",
 		"description": "Scratch editöründeki yorumlarda çok sayıda değişiklik yapar: bloklara eklenen yorumların sürükledikten sonra konumlarını doğru şekilde kaydedilmediği bir hatayı düzeltir, büyük kodlarda blok yorumlarının ekran dışında görünmesini engeller, blok yorumlarının bağlantılarını düz tutar ve daha fazlasını yapar.",
@@ -680,7 +696,7 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "SVG yüklemelerini düzeltin",
+		"name": "SVG yüklemelerini düzelt",
 		"description": "Affinity Designer gibi bazı resim düzenleyicilerle oluşturulan SVG dosyalarının bozulmasına neden olan Scratch düzenleyicisindeki bir hatayı düzeltir.",
 		"tags": ["editor", "costumeEditor"]
 	},
@@ -904,6 +920,13 @@
 		]
 	},
 	{
+		"id": "jump-to-def",
+		"name": "Özel blok tanımına git",
+		"description": "Orta fare düğmesiyle veya bloğa Shift+Tıklayarak özel bir bloğun tanımına gitmenize izin verir.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "griffpatch" }]
+	},
+	{
 		"id": "last-edit-tooltip",
 		"name": "Paylaşılan/düzenlenen tarihler tooltip",
 		"description": "Bir projenin tam olarak paylaşıldığı ve en son düzenlendiği tarih hakkında bilgi almak için o projenin paylaşım tarihinin üzerine gelin.",
@@ -999,7 +1022,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Kostümü yukarı veya aşağı taşı",
-		"description": "Bir kostümü veya sesi listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsü öğesi ekler. Önceden geliştirici araçlarının bir parçasıydı.",
+		"description": "Bir kostümü veya sesi listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsüne bir öge ekler.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1073,7 +1096,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "Önceki kostümün izi",
-		"description": "Bir kostümü düzenlerken önceki veya sonraki kostümlerin şeffaf hallerini gösterir. Kostüm editöründeki yakınlaştırma düğmelerinin altındaki düğmelerle kontrol edilir.",
+		"description": "Bir kostümü düzenlerken önceki veya sonraki kostümlerin şeffaf hâllerini gösterir. Kostüm editöründeki yakınlaştırma düğmelerinin altındaki düğmelerle kontrol edilir.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -1094,7 +1117,7 @@
 	{
 		"id": "progress-bar",
 		"name": "Proje ilerleme çubuğu",
-		"description": "Projeleri yüklemek ve kaydetmek için bir ilerleme çubuğu ekler",
+		"description": "Projelerin yüklenmesi ve kaydedilmesi aşaması için bir ilerleme çubuğu ekler.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
@@ -1160,6 +1183,15 @@
 		]
 	},
 	{
+		"id": "remove-search-bar-autocomplete",
+		"name": "Arama çubuğundan otomatik doldurmayı kaldır",
+		"description": "İnternet tarayıcılarının gezinme çubuğunun arama çubuğundaki önerileri otomatik olarak tamamlamayı durdurur.",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		]
+	},
+	{
 		"id": "remove-sprite-confirm",
 		"name": "Kukla silme onayı",
 		"description": "Bir kuklayı silerken emin olup olmadığınızı sorar.",
@@ -1168,7 +1200,7 @@
 	{
 		"id": "resizable-comment-input",
 		"name": "Yeniden boyutlandırılabilen yorum girişi",
-		"description": "Scratch 3.0 stilindeki sayfalarda yorum giriş kutusunu dikey olarak yeniden boyutlandırılabilir hale getirir.",
+		"description": "Scratch 3.0 stilindeki sayfalarda yorum giriş kutusunu dikey olarak yeniden boyutlandırılabilir hâle getirir.",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [
 			{
@@ -1180,7 +1212,7 @@
 	{
 		"id": "scratch-messaging",
 		"name": "Scratch Mesajlaşma",
-		"description": "Scratch Eklentileri simgesine tıklandığında kullanılabilir. Scratch mesajlarınızı kolay okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamı gösterir, doğrudan yorum yanıtlamaya izin verir.",
+		"description": "Scratch Eklentileri simgesine tıklandığında kullanılabilir. Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar: mesajları projeye göre gruplandırır, tam yorum metnini ve bağlamı gösterir, doğrudan yorum yanıtlamaya izin verir.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
@@ -1422,6 +1454,20 @@
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		]
+	},
+	{
+		"id": "zebra-striping",
+		"name": "İç içe olan blok renklerini değiştir",
+		"description": "Aynı tür blokların, birbiri içine yerleştirildiğinde açık ve koyu tonlar arasında geçiş yapmasını sağlar. Bu aynı zamanda zebra çizgileri olarak da bilinir.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "CST1229", "link": "https://github.com/CST1229" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
 		]
 	}
