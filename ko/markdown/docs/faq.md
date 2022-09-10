@@ -5,15 +5,15 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 이 페이지는 스크래치 애드온 확장 프로그램과 프로젝트와 관련된 자주 묻는 질문의 목록입니다.
 
-## General questions
+## 일반적인 질문
 
 ### 스크래치 애드온이 뭔가요?
 
-스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기에 대한 집약적(all-in-one) 브라우저 확장 프로그램입니다. 스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기를 위한 (내부적으로 애드온이라고 부르는)기능과 테마를 지원합니다. 스크래치 애드온의 목적은 몇몇 스크래치 커뮤니티의 구성원으로부터 개발된 존재하는 모든 스크래치 확장 프로그램, 사용자 스크립트와 스타일들을 하나의 접근성 좋은 장소인 스크래치 애드온으로 묶으면서도 사용자들이 무슨 기능을 활성화할지 자유롭게 정하는 곳입니다.
+스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기에 대한 집약적 브라우저 확장 프로그램입니다. 스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기를 위한 (내부적으로 애드온이라고 부르는)기능과 테마를 지원합니다. 스크래치 애드온의 목적은 몇몇 스크래치 커뮤니티의 구성원으로부터 개발된 존재하는 모든 스크래치 확장 프로그램, 사용자 스크립트와 스타일들을 하나의 접근성 좋은 장소인 스크래치 애드온으로 묶으면서도 사용자들이 무슨 기능을 활성화할지 자유롭게 정하는 곳입니다.
 
-### Who created Scratch Addons?
+### 스크래치 애드온을 만드 사람은 누구인가요?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+스크래치 애드온은 World_Languages가 이끄는 팀 프로젝트입니다. [기여자](/ko/contributors) 페이지에서 프로젝트에 참여한 사람들을 확인하실 수 있습니다. "스크래치 메시징"과 "개발자 도구"를 제작한 griffpatch는 확장 프로그램을 운영하진 않습니다.
 
 ### What does Scratch Addons include?
 
