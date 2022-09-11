@@ -1,11 +1,17 @@
 _index.html:
-  description: 스크래치 애드온은 스크래치(scratch.mit.edu) 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
+  description: "스크래치 애드온은 스크래치(scratch.mit.edu) 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다."
 addons.html:
   title: 애드온
   description: 이 페이지에는 스크래치 애드온에 구현된 모든 추가 기능이 나열됩니다.
 changelog.html:
   title: 변경 내역
   description: 프로젝트의 모든 중요한 변경 내역은 이 페이지에 설명되어 있습니다.
+credits.html:
+  title: 기여자
+  description: "스크래치 애드온의 기능, 테마, 웹사이트 등을 작업하며 이 프로젝트에 기여하신 멋진 분들에게 깊은 감사의 말씀을 드립니다."
+extension-settings.html:
+  title: 스크래치 애드온 설정
+  description: 스크래치 애드온 설정으로 들어가는 방법.
 farewell.html:
   title: 안녕히 계세요!
   description: 스크래치 애드온이 제거되었습니다. 지금까지 애드온을 사용해 주셔서 감사합니다!
