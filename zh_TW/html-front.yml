@@ -1,15 +1,28 @@
+_index.html:
+  description: Scratch Addons 是一個瀏覽器擴展，它為 Scratch (scratch.mit.edu) 網站和項目編輯器提供了新的功能和主題。 它的功能是收集、存檔和使用由 Scratch的成員開發的用戶樣式和用戶腳本。
 addons.html:
   description: 此頁面列出了在 Scratch Addons 上實現的所有插件.
 changelog.html:
   title: 更改日誌
+  description: 此項目的所有更改都將記錄在此頁面中。
 credits.html:
   title: 信任
+  description: 非常感謝這些人在 Scratch 插件、其功能、主題、網站等方面為項目做出的貢獻。
+extension-settings.html:
+  title: Scratch Addons設置
+  description: 如何逐步聊解 Scratch Addons 的設置。
 farewell.html:
   title: 告別
   description: Scratch Addons 已被卸载. 我們非常感謝您使用我們的插件!
 feedback.html:
   title: 发送评价
+  description: 向 Scratch Addons 開發人員發送反饋。
+scratch-messaging-transition.html:
+  title: 擴展更新（過渡時期）
+  description: Scratch Messaging Extension（由 griffpatch 提供）已更新，現在稱為 Scratch Addons。單擊擴展欄中的 Scratch Addons 圖示以查看新消息的內容！
 unsupported-browser.html:
   title: 不支持的瀏覽器
+  description: Scratch Addons 無法在您使用的瀏覽器運作。
 welcome.html:
   title: 歡迎
+  description: Scratch Addons 已成功安裝！感謝您安裝。我們希望你喜歡這個擴展！

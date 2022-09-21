@@ -7,7 +7,7 @@ This page lists frequently asked questions related to the Scratch Addons extensi
 
 ## General questions
 
-### What is Scratch Addons?
+### 什麼是Scratch Addons?
 
 Scratch Addons is an "all-in-one" browser extension for the Scratch website and project editor. It provides features and themes (called addons internally), both for the Scratch website and the project editor. Scratch Addons' mission is to combine all existing Scratch extensions, userscripts and userstyles, developed by several members of the Scratch community, into a single easy-to-access place, while still letting users choose which ones to enable.
 
