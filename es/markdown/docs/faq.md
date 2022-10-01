@@ -69,45 +69,45 @@ Puede [leer nuestra política de seguridad](../policies/security/) o [ver los av
 
 ### ¿Mi cuenta estará segura usando Scratch Addons?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Sí. Funciones relacionadas con su cuenta de Scratch son minuciosamente controladas por contribuyentes de Scratch Addons para asegurarnos de que no harán daño a su cuenta de Scratch. Scratch Addons mantiene las credenciales de su cuenta seguras, y no modificará ni eliminará sus proyectos u objetos sin su permiso. como sea, usted podría usar la extensión sin ninguna función relacionada con su cuenta si así lo desea.
 
 Los addons en Scratch Addons también han sido revisados por múltiples contribuyentes en el repositorio, entonces nadie puede colarnos código malicioso sin que lo sepamos.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Nunca enviamos ninguna información confidencial o personalmente identificativa fuera de su navegador. Vea  [la política de privacidad de la extensión](/docs/privacy/policies/extension) para más información.
 
-## Using Scratch Addons
+## Usar Scratch Addons
 
 ### ¿Cómo activo addons?
 
-To enable addons, first go to the settings by:
+Para habilitar addons, primero vaya a la configuración:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- abra el popup y haga click en el ícono del engranaje en la esquina superior derecha
+- vaya a https://scratch.mit.edu/scratch-addons-extension/settings. Nota: deberá tener la extensión instalada para que este enlace funcione.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+Ahora, encuentre addons que le gustaría habilitar usando la barra lateral o el cuadro de búsqueda. Para habilitar un addon, haga click en el interruptor en el lado derecho del rectángulo del complemento.
 
 ### ¿Puedo contarle a la gente sobre Scratch Addons en Scratch?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+No puede, y por favor no lo haga. Hay una política que prohíbe mencionar extensiones de navegador o userscripts [aquí](https://scratch.mit.edu/discuss/post/2907564/), y las violaciones han resultado en el Equipo de Scratch eliminando publicaciones o silenciando cuentas. Podrías, de todas formas, usar diferentes métodos para contarle a tus amigos sobre Scratch Addons.
 
 ### Creo que Scratch Addons realentiza Scratch. ¿Qué puedo hacer?
 
-You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+Puede probar deshabilitar addons que no necesita, especialmente funciones complejas como la pestaña de variables, el debugger o los cat blocks que miran el cursor del ratón. La mayoría de los addons con un impacto en el rendimiento proporcionarán una advertencia en su información ampliada.
 
-Some specific advices:
-- Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
-- "Variable manager" addon should not be used while the project is running.
+Algunos consejos concretos:
+- Apague el 60FPS addon. Mientras que el addon puede incrementar la velocidad máxima a la que un proyecto puede ejecutarse, no reduce los retrasos. Para correr tales proyectos más rápido, use [TurpoWarp](https://turbowarp.org/).
+- El addon "Gestor de variables" no debería ser usado mientras el proyecto se está corriendo.
 
-### I cannot receive notifications. Why?
+### No puedo recibir notificaciones. ¿Por qué?
 
-First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+Principalmente, deshabilite y rehabilite el addon "Scratch Notifier". Esto puede arreglar algunos problemas.
 
-If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+Si el problema continúa, entonces revise la configuración de las notificaciones de su sistema operativo. Tiene que permitir al navegador -  como Google Chrome - enviar notificaciones.
 
-- Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
+- Windows: Abra la Configuración, abra "Sistema" y la categoría "Notificaciones y acciones", encuentre la opción para cambiar las opciones de los emisores individualmente. Lea el [artículo de ayuda de Microsoft](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) para información más detallada.
 - macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
 
-You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
+Debería también asegurarse de que "Asistente de concentración" (en Windows) o "No molestar" (en macOS) esté desactivado.
 
 ### How do I watch recordings made with the project video recorder addon?
 
