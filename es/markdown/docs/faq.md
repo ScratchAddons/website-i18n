@@ -105,61 +105,61 @@ Principalmente, deshabilite y rehabilite el addon "Scratch Notifier". Esto puede
 Si el problema continúa, entonces revise la configuración de las notificaciones de su sistema operativo. Tiene que permitir al navegador -  como Google Chrome - enviar notificaciones.
 
 - Windows: Abra la Configuración, abra "Sistema" y la categoría "Notificaciones y acciones", encuentre la opción para cambiar las opciones de los emisores individualmente. Lea el [artículo de ayuda de Microsoft](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) para información más detallada.
-- macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
+- macOS: Abra Preferencias del Sistema, y la sección de Notificaciones. Seleccione el navegador (p. ej. Google Chrome) en la izquierda y habilite las notificaciones. Lea [el artículo de ayuda de Apple](https://support.apple.com/en-us/HT204079) para información más detallada.
 
 Debería también asegurarse de que "Asistente de concentración" (en Windows) o "No molestar" (en macOS) esté desactivado.
 
-### How do I watch recordings made with the project video recorder addon?
+### ¿Cómo miro grabaciones hechas con el addon del grabador de video de proyectos?
 
-Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+Por limitaciones técnicas, videos grabados con este addon están en el formato de WebM. Puede ver archivos .webm usando su navegador (moviendo y soltando el archivo) o usando un reproductor de medios que lo soporte, como [VLC media player](https://www.videolan.org/).
 
-To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
+Para convertir archivos WebM en MP4 u otros formatos, puede usar un software de conversión de video que sea compatible con WebM, como [HandBrake](https://handbrake.fr/) o  [CloudConvert](https://cloudconvert.com/webm-to-mp4), a pesar de que recomendamos que simplemente vea estos archivos con un navegador u otro reproductor. Recuerde que esto puede llevar un largo tiempo dependiendo en el tamaño del video.
 
 ### ¿Cómo puedes activar los addons easter egg?
 
-To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
+Para revelar los addons de easter egg, ejecute el Código Konami (↑↑↓↓←→←→BA) con su teclado en la página de configuración. Después de eso, se mostrarán los addons de easter egg, dejándole activarlos.
 
-Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
+Algunos de nuestros addons de easter egg son "Configuración De La Cuenta en mayúsculas" y "Semicolon glitch". Vea [la pestaña de addons](/addons) para una lista completa.
 
-## Contributing
+## Contribuir
 
 ### ¿Cómo puedo contribuir a Scratch Addons?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+De primera mano, ¡apreciamos tu interés en contribuir a Scratch Addons!
 
-As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
+Como un proyecto de código abierto, aceptamos cualquier tipo de contribución. No necesita preguntar con anticipación, ¡todos son bienvenidos a contribuir! Puede contribuir de muchas maneras, varias de las que no necesitan conocimiento de programación.
 
 - **Aportar algo de código**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  Si eres familiar con JavaScript, HTML, y CSS, puede contribuir arreglando bugs, haciendo ajustes o añadiendo funciones.
 
-  To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
+  Para incorporar sus cambios en la dicha extensión, necesita crear una solicitud de cambio. Usted puede hacerlo bifurcando [el repositorio](https://github.com/ScratchAddons/ScratchAddons/), creando una nueva rama, haciendo los cambios necesarios, y creando la solicitud de cambio. La revisaremos y probablemente hacer algunos cambios antes de que sea fusionada.
 
-You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
+Además, puede contribuir en otros aspectos de la organización, como nuestro sitio web. Puede ver todos nuestros repositorios en [nuestra página de organización de GitHub](https://github.com/ScratchAddons).
 
 - **Sugerir una idea**
 
-  Have an idea that you think would be a good addition to Scratch Addons? [Let us know!](#i-think-you-missed-a-feature-what-can-i-do)
+  ¿Tiene una idea que piensa que sería una buena adición a Scratch Addons? [¡Déjanos saberlo!](#i-think-you-missed-a-feature-what-can-i-do)
 
 - **Reportar un bug**
 
-  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  ¿Encontró un bug en uno de nuestros addons, la página de configuración, o algo más de nuestra extensión? [¡Envíenos un reporte de error!](#what-can-i-do-if-i-find-a-problem).
 
 - **Traducir Scratch Addons**
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
+  Si es fluido en otro idioma, puede ayudar a traducir/localizar Scratch Addons a dicho lenguaje. Puede empezar [uniéndose al equipo de traducción](/docs/localization/joining-the-localization-team).
 
 - **Escribir la documentación**
 
-  Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
+  ¿Es familiar con los funcionamientos internos de Scratch Addons? Si es así, puede escribir su documentación. La documentación está en [nuestro repositorio del sitio web](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). ¡Siéntase libre de abrir una solicitud de cambio!
 
 - **Enviar comentarios**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  Puede enviarnos comentarios [en esta página](https://scratchaddons.com/feedback). Sus comentarios podrían darnos una perspectiva distinta en el desarrollo de la extensión y ayudarnos a saber qué cosas necesitan atención y arreglar bugs.
 
 - **Dejar una reseña en las tiendas**
 
-  You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
+  Puede dejar una reseña sobre Scratch Addons en [la página de extensiones de Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [la página de addons de Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) o [la página de addons de Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). ¡Esta es una buena manera de ayudar a convencer a otros de instalar la extensión!
 
 - **Marcar nuestro repositorio como favorito**
 

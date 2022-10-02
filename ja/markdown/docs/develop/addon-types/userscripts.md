@@ -1,11 +1,11 @@
 ---
-title: Userscripts
+title: ユーザースクリプト
 description: ユーザースクリプトを使うと、Scratchページでコードを実行できます。ボタンを追加したり、Scratchエディターを強化したり、その他なんでもできます。
 ---
 ## これは何ですか?
 ユーザースクリプトを使うと、Scratchページでコードを実行できます。ボタンを追加したり、Scratchエディターを強化したり、その他なんでもできます。
 
-## How do I add a userscript?
+## ユーザースタイルの追加方法
 **アドオンへの変更後はScratch Addonsを `chrome://extensions` から再読み込みしてください。**
 アドオン・マニフェスト(addon.json)にて `userscripts` プロパティを追加してください。
 これは配列でないといけません。
@@ -33,8 +33,8 @@ description: ユーザースクリプトを使うと、Scratchページでコー
 ```
 
 ## JavaScriptファイルはどのようになりますか?
-Userscripts JS files require a specific structure to work.  
-For userscripts, you **must** wrap all your code inside a function looking like this:
+ユーザースクリプトのJavaScriptファイルには特別な構造が必要です。
+ユーザースクリプトでは、コードは次のような関数に **包まないといけません**:
 ```js
 export default async function ({ addon, global, console }) {
 console.log("Hello, " + await addon.auth.fetchUsername());
