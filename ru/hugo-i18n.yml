@@ -19,11 +19,14 @@ Global:
     SlideX: Перейти к предмету №{{ .Count }}
 Links:
   Blog: Блог
+  Docs: Документация
   Addons: Аддоны
   Credits: Благодарности
   PrivacyPolicy: Политика конфедициальности
   DiscordCom: Discord сообщества
   Discussion: Форум обсуждения
+  Community: Сообщество
+  Twitter: Твиттер
 Nav:
   Feedback: Отправить отзыв
   Repository: Репозиторий

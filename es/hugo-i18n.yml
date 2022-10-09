@@ -117,6 +117,7 @@ FeedbackPage:
     Success: ¡Enviado! Gracias por sus comentarios.
     Failed: Algo anduvo mal. ¿Intente enviar de nuevo?
     Offline: Algo salió mal en el servidor de comentarios. Intenta más tarde, o usa las alternativas mencionadas.
+  NoAddonsList: No se puede enviar la lista. Por favor abra esta página a través de la extensión.
   UsernameLabel: Nombre de usuario de Scratch, u otros identificadores (opcional)
   ContentLabel: Comentarios
   ContentPlaceholder: Por favor proporcione tantos detalles como pueda.

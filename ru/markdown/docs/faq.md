@@ -5,39 +5,39 @@ description: На этой странице перечислены часто з
 
 На этой странице перечислены часто задаваемые вопросы о расширении Scratch Addons и проекте.
 
-## General questions
+## Общие вопросы
 
 ### Что такое Scratch Addons?
 
 Scratch Addons — браузерное расширение «всё в одном» для веб сайта Scratch и его редактора проектов. Он даёт новые функции и темы (которые называются аддонами), для веб сайта Scratch и редактора проектов. Миссия Scratch Addons — соединить все существующие Scratch расширения, юзерскрипты и юзерстили, которые разработаны некоторыми участниками сообщества Scratch, в одно место с лёгким доступом, давая пользователям выбирать, какие нужно включить.
 
-### Who created Scratch Addons?
+### Кто создал Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons — командный проект под руководством World_Languages. Вы можете найти список людей, которые внесли вклад на нашей странице [внёсших вклад](/contributors). Хоть и аддоны «Сообщения Scratch» и «Инструменты разработчика» изначально были созданы griffpatch, он не обслуживает расширение.
 
-### What does Scratch Addons include?
+### Что включает Scratch Addons?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+В Scratch Addons есть более 100 аддонов, которые могут быть включены или выключены отдельно. Некоторые аддоны могут быть ещё настраиваемыми, и у некоторых есть пресеты по типу тёмной темы для веб-сайта. Scratch Addons также включает всплывающее окно, с помощью которого можно быстрее смотреть сообщения, облачные игры и страницу настроек. Scratch Addons переведён на многие языки, включая немецкий, французский, испанский и японский.
 
-### Is this the same as TurboWarp Addons?
+### Это такое же, что и Аддоны TurboWarp?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+У [TurboWarp](https://turbowarp.org/) есть некоторые аддоны из Scratch Addons, которые можно использовать в их редакторе без установки Scratch Addons. Однако, Scratch Addons также включает в себя аддоны для веб-сайта Scratch и всплывающее окно. Поэтому всё равно полезно иметь Scratch Addons под рукой, даже если Вы программируете с помощью TurboWarp.
 
-## System requirements
+## Системные требования
 
-### What are the system requirements for Scratch Addons?
+### Какие системные требования у Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons официально поддерживается на десктопных версиях [Google Chrome](https://google.com/chrome/) (версия 80 и выше), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (версия 80 и выше) и [Mozilla Firefox](https://mozilla.org/firefox/) (версия 86 и выже), и должна также работать на др. настольных браузерах, которые основаны на тех браузерах. См. [эту страницу](../getting-started/installing/) для полной информации.
 
-### Can I use Scratch Addons on a mobile device?
+### Могу ли я использовать Scratch Addons на мобильном устройстве?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Для пользователей Android: Да, но не рекомендуется. Большинства браузеров не позволяют Scratch Addons (или любым другим расширениям) установиться, так что вам нужно будет использовать браузеры по типу [Kiwi](https://kiwibrowser.com/). Интерфейс Scratch Addons не тестирован хорошо на тачскринах или среды с маленьким размером экрана, так что некоторые функции могут не работать, как надо.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+Для пользователей iOS и iPadOS: К сожалению, нельзя. Правила App Store не разрешают реализации браузеров быть опубликованными, что значит, что все браузеры, которые доступны на той платформе — просто Safari с др. дизайном. Это даёт некоторые проблемы (см. ниже).
 
-### Can I use Scratch Addons on Safari?
+### Можно мне использовать Scratch Addons на Safari?
 
-Currently, you cannot.
+На данный момент, нет.
 
 First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
 
@@ -135,7 +135,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
   To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
 
-You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
+  You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
 
 - **Предложить идею**  
 
@@ -167,7 +167,7 @@ You can also contribute to other aspects of the organization, such as our websit
 
 - **Рассказать о Scratch Addons**
 
-You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+  You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Как я могу сделать свой аддон?
 
