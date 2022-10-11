@@ -31,7 +31,7 @@ Scratch Addons официально поддерживается на дескт
 
 ### Могу ли я использовать Scratch Addons на мобильном устройстве?
 
-Для пользователей Android: Да, но не рекомендуется. Большинства браузеров не позволяют Scratch Addons (или любым другим расширениям) установиться, так что вам нужно будет использовать браузеры по типу [Kiwi](https://kiwibrowser.com/). Интерфейс Scratch Addons не тестирован хорошо на тачскринах или среды с маленьким размером экрана, так что некоторые функции могут не работать, как надо.
+Для пользователей Android: Да, но не рекомендуется. Большинства браузеров не позволяют Scratch Addons (или любым другим расширениям) установиться, так что вам нужно будет использовать браузеры по типу [Kiwi](https://kiwibrowser.com/). Интерфейс Scratch Addons не тестирован хорошо на тачскринах и средах с маленьким размером экрана, так что некоторые функции могут не работать так, как надо.
 
 Для пользователей iOS и iPadOS: К сожалению, нельзя. Правила App Store не разрешают реализации браузеров быть опубликованными, что значит, что все браузеры, которые доступны на той платформе — просто Safari с др. дизайном. Это даёт некоторые проблемы (см. ниже).
 
@@ -39,29 +39,29 @@ Scratch Addons официально поддерживается на дескт
 
 На данный момент, нет.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+Во-первых, магазин расширений Safari требует от всех разработчиков ежегодную плату, чтобы поддерживать расширение на магазине. Т. к. у команды Scratch Addons нет способа заработки, это правило делает очень сложным для поддерживания расширения. Также есть тех. проблема с имплементацией браузерных расширений в Safari, что делает некоторые основные функции неиспользуемыми.
 
-### Can I use Scratch Addons on the offline editor?
+### Могу ли я использовать Scratch Addons в офлайн редакторе?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Addons нельзя использовать в официальном приложении Scratch, включая офлайн редактор.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Как альтернатива, большинства аддонов для редактора проектов доступны на [TurboWarp](https://turbowarp.org/), у которого есть [скачиваемое приложение](https://desktop.turbowarp.org/) для Windows, macOS и Linux. Также на браузерах, которые поддерживают Progressive Web Applications (Прогрессивные веб-приложения) по типу Google Chrome, ты также можешь установить редактор TurboWarp как PWA и использовать его без интернет-соединения.
 
-### Are there any incompatible programs?
+### Есть ли несовместимые программы?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Некоторые браузерные расширения и юзерскрипты мешают работе Scratch Addons. Если у тебя есть какие-то проблемы, можешь попробовать их отключить:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+- Scratch 3 Developer Tools: Это браузерное расширение является копией аддона «Инструменты разработчика». Ты должен удалить это расширение и включить аддон.
+- Better3.0: Это браузерное расширение может мешать работе некоторым аддонам. К счастью, большинства его функций также доступны как аддоны.
+- Redux DevTools: Это может мешать с внутренней работой Scratch Addons. Ты должен отключить расширение Redux DevTools, если ты его не используешь.
 
-## Security and privacy
+## Безопасность и приватность
 
 ### Scratch Addons безопасен?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Да. У Scratch Addons не должно быть проблем с безопасностью в её последней версии. Scratch Addons является open-source проектом, так что код рассматривается внёсшими вклад в Scratch Addons. Также Интернет-магазин Chrome, Дополнения для Firefox и Дополнения Microsoft Edge рассматривают каждую новую версию Scratch Addons до публикования на их магазинах.
 
-### Как я могу сказать о проблеме с безопасностью?
+### Как я могу сообщить об уязвимости?
 
 If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
 
