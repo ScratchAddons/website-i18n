@@ -63,9 +63,9 @@ Scratch Addons нельзя использовать в официальном �
 
 ### Как я могу сообщить об уязвимости?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Если ты нашёл уязвимость, пожалуйста, свяжись с World_Languages лично по электронной почте `worldxlanguages (собака) gmail.com`. Если ты не получишь ответа в течении 48 часов, то [сделай проблему (issue)](https://github.com/ScratchAddons/ScratchAddons/issues/) говоря о том, что ты уже отправил письмо по эл. почте.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Ты можешь либо [прочитать нашу политику безопасности](https://github.com/ScratchAddons/ScratchAddons/security/policy), либо [посмотреть наши рекомендации, которые мы опубликовали](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Будет ли мой аккаунт безопасен во время использования Scratch Addons?
 
