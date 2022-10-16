@@ -33,14 +33,14 @@ Voorbeeldmanifest:
 ```
 
 ## Hoe ziet het JavaScript-bestand eruit?
-Userscripts JS-bestanden hebben een specifieke structuur nodig om te werken. 
+Userscript JS-bestanden hebben een specifieke structuur nodig om te werken. 
 Voor userscripts **moet** je alle code in een functie zetten die er zo uitziet:
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Hallo, " + await addon.auth.fetchUsername());
 }
 ```
-Als je je eigen functies wilt schrijven voor overzichtelijkere code, moet je ze in de hoofdfunctie doen: 
+Als je code in functies wilt abstraheren om het overzichtelijker te maken, moet je ze includeren in de hoofdfunctie: 
 **Dit zal werken:**
 ```js
 export default async function ({ addon, global, console }) {
@@ -64,7 +64,7 @@ async function zegHallo() {
 ```
 
 ## [`addon.*` API's](/docs/developing/addon-apis-reference)
-Je kunt toegang krijgen tot sommige  `addon.*` API's van userscripts. Voor meer informatie, check de documentatie.
+Je kunt toegang krijgen tot veel  `addon.*`-API's van userscripts. Voor meer informatie, check de documentatie.
 
 ## Technische aspecten van userscripts
 Userscripts voeren uit nadat de Scratchpagina volledig is geladen - in andere woorden, ze voeren uit in de `defer`-stand.
@@ -93,4 +93,4 @@ Om userscripts te debuggen, zorg er eerst voor dat je addon aanstaat.
 Ga dan naar een URL waar je hebt gespecificeerd waar je userscript zou moeten uitvoeren.
 Open de console door Ctrl+Shift+J in te voeren.
 Je zou console-logs moeten zien bij addons, inclusief de jouwe. Als je goed bent in devtools, zal je geen probleem hebben met breakpoints in je code zetten.
-Pro-tip: als je de `addon.*`-API wilt testen zonder steeds je bestand te veranderen, maak dan je addon `window.addon = addon;` (binnen de hoofdfunctie), en je zou in de console toegang moeten hebben tot het `addon`-object van je addon. Zorg ervoor dat je die regel verwijdert voordat je bijdraagt aan deze repo! Userscripts zouden het globale object niet moeten vervuilen.
+Pro-tip: als je de `addon.*`-API wilt testen zonder steeds je bestand te veranderen, maak dan je addon `window.addon = addon;` (binnen de hoofdfunctie), en je zou in de console toegang moeten hebben tot het `addon`-object van je addon. Zorg ervoor dat je die regel verwijdert voordat je bijdraagt aan het archief! Userscripts zouden het globale object niet moeten vervuilen.

@@ -32,16 +32,16 @@ Exemple de manifest:
 }
 ```
 
-## Com es veu el fitxer JavaScript?
-Els fitxers Userscripts JS requereixen una estructura específica per funcionar.
-Per als scripts d'usuari, **has** d'embolicar tot el teu codi dins d'una funció semblant a aquesta:
+## What does the JavaScript file look like?
+Userscript JS files require a specific structure to work.  
+For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
-Si vols escriure les vostres pròpies funcions per tenir un codi més net, hauríes d'incloure-les dins de la funció principal:
-**Això funcionarà:**
+If you want to abstract code into functions for cleaner code, you should include them inside the main function:  
+**This will work:**
 ```js
 export default async function ({ addon, global, console }) {
   // This works!
@@ -64,7 +64,7 @@ async function sayHello() {
 ```
 
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
-Podeu accedir a algunes API `addon.*` des dels userscripts. Per a més informació, consulta la documentació.
+You can access many `addon.*` APIs from userscripts. For more information, check the documentation.
 
 ## Aspectes tècnics dels userscripts
 Userscripts s'executen després de que la pàgina Scratch s'hagi carregat completament, és a dir, s'executen en mode `defer`.
@@ -88,9 +88,9 @@ export default async function ({ addon, global, console }) {
 - `console`: aquest és un wrapper que permet veure quin addon ha activat el registre que esteu veient fàcilment.
 
 ## Depuració d'userscripts
-**Assegura't d'actualitzar els complements de Scratch des de `chrome://extensions` després de fer qualsevol canvi al teu addon.**
-Per depurar els userscripts, primer assegura'ts que el teu addon estigui habilitat.
-A continuació, vés a un URL on has especificat que s'hauria d'executar el vostre userscript.
-Obre la consola prement Ctrl+Maj+J.
-Hauríes de veure els registres de la consola dels addons, inclòs el teu. Si ets un professional del devtools, no tindrás cap problema per establir punts d'interrupció al teu codi.
-Suggeriment: si vols provar l'API `addon.*` sense canviar el fitxer cada vegada, fes que el teu addon sigui `window.addon = addon;` (dins de la funció principal) i podrás accedir al `addon` del teuaddon objecte de complement des de la consola. Assegura't d'eliminar aquesta línia abans de contribuir a aquest repo! Els Userscripts no han de contaminar l'objecte global.
+**Make sure to refresh Scratch Addons from `chrome://extensions` after making any changes to your addon.**  
+To debug userscripts, first of all make sure your addon is enabled.  
+Then, go to a URL where you specified your userscript should run.  
+Open the console by pressing Ctrl+Shift+J.  
+You should see console logs by addons, including yours. If you're a devtools pro, you won't have any trouble setting breakpoints in your code.  
+Protip: if you want to test the `addon.*` API without changing your file every time, make your addon `window.addon = addon;` (inside the main function), and you'll be able to access your addon's `addon` object from the console. Make sure to remove that line before contributing to the repo! Userscripts must not pollute the global object.

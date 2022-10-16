@@ -76,5 +76,5 @@ Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon
 Также не забудьте поменять название и описание на английское.
 
 ## Шаг 12: Отправьте pull запрос!
-Сделайте fork репозитории, если не сделали, зафиксируйте свой новый аддон и отправьте pull request!  
-Мы можем Вас попросить сделать некоторые изменения, однако мы скорее всего подтвердим Ваш аддон, если он хотя бы минимально подходящий.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

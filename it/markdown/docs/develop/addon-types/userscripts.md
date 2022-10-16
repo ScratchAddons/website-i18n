@@ -32,16 +32,16 @@ Esempio di manifest:
 }
 ```
 
-## Come è fatto il file JavaScript?
-Gli userscript JS per poter funzionare devono avere una precisa struttura.  
-Per gli userscript **devi** inserire tutto il tuo codice all'interno di una funzione come questa:
+## What does the JavaScript file look like?
+Userscript JS files require a specific structure to work.  
+For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
-Se vuoi scrivere le tue funzioni in modo che il codice sia più pulito, devi inserirle dentro la funzione principale:  
-**Questo funziona:**
+If you want to abstract code into functions for cleaner code, you should include them inside the main function:  
+**This will work:**
 ```js
 export default async function ({ addon, global, console }) {
   // Questo funziona!
@@ -64,7 +64,7 @@ async function sayHello() {
 ```
 
 ## [`addon.*` API](/docs/developing/addon-apis-reference)
-Negli userscript puoi accedere molte delle API `addon.*`. Per ulteriori informazioni consulta la documentazione.
+You can access many `addon.*` APIs from userscripts. For more information, check the documentation.
 
 ## Aspetti tecnici degli userscript
 Gli userscript vengono eseguiti dopo che la pagina Scratch è stata completamente caricata - in altre parole vengono eseguiti in modalità `defer`.
@@ -88,9 +88,9 @@ export default async function ({ addon, global, console }) {
 - `console`: questo wrapper ti permette di vedere facilmente quale addon ha attivato il log che stai guardando.
 
 ## Debug degli userscript
-**Assicurati di aggiornare Scratch Addon alla pagina `chrome://extensions` dopo ogni cambiamento apportato al tuo addon.** 
-Per debuggare gli userscript assicurati prima di tutto di abilitare il tuo addon. 
-Poi vai all'URL dove il tuo userscript dovrebbe essere eseguito.
-Apri la console premendo Ctrl+Shift+J. 
-Dovresti vedere i log degli addon, inclusi i tuoi. Se sei un professionista dei devtools non avrai problemi a definire i necessari breakpoint nel tuo codice. 
-Suggerimento da professionisti: se vuoi testare la API `addon.*` senza modificare ogni volta il tuo file, inserisci nel tuo addon l'istruzione `window.addon = addon;` (dentro la funzione principale) così potrai accedere all'oggetto `addon` del tuo addon dalla console. Assicurati di rimuovere questa istruzione prima di rilasciare il tuo contributo in questo repository! Gli userscript non devono "sporcare" l'oggetto global.
+**Make sure to refresh Scratch Addons from `chrome://extensions` after making any changes to your addon.**  
+To debug userscripts, first of all make sure your addon is enabled.  
+Then, go to a URL where you specified your userscript should run.  
+Open the console by pressing Ctrl+Shift+J.  
+You should see console logs by addons, including yours. If you're a devtools pro, you won't have any trouble setting breakpoints in your code.  
+Protip: if you want to test the `addon.*` API without changing your file every time, make your addon `window.addon = addon;` (inside the main function), and you'll be able to access your addon's `addon` object from the console. Make sure to remove that line before contributing to the repo! Userscripts must not pollute the global object.

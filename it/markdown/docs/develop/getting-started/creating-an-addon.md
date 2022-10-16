@@ -75,5 +75,5 @@ Assicurati che il tuo addon non interferisca negativamente con gli altri addon.
 Assicurati che il tuo codice sia comprensibile; commenti non indispensabili sono sempre meglio che nessun commento.
 
 ## Passo 12: Invia una richiesta di pull!
-Se non lo hai già fatto, forka il repository, fai il commit del tuo nuovo addon e invia una richiesta di pull!  
-Tieni conto che potremmo chiederti di fare dei cambiamenti ma che, probabilmente, accetteremo il tuo addon purché sia un minimo adatto.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

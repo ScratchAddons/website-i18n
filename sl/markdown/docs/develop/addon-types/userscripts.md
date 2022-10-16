@@ -32,16 +32,16 @@ Primer datoteke addon.json:
 }
 ```
 
-## Kako izgleda datoteka JavaScript?
-Datoteke JS uporabniških skript delujejo le, če so sestavljene na določen način.  
-V uporabniških skriptah **mora** biti vsa koda v funkciji, ki izgleda nekako tako:
+## What does the JavaScript file look like?
+Userscript JS files require a specific structure to work.  
+For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
-Če bi radi za lažje berljivo kodo napisali več funkcij, to naredite znotraj glavne funkcije.  
-**To deluje:**
+If you want to abstract code into functions for cleaner code, you should include them inside the main function:  
+**This will work:**
 ```js
 export default async function ({ addon, global, console }) {
   // This works!
@@ -64,7 +64,7 @@ async function sayHello() {
 ```
 
 ## [Vmesniki `addon.*`](/docs/developing/addon-apis-reference)
-Uporabniške skripte lahko dostopajo do nekaterih vmesnikov `addon.*`. Za več informacij preberite dokumentacije.
+You can access many `addon.*` APIs from userscripts. For more information, check the documentation.
 
 ## Tehnične lastnosti uporabniških skript
 Uporabniške skripte se začnejo izvajati, ko se je stran do konca naložila - z drugimi besedami: delujejo v načinu `defer`.
@@ -88,9 +88,9 @@ export default async function ({ addon, global, console }) {
 - `console`: omogoči, da v brskalnikovem orodju za razvijalce vidite, kateri dodatek je kaj izpisal.
 
 ## Razhroščevanje uporabniških skript
-**Vedno znova naložite Scratch Addons na strani `chrome://extensions`, potem ko spremenite vaš dodatek.**  
-Pred razhroščevanjem se prepričajte, da je dodatek vključen.  
-Potem pojdite na enega od URL-jev, na katerih naj bi se uporabniška skripta izvajala.  
-Pritisnite Ctrl+Shift+J, da odprete konzolo.  
-Tam boste videli izpise dodatkov, tudi vašega, in če ste profesionalni uporabnik orodja za razvijalce, ne boste imeli težav z dodajanjem prekinitev (breakpoints).  
-Če bi radi preizkušali vmesnik `addon.*`, ne da bi vsakič spremenili skripto, uporabite `window.addon = addon;` (v glavni funkciji), da lahko iz konzole dostopate do svojega objekta `addon`. Ne pozabite te vrstice odstraniti, preden dodatek prispevate na GitHub! Uporabniške skripte ne smejo onesnažiti globalnega objekta.
+**Make sure to refresh Scratch Addons from `chrome://extensions` after making any changes to your addon.**  
+To debug userscripts, first of all make sure your addon is enabled.  
+Then, go to a URL where you specified your userscript should run.  
+Open the console by pressing Ctrl+Shift+J.  
+You should see console logs by addons, including yours. If you're a devtools pro, you won't have any trouble setting breakpoints in your code.  
+Protip: if you want to test the `addon.*` API without changing your file every time, make your addon `window.addon = addon;` (inside the main function), and you'll be able to access your addon's `addon` object from the console. Make sure to remove that line before contributing to the repo! Userscripts must not pollute the global object.

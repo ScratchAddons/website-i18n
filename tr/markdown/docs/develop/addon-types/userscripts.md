@@ -32,16 +32,16 @@ Dizinin her bir ögesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleşi
 }
 ```
 
-## JavaScript dosyası nasıl görünüyor?
-Userscript'ler, JS dosyalarının çalışması için belirli bir yapı gerekir.
-Userscript'ler için, tüm kodunuzu şuna benzeyen bir işlevin içine sarmanız **zorunludur**:
+## JavaScript dosyası neye benziyor?
+Userscript JS dosyalarının çalışması için belirli bir yapı gerekir.
+Userscript'ler için, tüm kodunuzu şuna benzeyen bir işlevin içine sarmanız **zorunludur:**
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Merhaba, " + await addon.auth.fetchUsername());
 }
 ```
-Daha temiz bir koda sahip olmak için kendi fonksiyonlarınızı yazmak istiyorsanız, bunları ana fonksiyonların içine dâhil etmelisiniz:
-**Bu çalışacak:**
+Kodu, daha temiz bir kodlama için işlevlere soyutlamak istiyorsanız, bunları ana işlevin içine dâhil etmelisiniz:
+**Bu işe yarar:**
 ```js
 export default async function ({ addon, global, console }) {
   // Bu çalışır!
@@ -64,7 +64,7 @@ async function merhabaDe() {
 ```
 
 ## [`addon.*` API'leri](/docs/developing/addon-apis-reference)
-Bazı `addon.*` API'lerine, userscript'lerden erişebilirsiniz. Daha fazla bilgi için belgelere bakın.
+Birçok `addon.*` API'sine userscript'lerden erişebilirsiniz. Daha fazla bilgi için belgelere göz atın.
 
 ## Userscript'lerin teknik yönleri
 Userscript'ler, Scratch sayfası tamamen yüklendikten sonra çalışır - başka bir deyişle, `defer` modunda çalışırlar.
@@ -88,9 +88,9 @@ export default async function ({ addon, global, console }) {
 - `console`: Bu, gördüğünüz günlüğü hangi eklentinin tetiklediğini kolayca görmenizi sağlayan bir sarmalayıcıdır.
 
 ## Userscript'lerde hata ayıklama
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions`'dan yenilemeyi unutmayın.**
-Userscript'lerde hata ayıklamak için öncelikle eklentinizin etkin olduğundan emin olun.
-Ardından, userscript'inizin çalışması gerektiğini belirttiğiniz bir URL'ye gidin.
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`dan yenilemeyi unutmayın.**
+userscript'lerde hata ayıklamak için öncelikle eklentinizin etkin olduğundan emin olun.
+Ardından, userscript'in çalışması gerektiğini belirttiğiniz bir URL'ye gidin.
 Ctrl+Shift+J tuşlarına basarak konsolu açın.
-Sizinki de dâhil olmak üzere eklentilere göre konsol günlüklerini görmelisiniz. Bir devtools uzmanıysanız, kodunuzda kesme noktaları ayarlamakta herhangi bir sorun yaşamayacaksınız.
-İpucu: Dosyanızı her seferinde değiştirmeden `addon.*` API'sini test etmek istiyorsanız, eklentinizi `window.addon = addon;` yapın (ana işlevin içinde) ve eklentinizin konsoldan `addon` nesnesi. Bu depoya katkıda bulunmadan önce bu satırı kaldırdığınızdan emin olun! Userscript'ler, global nesneyi kirletmemelidir.
+Sizinki de dâhil olmak üzere eklentilere göre konsol günlüklerini görmelisiniz. Bir devtools uzmanıysanız, kodunuzdaki ara noktaları ayarlamakta herhangi bir sorun yaşamayacaksınız.
+İpucu: Dosyanızı her seferinde değiştirmeden `addon.*` API'sini test etmek istiyorsanız, eklentinize (ana işlevin içine) `window.addon = addon;` yazın ve artık eklentinizin `addon` nesnesine konsoldan erişebileceksiniz.. Depoya katkıda bulunmadan önce bu satırı kaldırdığınızdan emin olun! Userscript'ler global nesneyi kirletmemelidir.

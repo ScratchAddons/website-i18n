@@ -76,5 +76,5 @@ Veja se o seu addon não causa problemas em outros addons.
 Veja se o seu código é inteligível; é melhor ter comentários desnecessários do que nenhum.
 
 ## Passo 12: Mande um pull request!
-Faça fork do repositório se já não fez isso, faça commit do seu novo addon e mande um PR!
-Pode ser que peçamos que você faça mudanças, mas se o seu addon for minimamente aceitável, provavelmente vamos aceitá-lo.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

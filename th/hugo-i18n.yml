@@ -43,6 +43,8 @@ Footer:
     Header: แหล่งที่มา
     Documentation: คู่มือผู้ใช้
   Legal:
+    Copyright: "{{ .Copyleft }}{{ .Year }} ผู้มีส่วนร่วมในส่วนขยายสำหรับ scratch"
+    NoAffiliation: Scratch Addons ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับ Scratch ทีม Scratch มูลนิธิ Scratch หรือบริการอื่นๆ ของ scratch
     License: Scratch Addons ได้มีลิขสิทธิ์ภายใต้เงื่อนไขของ GNU General Public License v3.0
   Intro: ขณะนี้เวอร์ชั่น{{ .Version }}และมี{{ .AddonCount }}ส่วนขยาย
 DarkTheme:

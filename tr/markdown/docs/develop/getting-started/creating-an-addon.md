@@ -74,5 +74,5 @@ Eklentinizin diğer eklentilerin çalışmasını etkilemediğinden emin olun.
 Kodunuzun anlaşılır olduğundan emin olun; Gereksiz yorumlara sahip olması, hiç yorum olmamasından daha iyidir.
 
 ## 12. Adım: Bir pull request gönderin!
-Henüz yapmadıysanız, depoyu çatallayın, yeni eklentinizi yapın ve bir Pull Request gönderin!
-Sizden bazı değişiklikler yapmanızı isteyebileceğimizi unutmayın, ancak eklentinizi minimum düzeyde uygun olduğu sürece muhtemelen kabul edeceğiz.
+[Katkıda bulunan yönergelerimiz](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md)deki adımları izleyin. Basitçe söylemek gerekirse, henüz yapmadıysanız depoyu fork'layın, yeni eklentinizi yapın ve bir çekme isteği gönderin!
+Bazı değişiklikler yapmanızı isteyebileceğimizi unutmayın, ancak eklentinizi minimum düzeyde uygun olduğu sürece muhtemelen kabul edeceğiz.

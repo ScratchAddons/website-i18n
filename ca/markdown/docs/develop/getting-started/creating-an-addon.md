@@ -75,5 +75,5 @@ Assegura't que el teu addon no trenqui altres addons.
 Assegura't que el teu codi sigui comprensible; tenir comentaris innecessaris és millor que no fer comentaris.
 
 ## Pas 12: Envian's una sol·licitud!
-Fes una ullada el repo si encara no ho has fet, compromeu el teu nou addon i envia un PR!
-Tingues en compte que potser et demanarem que feu alguns canvis, però, probablement acceptem el teu complement sempre que sigui mínimament adequat.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
