@@ -27,6 +27,7 @@ Nav:
   Repository: Dépot
   RepositoryLabel: Dépôt sur GitHub
   Install: Installer
+  ToggleNavigation: Activer la navigation
 Footer:
   Pages:
     Feedback: Envoyer des retours
