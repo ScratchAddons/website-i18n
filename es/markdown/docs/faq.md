@@ -135,7 +135,7 @@ Como un proyecto de código abierto, aceptamos cualquier tipo de contribución. 
 
   Para incorporar sus cambios en la dicha extensión, necesita crear una solicitud de cambio. Usted puede hacerlo bifurcando [el repositorio](https://github.com/ScratchAddons/ScratchAddons/), creando una nueva rama, haciendo los cambios necesarios, y creando la solicitud de cambio. La revisaremos y probablemente hagamos algunos cambios antes de que sea fusionada.
 
-Además, puede contribuir en otros aspectos de la organización, como nuestro sitio web. Puede ver todos nuestros repositorios en [nuestra página de organización de GitHub](https://github.com/ScratchAddons).
+  Además, puede contribuir en otros aspectos de la organización, como nuestro sitio web. Puede ver todos nuestros repositorios en [nuestra página de organización de GitHub](https://github.com/ScratchAddons).
 
 - **Sugerir una idea**
 
@@ -167,7 +167,7 @@ Además, puede contribuir en otros aspectos de la organización, como nuestro si
 
 - **Correr la voz**
 
-Puede contarle a cualquiera sobre Scratch Addons, incluyendo a sus amigos, parientes y maestros. Solo le pedimos que [no lo haga en el sitio web de Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Puede contarle a cualquiera sobre Scratch Addons, incluyendo a sus amigos, parientes y maestros. Solo le pedimos que [no lo haga en el sitio web de Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### ¿Cómo puedo crear mi propio addon?
 

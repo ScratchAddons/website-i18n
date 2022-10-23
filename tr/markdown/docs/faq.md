@@ -135,7 +135,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
   Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request, yani çekme isteği oluşturmanız gerekir. Bunu, [depo](https://github.com/ScratchAddons/ScratchAddons/)yu çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir çekme isteği oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce onu gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
 
-Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamız](https://github.com/ScratchAddons)da görüntüleyebilirsiniz.
+  Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamız](https://github.com/ScratchAddons)da görüntüleyebilirsiniz.
 
 - **Bir fikir önerin**
 
@@ -167,7 +167,7 @@ Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsi
 
 - **Bunu dünyaya yayın**
 
-Arkadaşlarınız, akrabalarınız ve öğretmenleriniz de dâhil olmak üzere herkese Scratch Eklentileri hakkında bilgi verebilirsiniz. Sizden sadece [bunu Scratch sitesinde yapma](#scratchteki-insanlara-scratch-eklentilerinden-bahsedebilir-miyim)manızı istiyoruz.
+  Arkadaşlarınız, akrabalarınız ve öğretmenleriniz de dâhil olmak üzere herkese Scratch Eklentileri hakkında bilgi verebilirsiniz. Sizden sadece [bunu Scratch sitesinde yapma](#scratchteki-insanlara-scratch-eklentilerinden-bahsedebilir-miyim)manızı istiyoruz.
 
 ### Kendi eklentimi nasıl oluşturabilirim?
 

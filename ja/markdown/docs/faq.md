@@ -135,7 +135,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 
   メインの拡張機能に変更を取り込むには、Pull Request を作成しないといけません。そのためには、 [リポジトリ](https://github.com/ScratchAddons/ScratchAddons/) をフォークし、ブランチを作成し、必要な変更を加え、Pull Request を作成する選択肢を見つけてください。私たちがレビューし、多くの場合でマージ前に何らかの変更を加えます。
 
-ウェブサイトのような、組織の他の部分にも貢献できます。リポジトリの一覧は [GitHub Organization ページ](https://github.com/ScratchAddons) で確認できます。
+  ウェブサイトのような、組織の他の部分にも貢献できます。リポジトリの一覧は [GitHub Organization ページ](https://github.com/ScratchAddons) で確認できます。
 
 - **提案する**
 
@@ -167,7 +167,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 
 - **拡散する**
 
-Scratch Addons を友人、親戚、先生などみんなに広めてください。ただし、[Scratch ウェブサイト上では行わないようお願いします](#can-i-tell-people-about-scratch-addons-on-scratch)。
+  Scratch Addons を友人、親戚、先生などみんなに広めてください。ただし、[Scratch ウェブサイト上では行わないようお願いします](#can-i-tell-people-about-scratch-addons-on-scratch)。
 
 ### どうやってアドオンを作れますか?
 

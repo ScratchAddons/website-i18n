@@ -135,7 +135,7 @@ Als een open-bron project heten wij alle soorten bijdrage welkom. Je hoeft het n
 
   Om je veranderingen in te brengen in de hoofdextensie, moet je een pullverzoek maken. Dit kun je doen door [het archief](https://github.com/ScratchAddons/ScratchAddons/) te "forken", een vertakking te maken, de benodigde veranderingen te maken, en dan de optie te vinden om een pullverzoek te maken. Wij gaan het dan beoordelen en maken waarschijnlijk een paar kleine veranderingen voordat het samengevoegd wordt.
 
-Je kunt ook je steentje bijdragen bij andere aspecten van de organisatie, zoals onze website. Al onze archieven staan netjes bij elkaar op [onze organisatiepagina op GitHub](https://github.com/ScratchAddons).
+  Je kunt ook je steentje bijdragen bij andere aspecten van de organisatie, zoals onze website. Al onze archieven staan netjes bij elkaar op [onze organisatiepagina op GitHub](https://github.com/ScratchAddons).
 
 - **Een idee geven**
 
@@ -167,7 +167,7 @@ Je kunt ook je steentje bijdragen bij andere aspecten van de organisatie, zoals 
 
 - **Vertel het verder**
 
-Je kunt iedereen over Scratch Addons vertellen, inclusief je vrienden, bekenden, en leerkrachten. We vragen je alleen om [dit niet te doen op de Scratchwebsite](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Je kunt iedereen over Scratch Addons vertellen, inclusief je vrienden, bekenden, en leerkrachten. We vragen je alleen om [dit niet te doen op de Scratchwebsite](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Hoe maak ik mijn eigen addon?
 

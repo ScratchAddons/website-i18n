@@ -14,7 +14,7 @@ Cette propriété doit être un tableau.  Chaque élément du tableau doit avoir
 ```json
 {
   "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "description": "Fournit une lecture et une réponse faciles à vos messages Scratch.",
   "userstyles": [
     {
       "url": "userstyle.css",
