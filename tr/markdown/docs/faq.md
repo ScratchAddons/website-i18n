@@ -67,7 +67,7 @@ Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` ad
 
 [Güvenlik politikamızı oku](https://github.com/ScratchAddons/ScratchAddons/security/policy)yabilirsiniz veya [yayınladığımız tavsiyelerimizi kontrol ed](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)ebilirsiniz.
 
-### Scratch Eklentilerini kullanırken hesabım güvende olacak mı?
+### Scratch Eklentileri'ni kullanırken hesabım güvende olacak mı?
 
 Evet. Scratch hesabınızla ilgili özelliklerin, Scratch hesabınıza zarar vermeyeceklerinden emin olmak için Scratch Eklentileri, emeği geçenler tarafından kapsamlı bir şekilde incelenir. Scratch Eklentileri, hesap kimlik bilgilerinizi güvende tutar ve projelerinizi veya varlıklarınızı izniniz olmadan değiştirmez veya silmez. Ancak, isterseniz uzantıyı hesapla ilgili herhangi bir özellik olmadan kullanabilirsiniz.
 
@@ -145,7 +145,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
   Eklentilerimizden birinde, ayarlar sayfasında veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönder](#bir-sorun-bulursam-ne-yapabilirim)in.
 
-- **Scratch Eklentilerini çevirin**
+- **Scratch Eklentileri'ni çevirin**
 
   Başka bir dili akıcı konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katıl](/tr/docs/localization/joining-the-localization-team)arak başlayabilirsiniz.
 
