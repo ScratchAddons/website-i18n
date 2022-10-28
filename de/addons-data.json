@@ -69,7 +69,7 @@
 	{
 		"id": "better-quoter",
 		"name": "Besseres Forumzitieren",
-		"description": "Markiere einen Text in einem Forumsbeitrag und klicke unten rechts auf \"Zitieren\", um nur den markierten Text zu zitieren.",
+		"description": "Markiere einen beliebigen Text in einem Forenbeitrag und klicke auf Zitieren in der rechten unteren Ecke, um nur den ausgewählten Text zu zitieren.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -545,7 +545,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Entwicklertools",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more! Use Ctrl+Space (Shift+Space on macOS) to bring up the \"add block by name\" popup.",
+		"description": "Fügt neue Menüoptionen im Editor hinzu: Blöcke kopieren/Einfügen, besseres Aufräumen und mehr! Verwende Strg+Leertaste (Umschalt+Leertaste auf macOS) um das \"Block suchen und hinzufügen\"-Fenster zu öffnen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -659,8 +659,8 @@
 	},
 	{
 		"id": "find-bar",
-		"name": "Editor find bar",
-		"description": "Adds a find bar to find and jump to scripts, costumes and sounds next to the sounds tab. Use Ctrl+Left and Ctrl+Right in the code area to navigate to previous or next visited position after using the find bar.",
+		"name": "Finden-Leiste im Editor",
+		"description": "Fügt eine Leiste neben dem Klänge-Tab im Editor hinzu, mit der du Skripte, Kostüme und Klänge durchsuchen kannst. Verwende Strg+Links und Strg+Rechts im Codebereich, um zur vorher bzw. nachher besuchten Position nach Verwendung der Finden-Leiste zu navigieren.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Projektstatistiken ausblenden",
-		"description": "Lässt dich mag ich-, Favoriten-, Remix- und Aufruf-Anzahlen auf der Startseite und auf Projektseiten ausblenden.",
+		"description": "Lässt dich Mag ich-, Favoriten-, Remix-, Kommentar- und Aufruf-Anzahlen auf der Startseite, in \"Meine Sachen\" und auf Projektseiten ausblenden.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -921,8 +928,8 @@
 	},
 	{
 		"id": "jump-to-def",
-		"name": "Jump to custom block definition",
-		"description": "Allows you to jump to a custom block's definition using the middle mouse button or Shift+Click on the block.",
+		"name": "Zu Blockdefinition springen",
+		"description": "Ermöglicht das Springen zur Definition eines benutzerdefinierten Blocks durch Klicken mit der mittleren oder rechten Maustaste mit gedrückter Umschalttaste.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
@@ -965,9 +972,7 @@
 		"name": "Höheres Zeichenlimit in \"Woran ich gerade arbeite\"",
 		"description": "Ermöglicht es dir, 55 Zeichen mehr in \"Woran ich gerade arbeite\" einzugeben. Jeder auf Scratch wird die zusätzlichen Zeichen sehen.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Element an erste/letzte Stelle verschieben",
-		"description": "Adds a right click context menu item to move a costume or a sound to the top or the bottom of the list.",
+		"description": "Fügt Optionen zum Verschieben von Kostümen und Klängen an erste oder letzte Stelle der Liste zum Rechtsklick-Kontextmenü hinzu.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "ocular-Integration",
 		"description": "Zeigt ocular-Statuse und Forumpost-Reaktionen an. Erhält Daten von jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Durchsichtigkeitsregler",
+		"description": "Fügt einen Schieberegler für die Durchsichtigkeit zum Farbenwähler im Kostümeditor hinzu.",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Benutzerdefiniertes Verhalten von Hinzufügen-Buttons",
 		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang\" wählen\"-Knöpfen, die die Bibliothek standardmäßig öffnen.",
@@ -1113,6 +1125,13 @@
 		"description": "Fügt eine Pausetaste neben der grünen Flagge hinzu.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Farben von der Bühne im Kostümeditor auswählen",
+		"description": "Ermöglicht es dem Pipettenwerkzeug des Kostümeditors, auch Farben von der Bühne zu wählen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1184,8 +1203,8 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Remove autocomplete from search bar",
-		"description": "Stops web browsers from autocompleting suggestions in the navigation bar's search bar.",
+		"name": "Auto-Vervollständigen aus Suche entfernen",
+		"description": "Hält Browser davon ab, Eingabevorschläge im Suchfeld der Navigationsleiste anzuzeigen.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
@@ -1196,6 +1215,19 @@
 		"name": "Löschen von Figuren bestätigen",
 		"description": "Fragt, ob du sicher bist, wenn du eine Figur in einem Projekt löschst.",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Nachrichten umbenennen",
+		"description": "Fügt eine Option im Dropdownmenü von Nachrichtenblöcken hinzu, mit der du Nachrichten umbenennen kannst.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1446,6 +1478,15 @@
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
+		"id": "vol-slider",
+		"name": "Lautstärkeregler",
+		"description": "Fügt einen Lautstärkeregler neben der grünen Flagge hinzu.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
+	},
+	{
 		"id": "youtube-fullscreen",
 		"name": "YouTube-Vollbild",
 		"description": "Aktiviert den Vollbild-Knopf in dem YouTube-Videoplayer von Scratch.",
@@ -1459,8 +1500,8 @@
 	},
 	{
 		"id": "zebra-striping",
-		"name": "Alternating nested block colors",
-		"description": "Makes blocks of the same category alternate between lighter and darker shades when nested inside each other. This is also known as zebra striping.",
+		"name": "Abwechselnde Farben für verschachtelte Blöcke",
+		"description": "Macht, dass Blöcke der selben Kategorie zwischen helleren und dünkleren Schattierungen abwechseln, wenn sie ineinander verschachtelt sind. Auch als Zebrastreifen bekannt.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },

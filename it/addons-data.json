@@ -69,7 +69,7 @@
 	{
 		"id": "better-quoter",
 		"name": "Citazioni forum migliorate",
-		"description": "Puoi selezionare del testo in un post del forum e cliccare su Cita per citare solo il testo selezionato.",
+		"description": "Seleziona il testo nel post del dorum e clicca \"cita\" nell'angolo in basso a destra per citare soltanto la porzione di testo selezionata.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Nascondi statistiche dei progetti",
-		"description": "Ti permette di nascondere il numero di mi piace, di favoriti, di remix e il contatore delle visualizzazioni nella home page e nelle pagine dei progetti.",
+		"description": "Ti permette di nascondere il numero di mi piace, di favoriti, di remix e il contatore delle visualizzazioni nella pagina del progetto, nella home page e nella pagina dei tuoi progetti.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -965,9 +972,7 @@
 		"name": "Aumento limite caratteri per \"Su cosa sto lavorando\"",
 		"description": "Permette di digitare 55 caratteri aggiuntivi nella sezione \"Su cosa sto lavorando\" del tuo profilo. I caratteri aggiuntivi saranno visibili a tutti gli utenti di Scratch.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Sposta costumi in cima o in fondo",
-		"description": "Aggiunge al menù contestuale un elemento per spostare un costume o un suono in cima o in fondo alla lista.",
+		"description": "Aggiunge opzione al menu contestuale per spostare i costumi e i suoni in cima o in fondo alla lista.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "integrazione con ocular",
 		"description": "Mostra gli stati e le reazioni nei posto dei forum di ocular. Usa my-ocular.jeffalo.net per ricavare i dati.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Cursore trasparenza",
+		"description": "Aggiunge un cursore per la trasparenza del contagocce nell'editor dei costumi.",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Disegno costume come azione predefinita",
 		"description": "Cambia l'azione predefinita dei pulsanti \"Scegli uno  Sprite/Costume/Sfondo/Suono\" che come azione predefinita apre la libreria.",
@@ -1113,6 +1125,13 @@
 		"description": "Aggiunge un tasto pausa accanto alla bandiera verde.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Seleziona i colori dello Stage nell'editor dei costumi",
+		"description": "Permetti al contagocce dell'editor di costumi di selezionare colori anche dallo Stage.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1196,6 +1215,19 @@
 		"name": "Conferma cancellazione sprite",
 		"description": "Chiede conferma quando cancelli uno sprite di un progetto.",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Rinomina messaggi",
+		"description": "Aggiunge una voce nel menu dei messaggi per rinominarli. ",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1444,6 +1476,15 @@
 		"description": "Aggiunge una scheda nell'editor a fianco a \"suoni\" per gestire facilmente variabili e liste.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "vol-slider",
+		"name": "Cursore volume progetto ",
+		"description": "Aggiunge un cursore per il volume vicino ai controlli della bandiera verde.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
 	},
 	{
 		"id": "youtube-fullscreen",

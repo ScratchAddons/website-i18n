@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Esconder estadísticas de proyectos",
-		"description": "Le permite esconder contadores de likes, favoritos, reinvenciones y visitas en la página principal y las páginas de proyectos.",
+		"description": "Le permite esconder los contadores de likes, favoritos, reinvenciones, comentarios y visitas en las páginas de proyectos, en la página principal y en Mis Cosas.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -965,9 +972,7 @@
 		"name": "Límite más alto en \"En qué estoy trabajando\"",
 		"description": "Le permite escribir 55 caracteres adicionales en el campo \"En qué estoy trabajando\" de su perfil. Cualquier usuario de Scratch verá los caracteres extra.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Mover disfraz a la cima o al fondo",
-		"description": "Agrega un ítem al menú de click derecho para mover un disfraz o sonido a la posición primera o última de la lista.",
+		"description": "Agrega opciones al menú de click derecho para mover un disfraz o sonido a la primera o última posición de la lista.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "Integración con ocular",
 		"description": "Muestra estados ocular y reacciones a publicaciones de los foros. Usa my-ocular.jeffalo.net para obtener información.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Deslizador de opacidad",
+		"description": "Agrega un deslizador de opacidad al selector de colores del editor de disfraces.",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Pintar disfraz por defecto",
 		"description": "Cambia la acción por defecto de los botones \"Elegir un objeto/disfraz/fondo/sonido\", que abren la biblioteca por defecto.",
@@ -1113,6 +1125,13 @@
 		"description": "Agrega un botón de pausa al lado de la bandera verde.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Seleccionar colores del escenario en el editor de disfraces",
+		"description": "Permite que el cuentagotas también pueda elegir colores del escenario",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1196,6 +1215,19 @@
 		"name": "Confirmación de eliminación de objeto",
 		"description": "Le pregunta si está seguro cuando borre un objecto en un proyecto",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Renombrar mensajes",
+		"description": "Agrega una opción para renombrar mensajes en los menús de los bloques de mensajes.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1444,6 +1476,15 @@
 		"description": "Agrega una pestaña al lado de \"sonidos\" en el editor para que pueda fácilmente editar variables y listas.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "vol-slider",
+		"name": "Deslizador de volumen del proyecto",
+		"description": "Agrega un control deslizante de volumen al lado de los controles de bandera verde.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
 	},
 	{
 		"id": "youtube-fullscreen",

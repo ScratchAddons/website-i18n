@@ -1,15 +1,15 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D カラーピッカー",
-		"description": "コスチュームエディターの鮮やかさと明るさのスライダーを2Dカラーピッカーにする。Shiftキーを押して一方のみを変更する。",
+		"name": "二維選色器",
+		"description": "用二維選色器取代編輯器中的彩度與亮度控制桿。在拖曳游標的同時按住 Shift 鍵可以只調整直向或橫向的值。",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "60fps",
-		"name": "60FPSモード",
-		"description": "緑の旗をAltキーを押しながらクリックして60FPSにする。",
+		"name": "60 幀率顯示模式",
+		"description": "點擊綠旗時同時按住 Alt 鍵就能切換成 60 幀率的模式。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -21,20 +21,20 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "何もしないアドオン",
-		"description": "何もしないアドオン。",
+		"name": "用戶設置大寫（僅英文介面可用）",
+		"description": "將帳戶選單中的 Account settings 變成 Account Settings。",
 		"tags": ["easterEgg", "community"]
 	},
 	{
 		"id": "animated-thumb",
-		"name": "サムネイル設定",
-		"description": "プロジェクトのサムネイルを設定するボタンを、プロジェクトページの右下に追加する。",
+		"name": "專案縮圖設定",
+		"description": "在專案頁面添加一個設定縮圖的按鈕，讓你可以指定專案的縮圖是什麼（也可以是 GIF 動畫格式）。",
 		"tags": ["community", "projectPage", "recommended"]
 	},
 	{
 		"id": "better-emojis",
-		"name": "絵文字の変更",
-		"description": "コメント欄の絵文字をベクター画像に変える。",
+		"name": "更好的表情符號",
+		"description": "用優化的向量圖示來取代網站上現有的表情符號。",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
@@ -43,15 +43,15 @@
 	},
 	{
 		"id": "better-featured-project",
-		"name": "プロフィールページバナー",
-		"description": "プロフィールページの注目のプロジェクト表示をバナーにする。",
+		"name": "個人資訊頁面的橫幅",
+		"description": "將個人資訊頁面上的特色專案橫幅移到頂部並改成全寬，其它區塊放置到下面並排顯示。",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "画像のHD アップロード",
-		"description": "「コスチュームをアップロード」ボタンの上に、画像を自動的にSVGに変換して画質を保つ「HDアップロード」ボタンを追加する。",
+		"name": "高清圖片上傳",
+		"description": "在「上傳造型」按鈕的上方添加一個按鈕，可以將上傳的點陣圖自動轉換成向量圖（SVG），以避免丟失質量。",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -68,8 +68,8 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "選択範囲を引用",
-		"description": "フォーラム投稿の一部を選択し、Quoteボタンを押して選択範囲を引用する。",
+		"name": "優化討論區引用方式",
+		"description": "在討論區的發文內容中，選取要引用的文字，在右下角點擊引用，就會只引用所選文字。",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -84,14 +84,14 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "ビットマップ画像をコピー",
-		"description": "ペイントエディターでビットマップ画像をコピー可能にする。",
+		"name": "點陣圖像複製功能",
+		"description": "允許你直接複製繪圖編輯器上的點陣圖，然後貼到其它的網站或是軟體上。",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "block-cherry-picking",
-		"name": "Ctrlキーでブロックをつかむ",
-		"description": "Ctrlキーを押している間、ブロックをつかむとそのブロックだけが移動するようにする。",
+		"name": "按住 Ctrl 鍵拖曳單個程式積木",
+		"description": "讓你可以按住 Ctrl 鍵把單個積木從程式區塊裡拖曳出來（原來會拖曳出黏在後面的所有積木）。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -103,8 +103,8 @@
 	},
 	{
 		"id": "block-count",
-		"name": "ブロックカウント",
-		"description": "エディターのメニューバーに合計ブロック数を表示する。",
+		"name": "程式積木計數",
+		"description": "在編輯器的工具列上顯示目前專案已使用的程式積木數量。這個擴充功能是之前「角色與程式計數」的一部分。",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -115,15 +115,15 @@
 	},
 	{
 		"id": "block-duplicate",
-		"name": "Altキーでスクリプトを複製",
-		"description": "Altキーを押したままスクリプトをドラッグし、スクリプトを複製する。Ctrlキーも押すと、ブロックを個別に複製できる。",
+		"name": "按住 Alt 鍵以複製積木",
+		"description": "透過按住 Alt 按鍵與拖曳程式積木，能讓你更快的複製整個程式區塊。加上 Ctrl 鍵則可以複製出你停駐的單個積木。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "ブロックパレットアイコン",
-		"description": "ブロックパレットのカテゴリーにアイコンを追加する。",
+		"name": "積木分類圖示",
+		"description": "除了以顏色分類積木，在裡面加上類別圖示。",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -135,8 +135,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "ブロック置換",
-		"description": "ブロックを右クリックして類似のブロックに変える。",
+		"name": "程式積木切換",
+		"description": "在編輯區上用滑鼠右鍵點擊積木，就能選擇相關的積木進行切換。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -148,8 +148,8 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "ブロックを画像に出力",
-		"description": "コードエリアを右クリックしてブロックをSVG/PNGとして出力する。",
+		"name": "保存積木為圖像",
+		"description": "在程式編輯區上點擊滑鼠右鍵，可以把指定的積木匯出成 SVG/PNG 圖像。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -157,8 +157,8 @@
 	},
 	{
 		"id": "cat-blocks",
-		"name": "キャットブロック",
-		"description": "2020年のエイプリルフールの「キャットブロック」を追加する。",
+		"name": "貓積木",
+		"description": "顯示來自 2020 愚人節的貓貓積木。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -170,8 +170,8 @@
 	},
 	{
 		"id": "clones",
-		"name": "クローンカウンター",
-		"description": "クローンの合計数をステージの上に表示する。",
+		"name": "分身計數器",
+		"description": "在舞台上方添加一個計數器，顯示當前建立的分身數量。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
@@ -180,15 +180,15 @@
 	},
 	{
 		"id": "cloud-games",
-		"name": "クラウドゲーム",
-		"description": "Scratch Addonsアイコンをクリックしたときに、マルチプレイヤーゲームで遊んでいるScratcherの数とユーザー名を表示する。",
+		"name": "雲端變數遊戲",
+		"description": "點擊 Scratch Addons 圖示時有用。這會顯示當前有哪些用戶在玩這個多人專案。",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "color-inputs",
-		"name": "カラーピッカー入力",
-		"description": "コスチュームエディターのカラーピッカーのスライダーにて正確な値(0-100)を入力する。",
+		"name": "色彩輸入欄位",
+		"description": "為造型編輯器上的色彩面板添加可以直接輸入數值（0-100）的欄位。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -199,8 +199,8 @@
 	},
 	{
 		"id": "color-picker",
-		"name": "16進数カラーピッカー",
-		"description": "16進数カラーコードの入力欄を追加する。",
+		"name": "代碼選色器",
+		"description": "在選色器裡添加一個可以直接輸入十六進制色碼的欄位。",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -212,8 +212,8 @@
 	},
 	{
 		"id": "columns",
-		"name": "2列カテゴリーメニュー",
-		"description": "Scratch 2.0のように、ブロックカテゴリーメニューを2列に分け、ブロックパレットの上部に配置する。",
+		"name": "兩列式積木選單",
+		"description": "把工具箱的積木分類改成兩列顯示，並把面板放置在編輯器頂部，就像 Scratch 2.0 版那樣。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -221,8 +221,8 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "コメント内の改行を表示",
-		"description": "コメント中の改行を表示する。",
+		"name": "允許評論使用換行符號",
+		"description": "為專案進行評論時，可以使用換行符號（鍵入 Enter），而不要將它轉換成空白符號。",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -233,8 +233,8 @@
 	},
 	{
 		"id": "compact-messages",
-		"name": "コンパクトなメッセージ",
-		"description": "Scratchのメッセージページをコンパクトにする。",
+		"name": "窄化訊息間距",
+		"description": "使訊息頁面上的訊息列更緊湊，更易於閱讀。",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -245,8 +245,8 @@
 	},
 	{
 		"id": "confirm-actions",
-		"name": "確認画面",
-		"description": "プロジェクトの共有などを行うときに確認する。",
+		"name": "確認功能",
+		"description": "在你執行一些操作前，比如分享專案前，會再次詢問你是否確定要這樣做。",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -257,8 +257,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "コメントのリンクをコピー",
-		"description": "コメントへのリンクをコピーするボタンを「報告」ボタンの横に追加する。",
+		"name": "複製評論連結",
+		"description": "在專案的評論區裡，在每個評論的檢舉按鈕旁添加一個「複製連結」的按鈕。",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -266,8 +266,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Ctrl+Clickでスクリプトを実行",
-		"description": "Ctrlキーを押してスクリプトを押さないと実行しないようにする。",
+		"name": "Ctrl+點擊以執行程式",
+		"description": "只有在按住 Ctrl 時，點擊的程式積木才會開始執行。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -276,8 +276,8 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enterで投稿",
-		"description": "Ctrl+Enterキーが押されたときに、コメントやフォーラムの投稿を送信する。",
+		"name": "使用 Ctrl+Enter 鍵發佈",
+		"description": "直接按下 Ctrl+Enter 來發表評論或是在討論區發文。",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -285,8 +285,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "トップページのキュレーターリンク",
-		"description": "トップページの「選んだプロジェクト」欄のユーザー名をリンクにする。",
+		"name": "主頁策展者連結",
+		"description": "讓主頁創作坊策展者的名稱變成可造訪讓使用者的連結。",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -297,8 +297,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "ブロックの形をカスタマイズ",
-		"description": "ブロックのパディング、角、切れ込みを調節する。",
+		"name": "自訂程式積木外形",
+		"description": "調整積木內邊距、圓角、缺口高度。",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -317,8 +317,8 @@
 	},
 	{
 		"id": "custom-block-text",
-		"name": "ブロック内のテキスト装飾変更",
-		"description": "ブロック内のテキストの太さを変更したり、影を追加したりする。",
+		"name": "自訂積木文字樣式",
+		"description": "變更文字的粗細度，並可選擇增加陰影效果。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -327,8 +327,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "カスタムズーム設定",
-		"description": "コードペインのズーム設定をカスタマイズする。",
+		"name": "自訂程式編輯區的縮放率",
+		"description": "自訂縮小、放大的閾值、速度還有初始的縮放率，還可以設定是否顯示縮放控制項。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -339,15 +339,15 @@
 	},
 	{
 		"id": "customize-avatar-border",
-		"name": "プロフィール画像の枠線変更",
-		"description": "プロジェクトやスタジオコメントに表示されるプロフィール画像の枠線を消したり、変更したりする。",
+		"name": "自訂評論區旁個人頭像的邊框",
+		"description": "你可以隱藏或修改專案或創作坊下評論區的個人頭像外框線。",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "dango-rain",
-		"name": "団子 (エイプリルフール機能)",
-		"description": "「dango」と書かれているプロフィールに団子の雨を表示する。",
+		"name": "糰子雨（愚人節專用）",
+		"description": "在關於我中有字詞「Dango（糰子的英語）」的用戶，在愚人節時的個人資訊頁面會下起糰子雨。",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -366,8 +366,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "ウェブサイトのダークモードとカスタマイズ",
-		"description": "ウェブサイトの色をカスタマイズする。さまざまなダークテーマが利用できる。ダークモードが不要な場合は、「Scratchの既定の色」を選択すること。",
+		"name": "網站深色模式與可自訂顏色",
+		"description": "自定義 Scratch 網站使用的顏色。 最下方已有來自不同作者調整過後的深色系主題色，點選後就套用。如果你不需要，只想要把一些預設顏色修改掉，你可以在選擇「Scratch 預設色彩」之後再調整。",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -386,15 +386,15 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "変数ブロック改良",
-		"description": "変数ブロックの表示を改良する。",
+		"name": "更好的資料分類",
+		"description": "讓積木類別中的資料（變量、清單）有更好的分類。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "debugger",
-		"name": "デバッガー",
-		"description": "「デバッガー」画面をエディターに追加する。「log」、「warn」、「error」ブロックでデバッガーの「ログ」タブに内容を表示する。「breakpoint」ブロックでプロジェクトを一時停止させる。「スレッド」タブでスレッドを確認し、一時停止中「次に進む」を押して次のブロックを実行する。「パフォーマンス」タブでFPSとクローン数のグラフを表示する。",
+		"name": "偵錯器",
+		"description": "在編輯器上添加一個「偵錯器」面板。能利用「紀錄」、「警告」、「錯誤」三個程式積木來調試。並用「中斷點」積木來暫停專案。可以在偵錯器的執行緒頁面查看正在運行的情形，暫停時可以用「步進」執行下個積木程式。另外還有效能頁面查看每秒幀數與當前分身數量。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -409,15 +409,15 @@
 	},
 	{
 		"id": "default-costume-editor-color",
-		"name": "コスチュームエディターの既定の色を変更",
-		"description": "コスチュームエディターの既定の色と輪郭の大きさを変更する。",
+		"name": "自訂造型編輯器上工具預設值",
+		"description": "變更在造型編輯器上填滿與外框的預選色彩，以及線條的預設寬度。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "default-project",
-		"name": "デフォルトのプロジェクトを変更",
-		"description": "デフォルトのプロジェクトを変更する。",
+		"name": "自訂新建時的預設專案",
+		"description": "原來新建專案，會產生一個有貓咪角色的專案。現在你可以自訂要開啟哪個現存專案當作預設新建範本，或是直接打開空白的專案。",
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -425,8 +425,8 @@
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "自動保存を無効化",
-		"description": "編集時の自動保存を無効化する。",
+		"name": "停用自動儲存",
+		"description": "停止使用編輯專案時的自動儲存功能。",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [
 			{
@@ -437,15 +437,15 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "貼り付けたコスチュームの移動を防止",
-		"description": "コスチュームエディター上に張り付けるとき、元の場所からずらさずに張り付ける。",
+		"name": "複製圖案時不要偏移",
+		"description": "在造型編輯器上使用複製貼上功能時，在原位置貼上，不要向右下偏移。",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "スプライトペイン項目の移動防止",
-		"description": "スクリプト、コスチュームや音などを別スプライトに移動するときに、スプライトペイン内で項目が移動しないようにする。",
+		"name": "停用角色面板上的角色擺動效果",
+		"description": "當程式、造型、音效被拖曳到角色面板的某個角色時，停用面板上角色抖動的效果。",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -454,8 +454,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "ドラッグできないスプライト",
-		"description": "ステージではShiftキーを押さないとスプライトをドラッグできないようにする。",
+		"name": "編輯器內不可拖曳角色",
+		"description": "移除原來在編輯器上可以任意拖曳舞台上的角色的功能。除非設定該角色為可拖曳，或是你可以按住 Shift 鍵加以拖曳。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -467,40 +467,40 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "ナビゲーションバーのカスタマイズ",
-		"description": "ナビゲーションバーに表示するリンクを変更する。",
+		"name": "自訂網站導覽列",
+		"description": "自己選擇在網站導覽列上要顯示哪些項目。",
 		"tags": ["community", "featured"]
 	},
 	{
 		"id": "drag-drop",
-		"name": "ファイルをドロップ",
-		"description": "エディターのスプライトペインやコスチュームペインにファイルをドロップしたり、リストや「聞いて待つ」画面にテキストファイルをドロップできるようにする。",
+		"name": "拖曳檔案上傳",
+		"description": "讓你可以把檔案直接拖入角色面板區然後直接上傳，當然，你還能將文字文件拖曳到文字輸入框裡。",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }]
 	},
 	{
 		"id": "echo-effect",
-		"name": "エコー効果ボタン",
-		"description": "サウンドエディターにエコーの効果のボタンを追加する。",
+		"name": "回音音效按鈕",
+		"description": "在音效編輯器上顯示之前有的回音功能按鈕。",
 		"tags": ["editor"]
 	},
 	{
 		"id": "editor-buttons-reverse-order",
-		"name": "プロジェクト操作ボタン反転",
-		"description": "Scratch 2.0のように、緑の旗と停止ボタンを右に、全画面表示ボタンを左に移動させる。",
+		"name": "對調專案控制項工具的順序",
+		"description": "在專案預覽視窗的上方有些按鈕，把右邊的綠旗與停止按鈕，與左邊的顯示模式按鈕對調顯示順序，就像 Scratch 2.0 那樣。",
 		"tags": ["editor", "projectPlayer", "theme", "featured"]
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "右クリックメニューを色付け",
-		"description": "コンテキストメニューに色を付ける。",
+		"name": "讓右鍵選單有顏色",
+		"description": "在程式積木上點擊右鍵會開啟選單，讓開啟的選單有和積木相同的背景顏色。",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "エディター内のコメントプレビュー",
-		"description": "最小化されたコメントやブロックに付属しているコメントの内容を、ホバーしてプレビューできるようにする。",
+		"name": "預覽註解",
+		"description": "當你把游標停駐在積木或者摺疊的註解上，能夠馬上預覽到註解的內容。當連接的註解離積木太遠，或是很多註解需要摺疊時，這會很有用。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -512,8 +512,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "エディターのダークモードとカスタマイズ",
-		"description": "エディターの色をカスタマイズする。さまざまなダークテーマが利用できる。ダークモードが不要な場合は、「Scratchの既定の色」を選択すること。",
+		"name": "編輯器深色模式與自訂色彩",
+		"description": "自定義編輯器使用的顏色。 最下方已有來自不同作者調整過後的深色系主題編輯器，點選後就套用。如果你不需要，只想要把一些預設顏色修改掉，你可以在選擇「Scratch 預設色彩」之後再調整。",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -544,15 +544,15 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "開発者ツール",
-		"description": "検索ボックス、メニューオプション、ブロックのコピペ、きれいにする、その他さまざまな機能を追加する。 Ctrl+Fを押して検索ボックスをフォーカスし、Ctrl+スペース(macOSではShift+スペース)で「名前でブロックを追加」ポップアップを表示し、Ctrl+左右キーで検索履歴を見る。",
+		"name": "開發者工具",
+		"description": "添加了新的功能到選單：複製/貼上積木、比較好的整理積木…還有更多！使用 Ctrl+空白鍵（macOS 用 Shift+空白鍵）可以把「以名稱添加積木」的功能喚出。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "キー入力オプションの追加",
-		"description": "\"() キーが押された?\" ブロックのドロップダウンに、Enter、ドット、カンマなどのキーを追加する。",
+		"name": "支援額外的按鍵",
+		"description": "在「（）鍵被按下？」與「當（）鍵被按下」積木添加額外的按鈕，像是 Enter 鍵、英文句點、英文逗點…等。",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [
 			{
@@ -563,42 +563,42 @@
 	},
 	{
 		"id": "editor-messages",
-		"name": "エディター内でメッセージ数表示",
-		"description": "メッセージ数をエディターのメニューバーに表示する。",
+		"name": "在編輯器上顯示訊息連結",
+		"description": "在程式頁面的工具列上也顯示訊息按鈕與訊息計數。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "ドロップダウン検索",
-		"description": "ブロックのドロップダウンの選択肢を検索する。",
+		"name": "可搜尋的下拉清單",
+		"description": "在積木下拉清單多了一個可搜尋的欄位。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-sounds",
-		"name": "エディター効果音",
-		"description": "ブロックをつなげたり削除したりするときに効果音を鳴らす。",
+		"name": "編輯器音效",
+		"description": "在你貼合或刪除積木的時候發出音效。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "ステージを左側に表示",
-		"description": "Scratch 2.0のように、ステージを左側に表示する。",
+		"name": "將舞台顯示在編輯器左側",
+		"description": "將舞台區移動到編輯器畫面的左側，就像 Scratch 2.0 那樣。",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
 	},
 	{
 		"id": "editor-stepping",
-		"name": "実行中のブロック枠線",
-		"description": "実行中のブロックの周りに色のついた枠線を表示する。",
+		"name": "高亮執行中的程式",
+		"description": "專案運行時，以顏色高亮正在執行的程式積木。",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "editor-theme3",
-		"name": "ブロックの色をカスタマイズ",
-		"description": "ブロックの色をカテゴリーごとに変更する。",
+		"name": "自訂積木色彩",
+		"description": "修改編輯器上每種積木的色彩。",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -610,8 +610,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "非共有ボタン",
-		"description": "エディター内タイトル横の「共有されたもの」ボタンをプロジェクトを非共有にするボタンで置き換える。",
+		"name": "編輯器上的取消分享按鈕",
+		"description": "把原來在程式頁面上的「已分享」訊息替換成「取消分享」按鈕。",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -619,15 +619,15 @@
 	},
 	{
 		"id": "emoji-picker",
-		"name": "コメント絵文字ピッカー",
-		"description": "コメントに絵文字を挿入するボタンを追加する。",
+		"name": "評論區表情選單",
+		"description": "在網站專案評論編輯器添加一個表情插入按鈕。",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
 	},
 	{
 		"id": "exact-count",
-		"name": "正確な数を表示",
-		"description": "ユーザーやスタジオに関する正確な値を表示。フォーラムに関する情報はScratchDBを使用。",
+		"name": "顯示精確計數",
+		"description": "顯示用戶和創作坊的精確計數。資料來源為 ScratchDB。",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -640,15 +640,15 @@
 	},
 	{
 		"id": "expanding-search-bar",
-		"name": "伸縮可能検索バー",
-		"description": "フォーカスされたときに検索バーを大きくする。",
+		"name": "會展開的搜尋欄",
+		"description": "當停駐在導覽列上的搜尋欄位時，讓欄位變得寬一些。",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
 	},
 	{
 		"id": "feature-unshared",
-		"name": "非共有プロジェクトを注目のプロジェクトに設定",
-		"description": "プロフィールページの「注目のプロジェクト」を非共有プロジェクトにする。",
+		"name": "精選未分享的專案",
+		"description": "在個人資訊頁面上，讓你也能把未分享的專案設為「精選專案」。",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -659,8 +659,8 @@
 	},
 	{
 		"id": "find-bar",
-		"name": "エディター検索バー",
-		"description": "スクリプト、コスチューム、音を検索する検索バーを音タブの横に追加する。Ctrl+左右キーで検索履歴から移動する。",
+		"name": "查找程式功能",
+		"description": "讓你快速找到程式、造型、音效的查找工具。在你開始查找後，你還可以在程式編輯區裡用 Ctrl+向左鍵、Ctrl+向右鍵來找到上一個、下一個所要查找的內容。",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -672,8 +672,8 @@
 	},
 	{
 		"id": "fix-editor-comments",
-		"name": "エディターコメント改良",
-		"description": "Scratchエディター内のコメントを改良する。ブロックのドラッグ後にコメントの位置がずれるバグやコメントが画面外に追加されるバグを修正し、ブロックとコメントの接続部分をまっすぐにする。",
+		"name": "較好的編輯器註解功能",
+		"description": "為 Scratch 的註解功能進行多處修改：修復與積木連接的註解在積木被拖動後位置不正常的問題；防止在大型積木註解時在右側看不到；註解與積木保持橫向連接…等。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
@@ -685,8 +685,8 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "複製したブロックの実行禁止",
-		"description": "ブロックを複製したときに勝手に実行されるバグを修正する。",
+		"name": "複製積木後不要自動執行",
+		"description": "修復一個編輯器的已知問題，就是在複製了一個程式積木，把它貼合到一個程式區塊時，會造成程式會自動執行。",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -696,35 +696,35 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "SVGアップロードの修正",
-		"description": "SVGアップロード時のバグを修正する。",
+		"name": "SVG 圖片上傳修復",
+		"description": "修復 Scratch 編輯器上的已知問題，如果上傳的是由 Affinity Designer 之類的圖像軟體製作的 SVG，圖像會損壞。",
 		"tags": ["editor", "costumeEditor"]
 	},
 	{
 		"id": "folders",
-		"name": "スプライトフォルダー",
-		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。これは、「[フォルダー名]//」をスプライト名の先頭に追加することによって動作する。",
+		"name": "角色資料夾",
+		"description": "將文件夾添加到角色面板，造型和音效清單上也可以。要創建資料夾，請在任何物件上點擊右鍵，使用選單中「創建資料夾」功能。建立後，點擊資料夾可以開啟或是關閉它。在其它物件上點右鍵可以指定放進哪個資料夾，也可以用拖曳的方式。",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "コードをコピーボタン",
-		"description": "フォーラムの投稿のコードボックスの上に、「コードをコピー」ボタンを追加する。",
+		"name": "討論區複製代碼按鈕",
+		"description": "在討論發文時如果有代碼，在代碼上方添加「複製代碼」按鈕，以便將內容複製到剪貼簿裡。",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
 	},
 	{
 		"id": "forum-id",
-		"name": "投稿番号を引用",
-		"description": "「投稿番号を引用」を押して、投稿へのリンクを含む返信を書く。",
+		"name": "帶樓層引用",
+		"description": "點擊「帶樓層引用」按鈕以引用一個帶直達樓層的連結到你的發文裡。",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
 		"id": "forum-live-preview",
-		"name": "フォーラム投稿のライブプレビュー",
-		"description": "フォーラム投稿を作成・編集するときに、自動的にプレビューを表示する。",
+		"name": "即時預覽討論發文",
+		"description": "當你在發文狀態下，停止輸入時會自動預覽當前的內容。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -735,8 +735,8 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "フォーラム引用のカスタマイズ",
-		"description": "フォーラムの引用・コードをきれいにする。",
+		"name": "自訂討論區的引用和程式積木區塊",
+		"description": "讓討論區裡的引用、程式積木區塊有比較好的外觀。",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
@@ -745,21 +745,21 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "フォーラム検索",
-		"description": "フォーラムに検索バーを追加する。ScratchDB使用。",
+		"name": "討論區搜尋",
+		"description": "在討論區添加一個搜尋欄位，資料來自 ScratchDB。",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "フォーラムのタイムゾーン表示変更",
-		"description": "投稿日時をコンピューターのタイムゾーンで表示する。",
+		"name": "本地化討論區時間",
+		"description": "使用本地時區來顯示討論區上發文的日期和時間。",
 		"tags": ["forums", "community"]
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "フォーラムのツールバーのボタン追加",
-		"description": "[center]や[color]といったBBCodeタグを追加するボタンを、フォーラムの編集ツールバーに追加する。",
+		"name": "更多的討論區工具按鈕",
+		"description": "在討論區的發文編輯器上添加更多的功能按鈕，讓你可以插入 BBCode 的標籤，像是 [center] 或 [color]。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -772,8 +772,8 @@
 	},
 	{
 		"id": "full-signature",
-		"name": "表示域拡大",
-		"description": "署名や「私が取り組んでいること」など、サイズの制限がある部分をスクロールしたり、サイズ変更可能にしたりする。",
+		"name": "顯示完整內容",
+		"description": "有些欄位有限制顯示的高度，像是討論區的個性簽名欄位，還有個人資訊頁面上的我的經歷欄位，讓這些欄位能完整顯示。",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -787,8 +787,8 @@
 	},
 	{
 		"id": "fullscreen",
-		"name": "全画面表示",
-		"description": "全画面表示ボタンをクリックしたとき、ブラウザーの全画面表示を有効化したり、緑の旗のツールバーを隠したりする。",
+		"name": "增強全屏",
+		"description": "修復了一些全屏顯示模式下的一些問題，讓全屏時同時讓瀏覽器也以全屏展開，且可以選擇隱藏綠旗等工具列。",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -796,15 +796,15 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "ゲームパッド",
-		"description": "USBかBluetoothのコントローラーやゲームパッドを利用する。",
+		"name": "遊戲手柄支持",
+		"description": "用 USB 或藍芽控制器（遊戲手柄）與專案互動。",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "高解像度サムネイル",
-		"description": "ウェブサイト上のサムネイルを高解像度の画像で置き換える。高DPIデバイスや、拡大した状態での閲覧に便利。",
+		"name": "高解析度縮圖",
+		"description": "在專案上另存圖片時，能下載到較高解析度的圖片。這類圖片在高畫質屏幕（如 Retina）上會比較好看。",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -812,14 +812,14 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "削除ボタンを隠す",
-		"description": "削除ボタン(ゴミ箱アイコン)を、スプライト、コスチュームや音から隠す。コンテキストメニューを使えば、通常通り削除できる。",
+		"name": "隱藏刪除按鈕",
+		"description": "隱藏角色、造型、音效上的刪除按鈕（垃圾桶圖示）。如果要刪除，要在項目上點擊滑鼠右鍵，使用選單上的刪除功能。",
 		"tags": ["editor", "featured"]
 	},
 	{
 		"id": "hide-flyout",
-		"name": "ブロックパレット隠し",
-		"description": "ブロックパレットをホバーしていないときに隠す。ロックアイコンをクリックして表示し続けたり、「カテゴリー・クリック」を使うこともできる。",
+		"name": "自動隱藏程式工具箱",
+		"description": "隱藏工具箱，在某些條件下才顯示。顯示的工具箱還可以用圖釘按鈕暫時固定它！",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -834,15 +834,15 @@
 	},
 	{
 		"id": "hide-new-variables",
-		"name": "変数を自動で隠す",
-		"description": "新しく作成した変数やリストのモニターを自動で隠す。",
+		"name": "隱藏新的變數面板",
+		"description": "建立新的變數後，不要自動在舞台上顯示變數面板（清單也適用）。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "プロジェクト統計を隠す",
-		"description": "プロジェクトページやトップページ、「私の作品」の、プロジェクトの好き、お気に入り、リミックス、コメント、閲覧数を隠す。",
+		"name": "隱藏專案統計區塊",
+		"description": "不顯示專案頁面、前台頁面、我的東西頁面上的喜愛、收藏、改編、評論、觀看的計數。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -857,8 +857,8 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "フォーラムの署名を隠す",
-		"description": "フォーラム投稿の署名を隠し、「署名を表示する」ボタンを追加する。",
+		"name": "隱藏討論板簽名區塊",
+		"description": "隱藏討論板所有文章的個人簽名區塊，可以額外添加一個「顯示簽名」的按鈕。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -866,8 +866,8 @@
 	},
 	{
 		"id": "hide-stage",
-		"name": "ステージとスプライトペインを隠す",
-		"description": "「小さなステージ」と「大きなステージ」ボタンの横に、ステージとスプライトペインを隠してコードエリアを広げるボタンを追加する。",
+		"name": "添加隱藏舞台與角色面板按鈕",
+		"description": "在專案預覽視窗上添加一個按鈕，用來隱藏舞台和角色面板，按鈕按鈕後能讓編輯區的空間變大。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -878,8 +878,8 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "私の作品のタブ水平整列",
-		"description": "私の作品のボタン(「全プロジェクト」、「私のスタジオ」、「ゴミ箱」)を画面上部に移動させる。",
+		"name": "橫向顯示「我的東西」的頁籤",
+		"description": "在我的東西頁面上，有一些分類頁籤，像是「全部的專案」、「分享的專案」……「回收桶」，預設是直向顯示，把它們移動到頁面頂部並以橫向顯示。",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -890,22 +890,22 @@
 	},
 	{
 		"id": "image-uploader",
-		"name": "フォーラム画像アップローダー",
-		"description": "画像を直接アップロードし、フォーラムに投稿するボタンを追加する。",
+		"name": "討論區圖片上傳功能",
+		"description": "在討論區的發文編輯器上添加一個按鈕，讓你能直接上傳並插入圖片。",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "infinite-scroll",
-		"name": "無限スクロール",
-		"description": "「もっと読み込む」を押さずにスクロールできるようにする。",
+		"name": "無限捲動",
+		"description": "讓 Scratch 頁面不用透過「讀取更多」按鈕來觀看之後的內容。",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "新しいスプライトの位置を変更",
-		"description": "新しいスプライトのデフォルトのX・Y座標を変更する。",
+		"name": "自訂新建角色位置",
+		"description": "更改新的角色的初始 x/y 座標。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -916,8 +916,8 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "一行当たりの表示数増加",
-		"description": "プロジェクト、スタジオ、ユーザーを表示するときの、一行当たりの表示数を変更する。",
+		"name": "每橫列顯示更多項目",
+		"description": "讓你在專案、創作坊、用戶頁面的專欄可以一次顯示較多的項目。",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -928,15 +928,15 @@
 	},
 	{
 		"id": "jump-to-def",
-		"name": "カスタムブロック定義に移動",
-		"description": "中マウスボタンやShift+Clickで、カスタムブロックの定義ブロックに移動できるようにする。",
+		"name": "移至函式定義積木",
+		"description": "讓你能用滑鼠中鍵或是 Shift+左鍵來快速找到函式的定義。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }]
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "共有・編集日表示",
-		"description": "プロジェクトの共有日をホバーして、正確な共有日時と編集日時を表示する。",
+		"name": "顯示詳細的分享/修改日期",
+		"description": "在你停駐在專案的分享日期上時，會顯示該專案被分享與最後修改的確切日期。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -948,8 +948,8 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "注目のプロジェクトを動かす",
-		"description": "プロフィールページの「注目のプロジェクト」を直接遊べるようにする。Mega Scratch Userscriptをもとに作成。",
+		"name": "可運行的精選專案",
+		"description": "讓用戶個人資訊頁面上的專案能夠即時互動，本來的精選專案只是一張縮圖，現在變成可以運行的專案。",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -963,21 +963,21 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "拡張機能の自動追加",
-		"description": "プロジェクトに自動で拡張機能を追加する。",
+		"name": "自動添加擴展應用",
+		"description": "在新建專案時自動添加音樂、畫筆或其它的擴展到編輯器上。",
 		"tags": ["editor", "codeEditor", "featured"]
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "「私が取り組んでいること」文字数制限増加",
-		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
+		"name": "提高「我的工作」的字數上限",
+		"description": "在個人資訊頁面上，允許你在「我的工作」欄位再多輸入 55 個字。每個人都可以看到這些額外的文字。",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "投稿画面のアイコン変更",
-		"description": "フォーラムの投稿画面のアイコンを変更する。",
+		"name": "改善討論區發文編輯器上的按鈕",
+		"description": "原來的發文編輯器上，按鈕圖示是彩色的點陣圖，把它改成單色的向量圖標風格。",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -994,14 +994,14 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "ステージを録画",
-		"description": "ステージを録画するボタンをエディターのメニューバーに追加する。",
+		"name": "專案視頻錄製",
+		"description": "在程式編輯頁上的工具列添加一個「開始錄影」的功能，讓你可以將專案運行的過程錄製下來。",
 		"tags": ["editor", "editorMenuBar", "recommended"]
 	},
 	{
 		"id": "message-filters",
-		"name": "メッセージフィルター",
-		"description": "Scratchのメッセージページに表示するメッセージの種類を選択できるようにする。",
+		"name": "訊息篩選器",
+		"description": "在訊息頁面上讓你能透過篩選器隱藏或顯示各種類別的訊息。",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -1012,28 +1012,28 @@
 	},
 	{
 		"id": "more-links",
-		"name": "リンク化",
-		"description": "scratch.mit.edu外にリンクしているURLをクリック可能にする。",
+		"name": "允許外部連結",
+		"description": "能夠直接點擊 scratch.mit.edu 以外的網址。",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }]
 	},
 	{
 		"id": "mouse-pos",
-		"name": "マウスの座標",
-		"description": "ステージの上にマウスの座標を表示する。",
+		"name": "鼠標的座標",
+		"description": "當鼠標在舞台上移動時，顯示所停駐的座標位置。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }]
 	},
 	{
 		"id": "move-to-top-bottom",
-		"name": "コスチュームを一番上や一番下に移動",
-		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。",
+		"name": "移至最上面或最下面",
+		"description": "在造型或是音效項目右鍵開啟選單時，會有移至最上面、移至最下面的選項。",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "アイコンにメッセージ数を表示",
-		"description": "Scratch Addonsアイコンにメッセージ数を表示する。",
+		"name": "在擴充功能按鈕上計算訊息數",
+		"description": "在 Scratch Addons 圖示上添加訊息計數。",
 		"tags": ["popup", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1046,8 +1046,8 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "プロジェクトをミュート",
-		"description": "緑の旗をCtr+クリックでミュートする。",
+		"name": "專案播放時靜音",
+		"description": "在你點擊綠旗時同時按住 Ctrl 鍵可以切換靜音模式。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -1058,29 +1058,29 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "ocular上のステータスとリアクションを表示する",
-		"description": "ocularのステータスとリアクションを表示する。データ提供元: jeffalo.net",
+		"name": "ocular 整合",
+		"description": "顯示 ocular 的狀態表和討論區發文互動項目。使用 my-ocular.jeffalo.net 來存取數據。",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "バックパックのスクリプトを命名",
-		"description": "バックパックに追加するときに、スクリプトに名前を付ける画面を表示する。",
+		"name": "命名背包裡的程式積木",
+		"description": "在你拖曳程式到背包時，會要求你為這個程式碼命名，這樣有助於之後的辨識。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }]
 	},
 	{
 		"id": "no-script-bumping",
-		"name": "スクリプト重ね配置",
-		"description": "スクリプトを重ねて配置できるようにする。",
+		"name": "停止自動分開重疊的程式",
+		"description": "讓你在移動或修改程式時，不會因為一時的程式重疊導致程式原來的位置被亂改變。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "以前のスタジオレイアウト",
-		"description": "スタジオのレイアウトを、アップデート前のものや、以前Scratch 3.0化アドオンによって提供されていたものに戻す。",
+		"name": "舊式創作坊外觀",
+		"description": "把創作坊頁面的佈局恢復到上一版的外觀或是 Scratch 2.0 → 3.0 時的外觀。",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -1091,8 +1091,8 @@
 	},
 	{
 		"id": "one-click-studio-invites",
-		"name": "ワンクリックスタジオ招待",
-		"description": "スタジオ招待をScratchのメッセージページから直接承認する。承認ボタンはスタジオ招待メッセージの下に表示される。",
+		"name": "一鍵接受創作坊邀請",
+		"description": "能直接從 Scratch 訊息頁上直接接受其他創作坊的邀請。訊息頁面上，如果是他人邀請的訊息串，下方會顯示一個接受邀請的按鈕。",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1100,50 +1100,50 @@
 	},
 	{
 		"id": "onion-skinning",
-		"name": "半透明コスチュームエディター",
-		"description": "コスチューム編集時に前後のコスチュームが表示される半透明なレイヤーを追加する。拡大ボタンの横のボタンで制御可能。",
+		"name": "動畫描圖紙",
+		"description": "當編輯造型時，以半透明的方式顯示上一個或下一個造型，有助於製作動畫。在編輯器下方縮放控制旁有額外的控制按鈕。",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "opacity-slider",
-		"name": "透明度スライダー",
-		"description": "コスチュームエディターのカラーピッカーに透明度のスライダーを追加する。",
+		"name": "透明度控制桿",
+		"description": "為造型編輯器上的揀色工具添加一個透明度控制桿。",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
 	},
 	{
 		"id": "paint-by-default",
-		"name": "空のコスチュームを追加ボタン",
-		"description": "「スプライト・コスチューム・背景・音を選ぶ」ボタンの既定の動作を変更する。",
+		"name": "更改「選個xx」按鈕的預設操作",
+		"description": "選個角色/選個造型/選個背景/選個音效這些大按鈕預設都是從範例庫中選擇，改成其他操作，像是畫個造型、畫個背景…",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "pause",
-		"name": "一時停止ボタン",
-		"description": "緑の旗の横に一時停止ボタンを追加する。",
+		"name": "編譯器暫停按鈕",
+		"description": "在點擊綠旗按鈕旁添加一個暫停的按鈕。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "コスチュームエディターでステージの色を選択",
-		"description": "コスチュームエディターのカラーピッカーでステージから色を選べるようにする。",
+		"name": "揀色工具能選到舞台裡的色彩",
+		"description": "允許造型或背景編輯器上的揀色工具能夠挑選舞台視窗裡的顏色。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
-		"name": "読み込み進捗バー",
-		"description": "プロジェクトの読み込みや保存の進捗状況を表示する。",
+		"name": "專案進度條",
+		"description": "在讀取或儲存專案時顯示目前進度。",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "project-info",
-		"name": "スプライト・スクリプト数表示",
-		"description": "プロジェクトのスプライト数とスクリプト数をリミックスボタンの横に表示する。",
+		"name": "角色與程式計數",
+		"description": "在專案頁面的改編按鈕旁顯示使用的角色與程式數量。",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1154,8 +1154,8 @@
 	},
 	{
 		"id": "project-notes-tabs",
-		"name": "使い方タブ",
-		"description": "プロジェクトページの「使い方」「メモとクレジット」表示をタブにする。",
+		"name": "專案說明分頁",
+		"description": "把專案頁面上的「操作說明」和「備註與謝誌」欄位變成以分頁頁籤顯示。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1166,8 +1166,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums",
-		"name": "モバイル版フォーラムを自動リダイレクト",
-		"description": "モバイル版のフォーラムにアクセスしたときに、標準版に自動でリダイレクトさせる。",
+		"name": "重新導向至討論區主頁",
+		"description": "當點擊行動裝置版的討論區時，重新導向到討論區的主頁。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1175,8 +1175,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "自分のプロジェクトをリミックス",
-		"description": "自分が所有するプロジェクトにリミックスボタンを追加する。",
+		"name": "改編自己的專案",
+		"description": "在專案頁面上添加一個改編按鈕，讓你可以改編自己的專案。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1184,15 +1184,15 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "リミックスツリーボタン",
-		"description": "リミックスツリーボタンを「リンクをコピー」ボタンの横に追加する。",
+		"name": "改編樹按鈕",
+		"description": "把之前的改編樹按鈕放回專案頁面，就放在複製連結按鈕旁邊。",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "ステージの枠の丸み除去",
-		"description": "ステージの枠の丸みをなくし、角を見れるようにする。",
+		"name": "移除舞台邊緣圓角",
+		"description": "拿掉舞台四周的圓角修飾，讓你能看見舞台的四個角。",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{
@@ -1203,8 +1203,8 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "検索バーからオートコンプリート除去",
-		"description": "ナビゲーションバーの検索バーでオートコンプリートを無効化する。",
+		"name": "移除網站上搜尋自動完成功能",
+		"description": "停用在網站上搜尋的自動完成功能（打英文字時會自動出現建議搜尋的字串）。",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
@@ -1212,14 +1212,14 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "スプライト削除確認画面",
-		"description": "スプライトの削除時に確認画面を表示する。",
+		"name": "角色刪除確認",
+		"description": "當你刪除專案的某個角色前，顯示一個確認的詢問視窗。",
 		"tags": ["editor", "recommended"]
 	},
 	{
 		"id": "rename-broadcasts",
-		"name": "メッセージ名を変更",
-		"description": "メッセージブロックのドロップダウンにメッセージを改名するオプションを追加する。",
+		"name": "重新命名廣播訊息",
+		"description": "在廣播積木的右鍵選單添加一個「重新命名廣播訊息」的功能。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1231,8 +1231,8 @@
 	},
 	{
 		"id": "resizable-comment-input",
-		"name": "コメント欄のサイズ変更",
-		"description": "プロジェクトページのコメント欄の大きさを変更できるようにする。",
+		"name": "可調整的評論欄位",
+		"description": "讓 Scratch 網頁上的評論欄位可以調整尺寸。",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [
 			{
@@ -1243,15 +1243,15 @@
 	},
 	{
 		"id": "scratch-messaging",
-		"name": "Scratchメッセージ",
-		"description": "Scratch Addonsアイコンをクリックして利用する。メッセージを簡単に確認し、コメントの全文を確認し、直接返信する。",
+		"name": "Scratch 的訊息",
+		"description": "當你點擊 Scratch Addons 的圖示，會提供你便於閱讀與回應的 Scratch 訊息：專案的群組訊息，顯示完整的評論上下文，允許直接回應。",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratch通知",
-		"description": "メッセージを通知する。クリックしてメッセージの対象(コメント、スタジオなど)に直接行く。",
+		"name": "Scratch 訊息通知",
+		"description": "通知有新的 Scratch 訊息，點擊通知圖示可以直接看到訊息（評論、專案等）。",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1265,8 +1265,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0風フォーラムブロック表示",
-		"description": "新しいバージョンのscratchblocksを有効にする。",
+		"name": "在討論區使用 3.0 版程式積木",
+		"description": "在討論區發文時，可以使用新版本的程式積木。",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{
@@ -1279,8 +1279,8 @@
 	},
 	{
 		"id": "scratchr2",
-		"name": "Scratch 3.0化",
-		"description": "Scratch 2.0風のページを3.0化する。",
+		"name": "Scratch 2.0 → 3.0",
+		"description": "讓 Scratch2.0風格的頁面看起來像Scratch3.0的風格。",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -1291,8 +1291,8 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "プロフィール統計",
-		"description": "プロフィールにScratchDBの統計を追加する。",
+		"name": "個人統計數據",
+		"description": "在個人資料頁上顯示 ScratchDB 的統計數據。",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -1303,8 +1303,8 @@
 	},
 	{
 		"id": "script-snap",
-		"name": "スクリプトを整列",
-		"description": "スクリプトをドラッグして、コードエリアのドットに整列させる。",
+		"name": "程式積木貼齊網格",
+		"description": "在程式編輯區上拖曳程式時，會自動與畫面的網格貼齊。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
@@ -1320,8 +1320,8 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "「私の作品」を検索",
-		"description": "「私の作品」ページでプロジェクト、スタジオ、ゴミ箱の中身を検索する。どれかのキーを押して検索を始める。Ctrl+Enterを押して、一番上の検索結果に行く。",
+		"name": "「我的東西」搜尋欄位",
+		"description": "讓你能夠在「我的東西」頁面上搜尋你的專案、創作坊或是回收站的東西。直接在頁面中輸入即可以開始搜尋，還可以在搜尋結果使用 Ctrl+Enter 鍵直接打開第一個查到的項目。",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1332,15 +1332,15 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "プロフィール検索",
-		"description": "ユーザー名で検索時に、プロフィールページへ行くリンクを追加する。",
+		"name": "搜尋個人資訊",
+		"description": "讓你可以在搜尋某個人的用戶名稱後，造訪該用戶的個人資訊頁面。",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
 	},
 	{
 		"id": "search-sprites",
-		"name": "スプライトを検索",
-		"description": "スプライトペインに、スプライトを名前で検索する項目を追加する。",
+		"name": "依名稱搜尋角色",
+		"description": "在角色面板添加一個搜尋欄位，用來查找以名稱查找角色。",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1352,15 +1352,15 @@
 	},
 	{
 		"id": "semicolon",
-		"name": "セミコロンのバグ",
-		"description": "有名なセミコロンのバグを追加する。",
+		"name": "分號故障",
+		"description": "把 Scratch 的分號故障帶回來。",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }]
 	},
 	{
 		"id": "show-bbcode",
-		"name": "BBCodeのソースを表示",
-		"description": "投稿のBBCodeを表示するボタンを加える。",
+		"name": "BBCode 代碼按鈕",
+		"description": "在討論區的發文旁添加一個能顯示 BBCode 代碼的按鈕。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1371,8 +1371,8 @@
 	},
 	{
 		"id": "sounds-duration",
-		"name": "音の長さ表示",
-		"description": "サウンドエディターに音の全長と経過時間や選択された部分の時間を表示する。",
+		"name": "顯示音效時長",
+		"description": "在音效編輯器上顯示總時長和剩餘時長，或是所選取的時長。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1383,8 +1383,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "フォロワー招待ボタン",
-		"description": "スタジオのキュレータータブに、フォロワーやフォロー中のユーザーを個別に招待できるボタンを追加する。",
+		"name": "創作坊的瀏覽關注者按鈕",
+		"description": "在你管理的創作坊的策展者頁籤上面添加一個按鈕，讓你能列出所有關注者的清單，並讓你能邀請他們加入這個創作坊。",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{
@@ -1396,8 +1396,8 @@
 	},
 	{
 		"id": "studio-tools",
-		"name": "スタジオ管理ツール",
-		"description": "キュレータータブにて、簡単にキュレーターを昇格・削除したり、スタジオから抜けたりする。",
+		"name": "創作坊工具",
+		"description": "讓創作坊的管理者更容易提升、管理、移除策展人員。也可以在「關注創作坊」按鈕旁添加一個「退出創作坊」的按鈕。",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1409,15 +1409,15 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "変数の「すべてのスプライト用」と「このスプライトのみ」を変更",
-		"description": "変数やリストを改名するときに、「すべてのスプライト用」と「このスプライトのみ」や、クラウド変数を切り替えられるようにする。右クリックメニューに簡単に変更するための項目を追加する。",
+		"name": "在「適用於所有角色」和「僅適用當前角色」之間轉換",
+		"description": "在本來的重新命名變數或清單的面板上添加了更多功能：在「適用於所有角色」和「僅適用當前角色」之間轉換。也可以用滑鼠右鍵點擊變數，在功能表中直接轉換。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "透明ブロック",
-		"description": "エディター内のつながっていないブロックやドラッグ中のブロックの透明度を調整する。",
+		"name": "積木透明度",
+		"description": "調整編輯器中積木的透明度，可以為單一塊積木或是正在拖曳的積木個別設定透明值。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -1429,15 +1429,15 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "YouTubeリンク修正",
-		"description": "YouTube動画プレイヤーへのリンクを本物へのリンクに置き換える。",
+		"name": "討論區上真實的 Youtube 連結",
+		"description": "取代討論區使用的嵌入 Youtube 的語法，直接顯示其連結。",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }]
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "TurboWarpボタン",
-		"description": "リミックスボタンの横に、プロジェクトをTurboWarp.orgで動かすボタンを追加する。",
+		"name": "TurboWarp 按鈕",
+		"description": "在專案頁面的改編按鈕旁添加一個按鈕，按下後會以 TurboWarp.org 開啟該專案。",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1448,8 +1448,8 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "チュートリアルボタンを隠す",
-		"description": "エディターのメニューバー内のチュートリアルボタンを隠す。",
+		"name": "隱藏教程按鈕",
+		"description": "不要在編輯器工具列上顯示教程按鈕。",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -1460,8 +1460,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "ユーザーIDを表示",
-		"description": "プロフィールページのユーザー名の横にユーザーIDを表示する。",
+		"name": "顯示用戶 ID",
+		"description": "在用戶的個人資訊頁面上顯示 ID 號碼。",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -1472,15 +1472,15 @@
 	},
 	{
 		"id": "variable-manager",
-		"name": "変数マネージャー",
-		"description": "エディターに変数とリストを管理するためのタブを追加する。",
+		"name": "變數管理器",
+		"description": "在編輯器的音效頁籤右側添加一個變量與清單的頁籤，讓你更方便的管理它們。",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
 	},
 	{
 		"id": "vol-slider",
-		"name": "プロジェクト音量スライダー",
-		"description": "緑の旗の横に音量スライダーを追加する。",
+		"name": "專案音量控制桿",
+		"description": "在綠旗控制項旁添加一個可以調整音量的控制桿。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
@@ -1488,8 +1488,8 @@
 	},
 	{
 		"id": "youtube-fullscreen",
-		"name": "YouTube全画面表示",
-		"description": "ScratchのYouTube動画プレイヤーで、全画面表示を有効化する。",
+		"name": "全屏播放 Youtube 影片",
+		"description": "允許 Scratch 上的 Youtube 影片能夠切換成全屏顯示。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1500,8 +1500,8 @@
 	},
 	{
 		"id": "zebra-striping",
-		"name": "ブロックの色を交互に変更",
-		"description": "重なっている同じカテゴリーのブロックの色の彩度を交互に変える。「ゼブラストライピング」とも呼ばれている。",
+		"name": "替換巢狀程式顏色",
+		"description": "讓控制類程式在巢狀化的時候，能夠替換裡面程式的積木顏色，這樣會比較好辨識（這種高亮語法的方式叫 zebra striping）。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },

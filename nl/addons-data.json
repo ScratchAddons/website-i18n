@@ -2,7 +2,7 @@
 	{
 		"id": "2d-color-picker",
 		"name": "2D-kleurenkiezer",
-		"description": "Vervangt saturatie en helderheidsliders in de kostuumeditor met een 2D-kleurenkiezer. Houd Shift ingedrukt en beweeg de muisaanwijzer om de waarden op een enkele as te veranderen.",
+		"description": "Vervangt saturatie- en helderheidschuifregelaars in de uiterlijkeditor met een 2D-kleurenkiezer. Houd Shift ingedrukt en beweeg de muisaanwijzer om de waarden op een enkele as te veranderen.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
 	},
@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -188,7 +188,7 @@
 	{
 		"id": "color-inputs",
 		"name": "Kleurenkiezeringangen",
-		"description": "Laat je een exacte waarde (0-100) voor elke slider in de kleurenkiezer van de uiterlijkeditor.",
+		"description": "Laat je een exacte waarde (0-100) instellen voor elke schuifregelaar in de kleurenkiezer van de uiterlijkeditor.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -512,7 +512,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Editor-donkere modus en aanpasbare kleuren",
+		"name": "Donkere modus in editor en aanpasbare kleuren",
 		"description": "Pas de kleuren van de project-editor aan. Je kunt kiezen tussen meerdere donkere thema's door verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer de \"Scratch-standaardkleuren\"-voorinstelling en verander het.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Projectstatistieken verbergen ",
-		"description": "Laat je de hartjes-, sterren-, remix- en weergaventellers verbergen in de homepagina en projectpagina's.",
+		"description": "Laat je de hartjes-, sterren-, remix-, opmerkingen- en weergaventellers verbergen in projectpagina's, de homepagina, en Mijn Projecten.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -965,9 +972,7 @@
 		"name": "Hogere tekenlimiet in \"Waar Ik Mee Bezig Ben\"",
 		"description": "Laat je 55 meer tekens typen in je profiel's \"Waar Ik Mee Bezig Ben\". Iedereen op Scratch kan de extra tekens zien.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Verplaats uiterlijk naar boven of beneden",
-		"description": "Voegt een item in een rechterklikmenu toe om een uiterlijk of geluid helemaal naar boven of beneden in de lijst te plaatsen.",
+		"description": "Voegt opties toe in de rechterklikmenu's van uiterlijken of geluiden om ze helemaal boven of beneden in de lijst te plaatsen.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "ocular-integratie",
 		"description": "Laat ocular-statussen en forumpostopmerkingen zien. Gebruikt my-ocular.jeffalo.net om gegevens te krijgen.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Ondoorzichtigheidsschuifregelaar",
+		"description": "Voegt een ondoorzichtigheidsschuifregelaar toe aan de kleurenkiezer van de uiterlijkeditor.",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Standaard sprite tekenen",
 		"description": "Verandert de standaardactie van de \"Kies een Sprite/Uiterlijk/Achtergrond/Geluid\"-knoppen, die normaal de bibliotheek openen.",
@@ -1113,6 +1125,13 @@
 		"description": "Voegt een pauzeerknop toe naast de groene vlag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Speelveldkleuren selecteren in de uiterlijkeditor",
+		"description": "Kies kleuren in het speelveld met de kleurenkiezer van de uiterlijkeditor.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1196,6 +1215,19 @@
 		"name": "Sprite verwijderen bevestigen",
 		"description": "Vraagt of je zeker weet dat je een sprite in een project wilt verwijderen.",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Signalen hernoemen",
+		"description": "Verander de naam van signalen in de dropdowns van signaalblokken.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1444,6 +1476,15 @@
 		"description": "Voegt een tabblad naast \"geluiden\" toe in de editor om makkelijk variabelen en lijsten aan te passen.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "vol-slider",
+		"name": "Volumeschuifregelaar in projecten",
+		"description": "Voegt een volumeschuifregelaar toe naast de start-/stopbesturingen",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
 	},
 	{
 		"id": "youtube-fullscreen",

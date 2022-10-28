@@ -1,7 +1,7 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D renk seçici",
+		"name": "2B renk seçici",
 		"description": "Kostüm düzenleyicideki doygunluk ve parlaklık kaydırıcılarını 2B renk seçiciyle değiştirir. Tek bir eksendeki değerleri değiştirmek için imleci sürüklerken Shift tuşunu basılı tutun.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
@@ -69,7 +69,7 @@
 	{
 		"id": "better-quoter",
 		"name": "Daha iyi forum alıntısı",
-		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metinden alıntı yapmak için sağ alt köşedeki alıntı butonuna tıklayın.",
+		"description": "Bir forum gönderisindeki metni seçin ve yalnızca seçilen metni alıntılamak için sağ alt köşedeki alıntıla düğmesine tıklayın.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Proje istatistiklerini gizle",
-		"description": "Ön sayfada ve proje sayfalarında beğeni, favori, katkı ve görüntüleme sayılarını gizlemenizi sağlar.",
+		"description": "Proje sayfalarında, ön sayfada ve Kendiminkiler'de beğenme, favori, katkı, yorum ve görüntüleme sayılarını gizlemenizi sağlar.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -965,9 +972,7 @@
 		"name": "\"Ne Üzerinde Çalışıyorum\" bölümündeki karakter sınırını yükselt",
 		"description": "Profilinizin \"Ne Üzerinde Çalışıyorum\" bölümüne 55 karakter daha yazmanıza izin verir. Scratch'teki herkes tarafından fazladan karakterler görünecek.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Kostümü yukarı veya aşağı taşı",
-		"description": "Bir kostümü veya sesi listenin üstüne veya altına taşımak için sağ tıklama bağlam menüsüne bir öge ekler.",
+		"description": "Kostümleri ve sesleri, listenin en üstüne ya da en altına taşımak için sağ tıklama bağlam menüsüne seçenekler ekler.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "ocular entegrasyonu",
 		"description": "Ocular durumları ve forum gönderi tepkileri gösterir. Veri elde etmek için my-ocular.jeffalo.net'i kullanır.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Saydamlık ayarı",
+		"description": "Kostüm editöründeki renk seçiciye bir saydamlık ayarı ekler.",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Varsayılan olarak kostümü boya",
 		"description": "Kitaplığı varsayılan olarak açan \"Bir Kukla/Kostüm/Arka Plan/Ses Seç\" düğmelerinin varsayılan eylemini değiştirir.",
@@ -1113,6 +1125,13 @@
 		"description": "Yeşil bayrağın yanına bir duraklat düğmesi ekler.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Kostüm düzenleyicide sahne renklerini seç",
+		"description": "Kostüm editöründeki damla aracının da sahneden renkleri seçmesine izin verir.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1196,6 +1215,19 @@
 		"name": "Kukla silme onayı",
 		"description": "Bir kuklayı silerken emin olup olmadığınızı sorar.",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Haberleri yeniden adlandırma",
+		"description": "Haberleri yeniden adlandırmak için blokların açılan menülerine bir ayar ekler.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1444,6 +1476,15 @@
 		"description": "Editörde \"sesler\" sekmesinin yanına değişken ve listelerinizi kolaylıkla yönetebileceğiniz bir sekme ekler.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "vol-slider",
+		"name": "Projelerde ses ayarı",
+		"description": "Sesi ayarlamak için yeşil bayrağın yanına bir çubuk ekler.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
 	},
 	{
 		"id": "youtube-fullscreen",

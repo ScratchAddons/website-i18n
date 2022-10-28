@@ -69,7 +69,7 @@
 	{
 		"id": "better-quoter",
 		"name": "Meilleures citations sur le forum",
-		"description": "Sélectionnez du texte dans un post de forum et cliquez sur le bouton \"citation\" dans le coin en bas à droite pour citer uniquement le texte sélectionné.",
+		"description": "Select text in a forum post and click quote in the bottom right corner to only quote the selected text.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -130,7 +130,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -486,7 +486,7 @@
 	},
 	{
 		"id": "editor-buttons-reverse-order",
-		"name": "Inverser l'ordre des contrôles du projet",
+		"name": "Inverse l'ordre des contrôles du projet",
 		"description": "Bouge le drapeau vert et le bouton stop sur la droite, et le bouton plein écran à la gauche, comme dans Scratch 2.0",
 		"tags": ["editor", "projectPlayer", "theme", "featured"]
 	},
@@ -782,7 +782,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev" }
+			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
 		]
 	},
 	{
@@ -842,10 +842,17 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Cacher les stats du projet",
-		"description": "Vous permet de masquer les loves, les favoris, les remix et le nombre de vues sur la page d'accueil et les pages de projet.",
+		"description": "Lets you hide love, favorite, remix, comment, and view counts on project pages, the front page, and My Stuff.",
 		"tags": ["community", "projectPage"],
 		"credits": [
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
 		]
 	},
 	{
@@ -965,9 +972,7 @@
 		"name": "Plus grande limite de caractères dans la section \"Ce que je suis en train de faire\"",
 		"description": "Vous permet de taper 55 caractères de plus dans la section \"Ce que je suis en train de faire\" sur votre profil. N'importe qui sur Scratch verra les caractères en plus.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [
-			{ "name": "RedGuy7", "link": "https://paul-s-reid.com/web-dev/other.php" }
-		]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -1022,7 +1027,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Déplacer le costume en haut ou en bas",
-		"description": "Ajoute un élément au menu contextuel du clic droit pour déplacer un costume ou un son en haut ou en bas de la liste.",
+		"description": "Adds options to the right click context menu for costumes and sounds to move them to the top or the bottom of the list.",
 		"tags": ["editor", "costumeEditor", "featured"]
 	},
 	{
@@ -1056,7 +1061,7 @@
 		"name": "Intégration d'ocular",
 		"description": "Affiche les statuts ocular et les réactions aux messages du forum. Utilise my-ocular.jeffalo.net pour obtenir des données.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
 	},
 	{
 		"id": "name-backpack-items",
@@ -1101,6 +1106,13 @@
 		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
+		"id": "opacity-slider",
+		"name": "Curseur d'opacité",
+		"description": "Ajoute un curseur d'opacité au sélecteur de couleur de l'éditeur de costume",
+		"tags": ["editor", "costumeEditor", "beta", "featured"],
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+	},
+	{
 		"id": "paint-by-default",
 		"name": "Éditeur de costume par défaut",
 		"description": "Modifie l'action par défaut des boutons \"Choisir un Sprite/Costume/Backdrop/Son\", qui ouvrent la bibliothèque par défaut.",
@@ -1113,6 +1125,13 @@
 		"description": "Ajoute un bouton pause a côté du drapeau vert.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "pick-colors-from-stage",
+		"name": "Select stage colors in the costume editor",
+		"description": "Permet à la pipette de l'éditeur de costume de récupérer des couleur de la scène.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "GarboMuffin" }]
 	},
 	{
 		"id": "progress-bar",
@@ -1196,6 +1215,19 @@
 		"name": "Confirmation pour la suppression de sprite",
 		"description": "Vous demande si vous êtes sûrs de supprimer un sprite dans un projet.",
 		"tags": ["editor", "recommended"]
+	},
+	{
+		"id": "rename-broadcasts",
+		"name": "Renommer les diffusions",
+		"description": "Ajoute une option de diffusion dans le déroulement des blocs de diffusion.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber"
+			},
+			{ "name": "GarboMuffin" }
+		]
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1444,6 +1476,15 @@
 		"description": "Ajoute un nouvel onglet à côté de \"sons\" dans l'éditeur pour mettre à jour facilement les variables et les listes.",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+	},
+	{
+		"id": "vol-slider",
+		"name": "Curseur de volume de projet",
+		"description": "Ajoute un curseur de volume à côté du drapeau vert.",
+		"tags": ["editor", "projectPlayer", "recommended"],
+		"credits": [
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
+		]
 	},
 	{
 		"id": "youtube-fullscreen",
