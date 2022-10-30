@@ -4,7 +4,7 @@ title: Hızlı Başlangıç
 
 ## Yükleme
 
-Hadi Scratch Eklentilerini kurarak başlayalım.
+Hadi Scratch Eklentileri'ni kurarak başlayalım.
 
 | Mağaza | İndir | Desteklenen tarayıcılar |
 | - | - | - |
@@ -19,7 +19,7 @@ Daha fazla bilgi için [Kurulum](../installing) sayfasını ziyaret edin.
 
 Başlamak için, eklentinin ayarlar sayfasına erişmeniz gerekir.
 
-1. Araç çubuğunda Scratch Eklentilerini bulun ve tıklayın.
+1. Araç çubuğunda Scratch Eklentileri'ni bulun ve tıklayın.
 
    Genellikle tarayıcınızın sağ üst köşesinde bulunur. Google Chrome kullanıcıları için, uzantı simgesini bulmak için yapboz simgesine tıklamanız gerekebilir.
 

@@ -6,7 +6,7 @@ title: Yerelleştirme
 
 ## Çevirmenler için
 - [Yerelleştirme Ekibine Katılma](joining-the-localization-team)
-- [Scratch Eklentilerini Çeviriyor](translating-scratch-addons) _Yazılması gerekiyor_
+- [Scratch Eklentileri'ni Çeviriyor](translating-scratch-addons) _Yazılması gerekiyor_
 
 ## Geliştiriciler için
 - [Eklentileri Yerelleştirme](localizing-addons)

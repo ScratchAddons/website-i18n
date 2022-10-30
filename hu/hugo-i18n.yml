@@ -68,7 +68,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Minden-egyben böngésző bővítmény a Scratch-hez
-    Description: A Scratch Addons egy webböngésző-bővítmény, ami rengeteg új funkciót, és témát kínál a Scratch weboldalhoz és a projektszerkesztőjéhez. Küldetése, hogy összegyűjtse, eltárolja, és használatba vigye a userstyle-okat, userscriptreket a Scratch közösség különböző tagjai által fejlesztve.
+    Description: A Scratch Addons egy webböngésző-bővítmény, ami rengeteg új funkciót, és témát kínál a Scratch weboldalhoz és a projektszerkesztőjéhez. Küldetése, hogy összegyűjtse, eltárolja, és használatba vigye a userstyle-okat, userscriptreket a Scratch-közösség különböző tagjai által fejlesztve.
     InstallButton:
       Loading: Betöltés...
       Description: szabad, nyíltforráskódú
@@ -94,7 +94,7 @@ IndexPage:
     InternationalHeading: Nemzetközi
     InternationalParagraph: Nem csak angol. A Scratch elérhető már spanyolul, oroszul, japánul, franciául, és még rengeteg más nyelven is, többek között magyarul is.
     OSHeading: Nyílt forráskódú
-    OSParagraph: A Scratch Addons szabad, nyílt forráskódú és a Scratch közösség által felépített projekt.
+    OSParagraph: A Scratch Addons szabad, nyílt forráskódú és a Scratch közössége által felépített projekt.
   Highlights:
     Heading: Kiemelések
     Paragraph: Emlékezzen, hogy ezek csak a kiemelések. {{.OpenTag1}}Van több is!{{.CloseTag1}}

@@ -9,7 +9,7 @@ _**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten çev
 
 {{< /admonition >}}
 
-**Scratch Eklentilerini diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz!**
+**Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz!**
 
 Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kar amacı gütmeyen bir açık kaynak projesidir.
 

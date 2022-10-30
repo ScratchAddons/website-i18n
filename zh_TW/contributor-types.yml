@@ -12,7 +12,7 @@ eventOrganizing: 活動組織
 example: 例子
 financial: 金融
 fundingFinding: 資金調查
-ideas: 想法、計劃和反饋
+ideas: "想法、計劃和反饋"
 infra: 基礎設施
 maintenance: 維護
 mentoring: 指導
@@ -25,7 +25,8 @@ security: 安全
 talk: 會談
 test: 測試
 tool: 工具
+translation: 翻譯
 tutorial: 教程
 userTesting: 用戶測試
 video: 視頻
-mod: 區域管主(異議)
+mod: 社群版主 (Discord)

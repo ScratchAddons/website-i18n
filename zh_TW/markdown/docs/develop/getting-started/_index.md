@@ -1,4 +1,4 @@
 ---
-title: 開始
+title: 入門
 ---
-開始為 Scratch Addons 製作插件吧！
+開始學習如何在 Scratch Addons 上開發擴充功能！

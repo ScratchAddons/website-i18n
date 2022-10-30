@@ -1,16 +1,16 @@
 ---
-title: 首頁
+title: 主頁
 ---
-**歡迎使用 Scratch Addons文檔！**
+**歡迎使用 Scratch Addons 說明文件！**
 
-如果您正在考慮創建一個插件，[從這裡開始](開發/開始/創建插件)。
+如果你正在考慮創建一個擴充功能，可以[從這裡開始](develop/getting-started/creating-an-addon)。
 
-如果您想幫助翻譯擴展，[在此處了解如何幫助]（翻譯/加入翻譯團隊）。
+如果你想協助翻譯擴充功能，可以[從這裡學習如何做](localization/joining-the-localization-team)。
 
-如果您需要幫助在 Scratch Addons，[看這裡]（開始/快速開始）。
+如果你需要知道如何使用 Scratch Addons，可以[查閱入門文件](getting-started/quick-start)。
 
-如果您對項目的設計感興趣，[看這裡]（參考/設計）。
+如果你對這個專案的設計感興趣，不妨[來這裡看看](reference/design)。
 
-對 Scratch 插件有疑問？ [在這裡提問](https://github.com/ScratchAddons/ScratchAddons/discussions)！
+對 Scratch Addons 有什麼疑問？你可以[在這裡提問](https://github.com/ScratchAddons/ScratchAddons/discussions)！
 
-新插件的想法可以進入 [問題標籤](https://github.com/ScratchAddons/ScratchAddons/issues)。
+有新的擴充功能想法，可以[到這裡提出](https://github.com/ScratchAddons/ScratchAddons/issues)。

@@ -1,28 +1,101 @@
 Global:
   Install: 安裝
+  InstallBrowser:
+    Firefox: 在 Firefox 上安裝
+    Chrome: 在 Chrome 上安裝
+    Edge: 在 Edge 上安裝
+  ReadTime:
+    one: "{{.Count}} 分鐘"
+    other: "{{.Count}} 分鐘"
+  RSSDescription: 在 {{ .SiteName }} 上的最新內容
+  Website: 站台
+  Extension: 擴展
+  Carousel:
+    Prev: 上一個
+    Next: 下一個
+    First: 第一個
+    Last: 最後一個
+    SlideX: 移至第 {{ .Count }} 個
 Links:
-  Credits: 信任
+  Blog: 網誌
+  Docs: 說明文件
+  Credits: 致謝
+  PrivacyPolicy: 隱私政策
+  DiscordCom: 社群 Discord
+  Discussion: 討論區
+  Community: 社群
 Nav:
-  Feedback: 发送评价
+  Feedback: 發送回饋
   Repository: 存儲庫
+  RepositoryLabel: GitHub 存儲庫
   Install: 安裝
+  ToggleNavigation: 切換巡覽
 Footer:
   Pages:
     Header: 頁面
-    FAQ: 常見問題
-    Feedback: 发送评价
-    Changelog: 更改日誌
+    FAQ: 常見問答
+    Feedback: 發送回饋
+    Changelog: 更新紀錄
   Discuss:
+    Header: 討論
     Issues: 問題
+    DiscordDev: 開發者 Discord 社區
   Resources:
+    Header: 資源
     Repository: 存儲庫
-    Documentation: 文件
+    Documentation: 說明文件
+  Legal:
+    Copyright: "{{ .Copyleft }}{{ .Year }} Scratch Addons contributors"
 Docs:
+  DocsNav: 文章巡覽
+  DocsNavToggleLabel: 切換文章巡覽側欄
   TOC: 目錄
-  LastUpdated: "最後更新時間在 {{.Date}} "
+  TOCToggleLabel: 切換目錄側欄
+  LastUpdated: 最後由 {{.Name}} 在 {{.Date}} 通過 {{.Commit}} 修改。
+  Improve: 改善這個頁面。
+  SectionPages: 章節頁面
+PlayerModal:
+  LabelPlay: 播放
+  ModalTitle: 影片
+  AltText: 點擊以觀看這個影片。
 IndexPage:
   Intro:
     InstallButton:
-      Loading: 加载中...
+      Loading: 正在讀取…
+      Description: 免費、開源
+    ReadMore: 或查看更多
+    Carousel:
+      Settings:
+        Caption: 設定頁面。
+        ImgAlt: 設定頁面
+  Features:
+    Heading: 功能
   Install:
     Heading: 安裝
+AddonsPage:
+  FeaturedAddon: 這是精選的擴充功能。
+  ListViewLabel: 清單一覽
+  NAddons: "{{.Count}} 擴充功能"
+FeedbackPage:
+  Status:
+    Sending: 正在發送…
+    Success: 發送完畢！感謝你的回饋。
+    Failed: 發送失敗！要再試一次嗎？
+  ContentLabel: 回饋
+  ContentPlaceholder: 盡量讓我們知道更多細節。
+  SubmitButton: 發送
+ChangelogPage:
+  Links:
+    Title: 連結
+  Status:
+    Latest: 最新的
+UnsupportedBrowserPage:
+  Download: 下載
+  HowToUpdate: 如何更新
+Blog:
+  SectionSiteName: Scratch Addons 網誌
+CreditsPage:
+  NContributors: "{{.Count}} 貢獻者"
+  NProfilePicture: "{{.Name}} 個人頭像"
+Comments:
+  Heading: 評論
