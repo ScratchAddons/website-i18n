@@ -13,7 +13,7 @@ Veya isterseniz ZIP olarak indirin. Başka bir deyişle, kaynak kodunu yerel ola
 ## 3. Adım: Uzantıyı Chrome'a yükleyin
 *Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de, eklentilerin Firefox ve Edge'de de çalışması bekleniyor.* 
 Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`a gidin ve "geliştirici modu"nu açın. 
-"Paketlenmemiş yükle"ye tıklayın, ardından Scratch Eklentilerinin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun. 
+"Paketlenmemiş yükle"ye tıklayın, ardından Scratch Eklentileri'nin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun. 
 İşte bu! Uzantıyı yüklediniz! Şuna benzer görünmelidir: 
 ![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png) 
 Not: "hatalar"ı güvenle görmezden gelebilirsiniz. Bu, Firefox tarafından gerekli görülen tanınmayan bir bildirim anahtarı için yalnızca bir uyarıdır.
@@ -24,11 +24,11 @@ Eklentiniz ne yapacak? Kendini açıklayıcı bir eklenti kimliği düşünün (
 Anladın mı?
 
 ## 5. Adım: Eklenti için bir klasör oluşturun
-Bir dosya gezgini kullanarak Scratch Eklentilerin dosya sisteminizde bulunduğu klasöre gidin. `addons` klasörünü bulun.
+Bir dosya gezgini kullanarak Scratch Eklentileri'nin dosya sisteminizde bulunduğu klasöre gidin. `addons` klasörünü bulun.
 Ardından, adı olarak epik eklenti kimliğinizle yeni bir klasör oluşturun.
 
 ## 6. Adım: Bir manifest eklentisi ekleyin
-Eklenti manifesti, Scratch Eklentilerine eklentinizin nasıl çalıştığını söyler. Baş ağrısından kurtulmak için bunu yaptığınızdan emin olun.
+Eklenti manifesti, Scratch Eklentileri'ne eklentinizin nasıl çalıştığını söyler. Baş ağrısından kurtulmak için bunu yaptığınızdan emin olun.
 Az önce oluşturduğunuz klasörün içinde bir `addon.json` dosyası oluşturun.
 Bu, kodlamaya başlamak için kullanabileceğiniz bir temeldir, gelecekte değiştirdiğinizden emin olun:
 ``` json
@@ -42,20 +42,20 @@ Bu, kodlamaya başlamak için kullanabileceğiniz bir temeldir, gelecekte deği�
 Manifest dosyasında neler bildirebileceğiniz hakkında daha fazla bilgi için [bu makaleye](/docs/reference/addon-manifest/) bakın.
 
 
-## 7. Adım: Scratch Eklentilere eklentinizin kimliğinin ne olduğunu söyleyin
+## 7. Adım: Scratch Eklentileri'ne eklentinizin kimliğinin ne olduğunu söyleyin
 Scratch Eklentileri kendi başına yeni klasörler bulamaz, bu nedenle adı özel bir dosyaya eklemeniz gerekir.
 `scratchAddonsFolder/addons/addons.json` adresine gidin ve eklentinizin kimliğini diziye ekleyin.
 
 ## 8. Adım: Merhaba dünya
 Eklentiniz şu anda hiçbir şey yapmıyor, bu nedenle daha önce yaptığımız her şeyin çalışıp çalışmadığını kontrol etmek için iyi bir zaman.
-` chrome://extensions`a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri yeniden yükleyin.
-Şimdi, Scratch Eklentiler simgesine sağ basın ve "seçenekler"e tıklayın.
+` chrome://extensions`a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri'ni yeniden yükleyin.
+Şimdi, Scratch Eklentileri simgesine sağ basın ve "seçenekler"e tıklayın.
 Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve sahip olabileceğiniz tüm ayarları yapın.
 
 ## 9. Adım: Eğlenceli kısım, kod!
 *Devam etmeden önce 1. adımda bağlantısı verilen wiki makalesini okuduğunuzdan emin olun.*
 
-İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentiler uzantısını yenilediğinizden emin olun.
+İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentileri uzantısını yenilediğinizden emin olun.
 
 Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
 - [Userscript'ler](/docs/develop/addon-types/userscripts)

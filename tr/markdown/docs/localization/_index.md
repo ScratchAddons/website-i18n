@@ -2,7 +2,7 @@
 title: Yerelleştirme
 ---
 
-İşte Scratch Eklentilerinin yerelleştirilmesi (l10n) hakkında bazı sayfalar.
+İşte Scratch Eklentileri'nin yerelleştirilmesi (l10n) hakkında bazı sayfalar.
 
 ## Çevirmenler için
 - [Yerelleştirme Ekibine Katılma](joining-the-localization-team)

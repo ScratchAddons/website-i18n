@@ -9,7 +9,7 @@ Bu sayfa, Scratch Eklentileri uzantısı ve projesiyle ilgili sık sorulan sorul
 
 ### Scratch Eklentileri Nedir?
 
-Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentilerinin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, userscript'lerini ve userstyle'larını, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
+Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir arada" bir tarayıcı uzantısıdır. Hem Scratch sitesi hem de proje düzenleyicisi için özellikler ve temalar (dahili olarak eklentiler olarak adlandırılır) sağlar. Scratch Eklentileri'nin misyonu, Scratch topluluğunun birkaç üyesi tarafından geliştirilen mevcut tüm Scratch uzantılarını, userscript'lerini ve userstyle'larını, erişimi kolay tek bir yerde birleştirirken, kullanıcıların hangilerini etkinleştireceklerini seçmelerine izin vermektir.
 
 ### Scratch Eklentileri'ni kim yaptı?
 
@@ -21,7 +21,7 @@ Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırak�
 
 ### Bu TurboWarp Eklentileri ile aynı mı?
 
-[TurboWarp](https://turbowarp.org/), Scratch Eklentileri'ni yüklemeden düzenleyicilerinde kullanılabilecek Scratch Eklentileri'nden bazı eklentilere sahiptir. Ancak, Scratch Eklentileri ayrıca Scratch sitesi ve açılır ekran için eklentiler de içerir. Bu nedenle, yalnızca TurboWarp kullanarak kod yazsanız bile Scratch Eklentilerine sahip olmak yine de yararlıdır.
+[TurboWarp](https://turbowarp.org/), Scratch Eklentileri'ni yüklemeden düzenleyicilerinde kullanılabilecek Scratch Eklentileri'nden bazı eklentilere sahiptir. Ancak, Scratch Eklentileri ayrıca Scratch sitesi ve açılır ekran için eklentiler de içerir. Bu nedenle, yalnızca TurboWarp kullanarak kod yazsanız bile Scratch Eklentileri'ne sahip olmak yine de yararlıdır.
 
 ## Sistem gereksinimleri
 
@@ -71,7 +71,7 @@ Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` ad
 
 Evet. Scratch hesabınızla ilgili özelliklerin, Scratch hesabınıza zarar vermeyeceklerinden emin olmak için Scratch Eklentileri, emeği geçenler tarafından kapsamlı bir şekilde incelenir. Scratch Eklentileri, hesap kimlik bilgilerinizi güvende tutar ve projelerinizi veya varlıklarınızı izniniz olmadan değiştirmez veya silmez. Ancak, isterseniz uzantıyı hesapla ilgili herhangi bir özellik olmadan kullanabilirsiniz.
 
-Scratch Eklentilerindeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
+Scratch Eklentileri'ndeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
 
 Tarayıcınızın dışına asla gizli veya kişisel olarak tanımlayıcı bilgiler göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikası](/docs/privacy/policies/extension)na göz atın.
 
@@ -90,7 +90,7 @@ Ardından, kenar çubuğunu veya arama kutusunu kullanarak etkinleştirmek isted
 
 Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarından/userscript'lerden söz edilmesini yasaklayan bir politika vardır ve ihlaller, Scratch Ekibinin gönderileri kaldırmasına veya hesapların sessize alınmasına neden olmuştur. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
 
-### Scratch Eklentilerinin, Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
+### Scratch Eklentileri'nin Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
 Başta değişkenler sekmesi, hata ayıklayıcısı ve fare imlecini izleyen kedi blokları gibi karmaşık özellikleri olan eklentiler olmak üzere, ihtiyacınız olmayan eklentileri devre dışı bırakmayı deneyebilirsiniz. Performansa etkisi olan çoğu eklenti genişletildiğinde eklenti bilgilerinin orada bir uyarı olacaktır.
 
@@ -123,7 +123,7 @@ Easter egg eklentilerimizden bazıları "Büyük harfli Hesap Ayarları" ve "Nok
 
 ## Katkıda bulunmak
 
-### Scratch Eklentilerine nasıl katkıda bulunabilirim?
+### Scratch Eklentileri'ne nasıl katkıda bulunabilirim?
 
 Öncelikle, Scratch Eklentileri'ne katkıda bulunmaya gösterdiğiniz ilgi için teşekkür ederiz!
 

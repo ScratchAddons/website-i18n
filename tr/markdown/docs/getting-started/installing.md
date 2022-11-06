@@ -16,30 +16,30 @@ Scratch Eklentileri bu mağazalarda mevcuttur
 
 ### GitHub sürümleri hakkında
 
-[Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentilerin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
+[Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentileri'nin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
 
 ### Depoyu klonlama
 
-Scratch Eklentilerini geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in hâlihazırda kurulu olduğunu varsayar.
+Scratch Eklentileri'ni geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in hâlihazırda kurulu olduğunu varsayar.
 
 Depoyu indirmek için `https://github.com/ScratchAddons/ScratchAddons.git` dosyasını klonlamanız yeterlidir.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-Scratch Eklentilerini güncellemek için önce `cd` ile klasöre gidin, ve ardından aşağıdaki komutları çalıştırın.
+Scratch Eklentileri'ni güncellemek için önce `cd` ile klasöre gidin, ve ardından aşağıdaki komutları çalıştırın.
 
 ```sh
 $ git fetch
 $ git pull
 ```
 
-Bu, Scratch Eklentilerini güncelleyecek ve kodu düzenlemeye hazır hâle getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
+Bu, Scratch Eklentileri'ni güncelleyecek ve kodu düzenlemeye hazır hâle getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
 
 
 ### Zipball'u indirmek
 
-Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentilerini her güncellemek istediğinizde bu işlemi manuel olarak tekrarlamanız gerekeceğini unutmayın.
+Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentileri'ni her güncellemek istediğinizde bu işlemi manuel olarak tekrarlamanız gerekeceğini unutmayın.
 
 1. [Depoya](https://github.com/ScratchAddons/ScratchAddons) gidin ve kodu indir düğmesini bulun.
 
@@ -86,5 +86,5 @@ Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme ad
 6. Çıkarılan klasörün içindeki manifest.json dosyasını seçin.
 7. Uzantı artık yüklenmiş olmalıdır.
 
-Not: Firefox geçici eklentileri aslında kalıcı değildir. Firefox'u yeniden başlatmak bunları kaldıracaktır, bu nedenle Scratch Eklentilerin geliştirme sürümünü kullanmak istiyorsanız, her zaman Google Chrome gibi Chromium tabanlı bir tarayıcı kullanmanız önerilir.
+Not: Firefox geçici eklentileri aslında kalıcı değildir. Firefox'u yeniden başlatmak bunları kaldıracaktır, bu nedenle Scratch Eklentileri'nin geliştirme sürümünü kullanmak istiyorsanız, her zaman Google Chrome gibi Chromium tabanlı bir tarayıcı kullanmanız önerilir.
 

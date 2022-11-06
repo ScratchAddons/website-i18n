@@ -7,7 +7,7 @@ description: 翻譯插件很簡單。
 ## 增加訊息
 在 `addons-l10n/en/` 下，創建一個名為 `ADDONID.json` 的文件，其中 ADDONID 是插件的 ID（文件夾名稱）。在那裡寫下你想翻譯的信息：
 
-```json
+```函式積木
 {
   "ADDONID/meow": "Meow",
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
@@ -26,26 +26,26 @@ description: 翻譯插件很簡單。
 ## 使用翻譯
 從以下內容更改用戶腳本的第一行：
 ```
-export default async function ({ addon, console }) {
+導出缺少和不同步的函數 ({ 插件，控制台 }) {
 ```
 
 至：
 ```
-export default async function ({ addon, console, msg }) {
+導出缺少和不同步的函數 ({ 插件，控制台，msg }) {
 ```
 
-The `msg` added is the function you use to get translations. For example, `text = "Meow"` can now be `text = msg("meow")`. The addon ID and the slash is omitted.
+添加的 `msg` 是您用來獲取翻譯的功能。例如， `text = "Meow"` can now be `text = msg("meow")`. 省略插件 ID 和斜線省略。
 
 ### 占位符
 您可以提供佔位符數值：
-```js
+```函式積木
 cat = msg("cats", {number: 1}) // shows "1 cat"
 cats = msg("cats", {number: 3}) // shows "3 cats"
 hungry = msg("eat", {food: "cod"}) // shows "I want to eat cod!"
 ```
 
 您還可以“嵌入”消息：
-```js
+```函式積木
 hungry2 = msg("eat", {food: msg("salmon")}) // shows "I want to eat salmon!"
 ```
 

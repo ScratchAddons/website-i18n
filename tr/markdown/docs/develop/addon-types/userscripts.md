@@ -6,7 +6,7 @@ description: Userscript'ler, Scratch sayfaları boyunca kod çalıştırmanıza 
 Userscript'ler, Scratch sayfaları boyunca kod çalıştırmanıza izin verir - düğme ekleme, Scratch düzenleyiciyi geliştirme veya hayal edebileceğiniz herhangi bir şey gibi şeyler yapabilirsiniz.
 
 ## Nasıl bir userscript eklerim?
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions` dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions` dan yenilemeyi unutmayın.**
 Eklentinizin (addon.json) manifest dosyasına gidin ve `userscripts"` adında bir özellik ekleyin.
 Bu özellik bir dizi olmalıdır.
 Dizinin her bir ögesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleşir"`.

@@ -4,7 +4,7 @@ title: Come iniziare subito
 
 ## Installazione
 
-Iniziamo installando Scratch Addons.
+Iniziamo installando ScratchAddons.
 
 | Store | Installa | Browser supportati |
 | - | - | - |
@@ -19,7 +19,7 @@ Ulteriori informazioni possono essere trovate alla pagina [Installazione](../ins
 
 Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere le sue funzioni.
 
-1. Localizza Scratch Addons nella toolbar e cliccalo.  
+1. Localizza ScratchAddons nella toolbar e cliccalo.  
 
    Di solito lo trovi nell'angolo in alto a destra del tuo browser. Per gli utenti di Google Chrome può essere necessario cliccare l'icona del puzzle per trovare l'icona dell'estensione.
 

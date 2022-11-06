@@ -6,7 +6,7 @@ description: Userstyle'lar, Scratch sitesine CSS eklemenize olanak tanır - user
 Userstyle'lar, Scratch sitesine CSS eklemenize olanak tanır - userscript'ler ile eklediğiniz düğmeleri renkli hâle getirmek veya yerel Scratch ögesini özelleştirmek için kullanışlıdır.
 
 ## Nasıl bir userstyle eklerim?
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions` dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions` dan yenilemeyi unutmayın.**
 Eklentinizin (addon.json) manifest dosyasına gidin ve `"userstyles"` adlı bir özellik ekleyin.
 Bu özellik bir dizi olmalıdır.
 Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"matches"`.
@@ -33,6 +33,6 @@ Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"matches
 ```
 
 ## Userstyle'larda hata ayıklama
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentilerini `chrome://extensions`dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`dan yenilemeyi unutmayın.**
 Userstyle'ınızın çalıştığını görmüyorsanız, eklentinizin etkin olduğundan emin olun.
 Hâlâ sorun yaşıyorsanız, lütfen bu depoda bir sorun oluşturun.
