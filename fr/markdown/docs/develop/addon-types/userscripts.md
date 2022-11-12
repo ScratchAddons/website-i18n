@@ -32,7 +32,7 @@ Exemple de manifeste :
 }
 ```
 
-## What does the JavaScript file look like?
+## A quoi resemble le fichier JavaScript?
 Userscript JS files require a specific structure to work.  
 For userscripts, you **must** wrap all your code inside a function looking like this:
 ```js
@@ -64,7 +64,7 @@ async function sayHello() {
 ```
 
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
-You can access many `addon.*` APIs from userscripts. For more information, check the documentation.
+Vous pouvez accéder plusieurs API `addon.*` à partir de scripts utilisateur. Pour plus d'informations, consultez la documentation.
 
 ## Aspects techniques des scripts utilisateur
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.

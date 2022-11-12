@@ -5,7 +5,7 @@ description: Cette page liste toute les questions posées fréquemment sur l'ext
 
 Cette page liste toute les questions posées fréquemment sur l'extension et le projet Scratch Addon.
 
-## General questions
+## Questions général
 
 ### Qu'est-ce que Scratch Addons ?
 
