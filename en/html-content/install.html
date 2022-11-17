@@ -1,0 +1,9 @@
+
+<script>if(window.installButtonGo=(e,t)=>{switch(delete window.installButtonGo,t){case"Blink":location.href="Microsoft Edge"===e?"https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj":"https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco";break;case"Gecko":location.href="https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/";break;default:location.href="https://scratchaddons.com/docs/getting-started/installing/"}},null!==localStorage.getItem("browserName")&&null!==localStorage.getItem("browserEngine"))installButtonGo(localStorage.getItem("browserName"),localStorage.getItem("browserEngine"));else{console.info("No browser data saved. Getting bowser to get it...");const c=document.createElement("script");c.type="module",c.innerHTML=`
+        import bowser from 'https://cdn.jsdelivr.net/npm/bowser/+esm'
+    
+        localStorage.setItem("browserName", bowser.getParser(navigator.userAgent).parsedResult.browser.name)
+        localStorage.setItem("browserEngine", bowser.getParser(navigator.userAgent).parsedResult.engine.name)
+    
+        window.installButtonGo(localStorage.getItem("browserName"), localStorage.getItem("browserEngine"))
+        `,document.head.appendChild(c)}</script>
