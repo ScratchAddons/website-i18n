@@ -52,7 +52,7 @@ jobs:
           private_key: ${{ secrets.BOT_PRIVATE_KEY }}
       - name: Invoke workflow
         if: steps.script.outputs.has_new_commit == 'true'
-        uses: benc-uk/workflow-dispatch@v1
+        uses: benc-uk/workflow-dispatch@v121
         with:
           workflow: Source Upload
           token: ${{ steps.generate-token.outputs.token }}
