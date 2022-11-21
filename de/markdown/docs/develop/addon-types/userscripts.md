@@ -1,11 +1,11 @@
 ---
-title: Userscripts
-description: Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+title: Benutzerskripte (Userscripts)
+description: Benutzerskripte erlauben dir, Code auf Scratch-Seiten auszüführen. Du kannst z.B. Buttons hinzufügen, den Scratch-Editor erweitern und vieles mehr.
 ---
 ## Was sind sie?
-Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+Benutzerskripte erlauben dir, Code auf Scratch-Seiten auszüführen. Du kannst z.B. Buttons hinzufügen, den Scratch-Editor erweitern und vieles mehr.
 
-## Wie füge ich ein Userscript hinzu?
+## Wie füge ich einen Benutzerskript (Userscript) hinzu?
 **Make sure to refresh Scratch Addons from `chrome://extensions` after doing any changes to your addon.**  
 Go to the manifest of your addon (addon.json) and add a property called `userscripts"`.  
 This property must be an array.  
@@ -32,16 +32,16 @@ Example manifest:
 }
 ```
 
-## What does the JavaScript file look like?
-Userscript JS files require a specific structure to work.  
-For userscripts, you **must** wrap all your code inside a function looking like this:
+## Wie sieht die JavaScript-Datei aus?
+Benutzerskript (Userscript) JS-Dateien benötigen eine spezifische Struktur, um zu funktionieren.
+Für Benutzerskripts (Userscripts) **musst** du deinen gesamten Code in eine Funktion einwickeln, die so aussieht:
 ```js
 export default async function ({ addon, global, console }) {
   console.log("Hello, " + await addon.auth.fetchUsername());
 }
 ```
-If you want to abstract code into functions for cleaner code, you should include them inside the main function:  
-**This will work:**
+Wenn du Code in Funktionen abstrahieren möchtest, um saubereren Code zu erhalten, solltest du sie in die Basisfunktion einbauen.
+**Dies wird funktionieren:**
 ```js
 export default async function ({ addon, global, console }) {
   // This works!
@@ -51,7 +51,7 @@ export default async function ({ addon, global, console }) {
   }
 }
 ```
-**Dies wird NICHT funktionieren:**
+**Das wird NICHT funktionieren:**
 ```js
 export default async function ({ addon, global, console }) {
   // This WON'T work!
@@ -66,7 +66,7 @@ async function sayHello() {
 ## [`addon.*` APIs](/docs/developing/addon-apis-reference)
 You can access many `addon.*` APIs from userscripts. For more information, check the documentation.
 
-## Technische Ansichten von Userscripts
+## Technische Ansichten von Benutzerskripts (Userscripts)
 Userscripts run after the Scratch page has fully loaded - in other words, they run in `defer` mode.
 Technically speaking, each userscript is a JavaScript module that exports a function. JavaScript modules always run on "strict mode".  
 This means that userscripts of the same addon DO NOT share variables and functions! If you want to do that, you should use the `global` object (more info below).
@@ -87,7 +87,7 @@ export default async function ({ addon, global, console }) {
 ```
 - `console`: this is a wrapper that allows you to see what addon triggered the log you're seeing easily.
 
-## Fehlerbehebung in Userscripts
+## Benutzerskripte (Userscripts) debuggen
 **Make sure to refresh Scratch Addons from `chrome://extensions` after making any changes to your addon.**  
 To debug userscripts, first of all make sure your addon is enabled.  
 Then, go to a URL where you specified your userscript should run.  

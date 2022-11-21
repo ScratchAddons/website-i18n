@@ -76,7 +76,7 @@ Scratch Addons then calls that function modules exported, giving it access to th
 ```js
 // userscript-1.js
 export default async function ({ addon, global, console }) {
-  global.sayHello = () => console.log("Hello, " + addon.auth.fetchUsername());
+  global.sayHello = () => console.log("Bonjour,  " + addon.auth.fetchUsername());
 }
 
 // userscript-2.js

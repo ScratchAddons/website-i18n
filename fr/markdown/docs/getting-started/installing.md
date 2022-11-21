@@ -45,7 +45,7 @@ If you don't have Git installed, you can try this method instead. Note that you 
 
    ![Download code button screenshot](/assets/img/docs/download-code-button.png)
 
-2. Click it and select "Download ZIP".
+2. Cliquez et selectionnez ”Télécharger le ZIP”
 
    ![Download ZIP button screenshot](/assets/img/docs/download-zipball-button.png)
 

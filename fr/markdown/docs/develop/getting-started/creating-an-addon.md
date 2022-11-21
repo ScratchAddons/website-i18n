@@ -19,9 +19,9 @@ That's it, you loaded the extension! It should look similar to this:
 Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
 
 ## Step 4: What's your addon about?
-Now comes the fun part!  
-What will your addon do? Think of a self descriptive addon ID (no spaces or special characters, except hyphens).  
-Got it?
+Maintenant vient la partie drôle !
+Qu'est-ce que ton module fait? Pensez à un Identifiant de description (pas d’espaces et des caractères spéciaux, sauf des tirets)
+On y va?
 
 ## Step 5: Create the folder for the addon
 Using a file explorer, go to the folder where Scratch Addons resides in your filesystem. Locate the `addons` folder.  
