@@ -11,11 +11,11 @@ Cette page liste toute les questions posées fréquemment sur l'extension et le 
 
 Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch, les scripts et les styles utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
 
-### Who created Scratch Addons?
+### Qui a créé Scratch Addons ?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons est un projet réalisé par une équipe menée par World_Languages. Vous pouvez trouver une liste des gens qui y ont contribué sur la page des [Contributeurs](/contributors). Bien que les addons "Messagerie Scratch" et "Outils de développement" ont été initialement créés par Griffpatch, il ne gère pas l'extension.
 
-### What does Scratch Addons include?
+### Que comprend Scratch Addons ?
 
 Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
 
