@@ -12,9 +12,13 @@ eventOrganizing: Организация событий
 example: Примеры
 financial: Финансирование
 fundingFinding: Поиск финансирования
-ideas: Идеи, планирование и отзыв
+ideas: "Идеи, планирование и отзыв"
 infra: Инфраструктура
 maintenance: Обслуживание
+mentoring: Обучение
+platform: Установка
+plugin: Библиотека плагинов/утилит
+projectManagement: Управление проектом
 question: Ответчик на вопросы
 review: Рецензент pull запросов
 security: Безопасность
@@ -22,6 +26,7 @@ talk: Разговоры
 test: Тесты
 tool: Инструменты
 translation: Перевод
-tutorial: Руководства
+tutorial: Туториалы
+userTesting: Пользовательское тестирование
 video: Видео
 mod: Модератор сообщества (Discord)

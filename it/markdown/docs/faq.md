@@ -17,7 +17,7 @@ Scratch Addons is a team project led by World_Languages. You can find the list o
 
 ### What does Scratch Addons include?
 
-Scratch Addons include oltre 100 addons, che possono essere abilitati o disabilitati singolarmente. Alcuni addon possono essere configurati o avere delle impostazioni predefinite, come ad esempio la modalità scura per il tema del sito web. ScratchAddons include anche una finestra popup che può essere usate per accedere rapidamente ai messaggi, ai giochi cloud e alla pagina delle impostazioni. ScratchAddons è tradotto in diverse lingue come Tedesco, Francese, Spagnolo e Giapponese.
+ScratchAddons include oltre 100 addons, che possono essere abilitati o disabilitati singolarmente. Alcuni addon possono essere configurati o avere delle impostazioni predefinite, come ad esempio la modalità scura per il tema del sito web. ScratchAddons include anche una finestra popup che può essere usate per accedere rapidamente ai messaggi, ai giochi cloud e alla pagina delle impostazioni. ScratchAddons è tradotto in diverse lingue come Tedesco, Francese, Spagnolo e Giapponese.
 
 ### Sono gli stessi addon di TurboWarp?
 
@@ -59,7 +59,7 @@ Some browser extensions and userscripts may interfere with Scratch Addons. If yo
 
 ### ScratchAddons è sicuro?
 
-Si. Scratch Addon non dovrebbe avere nessun problema di sicurezza nella sua versione più recente. ScratchAddons è un progetto opensource, quindi il codice è constantemente verificato da chi contribuisce al codice di ScratchAddons. Inoltre il Web Store di Chrome e chi si occupa degli Add-on di Firefox e di Microsoft Edge verificano ogni nuova versione prima che venga pubblicata nei loro store.
+Si. ScratchAddon non dovrebbe avere nessun problema di sicurezza nella sua versione più recente. ScratchAddons è un progetto opensource, quindi il codice è constantemente verificato da chi contribuisce al codice di ScratchAddons. Inoltre il Web Store di Chrome e chi si occupa degli Add-on di Firefox e di Microsoft Edge verificano ogni nuova versione prima che venga pubblicata nei loro store.
 
 ### Come posso segnalare una vulnerabilità?
 
