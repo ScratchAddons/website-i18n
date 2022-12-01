@@ -56,7 +56,7 @@ jobs:
 
       - name: Invoke workflow
         # if: ${{ ! steps.script.outputs.commitSkipped }}
-        uses: benc-uk/workflow-dispatch@v121
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment
           repo: ScratchAddons/website-v2

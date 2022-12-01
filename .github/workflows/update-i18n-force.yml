@@ -59,7 +59,7 @@ jobs:
           private_key: ${{ secrets.BOT_PRIVATE_KEY }}
       - name: Invoke workflow
         if: steps.script.outputs.has_new_commit == 'true'
-        uses: benc-uk/workflow-dispatch@v121
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Site Deployment
           repo: ScratchAddons/website-v2
