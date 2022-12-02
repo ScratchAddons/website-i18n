@@ -4,7 +4,7 @@ title: Installazione
 
 ## Dagli store di estensioni
 
-ScratchAddons è disponibile in questi store.
+Scratch Addons è disponibile in questi store.
 
 | Store | Installa | Browser supportati | Requisiti di sistema |
 | - | - | - | - |
@@ -16,30 +16,30 @@ ScratchAddons è disponibile in questi store.
 
 ### Info sulle release GitHub
 
-[La pagina delle release](https://github.com/ScratchAddons/ScratchAddons/releases) contiene il codice e i file per l'installazione di tutti i build di ScratchAddons, nonché il mirror dei build presenti negli store.
+[La pagina delle release](https://github.com/ScratchAddons/ScratchAddons/releases) contiene il codice e i file per l'installazione di tutti i build di Scratch Addons, nonché il mirror dei build presenti negli store.
 
 ### Clonare il repository
 
-Questo è il modo raccomandato di installare ScratchAddons per scopi di sviluppo. Assume che tu abbia già installato Git.
+Questo è il modo raccomandato di installare Scratch Addons per scopi di sviluppo. Assume che tu abbia già installato Git.
 
 Per scaricare il repository basta clonare `https://github.com/ScratchAddons/ScratchAddons.git`.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-Per aggiornare ScratchAddons, fai `cd` nella sua cartella e poi esegui i comandi seguenti.
+Per aggiornare Scratch Addons, fai `cd` nella sua cartella e poi esegui i comandi seguenti.
 
 ```sh
 $ git fetch
 $ git pull
 ```
 
-Questo aggiornerà ScratchAddons e lo preparerà per le successive modifiche al codice. Nota che se stai usando Google Chrome dovrai consultare la sezione per il completamento dell'aggiornamento che trovi [qui](#install-on-google-chrome).
+Questo aggiornerà Scratch Addons e lo preparerà per le successive modifiche al codice. Nota che se stai usando Google Chrome dovrai consultare la sezione per il completamento dell'aggiornamento che trovi [qui](#install-on-google-chrome).
 
 
 ### Scaricamento del file zip
 
-Se non hai installato Git puoi provare questo metodo alternativo. Nota che dovrai ripetere manualmente questo processo ogni volta che vuoi aggiornare ScratchAddons.
+Se non hai installato Git puoi provare questo metodo alternativo. Nota che dovrai ripetere manualmente questo processo ogni volta che vuoi aggiornare Scratch Addons.
 
 1. Vai al [repository](https://github.com/ScratchAddons/ScratchAddons) e localizza il pulsante per lo scaricamento del codice.
 
@@ -86,5 +86,5 @@ Per completare l'aggiornamento (assumendo che tu abbia seguito i passi di aggior
 6. Seleziona il file manifest.json nella cartella che hai estratto.
 7. L'estensione dovrebbe essere ora caricata.
 
-Nota: gli add-ons temporanei di Firefox sono effettivamente temporanei. Quando si riavvia Firefox vengono rimossi, quindi se hai bisogno di usare ogni volta la versione di sviluppo degli ScratchAddons ti suggeriamo di usare un browser basato su Chromium come ad esempio Google Chrome.
+Nota: gli add-ons temporanei di Firefox sono effettivamente temporanei. Quando si riavvia Firefox vengono rimossi, quindi se hai bisogno di usare ogni volta la versione di sviluppo degli Scratch Addons ti suggeriamo di usare un browser basato su Chromium come ad esempio Google Chrome.
 

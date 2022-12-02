@@ -6,7 +6,7 @@ description: Gli userscript ti permettono di eseguire del codice all'interno del
 Gli userscript ti permettono di eseguire del codice all'interno delle pagine di Scratch - puoi aggiungere pulsanti, migliorare l'editor di Scratch e fare tutto quello che ti viene in mente.
 
 ## Come si fa ad aggiungere uno userscript?
-**Assicurati di aggiornare ScratchAddons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
+**Assicurati di aggiornare Scratch Addons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
 Vai al manifest del tuo addon (addon.json) e aggiungi una proprietà chiamata `"userscripts"`.  
 Questa proprietà deve essere un array.  
 Ogni elemento dell'array deve avere le seguenti proprietà: `"url"` e `"matches"`.  

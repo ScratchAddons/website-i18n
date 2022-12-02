@@ -6,7 +6,7 @@ description: Gli userstyle permettono di aggiungere dei CSS nel sito di Scratch 
 Gli userstyle permettono di aggiungere dei CSS nel sito di Scratch website - utile per rendere colorati i pulsanti che aggiunti con i tuoi userscript o per personalizzare elementi nativi di Scratch.
 
 ## Come si fa ad aggiungere uno userstyle?
-**Assicurati di aggiornare ScratchAddons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
+**Assicurati di aggiornare Scratch Addons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  
 Vai al manifest del tuo addon (addon.json) e aggiungi una proprietà chiamata `userstyles"`.  
 Questa proprietà deve essere un array.  
 Ogni elemento dell'array deve avere le seguenti proprietà: `"url"` e `"matches"`.  
@@ -33,6 +33,6 @@ Esempio di manifest:
 ```
 
 ## Debug degli userstyle
-**Assicurati di aggiornare ScratchAddons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.** 
+**Assicurati di aggiornare Scratch Addons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.** 
 Se vedi che i tuoi userstyle non funzionano assicurati che il tuo addon sia abilitato. 
 Se riscontri ancora problemi, crea una segnalazione in questo repository.

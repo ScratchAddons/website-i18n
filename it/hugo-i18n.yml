@@ -1,6 +1,5 @@
 Global:
-  ScratchAddons: ScratchAddons
-  LogoAlt: Logo degli ScratchAddons
+  LogoAlt: Logo degli Scratch Addons
   Install: Installa
   InstallBrowser:
     Firefox: Installa su Firefox
@@ -46,15 +45,15 @@ Footer:
     Repository: Archivio
     Documentation: Documentazione
   Legal:
-    Copyright: "{{ .Copyleft }} {{ .Year }} Collaboratori di ScratchAddons"
-    NoAffiliation: ScratchAddons non è affiliato, associato o connesso ufficialmente in alcun modo con il sito di Scratch o l'organizzazione che lo gestisce.
-    License: ScratchAddons è concesso in licenza secondo i termini della GNU General Public License v3.0.
+    Copyright: "{{ .Copyleft }} {{ .Year }} Collaboratori di Scratch Addons"
+    NoAffiliation: Scratch Addons non è affiliato, associato o connesso ufficialmente in alcun modo con il sito di Scratch o l'organizzazione che lo gestisce.
+    License: Scratch Addons è concesso in licenza secondo i termini della GNU General Public License v3.0.
   Intro: Al momento {{ .Version }} con {{ .AddonCount }} addon.
 DarkTheme:
   Title: Clicca per passare al tema scuro.
   Label: Passaggio a tema scuro
 Docs:
-  SectionSiteName: Documentazione di ScratchAddons
+  SectionSiteName: Documentazione di Scratch Addons
   DocsNav: Navigazione documentazione
   DocsNavToggleLabel: Mostra/nascondi barra di navigazione della documentazione
   TOC: Tavola dei contenuti
@@ -68,7 +67,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Tutto in una sola estensione per Scratch
-    Description: ScratchAddons è un'estensione del browser che rende disponibili nuove funzionalità e nuovi temi per il sito web e l'editor di progetti di Scratch. L'obiettivo è quello di raccogliere, archiviare e rendere disponibili gli userstyle e gli userscript sviluppati da membri della comunità di  Scratch.
+    Description: Scratch Addons è un'estensione del browser che rende disponibili nuove funzionalità e nuovi temi per il sito web e l'editor di progetti di Scratch. L'obiettivo è quello di raccogliere, archiviare e rendere disponibili gli userstyle e gli userscript sviluppati da membri della comunità di  Scratch.
     InstallButton:
       Loading: Caricamento in corso...
       Description: gratis, open source
@@ -90,10 +89,10 @@ IndexPage:
     AddonsHeading: Addon
     AddonsParagraph: ScratchAddons è una raccolta di addon, ossia di funzionalità che possono migliorare la tua esperienza con il sito e con l'editor di Scratch.
     CustomizableHeading: Personalizzabile
-    CustomizableParagraph: L'interfaccia di ScratchAddons è facile da usare e ti permette di controllare le impostazioni di ogni funzionalità e di ogni tema.
+    CustomizableParagraph: L'interfaccia di Scratch Addons è facile da usare e ti permette di controllare le impostazioni di ogni funzionalità e di ogni tema.
     InternationalHeading: Internazionale
-    InternationalParagraph: Non solo in Inglese. ScratchAddons è disponibile in Spagnolo, Russo, Giapponese, Francese e in molte altre lingue.
-    OSParagraph: ScratchAddons è gratuito, open source e realizzato da membri della comunità di Scratch.
+    InternationalParagraph: Non solo in Inglese. Scratch Addons è disponibile in Spagnolo, Russo, Giapponese, Francese e in molte altre lingue.
+    OSParagraph: Scratch Addons è gratuito, open source e realizzato da membri della comunità di Scratch.
   Highlights:
     Heading: Esempi
     Paragraph: Ricorda, questi sono solo alcuni esempi. {{.OpenTag1}}C'è molto di più!{{.CloseTag1}}
@@ -143,7 +142,7 @@ UnsupportedBrowserPage:
   Download: Scarica
   HowToUpdate: Come aggiornarlo
 Blog:
-  SectionSiteName: Blog di ScratchAddons
+  SectionSiteName: Blog di Scratch Addons
 CreditsPage:
   NContributors: "{{.Count}} hanno contribuito"
   NProfilePicture: "{{.Name}} immagine del profilo"
