@@ -1,6 +1,6 @@
 ---
 title: Unirsi al Team per la Localizzazione
-description: Grazie per il tuo interesse ad aggiungerti al Team di volontari che traducono Scratch Addons in altre lingue! ScratchAddosn è un progetto open source no-profit che si occupa di mantenere l'estensione e creare nuovi addon grazie a sviluppatori web volontari.
+description: Grazie per il tuo interesse ad aggiungerti al Team di volontari che traducono Scratch Addons in altre lingue! Scratch Addons è un progetto open source no-profit che si occupa di mantenere l'estensione e creare nuovi addon grazie a sviluppatori web volontari.
 ---
 
 {{< admonition info >}}

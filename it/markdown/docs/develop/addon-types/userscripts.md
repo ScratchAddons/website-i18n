@@ -88,7 +88,7 @@ export default async function ({ addon, global, console }) {
 - `console`: questo wrapper ti permette di vedere facilmente quale addon ha attivato il log che stai guardando.
 
 ## Debug degli userscript
-**Assicurati di aggiornare ScratchAddona alla pagina `chrome://extensions` dopo ogni cambiamento apportato al tuo addon.** 
+**Assicurati di aggiornare Scratch Addons alla pagina `chrome://extensions` dopo ogni cambiamento apportato al tuo addon.** 
 Per debuggare gli userscript assicurati prima di tutto di abilitare il tuo addon. 
 Poi vai all'URL dove il tuo userscript dovrebbe essere eseguito.
 Apri la console premendo Ctrl+Shift+J. 
