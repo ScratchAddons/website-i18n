@@ -196,10 +196,3 @@ minimum_perc = 0
 source_file = en/html-content/extension-settings.html
 source_lang = en
 type = HTML_FRAGMENT
-
-[o:scratch-addons:p:scratch-addons-website:r:html-content_install]
-file_filter = <lang>/html-content/install.html
-minimum_perc = 0
-source_file = en/html-content/install.html
-source_lang = en
-type = HTML_FRAGMENT
