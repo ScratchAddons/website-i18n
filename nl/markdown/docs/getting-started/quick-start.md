@@ -21,7 +21,7 @@ Om te beginnen moet je toegang hebben tot de instellingenpagina van de addon om 
 
 1. Ga naar Scratch Addons in de werkbalk en klik erop.
 
-   Normaal is het in de rechterbovenhoek van je browser. Voor Google Chrome-gebruikers, als je Scratch niet aan het browsen bent, moet je misschien op het puzzelpictogram klikken om de extensiepictogram te vinden.
+   Normaal is het in de rechterbovenhoek van je browser. Voor Google Chrome-gebruikers, als je Scratch niet aan het browsen bent, moet je misschien op het puzzelpictogram klikken om het extensiepictogram te vinden.
 
    ![](/assets/img/getting-started/step-1.png)
 

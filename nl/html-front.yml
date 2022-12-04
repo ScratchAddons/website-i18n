@@ -17,9 +17,9 @@ feedback.html:
   description: Geef feedback aan Scratch Addons-ontwikkelaars.
 scratch-messaging-transition.html:
   title: Extensie-Update (Transitie)
-  description: Scratch Messaging Extension (door griffpatch) is geüpdatet en heet nu Scratch Addons. Klik op de Scratch Addons-icoon in de extensiebalk om de nieuwe verbeterde berichtensamenvatting te bekijken!
+  description: Scratch Messaging Extension (door griffpatch) is geüpdatet en heet nu Scratch Addons. Klik op het pictogram van Scratch Addons in de extensiebalk om de nieuwe verbeterde berichtensamenvatting te bekijken!
 unsupported-browser.html:
-  title: Niet-ondersteunde Browser
+  title: Niet-Ondersteunde Browser
   description: Scratch Addons heeft geen ondersteuning voor je browser.
 welcome.html:
   title: Welkom!

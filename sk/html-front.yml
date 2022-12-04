@@ -1,0 +1,8 @@
+addons.html:
+  title: Doplnky
+  description: Táto stránka obsahuje zoznam všetkých doplnkov ktoré sú implementované v Scratch Addons.
+changelog.html:
+  title: Zoznam zmien
+  description: Všetky výrazné zmeny na tomto projekte budú dokumentované na tejto stránke.
+credits.html:
+  title: Kredity

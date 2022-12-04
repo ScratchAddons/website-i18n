@@ -44,10 +44,10 @@ Footer:
     Copyright: "{{ .Copyleft }} {{ .Year }} Bijdragers van Scratch Addons"
     NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met de Scratch-website of de organisaties die het onderhouden.
     License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
-  Intro: Op dit moment {{ .Version }} met {{ .AddonCount }} addons.
+  Intro: Huidige versie is {{ .Version }} met {{ .AddonCount }} addons.
 DarkTheme:
   Title: Klik om het donkere thema te wisselen.
-  Label: Donker themaschakelaar
+  Label: Schakelaar voor donker thema
 Docs:
   SectionSiteName: Scratch Addons-Documentatie
   DocsNav: Documentatienavigatie
