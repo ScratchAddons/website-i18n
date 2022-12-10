@@ -17,6 +17,7 @@ infra: Infrastruktuuri
 maintenance: Kunnossapito
 mentoring: Mentorointi
 platform: Pakkaus
+plugin: Plugin/Utility-kirjastot
 projectManagement: Projektinhallinta
 question: Kysymyksiin vastaaja
 security: Turvallisuus
