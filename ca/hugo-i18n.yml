@@ -17,7 +17,6 @@ Global:
     Last: Anar al darrer
     SlideX: Anar al item {{ .Count }}
 Links:
-  Addons: ºAddons
   Credits: Crèdits
   PrivacyPolicy: Política de privacitat
   DiscordCom: Discord de la comunitat
@@ -80,8 +79,7 @@ IndexPage:
         ImgAlt: Demostració ({{.Count}})
   Features:
     Heading: Característiques
-    AddonsHeading: ºAddons
-    AddonsParagraph: Scratch Addons consisteixen en Addons, que són funcions que poden millorar el vostre web i experiència de l'editor del Scratch.
+    AddonsParagraph: Scratch Addons està format per diversos Addons, que són funcions que poden millorar el vostre web i experiència de l'editor del Scratch.
     CustomizableHeading: Personalitzable
     CustomizableParagraph: Scratch Addons té una UI fàcil d'utilitzar per controlar diverses opcions de cada funció i tema.
     InternationalHeading: Internacional
