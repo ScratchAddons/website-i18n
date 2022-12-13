@@ -1,5 +1,8 @@
 addons.html:
   title: Lisäosat
   description: Tällä sivulla luetellaan kaikki lisäosat, jotka on toteutettu Scratch-lisäosissa.
+changelog.html:
+  title: Muutosloki
+  description: Kaikki merkittävät muutokset tähän projektiin dokumentoidaan tällä sivulla.
 credits.html:
   title: Tekijät
