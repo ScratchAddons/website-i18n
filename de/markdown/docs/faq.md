@@ -5,13 +5,13 @@ description: Diese Seite listet häufig gestellte Fragen über Scratch Addons au
 
 Diese Seite listet häufig gestellte Fragen über Scratch Addons auf.
 
-## General questions
+## Allgemeine Fragen
 
 ### Was ist Scratch Addons?
 
 Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website und den Projekteditor. Es bietet Funktionen und Designs (intern Addons genannt) sowohl für die Scratch-Website als auch für den Projektideditor. Die Mission von Scratch Addons besteht darin, alle vorhandenen Scratch-Erweiterungen, Userscripts und Userstyles, die von mehreren Mitgliedern der Scratch-Community entwickelt wurden, in einem einzigen, leicht zugänglichen Ort zu kombinieren und den Benutzern weiterhin die Auswahl der zu aktivierenden Erweiterungen zu ermöglichen.
 
-### Who created Scratch Addons?
+### Wer hat Scratch Addons gemacht?
 
 Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
