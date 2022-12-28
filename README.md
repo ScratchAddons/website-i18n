@@ -1,6 +1,9 @@
 # Scratch Addons website i18n files
 
-![Localization Update workflow status](https://img.shields.io/github/workflow/status/ScratchAddons/website-i18n/Localization%20Update?label=i18n&style=flat-square) ![Source Update workflow status](https://img.shields.io/github/workflow/status/ScratchAddons/website-i18n/Source%20Update?label=source&style=flat-square) [![Website: scratchaddons.com](https://img.shields.io/badge/website-scratchaddons.com-ff7b26.svg?style=flat-square)](https://scratchaddons.com) [![License](https://img.shields.io/github/license/ScratchAddons/website-i18n?style=flat-square)](https://github.com/ScratchAddons/website-i18n/blob/master/LICENSE)
+[![Localization Update workflow status](https://img.shields.io/github/actions/workflow/status/ScratchAddons/website-i18n/update-i18n.yml?label=i18n&style=flat-square)](https://github.com/ScratchAddons/website-i18n/actions/workflows/update-i18n.yml)
+[![Source Update workflow status](https://img.shields.io/github/actions/workflow/status/ScratchAddons/website-i18n/update-source.yml?label=source&style=flat-square)](https://github.com/ScratchAddons/website-i18n/actions/workflows/update-source.yml)
+[![Website: scratchaddons.com](https://img.shields.io/badge/website-scratchaddons.com-ff7b26.svg?style=flat-square)](https://scratchaddons.com)
+[![License](https://img.shields.io/github/license/ScratchAddons/website-i18n?style=flat-square)](https://github.com/ScratchAddons/website-i18n/blob/master/LICENSE)
 
 This repository hosts the translation/localization files of the Scratch Addons website. Most of the process of updating it is autonomous.
 
