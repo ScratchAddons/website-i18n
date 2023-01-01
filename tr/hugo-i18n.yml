@@ -58,8 +58,6 @@ Docs:
   SectionSiteName: Scratch Eklentileri Belgeleri
   DocsNav: Belgelerde gezinme
   DocsNavToggleLabel: Belge gezinme çubuğunu göster/gizle
-  TOC: İçindekiler
-  TOCToggleLabel: İçindekiler çubuğunu göster/gizle
   LastUpdated: "{{.Commit}} önerisi, en son {{.Date}} tarihinde {{.Name}} tarafından değiştirildi."
   Improve: Bu sayfayı geliştirin
   SectionPages: Bölüm Sayfaları

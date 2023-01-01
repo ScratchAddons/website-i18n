@@ -69,8 +69,6 @@ Docs:
   SectionSiteName: 스크래치 애드온 문서
   DocsNav: 문서 탐색
   DocsNavToggleLabel: 문서 측면 네비게이션 바를 켜기/끄기
-  TOC: 목차
-  TOCToggleLabel: 측면 목차 바를 켜기/끄기
   LastUpdated: "{{.Commit}} 커밋이 {{.Name}}에 의해 {{.Date}}에 업데이트됨."
   Improve: 이 페이지 개선하기
   SectionPages: 섹션 페이지

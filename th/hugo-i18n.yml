@@ -54,8 +54,6 @@ Docs:
   SectionSiteName: เอกสารเกี่ยวกับ ส่วนขยายสำหรับ scratch
   DocsNav: แถบนำทางเอกสาร
   DocsNavToggleLabel: แสดง/ซ่อนแถบนำทาง
-  TOC: สารบัญ
-  TOCToggleLabel: แสดง/ซ่อนแถบสารบัญ
   LastUpdated: อัปเดตล่าสุดวันที่ {{.Date}} โดย {{.Name}} บน commit {{.Commit}}
   Improve: ช่วยเราปรับปรุงให้หน้านี้ดีขึ้น
   SectionPages: หมวดหมู่หน้า

@@ -50,8 +50,6 @@ Docs:
   SectionSiteName: Documentação do Scratch Addons
   DocsNav: Navegação
   DocsNavToggleLabel: Ligar/desligar barra de navegação
-  TOC: Índice
-  TOCToggleLabel: Ligar/desligar barra de índice
   LastUpdated: Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}.
   Improve: Melhore essa página.
   SectionPages: Páginas de Seção

@@ -51,8 +51,6 @@ Docs:
   SectionSiteName: Documentation Scratch Addons
   DocsNav: Navigation de la documentation
   DocsNavToggleLabel: Activer la barre latérale de navigation
-  TOC: Table des matières
-  TOCToggleLabel: Activer la barre contenant la table des matières
   LastUpdated: Dernière mise-à-jour le {{.Date}} par {{.Name}} lors du commit {{.Commit}}.
   Improve: Améliorer cette page
   SectionPages: Pages de section

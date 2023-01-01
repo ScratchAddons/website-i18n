@@ -49,8 +49,6 @@ Footer:
 Docs:
   DocsNav: 文章巡覽
   DocsNavToggleLabel: 切換文章巡覽側欄
-  TOC: 目錄
-  TOCToggleLabel: 切換目錄側欄
   LastUpdated: 最後由 {{.Name}} 在 {{.Date}} 通過 {{.Commit}} 修改。
   Improve: 改善這個頁面。
   SectionPages: 章節頁面

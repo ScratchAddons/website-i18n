@@ -49,8 +49,6 @@ DarkTheme:
 Docs:
   DocsNav: Navegació de documents
   DocsNavToggleLabel: Commuta la barra lateral de navegació de documents
-  TOC: Taula de continguts
-  TOCToggleLabel: Commuta la barra lateral de la taula de continguts
   LastUpdated: Darrera actualització el {{.Date}} per {{.Name}} en commit {{.Commit}}.
   Improve: Millora aquesta pàgina.
   SectionPages: Pàgines de la secció

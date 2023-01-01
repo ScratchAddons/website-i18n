@@ -57,8 +57,6 @@ Docs:
   SectionSiteName: Dokumentacija Scratch Addons
   DocsNav: Navigacija po dokumentaciji
   DocsNavToggleLabel: Pokaži/skrij stolpec za navigacijo
-  TOC: Vsebina
-  TOCToggleLabel: Pokaži/skrij stolpec s kazalom vsebine
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
   SectionPages: Strani v tem razdelku

@@ -57,8 +57,6 @@ Docs:
   SectionSiteName: 説明文書
   DocsNav: ナビゲーション
   DocsNavToggleLabel: ナビゲーションサイドバーを切り替える
-  TOC: 目次
-  TOCToggleLabel: 目次サイドバーを切り替える
   LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
   Improve: ページを改善する
   SectionPages: 目次

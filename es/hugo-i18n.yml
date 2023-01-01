@@ -55,8 +55,6 @@ Docs:
   SectionSiteName: Docs de Scratch Addons
   DocsNav: Navegación de docs
   DocsNavToggleLabel: Activar o desactivar barra lateral de navegación
-  TOC: Tabla de contenidos
-  TOCToggleLabel: Activar o desactivar barra lateral de tabla de contenidos
   LastUpdated: Actualizado por última vez el {{.Date}} por {{.Name}} en commit {{.Commit}}.
   Improve: Mejorar esta página.
   SectionPages: Páginas de Sección

@@ -36,8 +36,6 @@ Docs:
   SectionSiteName: Tài liệu Scratch Addons
   DocsNav: Chuyển hướng tới tài liệu
   DocsNavToggleLabel: Chuyển đổi thanh tài liệu bên
-  TOC: Mục lục
-  TOCToggleLabel: Chuyển đổi thanh mục lục bên
   LastUpdated: Lần cập nhật cuối lúc {{.Date}} bởi {{.Name}} trên cam kết {{.Commit}}.
   Improve: Cải thiện trang web
   SectionPages: Phần của các trang

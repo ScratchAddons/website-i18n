@@ -49,8 +49,6 @@ Docs:
   SectionSiteName: Dokumentacja Dodatków Scratch
   DocsNav: Nawigacja po dokumentacji
   DocsNavToggleLabel: Przełącz pasek boczny dokumentacji
-  TOC: Spis treści
-  TOCToggleLabel: Przełącz pasek boczny spisu treści
   LastUpdated: Ostatni raz aktulizowane {{.Date}}przez {{.Name}}w zmianie {{.Commit}}.
   Improve: Ulepsz tą stronę.
   SectionPages: Sekcje Strony

@@ -41,8 +41,6 @@ Docs:
   SectionSiteName: Scratch Addons 文章
   DocsNav: 文章导航
   DocsNavToggleLabel: 切换导航工具栏
-  TOC: 目录
-  TOCToggleLabel: 切换目录工具栏
   LastUpdated: 最后于{{.Name}}在{{.Date}}通过{{.Commit}}更改。
   Improve: 编辑页面
 PlayerModal:

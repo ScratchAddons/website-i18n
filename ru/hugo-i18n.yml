@@ -58,8 +58,6 @@ Docs:
   SectionSiteName: Документация Scratch Addons
   DocsNav: Навигация документации
   DocsNavToggleLabel: Переключить навигационную панель документации
-  TOC: Содержание
-  TOCToggleLabel: Переключить таблицу контента панели
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
   SectionPages: Содержание
