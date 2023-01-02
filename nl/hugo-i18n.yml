@@ -52,6 +52,8 @@ Docs:
   SectionSiteName: Scratch Addons-Documentatie
   DocsNav: Documentatienavigatie
   DocsNavToggleLabel: Documentatie-navigatievenster wisselen
+  TOC: Inhoudsopgave
+  TOCToggleLabel: Inhoudsopgavedropdown wisselen
   LastUpdated: Laatst bijgewerkt op {{.Date}} door {{.Name}} op commit {{.Commit}}.
   Improve: Verbeter deze pagina.
   SectionPages: Sectiepagina's
