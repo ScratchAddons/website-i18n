@@ -51,6 +51,8 @@ Docs:
   SectionSiteName: Documentation Scratch Addons
   DocsNav: Navigation de la documentation
   DocsNavToggleLabel: Activer la barre latérale de navigation
+  TOC: Table des matières
+  TOCToggleLabel: Activer la table des matières déroulante.
   LastUpdated: Dernière mise-à-jour le {{.Date}} par {{.Name}} lors du commit {{.Commit}}.
   Improve: Améliorer cette page
   SectionPages: Pages de section
@@ -98,7 +100,7 @@ AddonsPage:
   EasterEggAddon: Cet addon est un easer egg.
   RecommendedAddon: Cet addon est recommandé.
   FeaturedAddon: C'est un addon recommandé.
-  BetaAddon: C'est un addon en beta.
+  BetaAddon: C'est un addon en bêta.
   ListViewLabel: Affichage en mode liste
   EasterEggTooltip:
     L1: Pour activer les addons, entrez le code Konami (↑↑↓↓←→←→BA) sur la page des paramètres. Lisez la FAQ pour plus d'informations.
@@ -110,7 +112,7 @@ FeedbackPage:
     Success: Envoyé ! Merci du commentaire.
     Failed: Quelque chose s'est mal passé. Essayez d'envoyer à nouveau.
     Offline: Un problème est survenu sur le serveur de commentaires. Revenez plus tard, ou utilisez les alternatives mentionnées.
-  NoAddonsList: La liste n'est pas disponible pour être envoyée. Essayez d'ouvrir cet page en utilisant l'extension.
+  NoAddonsList: La liste n'est pas disponible pour être envoyée. Essayez d'ouvrir cette page en utilisant l'extension.
   UsernameLabel: Nom d'utilisateur Scratch ou autres identifiants (optionnel)
   ContentLabel: Commentaire
   ContentPlaceholder: Merci de donner autant de détails que possible.
