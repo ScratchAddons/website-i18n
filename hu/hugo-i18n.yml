@@ -56,6 +56,8 @@ Docs:
   SectionSiteName: Scratch Addons Dokumentáció
   DocsNav: Dokumentumnavigáció
   DocsNavToggleLabel: Navigációs mező elrejtése/megjelenítése
+  TOC: Tartalom
+  TOCToggleLabel: A legördülő-menüs tartalomjegyzék ki-be kapcsolása
   LastUpdated: "Utoljára frissítve ekkor: {{.Date}} {{.Name}} által ({{.Commit}})"
   Improve: Javítsa ezt az oldalt.
   SectionPages: Szekció Oldalak
