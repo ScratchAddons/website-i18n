@@ -4,32 +4,53 @@
 		"name": "二維選色器",
 		"description": "用二維選色器取代編輯器中的彩度與亮度控制桿。在拖曳游標的同時按住 Shift 鍵可以只調整直向或橫向的值。",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "60fps",
 		"name": "60 幀率顯示模式",
 		"description": "點擊綠旗時同時按住 Alt 鍵就能切換成 60 幀率的模式。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "原來的播放幀率為 30 FPS。60 幀率的動畫過程會較清晰。",
+				"id": "projectRunsFasterNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "account-settings-capitalize",
 		"name": "用戶設置大寫（僅英文介面可用）",
 		"description": "將帳戶選單中的 Account settings 變成 Account Settings。",
-		"tags": ["easterEgg", "community"]
+		"tags": ["easterEgg", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "animated-thumb",
 		"name": "專案縮圖設定",
 		"description": "在專案頁面添加一個設定縮圖的按鈕，讓你可以指定專案的縮圖是什麼（也可以是 GIF 動畫格式）。",
-		"tags": ["community", "projectPage", "recommended"]
+		"tags": ["community", "projectPage", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "better-emojis",
@@ -39,14 +60,19 @@
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
 			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "better-featured-project",
 		"name": "個人資訊頁面的橫幅",
 		"description": "將個人資訊頁面上的特色專案橫幅移到頂部並改成全寬，其它區塊放置到下面並排顯示。",
 		"tags": ["community", "featured", "profiles"],
-		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "better-img-uploads",
@@ -64,7 +90,17 @@
 				"name": "SheepTester",
 				"link": "https://scratch.mit.edu/users/Sheep_maker/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "如果你在上傳圖片還需要編輯，請不要使用高清圖片上傳功能。",
+				"id": "notSuitableEdit"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "better-quoter",
@@ -80,13 +116,34 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "這個 BBCode 可能無法 100% 準確，如果要精確的引用內容，建議還是先引用全文然後刪除你不要的部分。",
+				"id": "scratchblocks_notice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "bitmap-copy",
 		"name": "點陣圖像複製功能",
 		"description": "允許你直接複製繪圖編輯器上的點陣圖，然後貼到其它的網站或是軟體上。",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"info": [
+			{
+				"type": "notice",
+				"text": "不支援「滑鼠右鍵 → 複製」的方式，請使用 Ctrl + C 的快速鍵。",
+				"id": "norightclick"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "block-cherry-picking",
@@ -99,7 +156,21 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"text": "在 macOS 上，用 Cmd 鍵代替 Ctrl 鍵。",
+				"id": "macContextDisabled"
+			},
+			{
+				"text": "如果啟用「功能反轉」，那麼拖曳單個積木就會變成預設動作，按住 Ctrl 則會變成拖曳整個程式區塊。",
+				"id": "flipControls"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "block-count",
@@ -111,14 +182,27 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "block-duplicate",
 		"name": "按住 Alt 鍵以複製積木",
 		"description": "透過按住 Alt 按鍵與拖曳程式積木，能讓你更快的複製整個程式區塊。加上 Ctrl 鍵則可以複製出你停駐的單個積木。",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "macOS 上使用 Option 按鍵代替 Alt 鍵，Command 鍵取代 Ctrl 鍵。",
+				"id": "mac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "block-palette-icons",
@@ -131,7 +215,11 @@
 				"link": "https://github.com/explosion-scratch"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "block-switching",
@@ -144,7 +232,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "blocks2image",
@@ -153,7 +246,11 @@
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "cat-blocks",
@@ -166,7 +263,17 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "“觀察鼠標光標”設置可能會影響編輯器打開時的性能。",
+				"id": "watch"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "clones",
@@ -176,14 +283,38 @@
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["showicononly"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "cloud-games",
 		"name": "雲端變數遊戲",
 		"description": "點擊 Scratch Addons 圖示時有用。這會顯示當前有哪些用戶在玩這個多人專案。",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"info": [
+			{
+				"id": "howtoadd",
+				"text": "你可以在專案或創作坊頁面上時，點擊瀏覽器上的 Scratch Addons 圖示，利用「添加這個專案/創作坊」按鈕來自訂遊戲清單。"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.1.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"newSettings": ["displayedGames"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "color-inputs",
@@ -195,7 +326,8 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "color-picker",
@@ -208,7 +340,12 @@
 				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
 			},
 			{ "name": "apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "columns",
@@ -217,7 +354,10 @@
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "comments-linebreaks",
@@ -229,7 +369,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"id": "ownLineBreaks"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"newSettings": ["scrollbars", "height"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "compact-messages",
@@ -241,7 +396,12 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "confirm-actions",
@@ -253,7 +413,12 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -262,7 +427,11 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -272,7 +441,17 @@
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"text": "在 macOS 上，用 Cmd 鍵代替 Ctrl 鍵。",
+				"id": "macContextDisabled"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "ctrl-enter-post",
@@ -281,7 +460,12 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"info": [{ "text": "在 macOS 上你要改用 Cmd 按鍵。", "id": "macOS" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "curator-link",
@@ -293,7 +477,11 @@
 				"name": "Hans5958",
 				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "custom-block-shape",
@@ -313,7 +501,18 @@
 				"name": "GarboMuffin",
 				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "這些設置的效果只有你才看得到，如果是其它使用者觀看你的程式時，可能會有程式重疊的問題。",
+				"id": "paddingWarning"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "custom-block-text",
@@ -323,7 +522,12 @@
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -335,14 +539,22 @@
 				"name": "ErrorGamer2000",
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "customize-avatar-border",
 		"name": "自訂評論區旁個人頭像的邊框",
 		"description": "你可以隱藏或修改專案或創作坊下評論區的個人頭像外框線。",
 		"tags": ["community", "theme"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "dango-rain",
@@ -362,7 +574,16 @@
 				"name": "griffpatch",
 				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "只有使用 Scratch Addons 並啟用時才能看到糰子雨。",
+				"id": "OnlyScratchAddonsUsers"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "dark-www",
@@ -382,37 +603,69 @@
 				"id": "darkwww",
 				"link": "https://github.com/gducrash"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "更好的資料分類",
 		"description": "讓積木類別中的資料（變量、清單）有更好的分類。",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "debugger",
 		"name": "偵錯器",
 		"description": "在編輯器上添加一個「偵錯器」面板。能利用「紀錄」、「警告」、「錯誤」三個程式積木來調試。並用「中斷點」積木來暫停專案。可以在偵錯器的執行緒頁面查看正在運行的情形，暫停時可以用「步進」執行下個積木程式。另外還有效能頁面查看每秒幀數與當前分身數量。",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			},
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
-		]
+		],
+		"enabledByDefault": false,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.16.0",
+		"latestUpdate": {
+			"version": "1.24.0",
+			"isMajor": true,
+			"temporaryNotice": "New \"Threads\" and \"Performance\" tabs in the debugger window.",
+			"newSettings": [
+				"log_clear_greenflag",
+				"log_greenflag",
+				"log_clone_create",
+				"log_failed_clone_creation",
+				"log_broadcasts",
+				"log_max_list_length",
+				"log_invalid_cloud_data"
+			]
+		}
 	},
 	{
 		"id": "default-costume-editor-color",
 		"name": "自訂造型編輯器上工具預設值",
 		"description": "變更在造型編輯器上填滿與外框的預選色彩，以及線條的預設寬度。",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.26.0"
 	},
 	{
 		"id": "default-project",
@@ -421,7 +674,8 @@
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "disable-auto-save",
@@ -433,14 +687,35 @@
 				"name": "RustingRobot",
 				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "這會取消所有專案本來的自動儲存功能。這表示你之後要有手動儲存的習慣，以避免專案遺失。",
+				"id": "manuallysave"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.8.0"
 	},
 	{
 		"id": "disable-paste-offset",
 		"name": "複製圖案時不要偏移",
 		"description": "在造型編輯器上使用複製貼上功能時，在原位置貼上，不要向右下偏移。",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "在沒有此Addon的情況下，也可以通過 Alt+click來做這件事。",
+				"id": "vanilla"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "disable-sprite-wobble",
@@ -450,7 +725,11 @@
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
 			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -463,39 +742,68 @@
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "discuss-button",
 		"name": "自訂網站導覽列",
 		"description": "自己選擇在網站導覽列上要顯示哪些項目。",
-		"tags": ["community", "featured"]
+		"tags": ["community", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["compact-nav"],
+			"isMajor": false
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "drag-drop",
 		"name": "拖曳檔案上傳",
 		"description": "讓你可以把檔案直接拖入角色面板區然後直接上傳，當然，你還能將文字文件拖曳到文字輸入框裡。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "Sheep_maker" }]
+		"credits": [{ "name": "Sheep_maker" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "echo-effect",
 		"name": "回音音效按鈕",
 		"description": "在音效編輯器上顯示之前有的回音功能按鈕。",
-		"tags": ["editor"]
+		"tags": ["editor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "editor-buttons-reverse-order",
 		"name": "對調專案控制項工具的順序",
 		"description": "在專案預覽視窗的上方有些按鈕，把右邊的綠旗與停止按鈕，與左邊的顯示模式按鈕對調顯示順序，就像 Scratch 2.0 那樣。",
-		"tags": ["editor", "projectPlayer", "theme", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "editor-colored-context-menus",
 		"name": "讓右鍵選單有顏色",
 		"description": "在程式積木上點擊右鍵會開啟選單，讓開啟的選單有和積木相同的背景顏色。",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-comment-previews",
@@ -508,7 +816,11 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "editor-dark-mode",
@@ -540,60 +852,106 @@
 				"id": "twdark",
 				"link": "https://github.com/GarboMuffin"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-devtools",
 		"name": "開發者工具",
-		"description": "添加了新的功能到選單：複製/貼上積木、比較好的整理積木…還有更多！使用 Ctrl+空白鍵（macOS 用 Shift+空白鍵）可以把「以名稱添加積木」的功能喚出。",
+		"description": "向編輯器添加新的列表選項：複製 / 貼上、更好地清理等！",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "支援額外的按鍵",
-		"description": "在「（）鍵被按下？」與「當（）鍵被按下」積木添加額外的按鈕，像是 Enter 鍵、英文句點、英文逗點…等。",
+		"name": "額外的按鈕選項",
+		"description": "添加更多的鍵到“key () pressed?” 和“按下 () 鍵時”，例如'enter'、點、逗號等。 這些鍵甚至對沒有 Scratch Addons 的用戶也有效。",
 		"tags": ["editor", "codeEditor", "beta"],
-		"credits": [
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"info": [
 			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+				"type": "notice",
+				"text": "「實驗中按鍵」包含等號、斜槓號、分號等。它們可能不適用於所有操作系統或是鍵盤佈局。",
+				"id": "experimentalKeysWarn"
+			},
+			{
+				"type": "notice",
+				"text": "「Shift 按鍵」通常是結合鍵，像是 Shift+數字鍵，像是井字符號、感嘆號等。這些按鍵僅適用於「當（）鍵被按下」積木，而且也不一定能在所有操作系統或鍵盤佈局上使用。",
+				"id": "shiftKeysWarn"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "editor-messages",
 		"name": "在編輯器上顯示訊息連結",
 		"description": "在程式頁面的工具列上也顯示訊息按鈕與訊息計數。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "可搜尋的下拉清單",
 		"description": "在積木下拉清單多了一個可搜尋的欄位。",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-sounds",
 		"name": "編輯器音效",
 		"description": "在你貼合或刪除積木的時候發出音效。",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "editor-stage-left",
 		"name": "將舞台顯示在編輯器左側",
 		"description": "將舞台區移動到編輯器畫面的左側，就像 Scratch 2.0 那樣。",
 		"tags": ["editor", "theme", "featured"],
-		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }],
+		"info": [
+			{
+				"id": "reverseOrder",
+				"text": "如果要修改專案預覽視窗上的按鈕位置，可以使用另一個擴充功能 - 「對調專案控制項工具的順序」。"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-stepping",
 		"name": "高亮執行中的程式",
 		"description": "專案運行時，以顏色高亮正在執行的程式積木。",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-theme3",
@@ -606,7 +964,18 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
+			"newSettings": ["comment-color"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-unshare-button",
@@ -615,14 +984,19 @@
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "emoji-picker",
 		"name": "評論區表情選單",
 		"description": "在網站專案評論編輯器添加一個表情插入按鈕。",
 		"tags": ["community", "comments", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "exact-count",
@@ -636,14 +1010,22 @@
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "expanding-search-bar",
 		"name": "會展開的搜尋欄",
 		"description": "當停駐在導覽列上的搜尋欄位時，讓欄位變得寬一些。",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -655,7 +1037,11 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "find-bar",
@@ -668,7 +1054,17 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "這個擴充功能之前是在「開發工具」裡，現在移至這兒了！",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -681,7 +1077,17 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"newSettings": ["leash", "straighten"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fix-pasted-scripts",
@@ -692,34 +1098,59 @@
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG 圖片上傳修復",
 		"description": "修復 Scratch 編輯器上的已知問題，如果上傳的是由 Affinity Designer 之類的圖像軟體製作的 SVG，圖像會損壞。",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "folders",
 		"name": "角色資料夾",
 		"description": "將文件夾添加到角色面板，造型和音效清單上也可以。要創建資料夾，請在任何物件上點擊右鍵，使用選單中「創建資料夾」功能。建立後，點擊資料夾可以開啟或是關閉它。在其它物件上點右鍵可以指定放進哪個資料夾，也可以用拖曳的方式。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"type": "notice",
+				"text": "啟用這個功能後，只有你自己看得到資料夾，其他用戶是看不到的。",
+				"id": "notice-folders-are-public"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "forum-copy-code",
 		"name": "討論區複製代碼按鈕",
 		"description": "在討論發文時如果有代碼，在代碼上方添加「複製代碼」按鈕，以便將內容複製到剪貼簿裡。",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "forum-id",
 		"name": "帶樓層引用",
 		"description": "點擊「帶樓層引用」按鈕以引用一個帶直達樓層的連結到你的發文裡。",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": { "version": "1.23.0", "newSettings": ["auto_add"] }
 	},
 	{
 		"id": "forum-live-preview",
@@ -731,7 +1162,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -741,20 +1175,33 @@
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
 			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "forum-search",
 		"name": "討論區搜尋",
 		"description": "在討論區添加一個搜尋欄位，資料來自 ScratchDB。",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "forum-time-zones",
 		"name": "本地化討論區時間",
 		"description": "使用本地時區來顯示討論區上發文的日期和時間。",
-		"tags": ["forums", "community"]
+		"tags": ["forums", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -768,7 +1215,10 @@
 				"id": "icons",
 				"link": "http://www.famfamfam.com/lab/icons/silk/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "full-signature",
@@ -783,7 +1233,12 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fullscreen",
@@ -792,14 +1247,30 @@
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "如果你啟用全屏時隱藏工具列，你可以用 ESC 鍵來退出全屏模式。",
+				"id": "hideToolbarNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "gamepad",
 		"name": "遊戲手柄支持",
 		"description": "用 USB 或藍芽控制器（遊戲手柄）與專案互動。",
 		"tags": ["editor", "projectPlayer", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "hi-res-thumbnails",
@@ -808,13 +1279,28 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "如果你的流量有限，請注意高解析度的圖像下載會消耗更多的流量。",
+				"id": "imagefilesize"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "hide-delete-button",
 		"name": "隱藏刪除按鈕",
 		"description": "隱藏角色、造型、音效上的刪除按鈕（垃圾桶圖示）。如果要刪除，要在項目上點擊滑鼠右鍵，使用選單上的刪除功能。",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-flyout",
@@ -830,14 +1316,31 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "「懸停在工具箱上」模式可能會在你拖曳編輯區上的積木時不小心移除，如果你怕出事，可以先試試其它模式。",
+				"id": "hoverExplanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"temporaryNotice": "This addon was revised and many bugs were fixed.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "hide-new-variables",
 		"name": "隱藏新的變數面板",
 		"description": "建立新的變數後，不要自動在舞台上顯示變數面板（清單也適用）。",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "hide-project-stats",
@@ -853,7 +1356,18 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The padding between statistics has been fixed, there is now an option to show statistics on your own projects, and the My Stuff page is now supported.",
+			"newSettings": ["comments", "showOwnStats", "myStuff", "studios"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-signatures",
@@ -862,7 +1376,11 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "hide-stage",
@@ -874,33 +1392,47 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
 		"name": "橫向顯示「我的東西」的頁籤",
-		"description": "在我的東西頁面上，有一些分類頁籤，像是「全部的專案」、「分享的專案」……「回收桶」，預設是直向顯示，把它們移動到頁面頂部並以橫向顯示。",
+		"description": "在我的東西頁面上，有一些分類頁籤，(「全部的專案」、「分享的專案」……「回收桶」)，預設是直向顯示，把它們移動到頁面頂部並以橫向顯示。",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "image-uploader",
 		"name": "討論區圖片上傳功能",
 		"description": "在討論區的發文編輯器上添加一個按鈕，讓你能直接上傳並插入圖片。",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["spark-md5", "text-field-edit"],
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
 		"name": "無限捲動",
 		"description": "讓 Scratch 頁面不用透過「讀取更多」按鈕來觀看之後的內容。",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -912,7 +1444,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["duplicate"] }
 	},
 	{
 		"id": "items-per-row",
@@ -924,14 +1461,29 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "jump-to-def",
 		"name": "移至函式定義積木",
 		"description": "讓你能用滑鼠中鍵或是 Shift+左鍵來快速找到函式的定義。",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"info": [
+			{
+				"text": "這個擴充功能之前是在「開發工具」裡，現在移至這兒了！",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "last-edit-tooltip",
@@ -944,7 +1496,11 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "live-featured-project",
@@ -959,20 +1515,29 @@
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
 			{ "name": "Hans5958", "note": "remake", "id": "remake" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "load-extensions",
 		"name": "自動添加擴展應用",
 		"description": "在新建專案時自動添加音樂、畫筆或其它的擴展到編輯器上。",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "longer-wiwo",
 		"name": "提高「我的工作」的字數上限",
 		"description": "在個人資訊頁面上，允許你在「我的工作」欄位再多輸入 55 個字。每個人都可以看到這些額外的文字。",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -990,13 +1555,19 @@
 				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "mediarecorder",
 		"name": "專案視頻錄製",
 		"description": "在程式編輯頁上的工具列添加一個「開始錄影」的功能，讓你可以將專案運行的過程錄製下來。",
-		"tags": ["editor", "editorMenuBar", "recommended"]
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"enabledByDefault": false,
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "message-filters",
@@ -1008,27 +1579,74 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "這不會更動到你的訊息數量，只是讓指定的訊息隱藏起來。",
+				"id": "nomessagecount"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
+	},
+	{
+		"id": "middle-click-popup",
+		"name": "編輯積木的名字",
+		"description": "中鍵單擊編程區域，使用 Ctrl+Space 或 Shift+Space 調出一個浮動輸入框，您可以在其中鍵入塊（或部分塊）的名稱並將塊拖到代碼區域中。 拖動時按住 Shift 鍵以避免在一次添加多個塊時關閉框。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		],
+		"info": [
+			{
+				"text": "此插件以前是“開發人員工具”插件的一部分，但已移至此處。",
+				"id": "developer-tools"
+			}
+		],
+		"enabledByDefault": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "more-links",
 		"name": "允許外部連結",
-		"description": "能夠直接點擊 scratch.mit.edu 以外的網址。",
+		"description": "使指向 scratch.mit.edu 外部的 URL 可點擊。",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "Hans5958" }]
+		"credits": [{ "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mouse-pos",
 		"name": "鼠標的座標",
 		"description": "當鼠標在舞台上移動時，顯示所停駐的座標位置。",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "move-to-top-bottom",
 		"name": "移至最上面或最下面",
 		"description": "在造型或是音效項目右鍵開啟選單時，會有移至最上面、移至最下面的選項。",
-		"tags": ["editor", "costumeEditor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"],
+		"info": [
+			{
+				"text": "這個擴充功能之前是在「開發工具」裡，現在移至這兒了！",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1042,7 +1660,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mute-project",
@@ -1054,28 +1676,60 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [{ "text": "在 macOS 上，用 Cmd 鍵代替 Ctrl 鍵。", "id": "macOS" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "my-ocular",
 		"name": "ocular 整合",
 		"description": "顯示 ocular 的狀態表和討論區發文互動項目。使用 my-ocular.jeffalo.net 來存取數據。",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.29.0", "newSettings": ["show-status"] }
 	},
 	{
 		"id": "name-backpack-items",
 		"name": "命名背包裡的程式積木",
 		"description": "在你拖曳程式到背包時，會要求你為這個程式碼命名，這樣有助於之後的辨識。",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "no-script-bumping",
 		"name": "停止自動分開重疊的程式",
 		"description": "讓你在移動或修改程式時，不會因為一時的程式重疊導致程式原來的位置被亂改變。",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "number-pad",
+		"name": "一直顯示數字鍵盤",
+		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"id": "explanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "old-studio-layout",
@@ -1087,7 +1741,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "這個設置在行動裝置或較小屏幕的裝置上無法正常運作。",
+				"id": "mobile"
+			},
+			{
+				"text": "大部分元素的尺寸沒有修改。如果你想一次看到更多的專案或是策展者，可以使用擴充功能「一次顯示更多項目」。",
+				"id": "itemsPerRow"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "one-click-studio-invites",
@@ -1096,49 +1766,88 @@
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "onion-skinning",
 		"name": "動畫描圖紙",
 		"description": "當編輯造型時，以半透明的方式顯示上一個或下一個造型，有助於製作動畫。在編輯器下方縮放控制旁有額外的控制按鈕。",
 		"tags": ["editor", "costumeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "opacity-slider",
 		"name": "透明度控制桿",
 		"description": "為造型編輯器上的揀色工具添加一個透明度控制桿。",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"info": [
+			{
+				"type": "info",
+				"text": "如果是在物件未選取，或是在點陣圖模式下，透明度控制桿會停用。",
+				"id": "bitmapModeincompleteInfo"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "paint-by-default",
 		"name": "更改「選個xx」按鈕的預設操作",
 		"description": "選個角色/選個造型/選個背景/選個音效這些大按鈕預設都是從範例庫中選擇，改成其他操作，像是畫個造型、畫個背景…",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "paint-snap",
+		"name": "Costume editor snapping",
+		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "pause",
 		"name": "編譯器暫停按鈕",
 		"description": "在點擊綠旗按鈕旁添加一個暫停的按鈕。",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "pick-colors-from-stage",
 		"name": "揀色工具能選到舞台裡的色彩",
 		"description": "允許造型或背景編輯器上的揀色工具能夠挑選舞台視窗裡的顏色。",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "progress-bar",
 		"name": "專案進度條",
 		"description": "在讀取或儲存專案時顯示目前進度。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "project-info",
@@ -1150,7 +1859,13 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.27.0", "newSettings": ["show"] },
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "project-notes-tabs",
@@ -1162,7 +1877,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "redirect-mobile-forums",
@@ -1171,7 +1888,9 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "remix-button",
@@ -1180,26 +1899,31 @@
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "remix-tree-button",
 		"name": "改編樹按鈕",
 		"description": "把之前的改編樹按鈕放回專案頁面，就放在複製連結按鈕旁邊。",
 		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
 		"name": "移除舞台邊緣圓角",
 		"description": "拿掉舞台四周的圓角修飾，讓你能看見舞台的四個角。",
 		"tags": ["editor", "theme", "projectPlayer"],
-		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			}
-		]
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
@@ -1208,18 +1932,25 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "remove-sprite-confirm",
 		"name": "角色刪除確認",
 		"description": "當你刪除專案的某個角色前，顯示一個確認的詢問視窗。",
-		"tags": ["editor", "recommended"]
+		"tags": ["editor", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "rename-broadcasts",
 		"name": "重新命名廣播訊息",
-		"description": "在廣播積木的右鍵選單添加一個「重新命名廣播訊息」的功能。",
+		"description": "添加一個選項以在boardcasts塊的下拉列表中重命名廣播消息的名字。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1227,7 +1958,10 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1239,14 +1973,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratch-messaging",
 		"name": "Scratch 的訊息",
 		"description": "當你點擊 Scratch Addons 的圖示，會提供你便於閱讀與回應的 Scratch 訊息：專案的群組訊息，顯示完整的評論上下文，允許直接回應。",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratch-notifier",
@@ -1261,7 +2004,11 @@
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratchblocks",
@@ -1275,7 +2022,17 @@
 			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "內建的發文預覽功能不支援這個擴充功能。",
+				"id": "preview_notice"
+			}
+		],
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.19.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -1287,7 +2044,12 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchstats",
@@ -1299,7 +2061,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "script-snap",
@@ -1316,7 +2082,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "search-my-stuff",
@@ -1328,14 +2098,30 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "如果你有很多專案或創作坊，搜尋會花費比較長的時間。",
+				"id": "pleaseBePatient"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["fuse"],
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "search-profile",
 		"name": "搜尋個人資訊",
 		"description": "讓你可以在搜尋某個人的用戶名稱後，造訪該用戶的個人資訊頁面。",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "search-sprites",
@@ -1348,14 +2134,22 @@
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "semicolon",
 		"name": "分號故障",
 		"description": "把 Scratch 的分號故障帶回來。",
 		"tags": ["community", "easterEgg"],
-		"credits": [{ "name": "GrahamSH" }]
+		"credits": [{ "name": "GrahamSH" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "show-bbcode",
@@ -1367,7 +2161,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "sounds-duration",
@@ -1379,7 +2176,21 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.26.0"
+	},
+	{
+		"id": "sprite-properties",
+		"name": "Collapsing sprite properties",
+		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"tags": ["editor", "recommended"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "studio-followers",
@@ -1392,7 +2203,11 @@
 				"link": "https://scratch.mit.edu/users/9gr/"
 			},
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "studio-tools",
@@ -1405,14 +2220,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "swap-local-global",
 		"name": "在「適用於所有角色」和「僅適用當前角色」之間轉換",
 		"description": "在本來的重新命名變數或清單的面板上添加了更多功能：在「適用於所有角色」和「僅適用當前角色」之間轉換。也可以用滑鼠右鍵點擊變數，在功能表中直接轉換。",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "transparent-orphans",
@@ -1425,14 +2248,21 @@
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "true-youtube-links",
 		"name": "討論區上真實的 Youtube 連結",
 		"description": "取代討論區使用的嵌入 Youtube 的語法，直接顯示其連結。",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "HTML-Fan/NT" }]
+		"credits": [{ "name": "HTML-Fan/NT" }],
+		"dynamicEnable": true,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "turbowarp-player",
@@ -1444,7 +2274,20 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "「直接替換編譯器」模式，會將 Scratch 原來嵌入的編譯器改成 TurboWarp，這個功能不支援程式頁面上的編譯器。",
+				"id": "addonsWontWork"
+			},
+			{
+				"type": "notice",
+				"text": "TurboWarp 有不同的雲端伺服器。「直接替換編譯器」會發送你的用戶名稱信息以便使用雲端服務。",
+				"id": "cloudData"
+			}
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "tutorials-button",
@@ -1456,7 +2299,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",
@@ -1468,14 +2315,26 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "variable-manager",
 		"name": "變數管理器",
 		"description": "在編輯器的音效頁籤右側添加一個變量與清單的頁籤，讓你更方便的管理它們。",
 		"tags": ["editor", "featured"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"temporaryNotice": "List items can now be inserted without holding the Shift key."
+		}
 	},
 	{
 		"id": "vol-slider",
@@ -1483,8 +2342,12 @@
 		"description": "在綠旗控制項旁添加一個可以調整音量的控制桿。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
-		]
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "GarboMuffin" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "youtube-fullscreen",
@@ -1496,7 +2359,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": false,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "zebra-striping",
@@ -1510,6 +2377,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	}
 ]

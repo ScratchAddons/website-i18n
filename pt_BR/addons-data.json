@@ -4,32 +4,53 @@
 		"name": "Paleta de cores 2D",
 		"description": "Troca os sliders de saturação e brilho por um seletor de cor 2D. Segure Shift enquanto arrasta o cursor para mudar valores em apenas uma direção.",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "60fps",
 		"name": "Modo 60FPS do player",
 		"description": "Faça Alt+Click na bandeira verde para ligar ou desligar o modo 60FPS.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Projetos rodarão duas vezes mais rápido a 60FPS, porque eles normalmente rodam a 30FPS.",
+				"id": "projectRunsFasterNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "account-settings-capitalize",
 		"name": "Configurações De Conta Em Letras Maiúsculas",
 		"description": "Muda \"Configurações de conta\" no menu de conta para \"Configurações De Conta\".",
-		"tags": ["easterEgg", "community"]
+		"tags": ["easterEgg", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "animated-thumb",
 		"name": "Trocador de thumbnail",
 		"description": "Adiciona um botão ao canto inferior direito da página de projeto para trocar a thumbnail do seu projeto para qualquer imagem (incluindo gifs).",
-		"tags": ["community", "projectPage", "recommended"]
+		"tags": ["community", "projectPage", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "better-emojis",
@@ -39,14 +60,19 @@
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
 			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "better-featured-project",
 		"name": "Banner de perfil",
 		"description": "Transforma o projeto em destaque do perfil de qualquer usuário em um banner.",
 		"tags": ["community", "featured", "profiles"],
-		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "better-img-uploads",
@@ -64,7 +90,17 @@
 				"name": "SheepTester",
 				"link": "https://scratch.mit.edu/users/Sheep_maker/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Não use o botão de upload HD se você quer poder editar a imagem depois de carregá-la.",
+				"id": "notSuitableEdit"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "better-quoter",
@@ -80,13 +116,34 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "O BBCode pode não estar 100% certo. Para fazer citações exatas, clique em \"quote\" sem selecionar nada, e então delete as partes que você não precisa.",
+				"id": "scratchblocks_notice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "bitmap-copy",
 		"name": "Copiar imagens bitmap",
 		"description": "Te deixa copiar uma imagem bitmap do editor de fantasia e colar em outros sites ou programas.",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"info": [
+			{
+				"type": "notice",
+				"text": "\"Botão direito → copiar\" não funciona. Você precisa apertar Ctrl+C enquanto tiver uma imagem bitmap selecionada.",
+				"id": "norightclick"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "block-cherry-picking",
@@ -99,7 +156,21 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"text": "No macOS, use a tecla Cmd ao invés de Ctrl.",
+				"id": "macContextDisabled"
+			},
+			{
+				"text": "Se você ativar a opção \"trocar padrão\", você irá arrastar blocos individualmente por padrão. Então, segure Ctrl para arrastar uma pilha.",
+				"id": "flipControls"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "block-count",
@@ -111,14 +182,27 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "block-duplicate",
 		"name": "Duplicar script segurando Alt",
 		"description": "Duplique um script rapidamente arrastando-o enquanto segura a tecla Alt. Segure Ctrl junto para duplicar só um único bloco ao invés da pilha inteira conectada.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "No macOS, use a tecla Option ao invés de Alt e Command ao invés de Ctrl.",
+				"id": "mac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "block-palette-icons",
@@ -131,7 +215,11 @@
 				"link": "https://github.com/explosion-scratch"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "block-switching",
@@ -144,7 +232,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "blocks2image",
@@ -153,7 +246,11 @@
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "cat-blocks",
@@ -166,7 +263,17 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"id": "watch"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "clones",
@@ -176,14 +283,38 @@
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["showicononly"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "cloud-games",
 		"name": "Jogos na nuvem",
 		"description": "Disponível ao clicar no ícone do Scratch Addons. Te mostra quantos Scratchers estão jogando jogos multiplayer agora, e seus nomes de usuário.",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"info": [
+			{
+				"id": "howtoadd",
+				"text": "You can add the currently open project or studio by clicking the \"Add this project/studio\" button on the cloud games tab."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.1.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"newSettings": ["displayedGames"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "color-inputs",
@@ -195,7 +326,8 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "color-picker",
@@ -208,7 +340,12 @@
 				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
 			},
 			{ "name": "apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "columns",
@@ -217,7 +354,10 @@
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "comments-linebreaks",
@@ -229,7 +369,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"id": "ownLineBreaks"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"newSettings": ["scrollbars", "height"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "compact-messages",
@@ -241,7 +396,12 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "confirm-actions",
@@ -253,7 +413,12 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -262,7 +427,11 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -272,7 +441,17 @@
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"text": "No macOS, use a tecla Cmd ao invés de Ctrl.",
+				"id": "macContextDisabled"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "ctrl-enter-post",
@@ -281,7 +460,14 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"info": [
+			{ "text": "No macOS, você também pode usar a tecla Cmd.", "id": "macOS" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "curator-link",
@@ -293,7 +479,11 @@
 				"name": "Hans5958",
 				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "custom-block-shape",
@@ -313,7 +503,18 @@
 				"name": "GarboMuffin",
 				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Só você pode ver o tamanho customizado que você escolheu pros blocos, então quando outras pessoas verem os seus projetos, os scripts podem ficar amontoados.",
+				"id": "paddingWarning"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "custom-block-text",
@@ -323,7 +524,12 @@
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -335,14 +541,22 @@
 				"name": "ErrorGamer2000",
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "customize-avatar-border",
 		"name": "Borda customizada na foto de perfil",
 		"description": "Te deixa esconder ou mudar a borda ao redor das fotos de perfil nos comentários de estúdios e projetos.",
 		"tags": ["community", "theme"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "dango-rain",
@@ -362,7 +576,16 @@
 				"name": "griffpatch",
 				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Apenas usuários do Scratch Addons com isso ativado verão a chuva de dango.",
+				"id": "OnlyScratchAddonsUsers"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "dark-www",
@@ -382,37 +605,69 @@
 				"id": "darkwww",
 				"link": "https://github.com/gducrash"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "Melhorias na categoria Dados",
 		"description": "Adiciona melhorias na categoria de Dados (\"Variáveis\").",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "debugger",
 		"name": "Depurador",
 		"description": "Adiciona uma nova janela de \"depuração\" ao editor. Permite fazer registros à aba \"Registros\" da janela de debug usando os blocos \"log\", \"aviso\" e \"erro\". O bloco \"breakpoint\" pausará o projeto quando executado. Todas as threads em execução podem ser vistas na aba \"Linhas de execução\" do depurador, e, quando pausado, você pode usar o botão \"Avançar um passo\" para executar o próximo bloco. Um gráfico de frames por segundo e número de clones pode ser visto na aba \"Performance\".",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			},
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
-		]
+		],
+		"enabledByDefault": false,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.16.0",
+		"latestUpdate": {
+			"version": "1.24.0",
+			"isMajor": true,
+			"temporaryNotice": "New \"Threads\" and \"Performance\" tabs in the debugger window.",
+			"newSettings": [
+				"log_clear_greenflag",
+				"log_greenflag",
+				"log_clone_create",
+				"log_failed_clone_creation",
+				"log_broadcasts",
+				"log_max_list_length",
+				"log_invalid_cloud_data"
+			]
+		}
 	},
 	{
 		"id": "default-costume-editor-color",
 		"name": "Customizar padrões de cor do editor de fantasias",
 		"description": "Muda o padrão das cores e do tamanho da borda usado pelo editor de fantasias.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.26.0"
 	},
 	{
 		"id": "default-project",
@@ -421,7 +676,8 @@
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "disable-auto-save",
@@ -433,14 +689,35 @@
 				"name": "RustingRobot",
 				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "Isso vai desativar todo o salvamento automático em projetos. Salve suas mudanças frequentemente para não perdê-las.",
+				"id": "manuallysave"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.8.0"
 	},
 	{
 		"id": "disable-paste-offset",
 		"name": "Não mover itens colados",
 		"description": "Cola itens copiados em sua posição original ao invés de movê-los no editor de fantasia.",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"id": "vanilla"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "disable-sprite-wobble",
@@ -450,7 +727,11 @@
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
 			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -463,39 +744,68 @@
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "discuss-button",
 		"name": "Barra de navegação customizável",
 		"description": "Escolha uma lista de links para aparecer na barra de navegação",
-		"tags": ["community", "featured"]
+		"tags": ["community", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["compact-nav"],
+			"isMajor": false
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "drag-drop",
 		"name": "Arrastar arquivos",
 		"description": "Te deixa arrastar imagens e sons do seu computador até a lista de atores, fantasias ou sons. Você também pode arrastar arquivos de texto até listas ou a entrada de resposta do bloco \"pergunte e espere\".",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "Sheep_maker" }]
+		"credits": [{ "name": "Sheep_maker" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "echo-effect",
 		"name": "Botão de efeito de eco",
 		"description": "Trás de volta o botão de Eco no editor de som.",
-		"tags": ["editor"]
+		"tags": ["editor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "editor-buttons-reverse-order",
 		"name": "Reverter ordem dos botões de controle de projeto",
 		"description": "Moverá a bandeira verde e o botão de pare para direita e no modo tela cheia os moverá para a direita, como no Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Menus de contexto coloridos",
 		"description": "Põe cor no menu que aparece ao clicar em um bloco com o botão direito.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-comment-previews",
@@ -508,7 +818,11 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "editor-dark-mode",
@@ -540,60 +854,106 @@
 				"id": "twdark",
 				"link": "https://github.com/GarboMuffin"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-devtools",
 		"name": "Ferramentas de desenvolvedor",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more! Use Ctrl+Space (Shift+Space on macOS) to bring up the \"add block by name\" popup.",
+		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Suporte a mais teclas",
-		"description": "Adiciona mais teclas às opções do bloco \"tecla () pressionada?\" e \"quando a tecla () for pressionada\", como enter, ponto, vírgula, entre outras.",
+		"name": "Extra key options",
+		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more. These keys will work even for users who do not have this addon.",
 		"tags": ["editor", "codeEditor", "beta"],
-		"credits": [
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"info": [
 			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+				"type": "notice",
+				"text": "Entre as \"teclas experimentais\" estão o sinal de igual, barra, ponto e vírgula, entre outros. Elas podem não funcionar em todos os sistemas operacionais ou layouts de teclado.",
+				"id": "experimentalKeysWarn"
+			},
+			{
+				"type": "notice",
+				"text": "Entre as \"teclas Shift\" estão teclas que normalmente requerem apertar a tecla Shift e uma tecla de número, como a hashtag, ponto de exclamação, entre outros. Essas teclas só funcionam no bloco \"quando a tecla () for apertada\" e não funcionam em todos os sistemas operacionais ou layouts de teclado.",
+				"id": "shiftKeysWarn"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "editor-messages",
 		"name": "Mensagens no editor",
 		"description": "Mostra o número de mensagens na barra superior do editor.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Dropdowns buscáveis",
 		"description": "Te deixa pesquisar nos dropdowns de blocos.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-sounds",
 		"name": "Sons no editor",
 		"description": "Toca sons quando você conecta ou deleta blocos.",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "editor-stage-left",
 		"name": "Mostrar palco do lado esquerdo",
 		"description": "Move o palco para o lado esquerdo do editor, como no Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
-		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }],
+		"info": [
+			{
+				"id": "reverseOrder",
+				"text": "To change the position of buttons above the stage, use the \"reverse order of project controls\" addon."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-stepping",
 		"name": "Destacar blocos em execução",
 		"description": "Adiciona uma borda colorida aos blocos que estão rodando em um projeto.",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-theme3",
@@ -606,7 +966,18 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
+			"newSettings": ["comment-color"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-unshare-button",
@@ -615,14 +986,19 @@
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "emoji-picker",
 		"name": "Paleta de emoji nos comentários",
 		"description": "Adiciona um botão para inserir emoji em comentários do site.",
 		"tags": ["community", "comments", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "exact-count",
@@ -636,14 +1012,22 @@
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "expanding-search-bar",
 		"name": "Barra de pesquisa expansível",
 		"description": "Faz a barra de pesquisa de projetos se expandir quando está em foco.",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -655,7 +1039,11 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "find-bar",
@@ -668,7 +1056,17 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -681,7 +1079,17 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"newSettings": ["leash", "straighten"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fix-pasted-scripts",
@@ -692,34 +1100,59 @@
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "fix-uploaded-svgs",
 		"name": "Consertar uploads de SVG",
 		"description": "Conserta um bug no editor do Scratch que falha ao fazer upload de arquivos SVG criados com alguns editores de imagem, como o Affinity Designer.",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "folders",
 		"name": "Pastas de atores",
 		"description": "Adiciona pastas para o painel de atores, assim como os paineis de fantasia e de sons. Para criar uma pasta. Clique com o botão direito em qualquer ator e clique em \"Criar pasta\". Clique em uma pasta para abri-la ou fechá-la. Clique um ator com o botão direito para ver quais pastas você pode movê-lo, ou arraste e solte o ator dentro de uma pasta aberta. Esse recurso funciona adicionando \"[nomeDaPasta]//\" no começo do nome dos seus atores.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Usuários com essa função ligada poderão ver as pastas no seu projeto. O resto verá a lista de atores normalmente (sem pastas).",
+				"id": "notice-folders-are-public"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "forum-copy-code",
 		"name": "Botão de copiar código no fórum",
 		"description": "Adiciona um botão de \"copiar código\" acima de caixas de código em postagens do fórum que copia o texto.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "forum-id",
 		"name": "Citar o número da postagem",
 		"description": "Clique no botão \"citar o número da postagem\" para incluir um link à postagem em sua resposta.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": { "version": "1.23.0", "newSettings": ["auto_add"] }
 	},
 	{
 		"id": "forum-live-preview",
@@ -731,7 +1164,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -741,20 +1177,33 @@
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
 			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "forum-search",
 		"name": "Pesquisa do fórum",
 		"description": "Adiciona uma barra de pesquisa ao fórum. Usa o ScratchDB para obter informações.",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "forum-time-zones",
 		"name": "Fuso-horário local nos fóruns",
 		"description": "Usa seu fuso-horário local nas datas e horários de postagem no fórum.",
-		"tags": ["forums", "community"]
+		"tags": ["forums", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -768,7 +1217,10 @@
 				"id": "icons",
 				"link": "http://www.famfamfam.com/lab/icons/silk/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "full-signature",
@@ -783,7 +1235,12 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fullscreen",
@@ -792,14 +1249,30 @@
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Se escolher esconder a barra superior, lembre-se que você pode apertar a tecla Esc para sair do modo tela cheia do projeto.",
+				"id": "hideToolbarNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "gamepad",
 		"name": "Suporte para controle",
 		"description": "Interaja com projetos usando um controle USB ou Bluetooth",
 		"tags": ["editor", "projectPlayer", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "hi-res-thumbnails",
@@ -808,13 +1281,28 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "Se o plano de dados da sua rede for limitado, tenha em mente que imagens de maior resolução requerem mais uso de dados.",
+				"id": "imagefilesize"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "hide-delete-button",
 		"name": "Esconder botão de deletar",
 		"description": "Esconde o botão de deletar (ícone da lata de lixo) de atores, fantasias e sons. Eles ainda podem ser deletados clicando com o botão direito do mouse.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-flyout",
@@ -830,14 +1318,31 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "O modo \"Passar o mouse na área da paleta\" só aumenta a área visível. Se você quer poder arrastar blocos até aquela área sem jogar eles fora, use outro modo.",
+				"id": "hoverExplanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"temporaryNotice": "This addon was revised and many bugs were fixed.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "hide-new-variables",
 		"name": "Esconder novas variáveis",
 		"description": "Não criar monitores automaticamente para novos variáveis ou listas.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "hide-project-stats",
@@ -853,7 +1358,18 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The padding between statistics has been fixed, there is now an option to show statistics on your own projects, and the My Stuff page is now supported.",
+			"newSettings": ["comments", "showOwnStats", "myStuff", "studios"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-signatures",
@@ -862,7 +1378,11 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "hide-stage",
@@ -874,7 +1394,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
@@ -886,21 +1409,32 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "image-uploader",
 		"name": "Envio de imagens para os fóruns",
 		"description": "Adiciona um botão para diretamente carregar e inserir imagens em postagens no fórum.",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["spark-md5", "text-field-edit"],
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
 		"name": "Scroll infinito",
 		"description": "Te deixa descer numa página em diferentes partes do site sem ter que clicar em \"carregar mais\".",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -912,7 +1446,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["duplicate"] }
 	},
 	{
 		"id": "items-per-row",
@@ -924,14 +1463,29 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "jump-to-def",
 		"name": "Jump to custom block definition",
 		"description": "Allows you to jump to a custom block's definition using the middle mouse button or Shift+Click on the block.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "last-edit-tooltip",
@@ -944,7 +1498,11 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "live-featured-project",
@@ -959,20 +1517,29 @@
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
 			{ "name": "Hans5958", "note": "remake", "id": "remake" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "load-extensions",
 		"name": "Automaticamente adicionar extensões",
 		"description": "Adiciona as extensões de música, caneta, e outras automaticamente à lista de categorias de blocos.",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "longer-wiwo",
 		"name": "Limite de caractere maior no \"Em que estou trabalhando\"",
 		"description": "Te deixa digitar mais 55 caracteres na seção \"Em que estou trabalhando do seu perfil. Todos poderão ver os caracteres extra.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -990,13 +1557,19 @@
 				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "mediarecorder",
 		"name": "Gravador de vídeo do projeto",
 		"description": "Adiciona um botão \"começar a gravar\" à barra superior do editor que te deixa gravar o palco do projeto.",
-		"tags": ["editor", "editorMenuBar", "recommended"]
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"enabledByDefault": false,
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "message-filters",
@@ -1008,27 +1581,74 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Isso não muda o seu número de mensagens, apenas esconde certos tipos de mensagem na página de mensagens do Scratch.",
+				"id": "nomessagecount"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
+	},
+	{
+		"id": "middle-click-popup",
+		"name": "Insert blocks by name",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Space to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"enabledByDefault": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "more-links",
 		"name": "Mais links",
-		"description": "Adiciona links para URLs de fora do scratch.mit.edu.",
+		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "Hans5958" }]
+		"credits": [{ "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mouse-pos",
 		"name": "Posição do mouse",
 		"description": "Mostra a posição do mouse próxima à bandeira acima do palco no editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "move-to-top-bottom",
 		"name": "Mover fantasia ao topo ou ao fundo da lista",
 		"description": "Adds options to the right click context menu for costumes and sounds to move them to the top or the bottom of the list.",
-		"tags": ["editor", "costumeEditor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1042,7 +1662,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mute-project",
@@ -1054,28 +1678,62 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{ "text": "No macOS, use a tecla Cmd ao invés de Ctrl.", "id": "macOS" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "my-ocular",
 		"name": "Integração com ocular",
 		"description": "Mostra status e reações de postagens do forum do ocular. Dados obtidos de my-ocular.jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.29.0", "newSettings": ["show-status"] }
 	},
 	{
 		"id": "name-backpack-items",
 		"name": "Nomear scripts ao adicioná-los na mochila",
 		"description": "Te pede para dar um nome a novos scripts que você adicionar à mochila, ao invés de usar o nome padrão de \"code\".",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "no-script-bumping",
 		"name": "Não mover scripts sobrepostos automaticamente",
 		"description": "Permite que você mova e modifique scripts sem que eles movam ao serem sobrepostos por outro script.",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "number-pad",
+		"name": "Always show number pad",
+		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"id": "explanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "old-studio-layout",
@@ -1087,7 +1745,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Esse addon não funciona bem em dispositivos móveis e janelas pequenas.",
+				"id": "mobile"
+			},
+			{
+				"text": "O tamanho da maioria dos elementos é o mesmo. Se você quiser ver mais projetos e curadores de uma vez, use o addon \"mais itens por lista\".",
+				"id": "itemsPerRow"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "one-click-studio-invites",
@@ -1096,49 +1770,88 @@
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "onion-skinning",
 		"name": "Onion skinning",
 		"description": "Mostra uma cópia transparente das fantasias anteriores e posteriores ao editar uma fantasia. Controlado por botões em baixo do editor de fantasia ao lado dos botões de zoom.",
 		"tags": ["editor", "costumeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "opacity-slider",
 		"name": "Slider de opacidade",
 		"description": "Adiciona um slider de opacidade ao seletor de cores do editor de fantasias.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"info": [
+			{
+				"type": "info",
+				"text": "O slider de opacidade é desativado quando não há objeto selecionado, ou no modo bitmap.",
+				"id": "bitmapModeincompleteInfo"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "paint-by-default",
 		"name": "Pintar nova fantasia por padrão",
 		"description": "Muda a ação padrão dos botões \"Selecionar novo Ator/Fantasia/Fundo/Som\" que, por padrão, abrem a biblioteca do Scratch.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "paint-snap",
+		"name": "Costume editor snapping",
+		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "pause",
 		"name": "Botão de pausa",
 		"description": "Adiciona um botão de pausa do lado da bandeira verde.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "pick-colors-from-stage",
 		"name": "Select stage colors in the costume editor",
 		"description": "Allows the costume editor's eye dropper to also pick colors from the stage.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "progress-bar",
 		"name": "Barra de progresso em projetos",
 		"description": "Adiciona uma barra de progresso ao carregar e salvar projetos.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "project-info",
@@ -1150,7 +1863,13 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.27.0", "newSettings": ["show"] },
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "project-notes-tabs",
@@ -1162,7 +1881,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "redirect-mobile-forums",
@@ -1171,7 +1892,9 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "remix-button",
@@ -1180,26 +1903,31 @@
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "remix-tree-button",
 		"name": "Botão para a árvore de remix",
 		"description": "Adiciona de volta o botão da árvore de remix nas páginas de projeto, próximo ao botão de Copiar Link.",
 		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
 		"name": "Remover borda arredondada do palco",
 		"description": "Remove a borda arredondada do palco, e assim te deixa ver os cantos.",
 		"tags": ["editor", "theme", "projectPlayer"],
-		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			}
-		]
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
@@ -1208,18 +1936,25 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "remove-sprite-confirm",
 		"name": "Confirmação ao deletar ator",
 		"description": "Pede confirmação antes de deletar um ator dentro de um projeto.",
-		"tags": ["editor", "recommended"]
+		"tags": ["editor", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "rename-broadcasts",
 		"name": "Renomear mensagens",
-		"description": "Adiciona uma opção para renomear mensagens nos dropdowns de blocos transmissores.",
+		"description": "Adds an option to rename broadcast messages in the broadcast blocks' dropdowns.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1227,7 +1962,10 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1239,14 +1977,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratch-messaging",
 		"name": "Mensagens do Scratch",
 		"description": "Disponível ao clicar no ícone do Scratch Addons. Te deixa facilmente ler e responder às suas mensagens do Scratch: agrupa mensagens por projeto, mostra o texto completo do comentário e contexto, permite que você responda diretamente.",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratch-notifier",
@@ -1261,7 +2008,11 @@
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratchblocks",
@@ -1275,7 +2026,17 @@
 			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A previsualização de postagem não funciona com esse addon.",
+				"id": "preview_notice"
+			}
+		],
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.19.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -1287,7 +2048,12 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchstats",
@@ -1299,7 +2065,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "script-snap",
@@ -1316,7 +2086,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "search-my-stuff",
@@ -1328,14 +2102,30 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Se você tiver muitos projetos ou estúdios, a busca pode demorar.",
+				"id": "pleaseBePatient"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["fuse"],
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "search-profile",
 		"name": "Procurar perfil",
 		"description": "Te deixa ir ao perfil de alguém pesquisando pelo seu nome de usuário.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "search-sprites",
@@ -1348,14 +2138,22 @@
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "semicolon",
 		"name": "Glitch do ponto e vírgula",
 		"description": "Adiciona de volta o glitch do ponto e vírgula ao Scratch.",
 		"tags": ["community", "easterEgg"],
-		"credits": [{ "name": "GrahamSH" }]
+		"credits": [{ "name": "GrahamSH" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "show-bbcode",
@@ -1367,7 +2165,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "sounds-duration",
@@ -1379,7 +2180,21 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.26.0"
+	},
+	{
+		"id": "sprite-properties",
+		"name": "Collapsing sprite properties",
+		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"tags": ["editor", "recommended"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "studio-followers",
@@ -1392,7 +2207,11 @@
 				"link": "https://scratch.mit.edu/users/9gr/"
 			},
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "studio-tools",
@@ -1405,14 +2224,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "swap-local-global",
 		"name": "Trocar variáveis entre \"Para todos os atores\" e \"Apenas para este ator\"",
 		"description": "Adiciona mais opções ao renomear uma variável ou lista existente: permite trocar entre a opção \"Para todos os atores\" e \"Apenas para este ator\" e trocar se as variáveis são guardadas na nuvem ou não. Também adiciona uma nova opção ao clicar com o botão direito em uma variável/lista para rapidamente trocar seu acesso.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "transparent-orphans",
@@ -1425,14 +2252,21 @@
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "true-youtube-links",
 		"name": "Links verdadeiros do YouTube nos fóruns",
 		"description": "Troca links para o player incorporado por links de verdade pro YouTube.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "HTML-Fan/NT" }]
+		"credits": [{ "name": "HTML-Fan/NT" }],
+		"dynamicEnable": true,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "turbowarp-player",
@@ -1444,7 +2278,20 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "O modo \"trocar player\" troca o player do Scratch pelo player do TurboWarp, que não suporta a função de ver o interior de projetos.",
+				"id": "addonsWontWork"
+			},
+			{
+				"type": "notice",
+				"text": "O TurboWarp tem servidores separados de dados cloud. O modo \"trocar player\" enviará o seu nome de usuário do Scratch ao TurboWarp.org para uso com dados cloud.",
+				"id": "cloudData"
+			}
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "tutorials-button",
@@ -1456,7 +2303,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",
@@ -1468,14 +2319,26 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "variable-manager",
 		"name": "Administrador de variáveis",
 		"description": "Adiciona uma aba do lado de \"Sons\" no editor para facilmente editar variáveis e listas.",
 		"tags": ["editor", "featured"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"temporaryNotice": "List items can now be inserted without holding the Shift key."
+		}
 	},
 	{
 		"id": "vol-slider",
@@ -1483,8 +2346,12 @@
 		"description": "Adds a volume slider next to the green flag controls.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
-		]
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "GarboMuffin" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "youtube-fullscreen",
@@ -1496,7 +2363,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": false,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "zebra-striping",
@@ -1510,6 +2381,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	}
 ]

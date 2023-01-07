@@ -4,32 +4,53 @@
 		"name": "2D-s színválasztó",
 		"description": "Kicseréli egy 2D-s színválasztóra a telítettség és fényerő csúszkákat a szereplők szerkesztőjében. Tartsd lenyomva a Shiftet miközben húzod az egérmutatót, hogy csak egy tengely mentén változtassad a színértéket.",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "60fps",
 		"name": "60FPS projektlejátszó mód",
 		"description": "Alt+Katt a zöld zászlóra a 60FPS mód ki/be kapcsolgatásához.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A Projektek kétszer olyan gyorsan fognak futni 60FPS-en, mert alapvetőleg 30FPS-en futnak.",
+				"id": "projectRunsFasterNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "account-settings-capitalize",
 		"name": "Account Settings nagy kezdőbetűkkel",
 		"description": "Az angol \"Account setting\" (fiókbeállításokat) lecseréli \"Account Settings\"-re.",
-		"tags": ["easterEgg", "community"]
+		"tags": ["easterEgg", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "animated-thumb",
 		"name": "Indexkép beállító",
 		"description": "Hozzáad egy gombot a projekt oldal jobb alsó sarkába, amivel beállítható a projekted indexképe bármely képre (gifeket is beleértve)",
-		"tags": ["community", "projectPage", "recommended"]
+		"tags": ["community", "projectPage", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "better-emojis",
@@ -39,14 +60,19 @@
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
 			{ "name": "kccuber", "link": "https://scratch.mit.edu/users/kccuber/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "better-featured-project",
 		"name": "Profil oldal banner",
 		"description": "Átváltoztatja a kiemelt projektet bármely felhasználó profilján egy szépen kinéző bannerré.",
 		"tags": ["community", "featured", "profiles"],
-		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }]
+		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "better-img-uploads",
@@ -64,7 +90,17 @@
 				"name": "SheepTester",
 				"link": "https://scratch.mit.edu/users/Sheep_maker/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Kerüld el a HD feltöltés opciót, ha még módosítani szeretnéd utána a képet.",
+				"id": "notSuitableEdit"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "better-quoter",
@@ -80,13 +116,34 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A BBCode lehet nem lesz teljesen pontos. Ahhoz, hogy teljesen pontos idézeteket érj el, idézz úgy ahogy máskor is tennéd és töröld a nem szükséges részeket.",
+				"id": "scratchblocks_notice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "bitmap-copy",
 		"name": "Bitmap képek másolása",
 		"description": "Engedélyezi, hogy kimásolj a rendszer vágólapjára egy bitmap képet a Scratch szerkesztőjében, amit aztán be tudsz illeszteni más weboldalaknál, vagy alkalmazásoknál.",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A \"Jobb kattintás → másolás\" nem támogatott. Ctrl+C-t kell nyomjál, miközben ki van jelölve egy bitmap kép.",
+				"id": "norightclick"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "block-cherry-picking",
@@ -99,7 +156,21 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"text": "A macOS-on, használd a Cmd gombot a Ctrl helyett.",
+				"id": "macContextDisabled"
+			},
+			{
+				"text": "Ha a \"fordított irányítás\" engedélyezve van, akkor a blokkok egyedülálló megfogása alapvető viselkedés lesz. Tartsd lenyomva a Ctrl-t, ha az egész kódsort mozgatni szeretnéd.",
+				"id": "flipControls"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "block-count",
@@ -111,14 +182,27 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "block-duplicate",
 		"name": "Kód duplikálása Alt gombbal",
 		"description": "Duplikálj egy kódot gyorsan azzal, hogy az Alt lenyomva tartása közben mozgatod. Ha a Ctrl-t is nyomva tartod, akkor csak egy blokkot duplikálsz az egész alatta levő blokk sor helyett.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "A macOS-on, használd az Option gombot Alt helyett és a Command gombot a Control helyett.",
+				"id": "mac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "block-palette-icons",
@@ -131,7 +215,11 @@
 				"link": "https://github.com/explosion-scratch"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "block-switching",
@@ -144,7 +232,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "blocks2image",
@@ -153,7 +246,11 @@
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "cat-blocks",
@@ -166,7 +263,17 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"id": "watch"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "clones",
@@ -176,14 +283,38 @@
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["showicononly"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "cloud-games",
 		"name": "Felhőalapú játékok",
 		"description": "Elérhető, amikor a Scratch Addons ikonjára kattint az ember. Megmutatja, hogy mennyi Scratcher játszik éppen az adott többjátékos projektekkel, valamint a felhasználói neveiket is felsorolja.",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"info": [
+			{
+				"id": "howtoadd",
+				"text": "Az éppen megnyitott projekttel vagy műhellyel is kiegészítheted a listát, ha rákattintasz az \"Add hozzá ezt a projektet/műhelyt\" gombra a Játékok fül alatt."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.1.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"newSettings": ["displayedGames"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "color-inputs",
@@ -195,12 +326,13 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "color-picker",
 		"name": "Hex szín választó",
-		"description": "Hozzáad egy hex kód bemenetet a szín választókhoz.",
+		"description": "Hozzáad egy hexadecimális kódbemenetet a színválasztókhoz.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -208,7 +340,12 @@
 				"link": "https://github.com/ScratchAddons/ScratchAddons/issues/311#issuecomment-699510743"
 			},
 			{ "name": "apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "columns",
@@ -217,7 +354,10 @@
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "comments-linebreaks",
@@ -229,7 +369,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"id": "ownLineBreaks"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"newSettings": ["scrollbars", "height"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "compact-messages",
@@ -241,7 +396,12 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "confirm-actions",
@@ -253,7 +413,12 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -262,7 +427,11 @@
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -272,7 +441,17 @@
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"text": "macOs-en használd a Cmd gombot a Ctrl helyett",
+				"id": "macContextDisabled"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "ctrl-enter-post",
@@ -281,7 +460,12 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"info": [{ "text": "MacOS-on használhatod a Cmd gombot.", "id": "macOS" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "curator-link",
@@ -293,7 +477,11 @@
 				"name": "Hans5958",
 				"link": "https://github.com/Hans5958/userscripts/blob/master/Scratch/Curator%20Links.user.js"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "custom-block-shape",
@@ -313,7 +501,18 @@
 				"name": "GarboMuffin",
 				"link": "https://scratch.mit.edu/users/GarboMuffin/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A kipárnázás méretének csökkentése csak általad látható, szóval ha a projektjeidet mások tekintik meg, a kódjaid lehet, hogy fedni fogják egymást.",
+				"id": "paddingWarning"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "custom-block-text",
@@ -323,7 +522,12 @@
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -335,14 +539,22 @@
 				"name": "ErrorGamer2000",
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0"
 	},
 	{
 		"id": "customize-avatar-border",
 		"name": "Személyre szabható profilkép szegély",
 		"description": "Megengedi, hogy elrejtsd vagy megváltoztasd a körvonalat a profilképeid körül a projekt és műhely kommentekben.",
 		"tags": ["community", "theme"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "dango-rain",
@@ -362,7 +574,16 @@
 				"name": "griffpatch",
 				"link": "https://scratch.mit.edu/users/griffpatch/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Csak azok a Scratch Addons felhasználók fogják látni ezt a \"dango esőt\", akiknek be van kapcsolva ez a kiegészítő.",
+				"id": "OnlyScratchAddonsUsers"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "dark-www",
@@ -382,37 +603,69 @@
 				"id": "darkwww",
 				"link": "https://github.com/gducrash"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "data-category-tweaks-v2",
 		"name": "Adat kategória igazítások",
 		"description": "Igazításokat hajt végre az Adat (\"Változók\") blokk kategórián.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "debugger",
 		"name": "Hibakereső",
 		"description": "Hozzáad egy új \"Hibakereső\" ablakot a szerkesztőhöz. Elérhetővé teszi, hogy a \"Napló\" laphoz értékeket naplózzunk a \"naplózd\", \"figyelmeztess\" és \"hiba\" blokkok segítségével. A \"töréspont\" blokk megfogja állítani a projektet lefutásánál. Minden éppen futó szálat meg lehet figyelni a \"Szálak\" nevű fülecskéjénél a hibakeresőnek, és amikor a projekt meg van állítva, akkor a \"Továbblépés\" gomb segítségével lehet a következő blokkot lefuttatni. A képkocka-gyorsaság (FPS) és a klónok mennyiségéről készült grafikonok szintén megtekinthetőek a \"Teljesítmény\" fül alatt.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			},
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
-		]
+		],
+		"enabledByDefault": false,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.16.0",
+		"latestUpdate": {
+			"version": "1.24.0",
+			"isMajor": true,
+			"temporaryNotice": "New \"Threads\" and \"Performance\" tabs in the debugger window.",
+			"newSettings": [
+				"log_clear_greenflag",
+				"log_greenflag",
+				"log_clone_create",
+				"log_failed_clone_creation",
+				"log_broadcasts",
+				"log_max_list_length",
+				"log_invalid_cloud_data"
+			]
+		}
 	},
 	{
 		"id": "default-costume-editor-color",
 		"name": "Személyre szabható alapértelmezett jelmezszerkesztőszínek",
 		"description": "Megváltoztatja az alap színeit és körvonal méreteit a jelmezszerkesztőnek.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.26.0"
 	},
 	{
 		"id": "default-project",
@@ -421,7 +674,8 @@
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "disable-auto-save",
@@ -433,14 +687,35 @@
 				"name": "RustingRobot",
 				"link": "https://scratch.mit.edu/users/RustingRobot/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "Ez kikapcsolja az összes automatikus mentést a projektekben. Ne felejtsd el gyakran, manuálisan elmenteni a változtatásokat, hogy ne veszítsd el azokat.",
+				"id": "manuallysave"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.8.0"
 	},
 	{
 		"id": "disable-paste-offset",
 		"name": "Ne helyezd át a bemásolt elemeket",
 		"description": "A bemásolt elemeket az eredeti helyükre kerülnek, nem tolódnak el a jelmez szerkesztőben.",
 		"tags": ["editor", "costumeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"id": "vanilla"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "disable-sprite-wobble",
@@ -450,7 +725,11 @@
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
 			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -463,39 +742,68 @@
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "discuss-button",
 		"name": "Személyre szabható navigációs sáv",
 		"description": "Válassz egy listát a navigációs mezőben megjelenített linkekről.",
-		"tags": ["community", "featured"]
+		"tags": ["community", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"newSettings": ["compact-nav"],
+			"isMajor": false
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "drag-drop",
 		"name": "Fájlok behúzása",
 		"description": "Elérhetővé teszi, hogy behúzzál képeket és hangokat a fájlkezelődből a szereplők táblába, vagy a jelmezek/hangok nevű oldalsávba. Még szövegfájlokat is be tudsz húzni listákba, vagy a \"kérdezd meg és várj\" blokk bemeneteli szövegét.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "Sheep_maker" }]
+		"credits": [{ "name": "Sheep_maker" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.12.0"
 	},
 	{
 		"id": "echo-effect",
 		"name": "Visszhang effekt gomb",
 		"description": "Visszahozza a régi Visszhang gombot a hang szerkesztőbe.",
-		"tags": ["editor"]
+		"tags": ["editor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "editor-buttons-reverse-order",
 		"name": "Projektirányító gombok fordított sorrendben",
 		"description": "Áthelyezi a zöld zászlót és a megállító gombot a jobboldalra, valamint a teljes képernyő gombot pedig baloldalra, ahogy a Scratch 2.0-ban volt.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"]
+		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Színezett helyi menük",
 		"description": "Átszínezi a blokkok jobb kattintásra megjelenő helyi menüjét.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-comment-previews",
@@ -508,7 +816,11 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "editor-dark-mode",
@@ -540,60 +852,106 @@
 				"id": "twdark",
 				"link": "https://github.com/GarboMuffin"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-devtools",
 		"name": "Fejlesztői eszközök",
-		"description": "Új menü opciókat ad hozzá a szerkesztőhöz: blokkok másolása/beillesztése, jobb rendrakás, és még sok más! Használd a Ctrl+Szóközt (Shift+Szóköz macOS-on), hogy megjelenítsd a \"blokk hozzáadása név alapján\" felugró ablakot.",
+		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Extra billentyű érzékelés",
-		"description": "További lehetőségeket ad a \"() lenyomva?\" és a \"() gomb lenyomásakor\" blokkok lenyíló menüihez, például az enter, a pont, a vessző, és még sok más.",
+		"name": "Extra key options",
+		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more. These keys will work even for users who do not have this addon.",
 		"tags": ["editor", "codeEditor", "beta"],
-		"credits": [
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"info": [
 			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
+				"type": "notice",
+				"text": "A \"kísérleti gombok\" tartalmaz egyenlőségjelet, perjelet, pontosvesszőt és még pár irásjelet. Ezek lehet nem működnek minden operációs rendszeren vagy billentyűzet nyelvezetben.",
+				"id": "experimentalKeysWarn"
+			},
+			{
+				"type": "notice",
+				"text": "A \"Shift billentyűk\" tartalmaznak olyan billentyűket, amiket a Shift billentyű nyomvatartásakor lehet csak begépelni, ilyen a hashtag, a felkijáltójel és még pár. Ezek a billentyűk csak a \"() gomb lenyomásakor\" bolkkal működnek és nem működnek minden operációs rendszeren illetve billentyűzeten.",
+				"id": "shiftKeysWarn"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "editor-messages",
 		"name": "Üzenetek a szerkesztőben",
 		"description": "Megjeleníti az üzeneteid számát még a szerkesztőnek is a menüszalagjában.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Keresés a legördülő menükben",
 		"description": "Megengedi, hogy keress a blokkok legördülő menüiben.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-sounds",
 		"name": "Szerkesztő hangeffektekkel",
 		"description": "Hangeffekteket játszik le, amikor csatlakoztatsz, vagy kitörölsz blokkokat.",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "editor-stage-left",
 		"name": "Színpad áthelyezése bal oldalra",
 		"description": "Áthelyezi a színpadot a szerkesztő baloldalára, ahogy a Scratch 2.0-ban volt.",
 		"tags": ["editor", "theme", "featured"],
-		"credits": [{ "name": "NitroCipher/ZenithRogue" }]
+		"credits": [{ "name": "NitroCipher/ZenithRogue" }],
+		"info": [
+			{
+				"id": "reverseOrder",
+				"text": "A színpad fölötti gombok elhelyezésének változtatásához használd a „Projektirányító gombok fordított sorrendben” kiegészítőt."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "editor-stepping",
 		"name": "Futó blokkok körvonalai",
 		"description": "Hozzáad egy színes körvonalat azon blokkokhoz, amik éppen futnak egy projektben.",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "editor-theme3",
@@ -606,7 +964,18 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
+			"newSettings": ["comment-color"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-unshare-button",
@@ -615,14 +984,19 @@
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "emoji-picker",
 		"name": "Emoji választó kommentekhez",
 		"description": "Hozzáad egy gombot, amivel beszúrhatsz emojikat a kommentekbe a weboldalon.",
 		"tags": ["community", "comments", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0"
 	},
 	{
 		"id": "exact-count",
@@ -636,14 +1010,22 @@
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "expanding-search-bar",
 		"name": "Kibővülő keresőmező",
 		"description": "Kiszélesíti a keresőmezőt, amikor az fókuszba kerül belekattintás után",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -655,7 +1037,11 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "find-bar",
@@ -668,7 +1054,17 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -681,7 +1077,17 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": {
+			"version": "1.23.0",
+			"isMajor": true,
+			"newSettings": ["leash", "straighten"]
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fix-pasted-scripts",
@@ -692,34 +1098,59 @@
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG feltöltés megjavítása",
 		"description": "Kijavít egy olyan hibát a Scratch szerkesztőjében, amik elrontják némely képszerkesztő program – mint például  az Affinity Designer – által készített SVG fájlokat.",
-		"tags": ["editor", "costumeEditor"]
+		"tags": ["editor", "costumeEditor"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "folders",
 		"name": "Szereplő mappák",
 		"description": "Mappákat ad a szereplő kijelzőhöz, illetve a jelmez és hang listához. Mappa létrehozásához, jobb kattints bármely szereplőre és kattints a \"mappa létrehozása\" lehetőségre. Kattints egy mappára, hogy megnyisd vagy összezárd azt. Jobb kattints egy szereplőre, hogy lásd milyen mappákba tudod átmozgatni, vagy csak húzd az egérrel egy nyitott mappába. Ez a funkció a szerepelők neveinek elé a következő hozzáadásával érhető el: \"[mappa neve]//\".",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Azok a felhasználók, akiknek be van kapcsolva ez a bővítmény láthatják a mappákat a projektjeidben. Bárki más normálisan fogja látni a szereplő kijelzőt (mappák nélkül).",
+				"id": "notice-folders-are-public"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "forum-copy-code",
 		"name": "Kód másolása gomb a fórumokon",
 		"description": "Hozzáad egy \"Kód másolása\" gombot a kód mezők fölé a fórum posztoknál, amivel kimásolható a mező tartalma a vágólapra.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }]
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "forum-id",
 		"name": "Poszt szám idézése",
 		"description": "Kattints a \"poszt szám idézése\" gombra, hogy bemásolj egy linket a poszthoz a válaszodba.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0",
+		"latestUpdate": { "version": "1.23.0", "newSettings": ["auto_add"] }
 	},
 	{
 		"id": "forum-live-preview",
@@ -731,7 +1162,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0"
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -741,20 +1175,33 @@
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
 			{ "name": "Boomer001", "note": "original userstyle", "id": "userstyle" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "forum-search",
 		"name": "Fórum keresés",
 		"description": "Hozzáad egy poszt keresőmezőt a fórumokhoz. A ScratchDB-t használja információkért.",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "forum-time-zones",
 		"name": "Helyi zónaidő a fórumokon",
 		"description": "A saját helyi zónaidődet használja a fórumbejegyzések dátumának és idejének megjelenítéséhez.",
-		"tags": ["forums", "community"]
+		"tags": ["forums", "community"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -768,7 +1215,10 @@
 				"id": "icons",
 				"link": "http://www.famfamfam.com/lab/icons/silk/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "full-signature",
@@ -783,7 +1233,12 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "fullscreen",
@@ -792,14 +1247,30 @@
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Ha kiválasztod az eszköztár elrejtését, emlékezz hogy úgy léphetsz ki a projekt lejátszó teljes képernyős módjából, hogy megnyomod az Esc gombot.",
+				"id": "hideToolbarNotice"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.21.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "gamepad",
 		"name": "Gamepad támogatás",
 		"description": "Lépj kapcsolatba projektekkel USB, vagy Bluetooth kontroller/gamepad használata által.",
 		"tags": ["editor", "projectPlayer", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "hi-res-thumbnails",
@@ -808,13 +1279,28 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
-		]
+		],
+		"info": [
+			{
+				"type": "warning",
+				"text": "Ha a hálózatod adatforgalma limitált, tartsd észben, hogy a nagyobb felbontású képek nagyobb adathasználatot igényelnek.",
+				"id": "imagefilesize"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "hide-delete-button",
 		"name": "Törlés gomb elrejtése",
 		"description": "Elrejti a törlés gombot (kuka ikont) a szereplőkből, jelmezekből és hangokból. Ezután még törölhetőek lesznek a jobb kattos helyi menüből.",
-		"tags": ["editor", "featured"]
+		"tags": ["editor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-flyout",
@@ -830,14 +1316,31 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "A \"kurzor a választó felület felett\" mód csak a látóteredet növeli meg. Ha oda is szeretnél húzni blokkokat a törlődésük nélkül, akkor használj egy másik módot.",
+				"id": "hoverExplanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.8.0",
+		"latestUpdate": {
+			"version": "1.27.0",
+			"temporaryNotice": "This addon was revised and many bugs were fixed.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "hide-new-variables",
 		"name": "Új változók elrejtése",
 		"description": "Ne készíts automatikusan kijelzőket az újonnan készített változóknak vagy listáknak.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "hide-project-stats",
@@ -853,7 +1356,18 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.29.0",
+			"temporaryNotice": "The padding between statistics has been fixed, there is now an option to show statistics on your own projects, and the My Stuff page is now supported.",
+			"newSettings": ["comments", "showOwnStats", "myStuff", "studios"]
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "hide-signatures",
@@ -862,7 +1376,11 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "hide-stage",
@@ -874,7 +1392,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
@@ -886,21 +1407,32 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.25.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "image-uploader",
 		"name": "Fórumkép-feltöltő",
 		"description": "Hozzáad egy gombot, képek fórumbejegyzésekre történő közvetlen feltöltéséhez és beillesztéséhez.",
 		"tags": ["forums", "community"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["spark-md5", "text-field-edit"],
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
 		"name": "Végtelen görgetés",
 		"description": "Engedélyezi a felület különböző részein való lejjebb görgetést anélkül, hogy a \"Több betöltése\" gombra rá kéne kattintani.",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }]
+		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -912,7 +1444,12 @@
 				"name": "pufferfish101007",
 				"link": "https://scratch.mit.edu/users/pufferfish101007/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.13.0",
+		"latestUpdate": { "version": "1.28.0", "newSettings": ["duplicate"] }
 	},
 	{
 		"id": "items-per-row",
@@ -924,14 +1461,29 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.18.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "jump-to-def",
 		"name": "Ugrás egyéni blokk definiálásához",
 		"description": "Megengedi, hogy egy egyéni blokk definiálásához ugorj a középső egérgombbal, vagy Shift+Kattintással az adott blokkon.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }]
+		"credits": [{ "name": "griffpatch" }],
+		"info": [
+			{
+				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "last-edit-tooltip",
@@ -944,7 +1496,11 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "live-featured-project",
@@ -959,20 +1515,29 @@
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
 			{ "name": "Hans5958", "note": "remake", "id": "remake" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "load-extensions",
 		"name": "Automatikusan add hozzá a bővítményeket",
 		"description": "Automatikusan megjeleníti a zene, toll, és más bővítményeket a szerkesztő oldalsó blokk kategóriás menüjében.",
-		"tags": ["editor", "codeEditor", "featured"]
+		"tags": ["editor", "codeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.10.0"
 	},
 	{
 		"id": "longer-wiwo",
 		"name": "Magasabb karakter korlát az \"Amin most dolgozom\" részhez",
 		"description": "Lehetővé teszi, hogy 55-tel több karaktert írj a profilod \"Amin most dolgozom\" részéhez. Mindenki láthatja a Scratch-en az extra karaktereket.",
 		"tags": ["community", "profiles", "featured"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }]
+		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "material-forum-editor-buttons",
@@ -990,13 +1555,19 @@
 				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "mediarecorder",
 		"name": "Projekt videó felvevő",
 		"description": "Hozzáad egy \"felvétel indítása\" gombot a szerkesztő menü sorába, ami megengedi, hogy felvedd a projekt színpadját.",
-		"tags": ["editor", "editorMenuBar", "recommended"]
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"enabledByDefault": false,
+		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "message-filters",
@@ -1008,27 +1579,74 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Ez nem változtat az üzeneteid számán. Csupán megengedi, hogy bizonyos üzeneteket elrejts a Scratch üzenet oldalán.",
+				"id": "nomessagecount"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.15.0"
+	},
+	{
+		"id": "middle-click-popup",
+		"name": "Insert blocks by name",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Space to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "TheColaber",
+				"link": "https://scratch.mit.edu/users/TheColaber/"
+			}
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"enabledByDefault": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "more-links",
 		"name": "Több link",
-		"description": "Hozzáad kattintható linkeket olyan URL-ekhez is, amik a scratch.mit.edu-n kívűlre mutatnak",
+		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
 		"tags": ["community", "featured"],
-		"credits": [{ "name": "Hans5958" }]
+		"credits": [{ "name": "Hans5958" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mouse-pos",
 		"name": "Egér pozíciója",
 		"description": "Megjeleníti az egered x és y helyét a színpad fölött a szerkesztőben.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }]
+		"credits": [{ "name": "Jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "move-to-top-bottom",
 		"name": "Jelmez áthelyezése legfelülre vagy legalulra",
 		"description": "Hozzáad egy opctiót a jobb katt index menüjéhez a jelmezek és hangok mozgatására a lista legtetejére vagy legaljára.",
-		"tags": ["editor", "costumeEditor", "featured"]
+		"tags": ["editor", "costumeEditor", "featured"],
+		"info": [
+			{
+				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1042,7 +1660,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "mute-project",
@@ -1054,28 +1676,65 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"text": "MacOS-en használja a Cmd billentyűt a Ctrl helyett.",
+				"id": "macOS"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "my-ocular",
 		"name": "Ocular beillesztés",
 		"description": "Megjeleníti az <i>ocular</i> státuszokat valamint a reakciókat a fórum posztokra. A my-ocular.jeffalo.net-től szerzi az ehhez szükséges adatokat.",
 		"tags": ["forums", "profiles", "community"],
-		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }]
+		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.29.0", "newSettings": ["show-status"] }
 	},
 	{
 		"id": "name-backpack-items",
 		"name": "Kódok elnevezése mielőtt a hátizsákba kerül",
 		"description": "Megkér, hogy nevezd el a kódokat miután behúztad őket a hátizsákba, ahelyett, hogy mindnek az a neve lenne, hogy \"kód\".",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "TheColaber" }]
+		"credits": [{ "name": "TheColaber" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "no-script-bumping",
 		"name": "Ne mozgasd automatikusan a kódokat",
 		"description": "Megengedi a kódok mozgatását anélkül, hogy odébb mozdulnának az egymást fedő kódoszlopok.",
 		"tags": ["editor", "codeEditor"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "number-pad",
+		"name": "Always show number pad",
+		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"id": "explanation"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "old-studio-layout",
@@ -1087,7 +1746,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Ez a bővítmény nem működik jól telefonokon és kis ablak méretekben.",
+				"id": "mobile"
+			},
+			{
+				"text": "A legtöbb elem méretét nem változtatja. Ha több projektet vagy kurátort akarsz látni egyszerre, használd a \"több elem soronként\" bővítményt.",
+				"id": "itemsPerRow"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.17.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "one-click-studio-invites",
@@ -1096,49 +1771,88 @@
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"versionAdded": "1.27.0"
 	},
 	{
 		"id": "onion-skinning",
 		"name": "Onion skinning",
 		"description": "Áttetsző rétegekként mutatja az előző illetve következő jelmezeket, amikor jelmezt szerkesztesz. Gombokkal irányítható, amik a jelmez szerkesztő alatt vannak a zoom gombok mellett.",
 		"tags": ["editor", "costumeEditor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "opacity-slider",
 		"name": "Opacity slider",
 		"description": "Adds an opacity slider to the costume editor color picker.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
-		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }]
+		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
+		"info": [
+			{
+				"type": "info",
+				"text": "The opacity slider is disabled when no object is selected, or when in bitmap mode.",
+				"id": "bitmapModeincompleteInfo"
+			}
+		],
+		"enabledByDefault": false,
+		"libraries": ["tinycolor2"],
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "paint-by-default",
 		"name": "Jelmez festése alapvetően",
 		"description": "Átéllítja az alapvető műveletet a \"Válassz Szereplőt/Jelmezt/Hátteret/Hangot\" gomboknak, amik alapvetően a könyvtárat nyitják meg.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "paint-snap",
+		"name": "Costume editor snapping",
+		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "pause",
 		"name": "Megállítás gomb",
 		"description": "Hozzáad egy megállítás gombot a zöld zászló mellé.",
 		"tags": ["editor", "projectPlayer", "recommended"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "pick-colors-from-stage",
 		"name": "Háttér színének választása a jelmez szerkesztőben",
 		"description": "Lehetővé teszi a jelmez szerkesztő pipetta eszközének, hogy a színpadról is felvehessen színeket.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "progress-bar",
 		"name": "Projekt fejlődésmutató",
 		"description": "Hozzáad egy fejlődésmutatót a projektek betöltéséhez és mentéséhez.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "project-info",
@@ -1150,7 +1864,13 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.4.0",
+		"latestUpdate": { "version": "1.27.0", "newSettings": ["show"] },
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "project-notes-tabs",
@@ -1162,7 +1882,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.4.0"
 	},
 	{
 		"id": "redirect-mobile-forums",
@@ -1171,7 +1893,9 @@
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.16.0"
 	},
 	{
 		"id": "remix-button",
@@ -1180,26 +1904,31 @@
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.20.0"
 	},
 	{
 		"id": "remix-tree-button",
 		"name": "Remixfa gomb",
 		"description": "Visszahozza a remixfa gombot a projektek oldalára, amit a Link másolása gomb mellett helyez el.",
 		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }]
+		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
 		"name": "Színpad lekerekített sarkainak eltávolítása",
 		"description": "Eltávolítja az íveltségét a színpad széleinek, így láthatóvá téve a sarkokban lévő dolgokat is.",
 		"tags": ["editor", "theme", "projectPlayer"],
-		"credits": [
-			{
-				"name": "Tacodude7729",
-				"link": "https://scratch.mit.edu/users/Tacodude7729/"
-			}
-		]
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.14.0"
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
@@ -1208,18 +1937,25 @@
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	},
 	{
 		"id": "remove-sprite-confirm",
 		"name": "Szereplő törlésének megerősítése",
 		"description": "Megkérdezi egy projekten belüli szereplő törölésénél, hogy biztos vagy-e benne.",
-		"tags": ["editor", "recommended"]
+		"tags": ["editor", "recommended"],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "rename-broadcasts",
-		"name": "Rename broadcasts",
-		"description": "Adds an option to rename broadcasts in the broadcast blocks' dropdowns.",
+		"name": "Üzenetküldések átnevezése",
+		"description": "Lehetőséget kínál az üzenetküldések nevének átírására az üzenetküldő blokkok a legördülő menüjében.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1227,7 +1963,10 @@
 				"link": "https://scratch.mit.edu/users/TheColaber"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "resizable-comment-input",
@@ -1239,14 +1978,23 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.3.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratch-messaging",
 		"name": "Scratch Üzenetküldés",
 		"description": "Elérhető a Scratch Addons ikonjára kattintva. Könnyű olvashatóságot és válaszolási lehetőséget nyújt a Scratch üzeneteidhez: csoportosítja az üzeneteket projektenként, a teljes komment szövegét és annak környezetét megmutatja, valamint a közvetlen komment-válaszolást is lehetővé teszi.",
 		"tags": ["popup", "recommended"],
-		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }]
+		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratch-notifier",
@@ -1261,7 +2009,11 @@
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "scratchblocks",
@@ -1275,7 +2027,17 @@
 			},
 			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
 			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A beépített poszt előnézet nem támogatja ezt a bővítményt.",
+				"id": "preview_notice"
+			}
+		],
+		"libraries": ["scratchblocks"],
+		"versionAdded": "1.19.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -1287,7 +2049,12 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.1.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchstats",
@@ -1299,7 +2066,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["chartjs"],
+		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "script-snap",
@@ -1316,7 +2087,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.23.0"
 	},
 	{
 		"id": "search-my-stuff",
@@ -1328,14 +2103,30 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "Ha sok projekted vagy műhelyed van, a keresés eltarthat egy darabig.",
+				"id": "pleaseBePatient"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"libraries": ["fuse"],
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "search-profile",
 		"name": "Profilkeresés",
 		"description": "Lehetővé teszi, hogy elkalauzolódjál egy felhasználói profilra, amikor a nevükkel keresel.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }]
+		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.1.0"
 	},
 	{
 		"id": "search-sprites",
@@ -1348,14 +2139,22 @@
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.24.0"
 	},
 	{
 		"id": "semicolon",
 		"name": "Pontosvessző-hiba ",
 		"description": "Visszaadja a pontosvessző-hibát a Scratchhez.",
 		"tags": ["community", "easterEgg"],
-		"credits": [{ "name": "GrahamSH" }]
+		"credits": [{ "name": "GrahamSH" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.7.0"
 	},
 	{
 		"id": "show-bbcode",
@@ -1367,7 +2166,10 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.9.0"
 	},
 	{
 		"id": "sounds-duration",
@@ -1379,7 +2181,21 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"versionAdded": "1.26.0"
+	},
+	{
+		"id": "sprite-properties",
+		"name": "Collapsing sprite properties",
+		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"tags": ["editor", "recommended"],
+		"credits": [
+			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.30.0"
 	},
 	{
 		"id": "studio-followers",
@@ -1392,7 +2208,11 @@
 				"link": "https://scratch.mit.edu/users/9gr/"
 			},
 			{ "name": "World_Languages" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.17.0"
 	},
 	{
 		"id": "studio-tools",
@@ -1405,14 +2225,22 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "swap-local-global",
 		"name": "Változók váltása \"Minden szereplőé\" és \"A kiválasztott szereplé\" között",
 		"description": "További opciókat ad hozzá a már létező változók vagy listák átnevezésénél: megengedi a váltást \"Minden szereplőé\" és \"A kiválasztott szereplőé\" között, állítható továbbá a változók megosztottsága. Hozzáad még egy új opciót, amikor jobb kattintasz egy változót/listát, hogy gyorsabban állíthasd az elérhetőségét.",
 		"tags": ["editor", "codeEditor", "featured"],
-		"credits": [{ "name": "GarboMuffin" }]
+		"credits": [{ "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "transparent-orphans",
@@ -1425,14 +2253,21 @@
 				"link": "https://scratch.mit.edu/users/ErrorGamer2000/"
 			},
 			{ "name": "GarboMuffin" }
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.15.0"
 	},
 	{
 		"id": "true-youtube-links",
 		"name": "Igazi YouTube linkek a fórumokon",
 		"description": "Kicseréli a beágyazott oldalakra mutató linkeket valódi YouTube linkekkel.",
 		"tags": ["community", "forums"],
-		"credits": [{ "name": "HTML-Fan/NT" }]
+		"credits": [{ "name": "HTML-Fan/NT" }],
+		"dynamicEnable": true,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "turbowarp-player",
@@ -1444,7 +2279,20 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
-		]
+		],
+		"info": [
+			{
+				"type": "notice",
+				"text": "A \"Lejátszó cserélye\" mód átváltoztatja a Scratch lejátszót egy TurboWarp beágyazásra, ami viszont nem támogatja a projekt megnézését belülről.",
+				"id": "addonsWontWork"
+			},
+			{
+				"type": "notice",
+				"text": "A TurboWarp-nak külön megosztott változó szerverei vannak. A \"Lejátszó cserélye\" mód elküldi a felhasználónevedet a TurboWarp.org-nak a szerveren tárolt adatok működtetéséhez.",
+				"id": "cloudData"
+			}
+		],
+		"versionAdded": "1.18.0"
 	},
 	{
 		"id": "tutorials-button",
@@ -1456,7 +2304,11 @@
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",
@@ -1468,23 +2320,39 @@
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.19.0"
 	},
 	{
 		"id": "variable-manager",
 		"name": "Változó kezelő",
 		"description": "Hozzáad egy fület a \"hangok\" mellé a szerkesztőben, melyben könnyen frissítheted a változókat és listákat.",
 		"tags": ["editor", "featured"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }]
+		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.28.0",
+			"temporaryNotice": "List items can now be inserted without holding the Shift key."
+		}
 	},
 	{
 		"id": "vol-slider",
-		"name": "Project volume slider",
+		"name": "Projekt-hangerőcsúszka",
 		"description": "Adds a volume slider next to the green flag controls.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" }
-		]
+			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "GarboMuffin" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.29.0"
 	},
 	{
 		"id": "youtube-fullscreen",
@@ -1496,7 +2364,11 @@
 				"name": "Maximouse",
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
-		]
+		],
+		"dynamicEnable": false,
+		"dynamicDisable": false,
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "zebra-striping",
@@ -1510,6 +2382,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/thecolaber"
 			}
-		]
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.28.0"
 	}
 ]
