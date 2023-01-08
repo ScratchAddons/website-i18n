@@ -53,7 +53,6 @@ Alcune estensioni del browser e userscript possono interferire con Scratch Addon
 
 - Strumenti degli Sviluppatori Scratch 3: Questa estensione è una copia dell'addon Strumenti per sviluppatori. Disinstalla l'estensione Strumenti per Sviluppatori e abilita l'addon.
 - 3.0 Migliorato: Questa estensione può interferire con alcuni addon. Fortunatamente molte delle due funzionalità sono disponibili come addon.
-- Redux DevTools: Può interferire con il funzionamento interno di Scratch Addons. Se non la stai usando, dovresti disabilitare l'estensione Redux DevTools.
 
 ## Sicurezza e privacy
 
@@ -190,7 +189,7 @@ Se vuoi suggerire un addon per l'estenzione o hai altre idee, faccelo sapere [in
 
 Puoi farlo nella [nostra scheda Discussioni](https://github.com/ScratchAddons/ScratchAddons/discussions) o [nel nostro server Discord](https://discord.gg/R5NBqwMjNc). Qui puoi fare domande ed entrare in contatto con la comunità di Scratch Addons.
 
-## Tecnico
+## Domande Tecniche
 
 ### Ma cos'è quindi esattamente un "addon"?
 

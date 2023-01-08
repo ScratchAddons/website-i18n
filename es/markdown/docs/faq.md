@@ -53,7 +53,6 @@ Algunas extensiones de navegador y userscripts pueden interferir con Scratch Add
 
 - Scratch 3 Developer Tools: Esta extensión de navegador es una copia del addon del anterior addon de Herramientas de desarrollador. Debería desinstalar la extensión de navegador de Herramientas de desarrollador y habilitar los addons.
 - Better3.0: Esta extensión de navegador puede interferir con algunos addons. Por suerte, la mayoría de las funciones también están disponibles como addons.
-- Redux DevTools: Esta puede interferir con funciones internas de Scratch Addons. Debería deshabilitar la extensión de Redux DevTools si no la está usando.
 
 ## Seguridad y privacidad
 

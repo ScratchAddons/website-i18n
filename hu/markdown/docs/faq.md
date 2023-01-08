@@ -5,84 +5,83 @@ description: Ez az oldal felsorolja a gyakran feltett kérdéseket a Scratch Add
 
 Ez az oldal felsorolja a gyakran feltett kérdéseket a Scratch Addons bővítménnyel és projekttel kapcsolatban.
 
-## General questions
+## Általános Kérdések
 
 ### Mi az a Scratch Addons?
 
 A Scratch Addons egy "minden-egyben" böngészőbővítmény a Scratch weboldalhoz és a szerkesztőjéhez. Különböző segédfunkciókat és témákat (együtt kiegészítőbelsőknek nevezzük) biztosít a Scratch weboldalához és a szerkesztőhöz is egyaránt. A Scratch Addons küldetése, hogy minden létező – a Scratch közösség különféle tagjai által fejlesztett – Scratch kiegészítőt, userscriptet, userstyle-t egyesítsen egy egyetlen, könnyen-elérhető helyre, továbbra is lehetővé téve a felhasználóinak, hogy kiválaszthassák: melyikeket szeretnék aktiválni, és melyikeket nem.
 
-### Who created Scratch Addons?
+### Ki hozta létre a Scratch Addons-t?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+A Scratch Addons csapatmunka eredménye, melynek vezetője World_Languages névre hallgat. Megtalálhatja a projektben közreműködők listáját a [Készítők](/contributors) oldalon. Ugyan a "Scratch Üzenetkezelő"-t (ang: "Scratch Messaging") és a "Fejlesztői Eszközök"-et (ang: "Developer Tools") eredetileg griffpatch hozta létre, nem ő tartja fenn a bővítményt.
 
-### What does Scratch Addons include?
+### Miket tartalmaz a Scratch Addons?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+A Scratch Addons több mint 100 kiegészítőt foglal magába, amik egyen-egyenként lehetnek működésben, vagy kikapcsolva. Egyes kiegészítőkön további beállításokat is lehet végezni, és néhánynak könnyen kiválasztható sablonjai is vannak, mint ahogy a weboldal témáknál található sötét mód is. A Scratch Addons tartalmaz még egy felugró ablakot is, amelyek megkönnyítik az üzenetek elérését, felhőalapú játékok böngészését, valamint gyorsan elérhetővé teszik a kiegészítőbeállításokat is. A Scratch Addons több nyelvre le van fordítva, így németre, franciára, spanyolra és japánra. Magyarra is többé-kevésbé...
 
-### Is this the same as TurboWarp Addons?
+### Ez ugyanaz, mint a TurboWarp Kiegészítői?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+A [TurboWarp](https://turbowarp.org/)-nak van néhány kiegészítője a Scratch Addons-tól véve, amik az ő szerkesztőjükben a Scratch Addons letöltése nélkül használhatóak. Habár a Scratch Addons a Scratch weboldalához és a felugró ablakhoz is kínál kiegészítőket. Ily módon továbbra is hasznos a Scratch Addons használata, még akkor is, ha csak a TurboWarp-ban programozik is. 
 
-## System requirements
+## Rendszerkövetelmények
 
-### What are the system requirements for Scratch Addons?
+### Mik a Scratch Addons rendszerkövetelményei?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+A Scratch Addons hivatalosan a [Google Chrome](https://google.com/chrome/) asztali verzióján (80-as verziótól felfelé), a [Microsoft Edge](https://www.microsoft.com/en-us/edge)-en (80-as verziótól fölfelé), és a [Mozilla Firefox](https://mozilla.org/firefox/)-on (86-os verziótól) támogatott, de még az ezeken alapuló egyéb asztali böngészőkön is működnie kell. Kérjük nézze meg [ezt az oldalt](../getting-started/installing/) a teljes információhoz.
 
-### Can I use Scratch Addons on a mobile device?
+### Mobileszközön is használhatom a Scratch Addons-t?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Android felhasznáóknak: Igen, de nem javasolt. A főbb böngészők nem engedélyezik a Scratch Addons-t (és egyéb bővítményt), hogy telepítve legyen, szóval ehhez szüksége lesz olyan böngészők használatára, mint a [Kiwi](https://kiwibrowser.com/). A Scratch Addons felhasználói felülete nincs rendesen letesztelve érintőképernyőkön, vagy kis képernyős környezetben, szóval bizonyos funkciók nem működhetnek az elvártaknak megfelelően.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+iOS és iPadOS felhasználóknak: Sajnos nem. Az App Store irányelvei nem engedélyezik a böngészőkivitelezések feltöltését, ami azt jelenti, hogy minden elérhető böngésző ezeken a felületeken csak „újra-festett” Safarik. Ez meg bizony okoz néhány problémát (lásd lejjebb).
 
-### Can I use Scratch Addons on Safari?
+### Használhatom a Scratch Addons-t Safarin is?
 
-Currently, you cannot.
+Jelenleg nem.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+Először is, a Safari bővítményáruháza minden fejlesztőt évi díj fizetésére kötelezi, hogy megjelenítsék a bővítményüket az áruházban. Mivel a Scratch Addons csapata meg nem rendelkezik rendszeres bevételi forrással, s ez nagyon megnehezíti a bővítmény fenntartását. Valamint még technikai gond is akad a böngésző bővítmény Safariba juttatását illetően, ami így egyes főfunkciókat használhatatlanná tesz.
 
-### Can I use Scratch Addons on the offline editor?
+### Használhatom a Scratch Addons-t az offline szerkesztőben?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+A Scratch Addons nem használható a hivatalos Scratch alkalmazással, beleértve az offline szerkesztőt is.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Alternatívaként: a legtöbb szerkesztői kiegészítő elérhető a [TurboWarp](https://turbowarp.org/)-on, aminek van [letölthető appja](https://desktop.turbowarp.org/) Windowsra, macOS-re, és Linuxra is. Továbbá böngészőkön, amik támogatják a Progresszív Webalkalmazásokat (PWA), mint a Google Chrome, letöltheti a TurboWarp szerkesztőjét PWA-ként és használhatja internetkapcsolat nélkül is.
 
-### Are there any incompatible programs?
+### Léteznek inkompatibilis programok?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Néhány böngészőbővítmény és userscript beavatkozhat a Scratch Addonsba. Ha problémákat észlel, megpróbálhatja letiltani a következőket:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
+- Scratch 3 Fejlesztői Eszközök: ez a böngészőbővítmény a Fejlesztői eszközök kiegészítőnek egy másolata. Érdemes letörölnie ezt a böngészőbővítményt, és helyette a Scratch Addons kiegészítőt használnia.
+- Better3.0: Ez a böngészőbővítmény bezavarhat néhány kiegészítő működésébe. Szerencsére a legtöbb funkciója Scratch Addons kiegészítőként is elérhető.
 
-## Security and privacy
+## Biztonság és adatvédelem
 
 ### A Scratch Addons biztonságos?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Igen. A Scratch Addons-nak nem kéne legyen semmilyen biztonsági problémája a legújabbi verzióiban. A Scratch Addons egy nyílt-forráskódú projekt, így a kód ellenőrizve van a Scratch Addons közreműködői által. Továbbá a Chrome Webáruház és a Wirefox Browser add-ons áruháza is, valamint a Microsoft Edge Add-ons is átvizsgál minden egyes Scratch Addons verziót mielőtt közzé tenné azokat.
 
 ### Hogyan jelenthetek egy biztonsági rést?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Ha bármilyen biztonsági sebezhetőséggel találná szembe magát, akkor kérjük vegye fel a kapcsolatot személyesen World_Languages-sel e-mailen keresztül, a következő címre küldve: `worldxlanguages (at) gmail.com`. Ha nem kap 48 órán belül sem választ, akkor kérjük [készítsen egy issue-t](https://github.com/ScratchAddons/ScratchAddons/issues/) említve, hogy küldött egy e-mailt.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+[Elolvashatja a biztonsági irányelveinket](https://github.com/ScratchAddons/ScratchAddons/security/policy), vagy [lecsekkolhatja az advisory-kat, amiket közzé tettünk](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Biztonságban lesz a fiókom, amikor a Scratch Addons-t használom?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Igen. A Scratch fiókjához kapcsolódó funkciók alapos átvizsgálás alá kerülnek a Scratch Addons közreműködői által, hogy biztosra menjünk, nem fogják azok bántani a Scratch fiókját. A Scratch Addons a fiókja hitelesítő adatait biztonságban tartja, és nem fogja módosítani vagy kitörölni a projektjeit, vagy azok hozzátartozóit engedélye nélkül. Mondjuk használhatja a bővítményt fiókhoz kapcsolódó funkciók nélkül is.
 
 Valamint a kiegészítők a Scratch Addonson felülvizsgálva is vannak számos hozzájáruló által a repositoryn, szóval senki nem tud csak úgy becsúsztatni rosszindulatú kódot a szemünk előtt.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Soha nem küldünk el a Scratchhez tartozó bizalamas adataiból, vagy azonosítóinformációiból a böngészőjén kívülre. Nézze meg [a bővítmény biztonsági szabályzatát](/docs/privacy/policies/extension) több információért.
 
-## Using Scratch Addons
+## A Scratch Addons használata
 
-### How do I enable addons?
+### Hogyan engedélyezek kiegészítőket?
 
-To enable addons, first go to the settings by:
+A kiegészítők bekapcsolásához először menjen a beállításokhoz a következők egyikét használva:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- nyissa le a popupot és kattintson a fogaskerék ikonra a jobb felső sarokban.
+- vagy menjen a https://scratch.mit.edu/scratch-addons-extension/settings linkre. Megjegyzés: a link működéséhez szükséges, hogy a bővítmény telepítve legyen.
 
 Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
 
@@ -190,7 +189,7 @@ If you want to suggest an addon for the extension or have some other kind of goo
 
 You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
-## Technical
+## Műszaki
 
 ### Mi is egy "kiegészítő" pontosan?
 
@@ -210,7 +209,7 @@ By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 - Kiegészítők egymásba beavatkozásának elkerülése.
 - Elkerülése a munka másolásának egy másik kiegészítőtől.
 
-## Other 
+## Egyéb
 
 ### How can I add/remove myself to/from the contributors page?
 

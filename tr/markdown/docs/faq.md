@@ -53,7 +53,6 @@ Bazı tarayıcı uzantıları ve userscript'ler, Scratch Eklentileri ile etkile�
 
 - Scratch 3 Geliştirici Araçları: Bu tarayıcı uzantısı, Geliştirici araçları eklentisinin bir kopyasıdır. Geliştirici Araçları tarayıcı uzantısını kaldırmalı ve bunun yerine eklentiyi açmalısınız.
 - Better3.0: Bu tarayıcı uzantısı bazı eklentilere müdahale edebilir. Neyse ki, özelliklerinin çoğu eklenti olarak da mevcuttur.
-- Redux DevTools: Bu, Scratch Eklentileri'nin dâhilî çalışmasına müdahale edebilir. Redux DevTools uzantısını kullanmıyorsanız devre dışı bırakmalısınız.
 
 ## Güvenlik ve gizlilik
 

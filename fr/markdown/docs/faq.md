@@ -1,23 +1,23 @@
 ---
 title: Foire Aux Questions
-description: Cette page liste toute les questions posées fréquemment sur l'extension et le projet Scratch Addon.
+description: Cette page liste toutes les questions posées fréquemment sur l'extension et le projet Scratch Addon.
 ---
 
-Cette page liste toute les questions posées fréquemment sur l'extension et le projet Scratch Addon.
+Cette page liste toutes les questions posées fréquemment sur l'extension et le projet Scratch Addon.
 
-## Questions général
+## Questions générales
 
 ### Qu'est-ce que Scratch Addons ?
 
-Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toute les extensions de Scratch, les scripts et les styles utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
+Scratch Addons est une extension de navigateur "tout-en-un" pour le site web Scratch et son éditeur de projet. Elle fournit des fonctionnalités et des thèmes (appelé addons en interne), autant pour le site Scratch que pour son éditeur de projet. La mission de Scratch Addons est de combiner toutes les extensions de Scratch, les scripts et les styles utilisateur développés par plusieurs membres de la communauté Scratch, vers un seul et même endroit facile d'accès, en laissant les utilisateurs choisir ceux à activer.
 
 ### Qui a créé Scratch Addons ?
 
-Scratch Addons est un projet réalisé par une équipe menée par World_Languages. Vous pouvez trouver une liste des gens qui y ont contribué sur la page des [Contributeurs](/contributors). Bien que les addons "Messagerie Scratch" et "Outils de développement" ont été initialement créés par Griffpatch, il ne gère pas l'extension.
+Scratch Addons est un projet réalisé par une équipe menée par World_Languages. Vous pouvez trouver une liste des personnes qui y ont contribué sur la page des [Contributeurs](/contributors). Bien que les addons "Messagerie Scratch" et "Outils de développement" ont été initialement créés par Griffpatch, il ne gère pas l'extension.
 
 ### Que comprend Scratch Addons ?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons comprend plus de 100 addons, qui peuvent être activés ou désactivés individuellement. Certains addons peuvent aussi être configurés, et certains d'entre eux ont des préréglages, comme le mode sombre pour le thème du site web. Scratch Addons inclut aussi un popup, qui peut être utilisé pour accéder rapidement à ses messages, aux jeux cloud, ainsi qu'à la page des paramètres. Scratch Addons est traduit dans plusieurs langues, comprenant l'anglais, l'allemand, le français, l'espagnol et le japonais.
 
 ### Is this the same as TurboWarp Addons?
 
@@ -30,19 +30,19 @@ Scratch Addons includes over 100 addons, which can be enabled or disabled indivi
 
 Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
-### Can I use Scratch Addons on a mobile device?
+### Puis-je utiliser Scratch Addons sur un appareil mobile ?
 
 For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
 
 For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
-### Can I use Scratch Addons on Safari?
+### Puis-je utiliser Scratch Addons sur Safari ?
 
-Currently, you cannot.
+Pour le moment, non.
 
 First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
 
-### Can I use Scratch Addons on the offline editor?
+### Puis-je utiliser Scratch Addons sur l'éditeur hors ligne ?
 
 Scratch Addons cannot be used on the official Scratch application, including the offline editor.
 
@@ -54,15 +54,14 @@ Some browser extensions and userscripts may interfere with Scratch Addons. If yo
 
 - Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
 - Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
-- Redux DevTools: This can interfere with the internal workings of Scratch Addons. You should disable the Redux DevTools extension if you are not using it.
 
-## Security and privacy
+## Sécurité et confidentialité
 
 ### Scratch Addons est-il sûr ?
 
 Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
 
-### Comment puis-je signaler une faille de sécurité ?
+### Comment puis-je signaler une faille de sécurité ?
 
 If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
 
@@ -76,7 +75,7 @@ Les addons de Scratch Addons ont également été audités par plusieurs contrib
 
 We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
 
-## Using Scratch Addons
+## Utiliser Scratch Addons
 
 ### How do I enable addons?
 
@@ -116,23 +115,23 @@ Due to technical limitations, videos recorded with this addon are in the WebM fo
 
 To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
 
-### Comment activer l'ajout easter egg ?
+### Comment activer l'addon easter egg ?
 
 To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
 
 Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-## Contributing
+## Contribuer
 
 ### Comment puis-je contribuer à Scratch Addons ?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+Premièrement, nous sommes heureux de savoir que contribuer à Scratch Addons vous intéresse !
 
 As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
 
 - **Contribuez du code**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  Si vous êtes familier avec JavaScript, HTML, et CSS, vous pouvez contribuer en réparant les bugs, en faisant des ajustements, ou en ajoutant des fonctionnalités.
 
   To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
 
@@ -170,9 +169,9 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
   You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
 
-### Comment créer mon propre addon?
+### Comment créer mon propre addon ?
 
-Read more about it [here](/docs/develop/getting-started).
+Apprenez en plus sur ce sujet [ici](/docs/develop/getting-started).
 
 ### Qu'est-ce que je peux faire si je trouve un problème ?
 
@@ -193,7 +192,7 @@ You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAd
 
 ## Technical
 
-### Qu'est-ce qu'un "Addon" exactement ?
+### Qu'est-ce qu'un "addon", exactement ?
 
 Un addon est similaire à une extension ou un script d'utilisateur, mais il utilise une API spéciale fourni par l'extension Scratch Addon. Cet API autorise l'addon à lancer des scripts sur une page Scratch (script d'utilisateur), lancer des scripts d'arrière plan(script persistant), ou d'appliquer des styles sur le site Web Scratch (style d'utilisateur). 
 
@@ -211,7 +210,7 @@ By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 - Éviter aux addons d’interférer les uns avec les autres. 
 - Éviter de dupliquer le travail de différents addons. 
 
-## Other 
+## Autres
 
 ### How can I add/remove myself to/from the contributors page?
 
@@ -219,6 +218,6 @@ If you want your name to be on the page, please read and follow the instructions
 
 If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
 
-### J'ai plus de question!
+### J'ai plus de questions !
 
 If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

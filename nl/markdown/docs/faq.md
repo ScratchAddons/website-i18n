@@ -53,7 +53,6 @@ Sommige browserextensies en userscripts samen met Scratch Addons kunnen probleme
 
 - Scratch 3 Developer Tools: Deze browserextensie is een kopie van de Ontwikkelaarstools-addon. Verwijder de Developer Tools-browserextensie en gebruik daarvoor in de plaats de addon.
 - Better3.0: Deze browserextensie kan problemen veroorzaken met een paar addons. Gelukkig zijn de meeste van zijn functies ook beschikbaar als addons.
-- Redux DevTools: Dit kan problemen veroorzaken met de interne manier waarop Scratch Addons werkt. Zet de Redux Devtools-extensie uit als je het niet gebruikt.
 
 ## Beveiliging en privacy
 
