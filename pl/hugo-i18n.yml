@@ -2,6 +2,10 @@ Global:
   ScratchAddons: Dodatki Scratch
   LogoAlt: logo Scratch Addons
   Install: Zainstaluj
+  InstallBrowser:
+    Firefox: Zainstaluj dla Firefox
+    Chrome: Zainstaluj dla Chrome
+    Edge: Zainstaluj dla Edge
   ReadTime:
     one: "{{.Count}} minuta"
     other: "{{.Count}} minuty"
@@ -15,11 +19,13 @@ Global:
     Last: Idź do ostatniego
     SlideX: Idź do obiektu {{ .Count }}
 Links:
+  Docs: Dokumentacja
   Addons: Dodatki
   Credits: Twórcy
   PrivacyPolicy: Polityka Prywatności
   DiscordCom: Społeczność Discord
   Discussion: Forum Dyskusyjne
+  Community: Społeczność
 Nav:
   Feedback: Prześlij opinię
   Repository: Repozytorium
@@ -40,6 +46,7 @@ Footer:
     Repository: Repozytorium
     Documentation: Dokumentacja
   Legal:
+    NoAffiliation: Scratch Addons nie jest powiązany, stowarzyszony ani w żaden sposób oficjalnie związany z witryną Scratch lub organizacjami, które ją utrzymują.
     License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
   Intro: Obecnie {{ .Version }} z {{ .AddonCount }} dodatkami.
 DarkTheme:
@@ -49,6 +56,7 @@ Docs:
   SectionSiteName: Dokumentacja Dodatków Scratch
   DocsNav: Nawigacja po dokumentacji
   DocsNavToggleLabel: Przełącz pasek boczny dokumentacji
+  TOC: Spis treści
   LastUpdated: Ostatni raz aktulizowane {{.Date}}przez {{.Name}}w zmianie {{.Commit}}.
   Improve: Ulepsz tą stronę.
   SectionPages: Sekcje Strony
@@ -140,7 +148,7 @@ Blog:
 CreditsPage:
   NContributors: "{{.Count}} współtwórcy"
   NProfilePicture: "{{.Name}} obrazek profilowy"
-  NCommits: "{{.Count}} commitów"
+  NCommits: "{{.Count}} zmian"
 Comments:
   Heading: Komentarze
   Description: Pamiętaj, aby sprawdzić {{ .OpenTag1 }}kodeks postępowania{{ .CloseTag1 }}. Możesz sprawdzić komentarze na {{ .OpenTag2 }}dyskusji GitHub{{ .CloseTag2 }}, oraz edytować lub usuwać swój komentarz.

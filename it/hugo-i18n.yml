@@ -56,6 +56,8 @@ Docs:
   SectionSiteName: Documentazione di Scratch Addons
   DocsNav: Navigazione documentazione
   DocsNavToggleLabel: Mostra/nascondi barra di navigazione della documentazione
+  TOC: Contenuti
+  TOCToggleLabel: Apre/chiude il menu della tabella dei contenuti
   LastUpdated: Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}.
   Improve: Migliora questa pagina.
   SectionPages: Pagine delle sezioni
