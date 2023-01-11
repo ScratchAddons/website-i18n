@@ -51,6 +51,8 @@ Docs:
   SectionSiteName: Scratch Addons-Dokumentation
   DocsNav: Dokumentationsnavigation
   DocsNavToggleLabel: Navigationsleiste umschalten
+  TOC: Inhalt
+  TOCToggleLabel: Inhaltsverzeichnis ein- und ausblenden
   LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
   Improve: Diese Seite verbessern.
   SectionPages: Sektions-Seiten
