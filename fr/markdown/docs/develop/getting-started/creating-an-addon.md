@@ -7,8 +7,8 @@ Si possible, désactivez l'extension Scratch Addons que vous avez téléchargée
 ## Étape 1 : Lisez les [bases des addons](/docs/develop/getting-started/addon-basics/)
 Assurez-vous de lire cet article pour vous familiariser avec la terminologie.
 
-## Étape 2 : Fork/clonez le repo
-Ou téléchargez en ZIP, si vous préférez. En d'autres termes, téléchargez juste le code source localement.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Étape 3 : Chargez l'extension dans Chrome
 *Note : Chrome est recommandé pour travailler sur des addons. Néanmoins, les addons devraient fonctionner sur Firefox et Edge.*
