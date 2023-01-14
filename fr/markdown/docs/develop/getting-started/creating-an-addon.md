@@ -18,7 +18,7 @@ C'est tout, vous avez chargé l'extension ! Ça devrait ressembler à cela : ![i
 Note : il n'y a pas de risques à l'ignorer si il y a marqué "erreurs". C'est juste un avertissement pour une clé manifeste non-reconnue requise par Firefox.
 
 ## Étape 4 : À propos de quoi est votre addon ?
-Maintenant vient la partie drôle !
+Maintenant vient la partie amusante !
 Qu'est-ce que ton module fait? Pensez à un Identifiant de description (pas d’espaces et des caractères spéciaux, sauf des tirets)
 On y va?
 
