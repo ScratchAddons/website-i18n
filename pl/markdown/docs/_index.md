@@ -1,7 +1,7 @@
 ---
 title: Strona Główna
 ---
-**Witaj w Dokumentacji Dodatków Scratch!**
+**Witaj w Dokumentacji Scratch Addons!**
 
 Jeśli chcesz stworzyć dodatek, [zacznij tutaj](develop/getting-started/creating-an-addon).
 
@@ -11,6 +11,6 @@ Jeśli potrzebujesz pomocy, zaczynając ze Scratch Addons, [spójrz tutaj](getti
 
 Jeśli jesteś zainteresowany wyglądem projektu, [zajrzyj tutaj](reference/design).
 
-Masz pytania dotyczące Dodatków Scratch? [Zapytaj je tutaj](https://github.com/ScratchAddons/ScratchAddons/discussions)!
+Masz pytania dotyczące Scratch Addons? [Zadaj je tutaj](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
 Pomysły na nowe dodatki można znaleźć w [karcie problemów](https://github.com/ScratchAddons/ScratchAddons/issues) (issues tab).

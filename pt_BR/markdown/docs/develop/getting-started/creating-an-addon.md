@@ -7,8 +7,8 @@ Se possível, desabilite a extensão Scratch Addons que você baixou da loja ant
 ## Passo 1: Leia sobre [os básicos de um addon](/docs/develop/getting-started/addon-basics/)
 Leia aquele artigo para se familiarizar com a terminologia.
 
-## Passo 2: Fork/clone o repositório
-Ou baixe o código como ZIP, se quiser. Em outras palavras, só baixe o código fonte para o seu computador.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Passo 3: Carregue a extensão no Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
@@ -76,5 +76,5 @@ Veja se o seu addon não causa problemas em outros addons.
 Veja se o seu código é inteligível; é melhor ter comentários desnecessários do que nenhum.
 
 ## Passo 12: Mande um pull request!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
 Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

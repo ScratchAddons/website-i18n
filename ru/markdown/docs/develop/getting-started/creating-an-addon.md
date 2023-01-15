@@ -7,8 +7,8 @@ title: Создание аддона
 ## Шаг 1: Прочитайте о [основах аддона](/ru/docs/develop/getting-started/addon-basics/)
 Не забудьте прочитать эту статью, чтобы знать терминологию.
 
-## Шаг 2: Сделайте fork/клон репозитории
-Или скачайте как ZIP, если хотите. Иными словами, просто скачайте исходный код локально.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Шаг 3: Загрузите расширение в Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
@@ -76,5 +76,5 @@ Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon
 Также не забудьте поменять название и описание на английское.
 
 ## Шаг 12: Отправьте pull запрос!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
 Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

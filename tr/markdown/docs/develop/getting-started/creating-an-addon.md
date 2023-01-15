@@ -7,8 +7,8 @@ Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğin
 ## 1. Adım: [Eklenti ile ilgili temel bilgiler](/docs/develop/getting-started/addon-basics/) hakkında bilgi edinin
 Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
 
-## 2. Adım: Depoyu çatallayın/klonlayın
-Veya isterseniz ZIP olarak indirin. Başka bir deyişle, kaynak kodunu yerel olarak indirmeniz yeterlidir.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## 3. Adım: Uzantıyı Chrome'a yükleyin
 *Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de, eklentilerin Firefox ve Edge'de de çalışması bekleniyor.* 
@@ -74,5 +74,5 @@ Eklentinizin diğer eklentilerin çalışmasını etkilemediğinden emin olun.
 Kodunuzun anlaşılır olduğundan emin olun; Gereksiz yorumlara sahip olması, hiç yorum olmamasından daha iyidir.
 
 ## 12. Adım: Bir pull request gönderin!
-[Katkıda bulunan yönergelerimiz](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md)deki adımları izleyin. Basitçe söylemek gerekirse, henüz yapmadıysanız depoyu fork'layın, yeni eklentinizi yapın ve bir çekme isteği gönderin!
-Bazı değişiklikler yapmanızı isteyebileceğimizi unutmayın, ancak eklentinizi minimum düzeyde uygun olduğu sürece muhtemelen kabul edeceğiz.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

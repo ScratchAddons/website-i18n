@@ -7,8 +7,8 @@ Wanneer mogelijk, schakel de Scratch Addons-extensie die je hebt gedownload van 
 ## Stap 1: Lees over [de addon-basis](/docs/develop/getting-started/addon-basics/)
 Lees dat artikel om de termen te weten.
 
-## Stap 2: Vertak/kopieer het archief
-Of download als ZIP als je dat wilt. In andere woorden, download gewoon de broncode lokaal.
+## Stap 2: Vertak/kopieer het [archief](https://github.com/ScratchAddons/ScratchAddons)
+Volg [deze instructies](https://scratchaddons.com/docs/getting-started/installing/#from-source) om lokaal de broncode te downloaden.
 
 ## Stap 3: Laad de extensie in Chrome
 *Opmerking: Chrome is aanbevolen voor het werken aan addons. Addons zouden daarentegen wel op Firefox en Edge moeten werken.* 
@@ -75,5 +75,5 @@ Zorg ervoor dat je addon geen andere addons verhindert.
 Zorg ervoor dat je code begrijpbaar is; het hebben van onnodige opmerkingen is beter dan niets.
 
 ## Stap 12: Maak een pull-verzoek!
-Volg de stappen in onze [bijdragingsrichtlijnen](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simpelweg: vertak het archief als je dat nog niet hebt gedaan, commit je nieuwe addon en verstuur een pull-verzoek!  
-Onthoud dat we je kunnen vragen wat veranderingen te maken, we accepteren je addon echter waarschijnlijk wel als het minimaal geschikt is.
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

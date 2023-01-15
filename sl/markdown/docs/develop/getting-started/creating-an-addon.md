@@ -7,8 +7,8 @@ Preden nadaljujete, izključite morebitno že nameščeno razširitev Scratch Ad
 ## 1. korak: Preberite [članek o dodatkih](/docs/develop/getting-started/addon-basics/)
 Najprej preberite članek na zgornji povezavi, da se seznanite z izrazi.
 
-## 2. korak: Fork/podvojite kodo
-Ali prenesite kot ZIP, če imate to raje. Skratka, prenesite kodo na svoj računalnik.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## 3. korak: Naložite razširitev v Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
@@ -75,5 +75,5 @@ Make sure your addon doesn't break other addons.
 Make sure your code is understandable; having unnecessary comments is better than no comments.
 
 ## Step 12: Send a pull request!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
 Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.

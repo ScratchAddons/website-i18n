@@ -7,8 +7,8 @@ Si és possible, desactiva l'extensió Scratch Addons que has baixat de la botig
 ## Pas 1: llegeix les [fons bàsiques dels complements](/docs/develop/getting-started/addon-basics/)
 Assegura't de llegir aquest article per familiaritzar-te amb la terminologia.
 
-## Pas 2: bifurca/clona el repo
-O descarra'l com a ZIP, si vols. En altres paraules, només cal que baixis el codi font.
+## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
+Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Pas 3: Carrega l'extensió al Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
@@ -75,5 +75,5 @@ Assegura't que el teu addon no trenqui altres addons.
 Assegura't que el teu codi sigui comprensible; tenir comentaris innecessaris és millor que no fer comentaris.
 
 ## Pas 12: Envian's una sol·licitud!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
 Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
