@@ -75,5 +75,5 @@ Zorg ervoor dat je addon geen andere addons verhindert.
 Zorg ervoor dat je code begrijpbaar is; het hebben van onnodige opmerkingen is beter dan niets.
 
 ## Stap 12: Maak een pull-verzoek!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+Volg de stappen in onze [bijdragingsrichtlijnen](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simpelweg: vertak het archief als je dat nog niet hebt gedaan, commit je nieuwe addon en verstuur een pull-verzoek!  
+Onthoud dat we je kunnen vragen wat veranderingen te maken, we accepteren je addon echter waarschijnlijk wel als het minimaal geschikt is.
