@@ -267,7 +267,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"text": "L'option \"regarder le curseur\" peut impacter les performances quand l'éditeur est ouvert.",
 				"id": "watch"
 			}
 		],
@@ -801,7 +801,7 @@
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Menus déroulants colorés",
-		"description": "Menus contextuels colorés quuan on fait un clic droit sur un bloc ",
+		"description": "Menus contextuels colorés quand on fait un clic droit sur un bloc.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -877,8 +877,8 @@
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Extra key options",
-		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more. These keys will work even for users who do not have this addon.",
+		"name": "Prise en charge de touches supplémentaire",
+		"description": "Ajoute plus de touches aux listes déroulantes des blocs \"touche () pressée ?\" et \"quand la touche () est pressée\", telles qu'entrée, point, virgule, etc. Ces touches marcheront même pour les utilisateurs qui n'ont pas cet addon.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
@@ -960,7 +960,7 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Couleurs des blocs personnalisable",
+		"name": "Couleurs de bloc personnalisables",
 		"description": "Personnalisez la couleur des blocs pour chaque catégorie de bloc dans l'éditeur.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
@@ -1350,7 +1350,7 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Cacher les stats du projet",
-		"description": "Permet de cacher les compteurs de loves, de favoris, de remix et de commentaires des projets",
+		"description": "Permet de masquer les cœurs, les favoris, les remix, les commentaires et le nombre de vues sur les pages de projets, la page d'accueil, et dans Mes projets.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1597,8 +1597,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Space to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"name": "Insérer des blocs par nom",
+		"description": "Cliquez au milieu de la zone de code, utilisez Ctrl+Espace ou Shift+Clic pour faire apparaître une boîte de saisie flottante dans laquelle vous pouvez taper le nom d'un bloc (ou des parties de celui-ci) et faire glisser le bloc dans la zone de code. Maintenez la touche Maj tout en faisant glisser le bloc pour éviter de fermer la boîte lorsque vous ajoutez plusieurs blocs à la fois.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1609,7 +1609,7 @@
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "Cet addon faisait auparavant partie de l'addon \"developer tools\" mais a été déplacé ici.",
 				"id": "developer-tools"
 			}
 		],
@@ -1619,7 +1619,7 @@
 	{
 		"id": "more-links",
 		"name": "Plus de liens",
-		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
+		"description": "Rend les URL dirigeant vers un site autre que scratch.mit.edu cliquables.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1727,13 +1727,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Toujours afficher le pavé numérique",
+		"description": "Afficher l'entrée du pavé numérique de Scratch lors de l'édition des champs numériques sur tous les appareils, au lieu de seulement l'afficher sur les  appareils à écran tactile.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "Un pavé numérique s'affichera lors de l'édition des entrées numériques de certains blocs, comme \"set x to\".",
 				"id": "explanation"
 			}
 		],
@@ -1853,7 +1853,10 @@
 		"name": "Barre de chargement du projet",
 		"description": "Ajoute une barre de chargement lors du chargement et la sauvegarde des projets.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2191,8 +2194,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "Réduire les propriétés des sprites",
+		"description": "Cache le panneau de propriétés du sprite par défaut, comme dans Scratch 2.0. Utilisez le bouton info sur le sprite actuellement sélectionné ou double-cliquez sur un sprite pour afficher à nouveau le panneau des propriétés. Pour le réafficher, utilisez le bouton de réduction dans le panneau de propriétés ou double-cliquez sur un sprite.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }

@@ -267,7 +267,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"text": "Когда открыт редактор, параметр \"Следить за указателем мыши\" может влиять на производительность.",
 				"id": "watch"
 			}
 		],
@@ -373,7 +373,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"text": "Разрывы строк видны только пользователям, у которых включен этот аддон. Они будут отображаться как пробелы для других.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -713,7 +713,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "Это можно получить и без аддона, нажав alt+клик по объекту",
 				"id": "vanilla"
 			}
 		],
@@ -868,7 +868,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Инструменты разработчика",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
+		"description": "Добавляет новые опции в меню редактора: копирование/вставка блоков,улучшенная очистка,и прочее!",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -877,8 +877,8 @@
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Extra key options",
-		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more. These keys will work even for users who do not have this addon.",
+		"name": "Дополнительные опции клавиш",
+		"description": "Добавляет больше клавиш в выпадающие списки блоков \"клавиша () нажата?\" и \"когда клавиша () нажата\", такие как Enter, точка, запятая и другие.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
@@ -1597,8 +1597,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Space to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"name": "Вставлять блоки по имени",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1609,7 +1609,7 @@
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "Этот аддон раньше был частью \"инструментов разработчика\" ,но теперь переехал сюда",
 				"id": "developer-tools"
 			}
 		],
@@ -1619,7 +1619,7 @@
 	{
 		"id": "more-links",
 		"name": "Больше ссылок",
-		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
+		"description": "Позволяет нажимать на внешние ссылки как и на внутренние ссылки scratch.mit.edu",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1727,13 +1727,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Всегда показывать панель с цифрами",
+		"description": "Показывает панель ввода ,при редактировании чисел , на всех устройствах ,а не только на сенсорных",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "Панель с цифрами будет показываться при редактировании чисел в блоках ,таких как \"установить x в\"",
 				"id": "explanation"
 			}
 		],
@@ -1820,8 +1820,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"name": "Привязка в редакторе костюмов",
+		"description": "Привязывает объекты в редакторе костюмов ,к различным опорам ,как в более профессиональных векторных редакторах",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1853,7 +1853,10 @@
 		"name": "Индикатор загрузки проекта",
 		"description": "Добавляет индикатор загрузки и сохранения проектов.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2191,8 +2194,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "Прятать панель со свойствами спрайта",
+		"description": "Прячет панель со свойствами спрайта ,как это было в scratch 2.0.Используй кнопку \"i\" на выбранном спрайте ,или нажми два раза на спрайт ,чтобы показать панель со свойствами. Чтобы обратно скрыть панель, нажми на кнопку скрытия на панели ,или же, нажми на спрайт два раза",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }

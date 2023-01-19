@@ -710,7 +710,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Este comportamiento también puede ser logrado sin este addon mediante Alt+Click a un objeto",
+				"text": "Este comportamiento también puede ser logrado sin este addon mediante Alt+Click a un objeto.",
 				"id": "vanilla"
 			}
 		],
@@ -865,7 +865,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Herramientas de desarrollador",
-		"description": "¡Añade nuevas opciones de menú al editor: copiar/pegar bloques, mejor ordenado de bloques, y más!",
+		"description": "Añade nuevas opciones de menú al editor: copiar/pegar bloques, mejor ordenado de bloques, ¡y más!",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -1595,7 +1595,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Insertar bloques por nombre",
-		"description": "Haga click medio en el área de código, use Ctrl+Espacio o Shift+Espacio para mostrar una entrada  donde pueda  escribir el nombre de un bloque (o partes de él) y arrastrar el bloque al área de código. Mantenga apretado Shift mientras arrastra para evitar  cerrar la entrada mientras cuando añada varios bloques al mismo tiempo.",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1722,7 +1722,7 @@
 	{
 		"id": "number-pad",
 		"name": "Siempre mostrar teclado numérico",
-		"description": "Mostrar el teclado numérico de Scratch cuando se editen campos numéricos en cualquier dispositivo, en vez de solo los con pantalla táctil.",
+		"description": "Mostrar el teclado numérico de Scratch cuando se editen campos numéricos en cualquier dispositivo, en vez de solo en los con pantalla táctil.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
@@ -1847,7 +1847,10 @@
 		"name": "Barra de progreso en proyectos",
 		"description": "Agrega una barra de progreso cuando los proyectos estén cargándose o guardandose.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

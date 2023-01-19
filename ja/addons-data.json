@@ -1593,7 +1593,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "名前からブロックを追加",
-		"description": "コードエリアにてマウスの中ボタンを押すか、Ctrl+スペースまたはShift+スペースを押して表示される入力欄にブロックの名前を入力してドラッグすると、ブロックを追加できる。Shiftキーを押しながらドラッグすると、画面を閉じずに複数のブロックを追加できる。",
+		"description": "コードエリアにてマウスの中ボタンを押すか、Ctrl+スペースまたはShift+クリックで表示される入力欄にブロックの名前を入力してドラッグすると、ブロックを追加できる。Shiftキーを押しながらドラッグすると、画面を閉じずに複数のブロックを追加できる。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1848,7 +1848,10 @@
 		"name": "読み込み進捗バー",
 		"description": "プロジェクトの読み込みや保存の進捗状況を表示する。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

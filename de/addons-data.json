@@ -1598,7 +1598,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Blöcke mit Namen einfügen",
-		"description": "Drücke Strg+Leertaste, Umschalt+Leertaste oder klicke mit der mittleren Maustaste auf den Codebereich, um ein schwebendes Eingabefeld hervorzubringen, in dem du den Namen eines Blocks (oder Teile davon) eingeben und in den Codebereich ziehen kannst. Halte die Umschalttaste während des Ziehens gedrückt, um das Popup beim Hinzufügen von mehreren Blöcken geöffnet zu halten.",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1853,7 +1853,10 @@
 		"name": "Projektladebalken",
 		"description": "Fügt ein Ladebalken beim Laden und Speichern von Projekten hinzu.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

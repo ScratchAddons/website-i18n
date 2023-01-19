@@ -1597,8 +1597,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Space to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"name": "Wstaw bloki według nazwy",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1609,7 +1609,7 @@
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "Ten dodatek był wcześniej częścią dodatku „narzędzia developerskie”, ale został przeniesiony tutaj.",
 				"id": "developer-tools"
 			}
 		],
@@ -1727,13 +1727,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Zawsze pokazuj klawiaturę numeryczną",
+		"description": "Pokazuje klawiaturę numeryczną Scratcha podczas edycji pól liczbowych na wszystkich urządzeniach, a nie tylko na urządzeniach z ekranem dotykowym.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "Podczas edycji liczb w niektórych blokach, takich jak \"ustaw x na\", pojawi się klawiatura numeryczna.",
 				"id": "explanation"
 			}
 		],
@@ -1793,7 +1793,7 @@
 	{
 		"id": "opacity-slider",
 		"name": "Suwak przejrzystości",
-		"description": "Adds an opacity slider to the costume editor color picker.",
+		"description": "Dodaje suwak przezroczystości do narzędzia do wybierania kolorów w edytorze kostiumów.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
 		"info": [
@@ -1853,7 +1853,10 @@
 		"name": "Pasek postępu projektu",
 		"description": "Dodaje pasek postępu do wczytywania i zapisywania projektów.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1960,7 +1963,7 @@
 	{
 		"id": "rename-broadcasts",
 		"name": "Zmień ogłoszenie",
-		"description": "Adds an option to rename broadcast messages in the broadcast blocks' dropdowns.",
+		"description": "Dodaje możliwość zmiany nazwy komunikatów w blokach nadawczych.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -2348,7 +2351,7 @@
 	},
 	{
 		"id": "vol-slider",
-		"name": "Project volume slider",
+		"name": "Suwak głośności projektu",
 		"description": "Adds a volume slider next to the green flag controls.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [

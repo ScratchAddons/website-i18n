@@ -373,7 +373,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"text": "Le interruzioni di linea saranno visibili solo agli utenti che hanno abilitato questo addon. Per tutti gli altri verranno visualizzate come spazi.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -710,7 +710,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "Questo comportamento può essere ottenuto anche usando Alt+Click sugli oggettim, senza abilitare questo addon.",
 				"id": "vanilla"
 			}
 		],
@@ -1595,7 +1595,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Inserisci il nome dei blocchi ",
-		"description": "Il click del pulsante centrale del mouse nell'area del codice oppure la pressione di Ctrl+Spazio o Shift+Spazio farà comparire una casella dove puoi inserire il nome del blocco (o parte del nome) e da cui potrai poi trascinare il blocco trovato direttamente nell'area del codice. Tieni premuto Shift mentre lo trascini per evitare di chiudere la casella nel caso tu voglia aggiungere più blocchi.",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1724,13 +1724,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Mostra sempre tastierino numerico",
+		"description": "Mostra il tastierino numerico di Scratch su tutti i dispositivi quando si modificano gli argomenti numerici, non soltanto sui dispositivi touch.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "Comparirà un tastierino numerico quando si modificano gli argomenti numerici di un blocco, ad esempio il blocco \"vai dove x è\".",
 				"id": "explanation"
 			}
 		],
@@ -1817,8 +1817,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"name": "Editor dei costumi magnetico",
+		"description": "Allinea gli oggetti dell'editor dei costumi ai riquadri che bordano gli oggetti e ai nodi degli elementi vettoriali",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1850,7 +1850,10 @@
 		"name": "Barra avanzamento progetto",
 		"description": "Aggiunge una barra che mostra l'avanzamento quando i progetti vengono caricati o salvati.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2188,8 +2191,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "Informazioni degli sprite collassabili",
+		"description": "Nasconde l'area delle informazioni per impostazione predefinita, come in Scratch 2.0. Usa il pulsante informazioni dello sprite selezionato o fai doppio-click su uno sprite per mostrare di l'area delle informazioni. Per nasconderla nuovamente usa il pulsante nascondi nell'area delle informazioni o fai di nuovo doppio-click su uno sprite.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }

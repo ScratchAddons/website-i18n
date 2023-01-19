@@ -1593,7 +1593,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "編輯積木的名字",
-		"description": "中鍵單擊編程區域，使用 Ctrl+Space 或 Shift+Space 調出一個浮動輸入框，您可以在其中鍵入塊（或部分塊）的名稱並將塊拖到代碼區域中。 拖動時按住 Shift 鍵以避免在一次添加多個塊時關閉框。",
+		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1843,7 +1843,10 @@
 		"name": "專案進度條",
 		"description": "在讀取或儲存專案時顯示目前進度。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "GarboMuffin" },
+			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
