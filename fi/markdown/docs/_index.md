@@ -1,7 +1,7 @@
 ---
 title: Etusivu
 ---
-**Tervetuloa Scratch Addons -dokumentteihin!**
+**Tervetuloa Scratch-lisäosien dokumentteihin!**
 
 Jos harkitset lisäosan luomista, [aloita tästä](kehitä/aloita/lisäosan-luominen).
 

@@ -7,8 +7,8 @@ Se possibile, per evitare problemi disabilita l'estensione Scratch Addons che ha
 ## Passo 1: Leggi le [informazioni di base sugli addon](/docs/develop/getting-started/addon-basics/)
 Assicurati di leggere quel paragrafo per acquisire familiarità con la terminologia.
 
-## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
+## Passo 2: Forka/clona il [repository](https://github.com/ScratchAddons/ScratchAddons)
+Per scaricare il codice sorgente in locale, segui [queste istruzioni](https://scratchaddons.com/docs/getting-started/installing/#from-source).
 
 ## Passo 3: Carica l'estensione in Chrome
 *Nota: Chrome è raccomandato per lavorare con gli addon. Ciononostante, gli addon dovrebbero funzionare anche in Firefox e Edge.*  
@@ -75,5 +75,5 @@ Assicurati che il tuo addon non interferisca negativamente con gli altri addon.
 Assicurati che il tuo codice sia comprensibile; commenti non indispensabili sono sempre meglio che nessun commento.
 
 ## Passo 12: Invia una richiesta di pull!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+Segui i passi che trovi nelle nostre [linee guida per chi contribuisce codice](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). In poche parole, se non lo hai già fatto forka il repository, fai il commit del tuo addon a fai una richiesta di pull!  
+Ricorda che potremmo richiederti di fare delle modifiche, ma accetteremo il tuo addon sempre che sia idoneo.
