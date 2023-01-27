@@ -86,5 +86,5 @@ Per completare l'aggiornamento (assumendo che tu abbia seguito i passi di aggior
 6. Seleziona il file manifest.json nella cartella che hai estratto.
 7. L'estensione dovrebbe essere ora caricata.
 
-Nota: gli add-ons temporanei di Firefox sono effettivamente temporanei. Quando si riavvia Firefox vengono rimossi, quindi se hai bisogno di usare ogni volta la versione di sviluppo degli Scratch Addons ti suggeriamo di usare un browser basato su Chromium, come ad esempio Google Chrome.
+Nota: gli add-ons temporanei di Firefox sono realmente temporanei e quando si riavvia Firefox vengono rimossi. Quindi, se hai bisogno di usare ogni volta la versione di sviluppo degli Scratch Addons. ti suggeriamo di usare un browser basato su Chromium, come ad esempio Google Chrome.
 

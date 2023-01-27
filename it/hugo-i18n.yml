@@ -60,7 +60,7 @@ Docs:
   TOCToggleLabel: Apre/chiude il menu della tabella dei contenuti
   LastUpdated: Ultimo aggiornamento il {{.Date}} da parte di {{.Name}} per la consegna {{.Commit}}.
   Improve: Migliora questa pagina.
-  SectionPages: Pagine delle sezioni
+  SectionPages: Pagine della sezione
 PlayerModal:
   LabelPlay: Riproduci
   AltText: Clicca per guardare questo video.
@@ -87,7 +87,7 @@ IndexPage:
   Features:
     Heading: Funzionalità
     AddonsHeading: Addon
-    AddonsParagraph: ScratchAddons è una raccolta di addon, ossia di funzionalità che possono migliorare la tua esperienza con il sito e con l'editor di Scratch.
+    AddonsParagraph: Scratch Addons è una raccolta di addon, ossia di funzionalità che possono migliorare la tua esperienza con il sito e con l'editor di Scratch.
     CustomizableHeading: Personalizzabile
     CustomizableParagraph: L'interfaccia di Scratch Addons è facile da usare e ti permette di controllare le impostazioni di ogni funzionalità e di ogni tema.
     InternationalHeading: Internazionale

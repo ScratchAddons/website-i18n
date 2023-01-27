@@ -21,7 +21,7 @@ Scratch Addons include oltre 100 addons, che possono essere abilitati o disabili
 
 ### Sono gli stessi addon di TurboWarp?
 
-[TurboWarp](https://turbowarp.org/) contiene già alcuni addon di ScratchAddons che possono essere usati nell'editor senza dover installare Scratch Addons. Scratch Addons include tuttavia anche addon per il sito di Scratch e il menu popup. Quindi può essere comunque utile installare Scratch Addons anche se usi solo TurboWarp.
+[TurboWarp](https://turbowarp.org/) contiene già alcuni addon di Scratch Addons che possono essere usati nell'editor senza dover installare Scratch Addons. Scratch Addons include tuttavia anche addon per il sito di Scratch e il menu popup. Quindi può essere comunque utile installare Scratch Addons anche se usi solo TurboWarp.
 
 ## Requisiti di sistema
 

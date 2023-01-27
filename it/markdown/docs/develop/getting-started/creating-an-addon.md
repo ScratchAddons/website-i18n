@@ -2,7 +2,7 @@
 title: Creare un Addon
 ---
 Requisiti software: editor di testo, Chrome.  
-Se possibile, per evitare problemi disabilita l'estensione Scratch Addons che hai scaricato dallo store prima di procedere.
+Prima di procedere, per evitare problemi, disabilita se possibile l'estensione Scratch Addons che hai scaricato dallo store.
 
 ## Passo 1: Leggi le [informazioni di base sugli addon](/docs/develop/getting-started/addon-basics/)
 Assicurati di leggere quel paragrafo per acquisire familiarità con la terminologia.
@@ -13,15 +13,15 @@ Per scaricare il codice sorgente in locale, segui [queste istruzioni](https://sc
 ## Passo 3: Carica l'estensione in Chrome
 *Nota: Chrome è raccomandato per lavorare con gli addon. Ciononostante, gli addon dovrebbero funzionare anche in Firefox e Edge.*  
 Ora che hai l'estensione nel tuo filesystem, vai a `chrome://extensions` e abilita la "modalità sviluppatore".  
-Clicca "carica estensione non pacchettizzata", poi seleziona la cartella dove si trova Scratch Addons. Nel caso dovessi incontrare problemi, assicurati di star selezionando la cartella dove si trova il file `manifest.json`.  
-E' tutto, hai caricato l'estensione! Dovrebbe somigliare a questo:  
+Clicca "carica estensione non pacchettizzata", poi seleziona la cartella dove si trovano gli Scratch Addons. Nel caso dovessi incontrare problemi, assicurati di aver selezionato la cartella dove si trova il file `manifest.json`.  
+E' tutto! Hai caricato l'estensione. Dovrebbe comparire come mostrato qui sotto:  
 ![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Nota: puoi ignorare tranquillamente il messaggio "errors". E' solo un avvertimento per una chiave non riconosciuta nel file manifest necessaria per Firefox.
+Nota: puoi ignorare tranquillamente il messaggio "errors". E' solo un avvertimento per una chiave non riconosciuta nel file manifest che è però necessaria per Firefox.
 
-## Passo 4: Cosa farà il tuo addon?
+## Passo 4: Cosa vuoi che faccia il tuo addon?
 Ora arriva la parte divertente! 
-Cosa farà il tuo addon? Pensa ad un ID per l'addon che sia autodescrittivo (no spazi o caratteri speciali, ad eccezione dei trattini). 
-Capito?
+Cosa vuoi che faccia il tuo addon? Pensa ad un ID per l'addon che sia autodescrittivo (non usare spazi o caratteri speciali, ad eccezione dei trattini). 
+Ci siamo?
 
 ## Passo 5: Crea una cartelle per l'addon
 Usando un file explorer vai alla cartella dove hai salvato Scratch Addons nel tuo filesystem. Localizza la cartella `addons`. 
@@ -39,7 +39,7 @@ Questo è quello che ti serve per iniziare a scrivere il tuo codice, assicurati 
   "enabledByDefault": false
 }
 ```
-Per ulteriori informazioni su cosa puoi inserire nel manifest, vai a [questo articolo](/docs/reference/addon-manifest/).
+Per ulteriori informazioni su cosa puoi inserire nel file manifest, vai a [questo articolo](/docs/reference/addon-manifest/).
 
 
 ## Passo 7: Indica a Scratch Addons quale è l'ID del tuo addon
@@ -50,22 +50,22 @@ Vai a `scratchAddonsFolder/addons/addons.json` e aggiungi l'ID del tuo addon all
 Il tuo addon per ora non fa ancora nulla, quindi questo è un buon momento per verificare che tutto quello che abbiamo fatto finora funzioni correttamente.  
 Vai a `chrome://extensions` e ricarica Scratch Addons cliccando il simbolo di aggiornamento nel suo riquadro.  
 Ora clicca con il tasto destro l'icona di Scratch Addons e seleziona "opzioni".  
-Dovresti vedere il tuo addon nella lista! Quando lo trovi abilitalo e abilita tutte le impostazioni.
+Dovresti vedere il tuo addon nella lista! Quando lo trovi abilitalo, e abilitane tutte le impostazioni.
 
 ## Passo 9: La parte divertente: il codice!
 *Prima di procedere assicurati di leggere l'articolo del wiki linkato nel passo 1.*  
 
 E ora arriva la parte divertente: crea i tuoi file JS o CSS!  
-Suggerimento da professionisti: dopo aver fatto tutte le modifiche al tuo addon, assicurati di aggiornare l'estensione Scratch Addons come hai fatto nel passo 8.  
+Suggerimento per professionisti: dopo aver fatto tutte le modifiche al tuo addon, assicurati di aggiornare l'estensione Scratch Addons come hai fatto nel passo 8.  
 
-A seconda di cosa vuoi che il tuo addon faccia, dovresti dare un'occhiata alle seguenti pagine wiki:
+A seconda di cosa vuoi che il tuo addon faccia, dovresti dare un'occhiata alle seguenti pagine del wiki:
 - [Userscript](/docs/develop/addon-types/userscripts)
 - [Userstyle](/docs/develop/addon-types/userstyles)
 
 ## Passo 10: Rendi il tuo addon personalizzabile
 Se vuoi puoi rendere il tuo addon personalizzabile!  
 Gli utenti del tuo addon potranno abilitare e disabilitare le impostazioni, inserire valori numerici e molto altro!  
-Per iniziare vai alla pagina [come definire le impostazioni nel manifest dell'addon](/docs/reference/addon-manifest/#settings-object).  
+Per iniziare vai alla pagina [come definire le impostazioni nel file manifest dell'addon](/docs/reference/addon-manifest/#settings-object).  
 Poi leggi la [documentazione di addon.settings](/docs/reference/addon-api/addon.settings) per imparare come accedere alle scelte utente negli userscript.
 
 ## Passo 11: Prima di pubblicare il tuo addon
