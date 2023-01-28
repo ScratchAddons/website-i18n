@@ -13,7 +13,7 @@ A Scratch Addons egy "minden-egyben" böngészőbővítmény a Scratch weboldalh
 
 ### Ki hozta létre a Scratch Addons-t?
 
-A Scratch Addons csapatmunka eredménye, melynek vezetője World_Languages névre hallgat. Megtalálhatja a projektben közreműködők listáját a [Készítők](/contributors) oldalon. Ugyan a "Scratch Üzenetkezelő"-t (ang: "Scratch Messaging") és a "Fejlesztői Eszközök"-et (ang: "Developer Tools") eredetileg griffpatch hozta létre, nem ő tartja fenn a bővítményt.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### Miket tartalmaz a Scratch Addons?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Visszajelzés küldése**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Hagyjon egy visszajelzést az áruházakban**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Mesélhet róla nekünk a lenti eljárások egyike által.
 
-- Küldje el nekünk [a visszajelzőűrlapunkon](https://scratchaddons.com/hu/feedback) keresztül
+- Send it through [our feedback form](/feedback).
 - Hozzon létre egy issuet [a epositoryn](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Készítsen egy posztot a [vitalapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Számoljon be róla [a Discord szerverünkön](https://discord.gg/R5NBqwMjNc).

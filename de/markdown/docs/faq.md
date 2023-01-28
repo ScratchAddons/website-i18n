@@ -13,7 +13,7 @@ Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website
 
 ### Wer hat Scratch Addons gemacht?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Feedback senden**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Eine Bewertung in den Stores hinterlassen**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Du kannst uns mit einer der folgenden Methoden kontaktieren.
 
-- Sende es uns mittles [unserem Feedback-Formular](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Erstelle ein Issue auf [dem Repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Erstelle ein Post auf [unserem Diskussions-Tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Sag es uns auf [unserem Discord-Server](https://discord.gg/R5NBqwMjNc).

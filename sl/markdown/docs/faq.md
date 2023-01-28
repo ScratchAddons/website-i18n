@@ -13,7 +13,7 @@ Scratch Addons je razširitev brskalnikov za spletno stran in urejevalnik projek
 
 ### Who created Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Send feedback**  
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Leave a review on the stores**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Lahko nam jo sporočite na enega od naslednjih načinov.
 
-- Izpolnite [obrazec za povratne informacije](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Prijavite težavo [na GitHub](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Ustvarite objavo na [zavihku za pogovor](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Povejte nam na [strežniku Discord](https://discord.gg/R5NBqwMjNc).

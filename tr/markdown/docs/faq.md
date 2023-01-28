@@ -13,7 +13,7 @@ Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir ara
 
 ### Scratch Eklentileri'ni kim yaptı?
 
-Scratch Eklentileri, World_Languages ​​tarafından yönetilen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler](/tr/credits/) sayfasında bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, o, eklentileri sürdürmez.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### Scratch Eklentileri neleri içerir?
 
@@ -154,7 +154,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Geri bildirim gönderin**
 
-  [Bu sayfa](https://scratchaddons.com/tr/feedback)da geri bildirim gönderebilirsiniz. Geri bildiriminiz, uzantı geliştirmede bize farklı bir bakış açısı verebilir ve dikkat edilmesi gereken şeyleri bilmemize ve hataları düzeltmemize yardımcı olabilir.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Mağazalarda Scratch Eklentileri hakkında yorum bırakın**
 
@@ -176,7 +176,7 @@ Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) ok
 
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
-- [Geri bildirim formumuz](https://scratchaddons.com/tr/feedback) aracılığıyla bize bildirin.
+- Send it through [our feedback form](/feedback).
 - [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir sorun oluşturun.
 - [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturun.
 - [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)dan bize bildirin.

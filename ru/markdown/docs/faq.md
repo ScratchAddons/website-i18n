@@ -13,7 +13,7 @@ Scratch Addons — браузерное расширение «всё в одн�
 
 ### Кто создал Scratch Addons?
 
-Scratch Addons — командный проект под руководством World_Languages. Вы можете найти список людей, которые внесли вклад на нашей странице [внёсших вклад](/contributors). Хоть и аддоны «Сообщения Scratch» и «Инструменты разработчика» изначально были созданы griffpatch, он не обслуживает расширение.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### Что включает Scratch Addons?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Отправить отзыв**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Написать отзыв на магазинах расширений**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Вы можете сказать нам, используя одних из этих способов.
 
-- Отправить его через [нашу форму обратной связи](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Создать проблему (issue) в [репозитории](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Создать пост в [нашей вкладке дискуссирования](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Сказать нам на [нашем Discord сервере](https://discord.gg/R5NBqwMjNc).

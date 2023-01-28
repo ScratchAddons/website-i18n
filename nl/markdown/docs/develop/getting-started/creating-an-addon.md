@@ -8,7 +8,7 @@ Wanneer mogelijk, schakel de Scratch Addons-extensie die je hebt gedownload van 
 Lees dat artikel om de termen te weten.
 
 ## Stap 2: Vertak/kopieer het [archief](https://github.com/ScratchAddons/ScratchAddons)
-Volg [deze instructies](https://scratchaddons.com/docs/getting-started/installing/#from-source) om lokaal de broncode te downloaden.
+Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Stap 3: Laad de extensie in Chrome
 *Opmerking: Chrome is aanbevolen voor het werken aan addons. Addons zouden daarentegen wel op Firefox en Edge moeten werken.* 

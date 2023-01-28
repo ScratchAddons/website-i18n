@@ -13,7 +13,7 @@ Scratch Addons är ett "allt-i-ett" tillägg för din webbläsare som justerar S
 
 ### Who created Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Skicka återkoppling**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Lämna en recension på affären**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Du kan berätta för oss genom en av dessa metoder.
 
-- Skicka det genom [vårt återkopplingsformulär](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Skapa en anmälan på [kodbasen](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Skapa ett inlägg på [vår diskussionssida](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Berätta för oss på [vår Discord-server](https://discord.gg/R5NBqwMjNc).

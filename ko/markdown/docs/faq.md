@@ -13,7 +13,7 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 ### 스크래치 애드온을 만드 사람은 누구인가요?
 
-스크래치 애드온은 World_Languages가 이끄는 팀 프로젝트입니다. [기여자](/ko/contributors) 페이지에서 프로젝트에 참여한 사람들을 확인하실 수 있습니다. "스크래치 메시징"과 "개발자 도구"를 제작한 griffpatch는 확장 프로그램을 운영하진 않습니다.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Send feedback**  
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Leave a review on the stores**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 You can tell us using one of these methods.
 
-- Send it through [our feedback form](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).

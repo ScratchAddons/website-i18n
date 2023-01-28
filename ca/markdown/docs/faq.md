@@ -13,7 +13,7 @@ Scratch Addons és una extensió del navegador "tot en un" per la web i l'editor
 
 ### Who created Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Enviar comentaris**
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Deixa una valoració a les botigues**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Ens pots dir mitjançant un d'aquests mètodes.
 
-- Envieu-lo a través del [nostre formulari de comentaris] (https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Creeu un issue al [repositori] (https://github.com/ScratchAddons/ScratchAddons/issues).
 - Creeu una publicació a [la nostra pestanya Discussió] (https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Digueu-nos-ho al [nostre servidor de Discord](https://discord.gg/R5NBqwMjNc).

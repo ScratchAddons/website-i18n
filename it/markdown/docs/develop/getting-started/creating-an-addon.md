@@ -8,7 +8,7 @@ Prima di procedere, per evitare problemi, disabilita se possibile l'estensione S
 Assicurati di leggere quel paragrafo per acquisire familiarità con la terminologia.
 
 ## Passo 2: Forka/clona il [repository](https://github.com/ScratchAddons/ScratchAddons)
-Per scaricare il codice sorgente in locale, segui [queste istruzioni](https://scratchaddons.com/docs/getting-started/installing/#from-source).
+Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Passo 3: Carica l'estensione in Chrome
 *Nota: Chrome è raccomandato per lavorare con gli addon. Ciononostante, gli addon dovrebbero funzionare anche in Firefox e Edge.*  
