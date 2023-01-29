@@ -3,9 +3,9 @@ Global:
   LogoAlt: logo Scratch Addons
   Install: Zainstaluj
   InstallBrowser:
-    Firefox: Zainstaluj dla Firefox
-    Chrome: Zainstaluj dla Chrome
-    Edge: Zainstaluj dla Edge
+    Firefox: Zainstaluj na Firefox
+    Chrome: Zainstaluj na Chrome
+    Edge: Zainstaluj na Edge
   ReadTime:
     one: "{{.Count}} minuta"
     other: "{{.Count}} minuty"
@@ -46,7 +46,7 @@ Footer:
     Repository: Repozytorium
     Documentation: Dokumentacja
   Legal:
-    NoAffiliation: Scratch Addons nie jest powiązany, stowarzyszony ani w żaden sposób oficjalnie związany z witryną Scratch lub organizacjami, które ją utrzymują.
+    NoAffiliation: Scratch Addons nie jest stowarzyszony ani w żaden sposób oficjalnie związany z witryną Scratch lub organizacjami, które ją utrzymują.
     License: Scratch Addons jest licencjonowany na warunkach GNU General Public License v3.0.
   Intro: Obecnie {{ .Version }} z {{ .AddonCount }} dodatkami.
 DarkTheme:
@@ -63,11 +63,11 @@ Docs:
 PlayerModal:
   LabelPlay: Puść
   ModalTitle: Film
-  AltText: Kliknij, aby zobaczyć ten film.
+  AltText: Kliknij, aby zobaczyć film.
 IndexPage:
   Intro:
     Tagline: Wszystkie dodatki w jednym rozszerzeniu do Scratch
-    Description: Scratch Addons to dodatek do przeglądarki dodający nowe funkcjonalności, style do strony Scratch i edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wiele użytkowników Scratch'a
+    Description: Scratch Addons to rozszeżenie przeglądarki dodające nowe funkcjonalności i style do strony Scratch i jej edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wielu użytkowników Scratcha.
     InstallButton:
       Loading: Ładowanie...
       Description: darmowe, open-source

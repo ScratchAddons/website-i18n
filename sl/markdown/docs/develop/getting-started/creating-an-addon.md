@@ -8,7 +8,7 @@ Preden nadaljujete, izključite morebitno že nameščeno razširitev Scratch Ad
 Najprej preberite članek na zgornji povezavi, da se seznanite z izrazi.
 
 ## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
+Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## 3. korak: Naložite razširitev v Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  

@@ -69,8 +69,8 @@ Puoi accedere molte delle API `addon.*` attraverso script persistenti. Per ulter
 ## Aspetti tecnici degli userscript
 Gli userscript vengono eseguiti dopo che la pagina Scratch è stata completamente caricata - in altre parole vengono eseguiti in modalità `defer`.
 In termini tecnici, ogni userscript è un modulo JavaScript che esporta una funzione. I moduli JavaScript vengono sempre eseguiti in "strict mode".  
-Questo significa che gli userscript dello stesso addon NON condividono variabili e funzioni! Se vuoi farlo devi usare l'oggetto `global` object (vedi qui sotto per ulteriori informazioni).
-ScratchAddons chiama poi questi moduli funzione esportati, dando loro accesso alle API `addon.*` oltre ad alcuni speciali wrapper:
+Questo significa che gli userscript dello stesso addon NON condividono variabili e funzioni! Se vuoi farlo devi usare l'oggetto `global` (vedi qui sotto per ulteriori informazioni).
+Scratch Addons richiama poi questi moduli funzione esportati, dando loro accesso alle API `addon.*` oltre ad alcuni speciali wrapper:
 - `addon`: fornisce allo script persistente accesso alle [`addon.*` API](/docs/developing/addon-apis-reference).
 - `global`: questo è un oggetto condiviso tra tutti gli userscript dello stesso addon. **Esempio di uso:**
 ```js
@@ -82,7 +82,7 @@ export default async function ({ addon, global, console }) {
 // userscript-2.js
 export default async function ({ addon, global, console }) {
   global.sayHello();
-  // Questo funziona se, nel manifest dell'addon, userscript-1.js è prima di userscript-2.js nell'array userscripts.
+  // Questo funziona se, nel file manifest dell'addon, userscript-1.js è inserito prima di userscript-2.js nell'array userscripts.
 }
 ```
 - `console`: questo wrapper ti permette di vedere facilmente quale addon ha attivato il log che stai guardando.
@@ -93,4 +93,4 @@ Per debuggare gli userscript assicurati prima di tutto di abilitare il tuo addon
 Poi vai all'URL dove il tuo userscript dovrebbe essere eseguito.
 Apri la console premendo Ctrl+Shift+J. 
 Dovresti vedere i log degli addon, inclusi i tuoi. Se sei un professionista dei devtools non avrai problemi a definire i necessari breakpoint nel tuo codice. 
-Suggerimento da professionisti: se vuoi testare la API `addon.*` senza modificare ogni volta il tuo file, inserisci nel tuo addon l'istruzione `window.addon = addon;` (dentro la funzione principale) così potrai accedere all'oggetto `addon` del tuo addon dalla console. Assicurati di rimuovere questa istruzione prima di rilasciare il tuo contributo in questo repository! Gli userscript non devono "sporcare" l'oggetto global.
+Suggerimento per professionisti: se vuoi testare la API `addon.*` senza modificare ogni volta il tuo file, inserisci nel tuo addon l'istruzione `window.addon = addon;` (dentro la funzione principale) così potrai accedere all'oggetto `addon` del tuo addon dalla console. Assicurati di rimuovere questa istruzione prima di rilasciare il tuo contributo in questo repository! Gli userscript non devono "sporcare" l'oggetto global.

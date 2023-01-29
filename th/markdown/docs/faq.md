@@ -13,7 +13,7 @@ description: หน้านี้มีรายการคำถามที�
 
 ### Who created Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on the [Contributors](/contributors) page. While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
 ### What does Scratch Addons include?
 
@@ -154,7 +154,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **Send feedback**  
 
-  You can send feedback [on this page](https://scratchaddons.com/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
 - **Leave a review on the stores**
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 You can tell us using one of these methods.
 
-- Send it through [our feedback form](https://scratchaddons.com/feedback).
+- Send it through [our feedback form](/feedback).
 - Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).

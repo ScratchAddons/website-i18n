@@ -8,7 +8,7 @@ Si és possible, desactiva l'extensió Scratch Addons que has baixat de la botig
 Assegura't de llegir aquest article per familiaritzar-te amb la terminologia.
 
 ## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
+Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Pas 3: Carrega l'extensió al Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  

@@ -8,7 +8,7 @@ Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğin
 Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
 
 ## Adım 2: [Repo](https://github.com/ScratchAddons/ScratchAddons)'yu fork'la/klonla
-Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
+Kaynak kodunu yerel olarak indirmek için [bu yönergeler](/docs/getting-started/installing/#from-source)i takip edin.
 
 ## 3. Adım: Uzantıyı Chrome'a yükleyin
 *Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de, eklentilerin Firefox ve Edge'de de çalışması bekleniyor.* 

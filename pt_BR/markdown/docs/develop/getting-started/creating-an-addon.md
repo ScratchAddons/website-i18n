@@ -8,7 +8,7 @@ Se possível, desabilite a extensão Scratch Addons que você baixou da loja ant
 Leia aquele artigo para se familiarizar com a terminologia.
 
 ## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](https://scratchaddons.com/docs/getting-started/installing/#from-source) to download the source code locally.
+Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
 
 ## Passo 3: Carregue a extensão no Chrome
 *Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  

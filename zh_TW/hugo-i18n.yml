@@ -1,4 +1,5 @@
 Global:
+  LogoAlt: Scratch Addons標誌
   Install: 安裝
   InstallBrowser:
     Firefox: 在 Firefox 上安裝
@@ -46,9 +47,15 @@ Footer:
     Documentation: 說明文件
   Legal:
     Copyright: "{{ .Copyleft }}{{ .Year }} Scratch Addons contributors"
+DarkTheme:
+  Title: 單擊切換深色主題。
+  Label: 切換深色主題
 Docs:
+  SectionSiteName: Scratch Addons文件
   DocsNav: 文章巡覽
   DocsNavToggleLabel: 切換文章巡覽側欄
+  TOC: 內容
+  TOCToggleLabel: 切換目錄列表
   LastUpdated: 最後由 {{.Name}} 在 {{.Date}} 通過 {{.Commit}} 修改。
   Improve: 改善這個頁面。
   SectionPages: 章節頁面
@@ -58,11 +65,14 @@ PlayerModal:
   AltText: 點擊以觀看這個影片。
 IndexPage:
   Intro:
+    Tagline: Scratch 的多合一瀏覽器擴充功能
     InstallButton:
       Loading: 正在讀取…
       Description: 免費、開源
     ReadMore: 或查看更多
     Carousel:
+      Video:
+        Caption: 預告片
       Settings:
         Caption: 設定頁面。
         ImgAlt: 設定頁面

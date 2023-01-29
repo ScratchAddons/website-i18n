@@ -17,11 +17,11 @@ Ulteriori informazioni possono essere trovate alla pagina [Installazione](../ins
 
 ## Come iniziare
 
-Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere le sue funzioni.
+Per iniziare devi accedere alla pagina delle impostazioni di Scratch Addons per vedere le sue funzioni.
 
-1. Localizza Scratch Addons nella toolbar e cliccalo.
+1. Localizza l'icona di Scratch Addons nella toolbar e cliccala.
 
-   Di solito lo trovi nell'angolo in alto a destra del tuo browser. Per gli utenti di Google Chrome può essere necessario cliccare l'icona del puzzle per trovare l'icona dell'estensione.
+   Di solito la trovi nell'angolo in alto a destra del tuo browser. Per gli utenti di Google Chrome può essere necessario cliccare l'icona del puzzle per trovare l'icona dell'estensione Scratch Addons.
 
    ![](/assets/img/getting-started/step-1.png)
 
@@ -29,8 +29,8 @@ Per iniziare devi accedere alla pagina delle impostazioni dell'addon per vedere 
 
    ![](/assets/img/getting-started/step-2.png)
 
-3. Scorri liberamente l'elenco degli addon e abilita/disabilita quello che ti interessa.
+3. Scorri liberamente l'elenco degli addon e abilita/disabilita quelli che ti interessa.
 
-   Puoi anche configurare un addon nelle sua sezione delle impostazioni che si apre quando lo abiliti o lo espandi.
+   Puoi anche configurare un addon nella sua sezione delle impostazioni che puoi vedere quando lo abiliti o lo espandi.
 
    ![](/assets/img/getting-started/step-3.png)

@@ -1,9 +1,9 @@
 ---
 title: Userstyle
-description: Gli userstyle permettono di aggiungere dei CSS nel sito di Scratch website - utile per rendere colorati i pulsanti che aggiungi con i tuoi userscript o per personalizzare elementi nativi di Scratch.
+description: Gli userstyle permettono di aggiungere dei CSS al sito di Scratch - utili ad esempio per rendere colorati i pulsanti che aggiungi con i tuoi userscript o per personalizzare elementi nativi di Scratch.
 ---
 ## Cosa sono?
-Gli userstyle permettono di aggiungere dei CSS nel sito di Scratch website - utile per rendere colorati i pulsanti che aggiunti con i tuoi userscript o per personalizzare elementi nativi di Scratch.
+Gli userstyle permettono di aggiungere dei CSS al sito di Scratch - utili ad esempio per rendere colorati i pulsanti che aggiunti con i tuoi userscript o per personalizzare elementi nativi di Scratch.
 
 ## Come si fa ad aggiungere uno userstyle?
 **Assicurati di aggiornare Scratch Addons in `chrome://extensions` dopo avere apportato qualunque cambiamento al tuo addon.**  

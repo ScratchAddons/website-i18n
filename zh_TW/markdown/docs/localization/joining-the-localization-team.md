@@ -36,9 +36,9 @@ _注意：“部門”和“職稱”可以任意選擇，我們推薦“翻譯�
 - Scratch 必須翻譯成該語言。
 - 與 Scratch 不同，我們只支持每種語言的一種方言（Scratch Addons 永遠不會有拉丁美洲西班牙語，也不會有葡萄牙葡萄牙語）。
 - 您的請求可能需要幾個小時/幾天才能被接受。
-- 如果您被接受，您可以將自己添加（或被添加）到我們的[網站的貢獻者頁面]（https://scratchaddons.com/contributors）。
+- If you get accepted, you may add yourself (or be added) to [the website's credits page](/credits).
 - Legal stuff: your translations will be licensed under the same license as Scratch Addons (GPL v3.0)
 
 ### Any questions?
 
-If you have any questions about translating, feel free to [open a discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required) or [send feedback](https://scratchaddons.com/feedback) (no account required, but make sure to specify your Scratch username).
+If you have any questions about translating, feel free to [open a discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required) or [send feedback](/feedback) (no account required, but make sure to specify your Scratch username).

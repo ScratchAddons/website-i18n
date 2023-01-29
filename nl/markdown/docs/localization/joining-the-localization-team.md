@@ -35,9 +35,9 @@ Je zult binnenkort geaccepteerd worden in het Transifex-team en je zult nieuwe e
 - Scratch moet vertaald zijn in die taal.
 - In tegenstelling tot Scratch ondersteunen wij maximaal één dialect per taal (Scratch Addons zal nooit Latijns-Amerikaans Spaans, of Portugal-Portugees hebben).
 - Het kan een paar uur/dagen duren voordat je verzoek is geaccepteerd.
-- Als je wordt geaccepteerd, mag je jezelf toevoegen (of worden toegevoegd) aan onze [bijdragerspagina](https://scratchaddons.com/contributors).
+- Als je wordt geaccepteerd, mag je jezelf toevoegen (of worden toegevoegd) aan [de creditspagina](/credits).
 - Legaal: je vertalingen zijn vergund onder dezelfde licentie als Scratch Addons (GPL v3.0)
 
 ### Nog vragen?
 
-Als je nog vragen hebt over vertalen, voel je vrij om [een discussie te openen](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-account vereist) of [geef feedback](https://scratchaddons.com/feedback) (geen account vereist, maar specificeer wel je Scratch-gebruikersnaam).
+Als je nog vragen hebt over vertalen, voel je vrij om [een discussie te openen](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-account vereist) of [geef feedback](/feedback) (geen account vereist, maar vermeld wel je Scratch-gebruikersnaam).
