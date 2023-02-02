@@ -62,7 +62,7 @@ Evet. Scratch Eklentileri'nin en son sürümünde herhangi bir güvenlik sorunu 
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
-Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` adresine e-posta göndererek World_Languages ile özel olarak iletişime geçin. 48 saat içinde yanıt alamazsanız, lütfen bir e-posta gönderdiğinizi belirterek [bir sorun oluştur](https://github.com/ScratchAddons/ScratchAddons/issues/)un.
+Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` adresine e-posta göndererek World_Languages ile özel olarak iletişime geçin. 48 saat içinde yanıt alamazsanız, lütfen bir e-posta gönderdiğinizi belirterek [bir issue oluştur](https://github.com/ScratchAddons/ScratchAddons/issues/)un.
 
 [Güvenlik politikamızı oku](https://github.com/ScratchAddons/ScratchAddons/security/policy)yabilirsiniz veya [yayınladığımız tavsiyelerimizi kontrol ed](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)ebilirsiniz.
 
@@ -177,7 +177,7 @@ Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) ok
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
 - Bunu [geri bildirim formumuz](/feedback) üzerinden gönderin.
-- [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir sorun oluşturun.
+- [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir issue oluşturun.
 - [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturun.
 - [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)dan bize bildirin.
 
