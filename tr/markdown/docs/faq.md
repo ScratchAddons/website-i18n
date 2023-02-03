@@ -62,17 +62,17 @@ Evet. Scratch Eklentileri'nin en son sürümünde herhangi bir güvenlik sorunu 
 
 ### Bir güvenlik açığını nasıl bildirebilirim?
 
-Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (et) gmail.com` adresine e-posta göndererek World_Languages ile özel olarak iletişime geçin. 48 saat içinde yanıt alamazsanız, lütfen bir e-posta gönderdiğinizi belirterek [bir issue oluştur](https://github.com/ScratchAddons/ScratchAddons/issues/)un.
+Bir güvenlik açığı bulursanız, lütfen `worldxlanguages (at) gmail.com` adresine e-posta göndererek World_Languages ile özel olarak iletişime geçin. 48 saat içinde yanıt alamazsanız, lütfen bir e-posta gönderdiğinizi belirterek [bir sorun oluşturun](https://github.com/ScratchAddons/ScratchAddons/issues/).
 
-[Güvenlik politikamızı oku](https://github.com/ScratchAddons/ScratchAddons/security/policy)yabilirsiniz veya [yayınladığımız tavsiyelerimizi kontrol ed](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)ebilirsiniz.
+[Güvenlik politikamızı okuyabilirsiniz](https://github.com/ScratchAddons/ScratchAddons/security/policy) veya [yayınladığımız tavsiyelerimizi kontrol edebilirsiniz](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Scratch Eklentileri'ni kullanırken hesabım güvende olacak mı?
 
-Evet. Scratch hesabınızla ilgili özelliklerin, Scratch hesabınıza zarar vermeyeceklerinden emin olmak için Scratch Eklentileri, emeği geçenler tarafından kapsamlı bir şekilde incelenir. Scratch Eklentileri, hesap kimlik bilgilerinizi güvende tutar ve projelerinizi veya varlıklarınızı izniniz olmadan değiştirmez veya silmez. Ancak, isterseniz uzantıyı hesapla ilgili herhangi bir özellik olmadan kullanabilirsiniz.
+Evet. Scratch hesabınızla ilgili özellikler, Scratch hesabınıza zarar vermeyeceklerinden emin olmak için Scratch Eklentileri, emeği geçenler tarafından kapsamlı bir şekilde incelenir. Scratch Eklentileri, hesap kimlik bilgilerinizi güvende tutar ve projelerinizi veya varlıklarınızı izniniz olmadan değiştirmez veya silmez. Ancak, isterseniz uzantıyı hesapla ilgili herhangi bir özellik olmadan kullanabilirsiniz.
 
 Scratch Eklentileri'ndeki Eklentiler, depodaki birden fazla katkıda bulunan kişi tarafından da kontrol edilir. Bu nedenle hiç kimse kötü niyetli kodlarını bizden saklayamaz.
 
-Tarayıcınızın dışına asla gizli veya kişisel olarak tanımlayıcı bilgiler göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikası](/docs/privacy/policies/extension)na göz atın.
+Tarayıcınızın dışına asla gizli veya kişisel olarak tanımlayıcı bilgiler göndermeyiz. Daha fazla bilgi için [uzantı gizlilik politikasına](/docs/privacy/policies/extension) göz atın.
 
 ## Scratch Eklentileri'ni Kullanmak
 
@@ -91,9 +91,9 @@ Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss
 
 ### Scratch Eklentileri'nin Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
-Başta değişkenler sekmesi, hata ayıklayıcısı ve fare imlecini izleyen kedi blokları gibi karmaşık özellikleri olan eklentiler olmak üzere, ihtiyacınız olmayan eklentileri devre dışı bırakmayı deneyebilirsiniz. Performansa etkisi olan çoğu eklenti genişletildiğinde eklenti bilgilerinin orada bir uyarı olacaktır.
+Başta değişkenler sekmesi, hata ayıklayıcısı ve fare imlecini izleyen kedi blokları gibi karmaşık özellikleri olan eklentiler olmak üzere, ihtiyacınız olmayan eklentileri devre dışı bırakmayı deneyebilirsiniz. Performansa etkisi olan çoğu eklentinin genişletilmiş eklenti bilgilerinde bir uyarı olacaktır.
 
-Bazı özel tavsiyeler:
+Belli başlı bazı tavsiyeler:
 - 60FPS eklentisini kapatın. Eklenti, bir projenin çalıştırabileceği maksimum hızı artırabilirken, gecikmeleri azaltmaz. Bu tür projeleri daha hızlı çalıştırabilmek için [TurboWarp](https://turbowarp.org/)'u kullanın.
 - Proje çalışırken "Değişken yöneticisi" eklentisi kullanılmamalıdır.
 
@@ -101,16 +101,16 @@ Bazı özel tavsiyeler:
 
 İlk olarak, "Scratch Bildirimcisi" eklentisini devre dışı bırakın ve yeniden etkinleştirin. Bu, bazı sorunları çözebilir.
 
-Sorun devam ederse, işletim sisteminin bildirim ayarlarını kontrol edin. -Google Chrome gibi- tarayıcıların bildirim göndermesine izin vermelisiniz.
+Sorun devam ederse, işletim sisteminin bildirim ayarlarını kontrol edin. Google Chrome gibi tarayıcıların bildirim göndermesine izin vermelisiniz.
 
-- Windows'ta: Ayarlar'ı açın, "Bildirimler ve eylemler" kategorisini açın, ardından "Bu gönderenlerden bildirim al" ögesini bulun ve tarayıcınızın yanındaki ayarı açın. Ayrıntılı bilgi için [Microsoft'un yardım makalesi](https://support.microsoft.com/tr-tr/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e)ni okuyun.
-- macOS'ta: Sistem Tercihleri'ni açın, ardından Bildirimler bölümüne gidin. Soldan tarayıcınızı (ör. Google Chrome) seçin ve bildirimleri etkinleştirin. Daha ayrıntılı bilgi için [Apple'ın yardım makalesi](https://support.apple.com/tr-tr/HT204079)ni okuyun.
+- Windows'ta: Ayarlar'ı açın, "Bildirimler ve eylemler" kategorisini açın, ardından "Bu gönderenlerden bildirim al" ögesini bulun ve tarayıcınızın yanındaki ayarı açın. Ayrıntılı bilgi için [Microsoft'un yardım makalesini](https://support.microsoft.com/tr-tr/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) okuyun.
+- macOS'ta: Sistem Tercihleri'ni açın, ardından Bildirimler bölümüne gidin. Soldan tarayıcınızı (örneğin Google Chrome) seçin ve bildirimleri etkinleştirin. Daha ayrıntılı bilgi için [Apple'ın yardım makalesini](https://support.apple.com/tr-tr/HT204079) okuyun.
 
 Ayrıca "odaklanma yardımı"nın (Windows'ta) ya da "Rahatsız Etmeyin"in (macOS'ta) devre dışı bırakıldığından da emin olmalısınız.
 
 ### Proje video kaydedicisi eklentisi ile yapılan kayıtları nasıl izlerim?
 
-Teknik sınırlamalar nedeniyle, bu eklenti ile kaydedilen videolar WebM formatındadır. .webm dosyalarını tarayıcınızı kullanarak -yani dosyayı sürükleyip bırakarak- veya [VLC Media Player](https://www.videolan.org/) gibi onu destekleyen bir medya oynatıcı kullanarak görüntüleyebilirsiniz.
+Teknik sınırlamalar nedeniyle, bu eklenti ile kaydedilen videolar WebM formatındadır. .webm dosyalarını tarayıcınızı kullanarak (dosyayı sürükleyip bırakarak) veya [VLC Media Player](https://www.videolan.org/) gibi  destekleyen bir medya oynatıcı kullanarak görüntüleyebilirsiniz.
 
 WebM dosyalarını MP4 veya diğer biçimlere dönüştürmek için [HandBrake](https://handbrake.fr/) veya [CloudConvert](https://cloudconvert.com/webm-to-mp4) gibi WebM'i destekleyen bir video dönüştürme yazılımı kullanabilirsiniz. Ancak bu dosyaları bir tarayıcı veya medya oynatıcı ile görüntülemenizi öneririz. Videonun boyutuna bağlı olarak bu işlemin uzun sürebileceğini unutmayın.
 
@@ -118,9 +118,9 @@ WebM dosyalarını MP4 veya diğer biçimlere dönüştürmek için [HandBrake](
 
 Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizle Konami Kodunu (↑↑↓↓←→←→BA) yazın. Bundan sonra, easter egg eklentileri gösterilecek ve onları etkinleştirmenize izin verilecektir.
 
-Easter egg eklentilerimizden bazıları "Büyük harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesi](/tr/addons)ne göz atın.
+Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesine](/tr/addons) göz atın.
 
-## Katkıda bulunmak
+## Katkıda Bulunma
 
 ### Scratch Eklentileri'ne nasıl katkıda bulunabilirim?
 
@@ -132,9 +132,9 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
   JavaScript, HTML ve CSS hakkında bilginiz varsa hataları düzelterek, ayarlamalar yaparak veya özellikler ekleyerek katkıda bulunabilirsiniz.
 
-  Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request, yani çekme isteği oluşturmanız gerekir. Bunu, [depo](https://github.com/ScratchAddons/ScratchAddons/)yu çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir çekme isteği oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce onu gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
+  Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request, yani çekme isteği oluşturmanız gerekir. Bunu, [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir çekme isteği oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
 
-  Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamız](https://github.com/ScratchAddons)da görüntüleyebilirsiniz.
+  Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamızda](https://github.com/ScratchAddons) görüntüleyebilirsiniz.
 
 - **Bir fikir önerin**
 
@@ -142,13 +142,13 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Bir hata bildirin**
 
-  Eklentilerimizden birinde, ayarlar sayfasında veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönder](#bir-sorun-bulursam-ne-yapabilirim)in.
+  Eklentilerimizden birinde, ayarlar sayfasında veya uzantımızdaki başka herhangi bir şeyde bir hata mı buldunuz? [Bize bir hata raporu gönderin.](#bir-sorun-bulursam-ne-yapabilirim)
 
 - **Scratch Eklentileri'ni çevirin**
 
-  Başka bir dili akıcı konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katıl](/tr/docs/localization/joining-the-localization-team)arak başlayabilirsiniz.
+  Başka bir dili akıcı olarak konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katıl](/tr/docs/localization/joining-the-localization-team)arak başlayabilirsiniz.
 
-- **Belgelerinizi yazın**
+- **Belgeleri yazın**
 
   Scratch Eklentileri'nin iç işleyişine aşina mısınız? Eğer öyleyse, bunun için belgeler yazabilirsiniz. Belgeler [sitemizin deposunda](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) mevcuttur. Bir çekme isteği açmaktan çekinmeyin!
 
@@ -158,9 +158,9 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Mağazalarda Scratch Eklentileri hakkında yorum bırakın**
 
-  [Chrome uzantı sayfası](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)nda, [Firefox eklenti sayfası](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)nda veya [Microsoft Edge eklenti sayfası](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj)nda Scratch Eklentileri hakkında yorum bırakabilirsiniz. Bu, başkalarını uzantıyı yüklemeye ikna etmenin harika bir yoludur!
+  [Chrome uzantı sayfasında](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [Firefox eklenti sayfasında](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) veya [Microsoft Edge eklenti sayfasında](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj) Scratch Eklentileri hakkında yorum bırakabilirsiniz. Bu, başkalarını uzantıyı yüklemeye ikna etmenin harika bir yoludur!
 
-- **Depomuza yıldız ekleyin**
+- **Depomuzu yıldızlayın**
 
   Temel olarak GitHub'ın yıldızı, Scratch yıldızına/favorisine benzer. Bunu [depomuz](https://github.com/ScratchAddons/ScratchAddons)a gidip sağ üst köşedeki "Yıldız" düğmesine tıklayarak yapabilirsiniz.
 
@@ -177,23 +177,23 @@ Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) ok
 Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 
 - Bunu [geri bildirim formumuz](/feedback) üzerinden gönderin.
-- [Depo](https://github.com/ScratchAddons/ScratchAddons/issues)da bir issue oluşturun.
-- [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturun.
-- [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)dan bize bildirin.
+- [Depoda](https://github.com/ScratchAddons/ScratchAddons/issues) bir issue oluşturun.
+- [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturun.
+- [Discord sunucumuzdan](https://discord.gg/R5NBqwMjNc) bize bildirin.
 
 ### Sanırım bir özelliği atlamışsınız. Ne yapabilirim?
 
-Uzantı için bir eklenti önermek istiyorsanız veya başka bir iyi fikriniz varsa, [bu yöntemlerden biri](#bir-sorun-bulursam-ne-yapabilirim)ni kullanarak bize bunu söyleyin.
+Uzantı için bir eklenti önermek istiyorsanız veya başka bir iyi fikriniz varsa, [bu yöntemlerden birini](#bir-sorun-bulursam-ne-yapabilirim) kullanarak bize bunu söyleyin.
 
 ### Scratch Eklentileri hakkında nerede konuşabilirim?
 
-Bunu [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de veya [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)da yapabilirsiniz. Orada sorular sorabilir ve Scratch Eklentileri topluluğuyla etkileşim kurabilirsiniz.
+Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) yapabilirsiniz. Oralarda sorular sorabilir ve Scratch Eklentileri topluluğuyla etkileşim kurabilirsiniz.
 
-## Teknik taraf
+## Teknik
 
-### "Eklenti" tam olarak nedir?
+### Bir "eklenti" tam olarak nedir?
 
-Eklenti, bir uzantıya veya kullanıcı yazısına benzer. Ancak Scratch Eklentileri, alan adı tarafından sağlanan özel API' ler kullanırlar. Bu API' ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (userscript'ler), arka planda komut dosyaları çalıştırmasına (kalıcı komut dosyaları) veya Scratch web sitesine stiller uygulamasına (userstyle'lar) izin verir.
+Eklenti, bir uzantıya veya userscript'e benzer. Ancak Scratch Eklentileri, alan adı tarafından sağlanan özel API'ler kullanırlar. Bu API'ler, eklentilerin bir Scratch sayfasında komut dosyaları çalıştırmasına (userscript'ler), arka planda komut dosyaları çalıştırmasına (kalıcı komut dosyaları) veya Scratch web sitesine stiller uygulamasına (userstyle'lar) izin verir.
 
 Userscript'ler, Scratch ile ilgili bilgileri (örneğin, şu anda oturum açmış olan kullanıcı) almalarına ve uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
 
@@ -213,10 +213,10 @@ Kendi başına Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca g
 
 ### Kendimi katkıda bulunanlar sayfasına/sayfasından nasıl ekleyebilirim/kaldırabilirim?
 
-Adınızın sayfada yer almasını istiyorsanız lütfen [bu issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}})'nun talimatlarını okuyun ve uygulayın.
+Adınızın sayfada yer almasını istiyorsanız lütfen [bu sorunun](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) talimatlarını okuyun ve uygulayın.
 
 Adınızın sayfada görünmesini istemiyorsanız, lütfen katkıda bulunanlar depomuzda bir issue oluşturarak veya diğer iletişim araçlarını kullanarak bize bildirin. Rahatsızlık için özür dileriz.
 
 ### Daha fazla sorum var!
 
-Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemiz](https://github.com/ScratchAddons/ScratchAddons/discussions)de bir gönderi oluşturabilir veya [Discord sunucumuz](https://discord.gg/R5NBqwMjNc)a bir mesaj gönderebilirsiniz. Elimizden geldiğince cevap vereceğiz!
+Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturabilir veya [Discord sunucumuza](https://discord.gg/R5NBqwMjNc) bir mesaj gönderebilirsiniz. Elimizden geldiğince cevap vereceğiz!

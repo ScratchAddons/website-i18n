@@ -35,7 +35,7 @@ Yakında Transifex ekibine kabul edileceksiniz ve çevrilecek yeni dizeler oldu�
 - Scratch'in o dile çevrilmiş olması gerekiyor.
 - Scratch'in aksine, dil başına yalnızca bir adet lehçeyi destekliyoruz (Scratch Eklentileri'nde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacaktır).
 - Request'inizin kabul edilmesi birkaç saat/gün sürebilir.
-- Eğer kabul edilirseniz, kendinizi [sitenin emeği geçenler sayfası](/credits)na ekleyebilir, (ya da eklenebilirsiniz).
+- Eğer kabul edilirseniz, kendinizi [sitenin emeği geçenler sayfası](/credits)na ekleyebilirsiniz (ya da eklenebilirsiniz).
 - Yasal olarak: çevirileriniz, Scratch Eklentileri (GPL v3.0) ile aynı lisans altında lisanslanacaktır
 
 ### Sorusu olan?
