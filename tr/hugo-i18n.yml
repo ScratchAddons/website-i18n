@@ -40,7 +40,7 @@ Footer:
     Changelog: Değişiklik Günlüğü
   Discuss:
     Header: Tartışma
-    Issues: Sorunlar
+    Issues: Issue'lar
     DiscordDev: Geliştirici Discord'u
   Resources:
     Header: Kaynaklar
@@ -128,6 +128,16 @@ FeedbackPage:
   ContentPlaceholder: Lütfen olabildiğince fazla detay sağlayın.
   SendEnabled: Şu anda etkinleştirilmiş eklentilerimin bir listesini gönder (önerilir)
   SubmitButton: Gönder
+  PreSendWarning:
+    Warning: "Uyarı:"
+    Override: Bu geri bildirimi göndereceğinizden gerçekten eminseniz, "Gönder" düğmesine tekrar basabilirsiniz.
+    Variations:
+      NotST:
+        Heading: Biz Scratch Ekibi değiliz.
+        Description: Scratch Eklentileri'nin, Scratch sitesine veya onu ayakta tutan kuruluşlara bağlı olmadığını unutmayınız. Yine de, Scratch Eklentileri'ne Scratch deneyiminizi geliştirmek için fikirler verebilirsiniz.
+      Punishment:
+        Heading: İnsanlara ceza veremeyiz. Biz Scratch Ekibi değiliz.
+        Description: Scratch Eklentileri, Scratch sitesine veya onu ayakta tutan kuruluşlara bağlı değildir. Scratch sitesinde içerik ve moderasyon üzerinde hiçbir kontrolümüz yoktur. {{ .Tag1Start }}Scratch sitesinde raporda bulunmanın birçok yolu vardır.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Mesajlaşma Eklentisi logosu
 ChangelogPage:

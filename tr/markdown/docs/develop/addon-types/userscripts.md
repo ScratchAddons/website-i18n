@@ -6,10 +6,10 @@ description: Userscript'ler, Scratch sayfaları boyunca kod çalıştırmanıza 
 Userscript'ler, Scratch sayfaları boyunca kod çalıştırmanıza izin verir - düğme ekleme, Scratch düzenleyiciyi geliştirme veya hayal edebileceğiniz herhangi bir şey gibi şeyler yapabilirsiniz.
 
 ## Nasıl bir userscript eklerim?
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions` dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`'dan yenilemeyi unutmayın.**
 Eklentinizin (addon.json) manifest dosyasına gidin ve `userscripts"` adında bir özellik ekleyin.
 Bu özellik bir dizi olmalıdır.
-Dizinin her bir ögesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleşir"`.
+Dizinin her bir ögesi şu özelliklere sahip olmalıdır: `"url"` ve `"eşleşir"`
 `"url"`, bir JavaScript dosyasına göreli bir bağlantı olmalıdır.
 `"matches"`, userscript'leri çalıştırmak istediğiniz bağlantıların bir dizisi olmalıdır. Yıldız işaretlerini kullanabilirsiniz.
 Örnek manifest:
@@ -47,7 +47,7 @@ export default async function ({ addon, global, console }) {
   // Bu çalışır!
   merhabaDe();
   async function merhabaDe() {
-    console.log("Merahaba, " + await addon.auth.fetchUsername());
+    console.log("Merhaba, " + await addon.auth.fetchUsername());
   }
 }
 ```
@@ -81,7 +81,7 @@ export default async function ({ addon, global, console }) {
 
 // userscript-2.js
 export default async function ({ addon, global, console }) {
-  global.sayMerhaba();
+  global.merhabaDe();
   // Bu, eklenti bildiriminde olduğu sürece çalışır, userscript-1.js, userscripts dizisindeki userscript-2.js'den öncedir.
 }
 ```
@@ -89,7 +89,7 @@ export default async function ({ addon, global, console }) {
 
 ## Userscript'lerde hata ayıklama
 **Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`dan yenilemeyi unutmayın.**
-userscript'lerde hata ayıklamak için öncelikle eklentinizin etkin olduğundan emin olun.
+Userscript'lerde hata ayıklamak için öncelikle eklentinizin etkin olduğundan emin olun.
 Ardından, userscript'in çalışması gerektiğini belirttiğiniz bir URL'ye gidin.
 Ctrl+Shift+J tuşlarına basarak konsolu açın.
 Sizinki de dâhil olmak üzere eklentilere göre konsol günlüklerini görmelisiniz. Bir devtools uzmanıysanız, kodunuzdaki ara noktaları ayarlamakta herhangi bir sorun yaşamayacaksınız.

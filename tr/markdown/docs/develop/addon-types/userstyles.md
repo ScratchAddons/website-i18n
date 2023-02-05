@@ -33,6 +33,6 @@ Dizinin her bir öğesi şu özelliklere sahip olmalıdır: `"url"` ve `"matches
 ```
 
 ## Userstyle'larda hata ayıklama
-**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`dan yenilemeyi unutmayın.**
+**Eklentinizde herhangi bir değişiklik yaptıktan sonra Scratch Eklentileri'ni `chrome://extensions`'dan yenilemeyi unutmayın.**
 Userstyle'ınızın çalıştığını görmüyorsanız, eklentinizin etkin olduğundan emin olun.
-Hâlâ sorun yaşıyorsanız, lütfen bu depoda bir sorun oluşturun.
+Hâlâ sorun yaşıyorsanız, lütfen bu depoda bir issue oluşturun.

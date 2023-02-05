@@ -13,4 +13,4 @@ Eğer projenin tasarımı ile ilgileniyorsanız, [buraya bakın](reference/desig
 
 Scratch Eklentileri ile ilgili sorularınız mı var? [Burada sorun](https://github.com/ScratchAddons/ScratchAddons/discussions)!
 
-Yeni eklentiler için fikirlerinizi [sorunlar sayfasına](https://github.com/ScratchAddons/ScratchAddons/issues) iletebilirsiniz.
+Yeni eklentiler için fikirlerinizi [issue'lar sayfasına](https://github.com/ScratchAddons/ScratchAddons/issues) iletebilirsiniz.
