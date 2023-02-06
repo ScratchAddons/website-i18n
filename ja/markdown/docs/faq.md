@@ -13,7 +13,7 @@ Scratch Addonsは、Scratchウェブサイトとプロジェクトエディタ�
 
 ### だれがScratch Addonsを開発しましたか?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch AddonsはWorld_Languagesによるチームプロジェクトです。私たちに貢献してくれた人々の一覧は [クレジット](/credits) ページにあります。なお、「Scratchメッセージ」と「開発者ツール」はgriffpatchによって最初開発されましたが、以降は関わっていません。
 
 ### Scratch Addonsには何が含まれますか?
 
@@ -154,7 +154,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 
 - **感想を送る**
 
-  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  [フィードバックフォーム](/feedback) から、感想や意見を送れます。フィードバックは、拡張機能開発に関し新たな視点を与え、また修正が必要な部分の発見によりバグの修正につながります。
 
 - **ストアでレビューする**
 
@@ -176,7 +176,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 
 以下の方法で連絡できます:
 
-- Send it through [our feedback form](/feedback).
+- [フィードバックフォーム](/feedback)から送る。
 - [リポジトリ](https://github.com/ScratchAddons/ScratchAddons/issues)にてIssueを作成する。
 - [Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)にて投稿する。
 - [Discord サーバー](https://discord.gg/R5NBqwMjNc)にて投稿する。

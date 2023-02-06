@@ -62,7 +62,7 @@ Ja. Scratch Addons zou geen beveiligingsproblemen moeten hebben in zijn recentst
 
 ### Hoe kan ik een beveiligingskwetsbaarheid melden?
 
-Als je een beveiligingskwetsbaarheid tegenkomt, neem dan privé contact op met World_Languages door een e-mail te sturen naar `worldxlanguages (at) gmail.com`. Als je binnen 48 uur geen antwoord krijgt, maak dan [een issue](https://github.com/ScratchAddons/ScratchAddons/issues/) en vermeld dat je een e-mail hebt gestuurd.
+Als je een beveiligingskwetsbaarheid tegenkomt, neem dan privé contact op met World_Languages door een e-mail te sturen naar `worldxlanguages (apenstaart) gmail.com`, het liefst in het Engels. Als je binnen 48 uur geen antwoord krijgt, maak dan [een issue](https://github.com/ScratchAddons/ScratchAddons/issues/) en vermeld dat je een e-mail hebt gestuurd.
 
 Je kunt [ons beveiligingsbeleid lezen](https://github.com/ScratchAddons/ScratchAddons/security/policy), of [onze gepubliceerde adviezen checken](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
