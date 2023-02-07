@@ -687,12 +687,7 @@
 		"name": "Wyłącz automatyczne zapisywanie",
 		"description": "Wyłącza opcje automatycznego zapisywania projektu, w trakcie edytowania kodu.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -1666,6 +1661,13 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
+				"id": "dndtohide"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -2016,6 +2018,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

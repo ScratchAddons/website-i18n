@@ -76,8 +76,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "Chargement d'images en HD",
-		"description": "Ajoute un nouveau bouton au-dessus du bouton \"upload le costume\" qui convertit automatiquement les images bitmap téléchargées en images SVG (vecteur) pour éviter de perdre en qualité.",
+		"name": "Charger des images en HD",
+		"description": "Ajoute un nouveau bouton au-dessus du bouton \"importer un costume\" qui convertit automatiquement les images bitmap téléchargées en images SVG (vecteur) pour éviter de perdre en qualité.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -687,12 +687,7 @@
 		"name": "Désactiver la sauvegarde automatique",
 		"description": "Désactive la sauvegarde automatique du projet durant sa modification.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -713,7 +708,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "Ce comportement peut également être obtenu sans cet addon en faisant Alt+clic sur l'élément.",
 				"id": "vanilla"
 			}
 		],
@@ -1112,7 +1107,7 @@
 	{
 		"id": "fix-uploaded-svgs",
 		"name": "Corrige les uploads SVG",
-		"description": "Corrige un bug dans l'éditeur Scratch qui rend les fichiers SVG uploadés créés avec certains éditeurs d'images, tels que Affinity Designer, cassés.",
+		"description": "Corrige un bug dans l'éditeur Scratch qui rend les fichiers SVG uploadés cassés quand ils sont créés avec certains éditeurs d'images, tels que Affinity Designer,.",
 		"tags": ["editor", "costumeEditor"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1420,8 +1415,8 @@
 	},
 	{
 		"id": "image-uploader",
-		"name": "Uploader des images sur les forums",
-		"description": "Ajoute un bouton pour télécharger et insérer directement des images dans les messages du forum.",
+		"name": "Importateur d'images sur les forums",
+		"description": "Ajoute un bouton pour importer et insérer directement des images sur les messages des forums.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
@@ -1664,6 +1659,13 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
+				"id": "dndtohide"
 			}
 		],
 		"dynamicEnable": true,
@@ -2016,6 +2018,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

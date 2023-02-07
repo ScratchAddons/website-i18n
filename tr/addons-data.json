@@ -373,7 +373,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Satır sonları sadece bu eklentiyi etkinleştirmiş kullanıcılar tarafından görünür. Diğerleri için boşluk olarak görünür.",
+				"text": "Satır sonları sadece bu eklentiyi etkinleştirmiş kullanıcılara görünür. Diğerleri için boşluk olarak görünür.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -684,12 +684,7 @@
 		"name": "Otomatik kaydetmeyi devre dışı bırak",
 		"description": "Düzenleme sırasında projelerin otomatik olarak kaydedilmesini iptal eder.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -710,7 +705,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Bu davranış bu eklenti olmadan da Alt+Ögeye tıklatılarak gerçekleştirilebilir.",
+				"text": "Bu davranış bu eklenti olmadan da ögeye Alt+Tıklamayla gerçekleştirilebilir.",
 				"id": "vanilla"
 			}
 		],
@@ -865,7 +860,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Geliştirici araçları",
-		"description": "Düzenleyiciye yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi temizleme ve çok daha fazlası!",
+		"description": "Düzenleyiciye yeni menü seçenekleri ekler: blokları kopyalama/yapıştırma, daha iyi çekidüzen verme ve çok daha fazlası!",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -875,7 +870,7 @@
 	{
 		"id": "editor-extra-keys",
 		"name": "Fazladan tuş seçenekleri",
-		"description": "\"() tuşuna basılı mı?\" ve \"() tuşuna basıldığında\" bloklarının açılır menülerine enter, nokta, virgül ve daha fazlası gibi fazladan tuşlar tuşlar ekler. Bu anahtarlar, bu eklentiye sahip olmayan kullanıcılarda bile çalışacaktır.",
+		"description": "\"() tuşuna basılı mı?\" ve \"() tuşuna basıldığında\" bloklarının açılır menülerine enter, nokta ve virgül gibi fazladan tuşlar tuşlar ekler. Bu anahtarlar, bu eklentiye sahip olmayan kullanıcılarda bile çalışacaktır.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
@@ -1595,7 +1590,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "İsmine göre blok ekleme",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"description": "Kod alanına farenizin orta tuşuyla tıklayın, bir bloğun adını (veya parçalarını) yazabileceğiniz ve bloğu kod alanına sürükleyebileceğiniz kayan bir giriş kutusu getirmek için Ctrl+Boşluk veya Shift+Tıkla tuşlarını kullanın. Aynı anda birden çok blok eklerken kutuyu kapatmamak için sürüklerken Shift tuşunu basılı tutun.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1606,7 +1601,7 @@
 		],
 		"info": [
 			{
-				"text": "Bu eklenti daha önce \"geliştirici araçları\" eklentisinin bir parçasıydı ancak artık buraya taşındı.",
+				"text": "Bu eklenti daha önce \"geliştirici araçları\" eklentisinin bir parçasıydı ancak buraya taşındı.",
 				"id": "developer-tools"
 			}
 		],
@@ -1661,6 +1656,13 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Mesaj sayısını geçici olarak gizlemek için Rahatsız Etme'yi (uzantı simgesine sağ tıklayın → Rahatsız etme) kullanabilirsiniz.",
+				"id": "dndtohide"
 			}
 		],
 		"dynamicEnable": true,
@@ -1796,7 +1798,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "Opaklık ayarı, hiçbir nesne seçilmediğinde veya bitmap modundayken devre dışı bırakılır.",
+				"text": "Saydamlık ayarı, hiçbir nesne seçilmediğinde veya bitmap modundayken devre dışı bırakılır.",
 				"id": "bitmapModeincompleteInfo"
 			}
 		],
@@ -1818,7 +1820,7 @@
 	{
 		"id": "paint-snap",
 		"name": "Kostüm editöründe tutturma",
-		"description": "Kostüm düzenleyicideki objeleri sınırlayıcı kutulara ve vektör düğümlerine tutturun.",
+		"description": "Kostüm düzenleyicideki nesneleri sınırlayıcı kutulara ve vektör düğümlerine tutturun.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1838,7 +1840,7 @@
 	{
 		"id": "pick-colors-from-stage",
 		"name": "Kostüm düzenleyicide sahne renklerini seç",
-		"description": "Kostüm editöründeki damla aracının da sahneden renkleri seçmesine izin verir.",
+		"description": "Kostüm editöründeki damla aracının renkleri sahneden de seçmesine izin verir.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2013,6 +2015,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Bildirimleri geçici olarak devre dışı bırakmak için Rahatsız Etme'yi (uzantı simgesine sağ tıklayın → Rahatsız etme) kullanabilirsiniz.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,
@@ -2192,7 +2201,7 @@
 	{
 		"id": "sprite-properties",
 		"name": "Daraltılmış kukla özellikleri",
-		"description": "Varsayılan olarak -Scratch 2.0'daki gibi- kukla özellikler panelini gizler. Özellikler panelini tekrar göstermek için seçili kuklanın üzerindeki bilgi düğmesine veya kuklaya çift tıklayın. Tekrar gizlemek için özellikler panelindeki daraltma düğmesine veya kuklaya çift tıklayın.",
+		"description": "Varsayılan olarak - Scratch 2.0'daki gibi - kukla özellikleri panelini gizler. Özellikler panelini tekrar göstermek için seçili kuklanın üzerindeki bilgi düğmesine veya kuklaya çift tıklayın. Tekrar gizlemek için özellikler panelindeki daraltma düğmesine veya kuklaya çift tıklayın.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }

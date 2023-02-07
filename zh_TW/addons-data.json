@@ -682,12 +682,7 @@
 		"name": "停用自動儲存",
 		"description": "停止使用編輯專案時的自動儲存功能。",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -1661,6 +1656,13 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
+				"id": "dndtohide"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -2006,6 +2008,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

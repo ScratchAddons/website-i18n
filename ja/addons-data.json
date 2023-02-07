@@ -682,12 +682,7 @@
 		"name": "自動保存を無効化",
 		"description": "編集時の自動保存を無効化する。",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -1661,6 +1656,13 @@
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
 			}
 		],
+		"info": [
+			{
+				"type": "info",
+				"text": "「通知を停止」(拡張機能アイコンを右クリックし、通知を停止)を使用して、メッセージ数を一時的に隠せます。",
+				"id": "dndtohide"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -2011,6 +2013,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "「通知を停止」(拡張機能アイコンを右クリックし、通知を停止)を使用して、通知を一時的に停止できます。",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

@@ -490,7 +490,7 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Anpassbare Blockform",
+		"name": "Benutzerdefinierte Blockform",
 		"description": "Ändere die Blockhöhe, den Eckenradius und die Höhe der Laschen von Scratch-Blöcken.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
@@ -592,7 +592,7 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Dunkler Modus und anpassbare Farben auf der Website",
+		"name": "Dunkler Modus und benutzerdefinierte Farben auf der Website",
 		"description": "Passe die von der Scratch-Website verwendeten Farben an. Mehere Designs von verschiedenen Autoren verfügbar. Falls du den Dunklen Modus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
@@ -687,12 +687,7 @@
 		"name": "Automatisches Speichern deaktivieren",
 		"description": "Deaktiviert das automatische Speichern von Projekten während dem Bearbeiten.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -829,7 +824,7 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Dunkler Modus und anpassbare Farben im Editor",
+		"name": "Dunkler Modus und benutzerdefinierte Farben im Editor",
 		"description": "Passe die vom Editor verwendeten Farben an. Mehere Dunkelmodi von verschiedenen Autoren verfügbar. Falls du den Dunklen Modus nicht brauchst, aber die Standardfarben ändern willst, kannst du die \"Scratch-Standardfarben\"-Vorlage auswählen und sie optimieren.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
@@ -960,7 +955,7 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Anpassbare Blockfarben",
+		"name": "Benutzerdefinierte Blockfarben",
 		"description": "Bearbeite die Farben der Blöcke für jede Kategorie im Editor.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
@@ -1174,7 +1169,7 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Anpassbare Zitate & Codeblöcke in Foren",
+		"name": "Benutzerdefinierte Zitate & Codeblöcke in Foren",
 		"description": "Zeigt schönere Skript- und Zitatblöcke in Foren.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
@@ -1441,7 +1436,7 @@
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Personalisierbare Standardposition von neuen Figuren",
+		"name": "Benutzerdefinierte Standardposition von neuen Figuren",
 		"description": "Ändere die Standard X/Y-Position von neuen Figuren.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1598,7 +1593,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Blöcke mit Namen einfügen",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"description": "Drücke Strg+Leertaste, Umschalt+Leertaste oder klicke mit der mittleren Maustaste auf den Codebereich, um ein schwebendes Eingabefeld hervorzubringen, in dem du den Namen eines Blocks (oder Teile davon) eingeben und in den Codebereich ziehen kannst. Halte die Umschalttaste während des Ziehens gedrückt, um das Popup beim Hinzufügen von mehreren Blöcken geöffnet zu halten.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1664,6 +1659,13 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Du kannst Bitte nicht stören (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um den Nachrichtenzähler vorübergehend auszublenden.",
+				"id": "dndtohide"
 			}
 		],
 		"dynamicEnable": true,
@@ -2016,6 +2018,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Du kannst Bitte nicht stören (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um Benachrichtigungen vorübergehend auszuschalten.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

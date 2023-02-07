@@ -684,12 +684,7 @@
 		"name": "Disabilita salvataggio automatico",
 		"description": "Disabilita il salvataggio automatico dei progetti quando vengono modificati.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -1595,7 +1590,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Inserisci il nome dei blocchi ",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"description": "Cliccando con il tasto centrale nell'area degli script oppure usando Ctrl+Spazio o Shift+Click puoi far comparire una casella dove digitare il nome di un blocco (o parte del nome) e trascinare il blocco nell'area del codice. Se vuoi aggiungere più di un blocco e non non vuoi che la casella si chiuda mentre lo trascini, tieni premuto Shift mentre lo trascini.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1661,6 +1656,13 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Puoi usare Non Disturbare (click destro sull'icona dell'estensione → Non disturbare) per nascondere temporaneamente il contatore dei messaggi.",
+				"id": "dndtohide"
 			}
 		],
 		"dynamicEnable": true,
@@ -2013,6 +2015,13 @@
 				"name": "notificationsounds.com",
 				"note": "Scratch Addons ping",
 				"id": "scratchAddonsPing"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Puoi usare Non Disturbare (click destro sull'icona dell'estensione → Non disturbare) per disattivare temporaneamente le notifiche.",
+				"id": "dndtosilence"
 			}
 		],
 		"dynamicEnable": true,

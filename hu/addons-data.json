@@ -206,7 +206,7 @@
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Blokk választó kategória ikonok",
+		"name": "Blokkválasztó kategória ikonok",
 		"description": "Ikonokat helyez el a színes körökben, amelyekkel könnyebben azonosíthatod a kategóriákat.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
@@ -267,7 +267,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"text": "A \"Figyeld az egérmutatót\" opció hatással lehet a teljesítményre, miközben a szerkesztő meg van nyitva.",
 				"id": "watch"
 			}
 		],
@@ -350,7 +350,7 @@
 	{
 		"id": "columns",
 		"name": "Két oszlopos kategória menü",
-		"description": "Felosztja a blokk kategória menüt két oszlopra és a blokk választó tetejére helyezi, mint a Scratch 2.0-ban.",
+		"description": "Felosztja a blokk kategória menüt két oszlopra és a blokkválasztó tetejére helyezi, mint a Scratch 2.0-ban.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -373,7 +373,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"text": "Sortörések csak azon felhasználóknak válnak láthatóvá, akiknek be van kapcsolva ez a kiegészítő. Másoknak szóközönként fognak megjelenni.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -682,12 +682,7 @@
 		"name": "Automatikus mentés kikapcsolása",
 		"description": "Kikapcsolja a projektek automatikus mentését szerkesztés közben.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [
-			{
-				"name": "RustingRobot",
-				"link": "https://scratch.mit.edu/users/RustingRobot/"
-			}
-		],
+		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
@@ -708,7 +703,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "Ez a viselkedés elérhető ezen kiegészítő nélkül is Alt+Kattintással az elemre",
 				"id": "vanilla"
 			}
 		],
@@ -863,7 +858,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Fejlesztői eszközök",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
+		"description": "Hozzáad új menüopciókat a szerkesztőhöz: másolj/illessz be blokkokat, jobb rendrakás, és még sok más!",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -872,8 +867,8 @@
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Extra key options",
-		"description": "Adds more keys to the \"key () pressed?\" and \"when () key pressed\" block dropdowns, such as enter, dot, comma, and more. These keys will work even for users who do not have this addon.",
+		"name": "Extra billentyűopciók",
+		"description": "Több billentyűvel bővíti a „() gomb lenyomva?” és a „() gomb lenyomásakor” blokk lenyíló listáját, mint például sz enterrel, a ponttal, a vesszővel, de még többel is. Ezek a gombok működni fognak azoknak a szereplőknek is, akiknek nincs meg ez a kiegészítő",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
@@ -1304,8 +1299,8 @@
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Blokk választó automatikus elrejtése",
-		"description": "Elrejti a blokk választót, ha nem felette van a kurzor. Kattints a lakat ikonra, hogy átmenetileg zárold a pozícióját. Alternatívaként használd a \"kategória kattintásra\" módot.",
+		"name": "Blokkválasztó automatikus elrejtése",
+		"description": "Elrejti a blokkválasztót, ha nem felette van a kurzor. Kattints a lakat ikonra, hogy átmenetileg zárold a pozícióját. Alternatívaként használd a \"kategória kattintásra\" módot.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1345,7 +1340,7 @@
 	{
 		"id": "hide-project-stats",
 		"name": "Projekt statisztikák elrejtése",
-		"description": "Lets you hide love, favorite, remix, comment, and view counts on project pages, the front page, and My Stuff.",
+		"description": "Lehetővé teszi, hogy elrejtsd a szívecskék, kedvenccé választások, remixek, hozzászólások és megtekintési adatok számát a projektek oldalairól, a főoldalról és a Saját Dolgaimról.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1592,8 +1587,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"name": "Blokkok beillesztése név alapján",
+		"description": "Középső egérgombbal kattintás a kódterületre, Ctrl+Szóköz vagy Shift+Kattintás használatakor felugrik egy lebegő bemeneti mező, ahova be lehet írni egy blokk nevét (vagy nevének részeit), majd azt ki is lehet a kódterületre húzni. Tartsd a Shiftet lenyomva egy blokk kihúzása közben, hogy nyitva maradjon a mező, s több blokk is hozzáadható lehessen egyszerre.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1604,7 +1599,7 @@
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "Ez a kiegészítő korábban a „fejlesztői eszközök” része volt, de most ide költözött.",
 				"id": "developer-tools"
 			}
 		],
@@ -1614,7 +1609,7 @@
 	{
 		"id": "more-links",
 		"name": "Több link",
-		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
+		"description": "A scratch.mit.edu-n kvülre mutató linkek is váljanak kattinthatóvá",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1659,6 +1654,13 @@
 			{
 				"name": "lisa_wolfgang",
 				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			}
+		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Használhatod a „Ne zavarjanak” üzemmódot (jobb-klikk a bővítmény ikonjára → Ne zavarjanak), hogy átmenetileg elrejtsd az üzenetek számát.",
+				"id": "dndtohide"
 			}
 		],
 		"dynamicEnable": true,
@@ -1722,13 +1724,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Mindig mutass számbillentyűzetet",
+		"description": "Mindig megjeleníti minden eszközön a Scratch számbillentyűzet-bemenetét szám-mezők szerkesztésénél, ahelyett, hogy csak érintőképernyőseknél tenné meg.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "Egy számbillentyűzet fog megjelenni számterületi bemenetek szerkesztésénél, mint amilyen az \"x legyen\" blokknál van.",
 				"id": "explanation"
 			}
 		],
@@ -1787,14 +1789,14 @@
 	},
 	{
 		"id": "opacity-slider",
-		"name": "Opacity slider",
-		"description": "Adds an opacity slider to the costume editor color picker.",
+		"name": "Átlátszatlanságcsúszka",
+		"description": "Kibővíti a jelmezszerkesztő színválasztóját egy átlátszatlanságcsúszkával.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
 		"info": [
 			{
 				"type": "info",
-				"text": "The opacity slider is disabled when no object is selected, or when in bitmap mode.",
+				"text": "Az átlátszatlanságcsúszka nem használható objektumok kijelölése nélkül vagy bitképeknél.",
 				"id": "bitmapModeincompleteInfo"
 			}
 		],
@@ -1815,8 +1817,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"name": "Illesztés a jelmezszerkesztőben",
+		"description": "Illessz objektumokat a körülvevő mezőkhöz és vektorvégpontokhoz a jelmezszerkesztőben .",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2013,6 +2015,13 @@
 				"id": "scratchAddonsPing"
 			}
 		],
+		"info": [
+			{
+				"type": "info",
+				"text": "Használhatod a „Ne zavarjanak” üzemmódot (jobb-klikk a bővítmény ikonjára → Ne zavarjanak), hogy átmenetileg kikapcsold az üzeneteket.",
+				"id": "dndtosilence"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2189,8 +2198,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "Összecsukható szereplőjellemzők",
+		"description": "Elrejti alapértelmezetten a szereplőjellemzők panelt, mint a Scratch 2.0-ban. Használd az információs gombot az éppen kiválasztott szereplőnél vagy kattints duplán egy szereplőre, hogy előbújtasd ismét a tulajdonságokat mutató panelt. Az újra-elrejtéséhez pedig használd az összecsukó gombot a panelen, vagy kattints kétszer egy szereplőre.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
@@ -2347,7 +2356,7 @@
 	{
 		"id": "vol-slider",
 		"name": "Projekt-hangerőcsúszka",
-		"description": "Adds a volume slider next to the green flag controls.",
+		"description": "Hozzáad egy hangcsúszkát a zöld zászló mellé",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
