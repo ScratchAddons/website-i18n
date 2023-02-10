@@ -57,6 +57,8 @@ Docs:
   SectionSiteName: 説明文書
   DocsNav: ナビゲーション
   DocsNavToggleLabel: ナビゲーションサイドバーを切り替える
+  TOC: 内容
+  TOCToggleLabel: 目次のドロップダウンを切り替え
   LastUpdated: " {{.Date}}に{{.Name}}によって最後に更新されました。コミット{{.Commit}}"
   Improve: ページを改善する
   SectionPages: 目次
@@ -127,6 +129,16 @@ FeedbackPage:
   ContentPlaceholder: 可能な限り詳細を提供してください。
   SendEnabled: 現在有効のアドオンの一覧を送信する (推奨)
   SubmitButton: 送信
+  PreSendWarning:
+    Warning: "注意:"
+    Override: フィードバックを送信したい場合は、「送信」を再度クリックしてください。
+    Variations:
+      NotST:
+        Heading: 私たちはScratch チームではありません。
+        Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。ここでは、Scratch Addonsを用いて、Scratchを改善するためのアイデアを募集しています。
+      Punishment:
+        Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
+        Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
 ChangelogPage:

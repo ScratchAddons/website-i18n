@@ -117,6 +117,16 @@ FeedbackPage:
   ContentPlaceholder: Bitte stelle so viele Details wie du kannst zu Verfügung.
   SendEnabled: Liste der Addons, die gerade aktiviert sind, senden (empfohlen)
   SubmitButton: Senden
+  PreSendWarning:
+    Warning: "Achtung:"
+    Override: Wenn du dir wirklich sicher bist, dass du dieses Feedback versenden willst, kannst du erneut auf "Senden" klicken.
+    Variations:
+      NotST:
+        Heading: Wir sind nicht das Scratch Team.
+        Description: Vergiss nicht, dass Scratch Addons nicht mit Scratch oder seinen übergeordneten Organisationen angeschlossen ist. Du kannst uns aber Vorschläge geben, um mit Scratch Addons deine Scratch-Erfahrung zu verbessern.
+      Punishment:
+        Heading: Wir können niemanden bestrafen. Wir sind nicht das Scratch Team.
+        Description: Scratch Addons ist nicht mit Scratch oder seinen übergeordneten Organisationen angeschlossen. Wir haben keine Kontrolle über den Inhalt und die Moderation der Scratch-Website. {{ .Tag1Start }}Es gibt viele Wege zum Melden auf der Scratch-Website.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-Logo
 ChangelogPage:
