@@ -17,7 +17,7 @@ Scratch Eklentileri, World_Languages liderliğinde yürütülen bir ekip projesi
 
 ### Scratch Eklentileri neleri içerir?
 
-Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırakılabilen 100'den fazla eklenti içerir. Bazı eklentiler ayrıca daha fazla yapılandırılabilir ve bazılarının site teması için karanlık mod gibi ön ayarları vardır. Scratch Eklentileri ayrıca mesajlara, bulut oyunlarına ve ayarlar sayfasına hızlı bir şekilde erişmek için kullanılabilecek bir açılır pencere içerir. Scratch Eklentileri, Almanca, Fransızca, İspanyolca, Japonca ve Türkçe de dâhil olmak üzere birçok dile çevrilmiştir.
+Scratch Eklentileri, ayrı ayrı etkinleştirilebilen veya devre dışı bırakılabilen 100'den fazla eklenti içerir. Bazı eklentiler ayrıca daha fazla yapılandırılabilir ve bazılarının site teması için karanlık mod gibi fabrika ayarları vardır. Scratch Eklentileri ayrıca mesajlara, bulut oyunlarına ve ayarlar sayfasına hızlı bir şekilde erişmek için kullanılabilecek bir açılır pencere içerir. Scratch Eklentileri, Türkçe, Almanca, Fransızca, İspanyolca ve Japonca da dâhil olmak üzere birçok dile çevrilmiştir.
 
 ### Bu TurboWarp Eklentileri ile aynı mı?
 

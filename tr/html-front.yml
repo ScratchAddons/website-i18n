@@ -1,5 +1,5 @@
 _index.html:
-  description: "Scratch Eklentileri, Scratch (scratch.mit.edu) ve proje editörü için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen userstyle'ları ve userscript'leri toplamak, arşivlemek ve kullanıma sokmaktır."
+  description: "Scratch Eklentileri, Scratch (scratch.mit.edu) ve proje düzenleyicisi için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen userstyle'ları ve userscript'leri toplamak, arşivlemek ve kullanıma hazır hale getirmektir."
 addons.html:
   title: Eklentiler
   description: "Bu sayfa, Scratch Eklentileri'nde bulunan tüm eklentileri listeler."
@@ -26,4 +26,4 @@ unsupported-browser.html:
   description: Scratch Eklentileri kullandığınız tarayıcıyı desteklememektedir.
 welcome.html:
   title: Hoş Geldiniz!
-  description: Scratch Eklentileri başarılı bir şekilde yüklendi! Yüklediğiniz için teşekkür ederiz. Umuyoruz ki eklentiyi beğenirsiniz!
+  description: Scratch Eklentileri başarılı bir şekilde indirildi! İndirdiğiniz için teşekkür ederiz. Umuyoruz ki eklentiyi beğenirsiniz!
