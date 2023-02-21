@@ -1,6 +1,6 @@
 ---
-title: Joining the Localization Team
-description: Thanks for being interested on volunteering to translate Scratch Addons to other languages! Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
+title: Dołączanie do Zespołu Tłumaczy
+description: Dziękujemy za bycie zainteresowanym pomaganiem przy tłumaczeniu Scratch Addons na inne języki! Scratch Addons to otwartoźródłowy projekt działający na zasadach non-profit, gdzie wolontariusze-programiści utrzymują rozszerzenie i tworzą jego dodatki.
 ---
 
 {{< admonition info >}}
@@ -9,13 +9,13 @@ _Już przetłumaczyliśmy języki jak: **włoski, japoński, portugalski, słowe
 
 {{< /admonition >}}
 
-**Thanks for being interested on volunteering to translate Scratch Addons to other languages!**
+**Dziękujemy za bycie zainteresowanym pomaganiem przy tłumaczeniu Scratch Addons na inne języki!**
 
-Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons. 
+Scratch Addons to otwartoźródłowy projekt działający na zasadach non-profit, gdzie wolontariusze-programiści utrzymują rozszerzenie i tworzą jego dodatki.
 
-Even if you haven't ever coded a single line of JavaScript, you can still help us achieve our goal of making everyone's experience with Scratch better!
+Nawet jeśli nigdy nie napisałeś żadnej linijki w JavaScript, wciąż możesz pomóc nam osiągnąc nasz cel,  którym jest uczynienie doświadzczenia ze Scratchem lepszym!
 
-**All you need to do is know both English and another language, and spend a few minutes a week translating any new sentences Scratch Addons added during that period.** 
+**Wszystko czego potrzebujesz to znać zarówno angielski jak i inny język, oraz poświęcić kilka minut w tygodniu na tłumaczenie nowych zdań dodawanych do Scratch Addons przez ten czas**
 
 This way, anyone that speaks your language can use Scratch Addons in their native language, instead of having to understand English.
 
