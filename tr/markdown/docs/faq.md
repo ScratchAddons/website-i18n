@@ -146,7 +146,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Scratch Eklentileri'ni çevirin**
 
-  Başka bir dili akıcı olarak konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katıl](/tr/docs/localization/joining-the-localization-team)arak başlayabilirsiniz.
+  Başka bir dili akıcı olarak konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katılarak](/tr/docs/localization/joining-the-localization-team) başlayabilirsiniz.
 
 - **Belgeleri yazın**
 
@@ -162,7 +162,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Depomuzu yıldızlayın**
 
-  Temel olarak GitHub'ın yıldızı, Scratch yıldızına/favorisine benzer. Bunu [depomuz](https://github.com/ScratchAddons/ScratchAddons)a gidip sağ üst köşedeki "Yıldız" düğmesine tıklayarak yapabilirsiniz.
+  Temel olarak GitHub'ın yıldızı, Scratch yıldızına/favorisine benzer. Bunu [depomuza](https://github.com/ScratchAddons/ScratchAddons) gidip sağ üst köşedeki "Yıldız" düğmesine tıklayarak yapabilirsiniz.
 
 - **Bunu dünyaya yayın**
 

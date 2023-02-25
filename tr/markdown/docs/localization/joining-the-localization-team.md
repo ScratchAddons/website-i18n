@@ -1,5 +1,5 @@
 ---
-title: Yerelleştirme Ekibine Katılma
+title: Yerelleştirme Ekibine Katılmak
 description: Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz! Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kâr amacı gütmeyen bir açık kaynak projesidir.
 ---
 
@@ -34,8 +34,8 @@ Yakında Transifex ekibine kabul edileceksiniz ve çevrilecek yeni dizeler oldu�
 
 - Scratch'in o dile çevrilmiş olması gerekiyor.
 - Scratch'in aksine, dil başına yalnızca bir adet lehçeyi destekliyoruz (Scratch Eklentileri'nde hiçbir zaman Latin Amerika İspanyolcası veya Portekiz Portekizcesi olmayacaktır).
-- Request'inizin kabul edilmesi birkaç saat/gün sürebilir.
-- Eğer kabul edilirseniz, kendinizi [sitenin emeği geçenler sayfası](/credits)na ekleyebilirsiniz (ya da eklenebilirsiniz).
+- İsteğinizin kabul edilmesi birkaç saat/gün sürebilir.
+- Eğer kabul edilirseniz, kendinizi [sitenin emeği geçenler sayfasına](/credits) ekleyebilirsiniz (ya da eklenebilirsiniz).
 - Yasal olarak: çevirileriniz, Scratch Eklentileri (GPL v3.0) ile aynı lisans altında lisanslanacaktır
 
 ### Sorusu olan?

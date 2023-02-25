@@ -15,7 +15,7 @@ Kaynak kodunu yerel olarak indirmek için [bu yönergeleri](/docs/getting-starte
 Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`a gidin ve "geliştirici modu"nu açın. 
 "Paketlenmemiş yükle"ye tıklayın, ardından Scratch Eklentileri'nin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun. 
 İşte bu! Uzantıyı yüklediniz! Şuna benzer görünmelidir: 
-![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png) 
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
 Not: "hatalar"ı güvenle görmezden gelebilirsiniz. Bu, Firefox tarafından gerekli görülen tanınmayan bir bildirim anahtarı için yalnızca bir uyarıdır.
 
 ## 4. Adım: Eklentiniz ne hakkında?

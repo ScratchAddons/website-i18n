@@ -1,5 +1,5 @@
 ---
-title: Eklentileri Yerelleştirme
+title: Eklentileri Yerelleştirmek
 description: Eklentileri yerelleştirmek kolaydır.
 ---
 Eklentileri yerelleştirmek kolaydır.
