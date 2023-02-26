@@ -55,6 +55,8 @@ Docs:
   SectionSiteName: Docs de Scratch Addons
   DocsNav: Navegación de docs
   DocsNavToggleLabel: Activar o desactivar barra lateral de navegación
+  TOC: Contenidos
+  TOCToggleLabel: Alternar menú desplegable de tabla de contenidos
   LastUpdated: Actualizado por última vez el {{.Date}} por {{.Name}} en commit {{.Commit}}.
   Improve: Mejorar esta página.
   SectionPages: Páginas de Sección
@@ -121,6 +123,16 @@ FeedbackPage:
   ContentPlaceholder: Por favor proporcione tantos detalles como pueda.
   SendEnabled: Enviar lista de mis addons actualmente activados (recomendado)
   SubmitButton: Enviar
+  PreSendWarning:
+    Warning: "Advertencia:"
+    Override: Si está seguro de que quiere enviar estos comentarios, puede presionar el botón "Enviar" otra vez.
+    Variations:
+      NotST:
+        Heading: No somos el Equipo de Scratch.
+        Description: Recuerde que Scratch Addons no está afiliado con el sitio web de Scratch ni con las organizaciones que lo mantienen. Aún así, es bienvenido a dar ideas para mejorar su experiencia de Scratch con Scratch Addons.
+      Punishment:
+        Heading: No podemos castigar gente. No somos el Equipo de Scratch.
+        Description: Scratch Addons no está afiliado con el sitio web de Scratch ni con las organizaciones que lo mantienen. No tenemos control del contenido o la moderación del sitio web de Scratch. {{ .Tag1Start }}Hay muchas formas en las que puede reportar el el sitio web de Scratch.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logo de Scratch Messaging Extension
 ChangelogPage:
