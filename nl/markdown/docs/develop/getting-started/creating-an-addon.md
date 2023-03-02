@@ -59,8 +59,8 @@ Hier komt het leukste deel: maak je eigen JS- of CSS-bestanden!
 Pro-tip: nadat je veranderingen maakt aan je addon, ververs dan de Scratch Addons-extensie zoals in stap 8.
 
 Afhankelijk van wat je wilt dat je addon doet, zou je deze wikipagina's moeten bekijken:
-- [Userscripts](/docs/develop/addon-types/userscripts)
-- [Userstyles](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## Stap 10: Maak je addon aanpasbaar
 Als je wilt, kun je je addon aanpasbaar maken!  

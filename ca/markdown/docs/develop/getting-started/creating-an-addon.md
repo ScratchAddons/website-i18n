@@ -59,8 +59,8 @@ Aquí ve la part divertida: crea els teus propis fitxers JS o CSS!
 Consell de pro: després de fer qualsevol canvi al vostre complement, assegura't d'actualitzar l'extensió de Scratch Addons com vas fer al pas 8.
 
 Depenent del que vulguis que faci el teu addon, ara hauríes de comprovar aquestes pàgines de la wiki:
-- [Userscripts](/docs/develop/addon-types/userscripts)
-- [Userstyles](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## Pas 10: Fes que el teu addon sigui personalitzable
 Si vols, pots personalitzar el teu addon!

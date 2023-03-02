@@ -59,8 +59,8 @@ E ora arriva la parte divertente: crea i tuoi file JS o CSS!
 Suggerimento per professionisti: dopo aver fatto tutte le modifiche al tuo addon, assicurati di aggiornare l'estensione Scratch Addons come hai fatto nel passo 8.  
 
 A seconda di cosa vuoi che il tuo addon faccia, dovresti dare un'occhiata alle seguenti pagine del wiki:
-- [Userscript](/docs/develop/addon-types/userscripts)
-- [Userstyle](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## Passo 10: Rendi il tuo addon personalizzabile
 Se vuoi puoi rendere il tuo addon personalizzabile!  

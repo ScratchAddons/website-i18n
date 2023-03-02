@@ -58,8 +58,8 @@ Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve
 İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentileri uzantısını yenilediğinizden emin olun.
 
 Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
-- [Userscript'ler](/docs/develop/addon-types/userscripts)
-- [Userstyle'lar](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## 10. Adım: Eklentinizi özelleştirilebilir yapın
 İsterseniz eklentinizi özelleştirilebilir hâle getirebilirsiniz!

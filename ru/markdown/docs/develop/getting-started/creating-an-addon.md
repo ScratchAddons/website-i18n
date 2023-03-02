@@ -59,8 +59,8 @@ Scratch Addons не может найти новые папки самому, п
 Важно: после изменения Вашего аддона, не забудьте перезагрузить расширение Scratch Addons так, как Вы сделали в 8-ом шагу.  
 
 В зависимости от того, что будет делать Ваш аддон, Вы можете посмотреть эти вики статьи:
-- [Юзерскрипты](/docs/develop/addon-types/userscripts)
-- [Юзерстили](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## Шаг 10: Сделайте свой аддон настраиваемым
 If you want, you can make your addon customizable!  

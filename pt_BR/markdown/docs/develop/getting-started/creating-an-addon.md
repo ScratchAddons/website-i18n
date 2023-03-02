@@ -59,8 +59,8 @@ Agora chegou a melhor parte: crie seus próprios arquivos JS ou CSS!
 Dica: depois de mudar qualquer coisa no seu addon, lembre-se de recarregar a extensão do Scratch Addons assim como no passo 8.
 
 Dependendo do que você quer que o seu addon faça, você deve ler essas páginas da wiki:
-- [Userscripts](/docs/develop/addon-types/userscripts)
-- [Userstyles](/docs/develop/addon-types/userstyles)
+- [Userscripts](/docs/develop/userscripts)
+- [Userstyles](/docs/develop/userstyles)
 
 ## Passo 10: Deixe seu addon customizável
 Se você quiser, pode deixar o seu addon customizável!  

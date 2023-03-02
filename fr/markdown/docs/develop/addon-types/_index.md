@@ -1,3 +1,0 @@
----
-title: Types d'addons
----
