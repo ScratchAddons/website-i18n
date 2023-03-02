@@ -85,27 +85,6 @@ source_file = en/markdown/docs/develop/adding-an-icon-to-a-setting-name.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_addon-types__index]
-file_filter = <lang>/markdown/docs/develop/addon-types/_index.md
-minimum_perc = 1
-source_file = en/markdown/docs/develop/addon-types/_index.md
-source_lang = en
-type = GITHUBMARKDOWN
-
-[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_addon-types_userstyles]
-file_filter = <lang>/markdown/docs/develop/addon-types/userstyles.md
-minimum_perc = 1
-source_file = en/markdown/docs/develop/addon-types/userstyles.md
-source_lang = en
-type = GITHUBMARKDOWN
-
-[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_addon-types_userscripts]
-file_filter = <lang>/markdown/docs/develop/addon-types/userscripts.md
-minimum_perc = 1
-source_file = en/markdown/docs/develop/addon-types/userscripts.md
-source_lang = en
-type = GITHUBMARKDOWN
-
 [o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_getting-started__index]
 file_filter = <lang>/markdown/docs/develop/getting-started/_index.md
 minimum_perc = 1
@@ -196,3 +175,31 @@ minimum_perc = 0
 source_file = en/html-content/extension-settings.html
 source_lang = en
 type = HTML_FRAGMENT
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userstyles]
+file_filter = <lang>/markdown/docs/develop/userstyles.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userstyles.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userscripts__index]
+file_filter = <lang>/markdown/docs/develop/userscripts/_index.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userscripts/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userscripts_best-practices]
+file_filter = <lang>/markdown/docs/develop/userscripts/best-practices.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userscripts/best-practices.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userscripts_debugging-userscripts]
+file_filter = <lang>/markdown/docs/develop/userscripts/debugging-userscripts.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userscripts/debugging-userscripts.md
+source_lang = en
+type = GITHUBMARKDOWN
