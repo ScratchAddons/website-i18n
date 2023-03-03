@@ -1,34 +1,34 @@
 ---
 title: Userscript'ler
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Userscript'ler, kullanıcı bir Scratch sayfasını her yüklediğinde yürütülen JavaScript dosyalarıdır. Belgenin HTML'sini değiştirebilir, yeni düğmeler ekleyebilir, Scratch düzenleyicisinin davranışlarını özelleştirebilir ve çok daha fazlasını yapabilirler.
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Userscript'ler, kullanıcı bir Scratch sayfasını her yüklediğinde yürütülen JavaScript dosyalarıdır. Belgenin HTML'sini değiştirebilir, yeni düğmeler ekleyebilir, Scratch düzenleyicisinin davranışlarını özelleştirebilir ve çok daha fazlasını yapabilirler.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+Tampermonkey ve Greasemonkey gibi userscript yöneticileri için indirebileceğiniz userscript'lere benzer şekilde, Scratch Eklentileri userscript'leri, Scratch'in kendisinden gelen JavaScript koduyla aynı çalıştırma bağlamında yürütülen JavaScript parçalarından oluşur. Tarayıcı uzantısı sözlüğünde bu çalıştırma bağlamı, genellikle "ana dünya" ya da "main world" olarak adlandırılır.
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Scratch Eklentileri userscript'leri bir tarayıcı uzantısının parçası olsa da, herhangi bir `chrome.*` veya `browser.*` API'sine erişemezler. Bunun yerine Scratch Eklentileri bir [`addon.*` API](/docs/reference/addon-api/) sunar.
 
 
-## Declaring userscripts in the addon manifest
+## Eklenti manifest'inde userscript'leri çağırma
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+Eklenti manifest dosyasının güncellenmesi gibi **bazı değişikliklerin etkili olması için uzantının `chrome://extensions` adresinden yeniden yüklenmesi gerekir**.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Halihazırda var olan bir userscript JavaScript dosyasının kaynağını değiştirirken uzantıyı yeniden yüklemek gerekli değildir. Bu gibi durumlarda, sayfayı yeniden yüklemek yeterlidir.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Userscript'ler, bir "userscripts" dizisi içinde çağırılır.
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
+- `"url"`: bir JavaScript dosyasına ilişkin URL.
+- `"matches"`: userscript'in çalışacağı Scratch sayfalarının listesi. Daha fazla bilgi için [matches](/docs/reference/addon-manifest/#matches) sayfasına bakın.
 
-Example manifest:
+Örnek manifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "name": "Scratch Mesajlaşma",
+  "description": "Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar.",
   "userscripts": [
     {
       "url": "userscript.js",
@@ -40,90 +40,90 @@ Example manifest:
 }
 ```
 
-## Creating your first userscript
+## İlk userscript'ini oluşturma
 
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
+Uzantı içerik kodlarından ve Tampermonkey userscript'lerinden farklı olarak, tüm kodunuzu bir varsayılan dışa aktarma modülü içine yazmanız gerekir:
 ```js
 // Example userscript
 export default async function ({ addon, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
-  console.log("How are you today?");
+  console.log("Selam, " + await addon.auth.fetchUsername());
+  console.log("Bugün nasılsın?");
 }
 ```
 
-Remember that JavaScript allows functions to be declared inside other functions, for example:
+JavaScript'in, işlevlerin diğer işlevlerin içinde çağırılmasına izin verdiğini unutmayın, örneğin:
 ```js
 export default async function ({ addon, console }) {
-  async function sayHelloToUser() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
+  async function kullaniciyaSelamVer() {
+    console.log("Selam, " + await addon.auth.fetchUsername());
   }
 
-  await sayHelloToUser();
-  console.log("How are you today?");
+  await kullaniciyaSelamVer();
+  console.log("Bugün nasılsın?");
 }
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Birçok `addon.*` API yardımcısına userscript'lerden erişebilirsiniz. Örneğin, geçerli kullanıcı adını alabilir, sayfada bir öge bulunana kadar bekleyebilir veya Scratch VM nesnesine bir başvuru alabilirsiniz.
 
-For more information, check the [API reference](/docs/reference/addon-api/).
+Daha fazla bilgi için [API referansı](/docs/reference/addon-api/)na göz atın.
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## Belge HTML'sini düzenlemek
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Sayfanın HTML'sini düzenlemek için [tarayıcı DOM API'leri](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API)ni kullanın.
 
-Here's an example:
+İşte bir örnek:
 ```js
 const myButton = document.createElement("button");
-myButton.textContent = "Click me!";
+myButton.textContent = "Tıkla bana!";
 myButton.classList.add("button");
-myButton.setAttribute("title", "You're hovering a button");
+myButton.setAttribute("title", "Bir düğmenin üzerinde duruyorsun");
 
 const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Userscript'lerin yerelleştirilmesi
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Eklenti userscript'lerinin bazen İngilizce kelimelere veya cümlelere başvurması gerekir. Çeviri sürecinin bir parçası olabilmeleri için bunları sabit olarak kodlamadığınızdan emin olun.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
-document.querySelector(".sa-find-bar").placeholder = "Find blocks";
+// Bunu yapma:
+document.querySelector(".sa-find-bar").placeholder = "Blok ara";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Çevrilebilir bir dizi oluşturmak için, şu adımları takip edin:
+1. `/addon-l10n/en` klasörü içerisine `eklenti-kimligi.json` adında bir dosya ekle.
+2. Her dizi için bir ID tanımlayın:
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Userscript'te `msg()` işlevini içe aktardığınızdan emin olun. Userscript'inizin ilk satırı şöyle görünmelidir:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Kodunuzda sabit kodlanmış bir dizi yapmak yerine `msg()` işlevini kullanın:
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Userscript'lerin yerelleştirilmesi hakkında daha fazla bilgi için [bu sayfa](/docs/localization/localizing-addons/)ya bak.
 {{</admonition >}}
 
 
-## Technical details
+## Teknik detaylar
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Her userscript dosyası, bir işlevi dışa aktaran bir JavaScript modülüdür. Scratch Eklentileri, modülü yalnızca gerekirse içe aktarır ve sayfa tamamen yüklendikten sonra çalıştırır.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Userscript'ler özünde JavaScript modülleridir, dolayısıyla her zaman ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)da çalışırlar. Bu, ayrıca userscript'lerin diğer JavaScript dosyalarını içe aktarmak için [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) kullanabileceği anlamına gelir.
 
 The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](addon.tab.appendtosharedspace) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
 
