@@ -57,7 +57,7 @@ If you don't have Git installed, you can try this method instead. Note that you 
 
 2. Kliknite stikalo `Način za razvijalce`, da vključite način za razvijalce. To omogoča nameščanje razširitev iz map ali datotek.
 
-   ![Posnetek zaslona orodne vrstice na strani z razširitvami](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Prikazati bi se moral gumb `Naloži razpakirano`. Ko ga kliknite, lahko izberete mapo.
 

@@ -57,7 +57,7 @@ Als je Git niet geïnstalleerd hebt, kun je in plaats daarvan dit proberen. Onth
 
 2. Klik de schakelaar naast `Ontwikkelaarmodus` om het aan te zetten. Dit geeft je de mogelijkheid om extensies van een map of bestand te downloaden.
 
-   ![Screenshot van Extensiebeheer bovenste balk](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Je zou de `Uitgepakte extensie laden`-knop moeten zien. Als je erop klikt kun je een bestand selecteren om te uploaden.
 

@@ -57,7 +57,7 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentileri'ni her g
 
 2. Geliştirici Modunu açmak için `Geliştirici modu`'nun yanındaki açma/kapama düğmesini açık hâle getirin. Bu, uzantıları bir klasörden veya dosyadan yüklemenize olanak tanır.
 
-   ![Uzantı Yönetim çubuğunun ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. `Sıkıştırılmamışı yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
 

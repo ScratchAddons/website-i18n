@@ -57,7 +57,7 @@ Se non hai installato Git puoi usare questo metodo alternativo. Nota che dovrai 
 
 2. Clicca il selettore a fianco a `Modalità sviluppatore` per attivare la Modalità Sviluppatore. Questo ti permette di installare delle estensioni da una cartella o da un file.
 
-   ![Screenshot della barra superiore del Gestore delle Estensioni](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Dovresti veder comparire il pulsante `Carica estensione non pacchettizzata`. Cliccandolo potrai selezionare la cartella che vuoi caricare.
 

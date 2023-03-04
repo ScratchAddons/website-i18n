@@ -33,104 +33,104 @@ document.querySelector(".remix-button").addEventListener("click", () => {
 ```
 {{< /admonition >}}
 
-### Avoid using innerHTML
+### innerHTML kullanmaktan kaçının
 
-Avoid using `innerHTML`. Use `innerText` or `textContent` instead.  
-Other APIs that can potentially lead to XSS vulnerabilities should be avoided too, such as `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
+`innerHTML` kullanmaktan kaçının. Bunun yerine `innerText` veya `textContent` kullanın.
+Potansiyel olarak XSS güvenlik açıklarına yol açabilecek `insertAdjacentHTML`, `outerHTML` ve `document.write()` gibi diğer API'lerden de kaçınılmalıdır.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
-document.querySelector(".sa-remix-button").innerHTML = `<span>Remix ${projectTitle}</span>`;
+// Bunu yapma:
+document.querySelector(".sa-remix-button").innerHTML = `<span>{projectTitle} Projesine Katkı Yap</span>`;
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Onun yerine bunu yap:
 const span = document.createElement("span");
-span.textContent = `Remix ${projectTitle}`;
+span.textContent = `${projectTitle} Projesine Katkı Yap`;
 document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
-### Hide elements instead of removing them
+### Ögeleri kaldırmak yerine gizleyin
 
-Avoid calling `.remove()` on HTML elements, which in extreme cases, can cause the project page to crash.  
-Addons may only use it for elements they themselves created, in specific situations.
+Aşırı durumlarda proje sayfasının çökmesine neden olabilecek HTML ögelerinde `.remove()` yöntemini çağırmaktan kaçının.
+Eklentiler, yalnızca belirli durumlarda kendi oluşturdukları ögeler için kullanabilirler.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Bunu yapma:
 document.querySelector(".remix-button").remove();
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Onun yerine bunu yap:
 document.querySelector(".remix-button").style.display = "none";
 
-// Or do this, with help from a userstyle:
+// Ya da bir userstyle'dan yardım alarak bunu yap:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
 
-### Only use waitForElement when necessary
+### waitForElement'i yalnızca gerekli olduğunda kullanın
 
-Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
-For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.
-
-
-## JavaScript best practices
+Ögenin var olduğu garanti ediliyorsa `addon.tab.waitForElement` API'sini kullanmaktan kaçının. Yine de, düzgün çalışacak ve performansa büyük bir etkisi olmayacaktır ancak kodu okuyan diğer geliştiricilerin kafasını karıştırabilir. waitForElement'in kullanımı genellikle ögenin o çalıştırma noktasında bulunmayan en az 1 senaryo olduğu anlamına gelmelidir.
+Örneğin, userscript `"runAtComplete": false` ile bildirilmedikçe, forum gönderilerini ararken waitForElement kullanmak gerekli değildir. Bu gibi durumlarda, genelde `document.querySelectorAll()` işlevini kullanmanız yeterlidir.
 
 
-### Use modern JavaScript
+## JavaScript en iyi yöntemler
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
-- Use optional chaining if an object can sometimes be `null`.  
-For example, `document.querySelector(".remix-button")?.textContent`.
-- Use `for ... of` loops or `.forEach()`.  
-Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
 
-### Only use "let" over "const" if the variable may be reassigned
+### Modern JavaScript'i kullanın
+
+- `XMLHttpRequest` yerine `fetch()` gibi daha yeni API'leri tercih edin.
+- Karşılaştırma yapmak için asla `==` kullanmayın. Onun yerine `===` kullanın.
+- Bir nesne bazen `null` olabiliyorsa opsiyonel zincirlemeyi kullanın.
+Örneğin, `document.querySelector(".remix-button")?.textContent`.
+- `for ... of` döngülerini veya `.forEach()`'i kullanın.
+`for (let i = 0; i < arr.length; i++)` gibi C tarzı döngülerden kaçının.
+
+### Değişken yeniden atanabilirse yalnızca "const" yerine "let" kullanın
 
 {{< admonition info >}}
-We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
-For constant strings or numbers, we usually use `SNAKE_CASE`.
+"let" veya "const" ile tanımlanmış olmalarına bakılmaksızın değişkenleri adlandırmak için genellikle `camelCase` kullanırız.
+Sabit diziler veya sayılar içinse genellikle `SNAKE_CASE` kullanırız.
 
 İşte bir örnek:
 ```js
-let actionCounter = 0;
-actionCounter++;
+let eylemSayaci = 0;
+eylemSayaci++;
 
-const remixButton = document.querySelector(".remix-button");
+const katkiButonu = document.querySelector(".remix-button");
 
-const DEFAULT_ZOOM = 1.20;
+const VARSAYILAN_YAKINLASTIRMA = 1.20;
 ```
 {{< /admonition >}}
 
-People reading your code may assume that a variable that was declared through the "let" keyword might be reassigned at some other point of the script. If that's not the case, use the "const" keyword instead.  
-Remember that in JavaScript, declaring an object or an array as a "const", does not mean its values are frozen. Values in the object can still be changed, even if the variable itself cannot be reassigned.
+Kodunuzu okuyan kişiler, "let" anahtar kelimesi aracılığıyla bildirilen bir değişkenin, kodun başka bir noktasında yeniden atanabileceğini varsayabilir. Aksi takdirde, bunun yerine "const" anahtar kelimesini kullanın.
+JavaScript'te bir nesneyi veya diziyi "const" olarak bildirmenin, değerlerinin dondurulduğu anlamına gelmediğini unutmayın. Değişkenin kendisi yeniden atanamasa bile, nesnedeki değerler yine de değiştirilebilir.
 
-### Do not set global variables
+### Evrensel değişkenleri değiştirmeyin
 
-Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
-If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
+`fetch()` gibi genel bir işlevi kirletmediğiniz sürece, evrensel `window` nesnesindeki özellikleri değiştirmekten kaçının.
+Birden çok eklentinin birbirleri arasında bilgi veya fonksiyon paylaşması gerekiyorsa, bir JS modül dosyası oluşturun ve onu her iki userscript'ten de içe aktarın.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Bunu yapma:
 window.isDarkMode = true;
 ```
 {{< /admonition >}}
 
-### Do not declare functions outside of the default export
+### Fonksiyonları varsayılan dışa aktarmanın dışında bildirmeyin
 
-There's no reason to declare functions outside the `export default async function(){}` function. JavaScript allows functions to be declared inside other functions.
+`export default async function(){}` fonksiyonu dışında fonksiyon bildirmek için hiçbir neden yoktur. JavaScript, fonksiyonların diğer fonksiyonların içinde çağırılmasına izin verir.
 
-You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
+Uygunsa, fonksiyonları ayrı JS modül dosyalarına (eklenti manifest'inde userscript'leri olarak çağırılmayanlar) taşıyabilirsiniz ancak onu bağımsız değişken olarak kabul eden bir kurulum fonksiyonunu ortaya çıkarmadığınız ve fonksiyonu userscript giriş noktasında çağırmadığınız sürece, içe aktarılan bu dosyaların `addon` nesnesine erişimi olmayacağını unutmayın.
 
 ### Do not unpollute functions
 
@@ -140,24 +140,24 @@ For this reason, functions should not be unpolluted. Instead, pass the arguments
 
 {{< admonition error >}}
 ```js
-const oldDeleteSprite = vm.deleteSprite;
-const newDeleteSprite = function (...args) {
+const eskiKuklaSilme= vm.deleteSprite;
+const yeniKuklaSilme = function (...args) {
   // ...
 }
 
 addon.self.addEventListener("disabled", () => {
-  // Don't do this:
-  vm.deleteSprite = oldDeleteSprite;
+  // Bunu yapma:
+  vm.deleteSprite = eskiKuklaSilme;
 });
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
-const oldDeleteSprite = vm.deleteSprite;
-const newDeleteSprite = function (...args) {
-  if (addon.self.disabled) return oldDeleteSprite.apply(this, args);
+// Onun yerine bunu yap:
+const eskiKuklaSilme = vm.deleteSprite;
+const yeniKuklaSilme = function (...args) {
+  if (addon.self.disabled) return eskiKuklaSilme.apply(this, args);
   // ...
 };
 ```

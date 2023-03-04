@@ -34,7 +34,7 @@ ile:
 export default async function ({ addon, console, msg }) {
 ```
 
-Eklenen `msg`, çevirileri almak için kullandığınız işlevdir. Örneğin, `text = "Meow"` artık `metin = msg("meow")` olabilir. Eklenti kimliği ve eğik çizgi atlanır.
+Eklenen `msg`, çevirileri almak için kullandığınız fonksiyondur. Örneğin, `metin= "Miyav"` artık `metin = msg("miyav")` olabilir. Eklenti ID'si ve eğik çizgi atlanır.
 
 ### Yer tutucular
 Yer tutucuya değer verebilirsiniz:

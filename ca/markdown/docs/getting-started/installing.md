@@ -57,7 +57,7 @@ Si no tens el Git instal·lat, pots provar aquest altre mètode. Tingues en comp
 
 2. Fes clic al lliscador del costat de `Mode de desenvolupador` per activar el mode de desenvolupador. Això permet instal·lar extensions des d'una carpeta o arxiu.
 
-   ![Captura de pantalla de la barra superior del gestor d'extensions](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Hauríes de veure que apareix el botó `Carrega una extensió desempaquetada`. Si fas clic, podrás seleccionar una carpeta per carregar.
 

@@ -104,12 +104,12 @@ document.querySelector(".sa-find-bar").placeholder = "Blok ara";
   "addon-id/find": "Find blocks"
 }
 ```
-3. Userscript'te `msg()` işlevini içe aktardığınızdan emin olun. Userscript'inizin ilk satırı şöyle görünmelidir:
+3. Userscript'te `msg()` fonksiyonunu içe aktardığınızdan emin olun. Userscript'inizin ilk satırı şöyle görünmelidir:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Kodunuzda sabit kodlanmış bir dizi yapmak yerine `msg()` işlevini kullanın:
+4. Kodunuzda sabit kodlanmış bir dizi yapmak yerine `msg()` fonksiyonunu kullanın:
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
@@ -121,14 +121,14 @@ Userscript'lerin yerelleştirilmesi hakkında daha fazla bilgi için [bu sayfa](
 
 ## Teknik detaylar
 
-Her userscript dosyası, bir işlevi dışa aktaran bir JavaScript modülüdür. Scratch Eklentileri, modülü yalnızca gerekirse içe aktarır ve sayfa tamamen yüklendikten sonra çalıştırır.
+Her userscript dosyası, bir fonksiyonu dışa aktaran bir JavaScript modülüdür. Scratch Eklentileri, modülü yalnızca gerekirse içe aktarır ve sayfa tamamen yüklendikten sonra çalıştırır.
 
 Userscript'ler özünde JavaScript modülleridir, dolayısıyla her zaman ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)da çalışırlar. Bu, ayrıca userscript'lerin diğer JavaScript dosyalarını içe aktarmak için [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) kullanabileceği anlamına gelir.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](addon.tab.appendtosharedspace) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+Userscript'lerin çalışma sırası, her sayfa yüklemesinde değişebilir. Sayfa yüklendikten sonra, kullanıcı bazı eklentileri özel bir sırayla dinamik olarak etkinleştirebilir, bu nedenle yürütme sırası hiçbir zaman garanti edilemez. [`addon.tab.appendToSharedSpace`](addon.tab.appendtosharedspace) gibi bazı API'ler, eklentileri dinamik olarak etkinleştirirken olası yarış koşullarını ve beklenmeyen davranışları düzeltmeye çalışır.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Userscript'ler, her bir userscript için olmak üzere eklenti manifest'inde `"runAtComplete": false` değerini belirterek sayfa tam olarak yüklenmeden önce çalıştırılmayı seçebilir.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Şu anda, erken bir userscript çalıştırıldığında yalnızca `document.head`in var olacağı garanti edilmektedir. Gelecekte, `document.body`nin de ayrıca var olacağı garantilenecektir, bu nedenle, HTML belgesi `</head> <body>` ye ulaşacak kadar yüklenmeden hiçbir userscript çalıştırılmayacaktır.

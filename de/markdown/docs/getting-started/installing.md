@@ -57,7 +57,7 @@ Falls du Git nicht installiert hast, kannst du stattdessen diese Methode ausprob
 
 2. Klicke auf den Schalter neben `Entwicklermodus`, um den Entwicklermodus zu aktivieren. Dies Erlaubt dir das Laden aus einem Ordner bzw. aus einer Datei.
 
-   ![Erweiterungenverwaltung - Screenshot der Navigationsleiste](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Der `Entpackte laden`-Knopf sollte erscheinen. Klicke es an, um einen Ordner zum Hochladen auszuwählen.
 

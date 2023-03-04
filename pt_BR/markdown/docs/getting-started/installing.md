@@ -57,7 +57,7 @@ Se você não tem Git instalado, você pode tentar desse jeito. Note que você p
 
 2. Clique no botão `Modo do desenvolvedor` para ligar o Modo de Desenvolvedor. Isso te deixa instalar extensões a partir de uma pasta ou arquivo.
 
-   ![Print da barra superior da página de Extensões](/assets/img/docs/developer-mode-toggle.png)
+   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
 3. Vai aparecer um botão escrito `Carregar sem compactação`. Clique nele para selecionar uma pasta para carregar.
 
