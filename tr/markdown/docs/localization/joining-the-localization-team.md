@@ -1,6 +1,6 @@
 ---
 title: Yerelleştirme Ekibine Katılmak
-description: Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz! Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kâr amacı gütmeyen bir açık kaynak projesidir.
+description: Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkürler! Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kâr amacı gütmeyen bir açık kaynak projesidir.
 ---
 
 {{< admonition info >}}
@@ -9,15 +9,15 @@ _**İtalyanca, Japonca, Portekizce, Slovence ve İspanyolca** dilleri zaten çev
 
 {{< /admonition >}}
 
-**Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkür ederiz!**
+**Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla ilgilendiğiniz için teşekkürler!**
 
 Scratch Eklentileri, eklentiler oluşturup bunları yayınlayabildiğiniz, kâr amacı gütmeyen bir açık kaynak projesidir.
 
-Tek bir JavaScript satırı kodlamamış olsanız bile, herkesin Scratch deneyimini daha iyi hale getirme hedefimize ulaşmamıza yardımcı olabilirsiniz!
+Tek bir JavaScript satırı kodlamamış olsanız bile herkesin Scratch deneyimini daha iyi hale getirme hedefimize ulaşmamıza yardımcı olabilirsiniz!
 
-**Tek yapmanız gereken hem İngilizce hem de başka bir dil bilmek ve haftada birkaç dakikanızı o dönemde eklenen yeni cümlelerini çevirmek için harcamak.**
+**Tek yapmanız gereken İngilizce ile birlikte başka bir dil daha bilmek ve haftada birkaç dakikanızı o dönemde eklenen yeni cümlelerini çevirmek için harcamak.**
 
-Bu sayede, sizin dilinizi konuşan herkes, İngilizce bilmek zorunda kalmadan Scratch Eklentileri'ni kendi diinde kullanabilir.
+Bu sayede sizin dilinizi konuşan herkes, İngilizce bilmek zorunda kalmadan Scratch Eklentileri'ni kendi dilinde kullanabilir.
 
 **Yardım etmekle ilgileniyorsanız, lütfen şu adımları izleyin:**
 

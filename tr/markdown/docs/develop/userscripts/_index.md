@@ -70,7 +70,7 @@ Daha fazla bilgi için [API referansı](/docs/reference/addon-api/)na göz atın
 {{< /admonition >}}
 
 
-## Belge HTML'sini düzenlemek
+## Belge HTML'sini düzenleme
 
 Sayfanın HTML'sini düzenlemek için [tarayıcı DOM API'leri](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API)ni kullanın.
 

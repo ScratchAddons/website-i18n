@@ -11,72 +11,72 @@ Volg deze optimale praktijken bij het schrijven of beoordelen van userscript-cod
 
 ### Gebruik addEventListener i.p.v. "onevent"
 
-Avoid setting "onevent" values on HTML elements, such as `onclick`. Instead, use `addEventListener`. This allows multiple addons to register the same event on the same element, without conflicting.  
-It is still valid to use "onevent", but only for elements that were created by the same addon that is registering the event.  
-In all cases, avoid setting "onevent" HTML attributes, for example `element.setAttribute("onclick", "don't do this")`.
+Vermijd het gebruik van "onevent"-waarden op HTML-elementen, zoals `onclick`. Gebruik in plaats daarvan `addEventListener`. Hierdoor kunnen meerdere addons tegelijkertijd dezelfde gebeurtenis op hetzelfde element waarnemen, zonder te conflicteren.
+Het is alleen handig om "onevent" te gebruiken voor elementen die in dezelfde addon zijn gecreëerd die de gebeurtenis waarneemt.
+Vermijd altijd het gebruik van "onevent" HTML-attributen, bijvoorbeeld `element.setAttribute("onclick", "doe dit niet")`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Doe dit niet:
 document.querySelector(".remix-button").onclick = () => {
-  prompt("Are you sure you want to remix?");
+  prompt("Weet je zeker dat je wilt remixen?");
 };
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Doe in plaats daarvan dit:
 document.querySelector(".remix-button").addEventListener("click", () => {
-  prompt("Are you sure you want to remix?");
+  prompt("Weet je zeker dat je wilt remixen?");
 });
 ```
 {{< /admonition >}}
 
-### Avoid using innerHTML
+### Vermijd het gebruik van innerHTML
 
-Avoid using `innerHTML`. Use `innerText` or `textContent` instead.  
-Other APIs that can potentially lead to XSS vulnerabilities should be avoided too, such as `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
+Vermijd het gebruik van `innerHTML`. Gebruik in plaats daarvan `innerText` of `textContent`.
+Overige API's die mogelijk tot XSS-kwetsbaarheden kunnen leiden moeten ook worden vermeden, zoals `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Doe dit niet:
 document.querySelector(".sa-remix-button").innerHTML = `<span>Remix ${projectTitle}</span>`;
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Doe in plaats daarvan dit:
 const span = document.createElement("span");
 span.textContent = `Remix ${projectTitle}`;
 document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
-### Hide elements instead of removing them
+### Verberg elementen i.p.v. ze te verwijderen
 
-Avoid calling `.remove()` on HTML elements, which in extreme cases, can cause the project page to crash.  
-Addons may only use it for elements they themselves created, in specific situations.
+Vermijd het gebruik van `.remove()` op HTML-elementen, omdat het in sommige extreme gevallen de pagina kan laten crashen.
+In specifieke situaties mogen addons het alleen gebruiken voor elementen die ze zelf hebben gemaakt.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Doe dit niet:
 document.querySelector(".remix-button").remove();
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Doe in plaats daarvan dit:
 document.querySelector(".remix-button").style.display = "none";
 
-// Or do this, with help from a userstyle:
+// Of doe dit, m.b.v. een userstyle:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
 
-### Only use waitForElement when necessary
+### Gebruik waitForElement alleen waar nodig
 
 Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
 For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.

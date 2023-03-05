@@ -132,11 +132,11 @@ window.isDarkMode = true;
 
 Uygunsa, fonksiyonları ayrı JS modül dosyalarına (eklenti manifest'inde userscript'leri olarak çağırılmayanlar) taşıyabilirsiniz ancak onu bağımsız değişken olarak kabul eden bir kurulum fonksiyonunu ortaya çıkarmadığınız ve fonksiyonu userscript giriş noktasında çağırmadığınız sürece, içe aktarılan bu dosyaların `addon` nesnesine erişimi olmayacağını unutmayın.
 
-### Do not unpollute functions
+### Fonksiyonları temizlemeyin
 
-Multiple addons might want to pollute the same function, such as Scratch VM methods, `XMLHttpRequest`, `fetch()` or `FileReader()`.  
-In those cases, one of the userscripts will be polluting the real function, while the others will be polluting functions which were already polluted themselves. If, for example, the first userscript that polluted decides to unpollute (for example, by doing `window.fetch = realFetch`), then all other functions in the "pollution chain" are also lost, which is unexpected.  
-For this reason, functions should not be unpolluted. Instead, pass the arguments to the original function.
+`XMLHttpRequest`, `fetch()` veya `FileReader()` gibi Scratch VM yöntemleri, birden çok eklenti aynı fonksiyonu kirletmek isteyebilir.
+Bu durumlarda, userscript'lerden biri gerçek fonksiyonu kirletirken, diğerleri zaten kendilerini kirletmiş olan fonksiyonları kirletecektir. Örneğin, kirleten ilk userscript kirletmeyi kaldırmaya karar verirse (örneğin, `window.fetch = realFetch` yaparak), "kirlilik zinciri"ndeki diğer tüm fonksiyonlar da kaybolur, ki bu beklenmeyen bir durumdur.
+Bu nedenle fonksiyonlar temizlenmemiş olmamalıdır. Bunun yerine, bağımsız değişkenleri orijinal fonksiyona iletin.
 
 {{< admonition error >}}
 ```js

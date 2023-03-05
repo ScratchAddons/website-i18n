@@ -60,7 +60,7 @@ Docs:
   DocsNavToggleLabel: Belge gezinme çubuğunu göster/gizle
   TOC: İçindekiler
   TOCToggleLabel: İçindekiler tablosunun açılır menüsünü aç/kapat
-  LastUpdated: "{{.Commit}} önerisi, en son {{.Date}} tarihinde {{.Name}} tarafından değiştirildi."
+  LastUpdated: Son değişiklik {{.Date}} tarihinde {{.Name}} tarafından {{.Commit}} taahhütünde değiştirildi.
   Improve: Bu sayfayı geliştirin
   SectionPages: Bölüm Sayfaları
 PlayerModal:
@@ -155,7 +155,7 @@ UnsupportedBrowserPage:
   Download: İndir
   HowToUpdate: Nasıl güncellenir
 Blog:
-  SectionSiteName: Scratch Eklentileri Blog
+  SectionSiteName: Scratch Eklentileri Blogu
 CreditsPage:
   NContributors: katkısı olan {{.Count}} kişi
   NProfilePicture: "{{.Name}} profil resmi"
