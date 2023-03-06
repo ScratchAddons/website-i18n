@@ -11,7 +11,7 @@ Userscript kodunu yazarken veya incelerken buradaki en iyi yöntemleri takip edi
 
 ### "onevent" yerine addEventListener kullanın
 
-`onclick` gibi HTML ögelerinde "onevent" değerleri kullanmaktan kaçının. Bunun yerine, `addEventListener` kullanın. Bu, çakışmadan birden çok eklentinin aynı olayı aynı ögeye kayıt olmasına olanak tanır.
+`onclick` gibi HTML ögelerinde "onevent" değerleri kullanmaktan kaçının. Bunun yerine, `addEventListener` kullanın. Bu, çakışmadan birden çok eklentinin aynı olayı aynı ögeye kaydetmesine olanak tanır.
 "onevent" kullanımı hâlâ geçerlidir, ancak yalnızca olayı kaydeden aynı eklenti tarafından oluşturulan ögeler için geçerlidir.
 Her durumda, "onevent" HTML özelliklerini kullanmaktan kaçının, örneğin `element.setAttribute("onclick", "bunu yapma")`.
 
@@ -78,7 +78,7 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 
 ### waitForElement'i yalnızca gerekli olduğunda kullanın
 
-Ögenin var olduğu garanti ediliyorsa `addon.tab.waitForElement` API'sini kullanmaktan kaçının. Yine de, düzgün çalışacak ve performansa büyük bir etkisi olmayacaktır ancak kodu okuyan diğer geliştiricilerin kafasını karıştırabilir. waitForElement'in kullanımı genellikle ögenin o çalıştırma noktasında bulunmayan en az 1 senaryo olduğu anlamına gelmelidir.
+Ögenin var olduğu garanti ediliyorsa `addon.tab.waitForElement` API'sini kullanmaktan kaçının. Yine de düzgün çalışacak ve performansa büyük bir etkisi olmayacaktır, ancak kodu okuyan diğer geliştiricilerin kafasını karıştırabilir. waitForElement'in kullanımı genellikle ögenin o çalıştırma noktasında bulunmayan en az 1 senaryo olduğu anlamına gelmelidir.
 Örneğin, userscript `"runAtComplete": false` ile bildirilmedikçe, forum gönderilerini ararken waitForElement kullanmak gerekli değildir. Bu gibi durumlarda, genelde `document.querySelectorAll()` işlevini kullanmanız yeterlidir.
 
 
@@ -89,12 +89,12 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 
 - `XMLHttpRequest` yerine `fetch()` gibi daha yeni API'leri tercih edin.
 - Karşılaştırma yapmak için asla `==` kullanmayın. Onun yerine `===` kullanın.
-- Bir nesne bazen `null` olabiliyorsa opsiyonel zincirlemeyi kullanın.
+- Bir nesne bazen `null` olabiliyorsa isteğe bağlı zincirlemeyi kullanın.
 Örneğin, `document.querySelector(".remix-button")?.textContent`.
 - `for ... of` döngülerini veya `.forEach()`'i kullanın.
 `for (let i = 0; i < arr.length; i++)` gibi C tarzı döngülerden kaçının.
 
-### Değişken yeniden atanabilirse yalnızca "const" yerine "let" kullanın
+### Değişken yeniden atanabilirse "const" yerine yalnızca "let" kullanın
 
 {{< admonition info >}}
 "let" veya "const" ile tanımlanmış olmalarına bakılmaksızın değişkenleri adlandırmak için genellikle `camelCase` kullanırız.
