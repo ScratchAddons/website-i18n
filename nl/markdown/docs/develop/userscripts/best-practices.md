@@ -78,29 +78,29 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 
 ### Gebruik waitForElement alleen waar nodig
 
-Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
-For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.
+Vermijd het gebruik van de API `addon.tab.waitForElement` als het element gegarandeerd bestaat. Het zal nog steeds werken zonder een grote impact op prestaties te hebben, maar het kan anderen die de code lezen misschien verwarren. Het gebruik van waitForElement betekent meestal dat er minstens 1 situatie is waar het element niet bestaat op het moment van uitvoering.
+Het is bijvoorbeeld niet nodig om waitForElement te gebruiken om naar forumposts te zoeken, behalve als de userscript is gedeclareerd met `"runAtComplete": false`. Gebruik in die gevallen gewoon `document.querySelectorAll()`.
 
 
-## JavaScript best practices
+## Optimale praktijken in JavaScript
 
 
-### Use modern JavaScript
+### Gebruik moderne JavaScript
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
-- Use optional chaining if an object can sometimes be `null`.  
-For example, `document.querySelector(".remix-button")?.textContent`.
-- Use `for ... of` loops or `.forEach()`.  
-Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
+- Gebruik liever nieuwere API's, zoals `fetch()` i.p.v. `XMLHttpRequest`.
+- Gebruik nooit `==` voor vergelijkingen. Gebruik in plaats daarvan `===`.
+- Gebruik optionele chaining als een object in sommige gevallen `null` kan zijn.
+Bijvoorbeeld: `document.querySelector(".remix-button")?.textContent`.
+- Gebruik `for ... of`-lussen of `.forEach()`.
+Vermijd lussen in C-stijl zoals `for (let i = 0; < arr.length; i++)`.
 
-### Only use "let" over "const" if the variable may be reassigned
+### Gebruik alleen "let" i.p.v. "const" als de variabele opnieuw toegewezen kan worden
 
 {{< admonition info >}}
-We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
-For constant strings or numbers, we usually use `SNAKE_CASE`.
+We gebruiken meestal `camelCase` om variabelen een naam te geven, ongeacht of ze zijn toegewezen met "let" of "const".
+Voor constante strings of getallen gebruiken we meestal `SNAKE_CASE`.
 
-Here's an example:
+Hier is een voorbeeld:
 ```js
 let actionCounter = 0;
 actionCounter++;
@@ -111,10 +111,10 @@ const DEFAULT_ZOOM = 1.20;
 ```
 {{< /admonition >}}
 
-People reading your code may assume that a variable that was declared through the "let" keyword might be reassigned at some other point of the script. If that's not the case, use the "const" keyword instead.  
-Remember that in JavaScript, declaring an object or an array as a "const", does not mean its values are frozen. Values in the object can still be changed, even if the variable itself cannot be reassigned.
+Als mensen je code lezen zouden ze kunnen denken dat een variabele die is gedeclareerd met "let" misschien ergens anders in het script opnieuw wordt toegewezen. Als dat niet het geval is, gebruik dan "const".
+Onthoud dat objecten en arrays die zijn gedeclareerd als "const" geen bevroren waarden hebben. Waarden in het object kunnen nog steeds veranderen, ook al kan de variabele zelf niet opnieuw worden toegewezen.
 
-### Do not set global variables
+### Stel geen globale variabelen in
 
 Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
 If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
