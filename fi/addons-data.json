@@ -1,8 +1,8 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "Selector de color 2D",
-		"description": "Remplaza los deslizadores de saturación y brillo con un selector de color 2D. Presione Shift mientras arrastra el cursor para cambiar los valores en un solo eje.",
+		"name": "2D-värinvalitsin",
+		"description": "Korvaa asuste-editorin värikylläisyys- ja kirkkaussäätimet 2D-värinvalitsimella. Pidä Shift-näppäintä pohjassa, kun vedät kursoria muuttaaksesi yhden akselin arvoja",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
 		"enabledByDefault": false,
@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Modo 60FPS de reproductor de proyectos",
-		"description": "Presione Alt+Click sobre la bandera verde para activar o desactivar el modo 60FPS.",
+		"name": "60FPS-projektisoitintila",
+		"description": "Käytä näppäinyhdistelmää Alt+Klikkaus vaihtaaksesi 60FPS-tilaan.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Los proyectos se ejecutarán dos veces más rápido en 60FPS, porque típicamente se ejecutan a 30FPS.",
+				"text": "Projektit toimivat kaksi kertaa nopeammin 60FPS:llä, koska ne toimivat yleensä nopeudella 30FPS.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -35,8 +35,8 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Configuración De La Cuenta en mayúsculas",
-		"description": "Cambia \"Configuración de la Cuenta\" en el menú de la cuenta a \"Configuración De La Cuenta\"",
+		"name": "Tilin asetukset isoilla alkukirjaimilla",
+		"description": "Muuttaa tilivalikon \"Tunnuksen asetukset\" -kohdan \"Tunnuksen Asetuksiksi\".",
 		"tags": ["easterEgg", "community"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -44,8 +44,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Fijador de miniatura",
-		"description": "Agrega un botón abajo a la derecha de la página de proyecto para fijar la miniatura de tu proyecto a cualquier imagen (incluidos gifs).",
+		"name": "Pikkukuvan asetin",
+		"description": "Lisää projektisivun oikeaan alareunaan napin, jolla voit asettaa projektisi pikkukuvaksi minkä tahansa kuvan (mukaan lukien gif-kuvat).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -54,8 +54,8 @@
 	},
 	{
 		"id": "better-emojis",
-		"name": "Mejores emojis",
-		"description": "Reemplaza los emojis en comentarios del sitio web con diseños vector mejorados.",
+		"name": "Paremmat emojit",
+		"description": "Korvaa verkkosivuston kommenttien emojit parannetuilla vektoripiirustuksilla.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{ "name": "getbent", "link": "https://scratch.mit.edu/users/getbent/" },
@@ -68,16 +68,16 @@
 	},
 	{
 		"id": "better-featured-project",
-		"name": "Banner de perfil",
-		"description": "Convierte el proyecto destacado del perfil de cualquier usuario en un banner bonito.",
+		"name": "Profiilisivun banneri",
+		"description": "Muuttaa minkä tahansa käyttäjän profiilissa esitellyn projektin hienon näköiseksi banneriksi.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
 		"versionAdded": "1.5.0"
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "Subida de imágenes HD",
-		"description": "Agrega un nuevo botón arriba del botón \"subir disfraz\" que automáticamente convierte imágenes bitmap subidas a imágenes SVG (vector) para evitar perder calidad.",
+		"name": "HD-kuvien lataukset",
+		"description": "Lisää uuden napin, joka muuntaa ladatut bittikarttakuvat SVG-kuviksi (vektorikuviksi) laadun heikkenemisen välttämiseksi, \"lataa asuste\" -napin ylle.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -94,7 +94,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Evite usar el botón de subida HD si tiene planeado editar la imagen luego de subirla.",
+				"text": "Vältä HD-latausnapin käyttöä, jos aiot muokata kuvaa latauksen jälkeen.",
 				"id": "notSuitableEdit"
 			}
 		],
@@ -104,8 +104,8 @@
 	},
 	{
 		"id": "better-quoter",
-		"name": "Mejor citador en foros",
-		"description": "Seleccione texto en una publicación del foro y haga click en \"citar\" en la esquina inferior derecha para solo citar el texto seleccionado.",
+		"name": "Paremmat foorumilainaukset",
+		"description": "Maalaa teksti foorumipostauksessa ja klikkaa lainaa oikeassa alakulmassa lainataksesi vain maalatun tekstin.",
 		"tags": ["forums", "community"],
 		"credits": [
 			{
@@ -120,7 +120,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "El BBCode puede no ser 100% exacto. Para obtener citas precisas, cite toda la publicación normalmente y borre las partes que no necesita.",
+				"text": "BBCode ei välttämättä ole 100 % tarkka. Saadaksesi täysin tarkat lainaukset, lainaa normaalisti ja poista kaikki tarpeettomat osat.",
 				"id": "scratchblocks_notice"
 			}
 		],
@@ -130,13 +130,13 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Copiar imágenes bitmap",
-		"description": "Le permite copiar una imagen bitmap en el editor de disfraces al portapapeles de su sistema, para que la puedas pegar en otros sitios web o programas.",
+		"name": "Bitmap images copying",
+		"description": "Allows you to copy a bitmap image from the costume editor into the system clipboard, so that you can paste it in other websites or software.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
 			{
 				"type": "notice",
-				"text": "\"Click derecho → copiar\" no está soportado. Debe presionar Ctrl+C cuando la imagen bitmap este seleccionada.",
+				"text": "\"Right click → copy\" is not supported. You must press Ctrl+C while a bitmap image is selected.",
 				"id": "norightclick"
 			}
 		],
@@ -147,8 +147,8 @@
 	},
 	{
 		"id": "block-cherry-picking",
-		"name": "Agarrar un único bloque con tecla Ctrl",
-		"description": "Le permite arrastrar un único bloque del medio de un script (en vez de toda la pila adjunta debajo) mientras mantenga la tecla Ctrl.",
+		"name": "Tartu yksittäiseen lohkoon Ctrl-näppäimellä",
+		"description": "Lisää mahdollisuuden vetää yksi lohko pois skriptin keskeltä (sen sijaan, että koko pino olisi liitetty sen alle) pitäen samalla Ctrl-näppäintä painettuna.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -159,11 +159,11 @@
 		],
 		"info": [
 			{
-				"text": "En macOS, use la tecla Cmd en vez de Ctrl.",
+				"text": "Käytä macOS:ssä Cmd-näppäintä Ctrl-näppäimen sijaan.",
 				"id": "macContextDisabled"
 			},
 			{
-				"text": "Si \"revertir controles\" está activado, agarrar bloques individualmente será el comportamiento predeterminado. Mantenga Ctrl para arrastrar la pila completa.",
+				"text": "Jos \"käännä ohjaimet\" on käytössä, oletustoiminto on lohkojen kiinniotto yksitellen. Vedä koko pino pitämällä Ctrl-näppäintä painettuna.",
 				"id": "flipControls"
 			}
 		],
@@ -174,8 +174,8 @@
 	},
 	{
 		"id": "block-count",
-		"name": "Contador de bloques",
-		"description": "Muestra el número total de bloques de un proyecto en la barra de menú del editor. Previamente parte de \"contador de objetos y scripts\".",
+		"name": "Lohkomäärä",
+		"description": "Näyttää editorin valikkorivillä projektin lohkojen kokonaismäärän. Aikaisemmin osa \"hahmo- ja skriptimäärä\" -lisäosaa.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -189,13 +189,13 @@
 	},
 	{
 		"id": "block-duplicate",
-		"name": "Duplicar script con tecla Alt",
-		"description": "Duplique rápidamente un script arrastrándolo mientras mantiene la tecla Alt. Apriete Ctrl también para solo duplicar un bloque en vez de toda la pila adjunta debajo.",
+		"name": "Kopioi skripti Alt-näppäimellä",
+		"description": "Kopioi skripti nopeasti raahaamalla sitä samalla, kun pidät Alt-näppäintä painettuna. Pidä myös Ctrl-näppäintä painettuna, jos haluat kopioida vain yhden lohkon koko sen alle liitetyn pinon sijaan.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "En macOS, use la tecla Option en vez de la tecla Alt y la tecla Command en vez de la tecla Control.",
+				"text": "Käytä macOS:ssä Option-näppäintä Alt-näppäimen sijaan ja Command-näppäintä Control-näppäimen sijaan.",
 				"id": "mac"
 			}
 		],
@@ -206,8 +206,8 @@
 	},
 	{
 		"id": "block-palette-icons",
-		"name": "Íconos de categoría en paleta de bloques",
-		"description": "Agrega íconos dentro de los círculos de colores que identifican las categorías de bloques.",
+		"name": "Lohkopaletin aiheiden kuvakkeet",
+		"description": "Lisää värillisten ympyröiden sisään kuvakkeita, jotka identifoivat lohkoluokkia.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -223,8 +223,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "Cambio entre bloques",
-		"description": "Haga click derecho en un bloque para cambiarlo por otro bloque relacionado.",
+		"name": "Lohkon vaihto",
+		"description": "Vaihda lohko siihen liittyvään lohkoon klikkaamalla sitä hiiren oikealla painikkeella.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -240,8 +240,8 @@
 	},
 	{
 		"id": "blocks2image",
-		"name": "Guardar bloques como imagen",
-		"description": "Haga click derecho en el área de código para exportar bloques como imágenes SVG/PNG.",
+		"name": "Tallenna lohkoja kuvana",
+		"description": "Lataa lohkoja SVG-/PNG-kuvana klikkaamalla hiiren oikeaa painiketta koodialueella.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -253,8 +253,8 @@
 	},
 	{
 		"id": "cat-blocks",
-		"name": "Cat blocks",
-		"description": "Regresa los cat blocks de April Fools 2020.",
+		"name": "Kissalohkot",
+		"description": "Palauttaa editorin kissahattulohkot vuoden 2020 aprillipilasta.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -266,7 +266,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "La opción \"mirar cursor\" puede afectar el rendimiento cuando está abierto el editor.",
+				"text": "\"Seuraa hiiren osoitinta\" -asetus saattaa vaikuttaa suorituskykyyn editorin ollessa auki.",
 				"id": "watch"
 			}
 		],
@@ -276,8 +276,8 @@
 	},
 	{
 		"id": "clones",
-		"name": "Contador de clones",
-		"description": "Agrega un contador de clones arriba del escenario en el editor que muestra la cantidad total de clones del proyecto.",
+		"name": "Kloonilaskuri",
+		"description": "Lisää editorin esiintymislavan ylle laskurin, joka näyttää kloonien kokonaismäärän.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
@@ -292,14 +292,14 @@
 	},
 	{
 		"id": "cloud-games",
-		"name": "Juegos en la nube",
-		"description": "Disponible al clickear el ícono de Scratch Addons. Muestra cuántos Scratchers están actualmente en juegos multijugador, y sus nombres de usuario.",
+		"name": "Pilvipelit",
+		"description": "Saatavilla, kun klikkaat Scratch-lisäosat-kuvaketta. Näyttää, kuinka monta Scratchaajaa on tällä hetkellä moninpeliprojekteissa, ja heidän käyttäjänimensä.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
 		"info": [
 			{
 				"id": "howtoadd",
-				"text": "Puede agregar el proyecto o estudio abierto actualmente haciendo click en el botón \"Agregar este proyecto/estudio\" en la pestaña de juegos en la nube."
+				"text": "Voit lisätä parhaillaan auki olevan projektin tai studion klikkaamalla \"Lisää tämä projekti/studio\" -painiketta pilvipelit-välilehdellä."
 			}
 		],
 		"dynamicEnable": true,
@@ -314,8 +314,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Entrada en selector de color",
-		"description": "Le permite cambiar el valor exacto (0-100) por cada deslizador en el selector de color del editor de disfraces.",
+		"name": "Värinvalitsimen syöttökentät",
+		"description": "Mahdollistaa tarkan arvon (0-100) asettamisen asuste-editorin värinvalitsimen jokaiselle liukusäätimelle.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -327,8 +327,8 @@
 	},
 	{
 		"id": "color-picker",
-		"name": "Selector de color hex",
-		"description": "Agrega una entrada de colores hex a los selectores de color.",
+		"name": "Heksadesimaalivärinvalitsin",
+		"description": "Lisää heksadesimaalisyöttökentän värinvalitsimiin.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -345,8 +345,8 @@
 	},
 	{
 		"id": "columns",
-		"name": "Menú de categorías de dos columnas",
-		"description": "Divide el menú de categorías de bloques en dos columnas y lo mueve a la cima de la paleta de bloques, como en Scratch 2.0.",
+		"name": "Kahden sarakkeen luokkavalikko",
+		"description": "Jakaa lohkoluokkavalikon kahteen sarakkeeseen ja siirtää sen lohkopaletin yläosaan, kuten Scratch 2.0:ssa.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -357,8 +357,8 @@
 	},
 	{
 		"id": "comments-linebreaks",
-		"name": "Saltos de línea en comentarios",
-		"description": "Hace visibles los saltos de línea (apretar enter) en los comentarios en vez de convertirlos a espacios.",
+		"name": "Rivinvaihdot kommenteissa",
+		"description": "Saa rivinvaihdot näkyviin (Enter-näppäintä painamalla) verkkosivuston kommenteissa sen sijaan, että ne muutettaisiin välilyönneiksi.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -369,7 +369,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Los saltos de líneas solo son visibles para los usuarios con este addon activado. Se mostrarán como espacios para los demás.",
+				"text": "Rivinvaihdot ovat näkyvissä vain käyttäjille, joilla tämä lisäosa on käytössä.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -384,8 +384,8 @@
 	},
 	{
 		"id": "compact-messages",
-		"name": "Mensajes compactos",
-		"description": "Hace que la página de mensajes de Scratch sea más compacta y fácil de leer.",
+		"name": "Tiiviit viestit",
+		"description": "Tekee Scratchin viestit-sivusta tiiviimmän ja helpomman lukea.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -401,8 +401,8 @@
 	},
 	{
 		"id": "confirm-actions",
-		"name": "Confirmaciones",
-		"description": "Le pregunta si está seguro al realizar acciones en su cuenta de Scratch, por ejemplo, al compartir proyectos.",
+		"name": "Vahvistukset",
+		"description": "Kysyy, oletko varma, kun suoritat toimintoja Scratch-tililläsi, kuten jaat projekteja.",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{
@@ -418,8 +418,8 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "Botón de copiar link del comentario",
-		"description": "Agrega un botón \"copiar enlace\" a todos los comentarios de Scratch, al lado del botón \"Reportar\".",
+		"name": "Kopioi linkki kommenttinappiin",
+		"description": "Lisää \"Kopioi linkki\" -napin kaikkiin verkkosivuston kommentteihin, \"Raportoi\"-napin viereen.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -431,8 +431,8 @@
 	},
 	{
 		"id": "copy-reporter",
-		"name": "Copiar valores del monitor",
-		"description": "Agrega la opción de copiar los valores mostrados por monitores de variables (desde el menú de click derecho) y globos de reporte de bloques.",
+		"name": "Copy reporter values",
+		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -441,8 +441,8 @@
 	},
 	{
 		"id": "ctrl-click-run-scripts",
-		"name": "Ctrl+Click para ejecutar scripts",
-		"description": "Ejecutar pilas de bloques solo si al cliquearlos también está presionando la tecla Ctrl.",
+		"name": "Suorita skiptejä Ctrl+Klikkaus-yhdistelmällä",
+		"description": "Suorita skriptejä klikkaamalla vain, jos myös Ctrl-näppäintä pidetään pohjassa.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -450,7 +450,7 @@
 		],
 		"info": [
 			{
-				"text": "En macOS, use la tecla Cmd en vez de Ctrl.",
+				"text": "Käytä macOS:ssä Cmd-näppäintä Ctrl-näppäimen sijaan.",
 				"id": "macContextDisabled"
 			}
 		],
@@ -461,14 +461,14 @@
 	},
 	{
 		"id": "ctrl-enter-post",
-		"name": "Ctrl+Enter para enviar",
-		"description": "Envía automáticamente el comentario o publicación del foro al presionar Ctrl+Enter.",
+		"name": "Lähetä painamalla Ctrl+Enter",
+		"description": "Lähettää kommentin tai foorumiviestin automaattisesti painamalla Ctrl+Enter.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
 		"info": [
-			{ "text": "En macOS, también puede usar la tecla Cmd.", "id": "macOS" }
+			{ "text": "MacOS:ssa voit myös käyttää Cmd-näppäintä.", "id": "macOS" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -477,8 +477,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "Enlace a curador de la página principal",
-		"description": "Convierte el nombre de usuario de la página principal un enlace clickable a su perfil.",
+		"name": "Etusivun kuraattorilinkki",
+		"description": "Tekee etusivun käyttäjänimestä klikattavan linkin profiiliin.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -493,8 +493,8 @@
 	},
 	{
 		"id": "custom-block-shape",
-		"name": "Forma de bloque personalizada",
-		"description": "Ajuste el relleno, radio de esquinas y altura de la muesca de los bloques.",
+		"name": "Mukautettava lohkon muoto",
+		"description": "Säädä lohkojen täytettä, kulman sädettä ja loven korkeutta.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -513,7 +513,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Si baja el valor de tamaño del relleno, cuando otros usuarios vean su proyecto, podría parecer que sus scripts se superponen.",
+				"text": "Säädä lohkojen täytettä, kulman sädettä ja loven korkeutta.",
 				"id": "paddingWarning"
 			}
 		],
@@ -524,8 +524,8 @@
 	},
 	{
 		"id": "custom-block-text",
-		"name": "Estilo de texto de bloques personalizado",
-		"description": "Cambia el grosor del texto en bloques y opcionalmente agrega una sombra al texto.",
+		"name": "Mukautettava lohkon tekstityyli",
+		"description": "Muuttaa tekstin paksuutta lohkoissa ja lisää halutessasi tekstiin varjon.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -539,8 +539,8 @@
 	},
 	{
 		"id": "custom-zoom",
-		"name": "Zoom de área de código personalizado",
-		"description": "Elija ajustes personalizados para el mínimo, máximo, velocidad y tamaño inicial del zoom en el área de código y esconda los controles automáticamente.",
+		"name": "Mukautettava koodialueen lähentäminen",
+		"description": "Valitse mukautetut asetukset koodialueen skriptien lähentämiselle vähimmäis-, enimmäis-, nopeus- ja alkukoolle sekä piilota säätimet automaattisesti.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -553,8 +553,8 @@
 	},
 	{
 		"id": "customize-avatar-border",
-		"name": "Borde personalizable de fotos de perfil",
-		"description": "Le permite esconder o cambiar el borde alrededor de fotos de perfil en comentarios en perfiles y estudios.",
+		"name": "Mukautettava profiilikuvan reuna",
+		"description": "Voit piilottaa tai muuttaa profiilikuvien ympärillä olevia ääriviivoja projekti- ja studiokommenteissa.",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
 		"dynamicEnable": true,
@@ -566,8 +566,8 @@
 	},
 	{
 		"id": "dango-rain",
-		"name": "Lluvia de dangos en perfiles (April Fools Day, día de los inocentes)",
-		"description": "Lloverán emojis de dango en los costados de los perfiles de usuarios que incluyan la palabra \"dango\" en su \"acerca de mí\".",
+		"name": "Dango-sadetta profiileilla (aprillipäivä)",
+		"description": "Käyttäjien, joiden \"Tietoa minusta\" -tekstit sisältävät sanan \"dango\", profiilisivuilla sataa dango-emojeita.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -586,7 +586,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Solo usuarios de Scratch Addons con esta función activada verán la lluvia de dangos.",
+				"text": "Vain Scratch-lisäosien käyttäjät, joilla tämä on käytössä, näkevät dango-sateen.",
 				"id": "OnlyScratchAddonsUsers"
 			}
 		],
@@ -595,8 +595,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Modo oscuro de la web y colores personalizados",
-		"description": "Personaliza los colores usados por el sitio web de Scratch. Múltiples opciones por diferentes autores disponibles. Si no quiere un modo oscuro pero quiere cambiar los colores predeterminados, elija el preset \"colores predeterminados de Scratch\" y luego cambie los ajustes.",
+		"name": "Verkkosivuston tumma tila ja muokattavat värit",
+		"description": "Muokkaa Scratch-verkkosivuston käyttämiä värejä. Saatavilla useita tummia teemoja eri tekijöiltä. Jos et tarvitse tummaa tilaa, mutta haluat vaihtaa oletusvärejä, voit valita \"Scratchin oletusvärit\" -esiasetuksen ja muokata sitä.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -625,8 +625,8 @@
 	},
 	{
 		"id": "data-category-tweaks-v2",
-		"name": "Retoques en categoría \"datos\"",
-		"description": "Proporciona retoques para la categoría de bloques \"datos\" (variables).",
+		"name": "Tieto-luokan parannukset",
+		"description": "Tarjoaa parannuksia Tieto (\"Muuttujat\") -lohkoluokkaan.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -636,8 +636,8 @@
 	},
 	{
 		"id": "debugger",
-		"name": "Depurador",
-		"description": "Agrega una ventana nueva \"depurador\" al editor. Le permite loguear mensajes a la pestaña \"Logs\" de la ventana del depurador usando los bloques \"log\", \"warn\" y \"error\". El bloque \"breakpoint\" pausará el proyecto cuando se ejecute. Todos los hilos en ejecución pueden ser vistos en la pestaña \"Hilos\" del depurador y al pausarse el botón \"Paso\" puede ser usado para ejecutar el siguiente bloque. Un gráfico de fotogramas por segundo y número de clones puede ser visto en la pestaña \"Rendimiento\".",
+		"name": "Virheenkorjaus",
+		"description": "Lisää uuden \"virheenkorjaus\"-ikkunan editoriin. Mahdollistaa kirjaamisen virheenkorjausikkunan \"Lokit\"-välilehdelle \"loki\", \"varoita\" ja \"virhe\"-lohkoilla. \"Pysäytyspiste\"-lohko keskeyttää projektin, kun sitä suoritetaan. Kaikkia käynnissä olevia säikeitä voidaan tarkastella virheenkorjauksen \"Säikeet\"-välilehdellä, ja kun se on keskeytetty, \"Vaihe\"-painiketta voidaan käyttää seuraavan lohkon suorittamiseen. Kaavion ruutuduista sekunnissa ja kloonien lukumäärästä voi nähdä \"Suorituskyky\"-välilehdellä.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -666,8 +666,8 @@
 	},
 	{
 		"id": "default-costume-editor-color",
-		"name": "Color predeterminado personalizable en el editor de disfraces",
-		"description": "Cambia los colores predeterminados y el tamaño del borde utilizados por el editor de disfraces.",
+		"name": "Muokattavat asuste-editorin oletusvärit",
+		"description": "Muuttaa asuste-editorin käyttämiä oletusvärejä ja ääriviivojen kokoa.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -677,8 +677,8 @@
 	},
 	{
 		"id": "default-project",
-		"name": "Proyecto por defecto personalizable",
-		"description": "Cambia el proyecto predeterminado del Scratch Cat a cualquier otro proyecto.",
+		"name": "Mukautettava oletusprojekti",
+		"description": "Vaihda oletusprojekti Scratch-kissasta mihin tahansa olemassa olevaan projektiin.",
 		"tags": ["editor", "beta"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -687,14 +687,14 @@
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "Desactivar auto-guardado",
-		"description": "Desactiva el guardado automático de proyectos mientras edita.",
+		"name": "Ota automaattinen tallennus pois käytöstä",
+		"description": "Ottaa projektin automaattisen tallenuksen pois käytöstä muokkaamisen ajaksi.",
 		"tags": ["editor", "editorMenuBar", "danger"],
 		"credits": [{ "name": "RustingRobot" }],
 		"info": [
 			{
 				"type": "warning",
-				"text": "Esto desactivará todos los tipos de autoguardado. Asegúrese de guardar sus cambios manualmente de forma frecuente para evitar perderlos.",
+				"text": "Tämä poistaa käytöstä kaikentyyppisten projektien automaattisen tallennuksen. Varmista, että tallennat muutoksesi usein manuaalisesti.",
 				"id": "manuallysave"
 			}
 		],
@@ -705,13 +705,13 @@
 	},
 	{
 		"id": "disable-paste-offset",
-		"name": "No mover items pegados",
-		"description": "Pega items copiados en su posición original en vez de movidos levemente en el editor de disfraces.",
+		"name": "Älä siirrä liitettyjä kohteita",
+		"description": "Liitä kopioidut kohteet alkuperäiseen paikkaansa sen sijaan, että niitä olisi siirretty hieman asuste-editorissa.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Este comportamiento también puede ser logrado sin este addon mediante Alt+Click a un objeto.",
+				"text": "Tämä toiminta voidaan saavuttaa myös ilman tätä lisäosaa painamalla Alt-näppäintä ja klikkaamalla kohdetta.",
 				"id": "vanilla"
 			}
 		],
@@ -722,8 +722,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Desactivar temblor en panel de objetos",
-		"description": "Permite que scripts, disfraces y sonidos sean movidos a diferentes objetos sin que se muevan para arriba y abajo en el panel de objetos.",
+		"name": "Poista käytöstä hahmon heiluminen hahmoruudussa",
+		"description": "Salli skriptien, asusteiden ja äänien siirtäminen eri hahmoille ilman, että hahmot heiluvat hamoruudussa.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -736,8 +736,8 @@
 	},
 	{
 		"id": "disable-stage-drag-select",
-		"name": "Objetos no arrastrables en el editor",
-		"description": "Elimina la posibilidad de arrastrar objetos en el escenario, exceptuando aquellos fijados explícitamente como arrastrables. Presione Shift mientras arrastra un objeto para moverlo normalmente.",
+		"name": "Ei-raahattavat hahmot editorissa",
+		"description": "Poistaa mahdollisuuden raahata hahmoja editorin esiintymislavalla, paitsi niitä, jotka on nimenomaan asetettu raahattaviksi. Pidä Shift-näppäintä pohjassa samalla, kun vedät hahmoa siirtääksesi sitä normaalisti.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -753,8 +753,8 @@
 	},
 	{
 		"id": "discuss-button",
-		"name": "Barra de navegación personalizada",
-		"description": "Elija una lista de enlaces para mostrar en la barra de navegación",
+		"name": "Customizable navigation bar",
+		"description": "Choose a list of links to be displayed in the navigation bar.",
 		"tags": ["community", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -769,8 +769,8 @@
 	},
 	{
 		"id": "drag-drop",
-		"name": "Arrastrar y soltar archivos",
-		"description": "Le permite arrastrar imágenes y sonidos de su administrador de archivos y soltarlos en el panel de objetos o la lista de disfraces/sonidos. También puede arrastrar archivos de texto a listas y cajas de respuesta.",
+		"name": "Tiedoston raahaaminen ja pudottaminen",
+		"description": "Antaa sinun raahata kuvia ja ääniä resurssienhallinnastasi hahmoruutuun tai asuste-/ääniluetteloon. Voit myös raahata tekstitiedostoja listoihin tai \"kysy ja odota\" -kysymysten syöttökenttiin.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }],
 		"dynamicEnable": true,
@@ -780,8 +780,8 @@
 	},
 	{
 		"id": "echo-effect",
-		"name": "Botón de efecto de eco",
-		"description": "Devuelve el botón Eco al editor de sonidos.",
+		"name": "Kaikutehostepainike",
+		"description": "Tuo Kaiku-painikkeen takaisin äänieditoriin.",
 		"tags": ["editor"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -789,8 +789,8 @@
 	},
 	{
 		"id": "editor-buttons-reverse-order",
-		"name": "Invertir orden de los controles del proyecto",
-		"description": "Mueve la bandera verde y el botón de detener a la derecha, y el botón de pantalla completa a la izquierda, como en Scratch 2.0.",
+		"name": "Käänteinen projektin hallinnan järjestys",
+		"description": "Siirtää vihreää lippua ja pysäytyspainikkeita oikealle ja koko ruudun painiketta vasemmalle, kuten Scratch 2.0:ssa.",
 		"tags": ["editor", "projectPlayer", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -798,8 +798,8 @@
 	},
 	{
 		"id": "editor-colored-context-menus",
-		"name": "Menús coloridos",
-		"description": "Hace que los menús al dar click derecho en un bloque sean coloridos.",
+		"name": "Värilliset pikavalikot",
+		"description": "Tekee lohkojen hiiren kakkospainikkeen pikavalikoista värikkäitä.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -810,8 +810,8 @@
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Previsualización de comentarios del editor",
-		"description": "Le permite previsualizar los contenidos de comentarios al poner el cursor sobre comentarios encogidos y bloques. Puede usar esto para ver comentarios que están fuera de la pantalla, identificar un bloque bucle desde el final por su previsualización, meter muchos comentarios en un lugar pequeño y más.",
+		"name": "Editorin kommenttien esikatselut",
+		"description": "Voit esikatsella kommenttien sisältöä viemällä hiiren osoittimen kutistettujen kommenttien ja lohkojen päälle. Voit käyttää tätä tarkastellaksesi kommentteja, jotka ovat näytön ulkopuolella, tunnistaaksesi silmukkalohkon alhaalta sen esikatselun perusteella, sovittaaksesi monia pitkiä kommentteja pieneen tilaan ja paljon muuta.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -827,8 +827,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Modo oscuro del editor y colores personalizados",
-		"description": "Personaliza los colores usados por el editor de proyectos. Múltiples opciones por diferentes autores disponibles. Si no quiere un modo oscuro pero quiere cambiar los colores predeterminados, elija el preset \"colores predeterminados de Scratch\" y luego cambie los ajustes.",
+		"name": "Editorin tumma tila ja muokattavat värit",
+		"description": "Mukauta projektieditorin käyttämiä värejä. Saatavilla useita tummia teemoja eri tekijöiltä. Jos et tarvitse tummaa tilaa, mutta haluat muuttaa oletusvärejä, voit valita \"Scratchin oletusvärit\" -esiasetuksen ja muokata sitä.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -865,8 +865,8 @@
 	},
 	{
 		"id": "editor-devtools",
-		"name": "Herramientas de desarrollador",
-		"description": "Añade nuevas opciones de menú al editor: copiar/pegar bloques, mejor ordenado de bloques, ¡y más!",
+		"name": "Kehittäjän työkalut",
+		"description": "Lisää uuden kohteen editorin valikkoon: kopioi/liitä lohkoja, paremman lohkojen siivouksen ja paljon muuta!",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -875,19 +875,19 @@
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Opciones de teclas extra",
-		"description": "Añade más teclas a los menús desplegables de los bloques \"¿tecla () presionada?\" y \"al presionar tecla ()\", como enter, coma, y más. Estas teclas incluso funcionarán para usuarios que no tengan este addon.",
+		"name": "Erikoisnäppäinvaihtoehdot",
+		"description": "Lisää näppäimiä \"onko näppäin () painettu?\" ja \"kun painetaan ()\" -lohkojen avattaviin valikkoihin, kuten enterin, pisteen, pilkun ja monia muuta. Nämä näppäimet toimivat jopa niillä käyttäjillä, joilla ei ole tätä lisäosaa.",
 		"tags": ["editor", "codeEditor", "beta"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
 				"type": "notice",
-				"text": "Las \"teclas experimentales\" incluyen signo igual, barra, punto y coma y más. Pueden no funcionar en todos los sistemas operativos o diseños de teclado.",
+				"text": "\"Kokeellisiin näppäimiin\" kuuluvat on yhtä kuin -merkki, kauttaviiva, puolipiste ja paljon muita. Ne eivät välttämättä toimi kaikissa käyttöjärjestelmissä tai näppäimistöasetteluissa.",
 				"id": "experimentalKeysWarn"
 			},
 			{
 				"type": "notice",
-				"text": "Las \"teclas Shift\" incluyen teclas que típicamente requieren la tecla Shift y una tecla de número, como hashtag, símbolo de exclamación y más. Estas teclas solo funcionan con el bloque \"al presionar  tecla ()\" y no funcionan en todos los sistemas operativos o diseños de teclado.",
+				"text": "\"Shift-näppäimet\" sisältävät näppäimiä, jotka vaativat yleensä Shift-näppäimen ja numeronäppäimen, kuten risuaita, huutomerkki ja monet muut. Nämä näppäimet toimivat vain \"kun painetaan ()\" -lohkon kanssa, eivätkä ne toimi kaikissa käyttöjärjestelmissä tai näppäimistöasetteluissa.",
 				"id": "shiftKeysWarn"
 			}
 		],
@@ -897,8 +897,8 @@
 	},
 	{
 		"id": "editor-messages",
-		"name": "Mensajes en el editor",
-		"description": "Muestra su número de mensajes en la barra de menú del editor.",
+		"name": "Viestit editorissa",
+		"description": "Näyttää viestiesi määrän editorin valikkopalkissa.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [{ "name": "TheColaber" }],
 		"dynamicEnable": true,
@@ -908,8 +908,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Búsqueda en menús ",
-		"description": "Le permite buscar en bloques que tienen menús.",
+		"name": "Haettavat avattavat valikot",
+		"description": "Voit hakea lohkojen avattavista valikoista.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -919,8 +919,8 @@
 	},
 	{
 		"id": "editor-sounds",
-		"name": "Efectos de sonido en editor",
-		"description": "Reproduce efectos de sonido cuando conecta o elimina bloques.",
+		"name": "Editorin äänitehosteet",
+		"description": "Soittaa äänitehosteen, kun liität yhteen tai poistat lohkoja.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -930,14 +930,14 @@
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Mostrar escenario del lado izquierdo",
-		"description": "Mueve el escenario al lado izquierdo del editor, como en Scratch 2.0.",
+		"name": "Näytä esiintymislava vasemmalla puolella",
+		"description": "Siirtää esiintymislavan editorin vasemmalle puolelle, kuten Scratch 2.0:ssa.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }],
 		"info": [
 			{
 				"id": "reverseOrder",
-				"text": "Para cambiar la posición de los botones arriba del escenario, use el addon \"invertir orden de los controles del proyecto\"."
+				"text": "Voit vaihtaa painikkeiden sijaintia näyttämön yläpuolella käyttämällä \"käänteinen projektin hallinnan järjestys\" -lisäosaa."
 			}
 		],
 		"dynamicEnable": true,
@@ -948,8 +948,8 @@
 	},
 	{
 		"id": "editor-stepping",
-		"name": "Borde de bloque en ejecución",
-		"description": "Agrega un borde colorido a los bloques que están ejecutándose actualmente en un proyecto.",
+		"name": "Running block border",
+		"description": "Adds a colored highlight to the blocks that are currently being executed in a project.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -958,8 +958,8 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Colores de bloques personalizables",
-		"description": "Edite los colores para cada categoría de bloques del editor.",
+		"name": "Muokattavat lohkovärit",
+		"description": "Muokkaa kunkin luokan lohkovärejä editorissa.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -982,8 +982,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Botón de no compartir en editor",
-		"description": "Reemplaza el botón \"Compartido\" al lado de la caja de título de proyecto con un botón para dejar de compartir el proyecto.",
+		"name": "Peru jakaminen -nappi editorissa",
+		"description": "Korvaa projektin nimilaatikon vieressä olevan \"Jaettu\" -napin napilla, jolla voi perua projektin jakamisen.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -992,8 +992,8 @@
 	},
 	{
 		"id": "emoji-picker",
-		"name": "Selector de emoji en comentarios",
-		"description": "Agrega un botón para insertar emojis en los comentarios de la web.",
+		"name": "Emojin valitsin kommentteihin",
+		"description": "Lisää painikkeen, jolla voit lisätä emojeja verkkosivuston kommentteihin.",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
 		"dynamicEnable": true,
@@ -1003,8 +1003,8 @@
 	},
 	{
 		"id": "exact-count",
-		"name": "Mostrar cantidad exacta",
-		"description": "Muestra el número exacto en la información de usuarios y estudios. Usa ScratchDB para información de los foros.",
+		"name": "Näytä tarkka lukumäärä",
+		"description": "Näyttää tarkan lukumäärän käyttäjä- ja studiotiedoille. Käyttää ScratchDB:tä foorumitietojen saamiseen.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1021,8 +1021,8 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Múltiples filas en la mochila",
-		"description": "Ordena los contenidos de la mochila en una cuadrícula de dos direcciones expandible, similar a la librería de disfraces y aumenta el tamaño de ciertas miniaturas.",
+		"name": "Useita rivejä repussa",
+		"description": "Järjestelee editorin repun sisällön laajennettavaksi kaksisuuntaiseksi taulukoksi, joka on samanlainen kuin asustekirjasto ja suurentaa tiettyjen näytekuvien kokoa.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1037,8 +1037,8 @@
 	},
 	{
 		"id": "expanding-search-bar",
-		"name": "Barra de búsqueda expandible",
-		"description": "Hace más ancha la barra de búsqueda de la barra de navegación cuando está enfocada.",
+		"name": "Laajeneva hakupalkki",
+		"description": "Tekee navigointipalkin hakupalkista leveämmän, kun se on kohdennettu.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/cst1229" }],
 		"dynamicEnable": true,
@@ -1048,8 +1048,8 @@
 	},
 	{
 		"id": "feature-unshared",
-		"name": "Destacar proyectos no compartidos",
-		"description": "Le permite elegir proyectos no compartidos luego de clickear \"cambiar proyecto destacado\" en su perfil.",
+		"name": "Näytteillä olevat jakamattomat projektit",
+		"description": "Voit valita jakamattomia projekteja, kun klikkaat profiilissasi \"vaihda näytteillä oleva projekti\" -nappia.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -1064,8 +1064,8 @@
 	},
 	{
 		"id": "find-bar",
-		"name": "Barra de búsqueda en editor",
-		"description": "Agrega una barra de búsqueda al lado de la pestaña de sonidos para encontrar y saltar a scripts, disfraces y sonidos. Use Ctrl+Izquierda y Ctrl+Derecha en el área de código para navegar a la posición visitada anterior o siguiente luego de usar la barra de búsqueda.",
+		"name": "Editorin hakupalkki",
+		"description": "Lisää hakupalkin, jolla voit etsiä skriptejä, asusteita ja ääniä ja siirtyä niihin Äänet-välilehden viereen. Käytä koodialueella yhdistelmiä Ctrl+Vasen ja Ctrl+Oikea navigoidaksesi edelliseen tai seuraavaan vierailtavaan kohtaan hakupalkin käytön jälkeen.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1076,7 +1076,7 @@
 		],
 		"info": [
 			{
-				"text": "Este addon era parte de \"herramientas de desarrollador\", pero se ha mudado aquí.",
+				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se on siirtynyt tänne.",
 				"id": "developer-tools"
 			}
 		],
@@ -1087,8 +1087,8 @@
 	},
 	{
 		"id": "fix-editor-comments",
-		"name": "Mejores comentarios en editor",
-		"description": "Realiza varios cambios a los comentarios en el editor de Scratch: arregla un bug donde los comentarios enganchados a bloques no guardan sus posiciones correctamente luego de arrastrar, previene que los comentarios se creen fuera de la pantalla en scripts grandes, mantiene las conexiones a comentarios rectas y más.",
+		"name": "Paremmat editorikommentit",
+		"description": "Tekee lukuisia muutoksia kommentteihin Scratch-editorissa: korjaa virheen, jossa lohkoihin liitetyt kommentit eivät tallenna paikkojaan oikein raahaamisen jälkeen, estää lohkokommentteja syntymästä näytön ulkopuolelle suurissa skripteissä, pitää lohkokommenttien yhteydet suorina ja paljon muuta.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
@@ -1110,8 +1110,8 @@
 	},
 	{
 		"id": "fix-pasted-scripts",
-		"name": "No ejecutar bloques duplicados automáticamente ",
-		"description": "Arregla un error en el Scratch editor, en el que duplicar un bloque y engancharlo con una pila de bloques cause que la pila se ejecute.",
+		"name": "Älä suorita monistettuja lohkoja automaattisesti",
+		"description": "Korjaa Scratch-editorin bugin, jossa lohkon kopioiminen ja sen liittäminen skriptiin käynnistää skiriptin.",
 		"tags": ["editor", "recommended", "codeEditor"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
@@ -1125,8 +1125,8 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "Arreglo de subidas SVG",
-		"description": "Arregla un error en el editor de Scratch que provoca que algunos archivos SVG creados con ciertos editores de imagen, como Affinity Designer, no se suban correctamente.",
+		"name": "SVG-latausten korjaus",
+		"description": "Korjaa Scratch-editorin bugin, joka rikkoo ladatut SVG-tiedostot, jotka on luotu joillain kuvankäsittelyohjelmilla, kuten Affinity Designerilla.",
 		"tags": ["editor", "costumeEditor"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1135,14 +1135,14 @@
 	},
 	{
 		"id": "folders",
-		"name": "Carpetas de objetos",
-		"description": "Agrega carpetas a listas de objetos, como también a las listas de disfraces y sonidos. Para crear una carpeta, haga click derecho en un objeto y seleccione \"crear carpeta\". Haga click en una carpeta para abrirla o cerrarla. Haga click derecho en un objeto para ver a qué carpetas lo puede mover, o alternativamente arrastre y suelte a una carpeta abierta. Esta función agrega \"[nombreDeLaCarpeta]//\" al principio del nombre de sus objetos.",
+		"name": "Hahmokansiot",
+		"description": "Lisää kansioita hahmoruutuun, samoin myös asuste- ja äänilistalle. Luo kansio klikkaamalla hiiren oikeaa painiketta minkä tahansa hahmon päällä ja klikkaa \"luo kansio\". Avaa tai sulje kansio klikkaamalla sitä. Klikkaa hiiren oikeaa painiketta hahmon päällä nähdäksesi, mitä kansioita voit siirtää tai vaihtoehtoisesti vetää ja pudottaa. Tämä ominaisuus toimii lisäämällä \"[kansionNimi]//\" hahmojesi nimien alkuun.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
 				"type": "notice",
-				"text": "Usuarios con esta función activada podrán ver las carpetas en su proyecto. Cualquier otra persona verá las listas de objetos normalmente (sin carpetas)",
+				"text": "Käyttäjät, joilla tämä ominaisuus on käytössä, pystyvät näkemään kansiot projektissani. Kaikki muut näkevät hahmolistat normaalina (ei kansioita).",
 				"id": "notice-folders-are-public"
 			}
 		],
@@ -1151,8 +1151,8 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Botón de copiar código en foros",
-		"description": "Agrega un botón \"copiar código\" arriba de cajas de código en publicaciones de los foros que copia los contenidos al portapapeles.",
+		"name": "Kopioi koodi -napit foorumeilla",
+		"description": "Lisää foorumiviestien koodilaatikoiden yläpuolelle  \"kopioi koodi\" -napin, joka kopioi sen sisällön leikepöydälle.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
@@ -1161,8 +1161,8 @@
 	},
 	{
 		"id": "forum-id",
-		"name": "Citar número de publicación",
-		"description": "Haga click en el botón \"citar número de publicación\" para incluir un enlace a la publicación en su respuesta.",
+		"name": "Lainaa viestin numeroa",
+		"description": "Napsauta \"lainaa viestin numeroa\" -painiketta, jos haluat sisällyttää vastaukseesi linkin viestiin.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
 		"dynamicEnable": true,
@@ -1173,8 +1173,8 @@
 	},
 	{
 		"id": "forum-live-preview",
-		"name": "Vista previa en vivo de publicación",
-		"description": "Automáticamente muestra una vista previa cuando deja de escribir mientras escribe o edita una publicación de los foros.",
+		"name": "Foorumiviestin live-esikatselu",
+		"description": "Näyttää automaattisesti esikatselun, kun lopetat kirjoittamisen muokkaaessasi tai kirjoittaessasi foorumiviestiä.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1188,8 +1188,8 @@
 	},
 	{
 		"id": "forum-quote-code-beautifier",
-		"name": "Citas y bloques de código personalizados en los foros",
-		"description": "Muestra mejores citas y bloques de código en los foros.",
+		"name": "Muokattavat lainaukset ja koodilohkot foorumeilla",
+		"description": "Näyttää koodin ja lainauslohkot hienomman foorumeilla.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{ "name": "GrahamSH", "note": "addon version", "id": "addonVersion" },
@@ -1202,8 +1202,8 @@
 	},
 	{
 		"id": "forum-search",
-		"name": "Búsqueda en los foros",
-		"description": "Agrega una barra de búsqueda de publicaciones a los foros. Usa ScratchDB para obtener información.",
+		"name": "Foorumihaku",
+		"description": "Lisää postaushakupalkin foorumeille. Käyttää ScratchDB:tä tiedoksi.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1214,8 +1214,8 @@
 	},
 	{
 		"id": "forum-time-zones",
-		"name": "Zona horaria local en foros",
-		"description": "Usa su zona horaria local al mostrar fechas y horas de publicación en los foros.",
+		"name": "Local timezone on forums",
+		"description": "Uses your local time zone for displaying post dates and times on the forums.",
 		"tags": ["forums", "community"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1224,8 +1224,8 @@
 	},
 	{
 		"id": "forum-toolbar",
-		"name": "Más botones en barra de herramientas de los foros",
-		"description": "Agrega botones a la barra de herramientas de edición de los foros para insertar etiquetas BBCode, como [center] o [color].",
+		"name": "Lisää foorumin työkalupalkin nappeja",
+		"description": "Lisää nappeja foorumin muokkaustyökalupalkkiin BBCode-tunnisteiden lisäämiseksi, kuten [keskellä] tai [väri].",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1241,8 +1241,8 @@
 	},
 	{
 		"id": "full-signature",
-		"name": "Áreas completas",
-		"description": "Muestra los contenidos completos de áreas con altura limitada, como las firmas de los usuarios en los foros y Lo que he estado haciendo en perfiles, haciendo estas áreas redimensionables o desplazables.",
+		"name": "Täydet alueet",
+		"description": "Näyttää alueiden, joilla on rajoitettu korkeus, täyden sisällön, kuten käyttäjien allekirjoitukset foorumeilla ja profiilien Mitä olen ollut tekemässä -kohdan mahdollistamalla niiden koon muuttamisen tai tekemällä niistä vieritettäviä.",
 		"tags": ["community", "forums", "recommended", "profiles"],
 		"credits": [
 			{ "name": "GrahamSH" },
@@ -1261,8 +1261,8 @@
 	},
 	{
 		"id": "fullscreen",
-		"name": "Pantalla completa mejorada",
-		"description": "Arregla algunos efectos no deseados del modo de pantalla completa del reproductor de proyectos, abre el reproductor en modo de pantalla completa de su navegador y esconde la barra de herramientas de bandera verde.",
+		"name": "Parannettu koko ruutu",
+		"description": "Korjaa joitain ei-toivottuja vaikutuksia projektisoittimen koko ruudun tilassa, avaa sen selaimen koko ruudun tilassa ja piilottaa vihreän lipun työkalupalkin.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -1270,7 +1270,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Si elige esconder la barra de herramientas, recuerde que puede usar la tecla Esc para salir del modo de pantalla completa.",
+				"text": "Jos päätät piilottaa työkalurivin, muista, että voit poistua projektisoittimen koko ruudun tilasta Esc-näppäimellä.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1282,8 +1282,8 @@
 	},
 	{
 		"id": "gamepad",
-		"name": "Soporte de mando de videojuegos",
-		"description": "Interactúe con proyectos usando un control/mando de videojuegos mediante USB o Bluetooth.",
+		"name": "Peliohjaintuki",
+		"description": "Ole vuorovaikutuksessa projektin kanssa käyttämällä USB tai Bluetooth-ohjainta/peliohjainta.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1293,8 +1293,8 @@
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "Miniaturas de alta resolución",
-		"description": "Reemplaza las miniaturas en la web con imágenes de mayor resolución. Útil para pantallas Retina (de alta densidad de píxeles) y navegar a más de 100% de zoom.",
+		"name": "Korkean resoluution pikkukuvat",
+		"description": "Korvaa verkkosivuston pikkukuvat korkeamman resoluution kuvilla. Hyödyllinen Retina (korkea pikselitiheys) -näytöille ja selaamiseen yli 100 %:n zoomauksella.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -1302,7 +1302,7 @@
 		"info": [
 			{
 				"type": "warning",
-				"text": "Si el plan de datos de su red es limitado, tenga en mente que imágenes de mayor resolucion requerirán más uso de datos.",
+				"text": "Jos verkkosi datapaketti on rajallinen, muista, että korkeamman resoluution kuvat vaativat enemmän tiedonsiirtoa.",
 				"id": "imagefilesize"
 			}
 		],
@@ -1313,8 +1313,8 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "Esconder botón de eliminar",
-		"description": "Esconde el botón de eliminar (ícono de bote de basura) de objetos, disfraces y sonidos. Estos pueden seguirse eliminando utilizando el menú contextual al dar click derecho.",
+		"name": "Piilota poista -nappi",
+		"description": "Piilottaa poista -napin (roskakorikuvakkeen) hahmoista, asusteista ja äänistä. Ne voidaan silti poistaa käyttämällä hiiren oikean painikkeen pikavalikkoa.",
 		"tags": ["editor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1323,8 +1323,8 @@
 	},
 	{
 		"id": "hide-flyout",
-		"name": "Ocultar paleta de bloques automáticamente",
-		"description": "Oculta la paleta de bloques si el cursor no esta arriba de ella. Haga click en el icono de candado para mantenerlo en el lugar temporalmente. Alternativamente, use el modo \"click en categoría\".",
+		"name": "Lohkopaletin automaattinen piilottaminen",
+		"description": "Piilottaa lohkopaletin, jos hiirtä ei pidetä sen päällä. Lukitse se välipäisesti klikkaamalla lukkokuvaketta.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1338,7 +1338,7 @@
 		],
 		"info": [
 			{
-				"text": "El modo \"cursor sobre área de paleta\" solo extiende el área de visión. Si quiere poder arrastrar bloques a este área sin que se tiren a la basura, use alguno de los otros modos.",
+				"text": "\"Hiiren pitäminen palettialueelle\" -tila laajentaa ainoastaan katselualuetta. Jos haluat raahata lohkoja tälle alueelle ilman, että ne heitetään pois, käytä jotakin toista tilaa.",
 				"id": "hoverExplanation"
 			}
 		],
@@ -1353,8 +1353,8 @@
 	},
 	{
 		"id": "hide-new-variables",
-		"name": "Esconder variables nuevas",
-		"description": "No crear automáticamente monitores para variables y listas nuevas.",
+		"name": "Piilota uudet muuttujat",
+		"description": "Älä luo automaattisesti monitoreja äskettäin luoduille muuttujille tai listoille.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1363,8 +1363,8 @@
 	},
 	{
 		"id": "hide-project-stats",
-		"name": "Esconder estadísticas de proyectos",
-		"description": "Le permite esconder los contadores de me gustas, favoritos, reinvenciones, comentarios y visitas en las páginas de proyectos, en la página principal y en Mis Cosas.",
+		"name": "Piilota projektitilastot",
+		"description": "Antaa sinun piilottaa rakkaus-, suosikki-, remiksaus-  ja näyttökertamäärän projektisivulta, etusivulta sekä Omista tavaroista.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1390,8 +1390,8 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Esconder firmas en foros",
-		"description": "Esconde las firmas en publicaciones del foro y agrega un botón \"Mostrar firma\".",
+		"name": "Piilota signeeraukset foorumeilla",
+		"description": "Piilottaa signeeraukset foorumiviesteissä ja lisää \"Näytä signeeraus\" -painikkeen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1403,8 +1403,8 @@
 	},
 	{
 		"id": "hide-stage",
-		"name": "Esconder escenario y panel de objetos",
-		"description": "Agrega un botón al lado de los botones de \"escenario pequeño\" y \"escenario grande\" que esconde el escenario y el panel de objetos, haciendo mucho más grande el área de código.",
+		"name": "Piilota esiintymislava ja hahmoruutu",
+		"description": "Lisää painikkeen \"pieni esiintymislava\" ja \"suuri esiintymislava\" -painikkeiden viereen, joka piilottaa esiintymislavan ja hahmoruudun, mikä tekee koodialueesta paljon suuremman.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1418,8 +1418,8 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Pestañas horizontales en Mis Cosas",
-		"description": "Mueve los botones de navegación de Mis Cosas (\"Todos los Proyectos\", \"Mis Estudios\", \"Papelera\") a la parte superior de la página, en lugar de dejarlos a la izquierda.",
+		"name": "Vaakasuuntaiset välilehdet omissa tavaroissa",
+		"description": "Siirtää omien tavaroiden navigointipainikkeet (\"Kaikki projektit\", \"Omat studiot\", \"Roskakori\") sivun yläosaan sen sijaan, että ne olisivat vasemmalla.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -1434,8 +1434,8 @@
 	},
 	{
 		"id": "image-uploader",
-		"name": "Subida de imágenes a los foros",
-		"description": "Agrega un botón para subir e insertar imágenes directamente a publicaciónes de los foros.",
+		"name": "Forums image uploader",
+		"description": "Adds a button to directly upload and insert images into forum posts.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
@@ -1446,8 +1446,8 @@
 	},
 	{
 		"id": "infinite-scroll",
-		"name": "Scroll infinito",
-		"description": "Le permite desplazarse para abajo en diferentes partes del sitio sin tener que clickear \"cargar más\".",
+		"name": "Loputon vierittäminen",
+		"description": "Voit vierittää sivuston eri osia ilman, että sinun tarvitsee klikata \"lataa lisää\" -painiketta.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
@@ -1455,8 +1455,8 @@
 	},
 	{
 		"id": "initialise-sprite-position",
-		"name": "Posición predeterminada de nuevos objetos personalizable",
-		"description": "Cambia la posición x/y predeterminada de nuevos objetos.",
+		"name": "Mukautettava uuden hahmon sijainti",
+		"description": "Muuta uusien hahmojen oletus-x/y-sijaintia.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1472,8 +1472,8 @@
 	},
 	{
 		"id": "items-per-row",
-		"name": "Más elementos por fila",
-		"description": "Le permite cambiar el número de items mostrados en una sola fila en una cuadrícula de proyectos, estudios o usuarios.",
+		"name": "Enemmän kohteita riviä kohden",
+		"description": "Voit muuttaa yhdellä rivillä näytettävien kohteiden määrää projektien, studioiden tai käyttäjien taulukossa.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -1489,13 +1489,13 @@
 	},
 	{
 		"id": "jump-to-def",
-		"name": "Saltar a definición de bloque personalizado",
-		"description": "Le permite saltar a la definición de un bloque personalizado usando el botón del medio del ratón o presionando Shift+Click en el bloque.",
+		"name": "Siirry mukautetun lohkon määritykseen",
+		"description": "Voit siirtyä mukautetun lohkon määritelmään käyttämällä hiiren keskipainikketta tai yhdistelmää Shift+Klikkaus lohkon päällä.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"info": [
 			{
-				"text": "Este addon era parte de \"herramientas de desarrollador\", pero se ha mudado aquí.",
+				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se on siirtynyt tänne.                                                                                                                                                                                                                                                                      ",
 				"id": "developer-tools"
 			}
 		],
@@ -1506,8 +1506,8 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Fecha de compartido/editado",
-		"description": "Mantenga el cursor arriba de la fecha en la que un proyecto fue compartido para ver exactamente cuándo fue compartido y editado por última vez.",
+		"name": "Jako-/muokkauspäivämäärien vihjelaatikot",
+		"description": "Vie hiiren osoitin projektin jakopäivämäärän päälle saadaksesi tietää tarkasti, milloin se on jaettu ja milloin sitä on viimeksi muokattu.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1523,8 +1523,8 @@
 	},
 	{
 		"id": "live-featured-project",
-		"name": "Proyecto destacado en vivo",
-		"description": "Muestra un proyecto destacado interactivo directamente en el perfil del usuario. Basado en la implementation de Mega Scratch Userscript.",
+		"name": "Elävä näytteillä oleva projekti",
+		"description": "Näyttää interaktiivisen näytteillä olevan projektin suoraan käyttäjän profiilista. Perustuu toteutukseen Mega Scratch Userscriptissä.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [
 			{
@@ -1540,8 +1540,8 @@
 	},
 	{
 		"id": "load-extensions",
-		"name": "Agregar extensiones automáticamente",
-		"description": "Muestra automáticamente música, lápiz y otras extensiones del editor en el menú de categorías del editor.",
+		"name": "Lisää laajennuksia automaattisesti",
+		"description": "Näyttää musiikki-, kynä-laajennuksen ja muita laajennuksia automaattisesti editorin lohkoluokkavalikossa.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1549,8 +1549,8 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Límite más alto en \"En qué estoy trabajando\"",
-		"description": "Le permite escribir 55 caracteres adicionales en el campo \"En qué estoy trabajando\" de su perfil. Cualquier usuario de Scratch verá los caracteres extra.",
+		"name": "Korkeampi merkkiraja \"Minkä kanssa työskentelen\" -tekstille",
+		"description": "Antaa sinun kirjoittaa 55 merkkiä enemmän profiilisi \"Minkä kanssa työskentelen\" -tekstiin.",
 		"tags": ["community", "profiles", "featured"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
@@ -1560,8 +1560,8 @@
 	},
 	{
 		"id": "material-forum-editor-buttons",
-		"name": "Mejores botones en el editor de publicación en foros",
-		"description": "Cambia los íconos de la interfaz del editor de publicaciones de los foros de íconos pixelados bitmap a íconos Material.",
+		"name": "Paremmat foorumin viestieditoripainikkeet",
+		"description": "Muuttaa foorumin viestieditorin painikkeiden kuvakkeet pikselöitetyistä bittikartoista materiaalikuvakkeiksi.",
 		"tags": ["community", "forums", "theme"],
 		"credits": [
 			{
@@ -1582,16 +1582,16 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "Grabador de video de proyectos",
-		"description": "Agrega un botón \"empezar grabación\" al menú del editor que le permite grabar el escenario del proyecto.",
+		"name": "Projektin videonauhuri",
+		"description": "Lisää editorin valikkopalkkiin \"aloita nauhoitus\" -napin, jolla voit nauhoittaa projektin esiintymislavan.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0"
 	},
 	{
 		"id": "message-filters",
-		"name": "Filtros de mensajes",
-		"description": "Le permite seleccionar qué tipos de mensajes ocultar o mostrar en la página de mensajes de Scratch.",
+		"name": "Viestisuodattimet",
+		"description": "Voit valita suodattimia viestityypeille, jotka piilotetaan tai näytetään Scratchin viestit-sivulla.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -1602,7 +1602,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Esto no cambia su número de mensajes sin leer. Simplemente le permite esconder ciertos tipos de mensajes en la página de mensajes de Scratch.",
+				"text": "Tämä ei muuta viestimääräsi. Voit yksinkertaisesti piilottaa tietyn tyyppiset viestit Scratchin viestit-sivulla.",
 				"id": "nomessagecount"
 			}
 		],
@@ -1611,8 +1611,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insertar bloques por nombre",
-		"description": "Click medio o Shift+click (Mayús.+click) en el área de código o presione Ctrl+Espacio para hacer aparecer una ventana de búsqueda. Escriba nombres de bloques (o partes de ellos) y arrástrelos al área de código para añadirlos a su proyecto. Para prevenir que se cierre este menú, mantenga Shift (Mayús.) mientras arrastre los bloques fuera de él.",
+		"name": "Lisää lohkoja nimellä",
+		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -1625,7 +1625,7 @@
 		],
 		"info": [
 			{
-				"text": "Este addon era parte de \"herramientas de desarrollador\", pero se ha mudado aquí.",
+				"text": "Tämä lisäosa oli aikaisemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
 				"id": "developer-tools"
 			}
 		],
@@ -1639,8 +1639,8 @@
 	},
 	{
 		"id": "more-links",
-		"name": "Más links",
-		"description": "Hace a las URLs que dirigen a páginas fuera de scratch.mit.edu clickeables.",
+		"name": "More links",
+		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1650,8 +1650,8 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Posición del ratón",
-		"description": "Muestra la posición x/y del ratón arriba del escenario en el editor.",
+		"name": "Hiiren sijainti",
+		"description": "Näyttää hiiren x-/y-sijainnin editorin esiintymislavan yllä.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
@@ -1661,12 +1661,12 @@
 	},
 	{
 		"id": "move-to-top-bottom",
-		"name": "Mover disfraz a la cima o al fondo",
-		"description": "Agrega opciones al menú de click derecho para mover un disfraz o sonido a la primera o última posición de la lista.",
+		"name": "Siirrä asuste ylös tai alas",
+		"description": "Lisää vaihtoehtoja hiiren oikealla napsautuksella näkyvään kontekstivalikkoon asusteita ja ääniä varten, jotta voit siirtää niitä luettelon ylä- tai alaosaan.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"info": [
 			{
-				"text": "Este addon era parte de \"herramientas de desarrollador\", pero se ha mudado aquí.",
+				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se on siirtynyt tänne.",
 				"id": "developer-tools"
 			}
 		],
@@ -1676,8 +1676,8 @@
 	},
 	{
 		"id": "msg-count-badge",
-		"name": "Número de mensajes en ícono de la extensión",
-		"description": "Agrega el número actual de mensajes en el ícono de Scratch Addons.",
+		"name": "Message count on extension icon",
+		"description": "Adds the current message count in the Scratch Addons icon.",
 		"tags": ["popup", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -1690,7 +1690,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "Puede usar No Molestar (click derecho en ícono de la extensión → No Molestar) para deshabilitar el contador de mensajes temporalmente.",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
 				"id": "dndtohide"
 			}
 		],
@@ -1701,8 +1701,8 @@
 	},
 	{
 		"id": "mute-project",
-		"name": "Modo silenciado de reproductor de proyectos",
-		"description": "Presione Ctrl+Click sobre la bandera verde para silenciar o desilenciar el proyecto.",
+		"name": "Mykistetty projektisoitin",
+		"description": "Mykistä projekti soitin/Poista sen mykistys pitämällä Ctrl-näppäintä painettuna ja klikkaamalla vihreää lippua",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{
@@ -1711,7 +1711,10 @@
 			}
 		],
 		"info": [
-			{ "text": "En macOS, use la tecla Cmd en vez de Ctrl.", "id": "macOS" }
+			{
+				"text": "Käytä macOS:ssä Cmd-näppäintä Ctrl-näppäimen sijaan.",
+				"id": "macOS"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1719,8 +1722,8 @@
 	},
 	{
 		"id": "my-ocular",
-		"name": "Integración con ocular",
-		"description": "Muestra estados ocular y reacciones a publicaciones de los foros. Usa my-ocular.jeffalo.net para obtener información.",
+		"name": "ocularin liittäminen",
+		"description": "Näyttää ocularin tilastot ja foorumipostausten reaktiot. Käyttää my-ocular.jeffalo.net:iä tietojen saamiseksi.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }],
 		"dynamicEnable": true,
@@ -1731,8 +1734,8 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Nombrar scripts antes de colocar en mochila",
-		"description": "Le solicita un nombre para el script luego de que lo arrastre a la mochila, en vez de utilizar el nombre por defecto \"code\".",
+		"name": "Nimeä tämä skripti ennen sen reppuun laittamista",
+		"description": "Pyytää sinua nimeämään skriptin reppuun raahaamisen jälkeen oletusnimen \"code\" käyttämisen sijaan.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
 		"dynamicEnable": true,
@@ -1741,8 +1744,8 @@
 	},
 	{
 		"id": "no-script-bumping",
-		"name": "No espaciar automáticamente scripts superpuestos",
-		"description": "Permite que los scripts sean movidos y modificados sin causar que scripts superpuestos se muevan.",
+		"name": "Älä tee automaattisesti tilaa päällekkäisille skripteille",
+		"description": "Mahdollistaa skriptien siirtämisen ja muokkaamisen aiheuttamatta päällekkäisten komentosarjojen liikkumista.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1752,13 +1755,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Siempre mostrar teclado numérico",
-		"description": "Mostrar el teclado numérico de Scratch cuando se editen campos numéricos en cualquier dispositivo, en vez de solo en los con pantalla táctil.",
+		"name": "Näytä numeronäppäimistö aina",
+		"description": "Näyttää Scratchin numeronäppäimistön syöttökentissä, kun lukua muokataan kaikilla laitteilla kosketusnäyttölaitteiden sijasta.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Un teclado numérico se mostrará cuando se editen campos numéricos de ciertos bloques, como \"dar a x el valor\".",
+				"text": "Numeronäppäimistö näytetään, kun tiettyjen lohkojen, kuten \"aseta x:n arvoksi\", numerosyöttökenttiä muokataan.",
 				"id": "explanation"
 			}
 		],
@@ -1768,8 +1771,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Diseño antiguo en estudios",
-		"description": "Revierte el diseño de la página de estudios a la usada antes de la actualización de estudios o al previamente disponible como parte del addon Scratch 2.0 → 3.0.",
+		"name": "Vanhan studion asettelu",
+		"description": "Palauttaa studiosivun asettelun sellaiseksi, jota käytettiin ennen studiopäivitystä tai siihen, joka oli aiemmin saatavilla osana Scratch 2.0 → 3.0 -lisäosaa.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -1780,11 +1783,11 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Este addon no funciona bien en dispositivos móviles ni en ventanas pequeñas.",
+				"text": "Tämä lisäosa ei toimi hyvin mobiililaitteissa ja pienissä ikkunoissa.",
 				"id": "mobile"
 			},
 			{
-				"text": "El tamaño de la mayoría de los elementos no son cambiados. Si quiere ver más proyectos y curadores a la vez, use el addon \"más elementos por fila\".",
+				"text": "Useimpien elementtien kokoa ei muuteta. Jos haluat nähdä useampia projekteja ja kuraattoreita kerralla, käytä \"enemmän kohteita rivillä\" -lisäosaa.",
 				"id": "itemsPerRow"
 			}
 		],
@@ -1796,8 +1799,8 @@
 	},
 	{
 		"id": "one-click-studio-invites",
-		"name": "Invitaciones a estudios en un click",
-		"description": "Acepte invitations a estudios directamente desde la página de mensajes de Scratch. Un botón de aceptar aparecerá debajo de los mensajes de invitaciones a estudios.",
+		"name": "Studiokutsut yhdellä klikkauksella",
+		"description": "Hyväksy studiokutsut suoraan Scratchin viestit -sivulta. Studiokutsuviestien alle ilmestyy hyväksymispainike.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1808,8 +1811,8 @@
 	},
 	{
 		"id": "onion-skinning",
-		"name": "Capa sobre capa (onion skinning)",
-		"description": "Muestra capas transparentes de los disfraces anteriores o siguientes mientras edita un disfraz. Controlado con los botones debajo del editor de disfraces, al lado de los botones de zoom.",
+		"name": "Sipulin kuorinta",
+		"description": "Näyttää edellisen tai seuraavan asusteen läpinäkyvät peittokuvat asustetta muokatessa. Ohjan asuste-editorin alla olevilla lähentämispainikkeilla.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1819,14 +1822,14 @@
 	},
 	{
 		"id": "opacity-slider",
-		"name": "Deslizador de opacidad",
-		"description": "Agrega un deslizador de opacidad al selector de colores del editor de disfraces.",
+		"name": "Peittävyyssäädin",
+		"description": "Lisää peittävyyssäätimen asuste-editorin värinvalitsimeen.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
 		"info": [
 			{
 				"type": "info",
-				"text": "El deslizador de opacidad está desactivado cuando ningún objeto está seleccionado, o en el modo bitmap.",
+				"text": "Peittävyyssäädin ei ole käytössä, kun yhtäkään kohdetta ei ole valittu tai olet bittikarttatilassa.",
 				"id": "bitmapModeincompleteInfo"
 			}
 		],
@@ -1836,8 +1839,8 @@
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Pintar disfraz por defecto",
-		"description": "Cambia la acción por defecto de los botones \"Elegir un objeto/disfraz/fondo/sonido\", que abren la biblioteca por defecto.",
+		"name": "Piirrä asuste oletuksena",
+		"description": "Vaihtaa \"Valitse hahmo/asuste/tausta/ääni\" -painikkeiden oletustoimintoa, jotka avaavat kirjaston oletuksena.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1847,8 +1850,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Ajustar posición del editor de disfraces ",
-		"description": "Ajusta objetos en el editor de disfraces a cuadros de delimitación y nodos de vectores.",
+		"name": "Kiinnittäminen asuste-editorissa",
+		"description": "Kiinnittä kohteita asuste-editorin rajausruutuihin ja vektorisolmuihin.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1856,8 +1859,8 @@
 	},
 	{
 		"id": "pause",
-		"name": "Botón de pausa",
-		"description": "Agrega un botón de pausa al lado de la bandera verde.",
+		"name": "Keskeytä-painike",
+		"description": "Lisää keskeytyspainikkeen vihreän lipun viereen.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1867,8 +1870,8 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Seleccionar colores del escenario en el editor de disfraces",
-		"description": "Permite que el cuentagotas también pueda elegir colores del escenario.",
+		"name": "Valitse esiintymislavan värejä asuste-editorissa",
+		"description": "Antaa asuste-editorin silmäpipetin poimia värejä myös esiintymislavalta.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1877,8 +1880,8 @@
 	},
 	{
 		"id": "progress-bar",
-		"name": "Barra de progreso en proyectos",
-		"description": "Agrega una barra de progreso cuando los proyectos estén cargándose o guardandose.",
+		"name": "Project progress bar",
+		"description": "Adds a progress bar for loading and saving projects.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -1895,8 +1898,8 @@
 	},
 	{
 		"id": "project-info",
-		"name": "Contador de objetos y scripts",
-		"description": "Muestra la cantidad de objetos y scripts que tiene un proyecto al lado de botón de Reinventar.",
+		"name": "Hahmo- ja skriptimäärä",
+		"description": "Näyttää projektin hahmojen ja skriptien määrän Remiksaa-napin vieressä.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -1913,8 +1916,8 @@
 	},
 	{
 		"id": "project-notes-tabs",
-		"name": "Pestañas de notas del proyecto",
-		"description": "Crea pestañas en las páginas de proyectos para las secciones de \"Instrucciones\" y \"Notas y créditos\".",
+		"name": "Projektin muistiinpanovälilehti",
+		"description": "Luo projektisivulle välilehdet \"Ohjeet\"- ja \"Ilmoitukset ja kiitokset\" -osiolle.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1927,8 +1930,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums",
-		"name": "Redirigir a foros comunes",
-		"description": "Le redirige de los foros comunes (\"principales\") cuando hace click en un enlace a los foros en versión móvil.",
+		"name": "Ohjaa tavallisiin foorumeihin",
+		"description": "Ohjaa sinut tavallisille (\"pää\")foorumeille, kun klikkaat linkkiä mobiilifoorumeille.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1938,8 +1941,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Botón de reinventar en mis propios proyectos",
-		"description": "Agrega el botón de Reinventar a sus proyectos.",
+		"name": "Remixaa-painike omissa projekteissa",
+		"description": "Lisää Remixaa-painikkeen omiin projekteihisi.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1950,8 +1953,8 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Botón de árbol de reinvenciones",
-		"description": "Pone de nuevo el botón de árbol de reinvenciones en las páginas de proyecto, al lado del botón Copiar Enlace.",
+		"name": "Remix tree button",
+		"description": "Brings back the remix tree button to project pages, next to the Copy Link button.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
 		"dynamicEnable": true,
@@ -1960,8 +1963,8 @@
 	},
 	{
 		"id": "remove-curved-stage-border",
-		"name": "Quitar curva del borde del escenario",
-		"description": "Quita los bordes curvos alrededor del escenario, permitiéndole ver las esquinas.",
+		"name": "Poista esiintymislavan kaarevat kulmat",
+		"description": "Poistaa esiintymislavan kaarevat kulmat, jotta näet reunat.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1971,8 +1974,8 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Quitar autocompletado de la barra de búsqueda",
-		"description": "No le permite a los navegadores web autocompletar sugerencias en la barra de búsqueda de la barra de navegación.",
+		"name": "Poista automaattinen täyttö hakupalkista",
+		"description": "Estää selaimia täydentämästä automaattisen täydennyksen ehdotuksia navigointipalkin hakupalkissa.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
@@ -1983,8 +1986,8 @@
 	},
 	{
 		"id": "remove-sprite-confirm",
-		"name": "Confirmación de eliminación de objeto",
-		"description": "Le pregunta si está seguro cuando borre un objecto en un proyecto",
+		"name": "Sprite deletion confirmation",
+		"description": "Asks if you're sure when deleting a sprite inside a project.",
 		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1993,8 +1996,8 @@
 	},
 	{
 		"id": "rename-broadcasts",
-		"name": "Renombrar mensajes",
-		"description": "Añade una opción para renombrar mensajes en los menús desplegables de los bloques de transmisión de mensajes.",
+		"name": "Nimeä viesti uudelleen",
+		"description": "Lisää vaihtoehdon viestin uudelleen nimeämistä varten viestilohkojen pudotusvalikoissa.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -2009,8 +2012,8 @@
 	},
 	{
 		"id": "resizable-comment-input",
-		"name": "Caja de comentarios ajustable",
-		"description": "Hace que la caja donde se escriben los comentarios sea verticalmente ajustable en páginas con estilos de Scratch 3.0.",
+		"name": "Kommenttikentän koon muuttaminen",
+		"description": "Mahdollistaa kommenttikentän pystysuuntaisen koon muuttamisen Scratchin 3.0-tyylisillä sivuilla.",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [
 			{
@@ -2027,7 +2030,7 @@
 	{
 		"id": "scratch-messaging",
 		"name": "Scratch Messaging",
-		"description": "Disponible al clickear el ícono de Scratch Addons. Provee fácil lectura y respuesta a tus mensajes: agrupa los mensajes por proyecto, muestra todo el contenido de los comentarios y permite responder a ellos directamente.",
+		"description": "Available when clicking the Scratch Addons icon. Provides easy reading and replying to your Scratch messages: groups messages by project, shows full comment text and context, allows direct comment replying.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -2038,7 +2041,7 @@
 	{
 		"id": "scratch-notifier",
 		"name": "Scratch Notifier",
-		"description": "Le manda notificaciones cuando reciba nuevos mensajes. Clickee la notificación para ir directamente al mensaje (comentario, proyecto, etc.)",
+		"description": "Notifications on new Scratch messages. Click the notification to go straight to the message (comment, project, etc.)",
 		"tags": ["community", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -2052,7 +2055,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "Puede usar No Molestar (click derecho en ícono de la extensión → No Molestar) para deshabilitar las notificaciones temporalmente.",
+				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
 				"id": "dndtosilence"
 			}
 		],
@@ -2063,8 +2066,8 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Scratchblocks 3.0 en foros",
-		"description": "Activa la nueva versión de scratchblocks en los foros.",
+		"name": "3.0 Scratchblocks foorumeilla",
+		"description": "Ottaa käyttöön uusi scratchblock-versio foorumeilla.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{
@@ -2077,7 +2080,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "La vista previa de la publicación no soporta este addon.",
+				"text": "Sisäänrakennettu viestin esikatselu ei tue tätä lisäosaa.",
 				"id": "preview_notice"
 			}
 		],
@@ -2088,7 +2091,7 @@
 	{
 		"id": "scratchr2",
 		"name": "Scratch 2.0 → 3.0",
-		"description": "Hace que las páginas con estilos de Scratch 2.0 se vean como las páginas de Scratch 3.0.",
+		"description": "Tekee Scratch 2.0 -tyyliset sivut näyttämään Scratch 3.0:lta.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -2104,8 +2107,8 @@
 	},
 	{
 		"id": "scratchstats",
-		"name": "Estadísticas en perfiles",
-		"description": "Muestra estadísticas de ScratchDB en los perfiles.",
+		"name": "Profiilitilastot",
+		"description": "Näyttää tilastot ScratchDB:stä käyttäjäprofiileilla.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -2120,8 +2123,8 @@
 	},
 	{
 		"id": "script-snap",
-		"name": "Ajustar scripts a cuadrícula",
-		"description": "Arrastre un script para automáticamente ajustar su posición a los puntos del área de código.",
+		"name": "Kiinnitä skriptit ruudukkoon",
+		"description": "Vedä skripti kohdistaaksesi sen sijainnin automaattisesti koodialueen pisteisiin.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
@@ -2141,8 +2144,8 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Barra de búsqueda en Mis Cosas",
-		"description": "Le permite buscar sus proyectos, estudios y la papelera en la página de Mis Cosas. Simplemente empiece a escribir en la página para empezar una búsqueda. También puede usar Ctrl+Enter después de buscar para abrir el primer resultado rápidamente.",
+		"name": "Hakupalkki omissa tavaroissa",
+		"description": "Voit etsiä projekteistasi, studioistasi ja roskakoristasi Omat tavarat -sivulla. Aloita haku yksinkertaisesti kirjoittamalla millä tahansa sivulla. Voit myös käyttää Ctrl+Enter-näppäinyhdistelmää haun jälkeen avataksesi nopeasti ylimmän hakutuloksen.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -2153,7 +2156,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Si tiene muchos proyectos o estudios, la búsqueda puede tardar un tiempo",
+				"text": "Jos sinulla on paljon projekteja tai studioita, haku saattaa kestää hetken.",
 				"id": "pleaseBePatient"
 			}
 		],
@@ -2165,8 +2168,8 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Buscar perfil",
-		"description": "Le permite ir a un perfil cuando busca su nombre de usuario en Scratch.",
+		"name": "Hae profiilia",
+		"description": "Voit siirtyä käyttäjän profiiliin, kun haet hänen käyttäjänimeään.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
 		"dynamicEnable": true,
@@ -2176,8 +2179,8 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Buscar objetos por nombre",
-		"description": "Agrega una barra de búsqueda al panel de objetos para buscar objetos por nombre.",
+		"name": "Etsi hahmoja nimellä",
+		"description": "Lisää hahmoruutuun hakukentän hahmojen nimellä etsimistä varten.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -2193,8 +2196,8 @@
 	},
 	{
 		"id": "semicolon",
-		"name": "Semicolon glitch",
-		"description": "Agrega el semicolon glitch de nuevo a Scratch.",
+		"name": "Puolipistebugi",
+		"description": "Lisää puolipistebugin takaisin Scratchiin.",
 		"tags": ["community", "easterEgg"],
 		"credits": [{ "name": "GrahamSH" }],
 		"dynamicEnable": true,
@@ -2204,8 +2207,8 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Compartir a través de Mis Cosas",
-		"description": "Comparta proyectos a través de la página de Mis Cosas.",
+		"name": "Share through My Stuff",
+		"description": "Share projects through the My Stuff page.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -2220,8 +2223,8 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "Botón de fuente BBCode",
-		"description": "Agrega un botón a los foros que muestra el código fuente BBCode de la publicación.",
+		"name": "BBCode-lähde-nappi",
+		"description": "Lisää foorumeille painikkeen, joka näyttää viestin BBCode-lähteen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2235,8 +2238,8 @@
 	},
 	{
 		"id": "sounds-duration",
-		"name": "Mostrar duración de sonidos",
-		"description": "Muestra en el editor de sonidos el largo total y el tiempo transcurrido del sonido, o de la selección dentro de él.",
+		"name": "Äänen keston näyttö",
+		"description": "Lisää äänieditoriin näytön, joka näyttää äänen tai valinnan kokonaispituuden ja siitä kuluneen ajan.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -2248,8 +2251,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Colapsar propiedades de sprites",
-		"description": "Esconde en panel de propiedades de sprite por defecto, como en Scratch 2.0. Use el botón de información en el sprite actualmente seleccionado o haga doble click en un sprite para mostrar el panel de propiedades otra vez. Para volver a esconderlo, use el botón de colapsar en el panel de propiedades o haga doble click en un sprite.",
+		"name": "Hahmon asetusten kutistaminen",
+		"description": "Piilottaa hahmon asetusruudun oletuksena, kuten Scratch 2.0:ssa. Näytä asetusruutu uudestaan käyttämällä parhaillaan valitun hahmon tietoanappia tai tuplaklikkaamalla hahmoa. Käytä asetusruudun kutistusnappia tai tuplaklikkaa hahmoa piilottaaksesi sen uudestaan.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
@@ -2261,8 +2264,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Botón de navegar seguidores en estudios",
-		"description": "Agrega un botón en la cima de la pestaña \"curadores\" de los estudios en los que sea manager, que lista sus usuarios seguidores y seguidos y le permite invitar a un usuario mostrado con un solo click.",
+		"name": "Selaaa seuraajia -nappi studioissa",
+		"description": "Lisää studioiden, joiden manageri olet, \"kuraattorit\"-välilehden yläosaan painikkeen, joka luettelee seuraajasi ja seuraamasi käyttäjät ja jonka avulla voit kutsua näytetyn käyttäjän studioon yhdellä napsautuksella.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{
@@ -2278,8 +2281,8 @@
 	},
 	{
 		"id": "studio-tools",
-		"name": "Herramientas en estudios",
-		"description": "Le permite a los managers fácilmente promover curadores o quitar a cualquiera del estudio en la pestaña \"curadores\" y agrega la posibilidad de abandonar un estudio usando un botón debajo de \"Seguir Estudio\".",
+		"name": "Studiotyökalut",
+		"description": "Mahdollistaa sen, että managerit voivat helposti ylentää kuraattoreita managereiksi tai poistaa kenet tahansa studiosta \"kuraattorit\"-välilehdellä, ja lisää mahdollisuuden poistua studiosta käyttäen painiketta \"Seuraa studiota\" -painikkeen alla.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -2295,8 +2298,8 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Cambiar variables entre \"Para todos los objetos\" y \"Solo para este objeto\"",
-		"description": "Agrega más opciones al renombrar una variable o lista existente: permite cambiar entre \"Para todos los objetos\" y \"Solo para este objeto\" y si las variables son almacenadas en la nube. También agrega una nueva opción al hacer click derecho en una variable/lista para cambiar rápidamente su ámbito.",
+		"name": "Vaihda muuttujia \"Kaikille hahmoille\" ja \"Vain tälle hahmolle\" -tilojen välillä",
+		"description": "Lisää vaihtoehtoja nimettäessä uudelleen olemassa olevaa muuttujaa tai listaa: sallii siirtymisen \"Kaikille hahmoille\" ja \"Vain tälle hahmolle\" -tilojen välillä ja sen, tallennetaanko muuttujat pilveen. Lisää myös uuden vaihtoehdon, kun napsautat hiiren kakkospainikkeella muuttujaa/listaa muuttaaksesi sen ulottuvuutta nopeasti.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2306,8 +2309,8 @@
 	},
 	{
 		"id": "transparent-orphans",
-		"name": "Bloques transparentes",
-		"description": "Ajuste la transparencia de los bloques del editor, con opciones separadas para bloques huérfanos (aquellos sin un bloque de evento en su parte superior) y bloques que están siendo arrastrados.",
+		"name": "Lohkoläpinäkyvyys",
+		"description": "Säädä lohkojen läpinäkyvyyttä editorissa erillisillä asetuksilla yksin jätetyille lohkoille (niille, joissa ei ole hattulohkoa yläosassa) ja lohkoille, joita raahataan.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{
@@ -2322,8 +2325,8 @@
 	},
 	{
 		"id": "true-youtube-links",
-		"name": "Links verdaderos de YouTube en los foros",
-		"description": "Reemplaza los links al sitio interno con el embed de reproductor de videos a links reales de YouTube.",
+		"name": "True forums YouTube links",
+		"description": "Replaces links to the embedded site with real YouTube links.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
@@ -2333,8 +2336,8 @@
 	},
 	{
 		"id": "turbowarp-player",
-		"name": "Botón TurboWarp",
-		"description": "Agrega un botón a las páginas de proyecto para reproducir el proyecto en TurboWarp.org, al lado del botón Reinventar.",
+		"name": "TurboWarp-nappi",
+		"description": "Lisää projektisivuille painikkeen, jolla voit toistaa projektin TurboWarp.orgissa Remiksaa-painikkeen viereen.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -2345,12 +2348,12 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "El modo \"reemplazar reproductor\" cambia el reproductor de Scratch por un embed de TurboWarp, el cual no soporta ver dentro de proyectos.",
+				"text": "\"Vaihda soitin\" -tila muuttaa Scratch-soittimen TurboWarpiksi upotuksella, joka ei tue projektien sisälle katsomista.",
 				"id": "addonsWontWork"
 			},
 			{
 				"type": "notice",
-				"text": "TurboWarp tiene servidores de variables en la nube separados. El modo \"reemplazar reproductor\" enviará su nombre de usuario de Scratch a TurboWarp.org para su uso en variables en la nube.",
+				"text": "TurboWarpilla on erilliset pilvitietopalvelimet. \"Vaihda soitin\" -tila lähettää Scratch-käyttäjänimesi TurboWarp.org:lle käytettäväksi pilvidatassa.",
 				"id": "cloudData"
 			}
 		],
@@ -2358,8 +2361,8 @@
 	},
 	{
 		"id": "tutorials-button",
-		"name": "Esconder botón Tutoriales",
-		"description": "Esconde el botón Tutoriales en la barra de menú del editor.",
+		"name": "Piilota Oppitunnit-painike",
+		"description": "Piilottaa Oppitunnit-painikkeen editorin valikkoriviltä.",
 		"tags": ["editor"],
 		"credits": [
 			{
@@ -2374,8 +2377,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Mostrar IDs de usuarios",
-		"description": "Agrega el ID del usuario al lado del nombre de usuario en la parte superior de los perfiles.",
+		"name": "Näytä käyttäjätunnukset",
+		"description": "Lisää käyttäjätunnuksen käyttäjänimen viereen profiilisivujen yläosaan. ",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -2390,8 +2393,8 @@
 	},
 	{
 		"id": "variable-manager",
-		"name": "Gestor de variables",
-		"description": "Agrega una pestaña al lado de \"sonidos\" en el editor para que pueda fácilmente editar variables y listas.",
+		"name": "Muuttujien hallinta",
+		"description": "Lisää välilehden editoriin \"äänet\"-välilehden viereen, jonka avulla voit päivittää muuttujia ja listoja helposti",
 		"tags": ["editor", "featured"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2405,8 +2408,8 @@
 	},
 	{
 		"id": "vol-slider",
-		"name": "Deslizador de volumen del proyecto",
-		"description": "Agrega un control deslizante de volumen al lado de los controles de la bandera verde.",
+		"name": "Projektin äänenvoimakkuussäädin",
+		"description": "Lisää äänenvoimakkuussäätimen vihreän lipun ohjainten viereen.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
@@ -2418,8 +2421,8 @@
 	},
 	{
 		"id": "youtube-fullscreen",
-		"name": "YouTube en pantalla completa",
-		"description": "Permite el uso del botón de pantalla completa en el reproductor de Youtube de Scratch.",
+		"name": "YouTube full screen",
+		"description": "Enables the full screen button in Scratch's YouTube video player.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2434,8 +2437,8 @@
 	},
 	{
 		"id": "zebra-striping",
-		"name": "Alternar colores de bloques anidados",
-		"description": "Alterna entre tonos más claros y más oscuros a los bloques de la misma categoría anidados entre sí. Esto también es conocido como \"zebra striping\".",
+		"name": "Vuorottelevat sisäkkäiset lohkovärit",
+		"description": "Saa saman luokan lohkot vuorottelemaan vaaleampien ja tummempien sävyjen välillä, kun ne asetetaan sisäkkäin. Tämä tunnetaan myös seepraraitana.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },

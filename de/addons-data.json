@@ -35,8 +35,8 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Großschreibung in Kontoeinstellungen; Nur für Englisch",
-		"description": "Dieses Addon wird im Deutschen nicht benötigt, da das Problem nicht vorhanden ist. Es wird keine Änderung zum aktuellen Text geben.",
+		"name": "Großschreibung in Kontoeinstellungen",
+		"description": "Dieses Addon wird in der deutschen Version nicht benötigt, da das Problem nicht darin vorhanden ist. Es wird keine Änderungen geben.",
 		"tags": ["easterEgg", "community"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -76,7 +76,7 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "Bilder mit hoher Auflösung hochladen",
+		"name": "Bilder in HD hochladen",
 		"description": "Fügt einen neuen Knopf über dem \"Kostüm hochladen\"-Knopf, der hochgeladene Raster-Bilder automatisch in SVG (Vektor) umwandelt, um die Qualität nicht zu verlieren.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
@@ -94,7 +94,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Verwende den HD Hochladen-Knopf lieber nicht, wenn du planst, das Bild nach dem Hochladen zu bearbeiten.",
+				"text": "Verwende HD-Hochladen nicht, wenn du das Bild nach dem Hochladen noch bearbeiten willst.",
 				"id": "notSuitableEdit"
 			}
 		],
@@ -236,7 +236,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.4.0"
 	},
 	{
@@ -282,17 +281,14 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
-			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["showicononly"],
-			"isMajor": false
-		}
+		"latestUpdate": { "version": "1.31.0", "newSettings": ["projectpage"] }
 	},
 	{
 		"id": "cloud-games",
@@ -432,6 +428,16 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.10.0"
+	},
+	{
+		"id": "copy-reporter",
+		"name": "Variablenwerte kopieren",
+		"description": "Fügt eine Option (zum Rechtsklick-Kontextmenü) zum Kopieren von Werten in Sprechblasen und Anzeigen von Variablenblöcken hinzu.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "TheKodeToad" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -963,16 +969,16 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
 		"latestUpdate": {
-			"version": "1.29.0",
-			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
-			"newSettings": ["comment-color"]
+			"version": "1.31.0",
+			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -1015,6 +1021,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0"
+	},
+	{
+		"id": "expanded-backpack",
+		"name": "Mehrzeiliges Lager",
+		"description": "Ordnet den Inhalt des Lagers im Editor in ein erweiterbares mehrzeiliges Raster, ähnlich wie die Figurenbbliothek. Es vergrößert außerdem manche Symbole.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "pumpkinhasapatch",
+				"link": "https://github.com/pumpkinhasapatch"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "expanding-search-bar",
@@ -1275,7 +1297,7 @@
 	{
 		"id": "hi-res-thumbnails",
 		"name": "HD-Profilbilder",
-		"description": "Ersetzt Profilbilder auf der Website mit höher aufgelösten Bidlern. Praktisch für Retina-Anzeigen (hohe Pixeldichte) und beim Surfen mit einem höheren Zoom als 100%.",
+		"description": "Ersetzt Profilbilder auf der Website mit höher aufgelösten Bildern. Praktisch für Retina-Anzeigen (hohe Pixeldichte) und beim Surfen mit einem höheren Zoom als 100%.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -1385,7 +1407,7 @@
 	{
 		"id": "hide-stage",
 		"name": "Bühne und Figurenleiste ausblenden",
-		"description": "Fügt einen Knopf neben dem \"Kleine Bühne\"-Knopf hinzu, mit dem du die Bühne und die Figurenleiste vollständig ausblenden und damit den Codebereich viel größer machen kannst.",
+		"description": "Fügt einen Knopf neben dem \"Kleine Bühne\"-Knopf hinzu, der die Bühne und die Figurenleiste vollständig ausblendet und damit den Codebereich viel größer macht.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1593,14 +1615,16 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Blöcke mit Namen einfügen",
-		"description": "Drücke Strg+Leertaste, Umschalt+Leertaste oder klicke mit der mittleren Maustaste auf den Codebereich, um ein schwebendes Eingabefeld hervorzubringen, in dem du den Namen eines Blocks (oder Teile davon) eingeben und in den Codebereich ziehen kannst. Halte die Umschalttaste während des Ziehens gedrückt, um das Popup beim Hinzufügen von mehreren Blöcken geöffnet zu halten.",
+		"description": "Strg+Leertaste, MIttel- oder Umschalt+Klick auf den Codebereich öffnet ein Blocksuchfenster. Gib Namen von Blöcken (bzw. Teile davon oder mehrere Blöcke) ein, um sie im Projekt einzufügen. Das Menü kann mit den Pfeiltasten und Enter navigiert werden und unterstützt Autovervollständigung mit der Tabulator-Taste. Halte beim Ziehen der Blöcke die Umschalttaste gedrückt, um das Schließen des Menüs zu verhindern.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "griffpatch" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
 		"info": [
 			{
@@ -1609,7 +1633,12 @@
 			}
 		],
 		"enabledByDefault": true,
-		"versionAdded": "1.30.0"
+		"versionAdded": "1.30.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "This addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "more-links",
@@ -1779,6 +1808,8 @@
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
 	},
 	{
@@ -1862,7 +1893,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "The progress bar has had a redesign since v1.30.1."
+		}
 	},
 	{
 		"id": "project-info",
@@ -2174,6 +2209,22 @@
 		"versionAdded": "1.7.0"
 	},
 	{
+		"id": "share-through-mystuff",
+		"name": "Über Meine Sachen veröffentlichen",
+		"description": "Ermöglicht das Veröffentlichen von Projekten aus der Seite Meine Sachen.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
+	},
+	{
 		"id": "show-bbcode",
 		"name": "Knopf für BBCode-Quelle",
 		"description": "Fügt einen Button hinzu, der die BBCode-Quelle eines posts anzeigt.",
@@ -2390,7 +2441,7 @@
 	{
 		"id": "zebra-striping",
 		"name": "Abwechselnde Farben für verschachtelte Blöcke",
-		"description": "Macht, dass Blöcke der selben Kategorie zwischen helleren und dünkleren Schattierungen abwechseln, wenn sie ineinander verschachtelt sind. Auch als Zebrastreifen bekannt.",
+		"description": "Macht, dass Blöcke der selben Kategorie zwischen helleren und dunkleren Schattierungen abwechseln, wenn sie ineinander verschachtelt sind. Auch als Zebrastreifen bekannt.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },

@@ -236,7 +236,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.4.0"
 	},
 	{
@@ -267,7 +266,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "The \"watch mouse cursor\" setting may impact performance when the editor is open.",
+				"text": "\"마우스 커서 보기\" 설정은 편집기가 열려 있을 때성능에 영향을 미칠 수 있습니다.",
 				"id": "watch"
 			}
 		],
@@ -282,17 +281,14 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
-			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["showicononly"],
-			"isMajor": false
-		}
+		"latestUpdate": { "version": "1.31.0", "newSettings": ["projectpage"] }
 	},
 	{
 		"id": "cloud-games",
@@ -373,7 +369,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"text": "줄바꿈은 애드온이 활성화된 유저들에게만 보입니다. 다른 사용자들에게는 그저 스페이스로만 보입니다.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -432,6 +428,16 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.10.0"
+	},
+	{
+		"id": "copy-reporter",
+		"name": "Copy reporter values",
+		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "TheKodeToad" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -705,7 +711,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "아이템을 Alt+클릭해 동일한 행동을 이 애드온 없이도 할 수 있습니다.",
 				"id": "vanilla"
 			}
 		],
@@ -860,7 +866,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "개발자 도구",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
+		"description": "블록 복사 붙여넣기, 더 나은 정리 등, 에디터에 새로운 설정을 추가했습니다.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -960,16 +966,16 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
 		"latestUpdate": {
-			"version": "1.29.0",
-			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
-			"newSettings": ["comment-color"]
+			"version": "1.31.0",
+			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -1012,6 +1018,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0"
+	},
+	{
+		"id": "expanded-backpack",
+		"name": "개인 저장소 여러 열로 사용하기",
+		"description": "모양 라이브러리처럼 편집기의 개인 저장소를 확장되는 이중 그리드로 배열하고, 특정한 썸네일을 확대합니다.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "pumpkinhasapatch",
+				"link": "https://github.com/pumpkinhasapatch"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "expanding-search-bar",
@@ -1589,29 +1611,36 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle click on the code area, use Ctrl+Space or Shift+Click to bring up a floating input box where you can type the name of a block (or parts of it) and drag the block into the code area. Hold Shift while dragging to avoid closing the box when adding multiple blocks at once.",
+		"name": "이름으로 블록 삽입",
+		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "griffpatch" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "이 애드온은 \"개발자 도구\" 애드온의 일부였으나 이곳으로 옮겨졌습니다.",
 				"id": "developer-tools"
 			}
 		],
 		"enabledByDefault": true,
-		"versionAdded": "1.30.0"
+		"versionAdded": "1.30.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "This addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "more-links",
 		"name": "더 많은 링크",
-		"description": "Makes URLs pointing outside scratch.mit.edu clickable.",
+		"description": "scratch.mit.edu 외부를 향하는 URL을 클릴할 수 있도록 만듭니다.",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "Hans5958" }],
 		"dynamicEnable": true,
@@ -1683,7 +1712,7 @@
 		],
 		"info": [
 			{
-				"text": "On macOS, use the Cmd key instead of the Ctrl key.",
+				"text": "macOS 사용자라면, Ctrl키 대신 Cmd키를 사용하세요.",
 				"id": "macOS"
 			}
 		],
@@ -1726,13 +1755,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "숫자 패드 항상 보이기",
+		"description": "터치스크린 디바이스가 아니더라도 숫자 영역을 편집할 때 숫자 패드를 보입니다.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "숫자 패드는 \"~만큼 움직이기\" 블록과 같은 특정 블록의 숫자 입력을 편집할 때 보입니다.",
 				"id": "explanation"
 			}
 		],
@@ -1776,6 +1805,8 @@
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
 	},
 	{
@@ -1819,8 +1850,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"name": "모양 편집기 스냅",
+		"description": "모양 편집기에서 테두리 상자와 벡터 노드에 물체를 스냅합니다.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1859,7 +1890,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "The progress bar has had a redesign since v1.30.1."
+		}
 	},
 	{
 		"id": "project-info",
@@ -2020,7 +2055,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"text": "방해 금지(확장 프로그램 우클릭 → 방해 금지)를 이용해 임시적으로 알림을 비활성화할 수 있습니다.",
 				"id": "dndtosilence"
 			}
 		],
@@ -2171,6 +2206,22 @@
 		"versionAdded": "1.7.0"
 	},
 	{
+		"id": "share-through-mystuff",
+		"name": "Share through My Stuff",
+		"description": "Share projects through the My Stuff page.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
+	},
+	{
 		"id": "show-bbcode",
 		"name": "BBCode 소스 버튼",
 		"description": "토론방에 게시물의 BBCode 소스를 보여주는 단추를 추가합니다.",
@@ -2200,8 +2251,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "스프라이트 속성 닫기",
+		"description": "스크래치 2.0처럼 속성 패널을 숨기는 것을 기본값으로 설정합니다. 현재 선택된 스프라이트의 정보 버튼을 이용하거나 스프라이트를 더블클릭해서 속성 패널을 다시 보입니다. 다시 숨기려면, 패널 접기 버튼을 누르거나 스프라이트를 더블클릭하세요.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }

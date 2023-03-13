@@ -236,7 +236,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.4.0"
 	},
 	{
@@ -282,17 +281,14 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
-			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["showicononly"],
-			"isMajor": false
-		}
+		"latestUpdate": { "version": "1.31.0", "newSettings": ["projectpage"] }
 	},
 	{
 		"id": "cloud-games",
@@ -432,6 +428,16 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.10.0"
+	},
+	{
+		"id": "copy-reporter",
+		"name": "Értékblokkok értékének másolása",
+		"description": "Lehetőséget ad az értékblokkok felugró lufijainak és a változómonitorok értékeinek kimásolására (jobb egeres helyi menüből érhető el)",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "TheKodeToad" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -879,7 +885,7 @@
 			},
 			{
 				"type": "notice",
-				"text": "A \"Shift billentyűk\" tartalmaznak olyan billentyűket, amiket a Shift billentyű nyomvatartásakor lehet csak begépelni, ilyen a hashtag, a felkijáltójel és még pár. Ezek a billentyűk csak a \"() gomb lenyomásakor\" bolkkal működnek és nem működnek minden operációs rendszeren illetve billentyűzeten.",
+				"text": "A \"Shift billentyűk\" olyan billentyűket tartalmaznak, amiket a Shift billentyű nyomvatartásakor lehet csak begépelni angol billentyűzeten, ilyen a hashtag, a felkiáltójel és még egy pár. Ezek a billentyűk csak a \"() gomb lenyomásakor\" blokkal működnek, és nem használhatóak minden operációs rendszeren illetve billentyűzeten.",
 				"id": "shiftKeysWarn"
 			}
 		],
@@ -958,16 +964,16 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
 		"latestUpdate": {
-			"version": "1.29.0",
-			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
-			"newSettings": ["comment-color"]
+			"version": "1.31.0",
+			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -1010,6 +1016,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0"
+	},
+	{
+		"id": "expanded-backpack",
+		"name": "Többsoros tálca",
+		"description": "Elrendezi a tálca tartalmát egy bővíthető kétirányú rácsban, a jelmezkönyvtárban lévőhöz hasonlóan, és megnöveli egyes borítóképek méretét.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "pumpkinhasapatch",
+				"link": "https://github.com/pumpkinhasapatch"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "expanding-search-bar",
@@ -1588,14 +1610,16 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Blokkok beillesztése név alapján",
-		"description": "Középső egérgombbal kattintás a kódterületre, Ctrl+Szóköz vagy Shift+Kattintás használatakor felugrik egy lebegő bemeneti mező, ahova be lehet írni egy blokk nevét (vagy nevének részeit), majd azt ki is lehet a kódterületre húzni. Tartsd a Shiftet lenyomva egy blokk kihúzása közben, hogy nyitva maradjon a mező, s több blokk is hozzáadható lehessen egyszerre.",
+		"description": "Középső, vagy Shift-es kattintás a kódterületen belülre, vagy Ctrl+Szóköz megnyomása egy blokk-kereső ablak felhozásához. Írd be a bemeneteli mezőjébe a blokkok neveit (vagy azoknak részeit), majd húzd ki a kódterületre, ha hozzá szeretnéd adni projektedhez. Navigációhoz a nyílbillentyűket és az entert is használhatod. Az automatikus kitöltést támogatja, a tabulátor gombot kell érvénybeléptetéséhez megnyomni. A menü nyitvatartásához tartsd a Shiftet lenyomva egy blokk kihúzása közben.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "griffpatch" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
 		"info": [
 			{
@@ -1604,7 +1628,12 @@
 			}
 		],
 		"enabledByDefault": true,
-		"versionAdded": "1.30.0"
+		"versionAdded": "1.30.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "This addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "more-links",
@@ -1774,6 +1803,8 @@
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
 	},
 	{
@@ -1857,7 +1888,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "The progress bar has had a redesign since v1.30.1."
+		}
 	},
 	{
 		"id": "project-info",
@@ -2167,6 +2202,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "share-through-mystuff",
+		"name": "Megosztás a Saját Dolgaimon keresztül",
+		"description": "Ossz meg projekteket a Saját Dolgaim nevű oldalon is",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "show-bbcode",

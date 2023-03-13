@@ -236,7 +236,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.4.0"
 	},
 	{
@@ -282,17 +281,14 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
-			{ "name": "OregSam", "link": "https://github.com/OregSamSas" }
+			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["showicononly"],
-			"isMajor": false
-		}
+		"latestUpdate": { "version": "1.31.0", "newSettings": ["projectpage"] }
 	},
 	{
 		"id": "cloud-games",
@@ -373,7 +369,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
+				"text": "Les sauts de ligne ne sont visibles que pour les utilisateurs ayant activé cet addon. Pour les autres, ils apparaissent sous forme d'espaces.",
 				"id": "ownLineBreaks"
 			}
 		],
@@ -432,6 +428,16 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.10.0"
+	},
+	{
+		"id": "copy-reporter",
+		"name": "Copier la valeur du bloc rapporteur",
+		"description": "Ajoute une option pour copier les valeurs affichées par les moniteurs de variables (à partir du menu contextuel du clic droit) et les bulles des blocs rapporteurs.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [{ "name": "TheKodeToad" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -863,7 +869,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Outils pour développeurs",
-		"description": "Adds new menu options to the editor: copy/paste blocks, better clean up, and more!",
+		"description": "Ajoute de nouvelles options au menu de l'éditeur : copier/coller des blocs, meilleur nettoyage, et plus encore !",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -963,16 +969,16 @@
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
 		"latestUpdate": {
-			"version": "1.29.0",
-			"temporaryNotice": "The \"Dark comments\" setting from \"Editor dark mode and customizable colors\" has been moved here and is now customizable.",
-			"newSettings": ["comment-color"]
+			"version": "1.31.0",
+			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -1015,6 +1021,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0"
+	},
+	{
+		"id": "expanded-backpack",
+		"name": "Plusieurs rangées dans le sac à dos Scratch",
+		"description": "Organise le contenu du sac à dos de l'éditeur dans une grille bidirectionnelle extensible, similaire à la bibliothèque de costumes et augmente la taille de certaines vignettes.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{
+				"name": "pumpkinhasapatch",
+				"link": "https://github.com/pumpkinhasapatch"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "expanding-search-bar",
@@ -1593,14 +1615,16 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Insérer des blocs par nom",
-		"description": "Cliquez au milieu de la zone de code, utilisez Ctrl+Espace ou Shift+Clic pour faire apparaître une boîte de saisie flottante dans laquelle vous pouvez taper le nom d'un bloc (ou des parties de celui-ci) et faire glisser le bloc dans la zone de code. Maintenez la touche Maj tout en faisant glisser le bloc pour éviter de fermer la boîte lorsque vous ajoutez plusieurs blocs à la fois.",
+		"description": "Dans la zone de code, cliquez avec le bouton central, cliquez en maintenant Maj, ou appuyez sur Ctrl+Espace pour faire apparaître une fenêtre de recherche de blocs. Tapez les noms des blocs (ou des parties de ceux-ci) et faites-les glisser dans la zone de code pour les ajouter à votre projet. Le menu peut être parcouru à l'aide des touches fléchées et Entrée, et prend en charge l'autocomplétion avec la touche Tab. Pour éviter que le menu ne se ferme, maintenez la touche Maj enfoncée tout en faisant glisser les blocs hors du menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "griffpatch" },
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
-			}
+			},
+			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
 		"info": [
 			{
@@ -1609,7 +1633,12 @@
 			}
 		],
 		"enabledByDefault": true,
-		"versionAdded": "1.30.0"
+		"versionAdded": "1.30.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "This addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "more-links",
@@ -1664,7 +1693,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
+				"text": "Vous pouvez utiliser Ne pas déranger (clic droit sur l'icône d'extension → Ne pas déranger) pour désactiver temporairement le nombre de notifications.",
 				"id": "dndtohide"
 			}
 		],
@@ -1779,6 +1808,8 @@
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
 	},
 	{
@@ -1822,8 +1853,8 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"name": "Ancrage de l'éditeur de costumes",
+		"description": "Accrocher des objets dans l'éditeur de costumes aux boîtes et aux nœuds vectoriels.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1862,7 +1893,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.31.0",
+			"temporaryNotice": "The progress bar has had a redesign since v1.30.1."
+		}
 	},
 	{
 		"id": "project-info",
@@ -2023,7 +2058,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"text": "Vous pouvez utiliser Ne pas déranger (clic droit sur l'icône d'extension → Ne pas déranger) pour désactiver temporairement les notifications.",
 				"id": "dndtosilence"
 			}
 		],
@@ -2172,6 +2207,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "share-through-mystuff",
+		"name": "Partager via Mes projets",
+		"description": "Partagez vos projets via la page Mes projets.",
+		"tags": ["community"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.31.0"
 	},
 	{
 		"id": "show-bbcode",
