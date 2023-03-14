@@ -17,6 +17,7 @@ Global:
     Last: Naar laatste gaan
     SlideX: Naar item {{ .Count }} gaan
 Links:
+  Docs: Documentatie
   PrivacyPolicy: Privacybeleid
   DiscordCom: Discord voor Gebruikers
   Discussion: Discussie-Forum
