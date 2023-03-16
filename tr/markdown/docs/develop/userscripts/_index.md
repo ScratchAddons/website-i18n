@@ -27,12 +27,12 @@ Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
 Örnek manifest:
 ```json
 {
-  "name": "Scratch Mesajlaşma",
-  "description": "Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar.",
+  "name": "Copy link to comment button",
+  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects", "https://scratch.mit.edu/", "profiles"]
+      "matches": ["projects", "https://scratch.mit.edu/", "profiles", "studios"]
     }
   ],
   "tags": ["community"],

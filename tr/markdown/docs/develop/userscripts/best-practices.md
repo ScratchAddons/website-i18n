@@ -81,6 +81,28 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 Ögenin var olduğu garanti ediliyorsa `addon.tab.waitForElement` API'sini kullanmaktan kaçının. Yine de düzgün çalışacak ve performansa büyük bir etkisi olmayacaktır, ancak kodu okuyan diğer geliştiricilerin kafasını karıştırabilir. waitForElement'in kullanımı genellikle ögenin o çalıştırma noktasında bulunmayan en az 1 senaryo olduğu anlamına gelmelidir.
 Örneğin, userscript `"runAtComplete": false` ile bildirilmedikçe, forum gönderilerini ararken waitForElement kullanmak gerekli değildir. Bu gibi durumlarda, genelde `document.querySelectorAll()` işlevini kullanmanız yeterlidir.
 
+### Use element.closest() instead of abusing parentElement
+
+Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+
+{{< admonition error >}}
+```js
+// Don't do this:
+reportButton.addEventListener("click", (event) => {
+  const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
+})
+```
+{{< /admonition >}}
+
+{{< admonition success >}}
+```js
+// Do this instead:
+reportButton.addEventListener("click", (event) => {
+  const commentElement = event.target.closest(".comment");
+})
+```
+{{< /admonition >}}
+
 
 ## JavaScript en iyi yöntemler
 
