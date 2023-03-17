@@ -27,8 +27,8 @@ Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
 Örnek manifest:
 ```json
 {
-  "name": "Copy link to comment button",
-  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
+  "name": "Yorum düğmesinin bağlantısını kopyala",
+  "description": "Sitedeki tüm yorumların \"Bildir\" düğmesinin yanına bir \"Bağlantıyı Kopyala\" düğmesi ekler.",
   "userscripts": [
     {
       "url": "userscript.js",
