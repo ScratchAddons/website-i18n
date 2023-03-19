@@ -27,12 +27,12 @@ Cada item do array tem que possuir as seguintes propriedades:
 Manifest de exemplo:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "name": "Copy link to comment button",
+  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects", "https://scratch.mit.edu/", "profiles"]
+      "matches": ["projects", "https://scratch.mit.edu/", "profiles", "studios"]
     }
   ],
   "tags": ["community"],
