@@ -8,9 +8,9 @@ Scratch Addons ist in diesen Stores verfügbar.
 
 | Store | Installieren | Unterstützte Browser | Systemanforderungen |
 | - | - | - | - |
-| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks less than ~6 years old
-| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
-| Microsoft Edge Add-ons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
+| Chrome Web Store | [![Aus Chrome Web Store installieren](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />höchstens ~6 Jahre alte Chromebooks
+| Add-ons für Firefox | [![Aus Add-ons für Firefox installieren](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
+| Microsoft Edge Add-ons | [![Aus Microsoft Edge Addons installieren](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
 ## Aus Quelle
 
@@ -51,13 +51,13 @@ Falls du Git nicht installiert hast, kannst du stattdessen diese Methode ausprob
 
 3. Extrahiere das Archiv in einen Ordner.
 
-### Installing on Google Chrome or Microsoft Edge
+### Installation auf Google Chrome oder Microsoft Edge
 
 1. Gib `chrome://extensions` in die Adressenleiste ein, um die Erweiterungenverwaltung zu öffnen.
 
 2. Klicke auf den Schalter neben `Entwicklermodus`, um den Entwicklermodus zu aktivieren. Dies Erlaubt dir das Laden aus einem Ordner bzw. aus einer Datei.
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+   ![Screenshot der oberen Leiste der Erweiterungsverwaltung](/assets/img/docs/developer-mode-toggle.png)
 
 3. Der `Entpackte laden`-Knopf sollte erscheinen. Klicke es an, um einen Ordner zum Hochladen auszuwählen.
 

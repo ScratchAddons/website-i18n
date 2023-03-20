@@ -15,11 +15,11 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
 
-### What does Scratch Addons include?
+### 스크래치 애드온에는 무엇이 있나요?
 
 Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
 
-### Is this the same as TurboWarp Addons?
+### TurboWarp 애드온과 같나요?
 
 [TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
 
@@ -29,19 +29,19 @@ Scratch Addons includes over 100 addons, which can be enabled or disabled indivi
 
 Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
-### Can I use Scratch Addons on a mobile device?
+### 스크래치 애드온을 휴대폰에서 사용할 수 있나요?
 
 For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
 
 For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
-### Can I use Scratch Addons on Safari?
+### 스크래치 애드온을 사파리에서 사용할 수 있나요?
 
-Currently, you cannot.
+현재로선 안 됩니다.
 
 First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
 
-### Can I use Scratch Addons on the offline editor?
+### 스크래치 애드온을 오프라인 편집기에서 사용할 수 있나요?
 
 Scratch Addons cannot be used on the official Scratch application, including the offline editor.
 
@@ -56,7 +56,7 @@ Some browser extensions and userscripts may interfere with Scratch Addons. If yo
 
 ## Security and privacy
 
-### Is Scratch Addons safe? 
+### 스크래치 애드온은 안전한가요?
 
 Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
 
@@ -209,7 +209,7 @@ By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 - Avoid addons from interfering with each other.
 - Avoid duplicate work from different addons.
 
-## Other 
+## 기타
 
 ### How can I add/remove myself to/from the contributors page?
 
@@ -217,6 +217,6 @@ If you want your name to be on the page, please read and follow the instructions
 
 If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
 
-### I have more questions!
+### 질문이 더 있습니다!
 
 If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
