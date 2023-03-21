@@ -1,30 +1,28 @@
 ---
-title: 설치하기
+title: 설치
 ---
 
-## 확장 프로그램 스토어에서
+## 스토어에서 확장 프로그램 설치하기
 
-Scratch Addons is available in these stores.
+스크래치 애드온은 이 스토어들에서 설치할 수 있습니다.
 
-| Store | 설치하기 | Supported browsers | System requirements |
+| 스토어 | 설치 | 지원되는 브라우저 | 시스템 사양 |
 | - | - | - | - |
-| Chrome Web Store | [![Install for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks less than ~6 years old
-| Add-ons for Firefox | [![Install for Add-ons for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
-| Microsoft Edge Add-ons | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
+| 크롬 웹 스토어 | [![크롬 웹 스토어에서 설치](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | 구글 크롬 80+<br />마이크로소프트 엣지 80+<br />오페라 67+<br />브레이브 1.3+<br />비발디 2.11+<br />*크로미움 80+* | 윈도우 7+<br />OS X / 맥 OS 10.11+<br />출시한지 ~6년이 안 된 크롬북
+| 파이어폭스 애드온 | [![파이어폭스 애드온에서 설치](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | 모질라 파이어폭스 86+ | 윈도우 7+<br />OS X / 맥 OS 10.12+
+| 마이크로소프트 엣지 애드온 | [![마이크로소프트 애드온에서 설치](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | 마이크로소프트 엣지 80+ | 윈도우 7+<br />OS X / 맥 OS 10.11+
 
 ## 소스로부터
 
 ### 깃허브 릴리즈에 대해
 
-[릴리즈 페이지]
-(https://github.com/ScratchAddons/ScratchAddons/releases)
-코드와 설치 파일을 포함한 스토어 빌드의 복사본인 스크래치 애드온 개발 빌드입니다.
+[릴리즈 페이지](https://github.com/ScratchAddons/ScratchAddons/releases)는 코드와 설치 파일을 포함한 스토어 빌드의 복사본인 스크래치 애드온 개발 빌드를 포함하고 있습니다.
 
 ### 레포지토리 복사하기
 
 스크래치 애드온을 개발적인 목적으로 사용한다면 권장되는 방법입니다. 깃이 설치되어있음을 가정합니다.
 
-레포지토리를 다운받으려면, 단순히 `https://github.com/ScratchAddons/ScratchAddons.git`을 복사하세요.
+저장소를 다운로드 받으려면, 단순히 `https://github.com/ScratchAddons/ScratchAddons.git` 를 복사하세요.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
@@ -66,14 +64,14 @@ If you don't have Git installed, you can try this method instead. Note that you 
    ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
 
 4. Select the extracted folder.
-5. The extension should now be loaded.
+5. 확장 프로그램은 이제 실행될 겁니다.
 
 To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
 
 ![Update button screenshot](/assets/img/docs/update-button.png)
 
 
-### Installing on Mozilla Firefox
+### 모질라 파이어폭스에 설치하기
 
 1. Type `about:debugging` into your address bar to open the debugging page.
 
@@ -86,7 +84,7 @@ To finish updating (assuming you followed the updating steps [here](#cloning-the
    ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
 
 6. Select the manifest.json file inside the extracted folder.
-7. The extension should now be loaded.
+7. 확장 프로그램은 이제 실행될 겁니다.
 
 Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
 

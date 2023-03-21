@@ -3,15 +3,15 @@ Global:
   LogoAlt: 스크래치 애드온 로고
   ChromeLong: 구글 크롬
   FirefoxLong: 모질라 파이어폭스
-  EdgeLong: 마이크로소프트 에지
+  EdgeLong: 마이크로소프트 엣지
   ChromeShort: 크롬
   FirefoxShort: 파이어폭스
-  EdgeShort: 에지
+  EdgeShort: 엣지
   Install: 설치하기
   InstallBrowser:
     Firefox: 파이어폭스에 설치하기
     Chrome: 크롬에 설치하기
-    Edge: 에지에 설치하기
+    Edge: 엣지에 설치하기
   ReadTime:
     one: "{{.Count}}분"
     other: "{{.Count}}초"
@@ -23,7 +23,7 @@ Global:
     Next: 다음
     First: 처음으로
     Last: 끝으로
-    SlideX: "'{{ .Count }}' 아이템으로 가기"
+    SlideX: "{{ .Count }} 아이템으로 가기"
 Links:
   Blog: 블로그
   Docs: 문서
@@ -37,6 +37,7 @@ Links:
   Discussion: 토론
   Community: 커뮤니티
   Twitter: 트위터
+  Reddit: 레딧
 Nav:
   Feedback: 문의하기
   Repository: 저장소
@@ -95,7 +96,7 @@ IndexPage:
         Caption: 설정 페이지
         ImgAlt: 설정 페이지
       Demo:
-        Caption: 확장 프로그램의 예시 ({{.Count}})
+        Caption: 확장 프로그램 예시 ({{.Count}})
         ImgAlt: 예시 ({{.Count}})
   Features:
     Heading: 기능
@@ -104,7 +105,7 @@ IndexPage:
     CustomizableHeading: 사용자 지정 설정하기
     CustomizableParagraph: 스크래치 애드온에는 각 기능과 테마의 다양한 설정을 제어하는 사용하기 쉬운 인터페이스가 있습니다.
     InternationalHeading: 국제적
-    InternationalParagraph: 영어뿐만이 아닙니다. 스크래치 애드온은 한국어를 포함해 스페인어, 프랑스어, 일본어 등의 더 많은 언어로 사용하실 수 있습니다.
+    InternationalParagraph: 영어뿐만이 아닙니다. 스크래치 애드온은 한국어를 포함해 스페인어, 러시아어, 일본어, 프랑스어 등의 더 많은 언어로 사용할 수 있습니다.
     OSHeading: 오픈소스
     OSParagraph: 스크래치 애드온은 무료이며 오픈소스이고 스크래치 사용자들에 의해 만들어졌습니다.
   Highlights:
@@ -119,10 +120,12 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: 이 애드온은 이스터에그입니다.
   RecommendedAddon: 이 애드온은 권장하는 애드온입니다.
+  FeaturedAddon: 이 애드온은 특집 애드온 입니다.
+  BetaAddon: 이 애드온은 베타 애드온 입니다.
   ListViewLabel: 리스트로 보기
   EasterEggLabel: 이스터에그
   EasterEggTooltip:
-    L1: 이스터에그를 활성화하려면 코나미 코드 (↑↑↓↓←→←→BA)를 설정창에서 입력하세요. 더 알아보려면 FAQ페이지를 참고하세요
+    L1: 이스터에그를 활성화하려면 코나미 코드 (↑↑↓↓←→←→BA)를 설정창에서 입력하세요. 더 알아보려면 FAQ 페이지를 참고하세요
     L2: 이 페이지에선, 이스터에그 애드온의 이름에는 알 모양의 표식이 들어갑니다.
   NAddons: "{{.Count}}개의 애드온"
   SourceCodeLabel: 깃허브 소스 코드
@@ -138,6 +141,14 @@ FeedbackPage:
   ContentPlaceholder: 가능한 한 많은 정보를 작성해주세요.
   SendEnabled: 최근에 활성화한 애드온 리스트 보내기 (권장됨)
   SubmitButton: 보내기
+  PreSendWarning:
+    Warning: "경고:"
+    Override: 정말 이 피드백을 보내고 싶으면, "보내기" 버튼을 다시 클릭하세요.
+    Variations:
+      NotST:
+        Heading: 우리는 스크래치 팀이 아닙니다.
+      Punishment:
+        Heading: 우리는 사람들을 처벌할 수 없습니다. 우리는 스크래치 팀이 아닙니다.
 SMTPage:
   ScratchMessagingLogoAlt: 스크래치 메시지 확장 프로그램 로고
 ChangelogPage:
@@ -160,3 +171,5 @@ CreditsPage:
   NContributors: "{{.Count}}명의 기여자들"
   NProfilePicture: "{{.Name}}의 프로필 사진"
   NCommits: "{{.Count}}개의 커밋"
+Comments:
+  Heading: 댓글

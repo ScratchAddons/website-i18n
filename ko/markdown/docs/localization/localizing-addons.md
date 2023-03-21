@@ -4,7 +4,7 @@ description: 애드온을 번역하는 것은 쉽습니다.
 ---
 애드온을 번역하는 것은 쉽습니다.
 
-## Adding messages
+## 메시지 추가하기
 Under `addons-l10n/en/`, make a file named `ADDONID.json`, where ADDONID is the addon's ID (the folder name). Write your messages that you want to translate there:
 
 ```json
