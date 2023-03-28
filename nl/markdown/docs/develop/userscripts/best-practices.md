@@ -81,7 +81,7 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 Vermijd het gebruik van de API `addon.tab.waitForElement` als het element gegarandeerd bestaat. Het zal nog steeds werken zonder een grote impact op prestaties te hebben, maar het kan anderen die de code lezen misschien verwarren. Het gebruik van waitForElement betekent meestal dat er minstens 1 situatie is waar het element niet bestaat op het moment van uitvoering.
 Het is bijvoorbeeld niet nodig om waitForElement te gebruiken om naar forumposts te zoeken, behalve als de userscript is gedeclareerd met `"runAtComplete": false`. Gebruik in die gevallen gewoon `document.querySelectorAll()`.
 
-### Use element.closest() instead of abusing parentElement
+### Gebruik element.closest() i.p.v. parentElement te misbruiken
 
 Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
 
