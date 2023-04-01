@@ -138,19 +138,19 @@ Onthoud dat objecten en arrays die zijn gedeclareerd als "const" geen bevroren w
 
 ### Stel geen globale variabelen in
 
-Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
-If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
+Vermijd het instellen van eigenschappen op het globale `window`-object, behalve als je een globale functie, zoals `fetch()`, aan het vervuilen bent.
+Als meerdere addons informatie of functies met elkaar moeten delen, maak dan een JS-modulebestand en importeer het vanaf beide userscripts.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Doe dit niet:
 window.isDarkMode = true;
 ```
 {{< /admonition >}}
 
-### Do not declare functions outside of the default export
+### Verklaar geen functies buiten de standaardexport
 
-There's no reason to declare functions outside the `export default async function(){}` function. JavaScript allows functions to be declared inside other functions.
+Er is geen reden om functies buiten de `export default async function(){}`-functie te verklaren. JavaScript geeft je de mogelijkheid om functies binnen andere functies te verklaren.
 
 You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
 
