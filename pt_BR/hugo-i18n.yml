@@ -17,10 +17,12 @@ Global:
     Last: Ir para último
     SlideX: Ir para item {{ .Count }}
 Links:
+  Docs: Documentação
   Credits: Créditos
   PrivacyPolicy: Política de Privacidade
   DiscordCom: Discord da Comunidade
   Discussion: Fórum de Discussão
+  Community: Comunidade
 Nav:
   Feedback: Dar Feedback
   Repository: Repositório
@@ -41,6 +43,8 @@ Footer:
     Repository: Repositório
     Documentation: Documentação
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Colaboradores do Scratch Addons"
+    NoAffiliation: Scratch Addons não está afiliado, associado, ou conectado oficialmente com o site oficial do Scratch ou com as organizações que o mantêm.
     License: O Scratch Addons é licenciado sob os termos da GNU General Public License v3.0.
   Intro: Atualmente {{ .Version }} com {{ .AddonCount }} addons.
 DarkTheme:
@@ -50,6 +54,8 @@ Docs:
   SectionSiteName: Documentação do Scratch Addons
   DocsNav: Navegação
   DocsNavToggleLabel: Ligar/desligar barra de navegação
+  TOC: Conteúdo
+  TOCToggleLabel: Alternar visibilidade da tabela de conteúdo
   LastUpdated: Atualizado pela última vez em {{.Date}} por {{.Name}} no commit {{.Commit}}.
   Improve: Melhore essa página.
   SectionPages: Páginas de Seção
@@ -117,6 +123,16 @@ FeedbackPage:
   ContentPlaceholder: Por favor dê o máximo de detalhes que conseguir.
   SendEnabled: Enviar lista de addons ativados atualmente (recomendado)
   SubmitButton: Enviar
+  PreSendWarning:
+    Warning: "Aviso:"
+    Override: Se realmente ter certeza de que quer mandar este feedback, clique no botão "Enviar" novamente.
+    Variations:
+      NotST:
+        Heading: Não somos a Equipe do Scratch.
+        Description: Tenha em mente que Scratch Addons não está afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Ainda assim, sinta-se livre em dar ideias de melhoria de sua experiência no Scratch com Scratch Addons.
+      Punishment:
+        Heading: Não podemos punir usuários. Não somos a Equipe do Scratch.
+        Description: Scratch Addons não é afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Não temos controle do conteúdo e da moderação do site oficial do Scratch. {{ .Tag1Start }}Há muitas maneiras de como você pode denunciar conteúdos no site do Scratch.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension
 ChangelogPage:
