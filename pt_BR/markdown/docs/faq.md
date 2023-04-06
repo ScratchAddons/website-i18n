@@ -5,27 +5,27 @@ description: Essa página contém perguntas frequentes relacionadas à extensão
 
 Essa página contém perguntas frequentes relacionadas à extensão e projeto do Scratch Addons.
 
-## General questions
+## Questões gerais
 
 ### O que é o Scratch Addons?
 
 O Scratch Addons é uma extensão de navegador "tudo-em-um" para o site e editor de projeto do Scratch. Ele adiciona funções e temas (chamados de addons) ambos para o site do Scratch e para o editor de projeto. A missão do Scratch Addons é combinar todas as extensões, userscripts e userstyles existentes para o Scratch, desenvolvidos por diversos membros da comunidade, em um único lugar de fácil acesso, e ainda deixar os usuários escolherem quais funções querem usar.
 
-### Who created Scratch Addons?
+### Quem criou Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons é uma equipe liderada por World_Languages. Você pode achar a lista citando as pessoas que contribuíram ao projeto na [página de créditos](/credits). Apesar dos addons "Mensagens do Scratch" e "Ferramentas de desenvolvedor" terem sido inicialmente criados por griffpatch, ele não mantém a extensão.
 
-### What does Scratch Addons include?
+### O que Scratch Addons possui?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons contém mais de 100 addons, nas quais podem ser habilitadas e desabilitadas individualmente. Alguns addons podem ser configurados, e outros possuem predefinições, como o tema escuro para o site. Scratch Addons também inclui um pop-up, na qual pode ser usada para facilmente visualizar as suas mensagens, jogos em nuvem, e a página de configurações. Scratch Addons é traduzido para múltiplos idiomas, incluindo Português brasileiro, Alemão, Francês, Espanhol, e Japonês.
 
-### Is this the same as TurboWarp Addons?
+### Scratch Addons é igual ao TurboWarp Addons?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) possui alguns addons pegas do Scratch Addons nas qual podem ser utilizadas sem precisar instalar a extensão. Entretanto, Scratch Addons também inclui addons para o site do Scratch e para mostrar conteúdos através do pop-up. Portanto, ainda é útil ter o Scratch Addons mesmo que você programe usando somente o TurboWarp.
 
-## System requirements
+## Requisitos do sistema
 
-### What are the system requirements for Scratch Addons?
+### Quais são os requisitos do sistema para rodar o Scratch Addons?
 
 Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
