@@ -1061,6 +1061,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "注目のダンゴ (2023年エイプリルフール)",
+		"description": "トップページに団子関係のプロジェクトを追加する。",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "エディター検索バー",
 		"description": "スクリプト、コスチューム、音を検索する検索バーを音タブの横に追加する。Ctrl+左右キーで検索履歴から移動する。",
@@ -2169,7 +2177,11 @@
 		"name": "プロフィール検索",
 		"description": "ユーザー名で検索時に、プロフィールページへ行くリンクを追加する。",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

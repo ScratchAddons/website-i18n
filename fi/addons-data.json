@@ -1063,6 +1063,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Editorin hakupalkki",
 		"description": "Lisää hakupalkin, jolla voit etsiä skriptejä, asusteita ja ääniä ja siirtyä niihin Äänet-välilehden viereen. Käytä koodialueella yhdistelmiä Ctrl+Vasen ja Ctrl+Oikea navigoidaksesi edelliseen tai seuraavaan vierailtavaan kohtaan hakupalkin käytön jälkeen.",
@@ -2171,7 +2179,11 @@
 		"name": "Hae profiilia",
 		"description": "Voit siirtyä käyttäjän profiiliin, kun haet hänen käyttäjänimeään.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

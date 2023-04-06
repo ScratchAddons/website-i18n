@@ -431,7 +431,7 @@
 	},
 	{
 		"id": "copy-reporter",
-		"name": "Copy reporter values",
+		"name": "Copiar valores reportados",
 		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
@@ -789,8 +789,8 @@
 	},
 	{
 		"id": "editor-buttons-reverse-order",
-		"name": "Reverter ordem dos botões de controle de projeto",
-		"description": "Moverá a bandeira verde e o botão de pare para direita e no modo tela cheia os moverá para a direita, como no Scratch 2.0.",
+		"name": "Reverter a ordem dos botões do controle do projeto",
+		"description": "Moverá a bandeira verde e o botão de pare para a direita e o modo de tela cheia para a direita, como no Scratch 2.0.",
 		"tags": ["editor", "projectPlayer", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -930,7 +930,7 @@
 	},
 	{
 		"id": "editor-stage-left",
-		"name": "Mostrar palco do lado esquerdo",
+		"name": "Mostrar palco no lado esquerdo",
 		"description": "Move o palco para o lado esquerdo do editor, como no Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [{ "name": "NitroCipher/ZenithRogue" }],
@@ -1061,6 +1061,14 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
 	},
 	{
 		"id": "find-bar",
@@ -1611,7 +1619,7 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
+		"name": "inserir bloco por nome",
 		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1752,8 +1760,8 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Always show number pad",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"name": "Sempre mostrar o teclado de numeros",
+		"description": "Mostrar entrada do teclado de números do Scratch quando editando espaços para números em qualquer dispositivo, ao invés de somente em dispositivos moveis.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
@@ -2168,7 +2176,11 @@
 		"name": "Procurar perfil",
 		"description": "Te deixa ir ao perfil de alguém pesquisando pelo seu nome de usuário.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2204,8 +2216,8 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Share through My Stuff",
-		"description": "Share projects through the My Stuff page.",
+		"name": "Compartilhar por meio das Minhas Coisas",
+		"description": "Compartilhar projeto por meio das Minhas Coisas.",
 		"tags": ["community"],
 		"credits": [
 			{

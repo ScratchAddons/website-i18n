@@ -1061,6 +1061,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Szerkesztő keresőmező",
 		"description": "Hozzáad egy keresőmezőt a hang fültől jobbra, ami megkeresi és odavisz egy adott kód részhez, jelmezhez vagy hanghoz. Használd a Ctrl+Bal-t és Ctrl+Jobb-ot a kód mezőben, hogy navigálj az előfordulások között.",
@@ -2169,7 +2177,11 @@
 		"name": "Profilkeresés",
 		"description": "Lehetővé teszi, hogy elkalauzolódjál egy felhasználói profilra, amikor a nevükkel keresel.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

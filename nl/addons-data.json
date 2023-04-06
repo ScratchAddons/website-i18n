@@ -432,7 +432,7 @@
 	{
 		"id": "copy-reporter",
 		"name": "Waarden van waardeblokken kopiëren",
-		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
+		"description": "Geeft je de mogelijkheid om waarden die worden weergegeven door variabelemonitoren (in het rechterklikmenu) en waardeballonnen te kopiëren.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -1063,6 +1063,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Uitgelichte Dango's (1 April 2023)",
+		"description": "Voegt een paar dango-gerelateerde projecten toe aan de homepagina.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Zoekbalk in editor",
 		"description": "Maakt een nieuwe zoekbalk waarmee je scripts, uiterlijken en geluiden kunt zoeken en ernaar kunt springen, naast het geluidentabblad. Gebruik Ctrl+Links en Ctrl+Rechts in het codegebied om te navigeren naar vorige of volgende bezochte posities na het gebruiken van de zoekbalk.",
@@ -1612,7 +1620,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Blokken invoegen op naam",
-		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
+		"description": "Klik met de scrolwiel of Shift+Klik in het codegebied, of druk op Ctrl+Spatie om een blokkenzoeker erbij te pakken. Typ namen van blokken (of delen ervan) en sleep ze in het codegebied. Navigeer met de pijltjestoetsen en Enter, en het ondersteund ook Tab. Om het menu open te houden moet je Shift ingedrukt houden tijdens het slepen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -2171,7 +2179,11 @@
 		"name": "Profiel zoeken",
 		"description": "Laat je een gebruikers' profiel zien wanneer je hun gebruikersnaam opzoekt.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

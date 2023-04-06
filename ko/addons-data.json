@@ -35,7 +35,7 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "계정 설정에서 \"settings\" \"Settings\"로 변경(언어가 영어일때만 적용)",
+		"name": "대문자로 된 Account Settings",
 		"description": "계정 메뉴에서 \"Account settings\"을 \"Account Settings\"으로 변경합니다. (영어 전용)",
 		"tags": ["easterEgg", "community"],
 		"dynamicEnable": true,
@@ -315,7 +315,7 @@
 	{
 		"id": "color-inputs",
 		"name": "색상 선택기 입력값",
-		"description": "모양 편집기 색상 선택기에서 각각의 슬라이더에 정확한 값(0~100)으로 설정될 수 있도록 허용합니다.",
+		"description": "모양 편집기 색상 선택기에서 각각의 슬라이더에 정확한 값(0-100)으로 설정될 수 있도록 허용합니다.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -1063,6 +1063,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "에디터 찾기 바",
 		"description": "스크립트, 모양, 소리 바 옆에 검색 창을 추가합니다. 검색 창을 이용한 후 코드 창에서 Ctrl+Left과 Ctrl+Right를 눌러 이전, 이후 위치로 이동합니다.",
@@ -1125,7 +1133,7 @@
 	},
 	{
 		"id": "fix-uploaded-svgs",
-		"name": "SVG업로드 고침",
+		"name": "SVG 업로드 고치기",
 		"description": "Affinity Designer와 같은 일부 이미지 편집기로 생성된 SVG 파일을 제대로 업로드하지 못하는 버그를 스크래치 편집기에서 수정합니다.",
 		"tags": ["editor", "costumeEditor"],
 		"dynamicEnable": true,
@@ -1294,7 +1302,7 @@
 	{
 		"id": "hi-res-thumbnails",
 		"name": "고해상도 썸네일",
-		"description": "웹 사이트의 썸네일을 고해상도 이미지로 바꿉니다. 높은 픽셀 밀도를 지닌 화면이나 웹사이트를 100% 이상 확대한 경우에 유용합니다.",
+		"description": "웹 사이트의 썸네일을 고해상도 이미지로 바꿉니다. 레티나 (높은 픽셀 밀도) 화면이나 웹사이트를 100% 이상 확대한 경우에 유용합니다.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -2171,7 +2179,11 @@
 		"name": "프로필 찾기",
 		"description": "사용자 이름을 검색할 때 사용자의 프로필로 이동할 수 있습니다.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

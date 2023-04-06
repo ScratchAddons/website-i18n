@@ -431,8 +431,8 @@
 	},
 	{
 		"id": "copy-reporter",
-		"name": "Copy reporter values",
-		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
+		"name": "Kopiraj vrednosti okroglih blokov",
+		"description": "Doda možnost kopiranja vrednosti spremenljivk na odru (v meniju desne miškine tipke) in oblačkov okroglih blokov.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -1064,6 +1064,14 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
 	},
 	{
 		"id": "find-bar",
@@ -1853,7 +1861,7 @@
 	},
 	{
 		"id": "paint-snap",
-		"name": "Costume editor snapping",
+		"name": "Pripenjanje v urejevalniku videzov",
 		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
@@ -2174,7 +2182,11 @@
 		"name": "Išči profile",
 		"description": "Omogoči, da obiščete uporabnikov profil, ko v polje za iskanje vnesete njegovo ime.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2210,8 +2222,8 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Share through My Stuff",
-		"description": "Share projects through the My Stuff page.",
+		"name": "Deli projekte v Mojih stvareh",
+		"description": "Omogoči deljenje projektov na strani Moje stvari.",
 		"tags": ["community"],
 		"credits": [
 			{

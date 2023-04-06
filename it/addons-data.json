@@ -1063,6 +1063,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Dangos in Evidenza (Pesce d'Aprile 2023)",
+		"description": "Aggiunge progetti legati ai Dango nella pagina principale",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Barra di ricerca dell'editor",
 		"description": "Aggiunge una barra di ricerca a fianco alla scheda suoni per trovare script, costumi e suoni e per passare direttamente agli elementi trovati. Usa Ctrl+Sinistra a Ctrl+Destra nell'area degli script per andare alla precedente o alla seguente posizione che hai visitato dopo che hai usato la barra di ricerca.",
@@ -2171,7 +2179,11 @@
 		"name": "Cerca profilo",
 		"description": "Permette di andare alla pagina del profilo di un utente quando cerchi il suo username.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

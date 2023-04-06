@@ -1063,6 +1063,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Öne Çıkan Dangolar (2023 Nisan Şakası)",
+		"description": "Ön sayfaya dango ile ilgili bazı projeler ekler.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Düzenleyicide arama çubuğu",
 		"description": "Sesler sekmesinin yanına kodları, kostümleri ve sesleri bulmak ve onlara gitmek için bir arama çubuğu ekler. Arama çubuğunu kullandıktan sonra önceki veya sonraki ziyaret edilen konuma gitmek için kod alanında Ctrl+Sol ve Ctrl+Sağ tuşlarını kullanın.",
@@ -2171,7 +2179,11 @@
 		"name": "Profil ara",
 		"description": "Kullanıcı adını aradığınızda bir kullanıcının profiline gitmenizi sağlar.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

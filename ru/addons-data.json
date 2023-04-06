@@ -431,8 +431,8 @@
 	},
 	{
 		"id": "copy-reporter",
-		"name": "Copy reporter values",
-		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
+		"name": "Копировать значения вывода",
+		"description": "Добавляет возможность копировать значение переменной (через контекстное меню) и вывод значений блоков.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -1024,7 +1024,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Multiple rows in backpack",
+		"name": "Добавлять ряды в рюкзаке",
 		"description": "Arranges the contents of the editor backpack into an expandable two-way grid, similar to the costume library and increases the size of certain thumbnails.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1064,6 +1064,14 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "featured-dangos",
+		"name": "Данго (Первое апреля 2023)",
+		"description": "Добавляет проекты, связанные с данго на главную страницу",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
 	},
 	{
 		"id": "find-bar",
@@ -2174,7 +2182,11 @@
 		"name": "Поиск профиля",
 		"description": "Позволяет перейти к профилю пользователя при поиске его имени пользователя.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2210,8 +2222,8 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Share through My Stuff",
-		"description": "Share projects through the My Stuff page.",
+		"name": "Публикация через \"Мои работы\"",
+		"description": "Добавляет возможность публиковать проекты через страницу \"Мои работы\"",
 		"tags": ["community"],
 		"credits": [
 			{

@@ -1066,6 +1066,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Editor find bar",
 		"description": "Adds a find bar to find and jump to scripts, costumes and sounds next to the sounds tab. Use Ctrl+Left and Ctrl+Right in the code area to navigate to previous or next visited position after using the find bar.",
@@ -2174,7 +2182,11 @@
 		"name": "Szukaj profilu",
 		"description": "Pozwala ci wejść na profil użytkownika kiedy wyszukasz jego nazwę użytkownika",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

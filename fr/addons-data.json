@@ -1066,6 +1066,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Featured Dangos (April Fools 2023)",
+		"description": "Adds some dango-related projects to the front page.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Barre de recherche de l'éditeur",
 		"description": "Ajoute une barre de recherche à côté de l'onglet des son pour rechercher et accéder à des scripts, costumes et sons. Utilisez Ctrl + Flèche gauche et Ctrl + Flèche droite dans la zone de code pour naviguer vers la position précédente ou suivante après avoir utilisé la barre de recherche.",
@@ -2174,7 +2182,11 @@
 		"name": "Rechercher des profils",
 		"description": "Vous permet d'aller sur le profil d'un utilisateur lorsque vous recherchez son pseudo.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,

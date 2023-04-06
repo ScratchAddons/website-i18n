@@ -1066,6 +1066,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "featured-dangos",
+		"name": "Vorgestellte Dangos (Aprilscherz 2023)",
+		"description": "Fügt Projekte über Dangos zur Startseite hinzu.",
+		"tags": ["community", "easterEgg", "featured"],
+		"enabledByDefault": true,
+		"versionAdded": "1.31.1"
+	},
+	{
 		"id": "find-bar",
 		"name": "Finden-Leiste im Editor",
 		"description": "Fügt eine Leiste neben dem Klänge-Tab im Editor hinzu, mit der du Skripte, Kostüme und Klänge durchsuchen kannst. Verwende Strg+Links und Strg+Rechts im Codebereich, um zur vorher bzw. nachher besuchten Position nach Verwendung der Finden-Leiste zu navigieren.",
@@ -2174,7 +2182,11 @@
 		"name": "Profil suchen",
 		"description": "Ermöglicht es dir, direkt zum Profil eines Benutzers zu gehen, wenn du nach dessen Benutzernamen suchst.",
 		"tags": ["community", "recommended", "profiles"],
-		"credits": [{ "name": "Geotale" }, { "name": "pufferfish101007" }],
+		"credits": [
+			{ "name": "Geotale" },
+			{ "name": "pufferfish101007" },
+			{ "name": "Hexagonal" }
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
