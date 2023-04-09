@@ -21,7 +21,7 @@ This way, anyone that speaks your language can use Scratch Addons in their nativ
 
 **만약 도와주고 싶으면, 이 방법을 따라주세요**
 
-- [스크래치 애드온 Transifex 페이지](https://www.transifex.com/scratch-addons/scratch-addons-extension/)로 가고, 보라색 "JOIN THIS PROJECT" 버튼을 클릭하세요.
+- Go to [our Transifex page](https://app.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
 - 스크래치 계정과 같은 사용자 이름을 사용하세요. 이메일과 새로운 비밀번호를 적고 가입하세요.
 - Enter your username as your name and surname - **do not use your real name**.
 _Note: choose any option for "department" and "job title", we recommend "localization" and "individual contributor"_

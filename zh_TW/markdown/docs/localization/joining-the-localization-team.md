@@ -21,8 +21,7 @@ This way, anyone that speaks your language can use Scratch Addons in their nativ
 
 **如果您有興趣提供幫助，請按照以下步驟操作：**
 
-- 到[ Transifex 頁面]
-(https://www.transifex.com/scratch-addons/scratch-addons-extension/)，然後單擊藍色的“幫助翻譯 Scratch 插件”按鈕。
+- Go to [our Transifex page](https://app.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
 - 使用與您的 Scratch 帳戶相同的用戶名。輸入您的電子郵件、新密碼，然後註冊
 - 輸入您的用戶名作為您的姓名和姓氏 - **不要使用您的真實姓名**。
 _注意：“部門”和“職稱”可以任意選擇，我們推薦“翻譯”和“個人貢獻者”_

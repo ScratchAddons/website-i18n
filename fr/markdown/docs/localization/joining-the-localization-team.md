@@ -21,7 +21,7 @@ De cette manière, toute personne qui parle votre langue peut utiliser Scratch A
 
 **Si vous souhaitez aider, veuillez suivre ces étapes :**
 
-- Allez sur [notre page Transifex](https://www.transifex.com/scratch-addons/scratch-addons-extension/), et cliquez sur le bouton bleu "Aidez à traduire Scratch Addons".
+- Go to [our Transifex page](https://app.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
 - Utilisez le même nom d'utilisateur que votre compte Scratch. Entrez votre e-mail, un nouveau mot de passe puis inscrivez-vous.
 - Entrez votre nom d'utilisateur comme nom et prénom - **n'utilisez pas votre vrai nom**.
 _Remarque : choisissez n'importe quelle option pour "service" et "intitulé du poste", nous recommandons "traduction" et "contributeur individuel"_

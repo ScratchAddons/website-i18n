@@ -21,7 +21,7 @@ Bu sayede sizin dilinizi konuşan herkes, İngilizce bilmek zorunda kalmadan Scr
 
 **Yardım etmekle ilgileniyorsanız, lütfen şu adımları izleyin:**
 
-- [Transifex sayfamıza](https://www.transifex.com/scratch-addons/scratch-addons-extension/) gidin ve mavi renkli "Scratch Eklentileri'ni Çevirmeye Yardımcı Ol" düğmesine tıklayın.
+- Go to [our Transifex page](https://app.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
 - Scratch hesabınızla aynı kullanıcı adını kullanın. E-posta adresinizi girin ve hatırlayabileceğiniz bir şifre bulup giriş yapın. Ardından Kaydolun.
 - Kullanıcı adınızı, adınız ve soyadınız olarak girin - **gerçek adınızı kullanmayın**.
 _Not: "departman" ve "iş unvanı" için herhangi bir seçeneği seçin, "yerelleştirme" ya da "bireysel katkıcı" seçeneklerinden birini seçmenizi öneririz_
