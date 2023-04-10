@@ -8,7 +8,7 @@
 This repository hosts the translation/localization files of the Scratch Addons website. Most of the process of updating it is autonomous.
 
 Want to help localize the website? Go to the Transifex project  linked below and create a request to join!  
-https://www.transifex.com/scratch-addons/scratch-addons-website
+https://app.transifex.com/scratch-addons/scratch-addons-website
 
 For more information, [read here](https://scratchaddons.com/docs/localization/joining-the-localization-team/).
 
