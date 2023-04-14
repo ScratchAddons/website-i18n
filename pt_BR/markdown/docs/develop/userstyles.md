@@ -15,8 +15,8 @@ Cada item da array deve ter as seguintes propriedades: `"url"` e `"matches"`.
 Exemplo de manifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "name": "Mensagens do Scratch",
+  "description": "Acesse as suas mensagens do Scratch para as ler e responder com facilidade.",
   "userstyles": [
     {
       "url": "userstyle.css",
