@@ -13,7 +13,11 @@ Em `addons-l10n/en/`, crie um arquivo chamado `ADDONID.json`, mas substitua ADDO
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
   "ADDONID/eat": "I want to eat {food}!",
   "ADDONID/salmon": "salmon",
-  "ADDONID/sardine": "sardine"
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ Algumas mensagens precisam de partes geradas dinamicamente. Por exemplo, se voc�
 
 ### Plurais
 E se o placeholder for um número? Podemos usar plurais assim `{nomeDoPlaceholder, plural, one {aqui só tem uma coisa} other {aqui tem # coisas}}`. Se o placeholder for 1, a mensagem mostrada será "aqui só tem uma coisa", senão será "aqui tem (placeholder) coisas".
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## Usando as traduções
 Mude a primeira linha do seu userscript de:

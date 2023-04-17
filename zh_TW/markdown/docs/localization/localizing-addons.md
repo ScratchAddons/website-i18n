@@ -7,13 +7,17 @@ description: 翻譯插件很簡單。
 ## 增加訊息
 在 `addons-l10n/en/` 下，創建一個名為 `ADDONID.json` 的文件，其中 ADDONID 是插件的 ID（文件夾名稱）。在那裡寫下你想翻譯的信息：
 
-```函式積木
+```json
 {
   "ADDONID/meow": "Meow",
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
   "ADDONID/eat": "I want to eat {food}!",
   "ADDONID/salmon": "salmon",
-  "ADDONID/sardine": "sardine"
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ description: 翻譯插件很簡單。
 
 ### 複數
 如果占位符是數字怎麼辦？ 我們可以使用複數形式，例如`{placeholderName,plural, one {when there is one thing} other {when there are # things}}`。 如果占位符為1，則顯示“當有一件事時”，否則顯示“當有（佔位符）事物時”。
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## 使用翻譯
 從以下內容更改用戶腳本的第一行：

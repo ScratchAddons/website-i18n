@@ -5,26 +5,34 @@ description: Addons zu übersetzen ist einfach.
 Addons zu übersetzen ist einfach.
 
 ## Nachrichten hinzufügen
-Under `addons-l10n/en/`, make a file named `ADDONID.json`, where ADDONID is the addon's ID (the folder name). Write your messages that you want to translate there:
+Erstelle eine Datei namens `ADDONID.json`, wobei ADDONID die ID des Addons ist (der Ordnername), unter `addons-l10n/en`. Schreibe die Nachrichten, die du übersetzen willst, hier:
 
 ```json
 {
-  "ADDONID/miau": "Miau",
-  "ADDONID/Katzen": "{Nummer, plural, eine {1 Katze} viele {# Katzen}}",
-  "ADDONID/essen": "Ich will {Nahrung} essen!",
-  "ADDONID/Lachs": "Lachs",
-  "ADDONID/Sardine": "Sardine"
+  "ADDONID/meow": "Meow",
+  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
 ### Platzhalter
-Sometimes messages need to have things that are dynamically generated. For example, number of cats, or input. To handle this, you can use placeholders like `{placeholderName}`. Placeholder name should only contain letters (no numbers).
+Manchmal müssen Nachrichten dynamisch generierte Teile haben, z.B. Anzahl Katzen, oder Benutzereingabe. Um das zu machen, kannst du Platzhalter wie `{platzhalterName}` nutzen. Der Platzhaltername sollte nur Buchstaben enthalten (keine Zahlen).
 
 ### Mehrzahl
-What if the placeholder is a number? We can use plurals like `{placeholderName, plural, one {when there is one thing} other {when there are # things}}`. If the placeholder is 1, it will show "when there is one thing", otherwise it says "when there are (placeholder) things".
+Was, wenn der Platzhalter eine Zahl ist? Wir können Mehrzahlen, wie `{platzhalterName, plural, one {wenn es eine Sache gibt} other {wenn es # Sachen gibt}}`. Wenn der Platzhalter 1 ist, wird "wenn es eine Sache gibt" angezeigt, sonst wird "wenn es (Platzhalter) Sachen gibt" angezeigt.
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## Die Übersetzungen verwenden
-Change your userscript's first line from something like:
+Ändere die erste Zeile deines Userscripts von etwas wie:
 ```
 export default async function ({ addon, console }) {
 ```
@@ -34,20 +42,20 @@ zu:
 export default async function ({ addon, console, msg }) {
 ```
 
-The `msg` added is the function you use to get translations. For example, `text = "Meow"` can now be `text = msg("meow")`. The addon ID and the slash is omitted.
+Das hinzugefügte `msg` ist die Funktion, die du nutzt, um Übersetzungen zu bekommen. Zum Beispiel, `text = "Miau"` kann jetzt `text = msg("meow")` sein. Die Addon-ID und der Slash wird nicht genutzt.
 
 ### Platzhalter
 Du kannst Platzhalterwerte vergeben:
 ```js
-cat = msg("cats", {number: 1}) // shows "1 cat"
-cats = msg("cats", {number: 3}) // shows "3 cats"
-hungry = msg("eat", {food: "cod"}) // shows "I want to eat cod!"
+cat = msg("cats", {number: 1}) // zeigt "1 cat"
+cats = msg("cats", {number: 3}) // zeigt "3 cats"
+hungry = msg("eat", {food: "cod"}) // zeigt "I want to eat cod!"
 ```
 
-You can also "nest" messages:
+Du kannst Nachrichten auch "verschachteln":
 ```js
-hungry2 = msg("eat", {food: msg("salmon")}) // shows "I want to eat salmon!"
+hungry2 = msg("eat", {food: msg("salmon")}) // zeigt "I want to eat salmon!"
 ```
 
 ### Sicherheit
-If you are writing raw HTML, `msg` should be replaced with safer version of `safeMsg`.
+Wenn du HTML schreibst,sollte `msg` mit dem sichererem `safeMsg` ersetzt werden.

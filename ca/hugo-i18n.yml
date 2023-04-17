@@ -41,6 +41,8 @@ Footer:
     Repository: Repositori
     Documentation: Documentació
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Col·laboradors de Scratch Addons"
+    NoAffiliation: Scratch Addons no està afiliat, associat ni connectat de cap manera oficial amb el lloc web de Scratch o les organitzacions que el mantenen.
     License: Scratch Addons té llicència sota els termes de la GNU General Public License v3.0.
   Intro: Actualment {{ .Version }} amb {{ .AddonCount }} addons.
 DarkTheme:
@@ -49,6 +51,8 @@ DarkTheme:
 Docs:
   DocsNav: Navegació de documents
   DocsNavToggleLabel: Commuta la barra lateral de navegació de documents
+  TOC: Continguts
+  TOCToggleLabel: Canvia el desplegable de la taula de continguts
   LastUpdated: Darrera actualització el {{.Date}} per {{.Name}} en commit {{.Commit}}.
   Improve: Millora aquesta pàgina.
   SectionPages: Pàgines de la secció

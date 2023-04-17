@@ -9,11 +9,15 @@ Nella cartella `addons-l10n/en/`, crea un file chiamato `ADDONID.json`, dove ADD
 
 ```json
 {
-  "ADDONID/meow": "Miao",
-  "ADDONID/cats": "{number, plural, one {1 gatto} other {# gatti}}",
-  "ADDONID/eat": "Voglio mangiare {cibo}!",
-  "ADDONID/salmon": "salmone",
-  "ADDONID/sardine": "sardina"
+  "ADDONID/meow": "Meow",
+  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ Alcuni messaggi hanno delle parti che sono generate dinamicamente. Ad esempio, i
 
 ### Plurali
 E se il segnaposto è un numero? Possiamo definire i plurali come in `{nomeSegnaposto, plural, one {quando c'è una cosa} other {quando ci sono # cose}}`. Se il segnaposto vale 1, mostrerà "quando c'è una cosa", altrimenti dirà "quando ci sono (segnaposto) cose".
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## Usare le traduzioni
 Cambia la prima linea del tuo userscript da:

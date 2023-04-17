@@ -9,11 +9,15 @@ En dessous `addons-l10n/en/`, créer un ficher nommé `ADDONID.json`,  ADDONID e
 
 ```json
 {
-"ADDONID/meow": "Meow",
-"ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
-"ADDONID/eat": "Je veux manger de la {nourriture}!",
-"ADDONID/salmon": "salmon",
-"ADDONID/sardine": "sardine"
+  "ADDONID/meow": "Meow",
+  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ Parfois, les messages doivent contenir des éléments générés dynamiquement. 
 
 ### Pluriels
 Et si l'espace réservé est un nombre ? Nous pouvons utiliser des pluriels comme `{placeholderName, plural, one {quand il y a une chose} other {quand il y a # choses}}`. Si l'espace réservé est 1, il s'affichera "quand il y a une chose", sinon il dira "quand il y a des choses (de l'espace réservé)". 
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## Utiliser les traductions
 Changez la première ligne de votre script utilisateur à partir de quelque chose comme :

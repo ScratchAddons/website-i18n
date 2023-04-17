@@ -13,81 +13,81 @@ Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website
 
 ### Wer hat Scratch Addons gemacht?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons ist ein Teamproject, das von World_Languages geleitet wird. Du kannst die Liste von Menschen, die zu uns beigetragen haben auf [der Dankaussagungensseite](/credits). Obwohl die "Scratch-Nachrichten" und "Entwicklertools" zuerst von griffpatch erstellt wurden, erhält er die Erweiterung nicht.
 
-### What does Scratch Addons include?
+### Was enthält Scratch Addons?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons enthält über 100 Addons, die individuell ein- oder ausgeschaltet werden können. Manche Addons können auch weiter konfiguriert werden, und manche haben Voreinstellungen, wie ein Dunkelmodus für das Websiteaussehen. Scratch Addons hat auch ein Popup, das benutzt werden kann, um schnell zu seinen Nachrichten zu kommen, um Cloudspiele zu spielen und um die Einstellungen aufzurufen. Scratch Addons ist in verschiedene Sprachen übersetzt, z.B. deutsch, französisch, spanisch und japanisch.
 
-### Is this the same as TurboWarp Addons?
+### Ist das das gleiche wie Turbowarp-Addons?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[Turbowarp](https://turbowarp.org/) hat manche Addons von Scratch Addons, die im Editor genutzt werden können, ohne Scratch Addons zu installieren. Scratch Addons enthält aber auch Addons für die Scratch-Website und das Popup. Also ist es trotzdem nützlich, Scratch Addons zu haben, auch wenn du nur mit Turbowarp programmierst.
 
 ## Systemanforderungen
 
-### What are the system requirements for Scratch Addons?
+### Was sind die Systemanforderungen für Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons ist offiziell auf den Desktopversionen von [Google Chrome](https://google.com/chrome/) (mind. Version 80), [Microsoft Edge](https://www.microsoft.com/de-de/edge/) (mind. Version 80) und [Mozilla Firefox](https://mozilla.org/firefox) (mind. Version 86), und sollte auch auf anderen Desktopbrowsern funktionieren, die auf diesen Browsern basieren. Siehe [diese Seite](../getting-started/installing/) für vollständige Informationen.
 
-### Can I use Scratch Addons on a mobile device?
+### Kann ich Scratch Addons auf einem Mobilgerät nutzen?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Für Androidnutzer: Ja, aber es ist nicht empfohlen. Die größten Browser erlauben es nicht, Scratch Addons (oder andere Erweiterungen) zu installieren, also musst du Browser wie [Kiwi](https://kiwibrowser.com/) nutzen, um das zu tun. Die Benutzeroberfläche von Scratch Addons ist nicht gut auf Touchscreens oder kleinen Bildschirmgrößen getestet, also könnten manche Funktionen nicht wie erwartet funktionieren.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+Für iOS und iPadOS nutzer: Leider nicht. Die App-Store-Regelungen erlauben es nicht, Browserimplementierungen hochzuladen, also sind alle Browser auf dieser Platform eigentlich nur Safari. Das macht ein paar Probleme (siehe unten).
 
-### Can I use Scratch Addons on Safari?
+### Kann ich Scratch Addons auf Safari nutzen?
 
-Currently, you cannot.
+Momentan nicht.
 
-First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
+Zuerst müssen Entwickler für Safarierweiterungen eine jährliche Gebühr zahlen, um Erweiterungen hochzuladen. Da das Scratch Addons-Team keine Art hat, Geld zu bekommen, macht es das sehr schwierig, die Erweiterung zu erhalten. Es gibt auch ein technisches Problem mit der Implementierung von Browsererwriterungen in Safari, was manche wichtige Funktionen unnutzbar macht.
 
-### Can I use Scratch Addons on the offline editor?
+### Kann ich Scratch Addons im Offlineeditor nutzen?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Addon kann auf offiziellen Scratchprogrammen nicht genutzt werden, inklusive dem Offlineeditor.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Als Alternative sind die meisten Editoraddons auf [Turbowarp](https://turbowarp.org/) mit [downloadbarer App](https://desktop.turbowarp.org/) für Windows, macOS und Linux, verfügbar. Bei Browsern, die Progessive Web Applications (PWA) haben, kannst du den TurboWarp-Editor auch als PWA installieren und ohne Internetverbindung nutzen.
 
-### Are there any incompatible programs?
+### Gibt es inkompatible Programme?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Manche Browsererweiterungen oder Userscripts könnten mit Scratch Addons Probleme bereiten. Wenn du Probleme hast, solltest du versuchen, diese auszuschalten:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
+- Scratch 3 Developer Tools: Diese Browsererweiterungen ist eine Kopie von dem Entwicklertoolsaddon. Du solltest die Developer Tools-Browsererweiterung ausschalten und stattdessen das Addon anschalten.
+- Better3.0: Diese Browsererweiterung kann mit manchen Addons Probleme bereiten. Glücklicherweise sind die meisten der Features auch als Addons erhalten.
 
-## Security and privacy
+## Sicherheit und Privatsphäre
 
 ### Ist Scratch Addons sicher?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+Ja. Scratch Addons sollte keine Sicherheitsprobleme in den neueren Versionen haben. Scratch Addons ist ein Open-Source-Projekt, also wird der Code von Scratch Addons-Mitwirkenden überprüft. Außerdem überprüft der Chrome Web Store, Addons für Firefox und Microsoft Edge Add-ons jede neue Version von Scratch Addons, bevor sie es zu deren Store hinzufügen.
 
 ### Wie kann ich eine Sicherheitsschwäche melden?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Wenn du ein Sicherheitsproblem findest, kontaktiere bitte World_Languages privat durch `worldxlanguages (at) gmail.com`. Wenn du keine Antwort innerhalb 48 Stunden erhälst, bitte [erstelle ein Issue](https://github.com/ScratchAddons/ScratchAddons/issues/), in der du sagst, dass du eine E-Mail gesendet hast.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Du kannst entweder [unsere Sicherheitsregeln lesen](https://github.com/ScratchAddons/ScratchAddons/security/policy) oder [unsere publizierten Sicherheitsratschläge ansehen](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)..
 
 ### Ist mein Konto sicher, wenn ich Scratch Addons verwende?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Ja. Funktionen, die dein Scratchkonto betreffen, wurden von Scratch Addons-Mitwirkenden stark überprüft um sicherzustellen, dass sie deinem Konto nicht schaden. Scratch Addons hält deine Anmeldedaten sicher, und stellt sicher, dass keine Projekte oder Dateien von dir ohne deine Erlaubnis verändert werden.. Du darfst aber die Erweiterung ohne kontobasierende Funktionen nutzen, wenn du das willst.
 
 Addons auf Scratch Addons wurden auch von mehreren Mitwirkenden im Repository geprüft, sodass niemand nur böswilligen Code unter unsere Augen schieben kann.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Wir werden nie private oder persönliche Daten aus deinem Browser heraus senden. Siehe [die Datenschutzbestimmungen der Erweiterung](/docs/privacy/policies/extension) für mehr Informationen.
 
-## Using Scratch Addons
+## Scratch Addons benutzen
 
-### How do I enable addons?
+### Wie schalte ich Addons ein?
 
-To enable addons, first go to the settings by:
+Um Addons einzuschalten, gehe zuerst in die Einstellungen durch:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- Öffnen von dem Pop-Up und Drücken auf das Zahnrad oben rechts 
+- Navigieren auf https://scratch.mit.edu/scratch-addons-extension/settings. Du musst die Erweiterung installiert haben, damit dieser Link funktioniert.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+Dann, finde Addons, die du einschalten möchtest, durch die Suchbox oder die Seitenleiste. Um ein Addon einzuschalten, klicke auf den Schalter an der rechten Seite von der Addon-Box.
 
 ### Kann ich anderen Leuten auf Scratch über Scratch Addons erzählen?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+Du kannst das nicht, und bitte mache es nicht. Es gibt eine Regelung [hier](https://scratch.mit.edu/discuss/post/2907564/), die das Nennen von Browsererweiterungen und Userscripts verbietet, und Verletzungen dieser Regel haben dazu geführt, dass das Scratch Team Posts entfernt oder Konten stummschaltet. Du hast aber andere Möglichkeiten, um deine Freunde über Scratch Addons zu informieren.
 
 ### Ich denke, dass Scratch Addons Scratch verlangsamt. Was kann ich tun?
 

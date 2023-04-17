@@ -9,11 +9,15 @@ W pliku `addons-l10n/en/`, stwórz nowy plik `IDDODATKU.json`, gdzie IDDODATKU t
 
 ```json
 {
-"IDDODATKU/meow": "Meow",
-"IDDODATKU/cats": "{number, plural, one {1 cat} other {# cats}}",
-"IDDODATKU/eat": "I want to eat {food}!",
-"IDDODATKU/salmon": "salmon",
-"IDDODATKU/sardine": "sardine"
+  "ADDONID/meow": "Meow",
+  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ Czasami wiadomości muszą zawierać zawartość automatycznie generowaną. Na p
 
 ### Liczba mnoga
 Co jeśli symbolem zastępczym jest liczba? Możemy użyć liczby mnogiej, takiej jak `{nazwa zastępcza, liczba mnoga, liczba pojedyncza {gdy jest jedna rzecz}, inna {gdy jest # rzeczy}}`. Jeśli symbol zastępczy ma wartość 1, pokaże się „Gdy jest jedna rzecz.”, w przeciwnym razie zostanie napisane „Gdy jest (symbol zastępczy) rzeczy”.
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## Używanie tłumaczeń
 Zmień pierwszą linię swojego kodu z czegoś takiego:

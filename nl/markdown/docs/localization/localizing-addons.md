@@ -9,11 +9,15 @@ Maak onder `addons-l10n/en/` een bestand genaamd `ADDONID.json`, waar ADDONID he
 
 ```json
 {
-  "ADDONID/meow": "Miauw",
-  "ADDONID/cats": "{getal, plural, one {1 kat} other {# katten}}",
-  "ADDONID/eat": "Ik wil {food} eten!",
-  "ADDONID/salmon": "zalm",
-  "ADDONID/sardine": "sardien"
+  "ADDONID/meow": "Meow",
+  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
+  "ADDONID/eat": "I want to eat {food}!",
+  "ADDONID/salmon": "salmon",
+  "ADDONID/sardine": "sardine",
+  "ADDONID/move-steps": {
+    "string": "move {number} steps",
+    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+  }
 }
 ```
 
@@ -22,6 +26,10 @@ Soms hebben berichten dingen nodig die dynamisch gegenereerd zijn. Bijvoorbeeld,
 
 ### Meervouden
 Wat als de plaatsvervanger een getal is? We kunnen meervouden gebruiken zoals `{placeholderName, plural, one {als er één ding is} other {als er # dingen zijn}}`. Als de plaatsvervanger 1 is, zal het "als er één ding is" staan, anders zegt het "wanneer er (plaatsvervanger) dingen zijn".
+
+### Developer comments
+
+Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
 ## De vertalingen gebruiken
 Verander de eerste regel van je userscript van iets zoals:
