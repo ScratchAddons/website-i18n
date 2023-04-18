@@ -9,14 +9,14 @@ Eklentileri yerelleştirmek kolaydır.
 
 ```json
 {
-  "ADDONID/meow": "Meow",
+  "ADDONID/meow": "Miyav",
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
-  "ADDONID/eat": "I want to eat {food}!",
-  "ADDONID/salmon": "salmon",
-  "ADDONID/sardine": "sardine",
+  "ADDONID/eat": "Ben {yiyecek} yemek istiyorum!",
+  "ADDONID/salmon": "somon",
+  "ADDONID/sardine": "sardalya",
   "ADDONID/move-steps": {
-    "string": "move {number} steps",
-    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+    "string": "{sayi} adım git",
+    "developer_comment": "Lütfen bunu Scratch'in resmî blok çevirisiyle eşleşecek şekilde çevirin."
   }
 }
 ```
@@ -27,9 +27,9 @@ Bazen mesajların dinamik olarak oluşturulmuş şeylere sahip olması gerekir. 
 ### Çoğul
 Ya yer tutucu bir sayıysa? `{placeholderName, plural, one {When There is onething} other {When There # Things}}` gibi çoğullar kullanabiliriz. Yer tutucu 1 ise, "bir şey olduğunda" gösterilir, aksi takdirde "(yer tutucu) şeyler olduğunda" yazar.
 
-### Developer comments
+### Geliştirici yorumları
 
-Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
+Transifex, bir tercüman belirli bir diziyi seçtiğinde geliştirici yorumu görüntüler. Bu yorumlar genellikle dizenin sadece belirli bir yerinin çevrilmesini istemek veya büyük ve küçük harfler arasında ayrım yapmayan diller için ek bilgi sağlamak için kullanılır.
 
 ## Çevirileri kullanma
 Userscript'in ilk satırını aşağıdaki gibi değiştirin:
