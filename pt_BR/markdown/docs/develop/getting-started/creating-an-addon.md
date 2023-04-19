@@ -4,6 +4,15 @@ title: Criando um Addon
 Software necessário: editor de texto, Chrome.  
 Se possível, desabilite a extensão Scratch Addons que você baixou da loja antes de continuar para evitar problemas.
 
+
+{{< admonition info >}}
+If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first. 
+
+In case there is no existing GitHub issue in that repository related to your new addon idea, please [create one](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+
+However, if you are creating an addon for personal use, you may proceed with this guide.
+{{< /admonition >}}
+
 ## Passo 1: Leia sobre [os básicos de um addon](/docs/develop/getting-started/addon-basics/)
 Leia aquele artigo para se familiarizar com a terminologia.
 
