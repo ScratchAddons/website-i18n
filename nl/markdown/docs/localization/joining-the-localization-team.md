@@ -21,7 +21,7 @@ Op deze manier kan iedereen die je taal spreekt van Scratch Addons gebruikmaken 
 
 **Als je interesse hebt om te helpen, volg dan graag deze stappen:**
 
-- Go to [our Transifex page](https://app.transifex.com/scratch-addons/scratch-addons-extension/), and click on the blue "Help Translate Scratch Addons" button.
+- Ga naar [onze Transifex-pagina](https://app.transifex.com/scratch-addons/scratch-addons-extension/), en klik op de blauwe "Help met Vertalen van Scratch Addons"-knop.
 - Gebruik dezelfde gebruikersnaam als je Scratchaccount. Vul je e-mail en een nieuw wachtwoord in, en dan Registreren.
 - Vul je gebruikersnaam in als je voor- en achternaam - **gebruik niet je echte naam**.
 _Opmerking: het maakt niet uit wat je kiest voor "afdeling" en "functietitel", maar we raden "lokalisatie" en "individuele bijdrager" aan_

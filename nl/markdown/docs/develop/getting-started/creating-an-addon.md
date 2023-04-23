@@ -6,11 +6,11 @@ Wanneer mogelijk, schakel de Scratch Addons-extensie die je hebt gedownload van 
 
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first. 
+Als je van plan bent om de addon waar je aan werkt als pull-verzoek in te dienen aan ons GitHub-archief, lees dan eerst onze [bijdragingsrichtlijnen](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md).
 
-In case there is no existing GitHub issue in that repository related to your new addon idea, please [create one](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+Als er nog geen GitHub-issue bestaat in het archief dat te maken heeft met je nieuwe addon-idee, [maak er dan een](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Als er wel een bestaat, laat dan een reactie achter er vermeld dat je aan de addon wilt gaan werken. Hierdoor kunnen andere bijdragers feedback geven of de addon kan worden geaccepteerd, of als er nog verdere discussie voor nodig is.
 
-However, if you are creating an addon for personal use, you may proceed with this guide.
+Als je echter een addon maakt voor persoonlijk gebruik, mag je gebruik maken van deze pagina.
 {{< /admonition >}}
 
 ## Stap 1: Lees over [de addon-basis](/docs/develop/getting-started/addon-basics/)
