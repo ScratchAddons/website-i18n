@@ -6,11 +6,11 @@ Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğin
 
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first. 
+Geliştirmekte olduğunuz eklentiyi bir çekme isteği olarak GitHub depomuza göndermeyi planlıyorsanız, lütfen ilk önce [katkıda bulunma yönergelerimizi](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) okuyun.
 
-In case there is no existing GitHub issue in that repository related to your new addon idea, please [create one](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+Bu depoda yeni eklenti fikrinizle ilgili mevcut bir GitHub sorunu yoksa, lütfen [bir tane oluşturun](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Ancak, özellik fikrinizle ilgili zaten bir sorun varsa, eklentiyi geliştirme niyetinizi belirten bir yorum bırakmanızı öneririz. Bu, diğer katkıda bulunanların eklentinin kabul edilip edilemeyeceği veya daha fazla tartışma gerekip gerekmediği konusunda geri bildirimde bulunmalarını sağlayacaktır.
 
-However, if you are creating an addon for personal use, you may proceed with this guide.
+Ancak, kişisel kullanım için bir eklenti oluşturuyorsanız, bu kılavuzla ilerleyebilirsiniz.
 {{< /admonition >}}
 
 ## 1. Adım: [Eklenti ile ilgili temel bilgiler](/docs/develop/getting-started/addon-basics/) hakkında bilgi edinin
