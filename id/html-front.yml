@@ -1,5 +1,8 @@
 changelog.html:
   title: Daftar
   description: Semua perubahan penting pada proyek ini akan didokumentasikan di halaman ini.
+farewell.html:
+  title: Selamat tinggal!
+  description: Scratch Addons telah dihapus. Kami berterima kasih anda telah menggunakan ekstensi ini!
 feedback.html:
   title: Kirim Umpan Balik
