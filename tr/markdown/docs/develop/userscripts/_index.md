@@ -125,7 +125,7 @@ Her userscript dosyası, bir fonksiyonu dışa aktaran bir JavaScript modülüd�
 
 Userscript'ler özünde JavaScript modülleridir, dolayısıyla her zaman ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)da çalışırlar. Bu, ayrıca userscript'lerin diğer JavaScript dosyalarını içe aktarmak için [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) kullanabileceği anlamına gelir.
 
-Userscript'lerin çalışma sırası, her sayfa yüklemesinde değişebilir. Sayfa yüklendikten sonra, kullanıcı bazı eklentileri özel bir sırayla dinamik olarak etkinleştirebilir, bu nedenle yürütme sırası hiçbir zaman garanti edilemez. [`addon.tab.appendToSharedSpace`](addon.tab.appendtosharedspace) gibi bazı API'ler, eklentileri dinamik olarak etkinleştirirken olası yarış koşullarını ve beklenmeyen davranışları düzeltmeye çalışır.
+The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
 
 ### runAtComplete
 
