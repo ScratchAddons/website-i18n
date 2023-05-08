@@ -118,6 +118,24 @@ FeedbackPage:
   ContentPlaceholder: Merci de donner autant de détails que possible.
   SendEnabled: Envoyer la liste de mes addons activés (recommandé)
   SubmitButton: Envoyer
+  PreSendWarning:
+    Warning: "Attention:"
+    Override: Si vous êtes vraiment sûr d'envoyer ces commentaires, vous pouvez appuyer à nouveau sur le bouton "Envoyer".
+    Variations:
+      NotST:
+        Heading: Nous ne somme pas l'Équipe Scratch
+        Description: Gardez à l'esprit que Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Vous êtes toujours les bienvenus pour donner des idées pour améliorer votre expérience sur Scratch avec Scratch Addons.
+      Punishment:
+        Heading: Nous ne pouvons pas punir quelqu'un. Nous ne somme pas l'Équipe Scratch
+        Description: |-
+          Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Nous n'avons aucun contrôle sur le contenu et la modération du site Scratch.{{ .Tag1Start }}Il existe de nombreuses façons de signaler sur le site Web de Scratch.{{ .Tag1End }}
+           
+           
+      AF2023Comp:
+        Heading: Quelques addons sont désactivés à cause des mises à jour poisson d'avril.
+        Description: |-
+          Du à la mise à jour "poisson d'avril", les Blocs chats, le menu de catégories à deux colonnes, la palette de blocs à masquage automatique et les réglages de catégories de données ont été désactivés pour des raisons de stabilité. Une mise à jour a été publiée pour résoudre ce problème. Veuillez attendre que votre navigateur le mette à jour.{{ .Tag1Start }}En savoir plus sur cette discussion.{{ .Tag1End }}
+           
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
 ChangelogPage:

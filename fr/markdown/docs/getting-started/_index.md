@@ -2,4 +2,4 @@
 title: Commencer
 ---
 
-Get started with Scratch Addons with these pages.
+Commencez avec Scratch Addons avec ces pages.

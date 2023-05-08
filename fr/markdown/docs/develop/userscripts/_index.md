@@ -1,80 +1,83 @@
 ---
 title: Scripts utilisateurs
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Les scripts utilisateurs sont des fichiers JavaScript qui sont exécutés chaque fois que l’utilisateur charge une page Scratch. Ils peuvent modifier le HTML du document, ajouter de nouveaux boutons, personnaliser le comportement de l’éditeur Scratch, et bien plus encore.
+
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Les scripts utilisateurs sont des fichiers JavaScript qui sont exécutés chaque fois que l’utilisateur charge une page Scratch. Ils peuvent modifier le HTML du document, ajouter de nouveaux boutons, personnaliser le comportement de l’éditeur Scratch, et bien plus encore.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+De la même manière que les scripts utilisateur que vous pouvez télécharger pour les gestionnaires de scripts utilisateur tels que Tampermonkey ou Greasemonkey, les scripts utilisateur Scratch Addons sont constitués de morceaux de JavaScript qui sont exécutés dans le même contexte d'exécution que le code JavaScript de Scratch lui-même. Dans le vocabulaire des extensions de navigateur, ce contexte d'exécution est souvent appelé le "monde principal".
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Même si les scripts utilisateur Scratch Addons font partie d'une extension de navigateur, ils ne peuvent accéder à aucune API `chrome.*` ou `browser.*`. Au lieu de cela, Scratch Addons propose une [`addon.*` API](/docs/reference/addon-api/).
 
 
-## Declaring userscripts in the addon manifest
+## Déclarer des userscripts dans le manifeste addon
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Certaines modifications nécessitent un rechargement d'extension** à partir de `chrome://extensions` pour prendre effet, comme la mise à jour du fichier manifeste de l'addon.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Il n'est pas nécessaire de recharger l'extension lors de la modification de la source d'un fichier JavaScript userscript déjà existant. Dans ces cas, il suffit de recharger la page.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Les scripts utilisateur sont déclarés dans un tableau "userscripts".
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+Chaque élément du tableau doit avoir les propriétés suivantes :
+- `"url"`:Chaque élément du tableau doit avoir les propriétés suivantes :
+- `"matches"` : la liste des pages Scratch où le script utilisateur sera exécuté. Voir [matches](/docs/reference/addon-manifest/#matches) pour plus d'informations.
 
-Example manifest:
+Example :
 ```json
 {
-  "name": "Copy link to comment button",
-  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
-  "userscripts": [
-    {
-      "url": "userscript.js",
-      "matches": ["projects", "https://scratch.mit.edu/", "profiles", "studios"]
-    }
-  ],
-  "tags": ["community"],
-  "enabledByDefault": false
-}
-```
-
-## Creating your first userscript
-
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
-```js
-// Example userscript
-export default async function ({ addon, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
-  console.log("How are you today?");
-}
-```
-
-Remember that JavaScript allows functions to be declared inside other functions, for example:
-```js
-export default async function ({ addon, console }) {
-  async function sayHelloToUser() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
+  "name": "Copier le lien vers le bouton de commentaire",
+  "description": "Ajoute un bouton \"Copier le lien\" à tous les commentaires sur le site Web, à côté du bouton \"Signaler\".",
+  "scripts utilisateur": [
+  {
+    "url": "userscript.js",
+    "matches": ["projets", "https://scratch.mit.edu/", "profils", "studios"]
   }
+],
+"tags": ["communauté"],
+"enabledByDefault": faux
+}
+```
+ 
 
-  await sayHelloToUser();
-  console.log("How are you today?");
+## Création de votre premier userscript
+
+Contrairement aux scripts de contenu d’extension et aux scripts utilisateur Tampermonkey, vous devez envelopper tout votre code dans une exportation par défaut du module :
+```js
+// Exemple de script utilisateur
+exporter la fonction asynchrone par défaut ({ addon, console }) {
+  console.log("Bonjour" + wait addon.auth.fetchUsername());
+  console.log("Comment allez-vous aujourd’hui?");
+}
+```
+
+Rappelez-vous que JavaScript permet de déclarer des fonctions dans d’autres fonctions, par exemple :
+```js
+exporter la fonction asynchrone par défaut ({ addon, console }) {
+fonction asynchrone sayHelloToUser() {
+console.log("Bonjour, " + attendre addon.auth.fetchUsername());
+}
+
+attendre sayHelloToUser();
+console.log("Comment allez-vous aujourd'hui ?");
 }
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Vous pouvez accéder à de nombreux utilitaires d'API `addon.*` à partir de scripts utilisateur. Par exemple, vous pouvez obtenir le nom d'utilisateur actuel, attendre qu'un élément existe sur la page ou obtenir une référence à l'objet Scratch VM.
+ 
 
-For more information, check the [API reference](/docs/reference/addon-api/).
-{{< /admonition >}}
+Pour plus d'informations, consultez la [référence API](/docs/reference/addon-api/).
+ {{< /admonition >}}
 
 
-## Modifying the document HTML
+## Modification du document HTML
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Utilisez [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) pour personnaliser le HTML de la page.
 
-Here's an example:
+Voici un exemple:
 ```js
 const myButton = document.createElement("button");
 myButton.textContent = "Click me!";
@@ -85,50 +88,51 @@ const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Localisation des scripts utilisateur
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Les scripts utilisateur des modules complémentaires doivent parfois faire référence à des mots ou des phrases en anglais. Assurez-vous de ne pas les coder en dur, afin qu'ils puissent faire partie du processus de traduction.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// A ne pas faire:
 document.querySelector(".sa-find-bar").placeholder = "Find blocks";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Pour créer une chaîne traduisible, procédez comme suit :
+1. Créez un fichier nommé `addon-id.json` dans le dossier `/addon-l10n/en`.
+2. Fournir un ID pour chaque chaîne :
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Assurez-vous d’importer la fonction `msg()` dans votre userscript. La première ligne de votre userscript devrait ressembler à ceci :
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Utilisez la fonction `msg()` dans votre code, au lieu d'une chaîne codée en dur :
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
+ 
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Pour plus d'informations sur la localisation des scripts utilisateur, consultez [cette page](/docs/localization/localizing-addons/).
 {{</admonition >}}
 
 
-## Technical details
+## Détails techniques
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Chaque fichier userscript est un module JavaScript qui exporte une fonction. Scratch Addons n'importe le module que si nécessaire et l'exécute après le chargement complet de la page.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Les userscripts sont des modules JavaScript, donc ils fonctionnent toujours en ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Cela signifie également que les userscripts peuvent utiliser [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) pour importer d’autres fichiers JavaScript.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+L'ordre dans lequel les scripts utilisateur s'exécutent peut varier à chaque chargement de page. Après le chargement de la page, l'utilisateur peut activer dynamiquement certains addons dans un ordre personnalisé, de sorte que l'ordre d'exécution n'est jamais garanti. Certaines API comme [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) tentent de corriger les conditions de concurrence potentielles et les comportements inattendus lors de l'activation dynamique des addons.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Les scripts utilisateur peuvent choisir d'être exécutés avant le chargement complet de la page en spécifiant `"runAtComplete": false` dans le manifeste de l'addon, une fois pour chaque script utilisateur.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+À partir de maintenant, seul `document.head` est garanti d'exister lors de l'exécution précoce d'un script utilisateur. À l'avenir, l'existence de `document.body` sera également garantie, de sorte qu'aucun script utilisateur ne sera jamais exécuté avant que le document HTML ne soit suffisamment chargé pour atteindre `</head><body>`.

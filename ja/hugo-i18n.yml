@@ -139,6 +139,8 @@ FeedbackPage:
       Punishment:
         Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
         Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}
+      AF2023Comp:
+        Heading: 一部のアドオンはエイプリルフールのため無効化されています。
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
 ChangelogPage:
