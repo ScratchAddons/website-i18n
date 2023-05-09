@@ -57,7 +57,7 @@ Gitをインストールしていない場合は、この方法が利用でき�
 
 2. `開発者モード` をトグルし、開発者モードを有効にします。有効にすると、フォルダーやファイルから拡張機能をインストールできるようになります。
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+   ![拡張機能管理ページのトップバーのスクリーンショット](/assets/img/docs/developer-mode-toggle.png)
 
 3. `Load unpacked` ボタンが表示されるので、クリックしてフォルダーを選択してください。
 
