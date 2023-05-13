@@ -58,6 +58,7 @@ Docs:
   DocsNav: Nawigacja po dokumentacji
   DocsNavToggleLabel: Przełącz pasek boczny dokumentacji
   TOC: Spis treści
+  TOCToggleLabel: Przełącz pasek boczny spisu treści
   LastUpdated: Ostatni raz aktulizowane {{.Date}}przez {{.Name}}w zmianie {{.Commit}}.
   Improve: Ulepsz tą stronę.
   SectionPages: Sekcje Strony
@@ -128,6 +129,12 @@ FeedbackPage:
   ContentPlaceholder: Proszę podaj nam najwięcej informacji jak możesz.
   SendEnabled: "Wyślij listę moich aktualnie włączonych dodatków (zalecane) "
   SubmitButton: Wyślij
+  PreSendWarning:
+    Warning: "Uwaga:"
+    Override: Jeśli napewno jesteś gotowy wysłać opinię, ponownie wciśnij przycisk "Wyślij"
+    Variations:
+      AF2023Comp:
+        Heading: Niektóre dodatki są wyłączone z powodu zmian na Prima Aprilis.
 SMTPage:
   ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
 ChangelogPage:
