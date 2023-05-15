@@ -53,6 +53,17 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "auto-follow-topics",
+		"name": "Diskussionen nach Posten folgen",
+		"description": "Folgt automatisch Forenthemen, nachdem du einen Post darauf abschickst.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "better-emojis",
 		"name": "Bessere Emojis",
 		"description": "Ersetzt die Emojis in den Kommentaren mit verbesserten Vektordesigns.",
@@ -314,8 +325,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Eingabefelder für Farbwähler",
-		"description": "Ermöglicht das Eingeben von Werten (0-100) für die Schieberegler im Farbwähler des Kostümeditors.",
+		"name": "Eingabefelder für Zahlen im Farbwähler",
+		"description": "Ermöglicht das Eingeben von genauen Werten (0-100) für die Schieberegler im Farbwähler des Kostümeditors.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -764,8 +775,8 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["compact-nav"],
+			"version": "1.32.0",
+			"newSettings": ["stick"],
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
@@ -792,8 +803,8 @@
 	},
 	{
 		"id": "editor-buttons-reverse-order",
-		"name": "Verkehrte Anordnung von Playersteuerelementen",
-		"description": "Verschiebt die grüne Flagge und den Stopp-Knopf auf die rechte und den Vollbild-Knopf auf die linke Seite, wie in Scratch 2.0.",
+		"name": "Verkehrte Anordnung von Player-Steuerelementen",
+		"description": "Verschiebt die grüne Flagge und den Stoppknopf auf die rechte und den Vollbildknopf auf die linke Seite, wie in Scratch 2.0.",
 		"tags": ["editor", "projectPlayer", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -863,6 +874,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["popup"],
+			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -880,7 +896,7 @@
 		"id": "editor-extra-keys",
 		"name": "Zusätzliche Tastenoptionen",
 		"description": "Fügt mehr Tasten zum \"Taste () gedrückt?\" und \"Wenn Taste () gedrückt\" Block-Dropdown hinzu, wie Enter, Punkt, Komma und mehr. Diese Tasten werden auch für Nutzer ohne das Addon funktionieren.",
-		"tags": ["editor", "codeEditor", "beta"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
@@ -911,8 +927,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Durchsuchbare Dropdown-Menüs",
-		"description": "Ermöglicht es dir, Block-Dropdowns zu durchsuchen.",
+		"name": "Dropdown-Menü-Suche",
+		"description": "Ermögiicht das Filtern von Optionen in Block-Dropdowns.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1048,6 +1064,17 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "faster-project-loading",
+		"name": "Projekte schneller laden",
+		"description": "Behebt einen Fehler, der das Laden von Projekten verlangsamt, wenn der Editor von einem Link aus geöffnet wird.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -1335,7 +1362,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "Automatisches Ausblenden für Blockpalette",
-		"description": "Blendet die Blockpalette automatisch aus, wenn sich die Maus nicht darüber befindet. Klicke auf das Schlossymbol, um es temporär zu fixieren. Alternativ kannst du den \"Kategorien klicken\"-Modus verwenden.",
+		"description": "Blendet die Blockpalette aus, wenn sich die Maus nicht darüber befindet. Klicke auf das Schloss-Symbol in der Palette, um sie vorübergehend anzuheften, oder benutze den Modus \"Klick auf Kategorien\", um sie beim Klicken auf eine Blockkategorie ein-/auszublenden.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1365,7 +1392,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Neue Variablen verstecken",
-		"description": "Keine Anzeigen für neu erstellte Variablen oder Listen automatisch erstellen.",
+		"description": "Verhindert das automatische Anzeigen von Werten auf der Bühne für neu erstellte Variablen und Listen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1661,7 +1688,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Mauszeigerposition",
+		"name": "Mauspositions-Anzeige",
 		"description": "Zeigt die x/y-Position des Mauszeigers über der Bühne im Editor an.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1684,6 +1711,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
+	},
+	{
+		"id": "move-to-top-layer",
+		"name": "Figur an vorderste Ebene bewegen",
+		"description": "Klicke mit gedrückter Umschalt-Taste auf eine Figur in der Figurenliste, um sie an die vorderste (oberste) Ebene der Bühne zu bewegen.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
+			{
+				"name": "s_federici",
+				"link": "https://scratch.mit.edu/users/s_federici/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1754,6 +1797,23 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "necropost-highlighter",
+		"name": "Necropost-Markierung",
+		"description": "Markiert Themen, die viel früher als andere Themen auf derselben Forumseite gestartet wurden, damit du keine Zeit damit verlierst, Zombie-Nachrichten durchzulesen, um Fragen durchzulesen, die vor langer Zeit gestellt wurden.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
+		"info": [
+			{
+				"type": "notice",
+				"id": "whatGetsHighlighted",
+				"text": "Manchmal ist eine alte Diskussion aus einem guten Grund aktiv gehalten, wie bei einem fortlaufenden Gespräch. Alle älteren Themen in ausgewählten Foren werden markiert, was auch Themen betreffen könnte, die keine Necroposts sind. (Deshalb werden sie markiert und nicht entfernt.)"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "no-script-bumping",
 		"name": "Überlappende Skripte nicht automatisch verschieben",
 		"description": "Erlaubt es Skripten, herumbewegt und bearbeitet zu werden, ohne dabei das Fortbewegen von überlappenden Skripten zu verursachen.",
@@ -1767,12 +1827,12 @@
 	{
 		"id": "number-pad",
 		"name": "Zifferntastatur immer anzeigen",
-		"description": "Zeigt Scratchs Zahleneingabepad, das bei der Eingabe in Zahlenfeldern auf Touchscreen-Geräten geöffnet wird, auf allen Geräten an.",
+		"description": "Zeigt Scratchs virtuelles Zahlenpad, das bei der Eingabe in Zahlenfeldern auf Touchscreen-Geräten geöffnet wird, auf allen Geräten an.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Die Zifferntastatur wird beim Bearbeiten von Zahlenfeldern auf bestimmten Blöcken wie \"setze x auf\" angezeigt.",
+				"text": "Die Zifferntastatur wird beim Bearbeiten von Zahlenfeldern auf bestimmten Blöcken wie \"gehe ()er Schritt\" angezeigt.",
 				"id": "explanation"
 			}
 		],
@@ -1870,8 +1930,8 @@
 	},
 	{
 		"id": "pause",
-		"name": "Pausetaste",
-		"description": "Fügt eine Pausetaste neben der grünen Flagge hinzu.",
+		"name": "Pause-Button",
+		"description": "Fügt eine Schaltfläche neben der grünen Flagge hinzu, mit der Projekte pausiert werden können.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1881,8 +1941,8 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Farben von der Bühne im Kostümeditor auswählen",
-		"description": "Ermöglicht es dem Pipettenwerkzeug des Kostümeditors, auch Farben von der Bühne zu wählen.",
+		"name": "Farben mit Pipette von Bühne wählen",
+		"description": "Ermöglicht es der Pipette im Kostümeditor, Farben von der Bühne auszuwählen.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1949,6 +2009,20 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remember-collapsed-categories",
+		"name": "Zugeklappte Forenkategorien merken",
+		"description": "Von dir auf der Foren-Startseite zugeklappte Kategorien (die Liste mit den Foren) werden beim nächsten Besuch der Seite zugeklappt bleiben.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "remix-button",
@@ -2179,7 +2253,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Profil suchen",
+		"name": "Benutzernamen-Suche",
 		"description": "Ermöglicht es dir, direkt zum Profil eines Benutzers zu gehen, wenn du nach dessen Benutzernamen suchst.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2194,7 +2268,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Figuren nach Namen suchen",
+		"name": "Figuren-Suche",
 		"description": "Fügt ein Suchfeld zur Figurenleiste hinzu.",
 		"tags": ["editor"],
 		"credits": [
@@ -2368,8 +2442,13 @@
 			},
 			{
 				"type": "notice",
-				"text": "TurboWarp verwendet separate Clodserver. Der \"Player ersetzen\"-Modus wird deinen Scratch-Benutzernamen an TurboWarp.org senden, um ihn in Clouddaten zu verwenden.",
+				"text": "Der Modus \"Player ersetzen\" wird deinen Scratch-Benutzernamen an TurboWarp.org für die Verwendung in Clouddaten senden. TurboWarp besitzt eigene Clouddaten-Server, Werte von Cloudvariablen werden also nicht dieselben wie die auf dem Scratch-Player sein.",
 				"id": "cloudData"
+			},
+			{
+				"type": "info",
+				"text": "Falls der Modus \"Player ersetzen\" aktiviert ist, kannst du mit gedrückter Strg-Taste (auf macOS Cmd-Taste) auf die Schaltfläche klicken, um das Projekt in einem neuen TurboWarp-Tab zu öffnen.",
+				"id": "ctrlToOpen"
 			}
 		],
 		"versionAdded": "1.18.0"
@@ -2399,12 +2478,15 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.19.0"
+		"versionAdded": "1.19.0",
+		"latestUpdate": { "version": "1.32.0", "newSettings": ["only-on-hover"] },
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "variable-manager",
@@ -2428,11 +2510,18 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.29.0"
+		"versionAdded": "1.29.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["always"],
+			"isMajor": true
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "youtube-fullscreen",

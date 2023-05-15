@@ -53,6 +53,17 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "auto-follow-topics",
+		"name": "Follow topics after posting",
+		"description": "Automatically follow forum topics you post on.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "better-emojis",
 		"name": "更好的表情符號",
 		"description": "用優化的向量圖示來取代網站上現有的表情符號。",
@@ -759,8 +770,8 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["compact-nav"],
+			"version": "1.32.0",
+			"newSettings": ["stick"],
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
@@ -858,6 +869,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["popup"],
+			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -875,7 +891,7 @@
 		"id": "editor-extra-keys",
 		"name": "額外的按鈕選項",
 		"description": "添加更多的鍵到“key () pressed?” 和“按下 () 鍵時”，例如'enter'、點、逗號等。 這些鍵甚至對沒有 Scratch Addons 的用戶也有效。",
-		"tags": ["editor", "codeEditor", "beta"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
@@ -906,8 +922,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "可搜尋的下拉清單",
-		"description": "在積木下拉清單多了一個可搜尋的欄位。",
+		"name": "Block dropdown search",
+		"description": "Allows you to search the options in block dropdowns.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1043,6 +1059,17 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "faster-project-loading",
+		"name": "Faster project loading",
+		"description": "Fixes a Scratch bug that slows down project loading if the editor is opened from a link.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -1330,7 +1357,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "自動隱藏程式工具箱",
-		"description": "隱藏工具箱，在某些條件下才顯示。顯示的工具箱還可以用圖釘按鈕暫時固定它！",
+		"description": "Hides the block palette unless you're hovering over it. Click the lock icon to lock it in place temporarily. Or use the \"category click\" mode to show/hide it when you click a block category.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1360,7 +1387,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "隱藏新的變數面板",
-		"description": "建立新的變數後，不要自動在舞台上顯示變數面板（清單也適用）。",
+		"description": "Do not automatically show monitors for newly created variables or lists.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1656,7 +1683,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "鼠標的座標",
+		"name": "Mouse position display",
 		"description": "當鼠標在舞台上移動時，顯示所停駐的座標位置。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1679,6 +1706,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
+	},
+	{
+		"id": "move-to-top-layer",
+		"name": "Move sprite to front layer",
+		"description": "Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
+			{
+				"name": "s_federici",
+				"link": "https://scratch.mit.edu/users/s_federici/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1744,6 +1787,23 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "necropost-highlighter",
+		"name": "Necropost highlighter",
+		"description": "Highlights topics started much earlier than others on the same page in selected forums, so you don't waste time reading zombie messages or replies to help, question or request topics that were actually asked long ago.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
+		"info": [
+			{
+				"type": "notice",
+				"id": "whatGetsHighlighted",
+				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "no-script-bumping",
 		"name": "停止自動分開重疊的程式",
 		"description": "讓你在移動或修改程式時，不會因為一時的程式重疊導致程式原來的位置被亂改變。",
@@ -1757,12 +1817,12 @@
 	{
 		"id": "number-pad",
 		"name": "一直顯示數字鍵盤",
-		"description": "Show Scratch's number pad input when editing number fields on all devices, instead of only touchscreen devices.",
+		"description": "Show Scratch's virtual number pad when editing number fields in blocks on all devices, instead of only touchscreen devices.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from certain blocks, such as \"set x to\".",
+				"text": "A number pad will show when editing number inputs from blocks such as \"move () steps\".",
 				"id": "explanation"
 			}
 		],
@@ -1861,7 +1921,7 @@
 	{
 		"id": "pause",
 		"name": "編譯器暫停按鈕",
-		"description": "在點擊綠旗按鈕旁添加一個暫停的按鈕。",
+		"description": "Adds a button to pause the project next to the green flag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1939,6 +1999,20 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remember-collapsed-categories",
+		"name": "Remember collapsed forum categories",
+		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "remix-button",
@@ -2169,7 +2243,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "搜尋個人資訊",
+		"name": "Username search",
 		"description": "讓你可以在搜尋某個人的用戶名稱後，造訪該用戶的個人資訊頁面。",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2184,7 +2258,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "依名稱搜尋角色",
+		"name": "Search box in sprite pane",
 		"description": "在角色面板添加一個搜尋欄位，用來查找以名稱查找角色。",
 		"tags": ["editor"],
 		"credits": [
@@ -2358,8 +2432,13 @@
 			},
 			{
 				"type": "notice",
-				"text": "TurboWarp 有不同的雲端伺服器。「直接替換編譯器」會發送你的用戶名稱信息以便使用雲端服務。",
+				"text": "The \"Replace player\" mode will send your Scratch username to TurboWarp.org for use in cloud data. TurboWarp has separate cloud data servers, so the cloud variables will be different than the ones on the Scratch player.",
 				"id": "cloudData"
+			},
+			{
+				"type": "info",
+				"text": "If the \"Replace player\" mode is selected, you can Ctrl+Click (Cmd+Click on macOS) the button to open the project in a new TurboWarp tab.",
+				"id": "ctrlToOpen"
 			}
 		],
 		"versionAdded": "1.18.0"
@@ -2389,12 +2468,15 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.19.0"
+		"versionAdded": "1.19.0",
+		"latestUpdate": { "version": "1.32.0", "newSettings": ["only-on-hover"] },
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "variable-manager",
@@ -2418,11 +2500,18 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.29.0"
+		"versionAdded": "1.29.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["always"],
+			"isMajor": true
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "youtube-fullscreen",

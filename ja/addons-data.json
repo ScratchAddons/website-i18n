@@ -53,6 +53,17 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "auto-follow-topics",
+		"name": "投稿後にトピックをフォロー",
+		"description": "投稿したトピックを自動でフォローする。",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "better-emojis",
 		"name": "絵文字の変更",
 		"description": "コメント欄の絵文字をベクター画像に変える。",
@@ -314,7 +325,7 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "カラーピッカー入力",
+		"name": "カラーピッカー数値入力",
 		"description": "コスチュームエディターのカラーピッカーのスライダーにて正確な値(0-100)を入力する。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
@@ -759,8 +770,8 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["compact-nav"],
+			"version": "1.32.0",
+			"newSettings": ["stick"],
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
@@ -858,6 +869,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["popup"],
+			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -875,7 +891,7 @@
 		"id": "editor-extra-keys",
 		"name": "キー入力オプションの追加",
 		"description": "\"() キーが押された?\" ブロックのドロップダウンに、Enter、ドット、カンマなどのキーを追加する。これらは、アドオンを有効化しなくても動作する。",
-		"tags": ["editor", "codeEditor", "beta"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
@@ -906,7 +922,7 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "ドロップダウン検索",
+		"name": "ブロックドロップダウン検索",
 		"description": "ブロックのドロップダウンの選択肢を検索する。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -1043,6 +1059,17 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "faster-project-loading",
+		"name": "プロジェクト読み込み速度改善",
+		"description": "プロジェクトをエディターから開いたときに遅くなるバグを修正する。",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -1330,7 +1357,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "ブロックパレット隠し",
-		"description": "ブロックパレットをホバーしていないときに隠す。ロックアイコンをクリックして表示し続けたり、「カテゴリー・クリック」を使うこともできる。",
+		"description": "ブロックパレットをホバーしていないときに隠す。ロックアイコンをクリックして表示し続けたり、「カテゴリー・クリック」モードを使って、ブロックカテゴリーをクリックしたときに表示を切り替えることもできる。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1656,7 +1683,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "マウスの座標",
+		"name": "マウスの座標を表示",
 		"description": "ステージの上にマウスの座標を表示する。",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1679,6 +1706,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
+	},
+	{
+		"id": "move-to-top-layer",
+		"name": "スプライトを最前面に移動",
+		"description": "スプライトペイン内のスプライトをShift+クリックしてステージの最前面に移動させる。",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
+			{
+				"name": "s_federici",
+				"link": "https://scratch.mit.edu/users/s_federici/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1749,6 +1792,23 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "necropost-highlighter",
+		"name": "古いトピックをハイライト",
+		"description": "現在は使用されていないトピックに投稿しないようにするため、選択したフォーラムにて、同じページで作成日時が比較的早いものをハイライトする。",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
+		"info": [
+			{
+				"type": "notice",
+				"id": "whatGetsHighlighted",
+				"text": "時々、古いトピックでも、現在進行中の会話や作成者の再投稿など理由があって使用し続けられることがあります。このようなトピックであっても、すべて強調されます。(このため、トピックは強調されても、除去されません。)"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "no-script-bumping",
 		"name": "スクリプト重ね配置",
 		"description": "スクリプトを重ねて配置できるようにする。",
@@ -1762,12 +1822,12 @@
 	{
 		"id": "number-pad",
 		"name": "ナンバーパッドを常に表示",
-		"description": "数値を編集するときに、Scratchのナンバーパッド入力をタッチスクリーンデバイス以外のすべてのデバイスで表示する。",
+		"description": "ブロックの数値を編集するときに、Scratchのナンバーパッド入力をタッチスクリーンデバイス以外のすべてのデバイスで表示する。",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "「x座標を変える」ブロックなどの数値を変えるときに、ナンバーパッドが表示されるようになります。",
+				"text": "「() 歩動かす」ブロックなどの数値を変えるときに、ナンバーパッドが表示されるようになります。",
 				"id": "explanation"
 			}
 		],
@@ -1876,8 +1936,8 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "コスチュームエディターでステージの色を選択",
-		"description": "コスチュームエディターのカラーピッカーでステージから色を選べるようにする。",
+		"name": "ステージの色を選択",
+		"description": "コスチュームエディターのカラーピッカーでステージの色を選択できるようにする。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1944,6 +2004,20 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remember-collapsed-categories",
+		"name": "閉じたフォーラムカテゴリーを保存",
+		"description": "フォーラムのトップページにてどのカテゴリーを閉じたかを記憶する。",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "remix-button",
@@ -2174,7 +2248,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "プロフィール検索",
+		"name": "ユーザー名検索",
 		"description": "ユーザー名で検索時に、プロフィールページへ行くリンクを追加する。",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2189,7 +2263,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "スプライトを検索",
+		"name": "スプライトペイン検索",
 		"description": "スプライトペインに、スプライトを名前で検索する項目を追加する。",
 		"tags": ["editor"],
 		"credits": [
@@ -2363,8 +2437,13 @@
 			},
 			{
 				"type": "notice",
-				"text": "クラウドデータはTurboWarpのサーバーに保存されます。「プレイヤーを置き換える」モードを利用する場合、Scratchのユーザー名がTurboWarp.orgに送信されます。",
+				"text": "「プレイヤーを置き換える」モードを利用する場合、クラウドデータで使用するためScratchのユーザー名がTurboWarp.orgに送信されます。TurboWarpは別のクラウドデータサーバーを使用するため、クラウド変数の値がScratchのものと異なります。",
 				"id": "cloudData"
+			},
+			{
+				"type": "info",
+				"text": "「プレイヤーを置き換える」モードを利用する場合、ボタンをCtrl+クリック (macOSではCmd+クリック) して新しいTurboWarpタブでプロジェクトを開けます。",
+				"id": "ctrlToOpen"
 			}
 		],
 		"versionAdded": "1.18.0"
@@ -2394,12 +2473,15 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.19.0"
+		"versionAdded": "1.19.0",
+		"latestUpdate": { "version": "1.32.0", "newSettings": ["only-on-hover"] },
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "variable-manager",
@@ -2423,11 +2505,18 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.29.0"
+		"versionAdded": "1.29.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["always"],
+			"isMajor": true
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "youtube-fullscreen",

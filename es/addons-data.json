@@ -53,6 +53,17 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "auto-follow-topics",
+		"name": "Seguir temas luego de publicar",
+		"description": "Seguir automáticamente temas de los foros donde haya publicado.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "better-emojis",
 		"name": "Mejores emojis",
 		"description": "Reemplaza los emojis en comentarios del sitio web con diseños vector mejorados.",
@@ -314,8 +325,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Entrada en selector de color",
-		"description": "Le permite cambiar el valor exacto (0-100) por cada deslizador en el selector de color del editor de disfraces.",
+		"name": "Entradas numéricas en el selector de color",
+		"description": "Le permite ingresar un valor exacto (0-100) por cada deslizador en el selector de color del editor de disfraces escribiéndolo como número.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -761,8 +772,8 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["compact-nav"],
+			"version": "1.32.0",
+			"newSettings": ["stick"],
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
@@ -860,6 +871,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["popup"],
+			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -877,7 +893,7 @@
 		"id": "editor-extra-keys",
 		"name": "Opciones de teclas extra",
 		"description": "Añade más teclas a los menús desplegables de los bloques \"¿tecla () presionada?\" y \"al presionar tecla ()\", como enter, coma, y más. Estas teclas incluso funcionarán para usuarios que no tengan este addon.",
-		"tags": ["editor", "codeEditor", "beta"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
@@ -908,8 +924,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Búsqueda en menús ",
-		"description": "Le permite buscar en bloques que tienen menús.",
+		"name": "Búsqueda de menú desplegable",
+		"description": "Le permite buscar entre las opciones en menús desplegables de bloques.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1045,6 +1061,17 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "faster-project-loading",
+		"name": "Carga de proyectos más rápida",
+		"description": "Arregla un bug de Scratch que retrasa la carga de proyectos si el editor es abierto desde un enlace.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "feature-unshared",
@@ -1332,7 +1359,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "Ocultar paleta de bloques automáticamente",
-		"description": "Oculta la paleta de bloques si el cursor no esta arriba de ella. Haga click en el icono de candado para mantenerlo en el lugar temporalmente. Alternativamente, use el modo \"click en categoría\".",
+		"description": "Oculta la paleta de bloques a menos que no esté poniendo el cursor obre ella. Haga click en el ícono de bloqueo para mantenerlo en el lugar temporalmente. O use \"click de categoría\" para mostrarlo/ocultarlo cuando haga click en una categoría de bloques.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1362,7 +1389,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Esconder variables nuevas",
-		"description": "No crear automáticamente monitores para variables y listas nuevas.",
+		"description": "No mostrar monitores automáticamente para las nuevas variables o listas.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1658,7 +1685,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Posición del ratón",
+		"name": "Mostrar posición del ratón",
 		"description": "Muestra la posición x/y del ratón arriba del escenario en el editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1681,6 +1708,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
+	},
+	{
+		"id": "move-to-top-layer",
+		"name": "Mover objeto a capa delantera",
+		"description": "Shift+Click a un objeto en el panel de objetos para moverlo al frente (capa delantera) del escenario.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
+			{
+				"name": "s_federici",
+				"link": "https://scratch.mit.edu/users/s_federici/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1748,6 +1791,23 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "necropost-highlighter",
+		"name": "Destacar necroposts",
+		"description": "Resalta temas iniciados mucho antes que otros en la misma página en foros seleccionados, así no desperdicia tiempo leyendo mensajes zombie o respuestas para ayudar, preguntar o pedir temas que ya fueron pedidos mucho antes.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
+		"info": [
+			{
+				"type": "notice",
+				"id": "whatGetsHighlighted",
+				"text": "A veces, un tema más viejo se mantiene vivo por buenas razones, como una conversación en marcha, o el publicador original continuando con su propio tema meses más tarde. Todos los temas viejos en foros seleccionados son resaltados, incluyendo temas persistentes que no son necroposts. (Por eso es por lo que son resaltados, pero no eliminados.)"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "no-script-bumping",
 		"name": "No espaciar automáticamente scripts superpuestos",
 		"description": "Permite que los scripts sean movidos y modificados sin causar que scripts superpuestos se muevan.",
@@ -1761,12 +1821,12 @@
 	{
 		"id": "number-pad",
 		"name": "Siempre mostrar teclado numérico",
-		"description": "Mostrar el teclado numérico de Scratch cuando se editen campos numéricos en cualquier dispositivo, en vez de solo en los con pantalla táctil.",
+		"description": "Muestra el teclado numérico virtual de Scratch cuando se editan entradas de números en bloques en todos los dispositivos y no solo en dispositivos táctiles.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Un teclado numérico se mostrará cuando se editen campos numéricos de ciertos bloques, como \"dar a x el valor\".",
+				"text": "Se mostrará un teclado numérico cuando se editen entradas para bloques como \"mover () pasos\".",
 				"id": "explanation"
 			}
 		],
@@ -1865,7 +1925,7 @@
 	{
 		"id": "pause",
 		"name": "Botón de pausa",
-		"description": "Agrega un botón de pausa al lado de la bandera verde.",
+		"description": "Añade un botón al lado de la bandera verde para pausar el proyecto.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1875,7 +1935,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Seleccionar colores del escenario en el editor de disfraces",
+		"name": "Seleccionar colores del escenario con cuentagotas",
 		"description": "Permite que el cuentagotas también pueda elegir colores del escenario.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -1943,6 +2003,20 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remember-collapsed-categories",
+		"name": "Recordar categorías de foros comprimidas",
+		"description": "Las categorías que haya comprimido en la página principal de los foros (la lista de foros) estarán completamente comprimidas cuando se vaya y regrese.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "remix-button",
@@ -2173,7 +2247,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Buscar perfil",
+		"name": "Búsqueda por nombre de usuario",
 		"description": "Le permite ir a un perfil cuando busca su nombre de usuario en Scratch.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2188,7 +2262,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Buscar objetos por nombre",
+		"name": "Barra de búsqueda en panel de objetos",
 		"description": "Agrega una barra de búsqueda al panel de objetos para buscar objetos por nombre.",
 		"tags": ["editor"],
 		"credits": [
@@ -2362,8 +2436,13 @@
 			},
 			{
 				"type": "notice",
-				"text": "TurboWarp tiene servidores de variables en la nube separados. El modo \"reemplazar reproductor\" enviará su nombre de usuario de Scratch a TurboWarp.org para su uso en variables en la nube.",
+				"text": "El modo \"Reemplazar reproductor\" enviará su nombre de usuario de Scratch a TurboWarp.org para su uso en datos de la nube. TurboWarp tiene servidores de datos en la nube separados, por lo que las variables en la nube serán distintas a las del reproductor de Scratch.",
 				"id": "cloudData"
+			},
+			{
+				"type": "info",
+				"text": "Si el modo \"Reemplazar reproductor\" está seleccionado, puede Ctrl+Click (Cmd+Click en MacOS) al botón para abrir el proyecto en una nueva pestaña.",
+				"id": "ctrlToOpen"
 			}
 		],
 		"versionAdded": "1.18.0"
@@ -2393,12 +2472,15 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.19.0"
+		"versionAdded": "1.19.0",
+		"latestUpdate": { "version": "1.32.0", "newSettings": ["only-on-hover"] },
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "variable-manager",
@@ -2422,11 +2504,18 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.29.0"
+		"versionAdded": "1.29.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["always"],
+			"isMajor": true
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "youtube-fullscreen",

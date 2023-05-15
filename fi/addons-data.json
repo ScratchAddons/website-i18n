@@ -53,6 +53,17 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "auto-follow-topics",
+		"name": "Follow topics after posting",
+		"description": "Automatically follow forum topics you post on.",
+		"tags": ["forums", "community"],
+		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "better-emojis",
 		"name": "Paremmat emojit",
 		"description": "Korvaa verkkosivuston kommenttien emojit parannetuilla vektoripiirustuksilla.",
@@ -737,7 +748,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Ei-raahattavat hahmot editorissa",
-		"description": "Poistaa mahdollisuuden raahata hahmoja editorin esiintymislavalla, paitsi niitä, jotka on nimenomaan asetettu raahattaviksi. Pidä Shift-näppäintä pohjassa samalla, kun vedät hahmoa siirtääksesi sitä normaalisti.",
+		"description": "Poistaa mahdollisuuden raahata hahmoja editorin esiintymislavalla, paitsi niitä, jotka on nimenomaan asetettu raahattaviksi. Pidä Vaihto-näppäintä pohjassa samalla, kun vedät hahmoa siirtääksesi sitä normaalisti.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -761,8 +772,8 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.28.0",
-			"newSettings": ["compact-nav"],
+			"version": "1.32.0",
+			"newSettings": ["stick"],
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
@@ -860,6 +871,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["popup"],
+			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -877,7 +893,7 @@
 		"id": "editor-extra-keys",
 		"name": "Erikoisnäppäinvaihtoehdot",
 		"description": "Lisää näppäimiä \"onko näppäin () painettu?\" ja \"kun painetaan ()\" -lohkojen avattaviin valikkoihin, kuten enterin, pisteen, pilkun ja monia muuta. Nämä näppäimet toimivat jopa niillä käyttäjillä, joilla ei ole tätä lisäosaa.",
-		"tags": ["editor", "codeEditor", "beta"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
@@ -908,8 +924,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Haettavat avattavat valikot",
-		"description": "Voit hakea lohkojen avattavista valikoista.",
+		"name": "Block dropdown search",
+		"description": "Allows you to search the options in block dropdowns.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -937,7 +953,7 @@
 		"info": [
 			{
 				"id": "reverseOrder",
-				"text": "Voit vaihtaa painikkeiden sijaintia näyttämön yläpuolella käyttämällä \"käänteinen projektin hallinnan järjestys\" -lisäosaa."
+				"text": "Voit vaihtaa painikkeiden sijaintia esiintymislavan yläpuolella käyttämällä \"käänteinen projektin hallinnan järjestys\" -lisäosaa."
 			}
 		],
 		"dynamicEnable": true,
@@ -1047,6 +1063,17 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "faster-project-loading",
+		"name": "Faster project loading",
+		"description": "Fixes a Scratch bug that slows down project loading if the editor is opened from a link.",
+		"tags": ["editor", "recommended"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "feature-unshared",
 		"name": "Näytteillä olevat jakamattomat projektit",
 		"description": "Voit valita jakamattomia projekteja, kun klikkaat profiilissasi \"vaihda näytteillä oleva projekti\" -nappia.",
@@ -1073,7 +1100,7 @@
 	{
 		"id": "find-bar",
 		"name": "Editorin hakupalkki",
-		"description": "Lisää hakupalkin, jolla voit etsiä skriptejä, asusteita ja ääniä ja siirtyä niihin Äänet-välilehden viereen. Käytä koodialueella yhdistelmiä Ctrl+Vasen ja Ctrl+Oikea navigoidaksesi edelliseen tai seuraavaan vierailtavaan kohtaan hakupalkin käytön jälkeen.",
+		"description": "Lisää Äänet-välilehden viereen hakupalkin, jolla voit etsiä skriptejä, asusteita ja ääniä ja siirtyä niihin. Käytä koodialueella yhdistelmiä Ctrl+Vasen ja Ctrl+Oikea navigoidaksesi edelliseen tai seuraavaan vierailtavaan kohtaan hakupalkin käytön jälkeen.",
 		"tags": ["editor", "codeEditor", "costumeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1321,8 +1348,8 @@
 	},
 	{
 		"id": "hide-delete-button",
-		"name": "Piilota poista -nappi",
-		"description": "Piilottaa poista -napin (roskakorikuvakkeen) hahmoista, asusteista ja äänistä. Ne voidaan silti poistaa käyttämällä hiiren oikean painikkeen pikavalikkoa.",
+		"name": "Piilota poista-nappi",
+		"description": "Piilottaa poista-napin (roskakorikuvakkeen) hahmoista, asusteista ja äänistä. Ne voidaan silti poistaa käyttämällä hiiren oikean painikkeen pikavalikkoa.",
 		"tags": ["editor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1332,7 +1359,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "Lohkopaletin automaattinen piilottaminen",
-		"description": "Piilottaa lohkopaletin, jos hiirtä ei pidetä sen päällä. Lukitse se välipäisesti klikkaamalla lukkokuvaketta.",
+		"description": "Hides the block palette unless you're hovering over it. Click the lock icon to lock it in place temporarily. Or use the \"category click\" mode to show/hide it when you click a block category.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1362,7 +1389,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Piilota uudet muuttujat",
-		"description": "Älä luo automaattisesti monitoreja äskettäin luoduille muuttujille tai listoille.",
+		"description": "Do not automatically show monitors for newly created variables or lists.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1399,7 +1426,7 @@
 	{
 		"id": "hide-signatures",
 		"name": "Piilota signeeraukset foorumeilla",
-		"description": "Piilottaa signeeraukset foorumiviesteissä ja lisää \"Näytä signeeraus\" -painikkeen.",
+		"description": "Piilottaa allekirjoitukset foorumiviesteissä ja lisää \"Näytä allekirjoitus\" -painikkeen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1412,7 +1439,7 @@
 	{
 		"id": "hide-stage",
 		"name": "Piilota esiintymislava ja hahmoruutu",
-		"description": "Lisää painikkeen \"pieni esiintymislava\" ja \"suuri esiintymislava\" -painikkeiden viereen, joka piilottaa esiintymislavan ja hahmoruudun, mikä tekee koodialueesta paljon suuremman.",
+		"description": "Lisää \"pieni esiintymislava\" ja \"suuri esiintymislava\" -painikkeiden viereen painikkeen, joka piilottaa esiintymislavan ja hahmoruudun, mikä tekee koodialueesta paljon suuremman.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1498,7 +1525,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Siirry mukautetun lohkon määritykseen",
-		"description": "Voit siirtyä mukautetun lohkon määritelmään käyttämällä hiiren keskipainikketta tai yhdistelmää Shift+Klikkaus lohkon päällä.",
+		"description": "Voit siirtyä mukautetun lohkon määritelmään käyttämällä hiiren keskipainikketta tai yhdistelmää Vaihto+Klikkaus lohkon päällä.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"info": [
@@ -1658,7 +1685,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Hiiren sijainti",
+		"name": "Mouse position display",
 		"description": "Näyttää hiiren x-/y-sijainnin editorin esiintymislavan yllä.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1681,6 +1708,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
+	},
+	{
+		"id": "move-to-top-layer",
+		"name": "Move sprite to front layer",
+		"description": "Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage.",
+		"tags": ["editor", "featured"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
+			{
+				"name": "s_federici",
+				"link": "https://scratch.mit.edu/users/s_federici/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "msg-count-badge",
@@ -1751,6 +1794,23 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "necropost-highlighter",
+		"name": "Necropost highlighter",
+		"description": "Highlights topics started much earlier than others on the same page in selected forums, so you don't waste time reading zombie messages or replies to help, question or request topics that were actually asked long ago.",
+		"tags": ["community", "forums"],
+		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
+		"info": [
+			{
+				"type": "notice",
+				"id": "whatGetsHighlighted",
+				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.32.0"
+	},
+	{
 		"id": "no-script-bumping",
 		"name": "Älä tee automaattisesti tilaa päällekkäisille skripteille",
 		"description": "Mahdollistaa skriptien siirtämisen ja muokkaamisen aiheuttamatta päällekkäisten komentosarjojen liikkumista.",
@@ -1764,12 +1824,12 @@
 	{
 		"id": "number-pad",
 		"name": "Näytä numeronäppäimistö aina",
-		"description": "Näyttää Scratchin numeronäppäimistön syöttökentissä, kun lukua muokataan kaikilla laitteilla kosketusnäyttölaitteiden sijasta.",
+		"description": "Show Scratch's virtual number pad when editing number fields in blocks on all devices, instead of only touchscreen devices.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "Numeronäppäimistö näytetään, kun tiettyjen lohkojen, kuten \"aseta x:n arvoksi\", numerosyöttökenttiä muokataan.",
+				"text": "A number pad will show when editing number inputs from blocks such as \"move () steps\".",
 				"id": "explanation"
 			}
 		],
@@ -1868,7 +1928,7 @@
 	{
 		"id": "pause",
 		"name": "Keskeytä-painike",
-		"description": "Lisää keskeytyspainikkeen vihreän lipun viereen.",
+		"description": "Adds a button to pause the project next to the green flag.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1946,6 +2006,20 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remember-collapsed-categories",
+		"name": "Remember collapsed forum categories",
+		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness/"
+			}
+		],
+		"dynamicEnable": true,
+		"versionAdded": "1.32.0"
 	},
 	{
 		"id": "remix-button",
@@ -2176,7 +2250,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Hae profiilia",
+		"name": "Username search",
 		"description": "Voit siirtyä käyttäjän profiiliin, kun haet hänen käyttäjänimeään.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2191,7 +2265,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Etsi hahmoja nimellä",
+		"name": "Search box in sprite pane",
 		"description": "Lisää hahmoruutuun hakukentän hahmojen nimellä etsimistä varten.",
 		"tags": ["editor"],
 		"credits": [
@@ -2365,8 +2439,13 @@
 			},
 			{
 				"type": "notice",
-				"text": "TurboWarpilla on erilliset pilvitietopalvelimet. \"Vaihda soitin\" -tila lähettää Scratch-käyttäjänimesi TurboWarp.org:lle käytettäväksi pilvidatassa.",
+				"text": "The \"Replace player\" mode will send your Scratch username to TurboWarp.org for use in cloud data. TurboWarp has separate cloud data servers, so the cloud variables will be different than the ones on the Scratch player.",
 				"id": "cloudData"
+			},
+			{
+				"type": "info",
+				"text": "If the \"Replace player\" mode is selected, you can Ctrl+Click (Cmd+Click on macOS) the button to open the project in a new TurboWarp tab.",
+				"id": "ctrlToOpen"
 			}
 		],
 		"versionAdded": "1.18.0"
@@ -2396,12 +2475,15 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.19.0"
+		"versionAdded": "1.19.0",
+		"latestUpdate": { "version": "1.32.0", "newSettings": ["only-on-hover"] },
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "variable-manager",
@@ -2425,11 +2507,18 @@
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
 			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.29.0"
+		"versionAdded": "1.29.0",
+		"latestUpdate": {
+			"version": "1.32.0",
+			"newSettings": ["always"],
+			"isMajor": true
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "youtube-fullscreen",
