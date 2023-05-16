@@ -138,9 +138,6 @@ FeedbackPage:
       Punishment:
         Heading: İnsanlara ceza veremeyiz. Biz Scratch Ekibi değiliz.
         Description: Scratch Eklentileri, Scratch sitesine veya onu ayakta tutan kuruluşlara bağlı değildir. Scratch sitesinde içerik ve denetim üzerinde hiçbir kontrolümüz yoktur. {{ .Tag1Start }}Scratch sitesinde raporda bulunmanın birçok yolu vardır.{{ .Tag1End }}
-      AF2023Comp:
-        Heading: 1 Nisan güncellemeleri nedeniyle bazı eklentiler devre dışı bırakıldı.
-        Description: Scratch'in 1 Nisan güncellemeleri nedeniyle kedi blokları, iki sütunlu kategori menüsü, blok paletini otomatik gizleme ve veri kategorisi ince ayarları, kararlılık nedenleriyle devre dışı bırakıldı. bunu düzeltmek için bir güncelleme yayınlandı. Lütfen tarayıcınızın güncellemesini bekleyin. {{ .Tag1Start }}Konu hakkında bilgi alın.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Mesajlaşma Eklentisi logosu
 ChangelogPage:

@@ -27,9 +27,9 @@ Manchmal müssen Nachrichten dynamisch generierte Teile haben, z.B. Anzahl Katze
 ### Mehrzahl
 Was, wenn der Platzhalter eine Zahl ist? Wir können Mehrzahlen, wie `{platzhalterName, plural, one {wenn es eine Sache gibt} other {wenn es # Sachen gibt}}`. Wenn der Platzhalter 1 ist, wird "wenn es eine Sache gibt" angezeigt, sonst wird "wenn es (Platzhalter) Sachen gibt" angezeigt.
 
-### Developer comments
+### Entwicklerkommentare
 
-Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
+Transifex wird die Entwicklerkommentaraén zeigen, wenn ein Übersetzer einen bestimmten Text ausgewählt hat. Diese Kommentare werden normalerweise benutzt, um nach einer bestimmen Übersetzung zu fragen oder um weitere Informationen für Sprachen, die Groß- und Kleinbuchstaben nicht unterscheiden, zu geben.
 
 ## Die Übersetzungen verwenden
 Ändere die erste Zeile deines Userscripts von etwas wie:

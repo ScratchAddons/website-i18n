@@ -133,9 +133,6 @@ FeedbackPage:
       Punishment:
         Heading: Não podemos punir usuários. Não somos a Equipe do Scratch.
         Description: Scratch Addons não é afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Não temos controle do conteúdo e da moderação do site oficial do Scratch. {{ .Tag1Start }}Há muitas maneiras de como você pode denunciar conteúdos no site do Scratch.{{ .Tag1End }}
-      AF2023Comp:
-        Heading: Alguns addons foram desativados em resposta às atualizações de Primeiro de Abril do Scratch.
-        Description: Devido às atualizações de Primeiro de Abril do Scratch, os blocos de gato, o menu de categoria de duas colunas, a paleta de blocos de ocultação automática e os ajustes de categoria de dados foram desativados por razões de estabilidade. Uma atualização foi liberada para corrigir isso. Por favor, aguarde que seu navegador a atualize. {{ .Tag1Start }}Leia mais sobre nesta discussão.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension
 ChangelogPage:

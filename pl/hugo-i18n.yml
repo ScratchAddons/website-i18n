@@ -132,9 +132,6 @@ FeedbackPage:
   PreSendWarning:
     Warning: "Uwaga:"
     Override: Jeśli napewno jesteś gotowy wysłać opinię, ponownie wciśnij przycisk "Wyślij"
-    Variations:
-      AF2023Comp:
-        Heading: Niektóre dodatki są wyłączone z powodu zmian na Prima Aprilis.
 SMTPage:
   ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
 ChangelogPage:

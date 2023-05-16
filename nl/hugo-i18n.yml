@@ -131,9 +131,6 @@ FeedbackPage:
       Punishment:
         Heading: We kunnen mensen niet bestraffen. Wij zijn niet het Scratch Team.
         Description: Scratch Addons is niet in samenwerking met de Scratch website of de organisaties die het onderhouden. We hebben geen controle over de inhoud en moderatie op de Scratch website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch website.{{ .Tag1End }}
-      AF2023Comp:
-        Heading: Sommige addons zijn uitgeschakeld i.v.m. de 1 April-updates van Scratch.
-        Description: "I.v.m. de 1 April-updates van Scratch zijn de volgende addons wegens stabiliteitsredenen uitgeschakeld: katblokken, categoriemenu met twee kolommen, blokkenpalet automatisch verbergen en gegevenscategorie-aanpassingen. Er is een update uitgebracht die dit oplost. Het kan even duren voordat je browser de update verwerkt. {{ .Tag1Start }}Lees meer in deze discussie.{{ .Tag1End }}"
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
 ChangelogPage:
