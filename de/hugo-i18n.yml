@@ -137,6 +137,7 @@ ChangelogPage:
     ReleaseGitHub: Release-Seite auf GitHub
     RepoState: Repository-Status beim Release
     CommitsMade: Commits in dieser Version
+    BlogPost: Blog-Post für diese Version
   Status:
     Latest: Neueste
     Yanked: Verworfen

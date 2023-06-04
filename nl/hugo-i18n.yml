@@ -143,6 +143,7 @@ ChangelogPage:
     ReleaseGitHub: Releasepagina op GitHub
     RepoState: Archiefstatus op release
     CommitsMade: Commits gemaakt op deze versie
+    BlogPost: Blogpost voor deze versie
   Status:
     Latest: Nieuwst
     Yanked: Overgeslagen
