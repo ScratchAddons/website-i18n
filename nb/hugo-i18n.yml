@@ -14,14 +14,21 @@ Footer:
   Pages:
     Header: Sider
     Feedback: Send tilbakemelding
+    Changelog: Endringslogg
   Discuss:
     Issues: Feil
+  Legal:
+    License: Scratch Utvidelser lisensiert under GNU General Public License v3.0.
 IndexPage:
   Intro:
+    Tagline: Alt-i-ett nettlesersutvidelse for Scratch
     InstallButton:
       Loading: Laster inn...
   Features:
     AddonsHeading: Utvidelser
+    InternationalHeading: Internasjonal
+    InternationalParagraph: Scratch Utvidelser er ikke bare tilgjenelig på norsk og engelsk. Scratch Utvidelser er tilgjengelig på spansk, russisk, japansk, fransk og mange flere språk.
+    OSParagraph: Scratch Utvidelser er gratis, har åpen kildekode og er bygget av et fellesskap av Scratch-brukere.
   Install:
     Heading: Installer
 AddonsPage:

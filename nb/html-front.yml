@@ -1,6 +1,14 @@
 addons.html:
   title: Utvidelser
+  description: Denne siden viser alle utvidelser som er implementert på Scratch Utvidelser.
+changelog.html:
+  title: Endringslogg
+extension-settings.html:
+  title: Innstillinger for Scratch Utvidelser
 feedback.html:
   title: Send tilbakemelding
+unsupported-browser.html:
+  title: Ustøttet nettleser
 welcome.html:
   title: Velkommen!
+  description: Scratch Utvidelser har blitt installert! Takk at du installerte Scratch Utvidelser!
