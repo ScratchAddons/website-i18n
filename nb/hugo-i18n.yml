@@ -2,13 +2,17 @@ Global:
   ScratchAddons: Scratch Utvidelser
   LogoAlt: Scratch Utvidelser logo
   Install: Installer
+  InstallBrowser:
+    Firefox: Installer for Firefox
+    Chrome: Installer for Chrome
+    Edge: Installer for Edge
   Carousel:
     Next: Neste
 Links:
   Addons: Utvidelser
   Discussion: Forum
 Nav:
-  Feedback: Send tilbakemelding
+  Feedback: Gi tilbakemelding
   Install: Installer
 Footer:
   Pages:
@@ -18,18 +22,27 @@ Footer:
   Discuss:
     Issues: Feil
   Legal:
-    License: Scratch Utvidelser lisensiert under GNU General Public License v3.0.
+    NoAffiliation: Scratch Utvidelser er ikke tilknyttet, assosiert eller på noen måte offisielt forbundet med Scratch-nettstedet eller organisasjonene som vedlikeholder det.
+    License: Scratch Utvidelser er lisensiert under GNU General Public License v3.0.
+DarkTheme:
+  Title: Klikk til å slå på mørkt tema
 IndexPage:
   Intro:
     Tagline: Alt-i-ett nettlesersutvidelse for Scratch
+    Description: Scratch Addons er en nettleserutvidelse som lar deg bruke nye funksjoner og temaer for Scratch. Den har et formål å samle inn, arkivere og bruke brukerstiler og brukerskript, laget av Scratch-brukere.
     InstallButton:
       Loading: Laster inn...
+      Description: gratis, åpen kilde
   Features:
     AddonsHeading: Utvidelser
     InternationalHeading: Internasjonal
-    InternationalParagraph: Scratch Utvidelser er ikke bare tilgjenelig på norsk og engelsk. Scratch Utvidelser er tilgjengelig på spansk, russisk, japansk, fransk og mange flere språk.
+    InternationalParagraph: Scratch Utvidelser er ikke bare tilgjenelig på norsk. Scratch Utvidelser er tilgjengelig på spansk, russisk, japansk, fransk og mange flere språk.
+    OSHeading: Åpen kilde
     OSParagraph: Scratch Utvidelser er gratis, har åpen kildekode og er bygget av et fellesskap av Scratch-brukere.
   Install:
     Heading: Installer
+    Paragraph: Fornøyd? Installere den nå!
+    InstallButton:
+      Other: ...eller {{.OpenTag1}}last den ned fra GitHub{{.CloseTag1}} eller {{.OpenTag2}}installer den fra kilden{{.CloseTag2}}.
 AddonsPage:
   EasterEggAddon: Dette er en easter egg utvidelse.

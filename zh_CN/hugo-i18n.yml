@@ -11,6 +11,8 @@ Global:
     Last: 去最后
 Links:
   Blog: 博客
+  Addons: 插件
+  Credits: 致谢
   PrivacyPolicy: 隐私政策
 Nav:
   Feedback: 发送反馈
@@ -52,6 +54,7 @@ IndexPage:
       Description: 免费，也是开源的
     ReadMore: 或是读更多
   Features:
+    AddonsHeading: 插件
     InternationalHeading: 国际的
     InternationalParagraph: 除了英语，Scratch Addons 也有西班牙语、俄语、日语、法语， 和更多的语言
   Install:
