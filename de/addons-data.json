@@ -265,7 +265,7 @@
 	{
 		"id": "cat-blocks",
 		"name": "Katzenblöcke",
-		"description": "Fügt die Katzenstartblöcke vom Aprilscherz 2020 wieder zum Editor hinzu.",
+		"description": "Bringt im Editor die Katzenförmigen Startblöcke zurück, die erstmals für den Aprilscherz 2020 eingeführt wurden.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -660,22 +660,12 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		],
-		"enabledByDefault": false,
 		"libraries": ["chartjs"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.24.0",
-			"isMajor": true,
-			"temporaryNotice": "New \"Threads\" and \"Performance\" tabs in the debugger window.",
-			"newSettings": [
-				"log_clear_greenflag",
-				"log_greenflag",
-				"log_clone_create",
-				"log_failed_clone_creation",
-				"log_broadcasts",
-				"log_max_list_length",
-				"log_invalid_cloud_data"
-			]
+			"version": "1.33.0",
+			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
+			"newSettings": ["fancy_graphs"]
 		}
 	},
 	{
@@ -988,6 +978,18 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
+		"info": [
+			{
+				"id": "disablesMenuBar",
+				"type": "notice",
+				"text": "Wenn du auf Scratchs Menü \"Farbmodus\" zugreifen möchtest, deaktiviere dieses Feature."
+			},
+			{
+				"id": "aboutHighContrast",
+				"type": "info",
+				"text": "Die neuen kontrastreichen Blockfarben sind unten als Vorlage verfügbar."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1093,11 +1095,10 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "featured-dangos",
-		"name": "Vorgestellte Dangos (Aprilscherz 2023)",
-		"description": "Fügt Projekte über Dangos zur Startseite hinzu.",
-		"tags": ["community", "easterEgg", "featured"],
-		"enabledByDefault": true,
+		"id": "featured-dangos-v2",
+		"name": "Vorgestellte Dangos",
+		"description": "Ein Aprilscherz Scratch Addons vom Jahr 2023, das eine neue Reihe mit Projekten über Dangos zur Startseite hinzufügt.",
+		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
 	{
@@ -1494,7 +1495,7 @@
 	{
 		"id": "initialise-sprite-position",
 		"name": "Benutzerdefinierte Standardposition von neuen Figuren",
-		"description": "Ändere die Standard X/Y-Position von neuen Figuren.",
+		"description": "Ändert die Position auf der Bühne von neu erstellten Figuren.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1571,10 +1572,23 @@
 				"id": "original",
 				"link": "https://github.com/MegaScratchUserscript/Mega-Scratch-Userscript/blob/master/originals/GRA0007/scratchultimate.user.js#L23-L46"
 			},
-			{ "name": "Hans5958", "note": "remake", "id": "remake" }
+			{ "name": "Hans5958", "note": "remake", "id": "remake" },
+			{
+				"name": "ErrorGamer2000",
+				"link": "https://github.com/ErrorGamer2000",
+				"note": "update",
+				"id": "update"
+			}
 		],
-		"enabledByDefault": false,
-		"versionAdded": "1.3.0"
+		"info": [
+			{
+				"id": "privacy",
+				"type": "notice",
+				"text": "Die EInstellung \"Scratch-Benutzernamen verwenden\" wird für die Verwendung von Clouddaten deinen Scratch-Benutzernamen an TurboWarp.org senden. TurboWarp besitzt unterschiedliche Clouddatenserver, deshalb werden die Cloudvariablen nicht denen im Scratch-Player entsprechen."
+			}
+		],
+		"versionAdded": "1.3.0",
+		"latestUpdate": { "version": "1.33.0", "newSettings": ["shareUsername"] }
 	},
 	{
 		"id": "load-extensions",
@@ -1892,6 +1906,22 @@
 		"versionAdded": "1.5.0"
 	},
 	{
+		"id": "op-badge",
+		"name": "Projektbesitzer in den Kommentaren hervorheben",
+		"description": "Fügt ein Abzeichen im Kommentarberiech neben dem Projektbesitzer hinzu. Fügt auch ein Abzeichen neben dem ursprünglichen Poster in Forenthemen hinzu.",
+		"tags": ["community", "forums", "featured", "comments"],
+		"credits": [
+			{
+				"name": "MDWalters",
+				"link": "https://scratch.mit.edu/users/MDWalters/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.33.0"
+	},
+	{
 		"id": "opacity-slider",
 		"name": "Durchsichtigkeitsregler",
 		"description": "Fügt einen Schieberegler für die Durchsichtigkeit zum Farbenwähler im Kostümeditor hinzu.",
@@ -1934,10 +1964,21 @@
 		"description": "Fügt eine Schaltfläche neben der grünen Flagge hinzu, mit der Projekte pausiert werden können.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"info": [
+			{
+				"text": "Das Projekt kann auch mit Alt+X (auf macOS Option+X) pausiert werden.",
+				"id": "keybind"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.3.0"
+		"versionAdded": "1.3.0",
+		"latestUpdate": {
+			"version": "1.33.0",
+			"temporaryNotice": "There's now a keybind to pause projects.",
+			"isMajor": false
+		}
 	},
 	{
 		"id": "pick-colors-from-stage",
@@ -2336,6 +2377,8 @@
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			}
 		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.26.0"
 	},
 	{
