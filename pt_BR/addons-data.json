@@ -979,12 +979,12 @@
 			{
 				"id": "disablesMenuBar",
 				"type": "notice",
-				"text": "If you want to access Scratch's \"Color Mode\" menu, disable this feature."
+				"text": "Se você deseja acessar o menu de \"Modo de Cor\" do Scratch, desative esta funcionalidade."
 			},
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "The new High Contrast block colors are available as a preset below."
+				"text": "As novas cores dos blocos em Alto Contraste estão disponíveis como pré-definições abaixo."
 			}
 		],
 		"dynamicEnable": true,
@@ -1039,7 +1039,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Multiple rows in backpack",
+		"name": "Múltiplas linhas na mochila",
 		"description": "Arranges the contents of the editor backpack into an expandable two-way grid, similar to the costume library and increases the size of certain thumbnails.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1066,8 +1066,8 @@
 	},
 	{
 		"id": "faster-project-loading",
-		"name": "Faster project loading",
-		"description": "Fixes a Scratch bug that slows down project loading if the editor is opened from a link.",
+		"name": "Carregamento de projeto mais rápido",
+		"description": "Corrige um bug do Scratch que desacelera o carregamento do projeto ao editor ser aberto através de um link.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1093,7 +1093,7 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
+		"name": "Dangos em destaque",
 		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
@@ -1725,7 +1725,7 @@
 	},
 	{
 		"id": "move-to-top-layer",
-		"name": "Move sprite to front layer",
+		"name": "Mover sprite para camada da frente",
 		"description": "Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1901,8 +1901,8 @@
 	},
 	{
 		"id": "op-badge",
-		"name": "Highlight project creator in comments",
-		"description": "Adds a badge next to the project creator in project comments sections. Also adds a badge next to the original poster in forum topics.",
+		"name": "Destacar o autor do projeto nos comentários",
+		"description": "Adiciona um ícone próximo ao autor do projeto na seção de comentários do projeto. Também é adicionado um ícone próximo ao autor original de um post do fórum.",
 		"tags": ["community", "forums", "featured", "comments"],
 		"credits": [
 			{
