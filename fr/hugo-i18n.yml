@@ -131,9 +131,6 @@ FeedbackPage:
           Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Nous n'avons aucun contrôle sur le contenu et la modération du site Scratch.{{ .Tag1Start }}Il existe de nombreuses façons de signaler sur le site Web de Scratch.{{ .Tag1End }}
            
            
-      BackpackBug:
-        Heading: Désactiver l'addon "Chargement de projet plus rapide".
-        Description: Il y a un bug connu avec l'addon "Chargement de projet plus rapide" qui vous empêche de déplacer des sprites de votre sac à dos. Pour l'instant, essayez de désactiver cet addon jusqu'à ce que votre navigateur reçoive la mise à jour v1.32.1.
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
 ChangelogPage:

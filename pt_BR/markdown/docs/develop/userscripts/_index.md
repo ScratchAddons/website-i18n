@@ -40,7 +40,7 @@ Manifest de exemplo:
 }
 ```
 
-## Criando seus primeiro userscript
+## Criando seu primeiro userscript
 
 Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
 ```js
@@ -70,7 +70,7 @@ Para mais informações, olhe o [API reference](/docs/reference/addon-api/).
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## Modificando o documento HTML
 
 Use o [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) para customizar o HTML da pagina.
 
@@ -119,7 +119,7 @@ For more information about localizing userscripts, see [this page](/docs/localiz
 {{</admonition >}}
 
 
-## Technical details
+## Detalhes técnicos
 
 Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
 

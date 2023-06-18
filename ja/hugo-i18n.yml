@@ -139,9 +139,6 @@ FeedbackPage:
       Punishment:
         Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
         Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}
-      BackpackBug:
-        Heading: 「プロジェクト読み込み速度改善」アドオンを無効化する。
-        Description: 「プロジェクト読み込み速度改善」アドオンには、スプライトをバックアップから読み込めないバグが存在します。バージョン1.32.1で修正されたので、更新されるまでアドオンを無効化してみてください。
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
 ChangelogPage:

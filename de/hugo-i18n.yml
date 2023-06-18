@@ -127,9 +127,6 @@ FeedbackPage:
       Punishment:
         Heading: Wir können niemanden bestrafen. Wir sind nicht das Scratch Team.
         Description: Scratch Addons ist nicht mit Scratch oder seinen übergeordneten Organisationen angeschlossen. Wir haben keine Kontrolle über den Inhalt und die Moderation der Scratch-Website. {{ .Tag1Start }}Es gibt viele Wege zum Melden auf der Scratch-Website.{{ .Tag1End }}
-      BackpackBug:
-        Heading: Deaktiviere das Addon "Projekte schneller laden".
-        Description: Es gibt einen Fehler im Addon "Projekte schneller laden", der das Holen von Figuren aus dem Lager verhindert. Bis dein Browser das v1.32.1-Update erhält, solltest du das Addon deaktivieren.
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-Logo
 ChangelogPage:

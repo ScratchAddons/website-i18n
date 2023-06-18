@@ -131,9 +131,6 @@ FeedbackPage:
       Punishment:
         Heading: We kunnen mensen niet bestraffen. Wij zijn niet het Scratch Team.
         Description: Scratch Addons is niet in samenwerking met de Scratch website of de organisaties die het onderhouden. We hebben geen controle over de inhoud en moderatie op de Scratch website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch website.{{ .Tag1End }}
-      BackpackBug:
-        Heading: Schakel de addon "Projecten sneller laden" uit.
-        Description: Er is een bekende bug met de addon "Projecten sneller laden" die je ervan weerhoudt om sprites uit je rugzak te halen. Schakel de addon uit totdat je browser de v1.32.1-update ontvangt.
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
 ChangelogPage:
