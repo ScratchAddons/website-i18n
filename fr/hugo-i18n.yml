@@ -131,6 +131,8 @@ FeedbackPage:
           Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Nous n'avons aucun contrôle sur le contenu et la modération du site Scratch.{{ .Tag1Start }}Il existe de nombreuses façons de signaler sur le site Web de Scratch.{{ .Tag1End }}
            
            
+      Theme3CrashBug:
+        Heading: Il y a un bug avec l'addon " bloc de customisation de couleurs"
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
 ChangelogPage:
