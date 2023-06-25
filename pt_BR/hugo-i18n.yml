@@ -142,6 +142,7 @@ ChangelogPage:
     ReleaseGitHub: Página de lançamentos no GitHub
     RepoState: Estado do repositório na época do lançamento
     CommitsMade: Commits feitos nessa versão
+    BlogPost: Posts do Blog dessa versão
   Status:
     Latest: Mais recente
 UnsupportedBrowserPage:
