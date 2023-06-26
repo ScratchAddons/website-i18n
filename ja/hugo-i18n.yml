@@ -139,6 +139,9 @@ FeedbackPage:
       Punishment:
         Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
         Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}
+      Theme3CrashBug:
+        Heading: 「ブロックの色をカスタマイズ」アドオンにバグがあります。
+        Description: このアドオンには、定義ブロックの作成時にクラッシュするバグがあります。これは新しいバージョン (1.33.1) で修正されています。拡張機能を更新するか、更新が配信されるまで待ってください。{{ .Tag1Start }}詳細はこちら。{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
 ChangelogPage:
