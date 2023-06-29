@@ -44,7 +44,7 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Nastavi sličico",
+		"name": "Nastavitev sličice",
 		"description": "Doda gumb v spodnji desni del strani projekta, s katerim lahko nastavite sličico projekta na poljubno sliko (ali gif).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
@@ -630,9 +630,9 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.23.0",
-			"isMajor": true,
-			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -794,7 +794,7 @@
 	{
 		"id": "editor-buttons-reverse-order",
 		"name": "Obratno zaporedje gumbov za nadzor projekta",
-		"description": "Premakne zeleno zastavico in gumb Ustavi na desno in gumb za celozaslonski način na desno, kot v Scratchu 2.0.",
+		"description": "Premakne zeleno zastavico in gumb Ustavi na desno in gumb za celozaslonski način na levo, kot v Scratchu 2.0.",
 		"tags": ["editor", "projectPlayer", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -865,9 +865,9 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.32.0",
-			"newSettings": ["popup"],
-			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -994,10 +994,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.31.0",
-			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
-		},
+		"latestUpdate": { "version": "1.33.2", "isMajor": true },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1213,7 +1210,7 @@
 	{
 		"id": "forum-live-preview",
 		"name": "Samodejni predogled objave v forumih",
-		"description": "Ko med pisanjem ali urejanjem objave v forumih nehate tipkati, pokaže predogled.",
+		"description": "Ko med pisanjem ali urejanjem objave v forumih nehate tipkati, samodejno pokaže predogled.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1333,7 +1330,7 @@
 	{
 		"id": "hi-res-thumbnails",
 		"name": "Višja ločljivost sličic",
-		"description": "Zamenja sličice na spletni strani s slikami z višjo ločljivostjo. Uporabno za zaslone z visoko ločljivostjo (Retina) in povečave, večje od 100%.",
+		"description": "Zamenja sličice na spletni strani s slikami z višjo ločljivostjo. Uporabno za zaslone z visoko ločljivostjo (Retina) in brskanje s povečavo, večjo od 100%.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "_nix", "link": "https://scratch.mit.edu/users/_nix/" }
@@ -1443,7 +1440,7 @@
 	{
 		"id": "hide-stage",
 		"name": "Skrij oder in seznam figur",
-		"description": "Zraven gumbov \"manjši oder\" in \"večji oder\" doda gumb, ki skrije oder in seznam figur, kar zelo poveča prostor za kodo.",
+		"description": "Zraven gumbov \"manjši oder\" in \"večji oder\" doda gumb, ki skrije oder in seznam figur, kar naredi prostor za kodo veliko večji.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1486,7 +1483,7 @@
 	{
 		"id": "infinite-scroll",
 		"name": "Neskončno drsenje",
-		"description": "Omogoča drsenje navzdol, ne da bi kliknili \"naloži več\".",
+		"description": "Na različnih delih spletne strani omogoči drsenje navzdol, ne da bi kliknili \"naloži več\".",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
@@ -1868,7 +1865,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Ta dodatek ne deluje na mobilnih napravah in v majhnih oknih.",
+				"text": "Ta dodatek ne deluje dobro na mobilnih napravah in v majhnih oknih.",
 				"id": "mobile"
 			},
 			{
@@ -2122,7 +2119,7 @@
 	},
 	{
 		"id": "rename-broadcasts",
-		"name": "Preimenovanje sporočil",
+		"name": "Preimenuj sporočila",
 		"description": "V meni bloka \"objavi\" doda možnost za preimenovanje sporočila.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -2414,7 +2411,7 @@
 	{
 		"id": "studio-tools",
 		"name": "Orodje za studie",
-		"description": "Omogoča upraviteljem studiov, da enostavno spremenijo skrbnike v upravitelje ali kogarkoli odstranijo iz studia na zavihku \"skrbniki\" ter doda gumb pod \"Sledi studiu\", s katerim lahko zapustite studio.",
+		"description": "Omogoča upravljalcem studiov, da enostavno povišajo skrbnike v upravljalce ali kogarkoli odstranijo iz studia na zavihku \"skrbniki\" ter doda gumb pod \"Sledi studiu\", s katerim lahko zapustite studio.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },

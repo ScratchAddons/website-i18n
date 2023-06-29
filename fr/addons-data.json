@@ -630,9 +630,9 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.23.0",
-			"isMajor": true,
-			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -865,9 +865,9 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.32.0",
-			"newSettings": ["popup"],
-			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -994,10 +994,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.31.0",
-			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
-		},
+		"latestUpdate": { "version": "1.33.2", "isMajor": true },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1096,8 +1093,8 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
-		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
+		"name": "Dangos mis en avant",
+		"description": "Une blague Scratch Addons poisson d'avril de 2023 qui a ajouté une ligne à la première page présentant des projets liés au Dango.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -1907,7 +1904,7 @@
 	},
 	{
 		"id": "op-badge",
-		"name": "Highlight project creator in comments",
+		"name": "Surligner le créateur du projet dans les commentaires",
 		"description": "Ajoute un badge à côté du créateur du projet dans les sections de commentaires du projet. Ajoute également un badge à côté de l'auteur du projet dans les rubriques du forum.",
 		"tags": ["community", "forums", "featured", "comments"],
 		"credits": [

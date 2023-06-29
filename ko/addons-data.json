@@ -627,9 +627,9 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.23.0",
-			"isMajor": true,
-			"temporaryNotice": "You can now completely customize the appearance of the Scratch website."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -862,9 +862,9 @@
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
-			"version": "1.32.0",
-			"newSettings": ["popup"],
-			"temporaryNotice": "You can now customize the color of popup backdrops (the solid-color background behind prompts for actions like naming a new variable) separately."
+			"version": "1.33.2",
+			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
+			"isMajor": true
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -914,8 +914,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Block dropdown search",
-		"description": "Allows you to search the options in block dropdowns.",
+		"name": "블록 드롭 다운 검색",
+		"description": "블록 드롭 다운에서 검색할 수 있도록 합니다.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -991,10 +991,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": {
-			"version": "1.31.0",
-			"temporaryNotice": "Two new presets have been added, including a preset for the new high-contrast block colors coming to Scratch soon."
-		},
+		"latestUpdate": { "version": "1.33.2", "isMajor": true },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1958,12 +1955,12 @@
 	{
 		"id": "pause",
 		"name": "일시정지 버튼",
-		"description": "Adds a button to pause the project next to the green flag.",
+		"description": "시작 버튼 옆에 일시 정지 버튼을 추가합니다.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "The project can also be paused with Alt+X (Option+X on macOS).",
+				"text": "프로젝트는 Alt+X 키로도 멈출 수 있습니다 (macOS에서는 Option+X).",
 				"id": "keybind"
 			}
 		],
@@ -2334,7 +2331,7 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Share through My Stuff",
+		"name": "내 작업실을 통해 공유하기",
 		"description": "Share projects through the My Stuff page.",
 		"tags": ["community"],
 		"credits": [
