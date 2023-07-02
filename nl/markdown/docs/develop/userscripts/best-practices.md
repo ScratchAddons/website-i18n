@@ -87,7 +87,7 @@ Avoid overusing parentElement when traversing an element's ancestors. Instead, u
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Doe dit niet:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
 })
@@ -96,7 +96,7 @@ reportButton.addEventListener("click", (event) => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Doe in plaats daarvan dit:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.closest(".comment");
 })
@@ -152,7 +152,7 @@ window.isDarkMode = true;
 
 Er is geen reden om functies buiten de `export default async function(){}`-functie te verklaren. JavaScript geeft je de mogelijkheid om functies binnen andere functies te verklaren.
 
-You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
+Indien gepast mag je functies verplaatsen naar aparte JS module bestanden (welke niet zijn verklaard als userscripts in de addon manifest), maar onthoud dat die geïmporteerde bestanden geen toegang hebben tot het `addon`-object, tenzij je een setupfunctie "exposet" die het als een argument accepteert, en roep de functie op in het ingangspunt van de userscript.
 
 ### Do not unpollute functions
 
