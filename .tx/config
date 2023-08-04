@@ -176,13 +176,6 @@ source_file = en/html-content/extension-settings.html
 source_lang = en
 type = HTML_FRAGMENT
 
-[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userstyles]
-file_filter = <lang>/markdown/docs/develop/userstyles.md
-minimum_perc = 0
-source_file = en/markdown/docs/develop/userstyles.md
-source_lang = en
-type = GITHUBMARKDOWN
-
 [o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userscripts__index]
 file_filter = <lang>/markdown/docs/develop/userscripts/_index.md
 minimum_perc = 0
@@ -201,5 +194,26 @@ type = GITHUBMARKDOWN
 file_filter = <lang>/markdown/docs/develop/userscripts/debugging-userscripts.md
 minimum_perc = 0
 source_file = en/markdown/docs/develop/userscripts/debugging-userscripts.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userstyles__index]
+file_filter = <lang>/markdown/docs/develop/userstyles/_index.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userstyles/_index.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userstyles_best-practices]
+file_filter = <lang>/markdown/docs/develop/userstyles/best-practices.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userstyles/best-practices.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_develop_userstyles_debugging-userstyles]
+file_filter = <lang>/markdown/docs/develop/userstyles/debugging-userstyles.md
+minimum_perc = 0
+source_file = en/markdown/docs/develop/userstyles/debugging-userstyles.md
 source_lang = en
 type = GITHUBMARKDOWN
