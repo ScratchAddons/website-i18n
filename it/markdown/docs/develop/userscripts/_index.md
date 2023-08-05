@@ -1,30 +1,30 @@
 ---
 title: Userscript
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Gli userscript sono file JavaScript che vengono eseguiti ogni volta che l'utente carica una pagina di Scratch. Possono modificare il codice HTML del documento, aggiungere nuovi pulsanti, personalizzare il comportamento dell'editor di Scratch e molto altro ancora.
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Gli userscript sono file JavaScript che vengono eseguiti ogni volta che l'utente carica una pagina di Scratch. Possono modificare il codice HTML del documento, aggiungere nuovi pulsanti, personalizzare il comportamento dell'editor di Scratch e molto altro ancora.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+In modo simile agli userscript che potresti scaricare per gestori di userscript come Tampermonkey o Greasemonkey, gli userscript di Scratch Addons consistono di porzioni di codice JavaScript che vengono eseguite nello stesso contesto di esecuzione del codice JavaScript di Scratch. Nelle terminologia delle estensioni del browser, questo contesto di esecuzione è spesso chiamato il "main world".
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Anche se gli userscript di Scratch Addons fanno parte di un'estensione del browser, non possono accedere a nessuna API `chrome.*` or `browser.*`. Al contrario, Scratch Addons offre una [`API addon.*`](/docs/reference/addon-api/). 
 
 
-## Declaring userscripts in the addon manifest
+## Dichiarazione di userscript nel file manifest dell'addon
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+Per avere effetto, **alcune modifiche richiedono di ricaricare l'estensione** da `chrome://extensions`. Ad esempio è necessario quando si modifica il file manifest dell'addon.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Quando cambi il sorgente di uno userscript JavaScript che esiste già non è necessario ricaricare l'estensione. In questi casi è sufficiente ricaricare la pagina.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Gli userscript sono dichiarati nell'array "userscripts".
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+Ogni elemento dell'array deve avere le seguenti proprietà:
+- `"url"`: l'URL relativo di un file Javascript.
+- `"matches"`: la lista di pagine Scratch a cui lo userscript verrà eseguito. Per ulteriori informazioni vai a [matches](/docs/reference/addon-manifest/#matches).
 
-Example manifest:
+Esempio di manifest:
 ```json
 {
   "name": "Copy link to comment button",
@@ -40,7 +40,7 @@ Example manifest:
 }
 ```
 
-## Creating your first userscript
+## Creazione del tuo primo userscript
 
 Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
 ```js
