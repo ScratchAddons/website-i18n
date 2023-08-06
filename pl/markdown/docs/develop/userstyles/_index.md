@@ -1,9 +1,9 @@
 ---
 title: Style użytkownika
-description: Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+description: Style użytkownika to zasady CSS, które wpływają na strony Scratch. Mogą zmieniać styl istniejących elementów interfejsu Scratcha, oraz elementów z dodatków Scratch Addons.
 ---
 
-Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+Style użytkownika to zasady CSS, które wpływają na strony Scratch. Mogą zmieniać styl istniejących elementów interfejsu Scratcha, oraz elementów z dodatków Scratch Addons.
 
 
 ## Declaring userstyles in the addon manifest
@@ -55,7 +55,7 @@ Example manifest:
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Dynamicznie przełączanie stylów użytkownika po przeładowaniu strony
 
 It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
 

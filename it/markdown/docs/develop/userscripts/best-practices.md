@@ -1,93 +1,93 @@
 ---
 title: Migliori Pratiche
-description: Follow these best practices when writing or reviewing userscript code.
+description: Segui queste migliori pratiche quando scrivi o rivedi gli userstyle.
 ---
 
-Follow these best practices when writing or reviewing userscript code.
+Segui queste migliori pratiche quando scrivi o rivedi gli userstyle.
 
 
-## DOM manipulation
+## Manipolazione del DOM
 
 
-### Use addEventListener instead of "onevent"
+### Usa addEventListener invece di "onevent"
 
-Avoid setting "onevent" values on HTML elements, such as `onclick`. Instead, use `addEventListener`. This allows multiple addons to register the same event on the same element, without conflicting.  
-It is still valid to use "onevent", but only for elements that were created by the same addon that is registering the event.  
-In all cases, avoid setting "onevent" HTML attributes, for example `element.setAttribute("onclick", "don't do this")`.
+Evita di definire le proprietà "onevent" degli elementi HTML, come ad esempio `onclick`. Usa invece `addEventListener`. Questo permette a più addon di registrare lo stesso evento sullo stesso elemento, senza creare conflitti.  
+L'uso di "onevent" resta valido, ma solo per gli elementi che vengono creati dallo stesso addon che registra l'evento.  
+In ogni caso, evita di definire gli attributi HTML "onevent", ad esempio `element.setAttribute("onclick", "non usare questo sistema")`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON usare questo sistema:
 document.querySelector(".remix-button").onclick = () => {
-  prompt("Are you sure you want to remix?");
+  prompt("Sei sicuro di voler creare un remix?");
 };
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Usa invece QUESTO sistema:
 document.querySelector(".remix-button").addEventListener("click", () => {
-  prompt("Are you sure you want to remix?");
+  prompt("Sei sicuro di voler creare un remix?");
 });
 ```
 {{< /admonition >}}
 
-### Avoid using innerHTML
+### Evita l'uso di innerHTML
 
-Avoid using `innerHTML`. Use `innerText` or `textContent` instead.  
-Other APIs that can potentially lead to XSS vulnerabilities should be avoided too, such as `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
+Evita l'uso di `innerHTML`. Usa invece `innerText` o `textContent`.  
+Dovrebbero essere evitate anche altre API che possono portare a vulnerabilità XSS, come ad esempio `insertAdjacentHTML`, `outerHTML`, `document.write()`, ecc.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON usare questo sistema:
 document.querySelector(".sa-remix-button").innerHTML = `<span>Remix ${projectTitle}</span>`;
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Usa invece QUESTO sistema:
 const span = document.createElement("span");
 span.textContent = `Remix ${projectTitle}`;
 document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
-### Hide elements instead of removing them
+### Nascondi gli elementi invece di rimuoverli
 
-Avoid calling `.remove()` on HTML elements, which in extreme cases, can cause the project page to crash.  
-Addons may only use it for elements they themselves created, in specific situations.
+Evita di chiamare il metodo `.remove()` sugli elementi HTML in quanto, in casi estremi, può causare il blocco della pagina.  
+Gli addon possono usarlo solo per gli elementi che creano essi stessi, in situazioni specifiche.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON usare questo sistema:
 document.querySelector(".remix-button").remove();
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Usa invece QUESTO sistema:
 document.querySelector(".remix-button").style.display = "none";
 
-// Or do this, with help from a userstyle:
+// Oppure questo sistema, con l'aiuto di uno userstyle:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
 
-### Only use waitForElement when necessary
+### Usa waitForElement solo quando necessario
 
-Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
-For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.
+Evita di utilizzare l'API `addon.tab.waitForElement` se è garantito che l'elemento esista. Funzionerà comunque e le prestazioni non ne risentiranno in modo significativo, ma potrebbe confondere gli altri sviluppatori che leggono il codice. L'uso di waitForElement dovrebbe di solito significare che c'è almeno uno scenario in cui l'elemento non esiste a quel punto dell'esecuzione.
+Ad esempio, non è necessario utilizzare waitForElement quando si cerca di trovare i post nel forum, a meno che lo userscript non sia stato dichiarato con `"runAtComplete": false`. In quei casi, usa semplicemente `document.querySelectorAll()` normalmente.
 
-### Use element.closest() instead of abusing parentElement
+### Usa element.closest() invece di abusare di parentElement
 
-Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+Evita di usare troppo spesso parentElement quando attraversi gli antenati di un elemento. Usa invece `element.closest()`, che funziona in modo molto simile a `element.querySelector()`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON usare questo sistema:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
 })
@@ -96,7 +96,7 @@ reportButton.addEventListener("click", (event) => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Usa invece QUESTO sistema:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.closest(".comment");
 })
@@ -104,25 +104,25 @@ reportButton.addEventListener("click", (event) => {
 {{< /admonition >}}
 
 
-## JavaScript best practices
+## Migliori pratiche JavaScript
 
 
-### Use modern JavaScript
+### Usa lo stile più moderno di JavaScript
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
-- Use optional chaining if an object can sometimes be `null`.  
-For example, `document.querySelector(".remix-button")?.textContent`.
-- Use `for ... of` loops or `.forEach()`.  
-Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
+- Dai la preferenza alle API più recenti, usando ad esempio `fetch()` invece di `XMLHttpRequest`.
+- Non usare mai `==` per i confronti. Usa invece `===`.
+- Usa la concatenazione opzionale se un oggetto potrebbe essere `null`.  
+Ad esempio, `document.querySelector(".remix-button")?.textContent`.
+- Usa cicli `for ... of` o usa `.forEach()`.  
+Evita cicli in stile C come `for (let i = 0; i < arr.length; i++)`.
 
-### Only use "let" over "const" if the variable may be reassigned
+### Usa "let" invece di "const" se il valore della variabili può venire modificato
 
 {{< admonition info >}}
-We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
-For constant strings or numbers, we usually use `SNAKE_CASE`.
+Solitamente usiamo il formato `camelCase` per i nomi della variabili, senza fare differenze se sono state dichiarate con "let" o "const".  
+Per i nomi delle costanti, sia che siano stringhe o numeri, solitamente usiamo il formato `SNAKE_CASE`.
 
-Here's an example:
+Ecco un esempio:
 ```js
 let actionCounter = 0;
 actionCounter++;
@@ -133,32 +133,33 @@ const DEFAULT_ZOOM = 1.20;
 ```
 {{< /admonition >}}
 
-People reading your code may assume that a variable that was declared through the "let" keyword might be reassigned at some other point of the script. If that's not the case, use the "const" keyword instead.  
-Remember that in JavaScript, declaring an object or an array as a "const", does not mean its values are frozen. Values in the object can still be changed, even if the variable itself cannot be reassigned.
+Le persone che leggono il tuo codice potrebbero supporre che una variabile dichiarata con la parola chiave "let" potrebbe essere riassegnata in un altro punto dello script. Se ciò non è vero, usa invece la parola chiave "const".
+Ricorda che in JavaScript dichiarare un oggetto o un array come "const" non significa che i suoi valori siano immodificabili. I valori all'interno dell'oggetto possono ancora essere modificati, anche se la variabile stessa non può essere riassegnata.
 
-### Do not set global variables
+### Non definire variabili globali
 
-Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
-If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
+Evita di impostare proprietà dell'oggetto globale `window`, a meno che tu non stia estendendo una funzione globale come `fetch()`. 
+Se più addon devono condividere informazioni o funzioni tra di loro, crea un file modulo JavaScript e importalo in entrambi gli userscript.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON usare questo sistema:
 window.isDarkMode = true;
 ```
 {{< /admonition >}}
 
-### Do not declare functions outside of the default export
+### Non dichiarare funzioni al di fuori del default export
 
-There's no reason to declare functions outside the `export default async function(){}` function. JavaScript allows functions to be declared inside other functions.
+Non c'è nessuna necessità di dichiarare funzioni fuori dalla funzione `export default async function(){}`. JavaScript permette infatti di dichiarare funzioni all'interno di altre funzioni.
 
-You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
+Nel caso in cui sia appropriato, puoi spostare le funzioni in file di modulo di JS separati (che non sono dichiarati come userscript nel manifesto dell'addon) ma tieni presente che i file importati non avranno accesso all'oggetto `addon`, a meno che tu non esponga una funzione di configurazione che lo prenda come argomento e chiami poi questa funzione nell'entry point dello userscript.
+ 
 
-### Do not unpollute functions
+### Non rimuovere le estensioni delle funzioni
 
-Multiple addons might want to pollute the same function, such as Scratch VM methods, `XMLHttpRequest`, `fetch()` or `FileReader()`.  
-In those cases, one of the userscripts will be polluting the real function, while the others will be polluting functions which were already polluted themselves. If, for example, the first userscript that polluted decides to unpollute (for example, by doing `window.fetch = realFetch`), then all other functions in the "pollution chain" are also lost, which is unexpected.  
-For this reason, functions should not be unpolluted. Instead, pass the arguments to the original function.
+In alcuni casi, più addon potrebbero voler estendere la stessa funzione, come ad esempio i metodi di Scratch VM `XMLHttpRequest`, `fetch()` o `FileReader()`.
+In questi casi uno degli userscript estenderà la funzione originale, mentre gli altri estenderanno funzioni che erano già state estese da altri. Se, ad esempio, il primo userscript che ha esteso la funzione decide di ripristinare la funzione originale (ad esempio, eseguendo  `window.fetch = realFetch`), allora tutte le altre funzioni nella "catena di estensioni" vengono perse in modo imprevisto.
+Per questo motivo, le funzioni non dovrebbero essere mai ripristinate. Invece di farlo, passa gli argomenti alla funzione originale.
 
 {{< admonition error >}}
 ```js
@@ -168,7 +169,7 @@ const newDeleteSprite = function (...args) {
 }
 
 addon.self.addEventListener("disabled", () => {
-  // Don't do this:
+  // NON usare questo sistema:
   vm.deleteSprite = oldDeleteSprite;
 });
 ```
@@ -176,7 +177,7 @@ addon.self.addEventListener("disabled", () => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Usa invece QUESTO sistema:
 const oldDeleteSprite = vm.deleteSprite;
 const newDeleteSprite = function (...args) {
   if (addon.self.disabled) return oldDeleteSprite.apply(this, args);

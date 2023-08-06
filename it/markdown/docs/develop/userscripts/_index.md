@@ -42,93 +42,94 @@ Esempio di manifest:
 
 ## Creazione del tuo primo userscript
 
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
+A differenza degli script di contenuto delle estensioni e degli userscript di Tampermonkey, è necessario inserire tutto il codice all'interno di default export di un modulo:
+ 
 ```js
-// Example userscript
+// Userscript di esempio
 export default async function ({ addon, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
-  console.log("How are you today?");
+  console.log("Ciao, " + await addon.auth.fetchUsername());
+  console.log("Come va oggi?");
 }
 ```
 
-Remember that JavaScript allows functions to be declared inside other functions, for example:
+Ricorda che JavaScript permette di dichiarare funzioni all'interno di altre funzioni, ad esempio:
 ```js
 export default async function ({ addon, console }) {
   async function sayHelloToUser() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
+    console.log("Ciao, " + await addon.auth.fetchUsername());
   }
 
   await sayHelloToUser();
-  console.log("How are you today?");
+  console.log("Come va oggi?");
 }
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Da uno userscript puoi accedere molte funzioni della API `addon.*`. Ad esempio, puoi sapere lo username attuale, attendere fino a che un certo elemento è presente nella pagina o ricavare un riferimento all'oggetto Scratch VM.
 
-For more information, check the [API reference](/docs/reference/addon-api/).
+Per ulteriori informazioni vai alla [guida di riferimento dell'API](/docs/reference/addon-api/).
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## Modificare il codice HTML del documento 
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Per personalizzare il codice HTML della pagina usa le [API del DOM del browser](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API).
 
-Here's an example:
+Ecco un esempio:
 ```js
 const myButton = document.createElement("button");
-myButton.textContent = "Click me!";
+myButton.textContent = "Cliccami!";
 myButton.classList.add("button");
-myButton.setAttribute("title", "You're hovering a button");
+myButton.setAttribute("title", "Stai passando con il mouse sopra ad un pulsante");
 
 const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Localizzazione degli userscript
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Gli userscript degli addon a volte devono mostrare parole o frasi in inglese. Assicurati di non inserirle direttamente nel codice in modo che possano entrare a far parte integrante del processo di traduzione di Scratch Addons. 
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// NON scrivere il codice il questo modo:
 document.querySelector(".sa-find-bar").placeholder = "Find blocks";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Per creare una scritta che possa essere tradotta, segui questi passi:
+1. Crea un file chiamato `addon-id.json` dentro la cartella `/addon-l10n/en`.
+2. Crea un ID per ogni stringa:
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Assicurati di importare la funzione `msg()` nel tuo userscript. La prima linea del tuo userscript dovrebbe essere questa:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Nel tuo codice usa la funzione `msg()` invece di una stringa cablata:
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Per ulteriori informazioni sulla localizzazione degli userscripts vai a [questa pagina](/docs/localization/localizing-addons/).
 {{</admonition >}}
 
 
-## Technical details
+## Dettagli tecnici 
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Il file di ogni userscript è un modulo JavaScript che esporta una funzione. Scratch Addons importa il modulo solo se è necessario e lo esegue dopo che la pagina è stata completamente caricata.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Gli userscript sono moduli JavaScript, quindi vengono sempre eseguiti in ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Questo significa che gli userscript possono usare [importazioni top-level](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) per importare altri file JavaScript.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+L'ordine in cui gli userscript vengono eseguiti varia ad ogni caricamento della pagina. Dopo che la pagina è stata caricata l'utente può abilitare dinamicamente alcuni addon nell'ordine che preferisce, quindi l'ordine di esecuzione non è mai garantitoa. Alcune API, come ad esempio [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/), tentano di risolvere ogni race condition e ogni comportamento inatteso quando si caricano dinamicamente gli addon.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Gli userscript possono scegliere di essere eseguiti prima che la pagina sia completamente caricata specificando `"runAtComplete": false` nel file manifest dell'addon. Va fatto per ogni userscript.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Al momento, solo l'esistenza di `document.head` è garantita se si esegue uno userscript in anticipo. In futuro sarà garantita anche l'esistenza di `document.body`, quindi nessuno userscript verrà eseguito prima che il documento HTML sia stato caricato abbastanza da raggiungere `</head> <body>`.

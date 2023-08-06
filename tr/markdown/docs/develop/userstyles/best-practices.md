@@ -1,36 +1,36 @@
 ---
 title: En İyi Yöntemler
-description: Follow these best practices when writing or reviewing userstyles.
+description: Userstyle yazarken veya incelerken bu en iyi yöntemleri takip edin.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Userstyle yazarken veya incelerken bu en iyi yöntemleri takip edin.
 
 
-<!-- TODO: ## Addon dark mode support -->
-<!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
+<!-- YAPILACAK: ## Eklenti karanlık modu desteği -->
+<!-- Editor-dark-mode, dark-www ve scrapr2'den CSS değişkenlerine atıfta bulunma örnekleri -->
 
 
-## Internationalization
+## Uluslararasılaştırma
 
-### Consider languages with longer words
+### Daha uzun sözcükleri olan dilleri göz önünde bulundur
 
-Remember that im some languages, UI elements such as buttons may be narrower or wider.
+Bazı dillerde düğmeler gibi UI ögelerinin daha dar veya daha geniş olabileceğini unutmayın.
 
-<!-- TODO: ### Supporting right-to-left languages (RTL) -->
-
-
-## Styling existing Scratch UI
+<!-- YAPILACAK: ### Sağdan sola yazılan dilleri destekleme (RTL) -->
 
 
-### Avoid targeting hashed class names
+## Scratch'in var olan UI'ını şekillendirme
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
+
+### Karma işlevi uygulanmış sınıf adlarını hedeflemekten kaçının
+
+Scratch proje düzenleyicisi genellikle `class_name_{hash}` biçimini izleyen sınıf adları içerir. Örneğin, `green-flag_green-flag_1kiAo`.
 
 As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
 
 {{< admonition error >}}
 ```css
-/* Don't do this: */
+/* Bunu yapmayın: */
 .green-flag_green-flag_1kiAo {
   visibility: hidden;
 }
@@ -39,20 +39,20 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 {{< admonition success >}}
 ```css
-/* Do this instead: */
+/* Onun yerine bunu yapın: */
 [class*="green-flag_green-flag_"] {
   visibility: hidden;
 }
 ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Kesinlikle gerekli olmadıkça `!important`tan kaçının
 
 If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
 <!-- This could be more detailed -->
 
 
-## Styling addon UI elements
+## Eklentinin UI ögelerini şekillendirme
 
 
 ### Begin addon-defined class names with `sa-`

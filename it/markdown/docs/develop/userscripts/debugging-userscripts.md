@@ -1,19 +1,19 @@
 ---
 title: Suggerimenti per il debug
-description: Tips to easily debug userscripts, and edge cases to consider.
+description: Suggerimenti per debuggare facilmente gli userstyle e casi limite di cui tener conto.
 ---
 
-Tips to easily debug userscripts, and edge cases to consider.
+Suggerimenti per debuggare facilmente gli userstyle e casi limite di cui tener conto.
 
 ## Suggerimenti
 
-### Non sempre è necessario ricaricare l'stensione
+### Non sempre è necessario ricaricare l'estensione
 
-Quando cambi il sorgente di un file JavaScript o CSS che esiste già non è necessario ricaricare l'etensione andando alla pagina `chrome://extensions`. In questi casi è sufficiente ricaricare la pagina.
+Quando cambi il sorgente di un file JavaScript o CSS che esiste già non è necessario ricaricare l'estensione andando alla pagina `chrome://extensions`. In questi casi è sufficiente ricaricare la pagina.
 
-### Use the addon.* API from the console
+### Usa l'API addon.* nella console
 
-For development, you may choose to expose the `addon` object as a global variable, so that it can be accessed within the browser console.
+Durante lo sviluppo puoi esporre l'oggetto `addon` come una variabile globale, in modo che ti sia possibile usarlo nella console del browser.
 
 ```js
 export default async function ({ addon, console }) {
@@ -22,47 +22,47 @@ export default async function ({ addon, console }) {
 }
 ```
 
-### Set breakpoints with the "debugger" keyword
+### Imposta i punti di interruzione usando la keyword "debugger"
 
-The `debugger;` keyword in JavaScript will freeze the page when ran, if the developer tools are open. Setting breakpoints is useful to inspect the value of local variables during execution.
+la keyword `debugger;` blocca la pagina quando viene eseguita se gli strumenti per gli sviluppatori sono aperti. Impostare dei punti di interruzione è utile per ispezionare durante l'esecuzione il valore delle variabili locali.
 
-### Filter console messages by addon ID
+### Filtrare i messaggi delle console per ID degli addon
 
-Enter the addon ID on the "filter" console search bar to only view logs and warnings, as well errors logged with `console.error()`. Keep in mind that this will hide all exceptions, unless you're explicitly logging them in your code.
-
-
-## Edge cases
+Inserisci l'ID dell'addon ID nella barra di ricerca "filter" della console per vedere solo log e warning o errori inseriti nella console con `console.error()`. Ricorda che questa nasconderà tutte le eccezioni a meno che tu nel tuo codice non le stia loggando esplicitamente.
 
 
-### Scratch project page and editor
+## Casi limite
 
 
-#### The DOM is destroyed after going inside or outside the editor
-
-Scratch creates all HTML elements each time the user clicks "see inside" or "see project page", and destroys the old ones.  
-This can usually be fixed by using `addon.tab.waitForElement` or the `urlChange` event.
-
-#### The Scratch editor language can be changed without a reload
-
-Unlike the Scratch website, the Scratch editor will not reload when changing the language. When selecting a different language, Scratch might destroy and re-create some HTML elements.
-
-#### Other situations to consider
-
-- The project editor may be used without a defined project ID (for example, when logged out).
-- The editor might switch from LTR to RTL (or viceversa) without requiring a page reload.
+### Pagina e editor dei progetti di Scratch
 
 
-### Scratch website
+#### Il DOM viene distrutto quando si entra o si esce dall'editor
 
-#### scratch-www pages don't reload after logging in
+Scratch crea tutti gli elementi HTML ogni volta che l'utente clicca "guarda dentro" o "vai alla pagina del progetto" e distrugge quelli vecchi.  
+Questo problema può essere risolto usando `addon.tab.waitForElement` o l'evento `urlChange`.
 
-Unlike scratchr2 pages, scratch-www pages do not force a page reload after logging in. For example, if you go to a project page while being logged out, then log in, the page will not reload. This also affects studios, the messages page, etc.  
-In contrast, all Scratch pages reload after logging out.
+#### La lingua dell'editor di Scratch può essere cambiata senza dover ricaricare la pagina
 
-#### Project pages never return 404s
+Diversamente dal sito di Scratch, l'editor di Scratch non si ricaricherà quando si chiama la lingua. Quando si seleziona una lingua diversa Scratch potrebbe distruggere e ricreare alcuni elementi HTML.
 
-Even if the project is unshared or doesn't exist, Scratch returns a 200 HTTP status code. The "our server is Scratch'ing its head" message is added dynamically to the page by Scratch.
+#### Altre situazioni da tener presente
 
-#### Other situations to consider
+- L'editor di progetti può essere usato senza un ID di progetto definito (ad esempio quando non si è loggati al sito).
+- L'editor potrebbe passare dal LTR a RTL (o viceversa) senza che sia necessario ricaricare la pagina.
 
-- Each of the 4 tabs inside studios have different URLs, but do not trigger a browser navigation. Addons that affect any of the 4 pages should run, no matter the initial URL.
+
+### Il sito di Scratch
+
+#### le pagine di scratch-www non si ricaricano dopo che si è acceduto al sito
+
+Diversamente dalle pagine di scratchr2, le pagine di scratch-www pages non forzano un ricaricamento della pagina dopo che si è acceduto al sito. Ad esempio, se vai alla pagina di un progetto dopo aver fatto il logout, poi fai il login, la pagina non sarà ricaricata. Questo riguarda anche la gallerie, la pagina dei messaggi, ecc.  
+Invece tutte le pagine di Scratch vengono ricaricate dopo un logout.
+
+#### Le pagina dei progetti non restituiscono mai un errore 404
+
+Anche se il progetto non è più condiviso o non esiste, Scratch restituisce sempre il codice di stato HTTP 200. Il messaggio "our server is Scratch'ing its head" è aggiunto dinamicamente alla pagina dal server di Scratch.
+
+#### Altre situazioni da tener presente
+
+- Le 4 schede dentro le pagine delle gallerie ha URL diversi, ma non avviano una navigazione nel browser. Tutti gli addons che gestiscono una qualunque delle 4 pagine vengono quindi eseguiti, indipendentemente da quale sia l'URL iniziale.
