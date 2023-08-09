@@ -61,48 +61,48 @@ Het is normaal gesproken onnodig om een JavaScript-userscipt te gebruiken om dyn
 
 - Includeer `dynamicEnable: true` in de addonmanifest om de extensie userstyles dynamisch in de pagina te laten zetten als de addon (voor de eerste keer) ingeschakeld wordt nadat de pagina is geladen.
 - Includeer `dynamicDisable: true` in de addonmanifest om de extensie userstyles dynamisch weg te laten halen uit de pagina of juist er weer in te zetten als de addon wordt geschakeld, zonder dat de pagina moet herladen.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- Includeer `updateUserstylesOnSettingsChange: true` in de addonmanifest om de "if"-condities die afhangen van gebruikersinstellingen opnieuw te laten evalueren. De extensie zal userstyles overeenkomstig weghalen of erin zetten.
 
 
-## Accessing addon settings from CSS
+## Toegang krijgen tot addoninstellingen van CSS
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Userstyles kunnen makkelijk kleur- en numerieke instellingen bekijken door CSS-variabelen. Ze kunnen ook toegang krijgen tot instellingen van andere ingeschakelde addons.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+De CSS-variabelen volgen altijd het `--addonId-settingId`-formaat. Setting ID's worden altijd omgezet van kebab-case naar camelCase.
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Deze CSS-variabelen zijn altijd beschikbaar voor alle ingeschakelde addons en geen manifest-eigenschap is nodig om ze te exposen. Ze zijn ook gesynchroniseerd met gebruikersinstellingen zonder de pagina te moeten herladen.
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Kleurinstelling */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Kleurinstelling met terugval */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Als editor-dark-mode uitgeschakeld is, wordt de terugvalkleur gebruikt */
 
-  /* Numerical setting */
+  /* Numerieke instelling */
   height: calc(1px * var(--progressBar-height));
 }
 ```
 
 
-## Custom CSS variables
+## Aangepaste CSS-variabelen
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+JavaScript is niet nodig als een userstyle tussen één van twee waarden moet kiezen met een achtergrondkleur (tekstcontrast) of een addoninstelling. Deze condities, inclusief anderen, kunnen worden gedeclareerd in de addonmanifest door [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), en de userstyle kan simpelweg naar die CSS-variabele verwijzen.
 
 
-## Applying styles only inside the editor
+## Stijlen alleen in de editor toepassen
 
-The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
+De extensie schakelt automatisch een class-naam op het `<body>`-element wanneer de gebruiker de projecteditor in- of uitgaat.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+Bijvoorbeeld, de `<input>`-elementen binnen en buiten de editor een andere stijl geven:
 ```css
 .sa-body-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Past alleen toe als `addon.tab.editorMode` `editor` of `fullscreen` is */
 }
 
 body:not(.sa-body-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Past alleen toe als `addon.tab.editorMode` NIET `editor` noch `fullscreen` is */
 }
 ```

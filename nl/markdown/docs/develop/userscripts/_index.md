@@ -1,9 +1,9 @@
 ---
 title: Userscripts
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Userscripts zijn JavaScript-bestanden die worden uitgevoerd zodra de pagina wordt geladen. Ze kunnen de HTML van het document aanpassen, nieuwe knoppen toevoegen, het gedrag van de Scratcheditor aanpassen en nog veel meer.
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Userscripts zijn JavaScript-bestanden die worden uitgevoerd zodra de pagina wordt geladen. Ze kunnen de HTML van het document aanpassen, nieuwe knoppen toevoegen, het gedrag van de Scratcheditor aanpassen en nog veel meer.
 
 Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
 

@@ -1,36 +1,36 @@
 ---
 title: Optimale Praktijken
-description: Follow these best practices when writing or reviewing userstyles.
+description: Volg deze optimale praktijken wanneer je userstyles aan het schrijven of beoordelen bent.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Volg deze optimale praktijken wanneer je userstyles aan het schrijven of beoordelen bent.
 
 
 <!-- TODO: ## Addon dark mode support -->
 <!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
 
 
-## Internationalization
+## Internationalisatie
 
-### Consider languages with longer words
+### Bedenk dat woorden soms lang kunnen zijn
 
-Remember that im some languages, UI elements such as buttons may be narrower or wider.
+Onthoud dat UI-elementen, zoals knoppen, smaller of breder kunnen zijn in sommige talen.
 
 <!-- TODO: ### Supporting right-to-left languages (RTL) -->
 
 
-## Styling existing Scratch UI
+## Stijlen toepassen op bestaande Scratch-UI
 
 
-### Avoid targeting hashed class names
+### Vermijd het richten op gehashte class-namen
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
+De projecteditor van Scratch bevat doorgaans class-namen die het `class_name_{hash}`-formaat volgen. Bijvoorbeeld `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+Aangezien de hashes in de toekomst kunnen veranderen en kunnen verschillen tussen forks van Scratch moet je het gebruik ervan vermijden in userstyles.
 
 {{< admonition error >}}
 ```css
-/* Don't do this: */
+/* Doe dit NIET: */
 .green-flag_green-flag_1kiAo {
   visibility: hidden;
 }
@@ -39,30 +39,30 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 {{< admonition success >}}
 ```css
-/* Do this instead: */
+/* Doe in plaats daarvan dit: */
 [class*="green-flag_green-flag_"] {
   visibility: hidden;
 }
 ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Vermijd het gebruik van `!important` tenzij strikt noodzakelijk
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
+Gebruik [CSS specificity](https://web.dev/learn/css/specificity/)-functies indien mogelijk om je selectors specifieker te maker, i.p.v. `!important` te gebruiken.
 <!-- This could be more detailed -->
 
 
-## Styling addon UI elements
+## Stijlen toepassen op UI-elementen van addons
 
 
-### Begin addon-defined class names with `sa-`
+### Laat class-namen die door addons zijn gedefinieerd beginnen met `sa-`
 
 {{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
+We gebruiken altijd `kebab-case` wanneer we onze eigen class-namen definiëren.
 {{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+We raden aan dat je class-namen die door addons zijn gedefinieerd laat beginnen met `sa-` om potentiële botsingen met Scratch of andere extensies te voorkomen.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+Het wordt ook aangeraden om de addon-ID (of een deel ervan) in de class-naam te includeren.
 
 <!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->

@@ -195,7 +195,7 @@ Vous pouvez le faire sur [notre onglet Discussion](https://github.com/ScratchAdd
 
 ### Qu'est-ce qu'un "addon", exactement ?
 
-Un addon est similaire à une extension ou un script d'utilisateur, mais il utilise une API spéciale fourni par l'extension Scratch Addon. Cet API autorise l'addon à lancer des scripts sur une page Scratch (script d'utilisateur), lancer des scripts d'arrière plan(script persistant), ou d'appliquer des styles sur le site Web Scratch (style d'utilisateur). 
+Un addon est similaire à une extension ou un script d'utilisateur, mais il utilise une API spéciale fourni par l'extension Scratch Addon. Cet API autorise l'addon à lancer des scripts sur une page Scratch (script d'utilisateur), lancer des scripts d'arrière plan(script persistant), ou d'appliquer des styles sur le site Web Scratch (styles utilisateur). 
 
 Les scripts utilisateurs peuvent utiliser l’extension `addon.*` API JavaScript, qui leur permettent d’obtenir des informations relatives à Scratch (par exemple, l’utilisateur actuellement connecté) et d’utiliser des API d’extension (comme l’envoi de notifications).
 

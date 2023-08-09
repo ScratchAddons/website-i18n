@@ -1,9 +1,9 @@
 ---
-title: Conseils de débugage
-description: Conseils pour déboguer facilement les userscripts, et les cas de bord à considérer.
+title: Conseils de débogage
+description: Conseils pour déboguer facilement les scripts utilisateur, et les cas limites à considérer.
 ---
 
-Conseils pour déboguer facilement les userscripts, et les cas de bord à considérer.
+Conseils pour déboguer facilement les scripts utilisateur, et les cas limites à considérer.
 
 ## Conseils
 

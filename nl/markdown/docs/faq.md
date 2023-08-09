@@ -204,7 +204,7 @@ Op zichzelf is Scratch Addons gewoon een addonlader. Zijn hoofdtaken zijn om:
 - Gebruikers addons te laten in- of uit schakelen en instellen.
 - Addons uit te voeren en ze API's te leveren.
 - Handige gegevens aan addons te leveren (zoals de addon.auth API).
-- Prototypes te maken voor gebruik door addonsuserscripts.
+- Prototypes te polluten voor gebruik door addonsuserscripts.
 - Manieren om toegang te krijgen tot Redux-status en het te bewerken te geven.
 - Te vermijden dat addons elkaar onderbreken.
 - Dubbel werk van andere addons te vermijden.

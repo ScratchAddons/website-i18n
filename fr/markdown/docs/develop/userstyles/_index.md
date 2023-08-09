@@ -1,25 +1,25 @@
 ---
 title: Styles utilisateur
-description: Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+description: Les styles utilisateur sont des règles CSS qui affectent les pages Scratch. Ils peuvent appliquer des styles à l'interface utilisateur Scratch existante, ainsi qu'aux éléments qui ont été ajoutés à la page par des addons.
 ---
 
-Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+Les styles utilisateur sont des règles CSS qui affectent les pages Scratch. Ils peuvent appliquer des styles à l'interface utilisateur Scratch existante, ainsi qu'aux éléments qui ont été ajoutés à la page par des addons.
 
 
-## Declaring userstyles in the addon manifest
+## Déclarer des styles utilisateur dans le manifeste de l'addon
 
 {{< admonition warning >}}
 **Certaines modifications nécessitent un rechargement d'extension** à partir de `chrome://extensions` pour prendre effet, comme la mise à jour du fichier manifeste de l'addon.
 
-It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
+Il n'est pas nécessaire de recharger l'extension lorsque l'on modifie la source d'un fichier CSS de style utilisateur déjà existant. Dans ce cas, il suffit de recharger la page.
 {{< /admonition >}}
 
-Userstyles are declared inside a "userstyles" array, similarly to userscripts.
+Les styles utilisateur sont déclarés dans un array "userstyles", de la même manière que les scripts utilisateur.
 
-Chaque élément du tableau doit avoir les propriétés suivantes :
-- `"url"`: the relative URL to a CSS file.
-- `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
-- `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
+Chaque élément de l'array doit avoir les propriétés suivantes :
+- `"url"`: l'URL relative d'un fichier CSS.
+- `"matches"` : la liste des pages Scratch où le style utilisateur sera appliqué. Voir [matches](/docs/reference/addon-manifest/#matches) pour plus d'informations.
+- `if` : une liste de conditions qui peuvent faire que le style utilisateur soit appliqué ou non. Voir [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) pour plus d'informations.
 
 Example :
 ```json
@@ -55,54 +55,54 @@ Example :
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Activer ou désactiver dynamiquement les styles utilisateur après le chargement de la page
 
-It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
+Il n'est généralement pas nécessaire d'utiliser un script utilisateur JavaScript pour activer ou désactiver dynamiquement un style utilisateur sur la page lorsque l'utilisateur modifie ses paramètres.
 
-- Including `dynamicEnable: true` in the addon manifest will allow the extension to dynamically inject userstyles if the addon has been enabled (for the first time) after loading the page.
-- Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- Inclure `dynamicEnable: true` dans le manifeste de l'addon permettra à l'extension d'injecter dynamiquement des styles utilisateurs si l'addon a été activé (pour la première fois) après le chargement de la page.
+- Inclure `dynamicDisable: true` dans le manifeste de l'addon permettra à l'extension de supprimer ou réinjecter dynamiquement les styles utilisateur en fonction de l'état d'activation de l'addon, sans nécessiter un rechargement de la page.
+- Inclure `updateUserstylesOnSettingsChange: true` dans le manifeste de l'addon va réévaluer les conditions "if" qui dépendent des paramètres de l'utilisateur sans nécessiter un rechargement de la page. L'extension supprimera ou injectera les styles utilisateur en conséquence.
 
 
-## Accessing addon settings from CSS
+## Accéder aux paramètres des addons à partir du CSS
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Les styles utilisateur peuvent facilement obtenir des paramètres de couleur et des paramètres numériques par le biais de variables CSS. Ils peuvent également accéder aux paramètres d'autres addons activés.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+Les variables CSS suivent toujours le format `--addonId-settingId`. Les identifiants des paramètres sont toujours convertis de "kebab-case" en "camelCase".
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Ces variables CSS sont toujours disponibles pour tous les addons activés et aucune propriété de manifeste n'est nécessaire pour les exposer. Elles sont également synchronisées avec les paramètres de l'utilisateur sans qu'il soit nécessaire de recharger la page.
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Paramètres de couleur */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Paramètres de couleur avec fallback */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Si editor-dark-mode est désactivé, le fallback sera utilisé à la place. */
 
-  /* Numerical setting */
+  /* Paramètres numériques */
   height: calc(1px * var(--progressBar-height));
 }
 ```
 
 
-## Custom CSS variables
+## Variables CSS personnalisées
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+Si un style utilisateur doit choisir entre deux valeurs en fonction d'une couleur d'arrière-plan (contraste du texte) ou d'un paramètre de l'addon, JavaScript n'est pas nécessaire. Ces conditions, entre autres, peuvent être déclarées dans le manifeste de l'addon via [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), et le style utilisateur peut simplement faire référence à cette variable CSS.
 
 
-## Applying styles only inside the editor
+## Appliquer des styles uniquement dans l'éditeur
 
-The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
+L'extension fait automatiquement basculer un nom de classe sur l'élément `<body>` lorsque l'utilisateur entre ou sort de l'éditeur de projet.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+Par exemple, le style des éléments `<input>` à l'intérieur et à l'extérieur de l'éditeur est différent :
 ```css
 .sa-body-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Ne s'applique que si `addon.tab.editorMode` est `editor` ou `fullscreen` */
 }
 
 body:not(.sa-body-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Ne s'applique que si `addon.tab.editorMode` n'est PAS `editor` ni `fullscreen`. */
 }
 ```

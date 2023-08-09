@@ -52,7 +52,7 @@ Pour plus d'informations sur ce que vous pouvez déclarer dans le manifeste, con
 
 ## Étape 7 : Dites à Scratch Addons quel est l'ID de votre addon
 Scratch Addons ne peut pas trouver de nouveaux dossiers par lui-même, vous devez donc ajouter le nom à un fichier spécial.
-Allez dans `scratchAddonsFolder/addons/addons.json` et ajoutez l'ID de votre addon au tableau.
+Allez dans `scratchAddonsFolder/addons/addons.json` et ajoutez l'ID de votre addon à l'array.
 
 ## Étape 8 : Bonjour tout le monde
 Votre addon ne fait rien pour le moment, c'est donc le bon moment pour vérifier si tout ce que nous avons fait précédemment a fonctionné.

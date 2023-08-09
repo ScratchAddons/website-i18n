@@ -83,7 +83,7 @@ Het is bijvoorbeeld niet nodig om waitForElement te gebruiken om naar forumposts
 
 ### Gebruik element.closest() i.p.v. parentElement te misbruiken
 
-Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+Gebruik parentElement niet te vaak wanneer je kijkt naar voorouderen van een element. Gebruik in plaats daarvan `element.closest()`. Het werkt bijna hetzelfde als `element.querySelector()`.
 
 {{< admonition error >}}
 ```js
@@ -138,7 +138,7 @@ Onthoud dat objecten en arrays die zijn gedeclareerd als "const" geen bevroren w
 
 ### Stel geen globale variabelen in
 
-Vermijd het instellen van eigenschappen op het globale `window`-object, behalve als je een globale functie, zoals `fetch()`, aan het vervuilen bent.
+Vermijd het instellen van eigenschappen op het globale `window`-object, behalve als je een globale functie, zoals `fetch()`, aan het polluten bent.
 Als meerdere addons informatie of functies met elkaar moeten delen, maak dan een JS-modulebestand en importeer het vanaf beide userscripts.
 
 {{< admonition error >}}
@@ -154,11 +154,11 @@ Er is geen reden om functies buiten de `export default async function(){}`-funct
 
 Indien gepast mag je functies verplaatsen naar aparte JS module bestanden (welke niet zijn verklaard als userscripts in de addon manifest), maar onthoud dat die geïmporteerde bestanden geen toegang hebben tot het `addon`-object, tenzij je een setupfunctie "exposet" die het als een argument accepteert, en roep de functie op in het ingangspunt van de userscript.
 
-### Do not unpollute functions
+### Onpollute functies niet
 
-Multiple addons might want to pollute the same function, such as Scratch VM methods, `XMLHttpRequest`, `fetch()` or `FileReader()`.  
-In those cases, one of the userscripts will be polluting the real function, while the others will be polluting functions which were already polluted themselves. If, for example, the first userscript that polluted decides to unpollute (for example, by doing `window.fetch = realFetch`), then all other functions in the "pollution chain" are also lost, which is unexpected.  
-For this reason, functions should not be unpolluted. Instead, pass the arguments to the original function.
+Meerdere addons willen misschien dezelfde functie polluten, zoals Scratch VM-methoden, `XMLHttpRequest`, `fetch()` of `FileReader()`.
+In die gevallen zal één van de userscripts de echte functie aan het polluten zijn, terwijl de anderen functies zullen polluten die zelf al gepollute waren. Als bijvoorbeeld de eerste userscript die pollute, besluit om te onpolluten (bijvoorbeeld met `window.fetch = realFetch`), dan zijn alle functies in de "pollution-keten" ook verdwenen, wat onverwacht is.
+Voor deze reden moeten functies niet geonpollute worden. Geef in plaats daarvan de argumenten aan de originele functie.
 
 {{< admonition error >}}
 ```js
@@ -168,7 +168,7 @@ const newDeleteSprite = function (...args) {
 }
 
 addon.self.addEventListener("disabled", () => {
-  // Don't do this:
+  // Doe dit NIET:
   vm.deleteSprite = oldDeleteSprite;
 });
 ```
@@ -176,7 +176,7 @@ addon.self.addEventListener("disabled", () => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Doe in plaats daarvan dit:
 const oldDeleteSprite = vm.deleteSprite;
 const newDeleteSprite = function (...args) {
   if (addon.self.disabled) return oldDeleteSprite.apply(this, args);

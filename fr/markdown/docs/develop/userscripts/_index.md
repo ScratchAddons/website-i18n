@@ -19,9 +19,9 @@ Même si les scripts utilisateur Scratch Addons font partie d'une extension de n
 Il n'est pas nécessaire de recharger l'extension lors de la modification de la source d'un fichier JavaScript userscript déjà existant. Dans ces cas, il suffit de recharger la page.
 {{< /admonition >}}
 
-Les scripts utilisateur sont déclarés dans un tableau "userscripts".
+Les scripts utilisateur sont déclarés dans un array "userscripts".
 
-Chaque élément du tableau doit avoir les propriétés suivantes :
+Chaque élément de l'array doit avoir les propriétés suivantes :
 - `"url"`:Chaque élément du tableau doit avoir les propriétés suivantes :
 - `"matches"` : la liste des pages Scratch où le script utilisateur sera exécuté. Voir [matches](/docs/reference/addon-manifest/#matches) pour plus d'informations.
 

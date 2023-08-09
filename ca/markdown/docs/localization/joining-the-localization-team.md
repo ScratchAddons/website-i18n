@@ -108,7 +108,7 @@ If you have any questions about translating, you may choose one of the following
 - [Open a discussion on GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
 - [Send feedback](/feedback) (make sure to specify your Scratch username in the form, we will reply in your profile).
 
-### クレジット
+### Crèdits
 
 - If you get accepted, you may add yourself (or be added) to [the website's credits page](/credits).
 - Your translations are licensed under the same license as Scratch Addons (GPL v3.0).

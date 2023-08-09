@@ -135,7 +135,7 @@ const DEFAULT_ZOOM = 1.20;
 {{< /admonition >}}
 
 Les personnes lisant votre code peuvent supposer qu’une variable qui a été déclarée par le mot-clé "let" pourrait être réaffectée à un autre point du script. Si ce n’est pas le cas, utilisez le mot-clé "const" à la place. 
-Rappelez-vous qu’en JavaScript, déclarer un objet ou un tableau comme "const" ne signifie pas que ses valeurs sont gelées. Les valeurs de l’objet peuvent toujours être modifiées, même si la variable elle-même ne peut pas être réaffectée.
+Rappelez-vous qu’en JavaScript, déclarer un objet ou un array comme "const" ne signifie pas que ses valeurs sont gelées. Les valeurs de l’objet peuvent toujours être modifiées, même si la variable elle-même ne peut pas être réaffectée.
 
 ### Ne définissez pas variables globales
 

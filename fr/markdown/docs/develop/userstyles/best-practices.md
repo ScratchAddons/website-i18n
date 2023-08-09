@@ -1,36 +1,36 @@
 ---
 title: Meilleures pratiques
-description: Follow these best practices when writing or reviewing userstyles.
+description: Suivez ces bonnes pratiques lors de la rédaction ou de la révision des styles utilisateur.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Suivez ces bonnes pratiques lors de la rédaction ou de la révision des styles utilisateur.
 
 
-<!-- TODO: ## Addon dark mode support -->
-<!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
+<!-- A FAIRE : ## Support du mode sombre pour les addons -->
+<!-- Exemples sur le référencement des variables CSS de editor-dark-mode, dark-www et scratchr2 -->
 
 
-## Internationalization
+## Internationalisation
 
-### Consider languages with longer words
+### Pensez aux langues avec des mots plus longs
 
-Remember that im some languages, UI elements such as buttons may be narrower or wider.
+N'oubliez pas que dans certaines langues, les éléments de l'interface utilisateur tels que les boutons peuvent être plus ou moins larges.
 
-<!-- TODO: ### Supporting right-to-left languages (RTL) -->
-
-
-## Styling existing Scratch UI
+<!-- A FAIRE : ### Prendre en charge les langues de droite à gauche (RTL) -->
 
 
-### Avoid targeting hashed class names
+## Styliser l'interface utilisateur existante de Scratch
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+### Éviter de cibler les noms de classe hachés
+
+L'éditeur de projet Scratch contient généralement des noms de classes qui suivent le format `class_name_{hash}`, comme par exemple, `green-flag_green-flag_1kiAo`.
+
+Comme les hachages sont susceptibles de changer à l'avenir et qu'ils peuvent différer d'une version à l'autre de Scratch, vous devriez éviter de les utiliser dans les styles utilisateur.
 
 {{< admonition error >}}
 ```css
-/* Don't do this: */
+/* Ne faites pas cela : */
 .green-flag_green-flag_1kiAo {
   visibility: hidden;
 }
@@ -39,30 +39,30 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 {{< admonition success >}}
 ```css
-/* Do this instead: */
+/* Faites plutôt ceci : */
 [class*="green-flag_green-flag_"] {
   visibility: hidden;
 }
 ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Éviter `!important` sauf en cas d'absolue nécessité
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
-<!-- This could be more detailed -->
-
-
-## Styling addon UI elements
+Si possible, utilisez les fonctionnalités [CSS specificity] (https://web.dev/learn/css/specificity/) pour rendre vos sélecteurs plus spécifiques, au lieu d'utiliser `!important`.
+<!-- Cela pourrait être plus détaillé -->
 
 
-### Begin addon-defined class names with `sa-`
+## Styliser les éléments de l'interface utilisateur de l'addon
+
+
+### Débuter les noms des classes définies par les addons par `sa-`
 
 {{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
+Nous utilisons toujours `kebab-case` lorsque nous définissons nos propres noms de classe.
 {{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+Nous recommandons que les noms des classes définies par les addons commencent par `sa-` afin d'éviter de potentiels conflits de noms avec Scratch ou d'autres extensions.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+Il est également recommandé d'inclure l'identifiant de l'addon (ou une partie de celui-ci) dans le nom de la classe.
 
-<!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->
+<!-- A FAIRE : ### Expliquer l'utilisation de z-index dans l'éditeur Scratch et les concepts associés -->
