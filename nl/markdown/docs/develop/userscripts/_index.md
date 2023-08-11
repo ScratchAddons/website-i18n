@@ -5,30 +5,30 @@ description: Userscripts zijn JavaScript-bestanden die worden uitgevoerd zodra d
 
 Userscripts zijn JavaScript-bestanden die worden uitgevoerd zodra de pagina wordt geladen. Ze kunnen de HTML van het document aanpassen, nieuwe knoppen toevoegen, het gedrag van de Scratcheditor aanpassen en nog veel meer.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+Userscripts van Scratch Addons bestaan uit stukjes JavaScript die in dezelfde uitvoercontext worden uitgevoerd als de JavaScript-code van Scratch zelf (vergelijkbaar met userscripts die je misschien downloadt voor userscriptmanagers zoals Tampermonkey of Greasemonkey). In het browserextensie-woordenboek noemen we dit ook wel de "main world".
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Ook al zijn Scratch Addons userscripts onderdeel van een browserextensie, ze hebben geen toegang tot enige `chrome.*` of `browser.*`-API's. Scratch Addons biedt een [`addon.*`-API](/docs/reference/addon-api/) aan als vervanging.
 
 
-## Declaring userscripts in the addon manifest
+## Userscripts declareren in de addonmanifest
 
 {{< admonition warning >}}
 **Sommige veranderingen vereisen dat je de extensie herlaadt** van `chrome://extensions` om effect te hebben, zoals het addonmanifest-bestand updaten.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Het is niet nodig om de extensie de herladen wanneer je de bron van een al bestaand userscript JavaScript-bestand verandert. In die gevallen is de pagina herladen genoeg.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Userscripts worden binnen een "userscripts"-array gedeclareerd.
 
 Elk item van de array moet de volgende eigenschappen hebben:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+- `"url"`: de relatieve URL tot een JavaScript-bestand.
+- `"matches"`: de lijst van Scratch-pagina's waar de userscript wordt uitgevoerd. Lees [matches](/docs/reference/addon-manifest/#matches) voor meer informatie.
 
 Voorbeeldmanifest:
 ```json
 {
-  "name": "Copy link to comment button",
-  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
+  "name": "Kopieer link naar opmerking-knop",
+  "description": "Voegt een \"Kopieer Link\"-knop toe aan alle opmerkingen op de website, naast de \"Melden\"-knop.",
   "userscripts": [
     {
       "url": "userscript.js",
@@ -40,95 +40,95 @@ Voorbeeldmanifest:
 }
 ```
 
-## Creating your first userscript
+## Je eerste userscript maken
 
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
+In tegenstelling tot extensie-contentscripts en Tampermonkey-userscripts, moet je al je code in een "module default export" zetten:
 ```js
-// Example userscript
+// Voorbeeld userscript
 export default async function ({ addon, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
-  console.log("How are you today?");
+  console.log("Hallo, " + await addon.auth.fetchUsername());
+  console.log("Hoe gaat het met je?");
 }
 ```
 
-Remember that JavaScript allows functions to be declared inside other functions, for example:
+Onthoud dat je in JavaScript functies kunt declareren binnenin andere functies, bijvoorbeeld:
 ```js
 export default async function ({ addon, console }) {
   async function sayHelloToUser() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
+    console.log("Hallo, " + await addon.auth.fetchUsername());
   }
 
   await sayHelloToUser();
-  console.log("How are you today?");
+  console.log("Hoe gaat het met je?");
 }
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Je kunt toegang krijgen tot vele `addon.*`-API nutsvoorzieningen van userscripts. Je kunt bijvoorbeeld de huidige gebruikersnaam krijgen, wachten tot een element bestaat op de pagina, of krijg een verwijzing naar het Scratch VM-object.
 
-For more information, check the [API reference](/docs/reference/addon-api/).
+Lees de [API-referentie](/docs/reference/addon-api/) voor meer informatie.
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## De HTML wijzigen
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Gebruik [browser DOM-API's](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) om de HTML van de pagina aan te passen.
 
 Hier is een voorbeeld:
 ```js
 const myButton = document.createElement("button");
-myButton.textContent = "Click me!";
+myButton.textContent = "Klik op mij!";
 myButton.classList.add("button");
-myButton.setAttribute("title", "You're hovering a button");
+myButton.setAttribute("title", "Je zweeft over een knop");
 
 const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Userscripts lokaliseren
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Addon-userscripts moeten soms Engelse woorden of zinnen bevatten. Zorg ervoor dat je ze niet hard-codeert zodat ze vertaald kunnen worden.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
-document.querySelector(".sa-find-bar").placeholder = "Find blocks";
+// Doe dit niet:
+document.querySelector(".sa-find-bar").placeholder = "Vind blokken";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Om een vertaalbare string te maken volg je deze stappen:
+1. Maak een bestand genaamd `addon-id.json` in de map `/addon-l10n/en`.
+2. Geef elke string een ID:
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Zorg ervoor dat je de `msg()`-functie importeert in je userscript. De eerste regel van je userscript zou er zo uit moeten zien:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Gebruik de `msg()`-functie in je code, i.p.v. een hard-gecodeerde string:
 ```js
-document.querySelector(".sa-find-bar").placeholder = msg("find");
+document.querySelector(".sa-find-bar").placeholder = msg("vinden");
 ```
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Lees [deze pagina](/docs/localization/localizing-addons/) voor meer informatie over userscripts lokaliseren.
 {{</admonition >}}
 
 
-## Technical details
+## Technische details
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Elke userscript is een JavaScript-module die een functie exporteert. Scratch Addons importeert de module alleen als dat nodig is, en voert 'm uit nadat de pagina volledig is geladen.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Userscripts zijn JavaScript-modules, dus ze worden altijd uitgevoerd op ["strikte modus"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Dit betekent ook dat userscripts misschien ["top-level imports"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) kunnen gebruiken om andere JavaScript-bestanden te importeren.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+De volgorde waarin userscript zich uitvoeren kan elke keer dat de pagina wordt geladen verschillen. De gebruiker kan addons altijd dynamisch inschakelen, dus de uitvoervolgorde is nooit zeker. Sommige API's zoals [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) maken een poging om enkele zeldzame gevallen en onverwacht gedrag te voorkomen wanneer addons dynamisch worden ingeschakeld.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Userscripts kunnen kiezen of ze uitgevoerd moeten worden voordat de pagina volledig is geladen door `"runAtComplete": false` in de addonmanifest te includeren, één keer per userscript.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Op dit moment is alleen `document.head` gegarandeerd om te bestaan wanneer een userscript vroeg uitvoert. In de toekomst wordt dit ook het geval voor `document.body`, dus geen enkele userscript wordt uitgevoerd voordat het HTML-bestand genoeg is geladen om `</head> <body>` te bereiken.

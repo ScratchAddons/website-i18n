@@ -1,9 +1,9 @@
 ---
 title: Debugtips
-description: Tips to easily debug userscripts, and edge cases to consider.
+description: Tips om userscripts makkelijk te debuggen, en randgevallen om rekening mee te houden.
 ---
 
-Tips to easily debug userscripts, and edge cases to consider.
+Tips om userscripts makkelijk te debuggen, en randgevallen om rekening mee te houden.
 
 ## Tips
 
@@ -11,7 +11,7 @@ Tips to easily debug userscripts, and edge cases to consider.
 
 Het is niet nodig om de extensie te herladen door naar `chrome://extensions` te gaan wanneer je de bron van al bestaande JavaScript of CSS-bestanden aanpast. In die gevallen is de pagina herladen genoeg.
 
-### Use the addon.* API from the console
+### Gebruik de addon.*-API vanuit de console
 
 For development, you may choose to expose the `addon` object as a global variable, so that it can be accessed within the browser console.
 
