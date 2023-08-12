@@ -12,6 +12,7 @@ Scratch Addons is available in more than 15 languages thanks to the help of volu
 ## Requirements to join as a translator
 
 * You must be **FLUENT IN THE ENGLISH LANGUAGE**.
+* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
 * You must be **a NATIVE SPEAKER** of the language you want to translate to.
 * You must have an email address, which you should ideally check at least once a week.
 * You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
@@ -21,7 +22,8 @@ Scratch Addons is available in more than 15 languages thanks to the help of volu
 <!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join.  
+If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+
 We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
 
 ## Content available for translation
@@ -44,7 +46,7 @@ We support most languages that Scratch itself supports.
 
 <details>
 <summary>Click to access the full list supported languages (50+ languages)</summary>
-Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
+Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
 </details>
 
 We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
