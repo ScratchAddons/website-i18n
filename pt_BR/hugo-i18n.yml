@@ -125,14 +125,14 @@ FeedbackPage:
   SubmitButton: Enviar
   PreSendWarning:
     Warning: "Aviso:"
-    Override: Se realmente ter certeza de que quer mandar este feedback, clique no botão "Enviar" novamente.
+    Override: Se você realmente tem certeza de que quer mandar este feedback, clique no botão "Enviar" novamente.
     Variations:
       NotST:
         Heading: Não somos a Equipe do Scratch.
-        Description: Tenha em mente que Scratch Addons não está afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Ainda assim, sinta-se livre em dar ideias de melhoria de sua experiência no Scratch com Scratch Addons.
+        Description: Tenha em mente que Scratch Addons não está afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Ainda assim, sinta-se à vontade em dar ideias de melhoria de sua experiência no Scratch com Scratch Addons.
       Punishment:
         Heading: Não podemos punir usuários. Não somos a Equipe do Scratch.
-        Description: Scratch Addons não é afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Não temos controle do conteúdo e da moderação do site oficial do Scratch. {{ .Tag1Start }}Há muitas maneiras de como você pode denunciar conteúdos no site do Scratch.{{ .Tag1End }}
+        Description: Scratch Addons não é afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Não temos controle do conteúdo e da moderação do site oficial do Scratch. {{ .Tag1Start }}Há muitas maneiras de como você pode denunciar conteúdo no site do Scratch.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logo da Scratch Messaging Extension
 ChangelogPage:
@@ -142,7 +142,7 @@ ChangelogPage:
     ReleaseGitHub: Página de lançamentos no GitHub
     RepoState: Estado do repositório na época do lançamento
     CommitsMade: Commits feitos nessa versão
-    BlogPost: Posts do Blog dessa versão
+    BlogPost: Posts do Blog desta versão
   Status:
     Latest: Mais recente
 UnsupportedBrowserPage:

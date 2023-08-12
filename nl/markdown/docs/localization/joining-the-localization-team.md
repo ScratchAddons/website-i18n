@@ -12,6 +12,7 @@ Scratch Addons is beschikbaar in meer dan 15 talen dankzij de hulp van vrijwilli
 ## Vereisten om mee te doen als een vertaler
 
 * Je moet **VLOEIEND ZIJN IN DE ENGELSE TAAL**.
+* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
 * Je moet **een MOEDERTAALSPREKER** zijn van de taal waarin je wilt vertalen.
 * Je moet een e-mailadres hebben, die je het liefst eens per week checkt.
 * Je moet een account hebben op [scratch.mit.edu](https://scratch.mit.edu).
@@ -21,8 +22,9 @@ Scratch Addons is beschikbaar in meer dan 15 talen dankzij de hulp van vrijwilli
 <!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
-Als je geen moedertaalspreker bent, maar je denkt dat je vloeiend genoeg bent, mag je alsnog een verzoek sturen om mee te doen.
-We ondersteunen alleen talen die Scratch zelf ook ondersteunt. We ondersteunen ook talen met een v.r.n.l.-indeling, zoals Arabisch en Hebreeuws.
+If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+
+We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
 
 ## Beschikbare inhoud om te vertalen
 
@@ -43,8 +45,8 @@ Vertalers hebben ook de mogelijkheid om de inhoud van de Scratch Addons website 
 We ondersteunen de meeste talen die Scratch ook ondersteunt.
 
 <details>
-<summary>Klik hier om de volledige lijst van ondersteunde talen te zien (50+ talen)</summary>
-Abchazisch (ab), Afrikaans (af), Amhaars (am), Aragonees (an), Arabisch (ar), Azerbeidzjaans (az), Wit-Russisch (be), Bulgaars (bg), Bengaals (bn), Catalaans (ca), Sorani (ckb), Tsjechisch (cs), Wels (cy), Deens (da), Duits (de), Grieks (el), Spaans (es), Ests (et), Baskisch (eu), Perzisch (fa), Fins (fi), Frans (fr), Fries (fy), Iers (ga), Schots-Gaelisch (gd), Galicisch (gl), Hebreeuws (he), Kroatisch (hr), Haïtiaans (Haïtiaans Creools) (ht), Hongaars (hu), Armeens (hy), Indonesisch (id), IJslands (is), Italiaans (it), Japans (ja), Georgisch (ka), Kazachs (kk), Khmer (km), Koreaans (ko), Koerdisch (ku), Litouws (lt), Lets (lv), Maori (mi), Mongools (mn), Bokmål (nb), Nederlands (nl), Nynorsk (nn), Noord-Sotho (nso), Odia (or), Pools (pl), Portugees (Brazilië) (pt_BR), Quechua (qu), Rapa Nui (rap), Roemeens (ro), Russisch (ru), Slovaaks (sk), Sloveens (sl), Servisch (sr), Zweeds (sv), Swahili (sw), Thai (th), Tswana (tn), Turks (tr), Oekraïens (uk), Oezbeeks (uz), Vietnamees (vi), Xhosa (xh), Chinees (China) (zh_CN), Chinees (Taiwan) (zh_TW), Zoeloe (zu).
+<summary>Click to access the full list supported languages (50+ languages)</summary>
+Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
 </details>
 
 Deze talen ondersteunen we nog niet: Asturisch (ast), Esperanto (eo), Latijns-Amerikaans Spaans (es_419), Filipijns (fil), Hausa (ha), Japans (Hiragana) (ja-Hira), Occitaans (oc), Portugees (Portugal) (pt_PT). Als je interesse hebt om een vertaler te worden voor één van deze talen die we nu nog niet ondersteunen, stuur dan graag een e-mail naar `translation@scratchaddons.com`.

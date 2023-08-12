@@ -13,7 +13,7 @@ Het is niet nodig om de extensie te herladen door naar `chrome://extensions` te 
 
 ### Gebruik de addon.*-API vanuit de console
 
-For development, you may choose to expose the `addon` object as a global variable, so that it can be accessed within the browser console.
+Voor ontwikkelingsredenen kan je kiezen om het `addon`-object te exposen als een globale variabele, zodat het toegankelijk is voor de browser-console.
 
 ```js
 export default async function ({ addon, console }) {
@@ -22,47 +22,47 @@ export default async function ({ addon, console }) {
 }
 ```
 
-### Set breakpoints with the "debugger" keyword
+### Stel breekpunten in met het "debugger"-sleutelwoord
 
-The `debugger;` keyword in JavaScript will freeze the page when ran, if the developer tools are open. Setting breakpoints is useful to inspect the value of local variables during execution.
+Het `debugger:`-sleutelwoord in JavaScript laat de pagina bevriezen als de ontwikkelaarstools openstaan. Breekpunten instellen is handig om de waarden van lokale variabelen te checken tijdens uitvoering.
 
-### Filter console messages by addon ID
+### Consoleberichten filteren op addon-ID
 
-Enter the addon ID on the "filter" console search bar to only view logs and warnings, as well errors logged with `console.error()`. Keep in mind that this will hide all exceptions, unless you're explicitly logging them in your code.
-
-
-## Edge cases
+Voer het addon-ID in bij de "filter"-zoekbalk in de console om alleen logs en waarschuwingen te zien, en ook errors die gelogd zijn met `console.error()`. Onthoud dat dit alle exceptions verbergt, behalve als je ze specifiek logt in je code.
 
 
-### Scratch project page and editor
+## Randgevallen
 
 
-#### The DOM is destroyed after going inside or outside the editor
+### Projectpagina en editor van Scratch
 
-Scratch creates all HTML elements each time the user clicks "see inside" or "see project page", and destroys the old ones.  
-This can usually be fixed by using `addon.tab.waitForElement` or the `urlChange` event.
 
-#### The Scratch editor language can be changed without a reload
+#### De DOM wordt vernietigd na de editor in of uit te gaan
 
-Unlike the Scratch website, the Scratch editor will not reload when changing the language. When selecting a different language, Scratch might destroy and re-create some HTML elements.
+Elke keer dat de gebruiker op "bekijk van binnen" of "bekijk de project pagina" klikt, maakt Scratch alle HTML-elementen en vernietigd de oude.
+Normaal gesproken kan dit worden opgelost met `addon.tab.waitForElement` of het `urlChange`-evenement.
 
-#### Other situations to consider
+#### De taal van de Scratch editor kan worden veranderd zonder te herladen
 
-- The project editor may be used without a defined project ID (for example, when logged out).
-- The editor might switch from LTR to RTL (or viceversa) without requiring a page reload.
+In tegenstelling tot de Scratch website herlaadt de Scratch editor niet wanneer de taal wordt veranderd. Misschien vernietigd Scratch sommige HTML-elementen en maakt ze opnieuw indien de taal verandert.
+
+#### Andere situaties om rekening mee te houden
+
+- De projecteditor kan gebruikt worden zonder een gedefinieerd project-ID (bijvoorbeeld, de gebruiker is uitgelogd).
+- De editor kan van de v.l.n.r.-indeling wisselen naar de v.r.n.l-indeling (of andersom) zonder de pagina te herladen.
 
 
 ### Scratch website
 
-#### scratch-www pages don't reload after logging in
+#### scratch-www pagina's herladen niet nadat de gebruiker inlogt
 
-Unlike scratchr2 pages, scratch-www pages do not force a page reload after logging in. For example, if you go to a project page while being logged out, then log in, the page will not reload. This also affects studios, the messages page, etc.  
-In contrast, all Scratch pages reload after logging out.
+In tegenstelling tot scratchr2-pagina's herladen scratch-www pagina's niet nadat de gebruiker inlogt. Als je bijvoorbeeld naar een projectpagina gaat terwijl je uitgelogd bent en dan inlogt, dan herlaadt de pagina niet. Dit gebeurt ook bij studio's, de berichtenpagina, etc.
+Alle Scratch-pagina's herladen WEL als je UITlogt.
 
-#### Project pages never return 404s
+#### Projectpagina's geven nooit een 404
 
-Even if the project is unshared or doesn't exist, Scratch returns a 200 HTTP status code. The "our server is Scratch'ing its head" message is added dynamically to the page by Scratch.
+Zelfs als het project niet is gedeeld of niet bestaat geeft Scratch een 200 HTTP statuscode. Het bericht "er is een fout opgetreden" wordt dynamisch toegevoegd aan de pagina door Scratch.
 
-#### Other situations to consider
+#### Andere situaties om rekening mee te houden
 
-- Each of the 4 tabs inside studios have different URLs, but do not trigger a browser navigation. Addons that affect any of the 4 pages should run, no matter the initial URL.
+- Elk van de 4 tabbladen van studio's hebben verschillende URL's, maar trigger geen browsernavigatie. Addons die een van de vier pagina's beïnvloeden moeten uitvoeren, ongeacht de aanvankelijke URL.
