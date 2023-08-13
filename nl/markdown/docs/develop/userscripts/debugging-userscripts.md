@@ -49,7 +49,7 @@ In tegenstelling tot de Scratch website herlaadt de Scratch editor niet wanneer 
 #### Andere situaties om rekening mee te houden
 
 - De projecteditor kan gebruikt worden zonder een gedefinieerd project-ID (bijvoorbeeld, de gebruiker is uitgelogd).
-- De editor kan van de v.l.n.r.-indeling wisselen naar de v.r.n.l-indeling (of andersom) zonder de pagina te herladen.
+- De editor kan van de links-naar-rechts-indeling wisselen naar de rechts-naar-links-indeling (of andersom) zonder de pagina te herladen.
 
 
 ### Scratch website
