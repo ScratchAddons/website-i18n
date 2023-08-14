@@ -9,23 +9,23 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 ### 스크래치 애드온이 뭔가요?
 
-스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기에 대한 집약적 브라우저 확장 프로그램입니다. 스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기를 위한 (내부적으로 애드온이라고 부르는)기능과 테마를 지원합니다. 스크래치 애드온의 목적은 몇몇 스크래치 커뮤니티의 구성원으로부터 개발된 존재하는 모든 스크래치 확장 프로그램, 사용자 스크립트와 스타일들을 하나의 접근성 좋은 장소인 스크래치 애드온으로 묶으면서도 사용자들이 무슨 기능을 활성화할지 자유롭게 정하는 곳입니다.
+스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기에 대한 집약적 브라우저 확장 프로그램입니다. 스크래치 애드온은 스크래치 웹사이트와 프로젝트 편집기를 위한 (내부적으로 애드온이라고 부르는) 기능과 테마를 지원합니다. 스크래치 애드온의 목적은 몇몇 스크래치 커뮤니티의 구성원으로부터 개발된 존재하는 모든 스크래치 확장 프로그램, 사용자 스크립트와 스타일들을 하나의 접근성 좋은 장소인 스크래치 애드온으로 묶으면서도 사용자들이 무슨 기능을 활성화할지 자유롭게 정하는 곳입니다.
 
-### 스크래치 애드온을 만드 사람은 누구인가요?
+### 스크래치 애드온을 만든 사람은 누구인가요?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+스크래치 애드온은 World_Languages에서 이끄는 팀 프로젝트입니다. 스크래치 애드온 기여자들을 [기여자 페이지](/credits)에서 찾을 수 있습니다. "스크래치 메시지"와 "개발자 도구" 애드온은 griffpatch가 만들었지만, 더 이상 관리되지 않습니다.
 
 ### 스크래치 애드온에는 무엇이 있나요?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+스크래치 애드온에는 각각 키고 끌 수 있는 애드온이 100개가 넘게 있습니다. 몇 애드온들은 더 설정하거나, 웹사이트 테마로 다크 모드처럼 기본 설정할 수 있습니다. 스크래치 애드온은 팝업으로 빠르게 메시지, 클라우드 게임, 그리고 설정 페이지를 사용할 수 있습니다. 스크래치 애드온은 독일어, 프랑스어, 스페인와 일본어를 포함한 여러 언어로 번역돼 있습니다.
 
 ### TurboWarp 애드온과 같나요?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/)는 스크래치 애드온에 있는 몇 애드온들을 스크래치 애드온을 설치할 필요 없이 편집기에서 사용할 수 있습니다. 하지만 스크래치 애드온은 스크래치 웹사이트와 팝업 화면을 위한 애드온도 포함돼 있습니다. 그래서 TurboWarp만 이용해서 코딩하더라도 스크래치 애드온을 가지고 있는 게 유용합니다.
 
 ## 시스템 사양
 
-### What are the system requirements for Scratch Addons?
+### 스크래치 애드온의 시스템 사양은 어떻게 되나요?
 
 Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
