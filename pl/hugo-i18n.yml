@@ -132,6 +132,9 @@ FeedbackPage:
   PreSendWarning:
     Warning: "Uwaga:"
     Override: Jeśli napewno jesteś gotowy wysłać opinię, ponownie wciśnij przycisk "Wyślij"
+    Variations:
+      NotST:
+        Heading: Nie jesteśmy Scratch Team.
 SMTPage:
   ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
 ChangelogPage:

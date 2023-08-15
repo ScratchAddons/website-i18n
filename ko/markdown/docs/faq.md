@@ -27,11 +27,11 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 ### 스크래치 애드온의 시스템 사양은 어떻게 되나요?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+스크래치 애드온은 [구글 크롬](https://google.com/chrome/) (버전 80 이상), [마이크로소프트 엣지](https://www.microsoft.com/en-us/edge) (버전 80 이상), 그리고 [모질라 파이어폭스](https://mozilla.org/firefox/) (버전 86 이상)의 데스크톱 버전에서 공식적으로 지원되고, 저 브라우저 기반의 다른 데스크톱 브라우저에서도 작동할 수 있습니다. 완전한 정보는 [이 페이지](../getting-started/installing/)에서 확인하세요.
 
 ### 스크래치 애드온을 휴대폰에서 사용할 수 있나요?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+안드로이드 사용자: 네, 하지만 추천하지는 않습니다. 대부분의 브라우저는 스크래치 애드온 (또는 다른 확장 프로그램) 설치를 허용하지 않기 때문에, [키위](https://kiwibrowser.com/) 같은 브라우저를 사용해야 합니다. 스크래치 애드온의 UI는 터치스크린 또는 작은 화면에서 제대로 테스트 되지 않았기 때문에 몇 기능들은 원래보다 잘 작동하지 않을 수 있습니다.
 
 For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
@@ -43,7 +43,7 @@ First, Safari extension store requires all developers to pay an annual fee to li
 
 ### 스크래치 애드온을 오프라인 편집기에서 사용할 수 있나요?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+스크래치 애드온은 오프라인 편집기를 포함한 공식 스크래치 앱에서 사용할 수 없습니다.
 
 As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
 
