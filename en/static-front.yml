@@ -4,7 +4,7 @@ credits.html:
 unsupported-browser.html:
   robots_tag: noindex
 docs/_index.md:
-  toc_root: true
+  section_root: true
   cascade:
     section_site_name: Docs.SectionSiteName
 docs/faq.md:
