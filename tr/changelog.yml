@@ -1,0 +1,102 @@
+v1.7.0:
+  Highlights:
+    Description: |
+      Yeni özellik: veri kategorisi ince ayarları, with options to separate lists and local variables into their own sections. Go to Scratch Eklentileri ayarları to enable it.
+
+      Diğer yeni özellikler: uzantı ayarlarını içe ve dışa aktarılabilir, açılır sekmeler özelleştirilebilir, eklentileri doğrudan uzantı açılır penceresinden değiştirilebilir, çeşitli hatalar giderildi ve performans iyileştirildi.
+v1.16.0:
+  Highlights:
+    Description: |
+      Konsol kodu ve bekleme sınırı ekleyen yeni eklenti: "hata ayıklayıcı" Etkinleştirmek için Scratch Eklentileri ayarları'e gidin.
+
+      Bastığınızda arama kutusunu daha geniş yapan yeni eklenti: "genişletilebilir arama kutucuğu"
+v1.18.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "TurboWarp butonu", projeyi TurboWarp.org'da oynatmak için proje sayfalarına bir buton ekler. Etkinleştirmek için Scratch Eklentileri ayarları'e gidin.
+
+      Yeni "sütun başına daha fazla öge" eklentisi stüdyolarda ve websitesinin diğer kısımlarında sütun başına 3 projeden daha fazlasını görmenize olanak sağlar. Bu güncellemede eklenen diğer yeni eklentiler: "Yayınlamak için Ctrl+Enter" ve "özelleştirilebilir varsayılan proje".
+v1.21.0:
+  Highlights:
+    Description: |
+      New addon: "Alt tuşu ile komut dizisini kopyala", Alt tuşunu basılı tutarken komut dizisini sürükleyerek çabucak kopyalama özelliğini ekler. Etkinleştirmek için Scratch Eklentileri ayarları'e gidin.
+
+      Bu güncellemede eklenen diğer eklentiler "geliştirilmiş tam ekran" ve "yorumlar için emoji seçici"dir.
+v1.22.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "'Tüm kuklalar için' ve 'Yalnızca bu hareketli grafik için' arasında değişkendeki seçiminizi değiştir", bu, değişkenlerin ve listelerin kapsamını değiştirmeye ve değişkenlerin bulutta depolanıp depolanmamasına karar vermenize olanak tanır. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemeye eklenen diğer yeni eklentiler "daha iyi editör yorumları", "iki sütunlu kategori menüsü" ve "Kendiminkiler' deki arama çubuğu".
+v1.23.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "web sitesi karanlık modu ve özelleştirilebilir renkler". Belirli renkleri değiştirmek, koyu kaydırma çubukları arasında geçiş yapmak ve daha fazlası için Scratch Eklentileri ayarları adresine gidin!
+
+      Bu güncellemede eklenen diğer yeni eklentiler, "komut dosyalarını ızgaraya oturtma", "blok sayısı" ve "yüksek çözünürlüklü küçük resimler" dir.
+v1.24.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "özelleştirilebilir gezinme çubuğu", gezinme çubuğunda görüntülenecek bağlantıların listesini seçmenize olanak tanır. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemede eklenen diğer yeni eklentiler, "özelleştirilebilir blok metin stili", "kukla bölmesinde kuklayı devre dışı bırak" ve " kuklaları ada göre arama" dır. Ayrıca, "Scratch 2.0 → 3.0" eklentisi, Scratch 3.0 ile daha yakından eşleşecek şekilde güncellendi.
+v1.25.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: Kostüm düzenleyici renk seçicisindeki her ayar için tam bir değer (0-100) ayarlanmasına izin veren "renk seçici girişleri". Etkinleştirmek için Scratch Eklentileri ayarları'e gidin.
+
+      Bu güncellemeye eklenen diğer yeni eklentiler, "Projelerim'deki yatay sekmeler" ve "canlı forum gönderisi önizlemesi".
+v1.26.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "özelleştirilebilir varsayılan kostüm editörü renkleri", bu, kostüm düzenleyici tarafından kullanılan varsayılan renkleri ve yazı boyutunu değiştirmenize olanak tanır. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemede eklenen bir diğer yeni eklenti, ses düzenleyiciye sesin toplam uzunluğunu ve geçen ya da seçimin içindeki süreyi gösteren bir gösterge ekleyen "ses süresi göstergesi"dir.
+v1.27.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: proje düzenleyiciye sahne alanını ve kukla bölmesini gizleyerek kod alanını çok daha büyük hâle getiren bir düğme ekleyen "sahneyi ve kukla bölmesini gizle". Etkinleştirmek için Scratch Eklentileri ayarları konumuna gidin.
+
+      Bir başka yeni eklenti, Scratch 2.0'daki gibi yeşil bayrak ve durdurma düğmelerini sağa, tam ekran düğmesini ise sola götüren "ters çevrilmiş proje kontrolleri". Ayrıca artık bulut oyunları sekmesinde gösterilen projeleri özelleştirebilirsiniz.
+v1.28.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "iç içe olan blok renklerini değiştir", bu aynı kategorideki bloklar iç içe yerleştirildiğinde daha açık ve daha koyu tonlar arasında geçiş yapar (tıpkı zebra şeritleri gibi). Etkinleştirmek için Scratch Eklentileri ayarları konumuna gidin.
+
+      Önceden "geliştirici araçları" eklentisinin bir parçası olan "editörde arama çubuğu" ve "özel blok tanımına git" eklentileri artık ayrı ayrı ayarlanabilir.
+v1.29.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: Kostüm düzenleyici renk seçicisine bir opaklık çubuğu ekleyen "opaklık ayarı" eklendi.  Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemeye eklenen diğer yeni eklentiler, "projelerde ses ayarı", "haberleri yeniden adlandırma" ve "kostüm düzenleyicide sahne renklerini seç".
+v1.30.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "kostüm düzenleyicide tutturma", bu eklenti sayesinde kostüm düzenleyicide objeleri sınır kutularına ve vektör düğümlerine yapıştırabilirsiniz. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncelleme ile eklenen diğer yeni eklentilerse "daraltılmış kukla özellikleri", "ismine göre blok ekleme" ve "sayısal tuş takımını her zaman göster".
+v1.31.0:
+  Highlights:
+    Description: |
+      "İsmine göre blok ekleme" eklentisi tamamen elden geçirildi. Artık diğer blokların içine girdiler ve haberciler yazabilir, Sekme tuşunu kullanarak otomatik tamamlamayı kullanabilirsiniz. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemede eklenen yeni eklentiler, "sırt çantasında birden fazla satır", "haberci değerlerini kopyala" ve "Kendiminkiler üzerinden paylaşım" şeklindedir.
+v1.32.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: Kuklayı sahnenin en önüne (en üst katmana) taşımak için Kukla bölmesinde Shift+Tıklama yapmanıza olanak tanıyan "kuklayı ön katmana götür" eklentisi. Etkinleştirmek için Scratch Eklentileri ayarları adresine gidin.
+
+      Bu güncellemeyle birlikte eklenen diğer yeni eklentiler, "daha hızlı proje yükleme", "gönderi yaptıktan sonra başlıkları takip et", "ölü konu vurgulayıcı" ve "daraltılan forum kategorilerini hatırla".
+v1.33.0:
+  Highlights:
+    Description: |
+      Yeni eklenti: "yorumlardaki proje oluşturucuları işaretle", proje yorumları bölümlerinde proje yaratıcısının yanına bir rozet ekler. Etkinleştirmek için şuraya gidin: Scratch Eklentileri ayarları
+
+      Yaklaşan Scratch değişikliklerine hazırlık olarak birden fazla eklenti ayarlandı. Bu güncelleme aynı zamanda performans ve kararlılık iyileştirmeleri de getiriyor.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch yakın zamanda site üzerineki bazı renkleri değiştiren bir güncelleme yayınladı. Eğer ayarlarınızı bu yeni renkleri kullanacak şekilde güncellemek, eski hâline çevirmek veya renkleri başka bir şekilde özelleştirmek istiyorsanız, Scratch Eklentileri ayarları sayfasından herhangi bir temayı sıfırlayabilir veya değiştirebilirsiniz.
+
+      Scratch Eklentileri'nin geliştiricileri, yaşanan değişikliklere ayak uydurmak için canla başla çalışıyor ancak bazı zamanlarda küçük hatalarla karşılaşma olasılığınız hâlâ var.

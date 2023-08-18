@@ -1,0 +1,6 @@
+v1.7.0:
+  Highlights:
+    Description: |
+      Funcție Nouă: îmbunătățiri pentru categoriile de date, cu opțiuni pentru a separa listele și variabilele locale în propriile lor secțiuni. Mergi la Setările Scratch Addon-uri pentru a îl activa.
+
+      Alte funcții noi: importă și exportă setările extensiei, personalizează filele din fereastră, comută addon-uri direct din fereastra extensiei, câteva erori au fost rezolvate, și performanță îmbunătățită.

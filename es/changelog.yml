@@ -1,0 +1,130 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Nueva función: onion skinning para animar en el editor. Vaya a ajustes de Scratch Addons para activarlo.
+    ImageAlt: Perro dentro del editor de disfraces con onion skinning activado.
+      Créditos a la librería de objetos de Scratch.
+v1.6.1:
+  Highlights:
+    Description: |
+      Nueva función: selector de colores hex, para elegir colores facilmente. Vaya a ajustes de Scratch Addons para activarlo.
+v1.7.0:
+  Highlights:
+    Description: |
+      Nueva función: retoques en categoría "datos", con opciones para separar listas y variables locales en sus propias secciones. Vaya a ajustes de Scratch Addons para activarla.
+
+      Otras funciones nuevas: importar y exportar ajustes de la extensión, personalizar pestañas del popup, se arreglaron varios bugs y se mejoro el rendimiento.
+v1.8.0:
+  Highlights:
+    Description: |
+      Nueva función: ocultar paleta de bloques automáticamente, que esconde la paleta de bloques si el cursor no está sobre ella. Vaya a ajustes de Scratch Addons para activarla.
+
+      Funcion "grabar video de proyecto" que previamente solo grababa video, ahora puede grabar hasta 5 minutos de video y audio.
+v1.10.0:
+  Highlights:
+    Description: |
+      Nueva función: addon "botón de copiar enlace al comentario", que agrega un botón "copiar enlace" a los comentarios, para que puedas enlazarlos fácilmente. Vaya a ajustes de Scratch Addons para activarlo.
+
+      El addon "botón de pausa" fue mejorado y ya no es más beta. Varios bugs del modo oscuro se han arreglado.
+v1.12.0:
+  Highlights:
+    Description: |
+      Nueva función: addon "Arrastrar y soltar archivos", el cual le permite arrastrar y soltar imagines y sonidos de su explorador de archivos a la listas de objetos, disfraces o sonidos. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otro addon nuevo en esta actualización es "forma de bloque personalizada", el cual le permite ajustar el relleno, radio de esquinas y altura de la muesca de los bloques.
+v1.16.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "depurador", que agrega logs de consola y breakpoints a Scratch. Vaya a ajustes de Scratch Addons para activarlo
+
+      Otro nuevo addon agregado en esta actualización es "barra de búsqueda expandible", que hace más ancha la barra de búsqueda de la barra de navegación cuando está enfocada.
+v1.19.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "pintar disfraz por defecto", el cual le permite cambiar la acción por defecto de los botones "Elegir un objeto/disfraz/fondo/sonido". Vaya a ajustes de Scratch Addons para activarlo.
+
+      El nuevo addon "nombrar scripts antes de colocar en mochila" le solicita un nombre para el script luego de que lo arrastre a la mochila. Otros nuevos addons agregados esta actualización son "esconder botón de eliminar" y "esconder estadísticas de proyectos".
+v1.20.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "agarrar un único bloque con tecla Ctrl", el cual le permite arrastrar un único bloque del medio de un script (en vez de toda la pila adjunta debajo) mientras mantenga la tecla Ctrl. Vaya a ajustes de Scratch Addons para activarlo.
+
+      El addon "modo oscuro del editor y colores personalizados" tiene un nuevo preset "Scratch 2.0". Otros nuevos addons agregados en esta actualización son "esconder nuevas variables" y "mover disfraz a la cima o al fondo"
+v1.21.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "duplicar script con tecla Alt", el cual le permite duplicar rápidamente un script arrastrándolo mientras mantiene la tecla Alt. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos agregados en esta actualización son "pantalla completa mejorada" y "selector de emoji en comentarios".
+v1.22.0:
+  Highlights:
+    Description: |
+      Addon nuevo: "cambiar variables entre 'Para todos los objetos' y 'Sólo para este objeto'", el cual le permite cambiar el ámbito de variables y listas y si las variables están almacenadas en la nube. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos agregados en esta actualización son "mejores comentarios en editor", "menú de categorías de dos columnas" y "barra de búsqueda en Mis Cosas".
+v1.23.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "modo oscuro de la web y colores personalizados". Vaya a ajustes de Scratch Addons para cambiar colores específicos, activar o desactivar barras de desplazamiento oscuras, y más.
+
+      Otros addons nuevos agregados en esta actualización son "ajustar scripts a cuadrícula", "contador de bloques" y "miniaturas de alta resolución".
+v1.24.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "barra de navegación personalizada", que le permite elegir una lista de enlaces para mostrar en la barra de navegación. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos agregados en esta actualización son "estilo de texto de bloques personalizado", "desactivar temblor en panel de objetos" y "buscar objetos por nombre". Además, el addon "Scratch 2.0 → 3.0" ha sido actualizado y las páginas se parecen más a Scratch 3.0.
+v1.25.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "entrada en selector de color", el cual le permite cambiar el valor exacto (0-100) por cada deslizador en el selector de color del editor de disfraces. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos en esta actualización son "pestañas horizontales en Mis Cosas" y "vista previa en vivo de publicación"
+v1.26.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "color predeterminado personalizable en el editor de disfraces", el cual le permite cambiar los colores predeterminados y el tamaño del borde utilizados por el editor de disfraces. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otro nuevo addon agregado en esta actualización es "mostrar duración de sonidos", el cual muestra en el editor de sonidos el largo total y el tiempo transcurrido del sonido, o de la selección dentro de él.
+v1.27.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "esconder escenario y panel de objetos", el cual agrega un botón que esconde el escenario y el panel de objetos, haciendo mucho más grande el área de código. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otro nuevo addon es "invertir orden de los controles del proyecto", el cual mueve la bandera verde y el botón de detener a la derecha, y el botón de pantalla completa a la izquierda, como en Scratch 2.0. Además, ahora puede personalizar los proyectos mostrados en la pestaña de juegos en la nube.
+v1.28.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "alternar colores de bloques anidados", el cual alterna entre tonos más claros y más oscuros a los bloques de la misma categoría anidados entre sí ("zebra striping"). Vaya a ajustes de Scratch Addons para activarlo.
+
+      Los addons "barra de búsqueda en editor" y "saltar a definición de bloque personalizado", previamente parte del addon "herramientas de desarrollador", ahora pueden ser activados y desactivados de forma separada.
+v1.29.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "deslizador de opacidad", el cual agrega un deslizador de opacidad al selector de colores del editor de disfraces. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos agregados en esta actualización son "Deslizador de volumen del proyecto", "renombrar mensajes" y "seleccionar colores del escenario en el editor de disfraces".
+v1.30.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "ajustar posición del editor de disfraces", el cual le permite ajustar objetos  en el editor de disfraces a cuadros de delimitación y nodos de vectores. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros nuevos addons añadidos en esta actualización son "colapsar propiedades de sprites", "ajustar posición del editor de disfraces"
+v1.31.0:
+  Highlights:
+    Description: |
+      El addon "Insertar bloques por nombre" se ha rehecho totalmente. Ahora puede escribir entradas y reporteros dentro de otros bloques y autocompletar usando la tecla Tab. Vaya a ajustes de Scratch Addons para habilitarlo.
+
+      Los nuevos addons añadidos en esta actualización son "múltiples filas en la mochila", "copiar valores del monitor" y "compartir a través de Mis Cosas".
+v1.32.0:
+  Highlights:
+    Description: |
+      Nuevo addon: "mover objeto a capa delantera", el cual permite hacer Shift+Click a un objeto en el panel de objetos para moverlo al frente (capa delantera) del escenario. Vaya a ajustes de Scratch Addons para activarlo.
+
+      Otros addons nuevos agregados en esta actualización son "carga de proyectos más rápida", "seguir temas luego de publicar", "destacar necroposts" y "recordar categorías de foros comprimidas".
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch acaba de lanzar una actualización que cambia algunos de los colores del sitio web. Si desea actualizar su configuración para usar estos nuevos colores, volver a los anteriores o personalizar los colores, puede restablecer o cambiar los temas desde ajustes de Scratch Addons.
+
+      Los desarrolladores de Scratch Addons han estado trabajando para soportar estos cambios, pero es posible que aún experimente pequeños bugs durante algún tiempo.

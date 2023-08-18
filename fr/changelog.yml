@@ -1,0 +1,114 @@
+v1.10.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: l'addon "bouton pour copier les liens d'un commentaire" ajoute un bouton "copier le lien" aux commentaires, afin que vous puissiez y accéder facilement. Rendez-vous sur Paramètres de Scratch Addons pour l'activer.
+
+      Le "bouton pause" a été améliroré et n'est maintenant plus en bêta. De nombreux bugs du mode sombre ont été résolus.
+v1.12.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: l'addon "Glisser et déposer des fichiers", qui vous permet de glisser images et sons de votre explorateur de fichiers dans le volet des sprites ou la liste des costumes/sons. Rendez-vous sur Paramètres de Scratch Addons pour l'activer.
+
+      Une autre nouveauté de cette mise à jour est l'addon "Forme de blocs personnalisée", qui vous permet d'ajuster de remplissage, la taille des coins et de l'entaille des blocs Scratch.
+v1.16.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "debugger", qui apporte les logs de la console et les points d'arrêt à Scratch. Allez à Paramètres de Scratch Addons pour l'activer
+
+      Un autre nouvel addon ajouté dans cette mise à jour est la "barre de recherche extensible", qui élargit la barre de recherche de la barre de navigation lorsqu'elle est ciblée.
+v1.19.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "éditeur de costume par défaut", qui vous permet de changer le comportement des boutons "Choisir un sprite / costume / arrière-plan / son". Allez dans les Paramètres de Scratch Addons pour l'activer.
+
+      Le nouvel addon "nommer les scripts avant de les mettre dans le sac-à-dos" vous demande de nommer vos scripts avant de les mettre dans le sac-à-doc. Les autres addons ajoutés par cette mise-à-jour sont "cacher le bouton supprimer" et "cacher les stats du projet".
+v1.20.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "prendre un seul bloc avec la touche Ctrl", qui ajoute la possibilité de faire glisser un seul bloc hors du milieu d'un script (au lieu de la pile entière attachée en dessous) tout en maintenant la touche Ctrl. Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      L'addon "mode sombre de l'éditeur et couleurs personnalisables" a un nouveau préréglage de couleur "Scratch 2.0". Les autres nouveaux addons ajoutés à cette mise à jour sont "masquer les nouvelles variables" et "déplacer le costume tout en haut ou tout en bas".
+v1.21.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "dupliquer le script avec la touche Alt", qui ajoute la possibilité de dupliquer rapidement un script en le faisant glisser tout en maintenant la touche Alt enfoncée. Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont le "plein écran amélioré" et le "sélecteur d'emoji pour les commentaires".
+v1.22.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "échanger la portée des variables entre "Pour tous les sprites" et "Pour ce sprite uniquement", qui permet de changer la portée des variables et des listes, et si elles sont stockées dans le cloud. Accédez à Paramètres de Scratch Addons  pour l'activer.
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont "meilleurs commentaires dans l'éditeur", "menu de catégorie à deux colonnes" et "barre de recherche sur la page Mes projets".
+v1.23.0:
+  Highlights:
+    Description: |
+      Nouvel addon : « site web en mode sombre et couleurs personnalisables ». Accédez à Paramètres de Scratch Addons pour modifier des couleurs spécifiques, basculer les barres de défilement en mode sombre, et plus encore !
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont « aligner les scripts sur la grille », « nombre de blocs » et  « vignettes haute résolution ».
+v1.25.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "sélecteur de couleur", qui permet de définir une valeur exacte (0-100) pour chaque curseur dans le sélecteur de couleurs de l'éditeur de costumes. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont "onglets horizontaux sur Mes Projets" et "aperçu en direct des messages des forums".
+v1.26.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "couleurs par défaut de l'éditeur de costumes personnalisables", qui permet de modifier les couleurs par défaut et la taille du contour utilisées par l'éditeur de costumes. Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      Un autre nouvel addon ajouté dans cette mise à jour est "affichage de la durée du son", qui ajoute un affichage à l'éditeur de son indiquant la durée totale et le temps écoulé du son, ou de la sélection dans celui-ci.
+v1.27.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "masquer la scène et le volet de sprite", qui ajoute un bouton qui masque la scène et le volet de sprite, rendant la zone de code beaucoup plus grande. Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      Un autre nouvel addon est "inverser l'ordre des boutons de contrôle de projet", qui déplace le drapeau vert et les boutons d'arrêt vers la droite et le bouton plein écran vers la gauche, comme dans Scratch 2.0. De plus, vous pouvez désormais personnaliser les projets affichés dans l'onglet des jeux cloud.
+v1.28.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "alterner les couleurs des blocs imbriqués", qui fait alterner les couleurs des blocs de la même catégorie entre des nuances plus claires et plus foncées lorsqu'ils sont imbriqués les uns dans les autres (zebra striping). Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      Les addons "barre de recherche de l'éditeur" et "aller à la définition de bloc personnalisé", qui faisaient auparavant partie de l'addon "outils de développement", peuvent désormais être activés séparément.
+v1.29.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "curseur d'opacité", qui ajoute un curseur au sélecteur de couleurs de l'éditeur de costumes pour régler l'opacité. Accédez à Paramètres de Scratch Addons pour l'activer.
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont "curseur de volume du projet", "renommer les messages" et "sélectionner les couleurs de la scène dans l'éditeur de costumes".
+v1.30.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "verrouillage dans l'éditeur de costume", qui permet de verrouiller les objets de l'éditeur de costume à des formes géométriques et points vectoriels. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Les autres nouveaux addons ajoutés dans cette mise à jour sont "fusionner les propriétés des sprites", "insérer les blocs par nom" et "toujours afficher le pavé numérique".
+v1.31.0:
+  Highlights:
+    Description: |
+      L'addon "insérer des blocs par nom" a été complètement retravaillé. Vous pouvez maintenant entrer des valeurs et des blocs rapporteurs à l'intérieur d'autres blocs, et effectuer une autocomplétion en utilisant la touche Tab. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Les nouveaux addons ajoutés à cette mise à jour sont "plusieurs lignes dans le sac à dos", "copier les valeurs des blocs rapporteurs" et "partager via Mes projets".
+v1.32.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "déplacer le sprite vers la couche avant", qui vous permet de déplacer un sprite du panneau des sprites à l'avant de la scène (couche supérieure) en utilisant Maj+Clic. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Les autres nouveaux addons ajoutés à cette mise à jour sont "chargement de projet plus rapide", "suivre les sujets après leur publication", "surligneur necropost" et "se souvenir des catégories de forum réduites".
+v1.33.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "mettre en évidence le créateur du projet dans les commentaires", qui ajoute un badge à côté du créateur du projet dans la section de commentaires d'un projet. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Plusieurs addons ont été ajustés en prévision des changements à venir dans Scratch. Cette mise à jour apporte également des améliorations en termes de performances et de stabilité.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch vient de publier une mise à jour qui modifie certaines couleurs du site web. Si vous souhaitez mettre à jour vos paramètres pour utiliser ces nouvelles couleurs, revenir en arrière ou personnaliser les couleurs, vous pouvez réinitialiser ou modifier les thèmes à partir de Paramètres de Scratch Addons.
+
+      Les développeurs de Scratch Addons ont travaillé dur pour prendre en charge les changements, mais il se peut que vous rencontriez encore de petits bugs pendant un certain temps.
+v1.34.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "Incrémentation avec les touches fléchées dans l'éditeur", qui vous permet d'utiliser les touches fléchées vers le haut et vers le bas pour augmenter ou diminuer les valeurs numériques dans les entrées de blocs. Allez à Paramètres de Scratch Addons pour l'activer.
+
+      Un autre nouvel addon est le thème "éditeur compact", qui réduit la taille des boutons, des champs de saisie, de la barre de menu et d'autres éléments de l'éditeur, libérant ainsi de l'espace pour des composants tels que la zone de code, l'éditeur de costumes et les aperçus de costumes, comme c'était le cas dans Scratch 2.0.

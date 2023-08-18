@@ -1,0 +1,186 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      New feature: onion skinning for animating in the editor. Go to Scratch Addons settings to enable it.
+    ImageAlt: Dog inside costume editor with Onion Skinning enabled. Credit to
+      Scratch sprite library.
+v1.6.1:
+  Highlights:
+    Description: |
+      New feature: hex color picker, for choosing colors easily. Go to Scratch Addons settings to enable it.
+v1.7.0:
+  Highlights:
+    Description: |
+      New feature: data category tweaks, with options to separate lists and local variables into their own sections. Go to Scratch Addons settings to enable it.
+
+      Other new features: import and export extension settings, customize popup tabs, toggle addons directly from the extension popup, fixed various bugs, and improved performance.
+    ImageAlt: Video showcasing the "auto-hide block palette" feature.
+v1.8.0:
+  Highlights:
+    Description: |
+      New feature: auto-hide block palette, which hides the block palette if not hovered or clicked. Go to Scratch Addons settings to enable it.
+
+      The "record project video" feature which previously only recorded video, can now record up to 5 minutes of project video and audio.
+v1.9.1:
+  Highlights:
+    Description: |
+      New feature: see who loved and favorited your projects in Scratch Messaging by hovering the love/favorite count. Studio promotion messages are now supported in both Scratch Messaging and Scratch Notifier.
+
+      The "Auto-hide block palette" addon now has a "category hover" mode. "Record project video" can now include your microphone's sound input.
+    ImageAlt: Screenshot of the new Scratch Messaging feature.
+v1.10.0:
+  Highlights:
+    Description: |
+      New feature: "copy link to comment button" addon, which adds a "copy link" button to comments, so that you can easily link to them. Go to Scratch Addons settings to enable it.
+
+      The "pause button" addon was improved and is now out of beta. Many dark mode bugs have been fixed.
+v1.11.0:
+  Highlights:
+    Description: |
+      New feature: "sprite folders" addon, which adds folders to sprite lists, as well as costume and sound lists. Go to Scratch Addons settings to enable it.
+
+      Other featured new addons this update are \"variable manager\" (adds a tab next to the editor for easily updating variables and lists) and "profile statistics".
+v1.12.0:
+  Highlights:
+    Description: |
+      New feature: "Drag and drop files" addon, which lets you drag images and sounds from your file explorer into the sprites pane or costume/sound list. Go to Scratch Addons settings to enable it.
+
+      Another featured new addon of this update is "custom block shape", which lets you adjust the padding, corner radius, and notch height of Scratch blocks.
+v1.13.0:
+  Highlights:
+    Description: |
+      New feature: "editor dark mode" was remade and is now deeply customizable. Go to Scratch Addons settings to change specific colors, toggle dark comments and scrollbars, and more!
+
+      Featured new addons this update are "custom scripts area zoom settings" and "change new sprite default position".
+v1.14.0:
+  Highlights:
+    Description: |
+      Some new addons this update are "gamepad support", "cat blocks", "editor sound effects" and "remove curved stage border". Go to Scratch Addons settings to enable them.
+
+      This update also ships a more organized Scratch Addons settings page, as well as performance improvements when using addons in the project editor.
+v1.15.0:
+  Highlights:
+    Description: |
+      New addons of this update are "block transparency", "Ctrl+Click to run scripts", "do not automatically run duplicated blocks" and "filter messages on Scratch's messages page". Go to Scratch Addons settings to enable them.
+
+      This update also changed the default color of the Scratch Addons extension badge which displays your unread messages count. Go to Scratch Addons settings to go back to the old green or customize the color yourself.
+v1.16.0:
+  Highlights:
+    Description: |
+      New addon: "debugger", which brings console logs and breakpoints to Scratch. Go to Scratch Addons settings to enable it.
+
+      Another new addon added in this update is "expandable search bar", which makes the search bar on the navbar wider when it's focused.
+v1.17.0:
+  Highlights:
+    Description: |
+      New addon: "old studio layout", which reverts the layout of the studio page back to the one used before the studio update. Go to Scratch Addons settings to enable it.
+
+      The new "browse followers button in studios" addon brings back one click invites. Other new addons added this update are "HD image uploads" and "non-draggable sprites in editor".
+v1.18.0:
+  Highlights:
+    Description: |
+      New addon: "TurboWarp button", which adds a button on project pages to play the project in TurboWarp.org. Go to Scratch Addons settings to enable it.
+
+      The new "more items per row" addon lets you see more than 3 projects per row in studios and other parts of the website. Other new addons added this update are "Ctrl+Enter to post" and "customizable default project".
+v1.19.0:
+  Highlights:
+    Description: |
+      New addon: "paint costume by default", which lets you change the default action of "Choose a Sprite/Costume/Backdrop/Sound" buttons. Go to Scratch Addons settings to enable it.
+
+      The new "name scripts before placing in backpack" addon asks you to name scripts after you drag them into the backpack. Other new addons added this update are "hide delete button" and "hide project stats".
+v1.20.0:
+  Highlights:
+    Description: |
+      New addon: "grab single block with Ctrl key", which adds the ability to drag a single block out of the middle of a script (instead of the entire stack attached below it) while holding the Ctrl key. Go to Scratch Addons settings to enable it.
+
+      The "editor dark mode and customizable colors" addon has a new "Scratch 2.0" color preset. Other new addons added this update are "hide new variables" and "move costume to top or bottom".
+v1.21.0:
+  Highlights:
+    Description: |
+      New addon: "duplicate script with Alt key", which adds the ability to quickly duplicate a script by dragging it while holding the Alt key. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "enhanced full screen" and "emoji picker for comments".
+v1.22.0:
+  Highlights:
+    Description: |
+      New addon: "switch variables between 'For all sprites' and 'For this sprite only'", which allows changing the scope of variables and lists and whether variables are stored in the cloud. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "better editor comments", "two-column category menu" and "search bar on My Stuff".
+v1.23.0:
+  Highlights:
+    Description: |
+      New addon: "website dark mode and customizable colors". Go to Scratch Addons settings to change specific colors, toggle dark scrollbars, and more!
+
+      Other new addons added this update are "snap scripts to grid", "block count" and "high resolution thumbnails".
+v1.24.0:
+  Highlights:
+    Description: |
+      New addon: "customizable navigation bar", which lets you choose a list of links to be displayed in the navigation bar. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "customizable block text style", "disable sprite wobble in sprite pane" and "search sprites by name". In addition, the "Scratch 2.0 → 3.0" addon has been updated to match Scratch 3.0 more closely.
+v1.25.0:
+  Highlights:
+    Description: |
+      New addon: "color picker inputs", which allows setting an exact value (0-100) for each slider in the costume editor color picker. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "horizontal tabs on My Stuff" and "live forum post preview".
+v1.26.0:
+  Highlights:
+    Description: |
+      New addon: "customizable default costume editor colors", which lets you change the default colors and outline size used by the costume editor. Go to Scratch Addons settings to enable it.
+
+      Another new addon added in this update is "sound duration display", which adds a display to the sound editor that shows the total length and the elapsed time of the sound, or the selection within it.
+v1.27.0:
+  Highlights:
+    Description: |
+      New addon: "hide stage and sprite pane", which adds a button that hides the stage and the sprite pane, making the code area much larger. Go to Scratch Addons settings to enable it.
+
+      Another new addon is "reverse order of project controls", which moves the green flag and stop buttons to the right and the full screen button to the left, like in Scratch 2.0. Also, you can now customize the projects shown on the cloud games tab.
+v1.28.0:
+  Highlights:
+    Description: |
+      New addon: "alternating nested block colors", which makes blocks of the same category alternate between lighter and darker shades when nested inside each other (zebra striping). Go to Scratch Addons settings to enable it.
+
+      The "editor find bar" and "jump to custom block definition" addons, previously part of the "developer tools" addon, can now be toggled separately.
+v1.29.0:
+  Highlights:
+    Description: |
+      New addon: "opacity slider", which adds an opacity slider to the costume editor color picker. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "project volume slider", "rename broadcasts", and "select stage colors in the costume editor".
+v1.30.0:
+  Highlights:
+    Description: |
+      New addon: "costume editor snapping", which lets you snap objects in the costume editor to bounding boxes and vector nodes. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "collapsing sprite properties", "insert blocks by name", and "always show number pad".
+v1.31.0:
+  Highlights:
+    Description: |
+      The "insert blocks by name" addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key. Go to Scratch Addons settings to enable it.
+
+      The new addons added this update are "multiple rows in backpack", "copy reporter values", and "share through My Stuff".
+v1.32.0:
+  Highlights:
+    Description: |
+      New addon: "move sprite to front layer", which lets you Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "faster project loading", "follow topics after posting", "necropost highlighter", and "remember collapsed forum categories".
+v1.33.0:
+  Highlights:
+    Description: |
+      New addon: "highlight project creator in comments", which adds a badge next to the project creator in project comments sections. Go to Scratch Addons settings to enable it.
+
+      Multiple addons have been adjusted in preparation for the upcoming Scratch changes. This update also brings performance and stability improvements.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch just released an update that changes some of the colors around the website. If you'd like to update your settings to use these new colors, go back, or otherwise customize the colors, you can reset or change any themes from Scratch Addons settings.
+
+      Scratch Addons' developers have been working hard to support the changes, but you might still experience small bugs for some time.
+v1.34.0:
+  Highlights:
+    Description: |
+      New addon: "arrow key incrementation in editor", which lets you use the up and down arrow keys to increase or decrease number values in block inputs. Go to Scratch Addons settings to enable it.
+
+      Another new addon is the "compact editor" theme, which decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.
