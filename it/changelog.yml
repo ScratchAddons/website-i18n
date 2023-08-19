@@ -1,51 +1,27 @@
-v1.5.0:
-  Highlights:
-    Description: |
-    ImageAlt: ""
-v1.6.1:
-  Highlights:
-    Description: |
 v1.7.0:
   Highlights:
     Description: |
       Nuova funzione: modifiche per la categoria dati, con opzioni per separare le liste e le variabili locali in sezioni diverse. Vai a Impostazioni Scratch Funzioni Aggiuntive per abilitarlo.
 
       Altre nuove funzionalità: importa ed esporta le impostazioni, personalizza le schede del menu popup, attiva e disattiva le funzioni direttamente dal menu popup, diversi bug risolti,  prestazioni migliorate.
-    ImageAlt: ""
 v1.8.0:
   Highlights:
     Description: |
       Nuova funzione: nascondi automaticamente pannello blocchi, che nasconde il pannello dei blocchi se il mouse non si trova sopra di esso o non viene cliccato. Vai a Impostazioni Scratch Funzioni Aggiuntive per attivarlo.
 
       La funzione "Registra video progetto" che prima registrava solo un video, ora può registrare fino a 5 minuti del video e audio del progetto.
-v1.9.1:
-  Highlights:
-    Description: |
-    ImageAlt: ""
 v1.10.0:
   Highlights:
     Description: |
       Nuova funzione: "pulsante copia link del commento" addon che aggiunge ai commenti un pulsante "copia link" per creare facilmente dei riferimenti. Vai a Impostazioni Scratch Funzioni Aggiuntive per abilitarlo.
 
       L'addon "pulsante pausa" è stato migliorato e non è più in beta. Diversi bug della modalità scura sono stati corretti.
-v1.11.0:
-  Highlights:
-    Description: |
 v1.12.0:
   Highlights:
     Description: |
       Nuova funzione: La funzione "Drag&Drop di file", che permette di trascinare immagini e suoni dal gestore dei file nell'elenco dei costumi e dei suoni. Vai a Impostazioni Scratch Funzioni Aggiuntive per attivarla.
 
       Un altra funzione in primo piano in questo aggiornamento sono "forma dei blocchi personalizzata", che ti permette di aggiustare l'imbottitura, il raggio degli angoli, e l'altezza delle nocche dei blocchi di Scratch.
-v1.13.0:
-  Highlights:
-    Description: |
-v1.14.0:
-  Highlights:
-    Description: |
-v1.15.0:
-  Highlights:
-    Description: |
 v1.16.0:
   Highlights:
     Description: |
@@ -94,9 +70,6 @@ v1.23.0:
       Nuovo addon: "modalità scura e colori personalizzabili del sito". Vai a Impostazioni Scratch Addonper modificare colori specifici, scegliere barre di scorrimento scure e molto altro ancora!
 
       Altri nuovi addon aggiunti a questo aggiornamento sono "script di snap allineati con la griglia", "contatore dei blocchi" e "anteprima ad alta definizione".
-v1.24.0:
-  Highlights:
-    Description: |
 v1.25.0:
   Highlights:
     Description: |
@@ -109,12 +82,6 @@ v1.26.0:
       Nuovo addon: "colori predefiniti dell'editor di costumi presonalizzabili", ti permette di cambiare i colori e la dimensioni del bordo predefiniti usati dall'editor di costumi. Vai a Impostazioni Scratch Addon per attivarlo.
 
       Altro nuovo addon aggiunti in questo aggiornamento è "mostra durata suono", che mostra nell'editor dei suoni la durata totale e la durata effettiva del suono o della parte selezionata.
-v1.27.0:
-  Highlights:
-    Description: |
-v1.28.0:
-  Highlights:
-    Description: |
 v1.29.0:
   Highlights:
     Description: |
@@ -151,6 +118,3 @@ v1.33.2:
       Scratch ha rilasciato un aggiornamento che modifica alcuni colori del sito. Se vuoi usare questi nuovi colori non devi fare nulla, altrimenti puoi personalizzarli. Puoi reimpostare o modificare qualunque tema nelle Impostazioni di Scratch Addon. 
 
       Anche se gli sviluppatori di Scratch Addons hanno lavorato molto per supportare questi cambiamenti, è possibile che per un po' di tempo compaiono dei piccoli bug.
-v1.34.0:
-  Highlights:
-    Description: |

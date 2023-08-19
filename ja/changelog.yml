@@ -13,7 +13,6 @@ v1.7.0:
       新機能:変数ブロック改良でリストやスプライトのみの変数を分けて表示できます。Scratch アドオン設定で有効化してください。
 
       その他の新機能: 設定の読み込み、ポップアップのカスタマイズ、ポップアップでの機能の有効化、バグ修正。
-    ImageAlt: ""
 v1.8.0:
   Highlights:
     Description: |
@@ -26,28 +25,18 @@ v1.9.1:
       新機能: 誰が「好き」を押したかを見る in Scratch メッセージ by hovering the love/favorite count. Studio promotion messages are now supported in both Scratch Messaging and Scratch Notifier.
 
       「ブロックパレット隠し」に「カテゴリーのホバー」モードが追加されました。「ステージを録画」には、マイク録音の設定も追加されました。
-    ImageAlt: ""
 v1.10.0:
   Highlights:
     Description: |
       新機能: コメントのリンクをコピーアドオンで、コメントへのリンクがコピーできるボタンが追加されます。Scratch アドオン設定で有効化できます。
 
       「一時停止ボタン」アドオンが改良されました。ダークモードに関するバグも修正されました。
-v1.11.0:
-  Highlights:
-    Description: |
 v1.12.0:
   Highlights:
     Description: |
       新機能: 「ファイルをドロップ」アドオンで、ファイルをスプライトペインやコスチュームペインなどへドロップできます。Scratch アドオン設定で有効化できます。
 
       ブロックのパディング、角、切れ込みを調節できる「ブロックの形をカスタマイズ」も追加されました。
-v1.13.0:
-  Highlights:
-    Description: |
-v1.14.0:
-  Highlights:
-    Description: |
 v1.15.0:
   Highlights:
     Description: |
