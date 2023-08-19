@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "I progetti verranno eseguiti a velocità doppia a 60FPS (solitamente vengono eseguiti a 30FPS).",
+				"text": "Alcuni progetti non si comporteranno correttamente quando eseguiti a 60FPS in quanto aumentando il numero di frame aumenta anche la velocità di esecuzione degli script. Questa impostazione dovrebbe essere usata solo per progetti che supportano l'esecuzione a 60FPS.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -355,6 +355,24 @@
 		"versionAdded": "1.6.0"
 	},
 	{
+		"id": "colorblind",
+		"name": "Stile dei link personalizzabile",
+		"description": "Permette di personalizzare lo stile dei link del sito web.",
+		"tags": ["community", "theme", "beta"],
+		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
+		"info": [
+			{
+				"id": "feedback",
+				"text": "Vogliamo estendere questo addon con altri strumenti per l'accessibilità. Puoi inviarci il tuo feedback andando alla pagina scratchaddons.com/feedback o cliccando Invia Feedback\" nella barra laterale."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "columns",
 		"name": "Menu delle categorie a due colonne",
 		"description": "Divide il menu delle categorie dei blocchi in due colonne e lo sposta in cima alla lista dei blocchi, come in Scratch 2.0.",
@@ -402,12 +420,14 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.18.0",
+		"latestUpdate": { "version": "1.34.0", "newSettings": ["no_borders"] },
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -627,9 +647,12 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.33.2",
-			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
-			"isMajor": true
+			"version": "1.34.0",
+			"newSettings": [
+				"messageIndicatorColor",
+				"messageIndicatorOnMessagesPage"
+			],
+			"temporaryNotice": "There are two new presets - one resembling Scratch 2.0 and one with a light blue accent color, which was used on the front page between 2015 and 2018. The message badge color is also customizable now."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -648,7 +671,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Aggiunge una nuova finestra \"debugger\" all'editor. Permette di scrivere nella scheda \"Log\" del debugger usado i blocchi \"log\", \"avviso\" e \"errore\". Il blocco \"breakpoint\" interrompe l'esecuzione del progetto. Tutti i thread in esecuzione possono essere visti nella scheda \"Thread\" del debugger e, quando si è in pausa, il pulsante \"Passo\" può essere usato per eseguire il blocco successivo. Nella scheda \"Performance\" è possibile vedere i grafi dei frame per secondo e del numero di cloni.",
+		"description": "Agggiunge all’editor una nuova finestra \"debugger\". Permette di registrare nella scheda “Log” del debugger le azioni dei blocchi \"log\", \"avviso\" e \"errore\". Il blocco \"breakpoint\" sospende l’esecuzione del progetto eseguito. Tutti gli script in esecuzione possono essere visti nella scheda \"Thread\" del debugger e quando il progetto è in pausa comparirà il pulsante \"Passo\" che permette di eseguire il blocco successivo. Un grafo dei frame per secondo e del numero dei blochi può essere visualizzato nella scheda \"Prestazioni\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -745,12 +768,17 @@
 				"name": "Chrome_Cat",
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "Mr_MPH", "link": "https://scratch.mit.edu/users/Mr_MPH/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.17.0"
+		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.34.0",
+			"newSettings": ["drag_while_stopped"]
+		}
 	},
 	{
 		"id": "discuss-button",
@@ -825,6 +853,27 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "editor-compact",
+		"name": "Editor compatto",
+		"description": "Riduce la dimensione dei pulsanti, delle caselle di testo, della barra dei menu e di altri elementi dell'editor, lasciando più spazio per l'area del codice, l'editor dei costumi e le anteprime dei costumi, come in Scratch 2.0.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-dark-mode",
@@ -913,6 +962,22 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "editor-number-arrow-keys",
+		"name": "Incremento dei valori dell’editor usando i tasti freccia",
+		"description": "Usa la freccia su e giù per aumentare o diminuire i valori nelle caselle di input.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
+	},
+	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Ricerca nei menu dei blocchi",
 		"description": "Permette di ricercare tra le opzioni nei menu degli argomenti dei blocchi",
@@ -979,7 +1044,7 @@
 			{
 				"id": "disablesMenuBar",
 				"type": "notice",
-				"text": "Se vuoi accedere a menu  \"Modalità Color\" di Scratch disabilita questa opzione."
+				"text": "Se vuoi accedere al menu  \"Colori\" di Scratch disabilita questa opzione."
 			},
 			{
 				"id": "aboutHighContrast",
@@ -1220,6 +1285,21 @@
 		"versionAdded": "1.25.0"
 	},
 	{
+		"id": "forum-post-countdown",
+		"name": "Visualizzazione del tempo rimasto per poter inviare un post nel forum",
+		"description": "Dopo che è stato inviato un post nel forum mostra un conto alla rovescia che visualizza quando sarà di nuovo possibile inviare un nuovo post.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Citazioni e blocchi di codice personalizzati nei forum",
 		"description": "Mostra blocchi e citazioni migliorati nei forum.",
@@ -1423,7 +1503,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Nasconde la firma nei forum",
+		"name": "Nascondi le firme nei forum",
 		"description": "Nasconde le firme nelle discussioni dei forum e aggiunge il pulsante \"Mostra la firma\"",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -2456,7 +2536,7 @@
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
-		"dynamicDisable": false,
+		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
 	},

@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Projetos rodarão duas vezes mais rápido a 60FPS, porque eles normalmente rodam a 30FPS.",
+				"text": "A maioria dos projetos não funcionarão adequadamente quando estiver em 60FPS, pois aumentar a contagem de quadros por segundo também aumentará a velocidade na qual os scripts rodam. Deve-se usar este recurso apenas em projetos que suportam 60FPS.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -355,6 +355,24 @@
 		"versionAdded": "1.6.0"
 	},
 	{
+		"id": "colorblind",
+		"name": "Customizable link style",
+		"description": "Lets you customize the style of links around the website.",
+		"tags": ["community", "theme", "beta"],
+		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
+		"info": [
+			{
+				"id": "feedback",
+				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "columns",
 		"name": "Menu de categoria de duas colunas",
 		"description": "Divide o menu de categorias em duas colunas e o move para o topo da paleta de blocos, assim como no Scratch 2.0.",
@@ -402,12 +420,14 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.18.0",
+		"latestUpdate": { "version": "1.34.0", "newSettings": ["no_borders"] },
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -627,9 +647,12 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.33.2",
-			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
-			"isMajor": true
+			"version": "1.34.0",
+			"newSettings": [
+				"messageIndicatorColor",
+				"messageIndicatorOnMessagesPage"
+			],
+			"temporaryNotice": "There are two new presets - one resembling Scratch 2.0 and one with a light blue accent color, which was used on the front page between 2015 and 2018. The message badge color is also customizable now."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -648,7 +671,7 @@
 	{
 		"id": "debugger",
 		"name": "Depurador",
-		"description": "Adiciona uma nova janela de \"depuração\" ao editor. Permite fazer registros à aba \"Registros\" da janela de debug usando os blocos \"log\", \"aviso\" e \"erro\". O bloco \"breakpoint\" pausará o projeto quando executado. Todas as threads em execução podem ser vistas na aba \"Linhas de execução\" do depurador, e, quando pausado, você pode usar o botão \"Avançar um passo\" para executar o próximo bloco. Um gráfico de frames por segundo e número de clones pode ser visto na aba \"Performance\".",
+		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -745,12 +768,17 @@
 				"name": "Chrome_Cat",
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "Mr_MPH", "link": "https://scratch.mit.edu/users/Mr_MPH/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.17.0"
+		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.34.0",
+			"newSettings": ["drag_while_stopped"]
+		}
 	},
 	{
 		"id": "discuss-button",
@@ -825,6 +853,27 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "editor-compact",
+		"name": "Compact editor",
+		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-dark-mode",
@@ -911,6 +960,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "editor-number-arrow-keys",
+		"name": "Arrow key incrementation in editor",
+		"description": "Use the up and down arrow keys to increase or decrease number values in block inputs.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1220,6 +1285,21 @@
 		"versionAdded": "1.25.0"
 	},
 	{
+		"id": "forum-post-countdown",
+		"name": "Forum post cooldown display",
+		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Blocos de citação e código customizados nos fóruns",
 		"description": "Mostra blocos de código e citação mais bonitos nos fóruns.",
@@ -1423,7 +1503,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Esconder assinaturas no fórum",
+		"name": "Esconder assinaturas dos usuários do fórum",
 		"description": "Esconde assinaturas em postagens no fórum e adiciona um botão para mostrá-las.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1696,7 +1776,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Mouse position display",
+		"name": "Mostrar posição do mouse",
 		"description": "Mostra a posição do mouse próxima à bandeira acima do palco no editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -1811,7 +1891,7 @@
 			{
 				"type": "notice",
 				"id": "whatGetsHighlighted",
-				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+				"text": "Ocasionalmente, um tópico antigo se mantém ativo por boas razões, como se fosse uma longa conversa, ou o autor original do post sucede este tópico com um novo meses depois. Todos os tópicos antigos nos fóruns selecionados são destacados, inclusive alguns que não são necroposts. (Por isso que eles são destacados, mas não removidos.)"
 			}
 		],
 		"dynamicEnable": true,
@@ -2285,7 +2365,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Username search",
+		"name": "Busca por nome de usuário",
 		"description": "Te deixa ir ao perfil de alguém pesquisando pelo seu nome de usuário.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2453,7 +2533,7 @@
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
-		"dynamicDisable": false,
+		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
 	},

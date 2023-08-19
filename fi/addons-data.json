@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Projektit toimivat kaksi kertaa nopeammin 60FPS:llä, koska ne toimivat yleensä nopeudella 30FPS.",
+				"text": "Most projects will not behave properly when running at 60FPS, because increasing the frame rate also increases the speed at which scripts run. This should only be used on projects that support 60FPS.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -54,8 +54,8 @@
 	},
 	{
 		"id": "auto-follow-topics",
-		"name": "Follow topics after posting",
-		"description": "Automatically follow forum topics you post on.",
+		"name": "Seuraa aiheita postaamisen jälkeen",
+		"description": "Seuraa automaattisesti foorumiaiheita, joihin postaat.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
@@ -355,6 +355,24 @@
 		"versionAdded": "1.6.0"
 	},
 	{
+		"id": "colorblind",
+		"name": "Customizable link style",
+		"description": "Lets you customize the style of links around the website.",
+		"tags": ["community", "theme", "beta"],
+		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
+		"info": [
+			{
+				"id": "feedback",
+				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "columns",
 		"name": "Kahden sarakkeen luokkavalikko",
 		"description": "Jakaa lohkoluokkavalikon kahteen sarakkeeseen ja siirtää sen lohkopaletin yläosaan, kuten Scratch 2.0:ssa.",
@@ -402,12 +420,14 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.18.0",
+		"latestUpdate": { "version": "1.34.0", "newSettings": ["no_borders"] },
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -442,8 +462,8 @@
 	},
 	{
 		"id": "copy-reporter",
-		"name": "Copy reporter values",
-		"description": "Adds the option to copy values displayed by variable monitors (from the right click context menu) and block reporter balloons.",
+		"name": "Ilmoitettujen arvojen kopioiminen",
+		"description": "Lisää mahdollisuuden kopioida muuuttujien näytinten (hiiren oikeaa näppäintä painamalla avautuvasta pudotusvalikosta) ja lohkojen ilmoituskuplien kertomia arvoja.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -627,9 +647,12 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.33.2",
-			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
-			"isMajor": true
+			"version": "1.34.0",
+			"newSettings": [
+				"messageIndicatorColor",
+				"messageIndicatorOnMessagesPage"
+			],
+			"temporaryNotice": "There are two new presets - one resembling Scratch 2.0 and one with a light blue accent color, which was used on the front page between 2015 and 2018. The message badge color is also customizable now."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -648,7 +671,7 @@
 	{
 		"id": "debugger",
 		"name": "Virheenkorjaus",
-		"description": "Lisää uuden \"virheenkorjaus\"-ikkunan editoriin. Mahdollistaa kirjaamisen virheenkorjausikkunan \"Lokit\"-välilehdelle \"loki\", \"varoita\" ja \"virhe\"-lohkoilla. \"Pysäytyspiste\"-lohko keskeyttää projektin, kun sitä suoritetaan. Kaikkia käynnissä olevia säikeitä voidaan tarkastella virheenkorjauksen \"Säikeet\"-välilehdellä, ja kun se on keskeytetty, \"Vaihe\"-painiketta voidaan käyttää seuraavan lohkon suorittamiseen. Kaavion ruutuduista sekunnissa ja kloonien lukumäärästä voi nähdä \"Suorituskyky\"-välilehdellä.",
+		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -745,12 +768,17 @@
 				"name": "Chrome_Cat",
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "Mr_MPH", "link": "https://scratch.mit.edu/users/Mr_MPH/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.17.0"
+		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.34.0",
+			"newSettings": ["drag_while_stopped"]
+		}
 	},
 	{
 		"id": "discuss-button",
@@ -825,6 +853,27 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "editor-compact",
+		"name": "Compact editor",
+		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-dark-mode",
@@ -913,6 +962,22 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "editor-number-arrow-keys",
+		"name": "Arrow key incrementation in editor",
+		"description": "Use the up and down arrow keys to increase or decrease number values in block inputs.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
+	},
+	{
 		"id": "editor-searchable-dropdowns",
 		"name": "Block dropdown search",
 		"description": "Allows you to search the options in block dropdowns.",
@@ -979,12 +1044,12 @@
 			{
 				"id": "disablesMenuBar",
 				"type": "notice",
-				"text": "If you want to access Scratch's \"Color Mode\" menu, disable this feature."
+				"text": "Jos tahdot käyttää Scratchin \"Väritila\"-valikkoa, poista tämä ominaisuus käytöstä."
 			},
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "The new High Contrast block colors are available as a preset below."
+				"text": "Uusista korkean kontrastin lohkoväreistä on alla saatavilla esiasetus."
 			}
 		],
 		"dynamicEnable": true,
@@ -1063,8 +1128,8 @@
 	},
 	{
 		"id": "faster-project-loading",
-		"name": "Faster project loading",
-		"description": "Fixes a Scratch bug that slows down project loading if the editor is opened from a link.",
+		"name": "Nopeammin latautuvat projektit",
+		"description": "Korjaa linkin kautta avattujen projektieditorien latautumista hidastavan vian Scratchissa.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1090,8 +1155,8 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
-		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
+		"name": "Etusivun dangot",
+		"description": "Scratch-lisäosien aprillipila vuodelta 2023, joka lisäsi etusivulle rivin dangoihin liittyviä projekteja.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -1218,6 +1283,21 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0"
+	},
+	{
+		"id": "forum-post-countdown",
+		"name": "Forum post cooldown display",
+		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1423,7 +1503,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Piilota signeeraukset foorumeilla",
+		"name": "Hide forum signatures",
 		"description": "Piilottaa allekirjoitukset foorumiviesteissä ja lisää \"Näytä allekirjoitus\" -painikkeen.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1806,15 +1886,15 @@
 	},
 	{
 		"id": "necropost-highlighter",
-		"name": "Necropost highlighter",
-		"description": "Highlights topics started much earlier than others on the same page in selected forums, so you don't waste time reading zombie messages or replies to help, question or request topics that were actually asked long ago.",
+		"name": "Nekropostausten korostaja",
+		"description": "Korostaa valittujen foorumien aiheet, jotka on aloitettu paljon muita saman sivun aiheita aikaisemmin, jottet haaskaa aikaasi vanhojen, merkityksettömien viestien tai vastausten lukemiseen, kysymys- tai pyyntöaiheisiin, jotka on tosiasiassa kysytty kauan sitten.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
 		"info": [
 			{
 				"type": "notice",
 				"id": "whatGetsHighlighted",
-				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+				"text": "Joskus vanha aihe pidetään elossa hyvistä syistä, kuten  meneillään olevan kekustelun vuoksi tai aiheen aloittaja seuraa aihetta kuukausia myöhemmin. Kaikki vanhemmat aiheet valituilla foorumeilla korostetaan, mukaan lukien satunnaiset kauan kestävät aiheet, jotka eivät ole nekropostauksia. (Siksi ne on korostettu, muttei poistettu.)"
 			}
 		],
 		"dynamicEnable": true,
@@ -1834,13 +1914,13 @@
 	},
 	{
 		"id": "number-pad",
-		"name": "Näytä numeronäppäimistö aina",
-		"description": "Show Scratch's virtual number pad when editing number fields in blocks on all devices, instead of only touchscreen devices.",
+		"name": "Näytä aina numeronäppäimistö",
+		"description": "Näytä Scratchin virtuaalinen numeronäppäimistö kaikilla laitteilla lohkojen numerokenttiä muokatessa sen sijaan, että näppäimistö näytettäisiin ainoastaan kosketusnäytöllisillä laitteilla.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from blocks such as \"move () steps\".",
+				"text": "Numeronäppäimistö ilmestyy, kun lohkojen, kuten \"liiku () askelta\", numerokenttiä muokataan.",
 				"id": "explanation"
 			}
 		],
@@ -1901,8 +1981,8 @@
 	},
 	{
 		"id": "op-badge",
-		"name": "Highlight project creator in comments",
-		"description": "Adds a badge next to the project creator in project comments sections. Also adds a badge next to the original poster in forum topics.",
+		"name": "Korosta projektin tekijä kommenteissa",
+		"description": "Lisää projektin tekijän viereen merkin kommenttiosiossa. Lisää myös merkin foorumiaiheen aloittajan viereen.",
 		"tags": ["community", "forums", "featured", "comments"],
 		"credits": [
 			{
@@ -2047,8 +2127,8 @@
 	},
 	{
 		"id": "remember-collapsed-categories",
-		"name": "Remember collapsed forum categories",
-		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
+		"name": "Muista kutistetut foorumiluokat",
+		"description": "Foorumien etusivulla kutistamasi luokat (palstalistat) pysyvät kutistettuina, kun poistut ja palaat sivulle.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2331,8 +2411,8 @@
 	},
 	{
 		"id": "share-through-mystuff",
-		"name": "Share through My Stuff",
-		"description": "Share projects through the My Stuff page.",
+		"name": "Projektien jakaminen Omien tavaroiden kautta",
+		"description": "Jaa projekteja Omat tavat -sivulla.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -2456,7 +2536,7 @@
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
-		"dynamicDisable": false,
+		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
 	},

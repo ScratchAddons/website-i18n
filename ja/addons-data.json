@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "60FPSでは、プロジェクトは多くの場合2倍の速さで動きます。",
+				"text": "フレームレートを速くするとスクリプトの実行速度も速くなるため、60FSでは、多くのプロジェクトは正常に動作しません。このアドオンは60FPSに対応するプロジェクトでのみ使用すべきです。",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -355,6 +355,24 @@
 		"versionAdded": "1.6.0"
 	},
 	{
+		"id": "colorblind",
+		"name": "リンクのカスタマイズ",
+		"description": "ウェブサイトのリンクのスタイルをカスタマイズする。",
+		"tags": ["community", "theme", "beta"],
+		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
+		"info": [
+			{
+				"id": "feedback",
+				"text": "このアドオンに、将来他のアクセシビリティー機能を追加することを予定しています。フィードバックを送信するには、 scratchaddons.com/feedback に行くか、サイドバーの「フィードバックを送信」をクリックしてください。"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "columns",
 		"name": "2列カテゴリーメニュー",
 		"description": "Scratch 2.0のように、ブロックカテゴリーメニューを2列に分け、ブロックパレットの上部に配置する。",
@@ -402,12 +420,14 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.18.0",
+		"latestUpdate": { "version": "1.34.0", "newSettings": ["no_borders"] },
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -625,9 +645,12 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.33.2",
-			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
-			"isMajor": true
+			"version": "1.34.0",
+			"newSettings": [
+				"messageIndicatorColor",
+				"messageIndicatorOnMessagesPage"
+			],
+			"temporaryNotice": "There are two new presets - one resembling Scratch 2.0 and one with a light blue accent color, which was used on the front page between 2015 and 2018. The message badge color is also customizable now."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -646,7 +669,7 @@
 	{
 		"id": "debugger",
 		"name": "デバッガー",
-		"description": "「デバッガー」画面をエディターに追加する。「log」、「warn」、「error」ブロックでデバッガーの「ログ」タブに内容を表示する。「breakpoint」ブロックでプロジェクトを一時停止させる。「スレッド」タブでスレッドを確認し、一時停止中「次に進む」を押して次のブロックを実行する。「パフォーマンス」タブでFPSとクローン数のグラフを表示する。",
+		"description": "「デバッガー」画面をエディターに追加する。「log」、「warn」、「error」ブロックでデバッガーの「ログ」タブに内容を表示する。「breakpoint」ブロックでプロジェクトを一時停止させる。デバッガー画面の「スレッド」タブで実行中のブロックを確認し、一時停止中「次に進む」を押して次のブロックを実行する。「パフォーマンス」タブでFPSとクローン数のグラフを表示する。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -743,12 +766,17 @@
 				"name": "Chrome_Cat",
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "Mr_MPH", "link": "https://scratch.mit.edu/users/Mr_MPH/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.17.0"
+		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.34.0",
+			"newSettings": ["drag_while_stopped"]
+		}
 	},
 	{
 		"id": "discuss-button",
@@ -823,6 +851,27 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "editor-compact",
+		"name": "コンパクトエディター",
+		"description": "Scratch 2.0のように、エディターのボタン、入力、メニューバーなどのサイズを小さくし、コードエリア、コスチュームエディター、コスチュームプレビューなどのスペースを大きくする。",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-dark-mode",
@@ -909,6 +958,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "editor-number-arrow-keys",
+		"name": "矢印キーで数値を変更",
+		"description": "ブロック入力の数値を上下キーで変更する。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1216,6 +1281,21 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0"
+	},
+	{
+		"id": "forum-post-countdown",
+		"name": "フォーラムのクールダウン表示",
+		"description": "フォーラムで投稿した後、再度投稿できるまでのカウントダウンを表示する。",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -2454,7 +2534,7 @@
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
-		"dynamicDisable": false,
+		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
 	},

@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Les projects tourneront deux fois plus vite en 60FPS, car ils tournent généralement à 30FPS.",
+				"text": "La plupart des projets ne se comporteront pas correctement lorsqu'ils tournent à 60FPS, car l'augmentation du taux de rafraîchissement augmente également la vitesse d'exécution des scripts. Cette option ne doit être utilisée que pour les projets qui supportent le 60FPS.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -355,6 +355,24 @@
 		"versionAdded": "1.6.0"
 	},
 	{
+		"id": "colorblind",
+		"name": "Customizable link style",
+		"description": "Lets you customize the style of links around the website.",
+		"tags": ["community", "theme", "beta"],
+		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
+		"info": [
+			{
+				"id": "feedback",
+				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "columns",
 		"name": "Menu catégorie à deux colonnes",
 		"description": "Divise le menu des catégories de blocs en deux colonnes et le déplace vers le haut de la palette de blocs, comme dans Scratch 2.0",
@@ -402,12 +420,14 @@
 			{
 				"name": "yes-i-am-lanky",
 				"link": "https://scratch.mit.edu/users/yes-i-am-lanky/"
-			}
+			},
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.18.0",
+		"latestUpdate": { "version": "1.34.0", "newSettings": ["no_borders"] },
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -630,9 +650,12 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
-			"version": "1.33.2",
-			"temporaryNotice": "The presets for this addon have been updated to use Scratch's new purple accent color. Presets that use blue are still available as well.",
-			"isMajor": true
+			"version": "1.34.0",
+			"newSettings": [
+				"messageIndicatorColor",
+				"messageIndicatorOnMessagesPage"
+			],
+			"temporaryNotice": "There are two new presets - one resembling Scratch 2.0 and one with a light blue accent color, which was used on the front page between 2015 and 2018. The message badge color is also customizable now."
 		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -651,7 +674,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Ajoute une nouvelle fenêtre \"débogage\" à l'éditeur. Permet de se connecter à la \"console\" débogueur à l'aide des blocs \"log\", \"warn\" et \"erreur\". Le bloc \"point d'arrêt\" mettra le projet en pause lors de son exécution. Tous les processus en cours d'exécution peuvent être visualisés dans l'onglet \"processus\" du débogueur, et lorsqu'il est en pause, le bouton \"étape\" peut être utilisé pour exécuter le bloc suivant. Un graphique des \"FPS\" et du nombre de clones peut être visualisé dans l'onglet \"Performance\".",
+		"description": "Ajoute une nouvelle fenêtre \"débogueur\" à l'éditeur. Permet l'enregistrement dans l'onglet \"Logs\" de la fenêtre du débogueur en utilisant les blocs \"log\", \"warn\" et \"error\". Le bloc \"breakpoint\" met le projet en pause lorsqu'il est exécuté. Toutes les piles de blocs en cours d'exécution peuvent être visualisées dans l'onglet \"Threads\" de la fenêtre du débogueur et, en cas de pause, le bouton \"Step\" peut être utilisé pour exécuter le bloc suivant. Un graphique des images par seconde et du nombre de clones peut être visualisé dans l'onglet \"Performance\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -748,12 +771,17 @@
 				"name": "Chrome_Cat",
 				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{ "name": "Mr_MPH", "link": "https://scratch.mit.edu/users/Mr_MPH/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.17.0"
+		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.34.0",
+			"newSettings": ["drag_while_stopped"]
+		}
 	},
 	{
 		"id": "discuss-button",
@@ -828,6 +856,27 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "editor-compact",
+		"name": "Éditeur compact",
+		"description": "Réduit la taille des boutons, des champs de saisie, de la barre de menu et d'autres éléments de l'éditeur, libérant ainsi de l'espace pour des composants tels que la zone de code, l'éditeur de costumes et les aperçus de costumes, comme c'était le cas dans Scratch 2.0.",
+		"tags": ["editor", "theme", "featured"],
+		"credits": [
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
+			},
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.34.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "editor-dark-mode",
@@ -914,6 +963,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "editor-number-arrow-keys",
+		"name": "Incrémentation avec les touches fléchées dans l'éditeur",
+		"description": "Utilisez les touches fléchées haut et bas pour augmenter ou diminuer les valeurs numériques dans les entrées de bloc.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1223,6 +1288,21 @@
 		"versionAdded": "1.25.0"
 	},
 	{
+		"id": "forum-post-countdown",
+		"name": "Affichage du délai pour l'envoi de nouveaux messages dans les forums",
+		"description": "Après avoir envoyé un message sur le forum, affiche un compte à rebours indiquant quand vous pourrez envoyer un nouveau message.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{
+				"name": "mybearworld",
+				"link": "https://scratch.mit.edu/users/mybearworld/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.34.0"
+	},
+	{
 		"id": "forum-quote-code-beautifier",
 		"name": "Citations et blocs de code personnalisables sur les forums",
 		"description": "Affiche du code et des citations de manière plus agréable sur les forums.",
@@ -1426,7 +1506,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Cacher la signature sur les forums",
+		"name": "Masquer les signatures des forums",
 		"description": "Masque les signatures dans les messages des forums et ajoute un bouton \"Afficher la signature\".",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -2459,7 +2539,7 @@
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "HTML-Fan/NT" }],
 		"dynamicEnable": true,
-		"dynamicDisable": false,
+		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
 	},
