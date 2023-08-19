@@ -1,16 +1,23 @@
 ---
 title: Főoldal
 ---
-**Üdvözöljük a Scratch Addons dokumentációjánál!**
 
-Ha szeretne egy addon-t készíteni, [kezdje itt](fejlesztés/első-lépések/addon-készítése)
+Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
 
-Ha szeretne segíteni a bővítmény lefordításában, [tudja meg itt](fordítás/csatlakozni-a-fordító-csapathoz)
+Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
 
-Ha segítség kell a Scratch Addons-al, [nézze meg itt](első-lépések/gyors-bemutató)
+## Quick links
 
-Ha érdekli a projekt dizájnolása, akkor [nézzen el ide](reference/design).
+- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
+- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
+- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
+- If you are interested in the design of the project, [read this page](reference/design).
+- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-Kérdése van a Scratch Addons-ról? [kérdezzen itt](https://github.com/ScratchAddons/ScratchAddons/discussions)!
+## Contributing
 
-Új kiegészítőötletek mehetnek a [problémák oldalra](https://github.com/ScratchAddons/ScratchAddons/issues).
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+
+## Megbeszélés
+
+Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

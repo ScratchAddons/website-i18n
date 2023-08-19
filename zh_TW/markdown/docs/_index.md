@@ -1,16 +1,23 @@
 ---
 title: 主頁
 ---
-**歡迎使用 Scratch Addons 說明文件！**
 
-如果你正在考慮創建一個擴充功能，可以[從這裡開始](develop/getting-started/creating-an-addon)。
+Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
 
-如果你想協助翻譯擴充功能，可以[從這裡學習如何做](localization/joining-the-localization-team)。
+Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
 
-如果你需要知道如何使用 Scratch Addons，可以[查閱入門文件](getting-started/quick-start)。
+## Quick links
 
-如果你對這個專案的設計感興趣，不妨[來這裡看看](reference/design)。
+- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
+- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
+- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
+- If you are interested in the design of the project, [read this page](reference/design).
+- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-對 Scratch Addons 有什麼疑問？你可以[在這裡提問](https://github.com/ScratchAddons/ScratchAddons/discussions)！
+## Contributing
 
-有新的擴充功能想法，可以[到這裡提出](https://github.com/ScratchAddons/ScratchAddons/issues)。
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+
+## 討論
+
+Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

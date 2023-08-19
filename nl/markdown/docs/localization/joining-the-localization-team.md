@@ -108,7 +108,7 @@ Als je nog vragen hebt over vertalen, kies dan één van de volgende opties:
 - Stuur een e-mail naar `translation@scratchaddons.com`.
 - Word lid van onze [Discord-server voor Ontwikkelaars](https://discord.gg/Ak8sCDQ).
 - [Open een discussie op GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-account vereist).
-- [Geef feedback](/feedback) (zorg ervoor dat je je Scratch-gebruikersnaam duidelijk maakt in het formulier, we zullen antwoorden in de opmerkingen van je Scratch-profiel).
+- [Geef feedback](/feedback) (zorg ervoor dat je je Scratch-gebruikersnaam duidelijk maakt in het formulier, we geven antwoord in de opmerkingen van je Scratch-profiel).
 
 ### Credits
 

@@ -4,82 +4,82 @@ description: Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla
 ---
 
 {{< admonition info >}}
-If you found a **translation mistake/error** in Scratch Addons, please [send feedback](/feedback) about it.
+Eğer Scratch Eklentileri'nde bir **çeviri hatası/yanlışı** bulursanız, lütfen bunun hakkında [geri bildirim gönderin](/feedback).
 {{< /admonition >}}
 
-Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+Scratch Eklentileri, dünyanın dört bir yanındaki gönüllülerin yardımıyla 15'ten fazla dilde mevcut.
 
-## Requirements to join as a translator
+## Bir çevirmen olarak katılmak için gerekenler
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
-* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* **İNGİLİZCE DİLİNDE AKICI** olmalısınız.
+* Örneğin, eğer Scratch Eklentileri'nin ayarlar sayfasını İngilizce olarak kullanabiliyorsanız veya eğer griffpatch'in videolarını anlayabiliyorsanız İngilizcede akıcısınızdır. Eğer ki cümleleri bir çevirmen olmadan anlamakta zorlanıyorsanız, akıcı değilsinizdir.
+* Çevirmek istediğiniz dilde **ANA DİLİ SEVİYESİNDE** yetkinliğiniz olmalı.
+* Tercihen haftada en az bir kere kontrol ettiğiniz bir e-posta adresine sahip olmalısınız.
+* [scratch.mit.edu](https://scratch.mit.edu)'da bir hesaba sahip olmalısınız.
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Japanese, Portuguese, Slovenian, Spanish.
-<!-- This list of languages is also found below. Remember to update both. -->
+**Şu dillerde yeni çevirmen kabul EDİLMEYECEKTİR:** İtalyanca, Japonca, Portekizce, Slovence, İspanyolca.
+<!-- Bu dillerin listesi aşağıda bulunabilir. İkisini de güncellemeyi unutmayın. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+Eğer ana dili seviyesinde değilseniz ancak kendinizi yeterince akıcı görüyorsanız, katılmak için istekte bulunabilirsiniz. Dil sınıflarına katılmanın sizi akıcı yapmayacağını unutmayın. Eğer akıllı telefonunuzun sistem dilini o dile almadan kullanamıyorsanız, yeterince akıcı değilsiniz demektir!
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+Biz sadece Scratch'in kendi desteklediği dilleri destekliyoruz. Ayrı olarak Arapça ve İbranice gibi sağdan sola yazılan dillere de destek veriyoruz.
 
-## Content available for translation
+## Çevirmeye açık olan içerikler
 
-#### Scratch Addons browser extension
+#### Scratch Eklentileri tarayıcı uzantısı
 
-- **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
+- **Genel Çeviri.** Bunlar, eklenti tarafından kullanılan ~150 yazı metni. Kullanıcılar bu çevirileri yalnızca genel dizelerinin %90'ı çevrildiyse kendi dillerinde görebilir.
 
-- **Addons Translation.** These text strings include addon names, descriptions, settings, and other text strings used by addons. Users can only see these translations if the general translation is already available and 80% of addon strings were translated. There are over 1000 addon strings available for translation.
+- **Eklenti Çevirisi.** Bunlar eklentilerin kullandığı eklenti isimlerini, açıklamalarını, ayarlarını ve diğer yazı metinlerini barındıran yazı metinleridir. Kullanıcılar bu çevirileri yalnızca genel çeviri mevcut ve eklenti dizelerinin %80'i çevrilmişse görebilir. Çevirmeye açık 1000'e aşkın eklenti dizesi vardır.
 
-![Screenshot of the Scratch Addons extension in Japanese](/assets/img/docs/transifex-general-vs-addons.png)
+![Scratch Eklentileri uzantısının Japonca versiyonundan bir Ekran Görüntüsü](/assets/img/docs/transifex-general-vs-addons.png)
 
-#### Scratch Addons website
+#### Scratch Eklentileri sitesi
 
-Translators also have the possibility to translate the contents of the Scratch Addons website. For more information about translating the website, see [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Çevirmenler ayrıca Scratch Eklentileri'nin internet sitesi içeriğini de çevirme imkânına sahip. İnternet sitesini çevirmek hakkında daha fazla bilgi için bkz. [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
-## Supported languages
+## Desteklenen diller
 
-We support most languages that Scratch itself supports.
+Scratch'in kendi desteklediği dillerin çoğunu destekliyoruz.
 
 <details>
-<summary>Click to access the full list supported languages (50+ languages)</summary>
-Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
+<summary>Desteklenen tüm dillere erişmek için tıklayın (50+ dil)</summary>
+Abhazca (ab), Afrikanca (af), Amharca (am), Aragonca (an), Arapça (ar), Azerice (az), Belarusça (be), Bulgarca (bg), Bengalce (bn), Katalonca (ca), Soranice (ckb), Çekçe (cs), Galce (cs), Danca (da), Almanca (de), Yunanca (el), İspanyolca (es), Estonca (et), Baskça (eu), Farsça (fa), Fince (fi), Fransızca (fr), Batı Frizce (fy), İrlandaca (ga), İskoç Galcesi, İskoçça (gd), Galiçyaca (gl), İbranice (he), Hintçe (hi), Hırvatça (hr), Haitice (Haitian Creole) (ht), Macarca (hu), Ermenice (hy), Endonezce (id), İzlandaca (is), İtalyanca (it), Japonca (ja), Gürcüce (ka), Kazakça (kk), Kmerce (km), Korece (ko), Kürtçe (ku), Litvanca (lt), Letonca (lv), Maorice (mi), Moğolca (mn), Norveççe Bokmål (nb), Felemenkçe (nl), Norveççe Nynorsk (nn), Kuzey Sotho (nso), Oriya (or), Lehçe (pl), Portekizce (Brezilya) (pt_BR), Keçuva (qu), Rapa Nui (rap), Romence (ro), Rusça (ru), Slovakça (sk), Slovence (sl), Sırpça (sr), İsveççe (sv), Svahili (sw), Tayca (th), Tsvana (tn), Türkçe (tr), Ukraynaca (uk), Özbekçe (uz), Vietnamca (vi), Xhosa (xh), Çince (Çin) (zh_CN), Çince (Tayvan) (zh_TW), Zuluca (zu)
 </details>
 
-We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
+Şu dilleri henüz desteklemiyoruz: Asturyasça (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipince (fil), Hausaca (ha), Japonca (Hiragana) (ja-Hira), Oksitanca (oc), Portekizce (Portekiz) (pt_PT). Bu dillerden biri için bir çevirmen olmak ilgileniyorsanız henüz desteklemiyoruz, lütfen `translation@scratchaddons.com` adresine bir e-posta gönderin.
 
-These languages **do not** accept new translator requests: **Italian, Japanese, Portuguese, Slovenian, Spanish.**
+Şu dillere yeni çevirmen kabul **edilmeyecek**: **İtalyanca, Japonca, Portekizce, Slovence, İspanyolca.**
 
-## Steps to join as a translator
+## Çevirmen olarak katılmak için gereken adımlar
 
-Thanks for wanting to help with translating Scratch Addons to other languages! Please follow the steps below.
+Scratch Eklentilerini diğer dillere çevirme konusunda yardım etmek istediğiniz için teşekkür ederiz! Lütfen aşağıdaki adımları izleyin.
 
-#### 1. Verify your Scratch account
-1. Visit this [Scratch studio](https://scratch.mit.edu/studios/33665222/comments) with your Scratch account.
-1. Send a studio comment indicating the language you want to translate to (for example, `Greek`).  
-![Screenshot of Scratch](/assets/img/docs/scratch-req-language.png)
+#### 1. Scratch hesabınızı doğrulayın
+1. Scratch hesabınız açıkken bu [Scratch stüdyosunu](https://scratch.mit.edu/studios/33665222/comments) ziyaret edin.
+1. Çevirmek istediğiniz dili belirten bir stüdyo yorumu gönderin (örneğin, `Yunanca`).
+![Scratch'in Ekran Görüntüsü](/assets/img/docs/scratch-req-language.png)
 
-If you don't own a Scratch account, please send an email to `translation@scratchaddons.com` instead.
+Eğer bir Scratch hesabınız yoksa, lütfen bunun yerine `translation@scratchaddons.com` adresine bir e-posta gönderin.
 
-#### 2. Create a Transifex account
-1. Go to [Transifex Sign Up](https://app.transifex.com/signup/).  
-1. You will be shown Transifex's "Sign Up" screen. **DO NOT sign up with Google.**  
-1. In the "username" field, we highly recommend you enter your Scratch username, or a slight variation of it.  
-For example, if your Scratch username is `john_walker954`, your Transifex username can be exactly the same (`john_walker954`) or `john_walker954_scratch`.
-1. In the "business email" field, enter your email (it can be Gmail, Outlook, or any other).
-1. In the "password" field, enter a password.
-1. Click the "Sign Up" button.
-1. Choose **"Join an existing organization"**.
-1. Click the "Continue" button.
-1. You'll be asked for your First name and Last name.  
-\- In the **First name**, we recommend you enter your Scratch username.  
-\- In the **Last name**, we recommend you enter the language you want to translate to (for example, `Greek`).
-1. In the "languages you speak" field, select at least one language you're fluent with (for example, English).
-1. Click the "Continue" button.
-1. Continue with the "requesting a language" steps below.
+#### 2. Bir Transifex hesabı oluşturun
+1. [Transifex Kayıt](https://app.transifex.com/signup/) sayfasına gidin.
+1. Size Transifex'in "Kayıt Ol" ekranı görünecektir. **Google ile kayıt OLMAYIN.**
+1. "kullanıcı adı" alanına Scratch'teki kullanıcı adınızı girmenizi şiddetle tavsiye ediyoruz. Ya da onun kısaltılmış bir varyasyonu.
+Örneğin, eğer Scratch'teki kullanıcı adınız `john_walker954` ise, Transifex'teki kullanıcı adınız da tıpatıp aynısı (`john_walker954`) ya da `john_walker954_scratch` olabilir.
+1. "iş e-postası" alanına, e-posta adresinizi girin (Gmail, Outlook veya başka herhangi biri).
+1. "şifre" alanına bir şifre girin.
+1. "Kayıt Ol" düğmesine tıklayın.
+1. **"Mevcut bir organizasyona katıl"**ı seçin.
+1. "Devam Et" düğmesine tıklayın.
+1. Sizden Adınız ve Soyadınız istenecek.
+\- **Adınız** yerine Scratch kullanıcı adınızı girmenizi öneriyoruz.
+\- **Soyadınız** yerine çevirmek istediğiniz dili girmenizi öneriyoruz (örneğin, `Yunanca`).
+1. "konuştuğunuz diller" alanına akıcı olduğunu en az bir dil seçin (örneğin, İngilizce).
+1. "Devam Et" düğmesine tıklayın.
+1. Aşağıdaki "bir dil talebinde bulunmak" adımları ile devam edin.
 
 If you already own a Transifex account and don't want to create a new one, please send an email to `translation@scratchaddons.com` indicating your Transifex account's username. Then, continue with the "requesting a language" section below.
 

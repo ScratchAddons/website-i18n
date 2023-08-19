@@ -1,16 +1,23 @@
 ---
 title: 홈
 ---
-**스크래치 애드온 문서에 온 것을 환영합니다!**
 
-애드온을 만드는 것을 생각해 보고 있다면, [이곳에서 시작하세요](develop/getting-started/creating-an-addon).
+Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
 
-확장 프로그램을 번역하는데 도움을 주고 싶다면, [이곳에서 어떻게 해야 하는지 배우세요](localization/joining-the-localization-team).
+Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
 
-스크래치 애드온을 시작하는 데 도움이 필요하면, [이 문서를 확인하세요](getting-started/quick-start).
+## Quick links
 
-이 프로젝트의 디자인에 관심이 있다면, [이 문서를 확인하세요](reference/design).
+- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
+- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
+- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
+- If you are interested in the design of the project, [read this page](reference/design).
+- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-스크래치 애드온에 대해 질문이 있으신가요? [여기에서 질문하세요](https://github.com/ScratchAddons/ScratchAddons/discussions)!
+## 기여
 
-새 애드온에 대한 아이디어가 있다면 [이슈 탭](https://github.com/ScratchAddons/ScratchAddons/issues)으로 가실 수 있습니다.
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+
+## 토론하기
+
+Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

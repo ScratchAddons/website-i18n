@@ -1,16 +1,23 @@
 ---
 title: Accueil
 ---
-**Bienvenue sur la documentation de Scratch Addons !**
 
-Si vous cherchez à créer un addon, [commencez ici](develop/getting-started/creating-an-addon).
+Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
 
-Si vous voulez aider à traduire l'extension, [apprenez-en plus ici](localization/joining-the-localization-team).
+Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
 
-Si vous avez besoin d'aide pour vous familiariser avec Scratch Addons, [regardez ici](getting-started/quick-start).
+## Quick links
 
-Si vous êtes intéressés par le design du projet, [regardez ici](reference/design).
+- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
+- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
+- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
+- If you are interested in the design of the project, [read this page](reference/design).
+- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-Vous avez une question à propos de Scratch Addons ? [Posez-la ici](https://github.com/ScratchAddons/ScratchAddons/discussions) !
+## Contribuer
 
-Les idées pour de nouveaux addons peuvent être postées dans [l'onglet Probèmes](https://github.com/ScratchAddons/ScratchAddons/issues).
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+
+## Discuter
+
+Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

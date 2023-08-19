@@ -1,15 +1,57 @@
+v1.5.0:
+  Highlights:
+    Description: |
+    ImageAlt: ""
+v1.6.1:
+  Highlights:
+    Description: |
+v1.7.0:
+  Highlights:
+    Description: |
+    ImageAlt: ""
+v1.8.0:
+  Highlights:
+    Description: |
+v1.9.1:
+  Highlights:
+    Description: |
+    ImageAlt: ""
+v1.10.0:
+  Highlights:
+    Description: |
+v1.11.0:
+  Highlights:
+    Description: |
+v1.12.0:
+  Highlights:
+    Description: |
+v1.13.0:
+  Highlights:
+    Description: |
+v1.14.0:
+  Highlights:
+    Description: |
 v1.15.0:
   Highlights:
     Description: |
       이 업데이트의 새로운 추가사항은 "블럭 투명도", "Ctrl+Click으로 스크립트 실행하기", "복제 블록 자동으로 실행 안 함", "스크래치 메시지 페이지에서 메시지 필터링"입니다. 활성화하려면 스크래치 애드온 설정(으)로 이동합니다.
 
       이 업데이트는 읽지 않은 메시지 수를 표시하는 스크래치 애드온 확장 배지의 기본 색상도 변경했습니다. 이전의 녹색으로 돌아가거나 색을 사용자 정의하려면 Scratch 애드온 settings(으)로 이동하세요.
+v1.16.0:
+  Highlights:
+    Description: |
 v1.17.0:
   Highlights:
     Description: |
       새 애드온: "과거 스튜디오 레이아웃"은 스튜디오 페이지의 레이아웃을 스튜디오 업데이트 전의 레이아웃으로 되돌립니다. 스크래치 애드온 설정을/를 사용하여 활성화할 수 있습니다.
 
       새로운 "스튜디오에서 팔로워 찾기 버튼 추가" 애드온으로 클릭 한 번으로 초대할 수 있습니다. 이 업데이트에서 추가된 다른 새로운 애드온으로는 "HD 이미지 올리기"와 "편집기에서 드래그할 수 없는 스프라이트"가 있습니다.
+v1.18.0:
+  Highlights:
+    Description: |
+v1.19.0:
+  Highlights:
+    Description: |
 v1.20.0:
   Highlights:
     Description: |
@@ -18,6 +60,9 @@ v1.20.0:
 
       "편집기 다크 모드와 색상 사용자 지정" 애드온에는 새로운 "스크래치 2.0" 색상 사전 설정이 있습니다. 이 업데이트에서 추가된 다른 새 애드온에는 "새 변수 숨기기"와 "모양 블록을 맨 위로 올리거나 맨 아래로 내리기"가 있습니다.
       p.s. 밀려있었던 한국어 번역이 모두 완료되었습니다. 한국어 번역으로 더욱 편하게 스크래치 애드온을 사용하세요.
+v1.21.0:
+  Highlights:
+    Description: |
 v1.22.0:
   Highlights:
     Description: |
@@ -30,3 +75,39 @@ v1.23.0:
       새 애드온 "웹사이트 다크 모드와 색상 사용자 지정"이 추가되었습니다. 스크래치 애드온 설정에서 특정 색상을 변경하거나, 어두운 스크롤바를 끄고 키거나, 그 외에 여러 기능들을 확인하세요!
 
       이 업데이트에서 추가된 다른 새 애드온은 "스크립트를 격자에 맟추기", "block count", "고해상도 썸네일"가 있습니다. p.s. 일부 번역은 기능 확인 후로 유예됩니다.
+v1.24.0:
+  Highlights:
+    Description: |
+v1.25.0:
+  Highlights:
+    Description: |
+v1.26.0:
+  Highlights:
+    Description: |
+v1.27.0:
+  Highlights:
+    Description: |
+v1.28.0:
+  Highlights:
+    Description: |
+v1.29.0:
+  Highlights:
+    Description: |
+v1.30.0:
+  Highlights:
+    Description: |
+v1.31.0:
+  Highlights:
+    Description: |
+v1.32.0:
+  Highlights:
+    Description: |
+v1.33.0:
+  Highlights:
+    Description: |
+v1.33.2:
+  Highlights:
+    Description: |
+v1.34.0:
+  Highlights:
+    Description: |

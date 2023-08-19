@@ -1,25 +1,58 @@
+v1.5.0:
+  Highlights:
+    Description: |
+    ImageAlt: ""
 v1.6.1:
   Highlights:
     Description: |
       Nova função: seletor de cor hex, para escolher cores facilmente. Vá para Configurações do Scratch Addons para ativá-lo.
+v1.7.0:
+  Highlights:
+    Description: |
+    ImageAlt: ""
+v1.8.0:
+  Highlights:
+    Description: |
+v1.9.1:
+  Highlights:
+    Description: |
+    ImageAlt: ""
 v1.10.0:
   Highlights:
     Description: |
       Nova função: addon "botão de copiar link do comentário", que adiciona um botão de "copiar link" aos comentários, para que você possa criar links a qualquer comentário facilmente. Vá para Configurações do Scratch Addons para ativar.
 
       O addon "botão de pausa" foi melhorado e saiu da beta. Muitos bugs do modo escuro foram resolvidos.
+v1.11.0:
+  Highlights:
+    Description: |
 v1.12.0:
   Highlights:
     Description: |
       Nova função: Addon "Arrastar arquivos", que te deixa arrastar imagens e sons do seu computador até as listas de atores, fantasias ou sons. Vá para Configurações do Scratch Addons para ativá-lo.
 
       Outro addon em destaque nesta atualização é "mudar formato dos blocos", que te deixa ajustar o tamanho, raio de canto, e altura do encaixe dos blocos do Scratch.
+v1.13.0:
+  Highlights:
+    Description: |
+v1.14.0:
+  Highlights:
+    Description: |
+v1.15.0:
+  Highlights:
+    Description: |
 v1.16.0:
   Highlights:
     Description: |
       Novo addon: "depurador", que adiciona logs e breakpoints ao Scratch. Vá para Configurações do Scratch Addons para ativá-lo.
 
       Outro addon novo neste update é a "barra de pesquisa expansível", que deixa a barra de pesquisa de projetos mais longa quando está em foco.
+v1.17.0:
+  Highlights:
+    Description: |
+v1.18.0:
+  Highlights:
+    Description: |
 v1.19.0:
   Highlights:
     Description: |
@@ -38,6 +71,12 @@ v1.21.0:
       Novo addon: "duplicar script com a tecla Alt", que te deixa duplicar um script rapidamente arrastando-o enquanto segura a tecla Alt. Vá para Configurações do Scratch Addons para ativá-lo.
 
       Outros addons novos nessa atualização são "tela cheia melhorada" e "paleta de emoji nos comentários".
+v1.22.0:
+  Highlights:
+    Description: |
+v1.23.0:
+  Highlights:
+    Description: |
 v1.24.0:
   Highlights:
     Description: |
@@ -50,9 +89,36 @@ v1.25.0:
       Novo addon: "entradas no seletor de cores", o qual permite definir um valor exato (0-100) para cada slider de seleção de cor no editor de fantasias. Ative a função indo para Configurações do Scratch Addons .
 
       Outros novos addons desta atualização incluem "abas horizontais na página Minhas Criações" e "prévia de postagem no fórum em tempo real".
+v1.26.0:
+  Highlights:
+    Description: |
+v1.27.0:
+  Highlights:
+    Description: |
+v1.28.0:
+  Highlights:
+    Description: |
+v1.29.0:
+  Highlights:
+    Description: |
+v1.30.0:
+  Highlights:
+    Description: |
+v1.31.0:
+  Highlights:
+    Description: |
+v1.32.0:
+  Highlights:
+    Description: |
+v1.33.0:
+  Highlights:
+    Description: |
 v1.33.2:
   Highlights:
     Description: |
       O Scratch acabou de lançar uma nova atualização que mudou algumas das cores ao redor do website. Se você deseja que suas configurações utilizem as novas cores, volte atrás, você pode resetar ou mudar os temas em Configurações do Scratch Addons.
 
       Os desenvolvedores do Scratch Addons vem trabalhando incansavelmente para suportar essas mudanças, mas você ainda pode experienciar bugs pequenos de vez em quando.
+v1.34.0:
+  Highlights:
+    Description: |

@@ -1,16 +1,23 @@
 ---
 title: Home
 ---
-**Welkom bij de Scratch Addons-Documentatie!**
 
-Als je nadenkt over het maken van een addon, [begin hier](develop/getting-started/creating-an-addon).
+Welkom bij de Scratch Addons-Documentatie! Hier vind je documentatie die te maken heeft met Scratch Addons.
 
-Als je wilt helpen met het lokaliseren van de extensie, [lees hier meer](localization/joining-the-localization-team).
+Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratch website en projecteditor in een handige en aanpasbare browserextensie. Het doel is om een gecentraliseerd en up-to-date platform aan te bieden voor de gemeenschap om nieuwe functies en thema's te ontwikkelen voor Scratch.
 
-Als je hulp nodig hebt met beginnen met Scratch Addons, [kijk hier](getting-started/quick-start).
+## Snelle links
 
-Als je geïnteresseerd bent in het ontwerp van het project, [kijk hier](reference/design).
+- Als je een addon wilt gaan maken, [begin hier](develop/getting-started/creating-an-addon).
+- Als je wilt helpen met het lokaliseren van de extensie, [lees deze pagina](localization/joining-the-localization-team).
+- Als je hulp nodig hebt om te beginnen met Scratch Addons, [lees deze pagina](getting-started/quick-start).
+- Als je geïnteresseerd bent in het ontwerp van het project, [lees deze pagina](reference/design).
+- Een bug gevonden? Heb je een idee? Vertel het ons op [het issues-tabblad](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-Vragen over Scratch Addons? [Stel ze hier](https://github.com/ScratchAddons/ScratchAddons/discussions)!
+## Bijdragen
 
-Ideeën voor nieuwe addons zet je in de [issues-pagina](https://github.com/ScratchAddons/ScratchAddons/issues).
+Alle bijdragen aan de documentatie zijn welkom. Op [het issues-tabblad](https://github.com/ScratchAddons/ScratchAddons/issues) of [het feedbackformulier](../feedback) kun je dingen melden, of je bewerkt de pagina en maakt een pullverzoek om het probleem op te lossen. De bestanden vind je in [de website-v2 repository](https://github.com/ScratchAddons/website-v2), in [de `content/docs`-map](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+
+## Discussie
+
+Wil je discussiëren over een pagina, maak gebruik van het opmerkingengedeelte onderaan de pagina. Ook kan je lid worden van [de Discord-server](https://discord.gg/R5NBqwMjNc) of denk met ons mee in [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
