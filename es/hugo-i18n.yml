@@ -143,6 +143,7 @@ ChangelogPage:
     ReleaseGitHub: Página de lanzamiento en GitHub
     RepoState: Estado del repositorio en lanzamiento
     CommitsMade: Commits hechos en esta versión
+    BlogPost: Publicación del blog para esta versión
   Status:
     Latest: Último
     Yanked: Descartado
