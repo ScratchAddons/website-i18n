@@ -1,0 +1,119 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Tính năng mới: onion skinning để tạo hoạt ảnh trong trình chỉnh sửa. Chuyển đến cài đặt Scratch Addons để bật nó.
+    ImageAlt: Trình chỉnh sửa trang phục cho chó bên trong có bật Onion Skinning. Tín dụng cho thư viện sprite Scratch.
+v1.6.1:
+  Highlights:
+    Description: |
+      Tính năng mới: bộ chọn màu hex, để chọn màu dễ dàng. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+v1.7.0:
+  Highlights:
+    Description: |
+      Tính năng mới: tinh chỉnh danh mục dữ liệu, với các tùy chọn để tách danh sách và biến cục bộ thành các phần riêng của chúng. Chuyển đến cài đặt Scratch Addons để kích hoạt nó
+
+      Các tính năng mới khác: nhập và xuất cài đặt tiện ích mở rộng, tùy chỉnh tab bật lên, chuyển đổi tiện ích bổ sung trực tiếp từ cửa sổ bật lên tiện ích mở rộng, sửa các lỗi khác nhau và cải thiện hiệu suất
+    ImageAlt: Video giới thiệu tính năng "tự động ẩn bảng khối".
+v1.8.0:
+  Highlights:
+    Description: |
+      Tính năng mới: tự động ẩn bảng khối, ẩn bảng khối nếu không được di chuột hoặc nhấp vào. Chuyển đến cài đặt Scratch Addons để bật nó.
+
+      Tính năng "ghi video dự án" trước đây chỉ ghi video, giờ đây có thể ghi tối đa 5 phút video và âm thanh dự án.
+v1.9.1:
+  Highlights:
+    Description: |
+      Tính năng mới: xem ai đã yêu thích và yêu thích các dự án của bạn trong Scratch Messaging bằng cách di chuột vào số lượt yêu thích/yêu thích. Thông báo quảng cáo Studio hiện được hỗ trợ trong cả Scratch Messaging và Scratch Notifier.
+
+      Addon "Tự động ẩn bảng khối" hiện có chế độ "di chuột theo danh mục". "Ghi video dự án" hiện có thể bao gồm đầu vào âm thanh của micrô của bạn.
+    ImageAlt: Ảnh chụp màn hình của tính năng Scratch Messaging mới.
+v1.10.0:
+  Highlights:
+    Description: |
+      Tính năng mới: addon "sao chép liên kết đến nút bình luận", thêm nút "sao chép liên kết" vào các bình luận để bạn có thể dễ dàng liên kết với chúng. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Addon "nút tạm dừng" đã được cải thiện và hiện đã hết bản beta. Nhiều lỗi chế độ tối đã được sửa.
+v1.11.0:
+  Highlights:
+    Description: |
+      Tính năng mới: addon "thư mục sprite", thêm các thư mục vào danh sách sprite, cũng như danh sách trang phục và âm thanh. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Các tiện ích bổ sung mới nổi bật khác trong bản cập nhật này là \"trình quản lý biến\" (thêm một tab bên cạnh trình chỉnh sửa để dễ dàng cập nhật các biến và danh sách) và "thống kê hồ sơ".
+v1.12.0:
+  Highlights:
+    Description: |
+      Tính năng mới: addon "Kéo và thả tệp", cho phép bạn kéo hình ảnh và âm thanh từ trình duyệt tệp của mình vào ngăn họa tiết hoặc danh sách trang phục/âm thanh. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Một tiện ích bổ sung mới nổi bật khác của bản cập nhật này là "hình dạng khối tùy chỉnh", cho phép bạn điều chỉnh phần đệm, bán kính góc và chiều cao rãnh của các khối Scratch.
+v1.13.0:
+  Highlights:
+    Description: |
+      Tính năng mới: "chế độ tối của trình chỉnh sửa" đã được làm lại và hiện có thể tùy chỉnh sâu. Chuyển đến cài đặt Scratch Addons để thay đổi màu sắc cụ thể, chuyển đổi nhận xét tối và thanh cuộn, và nhiều hơn nữa!
+
+      Các addon mới nổi bật trong bản cập nhật này là "cài đặt thu phóng khu vực tập lệnh tùy chỉnh" và "thay đổi vị trí mặc định sprite mới".
+v1.14.0:
+  Highlights:
+    Description: |
+      Một số addon mới trong bản cập nhật này là "hỗ trợ gamepad", "khối mèo", "hiệu ứng âm thanh chỉnh sửa" và "loại bỏ viền sân khấu cong". Chuyển đến cài đặt Scratch Addons để bật chúng.
+
+      Bản cập nhật này cũng cung cấp một trang cài đặt Scratch Addons có tổ chức hơn, cũng như các cải tiến về hiệu suất khi sử dụng các addon trong trình chỉnh sửa dự án.
+v1.15.0:
+  Highlights:
+    Description: |
+      Các tiện ích bổ sung mới của bản cập nhật này là "độ trong suốt của khối", "Ctrl+Click để chạy tập lệnh", "không tự động chạy các khối trùng lặp" và "lọc thông báo trên trang thông báo của Scratch". Chuyển đến cài đặt Scratch Addons để bật chúng.
+
+      Bản cập nhật này cũng đã thay đổi màu mặc định của huy hiệu tiện ích mở rộng Scratch Addons hiển thị số lượng tin nhắn chưa đọc của bạn. Vào phần cài đặt Scratch Addons để về màu xanh cũ hoặc tự tùy chỉnh màu.
+v1.16.0:
+  Highlights:
+    Description: |
+      Tiện ích mới: "trình gỡ lỗi", mang nhật ký bảng điều khiển và điểm ngắt cho Scratch. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Một tiện ích bổ sung mới khác được thêm vào trong bản cập nhật này là "thanh tìm kiếm có thể mở rộng", làm cho thanh tìm kiếm trên thanh điều hướng rộng hơn khi được đặt tiêu điểm.
+v1.17.0:
+  Highlights:
+    Description: |
+      Addon mới: "bố cục phòng thu cũ", hoàn nguyên bố cục của trang phòng thu về bố cục được sử dụng trước khi cập nhật phòng thu. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Addon "duyệt qua nút người theo dõi trong studio" mới mang lại lời mời bằng một cú nhấp chuột. Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "Tải lên hình ảnh HD" và "các họa tiết không thể kéo trong trình chỉnh sửa".
+v1.18.0:
+  Highlights:
+    Description: |
+      Addon mới: "Nút TurboWarp", bổ sung một nút trên các trang dự án để phát dự án trong TurboWarp.org. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Addon "nhiều mục hơn trên mỗi hàng" mới cho phép bạn xem nhiều hơn 3 dự án trên mỗi hàng trong studio và các phần khác của trang web. Các addon mới khác được thêm vào bản cập nhật này là "Ctrl+Enter để đăng" và "dự án mặc định có thể tùy chỉnh".
+v1.19.0:
+  Highlights:
+    Description: |
+      Addon mới: "sơn trang phục theo mặc định", cho phép bạn thay đổi hành động mặc định của các nút "Chọn nhân vật/Trang phục/Phông nền/Âm thanh". Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Phần bổ trợ "tên tập lệnh trước khi đặt vào ba lô" mới yêu cầu bạn đặt tên cho tập lệnh sau khi bạn kéo chúng vào ba lô. Các addon mới khác được thêm vào bản cập nhật này là "ẩn nút xóa" và "ẩn số liệu thống kê dự án".
+v1.20.0:
+  Highlights:
+    Description: |
+      Addon mới: "lấy một khối bằng phím Ctrl", bổ sung khả năng kéo một khối duy nhất ra khỏi giữa tập lệnh (thay vì toàn bộ ngăn xếp được đính kèm bên dưới nó) trong khi giữ phím Ctrl. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Addon "chế độ tối của trình chỉnh sửa và màu sắc có thể tùy chỉnh" có cài đặt trước màu "Scratch 2.0" mới. Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "ẩn các biến mới" và "di chuyển trang phục lên trên hoặc xuống dưới".
+v1.21.0:
+  Highlights:
+    Description: |
+      Addon mới: "nhân bản tập lệnh bằng phím Alt", bổ sung khả năng sao chép nhanh tập lệnh bằng cách kéo tập lệnh đó trong khi giữ phím Alt. Chuyển đến cài đặt Scratch Addons để bật nó. 
+
+      Các addon mới khác được thêm vào bản cập nhật này là "toàn màn hình nâng cao" và "bộ chọn biểu tượng cảm xúc cho nhận xét".
+v1.33.0:
+  Highlights:
+    Description: |
+      Addon mới: "làm nổi bật người tạo dự án trong nhận xét", bổ sung thêm huy hiệu bên cạnh người tạo dự án trong phần nhận xét dự án. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Nhiều addon đã được điều chỉnh để chuẩn bị cho những thay đổi Scratch sắp tới. Bản cập nhật này cũng mang đến những cải tiến về hiệu suất và độ ổn định.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch vừa phát hành một bản cập nhật thay đổi một số màu xung quanh trang web. Nếu bạn muốn cập nhật cài đặt của mình để sử dụng các màu mới này, hãy quay lại hoặc tùy chỉnh màu khác, bạn có thể đặt lại hoặc thay đổi bất kỳ chủ đề nào từ cài đặt Scratch Addons.
+
+      Các nhà phát triển của Scratch Addons đã làm việc chăm chỉ để hỗ trợ các thay đổi, nhưng đôi khi bạn vẫn có thể gặp các lỗi nhỏ.
+v1.34.0:
+  Highlights:
+    Description: |
+      Addon mới: "tăng phím mũi tên trong trình chỉnh sửa", cho phép bạn sử dụng phím mũi tên lên và xuống để tăng hoặc giảm giá trị số trong đầu vào khối. Chuyển đến cài đặt Scratch Addons để kích hoạt nó.
+
+      Một tiện ích bổ sung mới khác là chủ đề "trình chỉnh sửa nhỏ gọn", giúp giảm kích thước của các nút, trường nhập, thanh menu và các thành phần khác trong trình chỉnh sửa, tạo thêm không gian cho các thành phần như vùng mã, trình chỉnh sửa trang phục và bản xem trước trang phục , như trường hợp của Scratch 2.0.

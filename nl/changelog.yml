@@ -1,3 +1,30 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: "onion skinning", handig voor animeren in de editor. Ga naar Scratch Addons instellingen om de addon in te schakelen.
+    ImageAlt: Een hond in de uiterlijkeditor met "Onion Skinning" ingeschakeld. Afkomstig uit de sprite-bibliotheek van Scratch.
+v1.6.1:
+  Highlights:
+    Description: |
+      Nieuwe functie: hex-kleurenkiezer, maakt kleuren kiezen makkelijker. Ga naar Scratch Addons instellingen om de addon in te schakelen.
+v1.7.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: gegevenscategorie-aanpassingen, met opties om lijsten en lokale variabelen apart in te delen. Ga naar Scratch Addons instellingen om de addon in te schakelen.
+    ImageAlt: Video die de "blokpalet automatisch verbergen"-functie presenteert.
+v1.8.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: blokpalet automatisch verbergen, het verbergt het blokpalet als je er niets mee doet. Ga naar Scratch Addons instellingen om het in te schakelen.
+
+      De "video van project opnemen"-functie die voorheen alleen video kon opnemen, kan nu ook tot 5 minuten video en audio opnemen.
+v1.9.1:
+  Highlights:
+    Description: |
+      Nieuwe functie: zie wie je projected een hart en ster heeft gegeven in Scratch Berichten door je muis over de teller te houden. Berichten voor studiopromoties zijn nu ondersteund in Scratch Berichten en Scratchnotificaties.
+
+      De addon "Blokpalet automatisch verbergen" heeft nu een "over categorie zweven"-stand. "Video van project opnemen" heeft nu een optie om je microfoon te includeren in de opname.
+    ImageAlt: Screenshot van de nieuwe Scratch Berichten-functie
 v1.26.0:
   Highlights:
     Description: |
