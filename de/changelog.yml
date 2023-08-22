@@ -13,6 +13,7 @@ v1.7.0:
       Neue Funktion: Daten Kategorie Optimierungen, mit Einstellungen für das Separieren von Listen und lokalen Variablen in ihre eigene Sektionen. Gehe zu Scratch Addons Einstellungen um es zu aktivieren.
 
       Andere neue Funktionen: Import und Export von den Extension Einstellungen, persönliche Gestaltung von Popup Tabs, Aktivierung von Addons direkt in dem Extension Popup, verschiedene Bugs behoben und verbesserte Leistung.
+    ImageAlt: Video, das das "Automatisches Ausblenden für Blockpalette"-Feature zeigt
 v1.8.0:
   Highlights:
     Description: |
