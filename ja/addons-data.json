@@ -1284,8 +1284,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "フォーラムのクールダウン表示",
-		"description": "フォーラムで投稿した後、再度投稿できるまでのカウントダウンを表示する。",
+		"name": "Forum post cooldown display",
+		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

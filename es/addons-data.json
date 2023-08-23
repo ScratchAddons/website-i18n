@@ -1286,8 +1286,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Contador de segundos restantes para publicar en los foros",
-		"description": "Después de enviar una publicación en los foros, muestra una cuenta regresiva que indica cuándo podrá publicar nuevamente.",
+		"name": "Forum post cooldown display",
+		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

@@ -1289,8 +1289,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Cooldownanzeige fürs Posten in den Foren",
-		"description": "Zeigt, nachdem ein Forumpost abgeschickt wird, einen Countdown an, der anzeigt, wann du wieder posten kannst.",
+		"name": "Anzeige vom Forumpostcooldown",
+		"description": "Zeigt, nachdem ein Forenpost abgesendet wird, einen Countdown auf der Sendeschaltfläche an, der zeigt, wie lange gewartet werden muss, bis erneut gepostet werden kann.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

@@ -1286,8 +1286,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forumlarda gönderi yapmak için geri sayım göstergesi",
-		"description": "Bir forum gönderisi gönderdikten sonra, tekrar ne zaman gönderi yayınlayabileceğinizi gösteren bir geri sayım görüntüler.",
+		"name": "Forum gönderilerinde geri sayım göstergesi",
+		"description": "Bir forum gönderisi yaptıktan sonra gönder butonunda tekrar ne zaman gönderi yapabileceğinizi gösteren bir geri sayım gösterir.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

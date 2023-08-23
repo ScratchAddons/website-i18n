@@ -1289,8 +1289,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Affichage du délai pour l'envoi de nouveaux messages dans les forums",
-		"description": "Après avoir envoyé un message sur le forum, affiche un compte à rebours indiquant quand vous pourrez envoyer un nouveau message.",
+		"name": "Forum post cooldown display",
+		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

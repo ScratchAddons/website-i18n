@@ -1286,8 +1286,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Visualizzazione del tempo rimasto per poter inviare un post nel forum",
-		"description": "Dopo che è stato inviato un post nel forum mostra un conto alla rovescia che visualizza quando sarà di nuovo possibile inviare un nuovo post.",
+		"name": "Mostra tempo attesa per postare nei forum",
+		"description": "Dopo aver inviato un post nel forum mostra un conto alla rovescia sul pulsante Invia che mostra quanto devi aspettare prima di poter inviare un nuovo post.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

@@ -449,7 +449,7 @@
 	},
 	{
 		"id": "copy-message-link",
-		"name": "Kopieer link naar opmerking-knop",
+		"name": "Link naar opmerking kopiëren",
 		"description": "Voegt een \"Kopieer Link\"-knop toe aan alle opmerkingen op de website, naast de \"Melden\"-knop.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
@@ -1286,8 +1286,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Cooldown-weergave voor posten in forum",
-		"description": "Geeft een aftelling weer nadat je op de forums post die weergeeft wanneer je weer kan posten.",
+		"name": "Cooldown-weergave voor forumposts",
+		"description": "Toont een aftelling nadat je op de forums post die aangeeft hoe lang je moet wachten tot je weer kan posten.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1708,8 +1708,8 @@
 	},
 	{
 		"id": "mediarecorder",
-		"name": "Projectvideo-opnemer",
-		"description": "Voegt een \"opname starten\"-knop aan de editortaakbalk toe die je het speelveld laat opnemen.",
+		"name": "Video's van project opnemen",
+		"description": "Voegt een \"opname starten\"-knop toe aan de editortaakbalk die je het speelveld laat opnemen.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0"
@@ -2240,7 +2240,7 @@
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratchberichtgever",
+		"name": "Scratchnotificaties",
 		"description": "Notificaties bij nieuwe Scratchberichten. Klik op de notificatie om rechtstreeks naar het bericht te gaan (opmerking, project, enz.)",
 		"tags": ["community", "recommended"],
 		"credits": [
