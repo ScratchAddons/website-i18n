@@ -135,9 +135,6 @@ FeedbackPage:
       Punishment:
         Heading: Non possiamo punire nessuno. Non siamo il Team di Scratch.
         Description: Scratch Addons non è affiliato con il sito di Scratch o con l'organizzazione che lo mantiene. Non abbiamo controllo sul contenuto del sito di Scratch o con le attività di moderazione. {{ .Tag1Start }}Ci sono molti modi per dare indicazioni direttamente sul sito di Scratch.{{ .Tag1End }}
-      Theme3CrashBug:
-        Heading: C'è un bug noto nell'addon "Colori dei blocchi personalizzati".
-        Description: E' stato trovato un bug nell'addon che causa un blocco quando si crea un blocco personalizzato. E' stata rilasciata una nuova versione (v1.33.1) che corregge questo problema. Aggiorna l'estensione (o attendi che venga aggiornata automaticamente dal tuo browser). {{ .Tag1Start }}Per saperne di più.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logo di Scratch Messaging Extension
 ChangelogPage:

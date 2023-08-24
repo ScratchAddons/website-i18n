@@ -26,7 +26,7 @@ Bazı dillerde düğmeler gibi UI ögelerinin daha dar veya daha geniş olabilec
 
 Scratch proje düzenleyicisi genellikle `class_name_{hash}` biçimini izleyen sınıf adları içerir. Örneğin, `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+Karmalar gelecekte değişebileceğinden ve Scratch fork'ları arasında farklılık gösterebileceğinden bunları userstyle'larda kullanmaktan kaçınmalısınız.
 
 {{< admonition error >}}
 ```css
@@ -48,21 +48,21 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 ### Kesinlikle gerekli olmadıkça `!important`tan kaçının
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
-<!-- This could be more detailed -->
+Mümkünse seçimlerinizi daha spesifik yapmak adına `!important` yerine [CSS specificity](https://web.dev/learn/css/specificity/) özelliklerini kullanın.
+<!-- Bu daha detaylandırılabilir -->
 
 
 ## Eklentinin UI ögelerini şekillendirme
 
 
-### Begin addon-defined class names with `sa-`
+### Eklenti tanımlı sınıf adlarını `sa-` ile başlatın
 
 {{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
+Kendi sınıf isimlerimizi tanımlarken her zaman `kebab-case` kullanırız.
 {{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+Scratch veya diğer uzantılarıyla muhtemel isim çakışmalarını engellemek için eklenti tanımlı sınıf isimlerini `sa-` ile başlatmanızı öneriyoruz.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+Ayrıca sınıf ismine eklenti kimliğini (ya da bir kısmını) eklemeniz de önerilir.
 
-<!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->
+<!-- YAPILACAK: ### Scratch düzenleyicide z-endeksi kullanımını ve ilgili kavramları açıkla -->

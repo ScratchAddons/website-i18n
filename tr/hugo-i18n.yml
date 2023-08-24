@@ -138,9 +138,6 @@ FeedbackPage:
       Punishment:
         Heading: İnsanlara ceza veremeyiz. Biz Scratch Ekibi değiliz.
         Description: Scratch Eklentileri, Scratch sitesine veya onu ayakta tutan kuruluşlara bağlı değildir. Scratch sitesinde içerik ve denetim üzerinde hiçbir kontrolümüz yoktur. {{ .Tag1Start }}Scratch sitesinde raporda bulunmanın birçok yolu vardır.{{ .Tag1End }}
-      Theme3CrashBug:
-        Heading: '"Özelleştirilebilir blok renkleri" eklentisi ile birlikte gelmiş bilinen bir bug var.'
-        Description: Eklentide, özel bir blok oluştururken çökmeye neden olan bir hata bulundu. Bu sorunu çözmek için yeni bir sürüm (s1.33.1) yayınlandı. Lütfen uzantıyı güncelleyin (veya tarayıcınızın güncellemesini bekleyin). {{ .Tag1Start }}Bu sorun hakkında daha fazlasını okuyun.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Mesajlaşma Eklentisi logosu
 ChangelogPage:

@@ -2,22 +2,22 @@
 title: Giriş
 ---
 
-Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
+Scratch Eklentileri Belgeleri'ne hoş geldiniz! Bu bölüm, Scratch Eklentileri ile ilgili belgeleri içerir.
 
-Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
+Scratch Eklentileri, Scratch sitesine ve proje düzenleyicisine yönelik yeni ve var olan özellikleri ve temaları, erişimi kolay ve yapılandırılabilir tek bir tarayıcı uzantısında birleştirir. Misyon, Scratch için yeni özelliklerin ve temaların toplu olarak geliştirilmesi için merkezî, güncel bir platform sağlamaktır.
 
-## Quick links
+## Hızlı bağlantılar
 
-- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
-- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
-- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
-- If you are interested in the design of the project, [read this page](reference/design).
-- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Bir eklenti yapmak istiyorsanız [bu sayfadan başlayın](develop/getting-started/creating-an-addon).
+- Uzantıyı yerelleştirmeye yardım etmek istiyorsanız [bu sayfayı okuyun](localization/joining-the-localization-team).
+- Scratch Eklentileri'ni kullanmaya başlama konusunda yardıma ihtiyacınız varsa, [bu sayfayı okuyun](getting-started/quick-start).
+- Projenin tasarımıyla ilgileniyorsanız, [bu sayfayı okuyun](reference/design).
+- Bir hata mı buldunuz? Ya da bir fikriniz mi var? Bunları [sorunlar sekmesinde](https://github.com/ScratchAddons/ScratchAddons/issues) bizimle paylaşın.
 
-## Katkıda Bulunma
+## Katkıda bulunma
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+Belgelere katkıda bulunma hoş karşılanır. Sayfadaki bir hatayı düzeltmek için [sorunlar sekmesini](https://github.com/ScratchAddons/ScratchAddons/issues) veya [geri bildirim formunu](../feedback) kullanabilir ya da sayfayı düzenleyip bir pull request oluşturabilirsiniz. Dosyalar [`content/docs` kalsöründe](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) bulunan [website-v2 deposunda](https://github.com/ScratchAddons/website-v2) mevcut durumda.
 
 ## Tartışma
 
-Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
+Bir sayfa hakkında tartışmak istiyorsanız sayfanın alt kısmında bulunan yorum bölümünü kullanabilirsiniz. Alternatif olaraksa [Discord sunucusuna](https://discord.gg/R5NBqwMjNc) katılabilir veya [GitHub Tartışmalarına](https://github.com/ScratchAddons/ScratchAddons/discussions) dâhil olabilirsiniz.

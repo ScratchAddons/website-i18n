@@ -81,36 +81,36 @@ Eğer bir Scratch hesabınız yoksa, lütfen bunun yerine `translation@scratchad
 1. "Devam Et" düğmesine tıklayın.
 1. Aşağıdaki "bir dil talebinde bulunmak" adımları ile devam edin.
 
-If you already own a Transifex account and don't want to create a new one, please send an email to `translation@scratchaddons.com` indicating your Transifex account's username. Then, continue with the "requesting a language" section below.
+Eğer hâlihazırda bir Transifex hesabınız varsa ve yeni bir tane oluşturmak istemiyorsanız, lütfen `translation@scratchaddons.com` adresine Transifex hesabınızın kullanıcı adını da içeren bir e-posta gönderin. Sonra, aşağıdaki "bir dil talebinde bulunmak" bölümünden devam edin.
 
-#### 3. Requesting a language
-1. Make sure you're logged in to Transifex. If you just signed up, you are already logged in.
-1. Go to [Scratch Addons' Transifex page](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
-1. You'll be prompted to choose the language you want to translate to.
-1. Choose one of the languages **which are "available to join"**. We do not support languages that are not available to join.  
-![Screenshot of Transifex](/assets/img/docs/transifex-req-language.png)
-1. Click the "Join Project" button.
-1. Wait until your request is accepted.
+#### 3. Bir dil talebinde bulunmak
+1. Transifex'te hesabınızın açık olduğundan emin olun. Eğer az önce kayıt olduysanız hesabınız zaten açık olacaktır.
+1. [Scratch Eklentileri'nin Transifex sayfasına](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource) gidin.
+1. Sizden çevirmek istediğiniz dili seçmeniz istenecektir.
+1. **"Katılmaya uygun" dillerden** birini seçin. Katılmaya uygun olmayan dilleri desteklemiyoruz.
+![Transifex'ten bir Ekran Görüntüsü](/assets/img/docs/transifex-req-language.png)
+1. "Projeye Katıl" butonuna tıklayın.
+1. Talebiniz kabul edilinceye kadar bekleyin.
 
-If you have a Discord account, we encourage you to join our [Development Discord server](https://discord.gg/Ak8sCDQ).
+Discord hesabınız varsa [Geliştirici Discord sunucumuza](https://discord.gg/Ak8sCDQ) katılmanızı öneririz.
 
 {{< admonition success >}}
-**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 48 hours.**
+**Eğer talebiniz kabul edilirse Transifex'ten bir e-posta alacaksınız. İstekleri genelde 48 saat içinde.**
 {{< /admonition >}}
 
 {{< admonition error >}}
-If your request is denied, you'll receive an email. If you believe this was a mistake, please send an email to  `translation@scratchaddons.com` indicating your Transifex username. See below for other contact methods.
+Eğer talebiniz reddedilirse bir e-posta alacaksınız. Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen `translation@scratchaddons.com` adresine Transifex kullanıcı adınızı da içeren bir e-posta gönderin. Diğer iletişim yöntemlerine aşağıdan bakabilirsiniz.
 {{< /admonition >}}
 
-### Help or contact
+### Yardım ve iletişim
 
-If you have any questions about translating, you may choose one of the following options:
-- Send an email to `translation@scratchaddons.com`.
-- Join our [Development Discord](https://discord.gg/Ak8sCDQ) server.
-- [Open a discussion on GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
-- [Send feedback](/feedback) (make sure to specify your Scratch username in the form, we will reply in your profile).
+Çeviriyle ilgili herhangi bir sorunuz varsa aşağıdaki seçeneklerden birini deneyebilirsiniz:
+- `translation@scratchaddons.com` adresine bir e-posta gönder.
+- [Geliştirici Discord](https://discord.gg/Ak8sCDQ) sunucumuza katılın.
+- [GitHub'da bir tartışma başlatın](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
+- [Geri bildirim gönderin](/feedback) (formda Scratch kullanıcı adınızı belirttiğinizden emin olun, yanıtı profilinizde vereceğiz).
 
 ### Emeği Geçenler
 
 - Eğer kabul edilirseniz, kendinizi [sitenin emeği geçenler sayfasına](/credits) ekleyebilirsiniz (ya da eklenebilirsiniz).
-- Your translations are licensed under the same license as Scratch Addons (GPL v3.0).
+- Çevirileriniz Scratch Eklentileri ile aynı lisans kapsamında lisanslanmaktadır (GPL v3.0).

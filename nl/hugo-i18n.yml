@@ -131,9 +131,6 @@ FeedbackPage:
       Punishment:
         Heading: We kunnen mensen niet bestraffen. Wij zijn niet het Scratch Team.
         Description: Scratch Addons is niet in samenwerking met de Scratch website of de organisaties die het onderhouden. We hebben geen controle over de inhoud en moderatie op de Scratch website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch website.{{ .Tag1End }}
-      Theme3CrashBug:
-        Heading: Er is een bekende bug met de addon "Aanpasbare blokkleuren".
-        Description: Er is een bug in deze addon gevonden die een crash veroorzaakt bij het maken van een nieuw blok. Er is een nieuwe versie uitgebracht (v1.33.1) die dit probleem oplost. Update de extensie (of wacht tot je browser dat doet).{{ .Tag1Start }}Lees hier meer.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
 ChangelogPage:

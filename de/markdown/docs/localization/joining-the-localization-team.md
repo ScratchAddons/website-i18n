@@ -1,78 +1,78 @@
 ---
 title: Dem Übersetzungsteam beitreten
-description: Thanks for being interested on volunteering to translate Scratch Addons to other languages! Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
+description: Danke, dass du daran Interesse hast, Scratch Addons in andere Sprachen zu übersetzen! Scratch Addons ist ein non-profit Open-Source-Projekt, wo freiwillige Webentwickler die Erweiterung betreiben und ihre Addons erstellen.
 ---
 
 {{< admonition info >}}
-If you found a **translation mistake/error** in Scratch Addons, please [send feedback](/feedback) about it.
+Wenn du einen **Übersetzungsfehler** in Scratch Addons, bitte [sende darüber Feedback](/feedback).
 {{< /admonition >}}
 
-Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+Scratch Addons ist dank Freiwilligen auf der ganzen Welt auf über 15 Sprachen verfügbar.
 
-## Requirements to join as a translator
+## Anforderungen, um als Übersetzer beizutreten
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
-* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* Du musst **FLIESSEND ENGLISCH SPRECHEN**.
+* Zum Beispiel sprichst du fließend englisch, wenn du die Scratch Addons-Einstellungen auf Englisch nutzen kannst, oder wenn du die Videos von griffpatch verstehst. Wenn du Schwierigkeiten hast, Sätze ohne einen Übersetzer du verstehen, sprichst du es nicht fließend.
+* Du musst **ein MUTTERSPRACHLER** der Sprache sein, auf die du übersetzen willst.
+* Du musst eine E-Mail-Adresse haben, die du idealerweise mindestens einmal die Woche überprüfen solltest.
+* Du musst ein Konto auf [scratch.mit.edu](https://scratch.mit.edu) haben.
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Japanese, Portuguese, Slovenian, Spanish.
-<!-- This list of languages is also found below. Remember to update both. -->
+**Diese Sprachen nehmen KEINE neuen Übersetzer an:** Italienisch, japanisch, portugiesisch, slovenisch, spanisch.
+<!-- Diese Liste Sprachen ist auch unten zu finden. Beide sollten aktualisiert werden. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+Wenn du kein Muttersprachler bist, aber sagen würdest, dass du es relativ fließend sprechen kannst, kannst du auch anfragen, beizutreten. Ein paar Sprachunterichtsstunden gemacht zu haben heißt nicht, dass du es fließend sprichst. Wenn du die Sprache deines Handys darauf nicht ändern könntest, bist du nicht fließend genug!
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+Wir erlauben nur Sprachen, die auch Scratch selbst hat. RTL-Sprachen wie Arabisch oder Hebräisch funktionieren auch komplett.
 
-## Content available for translation
+## Inhalt, der übersetzt werden kann
 
-#### Scratch Addons browser extension
+#### Scratch Addons-Browsererweiterung
 
-- **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
+- **Allgemeine Übersetzung.** Es gibt ~150 Texte, welche von der Erweiterung genutzt werden. Nutzer können diese Übersetzungen für ihre Sprache nur sehen, wen 90% der allgemeinen Texte übersetzt sind.
 
-- **Addons Translation.** These text strings include addon names, descriptions, settings, and other text strings used by addons. Users can only see these translations if the general translation is already available and 80% of addon strings were translated. There are over 1000 addon strings available for translation.
+- **Addonübersetzung.** Diese Texte enthalten Namen, Beschreibungen, Einstellungen und andere Texte, die von Addons genutzt werden. Nutzer können diese Übersetzungen nur sehen, wenn die allgemeinen Übersetzungen verfügbar sind und 80% der Addontexte übersetzt worden sind. Es gibt über 1000 Addontexte, die übersetzt werden können.
 
-![Screenshot of the Scratch Addons extension in Japanese](/assets/img/docs/transifex-general-vs-addons.png)
+![Screenshot der Scratch-Addons-Erweiterung auf Japanisch](/assets/img/docs/transifex-general-vs-addons.png)
 
-#### Scratch Addons website
+#### Scratch Addons-Website
 
-Translators also have the possibility to translate the contents of the Scratch Addons website. For more information about translating the website, see [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Übersetzer haben auch die Möglichkeit, den Inhalt der Scratch-Addons-Seite zu übersetzen. Für mehr Informationen über das Übersetzen der Seite, siehe [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating) .
 
-## Supported languages
+## Unterstützte Sprachen
 
-We support most languages that Scratch itself supports.
+Wir unterstützen die meisten Sprachen, die Scratch selbst unterstützt.
 
 <details>
-<summary>Click to access the full list supported languages (50+ languages)</summary>
-Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
+<summary>Klicke hier, um die Liste der unterstüzten Sprachen einzusehen (50+ Sprachen)</summary>
+Abchasisch (ab), Afrikaans (af), Amharisch (am), Aragonesisch (am), Arabisch (ar), Aserbaidschanisch (az), Weißrussisch (be), Bulgarisch (bg), Bengalisch (bn), Katalanisch (ca), Zentralkurdisch (ckb), Tschechisch (cs), Walisisch (cy), Dänisch (da), Deutsch (de), Griechisch (el), Spanisch (es), Estonisch (et), Baskisch (eu), Persisch (fa), Finnisch (fi), Französisch (fr), Westfriesich (fy), Irisch (ga), Schottisch-Gälisch (gd), Galicisch (gl), Hebräisch (he), Hindi (hi), Kroatisch (hr), Haitanisch (ht), Ungarisch (hu), Armenisch (hy), Koreanisch (ko), Kurdisch (ku), Litauisch (lt), Lettisch (lv), Maori (mi), Mongolisch (mn), Bokmål (nb), Niederländisch (nl), Neunorwegisch (nn), Nord-Sotho (nso), Odia (or), Polnisch (pl), Portugiesisch (Brasilien) (pt_BR), Quechua (qu), Rapa Nui (rap), Rumänisch (ro), Russisch (ru), Slovakisch (sk), Slovenisch (sl), Serbisch (sr), Suahili (sw), Thailändisch (th), Tswana (tn), Türkisch (tr), Ukrainisch (uk), Uzbekisch (uz), Vietnamesisch (vi), Xhosa (xh), Chinesisch (China) (zh_CN), Chinesisch (Taiwan) (zh_TW), Zulu (zu).
 </details>
 
-We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
+Diese Sprachen unterstützen wir noch nicht: Asturianu (ast), Esperanto (eo), Lateinamerikanisches spanisch (es_419), Filipino (fil), Hausa (ha), Japanisch (Hiragana) (ja-Hira), Okzitanisch (oc), Portugiesisch (Portugal) (pt_PT). Wenn du daran interessiert bist, ein Übersetzer für eine dieser Sprachen, die wir noch nicht unterstützen, zu werden, sende bitte eine E-Mail an `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Japanese, Portuguese, Slovenian, Spanish.**
+Diese Sprachen akzeptieren **keine** neuen Übersetzeranforderungen: **Italienisch, Japanisch, Portugiesisch, Slovenisch, Spanisch.**
 
-## Steps to join as a translator
+## Schritte, um als Übersetzer beizutreten
 
-Thanks for wanting to help with translating Scratch Addons to other languages! Please follow the steps below.
+Danke, dass du uns helfen willst, Scratch Addons in andere Sprachen zu übersetzen! Bitte folge den folgenden Schritten.
 
-#### 1. Verify your Scratch account
-1. Visit this [Scratch studio](https://scratch.mit.edu/studios/33665222/comments) with your Scratch account.
-1. Send a studio comment indicating the language you want to translate to (for example, `Greek`).  
-![Screenshot of Scratch](/assets/img/docs/scratch-req-language.png)
+#### 1. Verifiziere dein Scratchkonto
+1. Gehe zu diesem [Scratchstudio](https://scratch.mit.edu/studios/33665222/comments) mit deinem Scratchkonto.
+1. Sende einen Studiokommentar mit der Sprache, die du übersetzen willst (zum Beispiel `griechisch`).
+![Screenshot von Scratch](/assets/img/docs/scratch-req-language.png)
 
-If you don't own a Scratch account, please send an email to `translation@scratchaddons.com` instead.
+Wenn du kein Scratchkonto hast, sende bitte stattdessen eine E-Mail zu `translation@scratchaddons.com`.
 
-#### 2. Create a Transifex account
-1. Go to [Transifex Sign Up](https://app.transifex.com/signup/).  
-1. You will be shown Transifex's "Sign Up" screen. **DO NOT sign up with Google.**  
-1. In the "username" field, we highly recommend you enter your Scratch username, or a slight variation of it.  
-For example, if your Scratch username is `john_walker954`, your Transifex username can be exactly the same (`john_walker954`) or `john_walker954_scratch`.
-1. In the "business email" field, enter your email (it can be Gmail, Outlook, or any other).
-1. In the "password" field, enter a password.
-1. Click the "Sign Up" button.
-1. Choose **"Join an existing organization"**.
+#### 2. Erstelle ein Scratchkonto
+1. Gehe zu [Transifex Sign Up](https://app.transifex.com/signup/).
+1. Dir wird Transifex's "Beitreten"-Bildschirm angezeigt. **Melde dich NICHT mit Google an.**
+1. Wir empfehlen dir sehr, in dem "Benutzername"-Feld deinen Scratchbenutzernamen einzugeben, oder eine kleine Veränderung.
+Wenn dein Nutzername auf Scratch zum Beispiel `john_walker954` ist, kann dein Transifexname gleich sein (`john_walker954`) oder `john_walker954_scratch`.
+1. In dem "Geschäftsemail"-Feld, gebe deine Email ein (es kann GMail, Outlook, oder andere sein).
+1. Gebe in dem "Passwort"-Feld dein Passwort ein.
+1. Klicke auf die "Beitreten"-Schaltfläche.
+1. Klicke auf **"Einer existierenden Organisation beitreten"**.
 1. Click the "Continue" button.
 1. You'll be asked for your First name and Last name.  
 \- In the **First name**, we recommend you enter your Scratch username.  

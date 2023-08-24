@@ -45,13 +45,13 @@ iOS ve iPadOS kullanıcıları için: Ne yazık ki hayır. App Store politikası
 
 Scratch Eklentileri, çevrim dışı düzenleyici de dâhil olmak üzere resmî Scratch uygulamasında kullanılamaz.
 
-Bir alternatif olarak ise, proje düzenleyici eklentilerinin çoğu, Windows, macOS ve Linux için [indirilebilir bir uygulama](https://desktop.turbowarp.org/)ya sahip olan [TurboWarp](https://turbowarp.org/)'ta mevcuttur. Ayrıca Google Chrome gibi Aşamalı Web Uygulamalarını (PWA) destekleyen tarayıcılarda TurboWarp düzenleyicisini PWA olarak yükleyebilir ve internet bağlantısı olmadan kullanabilirsiniz.
+Bir alternatif olarak ise, proje düzenleyici eklentilerinin çoğu, Windows, macOS ve Linux için [indirilebilir bir uygulamaya](https://desktop.turbowarp.org/) sahip olan [TurboWarp](https://turbowarp.org/)'ta mevcuttur. Ayrıca Google Chrome gibi Aşamalı Web Uygulamalarını (PWA) destekleyen tarayıcılarda TurboWarp düzenleyicisini PWA olarak yükleyebilir ve internet bağlantısı olmadan kullanabilirsiniz.
 
 ### Uyumsuz programlar var mı?
 
 Bazı tarayıcı uzantıları ve userscript'ler, Scratch Eklentileri ile etkileşime girebilir. Sorun yaşıyorsanız, şunları devre dışı bırakmayı denemelisiniz:
 
-- Scratch 3 Geliştirici Araçları: Bu tarayıcı uzantısı, Geliştirici araçları eklentisinin bir kopyasıdır. Geliştirici Araçları tarayıcı uzantısını kaldırmalı ve bunun yerine eklentiyi açmalısınız.
+- Scratch 3 Developer Tools: Bu tarayıcı uzantısı, Geliştirici araçları eklentisinin bir kopyasıdır. Geliştirici Araçları tarayıcı uzantısını kaldırmalı ve bunun yerine eklentiyi açmalısınız.
 - Better3.0: Bu tarayıcı uzantısı bazı eklentilere müdahale edebilir. Neyse ki, özelliklerinin çoğu eklenti olarak da mevcuttur.
 
 ## Güvenlik ve gizlilik
@@ -80,14 +80,14 @@ Tarayıcınızın dışına asla gizli veya kişisel olarak tanımlayıcı bilgi
 
 Eklentileri etkinleştirmek için önce şuradan ayarlara gidin:
 
-- açılır pencereyi açın ve sağ üst köşedeki dişli çark simgesini tıklayın
+- Açılır pencereyi açın ve sağ üst köşedeki dişli çark simgesini tıklayın
 - https://scratch.mit.edu/scratch-addons-extension/settings adresine gitmiş oldunuz. Not: Bu bağlantının çalışması için uzantının kurulu olması gerekir.
 
 Ardından, kenar çubuğunu veya arama kutusunu kullanarak etkinleştirmek istediğiniz eklentileri bulun. Bir eklentiyi etkinleştirmek için eklenti kutucuğunun sağ tarafındaki düğmeye tıklayın.
 
 ### Scratch'teki insanlara Scratch Eklentileri'nden bahsedebilir miyim?
 
-Yapamazsınız ve lütfen yapmayınız. [burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarından/userscript'lerden söz edilmesini yasaklayan bir politika vardır ve ihlaller, Scratch Ekibinin gönderileri kaldırmasına veya hesapların sessize alınmasına neden olmuştur. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
+Yapamazsınız ve lütfen yapmayınız. [Burada](https://scratch.mit.edu/discuss/post/2907564/) tarayıcı uzantılarından/userscript'lerden söz edilmesini yasaklayan bir politika vardır ve ihlaller, Scratch Ekibinin gönderileri kaldırmasına veya hesapların sessize alınmasına neden olmuştur. Bununla birlikte, arkadaşlarınıza Scratch Eklentileri hakkında bilgi vermek için farklı yöntemler kullanabilirsiniz.
 
 ### Scratch Eklentileri'nin Scratch'i yavaşlattığını düşünüyorum. Ne yapabilirim?
 
@@ -146,7 +146,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Scratch Eklentileri'ni çevirin**
 
-  Başka bir dili akıcı olarak konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katılarak](/tr/docs/localization/joining-the-localization-team) başlayabilirsiniz.
+  İngilizceden başka bir dili akıcı olarak konuşabiliyorsanız, Scratch Eklentileri'ni söz konusu dile çevirmeye/yerelleştirmeye yardımcı olabilirsiniz. [Yerelleştirme ekibine katılarak](/tr/docs/localization/joining-the-localization-team) başlayabilirsiniz.
 
 - **Belgeleri yazın**
 
@@ -197,7 +197,7 @@ Eklenti, bir uzantıya veya userscript'e benzer. Ancak Scratch Eklentileri, alan
 
 Userscript'ler, Scratch ile ilgili bilgileri (örneğin, şu anda oturum açmış olan kullanıcı) almalarına ve uzantı API'lerini (bildirim gönderme gibi) kullanmalarına olanak tanıyan `addon.*` JavaScript API'lerini kullanabilir.
 
-### Her şey bir eklenti ise, Scratch Eklentileri ne yapıyor o halde?
+### Her şey eklentiyse, o hâlde Scratch Eklentileri ne yapıyor?
 
 Kendi başına Scratch Eklentileri sadece bir eklenti yükleyicidir. Başlıca görevleri şunlardır:
 

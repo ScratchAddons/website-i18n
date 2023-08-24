@@ -1,31 +1,31 @@
 ---
 title: Userstyle'lar
-description: Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+description: Userstyle'lar, Scratch sayfalarını etkileyen CSS kurallarıdır. Bunlar, stilleri mevcut Scratch kullanıcı arayüzüne ve eklentiler tarafından sayfaya eklenen öğelere uygulayabilirler.
 ---
 
-Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+Userstyle'lar, Scratch sayfalarını etkileyen CSS kurallarıdır. Bunlar, stilleri mevcut Scratch kullanıcı arayüzüne ve eklentiler tarafından sayfaya eklenen öğelere uygulayabilirler.
 
 
-## Declaring userstyles in the addon manifest
+## Eklenti manifest dosyasında userstyle'ları tanımlamak
 
 {{< admonition warning >}}
 Eklenti manifest dosyasının güncellenmesi gibi **bazı değişikliklerin etkili olması için uzantının `chrome://extensions` adresinden yeniden yüklenmesi gerekir**.
 
-It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
+Hâlihazırda var olan bir userstyle CSS dosyasının kaynağını değiştirdiğinizde uzantıyı yeniden yüklemenize gerek yoktur. Bu tür durumlarda, sayfayı yenilemek yeterlidir.
 {{< /admonition >}}
 
-Userstyles are declared inside a "userstyles" array, similarly to userscripts.
+Userstyle'lar, userscript'lere benzer şekilde bir "userstyles" dizisi (array'i) içerisinde tanımlanır.
 
 Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
-- `"url"`: the relative URL to a CSS file.
-- `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
-- `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
+- `"url"`: bir CSS dosyasına ilişkin URL.
+- `"matches"`: userstyle'ların uygulanacağı Scratch sayfalarının listesi. Daha fazla bilgi için [matches](/docs/reference/addon-manifest/#matches) sayfasına bakın.
+- `if`: userstyle'ın şu anda uygulanıp uygulanmıyor olduğunu değiştirebilecek koşulların listesi. Daha fazla bilgi için [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if)'e bakın.
 
 Örnek manifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "name": "Scratch Mesajlaşma",
+  "description": "Scratch mesajlarınızı kolayca okumanızı ve yanıtlamanızı sağlar.",
   "userstyles": [
     {
       "url": "styles.css",
@@ -43,7 +43,7 @@ Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
   ],
   "settings": [
     {
-      "name": "Resize messages",
+      "name": "Mesajları yeniden boyutlandır",
       "id": "resize",
       "type": "boolean",
       "default": false
@@ -55,7 +55,7 @@ Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Sayfa yüklendikten sonra userstyle'ları dinamik olarak değiştirmek
 
 It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
 
@@ -64,7 +64,7 @@ It is usually unnecessary to use a JavaScript userscript to dynamically toggle w
 - Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
 
 
-## Accessing addon settings from CSS
+## Eklenti ayarlarına CSS üzerinden erişmek
 
 Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
 
@@ -87,22 +87,22 @@ These CSS variables are always available for all enabled addons and no manifest 
 ```
 
 
-## Custom CSS variables
+## Özelleştirilmiş CSS değişkenleri
 
 If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
 
 
-## Applying styles only inside the editor
+## Stilleri yalnızca düzenleyicinin içinde uygulamak
 
 The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
 
 For example, styling `<input>` elements inside and outside the editor differently:
 ```css
 .sa-body-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Yalnızca `addon.tab.editorMode` `editor` ya da `fullscreen` ise uygulanır */
 }
 
 body:not(.sa-body-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Yalnızca `addon.tab.editorMode` ne `editor`, ne de `fullscreen` ise uygulanır */
 }
 ```

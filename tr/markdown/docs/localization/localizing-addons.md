@@ -11,11 +11,11 @@ Eklentileri yerelleştirmek kolaydır.
 {
   "ADDONID/meow": "Miyav",
   "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
-  "ADDONID/eat": "Ben {yiyecek} yemek istiyorum!",
+  "ADDONID/eat": "Ben {food} yemek istiyorum!",
   "ADDONID/salmon": "somon",
   "ADDONID/sardine": "sardalya",
   "ADDONID/move-steps": {
-    "string": "{sayi} adım git",
+    "string": "{number} adım git",
     "developer_comment": "Lütfen bunu Scratch'in resmî blok çevirisiyle eşleşecek şekilde çevirin."
   }
 }

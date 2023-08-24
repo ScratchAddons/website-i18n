@@ -59,7 +59,7 @@ Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentileri'ni her g
 
    ![Uzantı Yönetimi üst çubuk ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
 
-3. `Sıkıştırılmamışı yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
+3. `Paketlenmemiş öğe yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
 
    ![Sıkıştırılmamışı yükle düğmenin ekran görüntüsü](/assets/img/docs/load-unpacked-button.png)
 

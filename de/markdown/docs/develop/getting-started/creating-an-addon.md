@@ -1,45 +1,45 @@
 ---
 title: Ein Addon entwickeln
 ---
-Required software: text editor, Chrome.  
-If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.
+Benötigte Software: Texteditor, Chrome.
+Schalte, wenn möglich, die Scratch-Addons-Erweiterung die du von den Stores runtergeladen hast, bevor du weiter machst, um Fehler zu vermeiden.
 
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first. 
+Wenn du vor hast, das Addon, das du erstellst, als Pull Request auf unserer GitHub-Repository zu senden, lese zuerst bitte unsere [Beitragsrichtlinien](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). 
 
-In case there is no existing GitHub issue in that repository related to your new addon idea, please [create one](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+Wenn es kein existierendes GitHub-Issue in dieser Repository über deine Addon-Idee gibt,  [erstell bitte eins](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Wenn es allerdings schon ein Issue über deine Idee gibt, empfehlen wir dir, darauf zu kommentieren, dass du das Addon erstellen willst. Das wird es anderen Mitwirkenden erlauben, Feedback zu geben, ob das Addon akzeptiert wird, oder ob weitere Diskussionen nötig wären.
 
-However, if you are creating an addon for personal use, you may proceed with this guide.
+Wenn du dieses Addon allerdings für persönlichen Nutzen erstellen willst, kannst du hier weiter machen.
 {{< /admonition >}}
 
-## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
-Make sure to read that article to be familiar with the terminology.
+## Schritt 1: Lese die [Addongrundlagen](/docs/develop/getting-started/addon-basics/).
+Lese den Artikel, um dich mit den Begriffen vertraut zu machen.
 
-## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
+## Schritt 2: Forke/klone die [Repository](https://github.com/ScratchAddons/ScratchAddons).
+Folge [diesen Anleitungen](/docs/getting-started/installing/#from-source) um den Source Code lokal runterzuladen.
 
-## Step 3: Load the extension into Chrome
-*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
-Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
-Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
-That's it, you loaded the extension! It should look similar to this:  
-![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
+## Schritt 3: Lade die Erweiterung in Chrome
+*Hinweis: Chrome ist beim Arbeiten an Addons empfohlen. Addons sollten trotzdem auf Firefox und Edge funktionieren.*
+Wenn du die Erweiterung jetzt in deinem Dateisystem hast, gehe zu `chrome://extensions` und schalte "Entwicklermodus" ein.
+Klicke auf "Entpackte Dateien laden', dann wähle den Ordner, in dem Scratch Addons ist. Wenn du Probleme damit hast, stelle sicher, dass du den Ordner wählst, wo `manifest.json` enthalten ist.
+Das ist alles, du hast die Erweiterung geladen! Es sollte etwa so aussehen:
+![Bild](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
+Hinweis: Du kannst ignorieren, dass "Fehler" angezeigt wird. Das ist eine Warnung für ein unerkannter Manifestkey, der von Firefox benötigt wird.
 
-## Step 4: What's your addon about?
-Now comes the fun part!  
-What will your addon do? Think of a self descriptive addon ID (no spaces or special characters, except hyphens).  
-Got it?
+## Schritt 4: Worum geht es bei deinem Addon?
+Jetzt kommt der spaßige Teil!
+Was wird dein Addon machen? Denke dir eine selbstbeschreibende Addon-ID (ohne Leertasten oder Sonderzeichen, außer Bindestriche)
+Hast du sie?
 
-## Step 5: Create the folder for the addon
-Using a file explorer, go to the folder where Scratch Addons resides in your filesystem. Locate the `addons` folder.  
-Then, create a new folder with your epic addon ID as its name.
+## Schritt 5: Erstelle den Ordner des Addons
+Gehe mithilfe eines Dateimanagers zu dem Ordner, wo Scratch Addons sich befindet. Gehe zu dem `addons`-Ordner.
+Erstelle dann einen neuen Ordner mit deiner epischen Addon-ID als Name.
 
-## Step 6: Add an addon manifest
-The addon manifest tells Scratch Addons how your addon works. Make sure to get this right to avoid headaches.  
-Inside the folder you just created, create an `addon.json` file.  
-This is a base you can use to start coding, make sure to change it in the future:
+## Schritt 6: Füge ein Addon-Manifest hinzu
+Das Addon-Manifest sagt Scratch Addons, wie dein Addon funktioniert. Das solltest du richtig machen, um weitere Probleme zu vermeiden.
+Erstelle eine `addon.json`-Datei in dem Ordner, den du gerade erstellt hast.
+Das ist eine Basis, die du nutzen kannst, um anzufangen, ändere es später aber:
 ```json
 {
   "name": "Epic placeholder text in place of addon name",
@@ -48,41 +48,41 @@ This is a base you can use to start coding, make sure to change it in the future
   "enabledByDefault": false
 }
 ```
-For more information on what you can declare in the manifest, check [this article](/docs/reference/addon-manifest/).
+Siehe [diesen Artikel](/docs/reference/addon-manifest/) für mehr Informationen, über was du in das Manifest tuen kannst.
 
 
-## Step 7: Tell Scratch Addons what your addon's ID is
-Scratch Addons can't find new folders by itself, so you have to add the name to a special file.  
-Go to `scratchAddonsFolder/addons/addons.json` and add the ID of your addon to the array.
+## Schritt 7: Sage Scratch Addons, was die ID deines Addons ist
+Scratch Addons kann neue Ordner nicht automatisch finden, also solltest du den Namen in eine besondere Datei hinzufügen.
+Gehe zu `scratchAddonsOrdner/addons/addons.json` und füge die ID deines Addons zu der Liste hinzu.
 
 ## Schritt 8: Hallo Welt
-Your addon does nothing at the moment, so it's a good time to check if everything we made previously worked.  
-Go to `chrome://extensions` and reload Scratch Addons by clicking the refresh symbol on its card.  
-Now, right-click the Scratch Addons icon, and click "options".  
-You should see your addon on the list! Once you find it, enable it, and set any settings that you may have.
+Dein Addon macht momentan nichts, also ist es eine gute Zeit, zu überprüfen, ob alles funktioniert hat.
+Gehe zu `chrome://extensions` und lade Scratch Addons neu, indem du auf das "Neu laden"-Symbol auf der Karte der Erweiterung klickst.
+Mache nun einen Rechtsklick auf das Scratch Addons-Icon, und klicke auf "Optionen".
+Dein Addon sollte in der Liste sein! Schalte es ein, wenn du es gefunden hast, und setze Einstellungen, die du haben könntest.
 
-## Step 9: The fun part, code!
-*Before proceeding, make sure you read the wiki article linked in step 1.*  
+## Schritt 9: Der tolle Teil, programmiere!
+*Bevor du weitermachst, stelle sicher, dass du den Artikel, der in Schritt 1 verlinkt war, gelesen hast.*
 
-Here comes the fun part: create your own JS or CSS files!  
-Protip: after making any change to your addon, make sure to refresh the Scratch Addons extension like you did in step 8.  
+Hier kommt der tolle Teil: erstelle deine eigenen JS- oder CSS-Dateien!
+Pro-Tip: Nachdem du eine Änderung zu deinem Addon vollführt hast, lade die Scratch Addons-Erweiterung wie in Schritt 8 neu.
 
-Depending on what you want your addon to do, you should now check these wiki pages:
+Je nachdem was dein Addon tuen sollst, solltest du dir diese Wikiseiten ansehen:
 - [Userscripts](/docs/develop/userscripts)
 - [Userstyles](/docs/develop/userstyles)
 
-## Step 10: Make your addon customizable
-If you want, you can make your addon customizable!  
-Users of your addon will be able to toggle settings, enter numbers, and more!  
-To get started, see [how to declare settings in the addon manifest](/docs/reference/addon-manifest/#settings-object).  
-Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon.settings) to learn how to access user choices from userscripts.
+## Schritt 10: Mache dein Addon veränderbar
+Wenn du willst, kannst du dein Addon veränderbar machen!
+Nutzer deines Addons werden Einstellungen verändern können, Zahlen eingeben können, und mehr!
+Um anzufangen, schaue dir an, [wie man Einstellungen im Addon-Manifest deklariert](/docs/reference/addon-manifest/#settings-object).
+Dann, gehe zu der [addon.settings-Dokumentation](/docs/reference/addon-api/addon.settings), um zu lernen, wie man von Userscripts aus die Auswahlen der Nutzer bekommen kann.
 
-## Step 11: Before publishing your addon
-Now that your addon works, let's make sure we can add it to the addon library.  
-Make sure your addon's manifest is suitable, [more info here](/docs/reference/addon-manifest). Keep close attention to the name, description and tags of your addon. Make sure to set `"enabledByDefault"` to `false` or remove it.  
-Make sure your addon doesn't break other addons.  
-Make sure your code is understandable; having unnecessary comments is better than no comments.
+## Schritt 11: Bevor dein Addon veröffentlicht wird
+Jetzt, da dein Addon funktioniert, stellen wir sicher, dass dein Addon in die Addonbibliothek passt.
+Stelle sicher, dass dein Addonmanifest passend ist, [mehr Infos hier](/docs/reference/addon-manifest). Achte vor allem auf den Namen, die Beschreibung und die Tags deines Addons. Stelle sicher, `"enabledByDefault"` entweder auf `false` zu setzen oder gleich zu entfernen.
+Stelle sicher, dass dein Addon mit anderen Addons gut funktioniert.
+Stelle sicher, dass dein Code verständlich ist; unnötige Kommentare sind besser als keine Kommentare.
 
-## Step 12: Send a pull request!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+## Schritt 12: Sende ein Pull Request!
+Folge den Schritten in unseren [Beitragsrichtlinien](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Einfach gesagt, forke die Repository wenn nicht schon geschehen, commite dein neues Addon und sende ein PR!
+Wir werden dich vielleicht nach Änderungen fragen, aber wir werden dein Addon vermutlich akzeptieren wenn es einigermaßen passend ist.
