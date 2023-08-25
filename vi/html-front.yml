@@ -6,6 +6,8 @@ addons.html:
 changelog.html:
   title: Nhật kí thay đổi
   description: Tất cả những thay đổi đáng chú ý đối với dự án này sẽ được ghi lại trong trang này.
+extension-settings.html:
+  title: Cài đặt tiện ích cho Scratch
 farewell.html:
   title: Tạm biệt!
   description: Scratch Addons đã được gỡ cài đặt. Chúng tôi cảm ơn bạn đã sử dụng tiện ích!

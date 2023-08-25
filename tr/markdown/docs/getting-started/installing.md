@@ -18,7 +18,7 @@ Scratch Eklentileri bu mağazalarda mevcuttur
 
 [Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentileri'nin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
 
-### Depoyu klonlama
+### Depoyu klonlamak
 
 Scratch Eklentileri'ni geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in hâlihazırda kurulu olduğunu varsayar.
 
@@ -71,7 +71,7 @@ Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme ad
 ![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
 
 
-### Mozilla Firefox'da indirme
+### Mozilla Firefox'da indirmek
 
 1. Hata ayıklama sayfasını açmak için adres çubuğunuza `about:debugging` yazın.
 

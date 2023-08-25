@@ -13,7 +13,7 @@ Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisi için "hepsi bir ara
 
 ### Scratch Eklentileri'ni kim yaptı?
 
-Scratch Eklentileri, World_Languages liderliğinde yürütülen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler sayfası](/credits)ndan bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, uzantı onun himayesinde değildir.
+Scratch Eklentileri, World_Languages liderliğinde yürütülen bir ekip projesidir. Bize katkıda bulunan kişilerin listesini [Emeği Geçenler sayfasında](/credits) bulabilirsiniz. "Scratch Mesajlaşma" ve "Geliştirici araçları" eklentileri başlangıçta griffpatch tarafından oluşturulmuş olsa da, uzantı onun himayesinde değildir.
 
 ### Scratch Eklentileri neleri içerir?
 
@@ -120,7 +120,7 @@ Easter egg eklentilerini ortaya çıkarmak için, ayarlar sayfasında klavyenizl
 
 Easter egg eklentilerimizden bazıları "Büyük Harfli Hesap Ayarları" ve "Noktalı virgül hatası"dır. Tam bir liste için [eklentiler sekmesine](/tr/addons) göz atın.
 
-## Katkıda Bulunma
+## Katkıda bulunmak
 
 ### Scratch Eklentileri'ne nasıl katkıda bulunabilirim?
 

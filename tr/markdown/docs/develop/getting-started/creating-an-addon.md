@@ -1,5 +1,5 @@
 ---
-title: Bir Eklenti Oluşturma
+title: Bir Eklenti Oluşturmak
 ---
 Gerekli yazılım: metin düzenleyici, Chrome.
 Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğiniz Scratch Eklentileri uzantısını devre dışı bırakın.
@@ -16,7 +16,7 @@ Ancak, kişisel kullanım için bir eklenti oluşturuyorsanız, bu kılavuzla il
 ## 1. Adım: [Eklenti ile ilgili temel bilgiler](/docs/develop/getting-started/addon-basics/) hakkında bilgi edinin
 Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
 
-## Adım 2: [Depoyu](https://github.com/ScratchAddons/ScratchAddons) çatalla/klonla
+## Adım 2: [Depoyu](https://github.com/ScratchAddons/ScratchAddons) çatallayın/klonlayın
 Kaynak kodunu yerel olarak indirmek için [bu yönergeleri](/docs/getting-started/installing/#from-source) takip edin.
 
 ## 3. Adım: Uzantıyı Chrome'a yükleyin

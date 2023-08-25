@@ -1,6 +1,10 @@
 Global:
   LogoAlt: Logo của Scratch Addons
+  EdgeLong: " Microsoft Edge"
   Install: Tải xuống
+  ReadTime:
+    one: "{{.Count}} phút"
+    other: "{{.Count}} phút"
   Carousel:
     Prev: Trước
     Next: Tiếp

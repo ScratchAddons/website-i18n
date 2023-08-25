@@ -14,9 +14,9 @@ Scratch Eklentileri, Scratch sitesine ve proje düzenleyicisine yönelik yeni ve
 - Projenin tasarımıyla ilgileniyorsanız, [bu sayfayı okuyun](reference/design).
 - Bir hata mı buldunuz? Ya da bir fikriniz mi var? Bunları [sorunlar sekmesinde](https://github.com/ScratchAddons/ScratchAddons/issues) bizimle paylaşın.
 
-## Katkıda bulunma
+## Katkıda bulunmak
 
-Belgelere katkıda bulunma hoş karşılanır. Sayfadaki bir hatayı düzeltmek için [sorunlar sekmesini](https://github.com/ScratchAddons/ScratchAddons/issues) veya [geri bildirim formunu](../feedback) kullanabilir ya da sayfayı düzenleyip bir pull request oluşturabilirsiniz. Dosyalar [`content/docs` kalsöründe](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) bulunan [website-v2 deposunda](https://github.com/ScratchAddons/website-v2) mevcut durumda.
+Belgelere katkıda bulunma hoş karşılanır. Sayfadaki bir hatayı düzeltmek için [sorunlar sekmesini](https://github.com/ScratchAddons/ScratchAddons/issues) veya [geri bildirim formunu](../feedback) kullanabilir ya da sayfayı düzenleyip bir pull request oluşturabilirsiniz. Dosyalar [`content/docs` klasöründe](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) bulunan [website-v2 deposunda](https://github.com/ScratchAddons/website-v2) mevcut durumda.
 
 ## Tartışma
 

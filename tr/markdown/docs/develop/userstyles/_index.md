@@ -57,11 +57,11 @@ Dizinin her ögesi aşağıdaki özelliklere sahip olmalıdır:
 
 ## Sayfa yüklendikten sonra userstyle'ları dinamik olarak değiştirmek
 
-It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
+Kullanıcının ayarları değiştirmesine yanıt olarak sayfada bir userstyle'ın etkin olup olmadığını dinamik olarak açıp kapamak için bir JavaScript userscript kullanmak genellikle gereksizdir.
 
-- Including `dynamicEnable: true` in the addon manifest will allow the extension to dynamically inject userstyles if the addon has been enabled (for the first time) after loading the page.
-- Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- Eklenti manifest dosyasına `dynamicEnable: true` ifadesinin eklenmesi, eklentinin sayfa yüklendikten sonra (ilk kez) etkinleştirilmesi durumunda uzantının dinamik olarak userstyle'lar eklemesine olanak tanır.
+- Eklenti manifest dosyasına `dynamicDisable: true` ifadesinin eklenmesi, eklentinin değiştirilmesi durumunda sayfanın yenilenmesine gerek kalmadan uzantının userstyle'larını dinamik olarak kaldırmasına veya yeniden eklemesine olanak tanır.
+- Eklenti manifest dosyasına `updateUserstylesOnSettingsChange: true` ifadesinin eklenmesi, sayfanın yenilenmesine gerek kalmadan kullanıcı ayarlarına bağlı "if" koşullarını yeniden değerlendirecektir. Uzantı, buna göre userstyle'ları kaldıracak veya yerleştirecektir.
 
 
 ## Eklenti ayarlarına CSS üzerinden erişmek
@@ -74,14 +74,14 @@ These CSS variables are always available for all enabled addons and no manifest 
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Renk ayarı */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Fallback'li renk ayarı */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Düzenleyici karanlık modu devre dışı bırakılırsa bunun yerine fallback kullanılacaktır */
 
-  /* Numerical setting */
+  /* Sayısal ayar */
   height: calc(1px * var(--progressBar-height));
 }
 ```
