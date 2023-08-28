@@ -66,7 +66,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
-    Description: Scratch Addons je razširitev za brskalnike, ki doda nove funkcije in teme za spletno stran in urejevalnik projektov Scratch. Njen cilj je zbrati in omogočiti lažjo uporabo uporabniških slogov in skript, ki so jih razvili člani Scratcheve skupnosti.
     InstallButton:
       Loading: Nalaganje...
       Description: brezplačno, odprta koda
@@ -76,13 +75,10 @@ IndexPage:
         Caption: Video o razširitvi.
       Popup:
         Caption: Okno razširitve.
-        ImgAlt: Okno razširitve
       Settings:
         Caption: Stran z nastavitvami.
-        ImgAlt: Stran z nastavitvami
       Demo:
         Caption: Prikaz razširitve. ({{.Count}})
-        ImgAlt: Prikaz ({{.Count}})
   Features:
     Heading: Funkcije
     AddonsHeading: Dodatki

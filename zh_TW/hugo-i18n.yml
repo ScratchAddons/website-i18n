@@ -75,7 +75,6 @@ IndexPage:
         Caption: 預告片
       Settings:
         Caption: 設定頁面。
-        ImgAlt: 設定頁面
   Features:
     Heading: 功能
   Install:

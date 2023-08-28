@@ -29,7 +29,6 @@ DarkTheme:
 IndexPage:
   Intro:
     Tagline: Alt-i-ett nettlesersutvidelse for Scratch
-    Description: Scratch Addons er en nettleserutvidelse som lar deg bruke nye funksjoner og temaer for Scratch. Den har et formål å samle inn, arkivere og bruke brukerstiler og brukerskript, laget av Scratch-brukere.
     InstallButton:
       Loading: Laster inn...
       Description: gratis, åpen kilde

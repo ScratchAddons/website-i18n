@@ -66,9 +66,9 @@ Kullanıcının ayarları değiştirmesine yanıt olarak sayfada bir userstyle'�
 
 ## Eklenti ayarlarına CSS üzerinden erişmek
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Userstyle'lar renk ve sayısal ayarlara CSS değişkenleri aracılığıyla kolaylıkla erişebilir. Ayrıca diğer aktif eklentilerin ayarlarına da erişebilirler.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+CSS değişkenleri her zaman `--addonId-settingId` yapısını takip eder. Ayar ID'leri her zaman kebab-case'ten camelCase'e dönüştürülür.
 
 These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
 

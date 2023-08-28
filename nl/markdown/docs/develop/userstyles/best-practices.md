@@ -14,7 +14,7 @@ Volg deze optimale praktijken wanneer je userstyles aan het schrijven of beoorde
 
 ### Bedenk dat woorden soms lang kunnen zijn
 
-Onthoud dat UI-elementen, zoals knoppen, smaller of breder kunnen zijn in sommige talen.
+Remember that in some languages, UI elements such as buttons may be narrower or wider.
 
 <!-- TODO: ### Supporting right-to-left languages (RTL) -->
 

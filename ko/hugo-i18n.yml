@@ -81,7 +81,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: 스크래치 사용자를 위한 단 하나의 애드온
-    Description: 스크래치 애드온은 스크래치 웹 사이트와 프로젝트 편집기에 새로운 기능과 테마를 제공하는 브라우저 확장 기능입니다. 스크래치 커뮤니티의 여러 구성원이 개발한 사용자 스타일과 사용자 스크립트를 수집, 보관 및 사용하고 있습니다.
     InstallButton:
       Loading: 불러오는 중...
       Description: 무료, 오픈소스
@@ -91,13 +90,10 @@ IndexPage:
         Caption: 트레일러
       Popup:
         Caption: 확장 프로그램 팝업
-        ImgAlt: 확장 프로그램 팝업
       Settings:
         Caption: 설정 페이지
-        ImgAlt: 설정 페이지
       Demo:
         Caption: 확장 프로그램 예시 ({{.Count}})
-        ImgAlt: 예시 ({{.Count}})
   Features:
     Heading: 기능
     AddonsHeading: 애드온

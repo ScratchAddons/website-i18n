@@ -1,29 +1,27 @@
-_index.html:
-  description: "A Scratch Addons egy webböngésző-bővítmény, ami rengeteg új funkciót, és témát kínál a Scratch (scratch.mit.edu) weboldalhoz és a projektszerkesztőjéhez. Küldetése, hogy összegyűjtse, eltárolja, és használatba vigye a felhasználói stílusokat, felhasználói szkript-ötleteket, amiket a Scratch közösség különféle tagjai fejlesztettek."
 addons.html:
   title: Kiegészítők
-  description: "Ez az oldal felsorolja az összes kiegészítőt, amik már felkerültek a Scratch  Addons-ra."
+  description: Ez az oldal felsorolja az összes kiegészítőt, amik már felkerültek a Scratch  Addons-ra.
 changelog.html:
   title: Változási napló
   description: Minden megjegyzendő változtatás a projekthez ezen az oldalon fog dokumentálódni.
 credits.html:
   title: Készítők
-  description: "Sok köszönet ezeknek a nagyszerű embereknek a hozzájárulásukért a projekthez, a Scratch Addons-on, a funkcióin, a témáin, a weboldalán, és a többin való dolgozásukkal."
+  description: Sok köszönet ezeknek a nagyszerű embereknek a hozzájárulásukért a projekthez, a Scratch Addons-on, a funkcióin, a témáin, a weboldalán, és a többin való dolgozásukkal.
 extension-settings.html:
   title: Scratch Addons beállítások
-  description: "Hogyan lehet elérni a Scratch Addons beállításait, lépésről lépésre."
+  description: Hogyan lehet elérni a Scratch Addons beállításait, lépésről lépésre.
 farewell.html:
   title: Viszlát!
-  description: "A Scratch Addons eltávolítása sikeresen befejeződött. Köszönjük, hogy használta a kiegészítőt!"
+  description: A Scratch Addons eltávolítása sikeresen befejeződött. Köszönjük, hogy használta a kiegészítőt!
 feedback.html:
   title: Visszajelzés küldése
   description: Visszajelzés küldése a Scratch Addons fejlesztőinek
 scratch-messaging-transition.html:
   title: Bővítmény Frissítés (Átmeneti)
-  description: "A Scratch Messaging Extension nevű (griffpatch által készített) Bővítmény tovább lett fejlesztve, és most már Scratch Addons-nak hívják. Kattintson a Scratch Addons ikonra a bővítmények menü szalagon, hogy megtekintse az újratervezett üzenetek összefoglalóra!"
+  description: A Scratch Messaging Extension nevű (griffpatch által készített) Bővítmény tovább lett fejlesztve, és most már Scratch Addons-nak hívják. Kattintson a Scratch Addons ikonra a bővítmények menü szalagon, hogy megtekintse az újratervezett üzenetek összefoglalóra!
 unsupported-browser.html:
   title: Nem támogatott böngésző
-  description: "A Scratch Addons nem támogatja a böngészőt, amit használ"
+  description: A Scratch Addons nem támogatja a böngészőt, amit használ
 welcome.html:
   title: Üdvözöljük!
   description: A Scratch Addons telepítése sikeresen megtörtént! Köszönjük a telepítést. Reméljük tetszeni fog a kiegészítő!

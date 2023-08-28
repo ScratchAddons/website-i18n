@@ -69,7 +69,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Wszystkie dodatki w jednym rozszerzeniu do Scratch
-    Description: Scratch Addons to rozszerzenie przeglądarki dodające nowe funkcjonalności i style do strony Scratch i jej edytora. Naszą misją jest zbieranie i tworzenie stylów i kodów użytkownika, tworzonych przez wielu użytkowników Scratcha.
     InstallButton:
       Loading: Ładowanie...
       Description: darmowe, open-source
@@ -79,13 +78,10 @@ IndexPage:
         Caption: Zwiastun.
       Popup:
         Caption: "Wyskakujące okienko rozszerzenia. "
-        ImgAlt: "Wyskakujące okienko rozszerzenia "
       Settings:
         Caption: Strona ustawień
-        ImgAlt: Strona ustawień
       Demo:
         Caption: Demonstracja rozszerzenia ({{.Count}}).
-        ImgAlt: Demonstracjia ({{.Count}})
   Features:
     Heading: Funkcjonalności
     AddonsHeading: Dodatki

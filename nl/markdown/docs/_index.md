@@ -4,7 +4,7 @@ title: Home
 
 Welkom bij de Scratch Addons-Documentatie! Hier vind je documentatie die te maken heeft met Scratch Addons.
 
-Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratch website en projecteditor in een handige en aanpasbare browserextensie. Het doel is om een gecentraliseerd en up-to-date platform aan te bieden voor de gemeenschap om nieuwe functies en thema's te ontwikkelen voor Scratch.
+Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratch website en projecteditor in één handige en aanpasbare browserextensie. Het doel is om een gecentraliseerd en up-to-date platform aan te bieden voor de gemeenschap om nieuwe functies en thema's te ontwikkelen voor Scratch.
 
 ## Snelle links
 

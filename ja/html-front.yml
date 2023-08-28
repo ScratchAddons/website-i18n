@@ -1,5 +1,3 @@
-_index.html:
-  description: Scratch Addonsは、Scratchウェブサイト(scratch.mit.edu)とプロジェクトエディターの新機能やテーマを提供するブラウザー拡張機能です。Scratchコミュニティーのメンバーにて開発されたユーザースクリプトやユーザースタイルを収集し、利用できるようにします。
 addons.html:
   title: アドオン
   description: Scratch Addonsのすべてのアドオンを掲載しています。

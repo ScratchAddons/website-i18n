@@ -1,5 +1,3 @@
-_index.html:
-  description: Scratch Addons és una extensió del navegador que ofereix noves funcions i temes per al web i l'editor de projectes del Scratch (scratch.mit.edu). Té la missió de recopilar, arxivar i posar en ús estils d'usuari i scripts d'usuari, desenvolupats per molts membres de la comunitat del Scratch.
 addons.html:
   description: Aquesta pàgina enumera tots els addons implementats al Scratch Addons.
 changelog.html:

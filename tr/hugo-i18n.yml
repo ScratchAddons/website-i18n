@@ -69,7 +69,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
-    Description: Scratch Eklentileri, Scratch sitesi ve proje düzenleyici için yeni özellikler ve temalar sağlayan bir tarayıcı eklentisidir. Misyonu; Scratch topluluğunun birçok üyesi tarafından geliştirilen userstyle'ları ve userscript'leri toplamak, arşivlemek ve kullanıma sokmaktır.
+    Description: Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisine yönelik yeni ve mevcut özellikleri ve temaları, erişimi kolay ve yapılandırılabilir tek bir tarayıcı uzantısında birleştirir.
     InstallButton:
       Loading: Yükleniyor...
       Description: ücretsiz, açık kaynak
@@ -79,13 +79,10 @@ IndexPage:
         Caption: Fragman.
       Popup:
         Caption: Uzantı açılır penceresi.
-        ImgAlt: Uzantı açılır penceresi
       Settings:
         Caption: Ayarlar sayfası.
-        ImgAlt: Ayarlar sayfası
       Demo:
         Caption: Uzantının görüntülenmesi. ({{.Count}})
-        ImgAlt: Görüntüleme ({{.Count}})
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler

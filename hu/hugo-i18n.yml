@@ -68,7 +68,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Minden-egyben böngésző bővítmény a Scratch-hez
-    Description: A Scratch Addons egy webböngésző-bővítmény, ami rengeteg új funkciót, és témát kínál a Scratch weboldalhoz és a projektszerkesztőjéhez. Küldetése, hogy összegyűjtse, eltárolja, és használatba vigye a userstyle-okat, userscriptreket a Scratch-közösség különböző tagjai által fejlesztve.
     InstallButton:
       Loading: Betöltés...
       Description: szabad, nyíltforráskódú
@@ -78,13 +77,10 @@ IndexPage:
         Caption: Az előzetes
       Popup:
         Caption: A böngésző felugróablaka.
-        ImgAlt: Bővítmény felugróablak
       Settings:
         Caption: A beállítások oldal.
-        ImgAlt: Beállítások oldal
       Demo:
         Caption: A bővítmény bemutatása. ({{.Count}})
-        ImgAlt: Demonstráció ({{.Count}})
   Features:
     Heading: Jellemzők
     AddonsHeading: Kiegészítők

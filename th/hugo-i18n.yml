@@ -64,7 +64,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: ทุกอย่างในส่วนขยายเดียวเพื่อ scratch
-    Description: ส่วนขยายสำหรับ scratch เป็นส่วนขยายเบราเซอร์ที่เพิ่มฟีเจอร์และธีมใหม่ให้ หน้า และตัวแก้ไขโครงงานของ scratch เรามีภารกิจที่จะเก็บรักษาและใช้งาน userstyle กับ userscript สร้างโดยผู้คนหลายคนใน ชุมชนของ scratch
     InstallButton:
       Loading: กำลังโหลด...
       Description: ฟรี, โอเพ่นซอร์ส
@@ -74,13 +73,10 @@ IndexPage:
         Caption: วีดีโอแนะนำ
       Popup:
         Caption: ป๊อปอัพของส่วนขยาย
-        ImgAlt: ป๊อปอัพของส่วนขยาย
       Settings:
         Caption: หน้าการตั้งค่า
-        ImgAlt: หน้าการตั้งค่า
       Demo:
         Caption: ตัวอย่างของส่วนขยาย ({{.Count}})
-        ImgAlt: ตัวอย่าง ({{.Count}})
   Features:
     Heading: คุณสมบัติ
     AddonsHeading: ส่วนขยาย

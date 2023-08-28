@@ -14,7 +14,7 @@ Suivez ces bonnes pratiques lors de la rédaction ou de la révision des styles 
 
 ### Pensez aux langues avec des mots plus longs
 
-N'oubliez pas que dans certaines langues, les éléments de l'interface utilisateur tels que les boutons peuvent être plus ou moins larges.
+Remember that in some languages, UI elements such as buttons may be narrower or wider.
 
 <!-- A FAIRE : ### Prendre en charge les langues de droite à gauche (RTL) -->
 

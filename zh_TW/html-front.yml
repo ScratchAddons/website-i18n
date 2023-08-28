@@ -1,5 +1,3 @@
-_index.html:
-  description: Scratch Addons 是一個瀏覽器擴展，它為 Scratch (scratch.mit.edu) 網站和項目編輯器提供了新的功能和主題。 它的功能是收集、存檔和使用由 Scratch的成員開發的用戶樣式和用戶腳本。
 addons.html:
   description: 此頁面列出了在 Scratch Addons 上實現的所有插件.
 changelog.html:

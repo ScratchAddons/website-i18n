@@ -62,7 +62,6 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: All-in-one-Browsererweiterung für Scratch
-    Description: Scratch Addons ist eine Browsererweiterung, die neue Funktionen und Designs für die Scratch-Website und den Projekteditor zur Verfügung stellt. Seine Mission ist es, Userstyles und Userscripts von verschiedenen Mitgliedern der Scratch-Community zu sammeln, zu archivieren und in Betrieb zu setzen.
     InstallButton:
       Loading: Laden...
       Description: kostenlos, open-source
@@ -72,13 +71,10 @@ IndexPage:
         Caption: Der Trailer.
       Popup:
         Caption: Der Erweiterungs-Pop-up.
-        ImgAlt: Erweiterungs-Pop-up
       Settings:
         Caption: Die Einstellungenseite.
-        ImgAlt: Einstellungen
       Demo:
         Caption: Vorführung der Erweiterung. ({{.Count}})
-        ImgAlt: Vorführung ({{.Count}})
   Features:
     AddonsParagraph: Scratch Addons besteht aus Funktionen, die deine Erfahrung auf der Scratch-Website und dem Scratch-Editor verbessern.
     CustomizableHeading: Anpassbar

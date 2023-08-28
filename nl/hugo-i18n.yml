@@ -64,7 +64,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Alles-in-één browserextensie voor Scratch
-    Description: Scratch Addons is een browserextensie die je nieuwe functies en thema's voor de Scratchwebsite en projecteditor laat gebruiken. Het heeft een doel om userstyles en userscripts te verzamelen, archiveren en gebruiken, gemaakt door meerdere leden van de Scratchgemeenschap.
+    Description: Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratch website en projecteditor in één handige en aanpasbare browserextensie.
     InstallButton:
       Loading: Laden...
       Description: gratis, open-bron
@@ -74,13 +74,10 @@ IndexPage:
         Caption: De trailer.
       Popup:
         Caption: De extensiepop-up.
-        ImgAlt: Extensiepop-up
       Settings:
         Caption: De instellingspagina.
-        ImgAlt: Instellingspagina
       Demo:
         Caption: Demonstratie van de extensie. ({{.Count}})
-        ImgAlt: Demonstratie ({{.Count}})
   Features:
     Heading: Functies
     AddonsParagraph: Scratch Addons bestaat uit addons, dat zijn functies die je Scratchwebsite en editorervaring versterken.

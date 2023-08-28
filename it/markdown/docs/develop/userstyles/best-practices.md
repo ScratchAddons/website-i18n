@@ -14,7 +14,7 @@ Segui queste migliori pratiche quand scrivi o rivedi gli userstyles.
 
 ### Tieni conto delle lingue con parole lunghe
 
-Ricorda che in alcune lingue, gli elementi dell'IU come ad esempio i pulsanti possono essere più stretti o più larghi.
+Remember that in some languages, UI elements such as buttons may be narrower or wider.
 
 <!-- TODO: ### Supporto per le lingue scritte da destra a sinistra (right-to-left, RTL) -->
 
