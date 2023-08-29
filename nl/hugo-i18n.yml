@@ -92,7 +92,6 @@ IndexPage:
     Paragraph: Onthoud, dit zijn nog maar de hoogtepunten. {{.OpenTag1}}Er is nog meer!{{.CloseTag1}}
   Install:
     Heading: Installeren
-    Paragraph: Tevreden? Aarzel niet en installeer het nu!
     InstallButton:
       Other: ...of {{.OpenTag1}}download het van GitHub{{.CloseTag1}} of {{.OpenTag2}}installeer het van de bron{{.CloseTag2}}.
   Users: Gebruikers

@@ -69,6 +69,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Scratchの改良を詰め合わせた拡張機能
+    Description: Scratch Addons は、Scratch ウェブサイトとプロジェクトエディター用の機能やテーマをまとめ、ひとつの利用しやすく個別設定可能なブラウザー拡張機能にしたものです。
     InstallButton:
       Loading: 読み込み中...
       Description: 無料、オープンソース
@@ -82,6 +83,7 @@ IndexPage:
         Caption: 設定ページ
       Demo:
         Caption: 拡張機能の紹介 ({{.Count}})
+    HeroCaption: Scratch Addons ポップアップが開かれたブラウザー画面。
   Features:
     Heading: 機能
     AddonsHeading: アドオン
@@ -97,7 +99,7 @@ IndexPage:
     Paragraph: これはただのハイライトです! {{.OpenTag1}}他にもありますよ!{{.CloseTag1}}
   Install:
     Heading: インストール
-    Paragraph: 満足しましたか? 今すぐインストールを!
+    Paragraph: Scratch を強化するには、今すぐインストールを!
     InstallButton:
       Other: あるいは、{{.OpenTag1}}GitHubからダウンロードする{{.CloseTag1}}か、{{.OpenTag2}}ソースコードからインストール{{.CloseTag2}}する。
   Users: ユーザー

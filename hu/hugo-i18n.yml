@@ -96,7 +96,6 @@ IndexPage:
     Paragraph: Emlékezzen, hogy ezek csak a kiemelések. {{.OpenTag1}}Van több is!{{.CloseTag1}}
   Install:
     Heading: Telepítés
-    Paragraph: Megelégedett az ígért funkciókkal? Ne habozzon letölteni már most!
     InstallButton:
       Other: ...vagy {{.OpenTag1}}töltse le a GitHub-ról{{.CloseTag1}} vagy {{.OpenTag2}}telepítse a forráskódból{{.CloseTag2}}.
   Users: Felhasználó

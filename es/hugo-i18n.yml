@@ -80,6 +80,7 @@ IndexPage:
         Caption: La página de configuración.
       Demo:
         Caption: Demonstración de la extensión. ({{.Count}})
+    HeroCaption: Una ventana del navegador con el popup de Scratch Addons abierto
   Features:
     Heading: Funciones
     AddonsParagraph: Scratch Addons consiste de addons, que son funciones que pueden potenciar su experiencia en la web y editor de Scratch.
@@ -94,7 +95,7 @@ IndexPage:
     Paragraph: Recuerde, estos solo son los addons destacados. {{.OpenTag1}}¡Hay más!{{.CloseTag1}}
   Install:
     Heading: Instalar
-    Paragraph: ¿Satisfecho? ¡No dude en instalarla ahora!
+    Paragraph: ¿Listo para potenciar Scratch? ¡Obténgalo ahora!
     InstallButton:
       Other: ...o {{.OpenTag1}}descárguelo de GitHub{{.CloseTag1}} o {{.OpenTag2}}instálelo de la fuente{{.CloseTag2}}.
   Users: Usuarios

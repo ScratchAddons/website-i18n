@@ -1,120 +1,120 @@
 v1.7.0:
   Highlights:
     Description: |
-      Nuova funzione: modifiche per la categoria dati, con opzioni per separare le liste e le variabili locali in sezioni diverse. Vai a Impostazioni Scratch Funzioni Aggiuntive per abilitarlo.
+      Nuova funzione: modifiche per la categoria dati, con opzioni per separare le liste e le variabili locali in sezioni diverse. Vai alle impostazioni di Scratch Addons per abilitarlo.
 
-      Altre nuove funzionalità: importa ed esporta le impostazioni, personalizza le schede del menu popup, attiva e disattiva le funzioni direttamente dal menu popup, diversi bug risolti,  prestazioni migliorate.
+      Altre nuove funzionalità: importa ed esporta le impostazioni delle estensioni, personalizza le schede del menu popup, attiva e disattiva gli addon direttamente dal menu popup, correzione di diversi bug, prestazioni migliorate.
 v1.8.0:
   Highlights:
     Description: |
-      Nuova funzione: nascondi automaticamente pannello blocchi, che nasconde il pannello dei blocchi se il mouse non si trova sopra di esso o non viene cliccato. Vai a Impostazioni Scratch Funzioni Aggiuntive per attivarlo.
+      Nuova funzione: nascondi automaticamente pannello dei blocchi, che nasconde il pannello dei blocchi se il mouse non si trova sopra di esso o se viene cliccato. Vai a impostazioni di Scratch Addons per attivarlo.
 
-      La funzione "Registra video progetto" che prima registrava solo un video, ora può registrare fino a 5 minuti del video e audio del progetto.
+      La funzione "Registra video progetto" che prima registrava solo il video, ora può registrare fino a 5 minuti del video e audio del progetto.
 v1.10.0:
   Highlights:
     Description: |
-      Nuova funzione: "pulsante copia link del commento" addon che aggiunge ai commenti un pulsante "copia link" per creare facilmente dei riferimenti. Vai a Impostazioni Scratch Funzioni Aggiuntive per abilitarlo.
+      Nuova funzione: "pulsante copia link del commento" addon che aggiunge ai commenti un pulsante "copia link" per creare facilmente dei riferimenti. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       L'addon "pulsante pausa" è stato migliorato e non è più in beta. Diversi bug della modalità scura sono stati corretti.
 v1.12.0:
   Highlights:
     Description: |
-      Nuova funzione: La funzione "Drag&Drop di file", che permette di trascinare immagini e suoni dal gestore dei file nell'elenco dei costumi e dei suoni. Vai a Impostazioni Scratch Funzioni Aggiuntive per attivarla.
+      Nuova funzione: La funzione "Drag&Drop di file", che permette di trascinare immagini e suoni dal gestore dei file nell'elenco dei costumi e dei suoni. Vai a impostazioni di Scratch Addons per attivarla.
 
-      Un altra funzione in primo piano in questo aggiornamento sono "forma dei blocchi personalizzata", che ti permette di aggiustare l'imbottitura, il raggio degli angoli, e l'altezza delle nocche dei blocchi di Scratch.
+      Un'altra funzione in primo piano in questo aggiornamento è "forma dei blocchi personalizzata", che ti permette di aggiustare lo spazio interno, il raggio degli angoli e l'altezza degli agganci dei blocchi di Scratch.
 v1.16.0:
   Highlights:
     Description: |
-      Nuovo addon: "debugger" rende disponibili in Scratch la console dei log e i breakpoint. Vai a Impostazioni Scratch Funzioni Aggiuntive per abilitarlo.
+      Nuovo addon: "debugger" rende disponibili in Scratch la console dei log e i breakpoint. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Un altro nuovo addon aggiunto in questo aggiornamento è "barra di ricerca espandibile" che rende la barra di ricerca nella barra di navigazione più larga quando è selezionata.
 v1.17.0:
   Highlights:
     Description: |
-      Nuovo addon: "precedente layout delle gallerie", che riporta il layout delle pagine delle gallerie a quello usato prima dell'aggiornamento delle gallerie. Vai a Impostazioni Scratch Addon per abilitarlo.
+      Nuovo addon: "precedente layout delle gallerie" riporta il layout delle pagine delle gallerie a quello usato prima dell'aggiornamento delle gallerie nel sito di Scratch. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Il nuovo addon "pulsante per visualizzare gli iscritti delle gallerie" ripristina gli inviti fatti con un click. Altri nuovi addon aggiunti a questo aggiornamento sono "caricamento di immagini HD" e "sprite non trascinabili nell'editor".
 v1.18.0:
   Highlights:
     Description: |
-      Nuovo addon: "Pulsante TurboWarp" aggiunge un pulsante nella pagina dei progetti per eseguire il progetto in TurboWarp.org. Vai a Impostazioni Scratch Addon per abilitarlo.
+      Nuovo addon: "Pulsante TurboWarp" aggiunge un pulsante nella pagina dei progetti per eseguire il progetto su TurboWarp.org. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Il nuovo addon "più elementi per riga" ti permette di vedere più di 3 progetti per riga nelle gallerie e in altre pagine del sito. Ulteriori nuovi addon in questo aggiornamento sono "Ctrl+Invio per inviare" e "progetto predefinito personalizzato".
 v1.19.0:
   Highlights:
     Description: |
-      Il nuovo addon "disegna costume come impostazione predefinita", ti permette di cambiare l'azione predefinita dei pulsanti "Scegli uno Sprite/Costume/Sfondo/Suono". Vai a Impostazioni Scratch Addon per abilitarlo.
+      Il nuovo addon "disegna costume come impostazione predefinita", ti permette di cambiare l'azione predefinita dei pulsanti "Scegli uno Sprite/Costume/Sfondo/Suono". Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Il nuovo addon "assegna un nome allo script prima di inserirlo nella valigetta" ti chiede di assegnare un nome agli script quando li trascini nella valigetta. Altri addon aggiunti a questo aggiornamento sono "nascondi il pulsante cancella" e "nascondi le statistiche nei progetti".
 v1.20.0:
   Highlights:
     Description: |
-      Il nuovo addon "afferra il singolo blocco con il tasto CTRL" aggiunge la possibilità di trascinare un singolo blocco dall'interno di uno script (invece di tutta la sequenza attacca al di sotto) se si preme contemporaneamente il tasto CTRL. Vai a Impostazioni Scratch Addon per abilitarlo.
+      Il nuovo addon "afferra il singolo blocco con il tasto CTRL" aggiunge la possibilità di trascinare un singolo blocco dall'interno di uno script (invece di tutta la sequenza attaccata al di sotto) se si preme contemporaneamente il tasto CTRL. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       L'addon "modalità scura dell'editor e colori personalizzabili" ha una nuova impostazione "Scratch 2.0". Altri nuovi addon in questo aggiornamento sono "nascondi le nuove variabili" e "sposta costumi in cima o in fondo"
 v1.21.0:
   Highlights:
     Description: |
-      Nuovo addon: "duplica gli script con il tasto Alt" aggiunge la possibilità di duplicare rapidamente gli script trascinandoli mentre si tiene premuto il tasto Alt. Vai a Impostazioni Scratch Addon per abilitarlo.
+      Nuovo addon: "duplica gli script con il tasto Alt" aggiunge la possibilità di duplicare rapidamente gli script trascinandoli mentre si tiene premuto il tasto Alt. Vai a impostazioni di Scratch Addons per abilitarlo.
 
-      Altri nuovi addon aggiunti in questo aggiornamento sono "full screen migliorato" e "selezione emoji nei commenti".
+      Altri nuovi addon aggiunti in questo aggiornamento sono "full screen migliorato" e "selettore emoji nei commenti".
 v1.22.0:
   Highlights:
     Description: |
       Nuovo addon: "scambia variabili tra 'Per tutti gli sprite' e 'Solo per questo sprite'", che permette di cambiare la visibilità delle variabili e delle liste e di definire quali variabili sono salvate nel cloud. Vai a  Impostazioni Scratch Addon e abilitalo.
 
-      Altri nuovi addon aggiunti a questo update sono "commenti dell'editor migliorari", "menu delle categorie a due colonne" e "caselle di ricerca ne Le Mie Cose".
+      Altri nuovi addon aggiunti a questo update sono "commenti dell'editor migliorati", "menu delle categorie a due colonne" e "casella di ricerca ne Le Mie Cose".
 v1.23.0:
   Highlights:
     Description: |
-      Nuovo addon: "modalità scura e colori personalizzabili del sito". Vai a Impostazioni Scratch Addonper modificare colori specifici, scegliere barre di scorrimento scure e molto altro ancora!
+      Nuovo addon: "modalità scura e colori personalizzabili del sito". Vai a impostazioni di Scratch Addons per modificare colori specifici, scegliere barre di scorrimento scure e molto altro ancora!
 
-      Altri nuovi addon aggiunti a questo aggiornamento sono "script di snap allineati con la griglia", "contatore dei blocchi" e "anteprima ad alta definizione".
+      Altri nuovi addon aggiunti a questo aggiornamento sono "script di snap allineati con la griglia", "contatore dei blocchi" e "anteprime ad alta definizione".
 v1.25.0:
   Highlights:
     Description: |
-      Nuovo addon: "parametri contagocce" che permette di definire un valore preciso (0-100) per ogni cursore del contagocce dell'editor di immagini. Vai a  Impostazioni Scratch Addon per attivarlo.
+      Nuovo addon: "parametri contagocce" che permette di definire un valore preciso (0-100) per ogni cursore del contagocce dell'editor di immagini. Vai a impostazioni di Scratch Addons per attivarlo.
 
-      Altri nuovi addon aggiunti a questo aggiornamento sono "Schede orizzontali  per Le Mie Cose" e "anteprima dinamica dei post dei forum".
+      Altri nuovi addon aggiunti a questo aggiornamento sono "schede orizzontali per Le Mie Cose" e "anteprima dinamica dei post dei forum".
 v1.26.0:
   Highlights:
     Description: |
-      Nuovo addon: "colori predefiniti dell'editor di costumi presonalizzabili", ti permette di cambiare i colori e la dimensioni del bordo predefiniti usati dall'editor di costumi. Vai a Impostazioni Scratch Addon per attivarlo.
+      Nuovo addon: "colori predefiniti dell'editor di costumi presonalizzabili" ti permette di cambiare i colori predefiniti e la dimensioni del bordo predefinita dell'editor di costumi. Vai a impostazioni di Scratch Addons per attivarlo.
 
-      Altro nuovo addon aggiunti in questo aggiornamento è "mostra durata suono", che mostra nell'editor dei suoni la durata totale e la durata effettiva del suono o della parte selezionata.
+      Altro nuovo addon aggintoi in questo aggiornamento è "mostra durata suono", che mostra nell'editor dei suoni la durata totale e la durata effettiva del suono o della parte selezionata.
 v1.29.0:
   Highlights:
     Description: |
-      Nuovo addon: "cursore trasparenza" che aggiunge un cursore per definire la trasparenza del contagge nell'editor dei costumi. Vai a  Impostazioni Scratch Addon per attivarlo.
+      Nuovo addon: "cursore trasparenza", che aggiunge un cursore per definire la trasparenza del contagge nell'editor dei costumi. Vai a  impostazioni di Scratch Addons per attivarlo.
 
-      Altri nuovi addon aggiunti a questo aggiornamento sono "cursore colume nei progetti", "rinomina messaggi" e "seleziona colori dello stage nell'editor dei costumi".
+      Altri nuovi addon aggiunti a questo aggiornamento sono "cursore volume nei progetti", "rinomina messaggi" e "seleziona colori dello stage nell'editor dei costumi".
 v1.30.0:
   Highlights:
     Description: |
-      Nuovo addon "editor dei costumi magnetico" che ti permette di posizionare gli oggetti nell'editor di costumi facendoli attaccare ai contorni o ai nodi dei vettori. Vai a Impostazioni di Scratch Addon per abilitarlo.
+      Nuovo addon "editor dei costumi magnetico" che ti permette di posizionare gli oggetti nell'editor di costumi facendoli attaccare ai contorni oppure ai nodi dei vettori. Vai a impostazioni di Scratch Addond per abilitarlo.
 
-      Altri nuovi addon aggiunti a questo aggiornamento sono "proprietà degli sprite collassabile", "inserisci blocchi per nome" e "mostra sempre tastierino numerico".
+      Altri nuovi addon aggiunti a questo aggiornamento sono "riquadro proprietà degli sprite collassabile", "inserisci blocchi per nome" e "mostra sempre tastierino numerico".
 v1.31.0:
   Highlights:
     Description: |
-      L'addon "inserisci blocchi per nome" è stato completamente riscritto. Puoi ora digitare valori e monitor dentro agli altri blocchi e attivare l'autoompletamento usando il tasto Tab. Vai a  Impostazioni di Scratch Addon per abilitarlo.
+      L'addon "inserisci blocchi per nome" è stato completamente riscritto. Puoi ora digitare valori e nomi di atri monitor dentro agli argomenti dei blocchi e attivare l'autocompletamento usando il tasto Tab. Vai a impostazioni di Scratch Addons per abilitarlo.
 
-      I nuovi addon in questo aggiornamento sono "righe mutiple nello zainetto", "copia valori dei monitor" e "condividi ne Le Mie Cose".
+      I nuovi addon in questo aggiornamento sono "righe mutiple nella valigetta", "copia valori dei monitor" e "condividi ne Le Mie Cose".
 v1.32.0:
   Highlights:
     Description: |
-      Nuovo addon: "porta sprite in primo piano" ti permette di usare Shift+Click sull'icona di uno sprite nell'are degli sprite per portarlo in primo piano (primo livello) dello Stage. Vai a Impostazioni di Scratch Addon per abilitarlo.
+      Nuovo addon: "porta sprite in primo piano", che ti permette di usare Shift+Click sull'icona di uno sprite nell'area degli sprite per portarlo in primo piano (primo livello) dello Stage. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Altri nuovi addons aggiunti da questo aggiornamento sono "caricamento dei progetti veloce", "segui argomenti dopo la pubblicazione", "evidenziatore di necropost" e "ricorda le categorie del forum compresse".
 v1.33.0:
   Highlights:
     Description: |
-      Nuovo addon: "evidenzia il creatore del progetto nei commenti", aggiunge un bollino a fianco al nome del creatore del progetto nella sezione dei commenti del progetto. Vai a Impostazioni di Scratch Addon per abilitarlo.
+      Nuovo addon: "evidenzia il creatore del progetto nei commenti", che aggiunge un bollino a fianco al nome del creatore del progetto nella sezione dei commenti del progetto. Vai a impostazioni di Scratch Addons per abilitarlo.
 
       Diversi addon sono stati aggiornati in preparazione dei prossimi cambiamenti di Scratch. Questo aggiornamento porta anche miglioramenti nelle prestazioni e nella stabilità.
 v1.33.2:
   Highlights:
     Description: |
-      Scratch ha rilasciato un aggiornamento che modifica alcuni colori del sito. Se vuoi usare questi nuovi colori non devi fare nulla, altrimenti puoi personalizzarli. Puoi reimpostare o modificare qualunque tema nelle Impostazioni di Scratch Addon. 
+      Scratch ha rilasciato un aggiornamento che modifica alcuni colori del sito. Se vuoi usare questi nuovi colori non devi fare nulla, altrimenti puoi personalizzarli. Puoi reimpostare o modificare qualunque tema nelle impostazioni di Scratch Addons. 
 
-      Anche se gli sviluppatori di Scratch Addons hanno lavorato molto per supportare questi cambiamenti, è possibile che per un po' di tempo compaiono dei piccoli bug.
+      Anche se gli sviluppatori di Scratch Addons hanno lavorato molto per supportare questi cambiamenti, è possibile che per un po' di tempo vengano riscontrati piccoli bug.

@@ -93,7 +93,6 @@ IndexPage:
     Paragraph: Lembre-se, esses são apenas os destaques. {{.OpenTag1}}Tem muito mais!{{.CloseTag1}}
   Install:
     Heading: Instalar
-    Paragraph: Parece bom? Não hesite e instale agora!
     InstallButton:
       Other: ...ou {{.OpenTag1}}baixe pelo GitHub{{.CloseTag1}} ou {{.OpenTag2}}instale através do código fonte{{.CloseTag2}}.
   Users: Usuários

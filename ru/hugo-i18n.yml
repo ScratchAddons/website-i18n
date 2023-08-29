@@ -96,7 +96,6 @@ IndexPage:
     Paragraph: Это всего-лишь самое основное. {{.OpenTag1}}Есть ещё!{{.CloseTag1}}
   Install:
     Heading: Установить
-    Paragraph: Удовлетворены? Не стесняйтесь установить это прямо сейчас!
     InstallButton:
       Other: ...или {{.OpenTag1}}скачайте с GitHub{{.CloseTag1}} или {{.OpenTag2}}установите с исходного кода{{.CloseTag2}}.
   Users: пользователей

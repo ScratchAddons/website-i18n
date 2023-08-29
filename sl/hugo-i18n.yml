@@ -94,7 +94,6 @@ IndexPage:
     Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
   Install:
     Heading: Namesti
-    Paragraph: Ste zadovoljni? Namestite zdaj!
     InstallButton:
       Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
   Users: Uporabnikov

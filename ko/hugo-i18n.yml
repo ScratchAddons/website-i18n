@@ -109,7 +109,6 @@ IndexPage:
     Paragraph: 기억하세요, 이것은 주요 기능일 뿐입니다. 이 외에도 정말 많은 기능이 존재합니다. {{.OpenTag1}}이곳에서 더 알아보세요{{.CloseTag1}}.
   Install:
     Heading: 설치하기
-    Paragraph: 만족하시나요? 주저하지 마시고 지금 설치하세요!
     InstallButton:
       Other: "...또는 {{.OpenTag1}}GitHub에서 다운로드 받거나{{.CloseTag1}}, {{.OpenTag2}}소스로부터 설치하세요{{.CloseTag2}}. "
   Users: 사용자

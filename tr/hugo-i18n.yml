@@ -83,6 +83,7 @@ IndexPage:
         Caption: Ayarlar sayfası.
       Demo:
         Caption: Uzantının görüntülenmesi. ({{.Count}})
+    HeroCaption: Scratch Eklentileri açılır penceresinin açıldığı bir tarayıcı penceresi.
   Features:
     Heading: Özellikler
     AddonsHeading: Eklentiler
@@ -98,7 +99,7 @@ IndexPage:
     Paragraph: Unutmayın, bunlar sadece öne çıkanlar. {{.OpenTag1}}Çok daha fazlası var!{{.CloseTag1}}
   Install:
     Heading: İndir
-    Paragraph: Hoşunuza gitti mi? Şimdi kurmaktan çekinmeyin!
+    Paragraph: Scratch'i güçlendirmeye hazır mısın? Hemen indir!
     InstallButton:
       Other: ...ama isterseniz {{.OpenTag1}}GitHub'dan{{.CloseTag1}} veya {{.OpenTag2}}kaynağından{{.CloseTag2}} da indirebilirsiniz.
   Users: Kullanıcı

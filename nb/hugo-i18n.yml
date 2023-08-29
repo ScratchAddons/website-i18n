@@ -40,7 +40,6 @@ IndexPage:
     OSParagraph: Scratch Utvidelser er gratis, har åpen kildekode og er bygget av et fellesskap av Scratch-brukere.
   Install:
     Heading: Installer
-    Paragraph: Fornøyd? Installere den nå!
     InstallButton:
       Other: ...eller {{.OpenTag1}}last den ned fra GitHub{{.CloseTag1}} eller {{.OpenTag2}}installer den fra kilden{{.CloseTag2}}.
 AddonsPage:

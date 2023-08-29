@@ -45,7 +45,6 @@ IndexPage:
     Paragraph: Ține minte, acestea sunt doar evidențierile. {{.OpenTag1}} Există mai mult! {{.CloseTag1}}
   Install:
     Heading: Instalează
-    Paragraph: Satisfăcut? Nu ezita să o instalezi acum!
     InstallButton:
       Other: ...sau {{.OpenTag1}} descarc-o de pe GitHub {{.CloseTag1}} sau {{.OpenTag2}} instaleaz-o din sursă {{.CloseTag2}}.
 AddonsPage:

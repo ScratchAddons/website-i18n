@@ -86,7 +86,6 @@ IndexPage:
     Paragraph: Vergiss nicht, dies sind nur die Highlights. {{.OpenTag1}}Es gibt mehr!{{.CloseTag1}}
   Install:
     Heading: Installieren
-    Paragraph: Zufrieden? Zögere nicht und installiere es jetzt!
     InstallButton:
       Other: "...oder {{.OpenTag1}}lade es von GitHub herunter{{.CloseTag1}} oder {{.OpenTag2}}installiere es von der Quelle{{.CloseTag2}}. "
   Users: Nutzer

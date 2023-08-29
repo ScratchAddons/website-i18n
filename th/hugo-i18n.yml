@@ -92,7 +92,6 @@ IndexPage:
     Paragraph: อย่าลืมว่านี่เป็นเพียงไฮไลท์เท่านั้น {{.OpenTag1}}มีเพิ่มอีกเยอะ{{.CloseTag1}}
   Install:
     Heading: ติดตั้ง
-    Paragraph: ชอบเหรอ? ไม่ต้องลังเลที่จะติดตั้งทันที!
     InstallButton:
       Other: ...หรือ {{.OpenTag1}}ติดตั้งจาก github{{.CloseTag1}}หรือ {{.OpenTag2}}ติดตั้งจากแหล่งที่มา{{.CloseTag2}}
   Users: ผู้ใช้

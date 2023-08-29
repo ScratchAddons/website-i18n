@@ -45,20 +45,20 @@ First, Safari extension store requires all developers to pay an annual fee to li
 
 스크래치 애드온은 오프라인 편집기를 포함한 공식 스크래치 앱에서 사용할 수 없습니다.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+대신, 대부분의 프로젝트 에디터의 애드온은 윈도우, 맥OS와 리눅스에서 [다운로드 가능한 앱이](https://desktop.turbowarp.org/) 있는 [TurboWarp](https://turbowarp.org/)에서 사용 가능합니다. 그리고, 구글 크롬과 같이 Progressive Web Applications (PWA)를 지원하는 브라우저에서는 TurboWarp 에디터를 PWA로 설치하고 인터넷 연결 없이 사용할 수 있습니다.
 
 ### 같이 사용할 수 없는 프로그램이 있나요?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+몇 브라우저 확장 프로그램과 사용자 스크립트는 스크래치 애드온과 충돌할 수 있습니다. 만약 이슈가 발생하면 아래의 확장 프로그램들을 꺼야 됩니다.
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
+- Scratch 3 Developer Tools: 이 브라우저 확장 프로그램은 개발자 도구 애드온과 같습니다. Scratch 3 Developer Tools를 삭제하고 개발자 도구 애드온을 사용해야 됩니다.
+- Better3.0: 이 브라우저 확장 프로그램은 몇 애드온과 충돌할 수 있습니다. 다행히, 대부분의 Better3.0의 기능들은 애드온으로 사용할 수 있습니다.
 
 ## 보안과 개인정보
 
 ### 스크래치 애드온은 안전한가요?
 
-Yes. Scratch Addons should not have any security issues in its most recent version. Scratch Addons is an open source project, so the code has been reviewed by Scratch Addons contributors. Additionally, Chrome Web Store, Add-ons for Firefox, and Microsoft Edge Add-ons review each new version of Scratch Addons before publishing it on their stores.
+네. 스크래치 애드온은 최신 버전에서 어떠한 보안 문제가 없어야 합니다. 스크래치 애드온은 오픈 소스 프로젝트이기 때문에 코드는 스크래치 애드온 기여자들에게 검토 받았습니다. 또한, 크롬 웹 스토어, 파이어 폭스용 부가 기능과 마이크로소프트 엣지 추가 기능은 스크래치 애드온의 새 버전을 출시하기 전에 검토합니다.
 
 ### 보안 문제를 어떻게 신고하나요?
 
@@ -78,12 +78,12 @@ We never send any confidential or personally identifying information outside of 
 
 ### 애드온을 어떻게 키나요?
 
-애드온을 키려면 첫 번째로 설정에 이렇게 가세요:
+애드온을 키려면 첫 번째로 설정에 이렇게 갑니다:
 
-- 팝업을 열고 오른쪽 상단에 있는 기어 아이콘을 클릭하고
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- 팝업을 열고 오른쪽 상단에 있는 기어 아이콘을 클릭합니다
+- https://scratch.mit.edu/scratch-addons-extension/settings 로 갑니다. 참고: 링크가 실행되려면 스크래치 애드온이 있어야 합니다.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+그리고, 키고 싶은 애드온을 사이드바나 검색해서 찾으세요. 애드온을 키려면, 애드온 타일 오른쪽에 있는 버튼을 클릭하세요.
 
 ### 스크래치에서 스크래치 애드온에 대해서 말해도 되나요?
 
@@ -93,7 +93,7 @@ You can't, and please don't. There is a policy that forbids mentioning browser e
 
 You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
 
-구체적인 조언
+구체적인 조언:
 - Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
 - "Variable manager" addon should not be used while the project is running.
 
@@ -148,7 +148,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
   If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
 
-- **기록해 주세요**
+- **문서를 작성해 주세요**
 
   Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
 
@@ -160,7 +160,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
   You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
 
-- **저장소에서 스타를 눌러주세요**
+- **레포지터리에서 스타를 눌러주세요**
 
   Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and clicking the "Star" button on the top-right corner.
 
@@ -176,10 +176,10 @@ Read more about it [here](/docs/develop/getting-started).
 
 아래의 방법으로 저희한테 말하면 됩니다.
 
-- Send it through [our feedback form](/feedback).
-- Create an issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
+- [피드백 폼](/feedback)으로 보냅니다.
+- [레포지터리](https://github.com/ScratchAddons/ScratchAddons/issues)에서 이슈를 만듭니다.
 - Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Tell us on [our Discord server](https://discord.gg/R5NBqwMjNc).
+- [디스코드 서버](https://discord.gg/R5NBqwMjNc)에서 말합니다.
 
 ### 제가 원하는 기능이 없는 것 같습니다. 어떻게 해야 하나요?
 
@@ -193,7 +193,7 @@ You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAd
 
 ### "애드온"이 정확히 뭔가요?
 
-한 애드온은 한 확장 프로그램이나 사용자 지정 스크립트와 유사하지만, 그들은 스크래치 애드온 확장 프로그램이 제공하는 특별한 API를 사용합니다. 이 API들은 애드온들을 스크래치 페이지 (사용자 스크립트), 백그라운드에서 작동(지속 스크립트), 혹은 스크래치 웹사이트에 스타일을 적용(사용자 스타일)할 수 있습니다.
+애드온은 한 확장 프로그램이나 사용자 지정 스크립트와 유사하지만, 그들은 스크래치 애드온 확장 프로그램이 제공하는 특별한 API를 사용합니다. 이 API들은 애드온들을 스크래치 페이지 (사용자 스크립트), 백그라운드에서 작동(지속 스크립트), 혹은 스크래치 웹사이트에 스타일을 적용(사용자 스타일)할 수 있습니다.
 
 Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
 

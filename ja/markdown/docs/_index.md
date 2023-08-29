@@ -2,22 +2,22 @@
 title: ホーム
 ---
 
-Welcome to the Scratch Addons Docs! This section includes related documentation related to Scratch Addons.
+Scratch Addons 説明書へようこそ! ここでは、Scratch Addons に関する説明書が含まれています。
 
-Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
+Scratch Addons は、Scratch ウェブサイトとプロジェクトエディター用の機能やテーマをまとめ、ひとつの利用しやすく個別設定可能なブラウザー拡張機能にしたものです。その使命は、コミュニティーで開発した Scratch 用の新しい機能やテーマ用のプラットフォームを提供することです。
 
-## Quick links
+## リンク
 
-- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
-- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
-- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
-- If you are interested in the design of the project, [read this page](reference/design).
-- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- アドオンの作成に関しては、[このページを参照してください](develop/getting-started/creating-an-addon)。
+- 拡張機能の翻訳に関しては、[このページを参照してください](localization/joining-the-localization-team)。
+- Scratch Addons の使用に関し助けが必要な場合は、 [このページを参照してください](getting-started/quick-start)。
+- このプロジェクトのデザインに関しては、[このページを参照してください](reference/design)。
+- バグや機能提案は、[Issues](https://github.com/ScratchAddons/ScratchAddons/issues)までお願いします。
 
 ## 貢献
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+この説明書への貢献を歓迎しています。[Issues](https://github.com/ScratchAddons/ScratchAddons/issues) や [フィードバックフォーム](../feedback) を使用して、問題点を報告したり、ページを編集してPull Requestを送ってください。ファイルは [website-v2 リポジトリ](https://github.com/ScratchAddons/website-v2) 内の [`content/docs` フォルダー](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) にあります。
 
 ## 議論
 
-Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
+ページについての議論は、ページ下部のコメント部を使用できます。または、 [Discord サーバー](https://discord.gg/R5NBqwMjNc) や [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions) にて議論できます。

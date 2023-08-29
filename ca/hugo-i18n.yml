@@ -89,7 +89,6 @@ IndexPage:
     Paragraph: Recorda que, aquests són només els destacats.{{.OpenTag1}}N'hi ha més!{{.CloseTag1}}
   Install:
     Heading: Instal·la
-    Paragraph: Satisfet? No dubtis a instal·lar-lo!
     InstallButton:
       Other: ...o {{.OpenTag1}} descarregueu-lo de GitHub {{.CloseTag1}} o {{.OpenTag2}} instal·leu-lo des de la font {{.CloseTag2}}.
   Users: Usuaris

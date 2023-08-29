@@ -97,7 +97,6 @@ IndexPage:
     Paragraph: Po za tymi dodatkami wspaniałymi dodatkami, znajdziesz {{.OpenTag1}} jeszcze więcej! {{.CloseTag1}}
   Install:
     Heading: Instalacja
-    Paragraph: "Zainstaluj Nasz dodatek na różne przeglądarki:"
     InstallButton:
       Other: ...lub {{.OpenTag1}} pobierz kod z GitHub{{.CloseTag1}} albo {{.OpenTag2}}zainstaluj z źródła{{.CloseTag2}}.
   Users: Użytkownicy
