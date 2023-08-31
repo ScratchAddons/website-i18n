@@ -14,7 +14,7 @@ Userstyle yazarken veya incelerken bu en iyi yöntemleri takip edin.
 
 ### Daha uzun sözcükleri olan dilleri göz önünde bulundur
 
-Remember that in some languages, UI elements such as buttons may be narrower or wider.
+Bazı dillerde düğmeler gibi kullanıcı arayüz üögelerinin daha dar veya daha geniş olabileceğini unutmayın.
 
 <!-- YAPILACAK: ### Sağdan sola yazılan dilleri destekleme (RTL) -->
 

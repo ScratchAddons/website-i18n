@@ -70,7 +70,7 @@ Userstyle'lar renk ve sayısal ayarlara CSS değişkenleri aracılığıyla kola
 
 CSS değişkenleri her zaman `--addonId-settingId` yapısını takip eder. Ayar ID'leri her zaman kebab-case'ten camelCase'e dönüştürülür.
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Bu CSS değişkenleri etkin olan tüm eklentiler için her zaman mevcuttur ve bunları kullanıma sokmak için herhangi bir manifest özelliği gerekli değildir. Ayrıca sayfanın yeniden yüklenmesine gerek kalmadan kullanıcı ayarlarıyla da senkronize çalışırlar.
 
 ```css
 .sa-progress-bar {
@@ -89,7 +89,7 @@ These CSS variables are always available for all enabled addons and no manifest 
 
 ## Özelleştirilmiş CSS değişkenleri
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+Eğer bir userstyle bir arka plan rengine (yazı kontrastı) veya bir eklenti ayarına göre iki değerden birini seçmesi gerekiyorsa, JavaScript gerekli değildir. Bu koşullar, diğerlerinin yanı sıra [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) üzerinden eklenti manifest'inden tanımlanabilir ve userstyle kolaylıkla bu CSS değişkenine referans verebilir.
 
 
 ## Stilleri yalnızca düzenleyicinin içinde uygulamak
