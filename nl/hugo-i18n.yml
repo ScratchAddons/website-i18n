@@ -78,6 +78,7 @@ IndexPage:
         Caption: De instellingspagina.
       Demo:
         Caption: Demonstratie van de extensie. ({{.Count}})
+    HeroCaption: Een browsevenster met de pop-up van Scratch Addons die wordt geopend.
   Features:
     Heading: Functies
     AddonsParagraph: Scratch Addons bestaat uit addons, dat zijn functies die je Scratchwebsite en editorervaring versterken.
@@ -92,6 +93,7 @@ IndexPage:
     Paragraph: Onthoud, dit zijn nog maar de hoogtepunten. {{.OpenTag1}}Er is nog meer!{{.CloseTag1}}
   Install:
     Heading: Installeren
+    Paragraph: Klaar om Scratch een boost te geven? Installeer Scratch Addons nu!
     InstallButton:
       Other: ...of {{.OpenTag1}}download het van GitHub{{.CloseTag1}} of {{.OpenTag2}}installeer het van de bron{{.CloseTag2}}.
   Users: Gebruikers
