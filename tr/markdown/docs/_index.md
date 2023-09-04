@@ -16,7 +16,7 @@ Scratch Eklentileri, Scratch sitesine ve proje düzenleyicisine yönelik yeni ve
 
 ## Katkıda bulunmak
 
-Belgelere katkıda bulunma hoş karşılanır. Sayfadaki bir hatayı düzeltmek için [sorunlar sekmesini](https://github.com/ScratchAddons/ScratchAddons/issues) veya [geri bildirim formunu](../feedback) kullanabilir ya da sayfayı düzenleyip bir pull request oluşturabilirsiniz. Dosyalar [`content/docs` klasöründe](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) bulunan [website-v2 deposunda](https://github.com/ScratchAddons/website-v2) mevcut durumda.
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
 
 ## Tartışma
 

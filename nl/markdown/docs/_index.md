@@ -16,7 +16,7 @@ Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratc
 
 ## Bijdragen
 
-Alle bijdragen aan de documentatie zijn welkom. Op [het issues-tabblad](https://github.com/ScratchAddons/ScratchAddons/issues) of [het feedbackformulier](../feedback) kun je dingen melden, of je bewerkt de pagina en maakt een pullverzoek om het probleem op te lossen. De bestanden vind je in [de website-v2 repository](https://github.com/ScratchAddons/website-v2), in [de `content/docs`-map](https://github.com/ScratchAddons/website-v2/tree/master/content/docs).
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
 
 ## Discussie
 

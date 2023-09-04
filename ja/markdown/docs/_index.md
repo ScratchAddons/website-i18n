@@ -16,7 +16,7 @@ Scratch Addons は、Scratch ウェブサイトとプロジェクトエディタ
 
 ## 貢献
 
-この説明書への貢献を歓迎しています。[Issues](https://github.com/ScratchAddons/ScratchAddons/issues) や [フィードバックフォーム](../feedback) を使用して、問題点を報告したり、ページを編集してPull Requestを送ってください。ファイルは [website-v2 リポジトリ](https://github.com/ScratchAddons/website-v2) 内の [`content/docs` フォルダー](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) にあります。
+Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
 
 ## 議論
 

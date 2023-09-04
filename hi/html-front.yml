@@ -1,2 +1,12 @@
+addons.html:
+  title: ऐडऑन
+  description: यह पृष्ठ उन सभी ऐडऑन को सूचीबद्ध करता है जो स्क्रैच ऐडऑन पर लागू किए गए हैं।
+changelog.html:
+  title: बदलाव का
+  description: इस परियोजना में सभी उल्लेखनीय परिवर्तन इस पृष्ठ में प्रलेखित किये जायेंगे।
+credits.html:
+  title: क्रेडिट
+extension-settings.html:
+  title: "स्क्रैच ऐडऑन सेटिंग्स "
 welcome.html:
   title: स्वागत है
