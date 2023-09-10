@@ -28,7 +28,7 @@ We ondersteunen alleen talen die Scratch zelf ook ondersteunt. We ondersteunen o
 
 ## Beschikbare inhoud om te vertalen
 
-#### Scratch Addons browserextensie
+### Scratch Addons browserextensie
 
 - **General Translation.** Dit zijn ~150 tekststrings die de extensie gebruikt. Gebruikers kunnen deze vertalingen alleen zien in hun taal als 90% van deze strings zijn vertaald.
 
@@ -36,7 +36,7 @@ We ondersteunen alleen talen die Scratch zelf ook ondersteunt. We ondersteunen o
 
 ![Screenshot van de Scratch Addons extensie in het Japans](/assets/img/docs/transifex-general-vs-addons.png)
 
-#### Scratch Addons website
+### Scratch Addons website
 
 Vertalers hebben ook de mogelijkheid om de inhoud van de Scratch Addons website te vertalen. Voor meer informatie over het vertalen van de website, lees [Translating (pagina is Engels)](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
@@ -57,14 +57,14 @@ Deze talen accepteren **geen** nieuwe vertalerverzoeken meer: **Italiaans, Japan
 
 Bedankt voor je interesse om mee te helpen met het vertalen van Scratch Addons naar andere talen! Volg de stappen hieronder.
 
-#### 1. Verifieer je Scratch-account
+### 1. Verifieer je Scratch-account
 1. Bezoek deze [Scratch-studio](https://scratch.mit.edu/studios/33665222/comments) met je Scratch-account.
 1. Stuur een opmerking in de studio en vermeld naar welke taal je wilt vertalen. (Bijvoorbeeld: `Greek`, voer de taal het liefst in het Engels in.)
 ![Screenshot van Scratch](/assets/img/docs/scratch-req-language.png)
 
 Als je geen Scratch-account hebt, stuur dan een e-mail naar `translation@scratchaddons.com`.
 
-#### 2. Maak een Transifex-account
+### 2. Maak een Transifex-account
 1. Ga naar [Transifex - Registreren](https://app.transifex.com/signup/).
 1. Je komt terecht op de registreerpagina van Transifex. **Meld je NIET aan met Google.**
 1. We raden je sterk aan om als gebruikersnaam je Scratch-gebruikersnaam in te voeren, of iets wat erop lijkt.
@@ -83,7 +83,7 @@ Als je Scratch-gebruikersnaam bijvoorbeeld `noah_smit954` is, dan kun je ervoor 
 
 Als je al een Transifex-account hebt en geen nieuw account wilt maken, stuur dan een e-mail naar `translation@scratchaddons.com` en vermeld je Transifex-gebruikersnaam. Ga daarna hieronder verder met het stuk "een taal aanvragen".
 
-#### 3. Een taal aanvragen
+### 3. Een taal aanvragen
 1. Zorg ervoor dat je ingelogd bent in Transifex. Als je je net hebt geregistreerd, dan ben je al ingelogd.
 1. Ga naar de [Transifex-pagina van Scratch Addons](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
 1. Je wordt gevraagd naar welke taal je wilt gaan vertalen.
@@ -102,7 +102,7 @@ Als je een Discord-account hebt, moedigen we je aan lid te worden van onze [Disc
 Als je verzoek is afgekeurd, ontvang je een e-mail. Als je denkt dat dit een fout was, stuur dan een e-mail naar `translation@scratchaddons.com` en vermeld je Transifex-gebruikersnaam. Hieronder lees je nog meer contactmethoden.
 {{< /admonition >}}
 
-### Hulp en contact
+## Hulp en contact
 
 Als je nog vragen hebt over vertalen, kies dan één van de volgende opties:
 - Stuur een e-mail naar `translation@scratchaddons.com`.
@@ -110,7 +110,7 @@ Als je nog vragen hebt over vertalen, kies dan één van de volgende opties:
 - [Open een discussie op GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-account vereist).
 - [Geef feedback](/feedback) (zorg ervoor dat je je Scratch-gebruikersnaam duidelijk maakt in het formulier, we geven antwoord in de opmerkingen van je Scratch-profiel).
 
-### Credits
+## Credits
 
 - Als je wordt geaccepteerd, mag je jezelf toevoegen (of worden toegevoegd) aan [de creditspagina](/credits).
 - Je vertalingen zijn vergund onder dezelfde licentie als Scratch Addons (GPL v3.0).
