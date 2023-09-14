@@ -16,7 +16,7 @@ Scratch Addons combina caratteristiche e temi del sito di Scratch e dell'editor 
 
 ## Come contribuire
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
+I contributi alla documentazione sono i benvenuti. Puoi usare [la scheda Issues](https://github.com/ScratchAddons/website-v2/issues) o [il modulo di feedback](../feedback) per segnalare problemi o puoi direttamente correggere le pagine e creare una richiesta di pull. Trovi i file [nel repository website-v2 ](https://github.com/ScratchAddons/website-v2), che trovi a sua volta nella cartella [`content/docs`](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). In alternativa, il link <kbd>migliora la pagina</kbd> ti porta a dove puoi modificare la pagina su GitHub.
 
 ## Discuti
 
