@@ -170,7 +170,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 ### Kendi eklentimi nasıl oluşturabilirim?
 
-Bununla ilgili daha fazla bilgiyi [buradan](/tr/docs/develop/getting-started) okuyun.
+Bununla ilgili daha fazla bilgiyi [buradan](/docs/develop/getting-started) okuyun.
 
 ### Bir sorun bulursam ne yapabilirim?
 

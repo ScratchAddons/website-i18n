@@ -68,7 +68,7 @@ PlayerModal:
   AltText: Bu videoyu görmek için tıklayın.
 IndexPage:
   Intro:
-    Tagline: Scratch için hepsi-bir-arada tarayıcı uzantısı
+    Tagline: Scratch için hepsi bir arada tarayıcı uzantısı
     Description: Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisine yönelik yeni ve mevcut özellikleri ve temaları, erişimi kolay ve yapılandırılabilir tek bir tarayıcı uzantısında birleştirir.
     InstallButton:
       Loading: Yükleniyor...
