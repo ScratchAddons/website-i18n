@@ -4,6 +4,8 @@ addons.html:
 changelog.html:
   title: Nhật kí thay đổi
   description: Tất cả những thay đổi đáng chú ý đối với dự án này sẽ được ghi lại trong trang này.
+credits.html:
+  title: Tín dụng
 extension-settings.html:
   title: Cài đặt tiện ích cho Scratch
 farewell.html:
