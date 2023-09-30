@@ -1,15 +1,17 @@
+_index.html:
+  description: Scratch Addons совмещает новые и существующие функции и темы для веб - сайта Scratch и редактора проектов в один лёгкий и настраиваемое расширение для браузера.
 addons.html:
-  title: Аддоны
-  description: Список всех аддонов, созданные в Scratch Addons.
+  title: Дополнения
+  description: Эта страница перечисляет все дополнения которые реализованы в Scratch Addons
 changelog.html:
   title: Список изменений
   description: Все значимые изменения к этому проекту будут документированы на этой странице.
 credits.html:
   title: Благодарности
-  description: Спасибо огромное этим крутым людям за внесения вклада в проект с помощью работы на Scratch Addons, их функциях, темах, веб-сайта и т. д.
+  description: "Спасибо огромное этим прекрасным людям за внесения вклада в проект с помощью работы на Scratch Addons, их функциях, темах, веб-сайта и т. д."
 extension-settings.html:
   title: Настройки Scratch Addons
-  description: Как зайти в настройки Scratch Addons, шаг за шагом.
+  description: "Как зайти в настройки Scratch Addons, шаг за шагом."
 farewell.html:
   title: Прощайте!
   description: Scratch Addons был успешно удалён. Спасибо за использование нашего расширения!
@@ -21,7 +23,7 @@ scratch-messaging-transition.html:
   description: Расширение Scratch Messaging (от griffpatch) было обновлено и теперь называется Scratch Addons. Кликните на иконку Scratch Addons в панели расширений чтобы посмотреть на новый переработанный список сообщений!
 unsupported-browser.html:
   title: Неподдерживаемый браузер
-  description: Scratch Addons не поддерживает Ваш браузер, который Вы используете.
+  description: "Scratch Addons не поддерживает Ваш браузер, который Вы используете."
 welcome.html:
   title: Добро пожаловать!
-  description: Scratch Addons был успешно установлен! Спасибо Вам за установку. Мы надеемся, что Вам понравится расширение!
+  description: "Scratch Addons был успешно установлен! Спасибо Вам за установку. Мы надеемся, что Вам понравится расширение!"

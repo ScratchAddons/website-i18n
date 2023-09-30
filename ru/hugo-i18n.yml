@@ -7,7 +7,7 @@ Global:
     Edge: Установить для Edge
   ReadTime:
     one: "{{.Count}} минута"
-    other: "{{.Count}} минут(-ы)"
+    other: "{{.Count}} минут"
   RSSDescription: Последний контент на {{ .SiteName }}
   Website: Веб-сайт
   Extension: Расширение
@@ -58,6 +58,8 @@ Docs:
   SectionSiteName: Документация Scratch Addons
   DocsNav: Навигация документации
   DocsNavToggleLabel: Переключить навигационную панель документации
+  TOC: Содержимое
+  TOCToggleLabel: Переключить выпадающий список содержимого
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
   SectionPages: Содержание
@@ -68,6 +70,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Расширение «всё в одном» для браузера для Scratch
+    Description: Scratch Addons совмещает новые и существующие функции и темы для веб - сайта Scratch и редактора проектов в один лёгкий и настраиваемое расширение для браузера.
     InstallButton:
       Loading: Загрузка...
       Description: бесплатный, с открытым исходным кодом
@@ -81,6 +84,7 @@ IndexPage:
         Caption: Страница настроек.
       Demo:
         Caption: Демонстрация расширения. ({{.Count}})
+    HeroCaption: Открывается окно браузера со всплывающим окном Scratch Addons.
   Features:
     Heading: Особенности
     AddonsHeading: Аддоны
@@ -96,6 +100,7 @@ IndexPage:
     Paragraph: Это всего-лишь самое основное. {{.OpenTag1}}Есть ещё!{{.CloseTag1}}
   Install:
     Heading: Установить
+    Paragraph: Готовы улучшить Scratch? Устанавливайте прямо сейчас!
     InstallButton:
       Other: ...или {{.OpenTag1}}скачайте с GitHub{{.CloseTag1}} или {{.OpenTag2}}установите с исходного кода{{.CloseTag2}}.
   Users: пользователей
@@ -123,6 +128,16 @@ FeedbackPage:
   ContentPlaceholder: Предоставьте нам как можно больше деталей, пожалуйста.
   SendEnabled: Отправить список моих включённых аддонов (рекомендовано)
   SubmitButton: Отправить
+  PreSendWarning:
+    Warning: "Предупреждение:"
+    Override: Если Вы и вправду уверены отправить этот отзыв, Вы можете нажать кнопку "Отправить" снова.
+    Variations:
+      NotST:
+        Heading: Мы не являемся Scratch Team.
+        Description: Имейте в виду, что Scratch Addons не связаны с веб - сайтом Scratch или организациями которые поддерживают его. Вы всё ещё можете поделиться идеями для улучшения Вашего опыта работы на Scratch со Scratch Addons.
+      Punishment:
+        Heading: Мы не можем наказывать людей. Мы не являемся Scratch Team.
+        Description: Scratch Addons не связаны с вебсайтом Scratch или организациями которые поддерживают его. Мы не контролируем контент и модерацию на веб - сайте Scratch. {{ .Tag1Start }}Есть много способов пожаловаться на оффициальном веб - сайте Scratch.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Логотип расширения Scratch Messaging
 ChangelogPage:
@@ -133,6 +148,7 @@ ChangelogPage:
     ReleaseGitHub: Страница релиза на GitHub
     RepoState: Статус репозитория в релизе
     CommitsMade: Количество commit'ов, сделанные на этой версии
+    BlogPost: Блог - пост для этой версии
   Status:
     Latest: Последняя версия
     Yanked: Заянкнуто
