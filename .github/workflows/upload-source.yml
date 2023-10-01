@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ScratchAddons/website-i18n
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Execute script
         run: |
