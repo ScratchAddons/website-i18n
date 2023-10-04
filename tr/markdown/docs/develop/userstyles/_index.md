@@ -1,6 +1,6 @@
 ---
 title: Userstyle'lar
-description: Userstyle'lar, Scratch sayfalarını etkileyen CSS kurallarıdır. Bunlar, stilleri mevcut Scratch kullanıcı arayüzüne ve eklentiler tarafından sayfaya eklenen öğelere uygulayabilirler.
+description: Userstyle'lar, Scratch sayfalarını etkileyen CSS kurallarıdır. Bunlar, stilleri mevcut Scratch kullanıcı arayüzüne ve eklentiler tarafından sayfaya eklenen ögelere uygulayabilirler.
 ---
 
 Userstyle'lar, Scratch sayfalarını etkileyen CSS kurallarıdır. Bunlar, stilleri mevcut Scratch kullanıcı arayüzüne ve eklentiler tarafından sayfaya eklenen öğelere uygulayabilirler.
@@ -94,9 +94,9 @@ Eğer bir userstyle bir arka plan rengine (yazı kontrastı) veya bir eklenti ay
 
 ## Stilleri yalnızca düzenleyicinin içinde uygulamak
 
-The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
+Uzantı, kullanıcı proje düzenleyicisine girdiğinde veya çıktığında `<body>` ögesinde sınıf adını otomatik olarak değiştirir.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+Örneğin `<input>` elementleri, düzenleyicinin içinde ve dışında farklı stilize edilir:
 ```css
 .sa-body-editor input {
   /* Yalnızca `addon.tab.editorMode` `editor` ya da `fullscreen` ise uygulanır */

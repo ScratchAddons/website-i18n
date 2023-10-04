@@ -97,7 +97,7 @@ document.querySelector(".sa-find-bar").placeholder = "Blok ara";
 {{< /admonition >}}
 
 Çevrilebilir bir dizi oluşturmak için, şu adımları takip edin:
-1. `/addon-l10n/en` klasörü içerisine `eklenti-kimligi.json` adında bir dosya ekle.
+1. `/addon-l10n/en` klasörü içerisine `addon-id.json` adında bir dosya ekle.
 2. Her dizi için bir ID tanımlayın:
 ```json
 {
@@ -115,7 +115,7 @@ document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
 
 {{< admonition info >}}
-Userscript'lerin yerelleştirilmesi hakkında daha fazla bilgi için [bu sayfa](/docs/localization/localizing-addons/)ya bak.
+Userscript'lerin yerelleştirilmesi hakkında daha fazla bilgi için [bu sayfaya](/docs/localization/localizing-addons/) bak.
 {{</admonition >}}
 
 

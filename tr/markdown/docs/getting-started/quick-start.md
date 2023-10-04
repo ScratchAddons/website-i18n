@@ -2,7 +2,7 @@
 title: Hızlı Başlangıç
 ---
 
-## Yükleme
+## Yüklemek
 
 Hadi Scratch Eklentileri'ni kurarak başlayalım.
 

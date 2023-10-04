@@ -95,7 +95,7 @@ Eğer hâlihazırda bir Transifex hesabınız varsa ve yeni bir tane oluşturmak
 Discord hesabınız varsa [Geliştirici Discord sunucumuza](https://discord.gg/Ak8sCDQ) katılmanızı öneririz.
 
 {{< admonition success >}}
-**Eğer talebiniz kabul edilirse Transifex'ten bir e-posta alacaksınız. İstekleri genelde 48 saat içinde.**
+**Eğer talebiniz kabul edilirse Transifex'ten bir e-posta alacaksınız. İstekleri genelde 48 saat içinde inceliyoruz.**
 {{< /admonition >}}
 
 {{< admonition error >}}
@@ -107,7 +107,7 @@ Eğer talebiniz reddedilirse bir e-posta alacaksınız. Eğer bunun bir hata old
 Çeviriyle ilgili herhangi bir sorunuz varsa aşağıdaki seçeneklerden birini deneyebilirsiniz:
 - `translation@scratchaddons.com` adresine bir e-posta gönder.
 - [Geliştirici Discord](https://discord.gg/Ak8sCDQ) sunucumuza katılın.
-- [GitHub'da bir tartışma başlatın](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
+- [GitHub'da bir tartışma başlatın](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub hesabı gerekli).
 - [Geri bildirim gönderin](/feedback) (formda Scratch kullanıcı adınızı belirttiğinizden emin olun, yanıtı profilinizde vereceğiz).
 
 ## Emeği Geçenler

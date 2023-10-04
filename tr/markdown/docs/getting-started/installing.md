@@ -1,5 +1,5 @@
 ---
-title: Yükleme
+title: Yüklemek
 ---
 
 ## Eklenti mağazalarından
