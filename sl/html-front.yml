@@ -1,12 +1,14 @@
+_index.html:
+  description: Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in urejevalnik projektov Scratch v eno samo enostavno dostopno in prilagodljivo razširitev za brskalnike.
 addons.html:
   title: Dodatki
-  description: Na tej strani je seznam vseh dodatkov, ki so del Scratch Addons.
+  description: "Na tej strani je seznam vseh dodatkov, ki so del Scratch Addons."
 changelog.html:
   title: Seznam sprememb
   description: Vse pomembne spremembe v tem projektu bodo naštete na tej strani.
 credits.html:
   title: Zahvale
-  description: Zelo smo hvaležni tem čudovitim ljudem za njihove prispevke k Scratch Addons, funkcijam razširitve, temam, spletni strani itd.
+  description: "Zelo smo hvaležni tem čudovitim ljudem za njihove prispevke k Scratch Addons, funkcijam razširitve, temam, spletni strani itd."
 extension-settings.html:
   title: Nastavitve Scratch Addons
   description: Navodila za dostop do nastavitev Scratch Addons.
@@ -18,10 +20,10 @@ feedback.html:
   description: Pošljite povratne informacije razvijalcem Scratch Addons.
 scratch-messaging-transition.html:
   title: Posodobitev razširitve
-  description: Razširitev Scratch Messaging Extension (avtorja griffpatch) je posodobljena in se zdaj imenuje Scratch Addons. Kliknite ikono Scratch Addons v vrstici z razširitvami, da odprete na novo oblikovan pregled sporočil!
+  description: "Razširitev Scratch Messaging Extension (avtorja griffpatch) je posodobljena in se zdaj imenuje Scratch Addons. Kliknite ikono Scratch Addons v vrstici z razširitvami, da odprete na novo oblikovan pregled sporočil!"
 unsupported-browser.html:
   title: Brskalnik ni podprt
-  description: Scratch Addons ne deluje v brskalniku, ki ga uporabljate.
+  description: "Scratch Addons ne deluje v brskalniku, ki ga uporabljate."
 welcome.html:
   title: Pozdravljeni!
-  description: Scratch Addons je uspešno nameščen! Hvala za namestitev. Upamo, da vam bo razširitev všeč!
+  description: "Scratch Addons je uspešno nameščen! Hvala za namestitev. Upamo, da vam bo razširitev všeč!"

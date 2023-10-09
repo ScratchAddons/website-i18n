@@ -5,35 +5,35 @@ description: Na tej strani je seznam pogostih vprašanj o razširitvi in projekt
 
 Na tej strani je seznam pogostih vprašanj o razširitvi in projektu Scratch Addons.
 
-## General questions
+## Splošna vprašanja
 
 ### Kaj je Scratch Addons?
 
 Scratch Addons je razširitev brskalnikov za spletno stran in urejevalnik projektov Scratch. Doda nove funkcije in teme (v razširitvi se imenujejo dodatki) za spletno stran in urejevalnik projektov. Njen cilj je zbrati obstoječe razširitve, uporabniške skripte in uporabniške sloge, ki so jih razvili člani Scratcheve skupnosti, na enem mestu, do katerega lahko uporabniki enostavno dostopajo in kjer lahko še vedno izberejo tiste dodatke, ki bi jih radi uporabili.
 
-### Who created Scratch Addons?
+### Kdo je naredil Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons je projekt skupine sodelavcev, ki jo vodi World_Languages. Seznam ljudi, ki so karkoli prispevali, lahko najdete v [Zahvalah](/credits). griffpatch je naredil dodatka "Scratch sporočila" in "Orodje za razvijalce", vendar ne skrbi za razširitev.
 
-### What does Scratch Addons include?
+### Kaj vključuje Scratch Addons?
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+Scratch Addons sestavlja več kot 100 dodatkov, ki se jih da posamezno vključiti ali izključiti. Nekateri dodatki imajo tudi dodatne nastavitve in prednastavitve, na primer temni način kot tema za spletno stran. Scratch Addons ima tudi okno razširitve, v katerem lahko hitro dostopate do sporočil, iger v oblaku in strani z nastavitvami. Scratch Addons je preveden v več jezikov, med drugim nemščino, francoščino, španščino, japonščino in slovenščino.
 
-### Is this the same as TurboWarp Addons?
+### Je to ista stvar kot Dodatki TurboWarp?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) ima nekatere dodatke iz Scratch Addons, ki jih lahko uporabljate v njihovem urejevalniku, ne da bi namestili Scratch Addons. Toda Scratch Addons vključuje tudi dodatke za Scratchevo spletno stran in okno razširitve. Zato je Scratch Addons uporaben tudi, če za programiranje uporabljate samo TurboWarp.
 
-## System requirements
+## Sistemske zahteve
 
-### What are the system requirements for Scratch Addons?
+### Kakšne so sistemske zahteve za Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons uradno podpira različice za namizne računalnike naslednjih brskalnikov: [Google Chrome](https://google.com/chrome/) (različica 80 ali novejša), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (različica 80 ali novejša) in [Mozilla Firefox](https://mozilla.org/firefox/) (različica 86 ali novejša). Večinoma deluje tudi na drugih brskalnikih, ki so narejeni na podlagi enega od naštetih. Popolnejše podatke najdete na [tej strani](../getting-started/installing/).
 
-### Can I use Scratch Addons on a mobile device?
+### Lahko uporabljam Scratch Addons na mobilni napravi?
 
-For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
+Za uporabnike Androida: Da, ampak tega ne priporočamo. Večina brskalnikov ne omogoča namestitve Scratch Addons (ali katerekoli druge razširitve), zato potrebujete poseben brskalnik, na primer [Kiwi](https://kiwibrowser.com/). Uporabniški vmesnik Scratch Addons ni preizkušen na zaslonih na dotik in v okoljih z majhnim zaslonom, zato morda nekatere stvari ne bodo delovale pravilno.
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+Za uporabnike iOS in iPadOS: Žal ne. Pravila trgovine App Store ne dovoljujejo alternativnih brskalnikov, kar pomeni, da so vsi brskalniki za te sisteme samo Safari z drugačnim videzom. To povzroči določene težave (glej spodaj).
 
 ### Can I use Scratch Addons on Safari?
 

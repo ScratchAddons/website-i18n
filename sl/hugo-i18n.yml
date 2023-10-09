@@ -49,7 +49,7 @@ Footer:
     Copyright: "{{ .Copyleft }} {{ .Year }} sodelavci Scratch Addons"
     NoAffiliation: Scratch Addons ni na noben način povezan s Scratchevo spletno stranjo ali organizacijami, ki zanjo skrbijo.
     License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
-  Intro: Trenutno {{ .Version }} z {{ .AddonCount }} dodatki.
+  Intro: Trenutno {{ .Version }} z/s {{ .AddonCount }} dodatki.
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
   Label: Gumb za temni način
@@ -57,6 +57,8 @@ Docs:
   SectionSiteName: Dokumentacija Scratch Addons
   DocsNav: Navigacija po dokumentaciji
   DocsNavToggleLabel: Pokaži/skrij stolpec za navigacijo
+  TOC: Vsebina
+  TOCToggleLabel: Pokaži/skrij spustni meni s kazalom vsebine
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
   SectionPages: Strani v tem razdelku
@@ -66,6 +68,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
+    Description: Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in urejevalnik projektov Scratch v eno samo enostavno dostopno in prilagodljivo razširitev za brskalnike.
     InstallButton:
       Loading: Nalaganje...
       Description: brezplačno, odprta koda
@@ -79,6 +82,7 @@ IndexPage:
         Caption: Stran z nastavitvami.
       Demo:
         Caption: Prikaz razširitve. ({{.Count}})
+    HeroCaption: Brskalnik z odprtim oknom razširitve Scratch Addons.
   Features:
     Heading: Funkcije
     AddonsHeading: Dodatki
@@ -94,6 +98,7 @@ IndexPage:
     Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
   Install:
     Heading: Namesti
+    Paragraph: Ste pripravljeni, da nadgradite Scratch? Namestite zdaj!
     InstallButton:
       Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
   Users: Uporabnikov
@@ -121,6 +126,16 @@ FeedbackPage:
   ContentPlaceholder: Prosimo, da navedete čim več podrobnosti.
   SendEnabled: Pošlji seznam dodatkov, ki jih imam trenutno vključene (priporočeno)
   SubmitButton: Pošlji
+  PreSendWarning:
+    Warning: "Opozorilo:"
+    Override: Če ste res prepričani, da želite poslati te povratne informacije, lahko znova pritisnete gumb "Pošlji".
+    Variations:
+      NotST:
+        Heading: Nismo Scratcheva ekipa.
+        Description: Ne pozabite, da Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Kljub temu nam lahko date predloge, kako lahko Scratch Addons izboljša vašo izkušnjo na Scratchu.
+      Punishment:
+        Heading: Ne moremo kaznovati ljudi. Nismo Scratcheva ekipa.
+        Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. {{ .Tag1Start }}Vsebino na Scratchu lahko prijavite na več načinov.{{ .Tag1End }}
 SMTPage:
   ScratchMessagingLogoAlt: Logotip razširitve Scratch Messaging Extension
 ChangelogPage:
@@ -131,6 +146,7 @@ ChangelogPage:
     ReleaseGitHub: Stran različice na GitHub
     RepoState: Izvirna koda te različice
     CommitsMade: Spremembe kode v tej različici
+    BlogPost: Blog o tej različici
   Status:
     Latest: Najnovejša različica
     Yanked: Izpuščena različica
