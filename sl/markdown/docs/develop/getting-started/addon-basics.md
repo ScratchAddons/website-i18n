@@ -3,7 +3,7 @@ title: O dodatkih
 ---
 
 ## Kaj sploh je dodatek?
-Pravzaprav dodatek ni nič drugega kot uporabniška skripta, uporabniški slog ali kombinacija obojega. Če je karkoli od tega povezano, združimo vse v en dodatek z enim imenom. Tako ima dodatek "Scratch 3 Developer Tools" uporabniško skripto, namenjeno dodajanju polja za iskanje v urejevalnik, in uporabniški slog, ki temu polju doda CSS.
+Pravzaprav dodatek ni nič drugega kot uporabniška skripta, uporabniški slog ali kombinacija obojega. Če je karkoli od tega povezano, združimo vse v en dodatek z enim imenom. Tako ima dodatek "iskalna vrstica v urejevalniku" uporabniško skripto, namenjeno dodajanju polja za iskanje v urejevalnik, in uporabniški slog, ki temu polju doda CSS.
 
 ## Kaj je uporabniška skripta?
 Uporabniška skripta je delček kode JavaScript, ki deluje v zavihku Scratcheve spletne strani. Lahko določite, da bo delovala samo npr. na straneh projektov. Uporabniške skripte so podobne vsebinskim skriptam v razširitvah brskalnikov, in če ste kdaj uporabljali upravitelja uporabniških skript, boste opazili, da gre pravzaprav za isto stvar.  

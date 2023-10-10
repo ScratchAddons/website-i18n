@@ -2,6 +2,7 @@ a11y: Dostopnost
 audio: Zvoki
 blog: Blog
 bug: Prijavljanje napak
+business: Poslovni razvoj
 code: Koda
 content: Vsebina
 data: Podatki
@@ -9,9 +10,16 @@ design: Oblikovanje
 doc: Dokumentacija
 eventOrganizing: Organizacija dogodkov
 example: Primeri
+financial: Finance
+fundingFinding: Iskanje podpore
 ideas: Zamisli, načrti in povratne informacije
+infra: Infrastruktura
+mentoring: Mentorstvo
+platform: Paketi
 projectManagement: Upravljanje projekta
+question: Odgovori na vprašanja
 security: Varnost
+test: Testiranje
 tool: Orodje
 translation: Prevod
 tutorial: Vodiči

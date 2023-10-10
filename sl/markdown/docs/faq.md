@@ -35,26 +35,26 @@ Za uporabnike Androida: Da, ampak tega ne priporočamo. Večina brskalnikov ne o
 
 Za uporabnike iOS in iPadOS: Žal ne. Pravila trgovine App Store ne dovoljujejo alternativnih brskalnikov, kar pomeni, da so vsi brskalniki za te sisteme samo Safari z drugačnim videzom. To povzroči določene težave (glej spodaj).
 
-### Can I use Scratch Addons on Safari?
+### Lahko uporabljam Scratch Addons v brskalniku Safari?
 
-Currently, you cannot.
+Trenutno ne.
 
 First, Safari extension store requires all developers to pay an annual fee to list extensions on the store. As Scratch Addons team does not have a source of income, this makes it very hard to maintain the extension. There is also a technical problem with the implementation of browser extensions in Safari which makes some of the core features to be unusable.
 
-### Can I use Scratch Addons on the offline editor?
+### Lahko uporabljam Scratch Addons v urejevalniku brez internetne povezave?
 
-Scratch Addons cannot be used on the official Scratch application, including the offline editor.
+Scratch Addons ne deluje v uradni aplikaciji Scratch.
 
-As an alternative, most of the project editor addons are available on [TurboWarp](https://turbowarp.org/) which has a [downloadable app](https://desktop.turbowarp.org/) for Windows, macOS, and Linux. Additionally, on browsers that support Progressive Web Applications (PWA) such as Google Chrome, you can also install the TurboWarp editor as a PWA and use it without an internet connection.
+Namesto tega je večina dodatkov za urejevalnik projekta na voljo v urejevalniku [TurboWarp](https://turbowarp.org/), ki ga lahko [prenesete kot aplikacijo](https://desktop.turbowarp.org/) za Windows, macOS in Linux. V brskalnikih, ki podpirajo Progressive Web Applications (PWA), na primer Google Chrome, lahko namestite TurboWarp tudi kot PWA in ga uporabljate brez povezave.
 
-### Are there any incompatible programs?
+### Ali obstajajo nezdružljivi programi?
 
-Some browser extensions and userscripts may interfere with Scratch Addons. If you experience issues, you should try disabling these:
+Nekatere razširitve brskalnikov in uporabniške skripte lahko motijo delovanje Scratch Addons. Če imate težave, poskusite izključiti naslednje:
 
-- Scratch 3 Developer Tools: This browser extension is a copy of the Developer tools addon. You should uninstall the Developer Tools browser extension and turn on the addon instead.
-- Better3.0: This browser extension can interfere with some addons. Luckily, most of its features are also available as addons.
+- Scratch 3 Developer Tools: Ta razširitev je kopija dodatka Orodje za razvijalce. Odstranite razširitev Developer Tools in namesto nje vključite dodatek.
+- Better3.0: Ta razširitev lahko vpliva na delovanje nekaterih dodatkov. Na srečo je večina njenih možnosti na voljo tudi kot dodatek.
 
-## Security and privacy
+## Varnost in zasebnost
 
 ### Je Scratch Addons varen?
 
@@ -72,18 +72,18 @@ Yes. Features related to your Scratch account are thoroughly reviewed by Scratch
 
 Dodatke, ki so del Scratch Addons, preveri več sodelavcev na GitHub, zato nihče ne more preprosto dodati kode, ki bi bila nevarna za vaš račun, ne da bi mi to opazili.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Nikoli ne pošljemo zaupnih ali osebnih podatkov zunaj vašega brskalnika. Za več informacij preberite [politiko zasebnosti razširitve](/docs/privacy/policies/extension).
 
-## Using Scratch Addons
+## Uporaba Scratch Addons
 
-### How do I enable addons?
+### Kako vključim dodatke?
 
-To enable addons, first go to the settings by:
+Najprej odprite nastavitve:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- odprite okno razširitve in kliknite ikono zobnika v zgornjem desnem kotu ali
+- obiščite https://scratch.mit.edu/scratch-addons-extension/settings. Razširitev mora biti nameščena, da ta povezava deluje.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+Nato poiščite dodatke, ki bi jih radi vključili, s pomočjo stranske vrstice ali iskalnega polja. Dodatek vključite s klikom na stikalo na desni strani ploščice.
 
 ### Lahko ljudem na Scratchu povem za Scratch Addons?
 
@@ -91,26 +91,26 @@ You can't, and please don't. There is a policy that forbids mentioning browser e
 
 ### Mislim, da Scratch Addons naredi Scratch počasnejši. Kaj lahko naredim?
 
-You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+Poskusite izključiti dodatke, ki jih ne potrebujete - predvsem kompleksne funkcije, kot je zavihek s spremenljivkami, razhroščevalnik in mačji bloki, ki sledijo kazalcu miške. Večina dodatkov, ki vplivajo na učinkovitost, na to opozori v razširjenih informacijah o dodatku.
 
-Some specific advices:
+Nekaj nasvetov:
 - Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
-- "Variable manager" addon should not be used while the project is running.
+- Dodatka "upravitelj spremenljivk" ne uporabljajte med izvajanjem projekta.
 
-### I cannot receive notifications. Why?
+### Ne prejemam obvestil. Zakaj?
 
-First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+Najprej izključite in znova vključite dodatek "Scratch obvestila". To lahko popravi nekatere težave.
 
-If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+Če se težava nadaljuje, preverite nastavitve obvestil v vašem operacijskem sistemu. Brskalniku - npr. Google Chrome - morate dovoliti pošiljanje obvestil.
 
 - Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
 - macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
 
 You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
 
-### How do I watch recordings made with the project video recorder addon?
+### Kako si ogledam posnetke, narejene z dodatkom "snemanje videov projekta"?
 
-Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+Zaradi tehničnih omejitev so videi, posneti s tem dodatkom, v obliki WebM. Datoteke .webm lahko gledate v brskalniku (datoteko povlecite v okno brskalnika) ali v predvajalniku, ki jih podpira, na primer [VLC Media Player](https://www.videolan.org/).
 
 To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
 
@@ -209,7 +209,7 @@ By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 - Prepreči, da bi dodatki motili drug drugega.
 - Naredi stvari, za katere bi sicer morali različni dodatki skrbeti posebej.
 
-## Other 
+## Drugo
 
 ### How can I add/remove myself to/from the contributors page?
 

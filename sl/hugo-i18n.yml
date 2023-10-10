@@ -1,6 +1,6 @@
 Global:
   LogoAlt: Logotip Scratch Addons
-  Install: Namesti
+  Install: Namestitev
   InstallBrowser:
     Firefox: Namestitev za Firefox
     Chrome: Namestitev za Chrome
@@ -68,7 +68,7 @@ PlayerModal:
 IndexPage:
   Intro:
     Tagline: Razširitev brskalnikov za Scratch
-    Description: Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in urejevalnik projektov Scratch v eno samo enostavno dostopno in prilagodljivo razširitev za brskalnike.
+    Description: Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in urejevalnik projektov Scratch v eno enostavno dostopno in prilagodljivo razširitev za brskalnike.
     InstallButton:
       Loading: Nalaganje...
       Description: brezplačno, odprta koda
@@ -84,7 +84,7 @@ IndexPage:
         Caption: Prikaz razširitve. ({{.Count}})
     HeroCaption: Brskalnik z odprtim oknom razširitve Scratch Addons.
   Features:
-    Heading: Funkcije
+    Heading: Odlike
     AddonsHeading: Dodatki
     AddonsParagraph: "Scratch Addons je sestavljen iz dodatkov: izboljšav za Scratchevo spletno stran in urejevalnik."
     CustomizableHeading: Prilagodljiv
@@ -101,7 +101,7 @@ IndexPage:
     Paragraph: Ste pripravljeni, da nadgradite Scratch? Namestite zdaj!
     InstallButton:
       Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
-  Users: Uporabnikov
+  Users: uporabnikov
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
