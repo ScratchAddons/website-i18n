@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Vastgezette footer",
+		"description": "Zet de footer van de website vast aan de onderkant van het scherm, en breidt het uit wanneer de muis het aanraakt, zodat je de footer snel en overal op de pagina kunt zien. Maakte voorheen deel uit van \"Oneindig scrollen\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Getallen invoeren in kleurenkiezer",
 		"description": "Kies een exacte waarde (0-100) voor elke schuifregelaar in de kleurenkiezer van de uiterlijkeditor door een getal te typen.",
@@ -556,17 +569,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Bewerkbare bloktekststijlen",
-		"description": "Verandert de dikte van de bloktekst en voegt eventueel een tekstschaduw toe.",
+		"description": "Geeft je de mogelijkheid om de grootte en dikte van de tekst op blokken aan te passen of een schaduw toe te voegen voor leesbaarheid.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -746,17 +764,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Laat sprites niet bewegen in spritevenster",
-		"description": "Laat scripts, uiterlijken, en geluiden verplaatsen naar andere sprites zonder dat de sprites rondbewegen in het spritevenster.",
-		"tags": ["editor"],
+		"name": "Glitch in spritevenster oplossen",
+		"description": "Lost een Scratch-bug op waarbij scripts, uiterlijken en geluiden niet naar andere sprites gesleept kunnen worden zonder dat de sprites beginnen rond te dansen.",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -964,7 +988,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Waarden aanpassen met pijltjestoetsen in editor",
-		"description": "Gebruik de pijltjes voor omhoog en omlaag om getalwaarden van invoervelden van blokken te verhogen of verlagen.",
+		"description": "Gebruik de pijltjes voor omhoog en omlaag om getalwaarden van invoervelden te verhogen of te verlagen, bijv. in blokken of de sprite-eigenschappen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -975,7 +999,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "richt naar willekeurige richting blok",
+		"description": "Voegt de optie \"willekeurige richting\" toe aan het \"richt naar ()\"-blok. Het zorgt ervoor dat de sprite richt naar een willekeurige richting. Dit werkt voor iedereen die het project gebruikt, zelfs degenen zonder deze addon.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1429,6 +1476,12 @@
 		"name": "Verwijderknop verbergen",
 		"description": "Verbergt de verwijderknop (afvalbakpictogram) in sprites, uiterlijken en geluiden. Ze kunnen nog steeds worden verwijderd in het rechterklikmenu.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tip: als je per ongeluk een sprite, uiterlijk of geluid verwijdert, kan je 'm terughalen door in de menubalk op Bewerk te klikken, en dan op Herstel.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1677,7 +1730,7 @@
 		"id": "longer-wiwo",
 		"name": "Hogere tekenlimiet in \"Waar Ik Mee Bezig Ben\"",
 		"description": "Laat je 55 meer tekens typen in je profiel's \"Waar Ik Mee Bezig Ben\". Iedereen op Scratch kan de extra tekens zien.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1712,7 +1765,11 @@
 		"description": "Voegt een \"opname starten\"-knop toe aan de editortaakbalk die je het speelveld laat opnemen.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2024,6 +2081,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Objecten scheeftrekken in uiterlijkeditor",
+		"description": "Houd Ctrl ingedrukt terwijl je de schaal van een object aan een zijkant verandert om het scheef te trekken. Houd Alt ingedrukt tijdens het scheeftrekken om het te doen om het middelpunt van het object.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "Gebruik op macOS de Command-toets i.p.v. Control en de Option-toets i.p.v. Alt.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Uitlijnen in uiterlijkeditor",
 		"description": "Objecten in de uiterlijkeditor uitlijnen op begrenzende vakken en vectorknooppunten.",
@@ -2063,6 +2136,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Voorbeeld tonen van instructies en opmerkingen",
+		"description": "Voegt een knop toe boven het veld Instructies op projectpagina's van je eigen projecten. Je kunt ermee zien hoe de instructies en opmerkingen worden weergegeven voor andere gebruikers.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2189,6 +2278,12 @@
 		"name": "Sprite verwijderen bevestigen",
 		"description": "Vraagt of je zeker weet dat je een sprite in een project wilt verwijderen.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tip: als je per ongeluk een sprite, uiterlijk of geluid verwijdert, kan je 'm terughalen door in de menubalk op Bewerk te klikken, en dan op Herstel.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2374,7 +2469,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

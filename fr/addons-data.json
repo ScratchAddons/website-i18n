@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Sticky footer",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Nombre d’entrées dans le sélecteur de couleur",
 		"description": "Permet de définir une valeur exacte (0-100) pour chaque curseur dans le sélecteur de couleur de l’éditeur de costume en tapant un nombre.",
@@ -356,14 +369,14 @@
 	},
 	{
 		"id": "colorblind",
-		"name": "Customizable link style",
-		"description": "Lets you customize the style of links around the website.",
+		"name": "Style de lien personnalisable",
+		"description": "Permet de personnaliser le style des liens sur le site web.",
 		"tags": ["community", "theme", "beta"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
 		"info": [
 			{
 				"id": "feedback",
-				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+				"text": "Nous souhaitons étendre cet addon avec d'autres fonctionnalités d'accessibilité à l'avenir. Vous pouvez nous envoyer vos commentaires en allant sur scratchaddons.com/feedback ou en cliquant sur \"Envoyer des commentaires\" dans la barre latérale."
 			}
 		],
 		"dynamicEnable": true,
@@ -559,17 +572,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Style de texte des blocs personnalisés",
-		"description": "Change l'épaisseur du texte des blocs et y ajoute éventuellement une ombre.",
+		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -751,15 +769,21 @@
 		"id": "disable-sprite-wobble",
 		"name": "Désactiver l'oscillation des sprites dans le volet des sprites",
 		"description": "Autorise le déplacement des scripts, des costumes et des sons vers différents sprites sans que les sprites ne se déplacent dans le volet des sprites.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -967,7 +991,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Incrémentation avec les touches fléchées dans l'éditeur",
-		"description": "Utilisez les touches fléchées haut et bas pour augmenter ou diminuer les valeurs numériques dans les entrées de bloc.",
+		"description": "Use the up and down arrow keys to increase or decrease number values in numeric input fields such as those in blocks or the sprite properties area.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -978,7 +1002,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Point towards random direction block",
+		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1289,8 +1336,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"name": "Affichage du délai pour les messages du forum",
+		"description": "Après avoir envoyé un message sur le forum, affiche un compte à rebours sur le bouton d'envoi indiquant le temps qu'il faut attendre avant de pouvoir envoyer un nouveau message.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1432,6 +1479,12 @@
 		"name": "Cacher le bouton supprimer",
 		"description": "Masque le bouton de suppression (icône de la corbeille) des sprites, costumes et sons. Ils peuvent toujours être supprimés à l'aide du clic droit.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1680,7 +1733,7 @@
 		"id": "longer-wiwo",
 		"name": "Plus grande limite de caractères dans la section \"Ce que je suis en train de faire\"",
 		"description": "Vous permet de taper 55 caractères de plus dans la section \"Ce que je suis en train de faire\" sur votre profil. N'importe qui sur Scratch verra les caractères en plus.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1715,7 +1768,11 @@
 		"description": "Ajoute un bouton \"démarrer l'enregistrement\" à la barre de menu de l'éditeur qui vous permet d'enregistrer la scène du projet.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2027,6 +2084,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Inclinaison dans l'éditeur de costumes ",
+		"description": "Maintenez la touche Ctrl enfoncée lorsque vous mettez un objet à l'échelle sur ses côtés pour l'incliner. Maintenez la touche Alt enfoncée lorsque vous inclinez un objet pour l'incliner à partir de son centre.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "On macOS, use the Command key instead of the Control key and the Option key instead of the Alt key.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Ancrage de l'éditeur de costumes",
 		"description": "Accrocher des objets dans l'éditeur de costumes aux boîtes et aux nœuds vectoriels.",
@@ -2066,6 +2139,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Preview project instructions and notes",
+		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2192,6 +2281,12 @@
 		"name": "Confirmation pour la suppression de sprite",
 		"description": "Vous demande si vous êtes sûrs de supprimer un sprite dans un projet.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2377,7 +2472,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

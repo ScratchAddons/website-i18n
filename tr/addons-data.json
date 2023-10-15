@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Sticky footer",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Renk seçicide sayı girdileri",
 		"description": "Kostüm düzenleyici renk seçiciye bir değer girerek her ayar için tam bir değer (0-100) belirlemenize izin verir.",
@@ -556,17 +569,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Özelleştirilebilir blok metin stili",
-		"description": "Bloklardaki metnin kalınlığını değiştirir ve isteğe bağlı olarak bir metin gölgesi ekler.",
+		"description": "Blok metninin boyutunu ve kalınlığını ayarlamanıza veya okumayı kolaylaştırmak için gölge eklemenize olanak tanır.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -746,17 +764,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Kukla bölmesinde kukla sallanmasını devre dışı bırak",
-		"description": "Kodların, kostümlerin ve seslerin, kukla bölmesinde titreyerek sallanan hareketli karakterler olmadan farklı kuklalara taşınmasına izin verin.",
-		"tags": ["editor"],
+		"name": "Karakter penceresindeki hatayı düzelt",
+		"description": "Scratch düzenleyicide, kodların, kostümlerin ve seslerin, kukla bölmesinde dolaşmadan kuklalara sürüklenip bırakılamamasına neden olan bir hatayı düzeltir.",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -964,7 +988,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Düzenleyicide ok tuşuyla arttırma",
-		"description": "Blok girdilerindeki sayıları arttırmak ya da azaltmak için yukarı veya aşağı tuşlarını kullanın.",
+		"description": "Bloklar veya karakter özellikleri alanı gibi sayısal giriş alanlarındaki sayı değerlerini arttırmak veya azaltmak için yukarı ve aşağı ok tuşlarını kullanın.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -975,7 +999,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Point towards random direction block",
+		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1429,6 +1476,12 @@
 		"name": "Sil düğmesini gizle",
 		"description": "Kuklalarda, kostümlerde ve seslerde silme düğmesini (çöp kutusu simgesini) gizler. Sağ tıklama bağlam menüsü kullanılarak yine de silinebilirler.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1677,7 +1730,7 @@
 		"id": "longer-wiwo",
 		"name": "\"Ne Üzerinde Çalışıyorum\" bölümündeki karakter sınırını yükselt",
 		"description": "Profilinizin \"Ne Üzerinde Çalışıyorum\" bölümüne 55 karakter daha yazmanıza izin verir. Scratch'teki herkes tarafından fazladan karakterler görünecek.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1712,7 +1765,11 @@
 		"description": "Editörün menü çubuğuna projenizin videosunu kaydetmenizi sağlayan bir \"kaydı başlat\" düğmesi ekler.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2024,6 +2081,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Kostüm düzenleyicide yamuklaştırma",
+		"description": "Bir nesneyi yamuklaştırmak için yanlarından ölçeklendirirken Ctrl tuşuna basılı tutun. Bir nesneyi merkezinden yamuklaştırmak için yamuklaştırırken Alt tuşuna basılı tutun.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "macOS'ta Control tuşu yerine Command tuşunu ve Alt tuşu yerine de Option tuşunu kullanın.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Kostüm düzenleyicisinde tutturma",
 		"description": "Kostüm düzenleyicideki nesneleri sınırlayıcı kutulara ve vektör düğümlerine tutturun.",
@@ -2063,6 +2136,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Proje talimatlarını ve notlarını ön izleyin",
+		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2189,6 +2278,12 @@
 		"name": "Kukla silme onayı",
 		"description": "Bir kuklayı silerken emin olup olmadığınızı sorar.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2374,7 +2469,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

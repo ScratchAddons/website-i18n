@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "固定フッター",
+		"description": "ウェブサイトのフッターを画面下に固定し、ホバーしたときに拡大するようにし、ページのどこでもすばやく利用可能にする。以前は「無限スクロール」の一部であった。",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "カラーピッカー数値入力",
 		"description": "コスチュームエディターのカラーピッカーのスライダーにて正確な値(0-100)を入力する。",
@@ -554,17 +567,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "ブロック内のテキスト装飾変更",
-		"description": "ブロック内のテキストの太さを変更したり、影を追加したりする。",
+		"description": "ブロック内のテキストの大きさや太さを変更したり、影を追加したりして、読みやすくする。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -744,17 +762,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "スプライトペイン項目の移動防止",
-		"description": "スクリプト、コスチュームや音などを別スプライトに移動するときに、スプライトペイン内で項目が移動しないようにする。",
-		"tags": ["editor"],
+		"name": "スプライトペインのバグ修正",
+		"description": "スクリプト、コスチュームや音などを別スプライトに移動するときに、スプライトペイン内で項目が移動するエディターのバグを修正する。",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -962,7 +986,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "矢印キーで数値を変更",
-		"description": "ブロック入力の数値を上下キーで変更する。",
+		"description": "ブロック入力やスプライトペインの入力などの数値を上下キーで変更する。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -973,7 +997,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "どれかの向きに向けるブロック",
+		"description": "「～に向ける」ブロックに、スプライトをランダムな方向に向ける「どれかの向き」の選択肢を追加する。このブロックは拡張機能をインストールせずに使用できる。",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1284,8 +1331,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"name": "フォーラムのクールダウン表示",
+		"description": "フォーラムで投稿した後、再度投稿できるまでのカウントダウンを表示する。",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1427,6 +1474,12 @@
 		"name": "削除ボタンを隠す",
 		"description": "削除ボタン(ゴミ箱アイコン)を、スプライト、コスチュームや音から隠す。コンテキストメニューを使えば、通常通り削除できる。",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "誤ってスプライト、コスチューム、音を削除してしまった場合は、メニューバーの「編集」から元に戻せます。",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1675,7 +1728,7 @@
 		"id": "longer-wiwo",
 		"name": "「私が取り組んでいること」文字数制限増加",
 		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1710,7 +1763,11 @@
 		"description": "ステージを録画するボタンをエディターのメニューバーに追加する。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2022,6 +2079,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "画像剪断",
+		"description": "コスチュームエディターで図形の端をつかんでCtrlキーを押し、図形を変形させる。Altキーを押しながら行うと、中心からせん断できる。",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "macOSでは、Altキーの代わりにOptionキーを、Ctrlキーの代わりにCmdキーを利用できます。",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "グリッドにスナップ",
 		"description": "コスチュームエディターにて、オブジェクトを枠線やベクターのノードにスナップさせる。",
@@ -2061,6 +2134,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "プロジェクトの使い方・メモをプレビュー",
+		"description": "自身のプロジェクトの使い方欄の上にプレビューを表示するボタンを追加する。",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2187,6 +2276,12 @@
 		"name": "スプライト削除確認画面",
 		"description": "スプライトの削除時に確認画面を表示する。",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "誤ってスプライト、コスチューム、音を削除してしまった場合は、メニューバーの「編集」から元に戻せます。",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2372,7 +2467,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

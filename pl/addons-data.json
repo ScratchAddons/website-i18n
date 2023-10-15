@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Sticky footer",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Dane wejściowe w polu wyboru koloru",
 		"description": "Pozwala wybrać dokładną wartość (0-100) dla każdego suwaka w edytorze kostiumu,",
@@ -559,17 +572,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Konfigurowalny styl tekstu bloków",
-		"description": "Zmienia nasycenie tekstu na blokach, opcjonalnie dodaje cień obok nich.",
+		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -751,15 +769,21 @@
 		"id": "disable-sprite-wobble",
 		"name": "Wyłącz chybotanie duszków w panelu duszków",
 		"description": "Dzięki temu dodatkowi duszki nie będą się przesuwać, gdy będziesz przenosić kod, kostiumy, lub dźwięki do innych duszków.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -967,7 +991,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Arrow key incrementation in editor",
-		"description": "Use the up and down arrow keys to increase or decrease number values in block inputs.",
+		"description": "Use the up and down arrow keys to increase or decrease number values in numeric input fields such as those in blocks or the sprite properties area.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -978,7 +1002,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Point towards random direction block",
+		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1432,6 +1479,12 @@
 		"name": "Ukryj przycisk usuwania",
 		"description": "Ukrywa przycisk usuwania (ikonę kosza na śmieci) przed duszkami, kostiumami i dźwiękami. Nadal można je usunąć za pomocą prawego przycisku myszy.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1680,7 +1733,7 @@
 		"id": "longer-wiwo",
 		"name": "Większy limit znaków w polu \"Nad czym pracuję\"",
 		"description": "Pozwala ci napisać o 55 więcej znaków w polu \"Na czym pracuję\" w Twoim profilu. Wszyscy na Scratch'u będą widzieć dodatkowe znaki.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1715,7 +1768,11 @@
 		"description": "Dodaje przycisk \"Włącz nagrywania\" w panelu pozwalający nagrać scenę.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2027,6 +2084,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Skewing in costume editor",
+		"description": "Hold Ctrl while scaling an object on its sides to skew it. Hold Alt while skewing an object to skew it from its center.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "On macOS, use the Command key instead of the Control key and the Option key instead of the Alt key.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Przyczepianie kostiumów w edytorze",
 		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
@@ -2066,6 +2139,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Preview project instructions and notes",
+		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2192,6 +2281,12 @@
 		"name": "Potwierdzenie usunięcia duszka",
 		"description": "Upewnia się, czy na pewno chcesz usunąć duszka w projekcie.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2377,7 +2472,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

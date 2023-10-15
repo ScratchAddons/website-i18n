@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Fijar footer",
+		"description": "Hace que el footer (pie de página) sobresalga ligeramente de la parte inferior de la ventana y se expanda al pasar el cursor sobre él, permitiendo accederlo rápidamente desde cualquier lugar de la página. Anteriormente parte de \"Scroll infinito\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Entradas numéricas en el selector de color",
 		"description": "Le permite ingresar un valor exacto (0-100) por cada deslizador en el selector de color del editor de disfraces escribiéndolo como número.",
@@ -556,17 +569,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Estilo de texto de bloques personalizado",
-		"description": "Cambia el grosor del texto en bloques y opcionalmente agrega una sombra al texto.",
+		"description": "Permite ajustar el tamaño y grosor del texto en los bloques o agregarle una sombra para facilitar la lectura.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -746,17 +764,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Desactivar temblor en panel de objetos",
-		"description": "Permite que scripts, disfraces y sonidos sean movidos a diferentes objetos sin que se muevan para arriba y abajo en el panel de objetos.",
-		"tags": ["editor"],
+		"name": "Arreglar bugs del panel de objetos",
+		"description": "Arregla un bug en el editor de Scratch que causa que scripts, disfraces y sonidos no puedan ser arrastrados hacia otros objetos sin que estos salten y se muevan dentro del panel de objetos.",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -964,7 +988,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Incremento con teclas de flecha en editor",
-		"description": "Use las teclas de arriba y abajo para incrementar o decrementar valores numéricos en campos de bloques.",
+		"description": "Use las teclas de arriba y abajo para incrementar o decrementar valores numéricos en campos númericos, como los que tienen los bloques, o los del area de propiedades del objeto.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -975,7 +999,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Bloque de apuntar a dirección aleatoria",
+		"description": "Agrega la opción \"dirección aleatoria\" al bloque \"apuntar hacia ()\" que hace que el objeto apunte a una dirección aleatoria. Va a funcionar para cualquiera que use el proyecto.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1286,8 +1333,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"name": "Mostrar tiempo restante para publicar en los foros",
+		"description": "Después de enviar una publicación en los foros, muestra una cuenta regresiva en el botón de enviar que muestra cuánto tiempo tiene que esperar antes de volver a publicar.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1429,6 +1476,12 @@
 		"name": "Esconder botón de eliminar",
 		"description": "Esconde el botón de eliminar (ícono de bote de basura) de objetos, disfraces y sonidos. Estos pueden seguirse eliminando utilizando el menú contextual al dar click derecho.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Consejo: si elimina accidentalmente un objeto, disfraz o sonido, puede deshacerhaciendo click en Editar en la barra de menú y luego en Restaurar.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1677,7 +1730,7 @@
 		"id": "longer-wiwo",
 		"name": "Límite más alto en \"En qué estoy trabajando\"",
 		"description": "Le permite escribir 55 caracteres adicionales en el campo \"En qué estoy trabajando\" de su perfil. Cualquier usuario de Scratch verá los caracteres extra.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1712,7 +1765,11 @@
 		"description": "Agrega un botón \"empezar grabación\" al menú del editor que le permite grabar el escenario del proyecto.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2021,6 +2078,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Doblar en editor de disfraces",
+		"description": "Para doblar un objeto, mantenga presionado Ctrl mientras lo escala desde uno de sus lados. Mantenga Alt mientras dobla un objeto para doblarlo desde su centro.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "En macOS, use la tecla Command en vez de la tecla Ctrl y la tecla Option en vez de la tecla Alt.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Ajustar posición del editor de disfraces ",
 		"description": "Ajusta objetos en el editor de disfraces a cuadros de delimitación y nodos de vectores.",
@@ -2060,6 +2133,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Vista previa de instrucciones y notas en proyectos",
+		"description": "En sus propios proyectos, agrega un bóton encima del campo Instrucciones para obtener una vista previa de las instrucciones y notas del proyecto tal como las ven otros usuarios.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2186,6 +2275,12 @@
 		"name": "Confirmación de eliminación de objeto",
 		"description": "Le pregunta si está seguro cuando borre un objecto en un proyecto",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Consejo: si elimina accidentalmente un objeto, disfraz o sonido, puede deshacerhaciendo click en Editar en la barra de menú y luego en Restaurar.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2371,7 +2466,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

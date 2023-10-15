@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Most projects will not behave properly when running at 60FPS, because increasing the frame rate also increases the speed at which scripts run. This should only be used on projects that support 60FPS.",
+				"text": "Večina projektov v načinu 60FPS ne deluje pravilno, ker večje število sličic na sekundo poveča tudi hitrost skript. Način 60FPS uporabljajte samo v projektih, ki ga podpirajo.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Lepljiva noga",
+		"description": "Naredi, da je noga strani ves čas vidna na dnu okna kot ozka vrstica, ki se razširi, ko nanjo premaknete miško, kar omogoči hiter dostop do povezav kjerkoli na strani. Prej del dodatka \"Neskončno drsenje\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Polja za vnos števil v oknu za izbiro barve",
 		"description": "Omogoči, da pri izbiranju barve v urejevalniku videzov za vsak drsnik vnesete točno vrednost (0-100).",
@@ -356,14 +369,14 @@
 	},
 	{
 		"id": "colorblind",
-		"name": "Customizable link style",
-		"description": "Lets you customize the style of links around the website.",
+		"name": "Prilagoditev sloga povezav",
+		"description": "Prilagodite videz povezav na spletni strani.",
 		"tags": ["community", "theme", "beta"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
 		"info": [
 			{
 				"id": "feedback",
-				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+				"text": "Ta dodatek bi radi v prihodnosti razširili z drugimi možnostmi, ki izboljšajo dostopnost. Predloge nam lahko pošljete na scratchaddons.com/feedback ali s povezavo \"Povratne informacije\" v stranski vrstici."
 			}
 		],
 		"dynamicEnable": true,
@@ -559,17 +572,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Prilagoditev sloga besedila blokov",
-		"description": "Spremeni debelino besedila na blokih, lahko pa doda tudi senco.",
+		"description": "Omogoči, da prilagodite velikost in debelino besedila na blokih ali mu dodate senco, da je lažje berljivo.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -674,7 +692,7 @@
 	{
 		"id": "debugger",
 		"name": "Orodje za razhroščevanje",
-		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
+		"description": "Doda novo okno \"razhroščevanje\" v urejevalnik. Omogoča zapisovanje podatkov na zavihek \"Zapiski\" z bloki \"zapiši\", \"opozorilo\" in \"napaka\". Blok \"breakpoint\" začasno ustavi projekt. Vsa delujoča zaporedja blokov so vidna na zavihku \"Niti\", in ko je projekt zaustavljen, lahko z gumbom \"Korak\" izvedete naslednji blok. Grafa sličic na sekundo in števila dvojnikov figur sta na zavihku \"Učinkovitost\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -738,7 +756,7 @@
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "This behavior can also be achieved without this addon by Alt+Clicking the item.",
+				"text": "To lahko naredite tudi brez tega dodatka. Kliknite predmet, medtem ko držite tipko Alt.",
 				"id": "vanilla"
 			}
 		],
@@ -749,17 +767,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Onemogoči tresenje figur v seznamu figur",
-		"description": "Omogoči premikanje skript, videzov in zvokov v druge figure, ne da bi se pri tem figure premikale po seznamu figur.",
-		"tags": ["editor"],
+		"name": "Popravi vlečenje v seznamu figur",
+		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da ni mogoče premakniti skript, videzov in zvokov v druge figure, ne da bi se pri tem figure premikale po seznamu figur.",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -802,7 +826,7 @@
 	{
 		"id": "drag-drop",
 		"name": "Vlečenje datotek v urejevalnik",
-		"description": "Omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko povlečete tudi besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
+		"description": "Omogoči vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko povlečete tudi besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Sheep_maker" }],
 		"dynamicEnable": true,
@@ -859,8 +883,8 @@
 	},
 	{
 		"id": "editor-compact",
-		"name": "Compact editor",
-		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"name": "Kompakten urejevalnik",
+		"description": "Zmanjša velikost gumbov, polj za vnos besedila, menijske vrstice in drugih elementov v urejevalniku, da je več prostora za kodo, urejevalnik videzov, sličice figur in podobno, tako kot v Scratchu 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -966,8 +990,8 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation in editor",
-		"description": "Use the up and down arrow keys to increase or decrease number values in block inputs.",
+		"name": "Sprememba števil v urejevalniku s puščicami",
+		"description": "Uporabite tipki s puščicama gor in dol, da povečate ali zmanjšate številčne vrednosti v poljih za vnos števil, kot so tista v blokih ali v območju z lastnostmi figur.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -978,7 +1002,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Blok \"obrni se v naključno smer\"",
+		"description": "V meni bloka \"obrni se proti ()\" doda možnost \"naključna smer\". To deluje tudi, če uporabnik projekta nima Scratch Addons.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1158,8 +1205,8 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
-		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
+		"name": "Izpostavljeni dango",
+		"description": "Prvoaprilska šala razširitve Scratch Addons leta 2023. Na naslovno stran doda vrstico s projekti, povezani z jedjo dango.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -1289,8 +1336,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"name": "Prikaz časa do naslednje objave v forumih",
+		"description": "Ko nekaj objavite v forumu, zraven gumba za objavo pokaže števec, ki pove, kako dolgo morate počakati pred naslednjo objavo.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1432,6 +1479,12 @@
 		"name": "Skrij gumb za brisanje",
 		"description": "Skrije gumb za izbris (ikona smetnjaka) figur, videzov in zvokov. Še vedno jih lahko izbrišite v meniju, ki se odpre, ko uporabite desno miškino tipko.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Namig: Če po pomoti izbrišete figuro, videz ali zvok, lahko to razveljavite tako, da kliknete Uredi v menijski vrstici in nato Povrni.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1606,7 +1659,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Skoči na definicijo \"mojega bloka\"",
-		"description": "Omogoča, da se premaknete na definicijo \"mojega bloka\" s srednjim miškinim gumbom ali Shift+klikom.",
+		"description": "Omogoči, da se premaknete na definicijo \"mojega bloka\" s srednjim miškinim gumbom ali Shift+klikom.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"info": [
@@ -1661,7 +1714,7 @@
 			{
 				"id": "privacy",
 				"type": "notice",
-				"text": "The \"Use Scratch username\" setting will send your Scratch username to TurboWarp.org for use in cloud data. TurboWarp has separate cloud data servers, so the cloud variables will be different than the ones on the Scratch player."
+				"text": "Nastavitev \"Uporabi Scratch uporabniško ime\" pošlje vaše Scratch uporabniško ime strežniku TurboWarp.org za uporabo v podatkih v oblaku. TurboWarp imam ločene strežnike za podatke v oblaku, zato bodo spremenljivke v oblaku drugačne kot v Scratchevem predvajalniku."
 			}
 		],
 		"versionAdded": "1.3.0",
@@ -1680,7 +1733,7 @@
 		"id": "longer-wiwo",
 		"name": "Večja omejitev števila znakov v polju \"S čim se ukvarjam\"",
 		"description": "Omogoči, da v polje \"S čim se ukvarjam\" vnesete 55 več znakov. Vsi uporabniki Scratcha bodo videli dodatne znake.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1715,12 +1768,16 @@
 		"description": "V menijsko vrstico v urejevalniku doda gumb \"začni snemanje\", ki omogoča snemanje odra.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
 		"name": "Filtriranje sporočil",
-		"description": "Omogoča, da izberete, katere vrste sporočil naj bodo prikazane na Scratchevi strani s sporočili.",
+		"description": "Izberite, katere vrste sporočil naj bodo prikazane na Scratchevi strani s sporočili.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -1740,8 +1797,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Insert blocks by name",
-		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
+		"name": "Iskanje blokov",
+		"description": "Kliknite območje s kodo s srednjim miškinim gumbom ali med držanjem tipke Shift ali pritisnite Ctrl+presledek, da odprete okno za iskanje blokov. Vnesite imena (ali dele imen) blokov in bloke povlecite v območje s kodo, da jih dodate v svoj projekt. Po seznamu se lahko premikate s puščicami in tipko Enter. Omogoča tudi samodejno dopolnjevanje s Tab. Med vlečenjem blokov lahko držite Shift, da seznam ostane odprt.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -1889,15 +1946,15 @@
 	},
 	{
 		"id": "necropost-highlighter",
-		"name": "Necropost highlighter",
-		"description": "Highlights topics started much earlier than others on the same page in selected forums, so you don't waste time reading zombie messages or replies to help, question or request topics that were actually asked long ago.",
+		"name": "Označevanje objav v starih temah (necroposts)",
+		"description": "V izbranih forumih označi teme, ki so veliko starejše od drugih na isti strani, da ne zapravljate časa z branjem zombi sporočil ali odgovorov na stara vprašanja in prošnje.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
 		"info": [
 			{
 				"type": "notice",
 				"id": "whatGetsHighlighted",
-				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+				"text": "Včasih starejša tema ostane aktivna z razlogom, na primer zaradi dolgo trajajočega pogovora ali ker prvotni avtor na svojo temo oživi čez več mesecev. Vse starejše teme v izbranih forumih, tudi takšne, bodo označene. (Zato jih dodatek iz seznama tem ne odstrani.)"
 			}
 		],
 		"dynamicEnable": true,
@@ -2027,9 +2084,25 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Nagib v urejevalniku videzov",
+		"description": "Držite Ctrl in premaknite stranico predmeta, da spremenite nagib. Držite Ctrl in Alt, da ohranite položaj središča.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "Če uporabljate macOS, uporabite tipko Command namesto Control in Option namesto Alt.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Pripenjanje v urejevalniku videzov",
-		"description": "Snap objects in the costume editor to bounding boxes and vector nodes.",
+		"description": "Predmete v urejevalniku videzov samodejno poravna z okvirji predmetov in točkami vektorskih oblik.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2066,6 +2139,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Predogled navodil in opomb projekta",
+		"description": "Nad poljem Navodila na straneh vaših projektov doda stikalo, ki prikaže navodila in opombe projekta, kot jih bodo videli drugi uporabniki.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2192,6 +2281,12 @@
 		"name": "Potrditev brisanja figure",
 		"description": "Vpraša, če ste prepričani, preden izbrišete figuro v projektu.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Namig: Če po pomoti izbrišete figuro, videz ali zvok, lahko to razveljavite tako, da kliknete Uredi v menijski vrstici in nato Povrni.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2243,7 +2338,7 @@
 	},
 	{
 		"id": "scratch-notifier",
-		"name": "Scratch sporočila",
+		"name": "Scratch obvestila",
 		"description": "Obvestila o novih sporočilih na Scratchu. Kliknite obvestilo, da si ogledate sporočilo (komentar, projekt itd.)",
 		"tags": ["community", "recommended"],
 		"credits": [
@@ -2348,7 +2443,7 @@
 	{
 		"id": "search-my-stuff",
 		"name": "Vrstica za iskanje Mojih stvari",
-		"description": "Omogoča iskanje projektov, studiov in smeti na strani Moje stvari. Preprosto začnite tipkati kjerkoli na strani, da začnete iskati. Nato lahko pritisnete Ctrl+Enter, da hitro odprete prvi rezultat.",
+		"description": "Omogoči iskanje projektov, studiov in smeti na strani Moje stvari. Preprosto začnite tipkati kjerkoli na strani, da začnete iskati. Nato lahko pritisnete Ctrl+Enter, da hitro odprete prvi rezultat.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -2377,7 +2472,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2460,8 +2556,8 @@
 	},
 	{
 		"id": "sprite-properties",
-		"name": "Collapsing sprite properties",
-		"description": "Hides the sprite properties panel by default, like in Scratch 2.0. Use the info button on the currently selected sprite or double-click a sprite to show the properties panel again. To re-hide it, use the collapse button in the properties panel or double-click a sprite.",
+		"name": "Skrči lastnosti figure",
+		"description": "Skrije lastnosti figur, kot v Scratchu 2.0. Za prikaz uporabite gumb za informacije na trenutno izbrani figuri ali dvakrat kliknite figuro. Ponovno se skrije, ko uporabite gumb \"skrči\" pod lastnostmi ali dvakrat kliknete figuro.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
@@ -2474,7 +2570,7 @@
 	{
 		"id": "studio-followers",
 		"name": "Gumb za povabilo sledilcev v studio",
-		"description": "Na vrh zavihka \"skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite, ter omogoča povabilo posameznega uporabnika z enim klikom.",
+		"description": "Na vrh zavihka \"skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite, ter omogoči povabilo posameznega uporabnika z enim klikom.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{
@@ -2491,7 +2587,7 @@
 	{
 		"id": "studio-tools",
 		"name": "Orodje za studie",
-		"description": "Omogoča upravljalcem studiov, da enostavno povišajo skrbnike v upravljalce ali kogarkoli odstranijo iz studia na zavihku \"skrbniki\" ter doda gumb pod \"Sledi studiu\", s katerim lahko zapustite studio.",
+		"description": "Omogoči upravljalcem studiov, da enostavno povišajo skrbnike v upravljalce ali kogarkoli odstranijo iz studia na zavihku \"skrbniki\" ter doda gumb pod \"Sledi studiu\", s katerim lahko zapustite studio.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },

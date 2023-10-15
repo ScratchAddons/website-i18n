@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Feste Fußleiste",
+		"description": "Lässt die Fußleiste der Website etwas von unten herausschauen, und vergrößert sie, wenn man mit der Maus darüber fährt, sodass sie leicht von jeder Seite genutzt werden kann. Zuvor Teil von \"Unendliches Scrollen\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Eingabefelder für Zahlen im Farbwähler",
 		"description": "Ermöglicht das Eingeben von genauen Werten (0-100) für die Schieberegler im Farbwähler des Kostümeditors.",
@@ -559,17 +572,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Benutzerdefinierter Stil von Text auf Blöcken",
-		"description": "Ändert die Dicke von Text auf Blöcken und fügt einen Textschatten hinzu.",
+		"description": "Ermöglicht das Einstellen der Größe und Dicke von Text auf Blöcken und das Hinzufügen eines Schattens, um ihn lesbarer zu machen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -749,17 +767,23 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Figurenwackeln in Figurenleiste deaktivieren",
-		"description": "Lässt Skripte, Kostüme und Klänge in verschiedene Figuren verschieben, ohne dass sich die Figuren innerhalb der Figurenleiste herumbewegen.",
-		"tags": ["editor"],
+		"name": "Figurenleisten-Glitch beheben",
+		"description": "Behebt einen Fehler im Scratch-Editor, wodurch Elemente nicht per Drag and Drop nach Figuren kopiert werden können, ohne dass die Figuren herumspringen.",
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -967,7 +991,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Erhöhung von Zahlen durch Pfeiltasten im Editor",
-		"description": "Verwende die Hoch- und Runterpfeiltasten, um Zahlenwerte in Blockeingabefeldern zu erhöhen oder zu verringern.",
+		"description": "Nutze die Pfeiltasten nach oben und nach unten, um Werte in Zahleneingabefeldern zu ändern, zum Beispiel in Blöcken oder in den Figureneigenshaften.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -978,7 +1002,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Block \"drehe in zufällige Richtung\"",
+		"description": "Fügt die Option \"zufällige Richtung\" zum \"drehe zu ()\"-Block hinzu, die die Figur in eine zufällig gewählte Richtung zeigen lässt. Dies wird für alle Nutzer funktionieren.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1432,6 +1479,12 @@
 		"name": "Löschen-Knopf verstecken",
 		"description": "Versteckt den Löschen-Knopf (das Mülleimer-Icon) von FIguren, Kostümen und Klängen. Sie können weiterhin mit dem Rechtsklick-Kontextmenü glöscht werden.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tipp. Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen über den Menüpunkt \"Wiederherstellen\" unter \"Bearbeiten\" in der Menüleiste rückgängig machen.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1680,7 +1733,7 @@
 		"id": "longer-wiwo",
 		"name": "Höheres Zeichenlimit in \"Woran ich gerade arbeite\"",
 		"description": "Ermöglicht es dir, 55 Zeichen mehr in \"Woran ich gerade arbeite\" einzugeben. Jeder auf Scratch wird die zusätzlichen Zeichen sehen.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1715,7 +1768,11 @@
 		"description": "Fügt einen \"Aufnehmen\"-Knopf zur Menüleiste im Editor hinzu, mit dem du die Bühne des Projekts aufnehmen kannst.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -2027,6 +2084,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Biegen im Kostümeditor",
+		"description": "Halte Strg gedrückt, während du die Seite eines Objekts verschiebst, um dieses zu verbiegen. Halte Alt während dem Verbiegen gedrückt, um es von seiner Mitte aus zu verbiegen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "Auf macOS, benutze die Cmd-Taste statt der Strg-Taste und die Option-Taste statt der Alt-Taste.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Einrasten im Kostümeditor",
 		"description": "Rastet Objekte im Kostümeditor an Kasten und Vektorpunkten ein.",
@@ -2066,6 +2139,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Vorschau für Projektanmerkungen",
+		"description": "Fügt einen Schalter über der Anleitung In deinen eigenen Projekten hinzu, mit dem du die Bereiche \"Anleitung\" und \"Anmerkungen und Danksagungen\" so sehen kannst wie andere Nutzer.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2192,6 +2281,12 @@
 		"name": "Löschen von Figuren bestätigen",
 		"description": "Fragt, ob du sicher bist, wenn du eine Figur in einem Projekt löschst.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tipp. Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen über den Menüpunkt \"Wiederherstellen\" unter \"Bearbeiten\" in der Menüleiste rückgängig machen.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2377,7 +2472,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

@@ -54,7 +54,7 @@
 	},
 	{
 		"id": "auto-follow-topics",
-		"name": "Follow topics after posting",
+		"name": "Подписаться на темы, на которых Вы публиковали",
 		"description": "Automatically follow forum topics you post on.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
@@ -324,6 +324,19 @@
 		}
 	},
 	{
+		"id": "collapse-footer",
+		"name": "Sticky footer",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"tags": ["community"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "ZenithKnight" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "color-inputs",
 		"name": "Ввод цвета",
 		"description": "Позволяет задавать точное значение (0-100) для каждого ползунка в выборе цвета редактора костюма.",
@@ -356,14 +369,14 @@
 	},
 	{
 		"id": "colorblind",
-		"name": "Customizable link style",
-		"description": "Lets you customize the style of links around the website.",
+		"name": "Настраиваемый стиль ссылок",
+		"description": "Позволяет вам настраивать стиль ссылок на веб - сайте.",
 		"tags": ["community", "theme", "beta"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
 		"info": [
 			{
 				"id": "feedback",
-				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
+				"text": "Мы хотим расширить это дополнение другими функциями в будущем. Вы можете отправить нам Ваш отзыв, перейдя по адресу scratchaddons.com/feedback или нажав кнопку \"Отправить Отзыв\" на боковой панели."
 			}
 		],
 		"dynamicEnable": true,
@@ -559,17 +572,22 @@
 	{
 		"id": "custom-block-text",
 		"name": "Настраиваемый стиль текста блоков",
-		"description": "Изменяет толщину текста на блоках и дополнительно добавляет тень к тексту.",
+		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
-			{ "name": "_nix", "link": "https://github.com/towerofnix" }
+			{ "name": "_nix", "link": "https://github.com/towerofnix" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.24.0",
-		"updateUserstylesOnSettingsChange": true
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["size"],
+			"isMajor": true
+		}
 	},
 	{
 		"id": "custom-zoom",
@@ -751,15 +769,21 @@
 		"id": "disable-sprite-wobble",
 		"name": "Выключить качание спрайтов в панели спрайтов",
 		"description": "Позволяет скриптам, костюмам и звукам перемещаться в другие спрайты без перемещения спрайтов в панели спрайтов.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
-			{ "name": "CST1229", "link": "https://github.com/cst1229/" }
+			{ "name": "CST1229", "link": "https://github.com/cst1229/" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "This addon has been reworked and now fixes the sprite pane glitch without having to disable the wobble animation. If you still want to disable the wobble, there's a setting below."
+		},
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "disable-stage-drag-select",
@@ -966,8 +990,8 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation in editor",
-		"description": "Use the up and down arrow keys to increase or decrease number values in block inputs.",
+		"name": "Увеличение с помощью клавиш со стрелками",
+		"description": "Используйте клавиши со стрелками \"вверх и вниз\" чтобы увеличить или уменьшить числа в числовых входах, таких как поля в блоках или область свойств спрайта.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -978,7 +1002,30 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"newSettings": ["useCustom"],
+			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+		}
+	},
+	{
+		"id": "editor-random-direction-block",
+		"name": "Point towards random direction block",
+		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"tags": ["editor"],
+		"credits": [
+			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
+			{
+				"name": "pufferfish101007",
+				"link": "https://scratch.mit.edu/users/pufferfish101007/"
+			},
+			{ "name": "emir4169" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "editor-searchable-dropdowns",
@@ -1158,8 +1205,8 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
-		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
+		"name": "Избранные данго",
+		"description": "Шутка от Scratch на День Дурака 2023 которая добавляет ряд на домашнюю страницу ряд включающий проекты, связанные с данго.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -1289,8 +1336,8 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"name": "Дисплей времени восстановления возможности публиковать в форумах",
+		"description": "После опубликования поста на форуме, показывает обратный отсчет на кнопке опубликования, который показывает как долго Вам придётся ждать до возобновления возможности опубликовывать на форумах.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1432,6 +1479,12 @@
 		"name": "Скрыть кнопку удалить",
 		"description": "Скрывает кнопку удаления (иконка корзины) из спрайтов, костюмов и звуков. Они могут быть удалены из контекстного меню.",
 		"tags": ["editor", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
@@ -1680,7 +1733,7 @@
 		"id": "longer-wiwo",
 		"name": "Более высокое ограничение на количество символов в \"Над чем я работаю\"",
 		"description": "Позволяет ввести еще 55 символов в поле \"Над чем я работаю\" вашего профиля. Все на Scratch увидят дополнительные символы.",
-		"tags": ["community", "profiles", "featured"],
+		"tags": ["community", "profiles"],
 		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1715,7 +1768,11 @@
 		"description": "Добавляет кнопку \"начать запись\" в меню редактора, которая позволяет записывать сцену проекта.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
-		"versionAdded": "1.6.0"
+		"versionAdded": "1.6.0",
+		"latestUpdate": {
+			"version": "1.35.0",
+			"temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
+		}
 	},
 	{
 		"id": "message-filters",
@@ -1984,8 +2041,8 @@
 	},
 	{
 		"id": "op-badge",
-		"name": "Highlight project creator in comments",
-		"description": "Adds a badge next to the project creator in project comments sections. Also adds a badge next to the original poster in forum topics.",
+		"name": "Выделять создателя проекта в комментариях",
+		"description": "Добавляет значок рядом с создателем проекта в секции комментарий проекта. Также добавляет значок рядом с автором в темах на форуме.",
 		"tags": ["community", "forums", "featured", "comments"],
 		"credits": [
 			{
@@ -2027,6 +2084,22 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "paint-skew",
+		"name": "Перекос в редакторе костюмов",
+		"description": "Держите Ctrl во время масштабирования объекта чтобы перекосить его. Зажмите Alt во время перекоса объекта чтобы перекосить его от центра.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"info": [
+			{
+				"text": "На macOS, используйте клавишу Command вместо клавиши Ctrl и клавишу Option вместо Alt.",
+				"id": "useCmdOnMac"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
+	},
+	{
 		"id": "paint-snap",
 		"name": "Привязка в редакторе костюмов",
 		"description": "Привязывает объекты в редакторе костюмов ,к различным опорам ,как в более профессиональных векторных редакторах",
@@ -2066,6 +2139,22 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.29.0"
+	},
+	{
+		"id": "preview-project-description",
+		"name": "Предпросмотр инструкций и примечаний проекта",
+		"description": "В Ваших проектах добавлен переключатель над полем Инструкции для предпросмотра инструкций и примечаний проекта в том виде, в каком их видят другие пользователи.",
+		"tags": ["community", "projectPage", "beta", "featured"],
+		"credits": [
+			{
+				"name": "Steve0Greatness",
+				"link": "https://scratch.mit.edu/users/Steve0Greatness"
+			},
+			{ "name": "World_Languages" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.35.0"
 	},
 	{
 		"id": "progress-bar",
@@ -2130,8 +2219,8 @@
 	},
 	{
 		"id": "remember-collapsed-categories",
-		"name": "Remember collapsed forum categories",
-		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
+		"name": "Запоминать закрытые категории форума",
+		"description": "Категории которые вы закрыли на домашней странице форумов (список форумов) останутся закрытыми, если вы выйдете и зайдёте обратно.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2192,6 +2281,12 @@
 		"name": "Подтверждение удаления спрайтов",
 		"description": "Спрашивает, уверены ли вы при удалении спрайта внутри проекта.",
 		"tags": ["editor", "recommended"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2377,7 +2472,8 @@
 		"credits": [
 			{ "name": "Geotale" },
 			{ "name": "pufferfish101007" },
-			{ "name": "Hexagonal" }
+			{ "name": "Hexagonal" },
+			{ "name": "valmontechno" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
