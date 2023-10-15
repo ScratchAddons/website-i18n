@@ -1,3 +1,7 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Yeni özellik: düzenleyicide animasyon yapmak için soğan zarı görünümü. Scratch Eklentileri ayarlarına gidin ve etkinleştirin.
 v1.7.0:
   Highlights:
     Description: |
@@ -91,7 +95,7 @@ v1.32.0:
 v1.33.0:
   Highlights:
     Description: |
-      Yeni eklenti: "yorumlardaki proje oluşturucuları işaretle", proje yorumları bölümlerinde proje yaratıcısının yanına bir rozet ekler. Etkinleştirmek için şuraya gidin: Scratch Eklentileri ayarları
+      Yeni eklenti: "yorumlardaki proje oluşturucuları işaretle", proje yorumları bölümlerinde proje yaratıcısının yanına bir rozet ekler. Etkinleştirmek için Scratch Eklentileri ayarlarına gidin.
 
       Yaklaşan Scratch değişikliklerine hazırlık olarak birden fazla eklenti ayarlandı. Bu güncelleme aynı zamanda performans ve kararlılık iyileştirmeleri de getiriyor.
 v1.33.2:
