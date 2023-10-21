@@ -4,13 +4,13 @@ title: Home
 
 Willkommen in der Scratch Addons-Dokumentation!
 
-Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
+Scratch Addons kombiniert neue und ältere Funktionen und Designs für Scratch in eine leicht zu verwendende und konfigurierbare Browsererweiterung. Unsere Mission besteht darin, eine einheitliche und aktuelle Plattform für die Entwicklung von Funktionen und Designs für Scratch seitens der Community-Mitglieder bereitzustellen.
 
 ## Schnelle Links
 
-- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
-- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
-- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
+- Wenn du ein Addon entwickeln möchtest, [beginne auf dieser Seite](develop/getting-started/creating-an-addon).
+- Wenn du mithelfen möchtest, die Erweiterung auf deine Sprache zu übersetzen, [lies diese Seite](localization/joining-the-localization-team).
+- Wenn du Hilfe beim Durchstarten mit Scratch Addons brauchst, [lies idese Seite](getting-started/quick-start).
 - If you are interested in the design of the project, [read this page](reference/design).
 - Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
