@@ -183,3 +183,9 @@ v1.34.0:
       Nuova funzione: "modifica dei valori nell'editor usando i tasti freccia", che ti permette di usare i tasti freccia su e giù per aumentare e diminuire i valori degli argomenti dei biocchi. Vai alle impostazioni di Scratch Addons per abiltarlo.
 
       Un altro nuovo addon è il tema "editor compatto", che riduce la dimensione dei pulsanti, delle caselle di testo, della barra dei menu e di altri elementi dell'editor, lasciando più spazio per gli altri componenti come l'area degli script, l'editor di costumi e le anteprime dei costumi, come avveniva in Scratch 2.0.
+v1.35.0:
+  Highlights:
+    Description: |
+      Nuovo addon: "deformazione nell'editor dei costumi" ti permette di deformare un oggetto da uno dei suoi lati premendo Ctrl mentre lo ridimensioni. Vai alle impostazioni di Scratch Addons per abilitarlo.
+
+      Un altro nuovo addon è "anteprima istruzioni e note progetto" che aggiunge nei tuoi progetti un pulsante sopra alle istrzioni per vedere in anteprima come vengono visualizzate dagli altri utenti.
