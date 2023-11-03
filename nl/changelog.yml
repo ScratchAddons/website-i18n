@@ -25,6 +25,24 @@ v1.9.1:
 
       De addon "Blokpalet automatisch verbergen" heeft nu een "over categorie zweven"-stand. "Video van project opnemen" heeft nu een optie om je microfoon te includeren in de opname.
     ImageAlt: Screenshot van de nieuwe Scratch Berichten-functie
+v1.10.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: de addon "link naar opmerking kopiëren", het voegt een knop toe waarmee je de links van opmerkingen kunt kopiëren. Ga naar de Scratch Addons instellingen om het in te schakelen.
+
+      De addon "pauzeerknop" is verbeterd en is niet langer in bèta. Ook zijn er veel problemen met de donkere modus opgelost.
+v1.11.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: de addon "sprite-mappen", het geeft je de mogelijkheid om sprites, uiterlijken en geluiden te sorteren in mappen. Ga naar Scratch Addons instellingen om het in te schakelen.
+
+      Andere uitgelichte nieuwe addons van deze update zijn \"variabele manager\" (voegt een tabblad toe in de editor waarmee je makkelijk variabelen en lijsten kunt aanpassen) en "profielstatistieken".
+v1.12.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: de addon "bestanden slepen en neerzetten", je kunt ermee afbeeldingen en geluiden uit je bestandverkenner naar het spritepaneel of uiterlijk-/geluidslijst slepen. Ga naar Scratch Addons instellingen om het in te schakelen.
+
+      Een andere uitgelichte nieuwe addon van deze update is "aanpasbare blokvorm", waarmee je de opvulling, hoekafronding en inkepingshoogte van Scratchblokken kunt aanpassen.
 v1.26.0:
   Highlights:
     Description: |
