@@ -32,7 +32,7 @@ Biz sadece Scratch'in kendi desteklediği dilleri destekliyoruz. Ayrı olarak Ar
 
 - **Genel Çeviri.** Bunlar, eklenti tarafından kullanılan ~150 yazı metni. Kullanıcılar bu çevirileri yalnızca genel dizelerinin %90'ı çevrildiyse kendi dillerinde görebilir.
 
-- **Eklenti Çevirisi.** Bunlar eklentilerin kullandığı eklenti isimlerini, açıklamalarını, ayarlarını ve diğer yazı metinlerini barındıran yazı metinleridir. Kullanıcılar bu çevirileri yalnızca genel çeviri mevcut ve eklenti dizelerinin %80'i çevrilmişse görebilir. Çevirmeye açık 1000'e aşkın eklenti dizesi vardır.
+- **Eklenti Çevirisi.** Bunlar eklentilerin kullandığı eklenti isimlerini, açıklamalarını, ayarlarını ve diğer metin dizelerini barındıran yazı metinleridir. Kullanıcılar bu çevirileri yalnızca genel çeviri mevcut ve eklenti dizelerinin %80'i çevrilmişse görebilir. Çevirmeye açık 1000'e aşkın eklenti dizesi vardır.
 
 ![Scratch Eklentileri uzantısının Japonca versiyonundan bir Ekran Görüntüsü](/assets/img/docs/transifex-general-vs-addons.png)
 

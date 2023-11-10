@@ -89,7 +89,7 @@ Bu CSS değişkenleri etkin olan tüm eklentiler için her zaman mevcuttur ve bu
 
 ## Özelleştirilmiş CSS değişkenleri
 
-Eğer bir userstyle bir arka plan rengine (yazı kontrastı) veya bir eklenti ayarına göre iki değerden birini seçmesi gerekiyorsa, JavaScript gerekli değildir. Bu koşullar, diğerlerinin yanı sıra [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) üzerinden eklenti manifest'inden tanımlanabilir ve userstyle kolaylıkla bu CSS değişkenine referans verebilir.
+Eğer bir userstyle bir arka plan rengine (metin kontrastı) veya bir eklenti ayarına göre iki değerden birini seçmesi gerekiyorsa, JavaScript gerekli değildir. Bu koşullar, diğerlerinin yanı sıra [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) üzerinden eklenti manifest'inden tanımlanabilir ve userstyle kolaylıkla bu CSS değişkenine referans verebilir.
 
 
 ## Stilleri yalnızca düzenleyicinin içinde uygulamak
