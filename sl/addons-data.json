@@ -1094,7 +1094,7 @@
 			{
 				"id": "disablesMenuBar",
 				"type": "notice",
-				"text": "Za dostop do Scratchevega menija \"Barvni način\" izključite ta dodatek."
+				"text": "Za dostop do Scratchevega menija \"Color Mode\" izključite ta dodatek."
 			},
 			{
 				"id": "aboutHighContrast",
@@ -1588,7 +1588,7 @@
 	{
 		"id": "horizontal-mystuff-tabs",
 		"name": "Vodoravni zavihki v Mojih stvareh",
-		"description": "Premakne gumbo za premikanje po Mojih stvareh (\"Vsi projekti\", \"Moji studii\", \"Smeti\") z leve strani na vrh.",
+		"description": "Premakne gumbe za premikanje po Mojih stvareh (\"Vsi projekti\", \"Moji studii\", \"Smeti\") z leve strani na vrh.",
 		"tags": ["community", "theme"],
 		"credits": [
 			{
@@ -1848,7 +1848,7 @@
 	{
 		"id": "move-to-top-bottom",
 		"name": "Premakni videz na vrh ali na dno",
-		"description": "V meni desne miškine tipke za videze in zvoke doda možnost, ki predmet premakne na vrh ali na dno seznama.",
+		"description": "V meni desne miškine tipke za videze in zvoke doda možnosti, ki predmet premakneta na vrh ali na dno seznama.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"info": [
 			{
@@ -2220,7 +2220,7 @@
 	{
 		"id": "remember-collapsed-categories",
 		"name": "Zapomni si skrčene kategorije v forumih",
-		"description": "Kategorije na seznamu forumov, ki jih skrčite, bodo ostale skrčene, ko znova obiščete stran.",
+		"description": "Kategorije na naslovni strani forumov (seznamu forumov), ki jih skrčite, bodo ostale skrčene, ko znova obiščete stran.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2295,7 +2295,7 @@
 	{
 		"id": "rename-broadcasts",
 		"name": "Preimenuj sporočila",
-		"description": "V meni bloka \"objavi\" doda možnost za preimenovanje sporočila.",
+		"description": "V menije blokov \"objavi\" in \"ko prejmem sporočilo\" doda možnost za preimenovanje sporočila.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{

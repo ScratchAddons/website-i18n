@@ -325,7 +325,7 @@
 	},
 	{
 		"id": "collapse-footer",
-		"name": "Sticky footer",
+		"name": "Kiinnittyvä alatunniste",
 		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
 		"tags": ["community"],
 		"credits": [
@@ -785,7 +785,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Ei-raahattavat hahmot editorissa",
-		"description": "Poistaa mahdollisuuden raahata hahmoja editorin esiintymislavalla, paitsi niitä, jotka on nimenomaan asetettu raahattaviksi. Pidä Vaihto-näppäintä pohjassa samalla, kun vedät hahmoa siirtääksesi sitä normaalisti.",
+		"description": "Poistaa mahdollisuuden raahata hahmoja editorin esiintymislavalla, paitsi niiltä, jotka on nimenomaan asetettu raahattaviksi. Pidä Shift-näppäintä pohjassa samalla, kun vedät hahmoa, siirtääksesi sitä normaalisti.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -880,8 +880,8 @@
 	},
 	{
 		"id": "editor-compact",
-		"name": "Compact editor",
-		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"name": "Kompakti editori",
+		"description": "Pienentää painikkeiden, tekstikenttien, valikkopalkin ja muiden elementtien kokoa editorissa tehden tilaa komponenteille, kuten koodialueelle, asuste-editorille ja asusteiden esikatselukuville, samoin kuin Scratch 2.0:ssa.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -1656,7 +1656,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Siirry mukautetun lohkon määritykseen",
-		"description": "Voit siirtyä mukautetun lohkon määritelmään käyttämällä hiiren keskipainikketta tai yhdistelmää Vaihto+Klikkaus lohkon päällä.",
+		"description": "Voit siirtyä mukautetun lohkon määritelmään käyttämällä hiiren keskipainikketta tai yhdistelmää Shift+Klikkaus lohkon päällä.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"info": [
@@ -2308,7 +2308,7 @@
 	{
 		"id": "resizable-comment-input",
 		"name": "Kommenttikentän koon muuttaminen",
-		"description": "Mahdollistaa kommenttikentän pystysuuntaisen koon muuttamisen Scratchin 3.0-tyylisillä sivuilla.",
+		"description": "Mahdollistaa kommenttikentän pystysuuntaisen koon muuttamisen Scratch 3.0 -tyylisillä sivuilla.",
 		"tags": ["community", "comments", "recommended", "theme"],
 		"credits": [
 			{
@@ -2362,7 +2362,7 @@
 	{
 		"id": "scratchblocks",
 		"name": "3.0 Scratchblocks foorumeilla",
-		"description": "Ottaa käyttöön uusi scratchblock-versio foorumeilla.",
+		"description": "Ottaa käyttöön uusi scratchblocks-versio foorumeilla.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
 			{

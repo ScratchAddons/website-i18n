@@ -1008,7 +1008,7 @@
 	},
 	{
 		"id": "editor-random-direction-block",
-		"name": "richt naar willekeurige richting blok",
+		"name": "\"Richt naar willekeurige richting\"-blok",
 		"description": "Voegt de optie \"willekeurige richting\" toe aan het \"richt naar ()\"-blok. Het zorgt ervoor dat de sprite richt naar een willekeurige richting. Dit werkt voor iedereen die het project gebruikt, zelfs degenen zonder deze addon.",
 		"tags": ["editor"],
 		"credits": [
@@ -2083,7 +2083,7 @@
 	{
 		"id": "paint-skew",
 		"name": "Objecten scheeftrekken in uiterlijkeditor",
-		"description": "Houd Ctrl ingedrukt terwijl je de schaal van een object aan een zijkant verandert om het scheef te trekken. Houd Alt ingedrukt tijdens het scheeftrekken om het te doen om het middelpunt van het object.",
+		"description": "Houd Ctrl ingedrukt terwijl je de schaal van een object aan een zijkant verandert om het scheef te trekken. Houd Alt ingedrukt tijdens het scheeftrekken om het middelpunt van het object op dezelfde plek te houden.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"info": [
