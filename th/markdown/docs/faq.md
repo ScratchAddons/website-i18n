@@ -1,21 +1,21 @@
 ---
 title: คำถามที่พบบ่อย
-description: หน้านี้มีรายการคำถามที่พบบ่อยเกี่ยวกับส่วนขยายสำหรับ scratch และโครงงานของมัน
+description: หน้านี้มีรายการคำถามที่พบบ่อยเกี่ยวกับส่วนขยายสำหรับ Scratch และโครงงานของมัน
 ---
 
-หน้านี้มีรายการคำถามที่พบบ่อยเกี่ยวกับส่วนขยายสำหรับ scratch และโครงงานของมัน
+หน้านี้มีรายการคำถามที่พบบ่อยเกี่ยวกับส่วนขยายสำหรับ Scratch และโครงงานของมัน
 
-## General questions
+## คำถามทั่วไป
 
-### ส่วนขยายสำหรับ scratch คืออะไร
+### ส่วนขยายสำหรับ Scratch คืออะไร
 
-ส่วขยายสำหรับ scratch คือส่วนขยาย "ทุกอย่างในที่เดียว" สำหรับเว็บไซต์ และ ตัวแก้ไขงานของ scratch เราเพิ่มคุณสมบัติและธีม (เราเรียกมันว่าส่วนขยาย) ทั้งสำหรับเว็บไซต์และตัวแก้ไขงาน ภารกิจของเราคือการรวม ส่วนขยาย scratch ที่มีอยู่แล้วทั้งหมด userscript userstyles สร้างโดยผู้คนหลายคนในชุมชน scratch เป็นสิ่งที่เข้าถึงได้ง่าย โดยยังให้ผู้ใช้งานเลือกว่าจะเปิดใช้งานอะไร
+ส่วขยายสำหรับ Scratch คือส่วนขยาย "ทุกอย่างในที่เดียว" สำหรับเว็บไซต์ และ ตัวแก้ไขงานของ Scratch เราเพิ่มคุณสมบัติและธีม (เราเรียกมันว่าส่วนขยาย) ทั้งสำหรับเว็บไซต์และตัวแก้ไขงาน ภารกิจของเราคือการรวม ส่วนขยาย Scratch ที่มีอยู่แล้วทั้งหมด userscript userstyles สร้างโดยผู้คนหลายคนในชุมชน Scratch เป็นสิ่งที่เข้าถึงได้ง่าย โดยยังให้ผู้ใช้งานเลือกว่าจะเปิดใช้งานอะไร
 
-### Who created Scratch Addons?
+### ใครสร้างส่วนขยายสำหรับ Scratch
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+ส่วนขยายสำหรับ Scratch เป็นโครงงานทีมที่นำโดย World_Languages คุณสามารถดูชื่อผู้คนทั้งหมดที่ได้ช่วยทำส่วนขยายที่[หน้าเครดิต](/credits) แม้ "ส่วนขยายส่งข้อความสำหรับ Scratch" และ "เครื่องมือนักพัฒนา Scratch" สร้างโดย griffpatch เขาไม่ได้เป็นคนดูแลส่วนขยายนี้
 
-### What does Scratch Addons include?
+### ส่วนขยายสำหรับ Scratch รวมอะไรไว้บ้าง
 
 Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
 
@@ -197,7 +197,7 @@ An addon is similar to an extension or a userscript, but they use special APIs p
 
 Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
 
-### แล้วถ้าทุกอย่างเป็นส่วนขยาย แล้ว ส่วนขยายสำหรับ scratch ทำอะไรละ
+### แล้วถ้าทุกอย่างเป็นส่วนขยาย แล้ว ส่วนขยายสำหรับ Scratch ทำอะไรละ
 
 By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 

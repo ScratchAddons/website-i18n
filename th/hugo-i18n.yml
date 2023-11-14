@@ -1,6 +1,6 @@
 Global:
-  ScratchAddons: ส่วนขยายสำหรับ scratch
-  LogoAlt: โลโก้ส่วนขยายสำหรับ scratch
+  ScratchAddons: ส่วนขยายสำหรับ Scratch
+  LogoAlt: โลโก้ส่วนขยายสำหรับ Scratch
   Install: ติดตั้ง
   InstallBrowser:
     Firefox: ติดตั้งสำหรับ firefox
@@ -19,11 +19,16 @@ Global:
     Last: ไปอันท้ายสุด
     SlideX: ไปอันที่ {{ .Count }}
 Links:
+  Docs: เอกสาร
   Addons: ส่วนขยาย
   Credits: เครดิต
   PrivacyPolicy: นโยบายความเป็นส่วนตัว
+  Discord: ดิสคอร์ด
   DiscordCom: discord ของชุมชน
   Discussion: ฟอรั่มพูดคุย
+  Community: ชุมชน
+  Twitter: ทวิตเตอร์
+  Reddit: เรดดิต
 Nav:
   Feedback: ส่งความคิดเห็น
   RepositoryLabel: Repository บน GitHub
@@ -43,17 +48,19 @@ Footer:
     Header: แหล่งที่มา
     Documentation: คู่มือผู้ใช้
   Legal:
-    Copyright: "{{ .Copyleft }}{{ .Year }} ผู้มีส่วนร่วมในส่วนขยายสำหรับ scratch"
-    NoAffiliation: Scratch Addons ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับ Scratch ทีม Scratch มูลนิธิ Scratch หรือบริการอื่นๆ ของ scratch
+    Copyright: "{{ .Copyleft }}{{ .Year }} ผู้มีส่วนร่วมในส่วนขยายสำหรับ Scratch"
+    NoAffiliation: ส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch
     License: Scratch Addons ได้มีลิขสิทธิ์ภายใต้เงื่อนไขของ GNU General Public License v3.0
   Intro: ขณะนี้เวอร์ชั่น{{ .Version }}และมี{{ .AddonCount }}ส่วนขยาย
 DarkTheme:
   Title: คลิกเพื่อเปิดปิดโหมดมืด
   Label: ปุ่มเปิดปิดโหมดมืด
 Docs:
-  SectionSiteName: เอกสารเกี่ยวกับ ส่วนขยายสำหรับ scratch
+  SectionSiteName: เอกสารเกี่ยวกับส่วนขยายสำหรับ Scratch
   DocsNav: แถบนำทางเอกสาร
   DocsNavToggleLabel: แสดง/ซ่อนแถบนำทาง
+  TOC: เนื้อหา
+  TOCToggleLabel: แสดง/ซ่อนแถบสารบัญ
   LastUpdated: อัปเดตล่าสุดวันที่ {{.Date}} โดย {{.Name}} บน commit {{.Commit}}
   Improve: ช่วยเราปรับปรุงให้หน้านี้ดีขึ้น
   SectionPages: หมวดหมู่หน้า
@@ -63,7 +70,8 @@ PlayerModal:
   AltText: คลิกเพื่อดูวีดีโอ
 IndexPage:
   Intro:
-    Tagline: ทุกอย่างในส่วนขยายเดียวเพื่อ scratch
+    Tagline: ทุกอย่างในส่วนขยายเดียวเพื่อ Scratch
+    Description: ส่วนขยายสำหรับ Scratch รวมคุณสมบัติและธีมสำหรับเว็บไซต์ Scratch และตัวแก้ไขทั้งใหม่และที่มีอยู่แล้วมาเป็นส่วนขยายเดียวที่เข้าถึงง่ายและสามารถกำหนด่าเองได้
     InstallButton:
       Loading: กำลังโหลด...
       Description: ฟรี, โอเพ่นซอร์ส
@@ -77,23 +85,25 @@ IndexPage:
         Caption: หน้าการตั้งค่า
       Demo:
         Caption: ตัวอย่างของส่วนขยาย ({{.Count}})
+    HeroCaption: รูปเบราเซอร์ที่มีป๊อปอัพส่วนขยายสำหรับ Scratch เปิดอยู่
   Features:
     Heading: คุณสมบัติ
     AddonsHeading: ส่วนขยาย
-    AddonsParagraph: ส่วนขยายสำหรับ scratch ประกอบด้วยส่วนเสริมซึ่งสามารถ ประกอบด้วยส่วนเสริมซึ่งเพิ่มขีดความสามารถของเว็บไซต์ Scratch และประสบการณ์การใช้ตัวแก้ไข
+    AddonsParagraph: ส่วนขยายสำหรับ Scratch ประกอบด้วยส่วนเสริมซึ่งสามารถ ประกอบด้วยส่วนเสริมซึ่งเพิ่มขีดความสามารถของเว็บไซต์ Scratch และประสบการณ์การใช้ตัวแก้ไข
     CustomizableHeading: ปรับเปลี่ยนได้
-    CustomizableParagraph: ส่วนขยายสำหรับ scratch มีหน้าต่างที่ใช้งานง่ายเพื่อตั้งค่าคุณสมบัติและธีม
+    CustomizableParagraph: ส่วนขยายสำหรับ Scratch มีหน้าต่างที่ใช้งานง่ายเพื่อตั้งค่าคุณสมบัติและธีม
     InternationalHeading: สากล
-    InternationalParagraph: "ไม่ใช่แค่ภาษาอังกฤษ ส่วนขยายสำหรับ scratch มีภาษาหลากหลายเช่น ภาษาสเปน ภาษารัสเซีย ภาษาญี่ปุ่น ภาษาฝรั่งเศษ แลธภาษาอื่นๆอีกมากมาย "
+    InternationalParagraph: "ไม่ใช่แค่ภาษาอังกฤษ ส่วนขยายสำหรับ Scratch ภาษาหลากหลายเช่น ภาษาสเปน ภาษารัสเซีย ภาษาญี่ปุ่น ภาษาฝรั่งเศษ แลธภาษาอื่นๆอีกมากมาย "
     OSHeading: โอเพ่นซอร์ส
-    OSParagraph: ส่วนขยายสำหรับ scratch นั้นฟรี โอเพ่นซอร์ส และสร้างโดยชุมชนผู้ใช้งาน scratch
+    OSParagraph: ส่วนขยายสำหรับ Scratch นั้นฟรี โอเพ่นซอร์ส และสร้างโดยชุมชนผู้ใช้งาน Scratch
   Highlights:
     Heading: ไฮไลท์
     Paragraph: อย่าลืมว่านี่เป็นเพียงไฮไลท์เท่านั้น {{.OpenTag1}}มีเพิ่มอีกเยอะ{{.CloseTag1}}
   Install:
     Heading: ติดตั้ง
+    Paragraph: ถ้าพร้อมเพิ่มประสิทธิภาพของ Scratch แล้ว ติดตั้งเลย!
     InstallButton:
-      Other: ...หรือ {{.OpenTag1}}ติดตั้งจาก github{{.CloseTag1}}หรือ {{.OpenTag2}}ติดตั้งจากแหล่งที่มา{{.CloseTag2}}
+      Other: ...หรือ {{.OpenTag1}}ติดตั้งจาก GitHub{{.CloseTag1}}หรือ {{.OpenTag2}}ติดตั้งจากต้นตอ{{.CloseTag2}}
   Users: ผู้ใช้
 AddonsPage:
   EasterEggAddon: นี่เป็นส่วนขยายที่ถูกซ่อนไว้
@@ -106,7 +116,7 @@ AddonsPage:
     L1: เพื่อเปิดใช้งานส่วนขยายพวกนี้ ทำ Konami Code (↑↑↓↓←→←→BA) เมื่ออยู่ในหน้าการตั้งค่า อ่านหน้าคำถามที่พบบ่อยสำหรับข้อมูลเพิ่มเติม
     L2: ในหน้านี้ส่วนขยายที่ถูกซ่อนไว้จะมีรูปไข่อยู่ข้างชื่อ
   NAddons: "{{.Count}} ส่วนขยาย"
-  SourceCodeLabel: โค้ดบน github
+  SourceCodeLabel: โค้ดบน GitHub
 FeedbackPage:
   Status:
     Sending: กำลังส่ง...
@@ -114,21 +124,32 @@ FeedbackPage:
     Failed: มีบางอยางผิดปกติ ลองใหม่อีกครั้ง
     Offline: มีบางอย่างผิดพลาดบน เซิร์ฟเวอร์ความคิดเห็น ลองใหม่อีกสักครู่หรือใช้วิธีอื่นที่เราพูดถึง
   NoAddonsList: ไม่สามารถนำรายการส่งได้ ลองเปิดหน้านี้จากหน้าส่วนขยายแทน
-  UsernameLabel: ชื่อผู้ใช้ scratch หรืออื่นๆ (ไม่บังคับ)
+  UsernameLabel: ชื่อผู้ใช้ Scratch หรืออื่นๆ (ไม่บังคับ)
   ContentLabel: ความคิดเห็น
   ContentPlaceholder: กรุณาให้ข้อมูลมากที่สุดที่คุณทำได้
   SendEnabled: ส่งรายการของส่วนขยายที่คุณเปิดใช้อยู่ (แนะนำ)
   SubmitButton: ส่ง
+  PreSendWarning:
+    Warning: "คำเตือน:"
+    Override: หากคุณแน่ใจที่จะส่งความคิดเห็นนี้ ให้คลิกที่ปุ่ม"ส่ง"อีกครั้ง
+    Variations:
+      NotST:
+        Heading: พวกเราไม่ใช่ทีมงานของ Scratch
+        Description: จำไว้ว่าส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch แต่เรายังยินดีให้คุณเสนอความคิดที่จะพัฒนาการให้งาน Scratch ด้วยส่วนขยายสำหรับ Scratch
+      Punishment:
+        Heading: เราไม่สามารถลงโทษใครได้ เราไม่ใช่ทีมงาน Scratch
+        Description: ส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch เราไม่สามารถควบคุมเนื้อหาและการกลั่นกรองบนเว็บไซต์ Scratch {{ .Tag1Start }}ยังมีอีกหลายวิธีที่จะรายงานบนเว็บไซต์ Scratch{{ .Tag1End }}
 SMTPage:
-  ScratchMessagingLogoAlt: โลโก้ส่วนขยายส่งข้อความสำหรับ scratch
+  ScratchMessagingLogoAlt: โลโก้ส่วนขยายส่งข้อความสำหรับ Scratch
 ChangelogPage:
   Highlights:
     Title: ไฮไลท์
   Links:
     Title: ลิ้งค์
-    ReleaseGitHub: หน้าเผยแพร่บน github
+    ReleaseGitHub: หน้าเวอร์ชั่นบน GitHub
     RepoState: สถานะของ repository เมื่อเผยแพร่
     CommitsMade: commit ทั้งหมดบนเวอร์ชั่นนี้
+    BlogPost: บล็อกสำหรับเวอร์ชั่นนี้
   Status:
     Latest: ล่าสุด
     Yanked: ถูกยกเลิก
@@ -136,7 +157,7 @@ UnsupportedBrowserPage:
   Download: ติดตั้ง
   HowToUpdate: วิธีอัปเดต
 Blog:
-  SectionSiteName: blog ส่วนขยายสำหรับ scratch
+  SectionSiteName: blog ส่วนขยายสำหรับ Scratch
 CreditsPage:
   NContributors: "{{.Count}}ผู่ร่วมโครงการ"
   NProfilePicture: "{{.Name}}รูปโปรไฟล์"
