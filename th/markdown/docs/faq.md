@@ -17,19 +17,19 @@ description: หน้านี้มีรายการคำถามที�
 
 ### ส่วนขยายสำหรับ Scratch รวมอะไรไว้บ้าง
 
-Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
+ส่วนขยายสำหรับ Scratch รวม 100 กว่าส่วนขยายซึ่งสามารถเปิดหรือปิดได้เป็นรายๆ บางอันยังสามารถตั้งค่าได้เพิ่มเติมและบางอันมีตัวอย่างการตั้งค่าให้ด้วยเช่นโหมดมืดสำหรับตัวเว็บไซต์ ส่วนขยายสำหรับ Scratch มีป๊อปอัพซึ่งใช้ในการดูข้อความอย่างรวดเร็ว เกมบนคลาวด์และหน้าตั้งค่า ส่วนขยายสำหรับ Scratch มีการแปลเป็นหลายภาษาเช่น เยอรมัน ฝรั่งเศษ สเปน และ ญี่ปุ่น
 
-### Is this the same as TurboWarp Addons?
+### ส่วนขยายนี้เหมือนกับส่วนขยายสำหรับ TurboWarp หรือไม่?
 
-[TurboWarp](https://turbowarp.org/) has some addons from Scratch Addons which can be used on their editor without installing Scratch Addons. However, Scratch Addons also includes addons for the Scratch website and the popup display. Therefore, it is still useful to have Scratch Addons even if you only code using TurboWarp.
+[TurboWarp](https://turbowarp.org/) มีส่วนขยายบางอย่างจากส่วนขยายสำหรับ Scratch ซึ่งสามารถใช้ได้โดยไม่ต้องติดตั้งส่วนขยายสำหรับ Scratch แต่ส่วนขยายสำหรับ Scratch ยังมีส่วนขยายสำหรับตัวเว็บไซต์ Scratch และป๊อปอัพ ซึ่งแม้คุณจะโปรแกรมแค่บน TurboWarp ส่วนขยายนี้ยังมีประโยชน์กับคุณ
 
-## System requirements
+## ความต้องการของระบบ
 
-### What are the system requirements for Scratch Addons?
+### ส่วรขยายสำหรับ Scratch มีความต้องการของระบบอะไรบ้าง
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 80 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 80 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 86 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+ส่วนขยายสำหรับ Scratch สามารถใช้ได้อย่างเป็นทางการกับ [Google Chrome](https://google.com/chrome/) สำหรับคอมพิวเตอร์รุ่นที่ 80 ขึ้นไป, [Microsoft Edge](https://www.microsoft.com/th-th/edge) รุ่นที่ 80 ขึ้นไป และ [Mozilla Firefox](https://mozilla.org/firefox/) รุ่นที่ 86 ขึ้นไป และสามารถทำงานบนเบราว์เซอร์บนคอมพิวเตอร์อื่นๆที่มีพื้นฐานจากเบราว์เซอร์ข้างต้น กรุณาไปที่[หน้านี้](../getting-started/installing/)สำหรับข้อมูลทั้งหมด
 
-### Can I use Scratch Addons on a mobile device?
+### สามารถใช้ส่วนขยายสำหรับ Scratch บนมือถือได้หรือไม่?
 
 For Android users: Yes, but it is not recommended. Major browsers do not allow Scratch Addons (or any other extensions) to be installed, so you need to use browsers such as [Kiwi](https://kiwibrowser.com/) to do so. Scratch Addons' UI is not well-tested on touchscreens or environments with small screen size, so some of the features might not work as expected.
 

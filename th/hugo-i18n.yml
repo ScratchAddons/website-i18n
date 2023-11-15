@@ -85,7 +85,7 @@ IndexPage:
         Caption: หน้าการตั้งค่า
       Demo:
         Caption: ตัวอย่างของส่วนขยาย ({{.Count}})
-    HeroCaption: รูปเบราเซอร์ที่มีป๊อปอัพส่วนขยายสำหรับ Scratch เปิดอยู่
+    HeroCaption: รูปเบราว์เซอร์ที่มีป๊อปอัพส่วนขยายสำหรับ Scratch เปิดอยู่
   Features:
     Heading: คุณสมบัติ
     AddonsHeading: ส่วนขยาย
