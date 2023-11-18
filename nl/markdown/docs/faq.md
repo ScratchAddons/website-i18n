@@ -39,9 +39,9 @@ Voor iOS en iPadOS-gebruikers: Helaas kan dit niet. Het beleid van de App Store 
 
 Helaas kan dat op dit moment niet.
 
-Allereerst, de Safari extension store eist dat alle ontwikkelaars een jaarlijks bedrag betalen om extensies in de store te houden. Het team van Scratch Addons heeft geen inkomstbronnen, wat het lastig maakt om de extensie te onderhouden. Er is ook een technisch probleem met de implementatie van browserextensies in Safari, wat sommige kernfuncties onbruikbaar maakt.
+Allereerst eist de Safari extension store dat alle ontwikkelaars een jaarlijks bedrag betalen om extensies in de store te houden. Het team van Scratch Addons heeft geen inkomstbronnen, wat het lastig maakt om de extensie te onderhouden. Er is ook een technisch probleem met de implementatie van browserextensies in Safari, wat sommige kernfuncties onbruikbaar maakt.
 
-### Kan ik Scratch Addons in de offline-editor gebruiker?
+### Kan ik Scratch Addons in de offline-editor gebruiken?
 
 Scratch Addons kan niet worden gebruikt in de officiële Scratch-applicatie, inclusief de offline-editor.
 
@@ -72,7 +72,7 @@ Ja. Functies gerelateerd aan je Scratchaccount zijn diepgaand beoordeeld door bi
 
 Addons op Scratch Addons zijn ook gecontroleerd door meerdere helpers op het archief, dus niemand kan gewoon stiekem gevaarlijke code gebruiken.
 
-We verzenden nooit vertrouwelijke of persoonlijk identificerende gegevens buiten je browser. Lees [het extensie-privacybeleid](/docs/privacy/policies/extension) voor meer informatie.
+We verzenden nooit vertrouwelijke of persoonlijk identificerende gegevens buiten je browser. Lees [het extensie-privacybeleid](https://scratchaddons.com/docs/policies/privacy/extension/) voor meer informatie.
 
 ## Scratch Addons Gebruiken
 
