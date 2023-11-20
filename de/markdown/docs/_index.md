@@ -11,10 +11,10 @@ Scratch Addons kombiniert neue und ältere Funktionen und Designs für Scratch i
 - Wenn du ein Addon entwickeln möchtest, [beginne auf dieser Seite](develop/getting-started/creating-an-addon).
 - Wenn du mithelfen möchtest, die Erweiterung auf deine Sprache zu übersetzen, [lies diese Seite](localization/joining-the-localization-team).
 - Wenn du Hilfe beim Durchstarten mit Scratch Addons brauchst, [lies idese Seite](getting-started/quick-start).
-- If you are interested in the design of the project, [read this page](reference/design).
-- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Wenn du in das Design des Projekts interessiert bist, [lies diese Seite](reference/design).
+- Hast du einen Vorschlag oder einen Fehler gefunden? Erzähle uns in den [Issues](https://github.com/ScratchAddons/ScratchAddons/issues) davon.
 
-## Contributing
+## Mitwirken
 
 Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
 

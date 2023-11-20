@@ -120,7 +120,7 @@ Um die Easter-Egg-Addons zu enthüllen, mache den Konami-Code (↑↑↓↓←�
 
 Manche unserer Easter-Egg-Addons sind "Katzenblöcke" und "Semikolonfehler". Im [Addons-Tab](/addons) findest du die vollständige Liste.
 
-## Contributing
+## Mitwirken
 
 ### Wie kann ich bei Scratch Addons mitwirken?
 
