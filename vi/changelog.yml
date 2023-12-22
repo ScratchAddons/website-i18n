@@ -99,6 +99,18 @@ v1.21.0:
       Addon mới: "nhân bản tập lệnh bằng phím Alt", bổ sung khả năng sao chép nhanh tập lệnh bằng cách kéo tập lệnh đó trong khi giữ phím Alt. Chuyển đến cài đặt Scratch Addons để bật nó. 
 
       Các addon mới khác được thêm vào bản cập nhật này là "toàn màn hình nâng cao" và "bộ chọn biểu tượng cảm xúc cho nhận xét".
+v1.22.0:
+  Highlights:
+    Description: |
+      Tiện ích bổ sung mới: "chuyển đổi các biến giữa 'Dành cho tất cả các sprite' và 'Chỉ dành cho sprite này'", cho phép thay đổi phạm vi của các biến và danh sách cũng như liệu các biến có được lưu trữ trên đám mây hay không. Đi tới cài đặt Scratch Addons để kích hoạt nó.
+
+      Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "nhận xét của người biên tập tốt hơn", "menu danh mục hai cột" và "thanh tìm kiếm trên Thành Phẩm của Tôi".
+v1.23.0:
+  Highlights:
+    Description: |
+      Tiện ích bổ sung mới: "chế độ tối của trang web và màu sắc có thể tùy chỉnh". Đi tới cài đặt Scratch Addons để thay đổi màu cụ thể, chuyển đổi thanh cuộn tối và hơn thế nữa!
+
+      Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "tập lệnh đính vào lưới", "số khối" và "hình thu nhỏ có độ phân giải cao".
 v1.33.0:
   Highlights:
     Description: |
