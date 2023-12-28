@@ -1,0 +1,22 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: sipulin kuorinta mahdollistaa animoimisen editorissa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+    ImageAlt: Koira asuste-editorissa, jossa sipulin kuorinta on käytössä. Hahmo on peräisin Scratchin hahmokirjastosta.
+v1.6.1:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: heksadesimaalivärinvalitsin helpottaa värien valitsemista. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+v1.7.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: tieto-luokan parannukset -lisäosalla voi erotella listat ja paikalliset muuttujat omiin osioihinsa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita uusia ominaisuuksia: laajennuksen asetusten tuonti ja lataaminen, mukautettavat ponnahdusikkunan välilehdet, lisäosa-asetusten muokkaaminen suoraan laajennuksen ponnahdusikkunasta, erilaisten bugien korjauksia ja paranneltu suorituskyky.
+    ImageAlt: Video esittelee "lohkopaletin automaattinen piilottaminen" -ominaisuutta.
+v1.8.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: lohkopaletin automaattinen piilottaminen piilottaa lohkopaletin, jos hiiren osoitin ei ole sen päällä tai sitä ei napauteta. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Kun "Projektin videonauhuri" -ominaisuus nauhoitti aiemmin ainoastaan videota, nyt se voi nauhoittaa projektista enintään 5 minuutin ajan videota ja ääntä.

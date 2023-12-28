@@ -1,13 +1,166 @@
+Global:
+  ScratchAddons: Scratch-lisäosat
+  LogoAlt: Scratch-lisäosien logo
+  Install: Asenna
+  InstallBrowser:
+    Firefox: Asenna Firefoxille
+    Chrome: Asenna Chromelle
+    Edge: Asenna Edgelle
+  ReadTime:
+    one: "{{.Count}} minuutti"
+    other: "{{.Count}} minuuttia"
+  RSSDescription: "Viimeaikainen sisältö: {{ .SiteName }}"
+  Website: Verkkosivusto
+  Extension: Laajennus
+  Carousel:
+    Prev: Edellinen
+    Next: Seuraava
+    First: Siirry ensimmäiseen
+    Last: Siirry viimeiseen
+    SlideX: Siirry kohtaan {{ .Count }}
 Links:
+  Blog: Blogi
+  Docs: Opas
   Addons: Lisäosat
   Credits: Tekijät
+  PrivacyPolicy: Tietosuojakäytäntö
+  DiscordCom: Yhteisön Discord
+  Discussion: Keskustelufoorumi
+  Community: Yhteisö
+Nav:
+  Feedback: Lähetä palautetta
+  Repository: Säilö
+  RepositoryLabel: Säilö GitHubissa
+  Install: Asenna
+  ToggleNavigation: Avaa valikko
 Footer:
   Pages:
+    Header: Sivut
+    FAQ: UKK
+    Feedback: Lähetä palautetta
     Changelog: Muutosloki
   Discuss:
+    Header: Keskustelu
     Issues: Ongelmat
+    DiscordDev: Kehittäjien Discord
   Resources:
-    Documentation: Dokumentaatio
+    Header: Sisältö
+    Repository: Säilö
+    Documentation: Opas
+  Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Scratch-lisäosien tekijät"
+    NoAffiliation: Scratch-lisäosat ei ole millään tavoin liitooksissa tai virallisesti yhteydessä Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin.
+    License: Scratch-lisäosat on lisensoitu GNU yleisen lisenssin version 3.0 ehtojen mukaisesti.
+  Intro: Tämänhetkisessä versiossa {{ .Version }} on {{ .AddonCount }} lisäosaa.
+DarkTheme:
+  Title: Siirry tummaan tilaan napauttamalla
+  Label: Tumman tilan kytkin
+Docs:
+  SectionSiteName: Scratch-lisäosien opas
+  DocsNav: Oppaan navigointi
+  DocsNavToggleLabel: Avaa oppaan sivupalkki
+  TOC: Sisällys
+  TOCToggleLabel: Avaa sisällysluettelo
+  LastUpdated: "{{.Name}} teki viimeisimmäin muutoksen {{.Date}} pysyvällä muutoksella {{.Commit}}."
+  Improve: Paranna tätä sivua.
+  SectionPages: Osioiden sivut
+PlayerModal:
+  LabelPlay: Toista
+  AltText: Katso video napauttamalla.
 IndexPage:
+  Intro:
+    Tagline: Moniominaisuuksinen selainlaajennus Scratchiin
+    Description: Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uudet ja olemassa olevat ominaisuudet sekä teemat yhdeksi helposti saatavilla olevaksi ja muunneltavaksi selainlaajennukseksi.
+    InstallButton:
+      Loading: Ladataan...
+      Description: ilmainen, avoin lähdekoodi
+    ReadMore: tai lue lisää
+    Carousel:
+      Video:
+        Caption: Traileri.
+      Popup:
+        Caption: Laajennuksen ponnahdusikkuna.
+      Settings:
+        Caption: Asetussivu.
+      Demo:
+        Caption: Havainnollistus laajennuksesta. ({{.Count}})
+    HeroCaption: Selainikkuna, jossa Scratch-lisäosien ponnahdusikkuna on avattuna.
   Features:
+    Heading: Ominaisuudet
     AddonsHeading: Lisäosat
+    AddonsParagraph: Scratch-lisäosat koostuu lisäosista, jotka ovat Scratch-verkkosivuston ja -editorin käyttökokemusta parantavia ominaisuuksia.
+    CustomizableHeading: Säädettävyys
+    CustomizableParagraph: Scratch-lisäosissa on helppokäyttöinen käyttöliittymä jokaisen ominaisuuden ja teeman moninaisten asetusten säätämiseen.
+    InternationalHeading: Kansainvälisyys
+    InternationalParagraph: Kieliä on monia. Scratch-lisäosien alkuperäinen kieli on englanti, mutta se on saatavilla myös suomeksi, espanjaksi, ranskaksi ja monilla muilla kielillä.
+    OSHeading: Avoin lähdekoodi
+    OSParagraph: Scratch-lisäosat on ilmainen, avoimen lähdekoodin projekti, jonka Scratchaajien yhteisö on rakentanut.
+  Highlights:
+    Heading: Esimerkkejä
+    Paragraph: Muista, että nämä ovat vain esimerkkejä lisäosista. {{.OpenTag1}}Niitä on enemmänkin!{{.CloseTag1}}
+  Install:
+    Heading: Asenna
+    Paragraph: Joko olet valmis tehostamaan Scratchia? Tee se nyt!
+    InstallButton:
+      Other: ...tai {{.OpenTag1}}lataa se GitHubista{{.CloseTag1}} tai {{.OpenTag2}}asenna se lähdekoodista{{.CloseTag2}}.
+  Users: käyttäjää
+AddonsPage:
+  EasterEggAddon: Tämä on pääsiäismunalisäosa.
+  RecommendedAddon: Tämä on suositeltu lisäosa.
+  FeaturedAddon: Tämä on esittelyssä oleva lisäosa.
+  BetaAddon: Tämä on beeta-versiossa oleva lisäosa.
+  ListViewLabel: Luettelonäkymä
+  EasterEggLabel: Pääsiäismunat
+  EasterEggTooltip:
+    L1: Käytä Konami Code -yhdistelmää (↑↑↓↓←→←→BA) asetussivulla aktivoidaksesi lisäosat. Lisätietoja löytyy UKK-sivulta.
+    L2: Tämän sivun pääsiäismunalisäosien nimien vieressä on kananmunamerkki.
+  NAddons: "{{.Count}} lisäosaa"
+  SourceCodeLabel: Lähdekoodi GitHubissa
+FeedbackPage:
+  Status:
+    Sending: Lähetetään...
+    Success: Lähetetty! Kiitos palautteesta.
+    Failed: Jokin meni pieleen. Yritetäänkö lähettää uudelleen?
+    Offline: Jokin meni pieleen palautepalvelimella. Yritä myöhemmin uudelleen tai käytä mainittuja vaihtoehtoja.
+  NoAddonsList: Lista ei ole saatavilla lähetettäväksi. Avaa tämä sivu laajennuksen kautta.
+  UsernameLabel: Scratch-käyttäjänimi tai muita tunnuksia (valinnainen)
+  ContentLabel: Palaute
+  ContentPlaceholder: Kuvaile mahdollisimman yksityiskohtaisesti.
+  SendEnabled: Lähetä lista tällä hetkellä käyttössä olevista lisäosistani (suositeltava)
+  SubmitButton: Lähetä
+  PreSendWarning:
+    Warning: "Varoitus:"
+    Override: Jos tahdot aivan varmasti lähettää tämän palautteen, napauta "Lähetä"-painiketta uudelleen.
+    Variations:
+      NotST:
+        Heading: Me emme ole Scratch-tiimi.
+        Description: Muista, että Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Ideat Scratchin käyttökokemuksen parantamisesta Scratch-lisäosilla ovat tervetulleita.
+      Punishment:
+        Heading: Me emme voi rangaista ihmisiä. Me emme ole Scratch-tiimi.
+        Description: Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. {{ .Tag1Start }}On useita tapoja raportoida Scratch-sivustolla.{{ .Tag1End }}
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Messaging -laajennuksen logo
+ChangelogPage:
+  Highlights:
+    Title: Esimerkkejä
+  Links:
+    Title: Linkit
+    ReleaseGitHub: Julkaisusivu GitHubissa
+    RepoState: Säilön tila julkaisussa
+    CommitsMade: Tähän versioon tehdyt pysyvät muutokset
+    BlogPost: Blogipostaus tästä versiosta
+  Status:
+    Latest: Uusin
+    Yanked: Ohitettu
+UnsupportedBrowserPage:
+  Download: Lataa
+  HowToUpdate: Näin päivität
+Blog:
+  SectionSiteName: Scratch-lisäosien blogi
+CreditsPage:
+  NContributors: "{{.Count}} osallistujaa"
+  NProfilePicture: Osallistujan {{.Name}} profiilikuva
+  NCommits: "{{.Count}} pysyvää muutosta"
+Comments:
+  Heading: Kommentit
+  Description: Varmista, että noudatat {{ .OpenTag1 }}käytöskoodia{{ .CloseTag1 }}. Näet tämän kommenttiosion myös{{ .OpenTag2 }}GitHub-keskusteluissa{{ .CloseTag2 }}, joten voit muokata ja poistaa kommentteja.

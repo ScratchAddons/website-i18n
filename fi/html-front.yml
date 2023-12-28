@@ -1,8 +1,29 @@
+_index.html:
+  description: Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uudet ja olemassa olevat ominaisuudet sekä teemat yhdeksi helposti saatavilla olevaksi ja muunneltavaksi selainlaajennukseksi.
 addons.html:
   title: Lisäosat
-  description: Tällä sivulla luetellaan kaikki lisäosat, jotka on toteutettu Scratch-lisäosissa.
+  description: "Tällä sivulla luetellaan kaikki lisäosat, jotka on toteutettu Scratch-lisäosissa."
 changelog.html:
   title: Muutosloki
   description: Kaikki merkittävät muutokset tähän projektiin dokumentoidaan tällä sivulla.
 credits.html:
   title: Tekijät
+  description: "Paljon kiitoksia näille hämmästyttäville ihmisille siitä, että he osallistuivat Scratch-lisäosien, sen ominaisuuksien, teemojen, verkkosivuston yms. tekemiseen projektissa."
+extension-settings.html:
+  title: Scratch-lisäosien asetukset
+  description: "Näin pääset Scratch-lisäosien asetuksiin, vaiheittainen ohje."
+farewell.html:
+  title: Hyvästi!
+  description: Scratch-lisäosat on poistettu. Kiitämme sinua laajennuksen käyttämisestä!
+feedback.html:
+  title: Lähetä palautetta
+  description: Lähetä palautetta Scratch-lisäosien kehittäjille.
+scratch-messaging-transition.html:
+  title: Laajennuksen päivitys (siirtymä)
+  description: "Scratch Messaging -laajennus (griffpatchin tekemä) on päivitetty ja on nyt nimeltään Scratch-lisäosat. Käy katsomassa, miltä uuden muotoilun saanut viestiyhteenveto näyttää, napauttamalla Scratch-lisäosien kuvaketta laajennuspalkissa!"
+unsupported-browser.html:
+  title: Selain ei tueta
+  description: Scratch-lisäosat ei tue käyttämääsi selainta.
+welcome.html:
+  title: Tervetuloa!
+  description: Scratch-lisäosat on asennettu onnistuneesti! Kiitos asentamisesta. Toivottavasti nautit laajennuksesta!
