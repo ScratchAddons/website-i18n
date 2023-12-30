@@ -9,14 +9,14 @@ Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uude
 ## Pikalinkit
 
 - Jos tutkit lisäosan luomista, [aloita tältä sivulta](develop/getting-started/creating-an-addon).
-- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
-- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
-- If you are interested in the design of the project, [read this page](reference/design).
-- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Jos haluat auttaa laajennuksen kotoistamisessa, [lue tämä sivu](localization/joining-the-localization-team).
+- Jos tarvitset apua Scratch-lisäosien käytön aloittamisessa, [lue tämä sivu](getting-started/quick-start).
+- Jos olet kiinnostunut projektin ulkoasusta, [lue tämä sivu](reference/design).
+- Löysitkö bugin? Keksi parannusehdotuksia ja kerro niitä [seikkavälilehdellä](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-## Contributing
+## Osallistuminen
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
+Oppaan tekemiseen osallistuminen on tervetullutta. Voit yksinkertaisesti ilmoittaa siitä käyttämällä [seikkavälilehteä](https://github.com/ScratchAddons/website-v2/issues) tai [palautelomaketta](../feedback). Voit myös korjata virheen muokkaamalla sivua ja luomalla vetopyynnön. Tiedostot sijaitsevat [website-v2-tietosäilön](https://github.com/ScratchAddons/website-v2) [`content/docs`-kansiossa](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Vaihtoehtoisesti pääset <kbd>Paranna sivua</kbd> -linkin kautta muokkaamaan GitHub-sivua.
 
 ## Keskustelu
 

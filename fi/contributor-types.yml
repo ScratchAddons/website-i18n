@@ -12,7 +12,7 @@ eventOrganizing: Tapahtuman järjestäminen
 example: Esimerkit
 financial: Taloudellinen
 fundingFinding: "Rahoituksen löytäminen "
-ideas: Ideat, suunnittelu ja palaute
+ideas: "Ideat, suunnittelu ja palaute"
 infra: Infrastruktuuri
 maintenance: Kunnossapito
 mentoring: Mentorointi
@@ -20,6 +20,7 @@ platform: Pakkaus
 plugin: Plugin/Utility-kirjastot
 projectManagement: Projektinhallinta
 question: Kysymyksiin vastaaja
+review: Vetopyyntöjen tarkastaja
 security: Turvallisuus
 talk: Puheet
 test: Testit

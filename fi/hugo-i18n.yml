@@ -29,8 +29,8 @@ Links:
   Community: Yhteisö
 Nav:
   Feedback: Lähetä palautetta
-  Repository: Säilö
-  RepositoryLabel: Säilö GitHubissa
+  Repository: Tietosäilö
+  RepositoryLabel: Tietosäilö GitHubissa
   Install: Asenna
   ToggleNavigation: Avaa valikko
 Footer:
@@ -45,7 +45,7 @@ Footer:
     DiscordDev: Kehittäjien Discord
   Resources:
     Header: Sisältö
-    Repository: Säilö
+    Repository: Tietosäilö
     Documentation: Opas
   Legal:
     Copyright: "{{ .Copyleft }} {{ .Year }} Scratch-lisäosien tekijät"
@@ -146,7 +146,7 @@ ChangelogPage:
   Links:
     Title: Linkit
     ReleaseGitHub: Julkaisusivu GitHubissa
-    RepoState: Säilön tila julkaisussa
+    RepoState: Tietosäilön tila julkaisussa
     CommitsMade: Tähän versioon tehdyt pysyvät muutokset
     BlogPost: Blogipostaus tästä versiosta
   Status:
