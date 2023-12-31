@@ -20,3 +20,58 @@ v1.8.0:
       Uusi ominaisuus: lohkopaletin automaattinen piilottaminen piilottaa lohkopaletin, jos hiiren osoitin ei ole sen päällä tai sitä ei napauteta. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Kun "Projektin videonauhuri" -ominaisuus nauhoitti aiemmin ainoastaan videota, nyt se voi nauhoittaa projektista enintään 5 minuutin ajan videota ja ääntä.
+v1.9.1:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: näe, kuka rakasti ja valitsi suosikikseen projektisi, Scratch-viestit-lisäosaa käyttäen siirtämällä hiiren osoitin rakastamislaskurin/suosiksi valitsemislaskurin päälle. Studioylennysviestejä tuetaan nyt sekä Scratch-viestit- että Scratch-ilmoitukset-lisäosassa.
+
+      "Lohkopaletin automaattinen piilottaminen" -lisäosassa on nyt "hiirtä pidetään luokan päällä" -tila. "Videonauhuri projekteissa" voi nyt sisällyttää videoon mikrofonisi äänisyötteen.
+    ImageAlt: Näyttökuva Scratch-viestit-ominaisuudesta.
+v1.10.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: "kopioi linkki -painike kommentteihin" -lisäosa lisää "kopioi linkki" -painikkeen kommentteihin, joten voit helposti käyttää linkkiä suoraan tiettyyn kommenttiin. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      "Keskeytä-painike" -lisäosaa on paranneltu ja se ei ole enää beeta-kehitysvaiheessa. Monet tumman tilan bugit on korjattu.
+v1.11.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: "hahmokansiot"-lisäosa mahdollistaa kansioiden lisäämisen niin hahmo-, asuste- kuin äänilistoille. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita esittelyssä olevia, uusia lisäosia ovat \"muuttujien hallinta\" (lisää uuden välilehden editorin viereen muuttujien ja listojen helppoa päivittämistä varten) ja "profiilitilastot".
+v1.12.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: "Tiedoston raahaaminen ja pudottaminen" mahdollistaa kuvien ja äänien raahaamisen tiedostoselaimesta hahmoruutuun tai asuste-/äänilistalle. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen tämän päivityksen esittelyssä oleva, uusi lisäosa on "mukautettava lohkon muoto", joka mahdollistaa Scratch-lohkojen täytteen, reunan säteen ja loven korkeuden säätämisen.
+v1.13.0:
+  Highlights:
+    Description: |
+      Uusi ominaisuus: "editorin tumma tila" on rakennettu uudelleen ja on nyt syvälle mukautettavissa. Muuta tiettyjä värejä, kokeile tummia kommentteja sekä vierityspalkkeja ja paljon muuta siirtymällä Scratch-lisäosien asetuksiin!
+
+      Esittelyssä olevia lisäosia tässä päivityksessä ovat "mukautettava koodialueen lähentäminen" ja "mukautettava uuden hahmon sijainti".
+v1.14.0:
+  Highlights:
+    Description: |
+      Joitain uusia lisäosia tässä päivityksessä ovat "peliohjaintuki", "kissalohkot" ja "poista esiintymislavan kaarevat kulmat". Ota ne käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Tähän päivitykseen sisältyy myös järjestäytyneempi Scratch-lisäosien asetussivu ja parannuksia suorituskyvyssä, kun Scratch-lisäosia käytetään projektieditorissa.
+v1.15.0:
+  Highlights:
+    Description: |
+      Tämän päivityksen uudet lisäosat ovat "lohkojen läpinäkyvyys", "suorita skiptejä Ctrl+Napautus-yhdistelmällä", "älä suorita monistettuja lohkoja automaattisesti" ja "viestisuodattimet". Ota ne käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Tämä päivitys muutti myös Scratch-lisäosat-laajennuksen merkkiä, joka näyttää lukemattomien viestiesi määrän. Palaa vanhaan vihreään väriin tai valitse väri itse siirtymällä Scratch-lisäosien asetuksiin.
+v1.16.0:
+  Highlights:
+    Description: |-
+      Uusi lisäosa: "virheenkorjaus" tuo konsolilokin ja pysäytyspisteet Scratchiin. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen tässä päivityksessä lisätty lisäosa on "laajeneva hakupalkki", joka leventää navigointipalkin hakupalkkia, kun siihen kirjoitetaan.
+v1.17.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "vanha studioasettelu" palauttaa ennen studiopäivitystä käytetyn studiosivun asettelun. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Uusi "selaa seuraajia -painike studioissa" -lisäosa tuo takaisin yhden napautuksen kutsut. Muita tässä päivityksessä lisättyjä lisäosia ovat "HD-kuvien lataaminen" ja "ei-raahattavat hahmot editorissa".
