@@ -8,11 +8,11 @@ Scratch Addons combines new and existing features and themes for the Scratch web
 
 ## Quick links
 
-- If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
-- If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
-- If you need help starting with Scratch Addons, [read this page](getting-started/quick-start).
-- If you are interested in the design of the project, [read this page](reference/design).
-- Found a bug? Have an idea. Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Če vas zanima ustvarjanje dodatka, [začnite na tej strani](develop/getting-started/creating-an-addon).
+- Če bi radi pomagali pri prevajanju razširitve, [preberite to stran](localization/joining-the-localization-team).
+- Če želite začeti uporabljati Scratch Addons in potrebujete pomoč, [preberite to stran](getting-started/quick-start).
+- Če vas zanima oblikovanje projekta, [preberite to stran](reference/design).
+- Ste našli napako? Imate predlog? Povejte nam ga na [zavihku Issues](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Contributing
 
