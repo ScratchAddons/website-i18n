@@ -60,3 +60,9 @@ v1.33.2:
       O Scratch acabou de lançar uma nova atualização que mudou algumas das cores ao redor do website. Se você deseja que suas configurações utilizem as novas cores, volte atrás, você pode resetar ou mudar os temas em Configurações do Scratch Addons.
 
       Os desenvolvedores do Scratch Addons vem trabalhando incansavelmente para suportar essas mudanças, mas você ainda pode experienciar bugs pequenos de vez em quando.
+v1.35.0:
+  Highlights:
+    Description: |
+      Novo addon: "distorção no editor de fantasias", que lhe permite distorcer um objeto ao segurar Ctrl e escalonar aos lados. Vá para as configurações do Scratch Addons para ativar.
+
+      Outro addon recentemente adicionado é "Pré-visualizar instruções e notas do projeto", que permitirá visualizar em seus próprios projetos as instruções e as notas como visto por outros usuários. Haverá um botão acima do campo de Instruções para ativar e desativar a pré-visualização.
