@@ -40,9 +40,27 @@ v1.11.0:
 v1.12.0:
   Highlights:
     Description: |
-      Nieuwe functie: de addon "bestanden slepen en neerzetten", je kunt ermee afbeeldingen en geluiden uit je bestandverkenner naar het spritepaneel of uiterlijk-/geluidslijst slepen. Ga naar Scratch Addons instellingen om het in te schakelen.
+      Nieuwe functie: de addon "bestanden slepen en neerzetten", je kunt ermee afbeeldingen en geluiden uit je bestandverkenner naar het spritepaneel of uiterlijk-/geluidslijst slepen. Ga naar de Scratch Addons-instellingen om het in te schakelen.
 
       Een andere uitgelichte nieuwe addon van deze update is "aanpasbare blokvorm", waarmee je de opvulling, hoekafronding en inkepingshoogte van Scratchblokken kunt aanpassen.
+v1.13.0:
+  Highlights:
+    Description: |
+      Nieuwe functie: "donkere modus in editor" is opnieuw gemaakt en is nu in grote mate aanpasbaar. Ga naar de Scratch Addons-instellingen om specifieke kleuren aan te passen, opmerkingsvelden en scrolbalken donker te kleuren, en meer!
+
+      Uitgelichte nieuwe addons van deze update zijn "aanpasbare zoom in codegebied" en "aanpasbare positie van nieuwe sprite".
+v1.14.0:
+  Highlights:
+    Description: |
+      Een paar nieuwe addons van deze update zijn "gamepad-ondersteuning", "katblokken" en "ronde speelveldrand verwijderen". Ga naar de Scratch Addons-instellingen om ze in te schakelen.
+
+      Ook bevat deze update een meer georganiseerde Scratch Addons-instellingenpagina, evenals prestatieverbeteringen voor gebruik van addons in de projecteditor.
+v1.15.0:
+  Highlights:
+    Description: |
+      Nieuwe addons van deze update zijn "blokdoorzichtigheid", "Ctrl+Klik om scripts uit te voeren", "voer gekopieerde blokken niet automatisch uit" en "berichtfilters". Ga naar de Scratch Addons-instellingen om ze in te schakelen.
+
+      Deze update verandert ook de standaardkleur van de Scratch Addons-extensiebadge die het aantal ongelezen berichten weergeeft. Ga naar de Scratch Addons-instellingen als je de kleur terug wilt veranderen naar groen of wilt veranderen naar iets anders.
 v1.26.0:
   Highlights:
     Description: |
