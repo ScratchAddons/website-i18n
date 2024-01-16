@@ -61,6 +61,35 @@ v1.15.0:
       Nieuwe addons van deze update zijn "blokdoorzichtigheid", "Ctrl+Klik om scripts uit te voeren", "voer gekopieerde blokken niet automatisch uit" en "berichtfilters". Ga naar de Scratch Addons-instellingen om ze in te schakelen.
 
       Deze update verandert ook de standaardkleur van de Scratch Addons-extensiebadge die het aantal ongelezen berichten weergeeft. Ga naar de Scratch Addons-instellingen als je de kleur terug wilt veranderen naar groen of wilt veranderen naar iets anders.
+v1.16.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "debugger", het brengt console-logs en onderbrekingen naar Scratch. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      Een andere nieuwe addon van deze update is "uitrekkende zoekbalk", het maakt de zoekbalk in de navigatiebalk groter wanneer je het selecteert.
+v1.17.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "oude studio-lay-out", het draait de lay-out van de studiopagina terug naar die van voor de studio-update. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+      De nieuwe "volgers browsen in studio's"-addon brengt uitnodigen met één klik terug. Andere nieuwe addons van deze update zijn "HD-afbeeldingen uploaden" en "niet-sleepbare sprites in editor".
+v1.18.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "TurboWarp-knop", het voegt een knop op projectpagina's toe om het project in TurboWarp.org uit te voeren. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      De nieuwe "meer items per rij"-addon laat je meer dan drie projecten per rij in studio's en andere delen van de website weergeven. Andere nieuwe addons van deze update zijn "Ctrl+Enter om te posten" en "aanpasbaar standaardproject".
+v1.19.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "aanpasbare standaardactie voor item toevoegen", het laat je de standaardactie van de "Kies een sprite/uiterlijk/achtergrond/geluid"-knoppen veranderen. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      De nieuwe "scripts in rugzak een naam geven"-addon laat je een naam geven aan scripts die je in de rugzak sleept. Andere nieuwe addons van deze update zijn "verwijderknop verbergen" en "projectstatistieken verbergen".
+v1.20.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "enkel blok slepen met Ctrl-toets", het laat je een enkel blok uit het midden van een script slepen (zonder dat alle blokken eronder ook meegaan) door de Ctrl-toets ingedrukt te houden. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      De "donkere modus en aanpasbare kleuren in editor"-addon heeft een nieuwe "Scratch 2.0"-voorinstelling. Andere nieuwe addons van deze update zijn "nieuwe variabelen verbergen" en "verplaats uiterlijk naar boven of beneden".
 v1.26.0:
   Highlights:
     Description: |
