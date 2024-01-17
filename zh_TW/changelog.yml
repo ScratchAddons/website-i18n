@@ -1,3 +1,33 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      新功能：在編輯器中使用洋蔥皮製作動畫。前往 Scratch Addons 設定以啟用它。
+v1.6.1:
+  Highlights:
+    Description: |
+      新功能：十六進位顏色選擇器，方便選擇顏色。前往 Scratch Addons 設定以啟用它。
+v1.7.0:
+  Highlights:
+    Description: |
+      新功能：資料類別調整，可以選擇將清單和局部變數分成各自的部分。前往 Scratch Addons 設定以啟用它。其他新功能：匯入和匯出擴充設定、自訂彈出式標籤、直接從擴充彈出視窗切換外掛程式、修復各種錯誤並提高效能。
+    ImageAlt: 影片展示了“自動隱藏塊調色板”功能。
+v1.8.0:
+  Highlights:
+    Description: |
+      新功能：自動隱藏區塊調色板，如果未懸停或單擊，則會隱藏區塊調色板。前往 Scratch Addons 設定以啟用它。「錄製專案影片」功能以前只能錄製視頻，現在可以錄製長達 5 分鐘的專案影片和音訊。
+v1.9.1:
+  Highlights:
+    Description: |
+      新功能：透過將滑鼠懸停在喜歡/最喜歡的計數上，查看 Scratch Messaging 中誰喜歡和最喜歡您的項目。Scratch Messaging 和 Scratch Notifier 現在都支援 Studio 促銷訊息。“自動隱藏區塊調色板”外掛程式現在具有“類別懸停”模式。「錄製專案影片」現在可以包含麥克風的聲音輸入。
+    ImageAlt: 新的 Scratch 訊息功能的螢幕截圖。
+v1.10.0:
+  Highlights:
+    Description: |
+      新功能：「複製連結到評論按鈕」插件，為評論添加「複製連結」按鈕，以便您可以輕鬆連結到它們。前往 Scratch Addons 設定以啟用它。「暫停按鈕」外掛程式已改進，現已結束測試版。許多黑暗模式錯誤已修復。
+v1.11.0:
+  Highlights:
+    Description: |
+      新功能：「Scratch資料夾」插件，它將資料夾新增至清單以及服裝和聲音清單。前往 Scratch Addons 設定以啟用它。此更新的其他特色新外掛程式是「變數管理器」（在編輯器旁邊新增一個選項卡，以便輕鬆更新變數和清單）和「設定檔統計」。
 v1.28.0:
   Highlights:
     Description: |
