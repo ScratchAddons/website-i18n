@@ -12,7 +12,7 @@ Scratch Eklentileri, dünyanın dört bir yanındaki gönüllülerin yardımıyl
 ## Bir çevirmen olarak katılmak için gerekenler
 
 * **İNGİLİZCE DİLİNDE AKICI** olmalısınız.
-* Örneğin, eğer Scratch Eklentileri'nin ayarlar sayfasını İngilizce olarak kullanabiliyorsanız veya eğer griffpatch'in videolarını anlayabiliyorsanız İngilizcede akıcısınızdır. Eğer ki cümleleri bir çevirmen olmadan anlamakta zorlanıyorsanız, akıcı değilsinizdir.
+* Örneğin eğer Scratch Eklentileri'nin ayarlar sayfasını İngilizce olarak kullanabiliyorsanız veya griffpatch'in videolarını anlayabiliyorsanız İngilizcede akıcısınızdır. Eğer ki cümleleri bir çevirmen olmadan anlamakta zorlanıyorsanız, akıcı değilsinizdir.
 * Çevirmek istediğiniz dilde **ANA DİLİ SEVİYESİNDE** yetkinliğiniz olmalı.
 * Tercihen haftada en az bir kere kontrol ettiğiniz bir e-posta adresine sahip olmalısınız.
 * [scratch.mit.edu](https://scratch.mit.edu)'da bir hesaba sahip olmalısınız.

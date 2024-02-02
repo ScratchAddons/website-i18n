@@ -132,7 +132,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
   JavaScript, HTML ve CSS hakkında bilginiz varsa hataları düzelterek, ayarlamalar yaparak veya özellikler ekleyerek katkıda bulunabilirsiniz.
 
-  Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request, yani çekme isteği oluşturmanız gerekir. Bunu, [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir çekme isteği oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
+  Değişikliklerinizi ana uzantıya dâhil etmek için bir pull request oluşturmanız gerekir. Bunu, [depoyu](https://github.com/ScratchAddons/ScratchAddons/) çatallayarak, bir dal oluşturarak, gerekli değişiklikleri yaparak ve ardından bir pull request oluşturma seçeneğini bularak yapabilirsiniz. Birleştirilmeden önce gözden geçireceğiz ve büyük olasılıkla bazı değişiklikler yapacağız.
 
   Ayrıca, sitemiz gibi organizasyonun diğer yönlerine de katkıda bulunabilirsiniz. Tüm depolarımızı [GitHub organizasyon sayfamızda](https://github.com/ScratchAddons) görüntüleyebilirsiniz.
 
@@ -150,7 +150,7 @@ Açık kaynak kodlu bir proje olarak her türlü katkıya açığız. Önceden s
 
 - **Belgeleri yazın**
 
-  Scratch Eklentileri'nin iç işleyişine aşina mısınız? Eğer öyleyse, bunun için belgeler yazabilirsiniz. Belgeler [sitemizin deposunda](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) mevcuttur. Bir çekme isteği açmaktan çekinmeyin!
+  Scratch Eklentileri'nin iç işleyişine aşina mısınız? Eğer öyleyse, bunun için belgeler yazabilirsiniz. Belgeler [sitemizin deposunda](https://github.com/ScratchAddons/website-v2/tree/master/content/docs) mevcuttur. Bir pull request açmaktan çekinmeyin!
 
 - **Geri bildirim gönderin**
 

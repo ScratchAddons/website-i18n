@@ -6,7 +6,7 @@ Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğin
 
 
 {{< admonition info >}}
-Geliştirmekte olduğunuz eklentiyi bir çekme isteği olarak GitHub depomuza göndermeyi planlıyorsanız, lütfen ilk önce [katkıda bulunma yönergelerimizi](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) okuyun.
+Geliştirmekte olduğunuz eklentiyi bir pull request olarak GitHub depomuza göndermeyi planlıyorsanız, lütfen ilk önce [katkıda bulunma yönergelerimizi](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) okuyun.
 
 Bu depoda yeni eklenti fikrinizle ilgili mevcut bir GitHub sorunu yoksa, lütfen [bir tane oluşturun](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Ancak, özellik fikrinizle ilgili zaten bir sorun varsa, eklentiyi geliştirme niyetinizi belirten bir yorum bırakmanızı öneririz. Bu, diğer katkıda bulunanların eklentinin kabul edilip edilemeyeceği veya daha fazla tartışma gerekip gerekmediği konusunda geri bildirimde bulunmalarını sağlayacaktır.
 
