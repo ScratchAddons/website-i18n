@@ -6,8 +6,18 @@ Global:
     Firefox: Installer for Firefox
     Chrome: Installer for Chrome
     Edge: Installer for Edge
+  ReadTime:
+    one: "{{.Count}} minutt"
+    other: "{{.Count}} minutter"
+  RSSDescription: Nylig innhold på {{ .SiteName }}
+  Website: Nettsted
+  Extension: Utvidelse
   Carousel:
+    Prev: Tidligere
     Next: Neste
+    First: Gå til første
+    Last: Gå til siste
+    SlideX: Gå til element {{ .Count }}
 Links:
   Addons: Utvidelser
   Discussion: Forum

@@ -75,3 +75,57 @@ v1.17.0:
       Uusi lisäosa: "vanha studioasettelu" palauttaa ennen studiopäivitystä käytetyn studiosivun asettelun. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Uusi "selaa seuraajia -painike studioissa" -lisäosa tuo takaisin yhden napautuksen kutsut. Muita tässä päivityksessä lisättyjä lisäosia ovat "HD-kuvien lataaminen" ja "ei-raahattavat hahmot editorissa".
+v1.18.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "TurboWarp-painike" lisää projektisivuille painikkeen, jolla voi käyttää projektia TurboWarp.org:issa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Uudella "enemmän kohteita rivillä" -lisäosalla voit nähdä enemmän kuin 3 projektia yhdellä rivillä studioissa ja muissa sivuston osissa. Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "lähetä painamalla Ctrl+Enter" ja "mukautettava oletusprojekti".
+v1.19.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "piirrä asuste oletuksena" mahdollistaa "Valitse hahmo/asuste/tausta/ääni" -painikkeiden oletustoiminnon muuttamisen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Uusi "nimeä skripti ennen reppuun laittamista" -lisäosa pyytää sinua nimeämään skriptin reppuun raahaamisen jälkeen. Muita tässä päivityksessä lisättyjä lisäosia ovat "piilota poista-painike" ja "piilota projektitilastot".
+v1.20.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "tartu yksittäiseen lohkoon Ctrl-näppäimellä" lisää mahdollisuuden tarttua yksittäiseen lohkoon keskellä skriptiä (ilman, että kaikki alla olevat lohkot tulevat mukana) pitämällä Ctrl-näppäintä pohjassa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      "Editorin tumma tila ja muokattavat värit" -lisäosalla on uusi "Scratch 2.0" -väriesiasetus. Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "piilota uudet muuttujat" ja "siirrä asuste ylös tai alas".
+v1.21.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "kopioi skripti Alt-näppäimellä" mahdollistaa skriptien kopioimisen nopeasti raahamalla skriptiä ja pitämällä Alt-näppäintä pohjassa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "paranneltu koko näytön tila" ja "emojivalikko kommentteihin".
+v1.22.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "vaihda muuttujia 'Kaikille hahmoille' ja 'Vain tälle hahmolle' -tilojen välillä" mahdollistaa muuttujien ja listojen näkyvyyden muuttamisen pilvimuuttujuudesta riippumatta. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "paremmat editorikommentit", "kahden sarakkeen lohkoluokkavalikko" ja "hakupalkki omissa tavaroissa".
+v1.23.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "verkkosivuston tumma tila ja muokattavat värit". Säädä värejä, ota tummat vierityspalkit käyttöön ja muuta!
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "kiinnitä skriptit ruudukkoon", "lohkomäärä" ja "korkealaatuiset pikkukuvat".
+v1.24.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "mukautettava navigointipalkki" mahdollistaa navingointipalkissa näytettävien linkkien valitsemisen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "mukautettava lohkon tekstityyli", "poista käytöstä hahmon heiluminen hahmoruudussa" ja "etsi hahmoja nimellä". Lisäksi "Scratch 2.0 → 3.0" -lisäosaa on päivitetty vastamaan Scratch 3.0:n ulkoasua.
+v1.25.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "numerokentät värinvalitsimessa" -lisäosalla voi asettaa tarkan arvon (0-100) jokaiselle liukusäätimelle asuste-editorin värinvalitsimessa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "vaakasuuntaiset välilehdet omissa tavaroissa" ja "foorumiviestin live-esikatselu".
+v1.26.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "mukautettavat asuste-editorin oletusvärit" mahdollistaa asuste-editorin käyttämän oletusvärin ja -ääriviivakoon muuttamisen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen tässä päivityksessä lisätty lisäosa on "äänen pituuden näyttäminen", joka näyttää äänen kokonaispituuden ja äänessä tai valinnassa kuluneen ajan.
