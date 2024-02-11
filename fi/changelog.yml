@@ -129,3 +129,21 @@ v1.26.0:
       Uusi lisäosa: "mukautettavat asuste-editorin oletusvärit" mahdollistaa asuste-editorin käyttämän oletusvärin ja -ääriviivakoon muuttamisen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Toinen tässä päivityksessä lisätty lisäosa on "äänen pituuden näyttäminen", joka näyttää äänen kokonaispituuden ja äänessä tai valinnassa kuluneen ajan.
+v1.27.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "piilota esiintymislava ja hahmoruutu" lisää painikkeen, joka piilottaa esiintymislavan ja hahmoruudun, mikä tekee koodialueesta paljon suuremman. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen uusi lisäosa on "projektin ohjainten käänteinen järjestys", joka siirtää vihreän lipun ja pysäytyspainikkeen oikealle ja koko näytön tilan painikkeen vasemmalle, kuten Scratch 2.0:ssa. Nyt voit myös mukauttaa pilvipelivälilehdellä näytettyjä projekteja.
+v1.28.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "vuorottelevat sisäkkäiset lohkovärit" saa saman lohkoluokan sisäkkäin asetettujen lohkojen värit vuorottelemaan kirkkaampien ja tummenpien sävyjen välillä (seepran raidat). Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      "Editorin hakupalkki" ja "siirry mukautetun lohkon määritelmään" -lisäosat, jotka olivat aiemmin osa "kehittäjän työkalut" -lisäosaa, voidaan ottaa nyt erikseen käyttöön.
+v1.29.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "peittävyyssäädin" lisää peittävyyssäätimen asuste-editorin värinvalitsimeen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "äänenvoimakkuussäädin projekteissa", "viestien uudelleennimeäminen" ja "valitse esiintymislavan värejä asuste-editorissa".
