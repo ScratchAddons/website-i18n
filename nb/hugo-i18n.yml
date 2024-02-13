@@ -19,38 +19,91 @@ Global:
     Last: Gå til siste
     SlideX: Gå til element {{ .Count }}
 Links:
+  Blog: Blogg
+  Docs: Dokumenter
   Addons: Utvidelser
+  Credits: Kreditter
+  PrivacyPolicy: Personvernerklæring
+  DiscordCom: Fellesskapets Discord
   Discussion: Forum
+  Community: Fellesskap
 Nav:
   Feedback: Gi tilbakemelding
+  RepositoryLabel: Repository på GitHub
   Install: Installer
+  ToggleNavigation: Toggle navigasjon
 Footer:
   Pages:
     Header: Sider
     Feedback: Send tilbakemelding
     Changelog: Endringslogg
   Discuss:
+    Header: Diskuter
     Issues: Feil
+    DiscordDev: Utviklings-Discord
+  Resources:
+    Header: Ressurser
+    Documentation: Dokumentasjon
   Legal:
+    Copyright: "{{ .Copyleft }} {{ .Year }} Scratch Addons bidragsytere"
     NoAffiliation: Scratch Utvidelser er ikke tilknyttet, assosiert eller på noen måte offisielt forbundet med Scratch-nettstedet eller organisasjonene som vedlikeholder det.
     License: Scratch Utvidelser er lisensiert under GNU General Public License v3.0.
+  Intro: For øyeblikket {{ .Version }} med {{ .AddonCount }} tillegg.
 DarkTheme:
   Title: Klikk til å slå på mørkt tema
+  Label: Mørk tema bytte
+Docs:
+  DocsNav: Dokumentnavigasjon
+  DocsNavToggleLabel: Aktiver navigasjonsmenyen for dokumenter
+  TOC: Innhold
+  TOCToggleLabel: Aktiver nedtrekksmenyen for innholdsfortegnelsen
+  LastUpdated: Sist oppdatert kl {{.Date}} av {{.Name}} på commit {{.Commit}}.
+  Improve: Forbedre denne siden.
+  SectionPages: Seksjon Sider
+PlayerModal:
+  LabelPlay: Spill
+  AltText: Klikk for å se denne videoen.
 IndexPage:
   Intro:
     Tagline: Alt-i-ett nettlesersutvidelse for Scratch
+    Description: Scratch Addons kombinerer nye og eksisterende funksjoner og temaer for Scratch-nettstedet og prosjektredigereren til en enkel og konfigurerbar nettleserutvidelse.
     InstallButton:
       Loading: Laster inn...
       Description: gratis, åpen kilde
+    ReadMore: eller les mer
+    Carousel:
+      Video:
+        Caption: Traileren.
+      Popup:
+        Caption: Utvidelsesvinduet.
+      Settings:
+        Caption: Innstillinger-siden.
+      Demo:
+        Caption: Demonstrasjon av utvidelsen. ({{.Count}})
+    HeroCaption: En nettleservindu med Scratch Addons-popupen blir åpnet.
   Features:
+    Heading: Funksjoner
     AddonsHeading: Utvidelser
+    AddonsParagraph: Scratch Addons består av tillegg, som er funksjoner som kan styrke din Scratch-nettsted og redigeringsopplevelse.
+    CustomizableHeading: Tilpassbar
+    CustomizableParagraph: Scratch Addons har et brukervennlig grensesnitt for å kontrollere ulike innstillinger for hver funksjon og tema.
     InternationalHeading: Internasjonal
     InternationalParagraph: Scratch Utvidelser er ikke bare tilgjenelig på norsk. Scratch Utvidelser er tilgjengelig på spansk, russisk, japansk, fransk og mange flere språk.
     OSHeading: Åpen kilde
     OSParagraph: Scratch Utvidelser er gratis, har åpen kildekode og er bygget av et fellesskap av Scratch-brukere.
+  Highlights:
+    Heading: Høydepunkter
+    Paragraph: Husk, dette er bare høydepunktene. {{.OpenTag1}}Det er mer!{{.CloseTag1}}
   Install:
     Heading: Installer
+    Paragraph: Klar til å forbedre Scratch? Få det nå!
     InstallButton:
       Other: ...eller {{.OpenTag1}}last den ned fra GitHub{{.CloseTag1}} eller {{.OpenTag2}}installer den fra kilden{{.CloseTag2}}.
+  Users: Brukere
 AddonsPage:
   EasterEggAddon: Dette er en easter egg utvidelse.
+  RecommendedAddon: Dette er et anbefalt tillegg.
+  FeaturedAddon: Dette er et utvalgt tillegg.
+ChangelogPage:
+  Highlights:
+    Title: Høydepunkter

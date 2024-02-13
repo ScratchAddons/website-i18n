@@ -16,8 +16,8 @@ Scratch Addons combines new and existing features and themes for the Scratch web
 
 ## Contributing
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
+Bidrag til dokumentasjonen er velkomne. Du kan bruke [fanen for problemer](https://github.com/ScratchAddons/website-v2/issues) eller [tilbakemeldingsskjemaet](../feedback) for å rapportere det enkelt, eller du kan redigere siden og opprette en pull request for å fikse problemet. Filene ligger i [website-v2-repositoriet](https://github.com/ScratchAddons/website-v2), som befinner seg i [mappen `content/docs`](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternativt fører lenken <kbd>Forbedre siden</kbd> deg til redigering av siden på GitHub.
 
-## Discuss
+## Diskuter
 
 Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

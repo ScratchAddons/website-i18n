@@ -1,8 +1,12 @@
+_index.html:
+  description: Scratch Addons kombinerer nye og eksisterende funksjoner og temaer for Scratch-nettstedet og prosjektredigereren til en enkel og konfigurerbar nettleserutvidelse.
 addons.html:
   title: Utvidelser
   description: Denne siden viser alle utvidelser som er implementert på Scratch Utvidelser.
 changelog.html:
   title: Endringslogg
+credits.html:
+  title: Kreditter
 extension-settings.html:
   title: Innstillinger for Scratch Utvidelser
 feedback.html:
