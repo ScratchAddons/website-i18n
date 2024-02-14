@@ -104,6 +104,58 @@ AddonsPage:
   EasterEggAddon: Dette er en easter egg utvidelse.
   RecommendedAddon: Dette er et anbefalt tillegg.
   FeaturedAddon: Dette er et utvalgt tillegg.
+  BetaAddon: Dette er en beta-tillegg.
+  ListViewLabel: Listevisning
+  EasterEggLabel: Påskeegg
+  EasterEggTooltip:
+    L1: For å aktivere tilleggene, gjør Konami-koden (↑↑↓↓←→←→BA) på innstillingssiden. Les FAQ-siden for mer informasjon.
+    L2: På denne siden vil en påskeegg-tillegg ha et egg-symbol ved siden av navnet sitt.
+  NAddons: "{{.Count}} tillegg"
+  SourceCodeLabel: Kildekode på GitHub
+FeedbackPage:
+  Status:
+    Sending: Sender...
+    Success: Sendt! Takk for tilbakemeldingen.
+    Failed: Noe gikk galt. Prøv å sende på nytt?
+    Offline: Noe gikk galt på tilbakemeldingsserveren. Sjekk tilbake senere, eller bruk de nevnte alternativene.
+  NoAddonsList: Listen er ikke tilgjengelig for å bli sendt. Vennligst åpne denne siden gjennom utvidelsen.
+  UsernameLabel: Scratch brukernavn, eller andre identifikatorer (valgfritt)
+  ContentLabel: Tilbakemelding
+  ContentPlaceholder: Vennligst gi så mye detaljer som du kan.
+  SendEnabled: Send liste over mine for øyeblikket aktiverte tillegg (anbefalt)
+  PreSendWarning:
+    Warning: "Advarsel:"
+    Override: Hvis du virkelig er sikker på å sende denne tilbakemeldingen, kan du trykke på "Send" knappen igjen.
+    Variations:
+      NotST:
+        Heading: Vi er ikke Scratch-teamet.
+        Description: Vær oppmerksom på at Scratch Addons ikke er tilknyttet Scratch-nettstedet eller organisasjonene som vedlikeholder det. Du er fortsatt velkommen til å komme med ideer for å forbedre opplevelsen din på Scratch med Scratch Addons.
+      Punishment:
+        Heading: Vi kan ikke straffe folk. Vi er ikke Scratch Team.
+        Description: Scratch Addons er ikke tilknyttet Scratch-nettstedet eller organisasjonene som vedlikeholder det. Vi har ingen kontroll over innholdet og modereringen på Scratch-nettstedet. {{ .Tag1Start }}Det er mange måter du kan rapportere på Scratch-nettstedet.{{ .Tag1End }}
+SMTPage:
+  ScratchMessagingLogoAlt: Scratch Melding Utvidelsen logo
 ChangelogPage:
   Highlights:
     Title: Høydepunkter
+  Links:
+    Title: Lenker
+    ReleaseGitHub: Utgivelsesside på GitHub
+    RepoState: Repositorytilstand ved utgivelse
+    CommitsMade: Commits gjort på denne versjonen
+    BlogPost: Blogginnlegg for denne versjonen
+  Status:
+    Latest: Siste
+    Yanked: Yanket
+UnsupportedBrowserPage:
+  Download: Last ned
+  HowToUpdate: Hvordan oppdatere
+Blog:
+  SectionSiteName: Scratch Utvidelser Blogg
+CreditsPage:
+  NContributors: "{{.Count}} bidragsytere"
+  NProfilePicture: "{{.Name}} profilbilde"
+  NCommits: "{{.Count}} commitser"
+Comments:
+  Heading: Kommentarer
+  Description: Pass på å følge {{ .OpenTag1 }}opptredensreglene{{ .CloseTag1 }}. Du kan se denne kommentarseksjonen på {{ .OpenTag2 }}GitHub-diskusjoner{{ .CloseTag2 }}, samt redigere og fjerne kommentaren din.

@@ -5,14 +5,25 @@ addons.html:
   description: Denne siden viser alle utvidelser som er implementert på Scratch Utvidelser.
 changelog.html:
   title: Endringslogg
+  description: Alle merkbare endringer i dette prosjektet vil bli dokumentert på denne siden.
 credits.html:
   title: Kreditter
+  description: "Mange takk til disse fantastiske menneskene for å bidra til prosjektet ved å jobbe med Scratch Addons, dets funksjoner, dets temaer, dets nettside, osv."
 extension-settings.html:
   title: Innstillinger for Scratch Utvidelser
+  description: "Hvordan få tilgang til Scratch Addons-innstillinger, trinn for trinn."
+farewell.html:
+  title: Farvel!
+  description: Scratch Addons har blitt avinstallert. Vi takker deg for å ha brukt utvidelsen!
 feedback.html:
   title: Send tilbakemelding
+  description: Send tilbakemelding til Scratch Addons-utviklerne.
+scratch-messaging-transition.html:
+  title: Utvidelsesoppdatering (Oversett)
+  description: Scratch Melding Tilleg (av griffpatch) har blitt oppdatert og heter nå Scratch Addons. Klikk på Scratch Addons-ikonet i utvidelseslinjen for å sjekke ut den nye omformulerte meldingssammendraget!
 unsupported-browser.html:
   title: Ustøttet nettleser
+  description: Scratch Utvidelser støtter ikke nettleseren du bruker.
 welcome.html:
   title: Velkommen!
   description: Scratch Utvidelser har blitt installert! Takk at du installerte Scratch Utvidelser!

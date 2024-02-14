@@ -15,7 +15,7 @@ Let's get started by installing Scratch Addons.
 More information can be read on [Installing](../installing).
 
 
-## Getting started
+## Komme i gang
 
 To get started, you need to access the settings page of the addon to see the functions of it.
 

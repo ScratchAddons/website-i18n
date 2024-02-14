@@ -3,24 +3,186 @@ v1.5.0:
     Description: |
       Ny funksjon: løkskall for animasjon i redigeringsprogrammet. Gå til Scratch Addons-innstillinger for å aktivere det.
     ImageAlt: Hund inne i kostymeeditor med løkaktig skallaktivering. Kreditt til Scratch sprite-bibliotek.
+v1.6.1:
+  Highlights:
+    Description: |
+      Ny funksjon: hex fargevelger, for å velge farger enkelt. Gå til Scratch Addons-innstillinger for å aktivere den.
+v1.7.0:
+  Highlights:
+    Description: |
+      Ny funksjon: justeringer av datakategorier, med alternativer for å separere lister og lokale variabler i egne seksjoner. Gå til Scratch Addons-innstillinger for å aktivere det.
+
+      Andre nye funksjoner: import og eksport av utvidelsesinnstillinger, tilpass popupfaner, slå av og på utvidelser direkte fra utvidelsespopupen, rettet diverse feil og forbedret ytelsen.
+    ImageAlt: Video som viser funksjonen "automatisk skjuling av blokkpalett".
+v1.8.0:
+  Highlights:
+    Description: |
+      Ny funksjon: automatisk skjuling av blokkpalett, som skjuler blokkpaletten hvis den ikke er svevet over eller klikket på. Gå til Scratch Addons-innstillingene for å aktivere den.
+
+      Funksjonen "spill inn prosjektvideo" som tidligere bare spilte inn video, kan nå spille inn opptil 5 minutter med prosjektvideo og lyd.
+v1.9.1:
+  Highlights:
+    Description: |
+      Ny funksjon: se hvem som likte og favoriserte prosjektene dine i Scratch Messaging ved å sveve over antall liker/favoritter. Studio fremmende meldinger støttes nå både i Scratch Messaging og Scratch Notifier.
+
+      Tillegget "Auto-hide block palette" har nå en "kategorihover" modus. "Spill inn prosjektvideo" kan nå inkludere lydinngangen fra mikrofonen din.
+    ImageAlt: Skjermbilde av den nye Scratch meldingsfunksjonen.
+v1.10.0:
+  Highlights:
+    Description: |
+      Ny funksjon: "kopier lenke til kommentarknapp" tillegg, som legger til en "kopier lenke" -knapp til kommentarer, slik at du enkelt kan lenke til dem. Gå til Scratch Addons-innstillinger for å aktivere den.
+
+      Tillegget "pauseknapp" ble forbedret og er nå ute av beta. Mange feil i mørk modus er blitt fikset.
+v1.11.0:
+  Highlights:
+    Description: |
+      Ny funksjon: "sprite mapper" tillegg, som legger til mapper i sprite-lister, samt kostyme- og lyd-lister. Gå til Scratch Addons-innstillinger for å aktivere det.
+
+      Andre nye tillegg som er fremhevet i denne oppdateringen er \"variabelbehandler\" (legger til en fane ved siden av redigeringsverktøyet for enkel oppdatering av variabler og lister) og "profilstatistikk".
+v1.12.0:
+  Highlights:
+    Description: |
+      Ny funksjon: "Dra og slipp filer" tillegg, som lar deg dra bilder og lyder fra filutforskeren din inn i sprite panelet eller kostyme/lydlisten. Gå til Scratch Addons-innstillingene for å aktivere det.
+
+      En annen fremhevet ny tillegg i denne oppdateringen er "tilpasset blokkform", som lar deg justere padding, hjørneradius og hakkehøyde for Scratch-blokker.
+v1.13.0:
+  Highlights:
+    Description: |
+      Ny funksjon: "editor dark mode" ble omarbeidet og er nå dypt tilpassbar. Gå til Scratch Addons innstillingene for å endre spesifikke farger, slå av/på mørke kommentarer og rullefelt, og mer!
+
+      Utvalgte nye tillegg i denne oppdateringen er "custom scripts area zoom settings" og "change new sprite default position".
 v1.14.0:
   Highlights:
     Description: |
       Noen nye tillegg i denne oppdateringen er "gamepad-støtte", "katteblokker", "redigerer lydeffekter" og "fjerner buet scenebegrensning". Gå til Scratch Addons-innstillinger for å aktivere dem.
 
       Denne oppdateringen inneholder også en mer organisert side for Scratch Addons-innstillinger, samt forbedringer i ytelsen når du bruker tillegg i prosjektredigereren.
+v1.15.0:
+  Highlights:
+    Description: |
+      Nye tillegg i denne oppdateringen er "blokktransparens", "Ctrl+Klikk for å kjøre skript", "kjør ikke automatisk dupliserte blokker" og "filtrer meldinger på Scratchs meldingsside". Gå til Scratch Addons-innstillinger for å aktivere dem.
+
+      Denne oppdateringen endret også standardfargen på Scratch Addons-utvidelsesmerket som viser antall uleste meldinger. Gå til Scratch Addons-innstillinger for å gå tilbake til den gamle grønne fargen eller tilpasse fargen selv.
+v1.16.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "debugger", som bringer konsolllogger og pauser til Scratch. Gå til Scratch Addons-innstillinger for å aktivere det.
+
+      Et annet nytt tillegg som er lagt til i denne oppdateringen er "utvidbar søkefelt", som gjør søkefeltet på navigasjonslinjen bredere når det er i fokus.
+v1.17.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "gammelt studiooppsett", som reverserer oppsettet på studiosiden tilbake til det som ble brukt før studiooppdateringen. Gå til Scratch Addons-innstillingene for å aktivere det.
+
+      Tillegget "bla gjennom følgere-knappen i studioer" bringer tilbake invitasjoner med ett klikk. Andre nye tillegg som ble lagt til i denne oppdateringen er "HD-bildeopplastinger" og "ikke-dragbare figurer i redigeringsverktøyet".
+v1.18.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "TurboWarp knapp", som legger til en knapp på prosjektsider for å spille av prosjektet på TurboWarp.org. Gå til Scratch Addons innstillingene for å aktivere det.
+
+      Det nye tillegget "flere elementer per rad" lar deg se mer enn 3 prosjekter per rad i studioer og andre deler av nettsiden. Andre nye tillegg som er lagt til i denne oppdateringen er "Ctrl+Enter for å poste" og "tilpassbart standardprosjekt".
+v1.19.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "malerikostyme som standard", som lar deg endre standardhandlingen til "Velg en figur/Kostyme/Bakgrunn/Lyd" knappene. Gå til Scratch-tilleggsinnstillinger for å aktivere det.
+
+      Det nye tillegget "navngi skript før du legger dem i ryggsekken" ber deg om å gi skriptene navn etter at du har dratt dem inn i ryggsekken. Andre nye tillegg som er lagt til i denne oppdateringen er "skjul slett knappen" og "skjul prosjektstatistikk".
+v1.20.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "ta enkeltblokk med Ctrl-tasten", som legger til muligheten til å dra en enkeltblokk ut av midten av en skript (i stedet for hele stabelen som er festet under den) mens du holder nede Ctrl-tasten. Gå til Scratch Addons-innstillingene for å aktivere det.
+
+      Tillegget "redigerer mørk modus og tilpassbare farger" har en ny "Scratch 2.0" fargeinnstilling. Andre nye tillegg som er lagt til i denne oppdateringen er "skjul nye variabler" og "flytt kostyme til toppen eller bunnen".
+v1.21.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "dupliser skript med Alt-tasten", som legger til muligheten til å raskt duplisere et skript ved å dra det mens du holder nede Alt-tasten. Gå til Scratch Addons innstillingene for å aktivere det.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "forbedret fullskjerm" og "emoji velger for kommentarer".
 v1.22.0:
   Highlights:
     Description: |
       Ny tillegg: "bytt variabler mellom 'For alle figurer' og 'Bare for denne figuren'", som lar deg endre omfanget av variabler og lister og om variabler lagres i skyen. Gå til Scratch Addons-innstillingene for å aktivere det.
 
       Andre nye tillegg som er lagt til i denne oppdateringen er "bedre redigeringskommentarer", "to-kolonners kategorimenu" og "søkefelt på Min ting".
+v1.23.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "nettsted mørk modus og tilpassbare farger". Gå til Scratch Addons innstillinger for å endre spesifikke farger, slå av/på mørke rullefelt og mer!
+
+      Andre nye tillegg lagt til i denne oppdateringen er "fest skript til rutenett", "blokkantall" og "høyoppløselige miniatyrbilder".
+v1.24.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "tilpassbar navigasjonslinje", som lar deg velge en liste med lenker som skal vises i navigasjonslinjen. Gå til Scratch Addons innstillingene for å aktivere den.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "tilpassbar blokktekststil", "deaktiver sprite vobling i sprite-ruten" og "søk etter sprites etter navn". I tillegg er tillegget "Scratch 2.0 → 3.0" oppdatert for å passe bedre til Scratch 3.0.
+v1.25.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "fargevelgerinndata", som lar deg angi en nøyaktig verdi (0-100) for hver skyveknapp i kostymeredigeringsfargevelgeren. Gå til Scratch Addons-innstillingene for å aktivere den.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "horisontale faner på Min greier" og "forhåndsvisning av foruminnlegg i sanntid".
+v1.26.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "tilpassbare standardkostyme redigeringsfarger", som lar deg endre standardfargene og konturstørrelsen som brukes av kostyme-redigereren. Gå til Scratch Addons innstillinger for å aktivere det.
+
+      Et annet nytt tillegg som er lagt til i denne oppdateringen er "lydvarighetsvisning", som legger til en visning i lydredigereren som viser total lengde og forløpt tid for lyden, eller utvalget innenfor den.
 v1.27.0:
   Highlights:
     Description: |
       Ny tillegg: "skjul scene og sprite-rute", som legger til en knapp som skjuler scenen og sprite-ruten, og gjør kodeområdet mye større. Gå til Scratch Addons-innstillingene for å aktivere det.
 
       Et annet nytt tillegg er "omvendt rekkefølge på prosjektkontroller", som flytter grønt flagg- og stoppknappene til høyre og fullskjermknappen til venstre, som i Scratch 2.0. Du kan også tilpasse prosjektene som vises på sky-spillfanen nå.
+v1.28.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "vekslende innfelte blokkfarger", som gjør at blokker av samme kategori veksler mellom lysere og mørkere nyanser når de er innfelt i hverandre (zebra-striping). Gå til Scratch Addons innstillingene for å aktivere det.
+
+      Tilleggene "redigeringsverktøylinjen" og "hopp til egendefinert blokkdefinisjon", som tidligere var en del av tillegget "utviklerverktøy", kan nå slås av og på separat.
+v1.29.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "gjennomsiktighetsglider", som legger til en gjennomsiktighetsglider i fargevelgeren for kostymeer i redigeringsverktøyet. Gå til Scratch Addons innstillingene for å aktivere den.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "prosjektvolumglider", "endre navn på kringkastinger" og "velg scenefarger i kostymeer i redigeringsverktøyet".
+v1.30.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "kostymeeditor for tilpasning", som lar deg feste objekter i kostymeeditoren til avgrensingsbokser og vektornoder. Gå til Scratch Addons innstillinger for å aktivere det.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "sammenfallende egenskaper for sprite", "sett inn blokker etter navn" og "alltid vis talltastatur".
+v1.31.0:
+  Highlights:
+    Description: |
+      "insert blocks by name" tillegget ble fullstendig omarbeidet. Du kan nå skrive inn inndata og rapportører inne i andre blokker, og bruke automatisk utfylling ved å bruke Tab-tasten. Gå til Scratch Addons innstillingene for å aktivere det.
+
+      De nye tilleggene som ble lagt til i denne oppdateringen er "flere rader i ryggsekken", "kopier rapportørverdier" og "del gjennom Mine ting".
+v1.32.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "flytt sprite til fremre lag", som lar deg Shift+Klikk en sprite innenfor sprite-panelet for å flytte den til fronten (øverste lag) av scenen. Gå til Scratch Addons innstillinger for å aktivere det.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "raskere prosjektlasting", "følg emner etter innlegg", "necropost markør" og "husk sammenfoldede forumkategorier".
+v1.33.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "highlight prosjektskaper i kommentarer", som legger til en merkelapp ved siden av prosjektskaperen i prosjektkommentarseksjonene. Gå til Scratch Addons innstillingene for å aktivere det.
+
+      Flere tillegg er justert i forberedelse til de kommende Scratch-endringene. Denne oppdateringen bringer også forbedringer i ytelse og stabilitet.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch har nettopp gitt ut en oppdatering som endrer noen av fargene på nettsiden. Hvis du ønsker å oppdatere innstillingene dine for å bruke disse nye fargene, kan du gå tilbake eller tilpasse fargene på annen måte ved å tilbakestille eller endre temaer fra Scratch Addons innstillingene.
+
+      Utviklerne av Scratch Addons har jobbet hardt for å støtte endringene, men du kan fortsatt oppleve små feil en stund.
+v1.34.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "piltast økning i redigeringsprogrammet", som lar deg bruke opp- og nedpiltastene for å øke eller redusere tallverdier i blokkinndata. Gå til Scratch Addons innstillingene for å aktivere det.
+
+      Et annet nytt tillegg er temaet "kompakt redigeringsprogram", som reduserer størrelsen på knapper, inndatafelt, menylinjen og andre elementer i redigeringsprogrammet, og gir mer plass til komponenter som kodeområdet, kostymeredigeringsprogrammet og kostymeforhåndsvisninger, slik det var i Scratch 2.0.
 v1.35.0:
   Highlights:
     Description: |
