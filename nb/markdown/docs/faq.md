@@ -120,7 +120,7 @@ To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA)
 
 Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-## Contributing
+## Bidrar
 
 ### How can I contribute to Scratch Addons?
 
