@@ -190,3 +190,9 @@ v1.35.0:
       New addon: "skewing in costume editor", which lets you hold Ctrl while scaling an object on its sides to skew it. Go to Scratch Addons settings to enable it.
 
       Another new addon is "preview project instructions and notes", which in your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.
+v1.36.0:
+  Highlights:
+    Description: |
+      New addon: "rearrangeable custom block inputs", which allows rearranging custom block parameters on the "Make a block" screen. Go to Scratch Addons settings to enable it.
+
+      Other new addons added this update are "customizable menu bar", "place backpack code at mouse", and "square block text inputs".
