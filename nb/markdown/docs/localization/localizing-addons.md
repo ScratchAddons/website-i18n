@@ -25,9 +25,9 @@ Under `addons-l10n/nb/`, lag en fil med navnet `ADDONID.json`, der ADDONID er ti
 Noen ganger trenger meldinger å ha ting som genereres dynamisk. For eksempel antall katter eller inndata. For å håndtere dette kan du bruke plassholdere som `{placeholderName}`. Plassholderens navn bør kun inneholde bokstaver (ingen tall).
 
 ### Flertall
-What if the placeholder is a number? We can use plurals like `{placeholderName, plural, one {when there is one thing} other {when there are # things}}`. If the placeholder is 1, it will show "when there is one thing", otherwise it says "when there are (placeholder) things".
+Hva om plassenholderen er et tall? Vi kan bruke flertall som `{placeholderName, plural, one {når det er én ting} other {når det er # ting}}`. Hvis plassenholderen er 1, vil det vise "når det er én ting", ellers sier det "når det er (placeholder) ting".
 
-### Developer comments
+### Utviklerkommentarer
 
 Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
 
