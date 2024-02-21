@@ -1,9 +1,9 @@
 ---
 title: Feilsøkingstips
-description: Tips to easily debug userscripts, and edge cases to consider.
+description: Tips for enkel feilsøking av brukerskript, og kanttilfeller å vurdere.
 ---
 
-Tips to easily debug userscripts, and edge cases to consider.
+Tips for enkel feilsøking av brukerskript, og kanttilfeller å vurdere.
 
 ## Tips
 
@@ -11,7 +11,7 @@ Tips to easily debug userscripts, and edge cases to consider.
 
 Det er ikke nødvendig å laste inn utvidelsen på nytt ved å gå til `chrome://extensions` når du endrer kilden til allerede eksisterende JavaScript- eller CSS-filer. I slike tilfeller er det nok å laste inn siden på nytt.
 
-### Use the addon.* API from the console
+### Bruk addon.* API fra konsollen.
 
 For development, you may choose to expose the `addon` object as a global variable, so that it can be accessed within the browser console.
 

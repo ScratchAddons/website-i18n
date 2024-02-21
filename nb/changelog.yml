@@ -189,3 +189,9 @@ v1.35.0:
       Ny tillegg: "skjevning i kostymeeditor", som lar deg holde nede Ctrl mens du skalerer et objekt på sidene for å skjevne det. Gå til Scratch Addons-innstillinger for å aktivere det.
 
       Et annet nytt tillegg er "forhåndsvisningsprosjektinstruksjoner og notater", som i dine egne prosjekter legger til en bryter over instruksjonsfeltet for å forhåndsvise prosjektinstruksjoner og notater slik de blir sett av andre brukere.
+v1.36.0:
+  Highlights:
+    Description: |
+      Ny tillegg: "omarrangerbare tilpassede blokkinndata", som lar deg omarrangere tilpassede blokkparametere på "Lag en blokk"-skjermen. Gå til Scratch Addons-innstillinger for å aktivere det.
+
+      Andre nye tillegg som er lagt til i denne oppdateringen er "tilpassbar menylinje", "plasser ryggsekkode ved musen" og "firkantete blokktekstinndata".

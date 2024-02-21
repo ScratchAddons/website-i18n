@@ -1,36 +1,36 @@
 ---
-title: Best Practices
-description: Follow these best practices when writing or reviewing userstyles.
+title: Beste praksis
+description: Følg disse beste praksisene når du skriver eller gjennomgår brukerstiler.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Følg disse beste praksisene når du skriver eller gjennomgår brukerstiler.
 
 
-<!-- TODO: ## Addon dark mode support -->
-<!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
+<!-- TODO: ## Legg til støtte for mørk modus -->
+<!-- Eksempler på referanse til CSS-variabler fra editor-dark-mode, dark-www og scratchr2 -->
 
 
-## Internationalization
+## Internasjonalisering
 
-### Consider languages with longer words
+### Vurder språk med lengre ord
 
 Husk at i noen språk kan brukergrensesnittselementer som knapper være smalere eller bredere.
 
-<!-- TODO: ### Supporting right-to-left languages (RTL) -->
+<!-- TODO: ### Støtte for høyre-til-venstre-språk (RTL) -->
 
 
-## Styling existing Scratch UI
+## Styling eksisterende Scratch UI
 
 
-### Avoid targeting hashed class names
+### Unngå å målrette hasjede klasse navn
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
+Scratch-prosjektredigereren inneholder vanligvis klassenavn som følger formatet `class_name_{hash}`. For eksempel, `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+Som hashene kan endre seg i fremtiden og kan variere mellom Scratch-gafler, bør du unngå å bruke dem i brukerstiler.
 
 {{< admonition error >}}
 ```css
-/* Don't do this: */
+/* Ikke gjør dette: */
 .green-flag_green-flag_1kiAo {
   visibility: hidden;
 }
@@ -39,30 +39,30 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 {{< admonition success >}}
 ```css
-/* Do this instead: */
+/* Gjør dette i stedet: */
 [class*="green-flag_green-flag_"] {
   visibility: hidden;
 }
 ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Unngå `!important` med mindre det er helt nødvendig
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
-<!-- This could be more detailed -->
-
-
-## Styling addon UI elements
+Hvis mulig, bruk [CSS spesifisitet](https://web.dev/learn/css/specificity/) funksjoner for å gjøre dine selektorer mer spesifikke, i stedet for å bruke `!important`.
+<!-- Dette kan være mer detaljert -->
 
 
-### Begin addon-defined class names with `sa-`
+## Styling tillegg UI-elementer
+
+
+### Begynn tilleggsdefinerte klassenavn med `sa-`
 
 {{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
+Vi bruker alltid `kebab-case` når vi definerer våre egne klasse navn.
 {{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+Vi anbefaler at klasse navn definert av tillegget begynner med `sa-` for å unngå potensielle navnekonflikter med Scratch eller andre utvidelser.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+Det anbefales også å inkludere tilleggs-IDen (eller deler av den) i klassenavnet.
 
-<!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->
+<!-- TODO: ### forklar bruken av z-indeks i Scratch-redigereren og relaterte konsepter -->

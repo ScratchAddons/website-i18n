@@ -9,14 +9,14 @@ Under `addons-l10n/nb/`, lag en fil med navnet `ADDONID.json`, der ADDONID er ti
 
 ```json
 {
-  "ADDONID/meow": "Meow",
-  "ADDONID/cats": "{number, plural, one {1 cat} other {# cats}}",
-  "ADDONID/eat": "I want to eat {food}!",
-  "ADDONID/salmon": "salmon",
-  "ADDONID/sardine": "sardine",
+  "ADDONID/meow": "Mjau",
+  "ADDONID/cats": "{number, plural, one {1 katt} other {# katter}}",
+  "ADDONID/eat": "Jeg vil spise {food}!",
+  "ADDONID/salmon": "laks",
+  "ADDONID/sardine": "sardin",
   "ADDONID/move-steps": {
-    "string": "move {number} steps",
-    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+    "string": "gå {number} steg",
+    "developer_comment": "Vennligst oversett dette for å matche Scratchs offisielle oversettelse for blokken."
   }
 }
 ```
@@ -29,33 +29,33 @@ Hva om plassenholderen er et tall? Vi kan bruke flertall som `{placeholderName, 
 
 ### Utviklerkommentarer
 
-Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
+Transifex vil vise utviklerkommentaren når en oversetter har valgt den angitte strengen. Disse kommentarene brukes vanligvis til å be om en spesifikk oversettelse av strengen eller for å gi tilleggsinformasjon for språk som ikke skiller mellom store og små bokstaver.
 
-## Using the translations
-Change your userscript's first line from something like:
+## Bruk av oversettelsene
+Endre første linje i brukerskriptet ditt fra noe slikt:
 ```
 export default async function ({ addon, console }) {
 ```
 
-to:
+til:
 ```
 export default async function ({ addon, console, msg }) {
 ```
 
-The `msg` added is the function you use to get translations. For example, `text = "Meow"` can now be `text = msg("meow")`. The addon ID and the slash is omitted.
+`msg` er funksjonen du bruker for å få oversettelser. For eksempel kan `text = "Meow"` nå være `text = msg("meow")`. Addon-ID-en og skråstreken er utelatt.
 
 ### Plassholdere
-You can provide placeholder values:
+Du kan gi plassholderverdier.
 ```js
-cat = msg("cats", {number: 1}) // shows "1 cat"
-cats = msg("cats", {number: 3}) // shows "3 cats"
-hungry = msg("eat", {food: "cod"}) // shows "I want to eat cod!"
+katt = msg("katter", {number: 1}) // viser "1 katt"
+katter = msg("katter", {number: 3}) // viser "3 katter"
+sulten = msg("spise", {food: "torsk"}) // viser "Jeg vil spise torsk!"
 ```
 
-You can also "nest" messages:
+Du kan også "nest" meldinger.
 ```js
-hungry2 = msg("eat", {food: msg("salmon")}) // shows "I want to eat salmon!"
+hungry2 = msg("spis", {mat: msg("laks")}) // viser "Jeg vil spise laks!"
 ```
 
-### Safety
-If you are writing raw HTML, `msg` should be replaced with safer version of `safeMsg`.
+### Sikkerhet
+Hvis du skriver rå HTML, bør `msg` erstattes med en tryggere versjon av `safeMsg`.
