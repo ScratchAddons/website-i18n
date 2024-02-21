@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Blocs chat",
 		"description": "Ramener les blocs à tête de chat du poisson d'avril de 2020 dans l'éditeur.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -325,8 +325,8 @@
 	},
 	{
 		"id": "collapse-footer",
-		"name": "Sticky footer",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"name": "Pied de page collant",
+		"description": "Fait légèrement ressortir le pied de page du site web en bas de la fenêtre et l'agrandit lorsqu'on le survole, ce qui permet d'y accéder rapidement à partir de n'importe quel endroit de la page. Faisait précédemment partie de \"Scrolling infini\".",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Style de lien personnalisable",
 		"description": "Permet de personnaliser le style des liens sur le site web.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "Nous souhaitons étendre cet addon avec d'autres fonctionnalités d'accessibilité à l'avenir. Vous pouvez nous envoyer vos commentaires en allant sur scratchaddons.com/feedback ou en cliquant sur \"Envoyer des commentaires\" dans la barre latérale."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
-		"name": "Menu catégorie à deux colonnes",
+		"name": "Menu de catégories à deux colonnes",
 		"description": "Divise le menu des catégories de blocs en deux colonnes et le déplace vers le haut de la palette de blocs, comme dans Scratch 2.0",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -572,8 +566,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Style de texte des blocs personnalisés",
-		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Permet de personnaliser le style du texte des blocs, notamment en ajustant la taille, en utilisant du texte en gras ou en ajoutant une ombre.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -588,6 +582,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Barre de menu personnalisable",
+		"description": "Permet de masquer des éléments spécifiques de la barre de menu de l'éditeur ou de supprimer leurs étiquettes ou icônes.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "The text labels may be automatically replaced by icons on smaller windows."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -767,8 +798,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Désactiver l'oscillation des sprites dans le volet des sprites",
-		"description": "Autorise le déplacement des scripts, des costumes et des sons vers différents sprites sans que les sprites ne se déplacent dans le volet des sprites.",
+		"name": "Correction du bug du panneau des sprites",
+		"description": "Corrige un bug dans l'éditeur Scratch où les scripts, les costumes et les sons ne peuvent pas être glissés et déposés dans les sprites sans que ceux-ci ne bougent à l'intérieur de leur panneau.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -896,6 +927,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Pour masquer les icônes de la barre de menu, utilisez l'addon \"Barre de menu personnalisable\"."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -991,7 +1028,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Incrémentation avec les touches fléchées dans l'éditeur",
-		"description": "Use the up and down arrow keys to increase or decrease number values in numeric input fields such as those in blocks or the sprite properties area.",
+		"description": "Utilisez les touches fléchées haut et bas pour augmenter ou diminuer les valeurs des champs de saisie tels que ceux des blocs ou de la zone de propriétés des sprites.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1011,8 +1048,8 @@
 	},
 	{
 		"id": "editor-random-direction-block",
-		"name": "Point towards random direction block",
-		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"name": "Bloc pour s'orienter vers une direction aléatoire",
+		"description": "Ajoute une option \"direction aléatoire\" au bloc \"s'orienter vers ()\" qui fait pointer le sprite dans une direction aléatoire. Cela fonctionnera pour tous ceux qui utilisent le projet.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
@@ -1048,6 +1085,16 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.14.0"
+	},
+	{
+		"id": "editor-square-inputs",
+		"name": "Entrées de blocs de texte carrées",
+		"description": "Rendre les entrées de blocs de texte et de couleur rectangulaires au lieu de carrées comme dans Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
 	},
 	{
 		"id": "editor-stage-left",
@@ -1099,14 +1146,14 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Les nouvelles couleurs de bloc à fort contraste sont disponibles sous forme de préréglage ci-dessous."
+				"text": "Les nouvelles couleurs de bloc à contraste élevé sont disponibles sous forme de préréglage ci-dessous."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1379,7 +1426,7 @@
 		"id": "forum-time-zones",
 		"name": "Utiliser le fuseau horaire local dans les forums",
 		"description": "Utilise votre fuseau horaire local pour afficher les dates et heures de publication sur les forums.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1441,6 +1488,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1481,7 +1533,7 @@
 		"tags": ["editor", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Conseil : si vous supprimez accidentellement un sprite, un costume ou un son, vous pouvez annuler la suppression en cliquant sur Édition dans la barre de menus, puis sur Restaurer.",
 				"id": "restoretip"
 			}
 		],
@@ -1514,11 +1566,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1605,8 +1653,15 @@
 		"id": "image-uploader",
 		"name": "Importateur d'images sur les forums",
 		"description": "Ajoute un bouton pour importer et insérer directement des images sur les messages des forums.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1620,7 +1675,11 @@
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2091,7 +2150,7 @@
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"info": [
 			{
-				"text": "On macOS, use the Command key instead of the Control key and the Option key instead of the Alt key.",
+				"text": "Sur macOS, utilisez la touche Commande au lieu de la touche Contrôle et la touche Option au lieu de la touche Alt.",
 				"id": "useCmdOnMac"
 			}
 		],
@@ -2141,10 +2200,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Place backpack code at mouse",
+		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
-		"name": "Preview project instructions and notes",
-		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"name": "Prévisualiser les instructions et les notes d'un projet",
+		"description": "Dans vos propres projets, ajoute un bouton au-dessus du champ Instructions pour prévisualiser les instructions et les notes du projet telles qu'elles sont vues par les autres utilisateurs.",
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2283,7 +2353,7 @@
 		"tags": ["editor", "recommended"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Conseil : si vous supprimez accidentellement un sprite, un costume ou un son, vous pouvez annuler la suppression en cliquant sur Édition dans la barre de menus, puis sur Restaurer.",
 				"id": "restoretip"
 			}
 		],
@@ -2309,10 +2379,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Rearrangeable custom block inputs",
+		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Formulaire de commentaire redimensionnable",
 		"description": "Fait en sorte que la zone d'écriture de commentaire puisse être redimensionnable dans les pages en style Scratch 3.0.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2668,22 +2754,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Masquer le bouton Tutoriels",
-		"description": "Masque le bouton Tutoriels dans la barre de menus de l'éditeur.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

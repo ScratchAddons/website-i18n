@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Modo 60FPS de reproductor de proyectos",
-		"description": "Presione Alt+Click sobre la bandera verde para activar o desactivar el modo 60FPS.",
+		"name": "Modo mayor velocidad de fotogramas (FPS) en proyectos",
+		"description": "Le permite ejecutar proyectos a más cuadros por segundo (FPS) para que se vean más fluidos. Mantenga presionada la tecla Alt y haga click en la bandera verde para alternar entre los 30 FPS predeterminados de Scratch y una velocidad de fotogramas personalizada configurada debajo.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "La mayoría de los proyectos no se comportarán correctamente cuando se ejecuten a 60 FPS, porque aumentar la velocidad de fotogramas también aumenta la velocidad a la que se ejecutan los scripts. Este modo solo debería usarse en proyectos que admitan 60FPS.",
+				"text": "Cambiar la velocidad de los proyectos también afecta la velocidad a la que se ejecuta código (como los bucles), por lo que la mayoría de los proyectos no se comportarán correctamente cuando se ejecuten a una velocidad de fotogramas diferente. Las velocidades de fotogramas más altas solo deben usarse en proyectos diseñados para admitirlas.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Cat blocks",
 		"description": "Regresa los cat blocks del editor, lanzados inicialmente en April Fools 2020.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Estilo de enlaces personalizado",
 		"description": "Le permite personalizar el estilo de los enlaces en el sitio web.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "Queremos expandir este addon con otras funciones de accesibilidad en el futuro. Nos puede mandar sus comentarios yendo a scratchaddons.com/feedback o haciendo click en \"Enviar comentarios\" en la barra lateral."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Menú de categorías de dos columnas",
 		"description": "Divide el menú de categorías de bloques en dos columnas y lo mueve a la cima de la paleta de bloques, como en Scratch 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -569,8 +563,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Estilo de texto de bloques personalizado",
-		"description": "Permite ajustar el tamaño y grosor del texto en los bloques o agregarle una sombra para facilitar la lectura.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Le permite personalizar el estilo del texto en los bloques, como ajustar el tamaño, usar texto en negrita o agregar una sombra.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -585,6 +579,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Barra de menú personalizable",
+		"description": "Permite esconder ciertos elementos de la barra de menú del editor, y quitar sus etiquetas o íconos.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "La función \"Esconder botón Tutoriales\" se ha movido aquí como un ajuste."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "Las etiquetas de texto pueden ser reemplazadas automáticamente por íconos en ventanas pequeñas."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -893,6 +924,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Para esconder los íconos del menú, use la función \"Barra de menú personalizable\"."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1047,6 +1084,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Campos de texto cuadrados en bloques",
+		"description": "Hace que las entradas de texto y color en bloques sean rectangulares en lugar de redondas, como en Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Mostrar escenario del lado izquierdo",
 		"description": "Mueve el escenario al lado izquierdo del editor, como en Scratch 2.0.",
@@ -1103,7 +1150,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1376,7 +1423,7 @@
 		"id": "forum-time-zones",
 		"name": "Zona horaria local en foros",
 		"description": "Usa su zona horaria local al mostrar fechas y horas de publicación en los foros.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1438,6 +1485,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1511,11 +1563,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1602,8 +1650,15 @@
 		"id": "image-uploader",
 		"name": "Subida de imágenes a los foros",
 		"description": "Agrega un botón para subir e insertar imágenes directamente a publicaciónes de los foros.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1617,7 +1672,11 @@
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2135,10 +2194,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Colocar código de la mochila sobre el cursor",
+		"description": "Arrastre y suelte bloques de código en la posición del mouse, en vez de hacerlo en la esquina del área de código.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Vista previa de instrucciones y notas en proyectos",
 		"description": "En sus propios proyectos, agrega un bóton encima del campo Instrucciones para obtener una vista previa de las instrucciones y notas del proyecto tal como las ven otros usuarios.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2303,10 +2373,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Entradas de bloques personalizados reorganizables",
+		"description": "Permite reordenar los parámetros de bloques personalizados en la pantalla \"Crear un bloque\".",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Caja de comentarios ajustable",
 		"description": "Hace que la caja donde se escriben los comentarios sea verticalmente ajustable en páginas con estilos de Scratch 3.0.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2662,22 +2748,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Esconder botón Tutoriales",
-		"description": "Esconde el botón Tutoriales en la barra de menú del editor.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

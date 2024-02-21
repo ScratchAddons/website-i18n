@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS način v predvajalniku projektov",
-		"description": "Alt+kliknite zeleno zastavico, da vključite ali izključite 60FPS.",
+		"name": "Higher project framerate mode",
+		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Večina projektov v načinu 60FPS ne deluje pravilno, ker večje število sličic na sekundo poveča tudi hitrost skript. Način 60FPS uporabljajte samo v projektih, ki ga podpirajo.",
+				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Mačji bloki",
 		"description": "V urejevalnik znova doda mačje bloke, ki so običajne bloke za dogodke prvič zamenjali za prvi april leta 2020.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Prilagoditev sloga povezav",
 		"description": "Prilagodite videz povezav na spletni strani.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "Ta dodatek bi radi v prihodnosti razširili z drugimi možnostmi, ki izboljšajo dostopnost. Predloge nam lahko pošljete na scratchaddons.com/feedback ali s povezavo \"Povratne informacije\" v stranski vrstici."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Seznam kategorij z dvema stolpcema",
 		"description": "Razdeli seznam kategorij blokov na dva stolpca in ga premakne na vrh palete blokov, kot v Scratchu 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -572,8 +566,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Prilagoditev sloga besedila blokov",
-		"description": "Omogoči, da prilagodite velikost in debelino besedila na blokih ali mu dodate senco, da je lažje berljivo.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Omogoči, da prilagodite slog besedila na blokih. Spremenite lahko velikost, uporabite krepko besedilo ali dodate senco.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -588,6 +582,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Prilagoditev menijske vrstice",
+		"description": "Omogoči, da skrijete posamezne predmete v menijski vrstici urejevalnika ali odstranite njihove oznake ali ikone.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "Dodatek \"Skrij gumb Vadnice\" je zdaj na voljo tukaj kot nastavitev."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "Besedilne oznake bodo v majhnih oknih samodejno zamenjane z ikonami."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -896,6 +927,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Za skrivanje ikon v menijski vrstici uporabite dodatek \"Prilagoditev menijske vrstice\"."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1050,6 +1087,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Kvadratna polja za vnos besedila v bloke",
+		"description": "Okrogla polja za vnos besedila in izbiro barv na blokih naredi pravokotna, kot v Scratchu 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Pokaži oder na levi strani",
 		"description": "Premakne oder na levo stran urejevalnika, kot v Scratchu 2.0.",
@@ -1106,7 +1153,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1379,7 +1426,7 @@
 		"id": "forum-time-zones",
 		"name": "Krajevni časovni pas v forumih",
 		"description": "Uporabi vaš časovni pas za prikaz datuma in časa objave v forumih.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1441,6 +1488,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1514,11 +1566,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1605,8 +1653,15 @@
 		"id": "image-uploader",
 		"name": "Nalaganje slik v forumih",
 		"description": "Doda gumb, ki naloži sliko in jo vstavi neposredno v objavo v forumu.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1620,7 +1675,11 @@
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2141,10 +2200,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Postavi kodo iz shrambe zraven miške",
+		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Predogled navodil in opomb projekta",
 		"description": "Nad poljem Navodila na straneh vaših projektov doda stikalo, ki prikaže navodila in opombe projekta, kot jih bodo videli drugi uporabniki.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2309,10 +2379,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Spremenljiv vrstni red vnosov",
+		"description": "Omogoči spremembo vrstnega reda parametrov v oknu \"Ustvari blok\".",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Spremenljiva velikost polja za komentar",
 		"description": "Omogoči spreminjanje višine polja za komentar na straneh, ki izgledajo kot Scratch 3.0.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2668,22 +2754,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Skrij gumb Vadnice",
-		"description": "Skrije gumb Vadnice v menijski vrstici urejevalnika.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

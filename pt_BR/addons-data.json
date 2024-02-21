@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Blocos de gato",
 		"description": "Brings back editor cat hat blocks that were first introduced for April Fools' Day 2020.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Customizable link style",
 		"description": "Lets you customize the style of links around the website.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "We want to expand this addon with other accessibility features in the future. You can send us your feedback by going to scratchaddons.com/feedback or clicking \"Send Feedback\" on the sidebar."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Menu de categoria de duas colunas",
 		"description": "Divide o menu de categorias em duas colunas e o move para o topo da paleta de blocos, assim como no Scratch 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -569,8 +563,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Mudar estilo de texto dos blocos",
-		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Lets you customize the style of text on blocks, including adjusting the size, using bold text, or adding a shadow.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -585,6 +579,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Customizable menu bar",
+		"description": "Allows you to hide specific editor menu bar items or remove their labels or icons.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "The text labels may be automatically replaced by icons on smaller windows."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -893,6 +924,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "To hide menu bar icons, use the \"Customizable menu bar\" addon."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1047,6 +1084,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Square block text inputs",
+		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Mostrar palco no lado esquerdo",
 		"description": "Move o palco para o lado esquerdo do editor, como no Scratch 2.0.",
@@ -1103,7 +1150,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1376,7 +1423,7 @@
 		"id": "forum-time-zones",
 		"name": "Fuso-horário local nos fóruns",
 		"description": "Usa seu fuso-horário local nas datas e horários de postagem no fórum.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1438,6 +1485,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1511,11 +1563,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1602,8 +1650,15 @@
 		"id": "image-uploader",
 		"name": "Envio de imagens para os fóruns",
 		"description": "Adiciona um botão para diretamente carregar e inserir imagens em postagens no fórum.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1617,7 +1672,11 @@
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2135,10 +2194,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Place backpack code at mouse",
+		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Preview project instructions and notes",
 		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2303,10 +2373,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Rearrangeable custom block inputs",
+		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Área de comentário redimensionável",
 		"description": "Te deixa mudar o tamanho vertical da caixa de comentário em páginas no estilo Scratch 3.0.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2662,22 +2748,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Esconder botão de Tutoriais",
-		"description": "Esconde o botão de Tutoriais na barra superior do editor.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

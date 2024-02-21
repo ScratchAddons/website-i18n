@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Most projects will not behave properly when running at 60FPS, because increasing the frame rate also increases the speed at which scripts run. This should only be used on projects that support 60FPS.",
+				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Котоблоки",
 		"description": "Brings back editor cat hat blocks that were first introduced for April Fools' Day 2020.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -325,8 +325,8 @@
 	},
 	{
 		"id": "collapse-footer",
-		"name": "Sticky footer",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"name": "Липкий нижний колонтитул",
+		"description": "Позволяет нижнему колонтитулу сайта слегка выступать из нижней части окна и расширяться при наведении курсора мыша над ним, что позволяет получать быстрый доступ к нему из любой части страницы. Ранее было частью расширения \"Бесконечное прокручивание\".",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Настраиваемый стиль ссылок",
 		"description": "Позволяет вам настраивать стиль ссылок на веб - сайте.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "Мы хотим расширить это дополнение другими функциями в будущем. Вы можете отправить нам Ваш отзыв, перейдя по адресу scratchaddons.com/feedback или нажав кнопку \"Отправить Отзыв\" на боковой панели."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Меню категорий с двумя столбцами",
 		"description": "Разделяет меню категорий блоков на два столбца и перемещает его в верхнюю часть палитры блоков, как в Scratch 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -572,8 +566,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Настраиваемый стиль текста блоков",
-		"description": "Allows you to adjust the size and thickness of block text or add a shadow to make it easier to read.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Lets you customize the style of text on blocks, including adjusting the size, using bold text, or adding a shadow.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -588,6 +582,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Настраиваемая строка меню",
+		"description": "Позволяет Вам прятать определённые предметы строки меню или удалять их метки или иконки.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "The text labels may be automatically replaced by icons on smaller windows."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -896,6 +927,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Чтобы спрятать кнопки строки меню, используйте дополнение \"Настраиваемая строка меню\"."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1050,6 +1087,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Square block text inputs",
+		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Отображать сцену на левой стороне",
 		"description": "Перемещает сцену в левую часть редактора, как в Scratch 2.0.",
@@ -1106,7 +1153,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1379,7 +1426,7 @@
 		"id": "forum-time-zones",
 		"name": "Местный часовой пояс на форумах",
 		"description": "Использует ваш местный часовой пояс для отображения даты и времени сообщений на форумах.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1441,6 +1488,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1514,11 +1566,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1605,8 +1653,15 @@
 		"id": "image-uploader",
 		"name": "Загрузчик изображений на форум",
 		"description": "Добавляет кнопку для прямой загрузки и вставки изображений в сообщения форума.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1615,12 +1670,16 @@
 	},
 	{
 		"id": "infinite-scroll",
-		"name": "Бесконечная прокрутка",
+		"name": "Бесконечное прокручивание",
 		"description": "Разрешить прокрутку в различных частях сайта без необходимости нажимать кнопку \"загрузить еще\".",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2141,10 +2200,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Размещать код из рюкзака на мыши",
+		"description": "Перетащите блоки кода на положение мыши вместо угла области кода.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Предпросмотр инструкций и примечаний проекта",
 		"description": "В Ваших проектах добавлен переключатель над полем Инструкции для предпросмотра инструкций и примечаний проекта в том виде, в каком их видят другие пользователи.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2309,10 +2379,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Перестраиваемые пользовательские входные данные блока",
+		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Изменяемый размер комментариев",
 		"description": "позволяет изменять размер поля ввода на страницах в стиле Скретч 3.0",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2668,22 +2754,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Скрыть кнопку Руководства",
-		"description": "Скрывает кнопку Руководства в строке меню редактора.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

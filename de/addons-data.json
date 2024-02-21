@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS-Projektplayermodus",
-		"description": "Alt+Klick auf der grünen Flagge, um den 60FPS-Modus umzuschalten.",
+		"name": "Modus für höhere Framefrequenz in Projekten",
+		"description": "Ermöglicht das Ausführen von Projekten mit mehr Frames pro Sekunde (FPS), damit sie flüssiger aussehen. Halte die Alt-Taste gedrückt und klicke auf die grüne Flagge, um zwischen Scratchs 30 FPS und einer unten festgelegten Framefrequenz zu wechseln.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Die meisten Projekte werden sich mit 60FPS nicht richtig verhalten, weil durch erhöhen der Framefrequenz die Skripte dadurch schneller ausgeführt werden. Dies sollte nur auf Projekten angewendet werden, die es unterstützen.",
+				"text": "Das Ändern der Framefrequenz von Scratch-Projekten betrifft auch die Geschwindigkeit, mit der manche Skripte (zum Beispiel Schleifen) ausgeführt werden, deshalb werden sich die meisten Projekte nicht richtig verhalten, wenn sie mit mehr FPS laufen. Höhere Framefrequenzen sollten nur auf Projekten genutzt werden, die dafür gedacht sind.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -266,7 +266,7 @@
 		"id": "cat-blocks",
 		"name": "Katzenblöcke",
 		"description": "Bringt im Editor die Katzenförmigen Startblöcke zurück, die erstmals für den Aprilscherz 2020 eingeführt wurden.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Benutzerdefiniertes Linkaussehen",
 		"description": "Erlaubt es dir, das Aussehen der Links in der Website zu verändern.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "Wir wollen dieses Addon in der Zukunft mit weiteren Barrierenfreiheitsfunktionen ausstatten. Du kannst uns dein Feedback senden, indem du zu scratchaddons.com/feedback gehst oder auf \"Feedback senden\" auf der Seitenleiste klickst."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Zweispaltiges Kategorienmenü",
 		"description": "Trennt das Blockkategorienmenü in zwei Spalten und verschiebt es über die Blockpalette, wie in Scratch 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -572,8 +566,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Benutzerdefinierter Stil von Text auf Blöcken",
-		"description": "Ermöglicht das Einstellen der Größe und Dicke von Text auf Blöcken und das Hinzufügen eines Schattens, um ihn lesbarer zu machen.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Lässt dich das Aussehen von Blocktexten verändern, zum Beispiel durch das Verändern der Textgröße, fetten Text, oder einem Schatten.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -588,6 +582,43 @@
 			"newSettings": ["size"],
 			"isMajor": true
 		}
+	},
+	{
+		"id": "custom-menu-bar",
+		"name": "Benutzerdefinierte Menüleiste",
+		"description": "Ermöglicht es dir, bestimmte Elemente von der Menüleiste im Editor zu entfernen oder deren Symbole bzw. Beschriftungen auszublenden.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "Das Addon \"Tutorien-Schaltfläche ausblenden\" wurde als Einstellung hierher verschoben."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "Die Textbeschriftungen könnten in kleineren Fenstern automatisch mit Symbolen ersetzt werden."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "custom-zoom",
@@ -896,6 +927,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Um die Menüleistensymbole auszublenden, verwende das Addon \"Benutzerdefinierte Menüleiste\"."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1050,6 +1087,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Quadratische Textfelder in Blöcken",
+		"description": "Macht Text- und Farbenfelder rechteckig statt rund, wie in Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Bühne links anzeigen",
 		"description": "Verschiebt die Bühne auf die linke Seite des Editors, wie in Scratch 2.0.",
@@ -1106,7 +1153,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1379,7 +1426,7 @@
 		"id": "forum-time-zones",
 		"name": "Lokale Zeitzone in Foren",
 		"description": "Verwendet deine lokale Zeitzone zum Anzeigen der Sendezeiten in Foren.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1441,6 +1488,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1514,11 +1566,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1605,8 +1653,15 @@
 		"id": "image-uploader",
 		"name": "Bild-Uploader in Foren",
 		"description": "Fügt einen Knopf zum direkten Hochladen von BIldern in Forumposts hinzu.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1620,7 +1675,11 @@
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -2019,7 +2078,7 @@
 	{
 		"id": "one-click-studio-invites",
 		"name": "Ein-Klick-Studioeinladungen",
-		"description": "Akzeptiere Studioeinladungen direkt von Scratch's Nachrictenseite. Ein Annehmen-Knopf wird direkt unter Einladungsnachrichten erscheinen.",
+		"description": "Akzeptiere Studioeinladungen direkt aus Scratchs Nachrichtenseite. Eine Schaltfläche zum Annehmen wird direkt unter Einladungsnachrichten erscheinen.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -2141,10 +2200,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Code aus Lager bei der Maus platzieren",
+		"description": "Ziehe Codeblöcke an die Mausposition, anstatt an die Ecke des Codebereichs.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Vorschau für Projektanmerkungen",
 		"description": "Fügt einen Schalter über der Anleitung In deinen eigenen Projekten hinzu, mit dem du die Bereiche \"Anleitung\" und \"Anmerkungen und Danksagungen\" so sehen kannst wie andere Nutzer.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2209,7 +2279,7 @@
 	{
 		"id": "redirect-mobile-forums",
 		"name": "Zu Standardforen weiterleiten",
-		"description": "Leitet dich von Standardforen (\"main\") weiter, wenn du einen Link zu den Mobilen Foren anklickst.",
+		"description": "Leitet dich zu den Standardforen (\"main\") weiter, wenn du einen Link zu den mobilen Foren anklickst.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -2309,10 +2379,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Umsortierbare Parameter von benutzerdefinierten Blöcken",
+		"description": "Ermöglicht das Verschieben von Eingabefeldern von benutzerdefinierten Blöcken im \"Neuer Block\"-Fenster.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Größe der Kommentarbox ändern",
 		"description": "Macht, dass die Größe der Kommentarbox auf Seiten, die Scratch 3.0-stilisiert sind, vertikal veränderbar ist.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2668,22 +2754,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Tutorien-Schaltfläche ausblenden",
-		"description": "Versteckt die Tutorien-Schaltfläche aus der Menüleiste im Editor.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",

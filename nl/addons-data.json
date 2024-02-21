@@ -2,7 +2,7 @@
 	{
 		"id": "2d-color-picker",
 		"name": "2D-kleurenkiezer",
-		"description": "Vervangt saturatie- en helderheidschuifregelaars in de uiterlijkeditor met een 2D-kleurenkiezer. Houd Shift ingedrukt en beweeg de muisaanwijzer om de waarden op een enkele as te veranderen.",
+		"description": "Vervangt verzadiging- en helderheidschuifregelaars in de uiterlijkeditor met een 2D-kleurenkiezer. Houd Shift ingedrukt en beweeg de muisaanwijzer om de waarden op een enkele as te veranderen.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
 		"enabledByDefault": false,
@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS projectspelermodus",
-		"description": "Alt+Klik de groene vlag om 60FPS aan of uit te zetten.",
+		"name": "Hogere project-framerate",
+		"description": "Geeft je de optie om projecten te laten draaien met meer frames per seconde (FPS) voor vloeiende bewegingen. Klik op de groene vlag terwijl je Alt indrukt om te schakelen tussen de standaard 30 FPS en een aangepaste framerate die je hieronder kan instellen.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "De meeste projecten zullen niet goed werken met 60FPS, omdat het verhogen van de framerate ook de snelheid van de scripts verhoogt. Gebruik dit alleen met projecten die 60FPS ondersteunen.",
+				"text": "Het veranderen van de framerate van Scratch-projecten beïnvloedt ook de frequentie waarmee bepaalde code (zoals lussen) wordt uitgevoerd, hierdoor zullen de meeste projecten niet goed werken met andere framerates. Daarom zijn aangepaste framerates alleen bedoeld voor projecten die het ondersteunen.",
 				"id": "projectRunsFasterNotice"
 			}
 		],
@@ -87,8 +87,8 @@
 	},
 	{
 		"id": "better-img-uploads",
-		"name": "HD-afbeelding uploads",
-		"description": "Voegt een nieuwe knop toe boven de \"upload uiterlijk\"-knop die geüploade bitmapafbeeldingen automatisch converteert naar SVG (vector)-afbeeldingen om de kwaliteit te behouden.",
+		"name": "HD-afbeeldingen uploaden",
+		"description": "Voegt een nieuwe knop toe boven de \"upload uiterlijk\"-knop die geüploade bitmapafbeeldingen automatisch omzet naar SVG-afbeeldingen (vector) om alle kwaliteit te behouden.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -105,7 +105,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Vermijd het gebruiken van de HD-uploadknop als je later nog de afbeelding wilt bewerken.",
+				"text": "Vermijd het gebruiken van de HD-uploadknop als je de afbeelding later nog wilt bewerken.",
 				"id": "notSuitableEdit"
 			}
 		],
@@ -159,7 +159,7 @@
 	{
 		"id": "block-cherry-picking",
 		"name": "Enkel blok slepen met Ctrl-toets",
-		"description": "Sleep een enkel blok uit een script met de Ctrl-toets (zonder dat alle blokken eronder ook meegaan).",
+		"description": "Sleep een enkel blok uit het midden van een script met de Ctrl-toets (zonder dat alle blokken eronder ook meegaan).",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -218,7 +218,7 @@
 	{
 		"id": "block-palette-icons",
 		"name": "Pictogrammen voor categorieën in blokpalet",
-		"description": "Voegt pictogrammen binnen de gekleurde cirkels van blokcategorieën toe.",
+		"description": "Voegt pictogrammen toe binnen de gekleurde cirkels van blokcategorieën.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -234,8 +234,8 @@
 	},
 	{
 		"id": "block-switching",
-		"name": "Blokken wisselen",
-		"description": "Rechtermuisknop op een blok om het te wisselen naar een gerelateerde blok.",
+		"name": "Blokken verwisselen",
+		"description": "Gebruik de rechtermuisknop op een blok om het te verwisselen naar een gerelateerd blok.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
@@ -252,7 +252,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Blokken opslaan als afbeelding",
-		"description": "Gebruik de rechtermuisknop op het codegebied om blokken te exporteren als SVG/PNG-afbeeldingen.",
+		"description": "Gebruik de rechtermuisknop in het codegebied om blokken te exporteren als SVG/PNG-afbeeldingen.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" }
@@ -264,9 +264,9 @@
 	},
 	{
 		"id": "cat-blocks",
-		"name": "Kat-blokken",
-		"description": "Brengt de kat-blokken die voor het eerst geïntroduceerd werden op 1 April 2020 terug.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"name": "Katblokken",
+		"description": "Brengt de katblokken terug die voor het eerst geïntroduceerd werden op 1 April 2020.",
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -371,25 +371,19 @@
 		"id": "colorblind",
 		"name": "Aanpasbare stijl van links",
 		"description": "Laat je de stijl van links aanpassen over de site.",
-		"tags": ["community", "theme", "beta"],
+		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
-		"info": [
-			{
-				"id": "feedback",
-				"text": "In de toekomst willen we deze addon uitbreiden met meer toegankelijkheidsopties. Je kunt ons feedback geven door naar scratchaddons.com/feedback te gaan of door op \"Feedback Geven\" te klikken in de zijbalk."
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
 		"versionAdded": "1.34.0",
+		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "columns",
 		"name": "Categorie-menu met 2 kolommen",
 		"description": "Verdeelt het blokcategoriemenu in 2 kolommen en zet het boven het blokpalet, net zoals in Scratch 2.0.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
 		],
@@ -463,7 +457,7 @@
 	{
 		"id": "copy-message-link",
 		"name": "Link naar opmerking kopiëren",
-		"description": "Voegt een \"Kopieer Link\"-knop toe aan alle opmerkingen op de website, naast de \"Melden\"-knop.",
+		"description": "Voegt een knop toe aan alle opmerkingen op de website waarmee je de link van die opmerking kunt kopiëren, naast de \"Melden\"-knop.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -538,7 +532,7 @@
 	{
 		"id": "custom-block-shape",
 		"name": "Aanpasbare blokvorm",
-		"description": "Verander de opvulling, hoekgrootte, en inkepingshoogte van blokken.",
+		"description": "Verander de opvulling, hoekafronding en inkepingshoogte van blokken.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -557,7 +551,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "De opvulling verminderen is alleen zichtbaar voor jou, dus als anderen je project bekijken, kunnen je scripts elkaar bedekken.",
+				"text": "Een verminderde opvulling is alleen zichtbaar voor jou, dus als anderen je project bekijken, kunnen je scripts elkaar bedekken.",
 				"id": "paddingWarning"
 			}
 		],
@@ -569,8 +563,8 @@
 	{
 		"id": "custom-block-text",
 		"name": "Bewerkbare bloktekststijlen",
-		"description": "Geeft je de mogelijkheid om de grootte en dikte van de tekst op blokken aan te passen of een schaduw toe te voegen voor leesbaarheid.",
-		"tags": ["editor", "codeEditor", "featured"],
+		"description": "Geeft je de mogelijkheid om de stijl van de tekst op blokken aan te passen, zoals de lettergrootte, -dikte en -schaduw.",
+		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
 			{ "name": "_nix", "link": "https://github.com/towerofnix" },
@@ -587,8 +581,45 @@
 		}
 	},
 	{
+		"id": "custom-menu-bar",
+		"name": "Aanpasbare menubalk",
+		"description": "Verberg bepaalde items in de menubalk van de editor of verberg hun labels of pictogrammen.",
+		"tags": ["editor", "editorMenuBar", "featured"],
+		"credits": [
+			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{
+				"name": "CST1229",
+				"link": "https://github.com/CST1229/",
+				"note": "compact user dropdown",
+				"id": "dropdown"
+			},
+			{
+				"name": "lisa_wolfgang",
+				"link": "https://scratch.mit.edu/users/lisa_wolfgang/",
+				"note": "hide tutorials button",
+				"id": "tutorials-button"
+			}
+		],
+		"info": [
+			{
+				"id": "tutorials-button-update",
+				"text": "De addon \"Lessen-knop verbergen\" is hierheen verplaatst als een instelling."
+			},
+			{
+				"type": "notice",
+				"id": "small-screens",
+				"text": "De tekstlabels kunnen automatisch worden vervangen door pictogrammen op kleinere vensters."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "custom-zoom",
-		"name": "Aanpasbare codegebied-zoom",
+		"name": "Aanpasbare zoom in codegebied",
 		"description": "Kies zelf instellingen voor de minimale, maximale, snelheid, en beginzoom van de zoom van scripts in het codegebied, en verberg automatisch de knoppen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -616,7 +647,7 @@
 	{
 		"id": "dango-rain",
 		"name": "Dango-regen op profiel (1 April)",
-		"description": "Gebruikers die het woord \"dango\" op hun \"Over Mij\" hebben zullen dango-emoji's zien regenen aan de weerszijden van hun profiel.",
+		"description": "Gebruikers die het woord \"dango\" op hun \"Over Mij\" hebben zullen dango-emoji's zien regenen aan de zijkanten van hun profiel.",
 		"tags": ["easterEgg", "community", "profiles"],
 		"credits": [
 			{
@@ -785,7 +816,7 @@
 	{
 		"id": "disable-stage-drag-select",
 		"name": "Niet-sleepbare sprites in editor",
-		"description": "Maakt het niet meer mogelijk om sprites rond te slepen in de editor, behalve diegene die ingesteld zijn als sleepbaar. Houd Shift ingedrukt om sprites zoals normaal te slepen.",
+		"description": "Maakt het niet meer mogelijk om sprites rond te slepen in de editor, behalve degenen die specifiek ingesteld zijn als sleepbaar. Houd Shift ingedrukt om sprites zoals normaal te slepen.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -893,6 +924,12 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
+		"info": [
+			{
+				"id": "hide-icons-update",
+				"text": "Gebruik de addon \"Aanpasbare menubalk\" om pictogrammen in de menubalk te verbergen."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -901,8 +938,8 @@
 	},
 	{
 		"id": "editor-dark-mode",
-		"name": "Donkere modus in editor en aanpasbare kleuren",
-		"description": "Pas de kleuren van de project-editor aan. Je kunt kiezen tussen meerdere donkere thema's door verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer de \"Scratch-standaardkleuren\"-voorinstelling en verander het.",
+		"name": "Donkere modus en aanpasbare kleuren in editor",
+		"description": "Pas de kleuren van de project-editor aan. Je kunt kiezen tussen meerdere donkere thema's van verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer dan de voorinstelling \"Scratch-standaardkleuren\" en pas het een beetje aan.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -1047,6 +1084,16 @@
 		"versionAdded": "1.14.0"
 	},
 	{
+		"id": "editor-square-inputs",
+		"name": "Rechthoekige tekst-invoervelden in blokken",
+		"description": "Maakt invoervelden voor tekst en kleur in blokken rechthoekig i.p.v. rond, zoals in Scratch 2.0.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "editor-stage-left",
 		"name": "Zet speelveld aan linkerkant",
 		"description": "Zet het speelveld aan de linkerkant van de editor, zoals in Scratch 2.0.",
@@ -1103,7 +1150,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.33.2", "isMajor": true },
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1131,7 +1178,7 @@
 	{
 		"id": "exact-count",
 		"name": "Exacte tellers",
-		"description": "Laat de exacte tellers voor gebruikers- en studio-informatie zien. Gebruikt ScratchDB voor foruminformatie.",
+		"description": "Toon de exacte tellers voor informatie over gebruikers en studio's. Gebruikt ScratchDB voor foruminformatie.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1281,7 +1328,7 @@
 	{
 		"id": "folders",
 		"name": "Spritemappen",
-		"description": "Voegt mappen toe aan het spritevenster, en ook uiterlijk- en geluidlijsten. Om een map aan te maken, gebruik de rechtermuisknop op een sprite en klik op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map. Deze functie werkt door \"[folderName]//\" aan het begin van de namen van je sprites toe te voegen.",
+		"description": "Geeft je de mogelijkheid om sprites, uiterlijken en geluiden te sorteren in mappen. Om een map aan te maken gebruik je de rechtermuisknop op een sprite en klik je op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map. Deze functie werkt door \"[mapNaam]//\" aan het begin van de namen van je sprites toe te voegen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
@@ -1376,7 +1423,7 @@
 		"id": "forum-time-zones",
 		"name": "Lokale tijdzone op forums",
 		"description": "Gebruikt je lokale tijdzone voor het weergeven van postdatums en -tijden op de forums.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1438,6 +1485,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.21.0",
+		"latestUpdate": {
+			"version": "1.36.0",
+			"isMajor": false,
+			"newSettings": ["hoverToolbar"]
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1490,7 +1542,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "Blokpalet automatisch verbergen",
-		"description": "Verbergt het blokpalet als je cursor er niet boven zweeft. Klik op het slotpictogram om het tijdelijk vast te zetten, of gebruik de stand \"categorie-klik\" om het te tonen/verbergen wanneer je op een blokcategorie klikt.",
+		"description": "Verbergt het blokpalet als je cursor er niet boven zweeft. Klik op het slotpictogram om het tijdelijk vast te zetten, of gebruik de stand \"op categorie klikken\" om het te tonen/verbergen wanneer je op een blokcategorie klikt.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1504,18 +1556,14 @@
 		],
 		"info": [
 			{
-				"text": "\"Over paletgebied zweven\" verbreedt alleen het zichtgebied. Als je blokken naar dat gebied wilt slepen zonder dat ze verwijderd worden, gebruik dan een van de andere modi.",
+				"text": "\"Over paletgebied zweven\" verbreedt alleen het zichtveld. Als je blokken naar dat gebied wilt slepen zonder dat ze verwijderd worden, gebruik dan een van de andere modi.",
 				"id": "hoverExplanation"
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.8.0",
-		"latestUpdate": {
-			"version": "1.27.0",
-			"temporaryNotice": "This addon was revised and many bugs were fixed.",
-			"isMajor": true
-		}
+		"latestUpdate": { "version": "1.36.0", "newSettings": ["lockLoad"] }
 	},
 	{
 		"id": "hide-new-variables",
@@ -1602,8 +1650,15 @@
 		"id": "image-uploader",
 		"name": "Forumafbeeldinguploader",
 		"description": "Voegt een knop toe om direct afbeeldingen te uploaden en invoegen in forumposts.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
+		"info": [
+			{
+				"id": "deprecated",
+				"type": "warning",
+				"text": "This addon is no longer supported and does not work anymore."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1613,11 +1668,15 @@
 	{
 		"id": "infinite-scroll",
 		"name": "Oneindig scrollen",
-		"description": "Laat je scrollen op verschillende delen van de site zonder te hoeven klikken op \"meer laden\".",
+		"description": "Laat je scrollen in verschillende delen van de site zonder te hoeven klikken op \"meer laden\".",
 		"tags": ["community", "featured"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"newSettings": ["searchExploreScroll"],
+			"version": "1.36.0"
+		}
 	},
 	{
 		"id": "initialise-sprite-position",
@@ -1672,7 +1731,7 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Deel-/wijzigingsdatums-info",
+		"name": "Tooltip voor datum van delen/wijzigen project",
 		"description": "Plaats je muisaanwijzer over de deeldatum van een project voor exacte informatie over wanneer het gedeeld en voor het laatst gewijzigd is.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -1774,7 +1833,7 @@
 	{
 		"id": "message-filters",
 		"name": "Berichtfilters",
-		"description": "Laat je filters selecteren voor soorten berichten om wel of niet te laten zien op Scratch's berichtenpagina.",
+		"description": "Selecteer filters voor welke berichtsoorten getoond moeten worden op de berichtenpagina van Scratch.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -1785,7 +1844,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Dit verandert je berichtenteller niet. Dit laat je simpelweg sommige soorten berichten verbergen op Scratch's berichtenpagina.",
+				"text": "Dit verandert je berichtenteller niet, maar laat je simpelweg specifieke soorten berichten verbergen op de berichtenpagina van Scratch.",
 				"id": "nomessagecount"
 			}
 		],
@@ -1834,7 +1893,7 @@
 	{
 		"id": "mouse-pos",
 		"name": "Muispositie weergeven",
-		"description": "Laat de x/y-posities van je muisaanwijzer zien boven het speelveld in de editor.",
+		"description": "Geeft de x/y-posities van je muisaanwijzer weer boven het speelveld in de editor.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
@@ -1933,8 +1992,8 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Geef scripts een naam voordat je ze in de rugzak zet",
-		"description": "Vraagt je om scripts een naam te geven nadat je ze in je rugzak sleept, in plaats van de standaard naam \"code\".",
+		"name": "Scripts in rugzak een naam geven",
+		"description": "Vraagt of je scripts een naam wilt geven nadat je ze in je rugzak sleept, in plaats van de standaardnaam \"code\" te gebruiken.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
 		"dynamicEnable": true,
@@ -1987,8 +2046,8 @@
 	},
 	{
 		"id": "old-studio-layout",
-		"name": "Oude studiolay-out",
-		"description": "Draait de lay-out van de studiopagina terug naar die van voor de studio-update of naar die eerst beschikbaar was in de Scratch 2.0 → 3.0-addon.",
+		"name": "Oude studio-lay-out",
+		"description": "Draait de lay-out van de studiopagina terug naar die van voor de studio-update of naar degene die eerst beschikbaar was in de Scratch 2.0 → 3.0-addon.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2071,8 +2130,8 @@
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Standaard sprite tekenen",
-		"description": "Verandert de standaardactie van de \"Kies een Sprite/Uiterlijk/Achtergrond/Geluid\"-knoppen, die normaal de bibliotheek openen.",
+		"name": "Aanpasbare standaardactie voor item toevoegen",
+		"description": "Verandert de standaardactie van de \"Kies een sprite/uiterlijk/achtergrond/geluid\"-knoppen, die normaal de bibliotheek openen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2138,10 +2197,21 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "place-backpack-code-at-cursor",
+		"name": "Plaats code van rugzak bij muis",
+		"description": "Sleep en zet codeblokken neer op de muispositie in plaats van de hoek van het scherm.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [{ "name": "Chrome_Cat" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Voorbeeld tonen van instructies en opmerkingen",
 		"description": "Voegt een knop toe boven het veld Instructies op projectpagina's van je eigen projecten. Je kunt ermee zien hoe de instructies en opmerkingen worden weergegeven voor andere gebruikers.",
-		"tags": ["community", "projectPage", "beta", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
 				"name": "Steve0Greatness",
@@ -2306,10 +2376,26 @@
 		"versionAdded": "1.29.0"
 	},
 	{
+		"id": "reorder-custom-inputs",
+		"name": "Herschikbare ingangen van aangepaste blokken",
+		"description": "Herschik de parameters van aangepaste blokken in het \"Maak een blok\"-scherm.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.36.0"
+	},
+	{
 		"id": "resizable-comment-input",
 		"name": "Vergrootbaar opmerkingsveld",
 		"description": "Maakt het opmerkingsveld verticaal vergrootbaar in Scratch 3.0-uitziende pagina's.",
-		"tags": ["community", "comments", "recommended", "theme"],
+		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
 				"name": "Maximouse",
@@ -2403,7 +2489,7 @@
 	{
 		"id": "scratchstats",
 		"name": "Profielstatistieken",
-		"description": "Laat statistieken van ScratchDB zien op gebruikersprofielen.",
+		"description": "Statistieken van ScratchDB tonen op gebruikersprofielen.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -2523,8 +2609,8 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "BBCode bron-knop",
-		"description": "Voegt een knop toe aan de forums die de BBCode bron van een post laat zien.",
+		"name": "BBCode bron tonen",
+		"description": "Voegt een knop toe aan de forums die de BBCode bron van een post tonen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2566,7 +2652,7 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Knop voor volgers browsen in studios",
+		"name": "Volgers browsen in studio's",
 		"description": "Voegt een knop toe boven het \"beheerders\"-venster in studios die je beheert, die een lijst geeft van je volgers en wie je zelf volgt en laat je iemand uitnodigen met een enkele klik.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
@@ -2665,22 +2751,6 @@
 			}
 		],
 		"versionAdded": "1.18.0"
-	},
-	{
-		"id": "tutorials-button",
-		"name": "Lessen-knop Verbergen",
-		"description": "Verbergt de Lessen-knop in de menubalk van de editor.",
-		"tags": ["editor"],
-		"credits": [
-			{
-				"name": "lisa_wolfgang",
-				"link": "https://scratch.mit.edu/users/lisa_wolfgang/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.22.0"
 	},
 	{
 		"id": "user-id",
