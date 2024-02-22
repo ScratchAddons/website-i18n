@@ -20,4 +20,4 @@ Oppaan tekemiseen osallistuminen on tervetullutta. Voit yksinkertaisesti ilmoitt
 
 ## Keskustelu
 
-Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
+Jos haluat keskustella jostakin sivusta, voit käyttää sivun alaossa olevaa kommenttiosiota. Vaihtoehtoisesti voit liittyä [Discord-palvelimelle](https://discord.gg/R5NBqwMjNc) tai osallistua [GitHub-keskusteluihin](https://github.com/ScratchAddons/ScratchAddons/discussions).

@@ -63,7 +63,7 @@ Docs:
   TOCToggleLabel: Avaa sisällysluettelo
   LastUpdated: "{{.Name}} teki viimeisimmäin muutoksen {{.Date}} pysyvällä muutoksella {{.Commit}}."
   Improve: Paranna tätä sivua.
-  SectionPages: Osioiden sivut
+  SectionPages: Osion sivut
 PlayerModal:
   LabelPlay: Toista
   AltText: Katso video napauttamalla.
