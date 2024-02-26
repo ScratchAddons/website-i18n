@@ -6,6 +6,9 @@ addons.html:
 changelog.html:
   title: Changelog
   description: All notable changes to this project will be documented in this page.
+credits.html:
+  title: Credits
+  description: Many thanks to these amazing people for contributing to the project by working on Scratch Addons, its features, its themes, its website, etc.
 extension-settings.html:
   title: Scratch Addons settings
   description: How to access Scratch Addons settings, step by step.
@@ -18,12 +21,9 @@ feedback.html:
 scratch-messaging-transition.html:
   title: Extension Update (Transition)
   description: Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons. Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
-credits.html:
-  title: Credits
-  description: Many thanks to these amazing people for contributing to the project by working on Scratch Addons, its features, its themes, its website, etc.
-welcome.html:
-  title: Welcome!
-  description: Scratch Addons has been installed successfully! Thank you for installing. We hope you enjoy the extension!
 unsupported-browser.html:
   title: Unsupported Browser
   description: Scratch Addons doesn't support the browser you're using.
+welcome.html:
+  title: Welcome!
+  description: Scratch Addons has been installed successfully! Thank you for installing. We hope you enjoy the extension!
