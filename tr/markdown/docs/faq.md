@@ -31,9 +31,9 @@ Scratch Eklentileri, [Google Chrome](https://google.com/chrome/)'un (sürüm 80 
 
 ### Scratch Eklentileri'ni bir mobil cihazda kullanabilir miyim?
 
-Android kullanıcıları için: Evet, ancak önerilmez. Büyük tarayıcılar, Scratch Eklentileri'nin (veya diğer uzantıların) yüklenmesine izin vermez, bu nedenle bunu yapmak için [Kiwi](https://kiwibrowser.com/) gibi tarayıcıları kullanmanız gerekir. Scratch Eklentileri'nin kullanıcı arayüzü, dokunmatik veya küçük ekran boyutuna sahip ortamlarda iyi test edilmemiştir, bu nedenle bazı özellikler beklendiği gibi çalışmayabilir.
+**For Android users**: Yes, Scratch Addons can now be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), but it is not recommended yet since Scratch Addons' UI is not well-tested on touchscreens or environments with small screen sizes so some features might not work as expected. Alternatively, if you prefer Chrome you could try the [Kiwi Browser](https://kiwibrowser.com/).
 
-iOS ve iPadOS kullanıcıları için: Ne yazık ki hayır. App Store politikası, tarayıcı uygulamalarının yüklenmesine izin vermez; bu, o platformda bulunan tüm tarayıcıların yalnızca yeniden kaplanmış bir Safari tarayıcısı olduğu anlamına gelir. Bu, bazı sorunlara neden olur (aşağıya bakın).
+**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
 ### Scratch Eklentileri'ni Safari'de kullanabilir miyim?
 

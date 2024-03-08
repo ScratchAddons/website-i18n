@@ -2,89 +2,89 @@
 title: Installerer
 ---
 
-## From extension stores
+## Fra utvidelsesbutikker
 
-Scratch Addons is available in these stores.
+Scratch Addons er tilgjengelig i disse butikkene.
 
 | Butikk | Installer | Støttede nettlesere | Systemkrav |
 | - | - | - | - |
-| Chrome Web Store | [![Installer for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks less than ~6 years old
+| Chrome Web Store | [![Installer for Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 80+<br />Microsoft Edge 80+<br />Opera 67+<br />Brave 1.3+<br />Vivaldi 2.11+<br />*Chromium 80+* | Windows 7+<br />OS X / MacOS 10.11+<br />Chromebooks mindre enn ~6 år gamle
 | Tillegg for Firefox | [![Installer tilleggsprogrammer for Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 86+ | Windows 7+<br />OS X / MacOS 10.12+
-| Microsoft Edge Add-ons | [![Installer for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
+| Microsoft Edge-tillegg | [![Installer for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 80+ | Windows 7+<br />OS X / MacOS 10.11+
 
-## From source
+## Fra kilde
 
-### About GitHub releases
+### Om GitHub-utgivelser
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
+[Releases-siden](https://github.com/ScratchAddons/ScratchAddons/releases) inneholder koden og installasjonsfilene for alle utviklingsversjoner av Scratch Addons, samt speilet av butikkversjonene.
 
-### Cloning the repository
+### Kloning av repositoriet
 
-This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
+Dette er den anbefalte måten å installere Scratch Addons for utviklingsformål. Dette forutsetter at du har Git installert.
 
-To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
+For å laste ned repositoriet, kan du enkelt klone `https://github.com/ScratchAddons/ScratchAddons.git`.
 
 ```sh
 $ git clone https://github.com/ScratchAddons/ScratchAddons.git
 ```
-To update Scratch Addons, first `cd` into its folder, and then run the following commands.
+For å oppdatere Scratch Addons, først `cd` inn i mappen sin, og deretter kjør følgende kommandoer.
 
 ```sh
 $ git fetch
 $ git pull
 ```
 
-This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
+Dette vil oppdatere Scratch Addons og gjøre det klart for kode-redigering. Merk at du må se avsnittet om ferdig oppdatering [her](#install-on-google-chrome) hvis du bruker Google Chrome.
 
 
-### Downloading the zipball
+### Laste ned zipball
 
-If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
+Hvis du ikke har Git installert, kan du prøve denne metoden i stedet. Merk at du må gjenta denne prosessen manuelt hver gang du vil oppdatere Scratch Addons.
 
-1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
+1. Gå til [repositoriet](https://github.com/ScratchAddons/ScratchAddons) og finn nedlastingskoden.
 
-   ![Download code button screenshot](/assets/img/docs/download-code-button.png)
+   ![Last ned kodeknapp skjermbilde](/assets/img/docs/download-code-button.png)
 
-2. Click it and select "Download ZIP".
+2. Klikk på den og velg "Last ned ZIP".
 
-   ![Download ZIP button screenshot](/assets/img/docs/download-zipball-button.png)
+   ![Last ned ZIP-knapp skjermbilde](/assets/img/docs/download-zipball-button.png)
 
-3. Extract the archive into a folder.
+3. Pakk ut arkivet i en mappe.
 
-### Installing on Google Chrome or Microsoft Edge
+### Installerer på Google Chrome eller Microsoft Edge
 
-1. Type `chrome://extensions` into your address bar to open the Extension Management page.
+1. Skriv `chrome://extensions` i adressefeltet for å åpne siden for utvidelseshåndtering.
 
-2. Click the toggle next to `Developer mode` to turn on the Developer Mode. This allows you to install extensions from a folder or file.
+2. Klikk på bryteren ved siden av `Utviklermodus` for å aktivere utviklermodus. Dette lar deg installere utvidelser fra en mappe eller fil.
 
    ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
 
-3. You should see the `Load unpacked` button appear. Clicking it will allow you to select a folder to upload.
+3. Du bør se knappen `Last inn ukomprimert` vises. Ved å klikke på den kan du velge en mappe å laste opp.
 
-   ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
+   ![Last opp pakket knapp skjermbilde](/assets/img/docs/last-opp-pakket-knapp.png)
 
-4. Select the extracted folder.
-5. The extension should now be loaded.
+4. Velg den uttrukne mappen.
+5. Utvidelsen skal nå være lastet.
 
-To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
+For å fullføre oppdateringen (forutsatt at du fulgte oppdateringsstegene [her](#kloning-av-repositoriet)), klikk på `Oppdater`-knappen.
 
-![Update button screenshot](/assets/img/docs/update-button.png)
+![Oppdateringsknapp skjermbilde](/assets/img/docs/update-button.png)
 
 
-### Installing on Mozilla Firefox
+### Installerer på Mozilla Firefox
 
-1. Type `about:debugging` into your address bar to open the debugging page.
+1. Skriv `about:debugging` i adressefeltet for å åpne feilsøkingsiden.
 
-2. Click `This Firefox` on the left-hand menu.
+2. Klikk på `Denne Firefox` i venstremenyen.
 
-   ![Left-hand menu screenshot](/assets/img/docs/left-hand-menu.png)
+   ![Venstremeny skjermbilde](/assets/img/docs/venstremeny.png)
 
-4. Click `Load Temporary Add-on...`.
+4. Klikk på `Last inn midlertidig tillegg...`.
 
-   ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
+   ![Last inn midlertidig tilleggsknapp skjermbilde](/assets/img/docs/load-addon.png)
 
-6. Select the manifest.json file inside the extracted folder.
-7. The extension should now be loaded.
+6. Velg manifest.json-filen inne i den utpakkede mappen.
+7. Utvidelsen skal nå være lastet.
 
-Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
+Merk: Midlertidige tillegg i Firefox er faktisk midlertidige. Hvis du starter Firefox på nytt, vil de bli fjernet, så hvis du vil bruke utviklingsversjonen av Scratch Addons hele tiden, anbefales det at du bruker en Chromium-basert nettleser som Google Chrome.
 

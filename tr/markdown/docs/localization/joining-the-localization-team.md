@@ -18,8 +18,8 @@ Scratch Eklentileri, dünyanın dört bir yanındaki gönüllülerin yardımıyl
 * [scratch.mit.edu](https://scratch.mit.edu)'da bir hesaba sahip olmalısınız.
 
 {{< admonition info >}}
-**Şu dillerde yeni çevirmen kabul EDİLMEYECEKTİR:** İtalyanca, Japonca, Portekizce, Slovence, İspanyolca.
-<!-- Bu dillerin listesi aşağıda bulunabilir. İkisini de güncellemeyi unutmayın. -->
+**These languages do NOT accept new translators:** Italian, Spanish.
+<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 Eğer ana dili seviyesinde değilseniz ancak kendinizi yeterince akıcı görüyorsanız, katılmak için istekte bulunabilirsiniz. Dil sınıflarına katılmanın sizi akıcı yapmayacağını unutmayın. Eğer akıllı telefonunuzun sistem dilini o dile almadan kullanamıyorsanız, yeterince akıcı değilsiniz demektir!
@@ -65,20 +65,18 @@ Scratch Eklentileri'ni diğer dillere çevirme konusunda yardım etmek istediği
 Eğer bir Scratch hesabınız yoksa, lütfen bunun yerine `translation@scratchaddons.com` adresine bir e-posta gönderin.
 
 ### 2. Bir Transifex hesabı oluşturun
-1. [Transifex Kayıt](https://app.transifex.com/signup/) sayfasına gidin.
-1. Size Transifex'in "Kayıt Ol" ekranı görünecektir. **Google ile kayıt OLMAYIN.**
+1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
+1. You will be shown Transifex's "Sign up" screen. **DO NOT sign up with Google.**  
+1. "İş e-postası" alanına, e-posta adresinizi girin (Gmail, Outlook veya başka herhangi biri).
 1. "Kullanıcı adı" alanına Scratch'teki kullanıcı adınızı girmenizi şiddetle tavsiye ediyoruz. Ya da onun kısaltılmış bir varyasyonu.
 Örneğin, eğer Scratch'teki kullanıcı adınız `john_walker954` ise, Transifex'teki kullanıcı adınız da tıpatıp aynısı (`john_walker954`) ya da `john_walker954_scratch` olabilir.
-1. "İş e-postası" alanına, e-posta adresinizi girin (Gmail, Outlook veya başka herhangi biri).
 1. "şifre" alanına bir şifre girin.
-1. "Kayıt Ol" düğmesine tıklayın.
-1. **"Mevcut bir organizasyona katıl"**ı seçin.
-1. "Devam Et" düğmesine tıklayın.
+1. Click the "Sign up" button.
 1. Sizden Adınız ve Soyadınız istenecek.
 \- **Adınız** yerine Scratch kullanıcı adınızı girmenizi öneriyoruz.
 \- **Soyadınız** yerine çevirmek istediğiniz dili girmenizi öneriyoruz (örneğin, `Yunanca`).
 1. "Konuştuğunuz diller" alanına akıcı olduğunu en az bir dil seçin (örneğin, İngilizce).
-1. "Devam Et" düğmesine tıklayın.
+1. Click the "Let's get started" button.
 1. Aşağıdaki "bir dil talebinde bulunmak" adımları ile devam edin.
 
 Eğer hâlihazırda bir Transifex hesabınız varsa ve yeni bir tane oluşturmak istemiyorsanız, lütfen `translation@scratchaddons.com` adresine Transifex hesabınızın kullanıcı adını da içeren bir e-posta gönderin. Sonra, aşağıdaki "bir dil talebinde bulunmak" bölümünden devam edin.

@@ -31,9 +31,9 @@ A Scratch Addons hivatalosan a [Google Chrome](https://google.com/chrome/) aszta
 
 ### Mobileszközön is használhatom a Scratch Addons-t?
 
-Android felhasznáóknak: Igen, de nem javasolt. A főbb böngészők nem engedélyezik a Scratch Addons-t (és egyéb bővítményt), hogy telepítve legyen, szóval ehhez szüksége lesz olyan böngészők használatára, mint a [Kiwi](https://kiwibrowser.com/). A Scratch Addons felhasználói felülete nincs rendesen letesztelve érintőképernyőkön, vagy kis képernyős környezetben, szóval bizonyos funkciók nem működhetnek az elvártaknak megfelelően.
+**For Android users**: Yes, Scratch Addons can now be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), but it is not recommended yet since Scratch Addons' UI is not well-tested on touchscreens or environments with small screen sizes so some features might not work as expected. Alternatively, if you prefer Chrome you could try the [Kiwi Browser](https://kiwibrowser.com/).
 
-iOS és iPadOS felhasználóknak: Sajnos nem. Az App Store irányelvei nem engedélyezik a böngészőkivitelezések feltöltését, ami azt jelenti, hogy minden elérhető böngésző ezeken a felületeken csak „újra-festett” Safarik. Ez meg bizony okoz néhány problémát (lásd lejjebb).
+**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
 ### Használhatom a Scratch Addons-t Safarin is?
 

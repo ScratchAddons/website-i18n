@@ -1,39 +1,39 @@
 ---
 title: Brukerstyler
-description: Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+description: Brukerstyler er CSS-regler som påvirker Scratch-sider. De kan bruke stiler på eksisterende Scratch UI, samt på elementer som ble lagt til på siden av tillegg.
 ---
 
-Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+Brukerstyler er CSS-regler som påvirker Scratch-sider. De kan bruke stiler på eksisterende Scratch UI, samt på elementer som ble lagt til på siden av tillegg.
 
 
-## Declaring userstyles in the addon manifest
+## Deklarering av brukerstiler i tilleggsmanifestet
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Noen endringer krever en omstart av utvidelsen** fra `chrome://extensions` for å tre i kraft, for eksempel oppdatering av tilleggets manifestfil.
 
-It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
+Det er ikke nødvendig å laste inn utvidelsen på nytt når du endrer kilden til en allerede eksisterende brukerstil CSS-fil. I slike tilfeller er det tilstrekkelig å laste inn siden på nytt. 
 {{< /admonition >}}
 
-Userstyles are declared inside a "userstyles" array, similarly to userscripts.
+Brukerstiler er deklarert inni en "brukerstiler" array, på samme måte som brukerskript.
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a CSS file.
-- `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
-- `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
+Hvert element i arrayen må ha følgende egenskaper:
+- `"url"`: den relative URL-en til en CSS-fil.
+- `"matches"`: listen over Scratch-sider der brukerstilen vil bli brukt. Se [matches](/docs/reference/addon-manifest/#matches) for mer informasjon.
+- `if`: en liste med betingelser som kan veksle om brukerstilen er aktivert eller ikke. Se [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for mer informasjon.
 
-Example manifest:
+Eksempel manifest:
 ```json
 {
-  "name": "Scratch Messaging",
-  "description": "Provides easy reading and replying to your Scratch messages.",
+  "name": "Scratch Meldinger",
+  "description": "Gir enkel lesing og svar på dine Scratch-meldinger.",
   "userstyles": [
     {
       "url": "styles.css",
-      "matches": ["projects", "https://scratch.mit.edu/", "profiles"]
+      "matches": ["prosjekter", "https://scratch.mit.edu/", "profiler"]
     },
     {
       "url": "resize.css",
-      "matches": ["projects"],
+      "matches": ["prosjekter"],
       "if": {
         "settings": {
           "resize": true
@@ -43,66 +43,66 @@ Example manifest:
   ],
   "settings": [
     {
-      "name": "Resize messages",
+      "name": "Endre størrelse på meldinger",
       "id": "resize",
       "type": "boolean",
       "default": false
     }
   ],
-  "tags": ["community"],
+  "tags": ["fellesskap"],
   "enabledByDefault": false
 }
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Dynamisk veksling av brukerstiler etter sideinnlasting
 
-It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
+Det er vanligvis unødvendig å bruke et JavaScript brukerscript for å dynamisk bytte om en brukerstil er aktiv på siden som respons på at brukeren endrer innstillinger.
 
-- Including `dynamicEnable: true` in the addon manifest will allow the extension to dynamically inject userstyles if the addon has been enabled (for the first time) after loading the page.
-- Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- Inkludering av `dynamicEnable: true` i tilleggets manifest vil tillate utvidelsen å dynamisk injisere brukerstiler hvis tillegget har blitt aktivert (for første gang) etter at siden ble lastet.
+- Inkludering av `dynamicDisable: true` i tilleggets manifest vil tillate utvidelsen å dynamisk fjerne eller gjeninnsatte brukerstiler hvis tillegget har blitt vekslet, uten å kreve en sideoppdatering.
+- Inkludering av `updateUserstylesOnSettingsChange: true` i tilleggets manifest vil gjenevaluere "if" betingelser som avhenger av brukerinnstillinger uten å kreve en sideoppdatering. Utvidelsen vil fjerne eller injisere brukerstiler i henhold til dette.
 
 
-## Accessing addon settings from CSS
+## Å få tilgang til tilleggsinnstillinger fra CSS
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Brukerstiler kan enkelt få tilgang til farge- og numeriske innstillinger gjennom CSS-variabler. De kan også få tilgang til innstillinger fra andre aktiverte tillegg.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+CSS-variablene følger alltid formatet `--addonId-settingId`. Innstilling-ID-er blir alltid konvertert fra kebab-case til camelCase.
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Disse CSS-variablene er alltid tilgjengelige for alle aktiverte tillegg, og ingen manifestegenskap er nødvendig for å eksponere dem. De synkroniseres også med brukerinnstillingene uten å kreve en sideoppdatering.
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Fargeinnstilling */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Fargeinnstilling med reserveløsning */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Hvis editor-mørke-modus er deaktivert, vil reserveløsningen bli brukt i stedet */
 
-  /* Numerical setting */
+  /* Numerisk innstilling */
   height: calc(1px * var(--progressBar-height));
 }
 ```
 
 
-## Custom CSS variables
+## Tilpassede CSS-variabler
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+Hvis en brukerstil trenger å velge mellom to verdier basert på en bakgrunnsfarge (tekstkontrast) eller en tilleggsinnstilling, er ikke JavaScript nødvendig. Disse betingelsene, blant andre, kan deklareres i tilleggets manifest gjennom [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), og brukerstilen kan enkelt referere til den CSS-variabelen.
 
 
-## Applying styles only inside the editor
+## Bruke stiler bare inne i redigeringsprogrammet
 
-The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
+Utvidelsen veksler automatisk et klassenavn på `<body>`-elementet når brukeren går inn i eller forlater prosjektredigereren.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+For eksempel, stil `<input>` elementer inne og utenfor redigeringsverktøyet forskjellig:
 ```css
 .sa-body-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Bare gjelder hvis `addon.tab.editorMode` er `editor` eller `fullscreen` */
 }
 
 body:not(.sa-body-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Bare gjelder hvis `addon.tab.editorMode` IKKE er `editor` eller `fullscreen` */
 }
 ```

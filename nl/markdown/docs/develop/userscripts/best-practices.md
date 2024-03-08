@@ -111,6 +111,7 @@ reportButton.addEventListener("click", (event) => {
 
 - Gebruik liever nieuwere API's, zoals `fetch()` i.p.v. `XMLHttpRequest`.
 - Gebruik nooit `==` voor vergelijkingen. Gebruik in plaats daarvan `===`.
+- Wanneer je toetsenbordevenementen wilt detecteren, gaat de voorkeur uit naar `event.key` om te weten welke toets is ingedrukt. Over het algemeen is het slim om `event.code` en `event.keyCode` te vermijden.
 - Gebruik optionele chaining als een object in sommige gevallen `null` kan zijn.
 Bijvoorbeeld: `document.querySelector(".remix-button")?.textContent`.
 - Gebruik `for ... of`-lussen of `.forEach()`.

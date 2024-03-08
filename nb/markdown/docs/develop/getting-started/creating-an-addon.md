@@ -1,25 +1,25 @@
 ---
-title: Creating an Addon
+title: Å lage en tillegg
 ---
-Required software: text editor, Chrome.  
-If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.
+Nødvendig programvare: tekstredigeringsprogram, Chrome.
+Hvis mulig, deaktiver Scratch Addons-utvidelsen du lastet ned fra butikken før du fortsetter for å unngå problemer.
 
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first. 
+Hvis du planlegger å sende inn tillegget du utvikler som en pull request til vårt GitHub repositoriet, vennligst les våre [bidragsretningslinjer](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) først.
 
-In case there is no existing GitHub issue in that repository related to your new addon idea, please [create one](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+I tilfelle det ikke finnes en eksisterende GitHub-utgave i den aktuelle lagringsplassen som er relatert til din nye tilleggsidé, vennligst [opprett en](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Hvis det imidlertid allerede finnes en utgave relatert til din funksjonsidé, foreslår vi at du legger igjen en kommentar der og oppgir din intensjon om å utvikle tillegget. Dette vil gjøre det mulig for andre bidragsytere å gi tilbakemelding om hvorvidt tillegget kan aksepteres, eller om det kreves videre diskusjon.
 
-However, if you are creating an addon for personal use, you may proceed with this guide.
+Imidlertid, hvis du oppretter en tillegg for personlig bruk, kan du fortsette med denne veiledningen.
 {{< /admonition >}}
 
-## Step 1: Read about [addon basics](/docs/develop/getting-started/addon-basics/)
-Make sure to read that article to be familiar with the terminology.
+## Trinn 1: Les om [tilleggsmodulgrunnleggende](/docs/develop/getting-started/addon-basics/)
+Sørg for å lese den artikkelen for å bli kjent med terminologien.
 
-## Step 2: Fork/clone the [repo](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
+## Trinn 2: Fork/klon [repoet](https://github.com/ScratchAddons/ScratchAddons)
+Følg [disse instruksjonene](/docs/getting-started/installing/#from-source) for å laste ned kildekoden lokalt.
 
-## Step 3: Load the extension into Chrome
+## Trinn 3: Last inn utvidelsen i Chrome
 *Obs: Chrome anbefales for å jobbe med tillegg. Likevel forventes det at tillegg fungerer på Firefox og Edge.*
 Nå som du har utvidelsen på filsystemet ditt, gå til `chrome://extensions` og slå på "utviklermodus".
 Klikk på "last inn ukomprimert" og velg deretter mappen der Scratch Addons er plassert. Hvis du har problemer med dette, sørg for å velge mappen der `manifest.json` er plassert.
@@ -27,62 +27,58 @@ Det er det, du har lastet inn utvidelsen! Den skal se omtrent slik ut:
 ![bilde](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
 Obs: Du kan trygt ignorere at det står "feil". Det er bare en advarsel for en ukjent manifestnøkkel som kreves av Firefox.
 
-## Step 4: What's your addon about?
-Now comes the fun part!  
-What will your addon do? Think of a self descriptive addon ID (no spaces or special characters, except hyphens).  
-Got it?
+## Trinn 4: Hva handler tillegget ditt om?
+Nå kommer den morsomme delen!
+Hva vil tillegget ditt gjøre? Tenk på en selvbeskrivende tilleggs-ID (ingen mellomrom eller spesialtegn, bortsett fra bindestreker).
+Har du det?
 
-## Step 5: Create the folder for the addon
-Using a file explorer, go to the folder where Scratch Addons resides in your filesystem. Locate the `addons` folder.  
-Then, create a new folder with your epic addon ID as its name.
+## Trinn 5: Opprett mappen for tillegget
+Bruk en filutforsker for å gå til mappen der Scratch Utvidelser befinner seg på filsystemet ditt. Finn mappen `addons`. 
+Deretter opprett en ny mappe med ditt episke utvidelses-ID som navn.
 
-## Step 6: Add an addon manifest
-The addon manifest tells Scratch Addons how your addon works. Make sure to get this right to avoid headaches.  
-Inside the folder you just created, create an `addon.json` file.  
-This is a base you can use to start coding, make sure to change it in the future:
+## Trinn 6: Legg til en tilleggsmanifest
+Utvidelsesmanifestet forteller Scratch Utvidelser hvordan utvidelsen din fungerer. Pass på å få dette riktig for å unngå hodepine.
+Inne i mappen du nettopp opprettet, opprett en `addon.json`-fil.
+Dette er en base du kan bruke for å starte kodingen, pass på å endre den i fremtiden.
 ```json
 {
-  "name": "Epic placeholder text in place of addon name",
-  "description": "Hello World! It would be really smart to replace this placeholder text with a description.",
+  "name": "Episk plassholdertekst i stedet for tilleggsnavn",
+  "description": "Hei verden! Det ville vært veldig smart å erstatte denne plassholderteksten med en beskrivelse.",
   "tags": ["community"],
   "enabledByDefault": false
 }
 ```
-For more information on what you can declare in the manifest, check [this article](/docs/reference/addon-manifest/).
+For mer informasjon om hva du kan erklære i manifestet, sjekk [denne artikkelen](/docs/reference/addon-manifest/).
 
 
-## Step 7: Tell Scratch Addons what your addon's ID is
-Scratch Addons can't find new folders by itself, so you have to add the name to a special file.  
-Go to `scratchAddonsFolder/addons/addons.json` and add the ID of your addon to the array.
+## Trinn 7: Fortell Scratch Utvidelser hva ID-en til utvidelsen din er
+Scratch Utvidelser kan ikke finne nye mapper av seg selv, så du må legge til navnet i en spesialfil. 
+Gå til `scratchAddonsFolder/addons/addons.json` og legg til ID-en til utvidelsen din i arrayet.
 
-## Step 8: Hello world
-Your addon does nothing at the moment, so it's a good time to check if everything we made previously worked.  
-Go to `chrome://extensions` and reload Scratch Addons by clicking the refresh symbol on its card.  
-Now, right-click the Scratch Addons icon, and click "options".  
-You should see your addon on the list! Once you find it, enable it, and set any settings that you may have.
+## Trinn 8: Hei verden
+Din utvidelse gjør ingenting for øyeblikket, så det er en god tid å sjekke om alt vi tidligere har laget fungerer. 
+Gå til `chrome://extensions` og last inn Scratch Utvidelser ved å klikke på oppdateringssymbolet på kortet. 
+Nå, høyreklikk på Scratch Utvidelser-ikonet og klikk på "alternativer". 
+Du bør se utvidelsen din på listen! Når du finner den, aktiver den og sett eventuelle innstillinger du måtte ha.
 
-## Step 9: The fun part, code!
-*Before proceeding, make sure you read the wiki article linked in step 1.*  
+## Trinn 9: Den morsomme delen, kode!
+*Før du fortsetter, sørg for å lese wiki-artikkelen som er lenket i trinn 1.*
 
-Here comes the fun part: create your own JS or CSS files!  
-Protip: after making any change to your addon, make sure to refresh the Scratch Addons extension like you did in step 8.  
+Her kommer den morsomme delen: lag dine egne JS- eller CSS-filer!
+Protips: etter å ha gjort endringer i utvidelsen din, sørg for å oppdatere Scratch Utvidelser tilleg slik du gjorde i trinn 8.
 
-Depending on what you want your addon to do, you should now check these wiki pages:
-- [Userscripts](/docs/develop/userscripts)
-- [Userstyles](/docs/develop/userstyles)
+Avhengig av hva du vil at tillegget ditt skal gjøre, bør du nå sjekke disse wikisidene:
+- [Brukerscrpiter](/docs/develop/userscripts)
+- [Brukerstyler](/docs/develop/userstyles)
 
-## Step 10: Make your addon customizable
-If you want, you can make your addon customizable!  
-Users of your addon will be able to toggle settings, enter numbers, and more!  
-To get started, see [how to declare settings in the addon manifest](/docs/reference/addon-manifest/#settings-object).  
-Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon.settings) to learn how to access user choices from userscripts.
+## Trinn 10: Gjør tillegget ditt tilpasningsbart
+Hvis du vil, kan du gjøre tillegget ditt tilpassbart!
+Brukere av tillegget ditt vil kunne slå av og på innstillinger, skrive inn tall og mer!
+For å komme i gang, se [hvordan du erklærer innstillinger i tilleggets manifest](/docs/reference/addon-manifest/#settings-object).
+Deretter, gå til [addon.settings-dokumentasjonen](/docs/reference/addon-api/addon.settings) for å lære hvordan du får tilgang til brukervalg fra brukerskript.
 
-## Step 11: Before publishing your addon
-Now that your addon works, let's make sure we can add it to the addon library.  
-Make sure your addon's manifest is suitable, [more info here](/docs/reference/addon-manifest). Keep close attention to the name, description and tags of your addon. Make sure to set `"enabledByDefault"` to `false` or remove it.  
-Make sure your addon doesn't break other addons.  
-Make sure your code is understandable; having unnecessary comments is better than no comments.
+## Trinn 11: Før du publiserer tillegget ditt
+Nå som tillegget ditt fungerer, la oss sørge for at vi kan legge det til i tilleggsbiblioteket. Sørg for at tilleggets manifest er egnet, [mer informasjon her](/docs/reference/addon-manifest). Vær nøye med navnet, beskrivelsen og taggene til tillegget ditt. Sørg for å sette `"enabledByDefault"` til `false` eller fjern det. Sørg for at tillegget ditt ikke ødelegger andre tillegg. Sørg for at koden din er forståelig; det er bedre med unødvendige kommentarer enn ingen kommentarer.
 
-## Step 12: Send a pull request!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+## Trinn 12: Send en pull request!
+Følg trinnene på våre [bidragsretningslinjer](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Enkelt sagt, forke repoet hvis du ikke allerede har gjort det, committ din nye tillegg og send en PR! Husk at vi kanskje ber deg om å gjøre noen endringer, men vi vil sannsynligvis godta tillegget ditt så lenge det er minimalt egnet.

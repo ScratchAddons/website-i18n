@@ -18,8 +18,8 @@ Scratch Addons ist dank Freiwilligen auf der ganzen Welt auf über 15 Sprachen v
 * Du musst ein Konto auf [scratch.mit.edu](https://scratch.mit.edu) haben.
 
 {{< admonition info >}}
-**Diese Sprachen nehmen KEINE neuen Übersetzer an:** Italienisch, japanisch, portugiesisch, slovenisch, spanisch.
-<!-- Diese Liste Sprachen ist auch unten zu finden. Beide sollten aktualisiert werden. -->
+**These languages do NOT accept new translators:** Italian, Spanish.
+<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 Wenn du kein Muttersprachler bist, aber sagen würdest, dass du es relativ fließend sprechen kannst, kannst du auch anfragen, beizutreten. Ein paar Sprachunterichtsstunden gemacht zu haben heißt nicht, dass du es fließend sprichst. Wenn du die Sprache deines Handys darauf nicht ändern könntest, bist du nicht fließend genug!
@@ -65,20 +65,18 @@ Danke, dass du uns helfen willst, Scratch Addons in andere Sprachen zu übersetz
 Wenn du kein Scratchkonto hast, sende bitte stattdessen eine E-Mail zu `translation@scratchaddons.com`.
 
 ### 2. Erstelle ein Scratchkonto
-1. Gehe zu [Transifex Sign Up](https://app.transifex.com/signup/).
-1. Dir wird Transifex's "Beitreten"-Bildschirm angezeigt. **Melde dich NICHT mit Google an.**
+1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
+1. You will be shown Transifex's "Sign up" screen. **DO NOT sign up with Google.**  
+1. In dem "Geschäftsemail"-Feld, gebe deine Email ein (es kann GMail, Outlook, oder andere sein).
 1. Wir empfehlen dir sehr, in dem "Benutzername"-Feld deinen Scratchbenutzernamen einzugeben, oder eine kleine Veränderung.
 Wenn dein Nutzername auf Scratch zum Beispiel `john_walker954` ist, kann dein Transifexname gleich sein (`john_walker954`) oder `john_walker954_scratch`.
-1. In dem "Geschäftsemail"-Feld, gebe deine Email ein (es kann GMail, Outlook, oder andere sein).
 1. Gebe in dem "Passwort"-Feld dein Passwort ein.
-1. Klicke auf die "Beitreten"-Schaltfläche.
-1. Klicke auf **"Einer existierenden Organisation beitreten"**.
-1. Click the "Continue" button.
+1. Click the "Sign up" button.
 1. You'll be asked for your First name and Last name.  
 \- In the **First name**, we recommend you enter your Scratch username.  
 \- In the **Last name**, we recommend you enter the language you want to translate to (for example, `Greek`).
 1. In the "languages you speak" field, select at least one language you're fluent with (for example, English).
-1. Click the "Continue" button.
+1. Click the "Let's get started" button.
 1. Continue with the "requesting a language" steps below.
 
 If you already own a Transifex account and don't want to create a new one, please send an email to `translation@scratchaddons.com` indicating your Transifex account's username. Then, continue with the "requesting a language" section below.

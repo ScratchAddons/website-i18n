@@ -13,7 +13,7 @@ Det er ikke nødvendig å laste inn utvidelsen på nytt ved å gå til `chrome:/
 
 ### Bruk addon.* API fra konsollen.
 
-For development, you may choose to expose the `addon` object as a global variable, so that it can be accessed within the browser console.
+For utvikling kan du velge å eksponere `addon`-objektet som en global variabel, slik at det kan nås innenfor nettleserkonsollen.
 
 ```js
 export default async function ({ addon, console }) {
@@ -22,47 +22,46 @@ export default async function ({ addon, console }) {
 }
 ```
 
-### Set breakpoints with the "debugger" keyword
+### Sett inn pauser med nøkkelordet "debugger"
 
-The `debugger;` keyword in JavaScript will freeze the page when ran, if the developer tools are open. Setting breakpoints is useful to inspect the value of local variables during execution.
+`debugger;`-nøkkelordet i JavaScript vil fryse siden når det kjøres, hvis utviklerverktøyene er åpne. Å sette opp pauser er nyttig for å inspisere verdien av lokale variabler under utførelse.
 
-### Filter console messages by addon ID
+### Filtrer konsollmeldinger etter tilleggs-ID
 
-Enter the addon ID on the "filter" console search bar to only view logs and warnings, as well errors logged with `console.error()`. Keep in mind that this will hide all exceptions, unless you're explicitly logging them in your code.
-
-
-## Edge cases
+Skriv inn tilleggs-ID-en i søkefeltet "filter" på konsollen for å bare vise logger og advarsler, samt feil som er logget med `console.error()`. Husk at dette vil skjule alle unntak, med mindre du logger dem eksplisitt i koden din.
 
 
-### Scratch project page and editor
+## Edge tilfeller
 
 
-#### The DOM is destroyed after going inside or outside the editor
-
-Scratch creates all HTML elements each time the user clicks "see inside" or "see project page", and destroys the old ones.  
-This can usually be fixed by using `addon.tab.waitForElement` or the `urlChange` event.
-
-#### The Scratch editor language can be changed without a reload
-
-Unlike the Scratch website, the Scratch editor will not reload when changing the language. When selecting a different language, Scratch might destroy and re-create some HTML elements.
-
-#### Other situations to consider
-
-- The project editor may be used without a defined project ID (for example, when logged out).
-- The editor might switch from LTR to RTL (or viceversa) without requiring a page reload.
+### Scratch prosjektside og redigeringsverktøy
 
 
-### Scratch website
+#### DOM-en blir ødelagt etter å ha gått inn eller ut av redigeringsprogrammet.
 
-#### scratch-www pages don't reload after logging in
+Scratch oppretter alle HTML-elementer hver gang brukeren klikker på "se inni" eller "se prosjektsiden", og ødelegger de gamle. Dette kan vanligvis løses ved å bruke `addon.tab.waitForElement` eller `urlChange`-hendelsen.
 
-Unlike scratchr2 pages, scratch-www pages do not force a page reload after logging in. For example, if you go to a project page while being logged out, then log in, the page will not reload. This also affects studios, the messages page, etc.  
-In contrast, all Scratch pages reload after logging out.
+#### Scratch-redigeringsprogrammet språk kan endres uten å laste på nytt
 
-#### Project pages never return 404s
+I motsetning til Scratch-nettstedet, vil ikke Scratch-redigereren laste inn på nytt når språket endres. Når du velger et annet språk, kan Scratch ødelegge og opprette noen HTML-elementer på nytt.
 
-Even if the project is unshared or doesn't exist, Scratch returns a 200 HTTP status code. The "our server is Scratch'ing its head" message is added dynamically to the page by Scratch.
+#### Andre situasjoner å vurdere
 
-#### Other situations to consider
+- Prosjektredigeringsverktøyet kan brukes uten en definert prosjekt-ID (for eksempel når du er logget ut).
+- Redaktøren kan bytte fra LTR til RTL (eller omvendt) uten å kreve en sideoppdatering.
 
-- Each of the 4 tabs inside studios have different URLs, but do not trigger a browser navigation. Addons that affect any of the 4 pages should run, no matter the initial URL.
+
+### Scratch nettsted
+
+#### scratch-www-sider lastes ikke på nytt etter innlogging
+
+I motsetning til scratchr2-sider, tvinger ikke scratch-www-sider en sideoppdatering etter innlogging. For eksempel, hvis du går til en prosjektside mens du er logget ut, og deretter logger inn, vil ikke siden lastes på nytt. Dette påvirker også studioer, meldingssiden osv.
+I motsetning til dette lastes alle Scratch-sider på nytt etter utlogging.
+
+#### Prosjektsider returnerer aldri 404-feil.
+
+Selv om prosjektet ikke deles eller ikke eksisterer, returnerer Scratch en HTTP-statuskode 200. Meldingen "vår server klør seg i hodet" legges dynamisk til siden av Scratch.
+
+#### Andre situasjoner å vurdere
+
+- Hver av de 4 fanene inne i studioene har forskjellige URL-er, men utløser ikke en nettlesernavigasjon. Tillegg som påvirker noen av de 4 sidene, bør kjøre, uavhengig av den opprinnelige URL-en.

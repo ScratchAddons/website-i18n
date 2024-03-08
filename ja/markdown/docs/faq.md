@@ -31,9 +31,9 @@ Scratch Addons は、公式には [Google Chrome](https://google.com/chrome/) (�
 
 ### モバイル端末で Scratch Addons を利用できますか?
 
-Android ユーザー: はい、ただし推奨されません。メジャーなブラウザーは Scratch Addons (やその他の拡張機能) がインストールできないように設計されているので、 [Kiwi](https://kiwibrowser.com/) といったブラウザーを使用しないといけません。 Scratch Addons のUIはタッチスクリーンや画面が小さい環境ではテストされていないため、機能が正常に動作しない可能性があります。
+**For Android users**: Yes, Scratch Addons can now be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), but it is not recommended yet since Scratch Addons' UI is not well-tested on touchscreens or environments with small screen sizes so some features might not work as expected. Alternatively, if you prefer Chrome you could try the [Kiwi Browser](https://kiwibrowser.com/).
 
-iOS と iPadOS ユーザー: 残念ながらできません。 App Store の方針により、ブラウザー実装をアップロードすることができず、利用できるブラウザーがすべて Safari の外装を変えたものだからです。これによってさまざまな問題が生じます。 (以下参照)
+**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
 ### Safari で Scratch Addons を利用できますか?
 

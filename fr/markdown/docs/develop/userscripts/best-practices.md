@@ -113,6 +113,7 @@ reportButton.addEventListener("click", (event) => {
 
 - Préférez les API plus récentes, telles que `fetch()` plutôt que `XMLHttpRequest`.
 - N'utilisez pas `==` comme comparaisons, utilisez de préférence `===`.
+- When listening to keyboard events, accessing `event.key` is the preferred way to know which key was pressed. In general, you should avoid `event.code` and `event.keyCode`.
 - Utilisez le chaînage facultatif si un objet peut parfois être `null `. 
 Par exemple,  `document.querySelector(".remix-button")?.textContent`.
 - Utilisez `for ... of` loops ou `.forEach()`. 

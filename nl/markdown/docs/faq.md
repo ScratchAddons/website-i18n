@@ -31,15 +31,15 @@ Scratch Addons wordt officieel ondersteund op de desktop-versies van [Google Chr
 
 ### Kan ik Scratch Addons op een mobiel apparaat gebruiken?
 
-Voor Android-gebruikers: Ja, maar het is niet aangeraden. Grote browsers staan het installeren van Scratch Addons (of alle andere extensies) niet toe, dus je moet browsers zoals [Kiwi](https://kiwibrowser.com/) gebruiken. De UI van Scratch Addons is niet volledig getest op touchscreen of kleine schermen, dus sommige functies werken niet als verwacht.
+**Voor Android-gebruikers**: Ja, het is nu mogelijk om Scratch Addons te installeren op [Firefox voor Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), maar let nog wel op, want Scratch Addons is niet goed getest op touchscreens of kleine schermen, dus sommige functies kunnen anders werken dan verwacht. Als je liever iets wilt dat op Chrome lijkt, probeer dan eens de [Kiwi Browser](https://kiwibrowser.com/) als alternatief.
 
-Voor iOS en iPadOS-gebruikers: Helaas kan dit niet. Het beleid van de App Store staat het uploaden van browser-implementaties niet toe, wat betekent dat alle browsers die beschikbaar zijn op dat platform eigenlijk gewoon Safari zijn. Dit veroorzaakt wat problemen (zie hieronder).
+**Voor iOS en iPadOS-gebruikers**: Helaas kan dat niet. Het beleid van de App Store staat het uploaden van browser-implementaties niet toe, wat betekent dat alle browsers die beschikbaar zijn op dat platform eigenlijk gewoon Safari zijn. Dit veroorzaakt een aantal problemen (lees hieronder meer).
 
 ### Kan ik Scratch Addons op Safari gebruiken?
 
 Helaas kan dat op dit moment niet.
 
-Allereerst eist de Safari extension store dat alle ontwikkelaars een jaarlijks bedrag betalen om extensies in de store te houden. Het team van Scratch Addons heeft geen inkomstbronnen, wat het lastig maakt om de extensie te onderhouden. Er is ook een technisch probleem met de implementatie van browserextensies in Safari, wat sommige kernfuncties onbruikbaar maakt.
+Ten eerste eist de Safari-extensiestore dat alle ontwikkelaars een jaarlijks bedrag betalen om extensies in de store te houden. Het team van Scratch Addons heeft geen inkomstbronnen, wat het zeer lastig maakt om de extensie te onderhouden. Tevens is er een technisch probleem met de implementatie van browserextensies in Safari die sommige kernfuncties onbruikbaar maakt.
 
 ### Kan ik Scratch Addons in de offline-editor gebruiken?
 

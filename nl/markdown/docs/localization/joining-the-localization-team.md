@@ -11,14 +11,14 @@ Scratch Addons is beschikbaar in meer dan 15 talen dankzij de hulp van vrijwilli
 
 ## Vereisten om mee te doen als een vertaler
 
-* Je moet **VLOEIEND ZIJN IN DE ENGELSE TAAL**.
-* Je bent vloeiend in het Engels als je bijvoorbeeld Scratch Addons in het Engels kan gebruiken, of als je de video's van griffpatch kan begrijpen. Als je moeite hebt met het begrijpen van zinnen zonder een online vertaler ben je niet vloeiend.
+* Je moet **VLOEIEND ZIJN IN ENGELS**.
+* Je bent vloeiend in Engels als je bijvoorbeeld Scratch Addons in het Engels kan gebruiken, of als je de video's van griffpatch kan begrijpen. Als je moeite hebt met het begrijpen van zinnen zonder een online vertaler ben je niet vloeiend.
 * Je moet **een MOEDERTAALSPREKER** zijn van de taal waarin je wilt vertalen.
 * Je moet een e-mailadres hebben, die je het liefst eens per week checkt.
 * Je moet een account hebben op [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**Deze talen accepteren GEEN nieuwe vertalers meer:** Italiaans, Japans, Portugees, Sloveens, Spaans.
+**Deze talen accepteren GEEN nieuwe vertalers meer:** Italiaans, Spaans.
 <!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
@@ -38,7 +38,7 @@ We ondersteunen alleen talen die Scratch zelf ook ondersteunt. We ondersteunen o
 
 ### Scratch Addons website
 
-Vertalers hebben ook de mogelijkheid om de inhoud van de Scratch Addons website te vertalen. Voor meer informatie over het vertalen van de website, lees [Translating (pagina is Engels)](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Vertalers hebben ook de mogelijkheid om de inhoud van de Scratch Addons website te vertalen. Voor meer informatie over het vertalen van de website, lees [Vertaling](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
 ## Ondersteunde talen
 
@@ -65,20 +65,18 @@ Bedankt voor je interesse om mee te helpen met het vertalen van Scratch Addons n
 Als je geen Scratch-account hebt, stuur dan een e-mail naar `translation@scratchaddons.com`.
 
 ### 2. Maak een Transifex-account
-1. Ga naar [Transifex - Registreren](https://app.transifex.com/signup/).
+1. Ga naar [Transifex open-bron registreren](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).
 1. Je komt terecht op de registreerpagina van Transifex. **Meld je NIET aan met Google.**
-1. We raden je sterk aan om als gebruikersnaam je Scratch-gebruikersnaam in te voeren, of iets wat erop lijkt.
-Als je Scratch-gebruikersnaam bijvoorbeeld `noah_smit954` is, dan kun je ervoor kiezen om je Transifex-gebruikersnaam hetzelfde te houden (`noah_smit954`), of doe iets als `noah_smit954_scratch`.
 1. Voer je persoonlijke e-mailadres in bij "business e-mail". (Gmail, Outlouk, het kan allemaal.)
+1. We raden je sterk aan om als gebruikersnaam je Scratch-gebruikersnaam in te voeren, of iets wat erop lijkt.
+Als je Scratch-gebruikersnaam bijvoorbeeld `banaan_954` is, dan kun je ervoor kiezen om je Transifex-gebruikersnaam hetzelfde te houden (`banaan_954`), of doe iets als `banaan_954_scratch`.
 1. Voer een wachtwoord in bij "wachtwoord", best vanzelfsprekend.
 1. Klik op "Registreren".
-1. Kies **"Lid worden van een bestaande organisatie"**.
-1. Klik op "Doorgaan".
 1. Je wordt gevraagd om je voornaam en achternaam.
 \- We raden je aan om bij **Voornaam** je Scratch-gebruikersnaam in te voeren.
 \- En bij **Achternaam** raden we je aan om de taal waarnaar je wilt gaan vertalen in te voeren (bijvoorbeeld `Greek`, voer de taal het liefst in het Engels in.)
 1. Bij "Talen die u spreekt" selecteer je tenminste één taal waarin je vloeiend bent (bijvoorbeeld, English).
-1. Klik op "Doorgaan".
+1. Klik op "Laten we beginnen".
 1. Ga hieronder verder met de stappen voor "een taal aanvragen".
 
 Als je al een Transifex-account hebt en geen nieuw account wilt maken, stuur dan een e-mail naar `translation@scratchaddons.com` en vermeld je Transifex-gebruikersnaam. Ga daarna hieronder verder met het stuk "een taal aanvragen".

@@ -31,9 +31,9 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 ### 스크래치 애드온을 휴대폰에서 사용할 수 있나요?
 
-안드로이드 사용자: 네, 하지만 추천하지는 않습니다. 대부분의 브라우저는 스크래치 애드온 (또는 다른 확장 프로그램) 설치를 허용하지 않기 때문에, [키위](https://kiwibrowser.com/) 같은 브라우저를 사용해야 합니다. 스크래치 애드온의 UI는 터치스크린 또는 작은 화면에서 제대로 테스트 되지 않았기 때문에 몇 기능들은 원래보다 잘 작동하지 않을 수 있습니다.
+**For Android users**: Yes, Scratch Addons can now be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), but it is not recommended yet since Scratch Addons' UI is not well-tested on touchscreens or environments with small screen sizes so some features might not work as expected. Alternatively, if you prefer Chrome you could try the [Kiwi Browser](https://kiwibrowser.com/).
 
-For iOS and iPadOS users: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
 
 ### 스크래치 애드온을 사파리에서 사용할 수 있나요?
 
