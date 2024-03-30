@@ -8,9 +8,9 @@ title: 설치
 
 | 스토어 | 설치 | 지원되는 브라우저 | 시스템 사양 |
 | - | - | - | - |
-| 크롬 웹 스토어 | [![크롬 웹 스토어에서 설치](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | 구글 크롬 80+<br />마이크로소프트 엣지 80+<br />오페라 67+<br />브레이브 1.3+<br />비발디 2.11+<br />*크로미움 80+* | 윈도우 7+<br />OS X / 맥 OS 10.11+<br />출시한지 ~6년이 안 된 크롬북
-| 파이어폭스 애드온 | [![파이어폭스 애드온에서 설치](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | 모질라 파이어폭스 86+ | 윈도우 7+<br />OS X / 맥 OS 10.12+
-| 마이크로소프트 엣지 애드온 | [![마이크로소프트 애드온에서 설치](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | 마이크로소프트 엣지 80+ | 윈도우 7+<br />OS X / 맥 OS 10.11+
+| 크롬 웹 스토어 | [![크롬 웹 스토어에서 설치](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 96+<br />Microsoft Edge 96+<br />Opera 82+<br />Brave 1.33+<br />Vivaldi 5.0+<br />*Chromium 96+* | 윈도우 7+<br />OS X / 맥 OS 10.11+
+| 파이어폭스 애드온 | [![파이어폭스 애드온에서 설치](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 109+ | 윈도우 7+<br />OS X / 맥 OS 10.12+
+| 마이크로소프트 엣지 애드온 | [![마이크로소프트 애드온에서 설치](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=microsoftedge&logoColor=white&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 96+ | 윈도우 7+<br />OS X / 맥 OS 10.11+
 
 ## 소스로부터
 

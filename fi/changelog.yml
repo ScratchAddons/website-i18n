@@ -147,3 +147,9 @@ v1.29.0:
       Uusi lisäosa: "peittävyyssäädin" lisää peittävyyssäätimen asuste-editorin värinvalitsimeen. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "äänenvoimakkuussäädin projekteissa", "viestien uudelleennimeäminen" ja "valitse esiintymislavan värejä asuste-editorissa".
+v1.30.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "kiinnittäminen asuste-editorissa" mahdollistaa objektien kiinnittämisen asuste-editorin rajalaatikoihin ja vektorisolmuihin. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "hahmoasetusten kutistaminen", "lisää lohkoja nimellä" ja "näytä aina numeronäppäimistö".
