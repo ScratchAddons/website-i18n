@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "La plupart des projets ne se comporteront pas correctement lorsqu'ils tournent à 60FPS, car l'augmentation du taux de rafraîchissement augmente également la vitesse d'exécution des scripts. Cette option ne doit être utilisée que pour les projets qui supportent le 60FPS.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Bouton \"Enregistrer maintenant\" plus grand",
+		"description": "Agrandit la taille du bouton \"Enregistrer maintenant\" dans l'éditeur, afin qu'il soit plus facile à cliquer.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -585,11 +603,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Barre de menu personnalisable",
+		"name": "Barre de menu de l'éditeur personnalisable",
 		"description": "Permet de masquer des éléments spécifiques de la barre de menu de l'éditeur ou de supprimer leurs étiquettes ou icônes.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -606,7 +624,7 @@
 		"info": [
 			{
 				"id": "tutorials-button-update",
-				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+				"text": "L'addon \"Cacher le bouton des Tutoriels\" a été déplacé ici en tant que paramètre."
 			},
 			{
 				"type": "notice",
@@ -855,6 +873,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Project page download button",
+		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Glisser-déposer de fichier",
 		"description": "Vous permet de glisser des images ou des sons depuis votre explorateur de fichiers directement dans la listes des sprites, des sons et des costumes. Vous pouvez également faire glisser des fichiers texte dans les listes ou dans la boîte de dialogue \"demander et attendre\".",
@@ -1088,13 +1118,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Entrées de blocs de texte carrées",
-		"description": "Rendre les entrées de blocs de texte et de couleur rectangulaires au lieu de carrées comme dans Scratch 2.0.",
+		"name": "Square block inputs",
+		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1480,7 +1515,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Si vous choisissez de masquer la barre d'outils, n'oubliez pas que vous pouvez utiliser la touche Échap pour quitter le mode plein écran du projet",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1525,6 +1560,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Replace backpack bar with button",
+		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -1659,7 +1711,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Cet addon n'est plus pris en charge et ne fonctionne plus."
 			}
 		],
 		"dynamicEnable": true,
@@ -2233,7 +2285,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2277,14 +2329,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "Redirection vers les forums standards",
-		"description": "Vous redirige vers les forums standard (\"principaux\") lorsque vous cliquez sur un lien vers les forums mobiles.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2340,7 +2392,7 @@
 		"description": "Empêche les navigateurs Web de compléter automatiquement avec des suggestions dans la barre de recherche de la barre de navigation.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2392,7 +2444,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

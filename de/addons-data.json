@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Das Ändern der Framefrequenz von Scratch-Projekten betrifft auch die Geschwindigkeit, mit der manche Skripte (zum Beispiel Schleifen) ausgeführt werden, deshalb werden sich die meisten Projekte nicht richtig verhalten, wenn sie mit mehr FPS laufen. Höhere Framefrequenzen sollten nur auf Projekten genutzt werden, die dafür gedacht sind.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "Wenn sich dein Browser im Energiesparmodus befindet (z.B. wenn dein Akkustand niedrig ist), könnte deine Framefrequenz begrenzt sein. In diesem Fall könnte die Nutzung dieses Addons Animationen nicht flüssiger machen.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -45,7 +50,7 @@
 	{
 		"id": "animated-thumb",
 		"name": "Thumbnailsetzer",
-		"description": "Fügt einen Knopf unten rechts zur Projektseite hinzu, der das Vorschaubild deines Projektes zu einem beliebigen Bild (einschließlich gifs) ändern kann.",
+		"description": "Fügt eine Schaltfläche unten rechts zur Projektseite hinzu, mit der du das Vorschaubild deines Projektes zu einem beliebigen Bild (einschließlich GIFs) ändern kannst.",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -88,7 +93,7 @@
 	{
 		"id": "better-img-uploads",
 		"name": "Bilder in HD hochladen",
-		"description": "Fügt einen neuen Knopf über dem \"Kostüm hochladen\"-Knopf, der hochgeladene Raster-Bilder automatisch in SVG (Vektor) umwandelt, um die Qualität nicht zu verlieren.",
+		"description": "Fügt eine neue Schaltfläche oberhalb von \"Kostüm hochladen\" hinzu, die hochgeladene Raster-Bilder automatisch in SVG (Vektor) umwandelt, um die Qualität nicht zu verlieren.",
 		"tags": ["editor", "beta", "costumeEditor"],
 		"credits": [
 			{
@@ -105,7 +110,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Verwende HD-Hochladen nicht, wenn du das Bild nach dem Hochladen noch bearbeiten willst.",
+				"text": "Verwende HD-Hochladen nicht, wenn du das Bild nach dem Hochladen noch bearbeiten möchtest.",
 				"id": "notSuitableEdit"
 			}
 		],
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Größere Schaltfläche \"Jetzt speichern\"",
+		"description": "Vergrößert die Schaltfläche \"Jetzt speichern\" im Editor, um sie leichter anklickbar zu machen.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -310,7 +328,7 @@
 		"info": [
 			{
 				"id": "howtoadd",
-				"text": "Du kannst das gerade geöffnete Projekt oder Studio durch Klicken auf \"Dieses Projekt/Studio hinzufügen\" in der Cloudspiele-Liste anzeigen."
+				"text": "Du kannst das momentan geöffnete Projekt oder Studio durch Klicken auf \"Dieses Projekt/Studio hinzufügen\" in der Cloudspiele-Liste anzeigen."
 			}
 		],
 		"dynamicEnable": true,
@@ -457,7 +475,7 @@
 	{
 		"id": "copy-message-link",
 		"name": "Link zum Kommentar kopieren",
-		"description": "Fügt einen \"Link kopieren\"-Button zu allen Scratch-Kommentaren neben dem \"Melden\"-Button hinzu.",
+		"description": "Fügt eine \"Link kopieren\"-Schaltfläche zu allen Scratch-Kommentaren neben \"Melden\" hinzu.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{ "name": "Sly-Little-Fox", "link": "https://github.com/Sly-Little-Fox/" }
@@ -585,11 +603,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Benutzerdefinierte Menüleiste",
+		"name": "Benutzerdefinierte Menüleiste im Editor",
 		"description": "Ermöglicht es dir, bestimmte Elemente von der Menüleiste im Editor zu entfernen oder deren Symbole bzw. Beschriftungen auszublenden.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -723,7 +741,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Fügt ein neues \"Debugger\"-Fenster im Editor hinzu. Erlaubt das loggen in den \"Logs\"-Tab des Debugger-Fenster mit den Blöcken \"loggen\", \"warnen\" und \"Fehler\". Der \"Unterbrechen\"-Block wird das Projekt pausieren. Alle aktuell ausgeführten Blockreihen können im \"Threads\"-Tab des Debuggerfensters angezeigt werden und wenn das Projekt pausiert ist kann der \"Schritt\"-Knopf verwendet werden, um einen Block nach dem anderen auszuführen. Ein Graph der Bildwiederholrate und der Klonanzahl kann im \"Leistung\"-Tab angezeigt werden.",
+		"description": "Fügt ein neues \"Debugger\"-Fenster im Editor hinzu. Erlaubt das loggen in den \"Logs\"-Tab des Debugger-Fenster mit den Blöcken \"loggen\", \"warnen\" und \"Fehler\". Der \"Unterbrechen\"-Block wird das Projekt pausieren. Alle aktuell ausgeführten Blockreihen können im \"Threads\"-Tab des Debuggerfensters angezeigt werden, und wenn das Projekt pausiert ist, kann die \"Schritt\"-Schaltfläche verwendet werden, um einen Block nach dem anderen auszuführen. Ein Graph der Bildwiederholrate und der Klonanzahl kann im \"Leistung\"-Tab angezeigt werden.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -855,6 +873,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Schaltfläche zum Herunterladen auf der Projektseite",
+		"description": "Ermöglicht es, Projekte direkt von der Projektseite aus herunterzuladen, ohne den Editor davor öffnen zu müssen. Die Schaltfläche zum Herunterladen wird neben der Schaltfläche \"Link kopieren\" hinzugefügt.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Drag and Drop-Unterstützung für Dateien",
 		"description": "Lässt dich BIlder und Klänge vom Dateimanager zur Figuren-, Kostüm- und Klangliste ziehen. Du kannst auch Textdateien in Listen oder \"frage und warte\"-Felder ziehen.",
@@ -867,8 +897,8 @@
 	},
 	{
 		"id": "echo-effect",
-		"name": "Echo-Effekt-Knopf",
-		"description": "Bringt den Echo-Effekt-Knopf zum Klangeditor zurück.",
+		"name": "Echo-Effekt im Klangeditor",
+		"description": "Bringt die Echo-Effekt-Schaltfläche im Klangeditor zurück.",
 		"tags": ["editor"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1088,13 +1118,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Quadratische Textfelder in Blöcken",
-		"description": "Macht Text- und Farbenfelder rechteckig statt rund, wie in Scratch 2.0.",
+		"name": "Viereckige Eingabefelder von Blöcken",
+		"description": "Macht bestimmte Eingabefelder von Blöcken (wie Text oder Farbe) rechteckig statt rund, wie in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1159,8 +1194,8 @@
 	},
 	{
 		"id": "editor-unshare-button",
-		"name": "Unveröffentlichen-Knopf im Editor",
-		"description": "Ersetzt den \"Veröffentlicht\"-Knopf neben dem Titelfeld im Editor mit einem Knopf zum Rückgängig machen der Veröffentlichung des Projekts.",
+		"name": "Unveröffentlichen-Schaltfläche im Editor",
+		"description": "Ersetzt den \"Veröffentlicht\"-Text neben dem Titelfeld im Editor mit einer Schaltfläche zum Zurückziehen der Veröffentlichung des Projekts.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -1170,7 +1205,7 @@
 	{
 		"id": "emoji-picker",
 		"name": "Emoji-Wähler für Kommentare",
-		"description": "Fügt einen Knopf zum Hinzufügen von Emojis zu Kommentaren in der Website hinzu.",
+		"description": "Fügt eine Schaltfläche zum Hinzufügen von Emojis zu Kommentaren auf der Website hinzu.",
 		"tags": ["community", "comments", "featured"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229" }],
 		"dynamicEnable": true,
@@ -1346,8 +1381,8 @@
 	},
 	{
 		"id": "forum-copy-code",
-		"name": "Knopf zum Kopieren von Code auf Foren",
-		"description": "Fügt einen \"Code kopieren\"-Knopf über Codeboxen in Forumbeiträgen hinzu.",
+		"name": "Schaltfläche zum Kopieren von Code auf Foren",
+		"description": "Fügt eine \"Kopieren\"-Schaltfläche über Codeboxen in Forumbeiträgen hinzu.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
@@ -1435,7 +1470,7 @@
 	{
 		"id": "forum-toolbar",
 		"name": "Mehr Werkzeuge in Foren",
-		"description": "Fügt Knöpfe in der Forum-Editor-Toolbar zum Einfügen von BBCode-Tags hinzu, wie [center] oder [color], hinzu.",
+		"description": "Fügt Schaltflächen in der Symbolleiste des Forum-Editors zum Einfügen von BBCode-Tags, wie [center] oder [color], hinzu.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1480,7 +1515,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Wenn du die Symbolleiste ausblendest, denke daran, dass du mit der Esc-Taste den Vollbildmodus des Projektplayers verlassen kannst.",
+				"text": "Wenn du die Symbolleiste nie anzeigst, denke daran, dass du mit der Esc-Taste den Vollbildmodus des Projektplayers weiterhin verlassen kannst.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1527,9 +1562,26 @@
 		"versionAdded": "1.23.0"
 	},
 	{
+		"id": "hide-backpack",
+		"name": "Lager als Schaltfläche anzeigen",
+		"description": "Ersetzt die Lager-Leiste am unteren Bildschirmrand mit einer Schaltfläche neben den Zoom-Steuerelementen.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "hide-delete-button",
-		"name": "Löschen-Knopf verstecken",
-		"description": "Versteckt den Löschen-Knopf (das Mülleimer-Icon) von FIguren, Kostümen und Klängen. Sie können weiterhin mit dem Rechtsklick-Kontextmenü glöscht werden.",
+		"name": "Löschen-Schaltfläche verstecken",
+		"description": "Versteckt die Löschen-Schaltfläche (das Mülleimer-Icon) von FIguren, Kostümen und Klängen. Sie können weiterhin mit dem Rechtsklick-Kontextmenü gelöscht werden.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1652,14 +1704,14 @@
 	{
 		"id": "image-uploader",
 		"name": "Bild-Uploader in Foren",
-		"description": "Fügt einen Knopf zum direkten Hochladen von BIldern in Forumposts hinzu.",
+		"description": "Fügt eine Schaltfläche zum direkten Hochladen von BIldern in Forumposts hinzu.",
 		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "Jeffalo" }],
 		"info": [
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Dieses Addon wird nicht unterstützt und funktioniert nicht mehr."
 			}
 		],
 		"dynamicEnable": true,
@@ -1718,7 +1770,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Zu Blockdefinition springen",
-		"description": "Ermöglicht das Springen zur Definition eines benutzerdefinierten Blocks durch Klicken mit der mittleren oder rechten Maustaste mit gedrückter Umschalttaste.",
+		"description": "Klicke mit gedrückter Umschalt-Taste oder mit der mittleren Maustaste auf einen benutzerdefinierten Block, um zu seiner Definition zu springen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"info": [
@@ -1824,7 +1876,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Projektvideorekorder",
-		"description": "Fügt einen \"Aufnehmen\"-Knopf zur Menüleiste im Editor hinzu, mit dem du die Bühne des Projekts aufnehmen kannst.",
+		"description": "Fügt eine Schaltfläche zur Menüleiste im Editor hinzu, mit der du die Bühne des Projekts aufnehmen kannst.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2078,7 +2130,7 @@
 	{
 		"id": "one-click-studio-invites",
 		"name": "Ein-Klick-Studioeinladungen",
-		"description": "Akzeptiere Studioeinladungen direkt aus Scratchs Nachrichtenseite. Eine Schaltfläche zum Annehmen wird direkt unter Einladungsnachrichten erscheinen.",
+		"description": "Akzeptiere Studioeinladungen direkt aus Scratchs Nachrichtenseite. Eine Schaltfläche zum Annehmen wird unter Einladungsnachrichten erscheinen.",
 		"tags": ["community", "studios"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -2090,7 +2142,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "Onion Skinning",
-		"description": "Zeigt ein transparentes Bild des vorherigen oder nächsten Kostüms während dem Bearbeiten eines Kostüms. Du kannst es mit Knöpfen neben den Zoom-Knöpfen im Kostümeditor steuern.",
+		"description": "Zeigt ein transparentes Bild des vorherigen oder nächsten Kostüms über dem aktuellen Kostüm im Maleditor an. Du kannst es mit Schaltflächen neben den Zoom-Schaltflächen steuern.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2134,7 +2186,7 @@
 	{
 		"id": "paint-by-default",
 		"name": "Benutzerdefiniertes Verhalten von Hinzufügen-Buttons",
-		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang\" wählen\"-Knöpfen, die die Bibliothek standardmäßig öffnen.",
+		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang wählen\"-Schaltflächen, die standardmäßig die Bibliothek öffnen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2169,7 +2221,7 @@
 	},
 	{
 		"id": "pause",
-		"name": "Pause-Button",
+		"name": "Pause-Schaltfläche",
 		"description": "Fügt eine Schaltfläche neben der grünen Flagge hinzu, mit der Projekte pausiert werden können.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
@@ -2233,7 +2285,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2247,7 +2299,7 @@
 	{
 		"id": "project-info",
 		"name": "Figuren- und Skriptanzahl",
-		"description": "Zeigt die Anzahl der Figuren und Skripte, die ein Projekt besitzt, neben dem Remixen-Knopf an.",
+		"description": "Zeigt die Anzahl der Figuren und Skripte, die ein Projekt besitzt, neben der Schaltfläche \"Remixen\" an.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -2277,14 +2329,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
+		"id": "redirect-mobile-forums-v2",
 		"name": "Zu Standardforen weiterleiten",
-		"description": "Leitet dich zu den Standardforen (\"main\") weiter, wenn du einen Link zu den mobilen Foren anklickst.",
+		"description": "Leitet dich zur Standardansicht (\"main\") der Foren weiter, wenn du die mobile Ansicht (\"m\") besuchst, um \"Seite nicht gefunden\"-Fehler zu vermeiden.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2303,8 +2355,8 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remixen-Taste in eigenen Projekten",
-		"description": "Fügt die Remixen-Taste zu deinen eigenen Projekten hinzu.",
+		"name": "Remixen-Schaltfläche in eigenen Projekten",
+		"description": "Ermöglicht das Remixen deiner eigenen Projekte.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
@@ -2315,8 +2367,8 @@
 	},
 	{
 		"id": "remix-tree-button",
-		"name": "Remixbaumknopf",
-		"description": "Bringt den Remixbaumknopf auf Projektseiten neben dem Link kopieren-Knopf zurück.",
+		"name": "Remixbaum",
+		"description": "Bringt die Schaltfläche \"Remixbaum\" auf Projektseiten neben der Schaltfläche \"Link kopieren\" zurück.",
 		"tags": ["community", "recommended", "projectPage"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
 		"dynamicEnable": true,
@@ -2340,7 +2392,7 @@
 		"description": "Hält Browser davon ab, Eingabevorschläge im Suchfeld der Navigationsleiste anzuzeigen.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2392,7 +2444,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",
@@ -2612,8 +2668,8 @@
 	},
 	{
 		"id": "show-bbcode",
-		"name": "Knopf für BBCode-Quelle",
-		"description": "Fügt einen Button hinzu, der die BBCode-Quelle eines posts anzeigt.",
+		"name": "BBCode-Quelle anzeigen",
+		"description": "Fügt eine Schaltfläche hinzu, die den BBCode-Quelltext eines Posts anzeigt.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2655,8 +2711,8 @@
 	},
 	{
 		"id": "studio-followers",
-		"name": "Follower durchsuchen-Knopf in Studios",
-		"description": "Fügt einen Knopf oben im \"Kuratoren\"-Tab in Studios, die du verwaltest, hinzu, der deine Follower und die Nutzer, denen du folgst, auflistet, um sie mit einem Klick einzuladen.",
+		"name": "\"Follower durchsuchen\"-Schaltfläche in Studios",
+		"description": "Fügt eine Schaltfläche oben im \"Kuratoren\"-Tab in Studios, die du verwaltest, hinzu, mit der du deine Follower und die Nutzer, denen du folgst, auflisten und mit einem Klick einladen kannst.",
 		"tags": ["community", "studios", "featured"],
 		"credits": [
 			{
@@ -2673,7 +2729,7 @@
 	{
 		"id": "studio-tools",
 		"name": "Studiotools",
-		"description": "Erlaubt es Managern, einfacher im Kuratorentab Benutzer von Studios zu befördern oder zu entfernen und Studios mit einem Knopf unter dem \"Studio folgen\"-Knopf zu verlassen.",
+		"description": "Ermöglicht es Managern, einfacher im Kuratorentab Benutzer von Studios zu befördern oder zu entfernen und Studios mit einer Schaltfläche unterhalb von \"Studio folgen\" zu verlassen.",
 		"tags": ["community", "studios", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -2728,7 +2784,7 @@
 	{
 		"id": "turbowarp-player",
 		"name": "TurboWarp-Modus",
-		"description": "Fügt eine Schaltfläche neben dem Remixen-Knopf auf Projektseiten hinzu, der Projekte in TurboWarp ausführt.",
+		"description": "Fügt eine Schaltfläche neben der Remixen-Schaltfläche auf Projektseiten hinzu, um Projekte in TurboWarp auszuführen.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -2749,7 +2805,7 @@
 			},
 			{
 				"type": "info",
-				"text": "Falls der Modus \"Player ersetzen\" aktiviert ist, kannst du mit gedrückter Strg-Taste (auf macOS Cmd-Taste) auf die Schaltfläche klicken, um das Projekt in einem neuen TurboWarp-Tab zu öffnen.",
+				"text": "Wenn der Modus \"Player ersetzen\" aktiviert ist, kannst du weiterhin mit gedrückter Strg-Taste (auf macOS Cmd-Taste) auf die Schaltfläche klicken, um das Projekt in einem neuen TurboWarp-Tab zu öffnen.",
 				"id": "ctrlToOpen"
 			}
 		],
@@ -2812,7 +2868,7 @@
 	{
 		"id": "youtube-fullscreen",
 		"name": "YouTube-Vollbild",
-		"description": "Aktiviert den Vollbild-Knopf in dem YouTube-Videoplayer von Scratch.",
+		"description": "Aktiviert die Schaltfläche \"Vollbild\" im YouTube-Videoplayer von Scratch.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{

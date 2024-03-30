@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Het veranderen van de framerate van Scratch-projecten beïnvloedt ook de frequentie waarmee bepaalde code (zoals lussen) wordt uitgevoerd, hierdoor zullen de meeste projecten niet goed werken met andere framerates. Daarom zijn aangepaste framerates alleen bedoeld voor projecten die het ondersteunen.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "Als de energiebesparingsmodus van je browser aanstaat (bijv. wanneer de batterij bijna leeg is) kan de framerate verminderd worden, waardoor het kan lijken dat deze addon niet werkt.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Grotere bewaarknop",
+		"description": "Maakt de \"Nu bewaren\"-knop in de editor groter om er makkelijker op te klikken.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -582,11 +600,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Aanpasbare menubalk",
+		"name": "Aanpasbare editor-menubalk",
 		"description": "Verberg bepaalde items in de menubalk van de editor of verberg hun labels of pictogrammen.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -852,6 +870,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Downloadknop op projectpagina",
+		"description": "Download projecten op de projectpagina zonder de editor te hoeven openen. De downloadknop staat naast de kopieer link-knop.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Bestand slepen en neerzetten",
 		"description": "Laat je afbeeldingen en geluiden slepen van je bestandsverkenner in het spritevenster of kostuum-/geluidlijst. Je kunt ook tekstbestanden naar lijsten of naar \"vraag en wacht\"-invoeren slepen.",
@@ -1085,13 +1115,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Rechthoekige tekst-invoervelden in blokken",
-		"description": "Maakt invoervelden voor tekst en kleur in blokken rechthoekig i.p.v. rond, zoals in Scratch 2.0.",
+		"name": "Rechthoekige invoervelden in blokken",
+		"description": "Maakt bepaalde soorten invoervelden (zoals tekst of kleur) rechthoekig in plaats van rond, zoals in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1477,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Als je de werkbalk verbergt, onthoud dan dat je Esc kan gebruiken om het volledige scherm uit te gaan.",
+				"text": "Onthoud dat je op Escape kan drukken om het volledige scherm uit te gaan als je de werkbalk verborgen houdt.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1522,6 +1557,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Vervang rugzakbalk met knop",
+		"description": "Vervangt de balk van de rugzak aan de onderkant van de editor met een knop.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -1656,7 +1708,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Deze addon wordt niet langer ondersteund en is niet meer werkend."
 			}
 		],
 		"dynamicEnable": true,
@@ -2230,7 +2282,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2274,14 +2326,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
+		"id": "redirect-mobile-forums-v2",
 		"name": "Omleiden naar standaardforums",
-		"description": "Leidt je om naar de standaard (\"hoofd\")-forums wanneer je klikt op een link naar de mobiele forums.",
+		"description": "Leidt je om naar de standaardweergave (\"main\") van de forums wanneer je de mobiele weergave (\"m\") bezoekt, om foutmeldingen te voorkomen.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2337,7 +2389,7 @@
 		"description": "Laat webbrowsers stoppen met het automatisch aanvullen in de zoekbalk van de navigatie.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2389,7 +2441,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Večji gumb \"Shrani takoj\"",
+		"description": "Poveča gumb \"Shrani takoj\" v urejevalniku, da ga je lažje klikniti.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -585,11 +603,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Prilagoditev menijske vrstice",
+		"name": "Prilagoditev menijske vrstice urejevalnika",
 		"description": "Omogoči, da skrijete posamezne predmete v menijski vrstici urejevalnika ali odstranite njihove oznake ali ikone.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -855,6 +873,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Project page download button",
+		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Vlečenje datotek v urejevalnik",
 		"description": "Omogoči vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Lahko povlečete tudi besedilne datoteke v sezname ali v polje, ki ga prikaže blok \"vprašaj in počakaj\".",
@@ -1088,13 +1118,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Kvadratna polja za vnos besedila v bloke",
-		"description": "Okrogla polja za vnos besedila in izbiro barv na blokih naredi pravokotna, kot v Scratchu 2.0.",
+		"name": "Oglata polja v blokih",
+		"description": "Nekatera okrogla polja na blokih (na primer za vnos besedila in izbiro barv) naredi pravokotna, kot v Scratchu 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1480,7 +1515,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Če skrijete orodno vrstico, ne pozabite, da lahko uporabite tipko Esc za izhod iz celozaslonskega načina predvajalnika.",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1525,6 +1560,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Replace backpack bar with button",
+		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -2233,7 +2285,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2277,14 +2329,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "Preusmeritev v standardne forume",
-		"description": "Preusmeri povezave na mobilne forume v standardne (\"glavne\") forume.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2340,7 +2392,7 @@
 		"description": "Prepreči spletnim brskalnikom, da bi samodejno vnašali predloge v iskalno polje vrstice za navigacijo.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2392,7 +2444,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

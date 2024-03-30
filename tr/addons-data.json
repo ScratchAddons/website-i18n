@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Larger \"Save Now\" button",
+		"description": "Extends the size of the \"Save Now\" button in the editor, making it easier to click.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -582,11 +600,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Özelleştirilebilir gezinme çubuğu",
+		"name": "Customizable editor menu bar",
 		"description": "Belirli düzenleyici menü çubuğu ögelerini gizlemenize veya bu ögelerin başlıklarını veya simgelerini kaldırmanıza olanak tanır.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -852,6 +870,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Project page download button",
+		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Dosya sürükleme ve bırakma",
 		"description": "Dosya yöneticinizden görselleri ve sesleri kukla bölmesine veya kostüm/ses listesine sürükleyebilmenizi sağlar. Ayrıca metin dosyalarını listelere veya \"sor ve bekle\" soru girişlerine sürükleyebilirsiniz.",
@@ -1085,13 +1115,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Kare blok metin girişleri",
-		"description": "Bloklardaki metin ve renk girişlerini dairesel yapmak yerine dikdörtgensel yapar. Tıpkı Scratch 2.0'da olduğu gibi.",
+		"name": "Square block inputs",
+		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1477,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Araç çubuğunu gizlemeyi seçerseniz, proje oynatıcısının tam ekran modundan çıkmak için Esc tuşunu kullanabileceğinizi unutmayın.",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1522,6 +1557,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Replace backpack bar with button",
+		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -2230,7 +2282,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2274,14 +2326,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "Standart forumlara yönlendir",
-		"description": "Mobil forumlara giden bir bağlantıya tıkladığınızda sizi standart (\"ana\") forumlara yönlendirir.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2337,7 +2389,7 @@
 		"description": "İnternet tarayıcılarının gezinme çubuğunun arama çubuğundaki önerileri otomatik olarak tamamlamayı durdurur.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2389,7 +2441,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -55,7 +60,7 @@
 	{
 		"id": "auto-follow-topics",
 		"name": "Подписаться на темы, на которых Вы публиковали",
-		"description": "Automatically follow forum topics you post on.",
+		"description": "Автоматически подписывайтесь к темам форума на которых вы публикуете.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Большая кнопка \"Сохранить сейчас\"",
+		"description": "Расширяет размер кнопки \"Сохранить сейчас\" в редакторе, чтобы было легче её нажать.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -338,8 +356,8 @@
 	},
 	{
 		"id": "color-inputs",
-		"name": "Ввод цвета",
-		"description": "Позволяет задавать точное значение (0-100) для каждого ползунка в выборе цвета редактора костюма.",
+		"name": "Ввод чисел в цветоподборщике",
+		"description": "Позволяет Вам установить точное значение (0-100) для каждого ползунка в цветоподборщике редактора костюмов, введя число.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -566,7 +584,7 @@
 	{
 		"id": "custom-block-text",
 		"name": "Настраиваемый стиль текста блоков",
-		"description": "Lets you customize the style of text on blocks, including adjusting the size, using bold text, or adding a shadow.",
+		"description": "Позволяет Вам настраивать стиль текста на блоках, включая регулировку размера, использование жирного текста, или добавление тени.",
 		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -585,11 +603,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Настраиваемая строка меню",
+		"name": "Настраиваемая строка меню редактора",
 		"description": "Позволяет Вам прятать определённые предметы строки меню или удалять их метки или иконки.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -606,12 +624,12 @@
 		"info": [
 			{
 				"id": "tutorials-button-update",
-				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+				"text": "Дополнение \"скрыть кнопку обучения\" было перемещено сюда как настройка."
 			},
 			{
 				"type": "notice",
 				"id": "small-screens",
-				"text": "The text labels may be automatically replaced by icons on smaller windows."
+				"text": "Текстовые этикетки могут быть автоматически заменены иконками на маленьких окнах."
 			}
 		],
 		"dynamicEnable": true,
@@ -798,8 +816,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Выключить качание спрайтов в панели спрайтов",
-		"description": "Позволяет скриптам, костюмам и звукам перемещаться в другие спрайты без перемещения спрайтов в панели спрайтов.",
+		"name": "Починить дрожание панели спрайтов",
+		"description": "Чинит ошибку в редакторе Scratch, где скрипты, костюмы и звуки не могут быть перетащены и брошены в спрайты без хаотичного прыгания спрайтов внутри панели спрайтов.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -853,6 +871,18 @@
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "download-button",
+		"name": "Кнопка загрузки на странице проекта",
+		"description": "Позволяет Вам скачать проекты прямо из страницы проекта, без необходимости заглядывать в редактор. Кнопка Загрузить добавляется рядом с кнопкой Копировать Ссылку.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "drag-drop",
@@ -1048,8 +1078,8 @@
 	},
 	{
 		"id": "editor-random-direction-block",
-		"name": "Point towards random direction block",
-		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
+		"name": "Блок указывания на случайное направление",
+		"description": "Добавляет настройку \"случайное направление\" к блоку \"повернуться к ()\" которая указывает спрайт на случайное направление. Это будет работать для каждого, кто использует проект.",
 		"tags": ["editor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
@@ -1088,13 +1118,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block text inputs",
-		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"name": "Квадратные вводы блоков",
+		"description": "Делает определённые типы вводов (такие, как текстовые и цветовые) прямоугольными, вместо округлённых, как в Scratch 2.0 .",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1199,7 +1234,7 @@
 	{
 		"id": "expanded-backpack",
 		"name": "Добавлять ряды в рюкзаке",
-		"description": "Arranges the contents of the editor backpack into an expandable two-way grid, similar to the costume library and increases the size of certain thumbnails.",
+		"description": "Расставляет контент рюкзака в расширяемую двустороннюю сетку, похожую на библиотеку костюмов, и увеличивает размер определённых икон.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1225,8 +1260,8 @@
 	},
 	{
 		"id": "faster-project-loading",
-		"name": "Faster project loading",
-		"description": "Fixes a Scratch bug that slows down project loading if the editor is opened from a link.",
+		"name": "Более быстрая загрузка проекта",
+		"description": "Чинит ошибку Scratch которая замедляет загрузку проекта если редактор открыт с помощью ссылки.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1480,7 +1515,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Если Вы спрячете панель инструментов, то не забывайте, что Вы можете нажать клавишу Esc, чтобы выйти из полноэкранного режима проекта.",
+				"text": "Если Вы выберите никогда не показывать строку инструментов, то помните, что Вы можете использовать клавишу Esc для выхода из полноэкранного режима проигрывателя проекта.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1527,13 +1562,30 @@
 		"versionAdded": "1.23.0"
 	},
 	{
+		"id": "hide-backpack",
+		"name": "Замена строки рюкзака кнопкой",
+		"description": "Заменяет строку рюкзака вдоль низины редактора кнопкой рядом с контроллерами масштабирования.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "hide-delete-button",
 		"name": "Скрыть кнопку удалить",
 		"description": "Скрывает кнопку удаления (иконка корзины) из спрайтов, костюмов и звуков. Они могут быть удалены из контекстного меню.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Совет: Если Вы случайно удалите спрайт, костюм или звук, Вы можете отменить удаление, щёлкнув Изменить в строке меню, а потом Восстановить.",
 				"id": "restoretip"
 			}
 		],
@@ -1571,7 +1623,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Скрывать новые переменные",
-		"description": "Do not automatically show monitors for newly created variables or lists.",
+		"description": "Не показывать мониторы автоматически для новых переменных или листов.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1607,7 +1659,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Hide forum signatures",
+		"name": "Прятать подписи на форумах",
 		"description": "Прячет подписи на постах в форумах и добавляет кнопку «показать подпись».",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1857,7 +1909,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Вставлять блоки по имени",
-		"description": "Middle or shift-click the code area, or press Ctrl+Space to bring up a block search window. Type block names (or parts of them) and drag them into the code area to add them to your project. The menu can be navigated with the arrow keys and Enter and supports autocompleting with Tab. To prevent the menu from closing, hold Shift while dragging blocks out of it.",
+		"description": "Щёлкните средней кнопкой мыши; щёлкните, задерживая клавишу Shift или же нажмите комбинацию клавиш Ctrl + Пробел, чтобы вызвать окно поиска блоков. Напишите имена блоков (или их частей) и перетащите их в площадь кода, чтобы добавить их в Ваш проект. Навигация через меню может осуществляться с помощью клавиш со стрелками и клавишей Enter. Меню поддерживает автозаполнение с помощью клавиши Tab. Чтобы предотвратить закрытие меню, зажмите Shift во время перетаскивания из меню блоков.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -1921,8 +1973,8 @@
 	},
 	{
 		"id": "move-to-top-layer",
-		"name": "Move sprite to front layer",
-		"description": "Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage.",
+		"name": "Выдвинуть спрайт на верхний слой",
+		"description": "Щёлкните спрайт во время зажатия клавиши Shift внутри панели спрайтов, чтобы выдвинуть его вперёд (верхний слой) сцены.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2005,15 +2057,15 @@
 	},
 	{
 		"id": "necropost-highlighter",
-		"name": "Necropost highlighter",
-		"description": "Highlights topics started much earlier than others on the same page in selected forums, so you don't waste time reading zombie messages or replies to help, question or request topics that were actually asked long ago.",
+		"name": "Маркер некропубликации",
+		"description": "Отмечает темы, начатые намного раньше чем другие на той же странице в выбранных форумах, чтобы Вы не тратили время, читая сообщения — зомби  или ответы на помощь, вопросы или запросы тем, которые на самом деле были вопрошены давно.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
 		"info": [
 			{
 				"type": "notice",
 				"id": "whatGetsHighlighted",
-				"text": "Sometimes an older topic is kept alive for good reasons, like an ongoing conversation, or the original poster following up their own topic months later. All older topics in selected forums are highlighted, including occasional lingering topics that are not necroposts. (That's why they get highlighted, but not removed.)"
+				"text": "Иногда старую тему держат живой по хорошим причинам, например идущее обсуждение или продолжение автором темы своей темы месяцы спустя. Все старые темы в выбранных форумах выделены, включая редкие вытянутые темы, которые не некропубликации. (Это почему они выделены, но не убраны.)"
 			}
 		],
 		"dynamicEnable": true,
@@ -2034,12 +2086,12 @@
 	{
 		"id": "number-pad",
 		"name": "Всегда показывать панель с цифрами",
-		"description": "Show Scratch's virtual number pad when editing number fields in blocks on all devices, instead of only touchscreen devices.",
+		"description": "Показать виртуальную цифровую клавиатуру Scratch во время редактирования значений цифровых полей в блоках на всех устройствах, а не на устройствах с сенсорным экраном.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "A number pad will show when editing number inputs from blocks such as \"move () steps\".",
+				"text": "Виртуальная цифровая панель появится во время редактирования цифровых полей, таких как \"идти () шагов\".",
 				"id": "explanation"
 			}
 		],
@@ -2191,8 +2243,8 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Выбор цвета сцены в редакторе костюмов",
-		"description": "Теперь пипетка из редактора костюмов будет захватывать цвета и со сцены!",
+		"name": "Выбор цветов на сцене с помощью пипетки",
+		"description": "Позволяет пипетке в редакторе костюмов также выбирать цвета из сцены.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2233,7 +2285,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2277,14 +2329,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "Перенаправить мобильные форумы на основные форумы",
-		"description": "Перенаправляет с /discuss/m/ на /discuss/.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2340,7 +2392,7 @@
 		"description": "Убирает панель с последними запросами",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2381,7 +2433,7 @@
 	{
 		"id": "reorder-custom-inputs",
 		"name": "Перестраиваемые пользовательские входные данные блока",
-		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"description": "Позволяет перемещение параметров пользовательских блоков на экране \"Создать блок\".",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -2392,7 +2444,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",
@@ -2568,7 +2624,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Search box in sprite pane",
+		"name": "Поле поиска в панели спрайтов",
 		"description": "Добавляет поле поиска к панели спрайтов, чтобы искать спрайты по имени.",
 		"tags": ["editor"],
 		"credits": [
@@ -2744,7 +2800,7 @@
 			},
 			{
 				"type": "notice",
-				"text": "The \"Replace player\" mode will send your Scratch username to TurboWarp.org for use in cloud data. TurboWarp has separate cloud data servers, so the cloud variables will be different than the ones on the Scratch player.",
+				"text": "Режим \"Заменить проигрыватель\" отправит Ваше имя Scratch в TurboWarp.org для использования в облаке. TurboWarp имеет отдельные облачные серверы, поэтому облачные переменные будут различны от переменных на проигрывателе Scratch.",
 				"id": "cloudData"
 			},
 			{

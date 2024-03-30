@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Cambiare la velocità dei progetti Scratch può influenzare la velocità a cui vengono eseguiti alcuni blocchi (ad esempio i cicli ripeti). Cambiando la velocità alcuni progetti non verranno eseguiti nel modo in cui ti aspetteresti. Velocità maggiori vanno usate solo per i progetti che sono stati pensati per supportarle. ",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "Se il tuo browser è iin modalità di risparmio energetico (ad es. se la batteria è quasi scarica) potrebbe limitare la velocità delle animazioni e questo addon potrebbe non rendere le anmazioni più fluide.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Pulsante “Salva Ora” di dimensioni maggiori",
+		"description": "Ingrandisce il pulsante “Salva Ora” nell’editor, in modo che sia più semplice cliccarlo.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -586,7 +604,7 @@
 		"description": "Ti permette di nascondere singolarmente gli elementi della barra dei menu o di rimuovere le etichette o le icone. ",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -852,6 +870,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Pulsante Download nella pagina del progetto",
+		"description": "Ti permette di scaricare i progeti direttamente dalla pagina del progetto, senza dover prima aprire l'editor. Il pulsante Download comparirà a fianco del pulsate Copia link.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Trascinamento file",
 		"description": "TI permette di trascinare immagini e suoni da una cartella nella lista degli sprite o dei costumi/suoni. Puoi anche trascinare file di testo su una lista o nella casella dei blocchi \"chiedi e attendi\".",
@@ -1085,13 +1115,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Caselle dei blocchi squadrate",
-		"description": "Permette di rendere squadrate le caselle dei blocchi per il testo e i colori invece che arrotondate, come in Scratch 2.0. ",
+		"name": "Argomenti dei blocchi squadrati",
+		"description": "Cambia la forma di alcuni tipi di argomenti dei blocchi (come tsto o colori) in rettangolare invece che arrotondata, come in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1123,7 +1158,7 @@
 	},
 	{
 		"id": "editor-theme3",
-		"name": "Colori dei blocchi personalizzabili",
+		"name": "Colore dei blocchi personalizzabile",
 		"description": "Modifica i colori dei blocchi per ogni categoria nell'editor.",
 		"tags": ["editor", "theme", "codeEditor", "featured"],
 		"credits": [
@@ -1477,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Se decidi di nascondere la barra ricorda che puoi usare il tasto Esc per uscire dalla modalità fullscreen.",
+				"text": "Se scegli di non mostrare mai la barra superiore, ricorda che puoi usare il tasto Esc per uscire dalla modalità presentazione.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1522,6 +1557,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Sostituisci la barra dello zainetto con un pulsante",
+		"description": "Sostituisci la barra dello zainetto in basso con un pulsante a fianco ai controlli dello zoom.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -1656,7 +1708,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Questo addon non è più supportato. Pertanto non funziona più."
 			}
 		],
 		"dynamicEnable": true,
@@ -2230,7 +2282,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2274,14 +2326,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
+		"id": "redirect-mobile-forums-v2",
 		"name": "Reindirizza ai forum standard",
-		"description": "Ti reindirizza ai forum standard (\"principale\") quando clicchi un link ai forum per dispositivi mobili.",
+		"description": "Ti reindirizza alla visualizzazione standard (\"main\") dei forum quando accedi alla visualizzazione mobile (\"m\") dei forum, evintando gli errori Pagina non trovata.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2337,7 +2389,7 @@
 		"description": "Fai in modo che i browser non completino automaticamente i suggerimenti nella casella di ricerca della barra di navigazione.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2389,7 +2441,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

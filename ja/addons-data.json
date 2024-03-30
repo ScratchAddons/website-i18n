@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "フレームレートを速くするとスクリプトの実行速度も速くなるため、60FSでは、多くのプロジェクトは正常に動作しません。このアドオンは60FPSに対応するプロジェクトでのみ使用すべきです。",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "「直ちに保存」ボタンを大きくする",
+		"description": "エディターの「直ちに保存」ボタンを大きくして、クリックしやすくします。",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -580,11 +598,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Customizable menu bar",
-		"description": "Allows you to hide specific editor menu bar items or remove their labels or icons.",
+		"name": "エディターのメニューバーのカスタマイズ",
+		"description": "エディターのナビゲーションバーの特定のアイテムを非表示にしたり、ラベルやアイコンを取り除くことができます。",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -601,12 +619,12 @@
 		"info": [
 			{
 				"id": "tutorials-button-update",
-				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+				"text": "「チュートリアルのボタンを隠す」アドオンは、設定として移動しました。"
 			},
 			{
 				"type": "notice",
 				"id": "small-screens",
-				"text": "The text labels may be automatically replaced by icons on smaller windows."
+				"text": "ウィンドウが小さい場合は、ラベルが自動的にアイコンに置き換えられることがあります。"
 			}
 		],
 		"dynamicEnable": true,
@@ -850,6 +868,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "プロジェクトページのダウンロードボタン",
+		"description": "エディタを開くことなく、プロジェクトページから直接プロジェクトをダウンロードできるボタンを追加する。ダウンロードボタンは「リンクのコピー」ボタンの横に追加する。",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "ファイルをドロップ",
 		"description": "エディターのスプライトペインやコスチュームペインにファイルをドロップしたり、リストや「聞いて待つ」画面にテキストファイルをドロップできるようにする。",
@@ -925,7 +955,7 @@
 		"info": [
 			{
 				"id": "hide-icons-update",
-				"text": "To hide menu bar icons, use the \"Customizable menu bar\" addon."
+				"text": "メニューバーのアイコンを非表示にするには、「エディターのメニューバーのカスタマイズ」アドオンを使用してください。"
 			}
 		],
 		"dynamicEnable": true,
@@ -1083,13 +1113,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block text inputs",
-		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"name": "正方形のブロック入力",
+		"description": "Scratch2.0のように、特定のブロック入力(テキストや色など)を、長方形にする。",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1475,7 +1510,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "ツールバーを隠した場合は、Escキーで全画面表示から戻れます。",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1520,6 +1555,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "バックパックバーをボタンに置き換える",
+		"description": "エディターの下部にあるバックパックバーを、ズームボタンの横のボタンに置き換えます。",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -2228,7 +2280,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2272,14 +2324,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "モバイル版フォーラムを自動リダイレクト",
-		"description": "モバイル版のフォーラムにアクセスしたときに、標準版に自動でリダイレクトさせる。",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2335,7 +2387,7 @@
 		"description": "ナビゲーションバーの検索バーでオートコンプリートを無効化する。",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2375,8 +2427,8 @@
 	},
 	{
 		"id": "reorder-custom-inputs",
-		"name": "Rearrangeable custom block inputs",
-		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"name": "並べ替え可能な定義ブロック",
+		"description": "「ブロックを作る」画面で定義ブロックの入力を並び替えられるようにする。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -2387,7 +2439,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

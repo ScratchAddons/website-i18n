@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "A maioria dos projetos não funcionarão adequadamente quando estiver em 60FPS, pois aumentar a contagem de quadros por segundo também aumentará a velocidade na qual os scripts rodam. Deve-se usar este recurso apenas em projetos que suportam 60FPS.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Botão de \"Salvar agora\" Maior",
+		"description": "Aumenta o tamanho do botão de \"Salvar agora\" no editor, deixando mais fácil de clicar",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -582,11 +600,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Customizable menu bar",
+		"name": "Customizable editor menu bar",
 		"description": "Allows you to hide specific editor menu bar items or remove their labels or icons.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -852,6 +870,18 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "download-button",
+		"name": "Project page download button",
+		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
+	},
+	{
 		"id": "drag-drop",
 		"name": "Arrastar arquivos",
 		"description": "Te deixa arrastar imagens e sons do seu computador até a lista de atores, fantasias ou sons. Você também pode arrastar arquivos de texto até listas ou a entrada de resposta do bloco \"pergunte e espere\".",
@@ -911,8 +941,8 @@
 	},
 	{
 		"id": "editor-compact",
-		"name": "Compact editor",
-		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"name": "Editor compacto",
+		"description": "Diminue o tamanho dos botões, campos de entrada, a barra do menu, e outros elementos no editor,  resultando em mais espaço para componentes como a área de código, o editor de fantasias, e o pré-visualizador de fantasias, como era o caso do Scratch 2.0",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -927,7 +957,7 @@
 		"info": [
 			{
 				"id": "hide-icons-update",
-				"text": "To hide menu bar icons, use the \"Customizable menu bar\" addon."
+				"text": "Para esconder os icones da barra do menu, use o  addon \"Barra do menu customizável\""
 			}
 		],
 		"dynamicEnable": true,
@@ -1085,13 +1115,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block text inputs",
-		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"name": "Square block inputs",
+		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1477,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Se escolher esconder a barra superior, lembre-se que você pode apertar a tecla Esc para sair do modo tela cheia do projeto.",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1522,6 +1557,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Replace backpack bar with button",
+		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -2195,8 +2247,8 @@
 	},
 	{
 		"id": "place-backpack-code-at-cursor",
-		"name": "Place backpack code at mouse",
-		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"name": "Colocar código da mochila no mouse",
+		"description": "arrastar e soltar blocos de código na posição do mouse invez no canto da área de código",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],
 		"dynamicEnable": true,
@@ -2227,7 +2279,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2271,14 +2323,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "Redirecionar para os fóruns normais",
-		"description": "Te redireciona para o fórum normal ao clicar em um link para o fórum mobile.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2334,7 +2386,7 @@
 		"description": "Impede o navegador de autocompletar palavras digitadas com sugestões na barra de busca da barra de navegação.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2386,7 +2438,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",

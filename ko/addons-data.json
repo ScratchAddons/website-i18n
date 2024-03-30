@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "60FPS 프로젝트 플레이어 모드",
-		"description": "Alt+깃발 클릭하여 60fps를 토글합니다.",
+		"name": "Higher project framerate mode",
+		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -26,6 +26,11 @@
 				"type": "notice",
 				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
+			},
+			{
+				"type": "notice",
+				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"id": "powerSaver"
 			}
 		],
 		"dynamicEnable": true,
@@ -54,7 +59,7 @@
 	},
 	{
 		"id": "auto-follow-topics",
-		"name": "Follow topics after posting",
+		"name": "포스팅을 하고 포럼 주제 자동으로 팔로우하기",
 		"description": "Automatically follow forum topics you post on.",
 		"tags": ["forums", "community"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
@@ -138,6 +143,19 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.7.0"
+	},
+	{
+		"id": "big-save-button",
+		"name": "Larger \"Save Now\" button",
+		"description": "Extends the size of the \"Save Now\" button in the editor, making it easier to click.",
+		"tags": ["editor", "editorMenuBar", "recommended"],
+		"credits": [
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "bitmap-copy",
@@ -369,7 +387,7 @@
 	},
 	{
 		"id": "colorblind",
-		"name": "Customizable link style",
+		"name": "커스텀 링크 스타일",
 		"description": "Lets you customize the style of links around the website.",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
@@ -582,11 +600,11 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Customizable menu bar",
+		"name": "Customizable editor menu bar",
 		"description": "Allows you to hide specific editor menu bar items or remove their labels or icons.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
-			{ "name": "philipp2007", "link": "https://ggigabyte.repl.co/" },
+			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
 			{
 				"name": "CST1229",
 				"link": "https://github.com/CST1229/",
@@ -795,8 +813,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "스프라이트 창에서의 스프라이트 흔들림 사용하지 않기",
-		"description": "스프라이트가 스프라이트 창 내에서 움직이지 않고 스크립트,  모양, 소리를 다른 스프라이트로 이동할 수 있습니다.",
+		"name": "스프라이트 창 결함 수정",
+		"description": "Fixes a bug in the Scratch editor where scripts, costumes, and sounds can't be dragged and dropped into sprites without the sprites jumping around within the sprite pane.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -850,6 +868,18 @@
 			"isMajor": false
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "download-button",
+		"name": "Project page download button",
+		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"tags": ["community", "projectPlayer", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "drag-drop",
@@ -911,7 +941,7 @@
 	},
 	{
 		"id": "editor-compact",
-		"name": "Compact editor",
+		"name": "콤팩트 편집기",
 		"description": "Scratch 2.0 처럼 코드 영역, 모양 편집기, 의상 미리보기와 같은 구성 요소를 위한 더 많은 공간을 만들기 위해 편집기의 버튼, 입력 필드, 메뉴 표시줄 및 기타 요소의 크기를 줄입니다.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
@@ -927,7 +957,7 @@
 		"info": [
 			{
 				"id": "hide-icons-update",
-				"text": "To hide menu bar icons, use the \"Customizable menu bar\" addon."
+				"text": "메뉴 표시줄 아이콘을 숨기려면 \"사용자 정의 가능한 메뉴 표시줄\" 애드온을 사용하십시오."
 			}
 		],
 		"dynamicEnable": true,
@@ -1085,13 +1115,18 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block text inputs",
-		"description": "Makes text and color inputs on blocks rectangular instead of round, like in Scratch 2.0.",
+		"name": "Square block inputs",
+		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["number"],
+			"isMajor": false
+		}
 	},
 	{
 		"id": "editor-stage-left",
@@ -1477,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "만약 툴바 숨기기를 선택했다면, Esc키를 눌러 전체 화면 모드에서 나가세요.",
+				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1522,6 +1557,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.23.0"
+	},
+	{
+		"id": "hide-backpack",
+		"name": "Replace backpack bar with button",
+		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"tags": ["editor", "codeEditor"],
+		"credits": [
+			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.37.0"
 	},
 	{
 		"id": "hide-delete-button",
@@ -2198,8 +2250,8 @@
 	},
 	{
 		"id": "place-backpack-code-at-cursor",
-		"name": "Place backpack code at mouse",
-		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"name": "마우스에 백팩 코드 배치",
+		"description": "코드 영역 모서리 대신 마우스 위치로 코드 블록을 드래그 앤 드롭합니다.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],
 		"dynamicEnable": true,
@@ -2210,7 +2262,7 @@
 	{
 		"id": "preview-project-description",
 		"name": "Preview project instructions and notes",
-		"description": "In your own projects, adds a toggle above the Instructions field to preview the project instructions and notes as seen by other users.",
+		"description": "당신의 프로젝트의 설명 위에 다른 유저들에게 설명이 어떻게 표시될지 보이게 하는 버튼을 표시합니다.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{
@@ -2230,7 +2282,7 @@
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "GarboMuffin" },
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2274,14 +2326,14 @@
 		"versionAdded": "1.4.0"
 	},
 	{
-		"id": "redirect-mobile-forums",
-		"name": "모바일 토론방에서 일반 토론방으로 리다이렉트하기",
-		"description": "모바일 토론방을 클릭했을 때 일반(\"메인\") 토론방으로 리다이렉트됩니다.",
+		"id": "redirect-mobile-forums-v2",
+		"name": "Redirect to standard forums",
+		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
 	},
 	{
@@ -2337,7 +2389,7 @@
 		"description": "네비게이션 바의 검색창에서 웹 브라우저가 제안을 자동완성하는 것을 끕니다.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "jbthepig", "link": "https://scratch.mit.edu/users/jbthepig/" }
+			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2389,7 +2441,11 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.36.0"
+		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.37.0",
+			"newSettings": ["InsertInputsAfter"]
+		}
 	},
 	{
 		"id": "resizable-comment-input",
