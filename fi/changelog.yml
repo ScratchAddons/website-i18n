@@ -153,3 +153,45 @@ v1.30.0:
       Uusi lisäosa: "kiinnittäminen asuste-editorissa" mahdollistaa objektien kiinnittämisen asuste-editorin rajalaatikoihin ja vektorisolmuihin. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "hahmoasetusten kutistaminen", "lisää lohkoja nimellä" ja "näytä aina numeronäppäimistö".
+v1.31.0:
+  Highlights:
+    Description: |
+      "Lisää lohkoja nimellä" -lisäosa on täysin uudistettu. Nyt voit kirjoittaa lohkosyötteitä ja ilmoitusarvoja muiden lohkojen sisään ja käyttää automaattista täyttöä painamalla sarkainta. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Tässä päivityksessä lisättyjä uusia lisäosia ovat "useita rivejä repussa", "ilmoitettujen arvojen kopioiminen" ja "jakaminen Omien tavaroiden kautta".
+v1.32.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "siirrä hahmo etualalle" mahdollistaa hahmon siirtämisen etualalle (muiden hahmojen päälle) esiintymislavalla käyttämällä vaihto+napautus-yhdistelmää hahmon päällä hahmoruudussa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "nopeammin latautuvat projektit", "seuraa aiheita lähetettyäsi niihin viestin", "nekropostausten korostaminen" ja "muista kutistetut foorumiluokat".
+v1.33.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "korosta projektin tekijä kommenteissa" lisää projektin tekijän viereen merkin projektien kommenttiosioissa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Monia lisäosia on valmisteltu Scratchin tuleviin muutoksiin. Tähän päivitykseen sisältyy myös suorituskykyyn ja vakauteen liittyviä parannuksia.
+v1.33.2:
+  Highlights:
+    Description: |
+      Scratch julkisti hetki sitten päivityksen, joka muuttaa joitakin verkkosivuston värejä. Jos haluat päivittää asetuksesi käyttämään näitä uusia värejä, palata vanhoihin tai muuten vain mukauttaa värejä, voit palauttaa tai muuttaa teemaa Scratch-lisäosien asetuksista.
+
+      Scratch-lisäosien kehittäjät ovat tehneet kovasti töitä, jotta värimuutoksia voitaisiin tukea, mutta saatat silti toisinaan törmätä pieniin bugeihin.
+v1.34.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "editorin lukuarvojen kasvattaminen ja pienentäminen nuolinäpppäimillä" mahdollistaa lohkojen lukuarvojen kasvattamisen ja pienentämisen ylä- ja alanuolinäppäimellä. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen uusi lisäosa on "kompakti editori" -teema, joka pienentää painikkeiden, syöttökenttien, valikkorivin ja muiden editorin elementtien kokoa tehden Scratch 2.0:n tavoin lisätilaa komponenteille, kuten koodialueelle, asuste-editorille ja asusteiden esikatselukuville.
+v1.35.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "vinottaminen asuste-editorissa" mahdollistaa objektien vinottamisen pitämällä Ctrl-painiketta painettuna objektin kokoa muuttaessa sen sivuilta. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen uusi lisäosa on "projektin ohjeiden ja ilmoitusten esikatseleminen", joka lisää omien projektiesi Ohjeet-kentän ylle kytkimen, jolla voi esikatsella projektin ohjeita ja ilmoituksia muiden käyttäjien näkökulmasta.
+v1.36.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "mukautettavien lohkojen syötekenttien järjesteleminen" mahdollistaa mukautettujen lohkojen parametrien järjestelemisen "Tee lohko" -näkymässä. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "mukautettava valikkorivi", "sijoita repusta raahattu koodi hiiren kohdalle" ja "lohkojen neliskulmaiset tekstikentät".
