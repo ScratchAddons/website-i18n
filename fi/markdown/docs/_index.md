@@ -9,7 +9,7 @@ Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uude
 ## Pikalinkit
 
 - Jos tutkit lisäosan luomista, [aloita tältä sivulta](develop/getting-started/creating-an-addon).
-- Jos haluat auttaa laajennuksen kotoistamisessa, [lue tämä sivu](localization/joining-the-localization-team).
+- Jos haluat auttaa laajennuksen lokalisoinnissa, [lue tämä sivu](localization/joining-the-localization-team).
 - Jos tarvitset apua Scratch-lisäosien käytön aloittamisessa, [lue tämä sivu](getting-started/quick-start).
 - Jos olet kiinnostunut projektin ulkoasusta, [lue tämä sivu](reference/design).
 - Löysitkö bugin? Keksi parannusehdotuksia ja kerro niitä [seikkavälilehdellä](https://github.com/ScratchAddons/ScratchAddons/issues).

@@ -1,8 +1,8 @@
 ---
-title: Lisäosien kotoistaminen
-description: Lisäosien kotoistaminen on helppoa.
+title: Lisäosien lokalisointi
+description: Lisäosien lokalisointi on helppoa.
 ---
-Lisäosien kotoistaminen on helppoa.
+Lisäosien lokalisointi on helppoa.
 
 ## Viestien lisääminen
 Tee `LISÄOSA-ID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. LISÄOSA_ID on lisäosan tunnus (kansion nimi). Kirjoita sinne viestit , jotka haluat kääntää:
@@ -21,41 +21,41 @@ Tee `LISÄOSA-ID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. LISÄOSA_ID o
 }
 ```
 
-### Paikkamerkit
-Toisinaan viesteissä täytyy olla kohtia, jotka generoidaan dynaamisesti. Esimerkiksi kissojen lukumäärä tai syötekenttä. Tätä varten voit käyttää paikkamerkkejä, kuten `{paikkamerkinNimi}`. Paikkamerkin nimi saa sisältää ainoastaan kirjaimia (ei numeroita).
+### Paikanvaraajat
+Toisinaan viesteissä täytyy olla kohtia, jotka generoidaan dynaamisesti. Esimerkiksi kissojen lukumäärä tai syöte. Tätä varten voit käyttää paikanvaraajia, kuten `{paikanvaraajanNimi}`. Paikanvaraajan nimi saa sisältää ainoastaan kirjaimia (ei numeroita).
 
 ### Monikolliset muodot
-Entä jos paikkamerkki on numero? Voimme käyttää monikollisia muotoja, kuten `{paikkamerkinNimi, plural, one {kun on yksi asia} other {kun on # asiaa}}`. Jos paikkamerkki on 1, näytetään kohta "kun on yksi asia". Muuten näytetään kohta "kun on (paikkamerkki) asiaa".
+Entä jos paikanvaraaja on numero? Voimme käyttää monikollisia muotoja, kuten `{paikanvaraajanNimi, plural, one {kun on yksi asia} other {kun on # asiaa}}`. Jos paikanvaraaja on 1, näytetään kohta "kun on yksi asia". Muuten näytetään kohta "kun on (paikanvaraaja) asiaa".
 
 ### Kehittäjän kommentit
 
-Transifex will display the developer comment when a translator has selected the specified string. These comments are usually used to ask for a particular translation of the string or to provide additional information for languages that do not differentiate between uppercase and lowercase characters.
+Transifex näyttää kehittäjän kommentin, kun kääntäjä on valinnut määritellyn merkkijonon. Kommenttien avulla yleensä kerrotaan yksityiskohtaisia tietoja merkkijonon käännöksestä tai tarjotaan lisätietoja kielille, jotka eivät erottele isoja ja pieniä kirjainmerkkejä.
 
-## Using the translations
-Change your userscript's first line from something like:
+## Käännösten käyttäminen
+Muuta käyttäjäskriptisi ensimmäinen rivi jostakin tällaisesta:
 ```
 export default async function ({ addon, console }) {
 ```
 
-to:
+tällaiseen:
 ```
 export default async function ({ addon, console, msg }) {
 ```
 
-The `msg` added is the function you use to get translations. For example, `text = "Meow"` can now be `text = msg("meow")`. The addon ID and the slash is omitted.
+Skriptiin lisätty `msg` on funktio, jota käytetään käännösten saamiseksi. Esimerkiksi `text = "Meow"` voisi nyt olla `text = msg("meow")`. Lisäosatunnus ja kauttaviiva on jätetty pois.
 
-### Paikkamerkit
-You can provide placeholder values:
+### Paikanvaraajat
+Voit käyttää paikanvaraajien arvoja:
 ```js
 cat = msg("cats", {number: 1}) // shows "1 cat"
 cats = msg("cats", {number: 3}) // shows "3 cats"
 hungry = msg("eat", {food: "cod"}) // shows "I want to eat cod!"
 ```
 
-You can also "nest" messages:
+Voit myös laittaa viestejä "sisäkkäin":
 ```js
 hungry2 = msg("eat", {food: msg("salmon")}) // shows "I want to eat salmon!"
 ```
 
-### Safety
-If you are writing raw HTML, `msg` should be replaced with safer version of `safeMsg`.
+### Turvallisuus
+Jos kirjoitat raakaa HTML-koodia, `msg` tulee korvata turvallisemmalla versiolla `safeMsg`.

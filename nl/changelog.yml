@@ -90,6 +90,24 @@ v1.20.0:
       Nieuwe addon: "enkel blok slepen met Ctrl-toets", het laat je een enkel blok uit het midden van een script slepen (zonder dat alle blokken eronder ook meegaan) door de Ctrl-toets ingedrukt te houden. Ga naar de Scratch Addons-instellingen om het in te schakelen.
 
       De "donkere modus en aanpasbare kleuren in editor"-addon heeft een nieuwe "Scratch 2.0"-voorinstelling. Andere nieuwe addons van deze update zijn "nieuwe variabelen verbergen" en "verplaats uiterlijk naar boven of beneden".
+v1.21.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "scripts dupliceren met alt-toets", het geeft je de mogelijkheid om scripts snel te dupliceren door het te slepen met de alt-toets ingedrukt. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      Andere nieuwe addons in deze update zijn "verbeterd volledig scherm" en "emoji-kiezer voor opmerkingen".
+v1.22.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "wissel variabelen tussen 'voor alle sprites' en 'alleen voor deze sprite'", het laat je het type van variabelen en lijsten veranderen en of variabelen in de cloud worden bewaard. Ga naar de Scratch Addons-instellingen om het in te schakelen.
+
+      Andere nieuwe addons van deze update zijn "betere editoropmerkingen", "categoriemenu met twee kolommen" en "zoekbalk in 'mijn projecten'".
+v1.23.0:
+  Highlights:
+    Description: |
+      Nieuwe addon: "donkere modus en aanpasbare kleuren op website". Ga naar de Scratch Addons-instellingen om specifieke kleuren aan te passen, donkere scrolbalken aan of uit te zetten en meer!
+
+      Andere nieuwe addons van deze update zijn "scripts uitlijnen op raster", "blokkenteller" en "thumbnails met hoge resolutie".
 v1.26.0:
   Highlights:
     Description: |
