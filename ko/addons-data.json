@@ -871,7 +871,7 @@
 	},
 	{
 		"id": "download-button",
-		"name": "Project page download button",
+		"name": "프로젝트 페이지 다운로드 버튼",
 		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
 		"tags": ["community", "projectPlayer", "featured"],
 		"credits": [
@@ -2261,7 +2261,7 @@
 	},
 	{
 		"id": "preview-project-description",
-		"name": "Preview project instructions and notes",
+		"name": "사용 방법과 참고 사항 미리 보기",
 		"description": "당신의 프로젝트의 설명 위에 다른 유저들에게 설명이 어떻게 표시될지 보이게 하는 버튼을 표시합니다.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [

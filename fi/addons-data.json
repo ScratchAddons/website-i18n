@@ -29,7 +29,7 @@
 			},
 			{
 				"type": "notice",
-				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"text": "Jos selaimesi on energiansäästötilassa (esimerkiksi akku on lopussa), se saattaa rajoittaa näytettävien ruutujen määrää eikä tämä lisäosa välttämättä vaikuta tekevän animaatioista sujuvampia.",
 				"id": "powerSaver"
 			}
 		],
@@ -146,8 +146,8 @@
 	},
 	{
 		"id": "big-save-button",
-		"name": "Larger \"Save Now\" button",
-		"description": "Extends the size of the \"Save Now\" button in the editor, making it easier to click.",
+		"name": "Suurempi \"Tallenna nyt\" -painike",
+		"description": "Kasvattaa editorin \"Tallenna nyt\" -painikkeen kokoa, jotta sen napauttaminen helpottuu.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
@@ -600,7 +600,7 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Customizable editor menu bar",
+		"name": "Mukautettava editorin valikkorivi",
 		"description": "Voit piilottaa tiettyjä editorin valikkorivin kohteita tai poistaa niiden nimikkeet tai kuvakkeet.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
@@ -738,7 +738,7 @@
 	{
 		"id": "debugger",
 		"name": "Virheenkorjaus",
-		"description": "Lisää uuden \"virheenkorjaus\"-ikkunan editoriin. Virheenkorjausikkunan \"Lokimerkinnät\"-välilehdelle voi kirjata merkintöjä \"kirjaa lokimerkintä\"-, \"kirjaa varoitus\"- ja \"kirjaa virhe\" -lohkoilla. \"Pysäytyspiste\"-lohko keskeyttää projektin, kun sitä suoritetaan. Kaikkia käynnissä olevia lohkopinoja voidaan tarkastella virheenkorjauksen \"Säikeet\"-välilehdellä, ja kun projekti on keskeytetty, \"Vaihe\"-painiketta voidaan käyttää seuraavan lohkon suorittamiseen. Kaavio kuvataajuudesta ja kloonien lukumäärästä löytyy \"Suorituskyky\"-välilehdellä.",
+		"description": "Lisää uuden \"virheenkorjaus\"-ikkunan editoriin. Virheenkorjausikkunan \"Lokimerkinnät\"-välilehdelle voi kirjata merkintöjä \"kirjaa lokimerkintä\"-, \"kirjaa varoitus\"- ja \"kirjaa virhe\" -lohkoilla. \"Keskeytyskohta\"-lohko keskeyttää projektin, kun sitä suoritetaan. Kaikkia käynnissä olevia lohkopinoja voidaan tarkastella virheenkorjauksen \"Säikeet\"-välilehdellä, ja kun projekti on keskeytetty, \"Vaihe\"-painiketta voidaan käyttää seuraavan lohkon suorittamiseen. Kaavio kuvataajuudesta ja kloonien lukumäärästä löytyy \"Suorituskyky\"-välilehdellä.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -871,8 +871,8 @@
 	},
 	{
 		"id": "download-button",
-		"name": "Project page download button",
-		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"name": "Latauspainike projektisivuilla",
+		"description": "Voit ladata projekteja suoraan projektisivulta ilman editorin avaamista. Latauspainike lisätään Kopioi linkki -painikkeen viereen.",
 		"tags": ["community", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -1115,8 +1115,8 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block inputs",
-		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
+		"name": "Lohkojen neliskulmaiset syötekentät",
+		"description": "Tekee tietyistä syötetyypeistä (kuten teksti- tai värisyötteistä) suorakulmaisia pyöreiden kulmien sijaan, kuten Scratch 2.0:ssa.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
@@ -1512,7 +1512,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
+				"text": "Jos päätät pitää työkalupalkin aina piilossa, muista, että voit poistua projektisoittimen koko näytön tilasta Esc-näppäimellä.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1560,8 +1560,8 @@
 	},
 	{
 		"id": "hide-backpack",
-		"name": "Replace backpack bar with button",
-		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"name": "Korvaa reppupalkki painikkeella",
+		"description": "Korvaa editorin alaosassa olevan reppupalkin suurennussäädinten viereen lisättävällä painikkeella.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
@@ -1708,7 +1708,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Tätä lisäosaa ei enää tueta eikä se toimi enää."
 			}
 		],
 		"dynamicEnable": true,
@@ -2327,8 +2327,8 @@
 	},
 	{
 		"id": "redirect-mobile-forums-v2",
-		"name": "Redirect to standard forums",
-		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
+		"name": "Uudelleenohjaa pääfoorumeille",
+		"description": "Uudelleenohjaa sinut takaisin pääfooruminäkymään (\"standardifoorumeille\") välttäen Sivua ei löytynyt -virheitä, kun vierailet foorumien mobiilinäkymässä (\"m\").",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }

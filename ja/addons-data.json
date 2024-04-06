@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "60FPSモード",
-		"description": "緑の旗をAltキーを押しながらクリックして60FPSにする。",
+		"name": "Higher project framerate mode",
+		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,12 +24,12 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "フレームレートを速くするとスクリプトの実行速度も速くなるため、60FSでは、多くのプロジェクトは正常に動作しません。このアドオンは60FPSに対応するプロジェクトでのみ使用すべきです。",
+				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
 				"id": "projectRunsFasterNotice"
 			},
 			{
 				"type": "notice",
-				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"text": "ブラウザが省エネモードになっている場合(バッテリー残量が少ない場合など)、表示されるフレームレートが制限され、このアドオンを使用してもアニメーションが滑らかに表示されないことがあります。",
 				"id": "powerSaver"
 			}
 		],
@@ -1706,7 +1706,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "このアドオンはもうサポートされておらず、動作しません。"
 			}
 		],
 		"dynamicEnable": true,

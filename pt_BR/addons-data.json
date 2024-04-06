@@ -147,7 +147,7 @@
 	{
 		"id": "big-save-button",
 		"name": "Botão de \"Salvar agora\" Maior",
-		"description": "Aumenta o tamanho do botão de \"Salvar agora\" no editor, deixando mais fácil de clicar",
+		"description": "Aumenta o tamanho do botão de \"Salvar agora\" no editor, deixando mais fácil de clicar.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
@@ -871,8 +871,8 @@
 	},
 	{
 		"id": "download-button",
-		"name": "Project page download button",
-		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"name": "Botão de baixar na página do projeto",
+		"description": "Permite você fazer o download de projetos diretamente da página do projeto, sem precisar abrir o editor primeiro. O botão de download é adicionado próximo ao botão de \"Copiar Link\".",
 		"tags": ["community", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -1560,8 +1560,8 @@
 	},
 	{
 		"id": "hide-backpack",
-		"name": "Replace backpack bar with button",
-		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"name": "Substituir a barra da mochila com um botão",
+		"description": "Substitui a barra da mochila incluindo o canto inferior do editor com um botão próximo aos controles de zoom.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
@@ -2042,7 +2042,7 @@
 	{
 		"id": "name-backpack-items",
 		"name": "Nomear scripts ao adicioná-los na mochila",
-		"description": "Te pede para dar um nome a novos scripts que você adicionar à mochila, ao invés de usar o nome padrão de \"code\".",
+		"description": "Pede você para dar um nome a novos scripts que você adicionar à mochila, ao invés de usar o nome padrão \"code\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
 		"dynamicEnable": true,
@@ -2247,7 +2247,7 @@
 	},
 	{
 		"id": "place-backpack-code-at-cursor",
-		"name": "Colocar código da mochila no mouse",
+		"name": "Colocar código da mochila na posição do mouse",
 		"description": "arrastar e soltar blocos de código na posição do mouse invez no canto da área de código",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],

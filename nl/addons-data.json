@@ -218,8 +218,8 @@
 	},
 	{
 		"id": "block-duplicate",
-		"name": "Scripts dupliceren met de Alt-toets",
-		"description": "Dupliceer snel een script door het te slepen met de Alt-toets ingedrukt. Houd Ctrl ook ingedrukt om alleen een enkel blok te dupliceren in plaats van het hele script eronder.",
+		"name": "Scripts dupliceren met alt-toets",
+		"description": "Dupliceer snel een script door het te slepen met de alt-toets ingedrukt. Houd ctrl ook ingedrukt om alleen een enkel blok te dupliceren in plaats van het hele script eronder.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
@@ -399,8 +399,8 @@
 	},
 	{
 		"id": "columns",
-		"name": "Categorie-menu met 2 kolommen",
-		"description": "Verdeelt het blokcategoriemenu in 2 kolommen en zet het boven het blokpalet, net zoals in Scratch 2.0.",
+		"name": "Categoriemenu met twee kolommen",
+		"description": "Verdeelt het blokcategoriemenu in twee kolommen en zet het boven het blokkenpalet, net zoals in Scratch 2.0.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{ "name": "TheColaber", "link": "https://scratch.mit.edu/TheColaber" }
@@ -693,8 +693,8 @@
 	},
 	{
 		"id": "dark-www",
-		"name": "Website-donkere modus en aanpasbare kleuren",
-		"description": "Pas de kleuren van de Scratchwebsite aan. Je kunt kiezen tussen meerdere donkere thema's door verschillende auteurs, of als je zelf de kleuren wilt kiezen, selecteer de \"Scratch-standaardkleuren\"-voorinstelling en verander het.",
+		"name": "Donkere modus en aanpasbare kleuren op website",
+		"description": "Pas de kleuren van de Scratch-website aan. Je kunt kiezen tussen meerdere donkere thema's van verschillende auteurs. Als je zelf de kleuren wilt kiezen, selecteer de voorinstelling \"Scratch-standaardkleuren\" en pas het aan.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -872,7 +872,7 @@
 	{
 		"id": "download-button",
 		"name": "Downloadknop op projectpagina",
-		"description": "Download projecten op de projectpagina zonder de editor te hoeven openen. De downloadknop staat naast de kopieer link-knop.",
+		"description": "Download projecten vanaf de projectpagina zonder de editor te hoeven openen. De downloadknop staat naast de kopieer link-knop.",
 		"tags": ["community", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -924,8 +924,8 @@
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Editoropmerkingvoorbeelden",
-		"description": "Geeft je de mogelijkheid om de inhoud van opmerkingen te zien door je muisaanwijzer over samengeklapte opmerkingen en blokken te zetten. Hiermee kun je opmerkingen zien die van het scherm af zijn, herhalingsblokken te onderscheiden vanaf de onderkant door zijn voorbeeld, veel grote opmerkingen in een kleine plek passen, en meer.",
+		"name": "Voorbeelden voor editoropmerkingen",
+		"description": "Geeft je de mogelijkheid om de inhoud van opmerkingen te zien door de muisaanwijzer over verkleinde opmerkingen en blokken te zweven. Hiermee kun je opmerkingen zien die niet op het scherm zijn, herhalingsblokken onderscheiden vanaf de onderkant, veel grote opmerkingen in een kleine ruimte laten passen, en meer.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -1540,7 +1540,7 @@
 	},
 	{
 		"id": "hi-res-thumbnails",
-		"name": "Hoge-resolutie thumbnails",
+		"name": "Thumbnails met hoge resolutie",
 		"description": "Vervangt alle thumbnails met hogere-resolutie afbeeldingen. Handig voor Retina (high pixel density)-weergaven en browsen met een zoom groter dan 100%.",
 		"tags": ["community"],
 		"credits": [
@@ -1971,7 +1971,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Sprite verplaatsen naar voorgrond",
-		"description": "Gebruik Shift+Klik op een sprite in het spritepaneel om het naar de voorgrond (bovenste laag) van het speelveld te verplaatsen.",
+		"description": "Klik met shift ingedrukt op een sprite in het sprite-paneel om het naar de voorgrond (bovenste laag) van het speelveld te verplaatsen.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2581,8 +2581,8 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Zoekbalk op Mijn Projecten",
-		"description": "Laat je je projecten, studios en weggegooide projecten zoeken op de Mijn Projecten-pagina. Start ergens op de pagina met typen om te zoeken. Je kunt ook Ctrl+Enter gebruiken na het zoeken om snel het eerste resultaat te openen.",
+		"name": "Zoekbalk in \"mijn projecten\"",
+		"description": "Laat je je projecten, studios en weggegooide projecten zoeken op de pagina \"mijn projecten\". Start ergens op de pagina met typen om te zoeken. Je kunt ook ctrl+enter gebruiken na het zoeken om snel het eerste resultaat te openen.",
 		"tags": ["community", "featured"],
 		"credits": [
 			{
@@ -2593,7 +2593,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Als je veel projecten of studios hebt, kan het zoeken even duren.",
+				"text": "Als je veel projecten of studio's hebt, kan het zoeken even duren.",
 				"id": "pleaseBePatient"
 			}
 		],
@@ -2743,7 +2743,7 @@
 	{
 		"id": "swap-local-global",
 		"name": "Wissel variabelen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\"",
-		"description": "Geeft meer opties voor het hernoemen van variabelen of lijsten: laat je kiezen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\" en of variabelen voor de cloud moeten zijn. Voegt ook een optie toe voor rechterklikken op een variabele/lijst om snel zijn type te veranderen.",
+		"description": "Geeft meer opties voor het hernoemen van variabelen of lijsten: laat je kiezen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\" en of variabelen in de cloud worden bewaard. Voegt ook een optie toe voor rechterklikken op een variabele/lijst om snel zijn type te veranderen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,

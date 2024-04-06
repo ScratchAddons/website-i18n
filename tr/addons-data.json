@@ -146,7 +146,7 @@
 	},
 	{
 		"id": "big-save-button",
-		"name": "Larger \"Save Now\" button",
+		"name": "Daha büyük \"Şimdi Kaydet\" butonu",
 		"description": "Extends the size of the \"Save Now\" button in the editor, making it easier to click.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
