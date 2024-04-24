@@ -20,4 +20,4 @@ Jos kaksi lisäosaa jakaa jotakin näistä, ne pitäisi mahdollisesti yhdistää
 - Käyttäjä voisi olettaa, että lisäosa tarjoaa molemmat ominaisuudet.
 - Jos ne olisivat erillään, ne voisivat häiritä toisiaan.
 
-Remember addons are customizable by the user - adding new functionality does not affect old users of the addon, unless we intentionally make it do so.
+Muista, että lisäosat ovat käyttäjien mukautettavissa - uuden toiminnon lisääminen ei vaikuta lisäosan aiempiin käyttäjiin, ellei näin tehdä tarkoituksellisesti.

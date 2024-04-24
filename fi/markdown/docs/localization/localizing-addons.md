@@ -5,7 +5,7 @@ description: Lisäosien lokalisointi on helppoa.
 Lisäosien lokalisointi on helppoa.
 
 ## Viestien lisääminen
-Tee `LISÄOSA-ID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. LISÄOSA_ID on lisäosan tunnus (kansion nimi). Kirjoita sinne viestit , jotka haluat kääntää:
+Tee `ADDONID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. ADDONID on lisäosan tunnus (kansion nimi). Kirjoita sinne viestit , jotka haluat kääntää:
 
 ```json
 {
@@ -25,7 +25,7 @@ Tee `LISÄOSA-ID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. LISÄOSA_ID o
 Toisinaan viesteissä täytyy olla kohtia, jotka generoidaan dynaamisesti. Esimerkiksi kissojen lukumäärä tai syöte. Tätä varten voit käyttää paikanvaraajia, kuten `{paikanvaraajanNimi}`. Paikanvaraajan nimi saa sisältää ainoastaan kirjaimia (ei numeroita).
 
 ### Monikolliset muodot
-Entä jos paikanvaraaja on numero? Voimme käyttää monikollisia muotoja, kuten `{paikanvaraajanNimi, plural, one {kun on yksi asia} other {kun on # asiaa}}`. Jos paikanvaraaja on 1, näytetään kohta "kun on yksi asia". Muuten näytetään kohta "kun on (paikanvaraaja) asiaa".
+Entä jos paikanvaraaja on numero? Tällöin voidaan käyttää monikollisia muotoja, kuten `{paikanvaraajanNimi, plural, one {kun on yksi asia} other {kun on # asiaa}}`. Jos paikanvaraaja on 1, näytetään kohta "kun on yksi asia". Muuten näytetään kohta "kun on (paikanvaraaja) asiaa".
 
 ### Kehittäjän kommentit
 

@@ -17,52 +17,52 @@ Jos kuitenkin teet lisäosan henkilökohtaiseen käyttöön, voit edetä tässä
 Varmista, että luet artikkelin, jotta tunnet käsitteistön.
 
 ## Vaihe 2: Haarauta/kahdenna [tietosäilö](https://github.com/ScratchAddons/ScratchAddons)
-Follow [these instructions](/docs/getting-started/installing/#from-source) to download the source code locally.
+Lataa lähdekoodi paikallisesti [näitä ohjeita](/docs/getting-started/installing/#from-source) noudattaen.
 
-## Step 3: Load the extension into Chrome
-*Note: Chrome is recommended for working on addons. Nevertheless, addons are expected to work on Firefox and Edge.*  
-Now that you have the extension in your filesystem, go to `chrome://extensions` and toggle "developer mode".  
-Click "load unpacked", then select the folder where Scratch Addons is located. If you're having issues with this, make sure to be selecting the folder where `manifest.json` is located.  
-That's it, you loaded the extension! It should look similar to this:  
-![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Note: you can safely ignore it says "errors". That's just a warning for an unrecognized manifest key that's required by Firefox.
+## Vaihe 3: Lataa laajennus Chromeen
+*Huomaa: On suositeltavaa käyttää Chromea lisäosien parissa työskennellessä. Lisäosien kuitenkin odotetaan toimivan myös Firefoxissa ja Edgessä.*
+Nyt kun sinulla on laajennus tiedostojärjestelmässäsi, siirry `chrome://extensions`-sivulle ja kytke "kehittäjätila" päälle.
+Napauta "lataa pakkaamaton" -painiketta ja valitse sitten kansio, jossa Scratch-lisäosat sijaitsee. Jos sinulla on ongelmia tätä tehdessä, varmista, että valitset kansion, jossa `manifest.json` sijaitsee.
+Siinä se, latasit laajennuksen! Nyt sen näyttää pitäisi tältä:
+![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
+Huomaa: Voit rauhallisin mielin jättää huomiotta kohdat, jotka näytetään "virheinä". Se on vain varoitus tuntemattomasta manifest-avaimesta, jonka Firefox edellyttää.
 
-## Step 4: What's your addon about?
-Now comes the fun part!  
-What will your addon do? Think of a self descriptive addon ID (no spaces or special characters, except hyphens).  
-Got it?
+## Vaihe 4: Mihin lisäosasi liittyy?
+Tämä lienee se hauskin osuus!
+Mitä sinun lisäosasi tekee? Keksi kuvaava lisäosatunnus (ei sanavälejä tai erikoismerkkejä, paitsi väliviivoja).
+Käsitätkö?
 
-## Step 5: Create the folder for the addon
-Using a file explorer, go to the folder where Scratch Addons resides in your filesystem. Locate the `addons` folder.  
-Then, create a new folder with your epic addon ID as its name.
+## Vaihe 5: Luo lisäosalle kansio
+Siirry tiedostonhallintaohjelmaa käyttäen kansioon, jossa Scratch-lisäosat sijaitsee tiedostojärjestelmässsi. Siirry `addons`-kansioon.
+Luo sitten uusi kansio ja nimeä se lisäosatunnuksellasi.
 
-## Step 6: Add an addon manifest
-The addon manifest tells Scratch Addons how your addon works. Make sure to get this right to avoid headaches.  
-Inside the folder you just created, create an `addon.json` file.  
-This is a base you can use to start coding, make sure to change it in the future:
+## Vaihe 6: Lisää lisäosan manifest-tiedosto
+Lisäosasi manifest-tiedosto kertoo Scratch-lisäosille, miten lisäosasi toimii. Varmista, että teet tämän oikein, jotta vältytään päänvaivalta.
+Luo `addon.json`-tiedosto äsken luomaasi kansioon.
+Tätä pohjaa voit käyttää koodaamisen aloittamiseen, kunhan muistat muokata sitä myöhemmin:
 ```json
 {
-  "name": "Epic placeholder text in place of addon name",
-  "description": "Hello World! It would be really smart to replace this placeholder text with a description.",
+  "name": "Paikanvaraajateksti lisäosan nimen kohdalla",
+  "description": "Hei, kaikki! Tämä paikanvaraajateksti tulisi korvata kuvauksella.",
   "tags": ["community"],
   "enabledByDefault": false
 }
 ```
-For more information on what you can declare in the manifest, check [this article](/docs/reference/addon-manifest/).
+Lisätietoja tiedoista, jotka voidaan määrittää manifest-tiedostossa, löytyy [tästä artikkelista](/docs/reference/addon-manifest/).
 
 
-## Step 7: Tell Scratch Addons what your addon's ID is
-Scratch Addons can't find new folders by itself, so you have to add the name to a special file.  
-Go to `scratchAddonsFolder/addons/addons.json` and add the ID of your addon to the array.
+## Vaihe 7: Kerro Scratch-lisäosille, mikä lisäosatunnuksesi on
+Scratch-lisäosat ei kykene löytämään uusia kansioita itse, joten sinun täytyy lisätä nimi eritystiedostoon.
+Siirry `scratchAddonsFolder/addons/addons.json`-tiedostoon ja lisää lisäosasi tunnus taulukkoon.
 
-## Step 8: Hello world
-Your addon does nothing at the moment, so it's a good time to check if everything we made previously worked.  
-Go to `chrome://extensions` and reload Scratch Addons by clicking the refresh symbol on its card.  
-Now, right-click the Scratch Addons icon, and click "options".  
-You should see your addon on the list! Once you find it, enable it, and set any settings that you may have.
+## Vaihe 8: Testaus
+Lisäosasi ei tee mitään tällä hetkellä, joten on hyvä hetki tarkastaa, toimiiko kaikki aiemmin tekemämme.
+Siirry `chrome://extensions`-sivulle ja päivitä Scratch-lisäosat napauttamalla päivityskuvaketta sen kortissa.
+Napauta Scratch-lisäosien kuvaketta hiiren kakkospainikkeella ja valitse "asetukset".
+Lisäosasi pitäisi näkyä luettelossa! Kun olet löytänyt sen, ota se käyttöön ja säädä asetuksia, joita sinulla saattaa olla.
 
-## Step 9: The fun part, code!
-*Before proceeding, make sure you read the wiki article linked in step 1.*  
+## Vaihe 9: Hauska osuus, koodi!
+*Lue vaiheessa 1 linkitetty wikiartikkeli ennen kuin etenet.*
 
 Here comes the fun part: create your own JS or CSS files!  
 Protip: after making any change to your addon, make sure to refresh the Scratch Addons extension like you did in step 8.  
