@@ -30,7 +30,7 @@ Huomaa: Voit rauhallisin mielin jättää huomiotta kohdat, jotka näytetään "
 ## Vaihe 4: Mihin lisäosasi liittyy?
 Tämä lienee se hauskin osuus!
 Mitä sinun lisäosasi tekee? Keksi kuvaava lisäosatunnus (ei sanavälejä tai erikoismerkkejä, paitsi väliviivoja).
-Käsitätkö?
+Joko keksit sellaisen?
 
 ## Vaihe 5: Luo lisäosalle kansio
 Siirry tiedostonhallintaohjelmaa käyttäen kansioon, jossa Scratch-lisäosat sijaitsee tiedostojärjestelmässsi. Siirry `addons`-kansioon.
@@ -64,25 +64,25 @@ Lisäosasi pitäisi näkyä luettelossa! Kun olet löytänyt sen, ota se käytt�
 ## Vaihe 9: Hauska osuus, koodi!
 *Lue vaiheessa 1 linkitetty wikiartikkeli ennen kuin etenet.*
 
-Here comes the fun part: create your own JS or CSS files!  
-Protip: after making any change to your addon, make sure to refresh the Scratch Addons extension like you did in step 8.  
+Nyt tulee hauska osuus: luo omat JS- ja CSS-tiedostosi!
+Vinkki: Päivitä Scratch-lisäosat-laajennus tehtyäsi muutoksia lisäosaasi, kuten teit vaiheessa 8.
 
-Depending on what you want your addon to do, you should now check these wiki pages:
-- [Userscripts](/docs/develop/userscripts)
-- [Userstyles](/docs/develop/userstyles)
+Tutustu nyt wikisivuihin, jotka liittyvät siihen, mitä lisäosasi tekee:
+- [Käyttäjäskriptit](/docs/develop/userscripts)
+- [Käyttäjätyylit](/docs/develop/userstyles)
 
-## Step 10: Make your addon customizable
-If you want, you can make your addon customizable!  
-Users of your addon will be able to toggle settings, enter numbers, and more!  
-To get started, see [how to declare settings in the addon manifest](/docs/reference/addon-manifest/#settings-object).  
-Then, head to the [addon.settings documentation](/docs/reference/addon-api/addon.settings) to learn how to access user choices from userscripts.
+## Vaihe 10: Tee lisäosastasi mukautettava
+Voit halutessasi tehdä lisäosastasi mukautettavan!
+Lisäosasi käyttäjät voivat säätää asetuksia, syöttää numeroita ja muuta!
+Aloita lukemalla [lisäosan asetusten ilmoittamisesta manifest-tiedostossa](/docs/reference/addon-manifest/#settings-object).
+Suuntaa sitten lukemaan [addon.settings:in ohjetta](/docs/reference/addon-api/addon.settings).
 
-## Step 11: Before publishing your addon
-Now that your addon works, let's make sure we can add it to the addon library.  
-Make sure your addon's manifest is suitable, [more info here](/docs/reference/addon-manifest). Keep close attention to the name, description and tags of your addon. Make sure to set `"enabledByDefault"` to `false` or remove it.  
-Make sure your addon doesn't break other addons.  
-Make sure your code is understandable; having unnecessary comments is better than no comments.
+## Vaihe 11: Ennen lisäosan julkaisemista
+Nyt kun lisäosasi toimii, varmistetaan, että se voidaan lisätä lisäosakirjastoon.
+Varmista, että lisäosasi manifest-tiedosto on kelvollinen. [Lisätietoja täällä](/docs/reference/addon-manifest). Kiinnitä huomiota erityisesti nimeen, kuvaukseen ja lisäosasi tunnisteisiin. Aseta `"enabledByDefault"` arvoon `false` tai poista se.
+Varmista, että lisäosasi ei riko muita lisäosia.
+Huolehdi, että koodisi on ymmärrettävissä; mieluummin turhia kommentteja kuin ei lainkaan kommentteja.
 
-## Step 12: Send a pull request!
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repo if you haven't already, commit your new addon and send a PR!  
-Keep in mind we might request you to make some changes, however, we will probably accept your addon as long as it's minimally suitable.
+## Vaihe 12: Lähetä vetopyyntö!
+Noudata [osallistujien toimintaohjeissa](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) kerrottuja vaiheita. Yksinkertaisesti sanottuna haarauta tietosäilö, jos et sitä vielä ole tehnyt, varastoi uusi lisäosasi ja lähetä vetopyyntö!
+Muista, että saatamme pyytää sinua tekemään joitain muutoksia. Luultavasti kuitenkin hyväksymme lisäosasi, jos se täyttää vähimmäisvaatimukset.
