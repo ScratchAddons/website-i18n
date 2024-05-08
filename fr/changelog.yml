@@ -1,3 +1,19 @@
+v1.5.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: Pelure d'oignon pour animer dans l'éditeur. Rendez vous dans les paramètres de Scratch Addons pour l'activer.
+    ImageAlt: Un chien dans l'éditeur de costume avec la pelure d'oignon activée. Crédit à la Librairie de sprite Scratch.
+v1.6.1:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: Palette de couleur hexa, pour choisir les couleurs facilement. Rendez vous dans les paramètres de Scratch Addons pour l'activer.
+v1.7.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: Améliorations pour la catégorie des blocs de donnée, avec l'option pour séparer les listes et les variables locales dans leurs propres sections. Rendez vous dans les paramètres de Scratch Addons pour l'activer.
+
+      Autres nouvelles fonctionnalités: Importez et exportez des paramètres d'extensions, customisez les fenêtres de popups, Activez ces Addons directement depuis l'extension popup, correction de bugs variés, et améliorer la performance.
+    ImageAlt: Démonstration vidéo de la fonctionnalité "disparition auto palette des blocs".
 v1.10.0:
   Highlights:
     Description: |
