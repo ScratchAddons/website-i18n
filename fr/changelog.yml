@@ -14,6 +14,17 @@ v1.7.0:
 
       Autres nouvelles fonctionnalités: Importez et exportez des paramètres d'extensions, customisez les fenêtres de popups, Activez ces Addons directement depuis l'extension popup, correction de bugs variés, et améliorer la performance.
     ImageAlt: Démonstration vidéo de la fonctionnalité "disparition auto palette des blocs".
+v1.8.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité: La disparition auto de la palette, qui cache la palette si elle n'est pas survolée ou cliquée par la souris. Rendez vous dans les paramètres de Scratch Addons pour l'activer.
+
+      La fonctionnalité "Enregistrer la vidéo du projet" qui précédemment enregistrait uniquement la vidéo, peut maintenant enregistrer jusqu'à 5 minutes d'audio et de vidéo du projet.
+v1.9.1:
+  Highlights:
+    Description: |+
+      Nouvelle fonctionnalité: Regardez qui à aimé et mis en favoris vos projets dans la messagerie de Scratch en survolant le compteur de "J'aime" et des Favoris. Les messages de promotions de studios sont maintenant supportés dans la Messagerie Scratch et les Notifications Scratch.
+
 v1.10.0:
   Highlights:
     Description: |
