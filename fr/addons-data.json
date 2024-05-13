@@ -50,7 +50,7 @@
 	{
 		"id": "animated-thumb",
 		"name": "Sélecteur de miniature",
-		"description": "Ajoute un boutton à l'éditeur sui permet de changer la miniature du projet avec n'importe quelle image (y compris les gifs).",
+		"description": "Ajoute un boutton à l'éditeur qui permet de changer la miniature du projet avec n'importe quelle image (y compris les gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,

@@ -874,8 +874,8 @@
 	},
 	{
 		"id": "download-button",
-		"name": "Project page download button",
-		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"name": "Gumb za prenos na strani projekta",
+		"description": "Omogoči, da prenesete projekte neposredno s strani projekta, ne da bi prej odprli urejevalnik. Gumb Prenesi je dodan poleg gumba Kopiraj povezavo.",
 		"tags": ["community", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -1515,7 +1515,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
+				"text": "Če izberete možnost, da orodna vrstica nikoli ni vidna, ne pozabite, da lahko uporabite tipko Esc za izhod iz celozaslonskega načina predvajalnika.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1711,7 +1711,7 @@
 			{
 				"id": "deprecated",
 				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
+				"text": "Ta dodatek ne deluje več."
 			}
 		],
 		"dynamicEnable": true,
@@ -2254,7 +2254,7 @@
 	{
 		"id": "place-backpack-code-at-cursor",
 		"name": "Postavi kodo iz shrambe zraven miške",
-		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"description": "Bloke iz shrambe postavi tja, kamor jih povlečete, ne na rob območja za kodo.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],
 		"dynamicEnable": true,
@@ -2330,7 +2330,7 @@
 	},
 	{
 		"id": "redirect-mobile-forums-v2",
-		"name": "Redirect to standard forums",
+		"name": "Preusmeritev v standardne forume",
 		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
 		"tags": ["community", "forums"],
 		"credits": [

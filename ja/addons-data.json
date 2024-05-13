@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Higher project framerate mode",
-		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
+		"name": "高FPSモード",
+		"description": "プロジェクトがより滑らかに見えるように、より多くのフレーム/秒（FPS）でプロジェクトを実行できます。Altキーを押しながら緑の旗をクリックすると、Scratchのデフォルトの30 FPSと以下のカスタムフレームレートが切り替わります。",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,7 +24,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
+				"text": "フレームレートを変更すると、特定のコード(ループなど)の実行速度にも影響するため、ほとんどのプロジェクトは正常に動作しません。高FPS用に作られたプロジェクトでのみ使ってください。",
 				"id": "projectRunsFasterNotice"
 			},
 			{
@@ -579,7 +579,7 @@
 	{
 		"id": "custom-block-text",
 		"name": "ブロック内のテキスト装飾変更",
-		"description": "Lets you customize the style of text on blocks, including adjusting the size, using bold text, or adding a shadow.",
+		"description": "ブロック内のテキストの大きさや太さを変更したり、影を追加したりしてカスタマイズできます。",
 		"tags": ["editor", "codeEditor", "featured", "theme"],
 		"credits": [
 			{ "name": "Secret-chest", "link": "https://github.com/Secret-chest" },
@@ -1510,7 +1510,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
+				"text": "ツールバーを表示しない場合は、Escキーで全画面表示から戻れます。",
 				"id": "hideToolbarNotice"
 			}
 		],

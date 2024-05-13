@@ -2426,8 +2426,8 @@
 	},
 	{
 		"id": "reorder-custom-inputs",
-		"name": "Rearrangeable custom block inputs",
-		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"name": "entrada de blocos customizável reogarnizável",
+		"description": "permite reogarnizar parâmetros do bloco customizável na tela de \"Crie um bloco\"",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
