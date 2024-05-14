@@ -2,22 +2,23 @@
 title: Eklenti Temelleri
 ---
 
-## Eklenti nedir, gerçekten?
-Aslında bir eklenti, bir userscript ile bir userstyle ya da ikisinin de birleşiminden fazlası değildir. Bunlardan herhangi biri varsa, onları tek bir ad altında aynı eklentinin parçası yaparız. Örneğin, "Scratch 3 Geliştirici Araçları" eklentisinde, düzenleyiciye bir arama çubuğu eklemekten sorumlu bir userscript ve bu kutuya CSS ekleyen bir userstyle vardır.
+## What is an addon?
+An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
-## Userscript nedir?
-Bir userscript, bir Scratch sekmesiyle birlikte çalışan bir JavaScript kodu parçasıdır. Bu userscript'in nerede çalışacağını seçebilirsiniz, örneğin yalnızca proje sayfalarını belirtebilirsiniz. Userscript'ler, tarayıcı uzantılarındaki içerik komut dosyalarına benzer ve daha önce bir userscript yöneticisi kullandıysanız, bunların temelde aynı olduğunu göreceksiniz.
-Userscript'ler, örneğin gezinme çubuğuna düğmeler eklemek veya kaldırmak gibi, Scratch sitesinin davranışını değiştirmek için yararlıdır.
+## What is a userscript?
+A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
 
-## Bir userstyle nedir?
-Bir userstyle, userscript'e benzer; onlar için bağlantı kalıpları da belirtebilirsiniz. Ancak, userstyle'lar JavaScript yerine CSS'i kullanır. Bunlar genellikle userscript'lerde kendileri tarafından eklenen ögelere stil vermek için kullanılırlar, ancak yerel Scratch ögelerine stil vermek için de kullanılabilirler. Durum böyle olduğundan, genellikle onlara "temalar" deriz.
+## What is a userstyle?
+A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
 
-## Kavramsal olarak, bir eklenti ne olmalıdır?
-Yeni bir eklenti oluşturmanın veya mevcut bir eklentiyi değiştirmenin daha iyi bir fikir olup olmadığını merak edebilirsiniz.
-2 eklenti bu özelliklerin bazılarını paylaşıyorsa, muhtemelen birleştirilmelidirler.
+## What should be an addon?
+
+<!-- TODO: Expand this section into its own page -->
+You might wonder if it's a better idea to create a new addon, or modify an existing one.
+If two addons share some of these, they should probably be merged.
 - Her ikisi de, kullanıcı etkileşimi gerektiren izinlere (bildirimler gibi) ihtiyaç duyar veya ihtiyaç duymaz.
 - Bir sürü kod paylaşıyorlar.
 - Kullanıcı, eklentinin her iki özelliği de sunmasını bekler.
-- Ayrılırlarsa, birbirlerine müdahale edebilirler.
+- If being separated, they would interfere with each other.
 
-Eklentilerin kullanıcı tarafından özelleştirilebileceğini unutmayın - yeni işlevler eklemek, özellikle yapmadığımız sürece eklentinin eski kullanıcılarını etkilemez.
+Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.

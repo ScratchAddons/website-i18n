@@ -2,22 +2,23 @@
 title: Informazioni di Base sugli Addon
 ---
 
-## Ma cos'è quindi un addon?
-Un addon è essenzialmente uno userscript, uno userstyle o una combinazione di questi due elementi. Se sono correlati, allora li rendiamo parte dello stesso addon sotto uno stesso nome. Ad esempio, l'addon "Scratch 3 Developer Tools" è composto da uno userscript che si occupa di aggiungere una casella di ricerca all'editor di Scratch e uno userstyle che aggiunge un CSS a quella casella.
+## What is an addon?
+An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
-## Cos'è uno userscript?
-Uno userscript è un codice JavaScript che viene eseguito in associazione al codice Javascript di una pagina contenuta in una scheda del browser. Puoi indicare quando lo userscript viene eseguito, ad esempio soltanto nelle pagine dei progetti. Gli userscript sono simili ai content script delle estensioni del browser. Se hai già usato un gestore di userscript noterai che sono essenzialmente la stessa cosa.
-Gli userscript sono utili per cambiare il comportamento del sito di Scratch, ad esempio permettendo di aggiungere o rimuovere pulsanti dalla barra di navigazione.
+## What is a userscript?
+A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
 
-## Cos'è uno userstyle?
-Uno userstyle è simile ad uno userscript; puoi anche specificare dei pattern per gli URL. Tuttavia gli userstyle aggiungono dei CSS invece che JavaScript. Sono spesso usati in associazione con gli userscript per dare uno stile particolare agli elementi aggiunti, ma possono anche essere usati per cambiare lo stile degli elementi nativi di Scratch. In quest'ultimo caso vengono solitamente chiamati "temi".
+## What is a userstyle?
+A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
 
-## Per cosa è possibile e preferibile creare un addon?
-Puoi chiederti se sia meglio creare un nuovo addon o modificarne uno esistente. 
-Se 2 addon condividono alcuni degli elementi seguenti, probabilmente dovrebbero essere riuniti in un unico addon.
+## What should be an addon?
+
+<!-- TODO: Expand this section into its own page -->
+You might wonder if it's a better idea to create a new addon, or modify an existing one.
+If two addons share some of these, they should probably be merged.
 - Entrambi necessitano, o non necessitano, di permessi che richiedono l'interazione dell'utente (come avviene ad esempio per le notifiche).
 - Condividono una buona parte del codice.
 - L'utente si aspetterebbe da quell'addon entrambe le funzionalità.
-- Se separati, interferirebbero l'uno con l'altro.
+- If being separated, they would interfere with each other.
 
-Ricorda che gli addon possono essere personalizzati dall'utente - l'aggiunta di nuove funzionalità non deve influenzare i precedenti utenti dell'addon, a meno che questo non venga fatto intenzionalmente.
+Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.

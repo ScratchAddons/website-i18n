@@ -14,18 +14,22 @@ Scratch Addons is available in these stores.
 
 ## Из исходного кода
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### О релизах в GitHub
 
 [Страница релизов](https://github.com/ScratchAddons/ScratchAddons/releases) содержит код и файлы установки для всех сборок Scratch Addons для разработчиков, а также зеркало сборок для магазинов.
 
 ### Клонирование репозитории
 
-Это самый рекомендуемый способ для установки Scratch Addons для целей разработки. Для этого нужно установить Git, если у Вас его нет.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-Чтобы скачать репозиторий, просто склонируйте `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Чтобы обновить Scratch Addons, сначала сделайте `cd` в папку Scratch Addons, а затем запустите следующие команды.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Это обновит Scratch Addons и подготовит его к редактированию кода. Учтите, что Вам надо посмотреть финальную секцию обновления [здесь](#install-on-google-chrome), если Вы используете Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Скачивание zipball
+### Downloading the Zip
 
-Если у Вас нет Git, то Вы можете попробовать этот способ. Обратите внимание, что Вам надо повторять вручную этот процесс каждый раз, когда Вы хотите обновить Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Зайдите в [репозиторию](https://github.com/ScratchAddons/ScratchAddons) и найдите кнопку для скачивания кода.
 
-   ![Скриншот кнопки для скачивания кода](/assets/img/docs/download-code-button.png)
+1. Нажмите её и выберите «Download ZIP».
 
-2. Нажмите её и выберите «Download ZIP».
-
-   ![Скриншот кнопки «Download ZIP»](/assets/img/docs/download-zipball-button.png)
-
-3. Разархивируйте архив в папку.
+1. Разархивируйте архив в папку.
 
 ### Installing on Google Chrome or Microsoft Edge
 
-1. Напишите `chrome://extensions` в адресную строку, чтобы открыть страницу управления расширений.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Нажмите на переключатель рядом с надписью `Режим разработчика`, чтобы включить режим разработчика. Это позволяет Вам устанавливать расширения из папок или файлов.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Вы должны увидеть кнопку `Загрузить распакованное расширение`. Нажатие на неё позволяет Вас выбрать папку для загрузки.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Скриншот кнопки «Загрузить распакованное расширение»](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Выберите распакованную папку.
-5. Расширение должно быть сейчас загружено.
-
-Чтобы завершить обновления (предполагая, что Вы выполнили [эти шаги](#cloning-the-repository)), кликните кнопку `Обновить`:
-
-![Скриншот кнопки для обновления](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Установка на Mozilla Firefox
 
-1. Напишите `about:debugging` в адресную строку браузера, чтобы открыть страницу отладки.
+To load the extension into Mozilla Firefox:
 
-2. Кликните на `Этот Firefox` в левой панели.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Скриншот левого меню](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Кликните `Загрузить временное дополнение...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Скриншот кнопки «Загрузить временное дополнение...»](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Выберите файл manifest.json внутри распакованной папки.
-7. Расширение должно быть сейчас загружено.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Примечание: Временные дополнения Firefox на самом деле временные. Перезапуск Firefox удалит их, поэтому если Вы хотите использовать версию разработчиков Scratch Addons всё время, то лучше используйте браузер на основе Chromium, например Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

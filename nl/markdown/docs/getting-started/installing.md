@@ -14,18 +14,22 @@ Scratch Addons is beschikbaar in deze stores.
 
 ## Van bron
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### Over GitHub-releases
 
 [De pagina met releases](https://github.com/ScratchAddons/ScratchAddons/releases) bevat de code en installatiebestanden voor alle ontwikkelingsbuilds van Scratch Addons, net zoals de spiegel van de store-builds.
 
 ### Het archief kopiëren
 
-Dit is de aanbevolen manier om Scratch Addons voor ontwikkelingsredenen te installeren. Dit gaat ervan uit dat je Git hebt geïnstalleerd.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-Om het archief te downloaden, kopieer simpelweg `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Om Scratch Addons bij te werken, doe eerst `cd` in zijn map, en voer dan de volgende commando's uit.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Dit zal Scratch Addons updaten en het klaarmaken voor het bewerken van code. Onthoud wel dat je [hier](#install-on-google-chrome) het stuk over updates voltooien moet lezen als je Google Chrome gebruikt.
+Remember to also update Scratch Addons from the browser.
 
 
-### De zipball downloaden
+### Downloading the Zip
 
-Als je Git niet geïnstalleerd hebt, kun je in plaats daarvan dit proberen. Onthoud dat je dit proces elke keer handmatig moet herhalen als je Scratch Addons wilt updaten.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Ga naar het [archief](https://github.com/ScratchAddons/ScratchAddons) en vind de code downloaden-knop.
 
-   ![Screenshot van code-downloadknop](/assets/img/docs/download-code-button.png)
+1. Klik erop en selecteer "ZIP downloaden".
 
-2. Klik erop en selecteer "ZIP downloaden".
-
-   ![Screenshot van ZIP-downloadknop](/assets/img/docs/download-code-button.png)
-
-3. Pak het archief in een map uit.
+1. Pak het archief in een map uit.
 
 ### Installeren op Google Chrome of Microsoft Edge
 
-1. Typ `chrome://extensions` in je adresbalk om de Extensiebeheerpagina te openen.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Klik de schakelaar naast `Ontwikkelaarmodus` om het aan te zetten. Dit geeft je de mogelijkheid om extensies van een map of bestand te downloaden.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Screenshot van Extensiebeheer bovenste balk](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Je zou de `Uitgepakte extensie laden`-knop moeten zien. Als je erop klikt kun je een bestand selecteren om te uploaden.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Screenshot van uitgepakte extensie laden-knop](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Selecteer het uitgepakte bestand.
-5. De extensie zou nu geladen moeten zijn.
-
-Om het updaten af te ronden (ervan uitgaand dat je [hier](#cloning-the-repository) de stappen voor het updaten hebt gevolgd), klik op de `Updaten`-knop.
-
-![Screenshot van updaten-knop](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Installeren op Mozilla Firefox
 
-1. Typ `about:debugging` in je adresbelk om de debugpagina te openen.
+To load the extension into Mozilla Firefox:
 
-2. Klik op `Deze Firefox` in het menu links.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Screenshot van linker menu](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Klik op `Tijdelijke Add-on Laden...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Screenshot van Tijdelijke Add-on Laden-knop](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Selecteer het manifest.json-bestand in de uitgepakte map.
-7. De extensie zou nu geladen moeten zijn.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Opmerking: Tijdelijke add-ons zijn ook echt tijdelijk. Firefox opnieuw opstarten zal ze verwijderen, dus als je altijd de ontwikkelingsversie van Scratch Addons wilt gebruiken, is het aanbevolen om een Chromium-gebaseerde browser te gebruiken zoals Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

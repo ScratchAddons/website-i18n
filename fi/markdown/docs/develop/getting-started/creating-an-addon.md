@@ -1,88 +1,75 @@
 ---
 title: Lisäosan luominen
 ---
-Vaaditut ohjelmistot: tekstieditori, Chrome.
-Jos mahdollista, poista laajennuskaupasta lataamasi Scratch-lisäosat-laajennus ennen etenemistä ongelmien välttämiseksi.
 
+This page describes the basics on how to create an addon for Scratch Addons. Before proceeding, please read the [addon basics](../addon-basics/) and disable any other instances of Scratch Addons to avoid conflicts.
 
 {{< admonition info >}}
-Jos ajattelit lähettää kehittämäsi lisäosan vetopyyntönä GitHub-tietosäilöön, lue ensin [osallistujien toimintaohjeet](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md).
-
-Jos tietosäilössä ei ole uuteen lisäosaideaasi liittyvää GitHub-seikkaa, [luo sellainen](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Jos on kuitenkin seikka, joka liittyy ominaisuusideaasi, suosittelemme, että jätät siihen kommentin ilmoittamaan aikeestasi kehittää lisäosa. Tällöin muut osallistujat voivat kertoa, voidaanko lisäosa hyväksyä vai tarvitaanko vielä lisäkeskustelua.
-
-Jos kuitenkin teet lisäosan henkilökohtaiseen käyttöön, voit edetä tässä oppaassa.
+If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first.
 {{< /admonition >}}
 
-## Vaihe 1: Lue [lisäosien perusteista](/docs/develop/getting-started/addon-basics/)
-Varmista, että luet artikkelin, jotta tunnet käsitteistön.
+## Requirements
+Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having Git, Firefox (121+) and Visual Studio Code installed.
 
-## Vaihe 2: Haarauta/kahdenna [tietosäilö](https://github.com/ScratchAddons/ScratchAddons)
-Lataa lähdekoodi paikallisesti [näitä ohjeita](/docs/getting-started/installing/#from-source) noudattaen.
+## Installation
+To install the extension for development, see [Installing from source](/docs/getting-started/installing/#from-source).
 
-## Vaihe 3: Lataa laajennus Chromeen
-*Huomaa: On suositeltavaa käyttää Chromea lisäosien parissa työskennellessä. Lisäosien kuitenkin odotetaan toimivan myös Firefoxissa ja Edgessä.*
-Nyt kun sinulla on laajennus tiedostojärjestelmässäsi, siirry `chrome://extensions`-sivulle ja kytke "kehittäjätila" päälle.
-Napauta "lataa pakkaamaton" -painiketta ja valitse sitten kansio, jossa Scratch-lisäosat sijaitsee. Jos sinulla on ongelmia tätä tehdessä, varmista, että valitset kansion, jossa `manifest.json` sijaitsee.
-Siinä se, latasit laajennuksen! Nyt sen näyttää pitäisi tältä:
-![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)
-Huomaa: Voit rauhallisin mielin jättää huomiotta kohdat, jotka näytetään "virheinä". Se on vain varoitus tuntemattomasta manifest-avaimesta, jonka Firefox edellyttää.
+## Creating the addon folder
+Each addon has its own internal ID used by the extension and other addons. Addon IDs should not contain any spaces or special characters except hyphens and should be self-descriptive, but not too long.
 
-## Vaihe 4: Mihin lisäosasi liittyy?
-Tämä lienee se hauskin osuus!
-Mitä sinun lisäosasi tekee? Keksi kuvaava lisäosatunnus (ei sanavälejä tai erikoismerkkejä, paitsi väliviivoja).
-Joko keksit sellaisen?
+New addons should not use an ID that was included in a stable version of the extension but later removed. These include:
 
-## Vaihe 5: Luo lisäosalle kansio
-Siirry tiedostonhallintaohjelmaa käyttäen kansioon, jossa Scratch-lisäosat sijaitsee tiedostojärjestelmässsi. Siirry `addons`-kansioon.
-Luo sitten uusi kansio ja nimeä se lisäosatunnuksellasi.
+- `a11y`
+- `data-category-tweaks`
+- `featured-dangos`
+- `fix-buttons`
+- `redirect-mobile-forums`
+- `tutorials-button`
 
-## Vaihe 6: Lisää lisäosan manifest-tiedosto
-Lisäosasi manifest-tiedosto kertoo Scratch-lisäosille, miten lisäosasi toimii. Varmista, että teet tämän oikein, jotta vältytään päänvaivalta.
-Luo `addon.json`-tiedosto äsken luomaasi kansioon.
-Tätä pohjaa voit käyttää koodaamisen aloittamiseen, kunhan muistat muokata sitä myöhemmin:
+Open the `addons.json` file in the `addons` folder, insert a new addon ID near the bottom of the file, then create a sub-folder with the same name.
+
+## The addon manifest
+Each addon has it's own [manifest](/docs/reference/addon-manifest/) that handles how it is displayed on the settings page, any settings the addon may have, which userscripts or userstyles to run and where to run them.
+
+Addon manifests are located in each addon's folder and named `addon.json`.
+Here is a minimal addon manifest:
 ```json
 {
-  "name": "Paikanvaraajateksti lisäosan nimen kohdalla",
-  "description": "Hei, kaikki! Tämä paikanvaraajateksti tulisi korvata kuvauksella.",
-  "tags": ["community"],
-  "enabledByDefault": false
+  "name": "My addon",
+  "description": "TODO",
+  "tags": ["community"]
 }
 ```
-Lisätietoja tiedoista, jotka voidaan määrittää manifest-tiedostossa, löytyy [tästä artikkelista](/docs/reference/addon-manifest/).
 
+For more information on what can be declared in the manifest, see the [the Addon Manifest reference](/docs/reference/addon-manifest/).
 
-## Vaihe 7: Kerro Scratch-lisäosille, mikä lisäosatunnuksesi on
-Scratch-lisäosat ei kykene löytämään uusia kansioita itse, joten sinun täytyy lisätä nimi eritystiedostoon.
-Siirry `scratchAddonsFolder/addons/addons.json`-tiedostoon ja lisää lisäosasi tunnus taulukkoon.
+The addon does not do anything yet, but it should appear in the popup and settings page after reloading the extension.
 
-## Vaihe 8: Testaus
-Lisäosasi ei tee mitään tällä hetkellä, joten on hyvä hetki tarkastaa, toimiiko kaikki aiemmin tekemämme.
-Siirry `chrome://extensions`-sivulle ja päivitä Scratch-lisäosat napauttamalla päivityskuvaketta sen kortissa.
-Napauta Scratch-lisäosien kuvaketta hiiren kakkospainikkeella ja valitse "asetukset".
-Lisäosasi pitäisi näkyä luettelossa! Kun olet löytänyt sen, ota se käyttöön ja säädä asetuksia, joita sinulla saattaa olla.
+## Userscripts and userstyles
+[Userscripts](/docs/develop/userscripts/) and [userstyles](/docs/develop/userstyles/) are what make the addon work. Userscripts run JavaScript code and userstyles inject CSS styles. Addons may have a combination of userstyles and userscripts.
 
-## Vaihe 9: Hauska osuus, koodi!
-*Lue vaiheessa 1 linkitetty wikiartikkeli ennen kuin etenet.*
+Userscripts have access to [addon APIs](/docs/reference/addon-api/) to make Scratch-specific tasks such as fetching the currently logged in user easier.
 
-Nyt tulee hauska osuus: luo omat JS- ja CSS-tiedostosi!
-Vinkki: Päivitä Scratch-lisäosat-laajennus tehtyäsi muutoksia lisäosaasi, kuten teit vaiheessa 8.
+When adding a userscript or userstyle to the addon's folder, it must be declared in the addon manifest or it will not run.
 
-Tutustu nyt wikisivuihin, jotka liittyvät siihen, mitä lisäosasi tekee:
-- [Käyttäjäskriptit](/docs/develop/userscripts)
-- [Käyttäjätyylit](/docs/develop/userstyles)
+## Addon settings
+The [settings object](/docs/reference/addon-manifest/#settings-object) in the addon manifest allows adding options such as toggles, text boxes or color pickers to your addon on the settings page to make it customizable by users.
 
-## Vaihe 10: Tee lisäosastasi mukautettava
-Voit halutessasi tehdä lisäosastasi mukautettavan!
-Lisäosasi käyttäjät voivat säätää asetuksia, syöttää numeroita ja muuta!
-Aloita lukemalla [lisäosan asetusten ilmoittamisesta manifest-tiedostossa](/docs/reference/addon-manifest/#settings-object).
-Suuntaa sitten lukemaan [addon.settings:in ohjetta](/docs/reference/addon-api/addon.settings).
+See the [addon.settings](/docs/reference/addon-api/addon.settings) documentation on how to access user choices from userscripts and userstyles.
 
-## Vaihe 11: Ennen lisäosan julkaisemista
-Nyt kun lisäosasi toimii, varmistetaan, että se voidaan lisätä lisäosakirjastoon.
-Varmista, että lisäosasi manifest-tiedosto on kelvollinen. [Lisätietoja täällä](/docs/reference/addon-manifest). Kiinnitä huomiota erityisesti nimeen, kuvaukseen ja lisäosasi tunnisteisiin. Aseta `"enabledByDefault"` arvoon `false` tai poista se.
-Varmista, että lisäosasi ei riko muita lisäosia.
-Huolehdi, että koodisi on ymmärrettävissä; mieluummin turhia kommentteja kuin ei lainkaan kommentteja.
+## Before contributing
+{{< admonition info >}}
+In case there is no existing GitHub issue in that repository related to your new addon idea, please create one. However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
 
-## Vaihe 12: Lähetä vetopyyntö!
-Noudata [osallistujien toimintaohjeissa](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) kerrottuja vaiheita. Yksinkertaisesti sanottuna haarauta tietosäilö, jos et sitä vielä ole tehnyt, varastoi uusi lisäosasi ja lähetä vetopyyntö!
-Muista, että saatamme pyytää sinua tekemään joitain muutoksia. Luultavasti kuitenkin hyväksymme lisäosasi, jos se täyttää vähimmäisvaatimukset.
+Also note that GitHub's terms of service require users to be 13+ to create an account with them.
+{{< /admonition >}}
+
+If you want to submit your addon to the Scratch Addons GitHub repository, so it can be added to the addon library, ensure the addon works as expected, with and without other addons enabled and that it does not break other addons. The addon's manifest should have a good name and description, `versionAdded` should be set to the next version of the extension and the addon should not be enabled by default. Addons should support dynamic enable and disable, but it is not required.
+Make sure the code is understandable; having unnecessary comments is better than no comments.
+
+## Sending a pull request
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repository if you haven't already, commit your new addon and send a pull request.
+
+If your addon isn't finished or you need help with something, create a draft pull request.
+
+Keep in mind we might request you to make some changes, and the review process may be slow, however, we will probably accept your addon as long as it's minimally suitable and Scratch-specific.

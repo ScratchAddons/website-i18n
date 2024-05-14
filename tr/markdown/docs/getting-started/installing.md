@@ -14,18 +14,22 @@ Scratch Eklentileri bu mağazalarda mevcuttur
 
 ## Kaynağından
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### GitHub sürümleri hakkında
 
 [Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentileri'nin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
 
 ### Depoyu klonlamak
 
-Scratch Eklentileri'ni geliştirme amacıyla kurmanın önerilen yolu budur. Bu, Git'in hâlihazırda kurulu olduğunu varsayar.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-Depoyu indirmek için `https://github.com/ScratchAddons/ScratchAddons.git` dosyasını klonlamanız yeterlidir.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Scratch Eklentileri'ni güncellemek için önce `cd` ile klasöre gidin, ve ardından aşağıdaki komutları çalıştırın.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Bu, Scratch Eklentileri'ni güncelleyecek ve kodu düzenlemeye hazır hâle getirecektir. Google Chrome kullanıyorsanız, güncellemenin [burada](#install-on-google-chrome) görünmesi gerektiğini unutmayın.
+Remember to also update Scratch Addons from the browser.
 
 
-### Zipball'u indirmek
+### Downloading the Zip
 
-Git yüklü değilse, bu yöntemi deneyebilirsiniz. Scratch Eklentileri'ni her güncellemek istediğinizde bu işlemi manuel olarak tekrarlamanız gerekeceğini unutmayın.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. [Depoya](https://github.com/ScratchAddons/ScratchAddons) gidin ve kodu indir düğmesini bulun.
 
-   ![Kodu indir düğmesinin ekran görüntüsü](/assets/img/docs/download-code-button.png)
+1. Tıklayın ve "ZIP'i indir" seçeneğini seçin.
 
-2. Tıklayın ve "ZIP'i indir" seçeneğini seçin.
-
-   ![ZIP'i indir düğmesinin ekran görüntüsü](/assets/img/docs/download-zipball-button.png)
-
-3. Arşivi bir klasöre çıkarın.
+1. Arşivi bir klasöre çıkarın.
 
 ### Google Chrome'a veya Microsoft Edge'ye yüklemek
 
-1. Uzantı Yönetimi sayfasını açmak için adres çubuğunuza `chrome://extensions` yazın.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Geliştirici Modunu açmak için `Geliştirici modu`'nun yanındaki açma/kapama düğmesini açık hâle getirin. Bu, uzantıları bir klasörden veya dosyadan yüklemenize olanak tanır.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Uzantı Yönetimi üst çubuk ekran görüntüsü](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. `Paketlenmemiş öğe yükle` düğmesinin göründüğünü görmelisiniz. Tıkladığınızda, yükleyeceğiniz bir klasörü seçmenize izin verecektir.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Sıkıştırılmamışı yükle düğmenin ekran görüntüsü](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Çıkarılan klasörü seçin.
-5. Uzantı artık yüklenmiş olmalıdır.
-
-Güncellemeyi bitirmek için ([buradaki](#cloning-the-repository) güncelleme adımlarını uyguladığınızı varsayarak), `Update` düğmesine tıklayın:
-
-![Güncelle düğmesinin ekran görüntüsü](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Mozilla Firefox'da indirmek
 
-1. Hata ayıklama sayfasını açmak için adres çubuğunuza `about:debugging` yazın.
+To load the extension into Mozilla Firefox:
 
-2. Soldaki menüden `Bu Firefox` butonuna tıklayın.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Soldaki menünün ekran görüntüsü](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. `Geçici Eklenti Yükle...` seçeneğine tıklayın.
+1. Click "This Firefox" on the sidebar
 
-   ![Geçici Eklenti yükle düğmesinin ekran görüntüsü](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Çıkarılan klasörün içindeki manifest.json dosyasını seçin.
-7. Uzantı artık yüklenmiş olmalıdır.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Not: Firefox geçici eklentileri aslında kalıcı değildir. Firefox'u yeniden başlatmak bunları kaldıracaktır, bu nedenle Scratch Eklentileri'nin geliştirme sürümünü kullanmak istiyorsanız, her zaman Google Chrome gibi Chromium tabanlı bir tarayıcı kullanmanız önerilir.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

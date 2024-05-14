@@ -14,18 +14,22 @@ title: 설치
 
 ## 소스로부터
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### 깃허브 릴리즈에 대해
 
 [릴리즈 페이지](https://github.com/ScratchAddons/ScratchAddons/releases)는 코드와 설치 파일을 포함한 스토어 빌드의 복사본인 스크래치 애드온 개발 빌드를 포함하고 있습니다.
 
 ### 레포지토리 복사하기
 
-스크래치 애드온을 개발적인 목적으로 사용한다면 권장되는 방법입니다. 깃이 설치되어있음을 가정합니다.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-저장소를 다운로드 받으려면, 단순히 `https://github.com/ScratchAddons/ScratchAddons.git` 를 복사하세요.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 스크래치 애드온을 업데이트하려면, 폴더 안으로 `cd`를 하고, 다음의 명령어를 실행하세요.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Downloading the zipball
+### Downloading the Zip
 
-If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
 
-   ![Download code button screenshot](/assets/img/docs/download-code-button.png)
+1. Click it and select "Download ZIP".
 
-2. Click it and select "Download ZIP".
-
-   ![Download ZIP button screenshot](/assets/img/docs/download-zipball-button.png)
-
-3. Extract the archive into a folder.
+1. Extract the archive into a folder.
 
 ### Installing on Google Chrome or Microsoft Edge
 
-1. Type `chrome://extensions` into your address bar to open the Extension Management page.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Click the toggle next to `Developer mode` to turn on the Developer Mode. This allows you to install extensions from a folder or file.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. You should see the `Load unpacked` button appear. Clicking it will allow you to select a folder to upload.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Load unpacked button screenshot](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Select the extracted folder.
-5. 확장 프로그램은 이제 실행될 겁니다.
-
-To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
-
-![Update button screenshot](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### 모질라 파이어폭스에 설치하기
 
-1. Type `about:debugging` into your address bar to open the debugging page.
+To load the extension into Mozilla Firefox:
 
-2. Click `This Firefox` on the left-hand menu.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Left-hand menu screenshot](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Click `Load Temporary Add-on...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Select the manifest.json file inside the extracted folder.
-7. 확장 프로그램은 이제 실행될 겁니다.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

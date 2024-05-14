@@ -2,22 +2,23 @@
 title: Addon-Basis
 ---
 
-## Wat is eigenlijk een addon?
-Eigenlijk is een addon niet meer dan een userscript, een userstyle, of een combinatie ervan. Als ze relevant zijn, zetten we ze in dezelfde addon, onder een enkele naam. De "Scratch 3-Ontwikkelaarstools"-addon heeft bijvoorbeeld een userscript voor het toevoegen van een zoekbalk aan de editor, en een userstyle die CSS aan die balk toevoegt.
+## What is an addon?
+An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
-## Wat is een userscript?
-Een userscript is een stukje JavaScript-code die samen met een Scratchtabblad uitvoert. Je kunt kiezen waar die userscript zich uitvoert, bijvoorbeeld, alleen projectpagina's. Userscripts zijn vergelijkbaar met inhoudscripts op browserextensies, en als je ooit een userscript-manager hebt gebruikt zul je zien dat ze praktisch hetzelfde zijn. 
-Userscripts zijn handig om het gedrag van de Scratchwebsite aan te passen, bijvoorbeeld, knoppen toevoegen of verwijderen van de navigatiebalk.
+## What is a userscript?
+A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
 
-## Wat is een userstyle?
-Een userstyle is vergelijkbaar met een userscript; je kunt ook URL-patronen voor ze kiezen. Echter, userstyles injecteren CSS in plaats van JavaScript. Ze worden vaak met userscripts gebruikt om de elementen ervan een stijl te geven, maar dat kan ook met natieve Scratchelementen. Als dat het geval is, noemen we die meestal "thema's".
+## What is a userstyle?
+A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
 
-## Wat zou conceptueel een addon moeten zijn?
-Je zou kunnen twijfelen of het beter is om een nieuwe addon te maken, of een bestaande addon te veranderen. 
-Als 2 addons enkele van deze delen, zouden ze waarschijnlijk samengevoegd moeten worden.
+## What should be an addon?
+
+<!-- TODO: Expand this section into its own page -->
+You might wonder if it's a better idea to create a new addon, or modify an existing one.
+If two addons share some of these, they should probably be merged.
 - Ze hebben beiden, of niet, toestemmingen nodig die gebruikersinteractie nodig hebben (zoals notificaties).
 - Ze delen veel code.
 - De gebruiker zou verwachten dat de addon beide functies aanbiedt.
-- Als ze gescheiden worden, zouden ze problemen veroorzaken.
+- If being separated, they would interfere with each other.
 
-Onthoud dat addons aanpasbaar zijn door de gebruiker - nieuwe functionaliteit toevoegen beïnvloedt oude gebruikers van de addon niet, behalve als we dit opzettelijk doen.
+Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.

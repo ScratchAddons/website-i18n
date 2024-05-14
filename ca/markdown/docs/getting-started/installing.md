@@ -14,18 +14,22 @@ Scratch Addons is available in these stores.
 
 ## Desde la font
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### Sobre les versions de GitHub
 
 [La pàgina de versions](https://github.com/ScratchAddons/ScratchAddons/releases) conté el codi i els fitxers d'instal·lació per totes les compilacions del desenvolupament del Scratch Addons, així com el portal de les compilacions de les botigues de complements.
 
 ### Clonació del repositori
 
-Aquesta és la forma recomanada d'instal·lar Scratch Addons amb fins de desenvolupament. Això suposant que tens Git instal·lat.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-Per baixar el repositori, només has de clonar `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Per actualitzar els complements de Scratch, primer `cd` a la seva carpeta i, a continuació, executa les ordres següents.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Això actualitzarà el Scratch Addons i el prepararà per a l'edició de codi. Tingues en compte que haurás de veure la secció d'acabament d'actualització [aquí](#install-on-google-chrome) si fas servir el Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Descàrrega del zipball
+### Downloading the Zip
 
-Si no tens el Git instal·lat, pots provar aquest altre mètode. Tingues en compte que haurás de repetir aquest procediment manualment cada vegada que vulguis actualitzar el Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Vés al [repositori](https://github.com/ScratchAddons/ScratchAddons) i cerca el botó de descàrrega del codi.
 
-   ![Descarrega la captura de pantalla del botó del codi](/assets/img/docs/download-code-button.png)
+1. Fes-hi clic i selecciona "Download ZIP.
 
-2. Fes-hi clic i selecciona "Download ZIP.
-
-   ![Descarrega la captura de pantalla del botó ZIP](/assets/img/docs/download-zipball-button.png)
-
-3. Extreu l'arxiu a una carpeta.
+1. Extreu l'arxiu a una carpeta.
 
 ### Installing on Google Chrome or Microsoft Edge
 
-1. Escriu `chrome://extensions` a la barra d'adreces per obrir la pàgina de gestió d'extensions.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Fes clic al lliscador del costat de `Mode de desenvolupador` per activar el mode de desenvolupador. Això permet instal·lar extensions des d'una carpeta o arxiu.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Hauríes de veure que apareix el botó `Carrega una extensió desempaquetada`. Si fas clic, podrás seleccionar una carpeta per carregar.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Captura de pantalla del botó de carregar una extensió desempaquetada](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Selecciona la carpeta extreta.
-5. Ara s'hauria de carregar l'extensió.
-
-Per acabar d'actualitzar (suposant que s'han seguit els passos d'actualització d' [aquí](#cloning-the-repository)), fes clic al botó de `Actualitza`:
-
-![Captura de pantalla del botó d'actualitzar](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Instal·lació a Mozilla Firefox
 
-1. Escriu `about:debugging` a la barra d'adreces per obrir la pàgina de depuració.
+To load the extension into Mozilla Firefox:
 
-2. Feu clic a `Aquest Firefox` al menú de l'esquerra.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Captura de pantalla del menú de l'esquerra](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Fes clic a `Carrega un complement temporal...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Captura de pantalla del botó de Carrega un complement temporal](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Selecciona el fitxer manifest.json dins de la carpeta extreta.
-7. Ara s'hauria de carregar l'extensió.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Nota: Els complements temporals del Firefox són realment temporals. Si reinicieu Firefox, es suprimiràn, de manera que si vols utilitzar la versió de desenvolupament de Scratch Addons tot el que vulgis, et recomanem que utilitzis un navegador basat en Chromium com el Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

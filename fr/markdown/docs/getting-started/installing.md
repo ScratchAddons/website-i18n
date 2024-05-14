@@ -14,18 +14,22 @@ Srcratch Addons est disponible dans ces boutiques.
 
 ## Depuis la source
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### About GitHub releases
 
 [La page des versions](https://github.com/ScratchAddons/ScratchAddons/releases) contient le code et les fichiers d’installation pour toutes les versions de développement de Scratch Addons, ainsi que le miroir des versions du magasin.
 
 ### Clonage du répertoire
 
-Ceci est la manière recommandée d'installer Scratch Addons pour des fins de développement. Ceci est basé sur le fait que vous avez installez Git.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-Pour télécharger le référentiel, clonez simplement `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Pour mettre à jour Scratch Addons, commencez par `cd` dans son dossier, puis exécutez les commandes suivantes.
 
@@ -34,58 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Cela mettra à jour Scratch Addons et le préparera pour l’édition de code. Notez que vous aurez besoin de voir la section de mise à jour de finition [ici](#install-on-google-chrome) si vous utilisez Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Téléchargement de la zipball
+### Downloading the Zip
 
-Si Git n’est pas installé, vous pouvez essayer cette méthode à la place. Notez que vous devrez répéter ce processus manuellement chaque fois que vous souhaitez mettre à jour Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Allez dans le [repository] (https://github.com/ScratchAddons/ScratchAddons) et trouvez le bouton de téléchargement de code.
 
-   ![Capture d’écran du bouton Télécharger le code](/assets/img/docs/download-code-button.png)
+1. Cliquez et selectionnez ”Télécharger le ZIP”
 
-2. Cliquez et selectionnez ”Télécharger le ZIP”
-
-   ![Télécharger la capture d’écran du bouton ZIP](/assets/img/docs/download-zipball-button.png)
-
-3. Extraire l’archive dans un dossier.
+1. Extraire l’archive dans un dossier.
 
 ### Installation sur Google Chrome ou Microsoft Edge
 
-1. Tapez `chrome://extensions` dans votre barre d'adresse pour ouvrir la page de gestion des extensions.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Cliquez sur le bouton à bascule à côté du `mode développeur` pour activer le mode développeur, ce qui vous permet d’installer des extensions à partir d’un dossier ou d’un fichier.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Capture d’écran de la barre supérieure de gestion des extensions](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Le bouton  `Load unpacked` devrait s’afficher. Cliquez dessus pour sélectionner un dossier à télécharger.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Chargement de la capture d’écran du bouton décompressé](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Sélectionnez le fichier extrait.
-5. L'extension devrait maintenant être chargée.
-
-Pour terminer la mise à jour (en supposant que vous ayez suivi les étapes de mise à jour [ici](#cloning-the-repository)), cliquez sur le bouton `Mettre à jour`:
-
-![Capture d’écran du bouton de mise à jour](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Installation sur Mozilla Firefox
 
-1. Tapez `about:debugging` dans votre barre d'adresse pour ouvrir la page de débogage.
+To load the extension into Mozilla Firefox:
 
-2. Cliquez sur `This Firefox` dans le menu de gauche.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Capture d’écran du menu de gauche](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Cliquez sur `Charger le module complémentaire temporaire...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Chargement de la capture d’écran du bouton d’ajout temporaire](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Sélectionnez le fichier manifest.json dans le dossier extrait.
-7. L'extension devrait maintenant être chargée.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Remarque : les modules complémentaires temporaires de Firefox sont en fait temporaires. Le redémarrage de Firefox les supprimera, donc si vous souhaitez utiliser la version de développement de Scratch Addons tout le temps, il est recommandé d'utiliser un navigateur basé sur Chromium comme Google Chrome.
- 
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

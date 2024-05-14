@@ -2,22 +2,23 @@
 title: Addon Basics
 ---
 
-## Hva er egentlig en tillegg?
-Faktisk er en tilleggsfunksjon ikke mye mer enn et brukerskript, en brukerstil eller en kombinasjon av begge deler. Hvis noen av disse er relatert, gjør vi dem til en del av samme tilleggsfunksjon, under ett navn. For eksempel har tilleggsfunksjonen "Scratch 3 Developer Tools" et brukerskript som er ansvarlig for å legge til en søkeboks i redigeringsverktøyet, og en brukerstil som legger til CSS i den boksen.
+## What is an addon?
+An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
-## Hva er en brukerskript?
-Et brukerskript er en bit JavaScript-kode som kjører sammen med en Scratch-fane. Du kan spesifisere hvor dette brukerskriptet skal kjøre, for eksempel bare på prosjektsider. Brukerskript er lignende innholdsskript på nettleserutvidelser, og hvis du noen gang har brukt en brukerskriptbehandler, vil du legge merke til at disse er omtrent det samme.
-Brukerskript er nyttige for å endre oppførselen til Scratch-nettstedet, for eksempel å legge til eller fjerne knapper fra navigasjonslinjen.
+## What is a userscript?
+A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
 
-## Hva er en brukerstil?
-En brukerstil er lik en brukerskript; du kan også spesifisere URL-mønstre for dem. Imidlertid injiserer brukerstiler CSS i stedet for JavaScript. De brukes ofte sammen med brukerskript for å style elementer som er lagt til av dem, men de kan også brukes til å style native Scratch-elementer. Når det er tilfelle, kaller vi dem vanligvis "temaer".
+## What is a userstyle?
+A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
 
-## Konseptuelt, hva bør være en tilleggsfunksjon?
-Du lurer kanskje på om det er en bedre idé å lage en ny tillegg, eller endre en eksisterende. 
-Hvis 2 tillegg deler noen av disse, bør de sannsynligvis slås sammen.
+## What should be an addon?
+
+<!-- TODO: Expand this section into its own page -->
+You might wonder if it's a better idea to create a new addon, or modify an existing one.
+If two addons share some of these, they should probably be merged.
 - Både trenger, eller trenger ikke, tillatelser som krever brukerinteraksjon (som varsler).
 - De deler mye kode.
 - Brukeren ville forvente at tillegget tilbyr begge funksjonene.
-- Hvis de blir separert, vil de forstyrre hverandre.
+- If being separated, they would interfere with each other.
 
-Husk at tillegg kan tilpasses av brukeren - å legge til ny funksjonalitet påvirker ikke gamle brukere av tillegget, med mindre vi med vilje gjør det.
+Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.

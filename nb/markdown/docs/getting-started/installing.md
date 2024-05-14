@@ -14,18 +14,22 @@ Scratch Addons er tilgjengelig i disse butikkene.
 
 ## Fra kilde
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### Om GitHub-utgivelser
 
 [Releases-siden](https://github.com/ScratchAddons/ScratchAddons/releases) inneholder koden og installasjonsfilene for alle utviklingsversjoner av Scratch Addons, samt speilet av butikkversjonene.
 
 ### Kloning av repositoriet
 
-Dette er den anbefalte måten å installere Scratch Addons for utviklingsformål. Dette forutsetter at du har Git installert.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-For å laste ned repositoriet, kan du enkelt klone `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 For å oppdatere Scratch Addons, først `cd` inn i mappen sin, og deretter kjør følgende kommandoer.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Dette vil oppdatere Scratch Addons og gjøre det klart for kode-redigering. Merk at du må se avsnittet om ferdig oppdatering [her](#install-on-google-chrome) hvis du bruker Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Laste ned zipball
+### Downloading the Zip
 
-Hvis du ikke har Git installert, kan du prøve denne metoden i stedet. Merk at du må gjenta denne prosessen manuelt hver gang du vil oppdatere Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Gå til [repositoriet](https://github.com/ScratchAddons/ScratchAddons) og finn nedlastingskoden.
 
-   ![Last ned kodeknapp skjermbilde](/assets/img/docs/download-code-button.png)
+1. Klikk på den og velg "Last ned ZIP".
 
-2. Klikk på den og velg "Last ned ZIP".
-
-   ![Last ned ZIP-knapp skjermbilde](/assets/img/docs/download-zipball-button.png)
-
-3. Pakk ut arkivet i en mappe.
+1. Pakk ut arkivet i en mappe.
 
 ### Installerer på Google Chrome eller Microsoft Edge
 
-1. Skriv `chrome://extensions` i adressefeltet for å åpne siden for utvidelseshåndtering.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Klikk på bryteren ved siden av `Utviklermodus` for å aktivere utviklermodus. Dette lar deg installere utvidelser fra en mappe eller fil.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Du bør se knappen `Last inn ukomprimert` vises. Ved å klikke på den kan du velge en mappe å laste opp.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Last opp pakket knapp skjermbilde](/assets/img/docs/last-opp-pakket-knapp.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Velg den uttrukne mappen.
-5. Utvidelsen skal nå være lastet.
-
-For å fullføre oppdateringen (forutsatt at du fulgte oppdateringsstegene [her](#kloning-av-repositoriet)), klikk på `Oppdater`-knappen.
-
-![Oppdateringsknapp skjermbilde](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Installerer på Mozilla Firefox
 
-1. Skriv `about:debugging` i adressefeltet for å åpne feilsøkingsiden.
+To load the extension into Mozilla Firefox:
 
-2. Klikk på `Denne Firefox` i venstremenyen.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Venstremeny skjermbilde](/assets/img/docs/venstremeny.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Klikk på `Last inn midlertidig tillegg...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Last inn midlertidig tilleggsknapp skjermbilde](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Velg manifest.json-filen inne i den utpakkede mappen.
-7. Utvidelsen skal nå være lastet.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Merk: Midlertidige tillegg i Firefox er faktisk midlertidige. Hvis du starter Firefox på nytt, vil de bli fjernet, så hvis du vil bruke utviklingsversjonen av Scratch Addons hele tiden, anbefales det at du bruker en Chromium-basert nettleser som Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

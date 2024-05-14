@@ -14,18 +14,22 @@ Scratch Addons is available in these stores.
 
 ## Z izvirno kodo
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### About GitHub releases
 
 [The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
 
 ### Podvajanje kode
 
-This is the recommended way to install Scratch Addons for development purposes. This assumes you have Git installed.
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-To download the repository, simply clone `https://github.com/ScratchAddons/ScratchAddons.git`.
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 To update Scratch Addons, first `cd` into its folder, and then run the following commands.
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-This will update Scratch Addons and get it ready for code editing. Note that you will need to see the finish updating section [here](#install-on-google-chrome) if you are using Google Chrome.
+Remember to also update Scratch Addons from the browser.
 
 
-### Prenos datoteke .zip
+### Downloading the Zip
 
-If you don't have Git installed, you can try this method instead. Note that you will need to manually repeat this process every time you want to update Scratch Addons.
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
 
-   ![Posnetek zaslona z gumbom Download code](/assets/img/docs/download-code-button.png)
+1. Kliknite ga in izberite "Download ZIP".
 
-2. Kliknite ga in izberite "Download ZIP".
-
-   ![Posnetek zaslona z gumbom Download ZIP](/assets/img/docs/download-zipball-button.png)
-
-3. Extract the archive into a folder.
+1. Extract the archive into a folder.
 
 ### Installing on Google Chrome or Microsoft Edge
 
-1. V naslovno vrstico vnesite `chrome://extensions`, da odprete stran za upravljanje razširitev.
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. Kliknite stikalo `Način za razvijalce`, da vključite način za razvijalce. To omogoča nameščanje razširitev iz map ali datotek.
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![Extension Management top bar screenshot](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. Prikazati bi se moral gumb `Naloži razpakirano`. Ko ga kliknite, lahko izberete mapo.
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Posnetek zaslona z gumbom Naloži razpakirano](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. Select the extracted folder.
-5. Razširitev bi zdaj morala biti naložena.
-
-To finish updating (assuming you followed the updating steps [here](#cloning-the-repository)), click the `Update` button:
-
-![Update button screenshot](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Namestitev v brskalniku Mozilla Firefox
 
-1. V naslovno vrstico vnesite `about:debugging`, da odprete stran za razhroščevanje.
+To load the extension into Mozilla Firefox:
 
-2. Click `This Firefox` on the left-hand menu.
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![Posnetek zaslona menija na levi strani](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. Kliknite `Naloži začasen dodatek...`.
+1. Click "This Firefox" on the sidebar
 
-   ![Load Temporary Add-on button screenshot](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. Select the manifest.json file inside the extracted folder.
-7. Razširitev bi zdaj morala biti naložena.
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-Note: Firefox temporary add-ons are actually temporary. Restarting Firefox will remove them, so if you want to use the development version of Scratch Addons all the time, it is recommended that you use a Chromium-based browser like Google Chrome.
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

@@ -14,18 +14,22 @@ Scratch Addons は次のストアで入手できます。
 
 ## ソースコードから
 
+{{< admonition info >}}
+Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+{{< /admonition >}}
+
 ### GitHubリリースについて
 
 [リリースページ](https://github.com/ScratchAddons/ScratchAddons/releases) には、ストア版のミラーに加え、Scratch Addonsの開発版のコードとインストールファイルがあります。
 
 ### リポジトリのクローン
 
-開発用にScratch Addonsをインストールするためには、この方法がおすすめです。Gitをインストールして、以下の手順に従ってください:
+This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
 
-リポジトリをダウンロードするには、 `https://github.com/ScratchAddons/ScratchAddons.git` をクローンしてください。
+If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
 ```sh
-$ git clone https://github.com/ScratchAddons/ScratchAddons.git
+$ git clone https://github.com/<username>/ScratchAddons.git
 ```
 Scratch Addonsを更新するには、フォルダー内に `cd` し、次のコマンドを実行してください:
 
@@ -34,57 +38,61 @@ $ git fetch
 $ git pull
 ```
 
-Scratch Addonsが更新され、コードの編集に適した状態になります。Google Chromeを使用している場合は、 [アップデートを完了させる](#install-on-google-chrome) ために追加の手順が必要です。
+Remember to also update Scratch Addons from the browser.
 
 
-### Zip 形式でダウンロード
+### Downloading the Zip
 
-Gitをインストールしていない場合は、この方法が利用できます。この場合は、Scratch Addonsをアップデートする場合に手動で同じ作業を繰り返さないといけません。
+{{< admonition warning >}}
+  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+{{< /admonition >}}
+
+If you don not have Git installed, use this method instead.
 
 1. [リポジトリ](https://github.com/ScratchAddons/ScratchAddons) にて、ダウンロードボタンを押します。
 
-   ![ダウンロードボタンのスクリーンショット](/assets/img/docs/download-code-button.png)
+1. クリックし、「Download ZIP」を選択します。
 
-2. クリックし、「Download ZIP」を選択します。
-
-   ![Download ZIP ボタンのスクリーンショット](/assets/img/docs/download-zipball-button.png)
-
-3. アーカイブをフォルダーに解凍します。
+1. アーカイブをフォルダーに解凍します。
 
 ### Google ChromeやMicrosoft Edge上でのインストール
 
-1. アドレスバーに `chrome://extensions` と入力し、拡張機能管理ページを開きます。
+To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-2. `開発者モード` をトグルし、開発者モードを有効にします。有効にすると、フォルダーやファイルから拡張機能をインストールできるようになります。
+1. Go to [chrome://extensions](chrome://extensions)
 
-   ![拡張機能管理ページのトップバーのスクリーンショット](/assets/img/docs/developer-mode-toggle.png)
+1. Turn on "Developer mode" in the top-right corner
 
-3. `Load unpacked` ボタンが表示されるので、クリックしてフォルダーを選択してください。
+1. Click "Load unpacked" and select the `ScratchAddons` folder.
 
-   ![Load unpacked ボタンのスクリーンショット](/assets/img/docs/load-unpacked-button.png)
+To update the extension when testing, click the refresh icon on the extension's card.
 
-4. 解凍したフォルダーを選択してください。
-5. 拡張機能が読み込まれたはずです。
-
-[クローンの更新後](#cloning-the-repository) アップデートを完了させるには、 `更新` ボタンを押してください。
-
-![更新ボタンスクリーンショット](/assets/img/docs/update-button.png)
+{{< admonition info >}}
+  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+{{< /admonition >}}
 
 
 ### Mozilla Firefox上でのインストール
 
-1. アドレスバーに `about:debugging` と入力し、デバッグページを開きます。
+To load the extension into Mozilla Firefox:
 
-2. 画面左の `This Firefox` を選択します。
+{{< admonition info >}}
+  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+{{< /admonition >}}
 
-   ![画面左のスクリーンショット](/assets/img/docs/left-hand-menu.png)
+1. Go to [about:debugging](about:debugging)
 
-4. `Load Temporary Add-on...` をクリックします。
+1. Click "This Firefox" on the sidebar
 
-   ![Load Temporary Add-on ボタンのスクリーンショット](/assets/img/docs/load-addon.png)
+1. Click "Load Temporary Add-on..."
 
-6. 解凍したフォルダー内のmanifest.jsonファイルを選択します。
-7. 拡張機能が読み込まれたはずです。
+1. Select the `manifest.json` file in the `ScratchAddons` folder.
 
-注意: Firefoxのアドオンは一時的に読み込まれただけなので、ブラウザー再起動後に削除されます。開発版のバージョンを常時使用する場合は、Google ChomeなどのChromiumベースのブラウザーの使用をおすすめします。
+1. If a permission tab opens, click the "Enable" button.
+
+To reload the extension when testing, click the "Reload" button on the extension's card.
+
+{{< admonition info >}}
+  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+{{< /admonition >}}
 

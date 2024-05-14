@@ -2,21 +2,23 @@
 title: 擴充功能基礎認識
 ---
 
-## 什麼是擴充功能？
-說穿了，我們的擴充功能只不過是 userscript、userstyle，或兩者的組合。 如果功能之間有相關，那麼我們會把它們歸納成同個擴充功能，並給它一個名稱，例如 Scratch 3 Developer Tools ，這個擴充功能中，有一個 userscript 負責在編輯器頁面裡添加一個查詢欄位，另一個 userstyle 來賦予查詢欄位 CSS 樣式。
+## What is an addon?
+An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
-## userscript 是啥？
-用戶腳本是一段與 Scratch 選項卡一起運行的 JavaScript 代碼。 您可以指定該用戶腳本將運行的位置，例如，僅項目頁面。 用戶腳本類似於瀏覽器擴展上的內容腳本，如果您曾經使用過用戶腳本管理器，您會發現它們基本相同。 用戶腳本可用於更改 Scratch 網站的行為，例如，添加嚮導航欄或刪除按鈕。
+## What is a userscript?
+A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
 
-## 什麼是用戶風格？
-用戶樣式類似於用戶腳本。 您還可以為它們指定 URL 模式。 然而，用戶樣式註入的是 CSS 而不是 JavaScript。 它們通常與用戶腳本一起使用來設置它們添加的元素的樣式，但它們也可以用於設置原始 Scratch 元素的樣式。 在這種情況下，我們通常稱它們為“主題”。
+## What is a userstyle?
+A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
 
-## 從概念上講，什麼是插件？
-您可能想知道創建新插件或修改現有插件是否更好。 
-如果 2 個插件有一些相同部分，它們可能被合併。
+## What should be an addon?
+
+<!-- TODO: Expand this section into its own page -->
+You might wonder if it's a better idea to create a new addon, or modify an existing one.
+If two addons share some of these, they should probably be merged.
 - 兩者都需要或不需要需要用戶交互的權限（例如通知）。
 - 他們共同使用大量的代碼。
 - 用戶希望該插件提供這兩種功能。
-- 如果分開成兩個插件，它們會互相干擾。
+- If being separated, they would interfere with each other.
 
-請記住，插件是由用戶自定義的——添加新功能不會影響之前插件，除非我們故意這樣做。
+Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.

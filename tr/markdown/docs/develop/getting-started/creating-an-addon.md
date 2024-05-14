@@ -1,87 +1,75 @@
 ---
 title: Bir Eklenti Oluşturmak
 ---
-Gerekli yazılım: metin düzenleyici, Chrome.
-Mümkünse, sorunları önlemek için devam etmeden önce mağazadan indirdiğiniz Scratch Eklentileri uzantısını devre dışı bırakın.
 
+This page describes the basics on how to create an addon for Scratch Addons. Before proceeding, please read the [addon basics](../addon-basics/) and disable any other instances of Scratch Addons to avoid conflicts.
 
 {{< admonition info >}}
-Geliştirmekte olduğunuz eklentiyi bir pull request olarak GitHub depomuza göndermeyi planlıyorsanız, lütfen ilk önce [katkıda bulunma yönergelerimizi](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) okuyun.
-
-Bu depoda yeni eklenti fikrinizle ilgili mevcut bir GitHub sorunu yoksa, lütfen [bir tane oluşturun](https://github.com/ScratchAddons/ScratchAddons/issues/new/choose). Ancak, özellik fikrinizle ilgili zaten bir sorun varsa, eklentiyi geliştirme niyetinizi belirten bir yorum bırakmanızı öneririz. Bu, diğer katkıda bulunanların eklentinin kabul edilip edilemeyeceği veya daha fazla tartışma gerekip gerekmediği konusunda geri bildirimde bulunmalarını sağlayacaktır.
-
-Ancak, kişisel kullanım için bir eklenti oluşturuyorsanız, bu kılavuzla ilerleyebilirsiniz.
+If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first.
 {{< /admonition >}}
 
-## 1. Adım: [Eklenti ile ilgili temel bilgiler](/docs/develop/getting-started/addon-basics/) hakkında bilgi edinin
-Terminolojiye aşina olmak için bu makaleyi okuduğunuzdan emin olun.
+## Requirements
+Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having Git, Firefox (121+) and Visual Studio Code installed.
 
-## Adım 2: [Depoyu](https://github.com/ScratchAddons/ScratchAddons) çatallayın/klonlayın
-Kaynak kodunu yerel olarak indirmek için [bu yönergeleri](/docs/getting-started/installing/#from-source) takip edin.
+## Installation
+To install the extension for development, see [Installing from source](/docs/getting-started/installing/#from-source).
 
-## 3. Adım: Uzantıyı Chrome'a yükleyin
-*Not: Eklentiler üzerinde çalışmak için Chrome önerilir. Yine de, eklentilerin Firefox ve Edge'de de çalışması bekleniyor.* 
-Artık dosya sisteminizde uzantıya sahip olduğunuza göre, `chrome://extensions`a gidin ve "geliştirici modu"nu açın. 
-"Paketlenmemiş yükle"ye tıklayın, ardından Scratch Eklentileri'nin bulunduğu klasörü seçin. Bununla ilgili sorun yaşıyorsanız, `manifest.json` dosyasının bulunduğu klasörü seçtiğinizden emin olun. 
-İşte bu! Uzantıyı yüklediniz! Şuna benzer görünmelidir: 
-![image](https://user-images.githubusercontent.com/17484114/91502527-accfd580-e89e-11ea-9e16-7daa2b808379.png)  
-Not: "hatalar"ı güvenle görmezden gelebilirsiniz. Bu, Firefox tarafından gerekli görülen tanınmayan bir bildirim anahtarı için yalnızca bir uyarıdır.
+## Creating the addon folder
+Each addon has its own internal ID used by the extension and other addons. Addon IDs should not contain any spaces or special characters except hyphens and should be self-descriptive, but not too long.
 
-## 4. Adım: Eklentiniz ne hakkında?
-Şimdi eğlenceli kısım geliyor!
-Eklentiniz ne yapacak? Kendini açıklayıcı bir eklenti kimliği düşünün (tireler dışında boşluk veya özel karakter koymayın).
-Anladın mı?
+New addons should not use an ID that was included in a stable version of the extension but later removed. These include:
 
-## 5. Adım: Eklenti için bir klasör oluşturun
-Bir dosya gezgini kullanarak Scratch Eklentileri'nin dosya sisteminizde bulunduğu klasöre gidin. `addons` klasörünü bulun.
-Ardından, adı olarak epik eklenti kimliğinizle yeni bir klasör oluşturun.
+- `a11y`
+- `data-category-tweaks`
+- `featured-dangos`
+- `fix-buttons`
+- `redirect-mobile-forums`
+- `tutorials-button`
 
-## 6. Adım: Bir manifest eklentisi ekleyin
-Eklenti manifesti, Scratch Eklentileri'ne eklentinizin nasıl çalıştığını söyler. Baş ağrısından kurtulmak için bunu yaptığınızdan emin olun.
-Az önce oluşturduğunuz klasörün içinde bir `addon.json` dosyası oluşturun.
-Bu, kodlamaya başlamak için kullanabileceğiniz bir temeldir, gelecekte değiştirdiğinizden emin olun:
-``` json
+Open the `addons.json` file in the `addons` folder, insert a new addon ID near the bottom of the file, then create a sub-folder with the same name.
+
+## The addon manifest
+Each addon has it's own [manifest](/docs/reference/addon-manifest/) that handles how it is displayed on the settings page, any settings the addon may have, which userscripts or userstyles to run and where to run them.
+
+Addon manifests are located in each addon's folder and named `addon.json`.
+Here is a minimal addon manifest:
+```json
 {
-  "name": "Eklenti adının olduğu yere destansı yer tutucu metni",
-  "description": "Merhaba Dünya! Bu yer tutucu metnini bir açıklama ile değiştirmek gerçekten akıllıca olur.",
-  "tags": ["community"],
-  "enabledByDefault": false
+  "name": "My addon",
+  "description": "TODO",
+  "tags": ["community"]
 }
 ```
-Manifest dosyasında neler bildirebileceğiniz hakkında daha fazla bilgi için [bu makaleye](/docs/reference/addon-manifest/) bakın.
 
+For more information on what can be declared in the manifest, see the [the Addon Manifest reference](/docs/reference/addon-manifest/).
 
-## 7. Adım: Scratch Eklentileri'ne eklentinizin kimliğinin ne olduğunu söyleyin
-Scratch Eklentileri kendi başına yeni klasörler bulamaz, bu nedenle adı özel bir dosyaya eklemeniz gerekir.
-`scratchAddonsFolder/addons/addons.json` adresine gidin ve eklentinizin kimliğini diziye ekleyin.
+The addon does not do anything yet, but it should appear in the popup and settings page after reloading the extension.
 
-## 8. Adım: Merhaba dünya
-Eklentiniz şu anda hiçbir şey yapmıyor, bu nedenle daha önce yaptığımız her şeyin çalışıp çalışmadığını kontrol etmek için iyi bir zaman.
-` chrome://extensions`a gidin ve sayfayı yenileme sembolüne tıklayarak Scratch Eklentileri'ni yeniden yükleyin.
-Şimdi, Scratch Eklentileri simgesine sağ basın ve "seçenekler"e tıklayın.
-Eklentinizi listede görmelisiniz! Eklentinizi bulduktan sonra etkinleştirin ve sahip olabileceğiniz tüm ayarları yapın.
+## Userscripts and userstyles
+[Userscripts](/docs/develop/userscripts/) and [userstyles](/docs/develop/userstyles/) are what make the addon work. Userscripts run JavaScript code and userstyles inject CSS styles. Addons may have a combination of userstyles and userscripts.
 
-## 9. Adım: Eğlenceli kısım, kod!
-*Devam etmeden önce 1. adımda bağlantısı verilen wiki makalesini okuduğunuzdan emin olun.*
+Userscripts have access to [addon APIs](/docs/reference/addon-api/) to make Scratch-specific tasks such as fetching the currently logged in user easier.
 
-İşin eğlenceli kısmı geliyor: Kendi JS veya CSS dosyalarınızı oluşturun! Profesyonel İpucu: Eklentinizde herhangi bir değişiklik yaptıktan sonra, 8. adımda yaptığınız gibi Scratch Eklentileri uzantısını yenilediğinizden emin olun.
+When adding a userscript or userstyle to the addon's folder, it must be declared in the addon manifest or it will not run.
 
-Eklentinizin ne yapmasını istediğinize bağlı olarak, şimdi şu wiki sayfalarını kontrol etmelisiniz:
-- [Userscript'ler](/docs/develop/userscripts)
-- [Userstyle'lar](/docs/develop/userstyles)
+## Addon settings
+The [settings object](/docs/reference/addon-manifest/#settings-object) in the addon manifest allows adding options such as toggles, text boxes or color pickers to your addon on the settings page to make it customizable by users.
 
-## 10. Adım: Eklentinizi özelleştirilebilir yapın
-İsterseniz eklentinizi özelleştirilebilir hâle getirebilirsiniz!
-Eklentinizin kullanıcıları ayarları değiştirebilir, sayı girebilir ve çok daha fazlasını yapabilir!
-Başlamak için [eklenti bildiriminde ayarların nasıl bildirileceğine](/docs/reference/addon-manifest/#settings-object) göz atın.
-Ardından, userscript'lerden kullanıcı seçeneklerine nasıl erişileceğini öğrenmek için [addon.settings belgeleri](/docs/reference/addon-api/addon.settings)ne bakın.
+See the [addon.settings](/docs/reference/addon-api/addon.settings) documentation on how to access user choices from userscripts and userstyles.
 
-## 11. Adım: Eklentinizi yayınlamadan önce
-Artık eklentiniz çalıştığına göre, onu eklenti kitaplığına ekleyebileceğimizden emin olalım.  
-Eklentinizin manifest dosyasının uygun olduğundan emin olun, [buradan](/docs/reference/addon-manifest) manifest dosyası hakkında daha fazla bilgi alabilirsiniz. Eklentinizin adına, açıklamasına ve etiketlerine çok dikkat edin. `"enabledByDefault"` değerini `false` olarak ayarladığınızdan veya satırı kaldırdığınızdan emin olun.
-Eklentinizin diğer eklentilerin çalışmasını etkilemediğinden emin olun.
-Kodunuzun anlaşılır olduğundan emin olun; Gereksiz yorumlara sahip olması, hiç yorum olmamasından daha iyidir.
+## Before contributing
+{{< admonition info >}}
+In case there is no existing GitHub issue in that repository related to your new addon idea, please create one. However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
 
-## 12. Adım: Bir pull request gönderin!
-[Katkı yapma kılavuzumuzdaki](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) adımları takip edin. Basitçe söylemek gerekirse, eğer hâlihazırda yapmadıysanız depoyu çatallayın, yeni eklentinizi kaydedin ve bir PR gönderin!
-Size bazı değişiklikler istediğimizi bildiren bir yanıt gönderebileceğimizi aklınızda bulundurun, ancak kabul edilebilir bir düzeyde olduğu sürece eklentinizi kabul edeceğiz.
+Also note that GitHub's terms of service require users to be 13+ to create an account with them.
+{{< /admonition >}}
+
+If you want to submit your addon to the Scratch Addons GitHub repository, so it can be added to the addon library, ensure the addon works as expected, with and without other addons enabled and that it does not break other addons. The addon's manifest should have a good name and description, `versionAdded` should be set to the next version of the extension and the addon should not be enabled by default. Addons should support dynamic enable and disable, but it is not required.
+Make sure the code is understandable; having unnecessary comments is better than no comments.
+
+## Sending a pull request
+Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repository if you haven't already, commit your new addon and send a pull request.
+
+If your addon isn't finished or you need help with something, create a draft pull request.
+
+Keep in mind we might request you to make some changes, and the review process may be slow, however, we will probably accept your addon as long as it's minimally suitable and Scratch-specific.
