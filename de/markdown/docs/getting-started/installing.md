@@ -15,7 +15,7 @@ Scratch Addons ist in diesen Stores verfügbar.
 ## Aus Quelle
 
 {{< admonition info >}}
-Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+Im Gegensatz zu den Storeversionen benötigt die Installation aus dem Quellcode einen Browser basierend auf Chromium 121+ oder Firefox 121+.
 {{< /admonition >}}
 
 ### Über GitHub-Releases
@@ -24,9 +24,9 @@ Unlike the store releases, installing from source requires a browser based on Ch
 
 ### Repository klonen
 
-This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
+Empfohlene Installationsmethode von Scratch Addons für Entwickler, vorausgesetzt, du hast Git installiert.
 
-If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
+Wenn du vorhast mitzuwirken, forke zuerst das Repository auf GitHub und klone dann deinen Fork. Nutze dabei statt `<username>` deinen GitHub-Benutzernamen.
 
 ```sh
 $ git clone https://github.com/<username>/ScratchAddons.git
@@ -38,16 +38,16 @@ $ git fetch
 $ git pull
 ```
 
-Remember to also update Scratch Addons from the browser.
+Vergiss nicht, Scratch Addons auch im Browser zu aktualisieren.
 
 
-### Downloading the Zip
+### Zip herunterladen
 
 {{< admonition warning >}}
-  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+  Diese Methode ist nur dann für die Entwicklung empfohlen, wenn Git nicht am System installiert werden kann. Der Vorgang muss bei jedem Update von Scratch Addons manuell wiederholt werden.
 {{< /admonition >}}
 
-If you don not have Git installed, use this method instead.
+Wenn du Git nicht installiert hast, nutze stattdessen diese Methode.
 
 1. Gehe zum [Repository](https://github.com/ScratchAddons/ScratchAddons) und finde den  "Download code"-Knopf.
 
@@ -57,42 +57,42 @@ If you don not have Git installed, use this method instead.
 
 ### Installation auf Google Chrome oder Microsoft Edge
 
-To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
+Laden der Erweiterung in Google Chrome bzw. den meisten auf Chromium basierenden Browsern wie Microsoft Edge, Opera, Brave oder Vivaldi:
 
-1. Go to [chrome://extensions](chrome://extensions)
+1. Gehe zu [chrome://extensions](chrome://extensions)
 
-1. Turn on "Developer mode" in the top-right corner
+1. Aktiviere den "Entwicklermodus" in der rechten oberen Ecke
 
-1. Click "Load unpacked" and select the `ScratchAddons` folder.
+1. Klicke auf "Entpackte Erweiterung laden" und wähle den Ordner `ScratchAddons`.
 
-To update the extension when testing, click the refresh icon on the extension's card.
+Um die Erweiterung beim Testen zu aktualisieren, klicke auf das Aktualisieren-Symbol in der Karte der Erweiterung.
 
 {{< admonition info >}}
-  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+  Die Warnungen "Manifest-Schlüssel nicht erkannt" können problemlos ignoriert werden, da sie von Firefox benötigt werden.
 {{< /admonition >}}
 
 
 ### Auf Mozilla Firefox installieren
 
-To load the extension into Mozilla Firefox:
+Laden der Erweiterung in Mozilla Firefox:
 
 {{< admonition info >}}
-  Addons loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+  Auf diese Weise in Firefox geladene Addons sind nur temporär und müssen bei jedem Neustart des Browsers erneut geladen werden. Deshalb ist Chrome für die Entwicklung eher empfohlen, aber alles andere sollte auf Firefox genauso gut funktionieren.
 {{< /admonition >}}
 
-1. Go to [about:debugging](about:debugging)
+1. Gehe zu [about:debugging](about:debugging)
 
-1. Click "This Firefox" on the sidebar
+1. Klicke auf "Dieses Firefox" in der Seitenleiste
 
-1. Click "Load Temporary Add-on..."
+1. Klicke auf "Temporäres Add-on laden..."
 
-1. Select the `manifest.json` file in the `ScratchAddons` folder.
+1. Wähle die Datei `manifest.json` im Ordner `ScratchAddons`.
 
-1. If a permission tab opens, click the "Enable" button.
+1. Wenn ein Tab mit Berechtigungen erscheint, klicke auf "Aktivieren".
 
-To reload the extension when testing, click the "Reload" button on the extension's card.
+Um die Erweiterung beim Testen zu aktualisieren, klicke auf die "Neu laden"-Schaltfläche in der Karte der Erweiterung.
 
 {{< admonition info >}}
-  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+  Die Warnungen "Unerwartete WebExtension Manifest-Eigenschaft" können problemlos ignoriert werden, da sie von Chrome benötigt werden.
 {{< /admonition >}}
 
