@@ -24,7 +24,7 @@ Unlike the store releases, installing from source requires a browser based on Ch
 
 ### Het archief kopiëren
 
-This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
+Dit is de aanbevolen manier om Scratch Addons te installeren voor ontwikkelingsdoeleinden, ervan uitgaande dat Git geïnstalleerd is.
 
 If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
 
@@ -38,16 +38,16 @@ $ git fetch
 $ git pull
 ```
 
-Remember to also update Scratch Addons from the browser.
+Vergeet niet om Scratch Addons ook bij te werken vanuit de browser.
 
 
-### Downloading the Zip
+### Het Zip-bestand downloaden
 
 {{< admonition warning >}}
   This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
 {{< /admonition >}}
 
-If you don not have Git installed, use this method instead.
+Gebruik deze methode als je Git niet hebt geïnstalleerd.
 
 1. Ga naar het [archief](https://github.com/ScratchAddons/ScratchAddons) en vind de code downloaden-knop.
 
@@ -59,11 +59,11 @@ If you don not have Git installed, use this method instead.
 
 To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
 
-1. Go to [chrome://extensions](chrome://extensions)
+1. Ga naar [chrome://extensions](chrome://extensions)
 
-1. Turn on "Developer mode" in the top-right corner
+1. Zet "Ontwikkelaarsstand" rechtsboven aan
 
-1. Click "Load unpacked" and select the `ScratchAddons` folder.
+1. Klik "Uitgepakte extensie laden" en selecteer de `ScratchAddons` map.
 
 To update the extension when testing, click the refresh icon on the extension's card.
 
