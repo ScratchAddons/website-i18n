@@ -54,6 +54,19 @@ document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
+### Avoid using mousemove
+
+Avoid using `mousemove` and similar DOM events that trigger very often since they are bad for performance, especially when used on the body. Use an alternative event on a child element instead whenever possible.
+
+{{< admonition error >}}
+```js
+// Don't do this:
+body.addEventListener("mousemove", (event) => {
+  // ...
+});
+```
+{{< /admonition >}}
+
 ### Cachez les éléments au lieu de les enlevez
 
 Évitez d’appeler `.remove()` sur des éléments HTML, ce qui, dans des cas extrêmes, peut provoquer le plantage de la page du projet. 
@@ -184,5 +197,25 @@ const newDeleteSprite = function (...args) {
   if (addon.self.disabled) return oldDeleteSprite.apply(this, args);
   // ...
 };
+```
+{{< /admonition >}}
+
+## Internationalisation
+
+### Use addon.tab.scratchMessage()
+
+If a string has already been translated by Scratch use [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage) instead of adding a new message.
+
+{{< admonition error >}}
+```js
+// Don't do this:
+doneButton.innerText = msg("done");
+```
+{{< /admonition >}}
+
+{{< admonition success >}}
+```js
+// Do this instead:
+doneButton.innerText = addon.tab.scratchMessage("general.done");
 ```
 {{< /admonition >}}

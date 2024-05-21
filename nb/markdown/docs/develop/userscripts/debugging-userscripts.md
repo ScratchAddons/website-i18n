@@ -13,14 +13,7 @@ Det er ikke nødvendig å laste inn utvidelsen på nytt ved å gå til `chrome:/
 
 ### Bruk addon.* API fra konsollen.
 
-For utvikling kan du velge å eksponere `addon`-objektet som en global variabel, slik at det kan nås innenfor nettleserkonsollen.
-
-```js
-export default async function ({ addon, console }) {
-  window.addon = addon;
-  // ...
-}
-```
+The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
 
 ### Sett inn pauser med nøkkelordet "debugger"
 

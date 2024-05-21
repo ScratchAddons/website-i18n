@@ -13,14 +13,7 @@ Halihazırda var olan bir JavaScript veya CSS dosyasının kaynağını değişt
 
 ### Konsoldan addon.* API'yi kullanın
 
-Geliştirme aşamasında tarayıcı konsolundan erişilebilmesi için `addon` nesnesini evrensel bir değişken olarak göstermeyi tercih edebilirsiniz.
-
-```js
-export default async function ({ addon, console }) {
-  window.addon = addon;
-  // ...
-}
-```
+The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
 
 ### "debugger" anahtar kelimesini kullanarak kesme noktaları oluşturabilirsiniz
 

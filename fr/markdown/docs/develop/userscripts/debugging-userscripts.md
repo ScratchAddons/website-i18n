@@ -13,14 +13,7 @@ Il n'est pas nécessaire de recharger l'extension en accédant à `chrome://exte
 
 ### Utiliser l'API addon.* depuis la console
 
-Pour le développement, vous pouvez choisir d'exposer l'objet `addon` en tant que variable globale, afin qu'il soit accessible dans la console du navigateur.
-
-```js
-export default async function ({ addon, console }) {
-  window.addon = addon;
-  // ...
-}
-```
+The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
 
 ### Définissez des points d'arrêt avec le mot-clé "debugger"
 

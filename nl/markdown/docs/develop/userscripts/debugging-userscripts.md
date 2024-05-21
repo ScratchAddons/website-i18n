@@ -13,14 +13,7 @@ Het is niet nodig om de extensie te herladen door naar `chrome://extensions` te 
 
 ### Gebruik de addon.*-API vanuit de console
 
-Voor ontwikkelingsredenen kan je kiezen om het `addon`-object te exposen als een globale variabele, zodat het toegankelijk is voor de browser-console.
-
-```js
-export default async function ({ addon, console }) {
-  window.addon = addon;
-  // ...
-}
-```
+The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
 
 ### Stel breekpunten in met het "debugger"-sleutelwoord
 

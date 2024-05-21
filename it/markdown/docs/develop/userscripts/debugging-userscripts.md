@@ -13,14 +13,7 @@ Quando cambi il sorgente di un file JavaScript o CSS che esiste già non è nece
 
 ### Usa l'API addon.* nella console
 
-Durante lo sviluppo puoi esporre l'oggetto `addon` come una variabile globale, in modo che ti sia possibile usarlo nella console del browser.
-
-```js
-export default async function ({ addon, console }) {
-  window.addon = addon;
-  // ...
-}
-```
+The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
 
 ### Imposta i punti di interruzione usando la keyword "debugger"
 
