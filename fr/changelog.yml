@@ -25,12 +25,18 @@ v1.9.1:
     Description: |+
       Nouvelle fonctionnalité: Regardez qui à aimé et mis en favoris vos projets dans la messagerie de Scratch en survolant le compteur de "J'aime" et des Favoris. Les messages de promotions de studios sont maintenant supportés dans la Messagerie Scratch et les Notifications Scratch.
 
+    ImageAlt: Fonctionnalité de capture d'écran pour la Nouvelle Messagerie Scratch.
 v1.10.0:
   Highlights:
     Description: |
       Nouvelle fonctionnalité: l'addon "bouton pour copier les liens d'un commentaire" ajoute un bouton "copier le lien" aux commentaires, afin que vous puissiez y accéder facilement. Rendez-vous sur Paramètres de Scratch Addons pour l'activer.
 
       Le "bouton pause" a été améliroré et n'est maintenant plus en bêta. De nombreux bugs du mode sombre ont été résolus.
+v1.11.0:
+  Highlights:
+    Description: |+
+      Nouvelle fonctionnalité: l'addon "dossiers de sprites", qui ajoute des dossiers à la liste de sprites, mais également aux costumes et la liste des sons. Rendez vous dans les paramètres de Scratch Addons pour l'activer.
+
 v1.12.0:
   Highlights:
     Description: |
