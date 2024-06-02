@@ -27,7 +27,7 @@ Scratch Addons sestavlja več kot 100 dodatkov, ki se jih da posamezno vključit
 
 ### Kakšne so sistemske zahteve za Scratch Addons?
 
-Scratch Addons uradno podpira različice za namizne računalnike naslednjih brskalnikov: [Google Chrome](https://google.com/chrome/) (različica 80 ali novejša), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (različica 80 ali novejša) in [Mozilla Firefox](https://mozilla.org/firefox/) (različica 86 ali novejša). Večinoma deluje tudi na drugih brskalnikih, ki so narejeni na podlagi enega od naštetih. Popolnejše podatke najdete na [tej strani](../getting-started/installing/).
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### Lahko uporabljam Scratch Addons na mobilni napravi?
 

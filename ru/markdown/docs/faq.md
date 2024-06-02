@@ -27,7 +27,7 @@ Scratch Addons is a team project led by World_Languages. You can find the list o
 
 ### Какие системные требования у Scratch Addons?
 
-Scratch Addons официально поддерживается на десктопных версиях [Google Chrome](https://google.com/chrome/) (версия 80 и выше), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (версия 80 и выше) и [Mozilla Firefox](https://mozilla.org/firefox/) (версия 86 и выже), и должна также работать на др. настольных браузерах, которые основаны на тех браузерах. См. [эту страницу](../getting-started/installing/) для полной информации.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### Могу ли я использовать Scratch Addons на мобильном устройстве?
 

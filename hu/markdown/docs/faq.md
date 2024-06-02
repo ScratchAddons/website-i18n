@@ -27,7 +27,7 @@ A [TurboWarp](https://turbowarp.org/)-nak van néhány kiegészítője a Scratch
 
 ### Mik a Scratch Addons rendszerkövetelményei?
 
-A Scratch Addons hivatalosan a [Google Chrome](https://google.com/chrome/) asztali verzióján (80-as verziótól felfelé), a [Microsoft Edge](https://www.microsoft.com/en-us/edge)-en (80-as verziótól fölfelé), és a [Mozilla Firefox](https://mozilla.org/firefox/)-on (86-os verziótól) támogatott, de még az ezeken alapuló egyéb asztali böngészőkön is működnie kell. Kérjük nézze meg [ezt az oldalt](../getting-started/installing/) a teljes információhoz.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### Mobileszközön is használhatom a Scratch Addons-t?
 

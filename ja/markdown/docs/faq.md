@@ -27,7 +27,7 @@ Scratch Addonsには、個別に有効化・無効化できる100個以上のア
 
 ### Scratch Addons のシステム要件は何ですか?
 
-Scratch Addons は、公式には [Google Chrome](https://google.com/chrome/) (バージョン80以上) 、 [Microsoft Edge](https://www.microsoft.com/en-us/edge) (バージョン80以上) と [Mozilla Firefox](https://mozilla.org/firefox/) (バージョン86以上) のデスクトップ版でサポートされていて、これらのブラウザーベースの他のデスクトップブラウザーでも動作するはずです。詳細は [このページ](../getting-started/installing/) をご確認ください。
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### モバイル端末で Scratch Addons を利用できますか?
 

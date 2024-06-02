@@ -27,7 +27,7 @@ description: 이 페이지는 스크래치 애드온 확장 프로그램과 프�
 
 ### 스크래치 애드온의 시스템 사양은 어떻게 되나요?
 
-스크래치 애드온은 [구글 크롬](https://google.com/chrome/) (버전 80 이상), [마이크로소프트 엣지](https://www.microsoft.com/en-us/edge) (버전 80 이상), 그리고 [모질라 파이어폭스](https://mozilla.org/firefox/) (버전 86 이상)의 데스크톱 버전에서 공식적으로 지원되고, 저 브라우저 기반의 다른 데스크톱 브라우저에서도 작동할 수 있습니다. 완전한 정보는 [이 페이지](../getting-started/installing/)에서 확인하세요.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### 스크래치 애드온을 휴대폰에서 사용할 수 있나요?
 

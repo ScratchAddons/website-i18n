@@ -27,7 +27,7 @@ Scratch Addons inkluderer over 100 tillegg, som kan aktiveres eller deaktiveres 
 
 ### Hva er systemkravene for Scratch Addons?
 
-Scratch Addons støttes offisielt på skrivebordsversjonene av [Google Chrome](https://google.com/chrome/) (versjon 80 og nyere), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (versjon 80 og nyere) og [Mozilla Firefox](https://mozilla.org/firefox/) (versjon 86 og nyere), og bør også fungere på andre skrivebordsnettlesere som er basert på disse nettleserne. Vennligst se [denne siden](../getting-started/installing/) for fullstendig informasjon.
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### Kan jeg bruke Scratch Addons på en mobil enhet?
 

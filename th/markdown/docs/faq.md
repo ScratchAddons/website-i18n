@@ -27,7 +27,7 @@ description: หน้านี้มีรายการคำถามที�
 
 ### ส่วรขยายสำหรับ Scratch มีความต้องการของระบบอะไรบ้าง
 
-ส่วนขยายสำหรับ Scratch สามารถใช้ได้อย่างเป็นทางการกับ [Google Chrome](https://google.com/chrome/) สำหรับคอมพิวเตอร์รุ่นที่ 80 ขึ้นไป, [Microsoft Edge](https://www.microsoft.com/th-th/edge) รุ่นที่ 80 ขึ้นไป และ [Mozilla Firefox](https://mozilla.org/firefox/) รุ่นที่ 86 ขึ้นไป และสามารถทำงานบนเบราว์เซอร์บนคอมพิวเตอร์อื่นๆที่มีพื้นฐานจากเบราว์เซอร์ข้างต้น กรุณาไปที่[หน้านี้](../getting-started/installing/)สำหรับข้อมูลทั้งหมด
+Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
 
 ### สามารถใช้ส่วนขยายสำหรับ Scratch บนมือถือได้หรือไม่?
 
