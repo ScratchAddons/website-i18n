@@ -111,6 +111,24 @@ v1.23.0:
       Tiện ích bổ sung mới: "chế độ tối của trang web và màu sắc có thể tùy chỉnh". Đi tới cài đặt Scratch Addons để thay đổi màu cụ thể, chuyển đổi thanh cuộn tối và hơn thế nữa!
 
       Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "tập lệnh đính vào lưới", "số khối" và "hình thu nhỏ có độ phân giải cao".
+v1.25.0:
+  Highlights:
+    Description: |
+      Tiện ích bổ sung mới: "đầu vào của bộ chọn màu", cho phép đặt giá trị chính xác (0-100) cho mỗi thanh trượt trong bộ chọn màu của trình chỉnh sửa trang phục. Đi tới cài đặt Scratch Addons để kích hoạt nó.
+
+      Các tiện ích bổ sung mới khác được thêm vào bản cập nhật này là "tab ngang trên Nội dung của tôi" và "xem trước bài đăng trên diễn đàn trực tiếp".
+v1.26.0:
+  Highlights:
+    Description: |
+      Tiện ích bổ sung mới: "tùy chỉnh màu mặc định của trình chỉnh sửa trang phục", cho phép bạn thay đổi màu mặc định và kích thước đường viền được trình chỉnh sửa trang phục sử dụng. Đi tới cài đặt Scratch Addons để kích hoạt nó.
+
+      Một tiện ích bổ sung mới khác được thêm vào trong bản cập nhật này là "hiển thị thời lượng âm thanh", bổ sung một màn hình vào trình chỉnh sửa âm thanh hiển thị tổng thời lượng và thời gian trôi qua của âm thanh hoặc lựa chọn trong đó.
+v1.27.0:
+  Highlights:
+    Description: |
+      Tiện ích bổ sung mới: "ẩn giai đoạn và khung sprite", bổ sung thêm một nút ẩn giai đoạn và khung sprite, làm cho vùng mã lớn hơn nhiều. Đi tới cài đặt Scratch Addons để kích hoạt nó.
+
+      Một tiện ích bổ sung mới khác là "điều khiển dự án đảo ngược thứ tự", di chuyển cờ xanh và các nút dừng sang phải và nút toàn màn hình sang trái, giống như trong Scratch 2.0. Ngoài ra, giờ đây bạn có thể tùy chỉnh các dự án được hiển thị trên tab trò chơi trên đám mây.
 v1.33.0:
   Highlights:
     Description: |
