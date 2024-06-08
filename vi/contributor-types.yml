@@ -1,3 +1,9 @@
+a11y: Khả năng tiếp cận
+audio: Âm thanh
+blog: Bài đăng trên blog
+bug: Báo cáo lỗi
+business: Phát triển kinh doanh
+code: Mã
 content: Nội dung
 data: Dữ liệu
 design: Thiết kế
@@ -5,7 +11,21 @@ doc: Tài liệu
 eventOrganizing: Sắp xếp sự kiện
 example: Ví dụ
 financial: Tài chính
+fundingFinding: Tìm nguồn tài trợ
 ideas: Ý tưởng, lên kế hoạch và phản hồi
+infra: Cơ sở hạ tầng
 maintenance: Bảo trì
+mentoring: Cố vấn
+platform: Đóng gói
+plugin: Thư viện plugin/tiện ích
 projectManagement: Quản lý dự án
 question: Trả lời câu hỏi
+review: Người đánh giá yêu cầu kéo
+security: Bảo vệ
+talk: Người đánh giá yêu cầu kéo
+test: Thử nghiệm
+tool: Công cụ
+translation: Dịch
+tutorial: Hướng dẫn
+userTesting: Kiểm tra người dùng
+mod: Người điều hành cộng đồng (Discord)

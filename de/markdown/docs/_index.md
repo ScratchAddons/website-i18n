@@ -16,8 +16,8 @@ Scratch Addons kombiniert neue und ältere Funktionen und Designs für Scratch i
 
 ## Mitwirken
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
+Mitwirkungen zur Dokumentation sind jederzeit willkommen! Du kannst in den [Issues](https://github.com/ScratchAddons/website-v2/issues) oder im [Feedback-Formular](../feedback) Änderunden vorschlagen, oder die jeweilige Seite bearbeiten und einen Pull-Request erstellen, um die Änderungen direkt vorzunehmen. Die Dateien befinden sich im [Repostitory von website-v2](https://github.com/ScratchAddons/website-v2) im [Ordner `content/docs`](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternativ führt dich der Link <kbd>Diese Seite verbessern</kbd> direkt zum Editor auf GitHub.
 
 ## Diskutieren
 
-Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
+Wenn du auf einer Seite diskutieren möchtest, kannst du den Kommentarbereich am Ende der Seite nutzen. Für Alternativen kannst du dem [Discord-Server](https://discord.gg/R5NBqwMjNc) beitreten oder auf [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions) mitreden.
