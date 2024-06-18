@@ -43,6 +43,12 @@ v1.12.0:
       Nouvelle fonctionnalité: l'addon "Glisser et déposer des fichiers", qui vous permet de glisser images et sons de votre explorateur de fichiers dans le volet des sprites ou la liste des costumes/sons. Rendez-vous sur Paramètres de Scratch Addons pour l'activer.
 
       Une autre nouveauté de cette mise à jour est l'addon "Forme de blocs personnalisée", qui vous permet d'ajuster de remplissage, la taille des coins et de l'entaille des blocs Scratch.
+v1.13.0:
+  Highlights:
+    Description: |
+      Nouvelle fonctionnalité : "mode sombre de l'éditeur"  a été refait et est maintenant très personnalisable. Allez dans les paramètres de Scratch Addons pour changer des couleurs spécifiques, activer les commentaires et les barres de défilement sombres, et bien plus encore !
+
+      Les nouveaux addons mis en avant dans cette mise à jour sont "paramètres de zoom de la zone des scripts personnalisés" et "changer la position par défaut des nouveaux sprites".
 v1.16.0:
   Highlights:
     Description: |

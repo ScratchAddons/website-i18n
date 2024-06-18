@@ -6,7 +6,7 @@ Welcome to the Scratch Addons Docs! This section includes related documentation 
 
 Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension. The mission is to provide a centralized, up-to-date platform for community development of new features and themes for Scratch.
 
-## Quick links
+## Lien rapides
 
 - If you're looking into creating an addon, [start on this page](develop/getting-started/creating-an-addon).
 - If you want to help localize the extension, [read this page](localization/joining-the-localization-team).
