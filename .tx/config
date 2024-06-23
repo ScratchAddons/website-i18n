@@ -217,3 +217,17 @@ minimum_perc = 0
 source_file = en/markdown/docs/develop/userstyles/debugging-userstyles.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:html-content_addons__index]
+file_filter = <lang>/html-content/addons/_index.html
+minimum_perc = 0
+source_file = en/html-content/addons/_index.html
+source_lang = en
+type = HTML_FRAGMENT
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_addons_middle-click-popup]
+file_filter = <lang>/markdown/addons/middle-click-popup.md
+minimum_perc = 0
+source_file = en/markdown/addons/middle-click-popup.md
+source_lang = en
+type = GITHUBMARKDOWN

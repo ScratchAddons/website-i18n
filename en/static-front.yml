@@ -1,3 +1,7 @@
+addons/_index.html:
+  layout: home
+addons/middle-click-popup.md:
+  id: middle-click-popup
 credits.html:
   aliases:
     - /contributors
