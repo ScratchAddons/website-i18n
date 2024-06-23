@@ -1,8 +1,5 @@
 _index.html:
   description: Scratch Addons は、Scratch ウェブサイトとプロジェクトエディター用の機能やテーマをまとめ、ひとつの利用しやすく個別設定可能なブラウザー拡張機能にしたものです。
-addons.html:
-  title: アドオン
-  description: Scratch Addonsのすべてのアドオンを掲載しています。
 changelog.html:
   title: 更新履歴
   description: 主要な更新内容が以下に掲載されます。

@@ -3,18 +3,35 @@ v1.5.0:
     Description: |
       Nov dodatek: onion skinning za ustvarjanje animacij v urejevalniku. Pojdite v nastavitve Scratch Addons, da ga vključite.
     ImageAlt: Pes v urejevalniku videzov, ko je vključen dodatek Onion Skinning. Iz Scratcheve knjižnice figur.
+v1.6.1:
+  Highlights:
+    Description: |
+      Nov dodatek: šestnajstiške barve za enostavno izbiro barv. Pojdite v nastavitve Scratch Addons, da ga vključite.
 v1.7.0:
   Highlights:
     Description: |
       Nova funkcija; izboljšana kategorija spremenljivk, z možnostjo, da ločite sezname in lokalne spremenljivke. Pojdite v nastavitve Scratch Dodatki, da jo vključite.
 
       Druge nove funkcije: uvozite ali izvozite nastavitve razširitve, prilagodite zavihke, vključite ali izključite dodatke v oknu razširitve, popravljene razne napake.
+    ImageAlt: Video, ki prikazuje dodatek "samodejno skrivanje palete blokov".
+v1.8.0:
+  Highlights:
+    Description: |
+      Nov dodatek: samodejno skrivanje palete blokov, ki skrije paleto blokov, dokler nanjo ne premaknete miške ali jo kliknete. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Dodatek "snemanje videov projekta", ki je prej lahko posnel samo video, lahko zdaj posname do 5 minut videa in zvoka projekta.
 v1.10.0:
   Highlights:
     Description: |
       Nova funkcija: dodatek "gumb za kopiranje povezave do komentarja", ki doda gumb za enostavno kopiranje povezave do komentarja. Pojdite v nastavitve Scratch Dodatki, da ga omogočite. 
 
       Dodatek "gumb za premor" je izboljšan in ni več v beta različici. Veliko napak v temnem načinu je popravljenih.
+v1.11.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "mape figur", ki doda mape v sezname figur, videzov in zvokov. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Nova dodatka v tej posodobitvi sta tudi \"upravitelj spremenljivk\" (doda zavihek za enostavno urejanje spremenljivk in seznamov v urejevalnik) in "statistika na profilih".
 v1.12.0:
   Highlights:
     Description: |
@@ -111,3 +128,9 @@ v1.33.2:
       Scratch je bil pred kratkim posodobljen in nekatere barve na spletni strani so spremenjene. Če želite spremeniti svoje nastavitve, se vrniti na prejšnje brave ali jih kako drugače prilagoditi, lahko v nastavitvah Scratch Dodatki ponastavite ali spremenite katero koli temo.
 
       Sodelavci Scratch Addons smo se potrudili, da bi bili dodatki združljivi s temi spremembami, vendar boste morda še opazili majhne nepravilnosti.
+v1.38.0:
+  Highlights:
+    Description: |
+      To je poskusna posodobitev, ki jo bo prejel samo del uporabnikov. Vsebuje spremembe, potrebne zaradi nove arhitekture razširitev, ki jo zahtevajo brskalniki (Manifest V3). Če naletite na kakršno koli težavo ali nepričakovano vedenje, prosimo, da nam pošljete povratno informacijo. Gumb za povratne informacije je tudi na strani z nastavitvami.
+
+      Drugih novosti v tej posodobitvi ni, vendar jih lahko pričakujete v prihodnjih posodobitvah.

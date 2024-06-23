@@ -27,13 +27,13 @@ Scratch Addons sestavlja več kot 100 dodatkov, ki se jih da posamezno vključit
 
 ### Kakšne so sistemske zahteve za Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons uradno podpira različice za namizne računalnike naslednjih brskalnikov: [Google Chrome](https://google.com/chrome/) (različica 96 ali novejša), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (različica 96 ali novejša) in [Mozilla Firefox](https://mozilla.org/firefox/) (različica 109 ali novejša). Večinoma deluje tudi na drugih brskalnikih, ki so narejeni na podlagi enega od naštetih. Popolnejše podatke najdete na [tej strani](../getting-started/installing/).
 
 ### Lahko uporabljam Scratch Addons na mobilni napravi?
 
-**For Android users**: Yes, Scratch Addons can now be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), but it is not recommended yet since Scratch Addons' UI is not well-tested on touchscreens or environments with small screen sizes so some features might not work as expected. Alternatively, if you prefer Chrome you could try the [Kiwi Browser](https://kiwibrowser.com/).
+**Za uporabnike Androida**: Da, Scratch Addons lahko zdaj namestite v brskalniku [Firefox za Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), vendar tega še ne priporočamo, saj uporabniški vmesnik Scratch Addons ni preizkušen na zaslonih na dotik in v okoljih z majhnimi zasloni, zato nekatere možnosti morda ne bodo delovale pravilno. Če imate raje Chrome, lahko preizkusite tudi [brskalnik Kiwi](https://kiwibrowser.com/).
 
-**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+**Za uporabnike iOS in iPadOS:** Žal ne. Pravila trgovine App Store ne dovoljujejo alternativnih brskalnikov, kar pomeni, da so vsi brskalniki za te sisteme samo Safari z drugačnim videzom. To povzroči določene težave (glej spodaj).
 
 ### Lahko uporabljam Scratch Addons v brskalniku Safari?
 
@@ -62,9 +62,9 @@ Yes. Scratch Addons should not have any security issues in its most recent versi
 
 ### Kako lahko prijavim varnostno napako?
 
-If you happen to find a security vulnerability, please contact World_Languages privately by emailing `worldxlanguages (at) gmail.com`. If you don't get a response within 48 hours, please [create an issue](https://github.com/ScratchAddons/ScratchAddons/issues/) mentioning that you had sent an email.
+Če najdete varnostno napako, pišite World_Languages zasebno na e-poštni naslov `worldxlanguages (at) gmail.com`. Če v 48 urah ne dobite odgovora, [prijavite napako](https://github.com/ScratchAddons/ScratchAddons/issues/) in omenite, da ste že poslali e-pošto.
 
-You can either [read our security policy](https://github.com/ScratchAddons/ScratchAddons/security/policy) or [check our advisories that we have published](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
+Lahko [preberete naš varnostni pravilnik](https://github.com/ScratchAddons/ScratchAddons/security/policy) ali [preverite objavljene varnostne napake](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Bo moj Scratch račun med uporabo Scratch Addons varen?
 
@@ -87,7 +87,7 @@ Nato poiščite dodatke, ki bi jih radi vključili, s pomočjo stranske vrstice 
 
 ### Lahko ljudem na Scratchu povem za Scratch Addons?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+Ne, in prosimo, da tega ne naredite. [Pravila](https://scratch.mit.edu/discuss/post/2907564/) prepovedujejo omenjanje razširitev in uporabniških skript in neupoštevanje lahko povzroči, da Scratcheva ekipa odstrani objave ali začasno onemogoči objavljanje. Kljub temu lahko svojim prijateljem predstavite Scratch Addons na drugačne načine.
 
 ### Mislim, da Scratch Addons naredi Scratch počasnejši. Kaj lahko naredim?
 
@@ -120,7 +120,7 @@ To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA)
 
 Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
 
-## Contributing
+## Sodelujte
 
 ### Kako lahko pomagam Scratch Addons?
 
@@ -152,7 +152,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
   Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
 
-- **Send feedback**  
+- **Povratne informacije**
 
   You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
 
@@ -176,7 +176,7 @@ Read more about it [here](/docs/develop/getting-started).
 
 Lahko nam jo sporočite na enega od naslednjih načinov.
 
-- Send it through [our feedback form](/feedback).
+- Izpolnite [obrazec za povratne informacije](/feedback).
 - Prijavite težavo [na GitHub](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Ustvarite objavo na [zavihku za pogovor](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Povejte nam na [strežniku Discord](https://discord.gg/R5NBqwMjNc).
@@ -195,15 +195,15 @@ You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAd
 
 Dodatek je podoben razširitvi ali uporabniški skripti, vendar uporablja posebne programske vmesnike, ki so del razširitve Scratch Addons. Dodatkom omogočajo, da izvajajo kodo na Scratchevih straneh (uporabniške skripte), v ozadju (skripte v ozadju) ali pa Scratchevi spletni strani dodajo sloge (uporabniški slogi).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
+Uporabniške skripte lahko uporabljajo vmesnike `addon.*`, ki jim omogočajo dostop do podatkov, povezanih s Scratchem (npr. o trenutno vpisanem uporabniku) in do vmesnikov za razširitve (npr. pošiljanje obvestil).
 
 ### Če je vse dodatek, kaj naredi Scratch Addons?
 
-By itself, Scratch Addons is just an addon loader. Its main tasks are to:
+Sam po sebi je Scratch Addons samo upravitelj dodatkov. Njegove glavne naloge so, da:
 
 - Uporabnikom omogoča, da vključijo, izključijo in spremenijo nastavitve dodatkov.
 - Izvede kodo dodatkov in jim omogoča dostop do programskih vmesnikov.
-- Provide useful data to addons (for example, the addon.auth API).
+- Dodatkom priskrbi uporabne podatke (npr. vmesnik addon.auth).
 - Onesnaži prototipe objektov, ki jih potrebujejo uporabniške skripte dodatkov.
 - Omogoči dostop in spreminjanje stanja Redux.
 - Prepreči, da bi dodatki motili drug drugega.
@@ -211,9 +211,9 @@ By itself, Scratch Addons is just an addon loader. Its main tasks are to:
 
 ## Drugo
 
-### How can I add/remove myself to/from the contributors page?
+### Kako lahko svoje ime dodam na seznam sodelavcev ali ga odstranim z njega?
 
-If you want your name to be on the page, please read and follow the instructions of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
+Če bi radi, da je vaše ime na seznamu, preberite [ta navodila](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}) in jim sledite.
 
 If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
 

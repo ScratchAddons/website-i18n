@@ -51,7 +51,7 @@ Abhazca (ab), Afrikanca (af), Amharca (am), Aragonca (an), Arapça (ar), Azerice
 
 Şu dilleri henüz desteklemiyoruz: Asturyasça (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipince (fil), Hausaca (ha), Japonca (Hiragana) (ja-Hira), Oksitanca (oc), Portekizce (Portekiz) (pt_PT). Bu dillerden biri için bir çevirmen olmak ilgileniyorsanız henüz desteklemiyoruz, lütfen `translation@scratchaddons.com` adresine bir e-posta gönderin.
 
-Şu dillere yeni çevirmen kabul **edilmeyecek**: **İtalyanca, Japonca, Portekizce, Slovence, İspanyolca.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Çevirmen olarak katılmak için gereken adımlar
 

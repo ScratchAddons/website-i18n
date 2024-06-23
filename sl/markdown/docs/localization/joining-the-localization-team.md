@@ -14,59 +14,59 @@ Scratch Addons is available in more than 15 languages thanks to the help of volu
 * You must be **FLUENT IN THE ENGLISH LANGUAGE**.
 * For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
 * You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* Potrebujete e-poštni naslov. Dobro je, da ga spremljate vsaj enkrat na teden.
+* Potrebujete račun na [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Spanish.
-<!-- This list of languages is also found below. Remember to update both. -->
+**Za ta jezika NE sprejemamo novih prevajalcev:** italijanščina, španščina.
+<!-- -->
 {{< /admonition >}}
 
 If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+Podpiramo samo jezike, v katere je Scratch že preveden. Podpiramo tudi jezike, ki se pišejo od desne proti levi, kot sta arabščina in hebrejščina.
 
-## Content available for translation
+## Vsebina, ki jo lahko prevedete
 
-### Scratch Addons browser extension
+### Razširitev Scratch Addons
 
-- **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
+- **Splošni prevodi.** To je ~150 nizov besedila, ki so uporabljeni v razširitvi. Uporabniki jih vidijo v svojem jeziku samo, če je prevedenih 90% nizov.
 
-- **Addons Translation.** These text strings include addon names, descriptions, settings, and other text strings used by addons. Users can only see these translations if the general translation is already available and 80% of addon strings were translated. There are over 1000 addon strings available for translation.
+- **Prevodi dodatkov.** Ti nizi vključujejo imena, opise, nastavitve in drugo besedilo, povezano z dodatki. Prevodi so vidni uporabnikom, če je splošni del prevoda že na voljo in je prevedenih tudi 80% teh nizov. Prevedete lahko več kot 1000 nizov.
 
-![Screenshot of the Scratch Addons extension in Japanese](/assets/img/docs/transifex-general-vs-addons.png)
+![Posnetek zaslona z razširitvijo Scratch Addons v japonščini](/assets/img/docs/transifex-general-vs-addons.png)
 
-### Scratch Addons website
+### Spletna stran Scratch Addons
 
-Translators also have the possibility to translate the contents of the Scratch Addons website. For more information about translating the website, see [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Prevajalci imajo tudi možnost, da prevedejo vsebino spletne strani Scratch Addons. Za več informacij o prevajanju spletne strani glejte dokument [Prevajanje](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
-## Supported languages
+## Podprti jeziki
 
-We support most languages that Scratch itself supports.
+Podpiramo večino jezikov, ki so na voljo v Scratchu.
 
 <details>
-<summary>Click to access the full list supported languages (50+ languages)</summary>
+<summary>Kliknite za ogled celega seznama podprtih jezikov (več kot 50 jezikov)</summary>
 Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
 </details>
 
-We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
+Teh jezikov še ne podpiramo: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). Če bi radi prevajali v enega od naštetih jezikov, ki jih trenutno ne podpiramo, nam pišite na naslov `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Japanese, Portuguese, Slovenian, Spanish.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Steps to join as a translator
 
 Thanks for wanting to help with translating Scratch Addons to other languages! Please follow the steps below.
 
-### 1. Verify your Scratch account
-1. Visit this [Scratch studio](https://scratch.mit.edu/studios/33665222/comments) with your Scratch account.
-1. Send a studio comment indicating the language you want to translate to (for example, `Greek`).  
-![Screenshot of Scratch](/assets/img/docs/scratch-req-language.png)
+### 1. Potrdite svoj Scratch račun
+1. Obiščite [studio na Scratchu](https://scratch.mit.edu/studios/33665222/comments) s svojim Scratch računom.
+1. V studiu pošljite komentar, v katerem navedete jezik, v katerega bi radi prevajali (na primer `grščina`).  
+![Posnetek zaslona Scratcha](/assets/img/docs/scratch-req-language.png)
 
-If you don't own a Scratch account, please send an email to `translation@scratchaddons.com` instead.
+Če nimate svojega Scratch računa, lahko namesto tega pošljete e-poštno sporočilo na naslov `translation@scratchaddons.com`.
 
-### 2. Create a Transifex account
-1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
-1. You will be shown Transifex's "Sign up" screen. **DO NOT sign up with Google.**  
+### 2. Ustvarite račun za Transifex
+1. Pojdite na [stran za registracijo za odprtokodne projekte](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
+1. Prikazal se bo Transifexov obrazec za registracijo. **NE registrirajte se z Googlom.**  
 1. In the "business email" field, enter your email (it can be Gmail, Outlook, or any other).
 1. In the "username" field, we highly recommend you enter your Scratch username, or a slight variation of it.  
 For example, if your Scratch username is `john_walker954`, your Transifex username can be exactly the same (`john_walker954`) or `john_walker954_scratch`.

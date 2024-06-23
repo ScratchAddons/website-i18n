@@ -1,8 +1,5 @@
 _index.html:
   description: Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uudet ja olemassa olevat ominaisuudet sekä teemat yhdeksi helposti saatavilla olevaksi ja muunneltavaksi selainlaajennukseksi.
-addons.html:
-  title: Lisäosat
-  description: "Tällä sivulla luetellaan kaikki lisäosat, jotka on toteutettu Scratch-lisäosissa."
 changelog.html:
   title: Muutosloki
   description: Kaikki merkittävät muutokset tähän projektiin dokumentoidaan tällä sivulla.

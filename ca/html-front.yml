@@ -1,5 +1,3 @@
-addons.html:
-  description: Aquesta pàgina enumera tots els addons implementats al Scratch Addons.
 changelog.html:
   title: Historial de canvis
   description: Tots els canvis notoris en aquest projecte es documentaran en aquesta pàgina.

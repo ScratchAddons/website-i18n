@@ -1,5 +1,5 @@
 ---
-title: Za začetek
+title: Začetek
 ---
 
-Get started with Scratch Addons with these pages.
+Začnite uporabljati Scratch Addons s pomočjo navodil na teh straneh.

@@ -51,7 +51,7 @@ Abchazisch (ab), Afrikaans (af), Amhaars (am), Aragonees (an), Arabisch (ar), Az
 
 Deze talen ondersteunen we nog niet: Asturisch (ast), Esperanto (eo), Latijns-Amerikaans Spaans (es_419), Filipijns (fil), Hausa (ha), Japans (Hiragana) (ja-Hira), Occitaans (oc), Portugees (Portugal) (pt_PT). Als je interesse hebt om een vertaler te worden voor één van deze talen die we nu nog niet ondersteunen, stuur dan graag een e-mail naar `translation@scratchaddons.com`.
 
-Deze talen accepteren **geen** nieuwe vertalerverzoeken meer: **Italiaans, Japans, Portugees, Sloveens, Spaans.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Stappen om mee te doen als een vertaler
 

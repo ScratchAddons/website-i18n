@@ -1,5 +1,3 @@
-addons.html:
-  description: 此頁面列出了在 Scratch Addons 上實現的所有插件.
 changelog.html:
   title: 更改日誌
   description: 此項目的所有更改都將記錄在此頁面中。

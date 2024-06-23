@@ -2,7 +2,7 @@
 title: O dodatkih
 ---
 
-## What is an addon?
+## Kaj je dodatek?
 An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
 
 ## What is a userscript?

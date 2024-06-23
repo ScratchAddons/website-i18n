@@ -1,8 +1,5 @@
 _index.html:
   description: "Scratch Eklentileri, Scratch sitesi ve proje düzenleyicisine yönelik yeni ve mevcut özellikleri ve temaları, erişimi kolay ve yapılandırılabilir tek bir tarayıcı uzantısında birleştirir."
-addons.html:
-  title: Eklentiler
-  description: "Bu sayfa, Scratch Eklentileri'nde bulunan tüm eklentileri listeler."
 changelog.html:
   title: Değişiklik günlüğü
   description: Bu projedeki tüm önemli değişiklikler bu sayfada belgelenecektir.

@@ -12,7 +12,7 @@ eventOrganizing: Organizacija dogodkov
 example: Primeri
 financial: Finance
 fundingFinding: Iskanje podpore
-ideas: Zamisli, načrti in povratne informacije
+ideas: "Zamisli, načrti in povratne informacije"
 infra: Infrastruktura
 maintenance: Vzdrževanje
 mentoring: Mentorstvo
@@ -20,9 +20,13 @@ platform: Paketi
 plugin: Knjižnice dodatkov/pripomočkov
 projectManagement: Upravljanje projekta
 question: Odgovori na vprašanja
+review: Pregled kode
 security: Varnost
+talk: Govori
 test: Testiranje
 tool: Orodje
 translation: Prevod
 tutorial: Vodiči
+userTesting: Testiranje z uporabniki
 video: Videi
+mod: Skrbnik skupnosti (Discord)

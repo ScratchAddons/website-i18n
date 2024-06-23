@@ -51,7 +51,7 @@ Abchasisch (ab), Afrikaans (af), Amharisch (am), Aragonesisch (am), Arabisch (ar
 
 Diese Sprachen unterstützen wir noch nicht: Asturianu (ast), Esperanto (eo), Lateinamerikanisches spanisch (es_419), Filipino (fil), Hausa (ha), Japanisch (Hiragana) (ja-Hira), Okzitanisch (oc), Portugiesisch (Portugal) (pt_PT). Wenn du daran interessiert bist, ein Übersetzer für eine dieser Sprachen, die wir noch nicht unterstützen, zu werden, sende bitte eine E-Mail an `translation@scratchaddons.com`.
 
-Diese Sprachen akzeptieren **keine** neuen Übersetzeranforderungen: **Italienisch, Japanisch, Portugiesisch, Slovenisch, Spanisch.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Schritte, um als Übersetzer beizutreten
 

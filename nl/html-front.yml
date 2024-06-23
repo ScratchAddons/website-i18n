@@ -1,7 +1,5 @@
 _index.html:
   description: Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratch website en projecteditor in één handige en aanpasbare browserextensie.
-addons.html:
-  description: In deze pagina staan alle addons die in Scratch Addons zijn verwerkt.
 changelog.html:
   description: Alle opmerkelijke veranderingen aan dit project zullen in deze pagina worden gedocumenteerd.
 credits.html:

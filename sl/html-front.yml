@@ -1,8 +1,5 @@
 _index.html:
   description: Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in urejevalnik projektov Scratch v eno samo enostavno dostopno in prilagodljivo razširitev za brskalnike.
-addons.html:
-  title: Dodatki
-  description: "Na tej strani je seznam vseh dodatkov, ki so del Scratch Addons."
 changelog.html:
   title: Seznam sprememb
   description: Vse pomembne spremembe v tem projektu bodo naštete na tej strani.
