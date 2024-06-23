@@ -1,8 +1,5 @@
 _index.html:
   description: Scratch Addons combines new and existing features and themes for the Scratch website and project editor into one easy-to-access and configurable browser extension.
-addons.html:
-  title: Addons
-  description: This page lists all of the addons that are implemented on Scratch Addons.
 changelog.html:
   title: Changelog
   description: All notable changes to this project will be documented in this page.
