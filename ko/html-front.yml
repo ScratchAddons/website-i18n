@@ -1,3 +1,6 @@
+addons/_index.html:
+  title: 애드온
+  description: 이 페이지에는 스크래치 애드온에 구현된 모든 추가 기능이 나열됩니다.
 changelog.html:
   title: 변경 내역
   description: 프로젝트의 모든 중요한 변경 내역은 이 페이지에 설명되어 있습니다.

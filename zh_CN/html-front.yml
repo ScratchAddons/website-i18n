@@ -1,3 +1,6 @@
+addons/_index.html:
+  title: 插件
+  description: 该页列举了所有基于 Scratch Addons 构建的插件
 changelog.html:
   title: 更新记录
   description: 此项目的所有更改将会被记录在此页面中。

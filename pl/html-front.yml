@@ -1,3 +1,6 @@
+addons/_index.html:
+  title: Dodatki
+  description: "Ta strona zawiera listę wszystkich dodatków, które znajdują się w rozszerzeniu Scratch Addons. "
 changelog.html:
   title: Lista zmian
   description: "Wszystkie aktualizacje w tym projekcie zostaną udokumentowane na tej stronie. "

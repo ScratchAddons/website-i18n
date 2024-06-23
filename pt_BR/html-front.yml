@@ -1,3 +1,5 @@
+addons/_index.html:
+  description: Essa lista contém todos os addons implementados no Scratch Addons.
 changelog.html:
   title: Mudanças
   description: Todas as mudanças importantes ao projeto serão documentadas nesta página.
