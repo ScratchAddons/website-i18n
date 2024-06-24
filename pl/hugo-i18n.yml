@@ -155,3 +155,7 @@ CreditsPage:
 Comments:
   Heading: Komentarze
   Description: Pamiętaj, aby sprawdzić {{ .OpenTag1 }}kodeks postępowania{{ .CloseTag1 }}. Możesz sprawdzić komentarze na {{ .OpenTag2 }}dyskusji GitHub{{ .CloseTag2 }}, oraz edytować lub usuwać swój komentarz.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Twórcy

@@ -18,8 +18,7 @@ Scratch Addons is beschikbaar in meer dan 15 talen dankzij de hulp van vrijwilli
 * Je moet een account hebben op [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**Deze talen accepteren GEEN nieuwe vertalers meer:** Italiaans, Spaans.
-<!-- This list of languages is also found below. Remember to update both. -->
+**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 Als je geen moedertaalspreker bent maar wel denkt dat je vloeiend genoeg bent mag je ook een verzoek sturen. Een paar taallessen volgen maakt je niet vloeiend. Als je de taal van je apparaat er niet naar zou veranderen ben je niet vloeiend genoeg!
@@ -51,7 +50,7 @@ Abchazisch (ab), Afrikaans (af), Amhaars (am), Aragonees (an), Arabisch (ar), Az
 
 Deze talen ondersteunen we nog niet: Asturisch (ast), Esperanto (eo), Latijns-Amerikaans Spaans (es_419), Filipijns (fil), Hausa (ha), Japans (Hiragana) (ja-Hira), Occitaans (oc), Portugees (Portugal) (pt_PT). Als je interesse hebt om een vertaler te worden voor één van deze talen die we nu nog niet ondersteunen, stuur dan graag een e-mail naar `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Spanish.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**<!-- This list of languages is also found above. Remember to update both. -->
 
 ## Stappen om mee te doen als een vertaler
 

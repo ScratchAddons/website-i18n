@@ -164,3 +164,7 @@ CreditsPage:
 Comments:
   Heading: Kommentit
   Description: Varmista, että noudatat {{ .OpenTag1 }}käytöskoodia{{ .CloseTag1 }}. Näet tämän kommenttiosion myös{{ .OpenTag2 }}GitHub-keskusteluissa{{ .CloseTag2 }}, joten voit muokata ja poistaa kommentteja.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Tekijät

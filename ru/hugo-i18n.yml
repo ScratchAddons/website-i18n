@@ -164,3 +164,7 @@ CreditsPage:
 Comments:
   Heading: Комментарии
   Description: Не забывайте соблюдать {{ .OpenTag1 }}свод правил{{ .CloseTag1 }}. Вы можете их увидеть в секции комментариев в {{ .OpenTag2 }}обсуждениях GitHub{{ .CloseTag2 }}, а также во время редактирования и удаления своего комментария.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Благодарности

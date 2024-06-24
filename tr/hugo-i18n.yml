@@ -162,3 +162,7 @@ CreditsPage:
 Comments:
   Heading: Yorumlar
   Description: "{{ .OpenTag1 }}Davranış kurallarına{{ .CloseTag1 }} uyduğunuzdan emin olun. Bu yorum bölümünü {{ .OpenTag2 }}GitHub Tartışmalarında{{ .CloseTag2 }} görebilir, yorumunuzu düzenleyebilir ve kaldırabilirsiniz."
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Emeği Geçenler

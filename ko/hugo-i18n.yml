@@ -169,3 +169,7 @@ CreditsPage:
   NCommits: "{{.Count}}개의 커밋"
 Comments:
   Heading: 댓글
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: 기여자

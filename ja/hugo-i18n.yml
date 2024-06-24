@@ -163,3 +163,7 @@ CreditsPage:
 Comments:
   Heading: コメント
   Description: "{{ .OpenTag1 }}Code of Conduct{{ .CloseTag1 }} を守りましょう。このコメントは {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} で見ることができ、編集や削除もできます。"
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: クレジット

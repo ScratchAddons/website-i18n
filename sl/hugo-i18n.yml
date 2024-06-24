@@ -165,3 +165,7 @@ CreditsPage:
 Comments:
   Heading: Komentarji
   Description: Upoštevajte {{ .OpenTag1 }}pravila vedenja{{ .CloseTag1 }}. Te komentarje lahko vidite na {{ .OpenTag2 }}forumu{{ .CloseTag2 }}, kjer lahko svoj komentar tudi uredite ali izbrišete.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Zahvale

@@ -137,3 +137,7 @@ CreditsPage:
 Comments:
   Heading: Comentaris
   Description: Assegureu-vos de seguir {{ .OpenTag1 }}el codi de conducta{{ .CloseTag1 }}. Pots veure aquesta secció de comentaris a les {{ .OpenTag2 }}Discussions de GitHub{{ .CloseTag2 }}, així com editar i eliminar el teu comentari.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Crèdits

@@ -18,8 +18,7 @@ Scratch Addons is available in more than 15 languages thanks to the help of volu
 * Potrebujete račun na [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**Za ta jezika NE sprejemamo novih prevajalcev:** italijanščina, španščina.
-<!-- -->
+**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
@@ -51,7 +50,7 @@ Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaij
 
 Teh jezikov še ne podpiramo: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). Če bi radi prevajali v enega od naštetih jezikov, ki jih trenutno ne podpiramo, nam pišite na naslov `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Spanish.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**<!-- This list of languages is also found above. Remember to update both. -->
 
 ## Steps to join as a translator
 

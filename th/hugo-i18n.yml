@@ -164,3 +164,7 @@ CreditsPage:
 Comments:
   Heading: คอมเมนต์
   Description: อย่าลืมทำตาม{{ .OpenTag1 }}จรรยาบรรณ{{ .CloseTag1 }} คุณสามารถดูหน้าคอมเมนต์นี้บน {{ .OpenTag2 }}หน้าพูดคุยของ Github{{ .CloseTag2 }} และแก้ไขหรือลบคอมเมนต์
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: เครดิต

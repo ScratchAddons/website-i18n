@@ -9,3 +9,7 @@ Footer:
 IndexPage:
   Features:
     AddonsHeading: Doplnky
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Kredity

@@ -153,3 +153,7 @@ CreditsPage:
 Comments:
   Heading: Commentaires
   Description: Assurez-vous de suivre {{ .OpenTag1 }}le code de conduite{{ .CloseTag1 }}. Vous pouvez voir cette section de commentaires sur les {{ .OpenTag2 }}discussions GitHub{{ .CloseTag2 }}, ainsi que modifier et supprimer votre commentaire.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Remerciements

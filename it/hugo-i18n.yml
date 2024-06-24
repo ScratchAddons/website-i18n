@@ -159,3 +159,7 @@ CreditsPage:
 Comments:
   Heading: Commenti
   Description: "Assicurati di seguire {{ .OpenTag1 }}il codice di comportamento{{ .CloseTag1 }}. Puoi vedere questa sezione di commenti su {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} e puoi anche modificare o cancellare il tuo commento.    "
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Crediti

@@ -106,3 +106,7 @@ CreditsPage:
   NProfilePicture: "{{.Name}} 個人頭像"
 Comments:
   Heading: 評論
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: 致謝

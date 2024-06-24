@@ -145,3 +145,7 @@ CreditsPage:
 Comments:
   Heading: Kommentek
   Description: Mindenképp kövesd {{ .OpenTag1 }}a magatartási kódexet{{ .CloseTag1 }}.  Megnézheted ezt a komment szekciót a {{ .OpenTag2 }}GitHub Discussions oldalon{{ .CloseTag2 }} , illetve a kommented szerkesztésekor és eltávolításakor.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Készítők

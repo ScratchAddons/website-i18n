@@ -159,3 +159,7 @@ CreditsPage:
 Comments:
   Heading: Kommentarer
   Description: Pass på å følge {{ .OpenTag1 }}opptredensreglene{{ .CloseTag1 }}. Du kan se denne kommentarseksjonen på {{ .OpenTag2 }}GitHub-diskusjoner{{ .CloseTag2 }}, samt redigere og fjerne kommentaren din.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Kreditter

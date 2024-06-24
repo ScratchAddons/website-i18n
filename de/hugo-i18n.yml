@@ -56,6 +56,11 @@ Docs:
   LastUpdated: "Letztes Update: {{.Date}} von {{.Name}} auf Commit {{.Commit}}."
   Improve: Diese Seite verbessern.
   SectionPages: Sektions-Seiten
+DocsShortcodes:
+  StubPage: Diese Seite **sollte erweitert werden**. Du kannst gerne dazu mitwirken.
+  StubSection: Dieser Bereich **sollte erweitert werden**. Du kannst gerne dazu mitwirken.
+  OutdatedPage: Diese Seite **sollte aktualisiert werden**. Bitte hilf mit, um neue Informationen bereitzustellen.
+  OutdatedSection: Diese Seite **sollte aktualisiert werden**. Bitte hilf mit, um neue Informationen bereitzustellen.
 PlayerModal:
   LabelPlay: Abspielen
   AltText: Klicke, um dieses Video anzuzeigen
@@ -149,3 +154,7 @@ CreditsPage:
 Comments:
   Heading: Kommentare
   Description: Befolge die {{ .OpenTag1 }}Verhaltensregeln{{ .CloseTag1 }}. Du kannst diesen Kommentarabschnitt auf {{ .OpenTag2 }}GitHub Discussions{{ .CloseTag2 }} anzeigen, sowie deinen Kommentar bearbeiten oder löschen.
+AddonDocs:
+  Infobox:
+    Labels:
+      Credits: Danksagungen
