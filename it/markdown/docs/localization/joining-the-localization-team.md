@@ -18,8 +18,7 @@ Scratch Addons è disponibile in più di 15 lingue grazie all'aiuto di volontari
 * Devi avere un account su [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Spanish.
-<!-- This list of languages is also found below. Remember to update both. -->
+**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 Se anche non sei un lingua madre, ma ritieni di essere sufficientemente fluente, poi proporti come traduttore. Tieni conto del fatto che aver studiato una lingua non ti rende molto probabilmente fluente. Se non cambieresti tutta la lingua del tuo telefono con quella in cui vorresti tradurre Scratch Addons, allora non sei sufficientemente fluente! 
@@ -51,7 +50,7 @@ Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaij
 
 Non supportiamo ancora le seguenti lingue: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). Se sei interessato a diventare un traduttore per una di queste lingue che ancora non supportiamo, invia un'email a `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Spanish.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**<!-- This list of languages is also found above. Remember to update both. -->
 
 ## Passi per proporsi come traduttore
 

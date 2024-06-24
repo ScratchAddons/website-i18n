@@ -18,8 +18,7 @@ Scratch Eklentileri, dünyanın dört bir yanındaki gönüllülerin yardımıyl
 * [scratch.mit.edu](https://scratch.mit.edu)'da bir hesaba sahip olmalısınız.
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Spanish.
-<!-- This list of languages is also found below. Remember to update both. -->
+**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
 Eğer ana dili seviyesinde değilseniz ancak kendinizi yeterince akıcı görüyorsanız, katılmak için istekte bulunabilirsiniz. Dil sınıflarına katılmanın sizi akıcı yapmayacağını unutmayın. Eğer akıllı telefonunuzun sistem dilini o dile almadan kullanamıyorsanız, yeterince akıcı değilsiniz demektir!
@@ -51,7 +50,7 @@ Abhazca (ab), Afrikanca (af), Amharca (am), Aragonca (an), Arapça (ar), Azerice
 
 Şu dilleri henüz desteklemiyoruz: Asturyasça (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipince (fil), Hausaca (ha), Japonca (Hiragana) (ja-Hira), Oksitanca (oc), Portekizce (Portekiz) (pt_PT). Bu dillerden biri için bir çevirmen olmak ilgileniyorsanız henüz desteklemiyoruz, lütfen `translation@scratchaddons.com` adresine bir e-posta gönderin.
 
-These languages **do not** accept new translator requests: **Italian, Spanish.**
+These languages **do not** accept new translator requests: **Italian, Spanish.**<!-- This list of languages is also found above. Remember to update both. -->
 
 ## Çevirmen olarak katılmak için gereken adımlar
 
