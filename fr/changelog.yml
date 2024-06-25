@@ -49,12 +49,36 @@ v1.13.0:
       Nouvelle fonctionnalité : "mode sombre de l'éditeur"  a été refait et est maintenant très personnalisable. Allez dans les paramètres de Scratch Addons pour changer des couleurs spécifiques, activer les commentaires et les barres de défilement sombres, et bien plus encore !
 
       Les nouveaux addons mis en avant dans cette mise à jour sont "paramètres de zoom de la zone des scripts personnalisés" et "changer la position par défaut des nouveaux sprites".
+v1.14.0:
+  Highlights:
+    Description: |
+      De nouveaux Addons ont étés rajoutés tel que "Support de la Manette" , " Blocs chats", "Effets sonores dans l'éditeur" et "Enlever les bords arrondis de la scène". Dirigez-vous dans les paramètres pour les activer.
+
+      Cette mise à jour permet aussi de rendre la page des paramètres de Scratch Addons plus organisée dans l'éditeur.
+v1.15.0:
+  Highlights:
+    Description: |
+      De nouveaux addons de cette mise à jour sont "Transparence des blocs", "Ctrl + Clic pour exécuter les scripts", "Ne pas exécuter automatiquement les blocs dupliqués" et "Filtrer la messagerie sur la page Scratch". Dirigés vous vers les paramètres de Scratch Addons pour les activer
+
+      Cette mise à jour change aussi la couleur par défaut du badge du badge extension de Scratch Addons qui affiche votre nombre de messages non lus. Aller dans la page de paramètres de Scratch Addons pour remettre l'ancienne couleur verte ou customiser la couleur par vous même.
 v1.16.0:
   Highlights:
     Description: |
       Nouvel addon : "debugger", qui apporte les logs de la console et les points d'arrêt à Scratch. Allez à Paramètres de Scratch Addons pour l'activer
 
       Un autre nouvel addon ajouté dans cette mise à jour est la "barre de recherche extensible", qui élargit la barre de recherche de la barre de navigation lorsqu'elle est ciblée.
+v1.17.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "Ancienne disposition des studios", celui-ci rétablit la disposition de la pages de Studio c'est à dire qu'elle remet la même qu'avant la mise à jour lié aux Studios. Dirigés vous dans la page des paramètres de Scratch Addon pour l'activer.
+
+      La nouvel addon "emmener le bouton des suiveurs dans les studios" permet de faire revenir les anciennes invitations en un clic. Autrement, un des nouveaux Addons qui a été ajoutés à cette mise à jour est "chargement d'images en HD" et "sprites non déplaçables dans l'éditeur".
+v1.18.0:
+  Highlights:
+    Description: |
+      Nouvel Addon, "bouton Turbowarp", qui ajoute un bouton sur la page de projet pour nous rediriger sur la page TurboWarp.org. Dirigés vous sur la page de paramètre de Scratch Addons pour l'activer.
+
+      Le nouvel Addon "plus d'items par rangés" vous laisse voir plus que 3 projets par ligne dans les studios et les autres parties du site. D'autres Addons ont été rajoutés durant cette mise à jour tels que "Ctrl + Entrée pour envoyer" et "projets par défauts customisables".
 v1.19.0:
   Highlights:
     Description: |
@@ -85,6 +109,12 @@ v1.23.0:
       Nouvel addon : « site web en mode sombre et couleurs personnalisables ». Accédez à Paramètres de Scratch Addons pour modifier des couleurs spécifiques, basculer les barres de défilement en mode sombre, et plus encore !
 
       Les autres nouveaux addons ajoutés à cette mise à jour sont « aligner les scripts sur la grille », « nombre de blocs » et  « vignettes haute résolution ».
+v1.24.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "bar de navigation customisables", qui vous laisse choisir parmi une liste de liens qui peut être affiché sur la barre de navigation. Dirigez-vous dans la page des paramètres de Scratch Addons pour l'activer.
+
+      D'autres nouveaux Addons qui ont étés ajoutés durant cette mise à jour sont "styles de blocs de textes customisables", "désactiver l'oscillation des sprites dans le panneau de configuration des sprites" , et "rechercher les sprites par leur nom". De plus, l'addon "Scratch 2.0 → 3.0" a été mis à jour pour se rapproché plus de Scratch 3.0 .
 v1.25.0:
   Highlights:
     Description: |

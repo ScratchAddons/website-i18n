@@ -58,6 +58,11 @@ Docs:
   LastUpdated: Laatst bijgewerkt op {{.Date}} door {{.Name}} op commit {{.Commit}}.
   Improve: Verbeter deze pagina.
   SectionPages: Sectiepagina's
+DocsShortcodes:
+  StubPage: Deze pagina **moet worden uitgebreid**. Je kunt helpen door meer informatie toe te voegen.
+  StubSection: Dit onderdeel **moet worden uitgebreid**. Je kunt helpen door meer informatie toe te voegen.
+  OutdatedPage: Deze pagina **moet worden bijgewerkt**. Help met bijwerken door nieuwe beschikbare informatie toe te voegen.
+  OutdatedSection: Deze pagina **moet worden bijgewerkt**. Help met bijwerken door nieuwe beschikbare informatie toe te voegen.
 PlayerModal:
   LabelPlay: Afspelen
   AltText: Klik om de video te bekijken.
@@ -156,3 +161,22 @@ CreditsPage:
 Comments:
   Heading: Opmerkingen
   Description: Zorg ervoor dat je je aan {{ .OpenTag1 }}de gedragsregels{{ .CloseTag1 }} houdt. Je kunt deze opmerkingssectie bekijken op {{ .OpenTag2 }}GitHub-Discussies{{ .CloseTag2 }}, net zoals je opmerking bewerken en verwijderen.
+AddonDocs:
+  Infobox:
+    Labels:
+      Description: Beschrijving
+      VersionAdded: Versie toegevoegd
+      LatestUpdate: Meest recente update
+      Informations: Informatie
+      FeatureFlags: Functievlaggen
+    LatestUpdate:
+      Major: groot
+    FeatureFlags:
+      enabledByDefault: Standaard ingeschakeld
+      dynamicEnable: Dynamisch inschakelen
+      dynamicDisable: Dynamisch uitschakelen
+      injectAsStyleElt: Injecteren als style-element
+      updateUserstylesOnSettingsChange: Userstyle updaten bij verandering van instellingen
+    Links:
+      SourceCode: Broncode
+      SASettings: Scratch Addon-instellingen
