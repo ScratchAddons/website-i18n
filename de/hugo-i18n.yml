@@ -109,6 +109,14 @@ AddonsPage:
     L2: In dieser Seite wird ein Easter Egg-Addon ein Eisymbol neben seinem Namen haben.
   NAddons: "{{.Count}} Addons"
   SourceCodeLabel: Quellcode auf GitHub
+  SourceCodeLink:
+    Title: Öffentlicher Quellcode auf GitHub
+  SASettingsLink:
+    Label: Einstellungen in Scratch Addons
+    Title: In den Scratch Addons-Einstellungen öffnen
+  AddonDocsLink:
+    Label: Addon-Dokumentation
+    Title: In der Dokumentation mehr über dieses Addon erfahren
 FeedbackPage:
   Status:
     Sending: Wird gesendet…
@@ -157,4 +165,20 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      Description: Beschreibung
       Credits: Danksagungen
+      VersionAdded: Hinzugefügt in Version
+      LatestUpdate: Letztes Update
+      Informations: Infos
+      FeatureFlags: Zusätzliche Funktionen
+    LatestUpdate:
+      Major: größer
+    FeatureFlags:
+      enabledByDefault: Standardmäßig aktiviert
+      dynamicEnable: Dynamische Aktivierung
+      dynamicDisable: Dynamische Deaktivierung
+      injectAsStyleElt: Als Style-Element injiziert
+      updateUserstylesOnSettingsChange: Style wird bei Änderung der Einstellungen aktualisiert
+    Links:
+      SourceCode: Quellcode
+      SASettings: Scratch Addons-Einstellungen
