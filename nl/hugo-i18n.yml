@@ -113,6 +113,14 @@ AddonsPage:
     L1: Om de addons te activeren, gebruik de Konami Code (↑↑↓↓←→←→BA) op de instellingspagina. Lees de veelgestelde vragen voor meer informatie.
     L2: Op deze pagina zal een geheime addon een ei-symbool naast zijn naam hebben.
   SourceCodeLabel: Broncode op GitHub
+  SourceCodeLink:
+    Title: Broncode openen op GitHub
+  SASettingsLink:
+    Label: Instellingen in Scratch Addons
+    Title: Openen in Scratch Addons-instellingen
+  AddonDocsLink:
+    Label: Addon-documentatiepagina
+    Title: Lees meer over deze addon in Addon-documentatie
 FeedbackPage:
   Status:
     Sending: Verzenden...
