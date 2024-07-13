@@ -167,3 +167,6 @@ AddonDocs:
   Infobox:
     Labels:
       Credits: クレジット
+      Tags: タグ
+    Links:
+      SourceCode: ソースコード
