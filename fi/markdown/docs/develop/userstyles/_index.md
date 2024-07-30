@@ -9,19 +9,19 @@ Userstyles are CSS rules that affect Scratch pages. They can apply styles to exi
 ## Declaring userstyles in the addon manifest
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Jotkin muutokset vaativat laajennuksen päivittämistä** `chrome://extensions`-sivulla, jotta muutokset, kuten manifest-tiedoston päivitykset, astuvat voimaan.
 
 It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
 {{< /admonition >}}
 
 Userstyles are declared inside a "userstyles" array, similarly to userscripts.
 
-Each item of the array must have the following properties:
+Jokaisella taulukon kohteella on oltava seuraavat ominaisuudet:
 - `"url"`: the relative URL to a CSS file.
 - `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
 - `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
 
-Example manifest:
+Esimerkki manifest-tiedostosta:
 ```json
 {
   "name": "Scratch Messaging",

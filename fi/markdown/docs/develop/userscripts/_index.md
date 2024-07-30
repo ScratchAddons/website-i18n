@@ -1,30 +1,30 @@
 ---
 title: Käyttäjäskriptit
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Käyttäjäskriptit ovat JavaScript-tiedostoja, jotka suoritetaan joka kerta, kun käyttäjä lataa Scratch-sivun. Niiden avulla voidaan muuttaa HTML-asiakirjaa, lisätä uusia painikkeita, muuttaa Scratch-editorin toimintaa ja paljon muuta.
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Käyttäjäskriptit ovat JavaScript-tiedostoja, jotka suoritetaan joka kerta, kun käyttäjä lataa Scratch-sivun. Niiden avulla voidaan muuttaa HTML-asiakirjaa, lisätä uusia painikkeita, muuttaa Scratch-editorin toimintaa ja paljon muuta.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+Tampermonkeyn tai Greasemonkeyn kaltaisten käyttäjäskriptien hallintapalveluista ladattavien käyttäjäskriptien tavoin Scratch-lisäosien käyttäskriptit koostuvat JavaScriptin palasista, jotka suoritetaan samassa suorituskontekstissa kuin Scratchin oma JavaScript-koodi. Selainlaajennussanastossa tätä suorituskontekstia kutsutaan usein "päämaailmaksi".
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Vaikka Scratch-lisäosien käyttäjäskriptit ovat osa selainlaajennusta, nillä ei ole pääsyä `chrome.*`- tai `browser.*`-rajapintoihin. Niiden sijaan Scratch-lisäosat tarjoaa [`addon.*`-rajapinnan](/docs/reference/addon-api/).
 
 
-## Declaring userscripts in the addon manifest
+## Käyttäjäskriptien ilmoittaminen lisäosan manifest-tiedostossa
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Jotkin muutokset vaativat laajennuksen päivittämistä** `chrome://extensions`-sivulla, jotta muutokset, kuten manifest-tiedoston päivitykset, astuvat voimaan.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Ei ole välttämätöntä päivittää laajennusta jo olemassa olevaa JavaScript-tiedostoa muuttaessa. Tällöin sivun uudelleenlataus riittää.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Käyttäjäskriptit ilmoitetaan "userscripts"-taulukossa.
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+Jokaisella taulukon kohteella on oltava seuraavat ominaisuudet:
+- `"url"`: suhteellinen URL-osoite JavaScript-tiedostoon
+- `"matches"`: luettelo Scratch-sivuista, joilla käyttäjä skripti suoritetaan. Lue lisää [matches-ominaisuuden referensistä](/docs/reference/addon-manifest/#matches).
 
-Example manifest:
+Esimerkki manifest-tiedostosta:
 ```json
 {
   "name": "Copy link to comment button",
@@ -40,95 +40,95 @@ Example manifest:
 }
 ```
 
-## Creating your first userscript
+## Ensimmäisen käyttäjäskriptin luominen
 
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
+Toisin kuin laajennusten sisältöskriptit ja Tampermonkey-käyttäjäskriptit, sinun on käärittävä kaikki koodisi moduulin oletusviennin sisään:
 ```js
-// Example userscript
+// Esimerkki käyttäjäskriptistä
 export default async function ({ addon, console }) {
-  console.log("Hello, " + await addon.auth.fetchUsername());
-  console.log("How are you today?");
+  console.log("Hei, " + await addon.auth.fetchUsername());
+  console.log("Mitä kuuluu?");
 }
 ```
 
-Remember that JavaScript allows functions to be declared inside other functions, for example:
+Muista, että JavaScriptissä funktiot voidaan ilmoittaa toisten funktioiden sisällä:
 ```js
 export default async function ({ addon, console }) {
   async function sayHelloToUser() {
-    console.log("Hello, " + await addon.auth.fetchUsername());
+    console.log("Hei, " + await addon.auth.fetchUsername());
   }
 
   await sayHelloToUser();
-  console.log("How are you today?");
+  console.log("Mitä kuuluu?");
 }
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Käyttäskripteillä on pääsy moniin `addon.*`-rajapintoihin. Voit esimerkiksi saada nykyisen käyttäjänimen, odottaa, kunnes elementti on olemassa sivulla tai saada viittauksen Scratch VM -olioon.
 
-For more information, check the [API reference](/docs/reference/addon-api/).
+Lue lisää [rajapintareferenssistä](/docs/reference/addon-api/).
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## HTML-asiakirjan muuttaminen
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Muuta sivun HTML-koodia käyttämällä [selaimen DOM-rajapintoja](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) .
 
-Here's an example:
+Tässä esimerkki:
 ```js
 const myButton = document.createElement("button");
-myButton.textContent = "Click me!";
+myButton.textContent = "Napauta!";
 myButton.classList.add("button");
-myButton.setAttribute("title", "You're hovering a button");
+myButton.setAttribute("title", "Hiiri on painikkeen päällä");
 
 const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Käyttäjäskriptien lokalisointi
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Lisäosien käyttäjäskripteissä täytyy joskus viitata englannin- tai muunkielisiin sanoihin tai lauseisiin. Huolehdi, että et kirjoita niitä osaksi koodia, jotta ne voidaan kääntää käännösvaiheessa.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
-document.querySelector(".sa-find-bar").placeholder = "Find blocks";
+// Älä tee näin:
+document.querySelector(".sa-find-bar").placeholder = "Etsi lohkoja";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Luo käännettävä merkkijono noudattamalla näitä vaiheita:
+1. Luo tiedosto nimeltä `lisäosan-nimitunniste.json` `/addon-l10n/en`-kansioon.
+2. Nimeä jokainen merkkijono tunnisteella:
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Varmista, että tuot `msg()`-funktion käyttäjäskriptiisi. Käyttäjäskriptin ensimmäisen rivin pitäisi näyttää tältä:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Käytä `msg()`-funktiota koodissa sen sijaan, että kirjoittaisit sanat ja virkkeet osaksi koodia:
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Lisätietoja käyttäjäskriptien lokalisoinnista löytyy [tältä sivulta](/docs/localization/localizing-addons/).
 {{</admonition >}}
 
 
-## Technical details
+## Tekniset tiedot
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Jokainen käyttäjäskripti on JavaScript-moduuli, joka vie funktion. Scratch-lisäosat tuo moduulin tarvittaessa ja suorittaa sen sivun latauduttua täysin.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Käyttäjäskriptit ovat JavaScript-moduuleja, joten suoritetaan aina ["tiukassa tilassa"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Tämä tarkoittaa myös sitä, että käyttäjäskriptit voivat käyttää [ylätason tuonteja](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) muiden JavaScript-tiedostojen tuomiseen.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+Käyttäjäskriptien suoritusjärjestys voi vaihdella sivun jokaisella latauskerralla. Sivun latauduttua käyttäjä saattaa dynaamisesti ottaa lisäosia käyttöön valitsemassaan järjestyksessä, joten suoritusjärjestys ei ole koskaan taattu. Jotkin rajapinnat, kuten [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/), yrittävät korjata mahdollisia ajoitusongelmia ja odottamatonta toimintaa, kun lisäosia otetaan dynaamisesti käyttöön.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Käyttäjäskriptit voivat valita suorittamisen ennen kuin sivu on täysin latautunut määrittämällä kohdan `"runAtComplete": false` lisäosan manifest-tiedostoon kerran kusssakin käyttäjäskriptissä.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Tällä hetkellä vain `document.head` on taatusti olemassa, kun käyttäjä skripti suoritetaan aikaisin. Tulevaisuudessa `document.body` tulee myös olemaan taatusti olemassa, joten yhtäkään käyttäjäskriptiä ei tulla suorittamaan ennen kuin HTML-asiakirja on latautunut tarpeeksi saavuuttaakseen kohdan `</head> <body>`.

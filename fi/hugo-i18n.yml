@@ -64,6 +64,11 @@ Docs:
   LastUpdated: "{{.Name}} teki viimeisimmäin muutoksen {{.Date}} pysyvällä muutoksella {{.Commit}}."
   Improve: Paranna tätä sivua.
   SectionPages: Osion sivut
+DocsShortcodes:
+  StubPage: Tätä sivua **täytyy laajentaa**. Voit auttaa tekemällä siihen lisäyksiä.
+  StubSection: Tätä osiota **täytyy laajentaa**. Voit auttaa tekemällä siihen lisäyksiä.
+  OutdatedPage: Tätä sivua **täytyy päivittää**. Auta päivittämällä sitä uusimpia saatavilla olevia tietoja vastaavaksi.
+  OutdatedSection: Tätä sivua **täytyy päivittää**. Auta päivittämällä sitä uusimpia saatavilla olevia tietoja vastaavaksi.
 PlayerModal:
   LabelPlay: Toista
   AltText: Katso video napauttamalla.
@@ -116,6 +121,14 @@ AddonsPage:
     L2: Tämän sivun pääsiäismunalisäosien nimien vieressä on kananmunamerkki.
   NAddons: "{{.Count}} lisäosaa"
   SourceCodeLabel: Lähdekoodi GitHubissa
+  SourceCodeLink:
+    Title: Avoin lähdekoodi GitHubissa
+  SASettingsLink:
+    Label: Asetukset Scratch-lisäosissa
+    Title: Avaa Scratch-lisäosien asetuksissa
+  AddonDocsLink:
+    Label: Lisäosaopas
+    Title: Lue lisää tästä lisäosasta lisäosaoppaassa
 FeedbackPage:
   Status:
     Sending: Lähetetään...
@@ -138,6 +151,9 @@ FeedbackPage:
       Punishment:
         Heading: Me emme voi rangaista ihmisiä. Me emme ole Scratch-tiimi.
         Description: Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. {{ .Tag1Start }}On useita tapoja raportoida Scratch-sivustolla.{{ .Tag1End }}
+      MV3LoadBug:
+        Heading: Scratch-lisäosissa on havaittu kaikkien lisäosien toiminnan lopettava vika
+        Description: Scratch-lisäosien versiossa 1.38.1 on havaittu vika, jossa joidenkin lisäosien käyttäminen aiheuttaa kaikkien muiden lisäosien toiminnan loppumisen. Koeta poistaa käytöstä Nekropostausten korostaminen -lisäosa.
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging -laajennuksen logo
 ChangelogPage:
@@ -167,4 +183,22 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      ID: Nimitunniste
+      Description: Kuvaus
       Credits: Tekijät
+      Tags: Tunnisteet
+      VersionAdded: Lisätty versiossa
+      LatestUpdate: Viimeisin päivitys
+      Informations: Tiedot
+      FeatureFlags: Toimintokytkimet
+    LatestUpdate:
+      Major: suuri
+    FeatureFlags:
+      enabledByDefault: Oletuksena käytössä
+      dynamicEnable: Dynaaminen käyttöönotto
+      dynamicDisable: Dynaaminen käytöstäpoisto
+      injectAsStyleElt: Lisää tyylielementtinä
+      updateUserstylesOnSettingsChange: Päivitä käyttäjätyyli asetusten muutoksella
+    Links:
+      SourceCode: Lähdekoodi
+      SASettings: Scratch-lisäosan asetukset

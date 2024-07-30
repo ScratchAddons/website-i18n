@@ -1,4 +1,4 @@
 ---
-title: Kehittäminen
+title: Kehitys
 ---
 Lue tämä kehittäjille tarkoitettu oppaan osio!

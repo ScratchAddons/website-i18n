@@ -2,23 +2,23 @@
 title: Lisäosien perusteet
 ---
 
-## What is an addon?
-An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
+## Mikä on lisäosa?
+Lisäosa on käyttäjäskripti, käyttäjätyyli tai näiden kahden yhdistelmä, joka suoritetaan Scratch-sivustolla tai -editorissa. Esimerkiksi  "Editorin hakupalkki" -lisäosassa on käyttäjäskripti, joka lisää hakuosion editoriin, ja käyttäjätyyli, joka määrittelee lisätyn osion tyylin.
 
-## What is a userscript?
-A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
+## Mikä on käyttäjäskripti?
+[Käyttäjäskripti](/docs/develop/userscripts) on JavaScript-tiedosto, joka suoritetaan joka kerta, kun käyttäjä lataa Scratch-sivun. Niiden avulla voidaan muuttaa HTML-asiakirjaa, lisätä uusia painikkeita, muuttaa Scratch-editorin toimintaa ja paljon muuta.
 
-## What is a userstyle?
-A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
+## Mikä on käyttäjätyyli?
+[Käyttäjätyyli](/docs/develop/userstyles) on samankaltainen käyttäjäskriptin kanssa; niille voi määrittää URL-säännön. Käyttäjätyylit kuitenkin lisäävät CSS-koodia JavaScriptin sijaan. Niitä käytetään usein käyttäjäskriptien lisäämien elementtien ulkonäön muuttamiseen. Niitä voidaan käyttää myös Scratchin alkuperäisten elementtien muuttamiseen, jolloin niistä käytetään yleensä nimitystä "teema".
 
-## What should be an addon?
+## Minkälainen lisäosan tulisi olla?
 
-<!-- TODO: Expand this section into its own page -->
-You might wonder if it's a better idea to create a new addon, or modify an existing one.
-If two addons share some of these, they should probably be merged.
+<!-- TEHTÄVÄ: Tee tästä osiosta oma sivunsa -->
+Saatat pohtia, pitäisikö luoda uusi lisäosa vai muokata olemassa olevaa.
+Jos kaksi lisäosaa jakaa jotakin näistä, ne pitäisi mahdollisesti yhdistää.
 - Molemmat tarvitsevat tai eivät tarvitse lupia, jotka vaativat vuorovaikutusta käyttäjän kanssa (kuten ilmoitukset).
 - Ne jakavat paljon koodia.
 - Käyttäjä voisi olettaa, että lisäosa tarjoaa molemmat ominaisuudet.
-- If being separated, they would interfere with each other.
+- Jos ne ovat erillään, ne häiritsevät toisiaan.
 
-Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.
+Muista, että lisäosat ovat käyttäjien mukautettavissa - uuden toiminnon lisäämisen ei pidä vaikuttaa lisäosan aiempiin käyttäjiin, ellei niin tehdä tarkoituksellisesti.

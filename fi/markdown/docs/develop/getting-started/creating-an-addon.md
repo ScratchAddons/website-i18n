@@ -2,22 +2,22 @@
 title: Lisäosan luominen
 ---
 
-This page describes the basics on how to create an addon for Scratch Addons. Before proceeding, please read the [addon basics](../addon-basics/) and disable any other instances of Scratch Addons to avoid conflicts.
+Tällä sivulla kuvataan perusteet lisäosan luomisesta Scratch-lisäosiin. Ennen kuin etenet, lue [lisäosien perusteista](../addon-basics/) ja poista käytöstä Scratch-lisäosien ilmentymät, jotta vältytään ristiriidoilta.
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first.
+Jos ajattelit lähettää kehittämäsi lisäosan vetopyyntönä GitHub-tietosäilöön, lue ensin [osallistujien toimintaohjeet](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md).
 {{< /admonition >}}
 
-## Requirements
-Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having Git, Firefox (121+) and Visual Studio Code installed.
+## Vaatimukset
+Scratch-lisäosat ei vaadi kehittämiseen mitään ohjelmistoa, paitsi tekstieditorin ja Chromium-pohjaisen selaimen (121+), mutta on suositeltavaa, että asennat myös Gitin, Firefoxin (121+) ja Visual Studio Coden.
 
-## Installation
-To install the extension for development, see [Installing from source](/docs/getting-started/installing/#from-source).
+## Asennus
+Asenna laajennus kehitystä varten [Asennus lähdekoodista](/docs/getting-started/installing/#from-source) -sivun ohjeiden mukaan.
 
-## Creating the addon folder
-Each addon has its own internal ID used by the extension and other addons. Addon IDs should not contain any spaces or special characters except hyphens and should be self-descriptive, but not too long.
+## Lisäosakansion luominen
+Jokaisella lisäosalla on oma sisäinen nimitunnisteensa, jota käyttävät laajennus ja muut lisäosat.
 
-New addons should not use an ID that was included in a stable version of the extension but later removed. These include:
+Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaassa versiossa, mutta sittemmin poistettu: Niitä ovat:
 
 - `a11y`
 - `data-category-tweaks`
@@ -26,13 +26,13 @@ New addons should not use an ID that was included in a stable version of the ext
 - `redirect-mobile-forums`
 - `tutorials-button`
 
-Open the `addons.json` file in the `addons` folder, insert a new addon ID near the bottom of the file, then create a sub-folder with the same name.
+Avaa `addons.json`-tiedosto `addons`-kansiossa, lisää uuden lisäosan nimitunniste tiedoston alaosan lähelle ja luo sitten samanniminen alakansio.
 
-## The addon manifest
-Each addon has it's own [manifest](/docs/reference/addon-manifest/) that handles how it is displayed on the settings page, any settings the addon may have, which userscripts or userstyles to run and where to run them.
+## Lisäosan manifest-tiedosto
+Jokaisella lisäosalla on oma [manifest-tiedostonsa](/docs/reference/addon-manifest/), johon on kirjattu, miten lisäosa näytetään asetussivulla, kaikki lisäosan asetukset sekä suoritettavat käyttäjäskriptit tai -tyylit ja sivu, jolla ne suoritetaan.
 
-Addon manifests are located in each addon's folder and named `addon.json`.
-Here is a minimal addon manifest:
+Jokaisen lisäosan manifest-tiedoston nimi on `addon.json`, ja tiedosto sijaitsee lisäosan kansiossa.
+Tässä on tiivistetty lisäosan manifest-tiedosto:
 ```json
 {
   "name": "My addon",
@@ -41,35 +41,35 @@ Here is a minimal addon manifest:
 }
 ```
 
-For more information on what can be declared in the manifest, see the [the Addon Manifest reference](/docs/reference/addon-manifest/).
+Lisätietoja tiedoista, jotka voidaan määrittää manifest-tiedostossa, löytyy [lisäosien manifest-tiedoston referenssistä](/docs/reference/addon-manifest/).
 
-The addon does not do anything yet, but it should appear in the popup and settings page after reloading the extension.
+Lisäosa ei tee vielä mitään, mutta se näkyy ponnahdusikkunassa ja asetussivulla laajennuksen päivittämisen jälkeen.
 
-## Userscripts and userstyles
-[Userscripts](/docs/develop/userscripts/) and [userstyles](/docs/develop/userstyles/) are what make the addon work. Userscripts run JavaScript code and userstyles inject CSS styles. Addons may have a combination of userstyles and userscripts.
+## Käyttäjäskriptit ja käyttäjätyylit
+[Käyttäjäskriptit](/docs/develop/userscripts/) ja [käyttäjätyylit](/docs/develop/userstyles/) saavat lisäosan toimimaan. Käyttäjäskriptit ajavat JavaScript-koodia ja käyttäjätyylit lisäävät CSS-tyylejä. Lisäosat voivat olla käyttäjätyylien ja -skriptien yhdistelmiä.
 
-Userscripts have access to [addon APIs](/docs/reference/addon-api/) to make Scratch-specific tasks such as fetching the currently logged in user easier.
+Käyttäjäskripteillä on pääsy [addon-rajapintoihin](/docs/reference/addon-api/), joiden avulla ne voivat suorittaa tiettyjä Scratchiin liittyviä tehtäviä helpommin, kuten hakea tällä hetkellä sisäänkirjautuneen käyttäjän.
 
-When adding a userscript or userstyle to the addon's folder, it must be declared in the addon manifest or it will not run.
+Kun käyttäjäskripti tai -tyyli lisätään lisäosan kansioon, se täytyy ilmoittaa lisäosan manifest-tiedostossa. Muuten sitä ei suoriteta.
 
-## Addon settings
-The [settings object](/docs/reference/addon-manifest/#settings-object) in the addon manifest allows adding options such as toggles, text boxes or color pickers to your addon on the settings page to make it customizable by users.
+## Lisäosan asetukset
+Manifest-tiedoston [settings-olion](/docs/reference/addon-manifest/#settings-object) avulla lisäosalle voidaan lisätä asetuksia, kuten kytkimiä, tekstikenttiä tai värinvalitsimia, jotta käyttäjät voivat mukauttaa sitä asetussivulla.
 
-See the [addon.settings](/docs/reference/addon-api/addon.settings) documentation on how to access user choices from userscripts and userstyles.
+Lue lisää [addon.settings](/docs/reference/addon-api/addon.settings)-rajapinnan oppaasta, kuinka käyttäjäskripteistä ja -tyyleistä päästään käsiksi käyttäjän valintoihin.
 
-## Before contributing
+## Ennen osallistumista
 {{< admonition info >}}
-In case there is no existing GitHub issue in that repository related to your new addon idea, please create one. However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+Jos tietosäilössä ei ole uuteen lisäosaideaasi liittyvää GitHub-seikkaa, luo sellainen. Jos on kuitenkin seikka, joka liittyy ominaisuusideaasi, on suositeltavaa jättää siihen kommentti ilmoittamaan aikeestasi kehittää lisäosa. Tällöin muut osallistujat voivat kertoa, voidaanko lisäosa hyväksyä vai tarvitaanko vielä lisäkeskustelua.
 
-Also note that GitHub's terms of service require users to be 13+ to create an account with them.
+Huomioi myös, että GitHubin käyttöehdot edellyttävät yli 13 vuoden ikää tilin luomiseksi.
 {{< /admonition >}}
 
-If you want to submit your addon to the Scratch Addons GitHub repository, so it can be added to the addon library, ensure the addon works as expected, with and without other addons enabled and that it does not break other addons. The addon's manifest should have a good name and description, `versionAdded` should be set to the next version of the extension and the addon should not be enabled by default. Addons should support dynamic enable and disable, but it is not required.
-Make sure the code is understandable; having unnecessary comments is better than no comments.
+Jos haluat lähettää lisäosasi Scratch-lisäosien GitHub-tietosäilöön, jotta se voitaisiin lisätä lisäosakirjastoon, varmista, että se toimii odotetusti muiden lisäosien kanssa ja yksinään eikä se riko muita lisäosia. Lisäosan manifest-tiedostossa on oltava hyvä nimi ja kuvaus, `versionAdded`-kohdassa pitäisi olla laajennuksen seuraava versio ja lisäosan ei pidä olla oletuksena käytössä. Lisäosien tulisi tukea dynaamista käyttöönottoa ja käytöstäpoistoa, mutta sitä ei vaadita. 
+Varmista, että koodi on ymmärrettävää: turhat kommentit ovat parempia kuin koodi ilman kommentteja.
 
-## Sending a pull request
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repository if you haven't already, commit your new addon and send a pull request.
+## Vetopyynnön lähettäminen
+Noudata [osallistujien toimintaohjeissa](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) kerrottuja vaiheita. Yksinkertaisesti sanottuna haarauta tietosäilö, jos et sitä vielä ole tehnyt, varastoi uusi lisäosasi ja lähetä vetopyyntö.
 
-If your addon isn't finished or you need help with something, create a draft pull request.
+Jos lisäosasi ei ole valmis tai tarvitset jossakin apua, luo luonnosvetopyyntö.
 
-Keep in mind we might request you to make some changes, and the review process may be slow, however, we will probably accept your addon as long as it's minimally suitable and Scratch-specific.
+Muista, että sinua saatetaan pyytää tekemään joitain muutoksia ja tarkastusvaihe saattaa olla hidas. Luultavasti lisäosasi kuitenkin hyväksytään, jos se täyttää vähimmäisvaatimukset.

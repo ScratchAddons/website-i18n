@@ -1,71 +1,71 @@
 ---
-title: Insert blocks by name
+title: Lisää lohkoja nimellä
 ---
 
-**Insert blocks by name** is an addon which allows users to code more quickly by typing the name of blocks and inserting them at their mouse position, rather than having to search for them in the flyout. The popup is opened by middle clicking in the workspace or pressing `ctrl` + `space`. You can then type to search for blocks and using the mouse to grab one out of the popup.
+**Lisää lohkoja nimellä** on lisäosa, jonka avulla käyttäjät voivat koodata nopeammin kirjoittamalla lohkojen nimet ja lisäämällä ne hiiren osoittimen kohdalle. Tämä on helpompi tapa kuin lohkojen etsiminen valikosta. Ponnahdusikkuna avataan napauttamalla hiiren keskipainiketta työtilassa tai käyttämällä näppäinyhdistelmää `ctrl` + `välilyönti`. Tämän jälkeen lohkoja voidaan hakea niiden nimillä ja niitä voidaan raahata hiirellä ulos ponnahdusikkunasta.
 
-## Background
+## Tausta
 
-The original version was made by Griffpatch for the Developer Tools extension. As part of a work to separate features from the _Developer tools_ as individual addons, this addon has been made to its own addon.
+Griffpatch teki lisäosan alkuperäisen version Kehittäjän työkalut -laajennusta varten. Tästä lisäosasta tehtiin oma lisäosansa samalla, kun _Kehittäjän työkaluja_ hajotettiin erillisiksi lisäosiksi.
 
 ## Ominaisuudet
 
-- The searching supports any block in the workspace. This includes custom blocks, blocks from extensions and variable / lists.
-- You can use the arrow keys and enter to navigate the search results for even faster insertion.
-- When a result is highlighted, you can press tab to autocomplete your search to that block.
-- The popup can insert multiple nested blocks at the same time, by typing something like "move my variable + 10 steps".
-- For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
-- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
+- Hakutoiminto tukee kaikkia työtilassa olevia lohkoja. Tähän kuuluvat mukautetut lohkot sekä laajennus- ja lista-/muuttujalohkot.
+- Lohkoja voidaan lisätä entistäkin nopeammin navigoimalla hakutuloksissa nuolinäppäimillä.
+- Kun hakutulos on korostettuna, voidaan haku automaattisesti täyttää vastaamaan kyseistä lohkoa painamalla sarkainta.
+- Ponnahdusikkunan avulla voidaan lisätä useita sisäkkäisiä lohkoja samaan aikaan kirjoittamalla esimerkiksi jotakin tällaista "liiku muuttujani + 10 askelta".
+- Matematiikkalohkoissa laskutoimitukset järjestellään oletuksen mukaan, mutta järjestystä voidaan muuttaa hakasulkeilla.
+- Hakutoiminto voidaan pakottaa olemaan muuttamatta tekstiä lohkoiksi ympäröimällä teksti kaksinkertaisilla lainausmerkeillä. Tästä on hyötyä tilanteissa, joissa yritetään sanoa teksti "x-sijainti" sen sijaan, että sanoittaisiin muuttuja `x-sijainti`, jolloin kirjoitettaisiin "x-sijainti".
 
-## Settings
+## Asetukset
 
-### Popup block size
+### Ponnahdusikkunan lohkojen koko
 
-Controls how big the blocks inside the menu appear. It is the height in pixels of a single block.
+Määrittää, kuinka suuria valikon sisällä olevat lohkot ovat. Luku on yksittäisen lohkon korkeus pikseleinä.
 
-### Popup width
+### Ponnahdusikkunan leveys
 
-Controls how wide the popup is. This is a percentage of the width of the entire window.
+Määrittää, kuinka leveä ponnahdusikkuna on. Luku on prosenttiosuus koko ikkunasta.
 
-### Popup maximum height
+### Ponnahdusikkunan enimmäiskorkeus
 
-Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
+Määrittää, kuinka pitkä ponnahdusikkuna voi olla, kunnes vierityspalkki tulee näkyviin. Luku on prosenttiosuus koko ikkunan korkeudesta.
 
-## Future plans
+## Tulevaisuuden suunnitelmat
 
-- The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
-- Adding string interpolation for strings in quotes could really help out situatoins where a lot of join blocks would normally have to be tediously arranged.
+- Ponnahdusikkunan koon pitäisi olla muutettavissa editorissa yhtä sen kulmaa raahaamalla sen sijaan, että pitäisi muuttaa asetusta.
+- Merkkijonointerpoloinnin lisääminen lainausmerkeissä oleviin merkkijonoihin auttaisi erityisesti tilanteissa, joissa suuri määrä yhdistämislohkoja normaalisti järjestellään ikävällä tavalla.
 
-## Known issues
+## Havaitut viat
 
-- The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
-- The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
+- Tämän laajennuksen ponnahdusikkunan sisällä olevat lohkot eivät toimi *Mukautettava lohkon muoto* -lisäosan mukaisesti.
+- Hakutulosten järjestelemiseen käytetty algoritmi vaatii vielä paljon työstämistä. Toisinaan käyttäjän etsimät tulokset ovat piilossa lukuisten huonojen tulosten alla.
 
-## Credit
+## Tekijät
 
-Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
+Tacodiva teki suurimman osan nykyisin toiminnassa olevasta lisäosasta. Lisäksi Griffpatch auttoi paljon antamalla palautetta ja etsimällä bugeja uudistetusta versiosta.
 
 ## Muutosloki
 
 {{< docs/outdated-section >}}
 
-- **v1.30.0** The insert blocks by name addon was created.
-- **v1.31.0** The addon was completely overhauled, allowing for nesting blocks, adding autocomplete and changing how the blocks where shown in the popup.
-- **v1.31.1** The algorithm for searching was altered and several bugs where fixed.
+- **v1.30.0** Lisää lohkoja nimellä -lisäosa luotiin.
+- **v1.31.0** Lisäosa uudistettiin täysin, ja sisäkkäisten lohkojen hakeminen, automaattinen täyttö ja ponnahdusikkunan lohkojen ulkonäön muuttaminen tehtiin mahdolliseksi.
+- **v1.31.1** Hakualgoritmia muutettiin ja monia bugeja korjattiin.
 
-## Trivia
+## Nippelitietoa
 
-- This was the first addon page written for the Addon Docs!
-- Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.
-- The original code for the popup was created before Scratch Addons even existed by Griffpatch in 2019.
-- When Tacodiva overhauled the addon for v1.31.0, the code had almost 2,800 lines of code added and 149 commits!
-- The name of the Git branch for the overhaul was `idk-what-im-doing`.
-- Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
+- Ensimmäinen lisäosaoppaan sivu kirjoitettiin tästä lisäosasta!
+- Hiiren keskipainikkeella avautuva ponnahdusikkuna on yksi Scratch-lisäosien vanhimmista ominaisuuksista. Vaikka siitä tehtiin vasta hiljattain oma lisäosansa, se oli alusta asti osa kehittäjän työkaluja.
+- Griffpatch teki ponnahdusikkunan alkuperäisen koodin vuonna 2019 eli ennen kuin Scratch-lisäosat edes oli olemassa.
+- Kun Tacodiva uudisti lisäosan versioon 1.31.0, koodiin oli lisätty miltei 2 800 riviä koodia ja tehty 149 pysyvää muutosta!
+- Uudistuksen Git-haaran nimi oli `idk-what-im-doing` (suomeksi "en tiedä mitä teen").
+- Tacodivalla oli vaikeuksia erään ongelman korjaamisessa, joten huolimatta siitä, että CST1229 korjasi ongelman kirjoittamalla vain kaksi riviä CSS-koodia, hänenkin nimensä mainitaan lisäosan tekijöiden joukossa!
 
-## Gallery
+## Galleria
 
 {{< docs/stub-section >}}
 
-## Related
+## Aiheeseen liittyvät
 
 {{< docs/stub-section >}}

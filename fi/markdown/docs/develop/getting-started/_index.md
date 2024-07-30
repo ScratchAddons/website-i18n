@@ -1,4 +1,4 @@
 ---
-title: Aloittaminen
+title: Aloitus
 ---
 Aloita lisäosan tekeminen Scratch-lisäosiin!
