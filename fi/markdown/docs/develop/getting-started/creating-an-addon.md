@@ -2,7 +2,7 @@
 title: Lisäosan luominen
 ---
 
-Tällä sivulla kuvataan perusteet lisäosan luomisesta Scratch-lisäosiin. Ennen kuin etenet, lue [lisäosien perusteista](../addon-basics/) ja poista käytöstä Scratch-lisäosien ilmentymät, jotta vältytään ristiriidoilta.
+Tällä sivulla kuvataan perusteet lisäosan luomisesta Scratch-lisäosiin. Ennen kuin etenet, lue [lisäosien perusteista](../addon-basics/) ja poista käytöstä kaikki Scratch-lisäosien ilmentymät, jotta vältytään ristiriidoilta.
 
 {{< admonition info >}}
 Jos ajattelit lähettää kehittämäsi lisäosan vetopyyntönä GitHub-tietosäilöön, lue ensin [osallistujien toimintaohjeet](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md).
@@ -17,7 +17,7 @@ Asenna laajennus kehitystä varten [Asennus lähdekoodista](/docs/getting-starte
 ## Lisäosakansion luominen
 Jokaisella lisäosalla on oma sisäinen nimitunnisteensa, jota käyttävät laajennus ja muut lisäosat.
 
-Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaassa versiossa, mutta sittemmin poistettu: Niitä ovat:
+Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaassa versiossa, mutta sittemmin poistettu. Niitä ovat:
 
 - `a11y`
 - `data-category-tweaks`
@@ -55,7 +55,7 @@ Kun käyttäjäskripti tai -tyyli lisätään lisäosan kansioon, se täytyy ilm
 ## Lisäosan asetukset
 Manifest-tiedoston [settings-olion](/docs/reference/addon-manifest/#settings-object) avulla lisäosalle voidaan lisätä asetuksia, kuten kytkimiä, tekstikenttiä tai värinvalitsimia, jotta käyttäjät voivat mukauttaa sitä asetussivulla.
 
-Lue lisää [addon.settings](/docs/reference/addon-api/addon.settings)-rajapinnan oppaasta, kuinka käyttäjäskripteistä ja -tyyleistä päästään käsiksi käyttäjän valintoihin.
+Lue [addon.settings](/docs/reference/addon-api/addon.settings)-rajapinnan oppaasta, kuinka käyttäjäskripteistä ja -tyyleistä päästään käsiksi käyttäjän valintoihin.
 
 ## Ennen osallistumista
 {{< admonition info >}}
