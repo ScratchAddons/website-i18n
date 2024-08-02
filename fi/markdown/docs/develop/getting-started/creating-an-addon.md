@@ -23,7 +23,10 @@ Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaas
 - `data-category-tweaks`
 - `featured-dangos`
 - `fix-buttons`
+- `forum-time-zones`
+- `image-uploader`
 - `redirect-mobile-forums`
+- `scratchstats`
 - `tutorials-button`
 
 Avaa `addons.json`-tiedosto `addons`-kansiossa, lisää uuden lisäosan nimitunniste tiedoston alaosan lähelle ja luo sitten samanniminen alakansio.

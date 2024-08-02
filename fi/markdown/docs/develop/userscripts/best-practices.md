@@ -33,66 +33,66 @@ document.querySelector(".remix-button").addEventListener("click", () => {
 ```
 {{< /admonition >}}
 
-### Vältä innerHTML-menetelmän käyttöä
+### Vältä innerHTML-ominaisuuden käyttöä
 
-Avoid using `innerHTML`. Use `innerText` or `textContent` instead.  
-Other APIs that can potentially lead to XSS vulnerabilities should be avoided too, such as `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
+Vältä `innerHTML`-ominaisuuden käyttöä. Käytä `innerText`- tai `textContent`-ominaisuutta sen sijaan.
+Muitakin XSS-haavoittuvuuksia mahdollisesti aiheuttavia ohjelmointirajapintoja tulee välttää, kuten `insertAdjacentHTML`, `outerHTML`, `document.write()` jne.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
-document.querySelector(".sa-remix-button").innerHTML = `<span>Remix ${projectTitle}</span>`;
+// Älä tee näin:
+document.querySelector(".sa-remix-button").innerHTML = `<span>Remiksaa ${projectTitle}</span>`;
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tee sen sijaan näin:
 const span = document.createElement("span");
-span.textContent = `Remix ${projectTitle}`;
+span.textContent = `Remiksaa ${projectTitle}`;
 document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
-### Avoid using mousemove
+### Vältä mousemove-tapahtuman käyttöä
 
-Avoid using `mousemove` and similar DOM events that trigger very often since they are bad for performance, especially when used on the body. Use an alternative event on a child element instead whenever possible.
+Vältä `mousemove`-tapahtuman ja muiden samanlaisten erittäin usein käynnistyvien DOM-tapahtumien käyttöä, koska ne heikentävät suorituskykyä, etenkin kun niitä käytetään body-elementillä. Käytä vaihtoehtoista tapahtumaa lapsielementillä aina, kun se on mahdollista.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Älä tee näin:
 body.addEventListener("mousemove", (event) => {
   // ...
 });
 ```
 {{< /admonition >}}
 
-### Hide elements instead of removing them
+### Piilota elementit niiden poistamisen sijaan
 
-Avoid calling `.remove()` on HTML elements, which in extreme cases, can cause the project page to crash.  
-Addons may only use it for elements they themselves created, in specific situations.
+Vältä `.remove()`-menetelmän käyttöä HTML-elementeille. Pahimmassa tapauksessa menetelmän käyttö voi aiheuttaa projektisivun kaatumisen.
+Lisäosat voivat käyttää sitä vain erityistapauksissa itse luomilleen elementeille.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Älä tee näin:
 document.querySelector(".remix-button").remove();
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tee sen sijaan näin:
 document.querySelector(".remix-button").style.display = "none";
 
-// Or do this, with help from a userstyle:
+// Tai näin käyttäjätyylin avulla:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
 
-### Only use waitForElement when necessary
+### Käytä waitForElement-rajapintaa vain, kun se on välttämätöntä
 
-Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
-For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.
+Vältä `addon.tab.waitForElement`-rajapinnan käyttöä, jos on elementin olemassaolo on taattu. Se toimii silti eikä vaikuta paljoakaan suorituskykyyn, mutta se saattaa hämmentää muita kehittäjiä, jotka lukevat koodia. waitForElement-rajapinnan käytön tulisi tarkoittaa sitä, että on olemassa ainakin yksi tilanne, jossa elementti ei ole olemassa koodin suoritushetkellä.
+waitForElement-rajapinnan käyttö ei esimerkiksi ole välttämätöntä foorumiviestejä etsittäessä, ellei käyttäjäskriptiä ole ilmoitettu arvolla `"runAtComplete": false`. Niissä tapauksissa `document.querySelectorAll()`-menetelmää käytetään tavalliseen tapaan.
 
 ### Use element.closest() instead of abusing parentElement
 
