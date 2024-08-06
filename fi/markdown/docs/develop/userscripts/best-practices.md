@@ -94,13 +94,13 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 Vältä `addon.tab.waitForElement`-rajapinnan käyttöä, jos on elementin olemassaolo on taattu. Se toimii silti eikä vaikuta paljoakaan suorituskykyyn, mutta se saattaa hämmentää muita kehittäjiä, jotka lukevat koodia. waitForElement-rajapinnan käytön tulisi tarkoittaa sitä, että on olemassa ainakin yksi tilanne, jossa elementti ei ole olemassa koodin suoritushetkellä.
 waitForElement-rajapinnan käyttö ei esimerkiksi ole välttämätöntä foorumiviestejä etsittäessä, ellei käyttäjäskriptiä ole ilmoitettu arvolla `"runAtComplete": false`. Niissä tapauksissa `document.querySelectorAll()`-menetelmää käytetään tavalliseen tapaan.
 
-### Use element.closest() instead of abusing parentElement
+### Käytä element.closest()-menetelmää parentElement-ominaisuuden väärinkäyttämisen sijaan
 
-Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+Vältä parentElement-ominaisuuden liiallisista käyttöä, kun käyt läpi elementin esivanhempia. Käytä sen sijaan `element.closest()`-menetelmää, joka toimii miltei samalla tavalla kuin `element.querySelector()`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Älä tee näin:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
 })
@@ -109,7 +109,7 @@ reportButton.addEventListener("click", (event) => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tee sen sijaan näin:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.closest(".comment");
 })
@@ -117,13 +117,13 @@ reportButton.addEventListener("click", (event) => {
 {{< /admonition >}}
 
 
-## JavaScript best practices
+## Parhaat JavaScript-käytännöt
 
 
-### Use modern JavaScript
+### Käytä uudenaikaista JavaScriptiä
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
+- Käytä uudempia rajapintoja, kuten `fetch()`-rajapintaa `XMLHttpRequest`-olion sijaan.
+- Älä koskaan käytä `==`-operaattoria vertailuissa. Käytä sen sijaan `===`-vertailuoperaattoria.
 - When listening to keyboard events, accessing `event.key` is the preferred way to know which key was pressed. In general, you should avoid `event.code` and `event.keyCode`.
 - Use optional chaining if an object can sometimes be `null`.  
 For example, `document.querySelector(".remix-button")?.textContent`.
