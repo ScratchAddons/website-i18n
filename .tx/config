@@ -231,3 +231,17 @@ minimum_perc = 0
 source_file = en/markdown/addons/middle-click-popup.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_addons_60fps]
+file_filter = <lang>/markdown/addons/60fps.md
+minimum_perc = 0
+source_file = en/markdown/addons/60fps.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_addons_paint-by-default]
+file_filter = <lang>/markdown/addons/paint-by-default.md
+minimum_perc = 0
+source_file = en/markdown/addons/paint-by-default.md
+source_lang = en
+type = GITHUBMARKDOWN
