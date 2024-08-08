@@ -2,59 +2,59 @@
 {}
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster than the default of 30 FPS. This has the effect of making the project appear to run smoother and at a faster rate relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+**Modalità alto framerate** è un addon che permette di personalizzare la velocità di esecuzione dei progetti perché sia maggiore del valore predefinito di 30 FPS. L'effetto è che l'esecuzione del progetto appare più fluida e veloce rispetto al valore FPS predefinito; quindi il valore di 60FPS farà eseguire il progetto al doppio della velocità.
 
-The feature can be quickly toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
+La funzionalità può essere velocimente attivata/disattivata tenendo premuto `alt` mentre si clicca la bandiera verde. La bandierà diventerà blu e comparirà sopra un'icona gialla di avanzamento veloce, ad indicare che il progetto è in esecuzione ad una velocità maggiore.
 
 ## Funzionalità
 
-- The addon's functionality is only enabled whenever the user toggles it on by holding `alt` and clicking the green flag. The addon's functionality is toggled off every time the page is opened/refreshed.
-- The addon works in both the project page and the editor.
-- By default, the addon (when toggled on) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to an integer ranging from 31 to 240.
+- La funzionalità dell'addon è attivata quando l'utente clicca la bandiera verde mentre tiene premuto il tasto `alt`. E' invece disattivata ogni volta che la pagina viene aperta/aggiornata.
+- L'addon funziona sia nella pagina dei progetti che nell'editor.
+- Per impostazione predefinita, l'addon (quando attivato) porta il framerate del progetto a 60 FPS. Questo valore può essere portato nelle impostazioni dell'addon ad un valore compreso tra 31 e 240.
 
-## Settings
+## Impostazioni
 
-### Custom FPS
+### FPS predefinito
 
-Sets the value of the project's framerate when the addon is enabled.
+Definisce il valore del framerate quando l'addon è attivato.
 
-## Future plans
+## Sviluppi futuri
 
-- The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Because enabling the addon requires holding the `alt` key, it is not compatable with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- L'addon potrebbe essere segnalato come a rischio di rallentare i progetti che lo richiedono quando vengono eseguiti sul sito di Scratch. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860) 
+- Siccome l'attivazione dell'addon richiede di mantenere premuto il tasto `alt`, l'addon non è compatibile con i dispositivi touch. Una possibile soluzione potrebbe essere quella di aggiungere un menu contestuale alla bandiera verde per questo e altri addon. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230) 
 
-## Credit
+## Crediti
 
-Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
+Jeffalo ha creatol'addon originale che porta il player a 60 FPS. TheColaber ha aggiunto la personalizzazione degli FPS e ha eliminato alcuni bug. L'icona della bandiera verde accessibile è stata creata da JoanRiosiPla ed è poi stata rivista da WorldLanguages.
 
 ## Changelog
 
-- **v1.1.0** The **60FPS Player Mode** addon was created.
-- **v1.3.0** The addon is now enabled by default for all users, and was given the Recommended tag.
-- **v1.7.0** Option added to customize the target FPS, which was locked to 60 before.
-- **v1.11.0** The addon was renamed to **Alt+GreenFlag 60FPS player mode**, and a brief information box was added. A limit was set on the custom FPS, which now ranges from 31 to 240.
-- **v1.13.0** `Alt` + green flag click detection was improved. The addon can now be dynamically enabled and disabled.
-- **v1.14.0** The addon was given the Project Player tag.
-- **v1.18.0** The addon was renamed to **60FPS project player mode**. The addon can now run in project embeds.
-- **v1.24.0** Bug fix: The addon no longer loses track of state when changing from project page to editor.
-- **v1.26.0** Bug fix: The addon no longer causes variables to not visually update in some cases.
-- **v1.30.0** The addon is no longer enabled by default for all users.
-- **v1.34.0** A more accessible yellow fast-forward icon was added to the green flag indicator whenever the addon is toggled on. Information box was rewritten to clarify that most projects will not behave properly when addon is enabled.
-- **v1.36.0** The addon was renamed to **Higher project framerate mode**. The addon's description and information box was rewritten for clarity.
-- **v1.37.0** A second information box was added that explains issues with user devices' power saving mode.
+- **v1.1.0** L'addon **60FPS Player Mode** è stato creato.
+- **v1.3.0** L'addon viene ora attivato per impostazione predefinita per tutti gli utenti e ha ricevuto l'etichetta Raccomandato.
+- **v1.7.0** Aggiunta opzione per personalizzare gli FPS, inizialmente fissati a 60.
+- **v1.11.0** L'addon viene rinominato **Modalità player Alt+Bandiera Verde 60FPS**, e viene aggiunto un breve riquadro di informazioni. Viene importato un limite al valore personalizzato di FPS, che ora può variare tra 31 e 240.
+- **v1.13.0** Viene miglioarata la rilevazione della combinazione`Alt` + bandiera verde. L'addon può essere ora attivato e disattivato dinamicamente.
+- **v1.14.0** Viene assegnata all'addon l'etichetta Player dei Progetti.
+- **v1.18.0** L'addon viene rinominato **Modalità player progetti 60FPS**. L'addon può ora essere attivato anche in progetti inclusi.
+- **v1.24.0** Correzione bug: L'addon non perde più traccia dello stato quando si passa dalla pagina dei progetti all'editori.
+- **v1.26.0** Correzione bug: L'addon non causa più il non aggiornamento visuale delle variabili in alcuni casi.
+- **v1.30.0** L'addon non viene più attivato per impostazione predefinita per tutti gli utenti.
+- **v1.34.0** Un'icona gialla di avanzamento veloce è aggiunta alla bandiera verde quando l'addon è attivo. Il contenuto del riquadro informazioni è stato riscritto per chiarire che alcuni progetti potrebbero non compartarsi correttamente quando l'addon è attivo.
+- **v1.26.0** L'addon viene rinominato **Modalità framerate superiore**. La descrizione dell'addon e il contenuto del box informazioni viene riscritto per renderlo più chiaro.
+- **v1.37.0** Un secondo riquadro informazioni viee aggiunto per spiegare i problemi che si possono riscontrare con la modalità riasparmio di energia dei dispositivi degli utenti.
 
 ## Trivia
 
-- Although TurboWarp Addons does not have this addon, Turbowarp's advanced project settings allows you to customize the project's framerate in a similar way.
-- Despite the addon's setting for customizing the FPS is limited from 31 to 240, the Scratch project player is perfectly fine with values both lower and higher than these limits! There are several ways to bypass this limit, as only the setting's input field sets the limit.
-- Jeffalo added the addon because "its hecking cool"[^1]
-- There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
+- Sebbene gli Addon di Turbowarp non includano questo addon, le impostazioni avanzate dei progetti di Turbowarp permettono di personalizzare il framerate in un modo simile.
+- A dispetto del fatto che la personalizzazione degli FPS è limitata a valori tra 31 e 240, il player di progetti di Scratch funziona perfettamente sia con valori inferiori che superiori! Ci sono alcuni modi di superare questo limite, in quanto soltanto le caselle delle impostazioni dell'addon impongono queste restrizioni.
+- Jeffalo ha aggiunto l'addon perché "è dannatamente fico"[^1]
+- C'è un metodo per i progetti Scratch di rilevare approssimativamente un FPS personalizzato, il che può indicare che l'addon è attivo.[^2]
 
-## Gallery
+## Galleria
 
 {{< docs/stub-section >}}
 
-## Related
+## Correlati
 
 {{< docs/stub-section >}}
 

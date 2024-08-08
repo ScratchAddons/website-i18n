@@ -18,7 +18,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
   - Upload: Allows you to upload a file
 - The tooltip that appears when hovering over the main button also displays the correct default action.
 
-## Settings
+## Impostazioni
 
 ### Add Sprite
 
@@ -41,7 +41,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
 - You cannot set the default action to any custom actions added by a Scratch modification. This includes the "HD Upload" option added by the _HD image uploads_ addon.
 - The addon's name "Paint costume by default" does not represent its options to change the default actions for the sprite, backdrop, or sound buttons. This issue is not planned to be resolved. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
 
-## Credit
+## Crediti
 
 GarboMuffin developed the entirety of the addon. Its final name, description, settings, and tags were made by WorldLanguages.
 
@@ -54,10 +54,10 @@ GarboMuffin developed the entirety of the addon. Its final name, description, se
 
 {{< docs/stub-section >}}
 
-## Gallery
+## Galleria
 
 {{< docs/stub-section >}}
 
-## Related
+## Correlati
 
 - [Original pull request (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)

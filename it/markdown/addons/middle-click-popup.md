@@ -17,7 +17,7 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## Impostazioni
 
 ### Popup block size
 
@@ -31,7 +31,7 @@ Controls how wide the popup is. This is a percentage of the width of the entire 
 
 Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
 
-## Future plans
+## Sviluppi futuri
 
 - The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
 - Adding string interpolation for strings in quotes could really help out situatoins where a lot of join blocks would normally have to be tediously arranged.
@@ -41,7 +41,7 @@ Controls how tall the popup can be before a scrollbar appears. This is a percent
 - The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
 - The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
 
-## Credit
+## Crediti
 
 Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
 
@@ -62,10 +62,10 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - The name of the Git branch for the overhaul was `idk-what-im-doing`.
 - Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
 
-## Gallery
+## Galleria
 
 {{< docs/stub-section >}}
 
-## Related
+## Correlati
 
 {{< docs/stub-section >}}
