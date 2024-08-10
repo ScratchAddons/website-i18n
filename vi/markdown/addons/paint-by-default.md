@@ -1,5 +1,4 @@
 ---
-{}
 ---
 
 **Paint costume by default** is an addon that changes the functionality of buttons that add a new sprite, costume, backdrop, and sound. In vanila Scratch, pressing the main button will open Scratch's asset library. This addon allows the default action to be customized in the addon settings, allowing a choice between: library (Scratch's default), paint or record, surprise, or upload.

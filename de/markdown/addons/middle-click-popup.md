@@ -1,5 +1,4 @@
 ---
-title: Blöcke suchen und einfügen
 ---
 
 **Blöcke suchen und einfügen** ist ein Addon, mit dem man schneller programmieren kann, indem Blöcke beim Eintippen ihrer Namen direkt beim Mauszeiger platziert werden, ohne dass in der Blockpalette nach ihnen gesucht werden muss. Das Popup wird mit einem Mittelklick auf den Codebereich oder durch Drücken von `Strg` + `Leertaste` geöffnet. Du kannst dann mit der Eingabe beginnen, um nach Blöcken zu suchen, und sie dann mit der Maus hinausziehen.

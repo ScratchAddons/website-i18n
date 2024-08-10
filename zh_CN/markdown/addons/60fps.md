@@ -1,5 +1,4 @@
 ---
-{}
 ---
 
 **Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster than the default of 30 FPS. This has the effect of making the project appear to run smoother and at a faster rate relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.

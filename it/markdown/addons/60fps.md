@@ -1,5 +1,4 @@
 ---
-{}
 ---
 
 **Modalità alto framerate** è un addon che permette di personalizzare la velocità di esecuzione dei progetti perché sia maggiore del valore predefinito di 30 FPS. L'effetto è che l'esecuzione del progetto appare più fluida e veloce rispetto al valore FPS predefinito; quindi il valore di 60FPS farà eseguire il progetto al doppio della velocità.

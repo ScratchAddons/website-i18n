@@ -1,5 +1,4 @@
 ---
-title: Lisää lohkoja nimellä
 ---
 
 **Lisää lohkoja nimellä** on lisäosa, jonka avulla käyttäjät voivat koodata nopeammin kirjoittamalla lohkojen nimet ja lisäämällä ne hiiren osoittimen kohdalle. Tämä on helpompi tapa kuin lohkojen etsiminen valikosta. Ponnahdusikkuna avataan napauttamalla hiiren keskipainiketta työtilassa tai käyttämällä näppäinyhdistelmää `ctrl` + `välilyönti`. Tämän jälkeen lohkoja voidaan hakea niiden nimillä ja niitä voidaan raahata hiirellä ulos ponnahdusikkunasta.
