@@ -1,25 +1,25 @@
 ---
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster than the default of 30 FPS. This has the effect of making the project appear to run smoother and at a faster rate relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+**より高いプロジェクトフレームレートモード** は、プロジェクトの実行速度をデフォルトの30FPSよりも速くカスタマイズできるアドオンです。これにより、プロジェクトがよりスムーズに、カスタムFPS値より速く実行されているように見せる効果があります。したがって、デフォルトの値である60 FPSは、プロジェクトを実質的に2倍速で実行します。
 
-The feature can be quickly toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
+この機能は、`Alt`キーを押しながら緑の旗をクリックすると、簡単にオン/オフを切り替えることができます。旗が青色に変わり、その上に黄色の早送りアイコンが表示され、プロジェクトが高速で実行されていることを示します。
 
 ## 機能
 
-- The addon's functionality is only enabled whenever the user toggles it on by holding `alt` and clicking the green flag. The addon's functionality is toggled off every time the page is opened/refreshed.
+- ユーザーが`Alt`キーを押しながら緑の旗をクリックしてオンにした時だけ有効になります。ページを開いたり更新したりするたびに、アドオンの機能はオフに切り替わります。
 - The addon works in both the project page and the editor.
 - By default, the addon (when toggled on) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to an integer ranging from 31 to 240.
 
 ## 設定
 
-### Custom FPS
+### カスタムFPS
 
-Sets the value of the project's framerate when the addon is enabled.
+アドオンが有効なときのプロジェクトのフレームレートの値を設定します。
 
-## Future plans
+## 今後の計画
 
-- The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
+- Scratch Web サイトでこのアドオンを必要とするプロジェクトを制限するために、アドオンは危険としてマークされる可能性があります。 [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
 - Because enabling the addon requires holding the `alt` key, it is not compatable with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Credit

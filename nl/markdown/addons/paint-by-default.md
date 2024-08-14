@@ -17,7 +17,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
   - Upload: Allows you to upload a file
 - The tooltip that appears when hovering over the main button also displays the correct default action.
 
-## Settings
+## Instellingen
 
 ### Add Sprite
 

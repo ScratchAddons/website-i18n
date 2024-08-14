@@ -16,7 +16,7 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## Instellingen
 
 ### Popup block size
 
@@ -30,7 +30,7 @@ Controls how wide the popup is. This is a percentage of the width of the entire 
 
 Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
 
-## Future plans
+## Toekomstplannen
 
 - The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
 - Adding string interpolation for strings in quotes could really help out situatoins where a lot of join blocks would normally have to be tediously arranged.
