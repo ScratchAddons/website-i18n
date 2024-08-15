@@ -12,7 +12,7 @@ Scratch Addons は、Scratch ウェブサイトとプロジェクトエディタ
 - 拡張機能の翻訳に関しては、[このページを参照してください](localization/joining-the-localization-team)。
 - Scratch Addons の使用に関し助けが必要な場合は、 [このページを参照してください](getting-started/quick-start)。
 - このプロジェクトのデザインに関しては、[このページを参照してください](reference/design)。
-- バグや機能提案は、[Issues](https://github.com/ScratchAddons/ScratchAddons/issues)までお願いします。
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## 貢献
 

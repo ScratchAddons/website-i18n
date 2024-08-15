@@ -12,7 +12,7 @@ Scratch Addons combina caratteristiche e temi del sito di Scratch e dell'editor 
 - Se vuoi aiutare con la localizzazione dell'estensione, [leggi questa pagina](localization/joining-the-localization-team).
 - Se hai bisogno di aiuto per iniziare ad usare Scratch Addons, [leggi questa pagina](getting-started/quick-start).
 - Se sei interessato alla struttura del progetto, [leggi questa pagina](reference/design).
-- Hai trovato un bug? Hai avuto un'idea? Faccelo sapere nella [scheda Issues](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Come contribuire
 

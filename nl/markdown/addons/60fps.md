@@ -33,7 +33,7 @@ Jeffalo created the original addon that only set the project player to 60 FPS. T
 - **v1.7.0** Optie toegevoegd om de doel-FPS aan te passen, deze was hiervoor vergrendeld op 60.
 - **v1.11.0** De addon is hernoemd naar **Alt+GreenFlag 60FPS player mode**, en er is een kort informatievenster toegevoegd. Er is een limiet ingesteld op de aangepaste FPS, die nu minimaal 31 en maximaal 240 kan zijn.
 - **v1.13.0** De detectie van `Alt` + het klikken op de groene vlag is verbeterd. De addon kan nu dynamisch worden in- en uitgeschakeld.
-- **v1.14.0** The addon was given the Project Player tag.
+- **v1.14.0** De addon heeft het label Project Player gekregen.
 - **v1.18.0** De addon is hernoemd tot **60FPS project player mode**. De addon kan nu worden uitgevoerd in geëmbedde projecten.
 - **v1.24.0** Bug fix: The addon no longer loses track of state when changing from project page to editor.
 - **v1.26.0** Bug fix: The addon no longer causes variables to not visually update in some cases.

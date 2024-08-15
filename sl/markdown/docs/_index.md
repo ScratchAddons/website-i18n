@@ -12,7 +12,7 @@ Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in u
 - Če bi radi pomagali pri prevajanju razširitve, [preberite to stran](localization/joining-the-localization-team).
 - Če želite začeti uporabljati Scratch Addons in potrebujete pomoč, [preberite to stran](getting-started/quick-start).
 - Če vas zanima oblikovanje projekta, [preberite to stran](reference/design).
-- Ste našli napako? Imate predlog? Povejte nam ga na [zavihku Issues](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Sodelujte
 

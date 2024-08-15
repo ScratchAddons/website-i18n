@@ -12,7 +12,7 @@ Scratch Eklentileri, Scratch sitesine ve proje düzenleyicisine yönelik yeni ve
 - Uzantıyı yerelleştirmeye yardım etmek istiyorsanız [bu sayfayı okuyun](localization/joining-the-localization-team).
 - Scratch Eklentileri'ni kullanmaya başlama konusunda yardıma ihtiyacınız varsa, [bu sayfayı okuyun](getting-started/quick-start).
 - Projenin tasarımıyla ilgileniyorsanız, [bu sayfayı okuyun](reference/design).
-- Bir hata mı buldunuz? Ya da bir fikriniz mi var? Bunları [sorunlar sekmesinde](https://github.com/ScratchAddons/ScratchAddons/issues) bizimle paylaşın.
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Katkıda bulunmak
 

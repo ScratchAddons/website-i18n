@@ -12,7 +12,7 @@ Scratch Addons combineert nieuwe en bestaande functies en thema's voor de Scratc
 - Als je wilt helpen met het lokaliseren van de extensie, [lees deze pagina](localization/joining-the-localization-team).
 - Als je hulp nodig hebt om te beginnen met Scratch Addons, [lees deze pagina](getting-started/quick-start).
 - Als je geïnteresseerd bent in het ontwerp van het project, [lees deze pagina](reference/design).
-- Een bug gevonden? Heb je een idee? Vertel het ons op [het issues-tabblad](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Bijdragen
 

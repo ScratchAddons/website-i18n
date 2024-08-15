@@ -12,7 +12,7 @@ Scratch Addons kombinerer nye og eksisterende funksjoner og temaer for Scratch-n
 - Hvis du ønsker å hjelpe med å lokalisere utvidelsen, [les denne siden](localization/joining-the-localization-team).
 - Hvis du trenger hjelp til å komme i gang med Scratch Addons, [les denne siden](getting-started/quick-start).
 - Hvis du er interessert i designet av prosjektet, [les denne siden](reference/design).
-- Fant en feil? Har en idé. Fortell dem på [problemer-fanen](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Bidrar
 
