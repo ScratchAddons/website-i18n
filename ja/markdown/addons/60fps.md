@@ -1,15 +1,19 @@
 ---
 ---
 
-**より高いプロジェクトフレームレートモード** は、プロジェクトの実行速度をデフォルトの30FPSよりも速くカスタマイズできるアドオンです。これにより、プロジェクトがよりスムーズに、カスタムFPS値より速く実行されているように見せる効果があります。したがって、デフォルトの値である60 FPSは、プロジェクトを実質的に2倍速で実行します。
+**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster.
 
-この機能は、`Alt`キーを押しながら緑の旗をクリックすると、簡単にオン/オフを切り替えることができます。旗が青色に変わり、その上に黄色の早送りアイコンが表示され、プロジェクトが高速で実行されていることを示します。
+Scratch normally iterates loops 30 times per second, resulting in a screen refresh rate of 30 frames per second (FPS). This addon can increase the iteration rate, thereby changing the framerate. This has the effect of making the project animate smoother but also run faster, relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+
+Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
+
+The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
 
 ## 機能
 
-- ユーザーが`Alt`キーを押しながら緑の旗をクリックしてオンにした時だけ有効になります。ページを開いたり更新したりするたびに、アドオンの機能はオフに切り替わります。
+- The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
 - The addon works in both the project page and the editor.
-- By default, the addon (when toggled on) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to an integer ranging from 31 to 240.
+- By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
 
 ## 設定
 
@@ -20,7 +24,7 @@
 ## 今後の計画
 
 - Scratch Web サイトでこのアドオンを必要とするプロジェクトを制限するために、アドオンは危険としてマークされる可能性があります。 [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Because enabling the addon requires holding the `alt` key, it is not compatable with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Credit
 

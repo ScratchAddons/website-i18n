@@ -1,15 +1,19 @@
 ---
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster than the default of 30 FPS. This has the effect of making the project appear to run smoother and at a faster rate relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster.
 
-Je kunt de functie snel in- of uitschakelen door `alt` ingedrukt te houden en op de groene vlag te klikken. The vlag zal dan blauw worden en een geel snel vooruitspoel-icoontje zal er overheen verschijnen, waarmee wordt laten zien dat het project sneller draait.
+Scratch normally iterates loops 30 times per second, resulting in a screen refresh rate of 30 frames per second (FPS). This addon can increase the iteration rate, thereby changing the framerate. This has the effect of making the project animate smoother but also run faster, relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+
+Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
+
+The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
 
 ## Functies
 
-- De functionaliteit van de addon wordt alleen ingeschakeld als de gebruiker hem inschakelt door `alt` ingedrukt te houden en op de groene vlag te klikken. De functionaliteit van de addon wordt elke keer dat de pagina wordt geopend/vernieuwd weer uitgeschakeld.
+- The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
 - De addon werkt zowel op de projectpagina als in de editor.
-- De addon stelt standaard (wanneer ingeschakeld) de framerate van het project in op 60 FPS. Deze waarde kan worden veranderd in de instellingen van de addon in een geheel getal tussen 31 en 240.
+- By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
 
 ## Instellingen
 
@@ -20,7 +24,7 @@ Stelt de framerate-waarde van het project in als de addon is ingeschakeld.
 ## Toekomstplannen
 
 - The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Omdat je de `alt`-toets ingedrukt moet worden om de addon in te schakelen, is het niet compatibel met apparaten met een touchscreen. Een oplossing kan zijn om een contextmenu toe te voegen aan de groene vlag voor deze en andere addons. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Credit
 
