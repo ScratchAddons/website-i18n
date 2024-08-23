@@ -4,26 +4,26 @@ description: Merci d'être volontaire pour traduire Scratch Addons dans d'autres
 ---
 
 {{< admonition info >}}
-If you found a **translation mistake/error** in Scratch Addons, please [send feedback](/feedback) about it.
+Si vous constatez une **erreur de traduction** dans Scratch Addons, merci d'envoyer un [commentaire](/feedback) à ce sujet.
 {{< /admonition >}}
 
-Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+Scratch Addons est disponible dans plus de 15 langues grâce à l'aide de nombreux volontaires à travers le monde.
 
-## Requirements to join as a translator
+## Conditions à remplir pour devenir traducteur
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
-* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* Vous devez **PARLER L'ANGLAIS COURAMMENT**.
+* Par exemple, vous parlez couramment l'anglais si vous pouvez utiliser la page de configuration de Scratch Addons en anglais, ou si vous comprenez les vidéos de Griffpatch. Si vous avez du mal à comprendre les phrases sans l'aide d'un traducteur, vous ne maîtrisez pas l'anglais.
+* Vous devez être **un LOCUTEUR NATIF** de la langue vers laquelle vous souhaitez traduire.
+* Vous devez disposer d'une adresse mail, que vous devriez idéalement consulter au moins une fois par semaine.
+* Vous devez posséder un compte sur [scratch.mit.edu] (https://scratch.mit.edu).
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
+**Ces langues n'acceptent PAS de nouveaux traducteurs :** Italien, Espagnol.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+Si vous n'êtes pas un locuteur natif mais que vous vous estimez suffisamment à l'aise, vous pouvez néanmoins demander à vous inscrire. N'oubliez pas que le fait de suivre des cours de langue ne vous permet pas de parler avec suffisamment de fluidité. Si vous n'êtes pas prêt à changer la langue du système de votre smartphone, c'est que vous ne la maîtrisez pas assez !
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+Nous ne prenons en charge que les langues que Scratch lui-même prend en charge. Nous supportons également les langues RTL, telles que l'arabe et l'hébreu.
 
 ## Content available for translation
 
