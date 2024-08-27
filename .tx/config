@@ -245,3 +245,10 @@ minimum_perc = 0
 source_file = en/markdown/addons/paint-by-default.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_addons_discuss-button]
+file_filter = <lang>/markdown/addons/discuss-button.md
+minimum_perc = 0
+source_file = en/markdown/addons/discuss-button.md
+source_lang = en
+type = GITHUBMARKDOWN

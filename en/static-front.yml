@@ -2,6 +2,8 @@ addons/60fps.md:
   id: 60fps
 addons/_index.html:
   layout: home
+addons/discuss-button.md:
+  id: discuss-button
 addons/middle-click-popup.md:
   id: middle-click-popup
 addons/paint-by-default.md:
