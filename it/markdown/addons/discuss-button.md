@@ -1,60 +1,60 @@
 ---
 ---
 
-**Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
+**Barra di navigazione personalizzata** è un addon che permette agli utenti sia di aggiungere, modificare. o rimuovere i link dalla barra di navigazione del sito di Scratch, che di modificare il menu dell'utente e cambiare il comportamento delle barre di scorrimento della pagina.
 
-## Background
+## Sfondo
 
-Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
+Scratch ha rimosso il pulsante Discuti che portava ai forum a Luglio 2017.[^1] L'addon originale era stato introdotto per ripristinarlo e includeva un'opzione per rimuovere il link Idee.
 
-## Funzionalità
+## Funzioni
 
-- Add new links to Scratch pages or other websites.
-- Re-order links and change their labels.
-- Remove existing links.
-- Prevent the navigation bar from scrolling with the page.
-- Move the logged-in username out of the way.
+- Aggiunge nuovi link alle pagine di Scratch o ad altri siti.
+- Riordina i link e cambia le etichette.
+- Rimuovi i link esistenti.
+- Evita che la barra di navigazione scrolli insieme alla pagina.
+- RImuove il nome dell'utente loggato.
 
 ## Impostazioni
 
-### Items
+### Elementi
 
-Controls the links displayed between the Scratch logo and search bar. Each item has the following inputs:
+Controlla i link che appaiono tra il logo di Scratch e la barra di ricerca. Ogni elemento ha i seguenti parametri:
 
-- Name: The link's label
-- URL: The page to link to which can be relative to the home page (e.g. /mystuff) or absolute (e.g. https://example.com).
+- Nome: l'etichetta del link
+- URL: La pagina a cui linkare, che può essere relativa rispetto alla pagina iniziale (ad es. /mystuff) o assoluta (ad es. https://example.com).
 
-### Compact user dropdown
+### Menu utente compatto
 
-Moves the username of the logged-in user into the profile dropdown item.
+Sposta il nome dell'utente loggato nel menu del profilo.
 
-### Stick to
+### Resta attaccata
 
-- Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
-- Top of page: The navigation bar stays at the top of the page and scrolls away with it.
+- In cima allo schermo: La barra di navigazione resta visibile anche quando la pagina scorre. Questo è il comportamento predefinito di Scratch.
+- In cima alla pagina: La barra di navigazione resta in cima alla pagina e scorre insieme a questa.
 
 ## Crediti
 
-The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
+L'addon originale è stato creato da WorldLanguages, TheColaber è l'autore della nuova versione.
 
 ## Changelog
 
-- **v1.0.0** The first version that added the discuss button and optionally removed ideas.
-- **v1.24.0**: Made the links fully customizable.
-- **v1.28.0**: Added the compact user dropdown setting.
-- **v1.32.0**: Added the "stick to" setting.
+- **v1.0.0** La prima versione che ripristinava il pulsante Discuti e permetteva di rimuovere opzionalmente il pulsante Idee.
+- **v1.24.0**: I link sono completamente personalizzabili.
+- **v1.28.0**: Aggiunge le impostazioni per il menu utente compatto.
+- **v1.32.0**: Aggiunge le impostazioni per "resta attaccata".
 
 ## Trivia
 
-- This is the first addon to modify the Scratch website.
-- This is the first and only addon to use a table setting.
-- This is one of the few addons to have no credits.
+- Questo è stato il primo addon che ha permesso di modificare il sito di Scratch.
+- Questo è il primo è unico addon al momento che usa una tabella per le impostazioni.
+- Questo è uno dei pochi addon che non ha crediti.
 
 ## Galleria
 
 ![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
 
-The compact user dropdown.
+Il menu utente compatto.
 
 ## Correlati
 
