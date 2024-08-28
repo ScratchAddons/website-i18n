@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail-insteller",
+		"name": "Thumbnails instellen",
 		"description": "Voegt een knop rechtsonder de projectpagina toe om de thumbnail van je project in te stellen op een afbeelding (inclusief GIFs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Conflicten met onderdelen beheren",
+		"description": "Toont opties bij het uploaden van uiterlijken of geluiden om ze te vervangen of over te slaan als er al onderdelen bestaan met dezelfde naam, in plaats van altijd de naam te wijzigen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -344,10 +364,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "Vastgezette footer",
-		"description": "Zet de footer van de website vast aan de onderkant van het scherm, en breidt het uit wanneer de muis het aanraakt, zodat je de footer snel en overal op de pagina kunt zien. Maakte voorheen deel uit van \"Oneindig scrollen\".",
+		"description": "Zet de footer van de website vast aan de onderkant van het scherm, en breidt het uit wanneer de muis het aanraakt, zodat je de footer snel en overal op de pagina kunt zien. Maakte voorheen deel uit van \"oneindig scrollen\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Regeleinden zijn alleen zichtbaar voor gebruikers die deze addon ingeschakeld hebben. Anderen zullen spaties zien.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "Regeleinden aan het begin of eind van opmerkingen op profielpagina's worden niet weergegeven.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -777,6 +802,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Andere uiterlijken of geluiden verwijderen",
+		"description": "Voegt een optie toe aan het rechterklikmenu voor uiterlijken en geluiden, waarmee je alle items, behalve de geselecteerde, kunt verwijderen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Niet automatisch opslaan",
 		"description": "Zorgt ervoor dat projecten niet automatisch opslaan terwijl je bewerkt.",
@@ -873,7 +910,7 @@
 		"id": "download-button",
 		"name": "Downloadknop op projectpagina",
 		"description": "Download projecten vanaf de projectpagina zonder de editor te hoeven openen. De downloadknop staat naast de kopieer link-knop.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1054,7 +1091,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Waarden aanpassen met pijltjestoetsen in editor",
+		"name": "Waarden aanpassen met pijltjestoetsen",
 		"description": "Gebruik de pijltjes voor omhoog en omlaag om getalwaarden van invoervelden te verhogen of te verlagen, bijv. in blokken of de sprite-eigenschappen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1167,7 +1204,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1179,13 +1218,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "De nieuwe blokkleuren met hoog contrast zijn hieronder beschikbaar als een voorinstelling."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "Een \"invoegmarkering\" is de schaduw die je ziet als je een blok dichtbij andere blokken sleept."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1212,8 +1265,8 @@
 	},
 	{
 		"id": "exact-count",
-		"name": "Exacte tellers",
-		"description": "Toon de exacte tellers voor informatie over gebruikers en studio's. Gebruikt ScratchDB voor foruminformatie.",
+		"name": "Exacte aantallen",
+		"description": "Geeft exacte getallen op profielen en het exacte aantal projecten in studio's weer.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1223,6 +1276,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "De forum-instelling is verwijderd omdat het gebruikmaakt van de ScratchDB-database, die offline is."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1230,7 +1289,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Meerdere rijen in rugzak",
+		"name": "Rugzak met meerdere rijen",
 		"description": "Deel de inhoud van de rugzak anders in, vergelijkbaar met de uiterlijkbibliotheek, en vergroot sommige thumbnails.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1446,23 +1505,13 @@
 		"id": "forum-search",
 		"name": "Forums Doorzoeken",
 		"description": "Voegt een zoekbalk toe aan de forums. Gebruikt ScratchDB voor informatie.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Lokale tijdzone op forums",
-		"description": "Gebruikt je lokale tijdzone voor het weergeven van postdatums en -tijden op de forums.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1474,7 +1523,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1493,7 +1542,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1684,7 +1733,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Horizontale tabbladen in Mijn Projecten",
+		"name": "Horizontale tabbladen in \"mijn projecten\"",
 		"description": "Verplaatst de Mijn Projecten-navigatieknoppen (\"Alle Projecten\", \"Mijn Studio's\", \"Prullenbak\") naar bovenaan de pagina, in plaats van links.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1697,25 +1746,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "Forumafbeeldinguploader",
-		"description": "Voegt een knop toe om direct afbeeldingen te uploaden en invoegen in forumposts.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "Deze addon wordt niet langer ondersteund en is niet meer werkend."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1839,10 +1869,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Hogere tekenlimiet in \"Waar Ik Mee Bezig Ben\"",
+		"name": "Langere \"waar ik mee bezig ben\"",
 		"description": "Laat je 55 meer tekens typen in je profiel's \"Waar Ik Mee Bezig Ben\". Iedereen op Scratch kan de extra tekens zien.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2006,8 +2036,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2337,6 +2372,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Aantal resterende antwoorden weergeven",
+		"description": "Geeft weer hoeveel antwoorden er nog kunnen worden geplaatst onder elke opmerking in een studio totdat het limiet van 25 wordt bereikt.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Samengevouwen forumcategorieën onthouden",
 		"description": "Categorieën die je hebt samengevouwen op de forum-homepagina (de lijst met forums) blijven samengevouwen als je de pagina later weer bezoekt.",
@@ -2352,7 +2403,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remixknop in eigen projecten",
+		"name": "Eigen projecten remixen",
 		"description": "Plaatst de Remixknop in je eigen projecten.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2503,7 +2554,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0 Scratchblokken op forums",
+		"name": "Scratch 3.0-blokken op forums",
 		"description": "Schakelt de nieuwe versie van scratchblokken in op de forums.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2543,22 +2594,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Profielstatistieken",
-		"description": "Statistieken van ScratchDB tonen op gebruikersprofielen.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Scripts uitlijnen op raster",
 		"description": "Sleep een script om zijn positie automatisch uit te lijnen op de codegebied-stippen.",
@@ -2581,7 +2616,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Zoekbalk in \"mijn projecten\"",
+		"name": "Zoeken in \"mijn projecten\"",
 		"description": "Laat je je projecten, studios en weggegooide projecten zoeken op de pagina \"mijn projecten\". Start ergens op de pagina met typen om te zoeken. Je kunt ook ctrl+enter gebruiken na het zoeken om snel het eerste resultaat te openen.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2621,7 +2656,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Zoekbalk in spritepaneel",
+		"name": "Zoeken in spritepaneel",
 		"description": "Voegt een zoekbalk aan het spritevenster toe om sprites bij naam te zoeken.",
 		"tags": ["editor"],
 		"credits": [
@@ -2707,6 +2742,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Aanpasbare monitors op speelveld",
+		"description": "Verandert de kleur en rondheid van monitors van variabelen en lijsten op het speelveld.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Volgers browsen in studio's",
 		"description": "Voegt een knop toe boven het \"beheerders\"-venster in studios die je beheert, die een lijst geeft van je volgers en wie je zelf volgt en laat je iemand uitnodigen met een enkele klik.",
@@ -2742,7 +2795,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Wissel variabelen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\"",
+		"name": "Variabelensoorten wisselen",
 		"description": "Geeft meer opties voor het hernoemen van variabelen of lijsten: laat je kiezen tussen \"Voor alle sprites\" en \"Alleen voor deze sprite\" en of variabelen in de cloud worden bewaard. Voegt ook een optie toe voor rechterklikken op een variabele/lijst om snel zijn type te veranderen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2848,7 +2901,7 @@
 		"description": "Voegt een volumeschuifregelaar toe naast de start-/stopbesturingen",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2861,6 +2914,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Aanpasbaar raster in code-editor",
+		"description": "Verander de stijl van het raster in de code-editor.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

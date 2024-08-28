@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Küçük resim ayarlayıcı",
+		"name": "Thumbnail setter",
 		"description": "Projenizin küçük resmini herhangi bir görüntüyle (gifler dâhil) değiştirmek için proje sayfasının sağ alt kısmına bir düğme ekler.",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Asset conflict dialog",
+		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -159,7 +179,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Bitmap resimleri kopyala",
+		"name": "Bitmap image copying",
 		"description": "Kostüm düzenleyiciden bir bitmap görüntüsünü sistem panosuna kopyalamanıza izin verir. Böylece görselleri başka sitelerle veya yazılımlarla paylaşabilirsiniz.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -344,10 +364,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "Sabit alt bilgi",
-		"description": "Sitedeki alt bilginin pencerenin alt kısmından hafifçe dışarı çıkmasını ve üzerine gelindiğinde genişlemesini sağlayarak sayfanın herhangi bir yerinden hızlı bir şekilde erişilebilmesini sağlar. Öncesinde \"Sonsuz sayfa kaydırma\"nın bir parçasıydı.",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Satır sonları sadece bu eklentiyi etkinleştirmiş kullanıcılara görünür. Diğerleri için boşluk olarak görünür.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "On profile pages, line breaks at the beginning or end of a comment do not appear.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -777,6 +802,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Delete other costumes or sounds",
+		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Otomatik kaydetmeyi devre dışı bırak",
 		"description": "Düzenleme sırasında projelerin otomatik olarak kaydedilmesini iptal eder.",
@@ -873,7 +910,7 @@
 		"id": "download-button",
 		"name": "Project page download button",
 		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1054,7 +1091,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Düzenleyicide ok tuşuyla arttırma",
+		"name": "Arrow key incrementation",
 		"description": "Bloklar veya karakter özellikleri alanı gibi sayısal giriş alanlarındaki sayı değerlerini arttırmak veya azaltmak için yukarı ve aşağı ok tuşlarını kullanın.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1167,7 +1204,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1179,13 +1218,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "Yeni Yüksek Kontrastlı blok renkleri, aşağıda bir ayar olarak mevcuttur."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1213,7 +1266,7 @@
 	{
 		"id": "exact-count",
 		"name": "Doğru sayıyı göster",
-		"description": "Kullanıcı ve stüdyo bilgilerinin tam sayısını gösterir. Forum bilgileri için ScratchDB kullanır.",
+		"description": "Shows exact numbers on profiles and the exact project count in studios.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1223,6 +1276,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1230,7 +1289,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Sırt çantasında birden fazla satır",
+		"name": "Multi-row backpack",
 		"description": "Düzenleyici sırt çantasının içeriğini, kostüm kitaplığına benzer şekilde genişletilebilir iki eksenli bir ızgara halinde düzenler ve belirli küçük resimlerin boyutunu büyütür.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1446,23 +1505,13 @@
 		"id": "forum-search",
 		"name": "Forumlarda arama",
 		"description": "Forumlara bir arama çubuğu ekler. Veriler için ScratchDB'yi kullanır.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Forumlarda yerel saat dilimi",
-		"description": "Forumlarda gönderi tarihlerini ve saatlerini görüntülemek için yerel saat diliminizi kullanır.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1474,7 +1523,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1493,7 +1542,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1684,7 +1733,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Kendiminkiler’de yatay sekmeler",
+		"name": "Horizontal My Stuff tabs",
 		"description": "Kendiminkiler’deki gezinme düğmelerini (\"Tüm Projeler\", \"Stüdyolarım\", \"Çöp Kutusu\") solda tutmak yerine sayfanın en üstüne taşır.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1697,25 +1746,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "Forum resim yükleyicisi",
-		"description": "Forumlara resim yüklemek için bir düğme ekler.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1839,10 +1869,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "\"Ne Üzerinde Çalışıyorum\" bölümündeki karakter sınırını yükselt",
+		"name": "Longer \"What I'm Working On\"",
 		"description": "Profilinizin \"Ne Üzerinde Çalışıyorum\" bölümüne 55 karakter daha yazmanıza izin verir. Scratch'teki herkes tarafından fazladan karakterler görünecek.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2006,8 +2036,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2044,7 +2079,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Sırt çantasına yerleştirmeden önce kodları adlandır",
+		"name": "Name scripts before backpacking",
 		"description": "Kodları, varsayılan \"kod\" adını kullanmak yerine, onları sırt çantasına sürükledikten sonra adlandırmanızı talep eder.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2240,7 +2275,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Damla aracı ile sahnedeki renkleri seç",
+		"name": "Pick stage colors with eyedropper",
 		"description": "Kostüm düzenleyicideki damla aracının sahnedeki renkleri de seçmesine izin verir.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2337,6 +2372,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Remaining reply counter",
+		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Daraltılan forum kategorilerini hatırla",
 		"description": "Forum ana sayfasında (forum listesinde) daralttığınız kategoriler, çıkıp geri döndüğünüzde bile daraltılmış durumda kalacaktır.",
@@ -2352,7 +2403,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Kendi projelerinde Katkı Yap düğmesi",
+		"name": "Remix own projects",
 		"description": "Katkı Yap düğmesini kendi projelerinize de ekler.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2385,7 +2436,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Arama çubuğundan otomatik doldurmayı kaldır",
+		"name": "Disable search bar autocomplete",
 		"description": "İnternet tarayıcılarının gezinme çubuğunun arama çubuğundaki önerileri otomatik olarak tamamlamayı durdurur.",
 		"tags": ["community"],
 		"credits": [
@@ -2503,7 +2554,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Forumlarda 3.0 Scratchblocks",
+		"name": "Scratch 3.0 forum blocks",
 		"description": "Forumlarda scratchblocks’un yeni sürümünü etkinleştirir.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2543,22 +2594,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Profil istatistikleri",
-		"description": "Kullanıcı profillerinde ScratchDB'den alınan istatistikleri gösterir.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Kodları ızgaraya hizala",
 		"description": "Bloğu otomatik olarak kod alanı noktalarına hizalamak için bir kodu hareket ettirin.",
@@ -2581,7 +2616,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Kendiminkiler’de arama çubuğu",
+		"name": "My Stuff search",
 		"description": "Kendiminkiler sayfasında projelerinizi, stüdyolarınızı ve çöptekilerinizi aramanıza izin verir. Arama başlatmak için sayfanın herhangi bir yerinde yazmaya başlamanız yeterlidir. En iyi arama sonucunu hızlı bir şekilde açmak için arama yaptıktan sonra Ctrl+Enter'ı kullanabilirsin.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2621,7 +2656,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Kukla panelinde arama kutusu",
+		"name": "Sprite pane search",
 		"description": "Karakterleri ismine göre aramak için kukla bölmesine bir arama kutusu ekler.",
 		"tags": ["editor"],
 		"credits": [
@@ -2707,6 +2742,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Customizable stage monitors",
+		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Stüdyolarda takipçilere göz at düğmesi",
 		"description": "Yönettiğiniz stüdyolarda “idareciler\" sekmesinin üst kısmına takipçilerinizi ve takip ettiğiniz kullanıcıları listeleyen bir düğme ekler ve görüntülenen bir kullanıcıyı tek bir tıklama ile davet etmenizi sağlar.",
@@ -2742,7 +2795,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "\"Tüm kuklalar için\" ve \"Yalnızca bu kukla için\" arasında geçiş yapma",
+		"name": "Variable type switching",
 		"description": "Mevcut bir değişkeni veya listeyi yeniden adlandırırken daha fazla seçenek ekler: \"Tüm kuklalar için\" ve \"Yalnızca bu kukla için\" arasında değişiklik yapılmasına ve değişkenlerin bulutta depolanıp depolanmayacağına izin verir. Ayrıca durumunu hızlı bir şekilde değiştirmek için değişkene/listeye sağ tıklandığında yeni bir seçenek ekler.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2848,7 +2901,7 @@
 		"description": "Sesi ayarlamak için yeşil bayrağın yanına bir çubuk ekler.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2861,6 +2914,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Customizable code editor grid",
+		"description": "Change the style of the grid pattern in the code editor.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

@@ -58,6 +58,26 @@
 		"versionAdded": "1.3.0"
 	},
 	{
+		"id": "asset-conflict-dialog",
+		"name": "Resurssiristiriitojen dialogi",
+		"description": "Kun lataat asusteita tai ääniä, joilla on sama nimi kuin jo olemassa olevalla, näytetään dialogi, jossa voit valita, haluatko korvata tai ohittaa ne uudelleen nimeämisen sijaan.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "auto-follow-topics",
 		"name": "Seuraa aiheita lähetettyäsi niihin viestin",
 		"description": "Seuraa automaattisesti foorumiaiheita, joihin lähetät viestin.",
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -347,7 +367,7 @@
 		"description": "Saa verkkosivuston alatunnisteen pilkottamaan selainikkunan alareunasta ja laajenemaan, kun hiiren osoitin viedään sen päälle, jolloin siihen pääsee käsiksi mistä tahansa sivun kohdasta. Aiemmin osa \"Loputon vierittäminen\" -laajennusta.",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Rivinvaihdot ovat näkyvissä vain käyttäjille, joilla tämä lisäosa on käytössä.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "Rivinvaihdot kommentin alussa tai lopussa eivät näy profiilisivuilla.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -777,6 +802,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Poista muut asusteet tai äänet",
+		"description": "Lisää hiiren kakkospainikkeen valikkoon toiminnon kaikkien asusteiden ja äänten, paitsi valitun asusteen tai äänen, poistamiseen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Ota automaattinen tallennus pois käytöstä",
 		"description": "Ottaa projektin automaattisen tallenuksen pois käytöstä muokkaamisen ajaksi.",
@@ -873,7 +910,7 @@
 		"id": "download-button",
 		"name": "Latauspainike projektisivuilla",
 		"description": "Voit ladata projekteja suoraan projektisivulta ilman editorin avaamista. Latauspainike lisätään Kopioi linkki -painikkeen viereen.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1054,7 +1091,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Editorin lukuarvojen kasvattaminen ja pienentäminen nuolinäppäimillä",
+		"name": "Lukuarvojen kasvattaminen ja pienentäminen nuolinäppäimillä",
 		"description": "Kasvata tai pienennä niin lohkojen kuin hahmon ominaisuusalueen numerokenttien lukuarvoja ylä- ja alanuolinäppäimellä.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1167,7 +1204,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1179,13 +1218,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "Uusista korkean kontrastin lohkoväreistä on alla saatavilla esiasetus."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "Kun raahaat lohkoa, \"lisäämismerkki\" on varjo, joka ilmestyy, kun lohko siirretään muiden lohkojen lähelle."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1213,7 +1266,7 @@
 	{
 		"id": "exact-count",
 		"name": "Näytä tarkka lukumäärä",
-		"description": "Näyttää tarkan lukumäärän käyttäjä- ja studiotiedoille. Käyttää ScratchDB:tä foorumitietojen saamiseen.",
+		"description": "Näyttää tarkat lukumäärät profiilisivuilla ja tarkan projektimäärän studioissa.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1223,6 +1276,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "Foorumiasetus on poistettu, koska sen käyttämä ScratchDB-tietokanta on verkon ulkopuolella."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1230,7 +1289,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Useita rivejä repussa",
+		"name": "Monirivinen reppu",
 		"description": "Järjestelee editorin repun sisällön laajennettavaksi kaksisuuntaiseksi taulukoksi, joka on samanlainen kuin asustekirjasto ja suurentaa tiettyjen näytekuvien kokoa.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1445,24 +1504,14 @@
 	{
 		"id": "forum-search",
 		"name": "Foorumihaku",
-		"description": "Lisää viestien hakupalkin foorumeille. Käyttää ScratchDB:tä tiedoksi.",
-		"tags": ["forums", "community"],
+		"description": "Lisää hakupalkin viestien hakemiseen foorumeilla. Käyttää ScratchDB:tä tietojen hakemiseen.",
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Paikallinen aikavyöhyke foorumeilla",
-		"description": "Käyttää paikallista aikavyöhykettäsi viestien päivämäärien ja kellonaikojen näyttämiseen foorumeilla.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1474,7 +1523,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1493,7 +1542,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1699,25 +1748,6 @@
 		"injectAsStyleElt": true
 	},
 	{
-		"id": "image-uploader",
-		"name": "Kuvien lataaminen foorumeilla",
-		"description": "Lisää painikkeen, jolla voi suoraan ladata ja lisätä kuvia foorumiviesteihin.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "Tätä lisäosaa ei enää tueta eikä se toimi enää."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "infinite-scroll",
 		"name": "Loputon vierittäminen",
 		"description": "Voit vierittää sivuston eri osia ilman, että sinun tarvitsee napauttaa \"lataa lisää\" -painiketta.",
@@ -1839,10 +1869,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Korkeampi merkkiraja \"Minkä kanssa työskentelen\" -tekstille",
+		"name": "Pidempi \"Minkä kanssa työskentelen\" -teksti",
 		"description": "Voit kirjoittaa 55 merkkiä enemmän profiilisi \"Minkä kanssa työskentelen\" -tekstiin.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2006,8 +2036,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2044,7 +2079,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Nimeä skripti ennen reppuun laittamista",
+		"name": "Nimeä skriptit ennen reppuun laittamista",
 		"description": "Pyytää sinua nimeämään skriptin reppuun raahaamisen jälkeen oletusnimen \"code\" käyttämisen sijaan.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2240,7 +2275,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Valitse värejä esiintymislavalta pipetillä",
+		"name": "Valitse esiintymislavan värejä pipetillä",
 		"description": "Mahdollistaa sen, että asuste-editorin pipetillä voi valita värejä myös esiintymislavalta.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2337,6 +2372,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Jäljellä olevien vastausten määrä",
+		"description": "Näyttää, kuinka monta vastausta voidaan lähettää studion jokaiseen kommenttiketjuun ennen 25 vastauksen rajan saavuttamista.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Muista kutistetut foorumiluokat",
 		"description": "Foorumien etusivulla kutistamasi luokat (palstalistat) pysyvät kutistettuina, kun poistut ja palaat sivulle.",
@@ -2352,7 +2403,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remiksauspainike omissa projekteissa",
+		"name": "Remiksaa omia projektejasi",
 		"description": "Lisää remiksauspainikkeen omiin projekteihisi.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2385,7 +2436,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Poista automaattinen täyttö hakupalkista",
+		"name": "Poista hakupalkin automaattinen täyttö käytöstä",
 		"description": "Estää selaimia täydentämästä automaattisen täydennyksen ehdotuksia navigointipalkin hakupalkissa.",
 		"tags": ["community"],
 		"credits": [
@@ -2503,7 +2554,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0 Scratchblocks foorumeilla",
+		"name": "Scratch 3.0:n lohkot foorumeilla",
 		"description": "Ottaa käyttöön uuden scratchblocks-version foorumeilla.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2543,22 +2594,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Profiilitilastot",
-		"description": "Näyttää tilastot ScratchDB:stä käyttäjäprofiileissa.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Kiinnitä skriptit ruudukkoon",
 		"description": "Kohdista skriptin sijainti automaattisesti koodialueen pisteisiin raahaamalla skriptiä.",
@@ -2581,7 +2616,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Hakupalkki omissa tavaroissa",
+		"name": "Hakutoiminto omissa tavaroissa",
 		"description": "Voit etsiä projekteistasi, studioistasi ja roskakoristasi Omat tavarat -sivulla. Aloita haku yksinkertaisesti kirjoittamalla millä tahansa sivulla. Voit myös käyttää Ctrl+Enter-näppäinyhdistelmää haun jälkeen avataksesi nopeasti ylimmän hakutuloksen.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2621,7 +2656,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Hakuosio hahmoruudussa",
+		"name": "Hakutoiminto hahmoruudussa",
 		"description": "Lisää hahmoruutuun hakukentän hahmojen nimellä etsimistä varten.",
 		"tags": ["editor"],
 		"credits": [
@@ -2707,6 +2742,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Customizable stage monitors",
+		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Selaa seuraajia -painike studioissa",
 		"description": "Lisää studioiden, joiden manageri olet, \"kuraattorit\"-välilehden yläosaan painikkeen, joka luettelee seuraajasi ja seuraamasi käyttäjät ja jonka avulla voit kutsua näytetyn käyttäjän studioon yhdellä napautuksella.",
@@ -2742,7 +2795,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Vaihda muuttujia \"Kaikille hahmoille\" ja \"Vain tälle hahmolle\" -tilojen välillä",
+		"name": "Muuttujien tyypin vaihtaminen",
 		"description": "Lisää olemassa olevan muuttujan tai listan uudelleennimeämisnäkymään uusia vaihtoehtoja: sallii siirtymisen \"Kaikille hahmoille\" ja \"Vain tälle hahmolle\" -tilojen välillä sekä myös sen välillä, tallennetaanko muuttujat pilveen. Lisää myös uuden vaihtoehdon muuttaa muuttujan näkyvvyttä nopeasti napauttamalla hiiren kakkospainikkeella muuttujaa/listaa.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2810,8 +2863,8 @@
 	},
 	{
 		"id": "user-id",
-		"name": "Näytä käyttäjätunnukset",
-		"description": "Lisää käyttäjänumeron käyttäjänimen viereen profiilisivujen yläosaan.",
+		"name": "Näytä käyttäjätunnisteet",
+		"description": "Lisää käyttäjätunnisteen käyttäjänimen viereen profiilisivujen yläosaan.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
@@ -2848,7 +2901,7 @@
 		"description": "Lisää äänenvoimakkuussäätimen vihreän lipun ohjainten viereen.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2861,6 +2914,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Mukautteva koodieditorin ruudukko",
+		"description": "Muuta koodieditorin ruudukkokuvion tyyli.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Scegli immagine del progetto",
+		"name": "Scegli immagine anteprima del progetto",
 		"description": "Aggiunge un pulsante in fondo a destra nella pagina del progetto per modificare l'anteprima del progetto con qualunque immagine (incluse le gif).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Conflitto tra Risorse",
+		"description": "Quando si caricano costumi o suoni con nomi già presenti nel progetto, compare una finestra con le opzioni per sostituire o ignorare la risorsa invece di rinominarla automaticamente.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -344,10 +364,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "Footer fisso",
-		"description": "Rende il footer della pagina leggermente visibile in basso e lo espande quando si passa sopra con il mouse, permettendo di accedervi rapidamente da qualunque punto della pagina. In precedenza faceva parte dell'addon \"scorrimento infinito\".",
+		"description": "Fa comparire una piccola parte del footer in fondo alla finestra e permette di espanderlo quando ci si passa sopra con il mouse, in modo che sia facilmente accessibile da un qualunque punto della pagina. Precendemente incluso nell'addon \"scorrimento infinito\"",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Le interruzioni di linea saranno visibili solo agli utenti che hanno abilitato questo addon. Per tutti gli altri verranno visualizzate come spazi.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "Nella pagina del profilo, gli accapo all'inizio o alla fine di un commento non vengono mostrati.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -777,6 +802,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Rimuovi altri costumi o suoni",
+		"description": "Aggiunge un'opzione al menu del tasto destro dei costumi e dei suoni per rimuovere tutti gli altri elementi tranne quello selezionato.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Disabilita salvataggio automatico",
 		"description": "Disabilita il salvataggio automatico dei progetti quando vengono modificati.",
@@ -873,7 +910,7 @@
 		"id": "download-button",
 		"name": "Pulsante Download nella pagina del progetto",
 		"description": "Ti permette di scaricare i progeti direttamente dalla pagina del progetto, senza dover prima aprire l'editor. Il pulsante Download comparirà a fianco del pulsate Copia link.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1054,7 +1091,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Incremento dei valori dell’editor usando i tasti freccia",
+		"name": "Incremento tasti freccia",
 		"description": "Usa le frecce su e giù per incrementare o diminuire i valori numerici nelle caselle come ad esempio i valori degli argomenti dei blocchi o i valori delle proprietà nell'area delle informazioni degli sprite.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1167,7 +1204,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1179,13 +1218,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "i nuovi colori per blocchi ad Elevato Contrasto sono disponibili come impostazione qui sotto."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "Quando si trascina un blocco, il “punto di inserimento” è un ombra che compare quando il blocco viene spostato vicino agli altri blocchi."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1213,7 +1266,7 @@
 	{
 		"id": "exact-count",
 		"name": "Mostra numero esatto",
-		"description": "Mostra i numeri esatti per le informazioni dell'utente e delle gallerie. Utilizza ScratchDB per le informazioni dei forum.",
+		"description": "Mostra i numeri esatti nel profilo e il numero esatto di progetti nelle gallerie.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1223,6 +1276,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "Le impostazioni dei forum sono state rimosse, in quanto il database ScratchDB usato non è online."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1230,7 +1289,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Righe multiple per lo zainetto",
+		"name": "Righe multiple per la valigetta",
 		"description": "Dispone i contenuti dello zainetto in una griglia espondibile di due righe, simile alla libreria dei costumi e aumenta la diimensione di alcune anteprime.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1446,23 +1505,13 @@
 		"id": "forum-search",
 		"name": "Cerca nei forum",
 		"description": "Aggiunge una barra di ricerca per post dei forum. Utilizza le informazioni di ScratchDB.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Fuso orario locale nei forum",
-		"description": "Usa il tuo fuso orario locale per mostrare l'ora e la data delle discussioni nei forum.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1474,7 +1523,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1493,7 +1542,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1684,7 +1733,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Schede orizzontali nella pagina Le Mie Cose",
+		"name": "Schede orizzontali in Le Mie Cose",
 		"description": "Sposta i pulsanti di navigazione della pagina Le Mie Cose (\"Tutti i Progetti\", \"Le mie Gallerie\", \"Cestino\") in cima alla pagina invece di mantenerli allineati a sinistra in verticale.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1697,25 +1746,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "Carica immagini forum",
-		"description": "Aggiunge un pulsante per caricare e inserire immagini direttamente nei post dei forum.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "Questo addon non è più supportato. Pertanto non funziona più."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1842,7 +1872,7 @@
 		"name": "Aumento limite caratteri per \"Su cosa sto lavorando\"",
 		"description": "Permette di digitare 55 caratteri aggiuntivi nella sezione \"Su cosa sto lavorando\" del tuo profilo. I caratteri aggiuntivi saranno visibili a tutti gli utenti di Scratch.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2006,8 +2036,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2240,7 +2275,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Seleziona i colori dello Stage con il contagocce",
+		"name": "Scegli colore dallo Stage con contagocce",
 		"description": "Permette al contagocce dell'editor di costumi di selezionare i colori anche dallo Stage.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2337,6 +2372,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Contatore risposte restanti",
+		"description": "Mostra quante risposte possono ancora essere inviate in ciascuna discussione di una galleria prima di raggiungere il limite di 25.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Ricorda categorie dei forum compresse",
 		"description": "Le categorie che hai compresso nella pagina iniziale dei forum (l’elenco dei forum) resteranno compresse ogni volta che torni ai forum.",
@@ -2352,7 +2403,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Pulsante remix nei tuoi progetti",
+		"name": "Pulsante remix nei tuoi stessi progetti",
 		"description": "Aggiunge il pulsante Remix ai tuoi progetti.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2503,7 +2554,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Scratchblocks 3.0 nei forum",
+		"name": "Blocchi di Scratch 3.0 nei forum",
 		"description": "Abilita la nuova versione di scratchblocks dei forum.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2541,22 +2592,6 @@
 		"versionAdded": "1.1.0",
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
-	},
-	{
-		"id": "scratchstats",
-		"name": "Statistiche profili",
-		"description": "Mostra statistiche di ScratchDB nelle pagine del profilo.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
 	},
 	{
 		"id": "script-snap",
@@ -2707,6 +2742,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Monitor sullo Stage personalizzati",
+		"description": "Modifica il colore dei monitor delle variabili e delle liste sullo Stage",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Pulsante per mostrare nelle gallerie chi ti sta seguendo",
 		"description": "Aggiunge un pulsante in cima alla scheda \"curatori\" nelle gallerie che gestisci che elenca tutti gli utenti che segui e chi ti seguono e che ti permette di invitare qualunque elenco mostrato nell'elenco con un solo click.",
@@ -2848,7 +2901,7 @@
 		"description": "Aggiunge un cursore per il volume vicino ai controlli della bandiera verde.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2861,6 +2914,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Griglia dell’editor del codice personalizzata",
+		"description": "Modifica lo stile della griglia nell’editor dei blocchi",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

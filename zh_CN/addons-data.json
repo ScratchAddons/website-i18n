@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "缩略图设置器",
+		"name": "Thumbnail setter",
 		"description": "在项目页面的右下角添加一个按钮，可以将项目的缩略图设置为任何图像（包括gif）。",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Asset conflict dialog",
+		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -159,7 +179,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "位图复制",
+		"name": "Bitmap image copying",
 		"description": "允许你将位图图片从造型编辑器复制到系统剪贴板中，以便将其粘贴到其他网站或软件中。",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -238,7 +258,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -339,10 +359,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "粘性页脚",
-		"description": "使网站页脚略微从窗口底部突出，并在悬停时展开，允许你从页面上的任何位置快速访问它。以前这是“无限滚动”插件的一部分。",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -420,6 +440,11 @@
 				"type": "notice",
 				"text": "只有启用了这个插件的用户才能看到换行符，对于其他人来说看起来是空格。",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "On profile pages, line breaks at the beginning or end of a comment do not appear.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -770,6 +795,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Delete other costumes or sounds",
+		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "禁用自动保存",
 		"description": "编辑作品时不会自动保存作品。",
@@ -866,7 +903,7 @@
 		"id": "download-button",
 		"name": "作品页下载按钮",
 		"description": "允许你直接从作品页面下载作品，而无需先打开编辑器。下载按钮将被添加到“复制链接”按钮旁边。",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1047,7 +1084,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "在编辑器中上下键增减值",
+		"name": "Arrow key incrementation",
 		"description": "使用上下键增减数字输入框中的值，例如积木的数字框或角色属性输入框。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1160,7 +1197,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1172,13 +1211,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "新的高对比度积木颜色预设已经在下方可用。"
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1206,7 +1259,7 @@
 	{
 		"id": "exact-count",
 		"name": "显示确切计数",
-		"description": "显示用户和工作室信息的确切计数。使用ScratchDB用于论坛信息。",
+		"description": "Shows exact numbers on profiles and the exact project count in studios.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1216,6 +1269,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1223,7 +1282,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "多行背包",
+		"name": "Multi-row backpack",
 		"description": "将编辑器背包的内容排列成一个可扩展的双向网格，类似于造型库，并增加某些缩略图的大小。",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1439,23 +1498,13 @@
 		"id": "forum-search",
 		"name": "论坛搜索",
 		"description": "添加一个帖子搜索栏到论坛。使用ScratchDB的信息。",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "论坛的本地时区",
-		"description": "使用你当地的时区来显示论坛上的帖子日期和时间。",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1467,7 +1516,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1486,7 +1535,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1677,7 +1726,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "“我的项目”中横向排列标签",
+		"name": "Horizontal My Stuff tabs",
 		"description": "把“我的项目”页面的跳转按钮（“全部项目”、“我的工作室”和“回收站”）从左侧移动到页面顶部",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1690,25 +1739,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "论坛图片上传器",
-		"description": "增加直接上传和插入图像到论坛帖子的按钮。",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "这个插件不再可用且不再提供支持"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1832,10 +1862,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "提升“我的工作”简介栏的字数限制",
+		"name": "Longer \"What I'm Working On\"",
 		"description": "可以让你在“我的工作”简介栏中多敲55个字。",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1999,8 +2029,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2032,7 +2067,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "命名放入背包的积木",
+		"name": "Name scripts before backpacking",
 		"description": "允许您在将脚本拖入背包后命名脚本，而不是使用默认名称\"代码\"。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2225,7 +2260,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "在舞台上使用选色器",
+		"name": "Pick stage colors with eyedropper",
 		"description": "允许造型编辑器中的取色器在舞台上取色。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2322,6 +2357,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Remaining reply counter",
+		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "记住折叠的论坛类别",
 		"description": "您在论坛首页(论坛列表)上折叠的类别将在您离开和回来时保持折叠状态。",
@@ -2337,7 +2388,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "在自己的项目改编",
+		"name": "Remix own projects",
 		"description": "在自己的项目里添加改编功能。",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2370,7 +2421,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "移除搜索栏的自动补全",
+		"name": "Disable search bar autocomplete",
 		"description": "停止网页浏览器在导航栏的搜索栏中的自动补全建议。",
 		"tags": ["community"],
 		"credits": [
@@ -2488,7 +2539,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "在论坛使用 Scratchblocks 3.0",
+		"name": "Scratch 3.0 forum blocks",
 		"description": "在论坛启用新版本 Scratchblocks",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2528,22 +2579,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "个人中心信息",
-		"description": "在用户个人中心显示来自ScratchDB的信息。",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "把积木吸附到网格",
 		"description": "积木拖动之后会自动和积木区的格点对齐。",
@@ -2566,7 +2601,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "“我的作品”搜索框",
+		"name": "My Stuff search",
 		"description": "让你能够在“我的作品”页面中搜索你的作品工作室，以及回收站中的作品。直接在页面中开始输入即可开始搜索，你也可以在搜索之后按下 Ctrl+Enter 直接打开第一个个搜索结果。",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2606,7 +2641,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "角色面板的搜索框",
+		"name": "Sprite pane search",
 		"description": "在角色面板内增加一个搜索框，以按名字搜索角色",
 		"tags": ["editor"],
 		"credits": [
@@ -2692,6 +2727,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Customizable stage monitors",
+		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "工作室中的浏览关注者按钮",
 		"description": "在您管理的工作室的“负责人”选项卡顶部添加一个按钮，其中列出了您的关注者和关注的用户，并允许您通过单击邀请显示的用户。",
@@ -2727,7 +2780,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "把变量或者列表在“适用于所有角色”和“仅适用于当前角色”之间转换",
+		"name": "Variable type switching",
 		"description": "重命名存在的变量或者列表的时候添加更多功能：把变量在“适用于所有角色”与“仅适用于当前角色”和云变量与普通变量之间转换。也可以右键点击变量，在右键菜单中直接进行转换。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2833,7 +2886,7 @@
 		"description": "在绿旗旁添加一个声音滑动条",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2846,6 +2899,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Customizable code editor grid",
+		"description": "Change the style of the grid pattern in the code editor.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

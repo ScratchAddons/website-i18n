@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnailsetzer",
+		"name": "Vorschaubild-Setzer",
 		"description": "Fügt eine Schaltfläche unten rechts zur Projektseite hinzu, mit der du das Vorschaubild deines Projektes zu einem beliebigen Bild (einschließlich GIFs) ändern kannst.",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Elementkonflikt-Dialog",
+		"description": "Beim Hochladen von Kostümen oder Klängen, die denselben Namen eines bereits vorhandenen Elements haben, wird ein Dialog mit Optionen zum Ersetzen oder Überspringen angezeigt, anstatt das betroffene Element immer umzubenennen.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -147,7 +167,7 @@
 	{
 		"id": "big-save-button",
 		"name": "Größere Schaltfläche \"Jetzt speichern\"",
-		"description": "Vergrößert die Schaltfläche \"Jetzt speichern\" im Editor, um sie leichter anklickbar zu machen.",
+		"description": "Vergrößert die Schaltfläche \"Jetzt speichern\" im Editor, damit sie leichter angeklickt werden kann.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
@@ -159,7 +179,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Kopieren von Raster-Bildern",
+		"name": "Rasterbilder kopieren",
 		"description": "Ermöglicht es dir, Raster-Bilder aus dem Maleditor in die Zwischenablage des Systems zu kopieren, sodass sie auf anderen Seiten oder Programmen eingefügt werden können.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -347,7 +367,7 @@
 		"description": "Lässt die Fußleiste der Website etwas von unten herausschauen, und vergrößert sie, wenn man mit der Maus darüber fährt, sodass sie leicht von jeder Seite genutzt werden kann. Zuvor Teil von \"Unendliches Scrollen\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Zeilenumbrüche sind nur für Nutzer mit diesem Addon sichtbar. Alle anderen werden stattdessen Leerzeichen sehen.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "Zeilenumbrüche am Beginn oder Ende von Kommentaren auf Profilseiten werden nicht angezeigt.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -488,7 +513,7 @@
 	{
 		"id": "copy-reporter",
 		"name": "Variablenwerte kopieren",
-		"description": "Fügt eine Option (zum Rechtsklick-Kontextmenü) zum Kopieren von Werten in Sprechblasen und Anzeigen von Variablenblöcken hinzu.",
+		"description": "Ergänzt eine Option zum Kopieren der Werte in Variablenanzeigen auf der Bühne (im Rechtsklick-Kontextmenü) und in Sprechblasen von Variablenblöcken.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -537,7 +562,7 @@
 	{
 		"id": "curator-link",
 		"name": "Homepagekurator-Link",
-		"description": "Macht den Benutzernamen des Homepagekuratoren zu einem anklickbaren Link zu seinem Profil.",
+		"description": "Macht den Benutzernamen des Startseiten-Kuratoren zu einem anklickbaren Link zu seinem Profil.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -780,6 +805,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Andere Kostüme oder Klänge löschen",
+		"description": "Fügt beim Rechtsklicken auf Kostümen oder Klängen eine Option zum Kontextmenü hinzu, mit der alle Elemente außer dem ausgewählten gelöscht werden können.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Automatisches Speichern deaktivieren",
 		"description": "Deaktiviert das automatische Speichern von Projekten während dem Bearbeiten.",
@@ -876,7 +913,7 @@
 		"id": "download-button",
 		"name": "Schaltfläche zum Herunterladen auf der Projektseite",
 		"description": "Ermöglicht es, Projekte direkt von der Projektseite aus herunterzuladen, ohne den Editor davor öffnen zu müssen. Die Schaltfläche zum Herunterladen wird neben der Schaltfläche \"Link kopieren\" hinzugefügt.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -907,7 +944,7 @@
 	{
 		"id": "editor-buttons-reverse-order",
 		"name": "Verkehrte Anordnung von Player-Steuerelementen",
-		"description": "Verschiebt die grüne Flagge und den Stoppknopf auf die rechte und den Vollbildknopf auf die linke Seite, wie in Scratch 2.0.",
+		"description": "Verschiebt die grüne Flagge und das Stoppschild auf die rechte und die Vollbild-Schaltfläche auf die linke Seite, wie in Scratch 2.0.",
 		"tags": ["editor", "projectPlayer", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1057,7 +1094,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Erhöhung von Zahlen durch Pfeiltasten im Editor",
+		"name": "Erhöhen mit Pfeiltasten",
 		"description": "Nutze die Pfeiltasten nach oben und nach unten, um Werte in Zahleneingabefeldern zu ändern, zum Beispiel in Blöcken oder in den Figureneigenshaften.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1170,7 +1207,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1182,13 +1221,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "Die neuen kontrastreichen Blockfarben sind unten als Vorlage verfügbar."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "Die \"Einfügemarkierung\" ist der Schatten, der beim Ziehen von Blöcken in der Nähe von anderen Blöcken erscheint."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1216,7 +1269,7 @@
 	{
 		"id": "exact-count",
 		"name": "Zeige die genaue Anzahl",
-		"description": "Zeigt die exakte Anzahl auf Benutzer- und Studioinfos an. Benutzt ScratchDB für Foreninformationen.",
+		"description": "Zeigt genaue Zahlen auf Profilen und die genaue Projektanzahl in Studios.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1225,6 +1278,12 @@
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
+		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "Die Forum-Einstellung wurde entfernt, da die benötigte ScratchDB-Datenbank offline ist."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1449,23 +1508,13 @@
 		"id": "forum-search",
 		"name": "Forumsuche",
 		"description": "Fügt ein Postsuchfeld zu den Foren hinzu. Verwendet ScratchDB, um die Informationen zu erhalten.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Lokale Zeitzone in Foren",
-		"description": "Verwendet deine lokale Zeitzone zum Anzeigen der Sendezeiten in Foren.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1477,7 +1526,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1496,7 +1545,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1507,7 +1556,7 @@
 	{
 		"id": "fullscreen",
 		"name": "Verbesserter Vollbildmodus",
-		"description": "Behebt einige unerwünschte Effekte im Vollbildmodus des Projektplayers, öffnet ihn im Vollbildmodus deines Browsers und blendet die Symbolleiste mit der grünen Flagge aus.",
+		"description": "Behebt einige unerwünschte Effekte im Vollbildmodus des Projekt-Players, öffnet ihn im Vollbildmodus deines Browsers und blendet die Symbolleiste mit der grünen Flagge aus.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
@@ -1515,7 +1564,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Wenn du die Symbolleiste nie anzeigst, denke daran, dass du mit der Esc-Taste den Vollbildmodus des Projektplayers weiterhin verlassen kannst.",
+				"text": "Wenn du die Symbolleiste nie anzeigst, denke daran, dass du mit der Esc-Taste den Vollbildmodus des Projekt-Players weiterhin verlassen kannst.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1585,7 +1634,7 @@
 		"tags": ["editor", "featured"],
 		"info": [
 			{
-				"text": "Tipp. Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen über den Menüpunkt \"Wiederherstellen\" unter \"Bearbeiten\" in der Menüleiste rückgängig machen.",
+				"text": "Tipp: Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen rückgängig machen, indem du in der Menüleiste auf \"Bearbeiten\" klickst und anschließend den Menüpunkt \"Wiederherstellen\" auswählst.",
 				"id": "restoretip"
 			}
 		],
@@ -1673,7 +1722,7 @@
 	{
 		"id": "hide-stage",
 		"name": "Bühne und Figurenleiste ausblenden",
-		"description": "Fügt einen Knopf neben dem \"Kleine Bühne\"-Knopf hinzu, der die Bühne und die Figurenleiste vollständig ausblendet und damit den Codebereich viel größer macht.",
+		"description": "Fügt eine Schaltfläche neben \"Kleine Bühne\" hinzu, die die Bühne und die Figurenleiste vollständig ausblendet und damit den Codebereich viel größer macht.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1700,25 +1749,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "Bild-Uploader in Foren",
-		"description": "Fügt eine Schaltfläche zum direkten Hochladen von BIldern in Forumposts hinzu.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "Dieses Addon wird nicht unterstützt und funktioniert nicht mehr."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1825,7 +1855,7 @@
 			{
 				"id": "privacy",
 				"type": "notice",
-				"text": "Die EInstellung \"Scratch-Benutzernamen verwenden\" wird für die Verwendung von Clouddaten deinen Scratch-Benutzernamen an TurboWarp.org senden. TurboWarp besitzt unterschiedliche Clouddatenserver, deshalb werden die Cloudvariablen nicht denen im Scratch-Player entsprechen."
+				"text": "Die Einstellung \"Scratch-Benutzernamen verwenden\" wird für die Verwendung von Clouddaten deinen Scratch-Benutzernamen an TurboWarp.org senden. TurboWarp besitzt unterschiedliche Clouddatenserver, deshalb werden die Cloudvariablen nicht denen im Scratch-Player entsprechen."
 			}
 		],
 		"versionAdded": "1.3.0",
@@ -1842,10 +1872,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Höheres Zeichenlimit in \"Woran ich gerade arbeite\"",
+		"name": "Längeres \"Woran ich gerade arbeite\"",
 		"description": "Ermöglicht es dir, 55 Zeichen mehr in \"Woran ich gerade arbeite\" einzugeben. Jeder auf Scratch wird die zusätzlichen Zeichen sehen.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1908,8 +1938,8 @@
 	},
 	{
 		"id": "middle-click-popup",
-		"name": "Blöcke mit Namen einfügen",
-		"description": "Strg+Leertaste, MIttel- oder Umschalt+Klick auf den Codebereich öffnet ein Blocksuchfenster. Gib Namen von Blöcken (bzw. Teile davon oder mehrere Blöcke) ein, um sie im Projekt einzufügen. Das Menü kann mit den Pfeiltasten und Enter navigiert werden und unterstützt Autovervollständigung mit der Tabulator-Taste. Halte beim Ziehen der Blöcke die Umschalttaste gedrückt, um das Schließen des Menüs zu verhindern.",
+		"name": "Blöcke suchen und einfügen",
+		"description": "Strg+Leertaste, MIttelklick oder Umschalt+Klick auf den Codebereich öffnet ein Blocksuchfenster. Gib Namen von Blöcken (bzw. Teile davon oder mehrere Blöcke) ein, um sie im Projekt einzufügen. Das Menü kann mit den Pfeiltasten und der Entertaste navigiert werden und unterstützt Autovervollständigung mit der Tabulator-Taste. Halte beim Ziehen der Blöcke die Umschalttaste gedrückt, um das Schließen des Menüs zu verhindern.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -2009,12 +2039,17 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
-		"name": "Projektplayer stummschalten-Knopf",
+		"name": "\"Projekt-Player stummschalten\"-Schaltfläche",
 		"description": "Strg+Klicke auf die grüne Flagge, um das Projekt stummzuschalten bzw. die Stummschaltung aufzuheben.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
@@ -2047,7 +2082,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Skripte vor dem Platzieren im Lager benennen",
+		"name": "Skripte vor dem Lagern benennen",
 		"description": "Fragt dich, Skripte zu benennen, nachdem du sie in das Lager gezogen hast, anstatt den Standardnamen \"Code\" zu verwenden.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2057,15 +2092,15 @@
 	},
 	{
 		"id": "necropost-highlighter",
-		"name": "Necropost-Markierung",
-		"description": "Markiert Themen, die viel früher als andere Themen auf derselben Forumseite gestartet wurden, damit du keine Zeit damit verlierst, Zombie-Nachrichten durchzulesen, um Fragen durchzulesen, die vor langer Zeit gestellt wurden.",
+		"name": "Inaktivitäts-Markierung",
+		"description": "Markiert Themen, die viel früher als andere Themen auf derselben Forumseite gestartet wurden, damit du keine Zeit damit verlierst, Zombie-Nachrichten durchzulesen, die vor langer Zeit gestellt wurden.",
 		"tags": ["community", "forums"],
 		"credits": [{ "name": "RT_Borg", "link": "https://github.com/RT-Borg" }],
 		"info": [
 			{
 				"type": "notice",
 				"id": "whatGetsHighlighted",
-				"text": "Manchmal ist eine alte Diskussion aus einem guten Grund aktiv gehalten, wie bei einem fortlaufenden Gespräch. Alle älteren Themen in ausgewählten Foren werden markiert, was auch Themen betreffen könnte, die keine Necroposts sind. (Deshalb werden sie markiert und nicht entfernt.)"
+				"text": "Manchmal ist eine alte Diskussion aus einem guten Grund aktiv gehalten, wie bei einem fortlaufenden Gespräch. Alle älteren Themen in ausgewählten Foren werden markiert, was auch Themen betreffen könnte, die eigentlich nicht inaktiv sind. (Deshalb werden sie markiert und nicht entfernt.)"
 			}
 		],
 		"dynamicEnable": true,
@@ -2168,8 +2203,8 @@
 	},
 	{
 		"id": "opacity-slider",
-		"name": "Durchsichtigkeitsregler",
-		"description": "Fügt einen Schieberegler für die Durchsichtigkeit zum Farbenwähler im Kostümeditor hinzu.",
+		"name": "Deckkraft-Schieberegler",
+		"description": "Fügt einen Schieberegler für die Deckkraft zum Farbenwähler im Kostümeditor hinzu.",
 		"tags": ["editor", "costumeEditor", "beta", "featured"],
 		"credits": [{ "name": "itta611", "link": "https://github.com/itta611/" }],
 		"info": [
@@ -2185,7 +2220,7 @@
 	},
 	{
 		"id": "paint-by-default",
-		"name": "Benutzerdefiniertes Verhalten von Hinzufügen-Buttons",
+		"name": "Benutzerdefiniertes Verhalten von \"Hinzufügen\"-Schaltflächen",
 		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang wählen\"-Schaltflächen, die standardmäßig die Bibliothek öffnen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2243,7 +2278,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Farben mit Pipette von Bühne wählen",
+		"name": "Farben mit Pipette von der Bühne wählen",
 		"description": "Ermöglicht es der Pipette im Kostümeditor, Farben von der Bühne auszuwählen.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2340,6 +2375,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Zähler für verbliebene Antworten",
+		"description": "Zeigt, wie viele Antworten noch in Kommentar-Threads in Studios gesendet werden können, bevor die Grenze von 25 erreicht wird.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Zugeklappte Forenkategorien merken",
 		"description": "Von dir auf der Foren-Startseite zugeklappte Kategorien (die Liste mit den Foren) werden beim nächsten Besuch der Seite zugeklappt bleiben.",
@@ -2355,7 +2406,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remixen-Schaltfläche in eigenen Projekten",
+		"name": "Eigene Projekte remixen",
 		"description": "Ermöglicht das Remixen deiner eigenen Projekte.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2378,7 +2429,7 @@
 	{
 		"id": "remove-curved-stage-border",
 		"name": "Runden Bühnenrand entfernen",
-		"description": "Entfernt den runden Rand um die Bühne, um die Ecken sichtbar zu machen.",
+		"description": "Entfernt den runden Rand der Bühne, um die Ecken sichtbar zu machen.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -2388,7 +2439,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Auto-Vervollständigen aus Suche entfernen",
+		"name": "Auto-Vervollständigen der Suche deaktivieren",
 		"description": "Hält Browser davon ab, Eingabevorschläge im Suchfeld der Navigationsleiste anzuzeigen.",
 		"tags": ["community"],
 		"credits": [
@@ -2405,7 +2456,7 @@
 		"tags": ["editor", "recommended"],
 		"info": [
 			{
-				"text": "Tipp. Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen über den Menüpunkt \"Wiederherstellen\" unter \"Bearbeiten\" in der Menüleiste rückgängig machen.",
+				"text": "Tipp: Wenn du aus Versehen eine Figur, eine Kostüm oder einen Klang löschst, kannst du das Löschen rückgängig machen, indem du in der Menüleiste auf \"Bearbeiten\" klickst und anschließend den Menüpunkt \"Wiederherstellen\" auswählst.",
 				"id": "restoretip"
 			}
 		],
@@ -2453,7 +2504,7 @@
 	{
 		"id": "resizable-comment-input",
 		"name": "Größe der Kommentarbox ändern",
-		"description": "Macht, dass die Größe der Kommentarbox auf Seiten, die Scratch 3.0-stilisiert sind, vertikal veränderbar ist.",
+		"description": "Ermöglicht das Ändern der Höhe der Kommentarbox auf Seiten, die Scratch 3.0-stilisiert sind.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
@@ -2506,7 +2557,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "3.0-Blöcke in Foren",
+		"name": "Forum-Blöcke im Scratch 3.0-Stil",
 		"description": "Aktiviert die neue Version von scratchblocks in den Foren.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2546,22 +2597,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Profilstatistiken",
-		"description": "Zeigt Statistiken von ScratchDB auf Nutzerprofilen an.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Skripte am Raster ausrichten",
 		"description": "Richtet Skripte nach dem Ziehen automatisch an den Punkten des Codebereichs aus.",
@@ -2584,7 +2619,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Suchleiste in Meine Sachen",
+		"name": "Suche in Meine Sachen",
 		"description": "Ermöglicht das Durchsuchen deiner Projekte, Studios und deines Papierkorbs auf der Meine Sachen-Seite. Beginne irgendwo auf der Seite mit der Eingabe, um mit der Suche zu beginnen. Du kannst nach der Suche auch Strg+Enter drücken, um das erste Suchergebnis zu öffnen.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2624,7 +2659,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Figuren-Suche",
+		"name": "Suche im Figurenpanel",
 		"description": "Fügt ein Suchfeld zur Figurenleiste hinzu.",
 		"tags": ["editor"],
 		"credits": [
@@ -2708,6 +2743,24 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.30.0"
+	},
+	{
+		"id": "stage-monitor",
+		"name": "Benutzerdefinierte Bühnenanzeigen",
+		"description": "Ändert die Farbe und Abrundung von Variablen- und Listenanzeigen auf der Bühne.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "studio-followers",
@@ -2795,7 +2848,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Der \"Player ersetzen\"-Modus ändert den Scratch-Player zu einem TurboWarp-Embed, was das Hineinschauen in Projekten nicht unterstützt.",
+				"text": "Der \"Player ersetzen\"-Modus ändert den Scratch-Player in eine TurboWarp-Einbettung, die \"Schau hinein\" nicht unterstützt.",
 				"id": "addonsWontWork"
 			},
 			{
@@ -2851,7 +2904,7 @@
 		"description": "Fügt einen Lautstärkeregler neben der grünen Flagge hinzu.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2866,9 +2919,21 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
+		"id": "workspace-dots",
+		"name": "Benutzerdefiniertes Code-Editor-Gitternetz",
+		"description": "Ändere das Aussehen des Gittermusters im Code-Editor",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "youtube-fullscreen",
 		"name": "YouTube-Vollbild",
-		"description": "Aktiviert die Schaltfläche \"Vollbild\" im YouTube-Videoplayer von Scratch.",
+		"description": "Aktiviert die Schaltfläche \"Vollbild\" im YouTube-Video-Player von Scratch.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2884,7 +2949,7 @@
 	{
 		"id": "zebra-striping",
 		"name": "Abwechselnde Farben für verschachtelte Blöcke",
-		"description": "Macht, dass Blöcke der selben Kategorie zwischen helleren und dunkleren Schattierungen abwechseln, wenn sie ineinander verschachtelt sind. Auch als Zebrastreifen bekannt.",
+		"description": "Wechselt Blöcke aus der gleichen Kategorie zwischen helleren und dunkleren Schattierungen ab, wenn sie ineinander verschachtelt sind. Auch als Zebrastreifen bekannt.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },

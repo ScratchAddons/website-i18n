@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Higher project framerate mode",
-		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
+		"name": "Način hitrejšega osveževanja v predvajalniku projektov",
+		"description": "Omogoči izvajanje projektov z večjim številom sličic na sekundo (FPS), da je gibanje videti bolj enakomerno. Držite Alt in kliknite zeleno zastavico, da preklopite med Scratchevimi 30 FPS in prilagojeno hitrostjo osveževanja, ki jo lahko nastavite spodaj.",
 		"tags": ["editor", "projectPlayer", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,12 +24,12 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
+				"text": "Sprememba hitrosti osveževanja Scratchevih projektov vpliva tudi na hitrost izvajanja nekaterih delov kode (na primer zank), zato večina projektov pri drugačni hitrosti ne bo delovala pravilno. Način hitrejšega osveževanja uporabljajte samo v projektih, ki ga podpirajo.",
 				"id": "projectRunsFasterNotice"
 			},
 			{
 				"type": "notice",
-				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"text": "Če je vaš brskalnik v načinu varčevanja z energijo (npr. če je baterija skoraj prazna), lahko omeji hitrost osveževanja, zato ta dodatek morda ne bo izboljšal videza animacij.",
 				"id": "powerSaver"
 			}
 		],
@@ -56,6 +56,26 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Pogovorno okno o predmetih z enakim imenom",
+		"description": "Ko naložite videz ali zvok, ki ima enako ime kot eden od obstoječih, pokaže pogovorno okno z možnostmi, da ga zamenjate, preskočite ali preimenujete.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -344,10 +364,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "Lepljiva noga",
-		"description": "Naredi, da je noga strani ves čas vidna na dnu okna kot ozka vrstica, ki se razširi, ko nanjo premaknete miško, kar omogoči hiter dostop do povezav kjerkoli na strani. Prej del dodatka \"Neskončno drsenje\".",
+		"description": "Naredi, da je noga strani ves čas vidna na dnu okna kot ozka vrstica, ki se razširi, ko nanjo premaknete miško, kar omogoči hiter dostop do povezav kjer koli na strani. Prej del dodatka \"Neskončno drsenje\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Prelome vrstic bodo videli samo uporabniki, ki so vključili ta dodatek. Za ostale bodo prikazani kot presledki.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "Na profilih prelomi vrstice na začetku ali koncu komentarja niso vidni.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -780,6 +805,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Izbriši druge videze ali zvoke",
+		"description": "V meni desne miškine tipke za videze in zvoke doda možnost, ki izbriše vse predmete razen izbranega.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Onemogoči samodejno shranjevanje",
 		"description": "Onemogoči samodejno shranjevanje projektov med urejanjem.",
@@ -876,7 +913,7 @@
 		"id": "download-button",
 		"name": "Gumb za prenos na strani projekta",
 		"description": "Omogoči, da prenesete projekte neposredno s strani projekta, ne da bi prej odprli urejevalnik. Gumb Prenesi je dodan poleg gumba Kopiraj povezavo.",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1057,7 +1094,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Sprememba števil v urejevalniku s puščicami",
+		"name": "Sprememba števil s puščicami",
 		"description": "Uporabite tipki s puščicama gor in dol, da povečate ali zmanjšate številčne vrednosti v poljih za vnos števil, kot so tista v blokih ali v območju z lastnostmi figur.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1170,7 +1207,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1182,13 +1221,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "Nove barve blokov z večjim kontrastom so na voljo kot prednastavitev spodaj."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "Med vlečenjem bloka se pokaže senca, ko ga premaknete blizu drugih blokov."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1216,7 +1269,7 @@
 	{
 		"id": "exact-count",
 		"name": "Pokaži točna števila",
-		"description": "Pokaže točna števila v podatkih o uporabnikih in studiih. Za podatke o forumih uporablja ScratchDB.",
+		"description": "Pokaži točna števila na profilih in točno število projektov v studiih.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1225,6 +1278,12 @@
 			},
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
+		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "Nastavitev Točno število objav pri uporabnikih forumov smo odstranili, ker podatkovna baza ScratchDB, ki jo je uporabljala, ni več na voljo."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1449,23 +1508,13 @@
 		"id": "forum-search",
 		"name": "Iskanje po forumih",
 		"description": "Doda vrstico za iskanje objav v forume. Za podatke uporablja ScratchDB.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Krajevni časovni pas v forumih",
-		"description": "Uporabi vaš časovni pas za prikaz datuma in časa objave v forumih.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1477,7 +1526,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1496,7 +1545,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1563,8 +1612,8 @@
 	},
 	{
 		"id": "hide-backpack",
-		"name": "Replace backpack bar with button",
-		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"name": "Zamenjaj vrstico Shramba z gumbom",
+		"description": "Zamenja vrstico Shramba delčkov kode na dnu urejevalnika z gumbom zraven nastavitev povečave.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
@@ -1702,25 +1751,6 @@
 		"injectAsStyleElt": true
 	},
 	{
-		"id": "image-uploader",
-		"name": "Nalaganje slik v forumih",
-		"description": "Doda gumb, ki naloži sliko in jo vstavi neposredno v objavo v forumu.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "Ta dodatek ne deluje več."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "infinite-scroll",
 		"name": "Neskončno drsenje",
 		"description": "Na različnih delih spletne strani omogoči drsenje navzdol, ne da bi kliknili \"naloži več\".",
@@ -1736,7 +1766,7 @@
 	{
 		"id": "initialise-sprite-position",
 		"name": "Prilagoditev položaja novih figur",
-		"description": "Spremeni, kam na odru so postavljene nove figure.",
+		"description": "Izberite točko na odru, kamor bodo postavljene nove figure.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{
@@ -1842,10 +1872,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Večja omejitev števila znakov v polju \"S čim se ukvarjam\"",
-		"description": "Omogoči, da v polje \"S čim se ukvarjam\" vnesete 55 več znakov. Vsi uporabniki Scratcha bodo videli dodatne znake.",
+		"name": "Daljše polje \"S čim se ukvarjam\"",
+		"description": "Omogoči, da v polje \"S čim se ukvarjam\" vnesete 55 znakov več. Vsi uporabniki Scratcha bodo videli dodatne znake.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1909,7 +1939,7 @@
 	{
 		"id": "middle-click-popup",
 		"name": "Iskanje blokov",
-		"description": "Kliknite območje s kodo s srednjim miškinim gumbom ali med držanjem tipke Shift ali pritisnite Ctrl+presledek, da odprete okno za iskanje blokov. Vnesite imena (ali dele imen) blokov in bloke povlecite v območje s kodo, da jih dodate v svoj projekt. Po seznamu se lahko premikate s puščicami in tipko Enter. Omogoča tudi samodejno dopolnjevanje s Tab. Med vlečenjem blokov lahko držite Shift, da seznam ostane odprt.",
+		"description": "Kliknite prostor za kodo s srednjim miškinim gumbom ali med držanjem tipke Shift ali pritisnite Ctrl+presledek, da odprete okno za iskanje blokov. Vnesite imena (ali dele imen) blokov in bloke povlecite v prostor za kodo, da jih dodate v svoj projekt. Po seznamu se lahko premikate s puščicami in tipko Enter. Omogoča tudi samodejno dopolnjevanje s Tab. Med vlečenjem blokov lahko držite Shift, da seznam ostane odprt.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -2009,8 +2039,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2243,7 +2278,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Izberi barve na odru s kapalko",
+		"name": "Izberi barve odra s kapalko",
 		"description": "Omogoči, da s kapalko v urejevalniku videzov izberete tudi barve na odru.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2254,7 +2289,7 @@
 	{
 		"id": "place-backpack-code-at-cursor",
 		"name": "Postavi kodo iz shrambe zraven miške",
-		"description": "Bloke iz shrambe postavi tja, kamor jih povlečete, ne na rob območja za kodo.",
+		"description": "Bloke iz shrambe postavi tja, kamor jih povlečete, ne na rob prostora za kodo.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],
 		"dynamicEnable": true,
@@ -2331,13 +2366,29 @@
 	{
 		"id": "redirect-mobile-forums-v2",
 		"name": "Preusmeritev v standardne forume",
-		"description": "Redirects you to the standard (\"main\") view of the forums when you visit the mobile (\"m\") view of the forums, avoiding Page not found errors.",
+		"description": "Ko obiščete mobilno (\"m\") različico forumov, vas preusmeri na standardno (\"glavno\") različico, da se izognete napaki Strani nismo našli.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
 		],
 		"enabledByDefault": true,
 		"versionAdded": "1.16.0"
+	},
+	{
+		"id": "remaining-replies",
+		"name": "Števec preostalih odgovorov",
+		"description": "Pokaže, koliko odgovorov na posamezni komentar v studiu je še mogoče objaviti, preden je dosežena omejitev 25 odgovorov.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "remember-collapsed-categories",
@@ -2355,7 +2406,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Gumb za predelavo lastnih projektov",
+		"name": "Predelaj lastne projekte",
 		"description": "Projektom, ki ste jih naredili vi, doda gumb Predelaj.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2388,7 +2439,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Odstrani samodejno izpolnjevanje iskalne vrstice",
+		"name": "Onemogoči samodejno izpolnjevanje iskalne vrstice",
 		"description": "Prepreči spletnim brskalnikom, da bi samodejno vnašali predloge v iskalno polje vrstice za navigacijo.",
 		"tags": ["community"],
 		"credits": [
@@ -2546,25 +2597,9 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Statistika na profilih",
-		"description": "Pokaže statistične podatke iz ScratchDB na profilih uporabnikov.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Pritrdi skripte na mrežo",
-		"description": "Potegnite skripto, da se njen položaj samodejno poravna s pikami na ozadju prostora za skripte.",
+		"description": "Potegnite skripto, da se njen položaj samodejno poravna s pikami na ozadju prostora za kodo.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "CST1229", "link": "https://github.com/CST1229" },
@@ -2584,7 +2619,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Vrstica za iskanje Mojih stvari",
+		"name": "Iskanje Mojih stvari",
 		"description": "Omogoči iskanje projektov, studiov in smeti na strani Moje stvari. Preprosto začnite tipkati kjerkoli na strani, da začnete iskati. Nato lahko pritisnete Ctrl+Enter, da hitro odprete prvi rezultat.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2624,7 +2659,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Polje za iskanje po seznamu figur",
+		"name": "Iskanje po seznamu figur",
 		"description": "Poleg seznama figur doda polje za iskanje figur glede na ime.",
 		"tags": ["editor"],
 		"credits": [
@@ -2653,7 +2688,7 @@
 	{
 		"id": "share-through-mystuff",
 		"name": "Deli projekte v Mojih stvareh",
-		"description": "Omogoči deljenje projektov na strani Moje stvari.",
+		"description": "Delite projekte na strani Moje stvari.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -2710,6 +2745,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Prilagoditev spremenljivk na odru",
+		"description": "Spremeni barvo in zaobljenost spremenljivk in seznamov na odru",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Gumb za povabilo sledilcev v studio",
 		"description": "Na vrh zavihka \"skrbniki\" v studiih, ki jih upravljate, doda gumb, ki prikaže seznam vaših sledilcev in uporabnikov, ki jim sledite, ter omogoči povabilo posameznega uporabnika z enim klikom.",
@@ -2745,7 +2798,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Zamenjaj spremenljivke \"za vse figure\" in \"samo za to figuro\"",
+		"name": "Sprememba vrste spremenljivk",
 		"description": "V okno za preimenovanje spremenljivke ali seznama doda več možnosti: omogoči spremembo spremenljivk \"Za vse figure\" v \"Samo za to figuro\" in obratno ter navadnih spremenljivk v spremenljivke v oblaku. Poleg tega doda novo možnost za hitro spremembo vidnosti, ko kliknete spremenljivko/seznam z desno miškino tipko.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2851,7 +2904,7 @@
 		"description": "Doda drsnik za glasnost poleg gumbov za nadzor projekta.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2864,6 +2917,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Prilagoditev mreže v urejevalniku kode",
+		"description": "Spremenite slog mrežastega vzorca v urejevalniku kode.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",

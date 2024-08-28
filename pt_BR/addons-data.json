@@ -49,13 +49,33 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Trocador de thumbnail",
+		"name": "Thumbnail setter",
 		"description": "Adiciona um botão ao canto inferior direito da página de projeto para trocar a thumbnail do seu projeto para qualquer imagem (incluindo gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
+	},
+	{
+		"id": "asset-conflict-dialog",
+		"name": "Asset conflict dialog",
+		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			},
+			{
+				"name": "GarboMuffin",
+				"link": "https://scratch.mit.edu/users/GarboMuffin/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": false,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "auto-follow-topics",
@@ -159,7 +179,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Copiar imagens bitmap",
+		"name": "Bitmap image copying",
 		"description": "Te deixa copiar uma imagem bitmap do editor de fantasia e colar em outros sites ou programas.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -243,7 +263,7 @@
 				"name": "--Explosion--",
 				"link": "https://github.com/explosion-scratch"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -344,10 +364,10 @@
 	{
 		"id": "collapse-footer",
 		"name": "Sticky footer",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scolling\".",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
 		"tags": ["community"],
 		"credits": [
-			{ "name": "Samq64", "link": "https://scratch.mit.edu/users/samq64" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
 		],
 		"dynamicEnable": true,
@@ -425,6 +445,11 @@
 				"type": "notice",
 				"text": "Line breaks are only visible to users with this addon enabled. They will appear as spaces for others.",
 				"id": "ownLineBreaks"
+			},
+			{
+				"type": "info",
+				"text": "On profile pages, line breaks at the beginning or end of a comment do not appear.",
+				"id": "scratchr2Linebreaks"
 			}
 		],
 		"dynamicEnable": true,
@@ -777,6 +802,18 @@
 		"versionAdded": "1.18.0"
 	},
 	{
+		"id": "delete-others",
+		"name": "Delete other costumes or sounds",
+		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"tags": ["editor", "costumeEditor", "featured"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
+	},
+	{
 		"id": "disable-auto-save",
 		"name": "Desativar auto-save",
 		"description": "Desativa salvamento automático de projetos enquanto você edita.",
@@ -873,7 +910,7 @@
 		"id": "download-button",
 		"name": "Botão de baixar na página do projeto",
 		"description": "Permite você fazer o download de projetos diretamente da página do projeto, sem precisar abrir o editor primeiro. O botão de download é adicionado próximo ao botão de \"Copiar Link\".",
-		"tags": ["community", "projectPlayer", "featured"],
+		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
@@ -1054,7 +1091,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation in editor",
+		"name": "Arrow key incrementation",
 		"description": "Use the up and down arrow keys to increase or decrease number values in numeric input fields such as those in blocks or the sprite properties area.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1167,7 +1204,9 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "DNin01", "link": "https://github.com/DNin01" }
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
 			{
@@ -1179,13 +1218,27 @@
 				"id": "aboutHighContrast",
 				"type": "info",
 				"text": "As novas cores dos blocos em Alto Contraste estão disponíveis como pré-definições abaixo."
+			},
+			{
+				"id": "whatsInsertionMarker",
+				"type": "info",
+				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.2.0",
-		"latestUpdate": { "version": "1.36.0", "newSettings": ["monitors"] },
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"newSettings": [
+				"fillStyle",
+				"fillOpacity",
+				"strokeStyle",
+				"strokeOpacity"
+			]
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -1213,7 +1266,7 @@
 	{
 		"id": "exact-count",
 		"name": "Mostrar contagem exata",
-		"description": "Mostra o número exato nas informações de usuários e estúdios. Usa o ScratchDB para informações dos fóruns.",
+		"description": "Shows exact numbers on profiles and the exact project count in studios.",
 		"tags": ["community", "recommended", "profiles", "forums", "studios"],
 		"credits": [
 			{
@@ -1223,6 +1276,12 @@
 			{ "name": "Maximouse", "link": "https://mxmou.github.io/exactcount" },
 			{ "name": "World_Languages" }
 		],
+		"info": [
+			{
+				"id": "setting-removal",
+				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -1230,7 +1289,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Múltiplas linhas na mochila",
+		"name": "Multi-row backpack",
 		"description": "Arranges the contents of the editor backpack into an expandable two-way grid, similar to the costume library and increases the size of certain thumbnails.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1446,23 +1505,13 @@
 		"id": "forum-search",
 		"name": "Pesquisa do fórum",
 		"description": "Adiciona uma barra de pesquisa ao fórum. Usa o ScratchDB para obter informações.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "beta"],
 		"credits": [{ "name": "DatOneLefty" }, { "name": "Hans5958" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"libraries": ["scratchblocks"],
 		"versionAdded": "1.1.0"
-	},
-	{
-		"id": "forum-time-zones",
-		"name": "Fuso-horário local nos fóruns",
-		"description": "Usa seu fuso-horário local nas datas e horários de postagem no fórum.",
-		"tags": ["forums", "community", "beta"],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "forum-toolbar",
@@ -1474,7 +1523,7 @@
 				"name": "Silk",
 				"note": "icons",
 				"id": "icons",
-				"link": "http://www.famfamfam.com/lab/icons/silk/"
+				"link": "https://github.com/markjames/famfamfam-silk-icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1493,7 +1542,7 @@
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }
+			{ "name": "cobalt", "link": "https://github.com/cobaltt7" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -1684,7 +1733,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Abas horizontais nas Minhas Coisas",
+		"name": "Horizontal My Stuff tabs",
 		"description": "Move as abas de navegação da página Minhas Coisas (\"Todos os Projetos\", \"Meus Estúdios\", \"Lixeira\") para o topo da página, ao invés de deixá-los na esquerda.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1697,25 +1746,6 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.25.0",
 		"injectAsStyleElt": true
-	},
-	{
-		"id": "image-uploader",
-		"name": "Envio de imagens para os fóruns",
-		"description": "Adiciona um botão para diretamente carregar e inserir imagens em postagens no fórum.",
-		"tags": ["forums", "community", "beta"],
-		"credits": [{ "name": "Jeffalo" }],
-		"info": [
-			{
-				"id": "deprecated",
-				"type": "warning",
-				"text": "This addon is no longer supported and does not work anymore."
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"libraries": ["spark-md5", "text-field-edit"],
-		"versionAdded": "1.0.0"
 	},
 	{
 		"id": "infinite-scroll",
@@ -1839,10 +1869,10 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Limite de caractere maior no \"Em que estou trabalhando\"",
+		"name": "Longer \"What I'm Working On\"",
 		"description": "Te deixa digitar mais 55 caracteres na seção \"Em que estou trabalhando do seu perfil. Todos poderão ver os caracteres extra.",
 		"tags": ["community", "profiles"],
-		"credits": [{ "name": "RedGuy7", "link": "https://github.com/RedGuy12" }],
+		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2006,8 +2036,13 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
-		"versionAdded": "1.0.0"
+		"enabledByDefault": false,
+		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"isMajor": true,
+			"version": "1.39.0",
+			"temporaryNotice": "This addon was automatically disabled for some users. You can reenable it to get it back."
+		}
 	},
 	{
 		"id": "mute-project",
@@ -2041,7 +2076,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Nomear scripts ao adicioná-los na mochila",
+		"name": "Name scripts before backpacking",
 		"description": "Pede você para dar um nome a novos scripts que você adicionar à mochila, ao invés de usar o nome padrão \"code\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2334,6 +2369,22 @@
 		"versionAdded": "1.16.0"
 	},
 	{
+		"id": "remaining-replies",
+		"name": "Remaining reply counter",
+		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"tags": ["community", "comments"],
+		"credits": [
+			{
+				"name": "BarelySmooth",
+				"link": "https://scratch.mit.edu/users/BarelySmooth/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "remember-collapsed-categories",
 		"name": "Remember collapsed forum categories",
 		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
@@ -2349,7 +2400,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Botão de remixar nos seus próprios projetos",
+		"name": "Remix own projects",
 		"description": "Adiciona o botão de remixar nos seus próprios projetos.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2382,7 +2433,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Remover o autocompletar da barra de busca",
+		"name": "Disable search bar autocomplete",
 		"description": "Impede o navegador de autocompletar palavras digitadas com sugestões na barra de busca da barra de navegação.",
 		"tags": ["community"],
 		"credits": [
@@ -2500,7 +2551,7 @@
 	},
 	{
 		"id": "scratchblocks",
-		"name": "Scratchblocks estilo 3.0 nos fóruns",
+		"name": "Scratch 3.0 forum blocks",
 		"description": "Ativa a nova versão dos scratchblocks nos fóruns.",
 		"tags": ["community", "forums", "beta"],
 		"credits": [
@@ -2540,22 +2591,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "scratchstats",
-		"name": "Estatísticas de perfil",
-		"description": "Mostra estatísticas do ScratchDB em páginas de usuário.",
-		"tags": ["community", "profiles"],
-		"credits": [
-			{
-				"name": "Maximouse",
-				"link": "https://scratch.mit.edu/users/Maximouse/"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"libraries": ["chartjs"],
-		"versionAdded": "1.11.0"
-	},
-	{
 		"id": "script-snap",
 		"name": "Alinhar scripts à grade",
 		"description": "Arraste um script para automaticamente alinhas sua posição à grade de pontos.",
@@ -2578,7 +2613,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "Barra de busca nas Minhas Coisas",
+		"name": "My Stuff search",
 		"description": "Te deixa pesquisar seus projetos, seus estúdios e sua lixeira na página Minhas Coisas. É só começar a digitar em qualquer lugar na página para começar uma busca. Você também pode pressionar Ctrl+Enter depois de digitar para abrir o primeiro resultado rapidamente.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2618,7 +2653,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Search box in sprite pane",
+		"name": "Sprite pane search",
 		"description": "Adiciona uma barra de busca ao painel de atores para pesquisar por atores pelo nome.",
 		"tags": ["editor"],
 		"credits": [
@@ -2704,6 +2739,24 @@
 		"versionAdded": "1.30.0"
 	},
 	{
+		"id": "stage-monitor",
+		"name": "Customizable stage monitors",
+		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"tags": ["editor", "theme", "projectPlayer"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0",
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
+	},
+	{
 		"id": "studio-followers",
 		"name": "Convidar seguidores para estúdios",
 		"description": "Adiciona um botão no topo da aba de \"curadores\" em estúdios que você administra que mostra seus seguidores e usuários que você segue e te deixa convidar um usuário com um só clique.",
@@ -2739,7 +2792,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Trocar variáveis entre \"Para todos os atores\" e \"Apenas para este ator\"",
+		"name": "Variable type switching",
 		"description": "Adiciona mais opções ao renomear uma variável ou lista existente: permite trocar entre a opção \"Para todos os atores\" e \"Apenas para este ator\" e trocar se as variáveis são guardadas na nuvem ou não. Também adiciona uma nova opção ao clicar com o botão direito em uma variável/lista para rapidamente trocar seu acesso.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2845,7 +2898,7 @@
 		"description": "Adds a volume slider next to the green flag controls.",
 		"tags": ["editor", "projectPlayer", "recommended"],
 		"credits": [
-			{ "name": "samq64", "link": "https://scratch.mit.edu/users/samq64/" },
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
 			{ "name": "DNin01", "link": "https://github.com/DNin01" }
 		],
@@ -2858,6 +2911,18 @@
 			"isMajor": true
 		},
 		"updateUserstylesOnSettingsChange": true
+	},
+	{
+		"id": "workspace-dots",
+		"name": "Customizable code editor grid",
+		"description": "Change the style of the grid pattern in the code editor.",
+		"tags": ["editor", "codeEditor", "theme"],
+		"credits": [
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.39.0"
 	},
 	{
 		"id": "youtube-fullscreen",
