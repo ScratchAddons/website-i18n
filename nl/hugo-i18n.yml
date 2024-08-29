@@ -142,9 +142,6 @@ FeedbackPage:
       Punishment:
         Heading: We kunnen mensen niet bestraffen. Wij zijn niet het Scratch Team.
         Description: Scratch Addons is niet in samenwerking met de Scratch website of de organisaties die het onderhouden. We hebben geen controle over de inhoud en moderatie op de Scratch website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch website.{{ .Tag1End }}
-      MV3LoadBug:
-        Heading: Er is een bekend probleem die ervoor zorgt dat alle addons stoppen met werken
-        Description: Versie v1.38.1 van Scratch Addons heeft een bekend probleem waarbij sommige addons ervoor kunnen zorgen dat alle addons opeens stoppen met werken. Probeer de addon Necropost-markeerder uit te schakelen.
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
 ChangelogPage:
