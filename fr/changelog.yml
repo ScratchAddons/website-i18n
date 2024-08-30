@@ -181,3 +181,28 @@ v1.34.0:
       Nouvel addon : "Incrémentation avec les touches fléchées dans l'éditeur", qui vous permet d'utiliser les touches fléchées vers le haut et vers le bas pour augmenter ou diminuer les valeurs numériques dans les entrées de blocs. Allez à Paramètres de Scratch Addons pour l'activer.
 
       Un autre nouvel addon est le thème "éditeur compact", qui réduit la taille des boutons, des champs de saisie, de la barre de menu et d'autres éléments de l'éditeur, libérant ainsi de l'espace pour des composants tels que la zone de code, l'éditeur de costumes et les aperçus de costumes, comme c'était le cas dans Scratch 2.0.
+v1.35.0:
+  Highlights:
+    Description: |
+      Nouvel addon : "déformation dans l'éditeur de costumes", qui vous permet de maintenir la touche Ctrl enfoncée tout en redimensionnant un objet sur ses côtés pour le déformer. Vous pouvez activer cette fonctionnalité en allant dans les paramètres de Scratch Addons.
+
+      Un autre nouveau addon est "prévisualisation des instructions et des notes du projet", qui ajoute un bouton au-dessus du champ Instructions dans vos propres projets, vous permettant de prévisualiser les instructions et les notes du projet telles qu'elles seront vues par les autres utilisateurs.
+v1.36.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "réarranger l'entré des blocs custom", ce qui permet de réarranger les paramètres des blocs custom dans l'écran "Créer un bloc". Dirigez vous dans vos paramètres Scratch Addon pour activer cette fonctionnalité.
+
+      D'autres nouveaux addons ont étés ajoutés lors de cette mise à jour telle que "la barre de menu customisable", "placer le code provenant du sac à dos directement à la position du curseur", ainsi que "les entrées textes rectangulaires des blocs".
+v1.37.0:
+  Highlights:
+    Description: |
+      Nouvel addon: "bouton de téléchargement d'un projet directement sur sa page", ce qui permet de télécharger le programme directement sur la page du projet, sans même avoir à ouvrir l'éditeur en premier lieu. Dirigez vous dans vos paramètres Scratch Addon pour activer cette fonctionnalité.
+
+      D'autres nouveaux addons ont étés ajoutés pour cette mise à jour tel que "bouton de sauvegarde plus large", ainsi que "remplacer la barre du sac à dos par un bouton".
+v1.38.0:
+  Highlights:
+    Description: |+
+      Il s'agit d'une mise à jour expérimentale que nous ne publions seulement à certains de nos utilisateurs. Elle contient certains changements arrière-plan qui supporte la nouvelle architecture requise par les navigateurs (Manifest V3). Si vous rencontrez le moindre dysfonctionnement ou comportement inattendu, nous vous prions de nous envoyés vos retours. Il y a aussi un bouton pour envoyer des commentaires dans la page de vos paramètres.
+
+      Cette mise à jour n'introduit aucune nouvelle fonctionnalité, mais reste activé pour de nouvelles mises à jours qui arriveront par la suite.
+
