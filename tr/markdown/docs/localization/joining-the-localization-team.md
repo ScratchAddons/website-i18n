@@ -7,7 +7,9 @@ description: Scratch Eklentileri'ni diğer dillere çevirmeye gönüllü olmakla
 Eğer Scratch Eklentileri'nde bir **çeviri hatası/yanlışı** bulursanız, lütfen bunun hakkında [geri bildirim gönderin](/feedback).
 {{< /admonition >}}
 
-Scratch Eklentileri, dünyanın dört bir yanındaki gönüllülerin yardımıyla 15'ten fazla dilde mevcut.
+Thanks for the interest to help with translating Scratch Addons to other languages! Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+
+Please read this page carefully to continue.
 
 ## Bir çevirmen olarak katılmak için gerekenler
 
@@ -54,14 +56,14 @@ These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Çevirmen olarak katılmak için gereken adımlar
 
-Scratch Eklentileri'ni diğer dillere çevirme konusunda yardım etmek istediğiniz için teşekkür ederiz! Lütfen aşağıdaki adımları izleyin.
+Please follow the steps below.
 
 ### 1. Scratch hesabınızı doğrulayın
 1. Scratch hesabınız açıkken bu [Scratch stüdyosunu](https://scratch.mit.edu/studios/33665222/comments) ziyaret edin.
 1. Çevirmek istediğiniz dili belirten bir stüdyo yorumu gönderin (örneğin, `Yunanca`).
 ![Scratch'in Ekran Görüntüsü](/assets/img/docs/scratch-req-language.png)
 
-Eğer bir Scratch hesabınız yoksa, lütfen bunun yerine `translation@scratchaddons.com` adresine bir e-posta gönderin.
+**If you don't have a Scratch account**, please send an email to `translation@scratchaddons.com` instead. Do not create a new Scratch account just to fulfill this requirement. New Scratcher accounts will be ignored.
 
 ### 2. Bir Transifex hesabı oluşturun
 1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
@@ -92,11 +94,11 @@ Eğer hâlihazırda bir Transifex hesabınız varsa ve yeni bir tane oluşturmak
 Discord hesabınız varsa [Geliştirici Discord sunucumuza](https://discord.gg/Ak8sCDQ) katılmanızı öneririz.
 
 {{< admonition success >}}
-**Eğer talebiniz kabul edilirse Transifex'ten bir e-posta alacaksınız. İstekleri genelde 48 saat içinde inceliyoruz.**
+**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 96 hours.**
 {{< /admonition >}}
 
 {{< admonition error >}}
-Eğer talebiniz reddedilirse bir e-posta alacaksınız. Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen `translation@scratchaddons.com` adresine Transifex kullanıcı adınızı da içeren bir e-posta gönderin. Diğer iletişim yöntemlerine aşağıdan bakabilirsiniz.
+If your request is denied, you'll receive an email. Decisions are never final. You may send an email to  `translation@scratchaddons.com` indicating your Transifex username and your request will be strongly reconsidered. See below for other contact methods.
 {{< /admonition >}}
 
 ## Yardım ve iletişim

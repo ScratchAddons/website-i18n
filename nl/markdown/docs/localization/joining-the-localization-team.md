@@ -7,7 +7,9 @@ description: Bedankt voor je interesse over het meehelpen om Scratch Addons te v
 Als je een **vertaalfout** hebt gevonden in Scratch Addons, [geef ons feedback](/feedback).
 {{< /admonition >}}
 
-Scratch Addons is beschikbaar in meer dan 15 talen dankzij de hulp van vrijwilligers over de hele wereld.
+Thanks for the interest to help with translating Scratch Addons to other languages! Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+
+Please read this page carefully to continue.
 
 ## Vereisten om mee te doen als een vertaler
 
@@ -54,14 +56,14 @@ Deze talen accepteren **geen** nieuwe vertalers meer: **Italiaans, Spaans.**<!--
 
 ## Stappen om mee te doen als een vertaler
 
-Bedankt voor je interesse om mee te helpen met het vertalen van Scratch Addons naar andere talen! Volg de stappen hieronder.
+Please follow the steps below.
 
 ### 1. Verifieer je Scratch-account
 1. Bezoek deze [Scratch-studio](https://scratch.mit.edu/studios/33665222/comments) met je Scratch-account.
 1. Stuur een opmerking in de studio en vermeld naar welke taal je wilt vertalen. (Bijvoorbeeld: `Greek`, voer de taal het liefst in het Engels in.)
 ![Screenshot van Scratch](/assets/img/docs/scratch-req-language.png)
 
-Als je geen Scratch-account hebt, stuur dan een e-mail naar `translation@scratchaddons.com`.
+**If you don't have a Scratch account**, please send an email to `translation@scratchaddons.com` instead. Do not create a new Scratch account just to fulfill this requirement. New Scratcher accounts will be ignored.
 
 ### 2. Maak een Transifex-account
 1. Ga naar [Transifex open-bron registreren](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).
@@ -92,11 +94,11 @@ Als je al een Transifex-account hebt en geen nieuw account wilt maken, stuur dan
 Als je een Discord-account hebt, moedigen we je aan lid te worden van onze [Discord-server voor Ontwikkelaars](https://discord.gg/Ak8sCDQ).
 
 {{< admonition success >}}
-**Als je verzoek is geaccepteerd ontvang je een e-mail van Transifex. Normaal gesproken beoordelen we de verzoeken elke 48 uur.**
+**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 96 hours.**
 {{< /admonition >}}
 
 {{< admonition error >}}
-Als je verzoek is afgekeurd, ontvang je een e-mail. Als je denkt dat dit een fout was, stuur dan een e-mail naar `translation@scratchaddons.com` en vermeld je Transifex-gebruikersnaam. Hieronder lees je nog meer contactmethoden.
+If your request is denied, you'll receive an email. Decisions are never final. You may send an email to  `translation@scratchaddons.com` indicating your Transifex username and your request will be strongly reconsidered. See below for other contact methods.
 {{< /admonition >}}
 
 ## Hulp en contact

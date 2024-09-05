@@ -7,7 +7,9 @@ description: Grazie per il tuo interesse ad aggiungerti al Team di volontari che
 Se trovi un **errore di traduzione** su Scratch Addons, [inviaci un feedback](/feedback).
 {{< /admonition >}}
 
-Scratch Addons è disponibile in più di 15 lingue grazie all'aiuto di volontari da tutto il mondo.
+Thanks for the interest to help with translating Scratch Addons to other languages! Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+
+Please read this page carefully to continue.
 
 ## Requisiti per proporsi come traduttore
 
@@ -54,14 +56,14 @@ These languages **do not** accept new translator requests: **Italian, Spanish.**
 
 ## Passi per proporsi come traduttore
 
-Ti ringraziamo per volerti offrire come traduttore di Scratch Addons in un'altra lingua! Per proporti, segui i passi qui sotto.
+Please follow the steps below.
 
 ### 1. Verifica il suo account Scratch
 1. Visita questa [galleria di Scratch](https://scratch.mit.edu/studios/33665222/comments) dopo esserti collegato con il tuo account Scratch.
 1. Inserisci un commento nella galleria, indicando la lingua in cui vorresti tradurre (ad esempio, `Greco`). 
 ![Screenshot di Scratch](/assets/img/docs/scratch-req-language.png)
 
-Se non hai un account Scratch, invia invece un'email a `translation@scratchaddons.com`.
+**If you don't have a Scratch account**, please send an email to `translation@scratchaddons.com` instead. Do not create a new Scratch account just to fulfill this requirement. New Scratcher accounts will be ignored.
 
 ### 2. Crea un account Transifex
 1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
@@ -92,11 +94,11 @@ Sei hai già un account Transifex e non vuoi crearne uno nuovo, invia un'email a
 Se hai un account Discord, ti suggeriamo di iscriverti al nostro [server Development Discord](https://discord.gg/Ak8sCDQ).
 
 {{< admonition success >}}
-**Se la tua richiesta viene accettata riceverai un'email da Transifex. Di solito analizziamo le richieste ogni 48 ore.**
+**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 96 hours.**
 {{< /admonition >}}
 
 {{< admonition error >}}
-Se la tua richiesta viene respinta riceverai un'email. Se ritieni che si tratti di un errore, invia un'email a `translation@scratchaddons.com` indicando il tuo username Transifex. Vedi qui sotto per ulteriori metodi per contattarci.
+If your request is denied, you'll receive an email. Decisions are never final. You may send an email to  `translation@scratchaddons.com` indicating your Transifex username and your request will be strongly reconsidered. See below for other contact methods.
 {{< /admonition >}}
 
 ## Aiuto o contatti
