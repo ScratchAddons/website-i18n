@@ -114,6 +114,14 @@ AddonsPage:
     L2: Bu sayfada, easter egg eklentisinin adının yanında bir yumurta sembolü olacaktır.
   NAddons: "{{.Count}} eklenti"
   SourceCodeLabel: GitHub'daki kaynak kodu
+  SourceCodeLink:
+    Title: GitHub'daki açık kaynak kodu
+  SASettingsLink:
+    Label: Scratch Eklentileri'ndeki Ayarlar
+    Title: Scratch Eklentileri ayarlarında aç
+  AddonDocsLink:
+    Label: Eklenti Belgeleri sayfası
+    Title: Bu eklenti hakkında daha fazlasını Eklenti Belgeleri'nde okuyun
 FeedbackPage:
   Status:
     Sending: Gönderiliyor...
@@ -165,4 +173,17 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      ID: Kimlik Numarası
+      Description: Açıklama
       Credits: Emeği Geçenler
+      Tags: Etiketler
+      VersionAdded: Eklenen sürüm
+      LatestUpdate: Son güncelleme
+      Informations: Bilgilendirmeler
+    FeatureFlags:
+      enabledByDefault: Varsayılan olarak etkin
+      dynamicEnable: Dinamik etkinleştirme
+      dynamicDisable: Dinamik devre dışı etme
+    Links:
+      SourceCode: Kaynak kodu
+      SASettings: Scratch Eklentisi ayarları
