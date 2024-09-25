@@ -50,7 +50,7 @@ Vergeet niet om Scratch Addons ook bij te werken vanuit de browser.
   This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
 {{< /admonition >}}
 
-Gebruik deze methode als je Git niet hebt geïnstalleerd.
+If you do not have Git installed, use this method instead.
 
 1. Ga naar het [archief](https://github.com/ScratchAddons/ScratchAddons) en vind de code downloaden-knop.
 

@@ -50,7 +50,7 @@ Vergiss nicht, Scratch Addons auch im Browser zu aktualisieren.
   Diese Methode ist nur dann für die Entwicklung empfohlen, wenn Git nicht am System installiert werden kann. Der Vorgang muss bei jedem Update von Scratch Addons manuell wiederholt werden.
 {{< /admonition >}}
 
-Wenn du Git nicht installiert hast, nutze stattdessen diese Methode.
+If you do not have Git installed, use this method instead.
 
 1. Gehe zum [Repository](https://github.com/ScratchAddons/ScratchAddons) und finde den  "Download code"-Knopf.
 
