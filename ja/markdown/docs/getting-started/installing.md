@@ -50,7 +50,7 @@ Remember to also update Scratch Addons from the browser.
   This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
 {{< /admonition >}}
 
-If you don not have Git installed, use this method instead.
+If you do not have Git installed, use this method instead.
 
 1. [リポジトリ](https://github.com/ScratchAddons/ScratchAddons) にて、ダウンロードボタンを押します。
 
