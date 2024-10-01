@@ -1270,7 +1270,7 @@
 		"id": "exact-count",
 		"name": "Pokaži točna števila",
 		"description": "Pokaži točna števila na profilih in točno število projektov v studiih.",
-		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
 				"name": "TheColaber",

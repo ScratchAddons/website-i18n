@@ -1267,7 +1267,7 @@
 		"id": "exact-count",
 		"name": "정확한 정보 표시",
 		"description": "Shows exact numbers on profiles and the exact project count in studios.",
-		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
 				"name": "TheColaber",

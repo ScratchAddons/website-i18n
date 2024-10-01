@@ -1267,7 +1267,7 @@
 		"id": "exact-count",
 		"name": "Mostra numero esatto",
 		"description": "Mostra i numeri esatti nel profilo e il numero esatto di progetti nelle gallerie.",
-		"tags": ["community", "recommended", "profiles", "forums", "studios"],
+		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
 				"name": "TheColaber",
