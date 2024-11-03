@@ -12,7 +12,7 @@ Scratch-lisäosat yhdistää Scratch-verkkosivuston ja sen projektieditorin uude
 - Jos haluat auttaa laajennuksen lokalisoinnissa, [lue tämä sivu](localization/joining-the-localization-team).
 - Jos tarvitset apua Scratch-lisäosien käytön aloittamisessa, [lue tämä sivu](getting-started/quick-start).
 - Jos olet kiinnostunut projektin ulkoasusta, [lue tämä sivu](reference/design).
-- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Löysitkö bugin? Onko sinulla kehitysehdotus? Kerro niistä  [seikkavälilehdellä](https://github.com/ScratchAddons/ScratchAddons/issues).
 
 ## Osallistuminen
 

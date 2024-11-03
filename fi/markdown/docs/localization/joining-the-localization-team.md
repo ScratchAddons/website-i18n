@@ -1,35 +1,35 @@
 ---
-title: Joining the Localization Team
-description: Thanks for being interested on volunteering to translate Scratch Addons to other languages! Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
+title: Lokalisointitiimiin liittyminen
+description: Hienoa, että olet kiinnostunut Scratch-lisäosien kääntämisestä muille kielille vapaaehtoistyönä! Scratch-lisäosat on voittoa tavoittelematon avoimen lähdekoodin hanke, jota vapaaehtoiset sovelluskehittäjät ylläpitävät ja kehittävät.
 ---
 
 {{< admonition info >}}
-If you found a **translation mistake/error** in Scratch Addons, please [send feedback](/feedback) about it.
+Jos löydät Scratch-lisäosista **käännösvirheen**, [lähetä siitä palautetta](/feedback).
 {{< /admonition >}}
 
-Thanks for the interest to help with translating Scratch Addons to other languages! Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+Hienoa, että olet kiinnostunut Scratch-lisäosien kääntämisestä muille kielille! Scratch-lisäosat on saatavilla yli 15 kielellä eri puolilla maailmaa asuvien vapaaehtoisten ansiosta
 
-Please read this page carefully to continue.
+Lue tämä sivu huolellisesti ennen kuin jatkat.
 
-## Requirements to join as a translator
+## Kääntäjältä vaadittavat asiat
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
-* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* Sinun on osattava **SUJUVAA ENGLANTIA**.
+* Osaat englantia sujuvasti esimerkiksi, jos kykenet käyttämään Scratch-lisäosien asetussivua englanniksi tai jos ymmärrät griffpatchin videoita. Jos joidenkin lauseiden ymmärtäminen on sinulle haastavaa ilman käännösohjelman käyttöä, et osaa kieltä sujuvasti.
+* Kielen, jolle haluat sisältöä kääntää, on oltava **ÄIDINKIELESI**.
+* Sinulla on oltava sähköpostitili, johon saapuneet viestit kannataisi lukea ainakin kerran viikossa.
+* Sinulla on oltava tili osoitteessa [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
+**Näihin kieliin EI hyväksytä uusia kääntäjiä:** italia, espanja. <!-- Tämä kielilista löytyy myös alta. Muista päivittää molempia. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+Jos käännösten kohdekieli ei ole äidinkielesi, mutta katsot osaavasi sitä riittävän hyvin, voit lähettää liittymispyynnön. Muista, että muutamat kielikurssit eivät tee sinusta sujuvaa kielenkäyttäjää. Jos et vaihtaisi älypuhelimesi käyttöjärjestelmän kieltä kyseiselle kielellä, et osaa sitä riittävän hyvin!
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+Scratch-lisäosat voidaan kääntää vain kielille, joille Scratch on käännetty. Myös oikealta vasemalle kirjoitettavien kielten, kuten arabian tai heprean, käännökset toimivat moitteettomasti.
 
-## Content available for translation
+## Käännettävä sisältö
 
-### Scratch Addons browser extension
+### Scratch-lisäosien selainlaajennus
 
 - **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
 
