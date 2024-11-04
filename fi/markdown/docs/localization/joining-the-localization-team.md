@@ -20,7 +20,7 @@ Lue tämä sivu huolellisesti ennen kuin jatkat.
 * Sinulla on oltava tili osoitteessa [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
-**Näihin kieliin EI hyväksytä uusia kääntäjiä:** italia, espanja. <!-- Tämä kielilista löytyy myös alta. Muista päivittää molempia. -->
+**Näihin kieliin EI hyväksytä uusia kääntäjiä:** espanja, italia. <!-- Tämä kielilista löytyy myös alta. Muista päivittää molempia. -->
 {{< /admonition >}}
 
 Jos käännösten kohdekieli ei ole äidinkielesi, mutta katsot osaavasi sitä riittävän hyvin, voit lähettää liittymispyynnön. Muista, että muutamat kielikurssit eivät tee sinusta sujuvaa kielenkäyttäjää. Jos et vaihtaisi älypuhelimesi käyttöjärjestelmän kieltä kyseiselle kielellä, et osaa sitä riittävän hyvin!
@@ -31,28 +31,28 @@ Scratch-lisäosat voidaan kääntää vain kielille, joille Scratch on käännet
 
 ### Scratch-lisäosien selainlaajennus
 
-- **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
+- **Yleiset käännökset.** Laajennus tarvitsee suunnilleen ~150 käännettyä merkkijonoa. Käyttäjät näkevät yleiset käännökset omalla kielellään, jos 90 % niistä on käännetty.
 
-- **Addons Translation.** These text strings include addon names, descriptions, settings, and other text strings used by addons. Users can only see these translations if the general translation is already available and 80% of addon strings were translated. There are over 1000 addon strings available for translation.
+- **Lisäosien käännökset.** Lisäosien tarvitsemiin käännöksiin kuuluvat lisäosien nimet, kuvaukset, asetukset ja muut lisäosien käyttämät merkkijonot. Käyttäjät näkevät lisäosien käännökset omalla kielellään, kun 80 % niistä on käännetty ja yleiset käännökset ovat saatavilla. Lisäosien käyttämiä merkkijonoja on käännettävänä yli 1000.
 
-![Screenshot of the Scratch Addons extension in Japanese](/assets/img/docs/transifex-general-vs-addons.png)
+![Näyttökuva japankielisestä Scratch-lisäosien laajennuksesta](/assets/img/docs/transifex-general-vs-addons.png)
 
-### Scratch Addons website
+### Scratch-lisäosien verkkosivusto
 
-Translators also have the possibility to translate the contents of the Scratch Addons website. For more information about translating the website, see [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Kääntäjillä on myös mahdollisuus kääntää Scratch-lisäosien verkkosivuston sisältöä. Lisätietoja verkkosivuston kääntämisestä löytyy enganninkielisestä wikiartikkelista [Kääntäminen](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
-## Supported languages
+## Kielet, joille voidaan kääntää
 
-We support most languages that Scratch itself supports.
+Scratch-lisäosat voidaan kääntää useimmille kielille, joille Scratch on käännetty.
 
 <details>
-<summary>Click to access the full list supported languages (50+ languages)</summary>
-Abkhaz (ab), Afrikaans (af), Amharic (am), Aragonese (an), Arabic (ar), Azerbaijani (az), Belarusian (be), Bulgarian (bg), Bengali (bn), Catalan (ca), Central Kurdish (ckb), Czech (cs), Welsh (cy), Danish (da), German (de), Greek (el), Spanish (es), Estonian (et), Basque (eu), Persian (fa), Finnish (fi), French (fr), Western Frisian (fy), Irish (ga), Gaelic, Scottish (gd), Galician (gl), Hebrew (he), Hindi (hi), Croatian (hr), Haitian (Haitian Creole) (ht), Hungarian (hu), Armenian (hy), Indonesian (id), Icelandic (is), Italian (it), Japanese (ja), Georgian (ka), Kazakh (kk), Khmer (km), Korean (ko), Kurdish (ku), Lithuanian (lt), Latvian (lv), Maori (mi), Mongolian (mn), Norwegian Bokmål (nb), Dutch (nl), Norwegian Nynorsk (nn), Northern Sotho (nso), Odia (or), Polish (pl), Portuguese (Brazil) (pt_BR), Quechua (qu), Rapa Nui (rap), Romanian (ro), Russian (ru), Slovak (sk), Slovenian (sl), Serbian (sr), Swedish (sv), Swahili (sw), Thai (th), Tswana (tn), Turkish (tr), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Xhosa (xh), Chinese (China) (zh_CN), Chinese (Taiwan) (zh_TW), Zulu (zu).
+<summary>Näytä täydellinen lista saatavilla olevista kielistä napauttamalla (niitä on yli 50)</summary>
+abhasia (ab), afrikaans (af), amhara (am), arabia (ar), aragonia (an), azerbaidžani (az), baski (eu), bengali (bn), bulgaria (bg), espanja (es), gaeli, skotlanti (gd), galicia (gl), georgia (ka), haitin kreoli (ht), heprea (he), hindi (hi), hollanti (nl), iiri (ga), indonesia (id), islanti (is), italia (it), japani (ja), katalaani (ca), kazakstani (kk), ketšua (qu), khmeria (km), kiina (Kiina) (zh_CN), kiina (Taiwan) (zh_TW), korea (ko), kreikka (el), kroatia (hr), kurdi (ku), kymri (cy), latvia (lv), liettua (lt), länsifriisi (fy), maori (mi), mongolia (mn), norja bokmål (nb), norja nynorsk (nn), odia (tai), persia (fa), pohjoissotho (nso), portugali (Brasilia) (pt_BR), puola (pl), rapa nui (rap), romania (ro), ruotsi (sv), saksa (de), serbia (sr), slovakki (sk), slovenia (sl), suomi (fi), swahili (sw), tšekki (cs), thai (th), tswana (tn), turkki (tr), ukraina (uk), unkari (hu), uzbekki (uz), valkovenäjä (be), venäjä (ru), vietnam (vi), viro (et), Xhosa (xh), zulu (zu).
 </details>
 
-We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
+Näille kielille Scratch-lisäosia ei voi vielä kääntää: asturia (ast), espanja (latinalainen Amerikka) (es_419), esperanto (eo), filippiini (fil), hausa (ha), japani (hiragana) (ja-Hira), oksitaani (oc), portugali (Portugali) (pt_PT). Jos haluaisit kääntää laakennuksen jollekin näistä kielistä, lähetä sähköpostia osoitteeseen `translation@scratchaddons.com`.
 
-These languages **do not** accept new translator requests: **Italian, Spanish.**<!-- This list of languages is also found above. Remember to update both. -->
+Näihin kieliin **EI** hyväksytä uusia kääntäjiä: **espanja, italia.** <!-- Tämä kielilista löytyy myös yltä. Muista päivittää molempia. -->
 
 ## Steps to join as a translator
 
