@@ -1,11 +1,11 @@
 ---
 ---
 
-**Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
+**कस्टमाइज़ेबल नेविगेशन बार** एक ऐडऑन है जो उपयोगकर्ताओं को स्क्रैच वेबसाइट के नेविगेशन बार में लिंक जोड़ने, संशोधित करने या हटाने की अनुमति देता है, साथ ही उपयोगकर्ता ड्रॉपडाउन को ट्विक करने और बार के पेज स्क्रॉलिंग व्यवहार को बदलने की अनुमति देता है।
 
-## Background
+## पृष्ठभूमि
 
-Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
+स्क्रैच ने जुलाई 2017 में फ़ोरम से जुड़े चर्चा बटन को हटा दिया।[^1] इसे वापस लाने के लिए मूल ऐडऑन पेश किया गया था और विचार लिंक को हटाने का विकल्प शामिल किया गया था।
 
 ## Features
 
