@@ -9,13 +9,14 @@ Some projects adapt to framerate increases with techniques such as [delta time](
 
 The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
 
-## Features
+## विशेषताएँ
 
 - The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
 - The addon works in both the project page and the editor.
 - By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
 
-## Settings
+## सेटिंग्स
+ 
 
 ### Custom FPS
 
@@ -26,7 +27,7 @@ Sets the value of the project's framerate when the addon is enabled.
 - The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
 - Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
-## Credit
+## श्रेय
 
 Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
 
@@ -46,18 +47,18 @@ Jeffalo created the original addon that only set the project player to 60 FPS. T
 - **v1.36.0** The addon was renamed to **Higher project framerate mode**. The addon's description and information box was rewritten for clarity.
 - **v1.37.0** A second information box was added that explains issues with user devices' power saving mode.
 
-## Trivia
+## सामान्य ज्ञान
 
 - Although TurboWarp Addons does not have this addon, Turbowarp's advanced project settings allows you to customize the project's framerate in a similar way.
 - Despite the addon's setting for customizing the FPS is limited from 31 to 240, the Scratch project player is perfectly fine with values both lower and higher than these limits! There are several ways to bypass this limit, as only the setting's input field sets the limit.
 - Jeffalo added the addon because "its hecking cool"[^1]
 - There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
 
-## Gallery
+## गैलरी
 
 {{< docs/stub-section >}}
 
-## Related
+## संबंधित
 
 {{< docs/stub-section >}}
 

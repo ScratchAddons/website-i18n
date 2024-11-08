@@ -7,58 +7,58 @@
 
 स्क्रैच ने जुलाई 2017 में फ़ोरम से जुड़े चर्चा बटन को हटा दिया।[^1] इसे वापस लाने के लिए मूल ऐडऑन पेश किया गया था और विचार लिंक को हटाने का विकल्प शामिल किया गया था।
 
-## Features
+## विशेषताएँ
 
-- Add new links to Scratch pages or other websites.
-- Re-order links and change their labels.
-- Remove existing links.
-- Prevent the navigation bar from scrolling with the page.
-- Move the logged-in username out of the way.
+- स्क्रैच पेजों या अन्य वेबसाइटों पर नए लिंक जोड़ें।
+- लिंक को पुनः क्रमित करें और उनके लेबल बदलें।
+- मौजूदा लिंक हटाएँ
+- नेविगेशन बार को पृष्ठ के साथ स्क्रॉल करने से रोकें।
+- लॉग-इन उपयोगकर्ता नाम को रास्ते से हटा दें।
 
-## Settings
+## सेटिंग्स
 
-### Items
+### सामान
 
-Controls the links displayed between the Scratch logo and search bar. Each item has the following inputs:
+स्क्रैच लोगो और खोज बार के बीच प्रदर्शित लिंक को नियंत्रित करता है। प्रत्येक आइटम में निम्नलिखित इनपुट होते हैं:
 
-- Name: The link's label
-- URL: The page to link to which can be relative to the home page (e.g. /mystuff) or absolute (e.g. https://example.com).
+- नाम: लिंक का लेबल
+- यूआरएल: जिस पेज से लिंक किया जाना है वह होम पेज से संबंधित हो सकता है (उदाहरण के लिए /मिस्टफ) या संपूर्ण (उदाहरण के लिए https://example.com) ।
 
-### Compact user dropdown
+### संक्षिप्त उपयोगकर्ता ड्रॉपडाउन
 
-Moves the username of the logged-in user into the profile dropdown item.
+लॉग-इन उपयोगकर्ता के उपयोगकर्ता नाम को प्रोफ़ाइल ड्रॉपडाउन आइटम में ले जाता है।
 
-### Stick to
+### रहो
 
-- Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
-- Top of page: The navigation bar stays at the top of the page and scrolls away with it.
+- स्क्रीन के शीर्ष पर: पृष्ठ स्क्रॉल होने पर भी नेविगेशन बार दृश्यमान रहता है। यह स्क्रैच का डिफ़ॉल्ट व्यवहार है
+- पृष्ठ के शीर्ष पर: नेविगेशन बार पृष्ठ के शीर्ष पर रहता है और इसके साथ स्क्रॉल होता रहता है।
 
-## Credit
+## श्रेय
 
-The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
+मूल ऐडऑन वर्ल्डलैंग्वेजेज द्वारा लिखा गया था, और द कोलाबर पुनर्लेखन का लेखक था।
 
 ## बदलाव का
 
-- **v1.0.0** The first version that added the discuss button and optionally removed ideas.
-- **v1.24.0**: Made the links fully customizable.
-- **v1.28.0**: Added the compact user dropdown setting.
-- **v1.32.0**: Added the "stick to" setting.
+- **v1.0.0** पहला संस्करण जिसने चर्चा बटन जोड़ा और वैकल्पिक रूप से विचारों को हटा दिया।
+- **v1.24.0**: लिंक को पूरी तरह से अनुकूलन योग्य बनाया।
+- **v1.28.0**: कॉम्पैक्ट उपयोगकर्ता ड्रॉपडाउन सेटिंग जोड़ी गई।
+- **v1.32.0**: "स्टिक टू" सेटिंग जोड़ी गई।
 
-## Trivia
+## सामान्य ज्ञान
 
-- This is the first addon to modify the Scratch website.
-- This is the first and only addon to use a table setting.
-- This is one of the few addons to have no credits.
+- यह स्क्रैच वेबसाइट को संशोधित करने वाला पहला ऐडऑन है।
+- टेबल सेटिंग का उपयोग करने वाला यह पहला और एकमात्र ऐडऑन है।
+- यह उन कुछ ऐडऑन में से एक है जिनका कोई क्रेडिट नहीं है।
 
-## Gallery
+## गैलरी
 
-![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
+![कॉम्पैक्ट उपयोगकर्ता ड्रॉपडाउन](/assets/img/addons/docs/compact-nav-dropdown.png)
 
-The compact user dropdown.
+कॉम्पैक्ट उपयोगकर्ता ड्रॉपडाउन
 
-## Related
+## संबंधित
 
-- [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
-- [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
+- [टेबल सेटिंग पुल अनुरोध (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
+- [अनुकूलन योग्य संपादक मेनू बार](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
 
 [^1]: https://scratch.mit.edu/discuss/topic/269283/

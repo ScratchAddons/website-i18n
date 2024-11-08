@@ -7,7 +7,7 @@
 
 The addon was created under the philosophy that intermediate and advanced Scratchers rarely use assets from the Scratch library. It is common for these users to make a new sprite/costume/backdrop by hovering over the main button then navigating to the Paint option. As this is a timely maneuver, the addon's default settings change the default action of the main button to open the paint editor rather than opening the asset library.
 
-## Features
+## विशेषताएँ
 
 - The addon allows users to customize the default action for each of the following buttons: "Choose a Sprite", "Choose a Costume", "Choose a Backdrop", and "Choose a Sound".
 - Each of the buttons above have the following four options, which are pulled from the vanilla button's list when hovered:
@@ -17,7 +17,8 @@ The addon was created under the philosophy that intermediate and advanced Scratc
   - Upload: Allows you to upload a file
 - The tooltip that appears when hovering over the main button also displays the correct default action.
 
-## Settings
+## सेटिंग्स
+ 
 
 ### Add Sprite
 
@@ -40,7 +41,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
 - You cannot set the default action to any custom actions added by a Scratch modification. This includes the "HD Upload" option added by the _HD image uploads_ addon.
 - The addon's name "Paint costume by default" does not represent its options to change the default actions for the sprite, backdrop, or sound buttons. This issue is not planned to be resolved. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
 
-## Credit
+## श्रेय
 
 GarboMuffin developed the entirety of the addon. Its final name, description, settings, and tags were made by WorldLanguages.
 
@@ -49,14 +50,14 @@ GarboMuffin developed the entirety of the addon. Its final name, description, se
 - **v1.19.0** The **Paint costume by default** addon was created.
 - **v1.19.1** Bug fix: Addon no longer treats the "Choose a Sound" button like a "Choose a Costume" button if the current sprite had no sounds.
 
-## Trivia
+## सामान्य ज्ञान
 
 {{< docs/stub-section >}}
 
-## Gallery
+## गैलरी
 
 {{< docs/stub-section >}}
 
-## Related
+## संबंधित
 
 - [Original pull request (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)

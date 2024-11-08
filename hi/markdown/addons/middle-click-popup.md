@@ -7,7 +7,7 @@
 
 The original version was made by Griffpatch for the Developer Tools extension. As part of a work to separate features from the _Developer tools_ as individual addons, this addon has been made to its own addon.
 
-## Features
+## विशेषताएँ
 
 - The searching supports any block in the workspace. This includes custom blocks, blocks from extensions and variable / lists.
 - You can use the arrow keys and enter to navigate the search results for even faster insertion.
@@ -16,7 +16,8 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## सेटिंग्स
+ 
 
 ### Popup block size
 
@@ -40,7 +41,7 @@ Controls how tall the popup can be before a scrollbar appears. This is a percent
 - The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
 - The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
 
-## Credit
+## श्रेय
 
 Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
 
@@ -52,7 +53,7 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - **v1.31.0** The addon was completely overhauled, allowing for nesting blocks, adding autocomplete and changing how the blocks where shown in the popup.
 - **v1.31.1** The algorithm for searching was altered and several bugs where fixed.
 
-## Trivia
+## सामान्य ज्ञान
 
 - This was the first addon page written for the Addon Docs!
 - Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.
@@ -61,10 +62,10 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - The name of the Git branch for the overhaul was `idk-what-im-doing`.
 - Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
 
-## Gallery
+## गैलरी
 
 {{< docs/stub-section >}}
 
-## Related
+## संबंधित
 
 {{< docs/stub-section >}}

@@ -8,5 +8,8 @@ credits.html:
   title: क्रेडिट
 extension-settings.html:
   title: "स्क्रैच ऐडऑन सेटिंग्स "
+farewell.html:
+  title: बिदाई!
+  description: स्क्रैच ऐडऑन को अनइंस्टॉल कर दिया गया है। एक्सटेंशन का उपयोग करने के लिए हम आपको धन्यवाद देते हैं!
 welcome.html:
   title: स्वागत है
