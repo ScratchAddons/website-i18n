@@ -2447,22 +2447,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "Conferma cancellazione sprite",
-		"description": "Chiede conferma quando cancelli uno sprite di un progetto.",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "Suggerimento: se cancelli accidentalmente uno sprite, un costume o un suono, puoi annullare la cancellazione cliccando il menu Modifica nella barra dei menu e scegliendo Ripristina.",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "Rinomina messaggi",
 		"description": "Aggiunge una voce nel menu dei blocchi INVIA A TUTTI e QUANDO RICEVO per rinominare i messaggi. ",
@@ -2551,30 +2535,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Blocchi di Scratch 3.0 nei forum",
-		"description": "Abilita la nuova versione di scratchblocks dei forum.",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "L'anteprima dei post non supporta questo addon.",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",

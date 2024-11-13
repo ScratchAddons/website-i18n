@@ -2447,22 +2447,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "Kukla silme onayı",
-		"description": "Bir kuklayı silerken emin olup olmadığınızı sorar.",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "İpucu: Yanlışlıkla bir karakteri, kostümü veya sesi silerseniz; menü çubuğunda Düzenle'ye ve ardından Geri Getir'e tıklayarak silme işlemini geri alabilirsiniz.",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "Haberleri yeniden adlandırma",
 		"description": "Haber bloklarının açılır listelerine haber mesajlarını yeniden adlandırmak için bir seçenek ekler.",
@@ -2551,30 +2535,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Scratch 3.0 forum blocks",
-		"description": "Forumlarda scratchblocks’un yeni sürümünü etkinleştirir.",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Yerleşik gönderi ön izlemesi bu eklentiyi desteklemiyor.",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",

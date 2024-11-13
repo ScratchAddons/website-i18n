@@ -2432,22 +2432,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "删除角色确认框",
-		"description": "当你在项目中删除一个角色时，询问是否确认。",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "提示：如果您不小心删除了角色、造型或声音，您可以通过单击菜单栏中的编辑，然后点击还原来恢复删除内容。",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "重命名广播",
 		"description": "在广播语句的下拉列表中添加重命名广播的选项",
@@ -2536,30 +2520,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Scratch 3.0 forum blocks",
-		"description": "在论坛启用新版本 Scratchblocks",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "内置帖子预览不支持这个插件",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",

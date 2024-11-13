@@ -2447,22 +2447,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "Hahmon poistamisen vahvistus",
-		"description": "Kysyy, oletko varma, kun poistat hahmon projektissa.",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "Vinkki: Jos vahingossa poistat hahmon, asusteen tai äänen, voit kumota poiston napauttamalla valikkorivin Muokkaa-kohtaa ja valitsemalla sitten Palauta.",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "Viestien uudelleennimeäminen",
 		"description": "Lisää vaihtoehdon viestin uudelleen nimeämistä varten viestilohkojen pudotusvalikoissa.",
@@ -2551,30 +2535,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Scratch 3.0:n lohkot foorumeilla",
-		"description": "Ottaa käyttöön uuden scratchblocks-version foorumeilla.",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Sisäänrakennettu viestin esikatselu ei tue tätä lisäosaa.",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",

@@ -2450,22 +2450,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "Confirmation pour la suppression de sprite",
-		"description": "Vous demande si vous êtes sûrs de supprimer un sprite dans un projet.",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "Conseil : si vous supprimez accidentellement un sprite, un costume ou un son, vous pouvez annuler la suppression en cliquant sur Édition dans la barre de menus, puis sur Restaurer.",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "Renommer les diffusions",
 		"description": "Ajoute une option pour renommer les messages de diffusion dans le menu déroulant de ces blocs.",
@@ -2554,30 +2538,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Scratch 3.0 forum blocks",
-		"description": "Active la nouvelle version des blocs Scratch sur les forums.",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "La prévisualisation intégrée ne supporte pas cet addon.",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",

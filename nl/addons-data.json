@@ -2447,22 +2447,6 @@
 		"versionAdded": "1.28.0"
 	},
 	{
-		"id": "remove-sprite-confirm",
-		"name": "Sprite verwijderen bevestigen",
-		"description": "Vraagt of je zeker weet dat je een sprite in een project wilt verwijderen.",
-		"tags": ["editor", "recommended"],
-		"info": [
-			{
-				"text": "Tip: als je per ongeluk een sprite, uiterlijk of geluid verwijdert, kan je 'm terughalen door in de menubalk op Bewerk te klikken, en dan op Herstel.",
-				"id": "restoretip"
-			}
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.0.0"
-	},
-	{
 		"id": "rename-broadcasts",
 		"name": "Signalen hernoemen",
 		"description": "Verander de naam van signalen in de dropdowns van signaalblokken.",
@@ -2551,30 +2535,6 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
-	},
-	{
-		"id": "scratchblocks",
-		"name": "Scratch 3.0-blokken op forums",
-		"description": "Schakelt de nieuwe versie van scratchblokken in op de forums.",
-		"tags": ["community", "forums", "beta"],
-		"credits": [
-			{
-				"name": "Weredime (9gr)",
-				"link": "https://scratch.mit.edu/users/9gr/"
-			},
-			{ "name": "CubeyTheCube", "link": "https://github.com/CubeyTheCube" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "De ingebouwde postvoorbeeld ondersteunt deze addon niet.",
-				"id": "preview_notice"
-			}
-		],
-		"libraries": ["scratchblocks"],
-		"versionAdded": "1.19.0",
-		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
