@@ -15,7 +15,7 @@ The feature can be toggled on/off by holding `alt` and clicking the green flag. 
 - The addon works in both the project page and the editor.
 - By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
 
-## Settings
+## 설정
 
 ### Custom FPS
 

@@ -15,7 +15,7 @@ Scratch removed the discuss button that linked to the forums in July 2017.[^1] T
 - Prevent the navigation bar from scrolling with the page.
 - Move the logged-in username out of the way.
 
-## Settings
+## 설정
 
 ### Items
 

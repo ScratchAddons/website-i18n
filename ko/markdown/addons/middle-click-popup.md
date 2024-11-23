@@ -16,7 +16,7 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## 설정
 
 ### Popup block size
 
