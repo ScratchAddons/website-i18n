@@ -50,6 +50,9 @@ docs/faq.md:
     - /docs/frequently-asked-questions
   embed_js:
     - /assets/js/faq.js
+docs/feedback.md:
+  weight: 52
+  no_comments: true
 docs/getting-started/_index.md:
   weight: 1
 docs/getting-started/installing.md:
@@ -64,5 +67,7 @@ docs/localization/joining-the-localization-team.md:
   aliases:
     - /docs/localization/how-to-join-the-localization-team
     - /translate
+feedback.html:
+  robots_tag: noindex
 unsupported-browser.html:
   robots_tag: noindex

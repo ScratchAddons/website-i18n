@@ -252,3 +252,10 @@ minimum_perc = 0
 source_file = en/markdown/addons/discuss-button.md
 source_lang = en
 type = GITHUBMARKDOWN
+
+[o:scratch-addons:p:scratch-addons-website:r:markdown_docs_feedback]
+file_filter = <lang>/markdown/docs/feedback.md
+minimum_perc = 0
+source_file = en/markdown/docs/feedback.md
+source_lang = en
+type = GITHUBMARKDOWN
