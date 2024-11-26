@@ -122,7 +122,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Nous ne somme pas l'Équipe Scratch
-        Description: Gardez à l'esprit que Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Vous êtes toujours les bienvenus pour donner des idées pour améliorer votre expérience sur Scratch avec Scratch Addons.
       Punishment:
         Heading: Nous ne pouvons pas punir quelqu'un. Nous ne somme pas l'Équipe Scratch
         Description: |-

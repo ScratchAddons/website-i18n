@@ -124,7 +124,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Não somos a Equipe do Scratch.
-        Description: Tenha em mente que Scratch Addons não está afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Ainda assim, sinta-se à vontade em dar ideias de melhoria de sua experiência no Scratch com Scratch Addons.
       Punishment:
         Heading: Não podemos punir usuários. Não somos a Equipe do Scratch.
         Description: Scratch Addons não é afiliado com o site oficial do Scratch ou com as organizações que o mantêm. Não temos controle do conteúdo e da moderação do site oficial do Scratch. {{ .Tag1Start }}Há muitas maneiras de como você pode denunciar conteúdo no site do Scratch.{{ .Tag1End }}

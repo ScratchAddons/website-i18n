@@ -147,7 +147,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Me emme ole Scratch-tiimi.
-        Description: Muista, että Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Ideat Scratchin käyttökokemuksen parantamisesta Scratch-lisäosilla ovat tervetulleita.
       Punishment:
         Heading: Me emme voi rangaista ihmisiä. Me emme ole Scratch-tiimi.
         Description: Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. {{ .Tag1Start }}On useita tapoja raportoida Scratch-sivustolla.{{ .Tag1End }}

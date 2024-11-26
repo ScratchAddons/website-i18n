@@ -129,7 +129,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Vi er ikke Scratch-teamet.
-        Description: Vær oppmerksom på at Scratch Addons ikke er tilknyttet Scratch-nettstedet eller organisasjonene som vedlikeholder det. Du er fortsatt velkommen til å komme med ideer for å forbedre opplevelsen din på Scratch med Scratch Addons.
       Punishment:
         Heading: Vi kan ikke straffe folk. Vi er ikke Scratch Team.
         Description: Scratch Addons er ikke tilknyttet Scratch-nettstedet eller organisasjonene som vedlikeholder det. Vi har ingen kontroll over innholdet og modereringen på Scratch-nettstedet. {{ .Tag1Start }}Det er mange måter du kan rapportere på Scratch-nettstedet.{{ .Tag1End }}

@@ -133,7 +133,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: 私たちはScratch チームではありません。
-        Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。ここでは、Scratch Addonsを用いて、Scratchを改善するためのアイデアを募集しています。
       Punishment:
         Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
         Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}

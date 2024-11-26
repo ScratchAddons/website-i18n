@@ -132,7 +132,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Nismo Scratcheva ekipa.
-        Description: Ne pozabite, da Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Kljub temu nam lahko date predloge, kako lahko Scratch Addons izboljša vašo izkušnjo na Scratchu.
       Punishment:
         Heading: Ne moremo kaznovati ljudi. Nismo Scratcheva ekipa.
         Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. {{ .Tag1Start }}Vsebino na Scratchu lahko prijavite na več načinov.{{ .Tag1End }}
