@@ -1,13 +1,13 @@
 ---
-title: Send feedback to Scratch Addons developers
-description: How to send feedback to Scratch Addons.
+title: フィードバックをScratch Addonsの開発者に送る
+description: Scratch Addonsにフィードバックを送る方法
 ---
 
 Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
 
 {{< admonition warning >}}
 
-We can't help with issues related to Scratch moderation. Instead, use the Report button on the Scratch website, or reach Scratch through their official channels.
+Scratchのモデレーションに関する問題についてはサポートできません。代わりに、Scratchウェブサイトの「報告」ボタンを利用するか、Scratchの公式チャンネルにお問い合わせください。
 
 {{</ admonition >}}
 
