@@ -1,64 +1,64 @@
 ---
 ---
 
-**Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
+**Mukautettava navigointipalkki** on lisäosa, jonka avulla käyttäjä voi lisätä, muokata tai poistaa Scratchin verkkosivuston navigointipalkin linkkejä sekä muuttaa käyttäjävalikon ulkoasua ja navigointipalkin toimintaa sivua vieritettäessä.
 
 ## Tausta
 
-Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
+Scratch poisti keskustelufoorumeille vievän Keskustele-linkin verkkosivuston navigointipalkista heinäkuussa 2017.[^1] Alun perin tämä lisäosan tarkoitus oli palauttaa kyseinen linkki ja käyttäjän niin halutessa poistaa Ideat-linkki.
 
 ## Ominaisuudet
 
-- Add new links to Scratch pages or other websites.
-- Re-order links and change their labels.
-- Remove existing links.
-- Prevent the navigation bar from scrolling with the page.
-- Move the logged-in username out of the way.
+- Lisää Scratchin navigointipalkkiin uusia Scratchin sivuille tai muille verkkosivustoille vieviä linkkejä.
+- Muuta linkkien järjestystä ja nimiä.
+- Poista olemassa olevia linkkejä.
+- Estä navigointipalkin liikkuminen sivun mukana vieritettäessä.
+- Piilota kirjautuneen käyttäjän käyttäjänimi navigointipalkista.
 
 ## Asetukset
 
-### Items
+### Kohteet
 
-Controls the links displayed between the Scratch logo and search bar. Each item has the following inputs:
+Kohteet-asetuksen avulla käyttäjä voi hallita Scratch-logon ja hakupalkin välissä olevia linkkejä. Jokaisella kohteella on seuraavat arvot:
 
-- Name: The link's label
-- URL: The page to link to which can be relative to the home page (e.g. /mystuff) or absolute (e.g. https://example.com).
+- Nimi: Kohteen kohdalla navigointipalkissa näkyvä teksti
+- URL-osoite: Sen sivun osoite, jolle linkki vie. Osoite voi olla suhteellinen (esim. /mystuff) tai absoluuttinen (esim. https://esimerkki.fi).
 
-### Compact user dropdown
+### Tiivis käyttäjävalikko
 
-Moves the username of the logged-in user into the profile dropdown item.
+Siirtää kirjautuneen käyttäjän käyttäjänimen navigointipalkista käyttäjävalikon kohteeksi.
 
-### Stick to
+### Kiinnity
 
-- Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
-- Top of page: The navigation bar stays at the top of the page and scrolls away with it.
+- Näytön yläosaan: Navigointipalkki pysyy näytön yläosassa, kun sivua vieritetään. Scratch toimii oletusarvoisesti tämän vaihtoehdon mukaisesti.
+- Sivun yläosaan: Navigointipalkki pysyy sivun yläosassa eikä jää näytön yläosaan, kun sivua vieritetään.
 
 ## Tekijät
 
-The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
+Alkuperäisen lisäosan teki WorldLanguages. Uudistuksen teki TheColaber.
 
 ## Muutosloki
 
-- **v1.0.0** The first version that added the discuss button and optionally removed ideas.
-- **v1.24.0**: Made the links fully customizable.
-- **v1.28.0**: Added the compact user dropdown setting.
-- **v1.32.0**: Added the "stick to" setting.
+- **v1.0.0** Ensimmäinen versio, joka lisäsi Keskustele-linkin ja käyttäjän halutessa poisti Ideat-linkin.
+- **v1.24.0**: Linkeistä tehtiin täysin mukautettavia.
+- **v1.28.0**: Tiivis käyttäjävalikko -asetus lisättiin.
+- **v1.32.0**: Kiinnity-asetus lisättiin.
 
 ## Nippelitietoa
 
-- This is the first addon to modify the Scratch website.
-- This is the first and only addon to use a table setting.
-- This is one of the few addons to have no credits.
+- Tämä on ensimmäinen lisäosa, jolla voi muokata Scratch-verkkosivustoa.
+- Tämä on ensimmäinen ja ainut lisäosa, jossa on taulukkomuotoinen asetus.
+- Tämä on yksi niistä harvoista lisäosista, joiden tekijöitä ei ole merkitty asetussivulle.
 
 ## Galleria
 
-![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
+![Tiivis käyttäjävalikko](/assets/img/addons/docs/compact-nav-dropdown.png)
 
-The compact user dropdown.
+Tiivis käyttäjävalikko.
 
 ## Aiheeseen liittyvät
 
-- [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
-- [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
+- [Taulukkomuotoinen asetus -vetopyyntö (numero 2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
+- [Mukautettava editorin valikkorivi](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
 
 [^1]: https://scratch.mit.edu/discuss/topic/269283/
