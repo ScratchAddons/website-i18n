@@ -1,13 +1,13 @@
 ---
-title: Send feedback to Scratch Addons developers
-description: How to send feedback to Scratch Addons.
+title: Lähetä palautetta Scratch-lisäosien kehittäjille
+description: Lähetä palautetta Scratch-lisäosille.
 ---
 
-Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
+Onko sinulla palautetta Scratch-lisäosille? Kerro se meille osoitteessa https://scratchaddons.com/feedback/ sijaitsevan palautelomakkeen avulla.
 
 {{< admonition warning >}}
 
-We can't help with issues related to Scratch moderation. Instead, use the Report button on the Scratch website, or reach Scratch through their official channels.
+Emme voi auttaa Scratchin moderointiin liittyvissä asioissa. Käytä Scratch-verkkosivuston Raportoi-painikkeita tai ota yhteyttä Scratchiin virallisten kanavien kautta.
 
 {{</ admonition >}}
 
@@ -15,11 +15,11 @@ We can't help with issues related to Scratch moderation. Instead, use the Report
 
 Jos tarvitset vaihtoehdon, tässä on joitain sellaisia.
 
-- Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our Discord server](https://discord.gg/R5NBqwMjNc)
+- Luo seikka [tietosäilöön](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Jätä viesti [keskusteluvälilehdelle](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Lähetä viesti [Discord-palvelimellamme](https://discord.gg/R5NBqwMjNc).
 - Ota yhteyttä johonkuhun osallistujista Discordissa, Twitterissä tai muilla keinoilla.
 
-It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).
+Ethän ota yhteyttä projektin osallistujaan Scratchin kautta, koska [käytäntö kieltää laajennusten/käyttäjäskriptien mainostamisen](https://scratch.mit.edu/discuss/post/2907564/).
 
-By the way, we have [a FAQ page](https://scratchaddons.com/docs/faq/) for your usual questions.
+Meillä on muuten [UKK-sivu](https://scratchaddons.com/docs/faq/) usein kysyttyjä kysymyksiä varten.
