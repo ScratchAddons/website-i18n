@@ -49,7 +49,7 @@ Footer:
     Documentation: Opas
   Legal:
     Copyright: "{{ .Copyleft }} {{ .Year }} Scratch-lisäosien tekijät"
-    NoAffiliation: Scratch-lisäosat ei ole millään tavoin liitooksissa tai virallisesti yhteydessä Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin.
+    NoAffiliation: Scratch-lisäosat ei ole millään tavoin kytköksissä tai virallisesti yhteydessä Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin.
     License: Scratch-lisäosat on lisensoitu GNU yleisen lisenssin version 3.0 ehtojen mukaisesti.
   Intro: Tämänhetkisessä versiossa {{ .Version }} on {{ .AddonCount }} lisäosaa.
 DarkTheme:
@@ -135,7 +135,7 @@ FeedbackPage:
     Success: Lähetetty! Kiitos palautteesta.
     Failed: Jokin meni pieleen. Yritetäänkö lähettää uudelleen?
     Offline: Jokin meni pieleen palautepalvelimella. Yritä myöhemmin uudelleen tai käytä mainittuja vaihtoehtoja.
-  NoAddonsList: Lista ei ole saatavilla lähetettäväksi. Avaa tämä sivu laajennuksen kautta.
+  NoAddonsList: Lista ei ole saatavilla. Avaa tämä sivu laajennuksen kautta.
   UsernameLabel: Scratch-käyttäjänimi tai muita tunnuksia (valinnainen)
   ContentLabel: Palaute
   ContentPlaceholder: Kuvaile mahdollisimman yksityiskohtaisesti.
@@ -147,9 +147,13 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Me emme ole Scratch-tiimi.
+        Description: Scratch-lisäosat ei ole kytköksissä Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. Voit kuitenkin kertoa ideoita siitä, miten Scratchin käyttökokemusta voitaisiin parantaa Scratch-lisäosilla.
       Punishment:
         Heading: Me emme voi rangaista ihmisiä. Me emme ole Scratch-tiimi.
-        Description: Scratch-lisäosat ei ole liitoksissa Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. {{ .Tag1Start }}On useita tapoja raportoida Scratch-sivustolla.{{ .Tag1End }}
+        Description: Scratch-lisäosat ei ole kytköksissä Scratch-verkkosivustoon tai sitä ylläpitäviin organisaatioihin. Me emme hallitse Scratch-vekkosivuston sisältöä ja moderointia. {{ .Tag1Start }}On useita tapoja raportoida Scratch-sivustolla.{{ .Tag1End }}
+      Folders:
+        Heading: Hahmokansiot-lisäosa korjataan pian!
+        Description: Korjaus on parhaillaan työn alla.
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging -laajennuksen logo
 ChangelogPage:

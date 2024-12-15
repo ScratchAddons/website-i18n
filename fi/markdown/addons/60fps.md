@@ -1,9 +1,9 @@
 ---
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster.
+**Korkeamman kuvataajuuden tila** on lisäosa, jonka avulla käyttäjä voi kasvattaa projektin suoritusnopeuden haluamakseen.
 
-Scratch normally iterates loops 30 times per second, resulting in a screen refresh rate of 30 frames per second (FPS). This addon can increase the iteration rate, thereby changing the framerate. This has the effect of making the project animate smoother but also run faster, relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+Tavallisesti Scratch toistaa silmukan 30 kertaa sekunnissa, eli kuvataajuus on 30 ruutua/s (FPS). Tämän lisäosan avulla voi kasvattaa toistojen määrää ja samalla myös kuvataajuutta. Korkeampi kuvataajuus saa projektin animaatiot näyttämään tasaisemmilta mutta myös nopeuttaa niitä. Se, kuinka paljon projekti nopeutuu, on suhteessa valittuun kuvataajuuteen. Jos kuvataajuudeksi on valittu 60 ruutua/s, projekti suoritetaan kaksi kertaa nopeammin.
 
 Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
 
