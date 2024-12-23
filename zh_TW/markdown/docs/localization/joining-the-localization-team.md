@@ -7,29 +7,30 @@ description: 感謝您有興趣自願將 Scratch Addons 翻譯成其他語言！
 If you found a **translation mistake/error** in Scratch Addons, please [send feedback](/feedback) about it.
 {{< /admonition >}}
 
-Thanks for the interest to help with translating Scratch Addons to other languages! Scratch Addons is available in more than 15 languages thanks to the help of volunteers around the world.
+感謝您有興趣協助將 Scratch Addons 翻譯成其他語言！在世界各地志工的幫助下，Scratch Addons 現已提供超過 15 種語言版本。
 
-Please read this page carefully to continue.
+請仔細閱讀此頁以繼續。
 
-## Requirements to join as a translator
+## 加入翻譯員的要求
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
-* For example, you're fluent in English if you can use the Scratch Addons settings page in English, or if you understand griffpatch's videos. If you struggle to understand sentences without a translator, you're not fluent.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* 您必須是**精通英語的人**
+* 例如，您可以使用英語的 Scratch Addons 設定頁面，或者如果您可以了解 griffpatch 的影片，那麼您的英語就很流利。
+反之，如果你在沒有翻譯的情況下很難理解句子，那麼你就不夠流利。
+* 您必須翻譯你的**母語**
+* 您必須有一個電子郵件地址，最好每周至少檢查一次。
+* 你必須在[Scratch網站](https://scratch.mit.edu)上有一個帳號
 
 {{< admonition info >}}
 **These languages do NOT accept new translators:** Italian, Spanish.<!-- This list of languages is also found below. Remember to update both. -->
 {{< /admonition >}}
 
-If you're not a native speaker but consider yourself fluent enough, you may also request to join. Keep in mind taking some language classes does not make you fluent. If you wouldn't change your smartphone's system language to it, you're not fluent enough!
+如果您不是母語但認為自己足夠流利，您也可以請求加入。請記住，參加一些語言課程並不能讓您變得流利。如果您不將智慧型手機的系統語言更改為它，那麼您就不夠流利！
 
-We only support languages that Scratch itself supports. We also fully support RTL languages, such as Arabic and Hebrew.
+我們僅支援 Scratch 本身支援的語言。我們也完全支援 RTL 語言，例如阿拉伯語和希伯來語。
 
-## Content available for translation
+## 可翻譯的內容
 
-### Scratch Addons browser extension
+### Scratch Addons 瀏覽器擴充
 
 - **General Translation.** These are ~150 text strings which are used by the extension. Users can only see these translations for their language if 90% of general strings were translated.
 
