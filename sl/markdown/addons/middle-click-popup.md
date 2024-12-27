@@ -16,7 +16,7 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## Nastavitve
 
 ### Popup block size
 
@@ -52,7 +52,7 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - **v1.31.0** The addon was completely overhauled, allowing for nesting blocks, adding autocomplete and changing how the blocks where shown in the popup.
 - **v1.31.1** The algorithm for searching was altered and several bugs where fixed.
 
-## Trivia
+## Zanimivosti
 
 - This was the first addon page written for the Addon Docs!
 - Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.

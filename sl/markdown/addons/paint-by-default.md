@@ -17,7 +17,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
   - Upload: Allows you to upload a file
 - The tooltip that appears when hovering over the main button also displays the correct default action.
 
-## Settings
+## Nastavitve
 
 ### Add Sprite
 
@@ -49,7 +49,7 @@ GarboMuffin developed the entirety of the addon. Its final name, description, se
 - **v1.19.0** The **Paint costume by default** addon was created.
 - **v1.19.1** Bug fix: Addon no longer treats the "Choose a Sound" button like a "Choose a Costume" button if the current sprite had no sounds.
 
-## Trivia
+## Zanimivosti
 
 {{< docs/stub-section >}}
 

@@ -114,6 +114,8 @@ AddonsPage:
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
   NAddons: "{{.Count}} dodatkov"
   SourceCodeLabel: Izvirna koda na GitHub
+  SASettingsLink:
+    Title: Odpri v nastavitvah Scratch Addons
 FeedbackPage:
   Status:
     Sending: Pošiljanje...
@@ -164,4 +166,9 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      Description: Opis
       Credits: Zahvale
+      LatestUpdate: Zadnja posodobitev
+      Informations: Informacije
+    Links:
+      SASettings: Nastavitve Scratch Addons

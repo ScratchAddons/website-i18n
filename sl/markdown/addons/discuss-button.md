@@ -15,20 +15,20 @@ Scratch removed the discuss button that linked to the forums in July 2017.[^1] T
 - Prevent the navigation bar from scrolling with the page.
 - Move the logged-in username out of the way.
 
-## Settings
+## Nastavitve
 
-### Items
+### Predmeti
 
 Controls the links displayed between the Scratch logo and search bar. Each item has the following inputs:
 
 - Name: The link's label
 - URL: The page to link to which can be relative to the home page (e.g. /mystuff) or absolute (e.g. https://example.com).
 
-### Compact user dropdown
+### Kompakten meni računa
 
 Moves the username of the logged-in user into the profile dropdown item.
 
-### Stick to
+### Pritrdi na
 
 - Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
 - Top of page: The navigation bar stays at the top of the page and scrolls away with it.
@@ -44,7 +44,7 @@ The original addon was written by WorldLanguages, and TheColaber was the author 
 - **v1.28.0**: Added the compact user dropdown setting.
 - **v1.32.0**: Added the "stick to" setting.
 
-## Trivia
+## Zanimivosti
 
 - This is the first addon to modify the Scratch website.
 - This is the first and only addon to use a table setting.
