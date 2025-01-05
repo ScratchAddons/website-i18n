@@ -54,7 +54,6 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "在发帖后关注话题",
 		"description": "自动关注您发布的论坛主题。",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -285,15 +284,22 @@
 	{
 		"id": "blocks2image",
 		"name": "保存积木为图像",
-		"description": "右键单击代码区域以将积木导出为 SVG/PNG 图像。",
-		"tags": ["editor", "codeEditor"],
+		"description": "Right click on the code area or a stack of blocks to copy it to the clipboard or save it as a PNG or SVG file.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -651,6 +657,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -853,7 +864,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1107,7 +1118,7 @@
 		"id": "editor-random-direction-block",
 		"name": "面向随机方向积木",
 		"description": "在“面向()”积木中增加一个“随机方向”选项，让角色面向随机方向。这对所有使用该作品的人都有效。",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1199,6 +1210,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1270,6 +1282,10 @@
 			{ "name": "World_Languages" }
 		],
 		"info": [
+			{
+				"id": "studioClick",
+				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
+			},
 			{
 				"id": "setting-removal",
 				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
@@ -1522,6 +1538,25 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "forum-user-agent",
+		"name": "Modify version information on forums",
+		"description": "Changes the text \"Flash version\" to \"Flash versions\" when clicking the globe icon on the forums.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
 	},
 	{
 		"id": "full-signature",
@@ -2104,6 +2139,21 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "no-sprite-confirm",
+		"name": "Delete sprites without confirmation",
+		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "number-pad",
 		"name": "始终显示数字键盘",
 		"description": "在所有设备上编辑积木的数字参数时显示Scratch的虚拟数字键盘，而不仅仅是在触屏设备上显示。",
@@ -2280,6 +2330,20 @@
 		"versionAdded": "1.36.0"
 	},
 	{
+		"id": "player-thumb",
+		"name": "Show project thumbnail while loading",
+		"description": "Shows the project's thumbnail as a placeholder before the project is started and while it loads.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "预览作品的介绍和提示",
 		"description": "在你自己的项目中，在“作品介绍”上方添加一个切换按钮，用于预览其他用户看到的作品介绍和备注。",
@@ -2435,7 +2499,7 @@
 		"id": "rename-broadcasts",
 		"name": "重命名广播",
 		"description": "在广播语句的下拉列表中添加重命名广播的选项",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2499,7 +2563,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch通知",
 		"description": "在收到新消息时播放铃声并出现提示。点击提示直接跳转至消息（评论或作品）。",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2603,18 +2667,26 @@
 		"id": "search-sprites",
 		"name": "Sprite pane search",
 		"description": "在角色面板内增加一个搜索框，以按名字搜索角色",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",

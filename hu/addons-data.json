@@ -54,13 +54,12 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "asset-conflict-dialog",
-		"name": "Asset conflict dialog",
-		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"name": "Fájduplikátum párbeszédpanel",
+		"description": "Ha olyan jelmezeket töltenél fel, amiknek ugyanaz a neve, mint egy, már meglévő, egy párbeszédablak ugrik fel, hasonlóan ahhoz, ahogyan ez pl. egy fájlkezelőben működik. Lehetőség az Átnevezésre, Cserére vagy Ugrásra.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "Fórumtémák követése posztolást követően",
 		"description": "Automatikusan beköveti a fórumtémákat, amelyekhez hozzászólsz.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -166,8 +165,8 @@
 	},
 	{
 		"id": "big-save-button",
-		"name": "Larger \"Save Now\" button",
-		"description": "Extends the size of the \"Save Now\" button in the editor, making it easier to click.",
+		"name": "Nagyobb \"Mentés most\" gomb",
+		"description": "Megnöveli a Mentés most gomb méretét, így könnyebb rákattintani",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"credits": [
 			{ "name": "BroJac5246", "link": "https://github.com/BroJac5246/" }
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "Blokkokmentése képként",
-		"description": "Jobb kattintás a kódterületre, hogy exportálni lehessen a blokkokat SVG/PNG képekként",
-		"tags": ["editor", "codeEditor"],
+		"description": "Right click on the code area or a stack of blocks to copy it to the clipboard or save it as a PNG or SVG file.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -408,7 +414,7 @@
 	{
 		"id": "colorblind",
 		"name": "Customizable link style",
-		"description": "Lets you customize the style of links around the website.",
+		"description": "Személyre szabhatod a weboldalon található linkek kinézetét.",
 		"tags": ["community", "theme"],
 		"credits": [{ "name": "DNin01", "link": "https://github.com/DNin01" }],
 		"dynamicEnable": true,
@@ -623,8 +629,8 @@
 	},
 	{
 		"id": "custom-menu-bar",
-		"name": "Customizable editor menu bar",
-		"description": "Allows you to hide specific editor menu bar items or remove their labels or icons.",
+		"name": "Személyre szabható menüszalag a szerkesztőben",
+		"description": "Eltávolíthatsz a menüszalagról bizonyos linkeket, ikonokat, szövegeket, a szerkesztőben.",
 		"tags": ["editor", "editorMenuBar", "featured"],
 		"credits": [
 			{ "name": "philipp2007", "link": "https://iqnite.github.io/" },
@@ -644,18 +650,23 @@
 		"info": [
 			{
 				"id": "tutorials-button-update",
-				"text": "The \"Hide Tutorials button\" addon has been moved here as a setting."
+				"text": "Az \"Oktatóanyagok gomb elrejtése\" addon ide lett áthelyezve."
 			},
 			{
 				"type": "notice",
 				"id": "small-screens",
-				"text": "The text labels may be automatically replaced by icons on smaller windows."
+				"text": "Lehet, hogy a szövegek a gombokon automatikusan kicseréltetnek kisebb ikonokra, ha kisebb az ablak mérete a számítógépeden."
 			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -761,7 +772,7 @@
 	{
 		"id": "debugger",
 		"name": "Hibakereső",
-		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
+		"description": "Hozzáad egy új hibakereső ablakot. Működés: naplózás, hibabejelentés, figyelmeztetés blokkokkal írhatunk a Naplóba. A töréspont meg fogja állítani a futást, amikor odaér a program.  A Szálak oldalán a Naplónak megtekinthetőek az aktuálisan futó programszálak. Ha megállítjuk a programot (nem leállítjuk!!!), a léptetés funkcióval blokkonként haladhatunk végig a kódon. A program ilyenkor csak ezt az egy lépést hajtja végre. A Teljesítmény lapon az FPS és a másolatok száma tekinthető meg.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -801,8 +812,8 @@
 	},
 	{
 		"id": "delete-others",
-		"name": "Delete other costumes or sounds",
-		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"name": "Minden más hang vagy jelmez törlése",
+		"description": "Hozzáad egy lehetőséget a jobbklikk menüben az összes többi jelmez/hang törlésére, kivéve az éppen kiválasztottat.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -848,8 +859,8 @@
 	},
 	{
 		"id": "disable-sprite-wobble",
-		"name": "Szereplők ingásának kikapcsolása a szereplő kijelzőben",
-		"description": "Lehetővé teszi a kódok, jelmezek és hangok mozgatását különböző szereplőkbe anélkül, hogy a szereplők mozgolódjanak a szereplő kijelzőben.",
+		"name": "Ne rángasson a szereplőlista másoláskor",
+		"description": "Megjavítja a Scratch szerkesztőben azt a hibát, amikor blokkok másik szereplőbe való másolása közben a szereplők listája ugrál, rángat, lehetetlenné téve a pontos szereplőválasztást.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "Xan", "link": "https://scratch.mit.edu/users/-Xanimation-/" },
@@ -858,7 +869,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -906,8 +917,8 @@
 	},
 	{
 		"id": "download-button",
-		"name": "Project page download button",
-		"description": "Allows you to download projects directly from the project page, without having to open the editor first. The Download button is added next to the Copy Link button.",
+		"name": "Letöltés gomb a projekt oldalán",
+		"description": "Letöltheted a projektedet közvetlenül a projekt oldaláról, anélkül, hogy a szerkesztőbe be kellene lépned. Ez a gomb a Link másolása gomb mellett lesz.",
 		"tags": ["community", "projectPage", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -976,8 +987,8 @@
 	},
 	{
 		"id": "editor-compact",
-		"name": "Compact editor",
-		"description": "Decreases the size of buttons, input fields, the menu bar, and other elements in the editor, making more space for components such as the code area, the costume editor, and costume previews, as was the case in Scratch 2.0.",
+		"name": "Kompakt fejlesztőkörnyezet",
+		"description": "Lecsökkenti a gombok, bemeneti mezők, a menüszalag és más elemek méretét, így több hely marad a komponenseknek, például a kódolómezőnek, a jelmezszerkesztőnek és jelmezmegtekintő-ablakoknak, mint ahogyan a Scratch 2.0-ban volt.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -992,7 +1003,7 @@
 		"info": [
 			{
 				"id": "hide-icons-update",
-				"text": "To hide menu bar icons, use the \"Customizable menu bar\" addon."
+				"text": "A menüszalag ikonjainak elrejtéséhez használd a \"személyre szabható menüszalag\" beállítást."
 			}
 		],
 		"dynamicEnable": true,
@@ -1089,8 +1100,8 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation",
-		"description": "Use the up and down arrow keys to increase or decrease number values in numeric input fields such as those in blocks or the sprite properties area.",
+		"name": "Értékek megváltoztatása nyílbillentyűkkel",
+		"description": "Használhatod a fel és le nyílbillentyűket a blokkokon lévő szám bemeneti mezőkben és a szereplő tulajdonságainak beállításánál, hogy növeld vagy csökkentsd az értékeket.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1110,9 +1121,9 @@
 	},
 	{
 		"id": "editor-random-direction-block",
-		"name": "Point towards random direction block",
-		"description": "Adds a \"random direction\" option to the \"point towards ()\" block that makes the sprite point in a random direction. This will work for everyone using the project.",
-		"tags": ["editor"],
+		"name": "Nézz Random irányba blokk",
+		"description": "Hozzáad egy lehetőséget a Nézz ... irányba blokknál: Random. Ez minden felhasználónál működni fog.",
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1150,8 +1161,8 @@
 	},
 	{
 		"id": "editor-square-inputs",
-		"name": "Square block inputs",
-		"description": "Makes certain block input types (such as text or color) rectangular instead of round, like in Scratch 2.0.",
+		"name": "Téglalap alakú bemeneti mezők",
+		"description": "Egyes bementi mező-típusokat szögletessé tesz a lekerekített helyett (pl. szöveg, szín), mint a Scratch 2.0-ban",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [{ "name": "CST1229", "link": "https://github.com/CST1229/" }],
 		"dynamicEnable": true,
@@ -1204,6 +1215,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1215,12 +1227,12 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "The new High Contrast block colors are available as a preset below."
+				"text": "Az új nagy kontrasztú blokkok alább kapcsolhatóak be."
 			},
 			{
 				"id": "whatsInsertionMarker",
 				"type": "info",
-				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
+				"text": "Blokkok húzásakor a megjelenő árnyék egy beillesztési helyet jelző jelölő, ez akkor jelenik meg, ha egy blokkot közel húzol egy másikhoz."
 			}
 		],
 		"dynamicEnable": true,
@@ -1276,6 +1288,10 @@
 		],
 		"info": [
 			{
+				"id": "studioClick",
+				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
+			},
+			{
 				"id": "setting-removal",
 				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
 			}
@@ -1287,7 +1303,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Multi-row backpack",
+		"name": "Többsoros Tálca",
 		"description": "Elrendezi a tálca tartalmát egy bővíthető kétirányú rácsban, a jelmezkönyvtárban lévőhöz hasonlóan, és megnöveli egyes borítóképek méretét.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1341,8 +1357,8 @@
 	},
 	{
 		"id": "featured-dangos-v2",
-		"name": "Featured dangos",
-		"description": "A Scratch Addons April Fools joke from 2023 that added a row to the front page featuring dango-related projects.",
+		"name": "Dangos közreműködésével",
+		"description": "Egy Scratch Addons áprilisi tréfa 2023-ból, ami hozzáadott egy sávot a Főoldalhoz, tele csupa olyan projektekkel, amikhez Dangos is hozzátett valamit.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -1472,7 +1488,7 @@
 	},
 	{
 		"id": "forum-post-countdown",
-		"name": "Forum post cooldown display",
+		"name": "Új fórumposzt hozzáadási lehetőség visszaszámláló",
 		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1529,6 +1545,25 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "forum-user-agent",
+		"name": "Modify version information on forums",
+		"description": "Changes the text \"Flash version\" to \"Flash versions\" when clicking the globe icon on the forums.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
+	},
+	{
 		"id": "full-signature",
 		"name": "Teljes területek",
 		"description": "Megszabott magassággal jeleníti meg a teljes tartalmát egyes területeknek, mint például a felhasználók aláírását a fórumokon, vagy a profilokon lévő „Amin most dolgozom” résznek úgy, hogy átméretezhetőekké, vagy görgethetővé teszik.",
@@ -1559,7 +1594,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "If you choose to never show the toolbar, remember that you can use the Esc key to exit the project player's full screen mode.",
+				"text": "Ha azt választod, hogy a felső menüszalag soha ne legyen látható, ne felejtsd el, hogy használhatod az Esc-t is, hogy kilépj a színpad teljes képernyős megtekintéséből.",
 				"id": "hideToolbarNotice"
 			}
 		],
@@ -1607,8 +1642,8 @@
 	},
 	{
 		"id": "hide-backpack",
-		"name": "Replace backpack bar with button",
-		"description": "Replaces the backpack bar along the bottom of the editor with a button next to the zoom controls.",
+		"name": "Tálca sáv cseréje gombra",
+		"description": "A szerkesztő alján lévő Tálca sávot egy gombra cseréli le. A gomb a + és - zoom mellett lesz.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/norbir/" },
@@ -1667,7 +1702,7 @@
 	{
 		"id": "hide-new-variables",
 		"name": "Új változók elrejtése",
-		"description": "Do not automatically show monitors for newly created variables or lists.",
+		"description": "Nem lesznek láthatóak az újonnan létrehozott listák/változók a színpadon.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1703,7 +1738,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Hide forum signatures",
+		"name": "Fórum aláírások elrejtése",
 		"description": "Elrejti az aláírásokat a fórum posztokban és hozzáad egy \"Aláírás megjelenítése\" gombot.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1731,7 +1766,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Horizontal My Stuff tabs",
+		"name": "Vízszintes Saját dolgaim navigációs gombok",
 		"description": "Átrendezi a Saját Dolgaim navigációs gombjait (\"Minden projekt\", \"Műhelyeim\", \"Szemetes\") az oldal bal részéről a tetejére pakolva őket.",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -2077,7 +2112,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Name scripts before backpacking",
+		"name": "Elnevezhető kóddarabok a tálcára helyezés előtt",
 		"description": "Megkér, hogy nevezd el a kódokat miután behúztad őket a hátizsákba, ahelyett, hogy mindnek az a neve lenne, hogy \"kód\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2112,6 +2147,21 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "no-sprite-confirm",
+		"name": "Delete sprites without confirmation",
+		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
 	},
 	{
 		"id": "number-pad",
@@ -2182,8 +2232,8 @@
 	},
 	{
 		"id": "op-badge",
-		"name": "Highlight project creator in comments",
-		"description": "Adds a badge next to the project creator in project comments sections. Also adds a badge next to the original poster in forum topics.",
+		"name": "Projekt készítő hozzászólásainak kiemelése a komment szekcióban",
+		"description": "A projekt készítőjének neve mellett egy jelző jelenik majd meg azoknál a hozzászólásoknál, amit ő írt. Ezen kívül egy ugyanilyen jelzést ad hozzá fórumbeszélgetések kezdeményezőjének nevéhez.",
 		"tags": ["community", "forums", "featured", "comments"],
 		"credits": [
 			{
@@ -2273,7 +2323,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Pick stage colors with eyedropper",
+		"name": "Színek választása a színpadról is a pipettával",
 		"description": "Lehetővé teszi a jelmezszerkesztő pipetta-eszköze számára hogy a színpadról is felvehessen színeket.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2291,6 +2341,20 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.36.0"
+	},
+	{
+		"id": "player-thumb",
+		"name": "A projekt miniatűrkép (thumbnail) mutatása töltés közben",
+		"description": "Mutatja a projekt miniatűrképét (thumbnail), miközben a projekt tölt.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
 	},
 	{
 		"id": "preview-project-description",
@@ -2371,8 +2435,8 @@
 	},
 	{
 		"id": "remaining-replies",
-		"name": "Remaining reply counter",
-		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"name": "Hátralévő válaszszámláló",
+		"description": "Megmutatja, hány választ lehet még hagyni egy komment alatt, mielőtt a válaszok száma elérné a 25-ös limitet.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -2388,7 +2452,7 @@
 	{
 		"id": "remember-collapsed-categories",
 		"name": "Emlékezz az elrejtett fórumkategóriákra”",
-		"description": "Categories you collapsed on the forum home page (the list of forums) will stay collapsed when you leave and come back.",
+		"description": "Összecsukott kategóriák a Fórumoldalakon (a Fórumok listája) összecsukva maradnak akkor is, ha később újra betöltöd az oldalt.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2401,7 +2465,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix own projects",
+		"name": "Saját projektek remixelése",
 		"description": "Hozzáadja a remix gombot a saját projektjeidhez.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2434,7 +2498,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Disable search bar autocomplete",
+		"name": "Keresőmező automatikus kiegészítésének letiltása",
 		"description": "Megállítja a böngészőket attól, hogy automatikusan befejezzék a keresett szöveget a keresőmezőben.",
 		"tags": ["community"],
 		"credits": [
@@ -2448,7 +2512,7 @@
 		"id": "rename-broadcasts",
 		"name": "Üzenetküldések átnevezése",
 		"description": "Lehetőséget kínál az üzenetküldések nevének átírására az üzenetküldő blokkok a legördülő menüjében.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2462,8 +2526,8 @@
 	},
 	{
 		"id": "reorder-custom-inputs",
-		"name": "Rearrangeable custom block inputs",
-		"description": "Allows rearranging custom block parameters on the \"Make a block\" screen.",
+		"name": "Újrarendezhető Saját blokk bemenetek",
+		"description": "Lehetőség a bemeneti mezők újrarendezésére Saját blokkok esetében az \"Új saját blokk\" párbeszédpanelen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -2512,7 +2576,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch Értesítő",
 		"description": "Értesítések új Scratch üzeneteken. Kattints az értesítésre, hogy egyenesen elmenj az üzenethez (komment, projekt, stb.)",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2574,7 +2638,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "My Stuff search",
+		"name": "Keresés a Saját dolgaimban",
 		"description": "Megengedi, hogy keress a projektjeid, műhelyeid és törölt projektjeid között a Saját Dolgaim oldalon. Egyszerűen kezdj írni bárhova az oldalon, hogy megkezdd a keresést. használhatod a Ctrl+Entert a keresés után, hogy gyorsan megnyisd a legfelső eredményt.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2614,20 +2678,28 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Sprite pane search",
+		"name": "Keresőmező az Új szereplő gombnál",
 		"description": "Hozzáad egy kereső mezőt a szereplő kijelzőhőz, hogy kereshess a szereplők között név alapján.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",
@@ -2701,8 +2773,8 @@
 	},
 	{
 		"id": "stage-monitor",
-		"name": "Customizable stage monitors",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"name": "Személyre szabható színpadi listák és változók",
+		"description": "Megváltoztatja a színét és a sarkok lekerekítettségét a színpadon látható listáknak és változóknak.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -2753,7 +2825,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Variable type switching",
+		"name": "Változótípus megváltoztatása: minden/csak aktuális szereplőé",
 		"description": "További opciókat ad hozzá a már létező változók vagy listák átnevezésénél: megengedi a váltást \"Minden szereplőé\" és \"A kiválasztott szereplőé\" között, állítható továbbá a változók megosztottsága. Hozzáad még egy új opciót, amikor jobb kattintasz egy változót/listát, hogy gyorsabban állíthasd az elérhetőségét.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2875,8 +2947,8 @@
 	},
 	{
 		"id": "workspace-dots",
-		"name": "Customizable code editor grid",
-		"description": "Change the style of the grid pattern in the code editor.",
+		"name": "Személyre szabható kódszerkesztő-rács",
+		"description": "Megváltoztatható a rácsozás a kódszerkesztő mezőben.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }

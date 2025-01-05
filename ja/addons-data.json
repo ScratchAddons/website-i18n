@@ -49,18 +49,17 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail setter",
+		"name": "サムネイル設定",
 		"description": "プロジェクトのサムネイルを設定するボタンを、プロジェクトページの右下に追加する。",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "asset-conflict-dialog",
 		"name": "アセット競合ダイアログ",
-		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"description": "既存のものと同じ名前のコスチュームまたはサウンドをアップロードした場合、名前を常に変更するのではなく、それらを置き換えるかスキップするかを選択するダイアログが表示されます。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "投稿後にトピックをフォロー",
 		"description": "投稿したトピックを自動でフォローする。",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -179,7 +178,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Bitmap image copying",
+		"name": "ビットマップ画像をコピー",
 		"description": "ペイントエディターでビットマップ画像をコピー可能にする。",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "ブロックを画像に出力",
-		"description": "コードエリアを右クリックしてブロックをSVG/PNGとして出力する。",
-		"tags": ["editor", "codeEditor"],
+		"description": "コードエリアまたはブロックを右クリックして、それらをコピーしたりブロックをSVG/PNGとして出力したりする。",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -364,7 +370,7 @@
 	{
 		"id": "collapse-footer",
 		"name": "固定フッター",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
+		"description": "ウェブサイトのフッターを画面下に固定し、ホバーしたときに拡大するようにし、ページのどこでもすばやく利用可能にする。以前は「無限スクロール」の一部であった。",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -448,7 +454,7 @@
 			},
 			{
 				"type": "info",
-				"text": "On profile pages, line breaks at the beginning or end of a comment do not appear.",
+				"text": "プロフィールページの、コメントの最初や最後にある改行は非表示になります。",
 				"id": "scratchr2Linebreaks"
 			}
 		],
@@ -656,6 +662,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -802,7 +813,7 @@
 	{
 		"id": "delete-others",
 		"name": "他のコスチュームや音を削除",
-		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"description": "コスチュームとサウンドの右クリックメニューに、選択したアイテム以外のすべてのアイテムを削除するオプションを追加する。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -858,7 +869,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1089,7 +1100,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation",
+		"name": "矢印キーで数値を変更",
 		"description": "ブロック入力やスプライトペインの入力などの数値を上下キーで変更する。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1112,7 +1123,7 @@
 		"id": "editor-random-direction-block",
 		"name": "どれかの向きに向けるブロック",
 		"description": "「～に向ける」ブロックに、スプライトをランダムな方向に向ける「どれかの向き」の選択肢を追加する。このブロックは拡張機能をインストールせずに使用できる。",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1204,6 +1215,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1220,7 +1232,7 @@
 			{
 				"id": "whatsInsertionMarker",
 				"type": "info",
-				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
+				"text": "ブロックをドラッグしていて、他のブロックの近くに移動したときに現れる影が「挿入マーカー」です。"
 			}
 		],
 		"dynamicEnable": true,
@@ -1264,7 +1276,7 @@
 	{
 		"id": "exact-count",
 		"name": "正確な数を表示",
-		"description": "Shows exact numbers on profiles and the exact project count in studios.",
+		"description": "プロフィールの正確な数値とスタジオの正確なプロジェクト数を表示する。",
 		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
@@ -1276,8 +1288,12 @@
 		],
 		"info": [
 			{
+				"id": "studioClick",
+				"text": "スタジオ内のプロジェクトの正確な数を確認するには、以下の「スタジオの正確な数」設定を有効にし、スタジオの「プロジェクト」タブで「100+」という文字をクリックします。"
+			},
+			{
 				"id": "setting-removal",
-				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
+				"text": "フォーラム設定は、使用されているScratchDBデータベースがオフラインのため削除されました。"
 			}
 		],
 		"dynamicEnable": true,
@@ -1287,7 +1303,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Multi-row backpack",
+		"name": "複数行バックパック",
 		"description": "エディターのバックパックをコスチュームライブラリーのような二次元グリッドにし、サムネイルを拡大する。",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1527,6 +1543,25 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "forum-user-agent",
+		"name": "フォーラムのバージョン情報を修正する",
+		"description": "フォーラムの地球アイコンをクリックすると、「Flash version」というテキストを「Flash versions」に変更する。",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "これは、Scratch Addonsの開発者が、フォーラムで報告されたバグが拡張機能によって発生したのかどうかを確認するのに役立ちます。",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
 	},
 	{
 		"id": "full-signature",
@@ -1867,7 +1902,7 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Longer \"What I'm Working On\"",
+		"name": "「私が取り組んでいること」文字数制限増加",
 		"description": "「私が取り組んでいること」に55文字追加で入力できるようにする。",
 		"tags": ["community", "profiles"],
 		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
@@ -2077,7 +2112,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Name scripts before backpacking",
+		"name": "バックパック時にスクリプト名を設定",
 		"description": "バックパックに追加するときに、スクリプトに名前を付ける画面を表示する。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2112,6 +2147,21 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "no-sprite-confirm",
+		"name": "確認なしでスプライトを削除",
+		"description": "スプライトを削除してもよいかどうかを尋ねる確認プロンプトを削除します。",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "ヒント：スプライト、コスチューム、またはサウンドを誤って削除した場合は、メニュー バーの「編集」をクリックしてから「復元」をクリックすると、元に戻すことができます。",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
 	},
 	{
 		"id": "number-pad",
@@ -2273,7 +2323,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Pick stage colors with eyedropper",
+		"name": "ステージの色を選択",
 		"description": "コスチュームエディターのカラーピッカーでステージの色を選択できるようにする。",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2291,6 +2341,20 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.36.0"
+	},
+	{
+		"id": "player-thumb",
+		"name": "読み込み中にプロジェクトのサムネイルを表示",
+		"description": "プロジェクトの初回実行前と読み込み中に、プロジェクトのサムネイルを表示する。",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
 	},
 	{
 		"id": "preview-project-description",
@@ -2401,7 +2465,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix own projects",
+		"name": "自分のプロジェクトをリミックス",
 		"description": "自分が所有するプロジェクトにリミックスボタンを追加する。",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2434,7 +2498,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Disable search bar autocomplete",
+		"name": "検索バーの自動補完を無効化",
 		"description": "ナビゲーションバーの検索バーでオートコンプリートを無効化する。",
 		"tags": ["community"],
 		"credits": [
@@ -2448,7 +2512,7 @@
 		"id": "rename-broadcasts",
 		"name": "メッセージ名を変更",
 		"description": "メッセージブロックのドロップダウンにメッセージを改名するオプションを追加する。",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2512,7 +2576,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch通知",
 		"description": "メッセージを通知する。クリックしてメッセージの対象(コメント、スタジオなど)に直接行く。",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2574,7 +2638,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "My Stuff search",
+		"name": "「私の作品」検索",
 		"description": "「私の作品」ページでプロジェクト、スタジオ、ゴミ箱の中身を検索する。どれかのキーを押して検索を始める。Ctrl+Enterを押して、一番上の検索結果に行く。",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2614,20 +2678,28 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Sprite pane search",
+		"name": "スプライトペイン検索",
 		"description": "スプライトペインに、スプライトを名前で検索する項目を追加する。",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",
@@ -2702,7 +2774,7 @@
 	{
 		"id": "stage-monitor",
 		"name": "ステージモニターのカスタマイズ",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"description": "ステージ上の変数モニターやリストモニターの色や丸みを変更する。",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -2753,7 +2825,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Variable type switching",
+		"name": "変数の種類を変更",
 		"description": "変数やリストを改名するときに、「すべてのスプライト用」と「このスプライトのみ」や、クラウド変数を切り替えられるようにする。右クリックメニューに簡単に変更するための項目を追加する。",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2876,7 +2948,7 @@
 	{
 		"id": "workspace-dots",
 		"name": "コードエディターのグリッドのカスタマイズ",
-		"description": "Change the style of the grid pattern in the code editor.",
+		"description": "コードエディタでグリッドパターンのスタイルを変更する。",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }

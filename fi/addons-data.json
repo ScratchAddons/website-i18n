@@ -54,12 +54,11 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
 		"id": "asset-conflict-dialog",
-		"name": "Resurssiristiriitojen dialogi",
+		"name": "Näytä dialogi resurssiristiriitoja kohdatessa",
 		"description": "Kun lataat asusteita tai ääniä, joilla on sama nimi kuin jo olemassa olevalla, näytetään dialogi, jossa voit valita, haluatko korvata tai ohittaa ne uudelleen nimeämisen sijaan.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "Seuraa aiheita lähetettyäsi niihin viestin",
 		"description": "Seuraa automaattisesti foorumiaiheita, joihin lähetät viestin.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "Tallenna lohkoja kuvana",
-		"description": "Lataa lohkoja SVG-/PNG-kuvana napauttamalla hiiren kakkospainiketta koodialueella.",
-		"tags": ["editor", "codeEditor"],
+		"description": "Kopioi koko koodialue tai yksittäinen lohkopino leikepöydälle tai tallenna se PNG- tai SVG-tiedostona napauttamalla sitä hiiren kakkospainikkeella.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -658,6 +664,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -860,7 +871,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1114,7 +1125,7 @@
 		"id": "editor-random-direction-block",
 		"name": "Osoita kohti satunnainen suunta -lohko",
 		"description": "Lisää \"osoita kohti ()\" -lohkoon vaihtoehdon \"satunnainen suunta\", joka saa hahmon osoittamaan kohti satunnaista suuntaa. Tämä toimii kaikilla projektia käyttävillä.",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1206,6 +1217,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1277,6 +1289,10 @@
 			{ "name": "World_Languages" }
 		],
 		"info": [
+			{
+				"id": "studioClick",
+				"text": "Jos haluat nähdä projektien tarkan lukumäärän studiossa, ota käyttöön alla oleva \"tarkat lukumäärä studioissa\" -asetus ja napauta \"100+\"-kohtaa studion Projektit-välilehtipainikkeessa."
+			},
 			{
 				"id": "setting-removal",
 				"text": "Foorumiasetus on poistettu, koska sen käyttämä ScratchDB-tietokanta on verkon ulkopuolella."
@@ -1529,6 +1545,25 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "forum-user-agent",
+		"name": "Muuta foorumien versiotietoja",
+		"description": "Muuttaa tekstin \"Flash Version\" muotoon \"Flash Versions\", kun maapallokuvaketta napautetaan foorumeilla.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "Tämän lisäosan avulla Scratch-lisäosien kehittäjien on helpompi selvittää, aiheutuuko foorumeilla ilmoitettu bugi mahdollisesti laajennuksesta.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
 	},
 	{
 		"id": "full-signature",
@@ -2116,6 +2151,21 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "no-sprite-confirm",
+		"name": "Poista hahmoja ilman vahvistusta",
+		"description": "Poistaa vahvistuskehotteen, joka kysyy, haluatko varmasti poistaa hahmon.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Vinkki: Jos poistat hahmon, asusteen tai äänen vahingossa, voit kumota poiston napauttamalla Muokkaa-painiketta valikkorivillä ja valitsemalla Palauta.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "number-pad",
 		"name": "Näytä aina numeronäppäimistö",
 		"description": "Näytä Scratchin virtuaalinen numeronäppäimistö kaikilla laitteilla lohkojen numerokenttiä muokatessa sen sijaan, että näppäimistö näytettäisiin ainoastaan kosketusnäytöllisillä laitteilla.",
@@ -2295,6 +2345,20 @@
 		"versionAdded": "1.36.0"
 	},
 	{
+		"id": "player-thumb",
+		"name": "Näytä projektin pikkukuva latautumisen aikana",
+		"description": "Näyttää projektin pikkukuvan ennen projektin käynnistämistä ja sen latautuessa.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Projektin ohjeiden ja ilmoitusten esikatselu",
 		"description": "Lisää omien projektiesi Ohjeet-kentän ylle kytkimen, jonka avulla voit katsella projektin ohjeita ja ilmoituksia muiden käyttäjien näkökulmasta.",
@@ -2450,7 +2514,7 @@
 		"id": "rename-broadcasts",
 		"name": "Viestien uudelleennimeäminen",
 		"description": "Lisää vaihtoehdon viestin uudelleen nimeämistä varten viestilohkojen pudotusvalikoissa.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2514,7 +2578,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch-ilmoitukset",
 		"description": "Ilmoitukset uusista Scratch-viesteistä. Siirry suoraan viestiin (kommentiin, projektiin tms.) napauttamalla ilmoitusta.",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2618,18 +2682,26 @@
 		"id": "search-sprites",
 		"name": "Hakutoiminto hahmoruudussa",
 		"description": "Lisää hahmoruutuun hakukentän hahmojen nimellä etsimistä varten.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",
@@ -2703,8 +2775,8 @@
 	},
 	{
 		"id": "stage-monitor",
-		"name": "Customizable stage monitors",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"name": "Mukautettavat muuttujien ja listojen näyttimet",
+		"description": "Muuta esiintymislavalla näytettävien muuttujien ja listojen näytinten väriä ja pyöreyttä.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },

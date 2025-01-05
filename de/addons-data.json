@@ -54,7 +54,6 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "Diskussionen nach Posten folgen",
 		"description": "Folgt automatisch Forenthemen, nachdem du einen Post darauf abschickst.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "Blöcke als Bild speichern",
-		"description": "Klicke mit der rechten Maustaste auf den Codebereich, um Blöcke als SVG/PNG-Bilder zu exportieren",
-		"tags": ["editor", "codeEditor"],
+		"description": "Klicke mit der rechten Maustaste auf den Code-Bereich oder auf einen Blockstapel, um ihn in die Zwischenablage zu kopieren oder in eine PNG- oder SVG-Datei zu speichern.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -661,6 +667,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -863,7 +874,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1117,7 +1128,7 @@
 		"id": "editor-random-direction-block",
 		"name": "Block \"drehe in zufällige Richtung\"",
 		"description": "Fügt die Option \"zufällige Richtung\" zum \"drehe zu ()\"-Block hinzu, die die Figur in eine zufällig gewählte Richtung zeigen lässt. Dies wird für alle Nutzer funktionieren.",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1209,6 +1220,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1280,6 +1292,10 @@
 			{ "name": "World_Languages" }
 		],
 		"info": [
+			{
+				"id": "studioClick",
+				"text": "Um die genau Anzahl von Projekten in einem Studio anzuzeigen y aktiviere unten die Einstellungen \"genaue Anzahl in Studios\" und klicke auf das Label \"100+\" auf dem Projekte-Tab des Studios."
+			},
 			{
 				"id": "setting-removal",
 				"text": "Die Forum-Einstellung wurde entfernt, da die benötigte ScratchDB-Datenbank offline ist."
@@ -1532,6 +1548,25 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "forum-user-agent",
+		"name": "Versionsinfo in Foren bearbeiten",
+		"description": "Ändert den Text \"Flash-Version\" zu \"Flash-Versionen\", wenn auf das Globus-Symbol in Foren geklickt wird.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "Dies ist für die Entwickler von Scratch Addons beim Herausfinden, ob ein auf den Foren gemeldeter Fehler möglicherweise von der Erweiterung verursacht wurde, hilfreich.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
 	},
 	{
 		"id": "full-signature",
@@ -2119,6 +2154,21 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "no-sprite-confirm",
+		"name": "Figuren ohne Bestätigung löschen",
+		"description": "Entfernt den Bestätigungsdialog, der fragt, ob du sicher bist, dass du die Figur löschen möchtest.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Tipp: Wenn du versehentlich eine Figur, ein Kostüm oder einen Klang löschst, kannst du den Vorgang rückgängig machen, indem du in der Menüleiste auf \"Bearbeiten\" und dann \"Wiederherstellen\" klickst.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "number-pad",
 		"name": "Zifferntastatur immer anzeigen",
 		"description": "Zeigt Scratchs virtuelles Zahlenpad, das bei der Eingabe in Zahlenfeldern auf Touchscreen-Geräten geöffnet wird, auf allen Geräten an.",
@@ -2298,6 +2348,20 @@
 		"versionAdded": "1.36.0"
 	},
 	{
+		"id": "player-thumb",
+		"name": "Projekt-Titelbilder während dem Laden anzeigen",
+		"description": "Zeigt das Titelbild des Projektes als Platzhalter, bevor das Projekt gestarted wird und während es lädt.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Vorschau für Projektanmerkungen",
 		"description": "Fügt einen Schalter über der Anleitung In deinen eigenen Projekten hinzu, mit dem du die Bereiche \"Anleitung\" und \"Anmerkungen und Danksagungen\" so sehen kannst wie andere Nutzer.",
@@ -2453,7 +2517,7 @@
 		"id": "rename-broadcasts",
 		"name": "Nachrichten umbenennen",
 		"description": "Fügt eine Option im Dropdownmenü von Nachrichtenblöcken hinzu, mit der du Nachrichten umbenennen kannst.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2517,7 +2581,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch-Benachrichtigungen",
 		"description": "Benachrichtigungen für neue Scratch-Nachrichten. Klicke die Benachrichtigung an, um direkt zur Nachricht zu gelangen (Kommentar, Projekt, etc.)",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2621,18 +2685,26 @@
 		"id": "search-sprites",
 		"name": "Suche im Figurenpanel",
 		"description": "Fügt ein Suchfeld zur Figurenleiste hinzu.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",

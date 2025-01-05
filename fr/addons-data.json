@@ -54,7 +54,6 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "Suivre les sujets après avoir publié",
 		"description": "Suivez automatiquement les sujets du forum sur lesquels vous publiez.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "Enregistrer les blocs en tant qu'image",
-		"description": "Faites un clic droit sur la zone de code de l'éditeur pour exporter les blocs sous formes d'images SVG / PNG.",
-		"tags": ["editor", "codeEditor"],
+		"description": "Right click on the code area or a stack of blocks to copy it to the clipboard or save it as a PNG or SVG file.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -661,6 +667,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -863,7 +874,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1117,7 +1128,7 @@
 		"id": "editor-random-direction-block",
 		"name": "Bloc pour s'orienter vers une direction aléatoire",
 		"description": "Ajoute une option \"direction aléatoire\" au bloc \"s'orienter vers ()\" qui fait pointer le sprite dans une direction aléatoire. Cela fonctionnera pour tous ceux qui utilisent le projet.",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1209,6 +1220,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1225,7 +1237,7 @@
 			{
 				"id": "whatsInsertionMarker",
 				"type": "info",
-				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
+				"text": "Lors du déplacement d'un bloc, une ombre du bloc apparaît lorsqu'il est déplacé à proximité d'autres blocs."
 			}
 		],
 		"dynamicEnable": true,
@@ -1280,6 +1292,10 @@
 			{ "name": "World_Languages" }
 		],
 		"info": [
+			{
+				"id": "studioClick",
+				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
+			},
 			{
 				"id": "setting-removal",
 				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
@@ -1534,6 +1550,25 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "forum-user-agent",
+		"name": "Modify version information on forums",
+		"description": "Changes the text \"Flash version\" to \"Flash versions\" when clicking the globe icon on the forums.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
+	},
+	{
 		"id": "full-signature",
 		"name": "Zones complètes",
 		"description": "Affiche le contenu complet des zones à hauteur limitée, telles que les signatures d'utilisateurs sur les forums et Ce que j'ai fait sur les profils, en les rendant redimensionnables ou défilables.",
@@ -1736,7 +1771,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Horizontal My Stuff tabs",
+		"name": "Onglet Mes Projets horizontaux",
 		"description": "Mettre les onglets (\"Tous les projets\", \"Mes studios\", \"Poubelle\") au début de la page Mes projets au lieu de les laisser sur la gauche",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -2119,6 +2154,21 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "no-sprite-confirm",
+		"name": "Delete sprites without confirmation",
+		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "number-pad",
 		"name": "Toujours afficher le pavé numérique",
 		"description": "Afficher le pavé numérique virtuel de Scratch lors de la modification des champs numériques dans les blocs sur tous les appareils, au lieu des seuls appareils à écran tactile.",
@@ -2298,6 +2348,20 @@
 		"versionAdded": "1.36.0"
 	},
 	{
+		"id": "player-thumb",
+		"name": "Show project thumbnail while loading",
+		"description": "Shows the project's thumbnail as a placeholder before the project is started and while it loads.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Prévisualiser les instructions et les notes d'un projet",
 		"description": "Dans vos propres projets, ajoute un bouton au-dessus du champ Instructions pour prévisualiser les instructions et les notes du projet telles qu'elles sont vues par les autres utilisateurs.",
@@ -2376,8 +2440,8 @@
 	},
 	{
 		"id": "remaining-replies",
-		"name": "Remaining reply counter",
-		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"name": "Conteur de réponses restantes",
+		"description": "Montre combien de réponses supplémentaires peuvent être postées dans chaque fil de commentaire dans un studio avant d'atteindre la limite de 25.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -2453,7 +2517,7 @@
 		"id": "rename-broadcasts",
 		"name": "Renommer les diffusions",
 		"description": "Ajoute une option pour renommer les messages de diffusion dans le menu déroulant de ces blocs.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2517,7 +2581,7 @@
 		"id": "scratch-notifier",
 		"name": "Notifications Scratch",
 		"description": "Notification lors de nouveaux messages Scratch. Cliquez sur la notification pour aller directement sur le message (commentaire, projet, etc.)",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2621,18 +2685,26 @@
 		"id": "search-sprites",
 		"name": "Sprite pane search",
 		"description": "Ajoute un champ de recherche au volet des sprites pour les rechercher par nom.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",
@@ -2706,8 +2778,8 @@
 	},
 	{
 		"id": "stage-monitor",
-		"name": "Customizable stage monitors",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"name": "Moniteurs de scène personnalisables",
+		"description": "Change la couleur et la rondeur des moniteurs de variables et de listes sur la scène.",
 		"tags": ["editor", "theme", "projectPlayer"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },

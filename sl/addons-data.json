@@ -54,7 +54,6 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": true,
 		"versionAdded": "1.3.0"
 	},
 	{
@@ -81,7 +80,7 @@
 		"id": "auto-follow-topics",
 		"name": "Samodejno sledi temam",
 		"description": "V forumih samodejno sledi temam, na katerih objavljate.",
-		"tags": ["forums", "community"],
+		"tags": ["forums", "community", "recommended"],
 		"credits": [{ "name": "Chiroyce", "link": "https://github.com/Chiroyce1" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -290,15 +289,22 @@
 	{
 		"id": "blocks2image",
 		"name": "Shrani bloke kot sliko",
-		"description": "Kliknite prostor za kodo z desno miškino tipko, da izvozite bloke kot sliko SVG ali PNG.",
-		"tags": ["editor", "codeEditor"],
+		"description": "Kliknite na območje s kodo ali zaporedje blokov, da ga kopirate v odložišče ali shranite kot datoteko PNG ali SVG.",
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
-			{ "name": "summerscar", "link": "https://github.com/summerscar" }
+			{ "name": "summerscar", "link": "https://github.com/summerscar" },
+			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" },
+			{ "name": "World_Languages" }
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.13.0"
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The addon has been reworked. There is now a modal for saving the blocks as an image, and the image can be copied to the clipboard.",
+			"isMajor": true
+		}
 	},
 	{
 		"id": "cat-blocks",
@@ -661,6 +667,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.36.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"newSettings": ["hide-debug-button"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -863,7 +874,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"enabledByDefault": false,
+		"enabledByDefault": true,
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.35.0",
@@ -1117,7 +1128,7 @@
 		"id": "editor-random-direction-block",
 		"name": "Blok \"obrni se v naključno smer\"",
 		"description": "V meni bloka \"obrni se proti ()\" doda možnost \"naključna smer\". To deluje tudi, če uporabnik projekta nima Scratch Addons.",
-		"tags": ["editor"],
+		"tags": ["editor", "codeEditor"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva/" },
 			{
@@ -1209,6 +1220,7 @@
 			},
 			{ "name": "DNin01", "link": "https://github.com/DNin01" },
 			{ "name": "Shock59", "link": "https://github.com/shock59" },
+			{ "name": "0znzw", "link": "https://scratch.mit.edu/users/0znzw" },
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
 		],
 		"info": [
@@ -1280,6 +1292,10 @@
 			{ "name": "World_Languages" }
 		],
 		"info": [
+			{
+				"id": "studioClick",
+				"text": "Za prikaz točnega števila projektov v studiu vključite nastavitev \"točna števila v studiih\" spodaj in kliknite napis \"100+\" na zavihku Projekti v studiu."
+			},
 			{
 				"id": "setting-removal",
 				"text": "Nastavitev Točno število objav pri uporabnikih forumov smo odstranili, ker podatkovna baza ScratchDB, ki jo je uporabljala, ni več na voljo."
@@ -1532,6 +1548,25 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0"
+	},
+	{
+		"id": "forum-user-agent",
+		"name": "Spremeni podatke o različici brskalnika v forumih",
+		"description": "Spremeni besedilo \"Flash version\" v \"Flash versions\", ko kliknete ikono globusa v forumih.",
+		"tags": ["community", "forums"],
+		"info": [
+			{
+				"text": "Razvijalci Scratch Addons to uporabljamo, da vemo, ali je napako, prijavljeno na forumu, morda povzročila razširitev.",
+				"id": "usefulness"
+			}
+		],
+		"dynamicEnable": false,
+		"enabledByDefault": true,
+		"versionAdded": "1.13.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "This is not new, but it can now be disabled."
+		}
 	},
 	{
 		"id": "full-signature",
@@ -2119,6 +2154,21 @@
 		"versionAdded": "1.19.0"
 	},
 	{
+		"id": "no-sprite-confirm",
+		"name": "Delete sprites without confirmation",
+		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"tags": ["editor", "danger", "featured"],
+		"info": [
+			{
+				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"id": "restoretip"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "number-pad",
 		"name": "Vedno pokaži številčnico",
 		"description": "Med urejanjem polj za vnos števil v blok pokaže Scratchevo številčnico na vseh napravah, ne le na tistih z zasloni na dotik.",
@@ -2298,6 +2348,20 @@
 		"versionAdded": "1.36.0"
 	},
 	{
+		"id": "player-thumb",
+		"name": "Pokaži sličico projekta med nalaganjem",
+		"description": "Pokaže sličico projekta namesto odra pred klikom na zeleno zastavico in med nalaganjem.",
+		"tags": ["community", "theme", "projectPage"],
+		"credits": [
+			{ "name": "Samq64", "link": "https://github.com/Samq64" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"versionAdded": "1.40.0"
+	},
+	{
 		"id": "preview-project-description",
 		"name": "Predogled navodil in opomb projekta",
 		"description": "Nad poljem Navodila na straneh vaših projektov doda stikalo, ki prikaže navodila in opombe projekta, kot jih bodo videli drugi uporabniki.",
@@ -2453,7 +2517,7 @@
 		"id": "rename-broadcasts",
 		"name": "Preimenuj sporočila",
 		"description": "V menije blokov \"objavi\" in \"ko prejmem sporočilo\" doda možnost za preimenovanje sporočila.",
-		"tags": ["editor", "featured"],
+		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2517,7 +2581,7 @@
 		"id": "scratch-notifier",
 		"name": "Scratch obvestila",
 		"description": "Obvestila o novih sporočilih na Scratchu. Kliknite obvestilo, da si ogledate sporočilo (komentar, projekt itd.)",
-		"tags": ["community", "recommended"],
+		"tags": ["community", "beta"],
 		"credits": [
 			{ "name": "World_Languages" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -2621,18 +2685,26 @@
 		"id": "search-sprites",
 		"name": "Iskanje po seznamu figur",
 		"description": "Poleg seznama figur doda polje za iskanje figur glede na ime.",
-		"tags": ["editor"],
+		"tags": ["editor", "recommended"],
 		"credits": [
 			{
 				"name": "BarelySmooth",
 				"link": "https://scratch.mit.edu/users/BarelySmooth/"
 			},
-			{ "name": "GarboMuffin" }
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.24.0"
+		"versionAdded": "1.24.0",
+		"latestUpdate": {
+			"version": "1.40.0",
+			"temporaryNotice": "The search bar is now below the sprite list, next to the add button."
+		}
 	},
 	{
 		"id": "semicolon",
