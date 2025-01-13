@@ -11,9 +11,9 @@ We can't help with issues related to Scratch moderation. Instead, use the Report
 
 {{</ admonition >}}
 
-## Alternatives
+## वैकल्पिक
 
-In case you need an alternative, here are some choices.
+यदि आपको किसी विकल्प की आवश्यकता हो तो यहां कुछ विकल्प दिए गए हैं।
 
 - Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)

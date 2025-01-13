@@ -1,4 +1,4 @@
 ---
 title: शुरू करना
 ---
-Get started with making an addon for Scratch Addons!
+स्क्रैच ऐडऑन के लिए ऐडऑन बनाना शुरू करें!
