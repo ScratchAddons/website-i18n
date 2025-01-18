@@ -17,7 +17,7 @@ Jos tarvitset vaihtoehdon, tässä on joitain sellaisia.
 
 - Luo seikka [tietosäilöön](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Jätä viesti [keskusteluvälilehdelle](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Lähetä viesti [Discord-palvelimellamme](https://discord.gg/R5NBqwMjNc).
+- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
 - Ota yhteyttä johonkuhun osallistujista Discordissa, Twitterissä tai muilla keinoilla.
 
 Ethän ota yhteyttä projektin osallistujaan Scratchin kautta, koska [käytäntö kieltää laajennusten/käyttäjäskriptien mainostamisen](https://scratch.mit.edu/discuss/post/2907564/).

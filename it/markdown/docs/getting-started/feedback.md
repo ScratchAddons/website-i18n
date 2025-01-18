@@ -17,7 +17,7 @@ Nel caso ti occorrano delle alternative, ecco qui alcune scelte.
 
 - Crea una segnalazione sul nostro [repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Crea un post nella nostra scheda [Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Invia un messaggio sul nostro [server Discord](https://discord.gg/R5NBqwMjNc)
+- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
 - Contatta uno dei nostri sviluppatori, su Discord, Twitter o usando un altro metodo
 
 Sconsigliamo di contattare uno dei nostri sviluppatori usando Scratch, a causa della loro [policy che proibisce di parlare di estensioni/userscript](https://scratch.mit.edu/discuss/post/2907564/).

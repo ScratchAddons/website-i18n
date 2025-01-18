@@ -179,7 +179,7 @@ Mesélhet róla nekünk a lenti eljárások egyike által.
 - Send it through [our feedback form](/feedback).
 - Hozzon létre egy issuet [a epositoryn](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Készítsen egy posztot a [vitalapunkon](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Számoljon be róla [a Discord szerverünkön](https://discord.gg/R5NBqwMjNc).
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Azt gondolom, hogy kihagytatok egy funkciót. Mit tehetek?
 
@@ -187,7 +187,7 @@ If you want to suggest an addon for the extension or have some other kind of goo
 
 ### Where can I discuss Scratch Addons?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## Műszaki
 
@@ -219,4 +219,4 @@ If you don’t want your name to be on the page, please tell us by creating an i
 
 ### Több kérdésem van!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

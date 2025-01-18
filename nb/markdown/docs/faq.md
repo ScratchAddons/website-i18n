@@ -179,7 +179,7 @@ Du kan fortelle oss ved å bruke en av disse metodene.
 - Send det gjennom [vårt tilbakemeldingsskjema](/feedback).
 - Opprett en sak på [repositoryet](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Opprett et innlegg på [vår Diskusjon-fane](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Fortell oss på [vår Discord-server](https://discord.gg/R5NBqwMjNc).
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Jeg tror du gikk glipp av en funksjon. Hva kan jeg gjøre?
 
@@ -187,7 +187,7 @@ Hvis du ønsker å foreslå en tillegg for utvidelsen eller har en annen god id�
 
 ### Hvor kan jeg diskutere Scratch Addons?
 
-Du kan gjøre det på [vår diskusjonsside](https://github.com/ScratchAddons/ScratchAddons/discussions) eller [vår Discord-server](https://discord.gg/R5NBqwMjNc). Der kan du stille spørsmål og engasjere deg med Scratch Addons-fellesskapet.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## Teknisk
 
@@ -219,4 +219,4 @@ Hvis du ikke ønsker at navnet ditt skal være på siden, vennligst gi oss beskj
 
 ### Jeg har flere spørsmål!
 
-Hvis du har flere spørsmål som trenger svar, kan du opprette en post på [vår diskusjonsside](https://github.com/ScratchAddons/ScratchAddons/discussions) eller sende en melding [på vår Discord-server](https://discord.gg/R5NBqwMjNc). Vi vil svare så godt vi kan!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

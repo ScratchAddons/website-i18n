@@ -179,7 +179,7 @@ Read more about it [here](/docs/develop/getting-started).
 - [피드백 폼](/feedback)으로 보냅니다.
 - [레포지터리](https://github.com/ScratchAddons/ScratchAddons/issues)에서 이슈를 만듭니다.
 - Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- [디스코드 서버](https://discord.gg/R5NBqwMjNc)에서 말합니다.
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### 제가 원하는 기능이 없는 것 같습니다. 어떻게 해야 하나요?
 
@@ -187,7 +187,7 @@ If you want to suggest an addon for the extension or have some other kind of goo
 
 ### 스크래치 애드온을 어디서 얘기할 수 있나요?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## 기술
 
@@ -219,4 +219,4 @@ If you don’t want your name to be on the page, please tell us by creating an i
 
 ### 질문이 더 있습니다!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

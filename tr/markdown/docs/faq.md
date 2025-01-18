@@ -179,7 +179,7 @@ Bu yöntemlerden birini kullanarak bize söyleyebilirsiniz.
 - Bunu [geri bildirim formumuz](/feedback) üzerinden gönderin.
 - [Depoda](https://github.com/ScratchAddons/ScratchAddons/issues) bir issue oluşturun.
 - [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturun.
-- [Discord sunucumuzdan](https://discord.gg/R5NBqwMjNc) bize bildirin.
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Sanırım bir özelliği atlamışsınız. Ne yapabilirim?
 
@@ -187,7 +187,7 @@ Uzantı için bir eklenti önermek istiyorsanız veya başka bir iyi fikriniz va
 
 ### Scratch Eklentileri hakkında nerede konuşabilirim?
 
-Bunu [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) veya [Discord sunucumuzda](https://discord.gg/R5NBqwMjNc) yapabilirsiniz. Oralarda sorular sorabilir ve Scratch Eklentileri topluluğuyla etkileşim kurabilirsiniz.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## Teknik
 
@@ -219,4 +219,4 @@ Adınızın sayfada görünmesini istemiyorsanız, lütfen katkıda bulunanlar d
 
 ### Daha fazla sorum var!
 
-Yanıtlanması gereken başka sorularınız varsa [Tartışma sekmemizde](https://github.com/ScratchAddons/ScratchAddons/discussions) bir gönderi oluşturabilir veya [Discord sunucumuza](https://discord.gg/R5NBqwMjNc) bir mesaj gönderebilirsiniz. Elimizden geldiğince cevap vereceğiz!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

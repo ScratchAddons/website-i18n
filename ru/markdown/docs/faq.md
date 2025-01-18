@@ -179,7 +179,7 @@ Read more about it [here](/docs/develop/getting-started).
 - Send it through [our feedback form](/feedback).
 - Создать проблему (issue) в [репозитории](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Создать пост в [нашей вкладке дискуссирования](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Сказать нам на [нашем Discord сервере](https://discord.gg/R5NBqwMjNc).
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Мне кажется, Вы пропустили особенность. Что я могу сделать?
 
@@ -187,7 +187,7 @@ If you want to suggest an addon for the extension or have some other kind of goo
 
 ### Where can I discuss Scratch Addons?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## Technical
 
@@ -219,4 +219,4 @@ If you don’t want your name to be on the page, please tell us by creating an i
 
 ### У меня есть ещё вопросы!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

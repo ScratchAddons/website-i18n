@@ -181,7 +181,7 @@ Vous pouvez nous en faire part par l'un de ces moyens.
 - Envoyez-le par [notre formulaire de rétroaction](/feedback).
 - Créez un problème sur [le dépôt] (https://github.com/ScratchAddons/ScratchAddons/issues).
 - Créez une publication sur [notre onglet Discussion] (https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Parlez-nous de [notre serveur Discord] (https://discord.gg/R5NBqwMjNc).
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Je pense que vous avez manqué un article. Que puis-je faire?
 
@@ -189,7 +189,7 @@ Si vous voulez suggérer un addon pour l’extension ou avoir un autre genre de 
 
 ### Où puis-je discuter de Scratch Addons?
 
-Vous pouvez le faire sur [notre onglet Discussion](https://github.com/ScratchAddons/ScratchAddons/discussions) ou [notre serveur Discord](https://discord.gg/R5NBqwMjNc). Là, vous pouvez poser des questions et interagir avec la communauté Scratch Addons.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## technique
 
@@ -221,4 +221,4 @@ Si vous ne voulez pas que votre nom soit sur la page, veuillez nous le dire en c
 
 ### J'ai plus de questions !
 
-Si vous avez d’autres questions qui nécessitent des réponses, vous pouvez créer une publication sur [notre onglet Discussion] (https://github.com/ScratchAddons/ScratchAddons/discussions) ou envoyer un message [sur notre serveur Discord] (https://discord.gg/R5NBqwMjNc). Nous répondrons de notre mieux!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

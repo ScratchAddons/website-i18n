@@ -179,7 +179,7 @@ Je kunt het ons vertellen door een van deze methodes.
 - Verzend het in [ons feedbackformulier](/feedback).
 - Maak een issue op [het archief](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Maak een post op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Vertel het ons op [onze Discord-server](https://discord.gg/R5NBqwMjNc).
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### Ik denk dat jullie een functie hebben gemist. Wat kan ik doen?
 
@@ -187,7 +187,7 @@ Als je een suggestie voor een addon of een ander goed idee hebt, vertel het ons 
 
 ### Waar kan ik Scratch Addons discussiëren?
 
-Dat kan in [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of [onze Discord server](https://discord.gg/R5NBqwMjNc). Daar kun je vragen stellen en verbinden met de Scratch Addons-gemeenschap.
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## Technisch
 
@@ -219,4 +219,4 @@ Als je niet wilt dat je naam op de pagina staat, vertel het ons door een issue t
 
 ### Ik heb nog meer vragen!
 
-Als je nog onbeantwoorde vragen hebt, kun je een post maken op [onze Discussiepagina](https://github.com/ScratchAddons/ScratchAddons/discussions) of verstuur een bericht [op onze Discord-server](https://discord.gg/R5NBqwMjNc). We zullen het proberen je vraag zo goed mogelijk te beantwoorden!
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!

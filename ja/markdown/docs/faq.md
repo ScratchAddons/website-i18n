@@ -179,7 +179,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 - [フィードバックフォーム](/feedback)から送る。
 - [リポジトリ](https://github.com/ScratchAddons/ScratchAddons/issues)にてIssueを作成する。
 - [Discussion ページ](https://github.com/ScratchAddons/ScratchAddons/discussions)にて投稿する。
-- [Discord サーバー](https://discord.gg/R5NBqwMjNc)にて投稿する。
+- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### 機能を追加してほしいです。どうすればいいですか?
 
@@ -187,7 +187,7 @@ Scratch Addons への貢献に興味を持ってくれてありがとうござ�
 
 ### Scratch Addonsに関して議論できる場所はありますか?
 
-[Discussion タブ](https://github.com/ScratchAddons/ScratchAddons/discussions) や [Discord サーバー](https://discord.gg/R5NBqwMjNc)にて行えます。そこでは、質問をしたり Scratch Addons コミュニティーと関われます。
+You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
 ## 技術的
 
@@ -219,4 +219,4 @@ Scratch Addons はアドオンを読み込みます。たとえば:
 
 ### 他にも質問があります!
 
-他にも質問がある場合は、[Discussion タブ](https://github.com/ScratchAddons/ScratchAddons/discussions) や [Discord サーバー](https://discord.gg/R5NBqwMjNc) にて投稿できます。私たちはできる限り応答するよう努めます。
+If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
