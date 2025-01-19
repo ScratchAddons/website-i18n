@@ -112,4 +112,4 @@ Als je nog vragen hebt over vertalen, kies dan één van de volgende opties:
 ## Credits
 
 - Als je wordt geaccepteerd, mag je jezelf toevoegen (of worden toegevoegd) aan [de creditspagina](/credits).
-- Je vertalingen zijn vergund onder dezelfde licentie als Scratch Addons (GPL v3.0).
+- Je vertalingen zijn gelicentieerd onder dezelfde licentie als Scratch Addons (GPL v3.0).

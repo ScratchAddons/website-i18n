@@ -17,7 +17,7 @@ We can't help with issues related to Scratch moderation. Instead, use the Report
 
 - Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our Discord server](https://discord.gg/R5NBqwMjNc)
+- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
 - ติดต่อผู้ช่วยของเราทาง discord twitter หรืออื่นๆ
 
 It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).

@@ -19,6 +19,7 @@ Global:
 Links:
   Docs: Documentatie
   PrivacyPolicy: Privacybeleid
+  DiscordSupport: Discord voor ondersteuning
   Discussion: Discussie-Forum
   Community: Gemeenschap
 Nav:
@@ -35,15 +36,15 @@ Footer:
   Discuss:
     Header: Discussie
     Issues: Problemen
-    DiscordDev: Discord voor Beheerders
+    DiscordDev: Discord voor ontwikkelaars
   Resources:
     Header: Bronnen
     Repository: Archief
     Documentation: Documentatie
   Legal:
     Copyright: "{{ .Copyleft }} {{ .Year }} Bijdragers van Scratch Addons"
-    NoAffiliation: Scratch Addons is niet geassocieerd, verwant of officieel verbonden met de Scratch-website of de organisaties die het onderhouden.
-    License: Scratch Addons is vergund onder de voorwaarden van GNU General Public License v3.0.
+    NoAffiliation: Scratch Addons is niet verbonden aan, geassocieerd met of op enige wijze officieel gekoppeld aan de Scratch-website of de organisaties die deze onderhouden.
+    License: Scratch Addons is gelicentieerd onder de voorwaarden van GNU General Public License v3.0.
   Intro: Huidige versie is {{ .Version }} met {{ .AddonCount }} addons.
 DarkTheme:
   Title: Klik om het donkere thema te wisselen.
@@ -90,8 +91,7 @@ IndexPage:
     CustomizableParagraph: Scratch Addons heeft een simpele interface om verschillende instellingen van elke functie en thema te veranderen.
     InternationalHeading: Internationaal
     InternationalParagraph: Niet alleen in het Nederlands. Scratch Addons is beschikbaar in het Engels, Spaans, Russisch, Japans, Frans, en nog veel meer.
-    OSHeading: Open-bron
-    OSParagraph: Scratch Addons is gratis, open-bron, en gemaakt door een groep van Scratchers.
+    OSParagraph: Scratch Addons is gratis, open source, en gemaakt door een groep van Scratchers.
   Highlights:
     Heading: Hoogtepunten
     Paragraph: Onthoud, dit zijn nog maar de hoogtepunten. {{.OpenTag1}}Er is nog meer!{{.CloseTag1}}
@@ -107,10 +107,9 @@ AddonsPage:
   FeaturedAddon: Dit is een uitgelichte addon.
   BetaAddon: Deze addon is in bèta.
   ListViewLabel: Lijstweergave
-  EasterEggLabel: Geheim
   EasterEggTooltip:
-    L1: Om de addons te activeren, gebruik de Konami Code (↑↑↓↓←→←→BA) op de instellingspagina. Lees de veelgestelde vragen voor meer informatie.
-    L2: Op deze pagina zal een geheime addon een ei-symbool naast zijn naam hebben.
+    L1: Om de addons te activeren, gebruik je de Konami Code (↑↑↓↓←→←→BA) op de instellingenpagina. Bekijk de veelgestelde vragen voor meer informatie.
+    L2: Op deze pagina zal een easter-egg-addon een ei-symbool naast de naam hebben.
   SourceCodeLabel: Broncode op GitHub
   SourceCodeLink:
     Title: Broncode openen op GitHub
@@ -136,12 +135,16 @@ FeedbackPage:
     Override: Als je zeker weet dat je deze feedback wilt versturen, klik dan nog een keer op de "Verzenden"-knop.
     Variations:
       NotST:
-        Heading: Wij zijn niet het Scratch Team.
+        Heading: We zijn niet het Scratch Team.
+        Description: Scratch Addons is niet verbonden aan de Scratch-website of de organisaties die deze onderhouden. We hebben geen invloed op de inhoud en moderatie op de Scratch-website. We ontvangen echter nog steeds graag ideeën om de gebruikservaring op Scratch te verbeteren door middel van Scratch Addons.
       Punishment:
-        Heading: We kunnen mensen niet bestraffen. Wij zijn niet het Scratch Team.
-        Description: Scratch Addons is niet in samenwerking met de Scratch website of de organisaties die het onderhouden. We hebben geen controle over de inhoud en moderatie op de Scratch website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch website.{{ .Tag1End }}
+        Heading: We kunnen mensen niet bestraffen. We zijn niet het Scratch Team.
+        Description: Scratch Addons is niet verbonden aan de Scratch-website of de organisaties die deze onderhouden. We hebben geen invloed op de inhoud en moderatie op de Scratch-website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch-website.{{ .Tag1End }}
+      Folders:
+        Heading: De problemen met de spritemappen worden binnenkort opgelost!
+        Description: We zijn ermee bezig
 SMTPage:
-  ScratchMessagingLogoAlt: Scratch Messaging Extension-logo
+  ScratchMessagingLogoAlt: Logo van Scratch Messaging Extension
 ChangelogPage:
   Highlights:
     Title: Hoogtepunten
@@ -157,13 +160,13 @@ UnsupportedBrowserPage:
   Download: Downloaden
   HowToUpdate: Hoe je bijwerkt
 Blog:
-  SectionSiteName: Scratch Addons-Blog
+  SectionSiteName: Scratch Addons blog
 CreditsPage:
   NContributors: "{{.Count}} bijdragers"
   NProfilePicture: "{{.Name}} profielfoto"
 Comments:
   Heading: Opmerkingen
-  Description: Zorg ervoor dat je je aan {{ .OpenTag1 }}de gedragsregels{{ .CloseTag1 }} houdt. Je kunt deze opmerkingssectie bekijken op {{ .OpenTag2 }}GitHub-Discussies{{ .CloseTag2 }}, net zoals je opmerking bewerken en verwijderen.
+  Description: Zorg ervoor dat je je aan {{ .OpenTag1 }}de gedragsregels{{ .CloseTag1 }} houdt. Op {{ .OpenTag2 }}GitHub-discussies{{ .CloseTag2 }} kun je deze opmerkingssectie bekijken en je opmerking bewerken en verwijderen.
 AddonDocs:
   Infobox:
     Labels:

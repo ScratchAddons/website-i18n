@@ -17,7 +17,7 @@ Falls du eine Alternative brauchst, gibt es hier ein paar Möglichkeiten.
 
 - Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our Discord server](https://discord.gg/R5NBqwMjNc)
+- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
 - Kontaktiere einen unserer Entwickler auf Discord, Twitter, oder anderen Methoden
 
 It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).
