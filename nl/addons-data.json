@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Hogere project-framerate",
 		"description": "Geeft je de optie om projecten te laten draaien met meer frames per seconde (FPS) voor vloeiende bewegingen. Klik op de groene vlag terwijl je Alt indrukt om te schakelen tussen de standaard 30 FPS en een aangepaste framerate die je hieronder kan instellen.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "Gebruik de Cmd-toets in plaats van Ctrl op macOS.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Als \"besturing omdraaien\" aanstaat, is het enkele blokken uit een script slepen normaal. Houdt Ctrl ingedrukt om het hele script te slepen.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -289,7 +285,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Blokken opslaan als afbeelding",
-		"description": "Right click on the code area or a stack of blocks to copy it to the clipboard or save it as a PNG or SVG file.",
+		"description": "Gebruik de rechtermuisknop in het codegebied of op een script om een afbeelding te kopiëren naar het klembord of op te slaan als PNG of SVG.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" },
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Kloonteller",
 		"description": "Voegt een teller boven het speelveld toe in de editor die het totale aantal klonen laat zien.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Sneltoetsen voor uiterlijkeditor",
+		"description": "Voegt sneltoetsen toe voor gereedschappen in de uiterlijkeditor (zoals in TurboWarp). Zweef met de muis over een gereedschap om de sneltoets te zien.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Volgorde van projectbesturingen omkeren",
 		"description": "Verplaatst de groene vlag en stopknop naar rechts en de volledig scherm-knop naar links, zoals in Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1278,7 +1288,7 @@
 	{
 		"id": "exact-count",
 		"name": "Exacte aantallen",
-		"description": "Geeft exacte getallen op profielen en het exacte aantal projecten in studio's weer.",
+		"description": "Toont exacte getallen op profielen en het exacte aantal projecten in studio's.",
 		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
@@ -1291,7 +1301,7 @@
 		"info": [
 			{
 				"id": "studioClick",
-				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
+				"text": "Om het exacte aantal projecten in studio's te zien, schakel je de onderstaande instelling \"exacte aantallen voor studio's\" in en klik je op de label met \"100+\" op het projectentabblad van studio's."
 			},
 			{
 				"id": "setting-removal",
@@ -1549,11 +1559,11 @@
 	{
 		"id": "forum-user-agent",
 		"name": "Versie-informatie aanpassen in forums",
-		"description": "Changes the text \"Flash version\" to \"Flash versions\" when clicking the globe icon on the forums.",
+		"description": "Verandert de tekst \"Flash version\" naar \"Flash versions\" wanneer je op de wereldbol klikt bij het maken van een post in de forums.",
 		"tags": ["community", "forums"],
 		"info": [
 			{
-				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"text": "Dit is handig voor ontwikkelaars van Scratch Addons om te kijken of een bug die op de forums is gemeld mogelijk door de extensie werd veroorzaakt.",
 				"id": "usefulness"
 			}
 		],
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "Verbeterd volledig scherm",
 		"description": "Lost een paar ongewenste dingen op in de volledig scherm-modus van de projectspeler, opent het in je browser's volledig scherm-modus, en verbergt de werkbalk met de groene vlag.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "Gamepad-ondersteuning",
 		"description": "Gebruik projecten met een USB- of Bluetooth-controller/gamepad",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "Muispositie weergeven",
 		"description": "Geeft de x/y-posities van je muisaanwijzer weer boven het speelveld in de editor.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "Gedempte projectspeler",
 		"description": "Ctrl+Klik de groene vlag om het project te dempen/dempen opheffen.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2152,12 +2162,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "Sprites verwijderen zonder bevestiging",
+		"description": "Slaat de bevestiging over die vraagt of je zeker weet dat je een sprite wilt verwijderen.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Tip: mocht je per ongeluk een sprite, uiterlijk of geluid verwijderen, kan je het ongedaan maken met Bewerk → Herstel.",
 				"id": "restoretip"
 			}
 		],
@@ -2184,7 +2194,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Oude studio-lay-out",
-		"description": "Draait de lay-out van de studiopagina terug naar die van voor de studio-update of naar degene die eerst beschikbaar was in de Scratch 2.0 → 3.0-addon.",
+		"description": "Draait de lay-out van de studiopagina terug naar die van voor de studio-update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2199,8 +2209,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "De grootte van de meeste elementen is onveranderd. Als je meer projecten en beheerders tegelijk wilt zien, gebruik dan de \"meer items per rij\"-addon.",
+				"text": "Als je meerdere projecten en beheerders tegelijk wilt zien, gebruik je de addon \"meer items per rij\".",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "Als je wilt dat de studiopagina eruitziet zoals voor de update als de addon \"Scratch 2.0 → 3.0\" uitgeschakeld was, gebruik je de addon \"Scratch 3.0 → 2.0\".",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2305,7 +2319,7 @@
 		"id": "pause",
 		"name": "Pauzeerknop",
 		"description": "Voegt een knop toe naast de groene vlag om het project te pauzeren.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2346,8 +2360,8 @@
 	},
 	{
 		"id": "player-thumb",
-		"name": "Show project thumbnail while loading",
-		"description": "Shows the project's thumbnail as a placeholder before the project is started and while it loads.",
+		"name": "Thumbnail weergeven tijdens laden",
+		"description": "Toont de thumbnail van een project voordat het project is gestart en terwijl er wordt geladen.",
 		"tags": ["community", "theme", "projectPage"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -2491,7 +2505,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Ronde speelveldrand verwijderen",
 		"description": "Verwijdert de ronde rand rond het speelveld zodat je de hoeken beter kunt zien.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2601,9 +2615,25 @@
 		"versionAdded": "1.0.0"
 	},
 	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Verandert de stijl van Scratch 3.0-pagina's naar die van Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
+	},
+	{
 		"id": "scratchr2",
 		"name": "Scratch 2.0 → 3.0",
-		"description": "Laat pagina's van Scratch 2.0 eruitzien als Scratch 3.0.",
+		"description": "Verandert de stijl van Scratch 2.0-pagina's naar die van Scratch 3.0.",
 		"tags": ["community", "theme", "recommended"],
 		"credits": [
 			{
@@ -2777,7 +2807,7 @@
 		"id": "stage-monitor",
 		"name": "Aanpasbare monitors op speelveld",
 		"description": "Verandert de kleur en rondheid van monitors van variabelen en lijsten op het speelveld.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2931,7 +2961,7 @@
 		"id": "vol-slider",
 		"name": "Volumeschuifregelaar in projecten",
 		"description": "Voegt een volumeschuifregelaar toe naast de start-/stopbesturingen",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "60 幀率顯示模式",
 		"description": "點擊綠旗時同時按住 Alt 鍵就能切換成 60 幀率的模式。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "在 macOS 上，用 Cmd 鍵代替 Ctrl 鍵。",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "如果啟用「功能反轉」，那麼拖曳單個積木就會變成預設動作，按住 Ctrl 則會變成拖曳整個程式區塊。",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "分身計數器",
 		"description": "在舞台上方添加一個計數器，顯示當前建立的分身數量。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -951,7 +961,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "對調專案控制項工具的順序",
 		"description": "在專案預覽視窗的上方有些按鈕，把右邊的綠旗與停止按鈕，與左邊的顯示模式按鈕對調顯示順序，就像 Scratch 2.0 那樣。",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1587,7 +1597,7 @@
 		"id": "fullscreen",
 		"name": "增強全屏",
 		"description": "修復了一些全屏顯示模式下的一些問題，讓全屏時同時讓瀏覽器也以全屏展開，且可以選擇隱藏綠旗等工具列。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1613,7 +1623,7 @@
 		"id": "gamepad",
 		"name": "遊戲手柄支持",
 		"description": "用 USB 或藍芽控制器（遊戲手柄）與專案互動。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2009,7 +2019,7 @@
 		"id": "mouse-pos",
 		"name": "Mouse position display",
 		"description": "當鼠標在舞台上移動時，顯示所停駐的座標位置。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2081,7 +2091,7 @@
 		"id": "mute-project",
 		"name": "專案播放時靜音",
 		"description": "在你點擊綠旗時同時按住 Ctrl 鍵可以切換靜音模式。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2177,7 +2187,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "舊式創作坊外觀",
-		"description": "把創作坊頁面的佈局恢復到上一版的外觀或是 Scratch 2.0 → 3.0 時的外觀。",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2192,8 +2202,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "大部分元素的尺寸沒有修改。如果你想一次看到更多的專案或是策展者，可以使用擴充功能「一次顯示更多項目」。",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2298,7 +2312,7 @@
 		"id": "pause",
 		"name": "編譯器暫停按鈕",
 		"description": "Adds a button to pause the project next to the green flag.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2484,7 +2498,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "移除舞台邊緣圓角",
 		"description": "拿掉舞台四周的圓角修飾，讓你能看見舞台的四個角。",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2592,6 +2606,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2770,7 +2800,7 @@
 		"id": "stage-monitor",
 		"name": "Customizable stage monitors",
 		"description": "Changes the color and roundness of variable and list monitors on the stage.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2924,7 +2954,7 @@
 		"id": "vol-slider",
 		"name": "專案音量控制桿",
 		"description": "在綠旗控制項旁添加一個可以調整音量的控制桿。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

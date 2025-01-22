@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Modus für höhere Framefrequenz in Projekten",
 		"description": "Ermöglicht das Ausführen von Projekten mit mehr Frames pro Sekunde (FPS), damit sie flüssiger aussehen. Halte die Alt-Taste gedrückt und klicke auf die grüne Flagge, um zwischen Scratchs 30 FPS und einer unten festgelegten Framefrequenz zu wechseln.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "Auf macOS, verwende anstatt der Strg-Taste die Cmd-Taste.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "\"Steuerung invertieren\" legt das individuelle Nehmen von Blöcken als Standardmäßiges Verhalten fest. Halte Strg gedrückt, um den ganzen Stapel zu ziehen.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Klonzähler",
 		"description": "Fügt einen Zähler zum Editor hinzu, der die Anzahl aller Klone anzeigt.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Tastaturkurzbefehle im Kostümeditor",
+		"description": "Fügt Tastaturkurzbefehle für Werkzeuge im Kostümeditor hinzu (ähnlich wie bei TurboWarp). Fahre mit der Maus über ein Werkzeug, um dessen Kürzel anzuzeigen.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -956,7 +966,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Verkehrte Anordnung von Player-Steuerelementen",
 		"description": "Verschiebt die grüne Flagge und das Stoppschild auf die rechte und die Vollbild-Schaltfläche auf die linke Seite, wie in Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1592,7 +1602,7 @@
 		"id": "fullscreen",
 		"name": "Verbesserter Vollbildmodus",
 		"description": "Behebt einige unerwünschte Effekte im Vollbildmodus des Projekt-Players, öffnet ihn im Vollbildmodus deines Browsers und blendet die Symbolleiste mit der grünen Flagge aus.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1618,7 +1628,7 @@
 		"id": "gamepad",
 		"name": "Gamepad-Unterstützung",
 		"description": "Interagiere mit einem USB- oder Bluetoothcontroller/Gamepad mit Projekten.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2014,7 +2024,7 @@
 		"id": "mouse-pos",
 		"name": "Mauspositions-Anzeige",
 		"description": "Zeigt die x/y-Position des Mauszeigers über der Bühne im Editor an.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2086,7 +2096,7 @@
 		"id": "mute-project",
 		"name": "\"Projekt-Player stummschalten\"-Schaltfläche",
 		"description": "Strg+Klicke auf die grüne Flagge, um das Projekt stummzuschalten bzw. die Stummschaltung aufzuheben.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2187,7 +2197,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Altes Studiolayout",
-		"description": "Wandelt das Layout der Studios-Seite zum Layout um, das vor dem Studio-Update verwendet wurde oder zum 2.0 → 3.0 Addon-Layout.",
+		"description": "Wandelt das Layout der Studios-Seite zum Layout um, das vor dem Studio-Update verwendet wurde.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2202,8 +2212,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "Die Größe der meisten Elemente bleibt ungeändert. Wenn du mehr Projekte und Kuratoren auf einmal sehen willst, verwende das \"Mehr Elemente pro Reihe\"-Addon.",
+				"text": "Wenn du mehr Projekte und Kuratoren auf einmal sehen möchtest, verwende das \"Mehr Elemente pro Reihe\"-Addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "Wenn du möchtest, dass die Studioseite so aussieht wie vor dem Update, wenn das Addon „Scratch 2.0 → 3.0“ deaktiviert war, verwende das Addon „Scratch 3.0 → 2.0“.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2308,7 +2322,7 @@
 		"id": "pause",
 		"name": "Pause-Schaltfläche",
 		"description": "Fügt eine Schaltfläche neben der grünen Flagge hinzu, mit der Projekte pausiert werden können.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2494,7 +2508,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Runden Bühnenrand entfernen",
 		"description": "Entfernt den runden Rand der Bühne, um die Ecken sichtbar zu machen.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2602,6 +2616,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Ändert das Aussehen von Seiten im Stil von Scratch 3.0 in Scratch 2.0 um.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2780,7 +2810,7 @@
 		"id": "stage-monitor",
 		"name": "Benutzerdefinierte Bühnenanzeigen",
 		"description": "Ändert die Farbe und Abrundung von Variablen- und Listenanzeigen auf der Bühne.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2934,7 +2964,7 @@
 		"id": "vol-slider",
 		"name": "Lautstärkeregler",
 		"description": "Fügt einen Lautstärkeregler neben der grünen Flagge hinzu.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Korkeamman kuvataajuuden tila",
 		"description": "Voit käyttää projekteja korkeammalla kuvataajuudella (FPS), jotta ne näyttäisivät sujuvammilta. Vaihda Scratchin oletuskuvataajuuden 30 ja alla määriteltävän kuvataajuuden välillä pitämällä Alt-näppäintä painettuna ja napauttamalla vihreää lippua.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "Käytä macOS:ssä Cmd-näppäintä Ctrl-näppäimen sijaan.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Jos \"käänteinen toiminta\" on käytössä, oletustoiminto on lohkoihin tarttuminen yksitellen. Raahaa koko pinoa pitämällä Ctrl-näppäintä painettuna.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Kloonilaskuri",
 		"description": "Lisää editorin esiintymislavan ylle laskurin, joka näyttää kloonien kokonaismäärän.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -527,6 +523,20 @@
 		"versionAdded": "1.31.0"
 	},
 	{
+		"id": "costume-editor-shortcuts",
+		"name": "Asuste-editorin pikanäppäimet",
+		"description": "Lisää pikanäppäimiä asuste-editorin työkaluille (kuten TurboWarp). Näet työkalun pikanäppäimen viemällä hiiren sen päälle.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
+	},
+	{
 		"id": "ctrl-click-run-scripts",
 		"name": "Suorita skiptejä Ctrl+napautus-yhdistelmällä",
 		"description": "Suorita skriptejä napauttamalla vain, jos myös Ctrl-näppäintä pidetään painettuna.",
@@ -564,8 +574,8 @@
 	},
 	{
 		"id": "curator-link",
-		"name": "Etusivun kuraattorilinkki",
-		"description": "Tekee etusivun kuraattorin käyttäjänimestä napautettavan linkin profiiliin.",
+		"name": "Linkki etusivun projektit valinneen käyttäjän profiiliin",
+		"description": "Tekee etusivulla näytillä olevat projektit valinneen käyttäjän käyttäjänimestä napautettavan linkin profiiliin.",
 		"tags": ["community"],
 		"credits": [
 			{
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Projektin ohjainten käänteinen järjestys",
 		"description": "Siirtää vihreää lippua ja pysäytyspainikkeita oikealle ja koko näytön painiketta vasemmalle, kuten Scratch 2.0:ssa.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "Paranneltu koko näytön tila",
 		"description": "Korjaa joitain ei-toivottuja vaikutuksia projektisoittimen koko näytön tilassa, avaa sen selaimen koko näytön tilassa ja piilottaa vihreän lipun työkalupalkin.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "Peliohjaintuki",
 		"description": "Ole vuorovaikutuksessa projektin kanssa käyttämällä USB tai Bluetooth-ohjainta/peliohjainta.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "Hiiren sijainnin näyttäminen",
 		"description": "Näyttää hiiren x-/y-sijainnin editorin esiintymislavan yllä.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "Mykistetty projektisoitin",
 		"description": "Mykistä projekti soitin/poista sen mykistys pitämällä Ctrl-näppäintä painettuna ja klikkaamalla vihreää lippua.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2184,7 +2194,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Vanha studioasettelu",
-		"description": "Palauttaa studiosivun asettelun sellaiseksi, jota käytettiin ennen studiopäivitystä tai siihen, joka oli aiemmin saatavilla osana Scratch 2.0 → 3.0 -lisäosaa.",
+		"description": "Palauttaa studiosivun asettelun sellaiseksi, jota käytettiin ennen studiopäivitystä.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2199,8 +2209,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "Useimpien elementtien kokoa ei muuteta. Jos haluat nähdä useampia projekteja ja kuraattoreita kerralla, käytä \"enemmän kohteita rivillä\" -lisäosaa.",
+				"text": "Jos haluat nähdä enemmän projekteja ja kuraattoreita kerralla, käytä \"enemmän kohteita rivillä\" -lisäosaa.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "Jos haluat studiosivun näyttävän samalta kuin ennen päivitystä, kun \"Scratch 2.0 → 3.0\" -lisäosa oli pois päältä, käytä \"Scratch 3.0 → 2.0\" -lisäosaa.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2305,7 +2319,7 @@
 		"id": "pause",
 		"name": "Keskeytyspainike",
 		"description": "Lisää vihreän lipun viereen painikkeen, jolla voi keskeyttää projektin.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2491,7 +2505,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Poista esiintymislavan kaarevat kulmat",
 		"description": "Poistaa esiintymislavan kaarevat kulmat, jotta näet reunat.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2599,6 +2613,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Saa Scratch 3.0 -tyyliset sivut näyttämään Scratch 2.0:lta.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2777,7 +2807,7 @@
 		"id": "stage-monitor",
 		"name": "Mukautettavat muuttujien ja listojen näyttimet",
 		"description": "Muuta esiintymislavalla näytettävien muuttujien ja listojen näytinten väriä ja pyöreyttä.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2931,7 +2961,7 @@
 		"id": "vol-slider",
 		"name": "Äänenvoimakkuussäädin projekteissa",
 		"description": "Lisää äänenvoimakkuussäätimen vihreän lipun ohjainten viereen.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

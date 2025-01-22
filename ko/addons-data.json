@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Higher project framerate mode",
 		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "macOS에서는, Ctrl 키 대신 Cmd키를 사용하세요.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "\"제어 뒤집기\"가 활성화된다면, 개별 블록을 잡는 것이 기본 기능이 됩니다. Ctrl을 누르는 것이 전체 항목을 드래그합니다",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "복제본 개수 표시",
 		"description": "전체 복제본의 수를 편집기 무대 상단에 표시합니다.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "프로젝트 버튼 위치 반전",
 		"description": "스크래치 2.0처럼 깃발 버튼과 멈춤 버튼을 오른쪽으로, 전체 화면 버튼을 왼쪽으로 옮깁니다.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "향상된 전체 화면",
 		"description": "전체 화면 모드에서 발생하는 몇몇 의도하지 않은 효과들을 고치고, 브라우저의 전체 화면 모드로 열 수 있으며, 녹색 깃발 툴바를 숨깁니다.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "게임패드 지원",
 		"description": "USB 또는 Bluetooth 컨트롤러/게임 패드를 사용하여 프로젝트와 상호작용합니다.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "마우스 위치 표시",
 		"description": "마우스의 x/y위치를 편집기 무대의 상단에 표시합니다.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "프로젝트 플레이어 음소거 모드",
 		"description": "녹색 깃발을 Ctrl+클릭하여 프로젝트를 음소거/음소거 해제합니다.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2184,7 +2194,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "과거 스튜디오 레이아웃",
-		"description": "스튜디오 페이지의 레이아웃을 스크래치 2.0 → 3.0 애드온이 업데이트하기 전의 버전의 레이아웃으로 다시 변경합니다",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2199,8 +2209,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "요소의 크기는 바뀌지 않습니다. 만약 더 많은 프로젝트와 협업자를 한 번에 보고 싶다면 \"한 줄에 더 많은 항목 보이기\" 애드온을 사용하세요.",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2305,7 +2319,7 @@
 		"id": "pause",
 		"name": "일시정지 버튼",
 		"description": "시작 버튼 옆에 일시 정지 버튼을 추가합니다.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2491,7 +2505,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "무대 테두리 곡선 제거",
 		"description": "모서리를 볼 수 있도록 무대 주위의 곡선 테두리를 제거합니다.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2599,6 +2613,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2777,7 +2807,7 @@
 		"id": "stage-monitor",
 		"name": "Customizable stage monitors",
 		"description": "Changes the color and roundness of variable and list monitors on the stage.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2931,7 +2961,7 @@
 		"id": "vol-slider",
 		"name": "프로젝트 음량 슬라이더",
 		"description": "정지 버튼 옆에 음량 슬라이더를 추가합니다.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

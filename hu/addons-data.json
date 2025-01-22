@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "60FPS projektlejátszó mód",
 		"description": "Alt+Katt a zöld zászlóra a 60FPS mód ki/be kapcsolgatásához.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "A macOS-on, használd a Cmd gombot a Ctrl helyett.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Ha a \"fordított irányítás\" engedélyezve van, akkor a blokkok egyedülálló megfogása alapvető viselkedés lesz. Tartsd lenyomva a Ctrl-t, ha az egész kódsort mozgatni szeretnéd.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Másolatszámláló",
 		"description": "Hozzáad egy számlálót a szerkesztőhöz a színpad fölé, ami megmutatja a másolatok számát.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -951,7 +961,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Projektirányító gombok fordított sorrendben",
 		"description": "Áthelyezi a zöld zászlót és a megállító gombot a jobboldalra, valamint a teljes képernyő gombot pedig baloldalra, ahogy a Scratch 2.0-ban volt.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1587,7 +1597,7 @@
 		"id": "fullscreen",
 		"name": "Fejlesztett teljes képernyő",
 		"description": "Kijavít pár nemkívánatos effektet a projekt lejátszó teljes képernyős módjában, megnyitja a böngésződ teljes képernyős módjában, és elrejti a zöld zászlós eszköztárat.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1613,7 +1623,7 @@
 		"id": "gamepad",
 		"name": "Gamepad támogatás",
 		"description": "Lépj kapcsolatba projektekkel USB, vagy Bluetooth kontroller/gamepad használata által.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2009,7 +2019,7 @@
 		"id": "mouse-pos",
 		"name": "Egér helyének megjelenítése",
 		"description": "Megjeleníti az egered x és y helyét a színpad fölött a szerkesztőben.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2081,7 +2091,7 @@
 		"id": "mute-project",
 		"name": "Némított projekt lejátszó mód",
 		"description": "Ctrl+Kattints a zöld zászlóra, hogy némítsd/feloldd a némítást egy projektben.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2182,7 +2192,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Régi műhely elrendezés",
-		"description": "Visszaállítja a műhely oldal elrendezését arra, amit a műhely frissítés előtt használtak vagy arra, ami korábbiakban a Scratch 2.0 → 3.0 bővítmény része volt.",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2197,8 +2207,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "A legtöbb elem méretét nem változtatja. Ha több projektet vagy kurátort akarsz látni egyszerre, használd a \"több elem soronként\" bővítményt.",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2303,7 +2317,7 @@
 		"id": "pause",
 		"name": "Megállítás gomb",
 		"description": "Hozzáad egy gombot, hogy megállíthasd a projektet, a zöld zászló mellé.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2489,7 +2503,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Színpad lekerekített sarkainak eltávolítása",
 		"description": "Eltávolítja az íveltségét a színpad széleinek, így láthatóvá téve a sarkokban lévő dolgokat is.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2597,6 +2611,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2775,7 +2805,7 @@
 		"id": "stage-monitor",
 		"name": "Személyre szabható színpadi listák és változók",
 		"description": "Megváltoztatja a színét és a sarkok lekerekítettségét a színpadon látható listáknak és változóknak.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2929,7 +2959,7 @@
 		"id": "vol-slider",
 		"name": "Projekt-hangerőcsúszka",
 		"description": "Hozzáad egy hangcsúszkát a zöld zászló mellé",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

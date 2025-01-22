@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Modo mayor velocidad de fotogramas (FPS) en proyectos",
 		"description": "Le permite ejecutar proyectos a más cuadros por segundo (FPS) para que se vean más fluidos. Mantenga presionada la tecla Alt y haga click en la bandera verde para alternar entre los 30 FPS predeterminados de Scratch y una velocidad de fotogramas personalizada configurada debajo.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "En macOS, use la tecla Cmd en vez de Ctrl.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Si \"revertir controles\" está activado, agarrar bloques individualmente será el comportamiento predeterminado. Mantenga Ctrl para arrastrar la pila completa.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Contador de clones",
 		"description": "Agrega un contador de clones arriba del escenario en el editor que muestra la cantidad total de clones del proyecto.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Invertir orden de los controles del proyecto",
 		"description": "Mueve la bandera verde y el botón de detener a la derecha, y el botón de pantalla completa a la izquierda, como en Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "Pantalla completa mejorada",
 		"description": "Arregla algunos efectos no deseados del modo de pantalla completa del reproductor de proyectos, abre el reproductor en modo de pantalla completa de su navegador y esconde la barra de herramientas de bandera verde.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "Soporte de mando de videojuegos",
 		"description": "Interactúe con proyectos usando un control/mando de videojuegos mediante USB o Bluetooth.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "Mostrar posición del ratón",
 		"description": "Muestra la posición x/y del ratón arriba del escenario en el editor.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "Modo silenciado de reproductor de proyectos",
 		"description": "Presione Ctrl+Click sobre la bandera verde para silenciar o desilenciar el proyecto.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2181,7 +2191,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Diseño antiguo en estudios",
-		"description": "Revierte el diseño de la página de estudios a la usada antes de la actualización de estudios o al previamente disponible como parte del addon Scratch 2.0 → 3.0.",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2196,8 +2206,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "El tamaño de la mayoría de los elementos no son cambiados. Si quiere ver más proyectos y curadores a la vez, use el addon \"más elementos por fila\".",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2302,7 +2316,7 @@
 		"id": "pause",
 		"name": "Botón de pausa",
 		"description": "Añade un botón al lado de la bandera verde para pausar el proyecto.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2488,7 +2502,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Quitar curva del borde del escenario",
 		"description": "Quita los bordes curvos alrededor del escenario, permitiéndole ver las esquinas.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2596,6 +2610,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2774,7 +2804,7 @@
 		"id": "stage-monitor",
 		"name": "Monitores de escenario personalizables",
 		"description": "Cambia el color y la redondez de los monitores de variables y listas en el escenario.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2928,7 +2958,7 @@
 		"id": "vol-slider",
 		"name": "Deslizador de volumen del proyecto",
 		"description": "Agrega un control deslizante de volumen al lado de los controles de la bandera verde.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "高FPSモード",
 		"description": "プロジェクトがより滑らかに見えるように、より多くのフレーム/秒（FPS）でプロジェクトを実行できます。Altキーを押しながら緑の旗をクリックすると、Scratchのデフォルトの30 FPSと以下のカスタムフレームレートが切り替わります。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "macOSでは、Ctrlの代わりにCommandキーを押してください。",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "「入力を反転」を利用している場合は、Ctrlキーを押さずにブロックをつかむとそのブロックだけが移動し、Ctrlキーを押すと下のブロックも一緒に移動するようになります。",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "クローンカウンター",
 		"description": "クローンの合計数をステージの上に表示する。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -951,7 +961,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "プロジェクト操作ボタン反転",
 		"description": "Scratch 2.0のように、緑の旗と停止ボタンを右に、全画面表示ボタンを左に移動させる。",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1587,7 +1597,7 @@
 		"id": "fullscreen",
 		"name": "全画面表示",
 		"description": "全画面表示ボタンをクリックしたとき、ブラウザーの全画面表示を有効化したり、緑の旗のツールバーを隠したりする。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1613,7 +1623,7 @@
 		"id": "gamepad",
 		"name": "ゲームパッド",
 		"description": "USBかBluetoothのコントローラーやゲームパッドを利用する。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2009,7 +2019,7 @@
 		"id": "mouse-pos",
 		"name": "マウスの座標を表示",
 		"description": "ステージの上にマウスの座標を表示する。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2081,7 +2091,7 @@
 		"id": "mute-project",
 		"name": "プロジェクトをミュート",
 		"description": "緑の旗をCtr+クリックでミュートする。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2182,7 +2192,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "以前のスタジオレイアウト",
-		"description": "スタジオのレイアウトを、アップデート前のものや、以前Scratch 3.0化アドオンによって提供されていたものに戻す。",
+		"description": "スタジオのレイアウトを、アップデート前のものに戻す。",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2197,8 +2207,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "ほとんどの部分の大きさは変更されていません。同時により多くのプロジェクトやキュレーターを表示させるには、「一行当たりの表示数増加」アドオンを有効化してください。",
+				"text": "同時により多くのプロジェクトやキュレーターを表示させるには、「一行当たりの表示数増加」アドオンを有効化してください。",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "「Scratch 3.0化」アドオンが無効になっている場合に、スタジオのページを更新前の状態に戻したい場合は、「Scratch 2.0化」アドオンを使ってください。",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2303,7 +2317,7 @@
 		"id": "pause",
 		"name": "一時停止ボタン",
 		"description": "緑の旗の横に一時停止ボタンを追加する。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2489,7 +2503,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "ステージの枠の丸み除去",
 		"description": "ステージの枠の丸みをなくし、角を見れるようにする。",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2597,6 +2611,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 2.0化",
+		"description": "Scratch 3.0風のページを2.0化する。",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2775,7 +2805,7 @@
 		"id": "stage-monitor",
 		"name": "ステージモニターのカスタマイズ",
 		"description": "ステージ上の変数モニターやリストモニターの色や丸みを変更する。",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2929,7 +2959,7 @@
 		"id": "vol-slider",
 		"name": "プロジェクト音量スライダー",
 		"description": "緑の旗の横に音量スライダーを追加する。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "更高的作品帧率模式",
 		"description": "让您以更高帧率(FPS)运行项目，使它们看起来更平滑。按住Alt并点击绿旗，可在Scratch的默认30 FPS和在下方自定义的帧率间切换。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "在 macOS 上，用 Cmd 键代替 Ctrl 键。",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "如果启用了\"翻转控件\"，则单独抓取积木将是默认行为。 按住Ctrl拖动整个脚本。",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -328,7 +324,7 @@
 		"id": "clones",
 		"name": "克隆计数器",
 		"description": "在编辑器中的舞台上方添加一个计数器，显示克隆体总数。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -520,6 +516,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -946,7 +956,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "项目控件反向顺序",
 		"description": "将绿旗和停止按钮向右移动，将全屏按钮向左移动，就像在 Scratch 2.0 中一样。",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1582,7 +1592,7 @@
 		"id": "fullscreen",
 		"name": "增强全屏",
 		"description": "修复了一些全屏模式下一些不希望的效果。全屏时同时让浏览器全屏并且隐藏绿旗所在工具栏。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1608,7 +1618,7 @@
 		"id": "gamepad",
 		"name": "游戏手柄支持",
 		"description": "使用 USB 或蓝牙控制器/游戏手柄与项目交互。",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2004,7 +2014,7 @@
 		"id": "mouse-pos",
 		"name": "显示鼠标坐标",
 		"description": "在编辑器的舞台上方显示鼠标x/y坐标。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2076,7 +2086,7 @@
 		"id": "mute-project",
 		"name": "静音",
 		"description": "Ctrl+鼠标左键点击小绿旗切换静音或取消静音。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2172,7 +2182,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "旧工作室布局",
-		"description": "将studio页面的布局恢复为studio更新之前使用的布局，或之前作为Scratch 2.0→ 3.0插件的一部分提供的布局。",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2187,8 +2197,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "大多数元素的大小不变。如果你想同时看到更多的项目和策划人，可以使用“每行更多项目”插件。",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2293,7 +2307,7 @@
 		"id": "pause",
 		"name": "暂停按钮",
 		"description": "在绿旗按钮旁边增加一个暂停作品的按钮。",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{ "text": "作品也可以用Alt+X暂停 (macOS上是Option+X)。", "id": "keybind" }
@@ -2476,7 +2490,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "移除弯曲的舞台边框",
 		"description": "移除舞台周围的弯曲边框，让您可以看到角落。",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2584,6 +2598,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2762,7 +2792,7 @@
 		"id": "stage-monitor",
 		"name": "Customizable stage monitors",
 		"description": "Changes the color and roundness of variable and list monitors on the stage.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2916,7 +2946,7 @@
 		"id": "vol-slider",
 		"name": "项目声音滑动条",
 		"description": "在绿旗旁添加一个声音滑动条",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

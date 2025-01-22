@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Način hitrejšega osveževanja v predvajalniku projektov",
 		"description": "Omogoči izvajanje projektov z večjim številom sličic na sekundo (FPS), da je gibanje videti bolj enakomerno. Držite Alt in kliknite zeleno zastavico, da preklopite med Scratchevimi 30 FPS in prilagojeno hitrostjo osveževanja, ki jo lahko nastavite spodaj.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "Če uporabljate macOS, uporabite tipko Cmd namesto Ctrl.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Če je vključena nastavitev \"zamenjaj dejanje tipke\", vlečenje vedno premakne le en blok. Držite Ctrl, da premaknete celo zaporedje blokov.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Števec dvojnikov",
 		"description": "Nad oder v urejevalniku doda števec, ki prikaže skupno število dvojnikov figur.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Bližnjice v urejevalniku videzov",
+		"description": "Omogoči, da v urejevalniku videzov izberete orodje s tipkovnico (podobno kot v TurboWarpu). Premaknite miško na orodje, da vidite njegovo bližnjico.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -956,7 +966,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Obratno zaporedje gumbov za nadzor projekta",
 		"description": "Premakne zeleno zastavico in gumb Ustavi na desno in gumb za celozaslonski način na levo, kot v Scratchu 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1592,7 +1602,7 @@
 		"id": "fullscreen",
 		"name": "Izboljšan celozaslonski način",
 		"description": "Popravi nekatere težave v celozaslonskem načinu predvajalnika projektov, odpre projekte v celozaslonskem načinu brskalnika in skrije vrstico z zeleno zastavico.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1618,7 +1628,7 @@
 		"id": "gamepad",
 		"name": "Podpora igralnih ploščkov",
 		"description": "Uporabljajte USB ali Bluetooth igralni plošček v projektih.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2014,7 +2024,7 @@
 		"id": "mouse-pos",
 		"name": "Prikaz položaja miške",
 		"description": "Prikaže x/y položaj miške nad odrom v urejevalniku.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2086,7 +2096,7 @@
 		"id": "mute-project",
 		"name": "Utišaj predvajalnik projekta",
 		"description": "Ctrl+kliknite zeleno zastavico, da vključite ali izključite zvok v projektu.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2155,12 +2165,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "Izbriši figure brez potrditve",
+		"description": "Odstrani okno za potrditev, ki vpraša, če ste prepričani, da bi radi izbrisali figuro.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Namig: Če po pomoti izbrišete figuro, videz ali zvok, lahko to razveljavite tako, da kliknete Uredi v menijski vrstici in nato Povrni.",
 				"id": "restoretip"
 			}
 		],
@@ -2187,7 +2197,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Prejšnja postavitev strani studiov",
-		"description": "Spremeni postavitev strani studiov v tisto, ki je bila v uporabi pred posodobitvijo studiov, ali pa tisto, ki je bila prej del dodatka Scratch 2.0 → 3.0.",
+		"description": "Spremeni postavitev strani studiov v tisto, ki je bila v uporabi pred posodobitvijo studiov.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2202,8 +2212,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "Velikost večine elementov ni spremenjena. Če bi radi videli več projektov in skrbnikov naenkrat, uporabite dodatek \"več predmetov v eni vrstici\".",
+				"text": "Če bi radi videli več projektov in skrbnikov naenkrat, uporabite dodatek \"več predmetov v eni vrstici\".",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "Če želite, da je stran studia videti tako, kot je bila pred posodobitvijo, če je bil dodatek \"Scratch 2.0 → 3.0\" izključen, uporabite dodatek \"Scratch 3.0 → 2.0\".",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2308,7 +2322,7 @@
 		"id": "pause",
 		"name": "Gumb za premor",
 		"description": "Zraven zelene zastavice doda gumb, ki začasno ustavi projekt.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2494,7 +2508,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Odstrani zaobljen okvir odra",
 		"description": "Odstrani zaobljen okvir odra in s tem naredi robove vidne.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2602,6 +2616,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Naredi, da strani, oblikovane kot Scratch 3.0, izgledajo kot Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2780,7 +2810,7 @@
 		"id": "stage-monitor",
 		"name": "Prilagoditev spremenljivk na odru",
 		"description": "Spremeni barvo in zaobljenost spremenljivk in seznamov na odru",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2934,7 +2964,7 @@
 		"id": "vol-slider",
 		"name": "Drsnik za glasnost projekta",
 		"description": "Doda drsnik za glasnost poleg gumbov za nadzor projekta.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "60FPS w trybie gracza",
 		"description": "Kliknij trzymając Alt na zieloną flagę by włączyć tryb 60FPS",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "W systemie macOS zamiast klawisza Ctrl, należy użyć klawisza Cmd.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Jeśli ustawienie \"odwróć działanie\" jest włączone, to chwytanie bloków pojedynczo będzie zachowaniem domyślnym. Przytrzymaj Ctrl, aby przeciągnąć cały stos. ",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Licznik klonów",
 		"description": "Dodaje licznik nad sceną pokazujący ilość klonów.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -956,7 +966,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Odwrócona kolejność kontrolek projektu",
 		"description": "Przesuwa zieloną flagę oraz przyciski do zatrzymania na prawą stronę, a przycisk powiększenia ekranu na lewą stronę, tak samo jak w Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1592,7 +1602,7 @@
 		"id": "fullscreen",
 		"name": "Polepszony pełny ekran",
 		"description": "Naprawia niektóre niepożądane efekty w trybie pełnoekranowym. Otwiera projekt w trybie pełnoekranowym przeglądarki oraz ukrywa pasek z zieloną flagą.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1618,7 +1628,7 @@
 		"id": "gamepad",
 		"name": "Wsparcie dla Gamepadów",
 		"description": "Kontroluj projekt za pomocą kontrolera/gamepada używając USB lub Bluetooth.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2014,7 +2024,7 @@
 		"id": "mouse-pos",
 		"name": "Wyświetlanie pozycji myszy",
 		"description": "Wyświetla pozycję x/y twojej myszy nad sceną w edytorze.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2086,7 +2096,7 @@
 		"id": "mute-project",
 		"name": "Wycisz odtwarzacz projektu",
 		"description": "Kliknij na zieloną flagę trzymając Ctr, aby wyciszyć lub od-ciszyć projekt.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2187,7 +2197,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Stary wygląd studia",
-		"description": "Przywraca układ strony studia z powrotem poprzednio dostępnego jako część dodatku Scratch 2.0 → 3.0. ",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2202,8 +2212,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "Wielkość większości elementów nie ulega zmianie. Jeśli chcesz zobaczyć więcej projektów i kuratorów jednocześnie, użyj dodatku „więcej elementów na wierz”.",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2308,7 +2322,7 @@
 		"id": "pause",
 		"name": "Przycisk zatrzymania",
 		"description": "Adds a button to pause the project next to the green flag.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2494,7 +2508,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Usuwa zaokrąglone krawędzie w podglądzie projektu",
 		"description": "Usuwa zaokrąglone krawędzie sceny, i pozwala zobaczyć jej rogi.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2602,6 +2616,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2780,7 +2810,7 @@
 		"id": "stage-monitor",
 		"name": "Customizable stage monitors",
 		"description": "Changes the color and roundness of variable and list monitors on the stage.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2934,7 +2964,7 @@
 		"id": "vol-slider",
 		"name": "Suwak głośności projektu",
 		"description": "Adds a volume slider next to the green flag controls.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

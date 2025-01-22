@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Daha yüksek proje kare hızı modu",
 		"description": "Lets you run projects at more frames per second (FPS) so they look smoother. Hold Alt and click the green flag to toggle between Scratch's default 30 FPS and a custom framerate set below.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "macOS'ta Ctrl tuşu yerine Cmd tuşunu kullanın.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "\"Kontrolleri çevir\" etkinleştirilmişse, blokları tek tek almak varsayılan davranış olacaktır. Yığının tamamını almak için Ctrl tuşuna basılı tutun.",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "İkiz sayacı",
 		"description": "Düzenleyicide sahnedeki toplam ikiz sayısını gösteren bir sayaç ekler.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Costume editor keyboard shortcuts",
+		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Ters çevrilmiş proje kontrolleri",
 		"description": "Scratch 2.0'daki gibi yeşil bayrak ve durdurma düğmelerini sağa, tam ekran düğmesini ise sola götürür.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "Geliştirilmiş tam ekran",
 		"description": "Proje oynatıcısının tam ekran modundaki bazı istenmeyen efektlerini düzeltir, tarayıcınızın tam ekran modunda açar ve yeşil bayrak araç çubuğunu gizler.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "Oyun kumandası desteği",
 		"description": "Bir USB veya Bluetooth denetleyicisi/oyun kumandası kullanarak projelerle etkileşim kurun.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "Fare konum göstergesi",
 		"description": "Düzenleyicide farenizin x/y konumunu sahnenin üzerinde görüntüler.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "Sessiz proje oynatma modu",
 		"description": "Projeyi susturmak/susturmayı kaldırmak için yeşil bayrağa ctrl ile tıklayın.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2184,7 +2194,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Eski stüdyo düzeni",
-		"description": "Stüdyo sayfasının düzenini, stüdyo güncellemesinden önce kullanılana veya Scratch 2.0 → 3.0 eklentisinin bir parçası olarak daha önce mevcut olana geri döndürür.",
+		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2199,8 +2209,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "Çoğu öğenin boyutu değişmez. Aynı anda daha fazla proje ve idareci görmek istiyorsanız, \"satır başına daha fazla öge\" eklentisini kullanın.",
+				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2305,7 +2319,7 @@
 		"id": "pause",
 		"name": "Duraklat butonu",
 		"description": "Yeşil bayrağın hemen yanına projeyi durdurabilmeniz için bir düğme ekler.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2491,7 +2505,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Kavisli sahne kenarlığını kaldır",
 		"description": "Sahnenin etrafındaki kavisli çerçeveyi kaldırır. Bu sayede sahnenin köşelerinin görünmesine izin verir.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2599,6 +2613,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2777,7 +2807,7 @@
 		"id": "stage-monitor",
 		"name": "Customizable stage monitors",
 		"description": "Changes the color and roundness of variable and list monitors on the stage.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2931,7 +2961,7 @@
 		"id": "vol-slider",
 		"name": "Projelerde ses ayarı",
 		"description": "Sesi ayarlamak için yeşil bayrağın yanına bir çubuk ekler.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },

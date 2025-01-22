@@ -13,7 +13,7 @@
 		"id": "60fps",
 		"name": "Maggiore velocità progetto",
 		"description": "Ti permette di eseguire un progetto a una velocità maggiore (FPS, frames per second) in modo che risulti più fluido. Tieni premuto il tasto Alt mentre clicchi la bandiera verde per passare dai 30FPS standard di Scratch alla velocità definita qui sotto.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
 			{
@@ -209,10 +209,6 @@
 			{
 				"text": "In macOS usa il tasto Cmd invece del tasto Ctrl.",
 				"id": "macContextDisabled"
-			},
-			{
-				"text": "Se \"inverti i controlli\" è abilitato, il comportamento standard sarà trascinare singoli i blocchi. Tenendo premuto CTRL verrà invece trascinata tutta la sequenza",
-				"id": "flipControls"
 			}
 		],
 		"dynamicEnable": true,
@@ -333,7 +329,7 @@
 		"id": "clones",
 		"name": "Numero dei cloni",
 		"description": "Mostra sopra lo stage dell'editor il numero totale di cloni.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Jeffalo" },
 			{ "name": "OregSam", "link": "https://github.com/OregSamSas" },
@@ -525,6 +521,20 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.31.0"
+	},
+	{
+		"id": "costume-editor-shortcuts",
+		"name": "Scorciatoie da tastiera per editor dei costumi",
+		"description": "Aggiunge scorciatoie da tastiera agli strumenti dell'editor di costumi (in modo simile a TurboWarp). Sposta il puntatore su uno strumento per vedere la sua scorciatoia.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "Hollow_Song's Dad",
+				"link": "https://scratch.mit.edu/users/Hollow_Song/"
+			}
+		],
+		"enabledByDefault": false,
+		"versionAdded": "1.41.0"
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -953,7 +963,7 @@
 		"id": "editor-buttons-reverse-order",
 		"name": "Inverti l'ordine dei controlli del progetto",
 		"description": "Sposta la bandiera verde e il pulsante di stop a destra e il pulsante modalità presentazione a sinistra, come in Scratch 2.0.",
-		"tags": ["editor", "projectPlayer", "theme", "featured"],
+		"tags": ["player", "theme", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.27.0"
@@ -1589,7 +1599,7 @@
 		"id": "fullscreen",
 		"name": "Schermo intero migliorato",
 		"description": "Corregge alcuni effetti indesiderati della modalità fullscreen, apre il progetto nella modalità fullscreen del tuo browser e nasconde la barra che contiene la bandiera verde.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" }
 		],
@@ -1615,7 +1625,7 @@
 		"id": "gamepad",
 		"name": "Supporto Gamepad",
 		"description": "Interagisci con i progetti usando un controller/gamepad USB o bluetooth.",
-		"tags": ["editor", "projectPlayer", "featured"],
+		"tags": ["player", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2011,7 +2021,7 @@
 		"id": "mouse-pos",
 		"name": "Visualizzazione posizione del mouse",
 		"description": "Mostra la posizione x/y del mouse sopra lo stage dell'editor.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2083,7 +2093,7 @@
 		"id": "mute-project",
 		"name": "Modalità dell'editor di progetti con audio disattivato",
 		"description": "Ctrl+Clic sulla bandiera verde per attivare o disattivare l'audio del progetto.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{
 				"name": "TheColaber",
@@ -2152,12 +2162,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "Rimuovi sprite senza conferma",
+		"description": "Non fa comparire la finestra di dialogo che chiede conferma dell'eliminazione dello sprite.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Suggerimento: se rimuovi accidentalmente uno sprite, un costume o un suono puoi recuperarli usando Ripristina dal menu Modifica.",
 				"id": "restoretip"
 			}
 		],
@@ -2184,7 +2194,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Precedente layout delle gallerie",
-		"description": "RIporta il layout delle pagine delle gallerie a quello usato prima dell'aggiornamento delle gallerie o a quello disponibile in precedenza usando l'addon \"Scratch 2.0 → 3.0\".",
+		"description": "RIporta il layout delle pagine delle gallerie a quello usato prima dell'aggiornamento delle gallerie.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2199,8 +2209,12 @@
 				"id": "mobile"
 			},
 			{
-				"text": "La dimensione di molti elementi non viene modificata. Se vuoi vedere più progetti e curatori in una singola pagina usa l'addon \"più elementi per riga\".",
+				"text": "Se vuoi vedere un numero maggiore di progetti e curatori, usa l'addon \"più elementi per riga\".",
 				"id": "itemsPerRow"
+			},
+			{
+				"text": "Se vuoi vedere le pagine delle gallerie nel modo in cui le vedevi prima dell'aggiornamento, se l'addon \"Scratch 2.0 → 3.0\" era disabilitato usa ora l'addon \"Scratch 3.0 → 2.0\".",
+				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2305,7 +2319,7 @@
 		"id": "pause",
 		"name": "Pulsante Pausa",
 		"description": "Aggiunge un pulsante per mettere in pausa il progetto a fianco alla bandiera verde.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
@@ -2491,7 +2505,7 @@
 		"id": "remove-curved-stage-border",
 		"name": "Rimuove i bordi curvi dello stage",
 		"description": "Rimuove i bordi curvi intorno allo stage, permettendoti di vedere gli angoli.",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -2599,6 +2613,22 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.0.0"
+	},
+	{
+		"id": "scratch3to2",
+		"name": "Scratch 3.0 → 2.0",
+		"description": "Mostra le pagine in stile Scratch 3.0 come quelle di Scratch 2.0.",
+		"tags": ["community", "theme", "featured"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.41.0",
+		"injectAsStyleElt": true
 	},
 	{
 		"id": "scratchr2",
@@ -2777,7 +2807,7 @@
 		"id": "stage-monitor",
 		"name": "Monitor sullo Stage personalizzati",
 		"description": "Modifica il colore dei monitor delle variabili e delle liste sullo Stage",
-		"tags": ["editor", "theme", "projectPlayer"],
+		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{
@@ -2931,7 +2961,7 @@
 		"id": "vol-slider",
 		"name": "Cursore volume progetto ",
 		"description": "Aggiunge un cursore per il volume vicino ai controlli della bandiera verde.",
-		"tags": ["editor", "projectPlayer", "recommended"],
+		"tags": ["player", "recommended"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "GarboMuffin" },
