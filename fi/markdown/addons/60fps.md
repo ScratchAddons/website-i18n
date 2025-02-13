@@ -5,25 +5,25 @@
 
 Tavallisesti Scratch toistaa silmukan 30 kertaa sekunnissa, eli kuvataajuus on 30 ruutua/s (FPS). Tämän lisäosan avulla voi kasvattaa toistojen määrää ja samalla myös kuvataajuutta. Korkeampi kuvataajuus saa projektin animaatiot näyttämään tasaisemmilta mutta myös nopeuttaa niitä. Se, kuinka paljon projekti nopeutuu, on suhteessa valittuun kuvataajuuteen. Jos kuvataajuudeksi on valittu 60 ruutua/s, projekti suoritetaan kaksi kertaa nopeammin.
 
-Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
+Jotkin projektit mukautuvat kuvataajuuden muutoksiin [delta-ajan](https://en.wikipedia.org/wiki/Delta_timing) kaltaisten tekniikoiden avulla, jotta ne toimisivat kunnolla ja animaatiot olisivat sujuvia.
 
-The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
+Ominaisuuden voi kytkeä päälle tai pois pitämällä `alt` painettuna ja napauttamalla vihreää lippua. Lippu muuttuu siniseksi, ja keltainen pikakelauskuvake ilmestyy sen päälle. Tämä ilmaisee, että projekti suoritetaan nopeammin.
 
 ## Ominaisuudet
 
-- The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
-- The addon works in both the project page and the editor.
-- By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
+- Lisäosa on toiminnassa vain silloin, kun käyttäjä aktivoi sen pitämällä `alt`-näppäimen painettuna ja napauttamalla vihreää lippua. Lisäosa ei ole toiminnassa, kun sivu avataan tai kun se ladataan uudelleen.
+- Lisäosa toimii sekä projektisivulla että editorissa.
+- Lisäosa asettaa projektin kuvataajuudeksi (kun se on aktivoitu) oletusarvoisesti 60 ruutua/s. Kyseisen arvon voi vaihtaa lisäosan asetuksissa kokonaislukuun välillä 31–240.
 
 ## Asetukset
 
-### Custom FPS
+### Oma kuvataajuus
 
-Sets the value of the project's framerate when the addon is enabled.
+Asettaa projektin kuvataajuuden arvon, kun lisäosa on käytössä.
 
 ## Tulevaisuuden suunnitelmat
 
-- The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
+- Lisäosa saatetaan merkitä vaaralliseksi Scratch-verkkosivustolla hillitsemään projekteja, jotka edellyttävät tätä lisäosaa. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
 - Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Tekijät

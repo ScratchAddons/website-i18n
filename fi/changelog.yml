@@ -2,7 +2,7 @@ v1.5.0:
   Highlights:
     Description: |
       Uusi ominaisuus: sipulin kuorinta mahdollistaa animoimisen editorissa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
-    ImageAlt: Koira asuste-editorissa, jossa sipulin kuorinta on käytössä. Hahmo on peräisin Scratchin hahmokirjastosta.
+    ImageAlt: "Koira asuste-editorissa, jossa sipulin kuorinta on käytössä. Hahmo on peräisin Scratchin hahmokirjastosta."
 v1.6.1:
   Highlights:
     Description: |
@@ -207,3 +207,21 @@ v1.38.0:
       Tämä on kokeiluluonteinen päivitys, joka julkaistaan osalle käyttäjäkuntaa. Siihen on tehty joitain kulissien takaisia muutoksia, jotta selainten vaatimaa uutta laajennusarkkitehtuuria voidaan tukea (Manifest V3). Jos kohtaat ongelmia tai odottamatonta toimintaa, lähetä palautetta. Asetussivulla on myös painike palautteen lähettämistä varten.
 
       Tämä päivitys ei lisää uusia ominaisuuksia, mutta pysy kuulolla tulevia päivityksiä varten.
+v1.39.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "poista muut asusteet tai äänet" lisää asuste- ja äänilistan hiiren kakkospainikkeen valikkoon toiminnon, jonka avulla voi poistaa kaikki muut asusteet tai äänet, paitsi valitun. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Muita tässä päivityksessä lisättyjä uusia lisäosia ovat "näytä dialogi resurssiristiriitoja kohdatessa", "mukautettava koodialueen ruudukko", "mukautettavat muuttujien ja listojen näyttimet" sekä "jäljellä olevien vastausten määrä".
+v1.40.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "poista hahmoja ilman vahvistusta" poistaa uuden vahvistuskehotteen, joka kysyy, haluatko varmasti poistaa hahmon. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      "Tallenna lohkoja kuvana" -lisäosasta voi nyt kopioida kuvia suoraan leikepöydälle. "Videonauhuri projekteissa" lisäosalla voi nyt myös tallentaa MP4-videoita, jos selain tukee niitä.
+v1.41.0:
+  Highlights:
+    Description: |
+      Uusi lisäosa: "asuste-editorin pikanäppäimet" lisää pikanäppäimiä asuste-editorin työkaluille (kuten TurboWarp). Ota käyttöön siirtymällä Scratch-lisäosien asetuksiin.
+
+      Toinen uusi lisäosa on "Scratch 3.0 → 2.0", joka saa Scratch 3.0 -tyyliset sivut näyttämään Scratch 2.0:lta.
