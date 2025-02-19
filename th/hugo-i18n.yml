@@ -24,6 +24,7 @@ Links:
   Credits: เครดิต
   PrivacyPolicy: นโยบายความเป็นส่วนตัว
   Discord: ดิสคอร์ด
+  DiscordSupport: Discord ช่วยเหลือ
   Discussion: ฟอรั่มพูดคุย
   Community: ชุมชน
   Twitter: ทวิตเตอร์
@@ -63,6 +64,11 @@ Docs:
   LastUpdated: อัปเดตล่าสุดวันที่ {{.Date}} โดย {{.Name}} บน commit {{.Commit}}
   Improve: ช่วยเราปรับปรุงให้หน้านี้ดีขึ้น
   SectionPages: หมวดหมู่หน้า
+DocsShortcodes:
+  StubPage: หน้านี้**ต้องการเนื้อหาเพิ่มเติม** คุณสามารถช่วยได้โดยการเพิ่มเนื้อหา
+  StubSection: หมวดหมู่นี้**ต้องการเนื้อหาเพิ่มเติม** คุณสามารถช่วยได้โดยการเพิ่มเนื้อหา
+  OutdatedPage: หน้านี้**ต้องการการอัปเดต** คุณสามารถช่วยโดยการเพิ่มข้อมูลที่มีมาใหม่
+  OutdatedSection: หน้านี้**ต้องการการอัปเดต** คุณสามารถช่วยโดยการเพิ่มข้อมูลที่มีมาใหม่
 PlayerModal:
   LabelPlay: เล่น
   ModalTitle: วีดีโอ
@@ -116,6 +122,14 @@ AddonsPage:
     L2: ในหน้านี้ส่วนขยายที่ถูกซ่อนไว้จะมีรูปไข่อยู่ข้างชื่อ
   NAddons: "{{.Count}} ส่วนขยาย"
   SourceCodeLabel: โค้ดบน GitHub
+  SourceCodeLink:
+    Title: โค้ด Open Source บน GitHub
+  SASettingsLink:
+    Label: การตั้งค่าในส่วนขยายสำหรับ Scratch
+    Title: เปิดในการตั้งค่าส่วนขยายสำหรับ Scratch
+  AddonDocsLink:
+    Label: หน้าเอกสารส่วนขยาย
+    Title: อ่านเรื่องส่วนขยายนี้ในหน้าเอกสารส่วนขยาย
 FeedbackPage:
   Status:
     Sending: กำลังส่ง...
@@ -134,9 +148,13 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: พวกเราไม่ใช่ทีมงานของ Scratch
+        Description: ส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch เราไม่สามารถควบคุมเนื้อหาและการกลั่นกรองบนเว็บไซต์ Scratch เรายังยินดีที่จะรับข้อเสนอแนะในการทำให้ประสบการณ์ของคุณบน Scratch ดีขึ้นด้วยส่วยขยายสำหรับ Scratch
       Punishment:
         Heading: เราไม่สามารถลงโทษใครได้ เราไม่ใช่ทีมงาน Scratch
         Description: ส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch เราไม่สามารถควบคุมเนื้อหาและการกลั่นกรองบนเว็บไซต์ Scratch {{ .Tag1Start }}ยังมีอีกหลายวิธีที่จะรายงานบนเว็บไซต์ Scratch{{ .Tag1End }}
+      Folders:
+        Heading: คุณสมบัติโฟลเดอร์ตัวละครจะถูกซ่อมในไม่ช้า
+        Description: เรากำลังทำงานเรื่องนี้อยู่
 SMTPage:
   ScratchMessagingLogoAlt: โลโก้ส่วนขยายส่งข้อความสำหรับ Scratch
 ChangelogPage:
@@ -165,4 +183,20 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      Description: คำอธิบาย
       Credits: เครดิต
+      VersionAdded: เวอร์ชั่นที่ส่วนขยายถูกเพิ่มเข้ามา
+      LatestUpdate: อัปเดตล่าสุด
+      Informations: ข้อมูล
+      FeatureFlags: คุณสมบัติเปิดปิดได้
+    LatestUpdate:
+      Major: หลัก
+    FeatureFlags:
+      enabledByDefault: เปิดใช้งานโดยเริ่มต้น
+      dynamicEnable: เปิดเองอัตโนมัติ
+      dynamicDisable: ปิดเองอัตโนมัติ
+      injectAsStyleElt: สอดเข้ามาเป็นอค์ประกอบ style
+      updateUserstylesOnSettingsChange: อัปเดต userstyle เมื่อเปลี่ยนการตั้งค่า
+    Links:
+      SourceCode: โค้ด
+      SASettings: การตั้งค่าส่วนขยายสำหรับ Scratch
