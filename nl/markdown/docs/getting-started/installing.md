@@ -50,7 +50,7 @@ Vergeet niet om Scratch Addons ook bij te werken vanuit de browser.
   This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
 {{< /admonition >}}
 
-If you do not have Git installed, use this method instead.
+Gebruik deze methode als je Git niet hebt geïnstalleerd.
 
 1. Ga naar het [archief](https://github.com/ScratchAddons/ScratchAddons) en vind de code downloaden-knop.
 
@@ -60,11 +60,11 @@ If you do not have Git installed, use this method instead.
 
 ### Installeren op Google Chrome of Microsoft Edge
 
-To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
+Om de extensie te laden in Google Chrome en de meeste op Chromium gebaseerde browsers zoals Microsoft Edge, Opera, Brave of Vivaldi:
 
 1. Ga naar [chrome://extensions](chrome://extensions)
 
-1. Zet "Ontwikkelaarsstand" rechtsboven aan
+1. Zet "Ontwikkelaarsmodus" rechtsboven aan
 
 1. Klik "Uitgepakte extensie laden" en selecteer de `ScratchAddons` map.
 
