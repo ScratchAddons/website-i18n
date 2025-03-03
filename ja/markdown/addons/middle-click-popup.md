@@ -40,7 +40,7 @@ Controls how tall the popup can be before a scrollbar appears. This is a percent
 - The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
 - The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
 
-## Credit
+## クレジット
 
 Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
 

@@ -26,7 +26,7 @@ The feature can be toggled on/off by holding `alt` and clicking the green flag. 
 - Scratch Web サイトでこのアドオンを必要とするプロジェクトを制限するために、アドオンは危険としてマークされる可能性があります。 [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
 - Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
-## Credit
+## クレジット
 
 Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
 

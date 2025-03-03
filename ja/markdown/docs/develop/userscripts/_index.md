@@ -74,7 +74,7 @@ For more information, check the [API reference](/docs/reference/addon-api/).
 
 Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
 
-Here's an example:
+ここに例を示します:
 ```js
 const myButton = document.createElement("button");
 myButton.textContent = "Click me!";
