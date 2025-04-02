@@ -36,6 +36,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.1.0"
 	},
 	{
@@ -54,6 +55,7 @@
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.3.0"
 	},
 	{
@@ -135,6 +137,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.17.0"
 	},
 	{
@@ -191,6 +194,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.0.0"
 	},
 	{
@@ -295,6 +299,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.13.0",
 		"latestUpdate": {
 			"version": "1.40.0",
@@ -520,6 +525,7 @@
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.31.0"
 	},
 	{
@@ -534,7 +540,12 @@
 			}
 		],
 		"enabledByDefault": false,
-		"versionAdded": "1.41.0"
+		"versionAdded": "1.41.0",
+		"latestUpdate": {
+			"version": "1.42.0",
+			"isMajor": true,
+			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+		}
 	},
 	{
 		"id": "ctrl-click-run-scripts",
@@ -617,6 +628,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.12.0"
 	},
 	{
@@ -758,6 +770,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-www"],
 		"versionAdded": "1.4.0",
 		"latestUpdate": {
 			"version": "1.34.0",
@@ -793,7 +806,7 @@
 			{ "name": "TheColaber" },
 			{ "name": "retronbv" }
 		],
-		"libraries": ["chartjs"],
+		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
 			"version": "1.33.0",
@@ -937,6 +950,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-www", "scratch-gui"],
 		"versionAdded": "1.37.0"
 	},
 	{
@@ -957,6 +971,7 @@
 		"tags": ["editor"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.21.0"
 	},
 	{
@@ -1058,6 +1073,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-render"],
 		"versionAdded": "1.0.0",
 		"latestUpdate": {
 			"version": "1.33.2",
@@ -1158,6 +1174,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.0.0"
 	},
 	{
@@ -1250,6 +1267,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-www", "scratch-gui", "scratch-blocks"],
 		"versionAdded": "1.2.0",
 		"latestUpdate": {
 			"isMajor": true,
@@ -1311,6 +1329,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-www"],
 		"versionAdded": "1.2.0"
 	},
 	{
@@ -1459,6 +1478,7 @@
 			}
 		],
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.11.0"
 	},
 	{
@@ -1576,6 +1596,16 @@
 		}
 	},
 	{
+		"id": "fps",
+		"name": "FPS counter",
+		"description": "Adds an FPS counter above the stage.",
+		"tags": ["editor", "player", "featured"],
+		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.42.0"
+	},
+	{
 		"id": "full-signature",
 		"name": "Áreas completas",
 		"description": "Muestra los contenidos completos de áreas con altura limitada, como las firmas de los usuarios en los foros y Lo que he estado haciendo en perfiles, haciendo estas áreas redimensionables o desplazables.",
@@ -1630,6 +1660,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1904,6 +1935,18 @@
 		"latestUpdate": { "version": "1.33.0", "newSettings": ["shareUsername"] }
 	},
 	{
+		"id": "live-read-topics",
+		"name": "Instant forum read indicators",
+		"description": "Automatically shows a topic as read when clicking on it on a forum category's page without requiring a reload.",
+		"tags": ["community", "forums"],
+		"credits": [
+			{ "link": "https://scratch.mit.edu/mybearworld", "name": "mybearworld" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.42.0"
+	},
+	{
 		"id": "load-extensions",
 		"name": "Agregar extensiones automáticamente",
 		"description": "Muestra automáticamente música, lápiz y otras extensiones del editor en el menú de categorías del editor.",
@@ -1938,6 +1981,12 @@
 				"note": "addon version",
 				"id": "addonVersion",
 				"link": "https://github.com/Secret-chest"
+			},
+			{
+				"name": "Google",
+				"note": "icons",
+				"id": "icons",
+				"link": "https://fonts.google.com/icons?icon.set=Material+Icons"
 			}
 		],
 		"dynamicEnable": true,
@@ -1999,6 +2048,7 @@
 			}
 		],
 		"enabledByDefault": true,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
 		"latestUpdate": {
 			"version": "1.31.0",
@@ -2105,6 +2155,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.7.0"
 	},
 	{
@@ -2241,6 +2292,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-paint"],
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -2310,6 +2362,7 @@
 		"tags": ["editor", "costumeEditor", "featured"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-paint"],
 		"versionAdded": "1.30.0"
 	},
 	{
@@ -2551,6 +2604,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.36.0",
 		"latestUpdate": {
 			"version": "1.37.0",
@@ -2624,6 +2678,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
 		"injectAsStyleElt": true
 	},
@@ -2640,6 +2695,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-www"],
 		"versionAdded": "1.1.0",
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
@@ -2703,6 +2759,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-www"],
 		"versionAdded": "1.1.0"
 	},
 	{
@@ -2724,6 +2781,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.24.0",
 		"latestUpdate": {
 			"version": "1.40.0",
@@ -2833,6 +2891,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-www"],
 		"versionAdded": "1.17.0"
 	},
 	{
@@ -2861,6 +2920,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.22.0"
 	},
 	{
@@ -2944,7 +3004,16 @@
 		"name": "Gestor de variables",
 		"description": "Agrega una pestaña al lado de \"sonidos\" en el editor para que pueda fácilmente editar variables y listas.",
 		"tags": ["editor", "featured"],
-		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
+		"credits": [
+			{ "name": "Jeffalo" },
+			{ "name": "GarboMuffin" },
+			{
+				"name": "Google",
+				"note": "search icon",
+				"id": "searchIcon",
+				"link": "https://fonts.google.com/icons?icon.set=Material+Icons"
+			}
+		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
@@ -2966,6 +3035,7 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
+		"libraries": ["scratch-gui"],
 		"versionAdded": "1.29.0",
 		"latestUpdate": {
 			"version": "1.32.0",
