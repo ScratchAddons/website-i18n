@@ -226,3 +226,9 @@ v1.41.0:
       New addon: "costume editor keyboard shortcuts", which adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Go to Scratch Addons settings to enable it.
 
       Another new addon is "Scratch 3.0 → 2.0", which makes Scratch 3.0-styled pages look like Scratch 2.0.
+v1.42.0:
+  Highlights:
+    Description: |
+      New addon: "FPS counter", which shows the project framerate above the stage. Go to Scratch Addons settings to enable it.
+
+      Another new addon is "Instant forum read indicators", which instantly marks topics as read when opening them in a new tab.
