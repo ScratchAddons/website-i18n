@@ -24,17 +24,17 @@ Asettaa projektin kuvataajuuden arvon, kun lisäosa on käytössä.
 ## Tulevaisuuden suunnitelmat
 
 - Lisäosa saatetaan merkitä vaaralliseksi Scratch-verkkosivustolla hillitsemään projekteja, jotka edellyttävät tätä lisäosaa. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- Koska lisäosan käyttö vaatii `alt`-näppäimen painamista, se ei ole yhteensopiva kosketusnäyttölaitteiden kanssa. Ratkaisuksi on ehdotettu pudotusvalikon lisäämistä vihreän lipun viereen tätä ja monia muita lisäosia varten. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Tekijät
 
-Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
+Jeffalo loi alkuperäisen lisäosan, joka vain asetti projektisoittimen kuvataajuudeksi 60 ruutua/s. TheColaber lisäsi mahdollisuuden valita oma kuvataajuus ja korjasi lukuisia bugeja. JoanRiosiPla lisäsi vihreään lippuun helppolukuisen ilmaisimen, ennen kuin WorldLanguages muokkasi sitä.
 
 ## Muutosloki
 
-- **v1.1.0** The **60FPS Player Mode** addon was created.
-- **v1.3.0** The addon is now enabled by default for all users, and was given the Recommended tag.
-- **v1.7.0** Option added to customize the target FPS, which was locked to 60 before.
+- **v.1.1.0** **Soittimen 60 ruuutua/s -tila** -niminen lisäosa luotiin.
+- **v.1.3.0** Lisäosa on nyt oletuksena käytösssä kaikilla käyttäjillä, ja sille annettiin Suositeltava-tunniste.
+- **v1.7.0** Mahdollisuus valita oma kuvataajuus lisättiin. Ennen sitä ainut vaihtoehto oli 60.
 - **v1.11.0** The addon was renamed to **Alt+GreenFlag 60FPS player mode**, and a brief information box was added. A limit was set on the custom FPS, which now ranges from 31 to 240.
 - **v1.13.0** `Alt` + green flag click detection was improved. The addon can now be dynamically enabled and disabled.
 - **v1.14.0** The addon was given the Project Player tag.
