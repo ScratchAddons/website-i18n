@@ -23,6 +23,7 @@ Links:
   Addons: Аддоны
   Credits: Благодарности
   PrivacyPolicy: Политика конфедициальности
+  DiscordSupport: Discord тех-поддержка
   Discussion: Форум обсуждения
   Community: Сообщество
   Twitter: Твиттер
@@ -62,6 +63,11 @@ Docs:
   LastUpdated: В последний раз обновлено в {{.Date}} пользователем {{.Name}} на commit'е {{.Commit}}.
   Improve: Улучшить эту страницу.
   SectionPages: Содержание
+DocsShortcodes:
+  StubPage: Эта страница **нуждается в расширении**! Вы можете помочь, добавляя к ней.
+  StubSection: Эта страница **нуждается в расширении**! Вы можете помочь, добавляя к ней.
+  OutdatedPage: Эта страница **нуждается в обновлении**! Просим помощь в обновлении для отображения любой новой информации.
+  OutdatedSection: Эта страница **нуждается в обновлении**! Просим помощь в обновлении для отображения любой новой информации.
 PlayerModal:
   LabelPlay: Играть
   ModalTitle: Видео
@@ -115,6 +121,14 @@ AddonsPage:
     L2: На этой странице у пасхального аддона будет символ яйца рядом с его названием.
   NAddons: "{{.Count}} аддонов"
   SourceCodeLabel: Исходный код на GitHub
+  SourceCodeLink:
+    Title: Открыть исходный код на платформе GitHub
+  SASettingsLink:
+    Label: Настройки в Scratch Addons
+    Title: Открыть в настройках Scratch Addons
+  AddonDocsLink:
+    Label: Документация "Addon Docs"
+    Title: Прочитать про это дополнение в "Addon Docs"
 FeedbackPage:
   Status:
     Sending: Отправка...
@@ -133,9 +147,13 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Мы не являемся Scratch Team.
+        Description: Крайне имейте в виду, что расширение Scratch Addons не связаны с официальным веб-сайтом Scratch, а также с любыми организациями, которые поддерживают его. У нас нет никакого контроля над контентом и модерацией сервиса Scratch. Но Вы всё равно можете делиться идеями для улучшения качества Вашей работы с сайтом Scratch и нашем расширением Scratch Addons.
       Punishment:
         Heading: Мы не можем наказывать людей. Мы не являемся Scratch Team.
         Description: Scratch Addons не связаны с вебсайтом Scratch или организациями которые поддерживают его. Мы не контролируем контент и модерацию на веб - сайте Scratch. {{ .Tag1Start }}Есть много способов пожаловаться на оффициальном веб - сайте Scratch.{{ .Tag1End }}
+      Folders:
+        Heading: Функия "Папки спрайтов" скоро будет исправлена!
+        Description: Мы над ней работаем.
 SMTPage:
   ScratchMessagingLogoAlt: Логотип расширения Scratch Messaging
 ChangelogPage:
@@ -165,4 +183,22 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      ID: Идентификатор
+      Description: Описание
       Credits: Благодарности
+      Tags: Метки
+      VersionAdded: Версия добавлена
+      LatestUpdate: Новейшее обновление
+      Informations: Информация
+      FeatureFlags: Флажки функций
+    LatestUpdate:
+      Major: важная
+    FeatureFlags:
+      enabledByDefault: Включено по умолчанию
+      dynamicEnable: Динамическое включение
+      dynamicDisable: Динамическое выключение
+      injectAsStyleElt: Внедрить как элемент стиля
+      updateUserstylesOnSettingsChange: Обновлять пользовательский стиль при изменении настроек
+    Links:
+      SourceCode: Исходный код
+      SASettings: Настройки Scratch Addons
