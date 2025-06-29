@@ -31,7 +31,7 @@ Scratch Addons uradno podpira različice za namizne računalnike naslednjih brsk
 
 ### Lahko uporabljam Scratch Addons na mobilni napravi?
 
-**Za uporabnike Androida**: Da, Scratch Addons lahko zdaj namestite v brskalniku [Firefox za Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), vendar tega še ne priporočamo, saj uporabniški vmesnik Scratch Addons ni preizkušen na zaslonih na dotik in v okoljih z majhnimi zasloni, zato nekatere možnosti morda ne bodo delovale pravilno. Če imate raje Chrome, lahko preizkusite tudi [brskalnik Kiwi](https://kiwibrowser.com/).
+**For Android users**: Yes, Scratch Addons can be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), however not all addons are optimized for touchscreens or environments with small screen sizes so some features might not work as expected.
 
 **Za uporabnike iOS in iPadOS:** Žal ne. Pravila trgovine App Store ne dovoljujejo alternativnih brskalnikov, kar pomeni, da so vsi brskalniki za te sisteme samo Safari z drugačnim videzom. To povzroči določene težave (glej spodaj).
 
@@ -177,8 +177,8 @@ Read more about it [here](/docs/develop/getting-started).
 Lahko nam jo sporočite na enega od naslednjih načinov.
 
 - Izpolnite [obrazec za povratne informacije](/feedback).
-- Prijavite težavo [na GitHub](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Ustvarite objavo na [zavihku za pogovor](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Prijavite težavo [na GitHubu](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Ustvarite objavo na [forumu](https://github.com/ScratchAddons/ScratchAddons/discussions).
 - Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
 
 ### I think you missed a feature. What can I do?
@@ -189,7 +189,7 @@ If you want to suggest an addon for the extension or have some other kind of goo
 
 You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
 
-## Technical
+## Tehnično
 
 ### Kaj točno je "dodatek"?
 

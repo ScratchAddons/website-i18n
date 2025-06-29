@@ -31,7 +31,7 @@ Scratch Addons is officially supported on the desktop versions of [Google Chrome
 
 ### Kan jeg bruke Scratch Addons på en mobil enhet?
 
-**For Android-brukere**: Ja, Scratch Addons kan nå installeres på [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), men det anbefales ikke ennå, siden Scratch Addons' brukergrensesnitt ikke er godt testet på berøringsskjermer eller miljøer med små skjermstørrelser, så noen funksjoner kan ikke fungere som forventet. Alternativt, hvis du foretrekker Chrome, kan du prøve [Kiwi Browser](https://kiwibrowser.com/).
+**For Android users**: Yes, Scratch Addons can be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), however not all addons are optimized for touchscreens or environments with small screen sizes so some features might not work as expected.
 
 **For iOS- og iPadOS-brukere**: Dessverre er det ikke det. App Store-reglene tillater ikke at nettleserimplementeringer lastes opp, noe som betyr at alle nettlesere tilgjengelig på den plattformen bare er omdøpte Safari. Dette fører til noen problemer (se nedenfor).
 

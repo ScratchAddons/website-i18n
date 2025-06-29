@@ -22,12 +22,13 @@ Links:
   Addons: Dodatki
   Credits: Zahvale
   PrivacyPolicy: Politika zasebnosti
+  DiscordSupport: Discord za podporo
   Discussion: Forum
   Community: Skupnost
 Nav:
   Feedback: Povratne informacije
   Repository: Izvirna koda
-  RepositoryLabel: Izvirna koda na GitHub
+  RepositoryLabel: Izvirna koda na GitHubu
   Install: Namesti
   ToggleNavigation: Pokaži/skrij navigacijo
 Footer:
@@ -61,6 +62,11 @@ Docs:
   LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
   Improve: Izboljšajte to stran.
   SectionPages: Strani v tem razdelku
+DocsShortcodes:
+  StubPage: To stran je treba **dopolniti**. Pomagate lahko tako, da dodate vsebino.
+  StubSection: Ta razdelek je treba **dopolniti**. Pomagate lahko tako, da dodate vsebino.
+  OutdatedPage: To stran je treba **posodobiti**. Prosimo, da pomagate dodati nove informacije.
+  OutdatedSection: To stran je treba **posodobiti**. Prosimo, da pomagate dodati nove informacije.
 PlayerModal:
   LabelPlay: Predvajaj
   AltText: Kliknite za ogled videa.
@@ -112,9 +118,15 @@ AddonsPage:
     L1: Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji.
     L2: Skrivni dodatki imajo na tej strani poleg imena ikono pirha.
   NAddons: "{{.Count}} dodatkov"
-  SourceCodeLabel: Izvirna koda na GitHub
+  SourceCodeLabel: Izvirna koda na GitHubu
+  SourceCodeLink:
+    Title: Odprta koda na GitHubu
   SASettingsLink:
+    Label: Nastavitve v Scratch Addons
     Title: Odpri v nastavitvah Scratch Addons
+  AddonDocsLink:
+    Label: Stran z dokumentacijo dodatka
+    Title: Preberite več o tem dodatku v dokumentaciji
 FeedbackPage:
   Status:
     Sending: Pošiljanje...
@@ -133,9 +145,13 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Nismo Scratcheva ekipa.
+        Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. Kljub temu nam lahko date predloge, kako lahko Scratch Addons izboljša vašo izkušnjo na Scratchu.
       Punishment:
         Heading: Ne moremo kaznovati ljudi. Nismo Scratcheva ekipa.
         Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. {{ .Tag1Start }}Vsebino na Scratchu lahko prijavite na več načinov.{{ .Tag1End }}
+      Folders:
+        Heading: Dodatek Mape figur bomo kmalu popravili!
+        Description: Delamo na tem
 SMTPage:
   ScratchMessagingLogoAlt: Logotip razširitve Scratch Messaging Extension
 ChangelogPage:
@@ -143,7 +159,7 @@ ChangelogPage:
     Title: Izpostavljeno
   Links:
     Title: Povezave
-    ReleaseGitHub: Stran različice na GitHub
+    ReleaseGitHub: Stran različice na GitHubu
     RepoState: Izvirna koda te različice
     CommitsMade: Spremembe kode v tej različici
     BlogPost: Blog o tej različici
@@ -167,7 +183,10 @@ AddonDocs:
     Labels:
       Description: Opis
       Credits: Zahvale
+      Tags: Oznake
+      VersionAdded: Dodan v različici
       LatestUpdate: Zadnja posodobitev
       Informations: Informacije
     Links:
+      SourceCode: Izvirna koda
       SASettings: Nastavitve Scratch Addons

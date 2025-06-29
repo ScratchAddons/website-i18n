@@ -10,7 +10,7 @@ v1.6.1:
 v1.7.0:
   Highlights:
     Description: |
-      Nova funkcija; izboljšana kategorija spremenljivk, z možnostjo, da ločite sezname in lokalne spremenljivke. Pojdite v nastavitve Scratch Dodatki, da jo vključite.
+      Nova funkcija; izboljšana kategorija spremenljivk, z možnostjo, da ločite sezname in lokalne spremenljivke. Pojdite v nastavitve Scratch Addons, da jo vključite.
 
       Druge nove funkcije: uvozite ali izvozite nastavitve razširitve, prilagodite zavihke, vključite ali izključite dodatke v oknu razširitve, popravljene razne napake.
     ImageAlt: Video, ki prikazuje dodatek "samodejno skrivanje palete blokov".
@@ -20,10 +20,13 @@ v1.8.0:
       Nov dodatek: samodejno skrivanje palete blokov, ki skrije paleto blokov, dokler nanjo ne premaknete miške ali jo kliknete. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Dodatek "snemanje videov projekta", ki je prej lahko posnel samo video, lahko zdaj posname do 5 minut videa in zvoka projekta.
+v1.9.1:
+  Highlights:
+    ImageAlt: Zaslonska slika nove funkcije v dodatku Scratch sporočila.
 v1.10.0:
   Highlights:
     Description: |
-      Nova funkcija: dodatek "gumb za kopiranje povezave do komentarja", ki doda gumb za enostavno kopiranje povezave do komentarja. Pojdite v nastavitve Scratch Dodatki, da ga omogočite. 
+      Nova funkcija: dodatek "gumb za kopiranje povezave do komentarja", ki doda gumb za enostavno kopiranje povezave do komentarja. Pojdite v nastavitve Scratch Addons, da ga omogočite. 
 
       Dodatek "gumb za premor" je izboljšan in ni več v beta različici. Veliko napak v temnem načinu je popravljenih.
 v1.11.0:
@@ -35,102 +38,150 @@ v1.11.0:
 v1.12.0:
   Highlights:
     Description: |
-      Nova funkcija: dodatek "Povleci datoteke v urejevalnik", ki omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Pojdite v nastavitve Scratch Dodatki, da ga omogočite.
+      Nova funkcija: dodatek "Povleci datoteke v urejevalnik", ki omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Pojdite v nastavitve Scratch Addons, da ga omogočite.
 
       Druga nova funkcija v tej posodobitvi je "prilagojena oblika blokov", ki omogoča spremembo velikosti, zaobljenosti robov in velikosti zareze blokov.
 v1.15.0:
   Highlights:
     Description: |
-      Novi dodatki v tej posodobitvi so "prosojnost blokov", "Ctrl+klik za izvajanje skript", "ne izvedi podvojenih blokov samodejno" in "filtriraj sporočila na Scratchevi strani za sporočila". Pojdite v nastavitve Scratch Dodatki, da jih vključite.
+      Novi dodatki v tej posodobitvi so "prosojnost blokov", "Ctrl+klik za izvajanje skript", "ne izvedi podvojenih blokov samodejno" in "filtriraj sporočila na Scratchevi strani za sporočila". Pojdite v nastavitve Scratch Addons, da jih vključite.
 
       Ta posodobitev je tudi spremenila privzeto barvo števila neprebranih sporočil poleg ikone razširitve Scratch Addons. Pojdite v Scratch Addons settings, da jo nastavite nazaj na prejšnjo zeleno ali kakšno drugo barvo.
 v1.16.0:
   Highlights:
     Description: |
-      Nov dodatek: "orodje za razhroščevanje", ki doda bloke za zapisovanje sporočil v posebno okno in za začasno zaustavitev projekta. Pojdite v nastavitve Scratch Dodatki, da ga omogočite.
+      Nov dodatek: "orodje za razhroščevanje", ki doda bloke za zapisovanje sporočil v posebno okno in za začasno zaustavitev projekta. Pojdite v nastavitve Scratch Addons, da ga omogočite.
 
       Še en nov dodatek v tej posodobitvi je "razširjena iskalna vrstica", ki naredi iskalno vrstico na vrhu strani med iskanjem širšo.
 v1.17.0:
   Highlights:
     Description: |
-      Nov dodatek: "prejšnja postavitev strani studiov", ki spremeni postavitev strani studiov v tisto, ki je bila v uporabi pred posodobitvijo studiov. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "prejšnja postavitev strani studiov", ki spremeni postavitev strani studiov v tisto, ki je bila v uporabi pred posodobitvijo studiov. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Dodatek "gumb za povabilo sledilcev v studio" spet omogoča povabila z enim klikom. Druga nova dodatka v tej posodobitvi sta "nalaganje HD slik" in "onemogoči vlečenje figur v urejevalniku".
 v1.18.0:
   Highlights:
     Description: |
-      Nov dodatek: "gumb TurboWarp", ki doda gumb na straneh projektov za ogled projekta na TurboWarp.org. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "gumb TurboWarp", ki doda gumb na straneh projektov za ogled projekta na TurboWarp.org. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Dodatek "več predmetov v eni vrstici" pokaže več kot 3 projekte v vsaki vrstici v studiih in drugih delih spletne strani. Druga nova dodatka sta "Ctrl+Enter za objavo" in "prilagoditev začetnega projekta".
 v1.19.0:
   Highlights:
     Description: |
-      Nov dodatek: "odpri urejevalnik videzov namesto knjižnice", s katerim lahko spremenite, kaj naredijo gumbi za izbiro figure/videza/ozadja/zvoka. Pojdite v nastavitve Scratch Dodatki, da ga vključite. 
+      Nov dodatek: "odpri urejevalnik videzov namesto knjižnice", s katerim lahko spremenite, kaj naredijo gumbi za izbiro figure/videza/ozadja/zvoka. Pojdite v nastavitve Scratch Addons, da ga vključite. 
 
       Dodatek "poimenuj skripte pred dodajanjem v shrambo" omogoči, da poimenujete skripte, ko jih potegnete v shrambo. Ta posodobitev doda tudi možnosti "skrij gumb za brisanje figure" in "skrij statistiko projekta".
 v1.20.0:
   Highlights:
     Description: |
-      Nov dodatek: "vleci posamezne bloke s tipko Ctrl", ki doda možnost, da iz sredine skripte potegnete en sam blok (namesto vseh blokov pod njim), medtem ko držite tipko Ctrl. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "vleci posamezne bloke s tipko Ctrl", ki doda možnost, da iz sredine skripte potegnete en sam blok (namesto vseh blokov pod njim), medtem ko držite tipko Ctrl. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Dodatek "temni način in prilagoditev barv v urejevalniku" ima novo prednastavitev barv "Scratch 2.0". Druga nova dodatka v tej posodobitvi sta "skrij nove spremenljivke" in "premakni videz na vrh ali na dno".
 v1.23.0:
   Highlights:
     Description: |
-      Nov dodatek: "temni način in prilagoditev barv spletne strani". Pojdite v nastavitve Scratch Dodatki, da spremenite posamezne barva, vključite ali izključite temne drsne vrstice, in več!
+      Nov dodatek: "temni način in prilagoditev barv spletne strani". Pojdite v nastavitve Scratch Addons, da spremenite posamezne barva, vključite ali izključite temne drsne vrstice, in več!
 
       Drugi novi dodatki, dodani v tej posodobitvi, so "pritrdi skripte na mrežo", "števec blokov" in "višja ločljivost sličic".
 v1.24.0:
   Highlights:
     Description: |
-      Nov dodatek: "prilagoditev vrstice za navigacijo", ki omogoča, da izberete seznam povezav, ki bodo prikazane v vrstici za navigacijo. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "prilagoditev vrstice za navigacijo", ki omogoča, da izberete seznam povezav, ki bodo prikazane v vrstici za navigacijo. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Drugi novi dodatki, dodani v tej posodobitvi, so "prilagoditev sloga besedila blokov", "onemogoči tresenje figur v seznamu figur" in "išči figure po imenu". Poleg tega je bil dodatek "Scratch 2.0 → 3.0" posodobljen, da izgleda bolj podobno Scratchu 2.0.
 v1.25.0:
   Highlights:
     Description: |
-      Nov dodatek: "vnosna polja za izbiro barve", ki omogoči nastavitev točne vrednosti (0-100) za vsak drsnik za izbiro barve v urejevalniku videzov. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "vnosna polja za izbiro barve", ki omogoči nastavitev točne vrednosti (0-100) za vsak drsnik za izbiro barve v urejevalniku videzov. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Druga nova dodatka v tej posodobitvi sta "vodoravni zavihki v Mojih stvareh" in "samodejni predogled objave v forumih".
 v1.26.0:
   Highlights:
     Description: |
-      Nov dodatek: "prilagoditev privzetih barv v urejevalniku videzov", ki omogoči, da spremenite začetno barvo in velikost obrobe v urejevalniku videzov. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "prilagoditev privzetih barv v urejevalniku videzov", ki omogoči, da spremenite začetno barvo in velikost obrobe v urejevalniku videzov. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Še en nov dodatek v tej posodobitvi je "prikaz dolžine zvoka", ki v urejevalniku zvokov pokaže skupno dolžino in čas predvajanja zvoka ali njegovega izbranega dela.
 v1.27.0:
   Highlights:
     Description: |
-      Nov dodatek: "skrij oder in seznam figur", ki doda gumb, s katerim lahko skrijete oder in seznam figur, kar zelo poveča prostor za kodo. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "skrij oder in seznam figur", ki doda gumb, s katerim lahko skrijete oder in seznam figur, kar zelo poveča prostor za kodo. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Še en nov dodatek je "obrnjen vrstni red gumbov za nadzor projekta", ki premakne zeleno zastavico in gumb Ustavi na desno in gumb za celozaslonski način na levo, kot v Scratchu 2.0. Zdaj lahko tudi določite, kateri projekti naj bodo prikazani na zavihku za igre v oblaku.
 v1.28.0:
   Highlights:
     Description: |
-      Nov dodatek: "izmenično obarvani ugnezdeni bloki", ki bloke iste kategorije pobarva izmenično s svetlejšimi in temnejšimi odtenki, kadar so postavljeni drug v drugega (zebrine proge). Pojdite v nastavitve Scratch Dodatki,  da ga vključite.
+      Nov dodatek: "izmenično obarvani ugnezdeni bloki", ki bloke iste kategorije pobarva izmenično s svetlejšimi in temnejšimi odtenki, kadar so postavljeni drug v drugega (zebrine proge). Pojdite v nastavitve Scratch Addons,  da ga vključite.
 
       Dodatka "iskalna vrstica v urejevalniku" in "skoči na definicijo mojega bloka", ki sta bila prej del dodatka "orodje za razvijalce", lahko zdaj vključite ali izključite ločeno.
 v1.29.0:
   Highlights:
     Description: |
-      Nov dodatek: "drsnik za neprosojnost", ki v okno za izbiro barve v urejevalniku videzov doda drsnik za neprosojnost. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "drsnik za neprosojnost", ki v okno za izbiro barve v urejevalniku videzov doda drsnik za neprosojnost. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Drugi novi dodatki v tej posodobitvi so "drsnik za glasnost projekta", "preimenovanje sporočil" in "izberi barve iz odra v urejevalniku videzov".
 v1.33.0:
   Highlights:
     Description: |
-      Nov dodatek: "označi ustvarjalca projekta v komentarjih", ki doda oznako k komentarjem, ki jih je napisal ustvarjalec projekta. Pojdite v nastavitve Scratch Dodatki, da ga vključite.
+      Nov dodatek: "označi ustvarjalca projekta v komentarjih", ki doda oznako k komentarjem, ki jih je napisal ustvarjalec projekta. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Več dodatkov smo prilagodili prihajajočim spremembam Scratcha. Posodobitev prinaša tudi izboljšano učinkovitost in stabilnost.
 v1.33.2:
   Highlights:
     Description: |
-      Scratch je bil pred kratkim posodobljen in nekatere barve na spletni strani so spremenjene. Če želite spremeniti svoje nastavitve, se vrniti na prejšnje brave ali jih kako drugače prilagoditi, lahko v nastavitvah Scratch Dodatki ponastavite ali spremenite katero koli temo.
+      Scratch je bil pred kratkim posodobljen in nekatere barve na spletni strani so spremenjene. Če želite spremeniti svoje nastavitve, se vrniti na prejšnje brave ali jih kako drugače prilagoditi, lahko v nastavitvah Scratch Addons ponastavite ali spremenite katero koli temo.
 
       Sodelavci Scratch Addons smo se potrudili, da bi bili dodatki združljivi s temi spremembami, vendar boste morda še opazili majhne nepravilnosti.
+v1.34.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "sprememba števil s puščicami", ki omogoči, da uporabite tipki s puščicama gor in dol, da povečate ali zmanjšate vrednosti v poljih za vnos števil. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Še en nov dodatek je "kompakten urejevalnik", ki zmanjša velikost gumbov, polj za vnos besedila, menijske vrstice in drugih elementov v urejevalniku, da je več prostora za kodo, urejevalnik videzov, sličice figur in podobno, tako kot v Scratchu 2.0.
+v1.35.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "nagib v urejevalniku videzov", ki omogoča, da držite Ctrl in premaknete stranico predmeta za spremembo nagiba. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Še en nov dodatek je "predogled navodil in opomb projekta". Na straneh vaših projektov nad poljem Navodila doda stikalo, ki prikaže navodila in opombe projekta, kot jih bodo videli drugi uporabniki.
+v1.36.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "spremenljiv vrstni red vnosov", ki omogoči spremembo vrstnega reda parametrov v oknu "Ustvari blok". Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Drugi novi dodatki v tej posodobitvi so "prilagoditev menijske vrstice urejevalnika", "postavi kodo iz shrambe zraven miške" in "oglata polja v blokih".
+v1.37.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "gumb za prenos na strani projekta", ki omogoči, da prenesete projekte neposredno s strani projekta, ne da bi prej odprli urejevalnik. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Druga nova dodatka v tej posodobitvi sta "večji gumb Shrani takoj" in "zamenjaj vrstico Shramba z gumbom".
 v1.38.0:
   Highlights:
     Description: |
       To je poskusna posodobitev, ki jo bo prejel samo del uporabnikov. Vsebuje spremembe, potrebne zaradi nove arhitekture razširitev, ki jo zahtevajo brskalniki (Manifest V3). Če naletite na kakršno koli težavo ali nepričakovano vedenje, prosimo, da nam pošljete povratno informacijo. Gumb za povratne informacije je tudi na strani z nastavitvami.
 
       Drugih novosti v tej posodobitvi ni, vendar jih lahko pričakujete v prihodnjih posodobitvah.
+v1.39.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "izbriši druge videze ali zvoke", ki v meni desne miškine tipke za videze in zvoke doda možnost za izbris vseh predmetov razen izbranega. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Drugi novi dodatki v tej posodobitvi so "pogovorno okno o predmetih z enakim imenom", "prilagoditev mreže v urejevalniku kode", "prilagoditev spremenljivk na odru" in "števec preostalih odgovorov".
+v1.40.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "izbriši figure brez potrditve", ki odstrani novo okno za potrditev, ki vpraša, če ste prepričani, da bi radi izbrisali figuro. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Dodatek "shrani bloke kot sliko" zdaj omogoča kopiranje slik neposredno v odložišče. Dodatek "snemanje videov projekta" pa zdaj izvozi datoteko v obliki mp4, če jo brskalnik podpira.
+v1.41.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "bližnjice v urejevalniku videzov", ki omogoči, da v urejevalniku videzov izberete orodje s tipkovnico (podobno kot v TurboWarpu). Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Še en nov dodatek je "Scratch 3.0 → 2.0", ki naredi, da strani, oblikovane kot Scratch 3.0, izgledajo kot Scratch 2.0.
+v1.42.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "števec sličic na sekundo", ki nad odrom prikaže hitrost osveževanja projekta. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Še en nov dodatek je "takojšnje oznake prebranih objav v forumih", ki samodejno označi temo kot prebrano, ko jo odprete v novem zavihku.

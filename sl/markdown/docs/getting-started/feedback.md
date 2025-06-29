@@ -1,13 +1,13 @@
 ---
-title: Send feedback to Scratch Addons developers
-description: How to send feedback to Scratch Addons.
+title: Pošljite povratne informacije razvijalcem Scratch Addons
+description: Kako poslati povratne informacije ekipi Scratch Addons.
 ---
 
-Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
+Nam bi radi napisali kaj o razširitvi za brskalnike Scratch Addons? Sporočite nam s pomočjo obrazca na https://scratchaddons.com/feedback/.
 
 {{< admonition warning >}}
 
-We can't help with issues related to Scratch moderation. Instead, use the Report button on the Scratch website, or reach Scratch through their official channels.
+V zadevah, povezanih s skrbništvom Scratcha, vam ne moremo pomagati. Uporabite gumb za prijavo na Scratchevi spletni strani ali kontaktirajte Scratch na enega od uradnih načinov.
 
 {{</ admonition >}}
 
@@ -15,11 +15,11 @@ We can't help with issues related to Scratch moderation. Instead, use the Report
 
 Če potrebujete drug način komunikacije, je tu nekaj možnosti.
 
-- Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
-- Contact one of the contributors directly
+- Prijavite težavo [na GitHubu](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Ustvarite objavo na [forumu](https://github.com/ScratchAddons/ScratchAddons/discussions).
+- Pošljite sporočilo na [strežniku Discord za podporo](https://discord.gg/R5NBqwMjNc).
+- Obrnite se neposredno na enega od sodelavcev
 
-It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).
+Pogovora s sodelavci na Scratchu ne priporočamo zaradi [pravila, ki prepoveduje oglaševanje razširitev in uporabniških skript](https://scratch.mit.edu/discuss/post/2907564/).
 
-By the way, we have [a FAQ page](https://scratchaddons.com/docs/faq/) for your usual questions.
+Mimogrede, za običajna vprašanja imamo tudi [stran s pogostimi vprašanji](https://scratchaddons.com/docs/faq/).
