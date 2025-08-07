@@ -3,7 +3,7 @@
 
 **Paint costume by default** is an addon that changes the functionality of buttons that add a new sprite, costume, backdrop, and sound. In vanila Scratch, pressing the main button will open Scratch's asset library. This addon allows the default action to be customized in the addon settings, allowing a choice between: library (Scratch's default), paint or record, surprise, or upload.
 
-## Background
+## Fondo
 
 The addon was created under the philosophy that intermediate and advanced Scratchers rarely use assets from the Scratch library. It is common for these users to make a new sprite/costume/backdrop by hovering over the main button then navigating to the Paint option. As this is a timely maneuver, the addon's default settings change the default action of the main button to open the paint editor rather than opening the asset library.
 
@@ -17,7 +17,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
   - Upload: Allows you to upload a file
 - The tooltip that appears when hovering over the main button also displays the correct default action.
 
-## Settings
+## Configuración
 
 ### Add Sprite
 
@@ -40,7 +40,7 @@ The addon was created under the philosophy that intermediate and advanced Scratc
 - You cannot set the default action to any custom actions added by a Scratch modification. This includes the "HD Upload" option added by the _HD image uploads_ addon.
 - The addon's name "Paint costume by default" does not represent its options to change the default actions for the sprite, backdrop, or sound buttons. This issue is not planned to be resolved. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
 
-## Credit
+## Creditos
 
 GarboMuffin developed the entirety of the addon. Its final name, description, settings, and tags were made by WorldLanguages.
 
@@ -53,10 +53,10 @@ GarboMuffin developed the entirety of the addon. Its final name, description, se
 
 {{< docs/stub-section >}}
 
-## Gallery
+## Galeria
 
 {{< docs/stub-section >}}
 
-## Related
+## Parecido
 
 - [Original pull request (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)

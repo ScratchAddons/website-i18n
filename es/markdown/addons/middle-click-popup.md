@@ -3,7 +3,7 @@
 
 **Insert blocks by name** is an addon which allows users to code more quickly by typing the name of blocks and inserting them at their mouse position, rather than having to search for them in the flyout. The popup is opened by middle clicking in the workspace or pressing `ctrl` + `space`. You can then type to search for blocks and using the mouse to grab one out of the popup.
 
-## Background
+## Fondo
 
 The original version was made by Griffpatch for the Developer Tools extension. As part of a work to separate features from the _Developer tools_ as individual addons, this addon has been made to its own addon.
 
@@ -16,7 +16,7 @@ The original version was made by Griffpatch for the Developer Tools extension. A
 - For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
 - You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
-## Settings
+## Configuración
 
 ### Popup block size
 
@@ -40,7 +40,7 @@ Controls how tall the popup can be before a scrollbar appears. This is a percent
 - The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
 - The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
 
-## Credit
+## Creditos
 
 Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
 
@@ -61,10 +61,10 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - The name of the Git branch for the overhaul was `idk-what-im-doing`.
 - Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
 
-## Gallery
+## Galeria
 
 {{< docs/stub-section >}}
 
-## Related
+## Parecido
 
 {{< docs/stub-section >}}

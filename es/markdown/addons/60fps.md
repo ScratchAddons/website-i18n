@@ -15,7 +15,7 @@ The feature can be toggled on/off by holding `alt` and clicking the green flag. 
 - The addon works in both the project page and the editor.
 - By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
 
-## Settings
+## Configuración
 
 ### Custom FPS
 
@@ -26,7 +26,7 @@ Sets the value of the project's framerate when the addon is enabled.
 - The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
 - Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
-## Credit
+## Creditos
 
 Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
 
@@ -53,11 +53,11 @@ Jeffalo created the original addon that only set the project player to 60 FPS. T
 - Jeffalo added the addon because "its hecking cool"[^1]
 - There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
 
-## Gallery
+## Galeria
 
 {{< docs/stub-section >}}
 
-## Related
+## Parecido
 
 {{< docs/stub-section >}}
 
