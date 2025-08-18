@@ -1,21 +1,21 @@
 ---
 ---
 
-**Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
+**Anpassbare Navigationsleiste** ist ein Addon, das es Benutzern ermöglicht, Links in der Navigationsleiste der Scratch-Website hinzuzufügen, zu ändern oder zu entfernen, sowie das Benutzer-Dropdown-Menü zu optimieren und das Seitenscrollverhalten der Leiste zu ändern.
 
 ## Hintergrund
 
-Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
+Scratch hat im Juli 2017 die Diskussionsschaltfläche entfernt, die auf die Foren verweist.[ ^1] Das ursprüngliche Addon wurde eingeführt, um es zurückzubringen, und enthielt eine Option, um den Ideenlink zu entfernen.
 
 ## Features
 
-- Add new links to Scratch pages or other websites.
+- Füge neue Links zu Scratch-Seiten oder anderen Websites hinzu.
 - Re-order links and change their labels.
 - Remove existing links.
 - Prevent the navigation bar from scrolling with the page.
 - Move the logged-in username out of the way.
 
-## Settings
+## Einstellungen
 
 ### Items
 
@@ -33,7 +33,7 @@ Moves the username of the logged-in user into the profile dropdown item.
 - Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
 - Top of page: The navigation bar stays at the top of the page and scrolls away with it.
 
-## Credit
+## Danksagung
 
 The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
 
@@ -44,19 +44,19 @@ The original addon was written by WorldLanguages, and TheColaber was the author 
 - **v1.28.0**: Added the compact user dropdown setting.
 - **v1.32.0**: Added the "stick to" setting.
 
-## Trivia
+## Banalität
 
 - This is the first addon to modify the Scratch website.
-- This is the first and only addon to use a table setting.
+- Dies ist das erste und einzige Addon, das eine Tabelleneinstellung verwendet.
 - This is one of the few addons to have no credits.
 
-## Gallery
+## Galerie
 
 ![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
 
 The compact user dropdown.
 
-## Related
+## Verwandt
 
 - [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
 - [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)

@@ -124,17 +124,17 @@ reportButton.addEventListener("click", (event) => {
 
 - Käytä uudempia rajapintoja, kuten `fetch()`-rajapintaa `XMLHttpRequest`-olion sijaan.
 - Älä koskaan käytä `==`-operaattoria vertailuissa. Käytä sen sijaan `===`-vertailuoperaattoria.
-- When listening to keyboard events, accessing `event.key` is the preferred way to know which key was pressed. In general, you should avoid `event.code` and `event.keyCode`.
-- Use optional chaining if an object can sometimes be `null`.  
-For example, `document.querySelector(".remix-button")?.textContent`.
-- Use `for ... of` loops or `.forEach()`.  
-Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
+- Kun olet asettanut näppäintapahtumakuuntelijan, on suositeltavaa selvittää painettu näppäin `event.key`-arvolla. `event.code` ja `event.keyCode`-arvojen käyttöä kannattaa ylipäänsä välttää.
+- Käytä valinnaista ketjutusta (eng. optional chaining), jos olion arvo voi joskus olla `null`.
+Esimerkiksi `document.querySelector(".remix-button")?.textContent`.
+- Käytä `for ... of`- tai `.forEach()`-silmukkaa. 
+Vältä C-tyylisiä silmukoita, kuten `for (let i = 0; i < arr.length; i++)`.
 
-### Only use "let" over "const" if the variable may be reassigned
+### Käytä "let"-muuttujaa "const"-muuttujan sijaan vain, jos se saatetaan määritellä uudelleen.
 
 {{< admonition info >}}
-We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
-For constant strings or numbers, we usually use `SNAKE_CASE`.
+Nimeämme sekä "let"- että "const"-tyyppiset muuttujat yleensä `camelCase`-kirjaintyylillä.
+Vakiomerkkijonojen ja -lukujen nimeämiseen käytämme yleensä `SNAKE_CASE`-kirjaintyyliä.
 
 Tässä esimerkki:
 ```js
@@ -147,13 +147,13 @@ const DEFAULT_ZOOM = 1.20;
 ```
 {{< /admonition >}}
 
-People reading your code may assume that a variable that was declared through the "let" keyword might be reassigned at some other point of the script. If that's not the case, use the "const" keyword instead.  
-Remember that in JavaScript, declaring an object or an array as a "const", does not mean its values are frozen. Values in the object can still be changed, even if the variable itself cannot be reassigned.
+Koodiasi lukevat ihmiset voivat olettaa, että "let"-avainsanalla määritelty muuttuja saatetaan määritellä uudelleen jossakin koodin vaiheessa. Jos niin ei ole, käytä "const"-avainsanaa sen sijaan.
+Muista, että JavaScriptissä "const"-avainsanalla määritellyn olion tai taulukon arvojen muuttaminen on mahdollista, vaikka itse muuttujaa ei voida määritellä uudelleen.
 
-### Do not set global variables
+### Älä aseta globaaleja muuttujia
 
-Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
-If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
+Vältä ominaisuuksien asettamista globaaliin `window`-olioon, ellei tarkoituksesi ole muuttaa jotakin globaalia funktiota, kuten `fetch()`.
+Jos useiden lisäosien täytyy jakaa tietoja tai funktioita keskenään, luo erillinen JS-moduulitiedosto ja tuo se molempiin käyttäjäskripteihin.
 
 {{< admonition error >}}
 ```js

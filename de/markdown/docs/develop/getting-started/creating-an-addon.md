@@ -2,22 +2,22 @@
 title: Ein Addon entwickeln
 ---
 
-This page describes the basics on how to create an addon for Scratch Addons. Before proceeding, please read the [addon basics](../addon-basics/) and disable any other instances of Scratch Addons to avoid conflicts.
+Diese Seite beschreibt die Grundlagen zum Erstellen eines Addons für Scratch Addons. Bevor du fortfährst, lies bitte die [Addon-Grundlagen](../addon-basics/) und deaktiviere alle anderen Instanzen von Scratch-Addons, um Konflikte zu vermeiden.
 
 {{< admonition info >}}
-If you plan to submit the addon you are developing as a pull request to our GitHub repository, please read our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md) first.
+Wenn du vorhast, das Addon, das du entwickelst, als Pull-Request an unser GitHub-Repository zu senden, lies bitte zuerst unsere [Beitragsrichtlinien](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md).
 {{< /admonition >}}
 
-## Requirements
-Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having Git, Firefox (121+) and Visual Studio Code installed.
+## Anforderungen
+Scratch Addons erfordert keine Software für die Entwicklung außer einem Texteditor und einem Chromium-basierten Browser (121+), aber wir empfehlen auch die Installation von Git, Firefox (121+) und Visual Studio Code.
 
 ## Installation
-To install the extension for development, see [Installing from source](/docs/getting-started/installing/#from-source).
+Informationen zur Installation der Erweiterung für die Entwicklung findest du unter [Installing from source](/docs/getting-started/installing/#from-source).
 
-## Creating the addon folder
-Each addon has its own internal ID used by the extension and other addons. Addon IDs should not contain any spaces or special characters except hyphens and should be self-descriptive, but not too long.
+## Erstellen des Addon-Ordners
+Jedes Addon hat seine eigene interne ID, die von der Erweiterung und anderen Addons verwendet wird. Addon-IDs sollten außer Bindestrichen keine Leerzeichen oder Sonderzeichen enthalten und sollten selbstbeschreibend, aber nicht zu lang sein.
 
-New addons should not use an ID that was included in a stable version of the extension but later removed. These include:
+Neue Addons sollten keine ID verwenden, die in einer stabilen Version der Erweiterung enthalten war, aber später entfernt wurde. Dazu gehören:
 
 - `a11y`
 - `data-category-tweaks`
@@ -29,13 +29,13 @@ New addons should not use an ID that was included in a stable version of the ext
 - `scratchstats`
 - `tutorials-button`
 
-Open the `addons.json` file in the `addons` folder, insert a new addon ID near the bottom of the file, then create a sub-folder with the same name.
+Öffne die Datei `addons.json` im Ordner `addons`, füge eine neue Addon-ID am unteren Rand der Datei ein, und erstelle dann einen Unterordner mit demselben Namen.
 
-## The addon manifest
-Each addon has it's own [manifest](/docs/reference/addon-manifest/) that handles how it is displayed on the settings page, any settings the addon may have, which userscripts or userstyles to run and where to run them.
+## Das Addon-Manifest
+Jedes Addon hat sein eigenes [Manifest](/docs/reference/addon-manifest/), das damit umgeht, wie es auf der Einstellungsseite angezeigt wird, alle Einstellungen, die das Addon haben kann, welche Benutzerskripte oder Benutzerstile ausgeführt werden sollen und wo sie ausgeführt werden sollen.
 
-Addon manifests are located in each addon's folder and named `addon.json`.
-Here is a minimal addon manifest:
+Addon-Manifeste befinden sich im Ordner jedes Addons und heißen `addon.json`.
+Hier ist ein minimales Addon-Manifest:
 ```json
 {
   "name": "My addon",
@@ -44,35 +44,35 @@ Here is a minimal addon manifest:
 }
 ```
 
-For more information on what can be declared in the manifest, see the [the Addon Manifest reference](/docs/reference/addon-manifest/).
+Weitere Informationen darüber, was im Manifest deklariert werden kann, findest du unter [die Addon-Manifest-Referenz](/docs/reference/addon-manifest/).
 
-The addon does not do anything yet, but it should appear in the popup and settings page after reloading the extension.
+Das Addon tut noch nichts, aber es sollte auf der Popup- und Einstellungsseite erscheinen, nachdem die Erweiterung neu geladen wurde.
 
-## Userscripts and userstyles
-[Userscripts](/docs/develop/userscripts/) and [userstyles](/docs/develop/userstyles/) are what make the addon work. Userscripts run JavaScript code and userstyles inject CSS styles. Addons may have a combination of userstyles and userscripts.
+## Benutzerskripte und Benutzerstile
+[Benutzerskripte](/docs/develop/userscripts/) und [Benutzerstile](/docs/develop/userstyles/) sind es, die das Addon zum Laufen bringen. Benutzerskripte führen JavaScript-Code aus und Benutzerstile injizieren CSS-Stile. Addons können eine Kombination aus Benutzerstilen und Benutzerskripten haben.
 
-Userscripts have access to [addon APIs](/docs/reference/addon-api/) to make Scratch-specific tasks such as fetching the currently logged in user easier.
+Userscripts haben Zugriff auf [Addon-APIs](/docs/reference/addon-api/), um Scratch-spezifische Aufgaben wie das Abrufen des derzeit angemeldeten Benutzers zu erleichtern.
 
-When adding a userscript or userstyle to the addon's folder, it must be declared in the addon manifest or it will not run.
+Wenn du ein Benutzerskript oder einen Benutzerstil zum Ordner des Addons hinzufügst, muss es im Addon-Manifest deklariert werden, da es sonst nicht ausgeführt wird.
 
-## Addon settings
-The [settings object](/docs/reference/addon-manifest/#settings-object) in the addon manifest allows adding options such as toggles, text boxes or color pickers to your addon on the settings page to make it customizable by users.
+## Addon-Einstellungen
+Das [Einstellungs-Objekt](/docs/reference/addon-manifest/#settings-object) im Addon-Manifest ermöglicht das Hinzufügen von Optionen wie Umschalter, Textfeldern oder Farbwählern zu Ihrem Addon auf der Einstellungsseite, um es von Benutzern anpassbar zu machen.
 
-See the [addon.settings](/docs/reference/addon-api/addon.settings) documentation on how to access user choices from userscripts and userstyles.
+Siehe die [addon.settings](/docs/reference/addon-api/addon.settings) Dokumentation zum Zugriff auf Benutzerauswahl von Benutzerskripten und Benutzerstilen.
 
-## Before contributing
+## Vor dem Beitragen
 {{< admonition info >}}
-In case there is no existing GitHub issue in that repository related to your new addon idea, please create one. However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+Falls es in diesem Repository kein bestehendes GitHub-Problem im Zusammenhang mit deiner neuen Addon-Idee gibt, erstelle bitte eines. Wenn es jedoch bereits ein Problem im Zusammenhang mit Ihrer Feature-Idee gibt, empfehlen wir, einen Kommentar zu hinterlassen, in dem di deine Absicht angibst, das Addon zu entwickeln. Dies wird es anderen Mitwirkenden ermöglichen, Feedback zu geben, ob das Addon akzeptiert werden kann oder ob weitere Diskussionen erforderlich sind.
 
-Also note that GitHub's terms of service require users to be 13+ to create an account with them.
+Beachte auch, dass die Nutzungsbedingungen von GitHub verlangen, dass Benutzer 13+ sein müssen, um ein Konto bei ihnen zu erstellen.
 {{< /admonition >}}
 
-If you want to submit your addon to the Scratch Addons GitHub repository, so it can be added to the addon library, ensure the addon works as expected, with and without other addons enabled and that it does not break other addons. The addon's manifest should have a good name and description, `versionAdded` should be set to the next version of the extension and the addon should not be enabled by default. Addons should support dynamic enable and disable, but it is not required.
-Make sure the code is understandable; having unnecessary comments is better than no comments.
+Wenn du dein Addon im GitHub-Repository von Scratch Addons einreichen möchten, damit es der Addon-Bibliothek hinzugefügt werden kann, stelle sicher, dass das Addon wie erwartet funktioniert, mit und ohne andere Addons aktiviert und dass es andere Addons nicht bricht. Das Manifest des Addons sollte einen guten Namen und eine gute Beschreibung haben, `versionAdded` sollte auf die nächste Version der Erweiterung gesetzt werden und das Addon sollte standardmäßig nicht aktiviert sein. Addons sollten dynamische Aktivierung und Deaktivierung unterstützen, ist aber nicht erforderlich.
+Stelle sicher, dass der Code verständlich ist; unnötige Kommentare sind besser als keine Kommentare.
 
-## Sending a pull request
-Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repository if you haven't already, commit your new addon and send a pull request.
+## Senden einer Pull-Anfrage
+Befolge die Schritte in unseren [Richtlinien für Beiträge] (https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Einfach ausgedrückt, forke das Repository, wenn es noch nicht getan haben, bestätige dein neues Addon und sende eine Pull-Anfrage.
 
-If your addon isn't finished or you need help with something, create a draft pull request.
+Wenn dein Addon noch nicht fertig ist oder du Hilfe bei etwas benötigen, erstelle einen Pull-Entwurf.
 
-Keep in mind we might request you to make some changes, and the review process may be slow, however, we will probably accept your addon as long as it's minimally suitable and Scratch-specific.
+Denke daran, dass wir dich möglicherweise auffordern, einige Änderungen vorzunehmen, und der Überprüfungsprozess kann langsam sein, aber wir werden Ihr Addon wahrscheinlich akzeptieren, solange es minimal geeignet und Scratch-spezifisch ist.

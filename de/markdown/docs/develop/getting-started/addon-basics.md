@@ -2,23 +2,23 @@
 title: Addon-Basics
 ---
 
-## What is an addon?
-An addon is a userscript, userstyle, or combination of both that runs on the Scratch website or project editor when enabled. For example, the "Editor find bar" addon has a userscript that adds a find box to the editor, and a userstyle that styles that box.
+## Was ist ein Addon?
+Ein Addon ist ein Benutzerskript, ein Benutzerstil oder eine Kombination aus beidem, die auf der Scratch-Website oder dem Projekteditor ausgeführt wird, wenn dies aktiviert ist. Zum Beispiel hat das Addon "Editor Suchleiste" ein Benutzerskript, das dem Editor ein Suchfeld hinzufügt, und einen Benutzerstil, der dieses Feld gestaltet.
 
-## What is a userscript?
-A [userscript](/docs/develop/userscripts) is a JavaScript file that is executed every time the user loads a Scratch page. They can modify the document’s HTML, add new buttons, customize Scratch editor behavior, and so much more.
+## Was ist ein Userscript?
+Ein [userscript](/docs/develop/userscripts) ist eine JavaScript-Datei, das jedes Mal ausgeführt wird, wenn der Benutzer eine Scratch-Seite lädt. Du kannst den HTML-Code des Dokuments ändern, neue Schaltflächen hinzufügen, das Verhalten des Scratch-Editors anpassen und vieles mehr.
 
-## What is a userstyle?
-A [userstyle](/docs/develop/userstyles) is similar to a userscript; you can specify URL patterns for them. However, userstyles inject CSS instead of JavaScript. They are often used along userscripts to style elements added by them, but they can also be used to style native Scratch elements. When that's the case, we usually call them "themes".
+## Was ist ein Userstyle?
+Ein [userstyle](/docs/develop/userstyles) ähnelt einem Benutzerskript; du kannst URL-Muster für sie angeben. Benutzerstile injizieren jedoch CSS anstelle von JavaScript. Sie werden oft zusammen mit Benutzerskripten verwendet, um von ihnen hinzugefügte Elemente zu gestalten, aber sie können auch verwendet werden, um native Scratch-Elemente zu gestalten. Wenn das der Fall ist, nennen wir sie normalerweise "Themen".
 
-## What should be an addon?
+## Was sollte ein Addon sein?
 
-<!-- TODO: Expand this section into its own page -->
-You might wonder if it's a better idea to create a new addon, or modify an existing one.
-If two addons share some of these, they should probably be merged.
-- Both need, or don't need, permissions that require user interaction (like notifications).
+<!-- TODO: Erweitere diesen Abschnitt zu einer eigenen Seite -->
+Du fragst dich vielleicht, ob es eine bessere Idee ist, ein neues Addon zu erstellen oder ein bestehendes zu ändern.
+Wenn sich zwei Addons einige davon teilen, sollten sie wahrscheinlich zusammengeführt werden.
+- Beide benötigen oder benötigen keine Berechtigungen, die Benutzerinteraktion erfordern (z. B. Benachrichtigungen).
 - Sie teilen sehr viel Code.
 - Der Benutzer wird beide Features vom Addon erwarten.
-- If being separated, they would interfere with each other.
+- Wenn sie getrennt wären, würden sie sich gegenseitig stören.
 
-Remember addons are customizable by the user - adding new functionality should not affect existing users of the addon, unless we intentionally decide to do so.
+Denke daran, dass Addons vom Benutzer anpassbar sind - das Hinzufügen neuer Funktionen sollte sich nicht auf bestehende Benutzer des Addons auswirken, es sei denn, wir entscheiden uns absichtlich dafür.

@@ -35,23 +35,23 @@ Jeffalo loi alkuperäisen lisäosan, joka vain asetti projektisoittimen kuvataaj
 - **v.1.1.0** **Soittimen 60 ruuutua/s -tila** -niminen lisäosa luotiin.
 - **v.1.3.0** Lisäosa on nyt oletuksena käytösssä kaikilla käyttäjillä, ja sille annettiin Suositeltava-tunniste.
 - **v1.7.0** Mahdollisuus valita oma kuvataajuus lisättiin. Ennen sitä ainut vaihtoehto oli 60.
-- **v1.11.0** The addon was renamed to **Alt+GreenFlag 60FPS player mode**, and a brief information box was added. A limit was set on the custom FPS, which now ranges from 31 to 240.
-- **v1.13.0** `Alt` + green flag click detection was improved. The addon can now be dynamically enabled and disabled.
-- **v1.14.0** The addon was given the Project Player tag.
-- **v1.18.0** The addon was renamed to **60FPS project player mode**. The addon can now run in project embeds.
-- **v1.24.0** Bug fix: The addon no longer loses track of state when changing from project page to editor.
-- **v1.26.0** Bug fix: The addon no longer causes variables to not visually update in some cases.
-- **v1.30.0** The addon is no longer enabled by default for all users.
-- **v1.34.0** A more accessible yellow fast-forward icon was added to the green flag indicator whenever the addon is toggled on. Information box was rewritten to clarify that most projects will not behave properly when addon is enabled.
-- **v1.36.0** The addon was renamed to **Higher project framerate mode**. The addon's description and information box was rewritten for clarity.
-- **v1.37.0** A second information box was added that explains issues with user devices' power saving mode.
+- **v1.11.0** Lisäosan nimeksi vaihdettiin **Alt+Vihreä lippu 60FPS -soitintila**, ja siihen lisättiin lyhyt tietolaatikko. Omalle kuvataajuudelle lisättiin rajoitus, joka on nykyisin 31–240.
+- **v1.13.0** `Alt`-näppäimen ja vihreän lipun yhdistelmän havaitsemiskoodia parannettiin. Nyt lisäosa voidaan kytkeä dynaamisesti päälle ja pois päältä.
+- **v1.14.0** Lisäosalle annettiin Projektisoitin-tunniste.
+- **v1.18.0** Lisäosan nimeksi vaihdettiin **60FPS-projektisoitintila**. Nyt lisäosa toimii myös upotetuissa projekteissa.
+- **v1.24.0** Vika korjattu: Lisäosaa ei enää mene sekaisin siinä, missä tilassa se on, kun siirrytään projektisivulta editoriin.
+- **v1.26.0** Vika korjattu: Lisäosa ei enää aiheuta sitä, että muuttujat eivät päivity visuaalisesti joissain tapauksissa.
+- **v1.30.0** Lisäosa ei ole enää oletuksena käytössä kaikille käyttäjille.
+- **v1.34.0** Saavutettavampi, keltainen pikakelauskuvake lisättiin vihreään lippuun merkiksi siitä, että lisäosa on käytössä. Tietolaatikko kirjoitettiin uudelleen, jotta olisi selvempää, että suurin osa projekteista ei toimi kunnolla, kun lisäosa on käytössä.
+- **v1.36.0** Lisäosan nimeksi vaihdettiin **Korkeamman kuvataajuuden tila**. Lisäosan kuvaus ja tietolaatikko kirjoitettiin uudelleen selvyyden vuoksi.
+- **v1.37.0** Toinen tietolaatikko lisättiin selittämään ongelmia, jotka liittyvät käyttäjän laitteen virransäästötilaan.
 
 ## Nippelitietoa
 
-- Although TurboWarp Addons does not have this addon, Turbowarp's advanced project settings allows you to customize the project's framerate in a similar way.
-- Despite the addon's setting for customizing the FPS is limited from 31 to 240, the Scratch project player is perfectly fine with values both lower and higher than these limits! There are several ways to bypass this limit, as only the setting's input field sets the limit.
-- Jeffalo added the addon because "its hecking cool"[^1]
-- There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
+- Vaikka TurboWarpin lisäosissa ei ole tätä lisäosaa, projektin kuvataajuutta voi säätää samalla tavalla TurboWarpin edistyksellisissä projektiasetuksissa.
+- Vaikka lisäosan kuvataajuusasetus on rajattu 31–240 ruutua/s, Scratchin projektisoitin toimii oikein hyvin rajoja pienemmillä ja suuremmilla arvoilla! On lukuisia tapoja näiden rajoitusten kiertämiseen, koska vain asetuksen syötekenttä rajaa arvon.
+- Jeffalo lisäsi tämän lisäosan, koska "se on hiton siisti".[^1]
+- On olemassa menetelmä, jonka avulla Scratch-projektit voivat karkeasti tunnistaa mukautetun kuvataajuuden, mikä voi viitata siihen, että lisäosa on käytössä.[^2]
 
 ## Galleria
 

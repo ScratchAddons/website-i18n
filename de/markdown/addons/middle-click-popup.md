@@ -12,59 +12,59 @@ Die Originalversion wurde von Griffpatch für die Erweiterung "Developer Tools",
 - Die Suche unterstützt alle Blöcke des Codebereichs. Dies umfasst benutzerdefinierte Blöcke, Blöcke von Erweiterungen, Variablen / Listen usw.
 - Für ein noch schnelleres Sucherlebnis kannst du mit den Pfeiltasten und der Entertaste in den Suchergebnissen navigieren.
 - Wenn ein Ergebnis markiert ist, kannst du die Tabulator-Taste drücken, um deine Suche nach dem Block automatisch zu vervollständigen.
-- The popup can insert multiple nested blocks at the same time, by typing something like "move my variable + 10 steps".
-- For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
-- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
+- Das Popup kann mehrere verschachtelte Blöcke gleichzeitig einfügen, indem man etwas wie "meine Variable verschieben + 10 Schritte" eingibt.
+- Bei mathematischen Blöcken gilt standardmäßig die Reihenfolge der Operationen, aber du kannst die Reihenfolge in eckigen Klammern ändern.
+- Du kannst Text in doppelte Anführungszeichen umgeben, um den Sucher zu zwingen, Ihren Text nicht in Blöcke zu verwandeln. Dies ist nützlich für Situationen wie den Versuch, den Text "x-Position" anstelle der Variablen `x-Position` zu sagen, wo du sage "x-Position" eingeben kannst.
 
-## Settings
+## Einstellungen
 
-### Popup block size
+### Popup Block-Größe
 
-Controls how big the blocks inside the menu appear. It is the height in pixels of a single block.
+Steuert, wie groß die Blöcke im Menü erscheinen. Es ist die Höhe in Pixeln eines einzelnen Blocks.
 
-### Popup width
+### Popup-Breite
 
-Controls how wide the popup is. This is a percentage of the width of the entire window.
+Steuert, wie breit das Popup ist. Dies ist ein Prozentsatz der Breite des gesamten Fensters.
 
-### Popup maximum height
+### Maximale Höhe des Pop-Ups
 
-Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
+Steuert, wie hoch das Popup sein kann, bevor eine Bildlaufleiste angezeigt wird. Dies ist ein Prozentsatz der Höhe des gesamten Fensters.
 
-## Future plans
+## Zukunftspläne
 
-- The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
-- Adding string interpolation for strings in quotes could really help out situatoins where a lot of join blocks would normally have to be tediously arranged.
+- Das Popup sollte durch Ziehen einer der Ecken im Editor geändert werden können, anstatt eine Einstellung ändern zu müssen.
+- Das Hinzufügen von String-Interpolation für Zeichenfolgen in Anführungszeichen könnte wirklich bei Situationen helfen, in denen viele Verbindungsblöcke normalerweise mühsam angeordnet werden müssten.
 
-## Known issues
+## Bekannte Probleme
 
-- The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
-- The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
+- Die Blöcke im Popup dieses Addons respektieren nicht die Einstellungen des Addons *Anpassbare Blockformen*.
+- Der Algorithmus zum Sortieren der Suchergebnisse erfordert noch viel Arbeit, und manchmal ist das Ergebnis, nach dem du wahrscheinlich suchst, unter einem Berg schlechterer Ergebnisse versteckt.
 
-## Credit
+## Danksagung
 
-Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
+Tacodiva hat den größten Teil des Addons so gemacht, wie es heute aussieht. Darüber hinaus half Griffpatch sehr, indem er Feedback gab und Fehler in der überarbeiteten Version fand.
 
 ## Updates
 
 {{< docs/outdated-section >}}
 
-- **v1.30.0** The insert blocks by name addon was created.
-- **v1.31.0** The addon was completely overhauled, allowing for nesting blocks, adding autocomplete and changing how the blocks where shown in the popup.
-- **v1.31.1** The algorithm for searching was altered and several bugs where fixed.
+- **V1.30.0** Das Addon "Blöcke nach Namen einfügen" wurde erstellt.
+- **V1.31.0** Das Addon wurde komplett überarbeitet und ermöglichte das Verschachteln von Blöcken, das Hinzufügen der automatischen Vervollständigung und das Ändern der Art und Weise, wie die Blöcke im Popup angezeigt wurden.
+- **V1.31.1** Der Suchalgorithmus wurde geändert und mehrere Fehler wurden behoben.
 
-## Trivia
+## Banalität
 
-- This was the first addon page written for the Addon Docs!
-- Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.
-- The original code for the popup was created before Scratch Addons even existed by Griffpatch in 2019.
-- When Tacodiva overhauled the addon for v1.31.0, the code had almost 2,800 lines of code added and 149 commits!
-- The name of the Git branch for the overhaul was `idk-what-im-doing`.
-- Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
+- Dies war die erste Addon-Seite, die für die Addon Docs geschrieben wurde!
+- Obwohl es erst vor kurzem zu einem eigenen Addon geworden ist, ist das mittlere Klick-Popup eine der ältesten Funktionen von Scratch Addons, die Teil der Entwicklertools sind.
+- Der ursprüngliche Code für das Popup wurde erstellt, bevor es Scratch Addons von Griffpatch im Jahr 2019 überhaupt gab.
+- Als Tacodiva das Addon für v1.31.0 überarbeitete, hatte der Code fast 2.800 Codezeilen hinzugefügt und 149 Commits!
+- Der Name des Git-Zweigs für die Überholung war `idk-what-im-doing`.
+- Tacodiva hatte so viel Mühe, ein Problem zu beheben, dass CST1229, obwohl er nur zwei Zeilen CSS zur Behebung des Problems beisteuerte, in den Credits des Addons steht!
 
-## Gallery
+## Galerie
 
 {{< docs/stub-section >}}
 
-## Related
+## Verwandt
 
 {{< docs/stub-section >}}

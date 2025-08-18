@@ -1,53 +1,53 @@
 ---
 ---
 
-**Paint costume by default** is an addon that changes the functionality of buttons that add a new sprite, costume, backdrop, and sound. In vanila Scratch, pressing the main button will open Scratch's asset library. This addon allows the default action to be customized in the addon settings, allowing a choice between: library (Scratch's default), paint or record, surprise, or upload.
+**Piirrä asuste oletuksena** on lisäosa, joka muuttaa uuden hahmon, asuteen, taustan ja äänen lisäyspainikkeen toimintaa. Tavallisesti Scratch avaa resurssikirjaston, kun painiketta napautetaan. Tämän lisäosan avulla oletustoimintoa voidaan muuttaa lisäosan asetuksissa, jossa vaihtoehtoina ovat: kirjaston avaaminen (Scratchin oletus), piirtäminen tai äänitys, yllätys sekä oman tiedoston lataaminen.
 
 ## Tausta
 
-The addon was created under the philosophy that intermediate and advanced Scratchers rarely use assets from the Scratch library. It is common for these users to make a new sprite/costume/backdrop by hovering over the main button then navigating to the Paint option. As this is a timely maneuver, the addon's default settings change the default action of the main button to open the paint editor rather than opening the asset library.
+Tämä lisäosa luotiin ajatellen sitä, että keskitason ja edistyneen tason scratchaajat käyttävät Scratchin resurssikirjaston resursseja vain harvoin. Näille käyttäjille on tavallista luoda uusi hahmo/asuste/tausta viemällä hiiri lisäyspainikkeen päälle ja sitten valitsemalla Piirrä-toiminto. Koska se vie aikaa, lisäosan oletusasetus vaihtaa lisäyspainikkeiden oletustoiminnoksi piirtoeditorin avaamisen eikä resurssikirjaston avaamista.
 
 ## Ominaisuudet
 
-- The addon allows users to customize the default action for each of the following buttons: "Choose a Sprite", "Choose a Costume", "Choose a Backdrop", and "Choose a Sound".
-- Each of the buttons above have the following four options, which are pulled from the vanilla button's list when hovered:
-  - Library: Opens the corresponding Scratch asset library, depending on which button was pressed(Scratch's default)
-  - Paint/Record: Immediately opens the costume editor, or opens the audio recorder for the "Choose a Sound" button
-  - Surprise: Randomly selects from the corresponding Scratch asset library
-  - Upload: Allows you to upload a file
-- The tooltip that appears when hovering over the main button also displays the correct default action.
+- Käyttäjä voi valita lisäosan asetuksista oletustoiminnon jokaiselle seuraavista painikkeista: "Valitse hahmo", "Valitse asuste", "Valitse tausta" ja "Valitse ääni".
+- Jokaisella yllä olevista painikkeista on seuraavat neljä asetusvaihtoehtoa, jotka on saatu luettelosta, joka avautuu, kun hiiri viedään painikkeen päälle:
+  - Kirjasto: Avaa Scratchin hahmo-, asuste-, tausta- tai äänikirjaston, riippuen siitä, mitä painiketta painetaan. (Scratchin oletus)
+  - Piirrä/äänitä: Avaa heti asuste-editorin. Avaa äänitystyökalun "Valitse ääni" -painiketta napautettaessa.
+  - Yllätä: Valitsee satunnaisen resurssin Scratchin hahmo-, asuste-, tausta- tai äänikirjastosta.
+  - Lataa: Käyttäjä lataa haluamansa tiedoston.
+- Vihjeteksti, joka näkyy, kun hiiri viedään lisäyspainikkeen päälle, näyttää myös oikean oletustoiminnon.
 
 ## Asetukset
 
-### Add Sprite
+### Lisää hahmo
 
-- Changes the default action of the "Choose a Sprite" button, which is located at the bottom right of the sprite pane.
+- Asettaa hahmoruudun oikeassa alukulmassa olevan "Valitse hahmo" -painikkeen oletustoiminnon.
 
-### Add Costume
+### Lisää asuste
 
-- Changes the default action of the "Choose a Costume" button, which is located at the bottom of the costume list in the costume editor for any sprite.
+- Asettaa asuste-editorin asusteluettelon alaosassa olevan "Valitse asuste" -painikkeen oletustoiminnon.
 
-### Add Backdrop
+### Lisää tausta
 
-- Changes the default action of the "Choose a Backdrop" button, which is located at the bottom of the Backdrop pane and the bottom of the backdrop list in the stage's costume editor.
+- Asettaa esiintymislavan asuste-editorin taustaluettelon ja taustaruudun alaosassa olevan "Valitse tausta" -painikkeen oletustoiminnon.
 
-### Add Sprite
+### Lisää ääni
 
-- Changes the default action of the "Choose a Sound" button, which is located at the bottom of the sound list in the sound editor for any sprite or the backdrop.
+- Asettaa äänieditorin ääniluettelon alaosassa olevan "Valitse ääni" -painikkeen oletustoiminnon.
 
 ## Havaitut viat
 
-- You cannot set the default action to any custom actions added by a Scratch modification. This includes the "HD Upload" option added by the _HD image uploads_ addon.
-- The addon's name "Paint costume by default" does not represent its options to change the default actions for the sprite, backdrop, or sound buttons. This issue is not planned to be resolved. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
+- Painikkeen oletustoiminnoksi ei voi asettaa minkään Scratchin lisäosan lisäämää toimintoa. Sellainen on esimerkiksi _HD-kuvien lataaminen_ -lisäosan lisäämä "HD-lataus"-toiminto.
+- Lisäosan nimi "Piirrä asuste oletuksena" ei kuvaa sen mahdollisuuksia vaihtaa sekä hahmo-, tausta- että äänipainikkeen toimintoja. Tätä ongelmaa ei päätetty ratkaista. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
 
 ## Tekijät
 
-GarboMuffin developed the entirety of the addon. Its final name, description, settings, and tags were made by WorldLanguages.
+GarboMuffin kehitti lisäosan kokonaisuudessaan. WorldLanguages keksi sen lopullisen nimen, kirjoitti kuvauksen, lisäsi asetukset ja tunnisteet.
 
 ## Muutosloki
 
-- **v1.19.0** The **Paint costume by default** addon was created.
-- **v1.19.1** Bug fix: Addon no longer treats the "Choose a Sound" button like a "Choose a Costume" button if the current sprite had no sounds.
+- **v1.19.0** **Piirrä asuste oletuksena** -lisäosa luotiin.
+- **v1.19.1** Vika korjattu: Lisäosa ei enää kohtele "Valitse ääni" -painiketta "Valitse asuste" -painikkeen tavoin, jos valitulla hahmolla ei ole ääniä.
 
 ## Nippelitietoa
 
@@ -59,4 +59,4 @@ GarboMuffin developed the entirety of the addon. Its final name, description, se
 
 ## Aiheeseen liittyvät
 
-- [Original pull request (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)
+- [Alkuperäinen vetopyyntö (numero 3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)
