@@ -21,10 +21,6 @@ title: 설치
 Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
 {{< /admonition >}}
 
-### 깃허브 릴리즈에 대해
-
-[릴리즈 페이지](https://github.com/ScratchAddons/ScratchAddons/releases)는 코드와 설치 파일을 포함한 스토어 빌드의 복사본인 스크래치 애드온 개발 빌드를 포함하고 있습니다.
-
 ### 레포지토리 복사하기
 
 This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
@@ -43,6 +39,9 @@ $ git pull
 
 Remember to also update Scratch Addons from the browser.
 
+### 깃허브 릴리즈에 대해
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Downloading the Zip
 

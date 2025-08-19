@@ -10,9 +10,9 @@ Scratch hat im Juli 2017 die Diskussionsschaltfläche entfernt, die auf die Fore
 ## Features
 
 - Füge neue Links zu Scratch-Seiten oder anderen Websites hinzu.
-- Re-order links and change their labels.
-- Remove existing links.
-- Prevent the navigation bar from scrolling with the page.
+- Bestelle Links neu und ändere ihre Etiketten.
+- Vorhandene Links entfernen.
+- Verhinder, dass die Navigationsleiste mit der Seite scrollt.
 - Move the logged-in username out of the way.
 
 ## Einstellungen

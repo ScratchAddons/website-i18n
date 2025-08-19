@@ -21,10 +21,6 @@ Srcratch Addons est disponible dans ces boutiques.
 Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
 {{< /admonition >}}
 
-### About GitHub releases
-
-[La page des versions](https://github.com/ScratchAddons/ScratchAddons/releases) contient le code et les fichiers d’installation pour toutes les versions de développement de Scratch Addons, ainsi que le miroir des versions du magasin.
-
 ### Clonage du répertoire
 
 This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
@@ -43,6 +39,9 @@ $ git pull
 
 Remember to also update Scratch Addons from the browser.
 
+### About GitHub releases
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Downloading the Zip
 

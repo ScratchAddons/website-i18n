@@ -21,10 +21,6 @@ Scratch Eklentileri bu mağazalarda mevcuttur
 Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
 {{< /admonition >}}
 
-### GitHub sürümleri hakkında
-
-[Sürümler sayfası](https://github.com/ScratchAddons/ScratchAddons/releases) Scratch Eklentileri'nin tüm geliştirme yapıları için kod ve kurulum dosyalarının yanı sıra mağaza yapılarının aynasını içerir.
-
 ### Depoyu klonlamak
 
 This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
@@ -43,6 +39,9 @@ $ git pull
 
 Remember to also update Scratch Addons from the browser.
 
+### GitHub sürümleri hakkında
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Downloading the Zip
 

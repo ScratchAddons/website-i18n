@@ -21,10 +21,6 @@ Scratch Addons ist in diesen Stores verfügbar.
 Im Gegensatz zu den Storeversionen benötigt die Installation aus dem Quellcode einen Browser basierend auf Chromium 121+ oder Firefox 121+.
 {{< /admonition >}}
 
-### Über GitHub-Releases
-
-[Release-Seite](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
-
 ### Repository klonen
 
 Empfohlene Installationsmethode von Scratch Addons für Entwickler, vorausgesetzt, du hast Git installiert.
@@ -43,6 +39,9 @@ $ git pull
 
 Vergiss nicht, Scratch Addons auch im Browser zu aktualisieren.
 
+### Über GitHub-Releases
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Zip herunterladen
 
@@ -50,7 +49,7 @@ Vergiss nicht, Scratch Addons auch im Browser zu aktualisieren.
   Diese Methode ist nur dann für die Entwicklung empfohlen, wenn Git nicht am System installiert werden kann. Der Vorgang muss bei jedem Update von Scratch Addons manuell wiederholt werden.
 {{< /admonition >}}
 
-If you do not have Git installed, use this method instead.
+Wenn du Git nicht installiert hast, nutze stattdessen diese Methode.
 
 1. Gehe zum [Repository](https://github.com/ScratchAddons/ScratchAddons) und finde den  "Download code"-Knopf.
 
@@ -80,10 +79,10 @@ Um die Erweiterung beim Testen zu aktualisieren, klicke auf das Aktualisieren-Sy
 Laden der Erweiterung in Mozilla Firefox:
 
 {{< admonition info >}}
-  Extensions loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+  Auf diese Weise in Firefox geladene Erweiterungen sind nur temporär und müssen bei jedem Neustart des Browsers erneut geladen werden. Deshalb ist Chrome für die Entwicklung eher empfohlen, aber alles andere sollte auf Firefox genauso gut funktionieren.
 {{< /admonition >}}
 
-1. Type `about:debugging` into the address bar.
+1. Tippe `about:debugging` in die Adressleiste.
 
 1. Klicke auf "Dieses Firefox" in der Seitenleiste
 
@@ -98,44 +97,44 @@ Um die Erweiterung beim Testen zu aktualisieren, klicke auf die "Neu laden"-Scha
 {{< /admonition >}}
 
 
-### Installing on Firefox for Android
+### Installation auf Firefox für Android
 
 {{< admonition info >}}
-  This is only recommended if there is a mobile specific issue that cannot be easily replicated with the browser's developer tools since extensions loaded this way are temporary and must be reinstalled over USB every time the app is restarted.
+  Dies wird nur empfohlen, wenn es ein mobiles Problem gibt, das nicht einfach mit den Entwicklertools des Browsers repliziert werden kann, da auf diese Weise geladene Erweiterungen vorübergehend sind und bei jedem Neustart der App über USB neu installiert werden müssen.
 {{< /admonition >}}
 
-#### One time setup
+#### Einmalige Einrichtung
 
 ##### Desktop
 
-1. Download and extract the Android SDK Platform Tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [MacOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
-1. Add the folder to the PATH environment variable.
-1. Install web-ext with NPM by running `npm install --global web-ext`.
+1. Lade die Android SDK Platform Tools herunter und extrahiere sie ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [MacOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
+1. Füge den Ordner der PATH-Umgebungsvariablen hinzu.
+1. Installiere web-ext mit NPM, indem du `npm install --global web-ext` ausführst.
 
 ##### Android
 
-1. In the Android settings app, open the about page and tap the build number 7 times.
-1. Navigate to the "Developer options" page and enable "USB debugging".
-1. Install the standard Firefox app from the [Google Play store](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
-1. Open the Firefox app and enable "Remote debugging via USB" in its settings.
+1. Öffne in der Android-Einstellungen-App die Seite "Über" und tippe 7 Mal auf die Build-Nummer.
+1. Navigiere zur Seite "Entwickleroptionen" und aktiviere "USB-Debugging".
+1. Installieren Sie die Standard-Firefox-App aus dem [Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
+1. Öffne die Firefox-App und aktiviere "Remote-Debugging über USB" in den Einstellungen.
 
-#### Loading the extension
+#### Erweiterung laden
 
-1. Plug in the Android device and tap allow on it.
-2. Navigate to the `ScratchAddons` folder.
-3. Run `adb devices` to get the device's serial number and ensure ADB is working.
-4. Run the following command replacing `[serial number]` with the one from `adb devices`:
+1. Schließe das Android-Gerät an und tippe zulassen auf diesem.
+2. Navigiere zum Ordner `ScratchAddons`.
+3. Führe `adb devices` aus, um die Seriennummer des Geräts zu erhalten und sicherzustellen, dass ADB funktioniert.
+4. Führe den folgenden Befehl aus, indem du `[Seriennummer]` durch den von `adb devices` ersetzt:
 ```
-web-ext run -t firefox-android --adb-device [serial number] --firefox-apk org.mozilla.firefox
+web-ext run -t firefox-android --adb-device [Seriennummer] --firefox-apk org.mozilla.firefox
 ```
 
-The extension should install and automatically reload when changes are made, otherwise close the Firefox app and re-run the command.
+Die Erweiterung sollte installiert und automatisch neu geladen werden, wenn Änderungen vorgenommen werden, andernfalls schließe die Firefox-App und führe den Befehl erneut aus.
 
-#### Inspecting
+#### Inspektion
 
-Desktop Firefox can inspect extensions and active tabs running in the Firefox app over USB:
+Desktop Firefox kann Erweiterungen und aktive Registerkarten überprüfen, die in der Firefox-App über USB ausgeführt werden:
 
-1. On desktop Firefox type `about:debugging` into the address bar.
-1. Click "Enable USB Devices".
-1. Click connect on the device in the sidebar. If none appear, restart desktop Firefox.
-1. Click on the device again.
+1. Gebe auf dem Desktop Firefox `about:debugging` in die Adressleiste ein.
+1. Klicke auf "USB-Geräte aktivieren".
+1. Klicke auf dem Gerät in der Seitenleiste auf Verbinden. Wenn keine angezeigt wird, starte Firefox auf dem Desktop neu.
+1. Klicke erneut auf das Gerät.

@@ -21,10 +21,6 @@ Scratch Addons je na voljo v teh trgovinah.
 Sistemske zahteve za namestitev izvirne kode so drugačne kot pri namestitvi iz trgovine: potrebujete Chromium 121+ ali Firefox 121+.
 {{< /admonition >}}
 
-### About GitHub releases
-
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code and installation files for all development builds of Scratch Addons, as well as the mirror of the store builds.
-
 ### Podvajanje kode
 
 This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
@@ -43,6 +39,9 @@ $ git pull
 
 Remember to also update Scratch Addons from the browser.
 
+### About GitHub releases
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Downloading the Zip
 

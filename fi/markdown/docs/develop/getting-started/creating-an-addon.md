@@ -9,7 +9,7 @@ Jos ajattelit lähettää kehittämäsi lisäosan vetopyyntönä GitHub-tietosä
 {{< /admonition >}}
 
 ## Vaatimukset
-Scratch-lisäosat ei vaadi kehittämiseen mitään ohjelmistoa, paitsi tekstieditorin ja Chromium-pohjaisen selaimen (121+), mutta on suositeltavaa, että asennat myös Gitin, Firefoxin (121+) ja Visual Studio Coden.
+Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/) (121+) and [Visual Studio Code](https://code.visualstudio.com/) installed.
 
 ## Asennus
 Asenna laajennus kehitystä varten [Asennus lähdekoodista](/docs/getting-started/installing/#from-source) -sivun ohjeiden mukaan.
@@ -29,7 +29,7 @@ Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaas
 - `scratchstats`
 - `tutorials-button`
 
-Avaa `addons.json`-tiedosto `addons`-kansiossa, lisää uuden lisäosan nimitunniste tiedoston alaosan lähelle ja luo sitten samanniminen alakansio.
+Open the `addons.json` file in the `addons` folder, insert a new addon ID above the `// NEW ADDONS ABOVE THIS ↑↑` line near the bottom of the file, then create a sub-folder with the same name.
 
 ## Lisäosan manifest-tiedosto
 Jokaisella lisäosalla on oma [manifest-tiedostonsa](/docs/reference/addon-manifest/), johon on kirjattu, miten lisäosa näytetään asetussivulla, kaikki lisäosan asetukset sekä suoritettavat käyttäjäskriptit tai -tyylit ja sivu, jolla ne suoritetaan.

@@ -21,10 +21,6 @@ Scratch Addons is available in these stores.
 Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
 {{< /admonition >}}
 
-### A GitHub megjelentetésekről
-
-[A kiadások oldala](https://github.com/ScratchAddons/ScratchAddons/releases) tartalmazza a kódot és a letöltési fájlokat is a Scratch Addons minden fejlesztői szerkezetéhez ugyanúgy, mint az áruházi szerkezetek másolatát is.
-
 ### A repository másolása
 
 This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
@@ -43,6 +39,9 @@ $ git pull
 
 Remember to also update Scratch Addons from the browser.
 
+### A GitHub megjelentetésekről
+
+[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
 
 ### Downloading the Zip
 
