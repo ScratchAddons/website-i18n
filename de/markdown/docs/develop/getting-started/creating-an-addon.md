@@ -9,7 +9,7 @@ Wenn du vorhast, das Addon, das du entwickelst, als Pull-Request an unser GitHub
 {{< /admonition >}}
 
 ## Anforderungen
-Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/) (121+) and [Visual Studio Code](https://code.visualstudio.com/) installed.
+Scratch Addons erfordert keine Software für die Entwicklung, außer einem Texteditor und einem Chromium-basierten Browser (121+), aber wir empfehlen auch, [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/) (121+) und [Visual Studio Code](https://code.visualstudio.com/) installiert zu haben.
 
 ## Installation
 Informationen zur Installation der Erweiterung für die Entwicklung findest du unter [Installing from source](/docs/getting-started/installing/#from-source).
@@ -29,7 +29,7 @@ Neue Addons sollten keine ID verwenden, die in einer stabilen Version der Erweit
 - `scratchstats`
 - `tutorials-button`
 
-Open the `addons.json` file in the `addons` folder, insert a new addon ID above the `// NEW ADDONS ABOVE THIS ↑↑` line near the bottom of the file, then create a sub-folder with the same name.
+Öffne die Datei `addons.json` im Ordner `addons`, füge eine neue Addon-ID über der Zeile `// NEW ADDONS ABOVE THIS ↑↑` in der Nähe des unteren Endes der Datei ein und erstelle dann einen Unterordner mit demselben Namen.
 
 ## Das Addon-Manifest
 Jedes Addon hat sein eigenes [Manifest](/docs/reference/addon-manifest/), das damit umgeht, wie es auf der Einstellungsseite angezeigt wird, alle Einstellungen, die das Addon haben kann, welche Benutzerskripte oder Benutzerstile ausgeführt werden sollen und wo sie ausgeführt werden sollen.

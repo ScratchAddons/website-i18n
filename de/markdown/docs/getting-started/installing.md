@@ -41,7 +41,7 @@ Vergiss nicht, Scratch Addons auch im Browser zu aktualisieren.
 
 ### Über GitHub-Releases
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
+[Die Releases-Seite](https://github.com/ScratchAddons/ScratchAddons/releases) enthält den Code für alle veröffentlichten Versionen von Scratch Addons sowie einen Spiegel der Store-Builds.
 
 ### Zip herunterladen
 

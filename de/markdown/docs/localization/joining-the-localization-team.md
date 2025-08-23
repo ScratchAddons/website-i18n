@@ -85,31 +85,31 @@ Wenn du bereits ein Transifex-Konto besitzt und kein neues erstellen möchtest, 
 ### 3. Eine Sprache anfordern
 1. Stelle sicher, dass du bei Transifex angemeldet sind. Wenn du dich gerade erst angemeldet haben, bist du bereits angemeldet.
 1. Gehe zur [Transifex-Seite von Scratch Addons](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
-1. You'll be prompted to choose the language you want to translate to.
-1. Choose one of the languages **which are "available to join"**. We do not support languages that are not available to join.  
-![Screenshot of Transifex](/assets/img/docs/transifex-req-language.png)
-1. Click the "Join Project" button.
-1. Wait until your request is accepted.
+1. Du witst aufgefordert, die Sprache auszuwählen, in die du übersetzen möchtest.
+1. Wähle eine der Sprachen **, die "zum Beitritt verfügbar"** sind. Wir unterstützen keine Sprachen, die nicht zum Beitritt verfügbar sind.
+![Bildschrimfoto von Transifex](/assets/img/docs/transifex-req-language.png)
+1. Klicke auf die Schaltfläche "Projekt beitreten".
+1. Warte, bis deine Anfrage angenommen wurde.
 
-If you have a Discord account, we encourage you to join our [Development Discord server](https://discord.gg/Ak8sCDQ).
+Wenn du ein Discord-Konto habst, empfehlen wir, unserem [Entwicklungs-Discord-Server](https://discord.gg/Ak8sCDQ) beizutreten.
 
 {{< admonition success >}}
-**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 96 hours.**
+**Wenn deine Anfrage angenommen wird, erhälst du eine E-Mail von Transifex. Wir überprüfen Anfragen in der Regel alle 96 Stunden. **
 {{< /admonition >}}
 
 {{< admonition error >}}
-If your request is denied, you'll receive an email. Decisions are never final. You may send an email to  `translation@scratchaddons.com` indicating your Transifex username and your request will be strongly reconsidered. See below for other contact methods.
+Wenn deine Anfrage abgelehnt wird, erhälst du eine E-Mail. Entscheidungen sind nie endgültig. Du kannst eine E-Mail an `translation@scratchaddons.com` senden, in der du deinen Transifex-Benutzernamen angeben, und deine Anfrage wird erneut geprüft. Weitere Kontaktmethoden findest du unten.
 {{< /admonition >}}
 
-## Help or contact
+## Hilfe oder Kontakt
 
-If you have any questions about translating, you may choose one of the following options:
-- Send an email to `translation@scratchaddons.com`.
-- Join our [Development Discord](https://discord.gg/Ak8sCDQ) server.
-- [Open a discussion on GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
-- [Send feedback](/feedback) (make sure to specify your Scratch username in the form, we will reply in your profile).
+Wenn du Fragen zur Übersetzung haben, kannst du eine der folgenden Optionen wählen:
+- Sende eine E-Mail an `translation@scratchaddons.com`.
+- Trete unserem [Development Discord](https://discord.gg/Ak8sCDQ) Server bei.
+- [Öffne eine Diskussion auf GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-Konto erforderlich).
+- [Feedback senden](/feedback) (stelle sicher, dass du deinen Scratch-Benutzernamen im Formular angibst, wir werden auf deinem Profil antworten).
 
 ## Danksagungen
 
-- If you get accepted, you may add yourself (or be added) to [the website's credits page](/credits).
-- Your translations are licensed under the same license as Scratch Addons (GPL v3.0).
+- Wenn du akzeptiert wirdt, kannst du sich selbst (oder du wirst vielleicht hinzugefügt) zur [Credits-Seite der Website](/Credits) hinzufügen.
+- Deine Übersetzungen sind unter der gleichen Lizenz wie Scratch Addons (GPL v3.0) lizenziert.

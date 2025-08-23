@@ -137,7 +137,7 @@ Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
 We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
 For constant strings or numbers, we usually use `SNAKE_CASE`.
 
-Here's an example:
+Hier ist ein Beispiel:
 ```js
 let actionCounter = 0;
 actionCounter++;

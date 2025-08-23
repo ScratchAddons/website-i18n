@@ -9,7 +9,7 @@ Userstyles are CSS rules that affect Scratch pages. They can apply styles to exi
 ## Declaring userstyles in the addon manifest
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Einige Änderungen erfordern eine Erweiterungsneuladung** von `chrome://extensions`, um wirksam zu werden, wie z. B. die Aktualisierung der Addon-Manifestdatei.
 
 It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
 {{< /admonition >}}
