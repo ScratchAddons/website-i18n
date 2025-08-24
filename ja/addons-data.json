@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "サムネイル設定",
-		"description": "プロジェクトのサムネイルを設定するボタンを、プロジェクトページの右下に追加する。",
+		"name": "Thumbnail uploader",
+		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "コスチュームエディターのキーボードショートカット",
-		"description": "コスチュームエディターのツールにキーボードショートカットを追加します(TurboWarpと同様)。ツールの上にマウスカーソルを合わせると、ショートカットが表示されます。",
+		"description": "Ctrl+左/右キーでコスチュームを切り替えたり、コスチュームエディタでキーボードショートカットを使ってツールを選択したりできます(TurboWarpと同様)。ツールの上にマウスカーソルを合わせると、ショートカットが表示されます。",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "macOSでは、Ctrlキーの代わりにCmdキーを使ってください。"
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -670,10 +676,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "「チュートリアルのボタンを隠す」アドオンは、設定として移動しました。"
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -982,6 +984,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "「きれいにする」機能の改良",
+		"description": "コードエリアの右クリックメニューにある「きれいにする」機能を改良し、ブロックを複数の列に整理し、未使用の変数やリストを削除する提案を行います。",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "このアドオンは以前「開発者ツール」の一部でしたが、移動しました。",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "右クリックメニューを色付け",
 		"description": "コンテキストメニューに色を付ける。",
@@ -1084,9 +1109,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "開発者ツール",
-		"description": "メニューオプション、ブロックのコピペ、「きれいにする」などを追加する。",
+		"description": "右クリックメニューにブロックのコピー・切り取り・貼り付け、変数の入れ替え、スペースの確保などのオプションを追加する。",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1140,9 +1171,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1184,6 +1214,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1254,12 +1285,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "新しいハイコントラストブロック色は以下でプリセットとして利用できます。"
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "ブロックをドラッグしていて、他のブロックの近くに移動したときに現れる影が「挿入マーカー」です。"
+				"text": "ハイコントラストブロック色は以下でプリセットとして利用できます。"
 			}
 		],
 		"dynamicEnable": true,
@@ -1318,10 +1344,6 @@
 			{
 				"id": "studioClick",
 				"text": "スタジオ内のプロジェクトの正確な数を確認するには、以下の「スタジオの正確な数」設定を有効にし、スタジオの「プロジェクト」タブで「100+」という文字をクリックします。"
-			},
-			{
-				"id": "setting-removal",
-				"text": "フォーラム設定は、使用されているScratchDBデータベースがオフラインのため削除されました。"
 			}
 		],
 		"dynamicEnable": true,
@@ -1403,12 +1425,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "このアドオンは以前「開発者ツール」の一部でしたが、移動しました。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1467,7 +1483,7 @@
 		"name": "スプライトフォルダー",
 		"description": "スプライト・コスチューム・音のリストにフォルダーを追加する。フォルダーを作成するには、スプライトを右クリックし「フォルダーを作成」を押す。クリックして開閉し、スプライトをドラッグか右クリックしてフォルダーに移動させる。これは、「[フォルダー名]//」をスプライト名の先頭に追加することによって動作する。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1477,7 +1493,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1529,7 +1549,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1607,7 +1632,7 @@
 		"id": "full-signature",
 		"name": "表示域拡大",
 		"description": "署名や「私が取り組んでいること」など、サイズの制限がある部分をスクロールしたり、サイズ変更可能にしたりする。",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1621,6 +1646,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1701,7 +1731,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "削除ボタンを隠す",
-		"description": "削除ボタン(ゴミ箱アイコン)を、スプライト、コスチュームや音から隠す。コンテキストメニューを使えば、通常通り削除できる。",
+		"description": "削除ボタン(ゴミ箱アイコン)を、スプライト、コスチュームや音から隠す。コンテキストメニューを使うか、Shiftキーを押しながら削除ボタンをクリックすれば、通常通り削除できる。",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1712,6 +1742,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1871,36 +1905,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "カスタムブロック定義に移動",
-		"description": "中マウスボタンやShift+Clickで、カスタムブロックの定義ブロックに移動できるようにする。",
+		"description": "ブロックを中マウスボタンでクリックするか、Shiftキーを押しながらクリックするか、右クリックメニューで「定義へ移動」を選択して、カスタムブロック定義に移動できるようにする。",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "このアドオンは以前「開発者ツール」の一部でしたが、移動しました。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "共有・編集日表示",
-		"description": "プロジェクトの共有日をホバーして、正確な共有日時と編集日時を表示する。",
+		"name": "作成・編集日表示",
+		"description": "プロジェクトの共有日をホバーして、正確な作成日時と編集日時を表示する。",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -1934,7 +1977,7 @@
 	},
 	{
 		"id": "live-read-topics",
-		"name": "Instant forum read indicators",
+		"name": "自動フォーラム既読化",
 		"description": "フォーラムカテゴリのページでトピックをクリックすると、リロードせずにトピックが自動的に既読として表示されます。",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -1995,7 +2038,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "ステージを録画",
-		"description": "ステージを録画するボタンをエディターのメニューバーに追加する。",
+		"description": "「録画」ボタンをエディターのメニューバーに追加する。",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2039,12 +2082,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "このアドオンは以前「開発者ツール」の一部でしたが、移動しました。",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2081,12 +2118,6 @@
 		"name": "コスチュームを一番上や一番下に移動",
 		"description": "コスチュームや音を一覧の一番上や一番下に移動する右クリックメニュー項目を追加する。",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "このアドオンは以前「開発者ツール」の一部でしたが、移動しました。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2094,7 +2125,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "スプライトを最前面に移動",
-		"description": "スプライトペイン内のスプライトをShift+クリックしてステージの最前面に移動させる。",
+		"description": "右クリックメニューまたはShiftキーを押しながらクリックして、スプライトをステージの前面 (最上位レイヤー) に移動させる。",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2105,7 +2136,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2256,14 +2291,6 @@
 				"type": "notice",
 				"text": "このアドオンは、スマートフォンその他画面が小さい場合はうまく動作しません。",
 				"id": "mobile"
-			},
-			{
-				"text": "同時により多くのプロジェクトやキュレーターを表示させるには、「一行当たりの表示数増加」アドオンを有効化してください。",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "「Scratch 3.0化」アドオンが無効になっている場合に、スタジオのページを更新前の状態に戻したい場合は、「Scratch 2.0化」アドオンを使ってください。",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2681,7 +2708,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

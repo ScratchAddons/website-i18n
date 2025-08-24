@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Pikkukuvan asettaminen",
-		"description": "Lisää projektisivun oikeaan alareunaan painikkeen, jolla voit asettaa projektisi pikkukuvaksi minkä tahansa kuvan (mukaan lukien GIF-animaatiot).",
+		"name": "Omien pikkukuvien lataaminen",
+		"description": "Lisää projektisivun \"Aseta pikkukuva\" -painikkeen viereen pudotusvalikon, jonka avulla voit asettaa projektisi pikkukuvaksi minkä tahansa kuvan (myös GIF-animaation).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -520,7 +521,7 @@
 	{
 		"id": "copy-reporter",
 		"name": "Ilmoitettujen arvojen kopioiminen",
-		"description": "Mahdollistaa muuttujien näytinten (hiiren kakkospainikkeen pudotusvalikosta) ja lohkojen ilmoituskuplien kertomien arvojen kopioimisen.",
+		"description": "Mahdollistaa muuttujien näytinten (hiiren kakkospainikkeen pikavalikosta) ja lohkojen ilmoituskuplien kertomien arvojen kopioimisen.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "TheKodeToad" }],
 		"dynamicEnable": true,
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Asuste-editorin pikanäppäimet",
-		"description": "Lisää pikanäppäimiä asuste-editorin työkaluille (kuten TurboWarp). Näet työkalun pikanäppäimen viemällä hiiren sen päälle.",
+		"description": "Voit siirtyä seuraavaan tai edelliseen asusteeseen käyttämällä pikanäppäintä Ctrl+Nuoli vasemmalle/oikealle ja valita asuste-editorin työkalun käyttämällä  pikanäppäimiä (niin kuin TurboWarpissa). Näet työkalun pikanäppäimen viemällä hiiren sen päälle.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "Käytä macOS:ssä Cmd-näppäintä Ctrl-näppäimen sijaan."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -672,10 +678,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "\"Piilota Oppitunnit-painike\" -lisäosa on siirtynyt asetukseksi tänne."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -984,6 +986,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Paranneltu siivoustyökalu",
+		"description": "Parantaa koodialueen hiiren kakkospainikkeen valikon siivousominaisuutta lisäämällä useampia rivejä ja ehdotuksia käyttämättömien muuttujien ja listojen poistamisesta.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Värilliset pikavalikot",
 		"description": "Tekee lohkojen hiiren kakkospainikkeen pikavalikoista värikkäitä.",
@@ -1086,9 +1111,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Kehittäjän työkalut",
-		"description": "Lisää uusia toimintoja editorin pudotusvalikkoon: lohkojen kopioimisen/liittämisen, paremman lohkosiivoustoiminnon ja muuta!",
+		"description": "Lisää hiiren kakkospainikkeen valikkoon ominaisuudet, joiden avulla voi kopioida, leikata ja liittää lohkoja, vaihtaa muuttujia sekä tehdä tilaa.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1142,9 +1173,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1186,6 +1216,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1256,12 +1287,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Uusista korkean kontrastin lohkoväreistä on alla saatavilla esiasetus."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Kun raahaat lohkoa, \"lisäämismerkki\" on varjo, joka ilmestyy, kun lohko siirretään muiden lohkojen lähelle."
+				"text": "Suuren kontrastin lohkojen värit ovat saatavilla esiasetuksena alla."
 			}
 		],
 		"dynamicEnable": true,
@@ -1320,10 +1346,6 @@
 			{
 				"id": "studioClick",
 				"text": "Jos haluat nähdä projektien tarkan lukumäärän studiossa, ota käyttöön alla oleva \"tarkat lukumäärä studioissa\" -asetus ja napauta \"100+\"-kohtaa studion Projektit-välilehtipainikkeessa."
-			},
-			{
-				"id": "setting-removal",
-				"text": "Foorumiasetus on poistettu, koska sen käyttämä ScratchDB-tietokanta on verkon ulkopuolella."
 			}
 		],
 		"dynamicEnable": true,
@@ -1405,12 +1427,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1469,7 +1485,7 @@
 		"name": "Hahmokansiot",
 		"description": "Lisää kansioita hahmoruutuun, kuin myös asuste- ja äänilistalle. Luo kansio napauttamalla hiiren kakkospainiketta minkä tahansa hahmon päällä ja napauta \"luo kansio\". Avaa tai sulje kansio napauttamalla. Napauta hiiren kakkospainiketta hahmon päällä nähdäksesi, mihin kansioihin voit siirtää hahmon, tai vaihtoehtoisesti voit myös raahata hahmon auki olevaan kansioon. Tämä ominaisuus toimii lisäämällä \"[kansionNimi]//\" hahmojesi nimien alkuun.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1479,7 +1495,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1531,7 +1551,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1609,7 +1634,7 @@
 		"id": "full-signature",
 		"name": "Täydet alueet",
 		"description": "Näyttää korkeusrajoitteisten alueiden, kuten käyttäjien allekirjoitukset foorumeilla ja profiilien Mitä olen ollut tekemässä -kohta, täyden sisällön mahdollistamalla niiden koon muuttamisen tai tekemällä niistä vieritettäviä.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1623,6 +1648,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1703,7 +1733,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Piilota poista-painike",
-		"description": "Piilottaa poista-painikkeen (roskakorikuvakkeen) hahmoista, asusteista ja äänistä. Ne voidaan silti poistaa käyttämällä hiiren kakkospainikkeen pikavalikkoa.",
+		"description": "Piilottaa poistamispainikkeen (roskakorikuvakkeen) hahmoista, asusteista ja äänistä. Ne voidaan silti poistaa käyttämällä hiiren kakkospainikkeen valikkoa tai pitämällä vaihtonäppäintä painettuna.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1714,6 +1744,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1872,37 +1906,46 @@
 	},
 	{
 		"id": "jump-to-def",
-		"name": "Siirry mukautetun lohkon määritykseen",
-		"description": "Voit siirtyä mukautetun lohkon määritykseen käyttämällä hiiren keskipainikketta tai yhdistelmää vaihto+napautus lohkon päällä.",
+		"name": "Siirry mukautetun lohkon määritelmään",
+		"description": "Siirry mukautetun lohkon määritelmään napauttamalla lohkoa hiiren keskipainikeella tai pitämällä vaihtonäppäintä painettuna ja napauttamalla lohkoa taikka valitsemalla \"Siirry määritelmään\" lohkon kakkospainikkeen pikavalikosta.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Jako-/muokkauspäivämäärien vihjelaatikot",
-		"description": "Vie hiiren osoitin projektin jakopäivämäärän päälle saadaksesi tietää tarkasti, milloin se on jaettu ja milloin sitä on viimeksi muokattu.",
+		"name": "Tarkemmat projektiin liittyvät päivämäärät",
+		"description": "Vie hiiren osoitin projektin jakopäivämäärän päälle saadaksesi tietää tarkalleen, milloin se on luotu ja jaettu sekä milloin sitä on viimeksi muokattu.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -1936,8 +1979,8 @@
 	},
 	{
 		"id": "live-read-topics",
-		"name": "Instant forum read indicators",
-		"description": "Automatically shows a topic as read when clicking on it on a forum category's page without requiring a reload.",
+		"name": "Merkitse foorumiaiheet heti luetuiksi",
+		"description": "Näytä aihe automaattisesti luettuna ilman sivun uudelleenlatausta, kun sitä napautetaan foorumin kategoriasivulla.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "link": "https://scratch.mit.edu/mybearworld", "name": "mybearworld" }
@@ -1997,7 +2040,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Videonauhuri projekteissa",
-		"description": "Lisää editorin valikkoriville \"aloita nauhoitus\" -painikkeen, jolla voit nauhoittaa projektin esiintymislavan.",
+		"description": "Lisää editorin valikkoriville \"nauhoita\"-painikkeen, jolla voit nauhoittaa projektin esiintymislavan.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2041,12 +2084,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2083,12 +2120,6 @@
 		"name": "Siirrä asuste ylös tai alas",
 		"description": "Lisää vaihtoehtoja hiiren kakkospainikkeen pikavalikkoon asusteita ja ääniä varten, jotta voit siirtää niitä luettelon ylä- tai alaosaan.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Tämä lisäosa oli aiemmin osa \"kehittäjän työkalut\" -lisäosaa, mutta se siirrettiin tänne.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2096,7 +2127,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Siirrä hahmo etualalle",
-		"description": "Paina vaihtonäppäintä ja samanaikaisesti napauta hahmoruudussa olevaa hahmoa siirtääksesi sen esiintymislavalla etualalle (päällimmäiseksi).",
+		"description": "Siirrä hahmo esiintymislavalla etualalle (päällimmäiseksi) sen kakkospainikkeen pikavalikosta tai pikanäppäimellä Vaihto+Napautus.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2107,7 +2138,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2258,14 +2293,6 @@
 				"type": "notice",
 				"text": "Tämä lisäosa ei toimi hyvin mobiililaitteissa ja pienissä ikkunoissa.",
 				"id": "mobile"
-			},
-			{
-				"text": "Jos haluat nähdä enemmän projekteja ja kuraattoreita kerralla, käytä \"enemmän kohteita rivillä\" -lisäosaa.",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "Jos haluat studiosivun näyttävän samalta kuin ennen päivitystä, kun \"Scratch 2.0 → 3.0\" -lisäosa oli pois päältä, käytä \"Scratch 3.0 → 2.0\" -lisäosaa.",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2683,7 +2710,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

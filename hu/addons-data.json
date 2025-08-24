@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail setter",
-		"description": "Hozzáad egy gombot a projekt oldal jobb alsó sarkába, amivel beállítható a projekted indexképe bármely képre (gifeket is beleértve)",
+		"name": "Thumbnail uploader",
+		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -370,8 +371,8 @@
 	},
 	{
 		"id": "collapse-footer",
-		"name": "Sticky footer",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
+		"name": "Ragadós fejléc",
+		"description": "A weboldal fejléce mindig látható részben, és az egérrel való rámutatáskor lenyílik. Korábban a Végtelen görgetés addon része volt.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -530,8 +531,8 @@
 	},
 	{
 		"id": "costume-editor-shortcuts",
-		"name": "Costume editor keyboard shortcuts",
-		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"name": "Jelmezszerkesztő billentyűkombinációk",
+		"description": "Allows switching costumes with Ctrl+Left/Right and selecting tools in the costume editor using keyboard shortcuts (similar to TurboWarp). Hover over a tool to view its shortcut.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "On macOS, use the Cmd key instead of the Ctrl key."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -670,10 +676,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "Az \"Oktatóanyagok gomb elrejtése\" addon ide lett áthelyezve."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -982,6 +984,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Még jobb rendrakó algoritmus",
+		"description": "Fejleszti a Rendrakást, több opcióval pl. nem használt változók, listák törlése, szebb elrendezés.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Színezett helyi menük",
 		"description": "Átszínezi a blokkok jobb kattintásra megjelenő helyi menüjét.",
@@ -1084,9 +1109,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Fejlesztői eszközök",
-		"description": "Hozzáad új menüopciókat a szerkesztőhöz: másolj/illessz be blokkokat, jobb rendrakás, és még sok más!",
+		"description": "Adds options to copy/cut/paste blocks, swap variables, and make space to the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1140,9 +1171,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1184,6 +1214,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1254,12 +1285,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Az új nagy kontrasztú blokkok alább kapcsolhatóak be."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Blokkok húzásakor a megjelenő árnyék egy beillesztési helyet jelző jelölő, ez akkor jelenik meg, ha egy blokkot közel húzol egy másikhoz."
+				"text": "The High Contrast block colors are available as a preset below."
 			}
 		],
 		"dynamicEnable": true,
@@ -1318,10 +1344,6 @@
 			{
 				"id": "studioClick",
 				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
-			},
-			{
-				"id": "setting-removal",
-				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
 			}
 		],
 		"dynamicEnable": true,
@@ -1403,12 +1425,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1467,7 +1483,7 @@
 		"name": "Szereplő mappák",
 		"description": "Mappákat ad a szereplő kijelzőhöz, illetve a jelmez és hang listához. Mappa létrehozásához, jobb kattints bármely szereplőre és kattints a \"mappa létrehozása\" lehetőségre. Kattints egy mappára, hogy megnyisd vagy összezárd azt. Jobb kattints egy szereplőre, hogy lásd milyen mappákba tudod átmozgatni, vagy csak húzd az egérrel egy nyitott mappába. Ez a funkció a szerepelők neveinek elé a következő hozzáadásával érhető el: \"[mappa neve]//\".",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1477,7 +1493,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1519,7 +1539,7 @@
 	{
 		"id": "forum-post-countdown",
 		"name": "Új fórumposzt hozzáadási lehetőség visszaszámláló",
-		"description": "After submitting a forum post, displays a countdown on the submit button showing how long you have to wait before posting again.",
+		"description": "Fórumposzt elküldése után egy visszaszámláló kerül a Közzététel gombra, ez mutatja, hogy meddig kell várnod újabb posztolás előtt.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -1529,7 +1549,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1595,8 +1620,8 @@
 	},
 	{
 		"id": "fps",
-		"name": "FPS counter",
-		"description": "Adds an FPS counter above the stage.",
+		"name": "FPS-mutató",
+		"description": "Hozzáad egy FPS (képkocka per másodperc) számlálót a színpad fölé",
 		"tags": ["editor", "player", "featured"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1607,7 +1632,7 @@
 		"id": "full-signature",
 		"name": "Teljes területek",
 		"description": "Megszabott magassággal jeleníti meg a teljes tartalmát egyes területeknek, mint például a felhasználók aláírását a fórumokon, vagy a profilokon lévő „Amin most dolgozom” résznek úgy, hogy átméretezhetőekké, vagy görgethetővé teszik.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1621,6 +1646,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1701,7 +1731,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Törlés gomb elrejtése",
-		"description": "Elrejti a törlés gombot (kuka ikont) a szereplőkből, jelmezekből és hangokból. Ezután még törölhetőek lesznek a jobb kattos helyi menüből.",
+		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu or by holding the Shift key.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1712,6 +1742,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1871,36 +1905,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Ugrás egyéni blokk definiálásához",
-		"description": "Megengedi, hogy egy egyéni blokk definiálásához ugorj a középső egérgombbal, vagy Shift+Kattintással az adott blokkon.",
+		"description": "Jump to a custom block's definition by middle-clicking or Shift+clicking on the block or selecting \"Go to Definition\" in the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Megosztott/szerkesztett időpontokhoz segédeszköz",
-		"description": "Tartsd egérmutatódat egy projekt megosztási időpontja fölé olyan információért, hogy mikor volt pontosan megosztva és utoljára szerkesztve.",
+		"name": "Additional project dates",
+		"description": "Hover over a project's share date for information on when exactly it was created, shared and last edited.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -1995,7 +2038,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Projekt videó felvevő",
-		"description": "Hozzáad egy \"felvétel indítása\" gombot a szerkesztő menü sorába, ami megengedi, hogy felvedd a projekt színpadját.",
+		"description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2039,12 +2082,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Ez a kiegészítő korábban a „fejlesztői eszközök” része volt, de most ide költözött.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2081,12 +2118,6 @@
 		"name": "Jelmez áthelyezése legfelülre vagy legalulra",
 		"description": "Hozzáad egy opctiót a jobb katt index menüjéhez a jelmezek és hangok mozgatására a lista legtetejére vagy legaljára.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Ez a bővítmény korábban a \"Fejlesztői eszközök\" bővítmény része volt, de mostanra át lett helyezve ide.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2094,7 +2125,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Szereplő legelőre küldése",
-		"description": "Shift+Click a sprite within the sprite pane to move it to the front (top layer) of the stage.",
+		"description": "Move a sprite to the front (top layer) of the stage from its context menu or by Shift+Clicking it.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2105,7 +2136,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2211,12 +2246,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
+		"name": "Szereplők törlése megerősítés kérése nélkül",
 		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Tipp: ha véletlenül kitöröltél egy szereplőt, hangot vagy jelmezt könnyen visszaállíthatod így: Szerkesztés➡️Visszaállítás, a szerkesztőben a fölső sávon találod ezt.",
 				"id": "restoretip"
 			}
 		],
@@ -2256,14 +2291,6 @@
 				"type": "notice",
 				"text": "Ez a bővítmény nem működik jól telefonokon és kis ablak méretekben.",
 				"id": "mobile"
-			},
-			{
-				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2400,8 +2427,8 @@
 	},
 	{
 		"id": "place-backpack-code-at-cursor",
-		"name": "Place backpack code at mouse",
-		"description": "Drag-and-drop code blocks to the mouse position instead of to the code area corner.",
+		"name": "Átvitt kódok egérmutatóhoz helyezése",
+		"description": "Szereplők közt blokkok átvitelénél vagy a tálcáról való kiszedésnél a blokkokat az egérmutatóhoz helyezi a program, nem a kódterület sarkába.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "Chrome_Cat" }],
 		"dynamicEnable": true,
@@ -2669,7 +2696,7 @@
 	{
 		"id": "scratch3to2",
 		"name": "Scratch 3.0 → 2.0",
-		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"description": "A Scratch 3.0 stílusú oldalak kinézetét Scratch 2.0 kinézetűre változtatja át.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -2681,7 +2708,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

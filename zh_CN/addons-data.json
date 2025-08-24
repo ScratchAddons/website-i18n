@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail setter",
-		"description": "在项目页面的右下角添加一个按钮，可以将项目的缩略图设置为任何图像（包括gif）。",
+		"name": "Thumbnail uploader",
+		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -60,8 +60,8 @@
 	},
 	{
 		"id": "asset-conflict-dialog",
-		"name": "Asset conflict dialog",
-		"description": "When uploading costumes or sounds with the same name as an existing one, shows a dialog with options to replace or skip them instead of always renaming them.",
+		"name": "素材冲突对话框",
+		"description": "上传与现有造型或声音同名的造型或声音时，会显示一个对话框，其中包含替换或跳过它们的选项，而不是总是重命名它们",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{
@@ -321,7 +321,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -525,8 +526,8 @@
 	},
 	{
 		"id": "costume-editor-shortcuts",
-		"name": "Costume editor keyboard shortcuts",
-		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"name": "造型编辑器键盘快捷键",
+		"description": "允许使用 Ctrl + 左 / 右 切换造型，并使用键盘快捷键（类似于 TurboWarp）在造型编辑器中选择工具。悬停在工具上方以查看其快捷键",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -534,12 +535,12 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [{ "id": "cmdKey", "text": "在 macOS 上，用 Cmd 键代替 Ctrl 键" }],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -665,10 +666,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "“隐藏教程按钮”插件已被移到这里作为设置。"
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -830,7 +827,7 @@
 	},
 	{
 		"id": "delete-others",
-		"name": "Delete other costumes or sounds",
+		"name": "删除其他造型或声音",
 		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
@@ -977,6 +974,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "增强整理积木工具",
+		"description": "改进了代码区域右键单击上下文菜单中的整理功能，其中包含多列和删除未使用变量和列表的建议",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "此插件以前是 “开发人员工具” 插件的一部分，但已移至此处",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "彩色右键菜单",
 		"description": "使积木的右键菜单背景颜色与积木的颜色对应。",
@@ -1079,9 +1099,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "开发者工具",
-		"description": "为编辑器添加了新的菜单选项：复制/粘贴积木，更好的积木整理，以及更多功能！",
+		"description": "Adds options to copy/cut/paste blocks, swap variables, and make space to the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1135,9 +1161,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1179,6 +1204,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1249,12 +1275,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "新的高对比度积木颜色预设已经在下方可用。"
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "When dragging a block, an \"insertion marker\" is the shadow that appears when moved near to other blocks."
+				"text": "高对比度积木颜色预设已经在下方可用"
 			}
 		],
 		"dynamicEnable": true,
@@ -1313,10 +1334,6 @@
 			{
 				"id": "studioClick",
 				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
-			},
-			{
-				"id": "setting-removal",
-				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
 			}
 		],
 		"dynamicEnable": true,
@@ -1398,12 +1415,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "此插件曾是“开发者工具”的一部分，后来放到了这里。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1462,7 +1473,7 @@
 		"name": "角色文件夹",
 		"description": "将文件夹添加到角色窗格，以及造型和声音列表。 要创建文件夹，请右键单击任何角色并单击“创建文件夹”。 单击文件夹以打开或关闭它。 右键单击角色以查看可以将其移动到哪些文件夹，或者将其拖放到打开的文件夹中。 此功能通过在您的角色名称的开头添加“[文件夹名称]//”来工作。",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1472,7 +1483,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1524,7 +1539,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1576,7 +1596,7 @@
 		"tags": ["community", "forums"],
 		"info": [
 			{
-				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"text": "这对于 Scratch 插件开发人员来说很有用，可以查看论坛上报告的错误是否可能是由扩展引起的",
 				"id": "usefulness"
 			}
 		],
@@ -1590,8 +1610,8 @@
 	},
 	{
 		"id": "fps",
-		"name": "FPS counter",
-		"description": "Adds an FPS counter above the stage.",
+		"name": "帧率计数器",
+		"description": "在舞台上方添加帧率计数器",
 		"tags": ["editor", "player", "featured"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1602,7 +1622,7 @@
 		"id": "full-signature",
 		"name": "完整区域",
 		"description": "通过可调整大小或可滚动，来显示高度有限的区域的完整内容，例如论坛上的用户签名和个人主页上的“我的工作”。",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1616,6 +1636,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1696,7 +1721,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "隐藏删除按钮",
-		"description": "隐藏了角色、造型和声音中的删除按钮（垃圾桶图标）。它们仍然可以使用右键菜单删除。",
+		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu or by holding the Shift key.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1707,6 +1732,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1802,7 +1831,7 @@
 	},
 	{
 		"id": "horizontal-mystuff-tabs",
-		"name": "Horizontal My Stuff tabs",
+		"name": "横向我的东西选项卡",
 		"description": "把“我的项目”页面的跳转按钮（“全部项目”、“我的工作室”和“回收站”）从左侧移动到页面顶部",
 		"tags": ["community", "theme"],
 		"credits": [
@@ -1866,36 +1895,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "跳至自制积木",
-		"description": "可以让你用鼠标滚轮或Shift+鼠标左键跳转至自制积木的代码。",
+		"description": "Jump to a custom block's definition by middle-clicking or Shift+clicking on the block or selecting \"Go to Definition\" in the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "此插件曾是“开发者工具”的一部分，后来移到了这里。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "分享/修改日期提示",
-		"description": "鼠标悬停在作品分享日期上时，显示作品确切的分享日期和上次修改的日期。",
+		"name": "Additional project dates",
+		"description": "Hover over a project's share date for information on when exactly it was created, shared and last edited.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -1929,8 +1967,8 @@
 	},
 	{
 		"id": "live-read-topics",
-		"name": "Instant forum read indicators",
-		"description": "Automatically shows a topic as read when clicking on it on a forum category's page without requiring a reload.",
+		"name": "及时论坛已读指示器",
+		"description": "在论坛类别页面上点击某个主题时，无需重新加载即可自动将其显示为已读",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "link": "https://scratch.mit.edu/mybearworld", "name": "mybearworld" }
@@ -1990,7 +2028,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "作品录制工具",
-		"description": "在编辑器菜单栏添加“开始录制”按钮，用于录制作品的舞台区。",
+		"description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2034,12 +2072,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "这个插件之前是“开发者工具”插件的一部分，但现在移到了这里。",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2076,12 +2108,6 @@
 		"name": "把造型移到顶部或底部",
 		"description": "在造型和音频页的右键菜单中添加移到列表顶部或底部的选项。",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "此插件曾是“开发者工具”的一部分，后来移到了这里。",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2089,7 +2115,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "将角色移到最前面",
-		"description": "Shift+单击角色栏中的角色，将其移动到舞台的前面(顶层)。",
+		"description": "Move a sprite to the front (top layer) of the stage from its context menu or by Shift+Clicking it.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2100,7 +2126,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2201,12 +2231,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "删除角色而无需确认",
+		"description": "移除询问您是否确定要删除角色的确认提示",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "提示：如果您不小心删除了角色、造型或声音，您可以通过单击菜单栏中的编辑，然后点击还原来恢复删除内容",
 				"id": "restoretip"
 			}
 		],
@@ -2233,7 +2263,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "旧工作室布局",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
+		"description": "将工作室页面的布局恢复到工作室更新之前使用的布局",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2246,14 +2276,6 @@
 				"type": "notice",
 				"text": "这个插件在移动设备和小窗口上不能很好地起作用。",
 				"id": "mobile"
-			},
-			{
-				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2489,7 +2511,7 @@
 	},
 	{
 		"id": "remaining-replies",
-		"name": "Remaining reply counter",
+		"name": "剩余回复计数器",
 		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
 		"tags": ["community", "comments"],
 		"credits": [
@@ -2656,7 +2678,7 @@
 	{
 		"id": "scratch3to2",
 		"name": "Scratch 3.0 → 2.0",
-		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"description": "使 Scratch 3.0 风格的页面看起来像 Scratch 2.0",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -2668,7 +2690,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",
@@ -2848,8 +2876,8 @@
 	},
 	{
 		"id": "stage-monitor",
-		"name": "Customizable stage monitors",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"name": "自定义舞台监视器",
+		"description": "更改舞台上变量和列表监视器的颜色和圆度",
 		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -3034,8 +3062,8 @@
 	},
 	{
 		"id": "workspace-dots",
-		"name": "Customizable code editor grid",
-		"description": "Change the style of the grid pattern in the code editor.",
+		"name": "自定义代码编辑器网格",
+		"description": "在代码编辑器中更改网格图案的样式",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }

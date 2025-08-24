@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail setter",
-		"description": "Добавляет кнопку в правом нижнем углу страницы проекта, чтобы изменить обложку вашего проекта на любое изображение (включая GIF).",
+		"name": "Thumbnail uploader",
+		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Costume editor keyboard shortcuts",
-		"description": "Adds keyboard shortcuts to costume editor tools (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"description": "Allows switching costumes with Ctrl+Left/Right and selecting tools in the costume editor using keyboard shortcuts (similar to TurboWarp). Hover over a tool to view its shortcut.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "On macOS, use the Cmd key instead of the Ctrl key."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -675,10 +681,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "Дополнение \"скрыть кнопку обучения\" было перемещено сюда как настройка."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -987,6 +989,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Enhanced clean up tool",
+		"description": "Improves the clean up feature in the code area's right click context menu with multiple columns and suggestions of removing unused variables and lists.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Цветные контекстные меню",
 		"description": "Делает контекстные меню, щёлкнутые правой кнопкой мыши по блоку более красочными.",
@@ -1089,9 +1114,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Инструменты разработчика",
-		"description": "Добавляет новые опции в меню редактора: копирование/вставка блоков,улучшенная очистка,и прочее!",
+		"description": "Adds options to copy/cut/paste blocks, swap variables, and make space to the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1145,9 +1176,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1189,6 +1219,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1259,12 +1290,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Новые высококонтрастные цвета блоков доступны в качестве предустановки ниже."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "При передвигании блока мышью, тень, которая появляется при пододвигании блока к другим блокам — \"маркер вставки\"."
+				"text": "The High Contrast block colors are available as a preset below."
 			}
 		],
 		"dynamicEnable": true,
@@ -1323,10 +1349,6 @@
 			{
 				"id": "studioClick",
 				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
-			},
-			{
-				"id": "setting-removal",
-				"text": "The forum setting has been removed since the ScratchDB database used by it is offline."
 			}
 		],
 		"dynamicEnable": true,
@@ -1408,12 +1430,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Этот аддон раньше был частью \"инструментов разработчика\" ,но теперь переехал сюда",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1472,7 +1488,7 @@
 		"name": "Папки спрайтов",
 		"description": "Добавляет папки в панель спрайтов,а также костюмов и звуков. Чтобы сделать папку, нажми по спрайту/звуку/костюму, нажми создать папку и назови её, чтобы добавить в папку звук/костюм/спрайт нажми правой кнопкой мыши и выбери добавить к папке",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1482,7 +1498,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1534,7 +1554,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1612,7 +1637,7 @@
 		"id": "full-signature",
 		"name": "Полные области",
 		"description": "Показывает полное содержимое областей с ограниченной высотой, таких как подписи пользователей на форумах и Что я делал в профилях, делая их изменяемыми по размеру или прокручиваемыми.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1626,6 +1651,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1706,7 +1736,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Скрыть кнопку удалить",
-		"description": "Скрывает кнопку удаления (иконка корзины) из спрайтов, костюмов и звуков. Они могут быть удалены из контекстного меню.",
+		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu or by holding the Shift key.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1717,6 +1747,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1876,36 +1910,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Вызывать быстрое меню вызова блоков",
-		"description": "Вызывает меню с поиском блоков и переменных при одновременном нажатии shift и левого клика мыши либо клика колёсиком мыши",
+		"description": "Jump to a custom block's definition by middle-clicking or Shift+clicking on the block or selecting \"Go to Definition\" in the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Этот аддон раньше был частью \"инструментов разработчика\" ,но теперь переехал сюда",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Всплывающая подсказка дат размещения/изменения",
-		"description": "Наведите на дату публикования проекта для информации о том, когда он был опубликован и изменён в последний раз.",
+		"name": "Additional project dates",
+		"description": "Hover over a project's share date for information on when exactly it was created, shared and last edited.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -2000,7 +2043,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Запись проекта на видео",
-		"description": "Добавляет кнопку \"начать запись\" в меню редактора, которая позволяет записывать сцену проекта.",
+		"description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2044,12 +2087,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Этот аддон раньше был частью \"инструментов разработчика\" ,но теперь переехал сюда",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2086,12 +2123,6 @@
 		"name": "Переместить костюм на самый вверх или в самый низ",
 		"description": "Добавляет новый пункт в контекстное меню костюма или звука, позволяющее переместить его наверх или вниз",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Этот аддон раньше был частью \"инструментов разработчика\" ,но теперь переехал сюда",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2099,7 +2130,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Выдвинуть спрайт на верхний слой",
-		"description": "Щёлкните спрайт во время зажатия клавиши Shift внутри панели спрайтов, чтобы выдвинуть его вперёд (верхний слой) сцены.",
+		"description": "Move a sprite to the front (top layer) of the stage from its context menu or by Shift+Clicking it.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2110,7 +2141,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2261,14 +2296,6 @@
 				"type": "notice",
 				"text": "Этот аддон плохо работает на мобильных устройствах и в маленьких окнах.",
 				"id": "mobile"
-			},
-			{
-				"text": "If you want to see more projects and curators at once, use the \"more items per row\" addon.",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "If you want the studio page to look the way it did before the update if the \"Scratch 2.0 → 3.0\" addon was disabled, use the \"Scratch 3.0 → 2.0\" addon.",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2686,7 +2713,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

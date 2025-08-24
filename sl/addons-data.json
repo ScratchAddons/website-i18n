@@ -41,8 +41,8 @@
 	},
 	{
 		"id": "account-settings-capitalize",
-		"name": "Velika začetnica v \"Account Settings\"",
-		"description": "Če je Scratch v angleščini, spremeni \"Account settings\" v meniju računa v \"Account Settings\".",
+		"name": "Nastavitve Računa",
+		"description": "V meni računa doda nepravilno rabljeno veliko začetnico (ali popolnoma pravilno, če je jezik Scratcheve spletne strani nastavljen na angleščino).",
 		"tags": ["easterEgg", "community"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Nastavitev sličice",
-		"description": "Doda gumb v spodnji desni del strani projekta, s katerim lahko nastavite sličico projekta na poljubno sliko (ali gif).",
+		"name": "Nalaganje sličic",
+		"description": "Zraven gumba \"Nastavi sličico\" na strani projekta doda spustni meni, s katerim lahko nastavite sličico projekta na poljubno sliko (tudi gif).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Bližnjice v urejevalniku videzov",
-		"description": "Omogoči, da v urejevalniku videzov izberete orodje s tipkovnico (podobno kot v TurboWarpu). Premaknite miško na orodje, da vidite njegovo bližnjico.",
+		"description": "Omogoči preklapljanje med videzi s Ctrl+puščicama levo/desno ter izbiro orodja v urejevalniku videzov s tipkovnico (podobno kot v TurboWarpu). Premaknite miško na orodje, da vidite njegovo bližnjico.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "Če uporabljate macOS, uporabite tipko Cmd namesto Ctrl."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -675,10 +681,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "Dodatek \"Skrij gumb Vadnice\" je zdaj na voljo tukaj kot nastavitev."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -987,6 +989,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Izboljšano orodje za čiščenje blokov",
+		"description": "Izboljša možnost čiščenja blokov v meniju, ki se odpre, ko kliknete na območje za kodo z desno miškino tipko. Bloke razvrsti v več stolpcev in predlaga brisanje neuporabljenih spremenljivk in seznamov.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "Ta dodatek je bil prej del \"orodja za razvijalce\", vendar smo ga premaknili sem.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Barvni meniji",
 		"description": "Naredi menije, ki se odprejo, ko kliknete blok z desno miškino tipko, barvne.",
@@ -1089,9 +1114,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Orodje za razvijalce",
-		"description": "V menije v urejevalniku doda nove možnosti: kopiranje blokov, boljše čiščenje in drugo.",
+		"description": "V meni desne miškine tipke doda možnosti za kopiranje, rezanje in lepljenje blokov, zamenjavo spremenljivk in ustvarjanje prostora.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1145,9 +1176,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1189,6 +1219,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1259,12 +1290,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Nove barve blokov z večjim kontrastom so na voljo kot prednastavitev spodaj."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Med vlečenjem bloka se pokaže senca, ko ga premaknete blizu drugih blokov."
+				"text": "Barve blokov z večjim kontrastom so na voljo kot prednastavitev spodaj."
 			}
 		],
 		"dynamicEnable": true,
@@ -1323,10 +1349,6 @@
 			{
 				"id": "studioClick",
 				"text": "Za prikaz točnega števila projektov v studiu vključite nastavitev \"točna števila v studiih\" spodaj in kliknite napis \"100+\" na zavihku Projekti v studiu."
-			},
-			{
-				"id": "setting-removal",
-				"text": "Nastavitev Točno število objav pri uporabnikih forumov smo odstranili, ker podatkovna baza ScratchDB, ki jo je uporabljala, ni več na voljo."
 			}
 		],
 		"dynamicEnable": true,
@@ -1408,12 +1430,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Ta funkcija je bila prej del dodatka \"orodje za razvijalce\", vendar smo jo premaknili sem.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1472,7 +1488,7 @@
 		"name": "Mape figur",
 		"description": "Doda mape v sezname figur, videzov in zvokov. Kliknite figuro z desno miškino tipko in izberite \"ustvari mapo\", da naredite novo mapo. Kliknite mapo, da jo odprete ali zaprete. Kliknite figuro z desno tipko, da jo dodate v mapo, ali pa jo z miško povlecite v odprto mapo. Ta dodatek deluje tako, da na začetek imena figure doda \"[imeMape]//\".",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1482,7 +1498,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1534,7 +1554,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1612,7 +1637,7 @@
 		"id": "full-signature",
 		"name": "Prikaz celih območij",
 		"description": "Omogoči spreminjanje velikosti ali drsenje po nekaterih elementih z omejeno višino, kot so podpisi uporabnikov na forumih in Kaj sem počel na profilih.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1626,6 +1651,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1706,7 +1736,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Skrij gumb za brisanje",
-		"description": "Skrije gumb za izbris (ikona smetnjaka) figur, videzov in zvokov. Še vedno jih lahko izbrišite v meniju, ki se odpre, ko uporabite desno miškino tipko.",
+		"description": "Skrije gumb za izbris (ikona smetnjaka) figur, videzov in zvokov. Še vedno jih lahko izbrišite v meniju, ki se odpre, ko uporabite desno miškino tipko, ali pa tako, da držite tipko Shift.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1717,6 +1747,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1876,36 +1910,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Skoči na definicijo \"mojega bloka\"",
-		"description": "Omogoči, da se premaknete na definicijo \"mojega bloka\" s srednjim miškinim gumbom ali Shift+klikom.",
+		"description": "Skočite na definicijo svojega bloka tako, da kliknete blok s srednjo miškino tipko ali med držanjem tipke Shift. Lahko tudi izberete \"Pojdi na definicijo\" v meniju desne miškine tipke.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Ta funkcija je bila prej del dodatka \"orodje za razvijalce\", vendar smo jo premaknili sem.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Datum deljenja/zadnje spremembe",
-		"description": "Premaknite miško na datum, ko je bil projekt deljen, da vidite, kdaj točno je bil deljen in kdaj nazadnje urejen.",
+		"name": "Dodatni datumi na strani projekta",
+		"description": "Premaknite miško na datum, ko je bil projekt deljen, da vidite, kdaj točno je bil ustvarjen, deljen in nazadnje urejen.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -2000,7 +2043,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Snemanje videov projekta",
-		"description": "V menijsko vrstico v urejevalniku doda gumb \"začni snemanje\", ki omogoča snemanje odra.",
+		"description": "V menijsko vrstico v urejevalniku doda gumb \"snemaj\", ki omogoča snemanje odra.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2044,12 +2087,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Ta funkcija je bila prej del dodatka \"orodje za razvijalce\", vendar smo jo premaknili sem.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2086,12 +2123,6 @@
 		"name": "Premakni videz na vrh ali na dno",
 		"description": "V meni desne miškine tipke za videze in zvoke doda možnosti, ki predmet premakneta na vrh ali na dno seznama.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Ta funkcija je bila prej del dodatka \"orodje za razvijalce\", vendar smo jo premaknili sem.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2099,7 +2130,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Premakni figuro na sprednjo plast",
-		"description": "Shift+kliknite figuro na seznamu figur, da jo premaknite na sprednjo (zgornjo) plast odra.",
+		"description": "Premaknite figuro na sprednjo (zgornjo) plast odra tako, da izberete možnost v meniju desne miškine tipke ali pa jo kliknete medtem ko držite tipko Shift.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2110,7 +2141,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2261,14 +2296,6 @@
 				"type": "notice",
 				"text": "Ta dodatek ne deluje dobro na mobilnih napravah in v majhnih oknih.",
 				"id": "mobile"
-			},
-			{
-				"text": "Če bi radi videli več projektov in skrbnikov naenkrat, uporabite dodatek \"več predmetov v eni vrstici\".",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "Če želite, da je stran studia videti tako, kot je bila pred posodobitvijo, če je bil dodatek \"Scratch 2.0 → 3.0\" izključen, uporabite dodatek \"Scratch 3.0 → 2.0\".",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2686,7 +2713,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

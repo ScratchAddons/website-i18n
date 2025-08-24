@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnails instellen",
-		"description": "Voegt een knop rechtsonder de projectpagina toe om de thumbnail van je project in te stellen op een afbeelding (inclusief GIFs).",
+		"name": "Thumbnail uploader",
+		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Sneltoetsen voor uiterlijkeditor",
-		"description": "Voegt sneltoetsen toe voor gereedschappen in de uiterlijkeditor (zoals in TurboWarp). Zweef met de muis over een gereedschap om de sneltoets te zien.",
+		"description": "Allows switching costumes with Ctrl+Left/Right and selecting tools in the costume editor using keyboard shortcuts (similar to TurboWarp). Hover over a tool to view its shortcut.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "On macOS, use the Cmd key instead of the Ctrl key."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -672,10 +678,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "De addon \"Lessen-knop verbergen\" is hierheen verplaatst als een instelling."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -984,6 +986,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Enhanced clean up tool",
+		"description": "Improves the clean up feature in the code area's right click context menu with multiple columns and suggestions of removing unused variables and lists.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Gekleurde rechterklikmenu's",
 		"description": "Geeft rechterklikmenu's van blokken een kleur.",
@@ -1086,9 +1111,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Ontwikkelaarstools",
-		"description": "Voegt nieuwe menuopties toe aan de editor: blokken kopiëren/plakken, beter opruimen, en meer!",
+		"description": "Adds options to copy/cut/paste blocks, swap variables, and make space to the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1142,9 +1173,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1186,6 +1216,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1256,12 +1287,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "De nieuwe blokkleuren met hoog contrast zijn hieronder beschikbaar als een voorinstelling."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Een \"invoegmarkering\" is de schaduw die je ziet als je een blok dichtbij andere blokken sleept."
+				"text": "The High Contrast block colors are available as a preset below."
 			}
 		],
 		"dynamicEnable": true,
@@ -1320,10 +1346,6 @@
 			{
 				"id": "studioClick",
 				"text": "Om het exacte aantal projecten in studio's te zien, schakel je de onderstaande instelling \"exacte aantallen voor studio's\" in en klik je op de label met \"100+\" op het projectentabblad van studio's."
-			},
-			{
-				"id": "setting-removal",
-				"text": "De forum-instelling is verwijderd omdat het gebruikmaakt van de ScratchDB-database, die offline is."
 			}
 		],
 		"dynamicEnable": true,
@@ -1405,12 +1427,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Deze addon maakte voorheen deel uit van de \"ontwikkelaarstools\"-addon maar is nu hierheen verhuisd.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1469,7 +1485,7 @@
 		"name": "Spritemappen",
 		"description": "Geeft je de mogelijkheid om sprites, uiterlijken en geluiden te sorteren in mappen. Om een map aan te maken gebruik je de rechtermuisknop op een sprite en klik je op \"map aanmaken\". Klik op een map om het te openen of te sluiten. Gebruik de rechtermuisknop op een sprite om te zien naar welke mappen je het kunt verplaatsen, of sleep het naar een geopende map. Deze functie werkt door \"[mapNaam]//\" aan het begin van de namen van je sprites toe te voegen.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1479,7 +1495,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1531,7 +1551,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1609,7 +1634,7 @@
 		"id": "full-signature",
 		"name": "Volledige gebieden",
 		"description": "Laat de volledige inhoud van gebieden met gelimiteerde hoogte zien, zoals handtekeningen op de forums en Wat ik heb gedaan op profielen, door ze vergrootbaar of scrollbaar te maken.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1623,6 +1648,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1703,7 +1733,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Verwijderknop verbergen",
-		"description": "Verbergt de verwijderknop (afvalbakpictogram) in sprites, uiterlijken en geluiden. Ze kunnen nog steeds worden verwijderd in het rechterklikmenu.",
+		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu or by holding the Shift key.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1714,6 +1744,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1873,36 +1907,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Springen naar definitie van eigen blok",
-		"description": "Spring naar een definitie van een eigen blok met de scrolwielknop of Shift+Klik op het blok.",
+		"description": "Jump to a custom block's definition by middle-clicking or Shift+clicking on the block or selecting \"Go to Definition\" in the right click context menu.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Deze addon maakte voorheen deel uit van de \"ontwikkelaarstools\"-addon maar is nu hierheen verhuisd.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Tooltip voor datum van delen/wijzigen project",
-		"description": "Plaats je muisaanwijzer over de deeldatum van een project voor exacte informatie over wanneer het gedeeld en voor het laatst gewijzigd is.",
+		"name": "Additional project dates",
+		"description": "Hover over a project's share date for information on when exactly it was created, shared and last edited.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -1997,7 +2040,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Video's van project opnemen",
-		"description": "Voegt een \"opname starten\"-knop toe aan de editortaakbalk die je het speelveld laat opnemen.",
+		"description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2041,12 +2084,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Deze addon maakte voorheen deel uit van de \"ontwikkelaarstools\"-addon maar is nu hierheen verhuisd.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2083,12 +2120,6 @@
 		"name": "Verplaats uiterlijk naar boven of beneden",
 		"description": "Voegt opties toe in de rechterklikmenu's van uiterlijken of geluiden om ze helemaal boven of beneden in de lijst te plaatsen.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Deze addon maakte voorheen deel uit van de \"ontwikkelaarstools\"-addon maar is nu hierheen verhuisd.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2096,7 +2127,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Sprite verplaatsen naar voorgrond",
-		"description": "Klik met shift ingedrukt op een sprite in het sprite-paneel om het naar de voorgrond (bovenste laag) van het speelveld te verplaatsen.",
+		"description": "Move a sprite to the front (top layer) of the stage from its context menu or by Shift+Clicking it.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2107,7 +2138,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2258,14 +2293,6 @@
 				"type": "notice",
 				"text": "Deze addon werkt niet goed op mobiele apparaten en kleine schermen.",
 				"id": "mobile"
-			},
-			{
-				"text": "Als je meerdere projecten en beheerders tegelijk wilt zien, gebruik je de addon \"meer items per rij\".",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "Als je wilt dat de studiopagina eruitziet zoals voor de update als de addon \"Scratch 2.0 → 3.0\" uitgeschakeld was, gebruik je de addon \"Scratch 3.0 → 2.0\".",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2683,7 +2710,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

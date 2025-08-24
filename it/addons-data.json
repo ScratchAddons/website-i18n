@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Scegli immagine anteprima del progetto",
-		"description": "Aggiunge un pulsante in fondo a destra nella pagina del progetto per modificare l'anteprima del progetto con qualunque immagine (incluse le gif).",
+		"name": "Caricatore di anteprima",
+		"description": "Aggiunge un menu al pulsante \"Personalizza Anteprima\" nella pagina dei progetti per impostare l'anteprima del tuo progetto usando un'immagine qualunque (incluse le immagini GIF).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Scorciatoie da tastiera per editor dei costumi",
-		"description": "Aggiunge scorciatoie da tastiera agli strumenti dell'editor di costumi (in modo simile a TurboWarp). Sposta il puntatore su uno strumento per vedere la sua scorciatoia.",
+		"description": "Nell'editor di immagini permette di cambiare il costume usando Ctrl+Sinistra/Destra e di selezionare gli strumenti usando scorciatoie da tastiera (in modo simile a TurboWarp). Sposta il puntatore su uno strumento per vedere la sua scorciatoia.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "In macOS, usa il tasto Cmd invece del tasto Ctrl."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -672,10 +678,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "L'addon \"Nascondi pulsante tutorial\" è stato spostato qui come una delle possibili impostazioni."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -984,6 +986,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Strumento di pulizia dei blocchi migliorato",
+		"description": "Migliora la pulizia dei blocchi del menu che si apre cliccando il tasto destro nell’area degli script proponendo un’organizzazione in diverse colonne e suggerendo di rimuovere variabili e list non usate nel codice.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "Questo addon era parte degli \"strumenti per sviluppatori\", ma è stato spostato qui.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Menu contestuali colorati",
 		"description": "Rende colorato il menu contestuale degli script.",
@@ -1086,9 +1111,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Strumenti per sviluppatori",
-		"description": "Aggiunge nuove opzioni nei menu dell'editor: copia/incolla dei blocchi, riordino degli script migliorato, e molto altro!",
+		"description": "Aggiunge nel menu che si apre cliccando con il tasto destro delle opzioni per copiare/tagliare/incollare blocchi, scambiare variabili e fare spazio.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1142,9 +1173,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1186,6 +1216,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1256,12 +1287,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "i nuovi colori per blocchi ad Elevato Contrasto sono disponibili come impostazione qui sotto."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Quando si trascina un blocco, il “punto di inserimento” è un ombra che compare quando il blocco viene spostato vicino agli altri blocchi."
+				"text": "I colori per blocchi ad Elevato Contrasto sono disponibili come impostazione qui sotto."
 			}
 		],
 		"dynamicEnable": true,
@@ -1320,10 +1346,6 @@
 			{
 				"id": "studioClick",
 				"text": "Per vedere il numero preciso di progetti di una galleria, abilita l'impostazione \"conteggio esatto nelle gallerie\" che trovi qui sotto e poi clicca l'etichetta \"100+\" della scheda Progetti quando ti trovi in una galleria."
-			},
-			{
-				"id": "setting-removal",
-				"text": "Le impostazioni dei forum sono state rimosse, in quanto il database ScratchDB usato non è online."
 			}
 		],
 		"dynamicEnable": true,
@@ -1405,12 +1427,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": " Questo addon faceva parte in precedenza dell'addon \"strumenti per sviluppatori\" ma è stato spostato qui.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1469,7 +1485,7 @@
 		"name": "Cartelle degli sprite",
 		"description": "Permette di organizzare in cartelle le liste degli sprite, dei costumi e dei suoni. Per creare una cartella clicca con il tasto destro su qualunque sprite, costume o suono e seleziona \"crea cartella\". Clicca una cartella per aprirla o chiuderla. Clicca con il tasto destro uno sprite, un costume o un suono per seleziona la cartella in cui spostarlo, oppure trascinalo in una cartella aperta. Questa funzione aggiunge \"[nomeCartella]//\" all'inizio del nome dei tuoi sprite. ",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1479,7 +1495,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1531,7 +1551,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1609,7 +1634,7 @@
 		"id": "full-signature",
 		"name": "Mostra aree complete",
 		"description": "Mostra il contenuto completo delle aree con altezza limitata, come ad esempio la firma dell'utente nei forum e la sezione Cosa sto facendo dei profili, rendendole ridimensionabili e scrollabili.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1623,6 +1648,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1703,7 +1733,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Nasconde il pulsante cancella",
-		"description": "Nasconde il pulsante cancella (icona del cestino) dagli sprite, costumi e suoni. E' possibile cancellarli usando il menu contestuale.",
+		"description": "Nasconde il pulsante cancella (icona del cestino) dalle icone di sprite, costumi e suoni. E' possibile cancellarli usando il menu che compare cliccandoli con il tasto destro o cliccandoli mentre si tiene premuto il tasto Shift.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1714,6 +1744,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1873,36 +1907,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Vai alla definizione del blocco personalizzato",
-		"description": "Ti permette di andare alla definizione di un blocco personalizzato usando il pulsante centrale del mouse oppure cliccando il blocco mentre si preme Shift.",
+		"description": "Vai alla definizione di un blocco personalizzato cliccando il blocco con il tasto centrale del mouse oppure con Shift+click oppure selezionando \"Vai alla Definizione\" nel menu contestuale.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Questo addon faceva parte in precedenza dell'addon  \"strumenti per sviluppatori\" ma è stato spostato qui.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Tooltip che mostra la data di condivisione e di ultima modifica",
-		"description": "Passa con il mouse sopra la data di condivisione di un progetto per vedere esattamente quando é stato condiviso e quando invece é avvenuta l'ultima modifica.",
+		"name": "Date aggiuntive del progetto",
+		"description": "Passa con il mouse sopra la data di condivisione di un progetto per vedere esattamente quando é stato creato, quando è stato condiviso e quando é avvenuta l'ultima modifica.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -2041,12 +2084,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": " Questo addon faceva parte in precedenza dell'addon \"strumenti per sviluppatori\" ma è stato spostato qui.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2083,12 +2120,6 @@
 		"name": "Sposta costumi in cima o in fondo",
 		"description": "Aggiunge opzione al menu contestuale per spostare i costumi e i suoni in cima o in fondo alla lista.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": " Questo addon faceva parte in precedenza dell'addon \"strumenti per sviluppatori\" ma è stato spostato qui.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2096,7 +2127,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Porta lo sprite in primo piano ",
-		"description": "Usa Shift+Click sull'icona di uno sprite nell'area degli sprite per portarlo in primo piano (primo livello) sullo Stage.",
+		"description": "Porta uno sprite in primo piano (primo livello) dello Stage usando il menu contestuale o Shift+Click.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2107,7 +2138,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2258,14 +2293,6 @@
 				"type": "notice",
 				"text": "Questo addon non funziona al meglio sui dispositivi mobili e nelle finestre di piccole dimensioni.",
 				"id": "mobile"
-			},
-			{
-				"text": "Se vuoi vedere un numero maggiore di progetti e curatori, usa l'addon \"più elementi per riga\".",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "Se vuoi vedere le pagine delle gallerie nel modo in cui le vedevi prima dell'aggiornamento, se l'addon \"Scratch 2.0 → 3.0\" era disabilitato usa ora l'addon \"Scratch 3.0 → 2.0\".",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2683,7 +2710,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",

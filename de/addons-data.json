@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Vorschaubild-Setzer",
-		"description": "Fügt eine Schaltfläche unten rechts zur Projektseite hinzu, mit der du das Vorschaubild deines Projektes zu einem beliebigen Bild (einschließlich GIFs) ändern kannst.",
+		"name": "Eigenes Vorschaubild hochladen",
+		"description": "Fügt ein Dropdown-Menü neben der Schaltfläche \"Vorschaubild setzen\" auf Projektseiten hinzu, mit dem du das Vorschaubild deines Projekts zu einem beliebigen Bild setzen kannst (einschließlich animierter gifs).",
 		"tags": ["community", "projectPage", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -326,7 +326,8 @@
 				"id": "watch"
 			}
 		],
-		"enabledByDefault": false,
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
@@ -531,7 +532,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Tastaturkurzbefehle im Kostümeditor",
-		"description": "Fügt Tastaturkurzbefehle für Werkzeuge im Kostümeditor hinzu (ähnlich wie bei TurboWarp). Fahre mit der Maus über ein Werkzeug, um dessen Kürzel anzuzeigen.",
+		"description": "Ermöglicht das Wechseln zwischen Kostümen mit Strg+Links/Rechts und die Auswahl von Werkzeugen im Kostümeditor mithilfe von Tastenkürzeln (wie bei TurboWarp). Fahre mit der Maus über ein Werkzeug, um dessen Kürzel anzuzeigen.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -539,12 +540,17 @@
 				"link": "https://scratch.mit.edu/users/Hollow_Song/"
 			}
 		],
+		"info": [
+			{
+				"id": "cmdKey",
+				"text": "Verwende auf macOS statt der Strg-Taste die Cmd-Taste."
+			}
+		],
 		"enabledByDefault": false,
 		"versionAdded": "1.41.0",
 		"latestUpdate": {
-			"version": "1.42.0",
-			"isMajor": true,
-			"temporaryNotice": "The bug where shortcuts were still triggered while holding the Ctrl key was fixed."
+			"version": "1.43.0",
+			"temporaryNotice": "Costumes can now be switched with Ctrl+Left/Right. This was previously a hidden feature of the \"developer tools\" addon."
 		}
 	},
 	{
@@ -675,10 +681,6 @@
 			}
 		],
 		"info": [
-			{
-				"id": "tutorials-button-update",
-				"text": "Das Addon \"Tutorien-Schaltfläche ausblenden\" wurde als Einstellung hierher verschoben."
-			},
 			{
 				"type": "notice",
 				"id": "small-screens",
@@ -987,6 +989,29 @@
 		"versionAdded": "1.27.0"
 	},
 	{
+		"id": "editor-cleanup-plus",
+		"name": "Verbessertes Aufräumwerkzeug",
+		"description": "Verbessert die Bereinigungsfunktion im Kontextmenü des Codebereichs mit dem Rechtsklick mit mehreren Spalten und Vorschlägen zum Entfernen ungenutzter Variablen und Listen.",
+		"tags": ["editor", "codeEditor", "recommended"],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
+		"info": [
+			{
+				"text": "Dieses Addon gehörte früher zum \"Entwicklertools\"-Addon, aber es wurde hierher verschoben.",
+				"id": "developer-tools"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"versionAdded": "1.43.0"
+	},
+	{
 		"id": "editor-colored-context-menus",
 		"name": "Farbige Kontextmenüs",
 		"description": "Macht die Kontextmenüs beim Rechtsklicken auf Blöcken farbig.",
@@ -1089,9 +1114,15 @@
 	{
 		"id": "editor-devtools",
 		"name": "Entwicklertools",
-		"description": "Fügt neue Menüoptionen zum Editor hinzu: Blöcke kopieren/einfügen, besseres Aufräumen und mehr!",
+		"description": "Fügt Optionen zum Kopieren/Ausschneiden/Einfügen von Blöcken, zum Tauschen von Variablen und zum Erstellen von Platz zum Kontextmenü mit der rechten Maustaste hinzu.",
 		"tags": ["editor", "codeEditor", "recommended"],
-		"credits": [{ "name": "griffpatch" }],
+		"credits": [
+			{ "name": "griffpatch" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"dynamicEnable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0"
@@ -1145,9 +1176,8 @@
 		"dynamicDisable": true,
 		"versionAdded": "1.34.0",
 		"latestUpdate": {
-			"version": "1.35.0",
-			"newSettings": ["useCustom"],
-			"temporaryNotice": "You can now increment input fields that are not in blocks, like the sprite properties, and fully customize the values."
+			"version": "1.43.0",
+			"temporaryNotice": "More inputs are now supported, such as color picker inputs and onion skinning settings."
 		}
 	},
 	{
@@ -1189,6 +1219,7 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
+		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.14.0"
 	},
 	{
@@ -1259,12 +1290,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "Die neuen kontrastreichen Blockfarben sind unten als Vorlage verfügbar."
-			},
-			{
-				"id": "whatsInsertionMarker",
-				"type": "info",
-				"text": "Die \"Einfügemarkierung\" ist der Schatten, der beim Ziehen von Blöcken in der Nähe von anderen Blöcken erscheint."
+				"text": "Die Blockfarben mit hohem Kontrast sind unten als Vorlage verfügbar."
 			}
 		],
 		"dynamicEnable": true,
@@ -1323,10 +1349,6 @@
 			{
 				"id": "studioClick",
 				"text": "Um die genau Anzahl von Projekten in einem Studio anzuzeigen y aktiviere unten die Einstellungen \"genaue Anzahl in Studios\" und klicke auf das Label \"100+\" auf dem Projekte-Tab des Studios."
-			},
-			{
-				"id": "setting-removal",
-				"text": "Die Forum-Einstellung wurde entfernt, da die benötigte ScratchDB-Datenbank offline ist."
 			}
 		],
 		"dynamicEnable": true,
@@ -1408,12 +1430,6 @@
 				"link": "https://scratch.mit.edu/users/thecolaber/"
 			}
 		],
-		"info": [
-			{
-				"text": "Dieses Addon gehörte früher zum \"Entwicklertools\"-Addon, aber es wurde hierher verschoben.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
@@ -1472,7 +1488,7 @@
 		"name": "Figurenordner",
 		"description": "Fügt Ordner zur Figurenliste hinzu, sowie zur Kostüm- und Klangliste. Um einen Ordner zu erstellen, klicke mit der rechten Maustaste auf eine Figur und wähle \"neuer Ordner\". Klicke mit der rechten Maustaste eine Figur an, um sie in einen Ordner zu verschieben, oder ziehe sie in einen offenen Ordner. Dieses Feature funktioniert durch Hinzufügen von \"[Orndername]//\" vor dem Namen deiner Figuren.",
 		"tags": ["editor", "recommended"],
-		"credits": [{ "name": "GarboMuffin" }],
+		"credits": [{ "name": "GarboMuffin" }, { "name": "Valmontechno" }],
 		"info": [
 			{
 				"type": "notice",
@@ -1482,7 +1498,11 @@
 		],
 		"enabledByDefault": false,
 		"libraries": ["scratch-gui"],
-		"versionAdded": "1.11.0"
+		"versionAdded": "1.11.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now delete all folder contents using the right click context menu."
+		}
 	},
 	{
 		"id": "forum-copy-code",
@@ -1534,7 +1554,12 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.34.0"
+		"versionAdded": "1.34.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The countdown is now more accurate.",
+			"newSettings": ["retry"]
+		}
 	},
 	{
 		"id": "forum-quote-code-beautifier",
@@ -1612,7 +1637,7 @@
 		"id": "full-signature",
 		"name": "Vollständige Bereiche",
 		"description": "Zeigt den ganzen Inhalt von Bereichen mit begrenzter Höhe an, zum Beispiel Nutzersignaturen in Foren und Was Ich gemacht habe auf Profilen, indem es sie Größenveränderbar oder Scrollbar macht.",
-		"tags": ["community", "forums", "recommended", "profiles"],
+		"tags": ["community", "forums", "recommended", "profiles", "projectPage"],
 		"credits": [
 			{ "name": "GrahamSH" },
 			{ "name": "NitroCipher/ZenithRogue" },
@@ -1626,6 +1651,11 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.0.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["titles"],
+			"isMajor": true
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1706,7 +1736,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Löschen-Schaltfläche verstecken",
-		"description": "Versteckt die Löschen-Schaltfläche (das Mülleimer-Icon) von FIguren, Kostümen und Klängen. Sie können weiterhin mit dem Rechtsklick-Kontextmenü gelöscht werden.",
+		"description": "Versteckt die Löschen-Schaltfläche (das Mülleimer-Icon) von Figuren, Kostümen und Klängen. Sie können weiterhin über das Rechtsklick-Kontextmenü oder durch gedrückt Halten der Umschalttaste gelöscht werden.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1717,6 +1747,10 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.19.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now hold Shift to show delete buttons."
+		},
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
@@ -1876,36 +1910,45 @@
 	{
 		"id": "jump-to-def",
 		"name": "Zu Blockdefinition springen",
-		"description": "Klicke mit gedrückter Umschalt-Taste oder mit der mittleren Maustaste auf einen benutzerdefinierten Block, um zu seiner Definition zu springen.",
+		"description": "Springe zur Definition eines benutzerdefinierten Blocks, indem du mit der rechten oder mittleren Maustaste oder mit gedrückter Umschalttaste auf einen Block klickst.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
-		"info": [
-			{
-				"text": "Dieses Addon gehörte früher zum \"Entwicklertools\"-Addon, aber es wurde hierher verschoben.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": true,
-		"versionAdded": "1.28.0"
+		"versionAdded": "1.28.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "You can now use the context menu (open by right clicking or touching and holding) to jump to custom block definitions."
+		}
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Veröffentlichungs/Änderungs-Tooltip",
-		"description": "Schwebe mit der Maus auf dem Veröffentlichungsdatum, um zu sehen, wann genau es veröffentlicht und zuletzt geändert wurde.",
+		"name": "Zusätzliche Projektdaten",
+		"description": "Fahre mit der Maus über dem Veröffentlichungsdatum eines Projekts, um genau zu sehen, wann es erstellt, veröffentlicht und zuletzt bearbeitet wurde.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
 				"name": "TheColaber",
 				"link": "https://scratch.mit.edu/users/TheColaber/"
 			},
-			{ "name": "Weredime (9gr)", "link": "https://scratch.mit.edu/users/9gr/" }
+			{
+				"name": "Weredime (9gr)",
+				"link": "https://scratch.mit.edu/users/9gr/"
+			},
+			{
+				"name": "AeroKoder",
+				"link": "https://scratch.mit.edu/users/AeroKoder/"
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"versionAdded": "1.2.0"
+		"versionAdded": "1.2.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "Added the project creation date to the tooltip."
+		}
 	},
 	{
 		"id": "live-featured-project",
@@ -2000,7 +2043,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Projektvideorekorder",
-		"description": "Fügt eine Schaltfläche zur Menüleiste im Editor hinzu, mit der du die Bühne des Projekts aufnehmen kannst.",
+		"description": "Fügt eine Schaltfläche zur Menüleiste im Editor hinzu, mit der die Bühne des Projekts aufgenommen werden kann.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2044,12 +2087,6 @@
 			},
 			{ "name": "CST1229", "link": "https://github.com/CST1229" }
 		],
-		"info": [
-			{
-				"text": "Dieses Addon gehörte früher zum \"Entwicklertools\"-Addon, aber es wurde hierher verschoben.",
-				"id": "developer-tools"
-			}
-		],
 		"enabledByDefault": true,
 		"libraries": ["scratch-blocks"],
 		"versionAdded": "1.30.0",
@@ -2086,12 +2123,6 @@
 		"name": "Element an erste/letzte Stelle verschieben",
 		"description": "Fügt Optionen zum Verschieben von Kostümen und Klängen an erste oder letzte Stelle der Liste zum Rechtsklick-Kontextmenü hinzu.",
 		"tags": ["editor", "costumeEditor", "featured"],
-		"info": [
-			{
-				"text": "Dieses Addon gehörte früher zum \"Entwicklertools\"-Addon, aber es wurde hierher verschoben.",
-				"id": "developer-tools"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
@@ -2099,7 +2130,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Figur an vorderste Ebene bewegen",
-		"description": "Klicke mit gedrückter Umschalt-Taste auf eine Figur in der Figurenliste, um sie an die vorderste (oberste) Ebene der Bühne zu bewegen.",
+		"description": "Bewege eine Figur zur vordersten (obersten) Ebene der Bühne, indem du mit der rechten Maustaste oder gedrückter Umschalttaste darauf klickst.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2110,7 +2141,11 @@
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
-		"versionAdded": "1.32.0"
+		"versionAdded": "1.32.0",
+		"latestUpdate": {
+			"version": "1.43.0",
+			"temporaryNotice": "The context menu can now be used to move sprites to the front layer."
+		}
 	},
 	{
 		"id": "msg-count-badge",
@@ -2261,14 +2296,6 @@
 				"type": "notice",
 				"text": "Dieses Addon funktioniert auf Mobilgeräten und kleinen Fenstern schlecht.",
 				"id": "mobile"
-			},
-			{
-				"text": "Wenn du mehr Projekte und Kuratoren auf einmal sehen möchtest, verwende das \"Mehr Elemente pro Reihe\"-Addon.",
-				"id": "itemsPerRow"
-			},
-			{
-				"text": "Wenn du möchtest, dass die Studioseite so aussieht wie vor dem Update, wenn das Addon „Scratch 2.0 → 3.0“ deaktiviert war, verwende das Addon „Scratch 3.0 → 2.0“.",
-				"id": "scratch3to2"
 			}
 		],
 		"dynamicEnable": true,
@@ -2686,7 +2713,13 @@
 		"dynamicDisable": true,
 		"libraries": ["scratch-flash"],
 		"versionAdded": "1.41.0",
-		"injectAsStyleElt": true
+		"latestUpdate": {
+			"version": "1.43.0",
+			"newSettings": ["navbarSeparators"],
+			"isMajor": true
+		},
+		"injectAsStyleElt": true,
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "scratchr2",
