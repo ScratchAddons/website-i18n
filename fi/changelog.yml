@@ -231,3 +231,10 @@ v1.42.0:
       Uusi lisäosa: "kuvataajuuslaskuri" näyttää projektin kuvataajuuden esiintymislavan yllä. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
 
       Toinen uusi lisäosa on "merkitse foorumiaiheet heti luetuiksi" merkitsee foorumiaiheet heti luetuiksi, kun ne avataan uudessa välilehdessä.
+v1.43.0:
+  Highlights:
+    Description: |
+      "Paranneltu siivoustyökalu" -lisäosa, joka oli aiemmin osa "kehittäjän työkalut" -lisäosaa, voidaan nyt kytkeä erikseen päälle tai pois päältä Scratch-lisäosien asetuksissa. Nyt voit myös valita, poistetaanko käyttämättömät muuttujat ja listat siivouksen yhteydessä.
+
+      Muita tämän päivityksen uusia ominaisuuksia ovat "Scratch 3.0 → 2.0"- ja "täydet alueet" -lisäosien uudet asetukset sekä parempi mobiililaitetuki.
+    ImageAlt: "Näyttökuva koodialueen pikavalikosta, jossa \"Siivoa lohkot +\" -toiminto on korostettu."

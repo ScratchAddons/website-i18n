@@ -15,14 +15,14 @@ Vaikka Scratch-lisäosien käyttäjäskriptit ovat osa selainlaajennusta, nillä
 {{< admonition warning >}}
 **Jotkin muutokset vaativat laajennuksen päivittämistä** `chrome://extensions`-sivulla, jotta muutokset, kuten manifest-tiedoston päivitykset, astuvat voimaan.
 
-Ei ole välttämätöntä päivittää laajennusta jo olemassa olevaa JavaScript-tiedostoa muuttaessa. Tällöin sivun uudelleenlataus riittää.
+Kun teet muutoksia olemassa olevaan JavaScript-käyttäjäskriptitiedostoon, sinun ei tarvitse ladata laajennusta uudelleen. Tuolloin pelkkä sivun lataaminen uudelleen riittää.
 {{< /admonition >}}
 
-Käyttäjäskriptit ilmoitetaan "userscripts"-taulukossa.
+Käyttäjäskriptit määritellään "userscripts"-taulukossa.
 
 Jokaisella taulukon kohteella on oltava seuraavat ominaisuudet:
 - `"url"`: suhteellinen URL-osoite JavaScript-tiedostoon
-- `"matches"`: luettelo Scratch-sivuista, joilla käyttäjä skripti suoritetaan. Lue lisää [matches-ominaisuuden referensistä](/docs/reference/addon-manifest/#matches).
+- `"matches"`: luettelo Scratch-sivuista, joilla käyttäjäskripti suoritetaan. Lue lisää [matches-ominaisuuden referenssistä](/docs/reference/addon-manifest/#matches).
 
 Esimerkki manifest-tiedostosta:
 ```json
@@ -51,7 +51,7 @@ export default async function ({ addon, console }) {
 }
 ```
 
-Muista, että JavaScriptissä funktiot voidaan ilmoittaa toisten funktioiden sisällä:
+Muista, että JavaScriptissä funktiot voidaan määritellä toisten funktioiden sisällä:
 ```js
 export default async function ({ addon, console }) {
   async function sayHelloToUser() {

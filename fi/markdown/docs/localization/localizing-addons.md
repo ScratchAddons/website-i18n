@@ -5,7 +5,7 @@ description: Lisäosien lokalisointi on helppoa.
 Lisäosien lokalisointi on helppoa.
 
 ## Viestien lisääminen
-Tee `ADDONID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. ADDONID on lisäosan tunnus (kansion nimi). Kirjoita sinne viestit , jotka haluat kääntää:
+Tee `ADDONID.json`-niminen tiedosto kohtaan `addons-l10n/en/`. ADDONID on lisäosan tunniste (kansion nimi). Kirjoita sinne viestit, jotka haluat kääntää:
 
 ```json
 {
@@ -37,7 +37,7 @@ Muuta käyttäjäskriptisi ensimmäinen rivi jostakin tällaisesta:
 export default async function ({ addon, console }) {
 ```
 
-tällaiseen:
+tällaiseksi:
 ```
 export default async function ({ addon, console, msg }) {
 ```
@@ -47,14 +47,14 @@ Skriptiin lisätty `msg` on funktio, jota käytetään käännösten saamiseksi.
 ### Paikanvaraajat
 Voit käyttää paikanvaraajien arvoja:
 ```js
-cat = msg("cats", {number: 1}) // shows "1 cat"
-cats = msg("cats", {number: 3}) // shows "3 cats"
-hungry = msg("eat", {food: "cod"}) // shows "I want to eat cod!"
+cat = msg("cats", {number: 1}) // näyttää tesktin "1 cat"
+cats = msg("cats", {number: 3}) // näyttää tekstin "3 cats"
+hungry = msg("eat", {food: "cod"}) // näyttää tekstin "I want to eat cod!"
 ```
 
 Voit myös laittaa viestejä "sisäkkäin":
 ```js
-hungry2 = msg("eat", {food: msg("salmon")}) // shows "I want to eat salmon!"
+hungry2 = msg("eat", {food: msg("salmon")}) // näyttää tekstin "I want to eat salmon!"
 ```
 
 ### Turvallisuus

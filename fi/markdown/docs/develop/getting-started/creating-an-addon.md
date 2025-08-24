@@ -9,7 +9,7 @@ Jos ajattelit lähettää kehittämäsi lisäosan vetopyyntönä GitHub-tietosä
 {{< /admonition >}}
 
 ## Vaatimukset
-Scratch Addons does not require any software for development except a text editor and a Chromium-based browser (121+), but we also recommend having [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/) (121+) and [Visual Studio Code](https://code.visualstudio.com/) installed.
+Scratch-lisäosien kehittämiseen ei vaadita muita tietokoneohjelmia kuin tekstieditori ja Chromium-pohjainen selain (121+). On kuitenkin suositeltavaa, että asennettuna on myös [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/fi/) (121+) ja [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Asennus
 Asenna laajennus kehitystä varten [Asennus lähdekoodista](/docs/getting-started/installing/#from-source) -sivun ohjeiden mukaan.
@@ -29,7 +29,7 @@ Lisäosien ei pidä käyttää nimitunnistetta, joka on ollut käytössä vakaas
 - `scratchstats`
 - `tutorials-button`
 
-Open the `addons.json` file in the `addons` folder, insert a new addon ID above the `// NEW ADDONS ABOVE THIS ↑↑` line near the bottom of the file, then create a sub-folder with the same name.
+Avaa `addons.json`-tiedosto `addons`-kansiosta. Lisää uuden lisäosan nimitunniste tiedoston loppuosassa olevan `// NEW ADDONS ABOVE THIS ↑↑` -rivin ylle. Luo sitten samanniminen alakansio.
 
 ## Lisäosan manifest-tiedosto
 Jokaisella lisäosalla on oma [manifest-tiedostonsa](/docs/reference/addon-manifest/), johon on kirjattu, miten lisäosa näytetään asetussivulla, kaikki lisäosan asetukset sekä suoritettavat käyttäjäskriptit tai -tyylit ja sivu, jolla ne suoritetaan.
@@ -44,7 +44,7 @@ Tässä on tiivistetty lisäosan manifest-tiedosto:
 }
 ```
 
-Lisätietoja tiedoista, jotka voidaan määrittää manifest-tiedostossa, löytyy [lisäosien manifest-tiedoston referenssistä](/docs/reference/addon-manifest/).
+Lisätietoja tiedoista, jotka voidaan määritellä manifest-tiedostossa, löytyy [lisäosien manifest-tiedoston referenssistä](/docs/reference/addon-manifest/).
 
 Lisäosa ei tee vielä mitään, mutta se näkyy ponnahdusikkunassa ja asetussivulla laajennuksen päivittämisen jälkeen.
 
@@ -53,7 +53,7 @@ Lisäosa ei tee vielä mitään, mutta se näkyy ponnahdusikkunassa ja asetussiv
 
 Käyttäjäskripteillä on pääsy [addon-rajapintoihin](/docs/reference/addon-api/), joiden avulla ne voivat suorittaa tiettyjä Scratchiin liittyviä tehtäviä helpommin, kuten hakea tällä hetkellä sisäänkirjautuneen käyttäjän.
 
-Kun käyttäjäskripti tai -tyyli lisätään lisäosan kansioon, se täytyy ilmoittaa lisäosan manifest-tiedostossa. Muuten sitä ei suoriteta.
+Kun käyttäjäskripti tai -tyyli lisätään lisäosan kansioon, se täytyy määritellä lisäosan manifest-tiedostossa. Muuten sitä ei suoriteta.
 
 ## Lisäosan asetukset
 Manifest-tiedoston [settings-olion](/docs/reference/addon-manifest/#settings-object) avulla lisäosalle voidaan lisätä asetuksia, kuten kytkimiä, tekstikenttiä tai värinvalitsimia, jotta käyttäjät voivat mukauttaa sitä asetussivulla.
@@ -64,7 +64,7 @@ Lue [addon.settings](/docs/reference/addon-api/addon.settings)-rajapinnan oppaas
 {{< admonition info >}}
 Jos tietosäilössä ei ole uuteen lisäosaideaasi liittyvää GitHub-seikkaa, luo sellainen. Jos on kuitenkin seikka, joka liittyy ominaisuusideaasi, on suositeltavaa jättää siihen kommentti ilmoittamaan aikeestasi kehittää lisäosa. Tällöin muut osallistujat voivat kertoa, voidaanko lisäosa hyväksyä vai tarvitaanko vielä lisäkeskustelua.
 
-Huomioi myös, että GitHubin käyttöehdot edellyttävät yli 13 vuoden ikää tilin luomiseksi.
+Ota myös huomioon, että GitHubin käyttöehdot edellyttävät, että tilin luova käyttäjä on yli 13-vuotias.
 {{< /admonition >}}
 
 Jos haluat lähettää lisäosasi Scratch-lisäosien GitHub-tietosäilöön, jotta se voitaisiin lisätä lisäosakirjastoon, varmista, että se toimii odotetusti muiden lisäosien kanssa ja yksinään eikä se riko muita lisäosia. Lisäosan manifest-tiedostossa on oltava hyvä nimi ja kuvaus, `versionAdded`-kohdassa pitäisi olla laajennuksen seuraava versio ja lisäosan ei pidä olla oletuksena käytössä. Lisäosien tulisi tukea dynaamista käyttöönottoa ja käytöstäpoistoa, mutta sitä ei vaadita. 

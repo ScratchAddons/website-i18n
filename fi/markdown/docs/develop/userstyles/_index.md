@@ -1,25 +1,25 @@
 ---
 title: Käyttäjätyylit
-description: Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+description: Käyttäjätyylit ovat CSS-sääntöjä, jotka vaikuttavat Scratch-sivuihin. Ne voivat kohdistua joko Scratchissa valmiiksi oleviin elementteihin tai lisäosien sivulle lisäämiin elementteihin.
 ---
 
-Userstyles are CSS rules that affect Scratch pages. They can apply styles to existing Scratch UI, as well as to elements that were added to the page by addons.
+Käyttäjätyylit ovat CSS-sääntöjä, jotka vaikuttavat Scratch-sivuihin. Ne voivat kohdistua joko Scratchissa valmiiksi oleviin elementteihin tai lisäosien sivulle lisäämiin elementteihin.
 
 
-## Declaring userstyles in the addon manifest
+## Käyttäjätyylien määritteleminen lisäosan manifest-tiedostossa
 
 {{< admonition warning >}}
 **Jotkin muutokset vaativat laajennuksen päivittämistä** `chrome://extensions`-sivulla, jotta muutokset, kuten manifest-tiedoston päivitykset, astuvat voimaan.
 
-It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
+Kun teet muutoksia olemassa olevaan CSS-käyttäjätyylitiedostoon, sinun ei tarvitse ladata laajennusta uudelleen. Tuolloin pelkkä sivun lataaminen uudelleen riittää.
 {{< /admonition >}}
 
-Userstyles are declared inside a "userstyles" array, similarly to userscripts.
+Käyttäjätyylit määritellään "userstyles"-taulukossa, samalla tavalla kuin käyttäjäskriptit.
 
 Jokaisella taulukon kohteella on oltava seuraavat ominaisuudet:
-- `"url"`: the relative URL to a CSS file.
-- `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
-- `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
+- `"url"`: suhteellinen URL-osoite CSS-tiedostoon
+- `"matches"`: luettelo Scratch-sivuista, joilla käyttäjätyyli suoritetaan. Lue lisää [matches-ominaisuuden referenssistä](/docs/reference/addon-manifest/#matches).
+- `if`: luettelo ehdoista, jotka voivat muuttaa sitä, onko käyttäjätyyli käytössä vai ei. Lue lisää [user.if-ominaisuuden referenssistä](https://scratchaddons.com/docs/reference/addon-manifest/#if).
 
 Esimerkki manifest-tiedostosta:
 ```json
@@ -55,54 +55,54 @@ Esimerkki manifest-tiedostosta:
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Käyttäjätyylin kytkeminen päälle tai pois sivun latautumisen jälkeen
 
-It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
+Yleensä on turha käyttää JavaScript-käyttäjäskriptiä siihen, että ottaa käyttäjätyylin käyttöön tai poistaa sen käytöstä sen mukaan, miten käyttäjä muuttaa asetuksiaan.
 
-- Including `dynamicEnable: true` in the addon manifest will allow the extension to dynamically inject userstyles if the addon has been enabled (for the first time) after loading the page.
-- Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- `dynamicEnable: true` -arvon sisällyttäminen lisäosan manifest-tiedostoon antaa laajennuksen lisätä käyttäjätyylejä dynaamisesti, jos lisäosa on otettu käyttöön (ensi kertaa) sivun lataamisen jälkeen.
+- `dynamicDisable: true` -arvon sisällyttäminen lisäosan manifest-tiedostoon antaa laajennuksen poistaa tai lisätä uudelleen käyttäjätyylejä dynaamisesti vaatimatta sivua latautumaan uudelleen, jos lisäosa on kytketty päälle tai pois päältä.
+- `updateUserstylesOnSettingsChange: true` -arvon sisällyttäminen lisäosan manifest-tiedostoon arvioi käyttäjän asetuksista riippuvat "if"-ehtolauseet uudelleen vaatimatta sivua latautumaan uudelleen. Laajennus poistaa ja lisää käyttäjätyylejä sen mukaisesti.
 
 
-## Accessing addon settings from CSS
+## Pääsy lisäosan asetuksiin CSS-koodista
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Käyttäjätyylit voivat helposti hankkia väri- ja lukuasetuksia CSS-muuttujien avulla. Ne pääsevät käsiksi muidenkin käyttöönotettujen lisäosien asetuksiin.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+CSS-muuttujat noudattavat aina `--lisäosanTunniste-asetuksenTunniste`-muotoa. Asetusten tunnisteet muunnetaan aina kebab-case-tyylistä camelCase-tyyliin.
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Nämä CSS-muuttujat ovat aina kaikkien lisäosien saatavilla, eikä manifest-arvoja tarvita niiden käyttöön saamiseksi. CSS-muuttujat ja käyttäjän asetukset synkronoituvat lataamatta sivua uudelleen.
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Väriasetus */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Väriasetus, jolla on varmistusarvo */
   border-color: var(--editorDarkMode-border, #fc7c24);
   /* If editor-dark-mode is disabled, the fallback will be used instead */
 
-  /* Numerical setting */
+  /* Lukuasetus */
   height: calc(1px * var(--progressBar-height));
 }
 ```
 
 
-## Custom CSS variables
+## Omat CSS-muuttujat
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+Jos käyttäjätyylin täytyy valita kahden arvon väliltä taustavärin (tekstin kontrasti) tai lisäosan asetuksen perusteella, JavaScriptiä ei tarvita. Nämä ehdot, kuten monet muutkin, voidaan määritellä lisäosan manifest-tiedostossa [customCssVariables](/docs/reference/addon-manifest/#customcssvariables)-arvolla, jolloin käyttäjätyyli voi vain viitata määriteltyyn CSS-muuttujaan.
 
 
-## Applying styles only inside the editor
+## Tyylien kohdistaminen pelkästään editoriin
 
-The extension automatically toggles a class name on the `<body>` element when the user enters or exits the project editor.
+Laajennus vaihtaa automaattisesti `<body>`-elementin luokan nimeä, kun käyttäjä siirtyy projektieditoriin tai poistuu siitä.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+Esimerkki, jossa `<input>`-elementeille on asettu eri tyylisäännöt editorin sisä- ja ulkopuolelle:
 ```css
 .sa-body-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Tulee voimaan vain, jos `addon.tab.editorMode` on `editor` tai `fullscreen` */
 }
 
 body:not(.sa-body-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Tulee voimaan vain, jos `addon.tab.editorMode` EI ole `editor` eikä `fullscreen` */
 }
 ```

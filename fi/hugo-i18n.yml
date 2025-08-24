@@ -3,9 +3,9 @@ Global:
   LogoAlt: Scratch-lisäosien logo
   Install: Asenna
   InstallBrowser:
-    Firefox: Asenna Firefoxille
-    Chrome: Asenna Chromelle
-    Edge: Asenna Edgelle
+    Firefox: Asenna Firefoxiin
+    Chrome: Asenna Chromeen
+    Edge: Asenna Edgeen
   ReadTime:
     one: "{{.Count}} minuutti"
     other: "{{.Count}} minuuttia"
@@ -32,7 +32,7 @@ Nav:
   Repository: Tietosäilö
   RepositoryLabel: Tietosäilö GitHubissa
   Install: Asenna
-  ToggleNavigation: Avaa valikko
+  ToggleNavigation: Valikko
 Footer:
   Pages:
     Header: Sivut
@@ -58,9 +58,9 @@ DarkTheme:
 Docs:
   SectionSiteName: Scratch-lisäosien opas
   DocsNav: Oppaan navigointi
-  DocsNavToggleLabel: Avaa oppaan sivupalkki
+  DocsNavToggleLabel: Oppaan sivupalkki
   TOC: Sisällys
-  TOCToggleLabel: Avaa sisällysluettelo
+  TOCToggleLabel: Sisällysluettelo
   LastUpdated: "{{.Name}} teki viimeisimmäin muutoksen {{.Date}} pysyvällä muutoksella {{.Commit}}."
   Improve: Paranna tätä sivua.
   SectionPages: Osion sivut

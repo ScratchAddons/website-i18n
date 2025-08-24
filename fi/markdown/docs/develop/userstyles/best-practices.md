@@ -1,36 +1,36 @@
 ---
 title: Parhaat käytännöt
-description: Follow these best practices when writing or reviewing userstyles.
+description: Noudata näitä parhaita käytäntöjä, kun kirjoitat tai tarkastat käyttäjäskriptejä.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Noudata näitä parhaita käytäntöjä, kun kirjoitat tai tarkastat käyttäjäskriptejä.
 
 
-<!-- TODO: ## Addon dark mode support -->
-<!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
+<!-- TEHTÄVÄÄ: ## Lisäosien tumman tilan tuki -->
+<!-- editor-dark-mode-, dark-www- ja scratchr2-lisäosien CSS-muuttujiin viittaamisen esimerkit -->
 
 
-## Internationalization
+## Kansainvälisyys
 
-### Consider languages with longer words
+### Ota huomioon kielet, joiden sanat ovat pitkiä
 
-Remember that in some languages, UI elements such as buttons may be narrower or wider.
+Muista, että joissakin kielissä käyttöliittymäelementit, kuten painikkeet, voivat olla kapeampia tai leveämpiä.
 
-<!-- TODO: ### Supporting right-to-left languages (RTL) -->
-
-
-## Styling existing Scratch UI
+<!-- TEHTÄVÄÄ: ### Oikealta vasemmalle (RTL) kirjoitettavien kielten tuki -->
 
 
-### Avoid targeting hashed class names
+## Tyylisääntöjen asettaminen Scratchin alkuperäisille elementeille
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+### Vältä tyylisääntöjen kohdentamista luokkien nimiin, jotka sisältävät hajautusarvon
+
+Tavallisesti Scratchin projektieditori sisältää luokkien nimiä, jotka ovat `luokan_nimi_{hajautusarvo}`-muotoa. Esimerkiksi luokan nimi `green-flag_green-flag_1kiAo` on sellainen.
+
+Koska hajautusarvot voivat muuttua tulevaisuudessa ja vaihdella Scratchin haarautusten välillä, niiden käyttöä käyttäjätyyleissä tulisi välttää.
 
 {{< admonition error >}}
 ```css
-/* Don't do this: */
+/* Älä tee näin: */
 .green-flag_green-flag_1kiAo {
   visibility: hidden;
 }
@@ -39,30 +39,30 @@ As the hashes might change in the future and may differ between Scratch forks, y
 
 {{< admonition success >}}
 ```css
-/* Do this instead: */
+/* Tee sen sijaan näin: */
 [class*="green-flag_green-flag_"] {
   visibility: hidden;
 }
 ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Käytä `!important`-ominaisuutta vain, jos on pakko
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
-<!-- This could be more detailed -->
-
-
-## Styling addon UI elements
+Jos mahdollista, käytä [CSS specificity](https://web.dev/learn/css/specificity/) -ominaisuuksia valitsimien tarkentamiseen `!important`-ominaisuuden käyttämisen sijaan.
+<!-- Tämän pitäisi olla yksityiskohtaisempi -->
 
 
-### Begin addon-defined class names with `sa-`
+## Tyylisääntöjen asettaminen lisäosien lisäämille elementeille
+
+
+### Aloita lisäosan määrittelemät luokkien nimet seuraavasti: `sa-`
 
 {{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
+Käytämme aina `kebab-case`-tyyliä, kun määrittelemme omien luokkiemme nimiä.
 {{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+On suositeltavaa, että lisäosien märittelemät luokkien nimet aloitetaan tunnuksella `sa-`, jotta vältyttäisiin Scratchin ja muiden laajennusten luokkien nimien välisiltä ristiriidoilta.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+Myös lisäosan tunnisteen (tai sen osan) sisällyttäminen luokan nimeen on suositeltavaa.
 
-<!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->
+<!-- TEHTÄVÄÄ: ### täytyy selittää, miten z-indeksiä ja siihen liittyviä asioita käytetään Scratch-editorissa -->

@@ -92,7 +92,7 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ### Käytä waitForElement-rajapintaa vain, kun se on välttämätöntä
 
 Vältä `addon.tab.waitForElement`-rajapinnan käyttöä, jos on elementin olemassaolo on taattu. Se toimii silti eikä vaikuta paljoakaan suorituskykyyn, mutta se saattaa hämmentää muita kehittäjiä, jotka lukevat koodia. waitForElement-rajapinnan käytön tulisi tarkoittaa sitä, että on olemassa ainakin yksi tilanne, jossa elementti ei ole olemassa koodin suoritushetkellä.
-waitForElement-rajapinnan käyttö ei esimerkiksi ole välttämätöntä foorumiviestejä etsittäessä, ellei käyttäjäskriptiä ole ilmoitettu arvolla `"runAtComplete": false`. Niissä tapauksissa `document.querySelectorAll()`-menetelmää käytetään tavalliseen tapaan.
+waitForElement-rajapinnan käyttö ei esimerkiksi ole välttämätöntä foorumiviestejä etsittäessä, ellei käyttäjäskriptiä ole määritelty arvolla `"runAtComplete": false`. Niissä tapauksissa `document.querySelectorAll()`-menetelmää käytetään tavalliseen tapaan.
 
 ### Käytä element.closest()-menetelmää parentElement-ominaisuuden väärinkäyttämisen sijaan
 
@@ -157,22 +157,23 @@ Jos useiden lisäosien täytyy jakaa tietoja tai funktioita keskenään, luo eri
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Älä tee näin:
 window.isDarkMode = true;
 ```
 {{< /admonition >}}
 
-### Do not declare functions outside of the default export
+### Älä määrittele funktioita export default -funktion ulkopuolella
 
-There's no reason to declare functions outside the `export default async function(){}` function. JavaScript allows functions to be declared inside other functions.
+Ei ole syytä määritellä funktioita `export default async function(){}` -funktion ulkopuolella. JavaScript sallii funktioiden määrittelemisen muiden funktioiden sisällä.
 
-You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
+Voit tarvittaessa siirtää funktioita erillisiin JS-moduulitietostoihin (joita ei ole määritelty käyttäjäskripteiksi lisäosan manifest-tiedostossa), mutta muista, että tuoduilla tiedostoilla ei ole pääsyä `addon`-olioon, ellei käytettäväksi tarjota alustustoimintoa, joka ottaa olion parametrina ja jota kutsutaan käyttäjäskriptin aloituspisteessä.
 
-### Do not unpollute functions
+### Älä palauta funktioita alkuperäiseen tilaansa
 
-Multiple addons might want to pollute the same function, such as Scratch VM methods, `XMLHttpRequest`, `fetch()` or `FileReader()`.  
-In those cases, one of the userscripts will be polluting the real function, while the others will be polluting functions which were already polluted themselves. If, for example, the first userscript that polluted decides to unpollute (for example, by doing `window.fetch = realFetch`), then all other functions in the "pollution chain" are also lost, which is unexpected.  
-For this reason, functions should not be unpolluted. Instead, pass the arguments to the original function.
+Useat lisäosat saattavat haluta muuttaa (”pollute”) samaa funktiota, kuten esimerkiksi Scratch VM -meneltemiä, `XMLHttpRequest`-olioita, `fetch()`- tai `FileReader()`-funktioita.
+Näissä tapauksissa yksi käyttäjäskripti muuttaa oikeaa funktiota, kun taas muut muuttavat jo valmiiksi muutettuja funktioita. Jos esimerkiksi ensimmäinen funktiota muuttanut käyttäjäskripti päättää palauttaa funktion alkuperäiseen tilaansa (esim. tekemällä `window.fetch = realFetch`), katoavat samalla kaikki muutokset, joita muut skriptit olivat tehneet samaan funktioon. Tämä on yleensä odottamatonta.
+
+Tästä syystä funktioita ei pidä palauttaa alkuperäiseen tilaansa. Sen sijaan argumentit kannattaa välittää alkuperäiselle funktiolle suoraan.
 
 {{< admonition error >}}
 ```js
@@ -182,7 +183,7 @@ const newDeleteSprite = function (...args) {
 }
 
 addon.self.addEventListener("disabled", () => {
-  // Don't do this:
+  // Älä tee näin:
   vm.deleteSprite = oldDeleteSprite;
 });
 ```
@@ -190,7 +191,7 @@ addon.self.addEventListener("disabled", () => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tee sen sijaan näin:
 const oldDeleteSprite = vm.deleteSprite;
 const newDeleteSprite = function (...args) {
   if (addon.self.disabled) return oldDeleteSprite.apply(this, args);
@@ -199,22 +200,22 @@ const newDeleteSprite = function (...args) {
 ```
 {{< /admonition >}}
 
-## Internationalization
+## Kansainvälistäminen
 
-### Use addon.tab.scratchMessage()
+### Käytä addon.tab.scratchMessage()-oliota
 
-If a string has already been translated by Scratch use [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage) instead of adding a new message.
+Jos tarvittava merkkijono on jo käännetty Scratchissa, käytä [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage)-oliota uuden viestin lisäämisen sijaan.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Älä tee näin:
 doneButton.innerText = msg("done");
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tee sen sijaan näin:
 doneButton.innerText = addon.tab.scratchMessage("general.done");
 ```
 {{< /admonition >}}

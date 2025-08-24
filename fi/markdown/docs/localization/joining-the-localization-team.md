@@ -54,62 +54,62 @@ Näille kielille Scratch-lisäosia ei voi vielä kääntää: asturia (ast), esp
 
 Näihin kieliin **EI** hyväksytä uusia kääntäjiä: **espanja, italia.** <!-- Tämä kielilista löytyy myös yltä. Muista päivittää molempia. -->
 
-## Steps to join as a translator
+## Näin liityt käänätäjäksi
 
-Please follow the steps below.
+Noudata seuraavia vaiheita.
 
-### 1. Verify your Scratch account
-1. Visit this [Scratch studio](https://scratch.mit.edu/studios/33665222/comments) with your Scratch account.
-1. Send a studio comment indicating the language you want to translate to (for example, `Greek`).  
-![Screenshot of Scratch](/assets/img/docs/scratch-req-language.png)
+### 1. Vahvista Scratch-tilisi
+1. Käy tässä [Scratch-studiossa](https://scratch.mit.edu/studios/33665222/comments) ollessasi kirjautuneena Scratch-tilillesi.
+1. Lähetä studioon kommentti, jossa ilmaiset, mille kielelle tahdot kääntää (esimerkiksi `Greek`).
+![Näyttökuva Scratchista](/assets/img/docs/scratch-req-language.png)
 
-**If you don't have a Scratch account**, please send an email to `translation@scratchaddons.com` instead. Do not create a new Scratch account just to fulfill this requirement. New Scratcher accounts will be ignored.
+**Jos sinulla ei ole Scratch-tiliä**, lähetä sähköpostia osoitteeseen `translation@scratchaddons.com` edellä mainitun tavan sijaan. Älä luo uutta Scratch-tiliä vain tätä tarkoitusta varten. Tilit, jotka ovat "Uusi scratchaaja" -tilassa, jätetään huomiotta.
 
-### 2. Create a Transifex account
-1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
-1. You will be shown Transifex's "Sign up" screen. **DO NOT sign up with Google.**  
-1. In the "business email" field, enter your email (it can be Gmail, Outlook, or any other).
-1. In the "username" field, we highly recommend you enter your Scratch username, or a slight variation of it.  
-For example, if your Scratch username is `john_walker954`, your Transifex username can be exactly the same (`john_walker954`) or `john_walker954_scratch`.
-1. In the "password" field, enter a password.
-1. Click the "Sign up" button.
-1. You'll be asked for your First name and Last name.  
-\- In the **First name**, we recommend you enter your Scratch username.  
-\- In the **Last name**, we recommend you enter the language you want to translate to (for example, `Greek`).
-1. In the "languages you speak" field, select at least one language you're fluent with (for example, English).
-1. Click the "Let's get started" button.
-1. Continue with the "requesting a language" steps below.
+### 2. Luo Transifex-tili
+1. Siirry [Transifexin avoimen lähdekoodin projektien rekisteröitymissivulle](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).
+1. Näet Transifexin "Sign up" -näkymän, jossa voit rekisteröityä. **ÄLÄ rekisteröidy Google-tilillä.**
+1. Kirjoita "business email" -kenttään sähköpostiosoitteesi (Gmail, Outlook tai mikä vain muu).
+1. On suositeltavaa, että kirjoitat "username"-kenttään Scratch-käyttäjänimesi tai sen vähäisen muunnelman.
+Esimerkiksi jos Scratch-käyttäjänimesi olisi `john_walker954`, Transifex-käyttäjänimesi voisi olla tismalleen sama (`john_walker954`) tai vaikkapa `john_walker954_scratch`.
+1. Kirjoita "password"-kenttään salasana.
+1. Napauta "Sign up" -painiketta.
+1. Järjestelmä kysyy sinulta etu- ja sukunimeäsi.
+\- On suositeltavaa, että kirjoitat **First name** -kenttään Scratch-käyttäjänimesi.
+\- On suositeltavaa, että kirjoitat **Last name** -kenttään kielen, jolle käännät (esimerkiksi `Greek`).
+1. Valitse "languages you speak" -kenttään vähintään yksi kieli, jota puhut sujuvasti (esimerkiksi English).
+1. Napauta "Let's get started" -painiketta.
+1. Siirry alla olevaa "hae kääntäjäksi" -vaiheeseen.
 
-If you already own a Transifex account and don't want to create a new one, please send an email to `translation@scratchaddons.com` indicating your Transifex account's username. Then, continue with the "requesting a language" section below.
+Jos sinulla on jo Transifex-tili etkä halua luoda uutta, lähetä osoitteeseen `translation@scratchaddons.com` sähköpostiviesti, jossa kerrot Transifex-tilisi käyttäjänimen. Jatka sitten alla olevaan "hae kääntäjäksi" -vaiheeseen.
 
-### 3. Requesting a language
-1. Make sure you're logged in to Transifex. If you just signed up, you are already logged in.
-1. Go to [Scratch Addons' Transifex page](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
-1. You'll be prompted to choose the language you want to translate to.
-1. Choose one of the languages **which are "available to join"**. We do not support languages that are not available to join.  
-![Screenshot of Transifex](/assets/img/docs/transifex-req-language.png)
-1. Click the "Join Project" button.
-1. Wait until your request is accepted.
+### 3. Hae kääntäjäksi
+1. Varmista, että olet kirjautunut sisään Transifexiin. Jos rekisteröidyit juuri, olet jo kirjautunut sisään.
+1. Siirry [Scratch-lisäosien Transifex-sivulle](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
+1. Järjestelmä pyytää sinua valitsemaan käännöstesi kohdekielen.
+1. Valitse kieli, **jonka kohdalla lukee "Available to join"**. Emme tue kieliä, joiden kääntäjäksi ei voi liittyä.
+![Näyttökuva Transifexistä](/assets/img/docs/transifex-req-language.png)
+1. Liity projektiin napauttamalla "Join Project" -painiketta.
+1. Odota, kunnes hakemuksesi on hyväksytty.
 
-If you have a Discord account, we encourage you to join our [Development Discord server](https://discord.gg/Ak8sCDQ).
+Jos sinulla on Discord-tili, voit liittyä [kehitys-Discord-palvelimellemme](https://discord.gg/Ak8sCDQ).
 
 {{< admonition success >}}
-**If your request is accepted, you'll receive an email from Transifex. We usually review requests every 96 hours.**
+**Jos hakemuksesi hyväksytään, saat siitä sähköpostiviestin Transifexiltä. Tarkistamme hakemukset yleensä neljän vuorokauden välein.**
 {{< /admonition >}}
 
 {{< admonition error >}}
-If your request is denied, you'll receive an email. Decisions are never final. You may send an email to  `translation@scratchaddons.com` indicating your Transifex username and your request will be strongly reconsidered. See below for other contact methods.
+Jos hakemukseni hylätään, saat siitä sähköpostiviestin. Päätökset eivät ikinä ole lopullisia. Voit lähettää osoitteeseen `translation@scratchaddons.com` sähköpostiviestin, jossa kerrot Transifex-käyttäjänimesi, jolloin hakemustasi harkitaan vahvasti uudelleen. Katso muut vaihtoehdot alta.
 {{< /admonition >}}
 
-## Help or contact
+## Apua ja yhteydenottotapoja
 
-If you have any questions about translating, you may choose one of the following options:
-- Send an email to `translation@scratchaddons.com`.
-- Join our [Development Discord](https://discord.gg/Ak8sCDQ) server.
-- [Open a discussion on GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
-- [Send feedback](/feedback) (make sure to specify your Scratch username in the form, we will reply in your profile).
+Jos sinulla on kääntämiseen liittyviä kysymyksiä, voit valita jonkin seuraavista yhteydenottotavoista:
+- Lähetä sähköpostia osoitteeseen `translation@scratchaddons.com`.
+- Liity [kehitys-Discord-palvelimellemme](https://discord.gg/Ak8sCDQ).
+- [Aloita keskustelu GitHubissa](https://github.com/ScratchAddons/ScratchAddons/discussions) (vaatii GitHub-tilin).
+- [Lähetä palautetta](/feedback). (Varmista, että kerrot Scratch-käyttäjänimesi, koska vastaamme profiiliisi.)
 
 ## Tekijät
 
-- If you get accepted, you may add yourself (or be added) to [the website's credits page](/credits).
-- Your translations are licensed under the same license as Scratch Addons (GPL v3.0).
+- Jos hakemuksesi hyväksytään, voit lisätä itsesi (tai sinut voidaan lisätä) [verkkosivuston tekijäsivulle](/credits).
+- Käännöksesi on lisensoitu samalla lisenssillä kuin Scratch-lisäosat (GPL v3.0).

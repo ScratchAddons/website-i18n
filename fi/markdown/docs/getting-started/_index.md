@@ -1,5 +1,5 @@
 ---
-title: Aloittaminen
+title: Käytön aloittaminen
 ---
 
-Get started with Scratch Addons with these pages.
+Aloita Scratch-lisäosien käyttö näillä sivuilla.
