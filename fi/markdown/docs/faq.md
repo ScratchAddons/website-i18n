@@ -1,21 +1,21 @@
 ---
-title: Frequently Asked Questions
-description: This page lists frequently asked questions related to the Scratch Addons extension and project.
+title: Usein kysytyt kysymykset
+description: Tällä sivulla on luettelo Scratch-lisäosien laajennukseen ja projektiin liittyvistä usein kysytyistä kysymyksistä.
 ---
 
-This page lists frequently asked questions related to the Scratch Addons extension and project.
+Tällä sivulla on luettelo Scratch-lisäosien laajennukseen ja projektiin liittyvistä usein kysytyistä kysymyksistä.
 
-## General questions
+## Yleiset kysymykset
 
-### Mikä Scratch-lisäosat on?
+### Mikä on Scratch-lisäosat?
 
-Scratch Addons is an "all-in-one" browser extension for the Scratch website and project editor. It provides features and themes (called addons internally), both for the Scratch website and the project editor. Scratch Addons' mission is to combine all existing Scratch extensions, userscripts and userstyles, developed by several members of the Scratch community, into a single easy-to-access place, while still letting users choose which ones to enable.
+Scratch-lisäosat on moniominaisuuksinen ("all-in-one") selainlaajennus Scratchin verkkosivustoa ja projektieditoria varten. Se tarjoaa toimintoja ja teemoja (joita kutsutaan lisäosiksi) Scratchin verkkosivustoa ja projektieditoria varten.  Scratch-lisäosien tehtävä on yhdistää kaikki olemassa olevat Scratch-laajennukset, käyttäjäskriptit ja käyttäjätyylit, joita ovat kehittäneet lukuisat Scratch-yhteisön jäsenet, yhteen helposti saatavilla olevaan paikkaan. Tarkoituksena on kuitenkin antaa käyttäjän valita, mitä näistä toiminnoista hän haluaa kulloinkin käyttää.
 
-### Who created Scratch Addons?
+### Kuka loi Scratch-lisäosat?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch-lisäosat on joukkohanke, jota johtaa World_Languages. Luettelo hankkeeseen osallistuneista henkilöistä on luettavissa [Tekijät-sivulla](/credits). Vaikka griffpatch loin alun perin "Scratch Messaging"- ja "Developer tools" -lisäosat, hän ei ylläpidä laajennusta.
 
-### What does Scratch Addons include?
+### Mitä Scratch-lisäosat sisältää?
 
 Scratch Addons includes over 100 addons, which can be enabled or disabled individually. Some addons can also be further configured, and some have presets, such as dark mode for the website theme. Scratch Addons also includes a popup, which can be used to quickly access messages, cloud games, and the settings page. Scratch Addons is translated into multiple languages, including German, French, Spanish, and Japanese.
 

@@ -39,7 +39,7 @@ Scratch-lisäosat voidaan kääntää vain kielille, joille Scratch on käännet
 
 ### Scratch-lisäosien verkkosivusto
 
-Kääntäjillä on myös mahdollisuus kääntää Scratch-lisäosien verkkosivuston sisältöä. Lisätietoja verkkosivuston kääntämisestä löytyy enganninkielisestä wikiartikkelista [Kääntäminen](https://github.com/ScratchAddons/website-v2/wiki/Translating).
+Kääntäjillä on myös mahdollisuus kääntää Scratch-lisäosien verkkosivuston sisältöä. Lisätietoja verkkosivuston kääntämisestä löytyy englanninkielisestä wikiartikkelista [Kääntäminen](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
 ## Kielet, joille voidaan kääntää
 
@@ -54,7 +54,7 @@ Näille kielille Scratch-lisäosia ei voi vielä kääntää: asturia (ast), esp
 
 Näihin kieliin **EI** hyväksytä uusia kääntäjiä: **espanja, italia.** <!-- Tämä kielilista löytyy myös yltä. Muista päivittää molempia. -->
 
-## Näin liityt käänätäjäksi
+## Näin liityt kääntäjäksi
 
 Noudata seuraavia vaiheita.
 
@@ -78,7 +78,7 @@ Esimerkiksi jos Scratch-käyttäjänimesi olisi `john_walker954`, Transifex-käy
 \- On suositeltavaa, että kirjoitat **Last name** -kenttään kielen, jolle käännät (esimerkiksi `Greek`).
 1. Valitse "languages you speak" -kenttään vähintään yksi kieli, jota puhut sujuvasti (esimerkiksi English).
 1. Napauta "Let's get started" -painiketta.
-1. Siirry alla olevaa "hae kääntäjäksi" -vaiheeseen.
+1. Siirry alla olevaan "hae kääntäjäksi" -vaiheeseen.
 
 Jos sinulla on jo Transifex-tili etkä halua luoda uutta, lähetä osoitteeseen `translation@scratchaddons.com` sähköpostiviesti, jossa kerrot Transifex-tilisi käyttäjänimen. Jatka sitten alla olevaan "hae kääntäjäksi" -vaiheeseen.
 
@@ -109,7 +109,7 @@ Jos sinulla on kääntämiseen liittyviä kysymyksiä, voit valita jonkin seuraa
 - [Aloita keskustelu GitHubissa](https://github.com/ScratchAddons/ScratchAddons/discussions) (vaatii GitHub-tilin).
 - [Lähetä palautetta](/feedback). (Varmista, että kerrot Scratch-käyttäjänimesi, koska vastaamme profiiliisi.)
 
-## Tekijät
+## Tekijäsivu ja lisenssi
 
 - Jos hakemuksesi hyväksytään, voit lisätä itsesi (tai sinut voidaan lisätä) [verkkosivuston tekijäsivulle](/credits).
 - Käännöksesi on lisensoitu samalla lisenssillä kuin Scratch-lisäosat (GPL v3.0).
