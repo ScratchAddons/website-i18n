@@ -1,68 +1,54 @@
 ---
 title: Empfohlene Vorgehensweisen
-description: Follow these best practices when writing or reviewing userstyles.
+description: Befolge diese bewährten Praktiken beim Schreiben oder Überprüfen von Benutzerstilen.
 ---
 
-Follow these best practices when writing or reviewing userstyles.
+Befolge diese bewährten Praktiken beim Schreiben oder Überprüfen von Benutzerstilen.
 
 
-<!-- TODO: ## Addon dark mode support -->
-<!-- Examples on referencing CSS variables from editor-dark-mode, dark-www and scratchr2 -->
+<!-- TODO: ## Unterstützung des dunklen Modus --> <!-- Beispiele zur Referenzierung von CSS-Variablen von editor-dark-mode, dark-www und scratchr2 -->
 
 
-## Internationalization
+## Internationalisierung
 
-### Consider languages with longer words
+### Sprachen mit längeren Wörtern berücksichtigen
 
-Remember that in some languages, UI elements such as buttons may be narrower or wider.
+Denke daran, dass in einigen Sprachen UI-Elemente wie Schaltflächen schmaler oder breiter sein können.
 
-<!-- TODO: ### Supporting right-to-left languages (RTL) -->
-
-
-## Styling existing Scratch UI
+<!-- TODO: ### Unterstützung von Rechts-nach-Links-Sprachen (RTL) -->
 
 
-### Avoid targeting hashed class names
+## Styling der bestehenden Scratch UI
 
-The Scratch project editor usually contains class names that follow the `class_name_{hash}` format. For example, `green-flag_green-flag_1kiAo`.
 
-As the hashes might change in the future and may differ between Scratch forks, you should avoid using them in userstyles.
+### Vermeide die Verwendung von Hash-Klassennamen
+
+Der Scratch-Projekteditor enthält normalerweise Klassennamen, die dem Format `class_name_{hash}` folgen. Zum Beispiel: `green-flag_green-flag_1kiAo`.
+
+Da sich die Hashes in der Zukunft ändern und sich zwischen den Scratch-Forks unterscheiden können, solltest du es vermeiden, sie in Benutzerstyles zu verwenden.
 
 {{< admonition error >}}
-```css
-/* Don't do this: */
-.green-flag_green-flag_1kiAo {
-  visibility: hidden;
-}
-```
+```css /* Tu dies nicht: */ .green-flag_green-flag_1kiAo { visibility: hidden; } ```
 {{< /admonition >}}
 
 {{< admonition success >}}
-```css
-/* Do this instead: */
-[class*="green-flag_green-flag_"] {
-  visibility: hidden;
-}
-```
+```css /* Mache stattdessen dies: */ [class*="green-flag_green-flag_"] { visibility: hidden; } ```
 {{< /admonition >}}
 
-### Avoid `!important` unless absolutely necessary
+### Vermeide `!wichtig`, es sei denn, es ist unbedingt erforderlich
 
-If possible, use [CSS specificity](https://web.dev/learn/css/specificity/) features to make your selectors more specific, instead of using `!important`.
-<!-- This could be more detailed -->
-
-
-## Styling addon UI elements
+Wenn möglich, verwende [CSS specificity](https://web.dev/learn/css/specificity/), um deine Selektoren spezifischer zu machen, anstatt `!important` zu verwenden. <!-- Dies könnte noch detaillierter sein -->
 
 
-### Begin addon-defined class names with `sa-`
+## Gestaltung der UI-Elemente des Addons
 
-{{< admonition info >}}
-We always use `kebab-case` when defining our own class names.
-{{< /admonition >}}
 
-We recommend that addon-defined class names begin with `sa-` to avoid potential name collisions with Scratch or other extensions.
+### Beginne addondefinierte Klassennamen mit `sa-`.
 
-It is also recommended to include the addon ID (or part of it) in the class name.
+{{< admonition info >}} Bei der Definition eigener Klassennamen verwenden wir immer den `kebab-case`. {{< /admonition >}}
 
-<!-- TODO: ### explain usage of z-index in the Scratch editor and related concepts -->
+Wir empfehlen, dass die Namen der von Addons definierten Klassen mit `sa-` beginnen, um mögliche Namenskollisionen mit Scratch oder anderen Erweiterungen zu vermeiden.
+
+Es wird auch empfohlen, die Addon-ID (oder einen Teil davon) in den Klassennamen aufzunehmen.
+
+<!-- TODO: ### Verwendung von z-index im Scratch-Editor und verwandte Konzepte erklären -->

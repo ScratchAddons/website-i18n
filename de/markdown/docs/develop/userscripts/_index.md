@@ -125,10 +125,10 @@ Jede Benutzerskriptdatei ist ein JavaScript-Modul, das eine Funktion exportiert.
 
 Userscripts sind JavaScript-Module, daher laufen sie immer im ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Dies bedeutet auch, dass Benutzerskripte [Top-Level-Imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) verwenden können, um andere JavaScript-Dateien zu importieren.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+Die Reihenfolge, in der Userscripts ausgeführt werden, kann bei jedem Seitenladen variieren. Nach dem Laden der Seite aktiviert der Benutzer möglicherweise einige Add-Ons dynamisch in einer benutzerdefinierten Reihenfolge, sodass die Ausführungsreihenfolge nie garantiert ist. Einige APIs wie [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) versuchen, alle potenziellen Race Conditions und unerwarteten Verhaltensweisen beim dynamischen Aktivieren von Add-ons zu beheben.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Userscripts können sich dafür entscheiden, ausgeführt zu werden, bevor die Seite vollständig geladen ist, indem Sie im Addon-Manifest einmal für jedes Userscript `"runAtComplete": false` angeben.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Derzeit ist nur die Existenz von `document.head` garantiert, wenn ein Benutzerskript frühzeitig ausgeführt wird. In Zukunft wird auch die Existenz von `document.body` garantiert sein, sodass nie Userscripts ausgeführt werden, bevor das HTML-Dokument ausreichend geladen ist, um `</head> <body>` zu erreichen.

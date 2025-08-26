@@ -237,4 +237,3 @@ v1.43.0:
       "Paranneltu siivoustyökalu" -lisäosa, joka oli aiemmin osa "kehittäjän työkalut" -lisäosaa, voidaan nyt kytkeä erikseen päälle tai pois päältä Scratch-lisäosien asetuksissa. Nyt voit myös valita, poistetaanko käyttämättömät muuttujat ja listat siivouksen yhteydessä.
 
       Muita tämän päivityksen uusia ominaisuuksia ovat "Scratch 3.0 → 2.0"- ja "täydet alueet" -lisäosien uudet asetukset sekä parempi mobiililaitetuki.
-    ImageAlt: "Näyttökuva koodialueen pikavalikosta, jossa \"Siivoa lohkot +\" -toiminto on korostettu."

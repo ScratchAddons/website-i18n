@@ -13,7 +13,7 @@ v1.7.0:
       Neue Funktion: Daten Kategorie Optimierungen, mit Einstellungen für das Separieren von Listen und lokalen Variablen in ihre eigene Sektionen. Gehe zu Scratch Addons Einstellungen um es zu aktivieren.
 
       Andere neue Funktionen: Import und Export von den Extension Einstellungen, persönliche Gestaltung von Popup Tabs, Aktivierung von Addons direkt in dem Extension Popup, verschiedene Bugs behoben und verbesserte Leistung.
-    ImageAlt: Video, das das "Automatisches Ausblenden für Blockpalette"-Feature zeigt
+    ImageAlt: "Video, das das \"Automatisches Ausblenden für Blockpalette\"-Feature zeigt"
 v1.8.0:
   Highlights:
     Description: |
@@ -231,3 +231,9 @@ v1.42.0:
       Neues Addon: "FPS-Zähler", das die Projektbildrate über der Bühne anzeigt. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
 
       Ein weiteres neues Addon ist "Instant Forum Read Indicators", das Themen sofort als gelesen markiert, wenn sie in einem neuen Tab geöffnet werden.
+v1.43.0:
+  Highlights:
+    Description: |
+      Das Add-on „Blöcke aufräumen +“, das zuvor Teil der „Entwicklertools“ war, kann jetzt in den Scratch-Add-on-Einstellungen separat umgeschaltet werden. Du kannst auch wählen, ob nicht verwendete Variablen und Listen entfernt werden sollen.
+
+      Weitere neue Funktionen in diesem Update sind neue Einstellungen für „Scratch 3.0 → 2.0“ und „volle Bereiche“ sowie eine verbesserte Unterstützung für mobile Geräte.

@@ -55,17 +55,12 @@ span.textContent = `${projectTitle} remixen`;
 ```
 {{< /admonition >}}
 
-### Avoid using mousemove
+### Vermeide die Verwendung von mousemove
 
-Avoid using `mousemove` and similar DOM events that trigger very often since they are bad for performance, especially when used on the body. Use an alternative event on a child element instead whenever possible.
+Vermeiden die Verwendung von `mousemove` und ähnlichen DOM-Ereignissen, die sehr häufig ausgelöst werden, da sie sich negativ auf die Leistung auswirken, insbesondere wenn sie für den Body verwendet werden. Verwende stattdessen, wann immer möglich, ein alternatives Ereignis für ein untergeordnetes Element.
 
 {{< admonition error >}}
-```js
-// Don't do this:
-body.addEventListener("mousemove", (event) => {
-  // ...
-});
-```
+```js // Tun Sie dies nicht: body.addEventListener("mousemove", (event) => { // ... }); ```
 {{< /admonition >}}
 
 ### Verstecke Elemente, anstelle sie zu entfernen
@@ -95,15 +90,15 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 Nutze die `addon.tab.waitForElement`-API nur, wenn das Element garantiert existiert. Es wird immernoch funktionieren, und die Performance wird stark beeinflusst werden, aber es könnte andere Entwickler verwirren, die den Code lesen. waitForElement sollte bedeuten, dass es zumindest 1 Szenario gibt, an dem das Element nicht existiert, wenn der Code ausgeführt wird.
 Zum Beispiel ist es nicht wichtig, waitForElement zu nutzen, wenn man nach Forumposts sucht, außer wenn das Userscript mit `"runAtComplete": false` deklariert wurde. In diesen Fällen kann man einfach `document.querySelectorAll()` normal ausführen.
 
-### Use element.closest() instead of abusing parentElement
+### element.closest() verwenden, anstatt parentElement zu missbrauchen
 
-Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+Vermeide die übermäßige Verwendung von parentElement, wenn du die Vorfahren eines Elements durchsuchst. Verwende stattdessen `element.closest()`, das sehr ähnlich wie `element.querySelector()` funktioniert.
 
 {{< admonition error >}}
 ```js
 // Don't do this:
 reportButton.addEventListener("click", (event) => {
-  const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
+ const commentElement = event.target.parentElement.parentElement.parentElement.p
 })
 ```
 {{< /admonition >}}
@@ -200,7 +195,7 @@ const newDeleteSprite = function (...args) {
 ```
 {{< /admonition >}}
 
-## Internationalization
+## Internationalisierung
 
 ### Use addon.tab.scratchMessage()
 

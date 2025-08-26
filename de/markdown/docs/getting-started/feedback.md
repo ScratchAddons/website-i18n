@@ -3,7 +3,7 @@ title: Feedback an die Entwickler von Scratch Addons senden
 description: Wie man Feedback an Scratch Addons sendet.
 ---
 
-Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
+Hast du etwas über Scratch Addons, die Browsererweiterung, zu sagen? Lass es uns über das Feedback-Formular auf https://scratchaddons.com/feedback/ wissen.
 
 {{< admonition warning >}}
 
@@ -15,11 +15,11 @@ Wir können nicht bei Problemen mit Scratch's Moderation helfen. Nutze dafür di
 
 Falls du eine Alternative brauchst, gibt es hier ein paar Möglichkeiten.
 
-- Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
+- Erstelle eine Ausgabe für [das Repository] (https://github.com/ScratchAddons/ScratchAddons/issues).
+- Erstelle einen Beitrag auf [unserer Diskussionsseite] (https://github.com/ScratchAddons/ScratchAddons/discussions)
+- Sende eine Nachricht auf [unserem Support-Discord-Server] (https://discord.gg/R5NBqwMjNc)
 - Kontaktiere einen Mitarbeiter direkt
 
-It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).
+Es wird davon abgeraten, einen der Mitwirkenden über Scratch zu kontaktieren, wegen [der Richtlinie, die Werbung für Erweiterungen/Benutzerskripte verbietet] (https://scratch.mit.edu/discuss/post/2907564/).
 
-By the way, we have [a FAQ page](https://scratchaddons.com/docs/faq/) for your usual questions.
+Übrigens, wir haben [eine FAQ-Seite] (https://scratchaddons.com/docs/faq/) für deine üblichen Fragen.
