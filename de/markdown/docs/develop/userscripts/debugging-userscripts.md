@@ -1,9 +1,9 @@
 ---
 title: Tipps zum Debugging
-description: Tips to easily debug userscripts, and edge cases to consider.
+description: Tipps zum einfachen Debuggen von Benutzerskripten und zu berücksichtigende Edge-Fälle.
 ---
 
-Tips to easily debug userscripts, and edge cases to consider.
+Tipps zum einfachen Debuggen von Benutzerskripten und zu berücksichtigende Edge-Fälle.
 
 ## Tipps
 
@@ -11,51 +11,51 @@ Tips to easily debug userscripts, and edge cases to consider.
 
 Es ist nicht notwendig, die Erweiterung neu zu laden, indem du auf `chrome://extensions` gehst, um die Quelle einer bereits vorhandenen JavaScript- oder CSS-Datei ändern. In diesen Fällen reicht das erneute Laden der Seite aus.
 
-### Use the addon.* API from the console
+### Verwende das Addon. * API von der Konsole
 
-The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
+Das `addon`-Objekt ist innerhalb der Browserkonsole über die globale Variable `__addon` zugänglich, wenn mindestens ein Addon ausgeführt wird.
 
-### Set breakpoints with the "debugger" keyword
+### Haltepunkte mit dem Schlüsselwort "Debugger" festlegen
 
-The `debugger;` keyword in JavaScript will freeze the page when ran, if the developer tools are open. Setting breakpoints is useful to inspect the value of local variables during execution.
+Das Schlüsselwort `debugger;` in JavaScript friert die Seite ein, wenn sie ausgeführt wird, wenn die Entwicklertools geöffnet sind. Das Festlegen von Haltepunkten ist nützlich, um den Wert lokaler Variablen während der Ausführung zu überprüfen.
 
-### Filter console messages by addon ID
+### Konsolennachrichten nach Addon-ID filtern
 
-Enter the addon ID on the "filter" console search bar to only view logs and warnings, as well errors logged with `console.error()`. Keep in mind that this will hide all exceptions, unless you're explicitly logging them in your code.
-
-
-## Edge cases
+Gebe die Addon-ID in die Suchleiste der "Filter"-Konsole ein, um nur Protokolle und Warnungen sowie Fehler anzuzeigen, die mit `console.error()` protokolliert wurden. Denke daran, dass dies alle Ausnahmen ausblenden, es sei denn, Du protokollierst sie explizit in deinen Code.
 
 
-### Scratch project page and editor
+## Edge-Fälle
 
 
-#### The DOM is destroyed after going inside or outside the editor
-
-Scratch creates all HTML elements each time the user clicks "see inside" or "see project page", and destroys the old ones.  
-This can usually be fixed by using `addon.tab.waitForElement` or the `urlChange` event.
-
-#### The Scratch editor language can be changed without a reload
-
-Unlike the Scratch website, the Scratch editor will not reload when changing the language. When selecting a different language, Scratch might destroy and re-create some HTML elements.
-
-#### Other situations to consider
-
-- The project editor may be used without a defined project ID (for example, when logged out).
-- The editor might switch from LTR to RTL (or viceversa) without requiring a page reload.
+### Scratch-Projektseite und Editor
 
 
-### Scratch website
+#### Das DOM wird zerstört, nachdem er innerhalb oder außerhalb des Editors gegangen ist
 
-#### scratch-www pages don't reload after logging in
+Scratch erstellt jedes Mal alle HTML-Elemente, wenn der Benutzer auf "Schau hinein" oder "Projektseite anzeigen" klickt, und zerstört die alten.
+Dies kann normalerweise mit `addon.tab.waitForElement` oder dem `urlChange`-Ereignis behoben werden.
 
-Unlike scratchr2 pages, scratch-www pages do not force a page reload after logging in. For example, if you go to a project page while being logged out, then log in, the page will not reload. This also affects studios, the messages page, etc.  
-In contrast, all Scratch pages reload after logging out.
+#### Die Scratch-Editor-Sprache kann ohne Neuladen geändert werden
 
-#### Project pages never return 404s
+Im Gegensatz zur Scratch-Website wird der Scratch-Editor nicht neu geladen, wenn die Sprache geändert wird. Bei der Auswahl einer anderen Sprache kann Scratch einige HTML-Elemente zerstören und neu erstellen.
 
-Even if the project is unshared or doesn't exist, Scratch returns a 200 HTTP status code. The "our server is Scratch'ing its head" message is added dynamically to the page by Scratch.
+#### Andere zu berücksichtigende Situationen
 
-#### Other situations to consider
+- Der Projekteditor kann auch ohne eine definierte Projekt-ID verwendet werden (z.B. wenn man abgemeldet ist).
+- Der Editor kann von LTR zu RTL (oder umgekehrt) wechseln, ohne dass die Seite neu geladen werden muss.
 
-- Each of the 4 tabs inside studios have different URLs, but do not trigger a browser navigation. Addons that affect any of the 4 pages should run, no matter the initial URL.
+
+### Scratch-Website
+
+#### scratch-www-Seiten werden nach dem Einloggen nicht neu geladen
+
+Anders als scratchr2-Seiten erzwingen scratch-www-Seiten kein Neuladen der Seite nach dem Einloggen. Wenn du zum Beispiel eine Projektseite aufrufen, während du abgemeldet bist, und dich dann wieder anmeldest, wird die Seite nicht neu geladen. Dies gilt auch für Studios, die Nachrichtenseite usw. 
+Im Gegensatz dazu werden alle Scratch-Seiten nach dem Ausloggen neu geladen.
+
+#### Projektseiten geben nie 404er zurück
+
+Auch wenn das Projekt nicht freigegeben ist oder nicht existiert, gibt Scratch einen 200 HTTP-Statuscode zurück. Die Meldung "Unser Server kratzt sich am Kopf" wird von Scratch dynamisch zur Seite hinzugefügt.
+
+#### Andere zu berücksichtigende Situationen
+
+- Jeder der 4 Tabs in den Studios hat unterschiedliche URLs, löst aber keine Browsernavigation aus. Addons, die eine der 4 Seiten betreffen, sollten unabhängig von der ursprünglichen URL ausgeführt werden.

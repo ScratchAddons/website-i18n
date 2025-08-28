@@ -105,7 +105,7 @@ reportButton.addEventListener("click", (event) => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tu stattdessen Folgendes:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.closest(".comment");
 })
@@ -113,24 +113,24 @@ reportButton.addEventListener("click", (event) => {
 {{< /admonition >}}
 
 
-## JavaScript best practices
+## Bewährte JavaScript-Verfahren
 
 
-### Use modern JavaScript
+### Verwenden Sie modernes JavaScript
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
-- When listening to keyboard events, accessing `event.key` is the preferred way to know which key was pressed. In general, you should avoid `event.code` and `event.keyCode`.
-- Use optional chaining if an object can sometimes be `null`.  
-For example, `document.querySelector(".remix-button")?.textContent`.
-- Use `for ... of` loops or `.forEach()`.  
-Avoid C style loops like `for (let i = 0; i < arr.length; i++)`.
+- Bevorzuge neuere APIs, wie z.B. `fetch()` gegenüber `XMLHttpRequest`.
+- Verwende niemals `==` für Vergleiche. Verwende stattdessen `===`.
+- Beim Abhören von Tastaturereignissen ist der Zugriff auf `event.key` der bevorzugte Weg, um zu erfahren, welche Taste gedrückt wurde. Im Allgemeinen sollte `event.code` und `event.keyCode` vermieden werden.
+- Verwende die optionale Verkettung, wenn ein Objekt manchmal `null` sein kann.
+Zum Beispiel: `document.querySelector(".remix-button")?.textContent`.
+- Verwende `for ... of`-Schleifen oder `.forEach()`.
+Vermeide Schleifen im C-Stil wie `for (let i = 0; i < arr.length; i++)`.
 
-### Only use "let" over "const" if the variable may be reassigned
+### Verwende "let" statt "const" nur, wenn die Variable neu zugewiesen werden kann.
 
 {{< admonition info >}}
-We usually use `camelCase` to name variables, no matter if they're declared with "let" or "const".  
-For constant strings or numbers, we usually use `SNAKE_CASE`.
+Wir verwenden normalerweise `camelCase`, um Variablen zu benennen, egal ob sie mit "let" oder "const" deklariert sind. 
+Für konstante Zeichenketten oder Zahlen verwenden wir normalerweise `SNAKE_CASE`.
 
 Hier ist ein Beispiel:
 ```js
@@ -143,32 +143,32 @@ const DEFAULT_ZOOM = 1.20;
 ```
 {{< /admonition >}}
 
-People reading your code may assume that a variable that was declared through the "let" keyword might be reassigned at some other point of the script. If that's not the case, use the "const" keyword instead.  
-Remember that in JavaScript, declaring an object or an array as a "const", does not mean its values are frozen. Values in the object can still be changed, even if the variable itself cannot be reassigned.
+Wer deinen Code liest, könnte annehmen, dass eine Variable, die mit dem Schlüsselwort "let" deklariert wurde, an einer anderen Stelle des Skripts neu zugewiesen werden könnte. Wenn das nicht der Fall ist, verwende stattdessen das Schlüsselwort "const". 
+Erinnere dich daran, dass in JavaScript die Deklaration eines Objekts oder eines Arrays als "const" nicht bedeutet, dass seine Werte eingefroren sind. Die Werte des Objekts können immer noch geändert werden, auch wenn die Variable selbst nicht neu zugewiesen werden kann.
 
-### Do not set global variables
+### Keine globalen Variablen setzen
 
-Avoid setting properties on the global `window` object, unless you are polluting a global function such as `fetch()`.  
-If multiple addons need to share information or functions between each other, create a JS module file and import it from both userscripts.
+Vermeide es, Eigenschaften für das globale `Fenster`-Objekt zu setzen, es sei denn, du verschmutzt eine globale Funktion wie `fetch()`. 
+Wenn mehrere Addons Informationen oder Funktionen untereinander austauschen müssen, erstelle eine JS-Moduldatei und importiere sie aus beiden Benutzerskripten.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Tu das nicht:
 window.isDarkMode = true;
 ```
 {{< /admonition >}}
 
-### Do not declare functions outside of the default export
+### Deklariere keine Funktionen außerhalb des Standard-Exports.
 
-There's no reason to declare functions outside the `export default async function(){}` function. JavaScript allows functions to be declared inside other functions.
+Es gibt keinen Grund, Funktionen außerhalb der Funktion `export default async function(){}` zu deklarieren. JavaScript erlaubt es, Funktionen innerhalb anderer Funktionen zu deklarieren.
 
-You may move functions to separate JS module files (which aren't declared as userscripts in the addon manifest) if appropriate, but keep in mind that those imported files won't have access to the `addon` object, unless you expose a setup function that accepts it as an argument, and call the function in the userscript entry point.
+Du kannst Funktionen in separate JS-Moduldateien verschieben (die nicht als Benutzerskripte im Addon-Manifest deklariert sind), wenn dies angebracht ist, aber bedenke, dass diese importierten Dateien keinen Zugriff auf das `Addon`-Objekt haben, es sei denn, du stellst eine Setup-Funktion bereit, die es als Argument akzeptiert, und rufst die Funktion im Benutzerskript-Einstiegspunkt auf.
 
-### Do not unpollute functions
+### Funktionen nicht entlasten
 
-Multiple addons might want to pollute the same function, such as Scratch VM methods, `XMLHttpRequest`, `fetch()` or `FileReader()`.  
-In those cases, one of the userscripts will be polluting the real function, while the others will be polluting functions which were already polluted themselves. If, for example, the first userscript that polluted decides to unpollute (for example, by doing `window.fetch = realFetch`), then all other functions in the "pollution chain" are also lost, which is unexpected.  
-For this reason, functions should not be unpolluted. Instead, pass the arguments to the original function.
+Es kann vorkommen, dass mehrere Addons dieselbe Funktion verschmutzen wollen, wie z.B. Scratch VM Methoden, `XMLHttpRequest`, `fetch()` oder `FileReader()`. 
+In diesen Fällen wird eines der Benutzerskripte die eigentliche Funktion verschmutzen, während die anderen Funktionen verschmutzen werden, die bereits selbst verschmutzt wurden. Wenn zum Beispiel das erste Benutzerskript, das die Funktion verschmutzt hat, beschließt, die Verschmutzung rückgängig zu machen (zum Beispiel durch `window.fetch = realFetch`), dann gehen alle anderen Funktionen in der "Verschmutzungskette" ebenfalls verloren, was unerwartet ist. 
+Aus diesem Grund sollten Funktionen nicht unpolluted werden. Übergeben Sie stattdessen die Argumente an die ursprüngliche Funktion.
 
 {{< admonition error >}}
 ```js
@@ -178,7 +178,7 @@ const newDeleteSprite = function (...args) {
 }
 
 addon.self.addEventListener("disabled", () => {
-  // Don't do this:
+  // Tu das nicht:
   vm.deleteSprite = oldDeleteSprite;
 });
 ```
@@ -186,7 +186,7 @@ addon.self.addEventListener("disabled", () => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tu stattdessen Folgendes:
 const oldDeleteSprite = vm.deleteSprite;
 const newDeleteSprite = function (...args) {
   if (addon.self.disabled) return oldDeleteSprite.apply(this, args);
@@ -197,20 +197,20 @@ const newDeleteSprite = function (...args) {
 
 ## Internationalisierung
 
-### Use addon.tab.scratchMessage()
+### addon.tab.scratchMessage() verwenden
 
-If a string has already been translated by Scratch use [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage) instead of adding a new message.
+Wenn eine Zeichenkette bereits von Scratch übersetzt wurde, verwende [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage) anstatt eine neue Nachricht hinzuzufügen.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Tu das nicht:
 doneButton.innerText = msg("done");
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Tu stattdessen Folgendes:
 doneButton.innerText = addon.tab.scratchMessage("general.done");
 ```
 {{< /admonition >}}

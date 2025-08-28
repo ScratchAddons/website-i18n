@@ -47,7 +47,7 @@ L'addon originale è stato creato da WorldLanguages, TheColaber è l'autore dell
 ## Trivia
 
 - Questo è stato il primo addon che ha permesso di modificare il sito di Scratch.
-- Questo è il primo è unico addon al momento che usa una tabella per le impostazioni.
+- Questo è il primo e unico addon nel quale le impostazioni sono organizzate sotto forma di tabella.
 - Questo è uno dei pochi addon che non ha crediti.
 
 ## Galleria
