@@ -6,135 +6,135 @@ title: Namestitev
 
 Scratch Addons je na voljo v teh trgovinah.
 
-[![Chrome Web Store](https://raw.githubusercontent.com/ScratchAddons/ScratchAddons/master/.github/readme-images/cws-badge.png)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)
-[![Firefox Add-ons](https://raw.githubusercontent.com/ScratchAddons/ScratchAddons/master/.github/readme-images/ff-addon-badge.png)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)
+[![Spletna trgovina Chrome](https://raw.githubusercontent.com/ScratchAddons/ScratchAddons/master/.github/readme-images/cws-badge.png)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco)
+[![Dodatki za Firefox](https://raw.githubusercontent.com/ScratchAddons/ScratchAddons/master/.github/readme-images/ff-addon-badge.png)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/)
 
 | Trgovina | Namestitev | Podprti brskalniki | Sistemske zahteve |
 | - | - | - | - |
 | Spletna trgovina Chrome | [![Namestitev v Spletni trgovini Chrome](https://img.shields.io/chrome-web-store/v/fbeffbjdlemaoicjdapfpikkikjoneco?style=flat-square&logo=google-chrome&logoColor=white&label=install&color=4285F4)](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco) | Google Chrome 96+<br />Microsoft Edge 96+<br />Opera 82+<br />Brave 1.33+<br />Vivaldi 5.0+<br />*Chromium 96+* | Windows 7+<br />OS X / macOS 10.11+
 | Dodatki za Firefox | [![Namestitev v Dodatkih za Firefox](https://img.shields.io/amo/v/scratch-messaging-extension?style=flat-square&logo=firefox-browser&logoColor=white&label=install&color=FF7139)](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) | Mozilla Firefox 109+ | Windows 7+<br />OS X / macOS 10.12+
-| Dodatki za Microsoft Edge | [![Install for Microsoft Edge Addons](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLjg2IDE3Ljg2cS4xNCAwIC4yNS4xMi4xLjEzLjEuMjV0LS4xMS4zM2wtLjMyLjQ2LS40My41My0uNDQuNXEtLjIxLjI1LS4zOC40MmwtLjIyLjIzcS0uNTguNTMtMS4zNCAxLjA0LS43Ni41MS0xLjYuOTEtLjg2LjQtMS43NC42NHQtMS42Ny4yNHEtLjkgMC0xLjY5LS4yOC0uOC0uMjgtMS40OC0uNzgtLjY4LS41LTEuMjItMS4xNy0uNTMtLjY2LS45Mi0xLjQ0LS4zOC0uNzctLjU4LTEuNi0uMi0uODMtLjItMS42NyAwLTEgLjMyLTEuOTYuMzMtLjk3Ljg3LTEuOC4xNC45NS41NSAxLjc3LjQxLjgyIDEuMDIgMS41LjYuNjggMS4zOCAxLjIxLjc4LjU0IDEuNjQuOS44Ni4zNiAxLjc3LjU2LjkyLjIgMS44LjIgMS4xMiAwIDIuMTgtLjI0IDEuMDYtLjIzIDIuMDYtLjcybC4yLS4xLjItLjA1em0tMTUuNS0xLjI3cTAgMS4xLjI3IDIuMTUuMjcgMS4wNi43OCAyLjAzLjUxLjk2IDEuMjQgMS43Ny43NC44MiAxLjY2IDEuNC0xLjQ3LS4yLTIuOC0uNzQtMS4zMy0uNTUtMi40OC0xLjM3LTEuMTUtLjgzLTIuMDgtMS45LS45Mi0xLjA3LTEuNTgtMi4zM1QuMzYgMTQuOTRRMCAxMy41NCAwIDEyLjA2cTAtLjgxLjMyLTEuNDkuMzEtLjY4LjgzLTEuMjMuNTMtLjU1IDEuMi0uOTYuNjYtLjQgMS4zNS0uNjYuNzQtLjI3IDEuNS0uMzkuNzgtLjEyIDEuNTUtLjEyLjcgMCAxLjQyLjEuNzIuMTIgMS40LjM1LjY4LjIzIDEuMzIuNTcuNjMuMzUgMS4xNi44My0uMzUgMC0uNy4wNy0uMzMuMDctLjY1LjIzdi0uMDJxLS42My4yOC0xLjIuNzQtLjU3LjQ2LTEuMDUgMS4wNC0uNDguNTgtLjg3IDEuMjYtLjM4LjY3LS42NSAxLjM5LS4yNy43MS0uNDIgMS40NC0uMTUuNzItLjE1IDEuMzh6TTExLjk2LjA2cTEuNyAwIDMuMzMuMzkgMS42My4zOCAzLjA3IDEuMTUgMS40My43NyAyLjYyIDEuOTMgMS4xOCAxLjE2IDEuOTggMi43LjQ5Ljk0Ljc2IDEuOTYuMjggMSAuMjggMi4wOCAwIC44OS0uMjMgMS43LS4yNC44LS42OSAxLjQ4LS40NS42OC0xLjEgMS4yMi0uNjQuNTMtMS40NS44OC0uNTQuMjQtMS4xMS4zNi0uNTguMTMtMS4xNi4xMy0uNDIgMC0uOTctLjAzLS41NC0uMDMtMS4xLS4xMi0uNTUtLjEtMS4wNS0uMjgtLjUtLjE5LS44NC0uNS0uMTItLjA5LS4yMy0uMjQtLjEtLjE2LS4xLS4zMyAwLS4xNS4xNi0uMzUuMTYtLjIuMzUtLjUuMi0uMjguMzYtLjY4LjE2LS40LjE2LS45NSAwLTEuMDYtLjQtMS45Ni0uNC0uOTEtMS4wNi0xLjY0LS42Ni0uNzQtMS41Mi0xLjI4LS44Ni0uNTUtMS43OS0uODktLjg0LS4zLTEuNzItLjQ0LS44Ny0uMTQtMS43Ni0uMTQtMS41NSAwLTMuMDYuNDVULjk0IDcuNTVxLjcxLTEuNzQgMS44MS0zLjEzIDEuMS0xLjM4IDIuNTItMi4zNVE2LjY4IDEuMSA4LjM3LjU4cTEuNy0uNTIgMy41OC0uNTJaIiBzdHlsZT0iZmlsbDojZmZmIi8+PC9zdmc+&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 96+ | Windows 7+<br />OS X / macOS 10.11+
+| Dodatki za Microsoft Edge | [![Namestitev v Dodatkih za Microsoft Edge](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLjg2IDE3Ljg2cS4xNCAwIC4yNS4xMi4xLjEzLjEuMjV0LS4xMS4zM2wtLjMyLjQ2LS40My41My0uNDQuNXEtLjIxLjI1LS4zOC40MmwtLjIyLjIzcS0uNTguNTMtMS4zNCAxLjA0LS43Ni41MS0xLjYuOTEtLjg2LjQtMS43NC42NHQtMS42Ny4yNHEtLjkgMC0xLjY5LS4yOC0uOC0uMjgtMS40OC0uNzgtLjY4LS41LTEuMjItMS4xNy0uNTMtLjY2LS45Mi0xLjQ0LS4zOC0uNzctLjU4LTEuNi0uMi0uODMtLjItMS42NyAwLTEgLjMyLTEuOTYuMzMtLjk3Ljg3LTEuOC4xNC45NS41NSAxLjc3LjQxLjgyIDEuMDIgMS41LjYuNjggMS4zOCAxLjIxLjc4LjU0IDEuNjQuOS44Ni4zNiAxLjc3LjU2LjkyLjIgMS44LjIgMS4xMiAwIDIuMTgtLjI0IDEuMDYtLjIzIDIuMDYtLjcybC4yLS4xLjItLjA1em0tMTUuNS0xLjI3cTAgMS4xLjI3IDIuMTUuMjcgMS4wNi43OCAyLjAzLjUxLjk2IDEuMjQgMS43Ny43NC44MiAxLjY2IDEuNC0xLjQ3LS4yLTIuOC0uNzQtMS4zMy0uNTUtMi40OC0xLjM3LTEuMTUtLjgzLTIuMDgtMS45LS45Mi0xLjA3LTEuNTgtMi4zM1QuMzYgMTQuOTRRMCAxMy41NCAwIDEyLjA2cTAtLjgxLjMyLTEuNDkuMzEtLjY4LjgzLTEuMjMuNTMtLjU1IDEuMi0uOTYuNjYtLjQgMS4zNS0uNjYuNzQtLjI3IDEuNS0uMzkuNzgtLjEyIDEuNTUtLjEyLjcgMCAxLjQyLjEuNzIuMTIgMS40LjM1LjY4LjIzIDEuMzIuNTcuNjMuMzUgMS4xNi44My0uMzUgMC0uNy4wNy0uMzMuMDctLjY1LjIzdi0uMDJxLS42My4yOC0xLjIuNzQtLjU3LjQ2LTEuMDUgMS4wNC0uNDguNTgtLjg3IDEuMjYtLjM4LjY3LS42NSAxLjM5LS4yNy43MS0uNDIgMS40NC0uMTUuNzItLjE1IDEuMzh6TTExLjk2LjA2cTEuNyAwIDMuMzMuMzkgMS42My4zOCAzLjA3IDEuMTUgMS40My43NyAyLjYyIDEuOTMgMS4xOCAxLjE2IDEuOTggMi43LjQ5Ljk0Ljc2IDEuOTYuMjggMSAuMjggMi4wOCAwIC44OS0uMjMgMS43LS4yNC44LS42OSAxLjQ4LS40NS42OC0xLjEgMS4yMi0uNjQuNTMtMS40NS44OC0uNTQuMjQtMS4xMS4zNi0uNTguMTMtMS4xNi4xMy0uNDIgMC0uOTctLjAzLS41NC0uMDMtMS4xLS4xMi0uNTUtLjEtMS4wNS0uMjgtLjUtLjE5LS44NC0uNS0uMTItLjA5LS4yMy0uMjQtLjEtLjE2LS4xLS4zMyAwLS4xNS4xNi0uMzUuMTYtLjIuMzUtLjUuMi0uMjguMzYtLjY4LjE2LS40LjE2LS45NSAwLTEuMDYtLjQtMS45Ni0uNC0uOTEtMS4wNi0xLjY0LS42Ni0uNzQtMS41Mi0xLjI4LS44Ni0uNTUtMS43OS0uODktLjg0LS4zLTEuNzItLjQ0LS44Ny0uMTQtMS43Ni0uMTQtMS41NSAwLTMuMDYuNDVULjk0IDcuNTVxLjcxLTEuNzQgMS44MS0zLjEzIDEuMS0xLjM4IDIuNTItMi4zNVE2LjY4IDEuMSA4LjM3LjU4cTEuNy0uNTIgMy41OC0uNTJaIiBzdHlsZT0iZmlsbDojZmZmIi8+PC9zdmc+&label=install&color=0078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Filiepgjnemckemgnledoipfiilhajdjj)](https://microsoftedge.microsoft.com/addons/detail/iliepgjnemckemgnledoipfiilhajdjj) | Microsoft Edge 96+ | Windows 7+<br />OS X / macOS 10.11+
 
-## Z izvirno kodo
+## Izvirna koda
 
 {{< admonition info >}}
 Sistemske zahteve za namestitev izvirne kode so drugačne kot pri namestitvi iz trgovine: potrebujete Chromium 121+ ali Firefox 121+.
 {{< /admonition >}}
 
-### Podvajanje kode
+### Podvajanje repozitorija
 
-This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
+To je priporočeni način namestitve Scratch Addons za razvoj dodatkov, če imate orodje Git.
 
-If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
+Če nameravate prispevati svojo kodo, najprej naredite kopijo (fork) repozitorija na GitHubu in nato podvojite svojo kopijo. Namesto `<uporabniško ime>` vnesite svoje uporabniško ime na GitHubu.
 
 ```sh
-$ git clone https://github.com/<username>/ScratchAddons.git
+$ git clone https://github.com/<uporabniško ime>/ScratchAddons.git
 ```
-To update Scratch Addons, first `cd` into its folder, and then run the following commands.
+Da posodobite Scratch Addons, se premaknite v njegovo mapo s `cd` in izvedite naslednje ukaze.
 
 ```sh
 $ git fetch
 $ git pull
 ```
 
-Remember to also update Scratch Addons from the browser.
+Ne pozabite posodobiti Scratch Addons tudi v brskalniku.
 
-### About GitHub releases
+### O različicah na GitHubu
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
+[Stran z različicami](https://github.com/ScratchAddons/ScratchAddons/releases) vsebuje kodo vseh objavljenih različic Scratch Addons in kopije zgrajene razširitve iz trgovin.
 
-### Downloading the Zip
+### Prenos datoteke .zip
 
 {{< admonition warning >}}
-  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+  Tega načina za razvoj dodatkov ne priporočamo, razen če ne morete namestiti orodja Git, saj je ta postopek treba ponoviti vsakič, ko posodobite Scratch Addons.
 {{< /admonition >}}
 
-If you do not have Git installed, use this method instead.
+Če nimate orodja Git, namestite razširitev na ta način.
 
-1. Go to the [repository](https://github.com/ScratchAddons/ScratchAddons) and find the download code button.
+1. Pojdite v [repozitorij](https://github.com/ScratchAddons/ScratchAddons) in poiščite gumb za prenos kode.
 
 1. Kliknite ga in izberite "Download ZIP".
 
-1. Extract the archive into a folder.
+1. Razširite stisnjeno mapo.
 
-### Installing on Google Chrome or Microsoft Edge
+### Namestitev v brskalniku Google Chrome ali Microsoft Edge
 
-To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
+Da naložite razširitev v Google Chrome in večino brskalnikov, ki uporabljajo projekt Chromium, kot so Microsoft Edge, Opera, Brave in Vivaldi:
 
-1. Go to [chrome://extensions](chrome://extensions)
+1. Pojdite na [chrome://extensions](chrome://extensions)
 
-1. Turn on "Developer mode" in the top-right corner
+1. V zgornjem desnem kotu vključite "Način za razvijalce"
 
-1. Click "Load unpacked" and select the `ScratchAddons` folder.
+1. Kliknite "Naloži razpakirano" in izberite mapo `ScratchAddons`.
 
-To update the extension when testing, click the refresh icon on the extension's card.
+Za posodobitev razširitve med testiranjem kliknite ikono za ponovno nalaganje.
 
 {{< admonition info >}}
-  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+  Opozorila "Unrecognized manifest key" lahko prezrete, ker so potrebna, da razširitev deluje tudi v Firefoxu.
 {{< /admonition >}}
 
 
 ### Namestitev v brskalniku Mozilla Firefox
 
-To load the extension into Mozilla Firefox:
+Da naložite razširitev v Mozilla Firefox:
 
 {{< admonition info >}}
-  Extensions loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+  Razširitve, naložene v Firefox na ta način, so začasne in jih je treba znova naložiti vsakič, ko je brskalnik zagnan. Zaradi tega za razvoj dodatkov priporočamo Chrome, vendar se pričakuje, da vse deluje tudi v Firefoxu.
 {{< /admonition >}}
 
-1. Type `about:debugging` into the address bar.
+1. V naslovno vrstico vtipkajte `about:debugging`.
 
-1. Click "This Firefox" on the sidebar
+1. V stranski vrstici izberite "Ta Firefox"
 
-1. Click "Load Temporary Add-on..."
+1. Kliknite "Naloži začasni dodatek ..."
 
-1. Select the `manifest.json` file in the `ScratchAddons` folder.
+1. Izberite datoteko `manifest.json` v mapi `ScratchAddons`.
 
-To reload the extension when testing, click the "Reload" button on the extension's card.
+Za posodobitev razširitve med testiranjem kliknite gumb "Ponovno naloži".
 
 {{< admonition info >}}
-  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+  Opozorila "unexpected WebExtension manifest property" lahko prezrete, ker so potrebna, da razširitev deluje tudi v Chromu.
 {{< /admonition >}}
 
 
-### Installing on Firefox for Android
+### Namestitev v brskalniku Firefox za Android
 
 {{< admonition info >}}
-  This is only recommended if there is a mobile specific issue that cannot be easily replicated with the browser's developer tools since extensions loaded this way are temporary and must be reinstalled over USB every time the app is restarted.
+  To priporočamo samo, če se neka težava pojavlja samo na mobilnih napravah in je ni mogoče simulirati v brskalnikovem orodju za razvijalce. Razširitve, naložene na ta način, so začasne in jih je treba znova namestiti prek kabla USB vsakič, ko je aplikacija zagnana.
 {{< /admonition >}}
 
-#### One time setup
+#### Enkratna priprava
 
-##### Desktop
+##### Na računalniku
 
-1. Download and extract the Android SDK Platform Tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [MacOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
-1. Add the folder to the PATH environment variable.
-1. Install web-ext with NPM by running `npm install --global web-ext`.
+1. Prenesite in razširite Android SDK Platform Tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [macOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
+1. Dodajte mapo v spremenljivko okolja PATH.
+1. Namestite web-ext z ukazom `npm install --global web-ext`. Za to potrebujete NPM.
 
-##### Android
+##### Na napravi s sistemom Android
 
-1. In the Android settings app, open the about page and tap the build number 7 times.
-1. Navigate to the "Developer options" page and enable "USB debugging".
-1. Install the standard Firefox app from the [Google Play store](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
-1. Open the Firefox app and enable "Remote debugging via USB" in its settings.
+1. V aplikaciji za nastavitve Androida odprite stran z informacijami o napravi in se 7-krat dotaknite številke gradnje.
+1. Pojdite na stran "Možnosti za razvijalce" in vključite "Odpravljanje napak prek USB-ja".
+1. Namestite standardno aplikacijo Firefox iz [trgovine Google Play](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
+1. Odprite aplikacijo Firefox in v njenih nastavitvah vključite "Oddaljeno razhroščevanje preko USB".
 
-#### Loading the extension
+#### Nalaganje razširitve
 
-1. Plug in the Android device and tap allow on it.
-2. Navigate to the `ScratchAddons` folder.
-3. Run `adb devices` to get the device's serial number and ensure ADB is working.
-4. Run the following command replacing `[serial number]` with the one from `adb devices`:
+1. Priključite napravo Android in na njej izberite Dovoli.
+2. Premaknite se v mapo `ScratchAddons`.
+3. Z ukazom `adb devices` pridobite serijsko številko naprave in se prepričajte, da ADB deluje.
+4. Izvedite naslednji ukaz, v katerem `[serijska številka]` zamenjajte s številko, ki jo je vrnil ukaz `adb devices`:
 ```
-web-ext run -t firefox-android --adb-device [serial number] --firefox-apk org.mozilla.firefox
+web-ext run -t firefox-android --adb-device [serijska številka] --firefox-apk org.mozilla.firefox
 ```
 
-The extension should install and automatically reload when changes are made, otherwise close the Firefox app and re-run the command.
+Razširitev bi morala biti nameščena in se samodejno znova naložiti, ko jo spremenite. Če ne, zaprite aplikacijo Firefox in znova izvedite ukaz.
 
-#### Inspecting
+#### Pregledovanje
 
-Desktop Firefox can inspect extensions and active tabs running in the Firefox app over USB:
+Firefox na računalniku lahko pregleduje razširitve in zavihke v aplikaciji Firefox na mobilni napravi prek kabla USB:
 
-1. On desktop Firefox type `about:debugging` into the address bar.
-1. Click "Enable USB Devices".
-1. Click connect on the device in the sidebar. If none appear, restart desktop Firefox.
-1. Click on the device again.
+1. V naslovno vrstico Firefoxa na računalniku vtipkajte `about:debugging`.
+1. Kliknite "Omogoči USB".
+1. Kliknite gumb Poveži zraven naprave v stranski vrstici. Če se nobena ne pojavi, znova zaženite Firefox na računalniku.
+1. Še enkrat kliknite napravo.
