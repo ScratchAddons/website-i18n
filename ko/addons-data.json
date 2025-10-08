@@ -223,7 +223,7 @@
 	{
 		"id": "block-count",
 		"name": "블록 수 세기",
-		"description": "편집기 메뉴바에 프로젝트의 총 블록 수를 표시합니다. 과거에는 \"스프라이트 및 스크립트 수\"의 일부였습니다.",
+		"description": "Shows the total number of blocks in a project in the editor menu bar.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -372,11 +372,17 @@
 	{
 		"id": "collapse-footer",
 		"name": "Sticky footer",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
+		],
+		"info": [
+			{
+				"id": "firefoxMobileBug",
+				"text": "On Firefox for Android, this addon may work better if the \"Scroll to hide toolbar\" option in Firefox settings → Customize is turned off."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -799,21 +805,26 @@
 	{
 		"id": "debugger",
 		"name": "디버거",
-		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab.",
+		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab. Allows for timing sections of your code with the \"start timing\" and \"stop timing\" block. Timing results and more are accessible from the \"Timing\" tab.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
-			{ "name": "retronbv" }
+			{ "name": "retronbv" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
 		],
 		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.33.0",
-			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
-			"newSettings": ["fancy_graphs"]
+			"version": "1.44.0",
+			"temporaryNotice": "New timing tab to help you with micro-optimization of your project and the debugger window is now resizable.",
+			"newSettings": ["auto_stop_timing", "show_ratio_time"],
+			"isMajor": true
 		}
 	},
 	{
@@ -1133,13 +1144,8 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "\"실험적 키\"에는 등호, 슬래시, 세미콜론 등이 포합됩니다. 키보드 배열이나 운영 체제에 따라서 작동하지 않을 수도 있습니다.",
-				"id": "experimentalKeysWarn"
-			},
-			{
-				"type": "notice",
-				"text": "\"Shift 키\"에는 Shift와 같이 눌러야 하는 해시태그, 느낌표 등이 포합됩니다. 이 키들은 \"()키를 눌렀을 때\"블록에서만 작동하고, 키보드 배열이나 운영 체젱에 따라서 작동하지 않을 수 있습니다.",
-				"id": "shiftKeysWarn"
+				"text": "Some of these keys may not work on all operating systems or keyboard layouts.",
+				"id": "OSWarn"
 			}
 		],
 		"dynamicEnable": true,
@@ -2288,16 +2294,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "이 애드온은 화면이 작은 기기나 모바일 기기에서 잘 작동되지 않습니다.",
-				"id": "mobile"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.44.0",
+			"temporaryNotice": "Now supports mobile devices."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -2517,6 +2520,18 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "recolor-custom-blocks",
+		"name": "Recolor custom blocks",
+		"description": "Adds an option to choose a custom color when creating a block. This feature works by adding the color code or category name at the beginning of the block's label.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "FlamedDogo99", "link": "https://github.com/FlamedDogo99" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.44.0"
 	},
 	{
 		"id": "redirect-mobile-forums-v2",

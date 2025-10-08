@@ -223,7 +223,7 @@
 	{
 		"id": "block-count",
 		"name": "Blokkok száma",
-		"description": "Megmutatja hány blokk van összesen egy projektben a szerkesztő menü bárjában. Korábban a \"szereplők és kódok száma\" részét képezte.",
+		"description": "Shows the total number of blocks in a project in the editor menu bar.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -372,11 +372,17 @@
 	{
 		"id": "collapse-footer",
 		"name": "Ragadós fejléc",
-		"description": "A weboldal fejléce mindig látható részben, és az egérrel való rámutatáskor lenyílik. Korábban a Végtelen görgetés addon része volt.",
+		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
+		],
+		"info": [
+			{
+				"id": "firefoxMobileBug",
+				"text": "On Firefox for Android, this addon may work better if the \"Scroll to hide toolbar\" option in Firefox settings → Customize is turned off."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -797,21 +803,26 @@
 	{
 		"id": "debugger",
 		"name": "Hibakereső",
-		"description": "Hozzáad egy új hibakereső ablakot. Működés: naplózás, hibabejelentés, figyelmeztetés blokkokkal írhatunk a Naplóba. A töréspont meg fogja állítani a futást, amikor odaér a program.  A Szálak oldalán a Naplónak megtekinthetőek az aktuálisan futó programszálak. Ha megállítjuk a programot (nem leállítjuk!!!), a léptetés funkcióval blokkonként haladhatunk végig a kódon. A program ilyenkor csak ezt az egy lépést hajtja végre. A Teljesítmény lapon az FPS és a másolatok száma tekinthető meg.",
+		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab. Allows for timing sections of your code with the \"start timing\" and \"stop timing\" block. Timing results and more are accessible from the \"Timing\" tab.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
-			{ "name": "retronbv" }
+			{ "name": "retronbv" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
 		],
 		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.33.0",
-			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
-			"newSettings": ["fancy_graphs"]
+			"version": "1.44.0",
+			"temporaryNotice": "New timing tab to help you with micro-optimization of your project and the debugger window is now resizable.",
+			"newSettings": ["auto_stop_timing", "show_ratio_time"],
+			"isMajor": true
 		}
 	},
 	{
@@ -1131,13 +1142,8 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "A \"kísérleti gombok\" tartalmaz egyenlőségjelet, perjelet, pontosvesszőt és még pár irásjelet. Ezek lehet nem működnek minden operációs rendszeren vagy billentyűzet nyelvezetben.",
-				"id": "experimentalKeysWarn"
-			},
-			{
-				"type": "notice",
-				"text": "A \"Shift billentyűk\" olyan billentyűket tartalmaznak, amiket a Shift billentyű nyomvatartásakor lehet csak begépelni angol billentyűzeten, ilyen a hashtag, a felkiáltójel és még egy pár. Ezek a billentyűk csak a \"() gomb lenyomásakor\" blokkal működnek, és nem használhatóak minden operációs rendszeren illetve billentyűzeten.",
-				"id": "shiftKeysWarn"
+				"text": "Some of these keys may not work on all operating systems or keyboard layouts.",
+				"id": "OSWarn"
 			}
 		],
 		"dynamicEnable": true,
@@ -2286,16 +2292,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Ez a bővítmény nem működik jól telefonokon és kis ablak méretekben.",
-				"id": "mobile"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.44.0",
+			"temporaryNotice": "Now supports mobile devices."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -2515,6 +2518,18 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "recolor-custom-blocks",
+		"name": "Recolor custom blocks",
+		"description": "Adds an option to choose a custom color when creating a block. This feature works by adding the color code or category name at the beginning of the block's label.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "FlamedDogo99", "link": "https://github.com/FlamedDogo99" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.44.0"
 	},
 	{
 		"id": "redirect-mobile-forums-v2",

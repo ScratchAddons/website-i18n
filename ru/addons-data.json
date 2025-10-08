@@ -223,7 +223,7 @@
 	{
 		"id": "block-count",
 		"name": "Счёт блоков",
-		"description": "Показывает количество блоков в проекте в верхней панели редактора. Раньше было частью «счётчик спрайтов и скриптов».",
+		"description": "Показывает совокупное число блоков в проекте на панели меню редактора.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -289,7 +289,7 @@
 	{
 		"id": "blocks2image",
 		"name": "Сохранить блоки как изображение",
-		"description": "Right click on the code area or a stack of blocks to copy it to the clipboard or save it as a PNG or SVG file.",
+		"description": "Нажмите правой кнопкой мыши на пространстве кода или стопку блоков для копирования её в буфер обмена или сохраните её как файл .PNG или .SVG.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "summerscar", "link": "https://github.com/summerscar" },
@@ -372,11 +372,17 @@
 	{
 		"id": "collapse-footer",
 		"name": "Липкий нижний колонтитул",
-		"description": "Makes the website footer stick out slightly from the bottom of the window and makes it expand when hovering over it, allowing it to be quickly accessed from anywhere on the page. Previously part of \"Infinite scrolling\".",
+		"description": "Делает нижний колонтитул сайта немного торчащим наружу и вытаскивает его полностью при наводе мыши, чтобы его можно было быстро использовать с любой позиции на странице.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
+		],
+		"info": [
+			{
+				"id": "firefoxMobileBug",
+				"text": "На Firefox для Android, это дополнение может работать получше, если у \"Прятать панель инструментов при прокручивании\" в настройках Firefox выключить \"Пользовательский\"."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -531,8 +537,8 @@
 	},
 	{
 		"id": "costume-editor-shortcuts",
-		"name": "Costume editor keyboard shortcuts",
-		"description": "Allows switching costumes with Ctrl+Left/Right and selecting tools in the costume editor using keyboard shortcuts (similar to TurboWarp). Hover over a tool to view its shortcut.",
+		"name": "Горячие клавиши в редакторе костюмов",
+		"description": "Позволяет переключение костюмов с помощью клавиш Ctrl + Левая/Правая Стрелки и выбор инструментов в редакторе костюмов используя горячих клавиш (как в TurboWarp). Наведите над инструментом для просмотра соответствующих горячих клавиш.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -543,7 +549,7 @@
 		"info": [
 			{
 				"id": "cmdKey",
-				"text": "On macOS, use the Cmd key instead of the Ctrl key."
+				"text": "На macOS, используйте клавишу Cmd вместо клавиши Ctrl."
 			}
 		],
 		"enabledByDefault": false,
@@ -802,21 +808,26 @@
 	{
 		"id": "debugger",
 		"name": "Отладчик",
-		"description": "Добавляет новое окно отладчика к редактору. Отладчик позволяет логировать во вкладку «Логи», используя блоки «логировать», «предупредить» и «ошибка». Блок «точки остановки» поставит проект на паузу при выполнении. Все выполняемые потоки могут быть просмотрены в вкладке «Потоки». При остановке проекта кнопка «Шаг вперёд» может быть использована для выполнения следующего блока. График FPS и кол-во клонов могут быть просмотрены в вкладке «Производительность».",
+		"description": "Добавляет новое окно \"Отладка\" к редактору. Позволяет записывать во вкладку \"Журнал\" окна отладки с помощью блоков \"запись\", \"внимание\" и \"ошибка\". Блок \"прерывание\" поставит проект на паузу при воспроизведении. Все воспроизводящиеся стопки могут быть просмотрены во вкладке \"Процессы\" и при паузе можно использовать кнопку \"Шаг\" для эксплуатации следующего блока. График кадров в секунду и число клонов можно увидеть во вкладке \"Производительность\". Позволяет записывать время воспроизводительности секций кода с помощью блоков \"начало таймера\" и \"конец таймера\". Результаты и многое другое можно посмотреть во вкладке \"Таймеры\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
-			{ "name": "retronbv" }
+			{ "name": "retronbv" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
 		],
 		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.33.0",
-			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
-			"newSettings": ["fancy_graphs"]
+			"version": "1.44.0",
+			"temporaryNotice": "New timing tab to help you with micro-optimization of your project and the debugger window is now resizable.",
+			"newSettings": ["auto_stop_timing", "show_ratio_time"],
+			"isMajor": true
 		}
 	},
 	{
@@ -842,8 +853,8 @@
 	},
 	{
 		"id": "delete-others",
-		"name": "Delete other costumes or sounds",
-		"description": "Adds an option to the right click context menu for costumes and sounds to delete all items except for the selected one.",
+		"name": "Удалить другие костюмы или звуки",
+		"description": "Добавляет вариант в контекстное мен. правого щелчка мыши для костюмов и звуков, который позволяет удалять все предметы кроме одного.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }
@@ -990,8 +1001,8 @@
 	},
 	{
 		"id": "editor-cleanup-plus",
-		"name": "Enhanced clean up tool",
-		"description": "Improves the clean up feature in the code area's right click context menu with multiple columns and suggestions of removing unused variables and lists.",
+		"name": "Совершенный инструмент чистки",
+		"description": "Улучшает функцию чистки в контекстном меню при щелчке правой кнопкой мыши в пространстве кода, которая теперь может использовать несколько колонн и подсказывать об удалении неиспользуемых переменных и списков.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1002,7 +1013,7 @@
 		],
 		"info": [
 			{
-				"text": "This addon was previously part of the \"developer tools\" addon but has moved here.",
+				"text": "Это дополнение раньше было частью дополнения \"Инструменты для Разработчиков\", но теперь его переместили сюда.",
 				"id": "developer-tools"
 			}
 		],
@@ -1136,13 +1147,8 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "«Экспериментальные клавиши» включают в себя равно, слэш, двоеточие и многое другое. Они могут не работать на всех операционных системах или раскладках клавиатуры.",
-				"id": "experimentalKeysWarn"
-			},
-			{
-				"type": "notice",
-				"text": "«Клавиши Shift» включают в себя клавиши, которым нужна клавиша Shift и клавиша цифры по типу хэштега, вопросительного знака и многое др. Эти клавиши работают только с блоком «когда клавиша () нажата» и не работают на всех операционных системах или раскладках клавиатуры.",
-				"id": "shiftKeysWarn"
+				"text": "Некоторые из этих клавиш могут не работать на всех раскладках или операционных системах",
+				"id": "OSWarn"
 			}
 		],
 		"dynamicEnable": true,
@@ -1162,7 +1168,7 @@
 	},
 	{
 		"id": "editor-number-arrow-keys",
-		"name": "Arrow key incrementation",
+		"name": "Использование стрелочек для изменения значений",
 		"description": "Используйте клавиши со стрелками \"вверх и вниз\" чтобы увеличить или уменьшить числа в числовых входах, таких как поля в блоках или область свойств спрайта.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
@@ -1290,7 +1296,7 @@
 			{
 				"id": "aboutHighContrast",
 				"type": "info",
-				"text": "The High Contrast block colors are available as a preset below."
+				"text": "Высококонтрастные цвета блоков теперь доступны как предустановки снизу."
 			}
 		],
 		"dynamicEnable": true,
@@ -1359,7 +1365,7 @@
 	},
 	{
 		"id": "expanded-backpack",
-		"name": "Multi-row backpack",
+		"name": "Многорядный рюкзак",
 		"description": "Расставляет контент рюкзака в расширяемую двустороннюю сетку, похожую на библиотеку костюмов, и увеличивает размер определённых икон.",
 		"tags": ["editor", "featured"],
 		"credits": [
@@ -1606,12 +1612,12 @@
 	},
 	{
 		"id": "forum-user-agent",
-		"name": "Modify version information on forums",
-		"description": "Changes the text \"Flash version\" to \"Flash versions\" when clicking the globe icon on the forums.",
+		"name": "Модифицировать информацию о версии на форумах",
+		"description": "Изменяет текст \"версия Flash\" на \"версии Flash\" при нажатии иконки глобуса на форумах.",
 		"tags": ["community", "forums"],
 		"info": [
 			{
-				"text": "This is useful for Scratch Addons developers to see if a bug that was reported on the forums was possibly caused by the extension.",
+				"text": "Это полезно для разработчиков Scratch Addons, которые смогут увидеть, была ли рапортованная ошибка виной расширения.",
 				"id": "usefulness"
 			}
 		],
@@ -1625,8 +1631,8 @@
 	},
 	{
 		"id": "fps",
-		"name": "FPS counter",
-		"description": "Adds an FPS counter above the stage.",
+		"name": "Счётчик частоты кадров",
+		"description": "Добавляет счётчик частоты кадров над сценой.",
 		"tags": ["editor", "player", "featured"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1736,7 +1742,7 @@
 	{
 		"id": "hide-delete-button",
 		"name": "Скрыть кнопку удалить",
-		"description": "Hides delete button (trash can icon) from sprites, costumes and sounds. They can still be deleted using the right click context menu or by holding the Shift key.",
+		"description": "Прячет кнопку удаления (иконку с мусорным баком) из спрайтов, костюмов и звуков. Их всё ещё можно удалить с помощью контекстного меню правой кнопкой мыши или задатием клавиши Shift.",
 		"tags": ["editor", "featured"],
 		"info": [
 			{
@@ -1910,7 +1916,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Вызывать быстрое меню вызова блоков",
-		"description": "Jump to a custom block's definition by middle-clicking or Shift+clicking on the block or selecting \"Go to Definition\" in the right click context menu.",
+		"description": "Перепрыгнуть к определению пользовательского блока, нажав средней кнопкой мыши или при выборе команды \"перейти к определению\" в контекстном меню правой кнопкой мыши.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -1982,8 +1988,8 @@
 	},
 	{
 		"id": "live-read-topics",
-		"name": "Instant forum read indicators",
-		"description": "Automatically shows a topic as read when clicking on it on a forum category's page without requiring a reload.",
+		"name": "Мгновенные индикаторы прочитанного на форумах",
+		"description": "Автоматически маркирует тему прочитанной при нажатии на неё на странице категории форума без надобности обновления страницы.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{ "link": "https://scratch.mit.edu/mybearworld", "name": "mybearworld" }
@@ -2130,7 +2136,7 @@
 	{
 		"id": "move-to-top-layer",
 		"name": "Выдвинуть спрайт на верхний слой",
-		"description": "Move a sprite to the front (top layer) of the stage from its context menu or by Shift+Clicking it.",
+		"description": "Переместите спрайт на верхний слой сцены из контекстного меню или с помощью нажатия на него Shift + ЛКМ.",
 		"tags": ["editor", "featured"],
 		"credits": [
 			{ "name": "Norbiros", "link": "https://scratch.mit.edu/users/Norbir/" },
@@ -2213,7 +2219,7 @@
 	},
 	{
 		"id": "name-backpack-items",
-		"name": "Name scripts before backpacking",
+		"name": "Называть сценарии до помещения в рюкзак",
 		"description": "Спрашивает Вас называть скрипты после того, как Вы их перемещаете в рюкзак вместо названия по умолчанию «code».",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "TheColaber" }],
@@ -2251,12 +2257,12 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "Удалять спрайты без подтверждения",
+		"description": "Убирает окно подтверждения, которое спрашивает, правда ли Вы хотите удалить спрайт.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
-				"text": "Tip: If you accidentally delete a sprite, costume, or sound, you can undo the deletion by clicking Edit in the menu bar then Restore.",
+				"text": "Совет: Если Вы случайно удалили спрайт, костюм или звук, Вы можете отменить удаление, нажав Правка в панели-меню, а потом Восстановить.",
 				"id": "restoretip"
 			}
 		],
@@ -2283,7 +2289,7 @@
 	{
 		"id": "old-studio-layout",
 		"name": "Старый макет студии",
-		"description": "Reverts the layout of the studio page back to the one used before the studio update.",
+		"description": "Возвращает раскладку страницы студии в первоначальный, до обновления студий, вид.",
 		"tags": ["community", "theme", "studios", "featured"],
 		"credits": [
 			{
@@ -2291,16 +2297,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Этот аддон плохо работает на мобильных устройствах и в маленьких окнах.",
-				"id": "mobile"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.44.0",
+			"temporaryNotice": "Now supports mobile devices."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -2318,7 +2321,7 @@
 	},
 	{
 		"id": "onion-skinning",
-		"name": "Отображение Onion",
+		"name": "Просмотр нескольких кадров одновременно",
 		"description": "Показывает полупрозрачное наслоение предыдущих/следующих костюмов в редакторе,как в программе для анимирования.Настройки рядом с кнопками размера",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2422,7 +2425,7 @@
 	},
 	{
 		"id": "pick-colors-from-stage",
-		"name": "Pick stage colors with eyedropper",
+		"name": "Выбирать цвета сцен с помощью пипетки",
 		"description": "Позволяет пипетке в редакторе костюмов также выбирать цвета из сцены.",
 		"tags": ["editor", "costumeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -2443,8 +2446,8 @@
 	},
 	{
 		"id": "player-thumb",
-		"name": "Show project thumbnail while loading",
-		"description": "Shows the project's thumbnail as a placeholder before the project is started and while it loads.",
+		"name": "Показывать картинку проекта при загрузке",
+		"description": "Показывает икону проекта при его загрузке и до его воспроизведения.",
 		"tags": ["community", "theme", "projectPage"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -2522,6 +2525,18 @@
 		"versionAdded": "1.4.0"
 	},
 	{
+		"id": "recolor-custom-blocks",
+		"name": "Перекрашивание пользовательских блоков",
+		"description": "Добавляет опцию выбирать пользовательский цвет при создании блока. Эта функция подразумевает добавление цветного кода или имя категории в начале названия блока.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "FlamedDogo99", "link": "https://github.com/FlamedDogo99" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.44.0"
+	},
+	{
 		"id": "redirect-mobile-forums-v2",
 		"name": "Перенаправлять на стандартные форумы",
 		"description": "Перенаправляет Вас на стандартный (\"основной\") вид форумов когда вы посещаете мобильный (\"м\") вид форумов, избегая ошибок \"Страница не найдена\".",
@@ -2534,8 +2549,8 @@
 	},
 	{
 		"id": "remaining-replies",
-		"name": "Remaining reply counter",
-		"description": "Shows you how many more replies can be posted on each comment thread in a studio before reaching the limit of 25.",
+		"name": "Счётчик оставшихся ответов",
+		"description": "Показывает, сколько осталось ответов на каждый комментарий в студии до предела 25-ти.",
 		"tags": ["community", "comments"],
 		"credits": [
 			{
@@ -2564,7 +2579,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix own projects",
+		"name": "Ремикс своих проектов",
 		"description": "Добавляет кнопку «Ремикс» в своих же проектах",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2597,7 +2612,7 @@
 	},
 	{
 		"id": "remove-search-bar-autocomplete",
-		"name": "Disable search bar autocomplete",
+		"name": "Отключить автозаполнение в панели поиска",
 		"description": "Убирает панель с последними запросами",
 		"tags": ["community"],
 		"credits": [
@@ -2701,7 +2716,7 @@
 	{
 		"id": "scratch3to2",
 		"name": "Scratch 3.0 → 2.0",
-		"description": "Makes Scratch 3.0-styled pages look like Scratch 2.0.",
+		"description": "Перевёрстывает страницы в стиле Scratch 3.0 в стиль Scratch 2.0.",
 		"tags": ["community", "theme", "featured"],
 		"credits": [
 			{
@@ -2762,7 +2777,7 @@
 	},
 	{
 		"id": "search-my-stuff",
-		"name": "My Stuff search",
+		"name": "Поиск Моих Работ",
 		"description": "Позволяет искать Ваши проекты, студии и корзину на странице «Мои работы». Просто начните писать что-либо на странице, чтобы начать поиск. Вы также можете нажать Ctrl+Ввод после поиска, чтобы быстро открыть самый верхний ответ.",
 		"tags": ["community", "featured"],
 		"credits": [
@@ -2803,7 +2818,7 @@
 	},
 	{
 		"id": "search-sprites",
-		"name": "Sprite pane search",
+		"name": "Поиск на панели спрайтов",
 		"description": "Добавляет поле поиска к панели спрайтов, чтобы искать спрайты по имени.",
 		"tags": ["editor", "recommended"],
 		"credits": [
@@ -2899,8 +2914,8 @@
 	},
 	{
 		"id": "stage-monitor",
-		"name": "Customizable stage monitors",
-		"description": "Changes the color and roundness of variable and list monitors on the stage.",
+		"name": "Редактируемые мониторы сцен",
+		"description": "Меняет цвет и закруглённость мониторов переменных и списков на сцене.",
 		"tags": ["player", "theme"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
@@ -2952,7 +2967,7 @@
 	},
 	{
 		"id": "swap-local-global",
-		"name": "Variable type switching",
+		"name": "Изменение типа переменных",
 		"description": "Добавляет больше опций во время переименования существующей переменной или существующего списка: позволяет переключаться между «Для всех спрайтов», «Только для этого спрайта» и облачными переменными. Также добавляет новую опцию при нажатии правой кнопкой мыши по переменной/списку, чтобы быстро сменить свойства.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
@@ -3085,8 +3100,8 @@
 	},
 	{
 		"id": "workspace-dots",
-		"name": "Customizable code editor grid",
-		"description": "Change the style of the grid pattern in the code editor.",
+		"name": "Настраиваемая сетка редактора кода",
+		"description": "Изменяет стиль узора сетки в редакторе кода.",
 		"tags": ["editor", "codeEditor", "theme"],
 		"credits": [
 			{ "name": "Jazza", "link": "https://scratch.mit.edu/users/greeny--231" }

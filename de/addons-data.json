@@ -223,7 +223,7 @@
 	{
 		"id": "block-count",
 		"name": "Blockanzahl",
-		"description": "Zeigt die volle Anzahl von Blöcken in der Menüleiste des Projekteditors an. Früher Teil von \"Figuren- und Skriptanzahl\".",
+		"description": "Zeigt die Gesamtzahl der Blöcke in einem Projekt in der Menüleiste des Editors an.",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -372,11 +372,17 @@
 	{
 		"id": "collapse-footer",
 		"name": "Feste Fußleiste",
-		"description": "Lässt die Fußleiste der Website etwas von unten herausschauen, und vergrößert sie, wenn man mit der Maus darüber fährt, sodass sie leicht von jeder Seite genutzt werden kann. Zuvor Teil von \"Unendliches Scrollen\".",
+		"description": "Lässt die Fußzeile der Website leicht aus dem unteren Rand des Fensters herausragen und erweitert sie beim Darüberfahren mit der Maus, sodass sie von überall auf der Seite schnell aufgerufen werden kann.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
+		],
+		"info": [
+			{
+				"id": "firefoxMobileBug",
+				"text": "Unter Firefox für Android funktioniert dieses Add-on möglicherweise besser, wenn die Option „Zum Ausblenden scrollen“ in den Firefox-Einstellungen → Anpassen deaktiviert ist."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -802,21 +808,26 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Fügt ein neues \"Debugger\"-Fenster im Editor hinzu. Erlaubt das loggen in den \"Logs\"-Tab des Debugger-Fenster mit den Blöcken \"loggen\", \"warnen\" und \"Fehler\". Der \"Unterbrechen\"-Block wird das Projekt pausieren. Alle aktuell ausgeführten Blockreihen können im \"Threads\"-Tab des Debuggerfensters angezeigt werden, und wenn das Projekt pausiert ist, kann die \"Schritt\"-Schaltfläche verwendet werden, um einen Block nach dem anderen auszuführen. Ein Graph der Bildwiederholrate und der Klonanzahl kann im \"Leistung\"-Tab angezeigt werden.",
+		"description": "Fügt ein neues \"Debugger\"-Fenster zum Editor hinzu. Damit können mithilfe der Log-Blöcke bestimmte Ereignisse in den \"Logs\"-Tab protokolliert werden. Der Block \"unterbrechen\" pausiert das Projekt. Alle ausgeführten Blockstapel können im \"Threads\"-Tab angezeigt werden, und wenn das Project pausiert ist, kann die Schaltfläche \"Schritt\" den nächsten Block ausführen. Der Tab \"Leistung\" bietet eine Grafik mit der Bildwiederholrate und der Anzahl der Klone. Mit den \"Stoppuhr\"-Blöcken kann das Zeitverhalten bestimmter Codeabschnitte gemessen werden, Ergebnisse dazu und mehr sind im Tab \"Timing\" verfügbar.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
-			{ "name": "retronbv" }
+			{ "name": "retronbv" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
 		],
 		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.33.0",
-			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
-			"newSettings": ["fancy_graphs"]
+			"version": "1.44.0",
+			"temporaryNotice": "New timing tab to help you with micro-optimization of your project and the debugger window is now resizable.",
+			"newSettings": ["auto_stop_timing", "show_ratio_time"],
+			"isMajor": true
 		}
 	},
 	{
@@ -1014,7 +1025,7 @@
 	{
 		"id": "editor-colored-context-menus",
 		"name": "Farbige Kontextmenüs",
-		"description": "Macht die Kontextmenüs beim Rechtsklicken auf Blöcken farbig.",
+		"description": "Macht die Kontextmenüs beim Rechtsklicken auf Blöcke farbig.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1043,7 +1054,7 @@
 	{
 		"id": "editor-compact",
 		"name": "Kompakter Editor",
-		"description": "Verringert die Größe von Schaltflächen, Eingabefeldern, der Kopfleiste, und anderen Elementen im Editor, um mehr Platz für Elemente wie die Codefläche, der Kostümeditor und Kostümvorschauen zu schaffen, wie in Scratch 2.0.",
+		"description": "Verringert die Größe von Schaltflächen, Eingabefeldern, der Kopfleiste, und anderen Elementen im Editor, um mehr Platz für Elemente wie die Codefläche, den Kostümeditor und Kostümvorschauen zu schaffen, wie in Scratch 2.0.",
 		"tags": ["editor", "theme", "featured"],
 		"credits": [
 			{
@@ -1136,13 +1147,8 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "\"Experimentelle Tasten\" sind Tasten wie Gleich-Zeichen, Schrägstrich, Strichpunkt und mehr. Sie könnten auf manchen Betriebssystemen und Tastaturlayouts nicht funktionieren.",
-				"id": "experimentalKeysWarn"
-			},
-			{
-				"type": "notice",
-				"text": "\"Umschalttasten\" sind Tasten, die normalerweise das Drücken der Umschalt-Taste und eine Zahl benötigen, wie Rufezeichen, Dollar-Symbol und mehr. Diese Tasten funktionieren nur mit dem \"wenn Taste () gedrückt\"-Block und könnten auf manchen Betriebssystemen und Tastaturlayouts nicht funktionieren. ",
-				"id": "shiftKeysWarn"
+				"text": "Manche dieser Tasten könnten auf bestimmten Betriebssystemen und Tastaturlayouts nicht funktionieren.",
+				"id": "OSWarn"
 			}
 		],
 		"dynamicEnable": true,
@@ -2291,16 +2297,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Dieses Addon funktioniert auf Mobilgeräten und kleinen Fenstern schlecht.",
-				"id": "mobile"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.44.0",
+			"temporaryNotice": "Now supports mobile devices."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -2520,6 +2523,18 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "recolor-custom-blocks",
+		"name": "Meine Blöcke neu färben",
+		"description": "Fügt eine Option hinzu, mit der beim Erstellen eines Blocks eine benutzerdefinierte Farbe ausgewählt werden kann. Diese Funktion funktioniert, indem der Farbcode oder der Kategoriename am Anfang der Bezeichnung des Blocks hinzugefügt wird.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "FlamedDogo99", "link": "https://github.com/FlamedDogo99" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.44.0"
 	},
 	{
 		"id": "redirect-mobile-forums-v2",

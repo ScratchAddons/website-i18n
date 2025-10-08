@@ -223,7 +223,7 @@
 	{
 		"id": "block-count",
 		"name": "Numero dei blocchi",
-		"description": "Mostra il numero totale di blocchi del progetto nella barra dei menu dell'editori. Incluso in precedenza in \"numero di sprite e di script\"",
+		"description": "Mostra nella barra dei menu dell'editor il numero totale di blocchi del progetto .",
 		"tags": ["editor", "editorMenuBar"],
 		"credits": [
 			{
@@ -372,11 +372,17 @@
 	{
 		"id": "collapse-footer",
 		"name": "Footer fisso",
-		"description": "Fa comparire una piccola parte del footer in fondo alla finestra e permette di espanderlo quando ci si passa sopra con il mouse, in modo che sia facilmente accessibile da un qualunque punto della pagina. Precendemente incluso nell'addon \"scorrimento infinito\"",
+		"description": "Fa risaltare leggermente il footer del sito dal fondo della finestra e lo espande quando ci si passa sopra con il mouse, permettendo di accedervi rapidamente da qualunque punto della pagina.",
 		"tags": ["community"],
 		"credits": [
 			{ "name": "Samq64", "link": "https://github.com/Samq64" },
 			{ "name": "ZenithKnight" }
+		],
+		"info": [
+			{
+				"id": "firefoxMobileBug",
+				"text": "Su Firefox per Android questo addon potrebbe funzionare meglio se è disattivata l'opzione \"Usa lo scorrimento per nascondere la barra degli strumenti\" che trovi in Impostazioni di Firefox → Personalizza."
+			}
 		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
@@ -799,21 +805,26 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Agggiunge all’editor una nuova finestra \"debugger\". Permette di registrare nella scheda “Log” del debugger le azioni dei blocchi \"log\", \"avviso\" e \"errore\". Il blocco \"breakpoint\" sospende l’esecuzione del progetto eseguito. Tutti gli script in esecuzione possono essere visti nella scheda \"Thread\" del debugger e quando il progetto è in pausa comparirà il pulsante \"Passo\" che permette di eseguire il blocco successivo. Un grafo dei frame per secondo e del numero dei blochi può essere visualizzato nella scheda \"Prestazioni\".",
+		"description": "Aggiunge una nuova finestra \"debugger\" all'editor. Ti permette di registrare eventi nella scheda \"Log\" della finestra del debugger usando i blocchi \"log\", \"avviso\" e \"errore\". Il blocco \"breakpoint\" mette in pausa l'esecuzione del progetto. Tutti gli script in esecuzione sono visibili nella scheda \"Thread\" della finestra del debugger, e quando il progetto è in pausa è possibile usare il pulsante \"Passo\" per eseguire il blocco successivo. A grafo dei frame al secondo e del numero dei cloni è visibile nella scheda \"Performance\". Ti permette di cronometrare sezioni dei tuoi script incluse tra i blocchi \"avvia cronometro\" e \"ferma cronometro\". I risultati del cronometraggio e altro ancora è disponibile nella scheda \"Cronometraggio\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
 			{ "name": "GarboMuffin" },
 			{ "name": "GrahamSH" },
 			{ "name": "TheColaber" },
-			{ "name": "retronbv" }
+			{ "name": "retronbv" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
 		],
 		"libraries": ["chartjs", "scratch-gui", "scratch-vm"],
 		"versionAdded": "1.16.0",
 		"latestUpdate": {
-			"version": "1.33.0",
-			"temporaryNotice": "Graph animation is now disabled by default to increase performance. You can re-enable it if you want.",
-			"newSettings": ["fancy_graphs"]
+			"version": "1.44.0",
+			"temporaryNotice": "New timing tab to help you with micro-optimization of your project and the debugger window is now resizable.",
+			"newSettings": ["auto_stop_timing", "show_ratio_time"],
+			"isMajor": true
 		}
 	},
 	{
@@ -1133,13 +1144,8 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "I \"tasti sperimentali\" includono i segni uguale, slash, punto e virgola e altri. Potrebbero non funzionare per tutti i sistemi operativi e per tutte le configurazioni della tastiera.",
-				"id": "experimentalKeysWarn"
-			},
-			{
-				"type": "notice",
-				"text": "I \"Tasti shift\" includono tasti che solitamente richiedono la pressione del tasto shift e di un tasto numerico, ad esempio il punto esclamativo, il dollaro, e altri. Questi tasti funzionando soltanto con il blocco \"quando si preme il tasto ()\" e non funzionano per tutti i sistemi operativi e tutte le configurazioni della tastiera.",
-				"id": "shiftKeysWarn"
+				"text": "Alcuni di questi caratteri potrebbero non funzionare in tutti i sistemi operativi o in tutti i layout di tastiera.",
+				"id": "OSWarn"
 			}
 		],
 		"dynamicEnable": true,
@@ -1907,7 +1913,7 @@
 	{
 		"id": "jump-to-def",
 		"name": "Vai alla definizione del blocco personalizzato",
-		"description": "Vai alla definizione di un blocco personalizzato cliccando il blocco con il tasto centrale del mouse oppure con Shift+click oppure selezionando \"Vai alla Definizione\" nel menu contestuale.",
+		"description": "Vai alla definizione di un blocco personalizzato cliccando il blocco con il tasto centrale del mouse oppure con Shift+click oppure selezionando \"Vai alla Definizione\" nel menu che si apre cliccando con il tasto destro.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -2288,16 +2294,13 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"info": [
-			{
-				"type": "notice",
-				"text": "Questo addon non funziona al meglio sui dispositivi mobili e nelle finestre di piccole dimensioni.",
-				"id": "mobile"
-			}
-		],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.17.0",
+		"latestUpdate": {
+			"version": "1.44.0",
+			"temporaryNotice": "Now supports mobile devices."
+		},
 		"injectAsStyleElt": true,
 		"updateUserstylesOnSettingsChange": true
 	},
@@ -2517,6 +2520,18 @@
 		],
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0"
+	},
+	{
+		"id": "recolor-custom-blocks",
+		"name": "Scegli il colore per i blocchi personalizzati",
+		"description": "Aggiunge un'opzione per scegliere il colore del blocco personalizzato quando si crea un blocco. L'addon funziona aggiungendo il codice del colore o il nome della categoria all'inizio del nome del blocco.",
+		"tags": ["editor", "codeEditor", "featured"],
+		"credits": [
+			{ "name": "FlamedDogo99", "link": "https://github.com/FlamedDogo99" }
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.44.0"
 	},
 	{
 		"id": "redirect-mobile-forums-v2",
