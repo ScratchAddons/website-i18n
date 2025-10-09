@@ -238,3 +238,10 @@ v1.43.0:
       The "enhanced clean up tool" addon, previously part of "developer tools", can now be toggled separately in Scratch Addons settings. You can also choose whether to remove unused variables and lists.
 
       Other new features in this update are new settings for "Scratch 3.0 → 2.0" and "full areas" and improved support for mobile devices.
+v1.44.0:
+  Highlights:
+    Description: |
+      The new "recolor custom blocks" addon adds an option to choose a custom color when creating a block. Go to Scratch Addons settings to enable it.
+
+      This update also adds timing blocks and line-by-line profiling to the "debugger" addon.
+    ImageAlt: Screenshot of the "recolor custom blocks" addon in action
