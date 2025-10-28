@@ -3,7 +3,7 @@
 
 **Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
 
-## Background
+## Zgodovina
 
 Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
 
@@ -33,7 +33,7 @@ Moves the username of the logged-in user into the profile dropdown item.
 - Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
 - Top of page: The navigation bar stays at the top of the page and scrolls away with it.
 
-## Credit
+## Zahvale
 
 The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
 
@@ -50,13 +50,13 @@ The original addon was written by WorldLanguages, and TheColaber was the author 
 - This is the first and only addon to use a table setting.
 - This is one of the few addons to have no credits.
 
-## Gallery
+## Galerija
 
 ![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
 
 The compact user dropdown.
 
-## Related
+## Povezano
 
 - [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
 - [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)

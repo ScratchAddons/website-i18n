@@ -48,8 +48,8 @@ Footer:
   Legal:
     Copyright: "{{ .Copyleft }} {{ .Year }} sodelavci Scratch Addons"
     NoAffiliation: Scratch Addons ni na noben način povezan s Scratchevo spletno stranjo ali organizacijami, ki zanjo skrbijo.
-    License: Scratch Addons je na voljo pod pogoji GNU General Public License v3.0.
-  Intro: Trenutno {{ .Version }} z/s {{ .AddonCount }} dodatki.
+    License: Scratch Addons je na voljo pod pogoji licence GNU General Public License v3.0.
+  Intro: Različica {{ .Version }}, {{ .AddonCount }} dodatkov.
 DarkTheme:
   Title: Kliknite za preklop med svetlim in temnim načinom.
   Label: Gumb za temni način
@@ -59,14 +59,14 @@ Docs:
   DocsNavToggleLabel: Pokaži/skrij stolpec za navigacijo
   TOC: Vsebina
   TOCToggleLabel: Pokaži/skrij spustni meni s kazalom vsebine
-  LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}} v {{.Commit}}. "
+  LastUpdated: "Nazadnje posodobil {{.Name}}, {{.Date}}, uveljavitev {{.Commit}}. "
   Improve: Izboljšajte to stran.
   SectionPages: Strani v tem razdelku
 DocsShortcodes:
   StubPage: To stran je treba **dopolniti**. Pomagate lahko tako, da dodate vsebino.
   StubSection: Ta razdelek je treba **dopolniti**. Pomagate lahko tako, da dodate vsebino.
-  OutdatedPage: To stran je treba **posodobiti**. Prosimo, da pomagate dodati nove informacije.
-  OutdatedSection: To stran je treba **posodobiti**. Prosimo, da pomagate dodati nove informacije.
+  OutdatedPage: To stran je treba **posodobiti**. Prosimo, da jo pomagate posodobiti z novejšimi podatki.
+  OutdatedSection: To stran je treba **posodobiti**. Prosimo, da jo pomagate posodobiti z novejšimi podatki.
 PlayerModal:
   LabelPlay: Predvajaj
   AltText: Kliknite za ogled videa.
@@ -100,19 +100,19 @@ IndexPage:
     OSParagraph: Scratch Addons je brezplačen in odprtokoden. Razvija ga skupnost Scratcherjev.
   Highlights:
     Heading: Izpostavljeno
-    Paragraph: Ne pozabite, da so to samo najpomembnejše funkcije.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
+    Paragraph: Ne pozabite, da so to samo najpomembnejši dodatki.  {{.OpenTag1}}To še ni vse!{{.CloseTag1}}
   Install:
-    Heading: Namesti
+    Heading: Namestitev
     Paragraph: Ste pripravljeni, da nadgradite Scratch? Namestite zdaj!
     InstallButton:
-      Other: ... ali {{.OpenTag1}}prenesite s strani GitHub{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
+      Other: ... ali {{.OpenTag1}}prenesite z GitHuba{{.CloseTag1}} ali {{.OpenTag2}}namestite izvirno kodo{{.CloseTag2}}.
   Users: uporabnikov
 AddonsPage:
   EasterEggAddon: To je skriven dodatek.
   RecommendedAddon: To je priporočen dodatek.
   FeaturedAddon: To je izpostavljen dodatek.
   BetaAddon: To je beta različica dodatka.
-  ListViewLabel: Pogled seznama
+  ListViewLabel: Pokaži kot seznam
   EasterEggLabel: Skrivni dodatki
   EasterEggTooltip:
     L1: Da vključite te dodatke, uporabite kodo Konami (↑↑↓↓←→←→BA) na strani z nastavitvami. Več informacij je na strani s pogostimi vprašanji.
@@ -130,9 +130,9 @@ AddonsPage:
 FeedbackPage:
   Status:
     Sending: Pošiljanje...
-    Success: Poslano! Hvala za informacije.
+    Success: Poslano! Hvala za vaše sporočilo.
     Failed: Prišlo je do težave. Poskusite znova.
-    Offline: Na strežniku za povratne informacije je prišlo do težave. Poskusite kasneje ali uporabite enega od drugih možnosti za komunikacijo.
+    Offline: Na strežniku za povratne informacije je prišlo do težave. Poskusite kasneje ali uporabite eno od drugih možnosti za komunikacijo.
   NoAddonsList: Seznam ni na voljo. Če bi ga radi poslali, odprite to stran v nastavitvah razširitve.
   UsernameLabel: Scratch uporabniško ime ali drug kontakt (neobvezno)
   ContentLabel: Povratne informacije
@@ -145,7 +145,7 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Nismo Scratcheva ekipa.
-        Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. Kljub temu nam lahko date predloge, kako lahko Scratch Addons izboljša vašo izkušnjo na Scratchu.
+        Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. Lahko pa nam lahko date predloge, kako lahko Scratch Addons izboljša vašo izkušnjo na Scratchu.
       Punishment:
         Heading: Ne moremo kaznovati ljudi. Nismo Scratcheva ekipa.
         Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. {{ .Tag1Start }}Vsebino na Scratchu lahko prijavite na več načinov.{{ .Tag1End }}
@@ -187,6 +187,12 @@ AddonDocs:
       VersionAdded: Dodan v različici
       LatestUpdate: Zadnja posodobitev
       Informations: Informacije
+    FeatureFlags:
+      enabledByDefault: Privzeto vključen
+      dynamicEnable: Dinamično vključen
+      dynamicDisable: Dinamično izključen
+      injectAsStyleElt: Slogi v elementu style
+      updateUserstylesOnSettingsChange: Slogi se posodobijo ob spremembi nastavitev
     Links:
       SourceCode: Izvirna koda
       SASettings: Nastavitve Scratch Addons

@@ -1,34 +1,36 @@
 ---
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster.
+**Način hitrejšega osveževanja v predvajalniku projektov** je dodatek, ki omogoča povečanje hitrosti projektov.
 
-Scratch normally iterates loops 30 times per second, resulting in a screen refresh rate of 30 frames per second (FPS). This addon can increase the iteration rate, thereby changing the framerate. This has the effect of making the project animate smoother but also run faster, relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+Scratch zanke navadno ponavlja 30-krat na sekundo, zato je hitrost osveževanja zaslona 30 sličic na sekundo (FPS). Ta dodatek lahko poveča hitrost izvajanja kode in s tem tudi hitrost osveževanja. Posledično so animacije v projektih bolj gladke, ampak tudi hitrejše, sorazmerno z nastavljeno vrednostjo FPS: privzeta nastavitev 60 FPS v bistvu naredi projekte dvakrat hitrejše.
 
-Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
+Nekateri projekti se povečani hitrosti osveževanja prilagodijo, na primer z [merjenjem časa med sličicami](https://en.wikipedia.org/wiki/Delta_timing), da animacije tečejo enako hitro in hkrati bolj gladko.
 
-The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
+Hitrejše osveževanje lahko vključite ali izključite tako, da držite `alt` in kliknete zeleno zastavico. Zastavica se bo spremenila v modro z rumeno ikono za pospeševanje, ki pomeni, da projekt deluje hitreje.
 
-## Odlike
+## Delovanje dodatka
 
-- The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
-- The addon works in both the project page and the editor.
-- By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
+- Hitrejše osveževanje je vključeno samo, kadar ga uporabnik aktivira s klikom na zeleno zastavico med držanjem tipke `alt`. Samodejno se izključi vsakič, ko je stran znova naložena.
+- Dodatek deluje na strani projekta in v urejevalniku.
+- Dodatek (ko je aktiviran) s privzetimi nastavitvami nastavi hitrost osveževanja projekta na 60 FPS. To vrednost se da v nastavitvah dodatka spremeniti v katero koli celo število med 31 in 240.
 
 ## Nastavitve
 
-### Custom FPS
+### FPS po meri
 
-Sets the value of the project's framerate when the addon is enabled.
+Nastavi hitrost osveževanja projekta, ko je dodatek vključen.
 
-## Future plans
+## Načrti
 
-- The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- Dodatek bo morda dobil oznako, da je nevaren, saj ne želimo, da bi projekti na Scratchevi spletni strani zahtevali ta dodatek. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
+- Ker dodatka ni mogoče vključiti brez tipke `alt`, ni združljiv z napravami z zaslonom na dotik. To bi lahko rešili tako, da bi zeleni zastavici dodali meni, v katerem bi bil ta dodatek in nekateri drugi. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
-## Credit
+## Zahvale
 
-Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
+Jeffalo - za prvotni dodatek, ki je nastavil predvajalnik projekta na 60 FPS.  
+TheColaber - za nastavitev FPS po meri in razne popravke.  
+JoanRiosiPla in WorldLanguages - za modro zastavico s puščicama.
 
 ## Seznam sprememb
 
@@ -53,11 +55,11 @@ Jeffalo created the original addon that only set the project player to 60 FPS. T
 - Jeffalo added the addon because "its hecking cool"[^1]
 - There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
 
-## Gallery
+## Galerija
 
 {{< docs/stub-section >}}
 
-## Related
+## Povezano
 
 {{< docs/stub-section >}}
 

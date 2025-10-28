@@ -12,12 +12,12 @@ Scratch Addons združi nove in obstoječe funkcije in teme za spletno stran in u
 - Če bi radi pomagali pri prevajanju razširitve, [preberite to stran](localization/joining-the-localization-team).
 - Če želite začeti uporabljati Scratch Addons in potrebujete pomoč, [preberite to stran](getting-started/quick-start).
 - Če vas zanima oblikovanje projekta, [preberite to stran](reference/design).
-- Found a bug? Have an idea? Tell them on [the issues tab](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Ste našli napako? Imate predlog? Povejte nam ga na [zavihku Issues](https://github.com/ScratchAddons/ScratchAddons/issues).
 
-## Sodelujte
+## Sodelovanje
 
-Contributions to the docs are welcome. You can use [the issues tab](https://github.com/ScratchAddons/website-v2/issues) or [the feedback form](../feedback) to simply report it, or you can edit the page and create a pull request to fix the issue. The files are located on [the website-v2 repository](https://github.com/ScratchAddons/website-v2), located on [the `content/docs` folder](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Alternatively, the <kbd>Improve the page</kbd> link leads you to edit the page on GitHub.
+Veseli smo prispevkov k dokumentaciji. Lahko nam poveste o napaki na [zavihku Issues](https://github.com/ScratchAddons/website-v2/issues) ali prek [obrazca za povratne informacije](../feedback) ali pa sami uredite stran, da popravite napako. Datoteke najdete v [repozitoriju website-v2](https://github.com/ScratchAddons/website-v2) v mapi [`content/docs`](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Lahko uporabite tudi povezavo <kbd>Izboljšajte to stran</kbd>, ki vas vodi neposredno do strani na GitHubu, kjer jo lahko uredite.
 
-## Razpravljaj
+## Razpravljanje
 
-Should you want to discuss a page, you may use the comment section located on the bottom of the page. For alternatives, you can join [the Discord server](https://discord.gg/R5NBqwMjNc) or chime in on [GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).
+Če bi se radi pogovarjali o strani, lahko uporabite komentarje na dnu strani. Druga možnost je, da se pridružite [strežniku Discord](https://discord.gg/R5NBqwMjNc) ali [forumu GitHub Discussions](https://github.com/ScratchAddons/ScratchAddons/discussions).

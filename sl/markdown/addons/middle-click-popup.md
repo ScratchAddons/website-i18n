@@ -1,48 +1,48 @@
 ---
 ---
 
-**Insert blocks by name** is an addon which allows users to code more quickly by typing the name of blocks and inserting them at their mouse position, rather than having to search for them in the flyout. The popup is opened by middle clicking in the workspace or pressing `ctrl` + `space`. You can then type to search for blocks and using the mouse to grab one out of the popup.
+**Iskanje blokov** je dodatek, ki omogoči uporabnikom, da namesto iskanja blokov v paleti vnesejo ime bloka in ga vstavijo tja, kjer je miška, kar pospeši sestavljanje kode. Okno za iskanje odprete tako, da kliknete prostor za kodo s srednjim miškinim gumbom ali pritisnite `ctrl` + `presledek`. Nato lahko s tipkanjem poiščete blok in uporabite miško, da ga izberete.
 
-## Background
+## Zgodovina
 
-The original version was made by Griffpatch for the Developer Tools extension. As part of a work to separate features from the _Developer tools_ as individual addons, this addon has been made to its own addon.
+Prvotno različico je naredil Griffpatch kot del razširitve Orodje za razvijalce. Med ločevanjem _Orodja za razvijalce_ na posamezne dodatke je nastal tudi ta dodatek.
 
-## Odlike
+## Delovanje dodatka
 
-- The searching supports any block in the workspace. This includes custom blocks, blocks from extensions and variable / lists.
-- You can use the arrow keys and enter to navigate the search results for even faster insertion.
-- When a result is highlighted, you can press tab to autocomplete your search to that block.
-- The popup can insert multiple nested blocks at the same time, by typing something like "move my variable + 10 steps".
-- For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
-- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for sitruations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
+- Iščete lahko kateri koli blok. To vključuje "moje bloke", bloke iz razširitev, spremenljivke in sezname.
+- Za še hitrejše vstavljanje lahko uporabite tipke s puščicami in Enter, da se premikate po rezultatih.
+- Ko je rezultat označen, lahko pritisnite Tab, da dopolnite iskanje do tistega bloka.
+- Vstavite lahko več gnezdenih blokov naenkrat, tako da vnesete nekaj takega kot "pojdi moja spremenljivka + 10 korakov".
+- Pri matematičnih blokih se privzeto upošteva vrstni red operacij, vendar lahko uporabite oklepaje.
+- Besedilo lahko vnesete v narekovajih, da preprečite iskalniku, da bi ga spremenil v bloke. Na primer, če bi radi, da figura reče "položaj x" namesto vrednosti spremenljivke `položaj x`, lahko napišete reci "položaj x".
 
 ## Nastavitve
 
-### Popup block size
+### Velikost blokov v oknu za iskanje
 
-Controls how big the blocks inside the menu appear. It is the height in pixels of a single block.
+Določi velikost posameznega bloka v oknu v slikovnih pikah.
 
-### Popup width
+### Širina okna za iskanje
 
-Controls how wide the popup is. This is a percentage of the width of the entire window.
+Določi širino okna kot odstotek širine brskalnikovega okna.
 
-### Popup maximum height
+### Največja višina okna za iskanje
 
-Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
+Določi, kako visoko je lahko okno, preden se doda drsna vrstica, kot odstotek višine brskalnikovega okna.
 
-## Future plans
+## Načrti
 
-- The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
-- Adding string interpolation for strings in quotes could really help out situatoins where a lot of join blocks would normally have to be tediously arranged.
+- Spreminjanje velikosti okna z vlečenjem enega od vogalov v urejevalniku, ne da bi bilo treba spremeniti nastavitev.
+- Zamenjava spremenljivk v nizih z narekovaji bi bila koristna v primerih, ko bi sicer bilo treba ročno sestaviti veliko blokov "združi".
 
-## Known issues
+## Znane napake
 
-- The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
-- The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
+- Bloki v oknu tega dodatka ne upoštevajo nastavitev dodatka *Prilagoditev oblike blokov*.
+- Algoritem za razvrščanje rezultatov iskanja še ni izpopolnjen, zato je iskani rezultat včasih skrit pod kupom slabših rezultatov.
 
-## Credit
+## Zahvale
 
-Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
+Tacodiva je naredila večji del današnjega dodatka. Veliko je prispeval tudi Griffpatch z odkrivanjem pomanjkljivosti v posodobljeni različici.
 
 ## Seznam sprememb
 
@@ -61,10 +61,10 @@ Tacodiva made most of the addon as it stands today. Additionally, Griffpatch hel
 - The name of the Git branch for the overhaul was `idk-what-im-doing`.
 - Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
 
-## Gallery
+## Galerija
 
 {{< docs/stub-section >}}
 
-## Related
+## Povezano
 
 {{< docs/stub-section >}}

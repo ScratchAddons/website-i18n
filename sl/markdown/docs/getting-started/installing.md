@@ -30,7 +30,7 @@ To je priporočeni način namestitve Scratch Addons za razvoj dodatkov, če imat
 ```sh
 $ git clone https://github.com/<uporabniško ime>/ScratchAddons.git
 ```
-Da posodobite Scratch Addons, se premaknite v njegovo mapo s `cd` in izvedite naslednje ukaze.
+Za posodobitev Scratch Addons se premaknite v njegovo mapo s `cd` in izvedite naslednje ukaze.
 
 ```sh
 $ git fetch
@@ -59,7 +59,7 @@ Ne pozabite posodobiti Scratch Addons tudi v brskalniku.
 
 ### Namestitev v brskalniku Google Chrome ali Microsoft Edge
 
-Da naložite razširitev v Google Chrome in večino brskalnikov, ki uporabljajo projekt Chromium, kot so Microsoft Edge, Opera, Brave in Vivaldi:
+Nalaganje razširitve v Google Chrome in večino brskalnikov, ki uporabljajo projekt Chromium, kot so Microsoft Edge, Opera, Brave in Vivaldi:
 
 1. Pojdite na [chrome://extensions](chrome://extensions)
 
@@ -76,7 +76,7 @@ Za posodobitev razširitve med testiranjem kliknite ikono za ponovno nalaganje.
 
 ### Namestitev v brskalniku Mozilla Firefox
 
-Da naložite razširitev v Mozilla Firefox:
+Nalaganje razširitve v Mozilla Firefox:
 
 {{< admonition info >}}
   Razširitve, naložene v Firefox na ta način, so začasne in jih je treba znova naložiti vsakič, ko je brskalnik zagnan. Zaradi tega za razvoj dodatkov priporočamo Chrome, vendar se pričakuje, da vse deluje tudi v Firefoxu.
