@@ -805,7 +805,7 @@
 	{
 		"id": "debugger",
 		"name": "Virheenkorjaus",
-		"description": "Adds a new \"debugger\" window to the editor. Allows for logging into the \"Logs\" tab of the debugger window using the \"log\", \"warn\" and \"error\" blocks. The \"breakpoint\" block will pause the project when executed. All running stacks of blocks can be viewed in the \"Threads\" tab of the debugger window, and when paused the \"Step\" button can be used to execute the next block. A graph of frames per second and number of clones can be viewed in the \"Performance\" tab. Allows for timing sections of your code with the \"start timing\" and \"stop timing\" block. Timing results and more are accessible from the \"Timing\" tab.",
+		"description": "Lisää uuden \"Virheenkorjaus\"-ikkunan editoriin. Ikkunan \"Lokimerkinnät\"-välilehdellä näkyvät merkinnät, jotka on kirjattu \"kirjaa lokimerkintä\"-, \"kirjaa varoitus\"- ja \"kirjaa virhe\" -lohkoilla. \"Keskeytyskohta\"-lohko keskeyttää projektin. Kaikkia käynnissä olevia lohkopinoja voi tarkastella virheenkorjausikkunan \"Säikeet\"-välilehdellä, ja kun projekti on keskeytetty, \"Askel\"-painikeella voi suorittaa lohkopinojen seuraavan lohkon. Kuvataajuus- ja kloonikaaviot ovat \"Suorituskyky\"-välilehdellä. Koodin osia voi ajastaa \"käynnistä ajastin\"- ja \"pysäytä ajastin\" -lohkoilla. Ajastuksen tulokset ja paljon muita tietoja on \"Ajastus\"-välilehdellä.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -1033,7 +1033,7 @@
 	},
 	{
 		"id": "editor-comment-previews",
-		"name": "Näytön ulkopuolella olevien kommenttien katseleminen",
+		"name": "Näytön ulkopuolella olevien kommenttien esikatselu",
 		"description": "Näet kommenttien sisällön viemällä hiiren osoittimesi kutistettujen kommenttien tai näytön ulkopuolella oleviin kommenteihin liitettyjen lohkojen päälle. Voit käyttää tätä tarkastellaksesi kommentteja, jotka ovat näytön ulkopuolella, tunnistaaksesi silmukkalohkon alhaalta sen katselunäkymän perusteella, sovittaaksesi monia pitkiä kommentteja pieneen tilaan ja muuhun sellaiseen.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -1137,14 +1137,14 @@
 	},
 	{
 		"id": "editor-extra-keys",
-		"name": "Erikoisnäppäinvaihtoehdot",
+		"name": "Lisää näppäinvaihtoehtoja",
 		"description": "Lisää enemmän näppäimiä \"onko näppäin () painettu?\" ja \"kun painetaan ()\" -lohkojen avattaviin valikoihin, kuten enterin, pisteen, pilkun ja monia muita. Nämä näppäimet toimivat jopa niillä käyttäjillä, joilla ei ole tätä lisäosaa.",
 		"tags": ["editor", "codeEditor"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"info": [
 			{
 				"type": "notice",
-				"text": "Some of these keys may not work on all operating systems or keyboard layouts.",
+				"text": "Jotkin näistä näppäimistä eivät välttämättä toimi kaikissa käyttöjärjestelmissä tai näppäimistöasetteluissa.",
 				"id": "OSWarn"
 			}
 		],

@@ -1354,7 +1354,7 @@
 		"info": [
 			{
 				"id": "studioClick",
-				"text": "Um die genau Anzahl von Projekten in einem Studio anzuzeigen y aktiviere unten die Einstellungen \"genaue Anzahl in Studios\" und klicke auf das Label \"100+\" auf dem Projekte-Tab des Studios."
+				"text": "Um die genau Anzahl von Projekten in einem Studio anzuzeigen, aktiviere unten die Einstellungen \"genaue Anzahl in Studios\" und klicke auf das Label \"100+\" auf dem Projekte-Tab des Studios."
 			}
 		],
 		"dynamicEnable": true,
@@ -1420,7 +1420,7 @@
 	{
 		"id": "featured-dangos-v2",
 		"name": "Vorgestellte Dangos",
-		"description": "Ein Aprilscherz Scratch Addons vom Jahr 2023, das eine neue Reihe mit Projekten über Dangos zur Startseite hinzufügt.",
+		"description": "Ein Aprilscherz von Scratch Addons vom Jahr 2023, das eine neue Reihe mit Projekten über Dangos zur Startseite hinzufügt.",
 		"tags": ["community", "easterEgg"],
 		"versionAdded": "1.31.1"
 	},
@@ -2789,7 +2789,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Falls du shr viele Projekte oder Studios hast, könnte die Suche eine Weile dauern.",
+				"text": "Falls du sehr viele Projekte oder Studios hast, könnte die Suche eine Weile dauern.",
 				"id": "pleaseBePatient"
 			}
 		],
