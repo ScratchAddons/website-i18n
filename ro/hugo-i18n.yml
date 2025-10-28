@@ -52,3 +52,7 @@ AddonsPage:
 ChangelogPage:
   Highlights:
     Title: Evidențieri
+AddonDocs:
+  Infobox:
+    Labels:
+      Informations: ""
