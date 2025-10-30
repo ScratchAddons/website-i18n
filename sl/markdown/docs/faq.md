@@ -83,7 +83,7 @@ Najprej odprite nastavitve:
 - odprite okno razširitve in kliknite ikono zobnika v zgornjem desnem kotu ali
 - obiščite https://scratch.mit.edu/scratch-addons-extension/settings. Razširitev mora biti nameščena, da ta povezava deluje.
 
-Nato poiščite dodatke, ki bi jih radi vključili, s pomočjo stranske vrstice ali iskalnega polja. Dodatek vključite s klikom na stikalo na desni strani ploščice.
+Nato poiščite dodatke, ki bi jih radi vključili, s pomočjo stranskega stolpca ali iskalnega polja. Dodatek vključite s klikom na stikalo na desni strani ploščice.
 
 ### Lahko ljudem na Scratchu povem za Scratch Addons?
 

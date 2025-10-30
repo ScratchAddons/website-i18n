@@ -84,7 +84,7 @@ Nalaganje razširitve v Mozilla Firefox:
 
 1. V naslovno vrstico vtipkajte `about:debugging`.
 
-1. V stranski vrstici izberite "Ta Firefox"
+1. V stranskem stolpcu izberite "Ta Firefox"
 
 1. Kliknite "Naloži začasni dodatek ..."
 
@@ -136,5 +136,5 @@ Firefox na računalniku lahko pregleduje razširitve in zavihke v aplikaciji Fir
 
 1. V naslovno vrstico Firefoxa na računalniku vtipkajte `about:debugging`.
 1. Kliknite "Omogoči USB".
-1. Kliknite gumb Poveži zraven naprave v stranski vrstici. Če se nobena ne pojavi, znova zaženite Firefox na računalniku.
+1. Kliknite gumb Poveži zraven naprave v stranskem stolpcu. Če se nobena ne pojavi, znova zaženite Firefox na računalniku.
 1. Še enkrat kliknite napravo.
