@@ -1,4 +1,4 @@
 ---
 title: Entwickeln
 ---
-Siehe diesen Bereich für Entwickler!
+Sieh dir diesen Bereich für Entwickler an!
