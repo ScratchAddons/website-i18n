@@ -86,11 +86,11 @@ IndexPage:
     AddonsParagraph: Scratch Addons besteht aus Funktionen, die deine Erfahrung auf der Scratch-Website und dem Scratch-Editor verbessern.
     CustomizableHeading: Anpassbar
     CustomizableParagraph: Scratch Addons hat eine einfach zu verwendende Oberfläche zum Steuern von verschiedenen Einstellungen jedes Funktionen und Designs.
-    InternationalParagraph: Nicht nur Englisch. Scratch Addons ist auf Spanisch, Russisch, Japanisch, Französisch, Deutsch und mehr Sprachen verfügbar.
+    InternationalParagraph: Nicht nur Englisch. Scratch Addons ist auf Spanisch, Russisch, Japanisch, Französisch, Deutsch und vielen weiteren Sprachen verfügbar.
     OSHeading: Open-Source
     OSParagraph: Scratch Addons ist kostenlos, open-source und von einer Scratcher-Community entwickelt.
   Highlights:
-    Paragraph: Vergiss nicht, dies sind nur die Highlights. {{.OpenTag1}}Es gibt mehr!{{.CloseTag1}}
+    Paragraph: Vergiss nicht, dies sind nur die Highlights. {{.OpenTag1}}Es gibt viele mehr!{{.CloseTag1}}
   Install:
     Heading: Installieren
     Paragraph: Bereit, Scratch upzugraden? Hol es dir jetzt!
@@ -115,15 +115,15 @@ AddonsPage:
     Label: Einstellungen in Scratch Addons
     Title: In den Scratch Addons-Einstellungen öffnen
   AddonDocsLink:
-    Label: Addon-Dokumentation
-    Title: In der Dokumentation mehr über dieses Addon erfahren
+    Label: Addon-Dokumentationsseite
+    Title: Erfahre mehr über dieses Addon in der Addon-Dokumentation!
 FeedbackPage:
   Status:
     Sending: Wird gesendet…
     Success: Gesendet! Danke für dein Feedback!
     Failed: Es ist ein Fehler aufgetreten? Erneut senden?
     Offline: Am Feedback-Server ist etwas schiefgelaufen. Versuche es später erneut oder verwende die erwähnten Alternativen.
-  NoAddonsList: Die Liste ist nicht verfügbar. Bitte öffne diese Seite durch den Knopf in der Erweiterung.
+  NoAddonsList: Die Liste ist nicht verfügbar. Bitte öffne diese Seite durch den Button in der Erweiterung.
   UsernameLabel: Scratch-Benutzername, oder andere Erkennungen (optional)
   ContentPlaceholder: Bitte stelle so viele Details wie du kannst zu Verfügung.
   SendEnabled: Liste der Addons, die gerade aktiviert sind, senden (empfohlen)
@@ -139,7 +139,7 @@ FeedbackPage:
         Heading: Wir können niemanden bestrafen. Wir sind nicht das Scratch Team.
         Description: Scratch Addons ist nicht mit Scratch oder seinen übergeordneten Organisationen angeschlossen. Wir haben keine Kontrolle über den Inhalt und die Moderation der Scratch-Website. {{ .Tag1Start }}Es gibt viele Wege zum Melden auf der Scratch-Website.{{ .Tag1End }}
       Folders:
-        Heading: Die Figernordner-Funktion wird bald wieder funktioneren!
+        Heading: Die Figurenordner-Funktion wird bald wieder funktioneren!
         Description: Wir arbeiten daran
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension-Logo

@@ -46,7 +46,7 @@ Jeffalo hat das ursprüngliche Addon erstellt, das den Projektplayer nur auf 60 
 - **V1.36.0** Das Addon wurde in **Höherer Projekt FPS-Modus** umbenannt. Das Beschreibungs- und Informationsfeld des Addons wurde der Klarheit halber umgeschrieben.
 - **V1.37.0** Ein zweites Informationsfeld wurde hinzugefügt, das Probleme mit dem Energiesparmodus der Benutzergeräte erklärt.
 
-## Banalität
+## Verschiedenes
 
 - Obwohl TurboWarp Addons dieses Addon nicht hat, können Sie mit den erweiterten Projekteinstellungen von Turbowarp die Bildrate des Projekts auf ähnliche Weise anpassen.
 - Obwohl die Einstellung des Addons zum Anpassen der FPS von 31 auf 240 begrenzt ist, ist der Scratch-Projektplayer mit Werten sowohl niedriger als auch höher als diese Grenzen völlig in Ordnung! Es gibt mehrere Möglichkeiten, dieses Limit zu umgehen, da nur das Eingabefeld der Einstellung das Limit festlegt.

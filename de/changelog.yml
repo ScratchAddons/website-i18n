@@ -23,14 +23,14 @@ v1.8.0:
 v1.9.1:
   Highlights:
     Description: |
-      Neue Funktion: Sieh, wer deine Projekte in Scratch Messaging geloved und favorisiert hat, indem Sie die Anzahl der Loves/Favoriten überfahren. Studio-Aktivitätsmeldungen werden jetzt sowohl in Scratch Messaging als auch in Scratch Notifier unterstützt.
+      Neue Funktion: Sieh, wer deine Projekte in Scratch Messaging geliked und favorisiert hat, indem du mit der Maus über die Anzahl der Likes/Favoriten gehst. Studio-Aktivitätsmeldungen werden jetzt sowohl in Scratch Messaging als auch in Scratch Notifier unterstützt.
 
-      Das Addon "Blockpalette automatisch ausblenden" verfügt jetzt über einen "Kategorie-Hover"-Modus. "Projektvideo aufnehmen" kann jetzt den Toneingang des Mikrofons enthalten.
+      Das Addon "Blockpalette automatisch ausblenden" verfügt jetzt über einen "Kategorie-Hover"-Modus. "Projektvideo aufnehmen" kann jetzt den Toneingang des Mikrofons nutzen.
     ImageAlt: Screenshot der neuen Scratch Messaging-Funktion.
 v1.10.0:
   Highlights:
     Description: |
-      Neue Funktion: "Link zu Kommentar kopieren" Addon, der einen "Link kopieren"-Button zu den Kommentaren hinzufügt, sodass du einfach den Link dazu kopieren kannst. Gehe zu Scratch Addons Einstellungen um ihn zu aktivieren.
+      Neue Funktion: "Link zu Kommentar kopieren"-Addon, der einen "Link kopieren"-Button zu den Kommentaren hinzufügt, sodass du einfach den Link dazu kopieren kannst. Gehe zu Scratch Addons Einstellungen um ihn zu aktivieren.
 
       Das "Pause-Taste"-Addon wurde verbessert und hat nun die Beta-Phase verlassen. Mehrere Dunkelmodus-Bugs wurden verbessert.
 v1.11.0:
@@ -42,55 +42,55 @@ v1.11.0:
 v1.12.0:
   Highlights:
     Description: |
-      Neue Funktion: "Dateien ziehen"-Addon, das dir erlaubt, Dateien zur Figuren-, Kostüm- und Klangliste zu ziehen. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
+      Neue Funktion: "Dateien ziehen"-Addon, das dir erlaubt, Dateien zur Figuren-, Kostüm- und Klangliste zu ziehen und somit hochzuladen.. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
 
-      Ein anderes vorgestelltes neues Addon in diesem Update ist "Benutzerdefinierte Blockform", das dir erlaubt, das Futter, den Eckenradius und die Laschengröße von Scratch-Blöcken zu ändern.
+      Ein anderes vorgestelltes neues Addon in diesem Update ist "Benutzerdefinierte Blockform", das dir erlaubt, die Höhe, den Eckenradius und die Laschengröße von Scratch-Blöcken zu ändern.
 v1.13.0:
   Highlights:
     Description: |
-      Neue Funktion: "Editor Dark Mode" wurde neu erstellt und ist jetzt tief anpassbar. Gehen Sie zu den Einstellungen für Scratch Addons, um bestimmte Farben zu ändern, dunkle Kommentare und Bildlaufleisten umzuschalten und mehr!
+      Neue Funktion: "Editor Dark Mode" wurde von Grund auf erneuerz und ist jetzt stark anpassbar. Gehe zu den Einstellungen für Scratch Addons, um bestimmte Farben zu ändern, dunkle Kommentare und Bildlaufleisten umzuschalten und mehr!
 
-      Die neuen Addons dieses Updates sind "benutzerdefinierte Skript-Zoom-Einstellungen" und "Neue Sprite-Standardposition ändern".
+      Die neuen Addons dieses Updates sind "Benutzerdefinierte Skript-Zoom-Einstellungen" und "Neue Figuren-Standardposition ändern".
 v1.14.0:
   Highlights:
     Description: |
-      Einige neue Add-Ons dieses Updates sind "Gamepad-Unterstützung", "Katzenblöcke", "Editor-Soundeffekte" und "gekrümmte Bühnengrenze entfernen". Gehe zu den Einstellungen für Scratch Addons, um sie zu aktivieren.
+      Einige neue Add-Ons dieses Updates sind "Gamepad-Unterstützung", "Katzenblöcke", "Editor-Soundeffekte" und "Runden Bühnenrand entfernen". Gehe zu den Einstellungen für Scratch Addons, um sie zu aktivieren.
 
       Dieses Update liefert auch eine besser organisierte Scratch-Addons-Einstellungsseite sowie Leistungsverbesserungen bei der Verwendung von Addons im Projekteditor.
 v1.15.0:
   Highlights:
     Description: |
-      Neue Addons dieses Updates sind "Durchsichtige Blöcke", "Strg+Klick zum Ausführen von Skripten", "Duplizierte Blöcke nicht automatisch ausführen" und "Nachrichten auf der Nachrichtenseite von Scratch filtern". Gehe zu Scratch Addons-Einstellungen, um sie zu aktivieren.
+      Neue Addons dieses Updates sind "Durchsichtige Blöcke", "Strg+Klick zum Ausführen von Skripten", "Duplizierte Blöcke nicht automatisch ausführen" und "Nachrichten auf der Nachrichtenseite von Scratch filtern". Gehe zu den Scratch Addons-Einstellungen, um sie zu aktivieren.
 
-      Mit diesem Update wurde auch die Standardfarbe des Badges der Scratch Addons-Erweiterung geändert, das die Anzahl deiner ungelesenen Nachrichten anzeigt. Gehe zu Scratch Addons settings, um zum alten Grün zurückzukehren, oder passe die Farbe selbst an.
+      Mit diesem Update wurde auch die Standardfarbe des Badges der Scratch Addons-Erweiterung geändert, das die Anzahl deiner ungelesenen Nachrichten anzeigt. Gehe zu den Scratch Addons-Einstellungen, um zum alten Grün zurückzukehren, oder passe die Farbe selbst an.
 v1.16.0:
   Highlights:
     Description: |
-      Neues Addon: „Debugger“, das Konsolenlogs und Breakpoints zu Scratch bringt. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
+      Neues Addon: „Debugger“, das Konsolenlogs und Breakpoints zu Scratch hinzufügt. Gehe zu den Scratch Addons-Einstellungen, um es zu aktivieren.
 
-      Ein weiters neues Addon in diesem Update ist „Vergrößertes Suchfeld“, das die Suchleiste beimFokussieren größer macht.
+      Ein weiters neues Addon in diesem Update ist „Erweiterbares Suchfeld“, das die Suchleiste beim Fokussieren größer macht.
 v1.17.0:
   Highlights:
     Description: |
-      Neues Addon: "altes Studio-Layout", das das Layout der Studios-Seite zum Layout, das vor dem Studio-Update verwendet wurde, umwandelt. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
+      Neues Addon: "Altes Studio-Layout", das das Layout der Studios-Seite zum Layout, das vor dem Studio-Update verwendet wurde, umwandelt. Gehe zu drn Scratch Addons-Einstellungen, um es zu aktivieren.
 
-      Das neue "Follower durchsuchen-Knopf in Studios"-Addon bringt Einfachklick-Einladungen zurück. Weitere neue Addons in diesem Update sind "Bilder in hoher Auflösung hochladen" und "nicht ziehbare Figuren im Editor".
+      Das neue "Follower durchsuchen-Button in Studios"-Addon bringt Ein-Klick-Einladungen zurück. Weitere neue Addons in diesem Update sind "Bilder in hoher Auflösung hochladen" und "nicht ziehbare Figuren im Editor".
 v1.18.0:
   Highlights:
     Description: |
       Neues Addon: "TurboWarp-Button", der eine Schaltfläche auf Projektseiten hinzufügt, um das Projekt in TurboWarp.org abzuspielen. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
 
-      Mit dem neuen Addon "mehr Elemente pro Zeile" kannst du mehr als 3 Projekte pro Zeile in Studios und anderen Teilen der Website sehen. Andere neue Addons, die diesem Update hinzugefügt wurden, sind "Strg+Enter zum Posten" und "anpassbares Standardprojekt".
+      Mit dem neuen Addon "mehr Elemente pro Zeile" kannst du mehr als 3 Projekte pro Zeile in Studios und anderen Teilen der Website sehen. Andere neue Addons, die diesem Update hinzugefügt wurden, sind "Strg+Enter zum Posten" und "Benutzerdefiniertes Standardprojekt".
 v1.19.0:
   Highlights:
     Description: |
-      Neues Addon: "Kostüm standardmäßig malen", mit dem Sie die Standardaktion der Schaltflächen "Sprite/Kostüm/Hintergrund/Sound auswählen" ändern können. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
+      Neues Addon: "Kostüm standardmäßig malen", mit dem die Standardaktion der Schaltflächen "Sprite/Kostüm/Hintergrund/Sound auswählen" geändert werden kann. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
 
-      Das neue Addon "Name-Skripte vor dem Platzieren in den Rucksack" fordert, Skripte zu benennen, nachdem du sie in den Rucksack gezogen hast. Andere neue Addons, die in diesem Update hinzugefügt wurden, sind "Schaltfläche ausblenden" und "Projektstatistiken ausblenden".
+      Das neue Addon "Skripte vor dem Platzieren im Lager benennen" fordert, Skripte zu benennen, nachdem du sie in den Rucksack gezogen hast. Andere neue Addons, die in diesem Update hinzugefügt wurden, sind "Löschschaltfläche ausblenden" und "Projektstatistiken ausblenden".
 v1.20.0:
   Highlights:
     Description: |
-      Neues Addon: "Einzelnen Block mit Strg-Taste nehmen", das die Möglichkeit bietet, einen einzelnen Block aus der Mitte eines Skripts zu ziehen (anstatt des gesamten darunter befestigten Stapels), während man die Strg-Taste gedrückt hält. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
+      Neues Addon: "Einzelne Blöcke mit Strg-Taste nehmen", das die Möglichkeit bietet, einen einzelnen Block aus der Mitte eines Skripts zu ziehen (anstatt des gesamten darunter befestigten Stapels), während man die Strg-Taste gedrückt hält. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
 
       Das Addon "Editor Dark Mode und anpassbare Farben" hat eine neue "Scratch 2.0"-Farbvoreinstellung. Andere neue Addons, die in diesem Update hinzugefügt wurden, sind "neue Variablen ausblenden" und "Kostüm nach oben oder unten verschieben".
 v1.21.0:
@@ -102,19 +102,19 @@ v1.21.0:
 v1.22.0:
   Highlights:
     Description: |
-      Neues Addon: "Variablentyp ändern", das das Wechseln zwischen "Für alle Figuren" und "Nur für diese Figur" in Variablen und Listen ermöglicht. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
+      Neues Addon: "Variablentyp ändern", das das Wechseln zwischen "Für alle Figuren" und "Nur für diese Figur" in Variablen und Listen ermöglicht. Gehe zu den Scratch Addons-Einstellungen, um es zu aktivieren.
 
       Weitere neue Addons in diesem Update sind "Bessere Editorkommentare", "Zweispaltiges Kategorienmenü" und "Suchleiste in Meine Sachen".
 v1.23.0:
   Highlights:
     Description: |
-      Neues Addon: "Dunkler Modus und anpassbare Farben auf der Website". Gehe zu Scratch Addons-Einstellungen, um bestimmte Farben zu verändern, dunkle Scrollleisten umzuschalten und vieles mehr!
+      Neues Addon: "Dunkler Modus und anpassbare Farben auf der Website". Gehe zu den Scratch Addons-Einstellungen, um bestimmte Farben zu verändern, dunkle Scrollleisten umzuschalten und vieles mehr!
 
       Weitere neue Addons, die in diesem Update hinzugefügt wurden, sind "Skripte am Raster ausrichten", "Blockzähler" und "HD-Profilbilder".
 v1.24.0:
   Highlights:
     Description: |
-      Neues Addon: "Benutzerdefinierte Navigationsleiste", womit du Links, die auf der Navigationsleiste angezeigt werden sollen, auswählen kannst. Gehe zu Scratch Addons-Einstellungen, um es zu aktivieren.
+      Neues Addon: "Benutzerdefinierte Navigationsleiste", womit du Links, die auf der Navigationsleiste angezeigt werden sollen, auswählen kannst. Gehe zu den Scratch Addons-Einstellungen, um es zu aktivieren.
 
       Weitere neue Addons in diesem Update sind "Benutzerdefinierter Textstil auf Blöcken", "Figurenwackeln in Figurenleiste deaktivieren" und "Figuren nach Namen suchen". Zusätzlich wurde das "Scratch 2.0 → 3.0"-Addon aktualisiert, um Scratch 3.0 ähnlicher zu sehen.
 v1.25.0:
