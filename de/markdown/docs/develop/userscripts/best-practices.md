@@ -51,7 +51,7 @@ document.querySelector(".sa-remix-button").innerHTML = `<span>${projectTitle} re
 // Mache das stattdessen:
 const span = document.createElement("span");
 span.textContent = `${projectTitle} remixen`;
-
+document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
@@ -96,9 +96,9 @@ Vermeide die übermäßige Verwendung von parentElement, wenn du die Vorfahren e
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Mach dies Nicht:
 reportButton.addEventListener("click", (event) => {
- const commentElement = event.target.parentElement.parentElement.parentElement.p
+  const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
 })
 ```
 {{< /admonition >}}
@@ -199,7 +199,7 @@ const newDeleteSprite = function (...args) {
 
 ### addon.tab.scratchMessage() verwenden
 
-Wenn eine Zeichenkette bereits von Scratch übersetzt wurde, verwende [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage) anstatt eine neue Nachricht hinzuzufügen.
+Wenn eine Zeichenkette bereits von Scratch übersetzt wurde, verwende [addon.tab.scratchMessage](/docs/reference/addon-api/addon.tab/#addontabscratchmessage), anstatt eine neue Nachricht hinzuzufügen.
 
 {{< admonition error >}}
 ```js

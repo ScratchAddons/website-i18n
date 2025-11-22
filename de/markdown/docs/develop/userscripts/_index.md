@@ -7,7 +7,7 @@ Userscripts sind Javascript-Dateien, die jedes Mal, wenn der Benutzer eine Scrat
 
 Userscripts für Scratch Addons sind, ähnlich wie Userscripts die du vielleicht für Userscriptmanager wie Tampermonkey oder Greasemonkey runterlädst, JavaScript-Programme, die in dem selben Kontext wie der Javascript-Code von Scratch ausgeführt werden. In Browsererweiterungsworten wird dieser Kontext oft "Hauptwelt" genannt.
 
-Obwohl Scratch Addons-Userscripts Teil einer Browsererweiterung sind, können sie keine `chrome.*`- oder `browser.*`-APIs aufrufen. Stattdessen gibt Scratch Addons eine [`addon.*`-API](/docs/reference/addon-api) vor.
+Obwohl Scratch Addons-Benutzerskripte Teil einer Browsererweiterung sind, können sie keine `chrome.*`- oder `browser.*`-APIs aufrufen. Stattdessen gibt Scratch Addons eine [`addon.*`-API](/docs/reference/addon-api) vor.
 
 
 ## Userscripts im Addon-Manifest deklarieren
@@ -27,8 +27,8 @@ Jedes Element dieses Arrays muss die folgenden Elemente haben:
 Beispielsmanifest:
 ```json
 {
-  "name": "Copy link to comment button",
-  "description": "Adds a \"Copy Link\" button to all comments on the website, next to the \"Report\" button.",
+  "name": "Kommentar-Link-Kopieren-Schaltfläche",
+  "description": "Fügt eine Schaltfläche \"Link kopieren\" zu allen Kommentaren auf der Website hinzu, neben der Schaltfläche \"Melden\".",
   "userscripts": [
     {
       "url": "userscript.js",
@@ -129,6 +129,6 @@ Die Reihenfolge, in der Userscripts ausgeführt werden, kann bei jedem Seitenlad
 
 ### runAtComplete
 
-Userscripts können sich dafür entscheiden, ausgeführt zu werden, bevor die Seite vollständig geladen ist, indem Sie im Addon-Manifest einmal für jedes Userscript `"runAtComplete": false` angeben.
+Userscripts können sich dafür entscheiden, ausgeführt zu werden, bevor die Seite vollständig geladen ist, indem du im Addon-Manifest einmal für jedes Userscript `"runAtComplete": false` angibst.
 
 Derzeit ist nur die Existenz von `document.head` garantiert, wenn ein Benutzerskript frühzeitig ausgeführt wird. In Zukunft wird auch die Existenz von `document.body` garantiert sein, sodass nie Userscripts ausgeführt werden, bevor das HTML-Dokument ausreichend geladen ist, um `</head> <body>` zu erreichen.

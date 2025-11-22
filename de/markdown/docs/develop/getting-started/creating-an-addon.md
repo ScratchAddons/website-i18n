@@ -12,7 +12,7 @@ Wenn du vorhast, das Addon, das du entwickelst, als Pull-Request an unser GitHub
 Scratch Addons erfordert keine Software für die Entwicklung, außer einem Texteditor und einem Chromium-basierten Browser (121+), aber wir empfehlen auch, [Git](https://git-scm.com/), [Firefox](https://www.firefox.com/) (121+) und [Visual Studio Code](https://code.visualstudio.com/) installiert zu haben.
 
 ## Installation
-Informationen zur Installation der Erweiterung für die Entwicklung findest du unter [Installing from source](/docs/getting-started/installing/#from-source).
+Informationen zur Installation der Erweiterung für die Entwicklung findest du unter [von der Quelle installieren](/docs/getting-started/installing/#from-source).
 
 ## Erstellen des Addon-Ordners
 Jedes Addon hat seine eigene interne ID, die von der Erweiterung und anderen Addons verwendet wird. Addon-IDs sollten außer Bindestrichen keine Leerzeichen oder Sonderzeichen enthalten und sollten selbstbeschreibend, aber nicht zu lang sein.
@@ -51,7 +51,7 @@ Das Addon tut noch nichts, aber es sollte auf der Popup- und Einstellungsseite e
 ## Benutzerskripte und Benutzerstile
 [Benutzerskripte](/docs/develop/userscripts/) und [Benutzerstile](/docs/develop/userstyles/) sind es, die das Addon zum Laufen bringen. Benutzerskripte führen JavaScript-Code aus und Benutzerstile injizieren CSS-Stile. Addons können eine Kombination aus Benutzerstilen und Benutzerskripten haben.
 
-Userscripts haben Zugriff auf [Addon-APIs](/docs/reference/addon-api/), um Scratch-spezifische Aufgaben wie das Abrufen des derzeit angemeldeten Benutzers zu erleichtern.
+Benutzerskripte haben Zugriff auf [Addon-APIs](/docs/reference/addon-api/), um Scratch-spezifische Aufgaben wie das Abrufen des derzeit angemeldeten Benutzers zu erleichtern.
 
 Wenn du ein Benutzerskript oder einen Benutzerstil zum Ordner des Addons hinzufügst, muss es im Addon-Manifest deklariert werden, da es sonst nicht ausgeführt wird.
 

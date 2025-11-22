@@ -17,7 +17,7 @@ platform: Verpackung
 plugin: Plugin-/Dienstprogramm-Bibliotheken
 projectManagement: Projektverwaltung
 question: Fragenbeantworter
-review: Pull Request Prüfer
+review: Pull-Anfragen-Überprüfer
 security: Sicherheit
 talk: Besprechungen
 tool: Werkzeuge

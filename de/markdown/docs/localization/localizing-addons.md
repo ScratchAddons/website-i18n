@@ -16,7 +16,7 @@ Erstelle eine Datei namens `ADDONID.json`, wobei ADDONID die ID des Addons ist (
   "ADDONID/sardine": "sardine",
   "ADDONID/move-steps": {
     "string": "move {number} steps",
-    "developer_comment": "Please translate this to match Scratch's official translation for the block."
+    "developer_comment": "Bitte übersetze dies, um der offiziellen Übersetzung von Scratch für den Block zu entsprechen."
   }
 }
 ```
@@ -58,4 +58,4 @@ hungry2 = msg("eat", {food: msg("salmon")}) // zeigt "I want to eat salmon!"
 ```
 
 ### Sicherheit
-Wenn du HTML schreibst,sollte `msg` mit dem sichererem `safeMsg` ersetzt werden.
+Wenn du HTML schreibst, sollte `msg` mit dem sichererem `safeMsg` ersetzt werden.

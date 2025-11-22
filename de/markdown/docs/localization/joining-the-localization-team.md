@@ -39,7 +39,7 @@ Wir erlauben nur Sprachen, die auch Scratch selbst hat. RTL-Sprachen wie Arabisc
 
 ### Scratch Addons-Website
 
-Übersetzer haben auch die Möglichkeit, den Inhalt der Scratch-Addons-Seite zu übersetzen. Für mehr Informationen über das Übersetzen der Seite, siehe [Translating](https://github.com/ScratchAddons/website-v2/wiki/Translating) .
+Übersetzer haben auch die Möglichkeit, den Inhalt der Scratch-Addons-Seite zu übersetzen. Für mehr Informationen über das Übersetzen der Seite, siehe [Übersetzen](https://github.com/ScratchAddons/website-v2/wiki/Translating) .
 
 ## Unterstützte Sprachen
 
@@ -58,14 +58,14 @@ Diese Sprachen akzeptieren **keine** neue Übersetzeranfragen: **Italienisch, Sp
 
 Bitte befolge die folgenden Schritte.
 
-### 1. Verifiziere dein Scratchkonto
-1. Gehe zu diesem [Scratchstudio](https://scratch.mit.edu/studios/33665222/comments) mit deinem Scratchkonto.
+### 1. Verifiziere dein Scratch-Konto
+1. Gehe zu diesem [Studio auf Scratch](https://scratch.mit.edu/studios/33665222/comments) mit deinem Scratch-Konto.
 1. Sende einen Studiokommentar mit der Sprache, die du übersetzen willst (zum Beispiel `griechisch`).
 ![Screenshot von Scratch](/assets/img/docs/scratch-req-language.png)
 
 **Wenn du kein Scratch-Konto hast**, sende bitte stattdessen eine E-Mail an `translation@scratchaddons.com`. Erstelle kein neues Scratch-Konto, nur um diese Anforderung zu erfüllen. Neue Scratcher-Konten werden ignoriert.
 
-### 2. Erstelle ein Scratchkonto
+### 2. Erstelle ein Transifex-Konto
 1. Gehe zur [Transifex Open-Source-Anmeldung](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).
 1. Dir wird Transifex's "Anmelden"-Bildschirm angezeigt. **Melde dich NICHT mit Google an.**
 1. In dem "Geschäftsemail"-Feld, gebe deine Email ein (es kann GMail, Outlook, oder andere sein).
@@ -105,7 +105,7 @@ Wenn deine Anfrage abgelehnt wird, erhälst du eine E-Mail. Entscheidungen sind 
 
 Wenn du Fragen zur Übersetzung haben, kannst du eine der folgenden Optionen wählen:
 - Sende eine E-Mail an `translation@scratchaddons.com`.
-- Trete unserem [Development Discord](https://discord.gg/Ak8sCDQ) Server bei.
+- Trete unserem [Entwicklungs-Discord](https://discord.gg/Ak8sCDQ) Server bei.
 - [Öffne eine Diskussion auf GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub-Konto erforderlich).
 - [Feedback senden](/feedback) (stelle sicher, dass du deinen Scratch-Benutzernamen im Formular angibst, wir werden auf deinem Profil antworten).
 

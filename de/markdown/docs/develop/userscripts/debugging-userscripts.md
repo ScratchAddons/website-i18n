@@ -30,7 +30,7 @@ Gebe die Addon-ID in die Suchleiste der "Filter"-Konsole ein, um nur Protokolle 
 ### Scratch-Projektseite und Editor
 
 
-#### Das DOM wird zerstört, nachdem er innerhalb oder außerhalb des Editors gegangen ist
+#### Das DOM wird zerstört, nachdem in den Editor oder aus diesem heraus gegangen wurde
 
 Scratch erstellt jedes Mal alle HTML-Elemente, wenn der Benutzer auf "Schau hinein" oder "Projektseite anzeigen" klickt, und zerstört die alten.
 Dies kann normalerweise mit `addon.tab.waitForElement` oder dem `urlChange`-Ereignis behoben werden.
@@ -49,7 +49,7 @@ Im Gegensatz zur Scratch-Website wird der Scratch-Editor nicht neu geladen, wenn
 
 #### scratch-www-Seiten werden nach dem Einloggen nicht neu geladen
 
-Anders als scratchr2-Seiten erzwingen scratch-www-Seiten kein Neuladen der Seite nach dem Einloggen. Wenn du zum Beispiel eine Projektseite aufrufen, während du abgemeldet bist, und dich dann wieder anmeldest, wird die Seite nicht neu geladen. Dies gilt auch für Studios, die Nachrichtenseite usw. 
+Anders als scratchr2-Seiten erzwingen scratch-www-Seiten kein Neuladen der Seite nach dem Einloggen. Wenn du zum Beispiel eine Projektseite aufrufst, während du abgemeldet bist, und dich dann wieder anmeldest, wird die Seite nicht neu geladen. Dies gilt auch für Studios, die Nachrichtenseite usw. 
 Im Gegensatz dazu werden alle Scratch-Seiten nach dem Ausloggen neu geladen.
 
 #### Projektseiten geben nie 404er zurück

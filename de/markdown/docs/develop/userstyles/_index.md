@@ -1,9 +1,9 @@
 ---
 title: Userstyles
-description: Userstyles sind CSS-Regeln, die sich auf Scratch-Seiten auswirken. Sie können Stile auf die bestehende Scratch-Benutzeroberfläche sowie auf Elemente anwenden, die der Seite durch Addons hinzugefügt wurden.
+description: Benutzerstile sind CSS-Regeln, die sich auf Scratch-Seiten auswirken. Sie können Stile auf die bestehende Scratch-Benutzeroberfläche sowie auf Elemente anwenden, die der Seite durch Addons hinzugefügt wurden.
 ---
 
-Userstyles sind CSS-Regeln, die sich auf Scratch-Seiten auswirken. Sie können Stile auf die bestehende Scratch-Benutzeroberfläche sowie auf Elemente anwenden, die der Seite durch Addons hinzugefügt wurden.
+Benutzerstile sind CSS-Regeln, die sich auf Scratch-Seiten auswirken. Sie können Stile auf die bestehende Scratch-Benutzeroberfläche sowie auf Elemente anwenden, die der Seite durch Addons hinzugefügt wurden.
 
 
 ## Benutzerstile im Addon-Manifest deklarieren
@@ -25,7 +25,7 @@ Beispielsmanifest:
 ```json
 {
   "name": "Scratch-Nachrichten",
-  "description": "Bietet einfaches Lesen und Beantworten Ihrer Scratch-Nachrichten.",
+  "description": "Bietet einfaches Lesen und Beantworten von Scratch-Nachrichten.",
   "userstyles": [
     {
       "url": "styles.css",

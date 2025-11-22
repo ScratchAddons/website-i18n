@@ -17,7 +17,7 @@ Scratch Addons ist ein Teamproject, das von World_Languages geleitet wird. Du ka
 
 ### Was enthält Scratch Addons?
 
-Scratch Addons enthält über 100 Addons, die individuell ein- oder ausgeschaltet werden können. Manche Addons können auch weiter konfiguriert werden, und manche haben Voreinstellungen, wie ein Dunkelmodus für das Websiteaussehen. Scratch Addons hat auch ein Popup, das benutzt werden kann, um schnell zu seinen Nachrichten zu kommen, um Cloudspiele zu spielen und um die Einstellungen aufzurufen. Scratch Addons ist in verschiedene Sprachen übersetzt, z.B. deutsch, französisch, spanisch und japanisch.
+Scratch Addons enthält über 100 Addons, die individuell ein- oder ausgeschaltet werden können. Manche Addons können auch weiter konfiguriert werden, und manche haben Voreinstellungen, wie ein Dunkelmodus für das Websiteaussehen. Scratch Addons hat auch ein Popup, das benutzt werden kann, um schnell zu seinen Nachrichten zu kommen, um Cloudspiele zu spielen und um die Einstellungen aufzurufen. Scratch Addons ist in verschiedene Sprachen übersetzt, z.B. Deutsch, Französisch, Spanisch und Japanisch.
 
 ### Ist das das gleiche wie Turbowarp-Addons?
 
@@ -39,7 +39,7 @@ Scratch Addons wird offiziell auf den Desktop-Versionen von [Google Chrome](http
 
 Momentan nicht.
 
-Zuerst müssen Entwickler für Safarierweiterungen eine jährliche Gebühr zahlen, um Erweiterungen hochzuladen. Da das Scratch Addons-Team keine Art hat, Geld zu bekommen, macht es das sehr schwierig, die Erweiterung zu erhalten. Es gibt auch ein technisches Problem mit der Implementierung von Browsererwriterungen in Safari, was manche wichtige Funktionen unnutzbar macht.
+Zuerst müssen Entwickler für Safarierweiterungen eine jährliche Gebühr zahlen, um Erweiterungen hochzuladen. Da das Scratch Addons-Team keine Art hat, Geld zu bekommen, macht es das sehr schwierig, die Erweiterung zu erhalten. Es gibt auch ein technisches Problem mit der Implementierung von Browsererweiterungen in Safari, was manche wichtige Funktionen unnutzbar macht.
 
 ### Kann ich Scratch Addons im Offlineeditor nutzen?
 
@@ -51,7 +51,7 @@ Als Alternative sind die meisten Editoraddons auf [Turbowarp](https://turbowarp.
 
 Manche Browsererweiterungen oder Userscripts könnten mit Scratch Addons Probleme bereiten. Wenn du Probleme hast, solltest du versuchen, diese auszuschalten:
 
-- Scratch 3 Developer Tools: Diese Browsererweiterungen ist eine Kopie von dem Entwicklertoolsaddon. Du solltest die Developer Tools-Browsererweiterung ausschalten und stattdessen das Addon anschalten.
+- Scratch 3 Developer Tools: Diese Browsererweiterungen ist eine Kopie von dem Entwicklertoolsaddon. Du solltest die Developer Tools-Browsererweiterung uninstallieren und stattdessen das Addon anschalten.
 - Better3.0: Diese Browsererweiterung kann mit manchen Addons Probleme bereiten. Glücklicherweise sind die meisten der Features auch als Addons erhalten.
 
 ## Sicherheit und Privatsphäre
@@ -94,7 +94,7 @@ Du kannst das nicht, und bitte mache es nicht. Es gibt eine Regelung [hier](http
 Du kannst versuchen, Addons zu deaktivieren, die du nicht benötigst, insbesondere komplexe Funktionen wie die Variablen-Tab, den Debugger und die Katzenblöcke, die den Mauszeiger beobachten. Die meisten Addons mit Auswirkungen auf die Leistung geben eine Warnung in den erweiterten Addon-Informationen an.
 
 Einige spezifische Ratschläge:
-- Schalte das 60FPS-Addon aus. Das Addon kann zwar die maximale Geschwindigkeit erhöhen, die ein Projekt ausführen kann, aber es reduziert keine Verzögerungen. Um solche Projekte schneller auszuführen, verwenden Sie [TurboWarp](https://turbowarp.org/).
+- Schalte das 60FPS-Addon aus. Das Addon kann zwar die maximale Geschwindigkeit erhöhen, die ein Projekt ausführen kann, aber es reduziert keine Verzögerungen. Um solche Projekte schneller auszuführen, verwende [TurboWarp](https://turbowarp.org/).
 - Das Addon "Variable Manager" sollte nicht verwendet werden, während das Projekt ausgeführt wird.
 
 ### Ich kann keine Benachrichtigungen empfangen. Warum?
@@ -158,7 +158,7 @@ Als Open-Source-Projekt begrüßen wir jede Art von Beitrag. Es muss nicht im Vo
 
 - **Eine Bewertung in den Stores hinterlassen**
 
-  Du kannst eine Bewertung zu Scratch-Addons auf [der Chrome-Erweiterungsseite](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [der Firefox-Addon-Seite](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) oder [der Microsoft Edge-Addon-Seite](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjckenemmgnledoipfiilhajdjj) hinterlassen. Dies ist eine großartige Möglichkeit, andere davon zu überzeugen, die Erweiterung zu installieren!
+  Du kannst eine Bewertung zu Scratch-Addons auf [der Chrome-Erweiterungsseite](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [der Firefox-Addon-Seite](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) oder [der Microsoft Edge-Addon-Seite](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj) hinterlassen. Dies ist eine großartige Möglichkeit, andere davon zu überzeugen, die Erweiterung zu installieren!
 
 - **Unser Repository starren**
 
