@@ -1,11 +1,11 @@
 ---
 ---
 
-**Standardmäßig Kostüme malen** ist ein Addon, das die Funktionalität von Schaltflächen ändert, die ein neues Sprite, Kostüm, Hintergrund und Sound hinzufügen. In vanila Scratch wird durch Drücken der Hauptschaltfläche die Asset-Bibliothek von Scratch geöffnet. Mit diesem Addon kann die Standardaktion in den Addon-Einstellungen angepasst werden und zwischen: Bibliothek (Standard von Scratch), Paint oder Record, Surprise oder Upload.
+**Standardmäßig Kostüme malen** ist ein Addon, das die Funktionalität von Schaltflächen ändert, die ein neues Sprite, Kostüm, Hintergrund und Sound hinzufügen. In vanila Scratch wird durch Drücken der Hauptschaltfläche die Asset-Bibliothek von Scratch geöffnet. Mit diesem Addon kann die Standardaktion in den Addon-Einstellungen angepasst werden und zwischen: Bibliothek (Standard von Scratch), Malen/Aufnehmen, Überraschung oder Hochladen.
 
 ## Hintergrund
 
-Das Addon wurde unter der Philosophie erstellt, dass fortgeschrittene und fortgeschrittene Scratcher selten Assets aus der Scratch-Bibliothek verwenden. Es ist üblich, dass diese Benutzer ein neues Sprite/Kostüm/Hintergrund erstellen, indem sie den Mauszegler über die Haupttaste fahren und dann zur Paint-Option navigieren. Da dies ein rechtzeitiges Manöver ist, ändern die Standardeinstellungen des Addons die Standardaktion der Hauptschaltfläche, um den Paint-Editor zu öffnen, anstatt die Asset-Bibliothek zu öffnen.
+Das Addon wurde unter der Philosophie erstellt, dass fortgeschrittene und fortgeschrittene Scratcher selten Assets aus der Scratch-Bibliothek verwenden. Es ist üblich, dass diese Benutzer ein neues Sprite/Kostüm/Hintergrund erstellen, indem sie den Mauszegler über die Haupttaste fahren und dann zur Paint-Option navigieren. Da dies ein Zeitraubendes Manöver ist, ändern die Standardeinstellungen des Addons die Standardaktion der Hauptschaltfläche, um den Paint-Editor zu öffnen, anstatt die Asset-Bibliothek zu öffnen.
 
 ## Features
 
@@ -49,7 +49,7 @@ GarboMuffin hat das gesamte Addon entwickelt. Der endgültige Name, die Beschrei
 - **V1.19.0** Das Addon **Kostüm Standardmäßig malen** wurde erstellt.
 - **V1.19.1** Fehlerbehebung: Das Addon behandelt die Schaltfläche "Wähle einen Sound" nicht mehr wie eine Schaltfläche "Wähle ein Kostüm", wenn das aktuelle Sprite keine Töne hatte.
 
-## Banalität
+## Unterschiedliches
 
 {{< docs/stub-section >}}
 

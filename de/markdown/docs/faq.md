@@ -9,7 +9,7 @@ Diese Seite listet häufig gestellte Fragen über Scratch Addons auf.
 
 ### Was ist Scratch Addons?
 
-Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website und den Projekteditor. Es bietet Funktionen und Designs (intern Addons genannt) sowohl für die Scratch-Website als auch für den Projektideditor. Die Mission von Scratch Addons besteht darin, alle vorhandenen Scratch-Erweiterungen, Userscripts und Userstyles, die von mehreren Mitgliedern der Scratch-Community entwickelt wurden, in einem einzigen, leicht zugänglichen Ort zu kombinieren und den Benutzern weiterhin die Auswahl der zu aktivierenden Erweiterungen zu ermöglichen.
+Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website und den Projekteditor. Es bietet Funktionen und Designs (intern Addons genannt) sowohl für die Scratch-Website als auch für den Projektideditor. Die Mission von Scratch Addons besteht darin, alle vorhandenen Scratch-Erweiterungen, Benutzerskripten und Benutzerstilen, die von mehreren Mitgliedern der Scratch-Community entwickelt wurden, in einem einzigen, leicht zugänglichen Ort zu kombinieren und den Benutzern weiterhin die Auswahl der zu aktivierenden Erweiterungen zu ermöglichen.
 
 ### Wer hat Scratch Addons gemacht?
 
@@ -49,7 +49,7 @@ Als Alternative sind die meisten Editoraddons auf [Turbowarp](https://turbowarp.
 
 ### Gibt es inkompatible Programme?
 
-Manche Browsererweiterungen oder Userscripts könnten mit Scratch Addons Probleme bereiten. Wenn du Probleme hast, solltest du versuchen, diese auszuschalten:
+Manche Browsererweiterungen oder Benutzerskript könnten mit Scratch Addons Probleme bereiten. Wenn du Probleme hast, solltest du versuchen, diese auszuschalten:
 
 - Scratch 3 Developer Tools: Diese Browsererweiterungen ist eine Kopie von dem Entwicklertoolsaddon. Du solltest die Developer Tools-Browsererweiterung uninstallieren und stattdessen das Addon anschalten.
 - Better3.0: Diese Browsererweiterung kann mit manchen Addons Probleme bereiten. Glücklicherweise sind die meisten der Features auch als Addons erhalten.
@@ -87,7 +87,7 @@ Dann, finde Addons, die du einschalten möchtest, durch die Suchbox oder die Sei
 
 ### Kann ich anderen Leuten auf Scratch über Scratch Addons erzählen?
 
-Du kannst das nicht, und bitte mache es nicht. Es gibt eine Regelung [hier](https://scratch.mit.edu/discuss/post/2907564/), die das Nennen von Browsererweiterungen und Userscripts verbietet, und Verletzungen dieser Regel haben dazu geführt, dass das Scratch Team Posts entfernt oder Konten stummschaltet. Du hast aber andere Möglichkeiten, um deine Freunde über Scratch Addons zu informieren.
+Du kannst das nicht, und bitte mache es nicht. Es gibt eine Regelung [hier](https://scratch.mit.edu/discuss/post/2907564/), die das Nennen von Browsererweiterungen und Benutzerskripten verbietet, und Verletzungen dieser Regel haben dazu geführt, dass das Scratch Team Posts entfernt oder Konten stummschaltet. Du hast aber andere Möglichkeiten, um deine Freunde über Scratch Addons zu informieren.
 
 ### Ich denke, dass Scratch Addons Scratch verlangsamt. Was kann ich tun?
 
@@ -193,9 +193,9 @@ Du kannst es auf [unserer Diskussions-Registerkarte](https://github.com/ScratchA
 
 ### Was ist ein "Addon" genau?
 
-Ein Addon ähnelt einer Erweiterung oder einem Userscript, verwendet jedoch spezielle APIs, die von der Erweiterung Scratch Addons bereitgestellt werden. Mit diesen APIs können Addons Skripte auf einer Scratch-Seite ausführen (Userscripts), Skripte im Hintergrund ausführen (persistente Skripte) oder Stile auf die Scratch-Website (Userstyles) anwenden.
+Ein Addon ähnelt einer Erweiterung oder einem Benutzerskript, verwendet jedoch spezielle APIs, die von der Erweiterung Scratch Addons bereitgestellt werden. Mit diesen APIs können Addons Skripte auf einer Scratch-Seite ausführen (Benutzerskripte), Skripte im Hintergrund ausführen (persistente Skripte) oder Stile auf die Scratch-Website (Benutzerstile) anwenden.
 
-Userscripts können das `Addon*` verwenden. JavaScript-APIs, die es ihnen erlauben, auf Scratch bezogene Informationen (wie den gerade angemeldeten Nutzer) zuzugreifen und die auch die APIs der Erweiterung verwenden (wie das Senden von Benachrichtigungen).
+Benutzerkripte können das `Addon*` verwenden. JavaScript-APIs, die es ihnen erlauben, auf Scratch bezogene Informationen (wie den gerade angemeldeten Nutzer) zuzugreifen und die auch die APIs der Erweiterung verwenden (wie das Senden von Benachrichtigungen).
 
 ### Wenn alles ein Addon ist, was macht Scratch Addons dann?
 
@@ -204,7 +204,7 @@ Scratch Addons ist an sich nur ein Addon-Loader. Seine Hauptaufgaben sind:
 - Erlaubt es Nutzern, Addons zu deaktivieren und zu konfigurieren.
 - Addons ausführen und APIs dafür bereitzustellen.
 - Gebe nützliche Daten für Addons an (z. B. die addon.auth API).
-- Erstellen von Prototypen zur Verwendung durch Addon-Userscripts.
+- Erstellen von Prototypen zur Verwendung durch Addon-Bemutzerskripte.
 - Methoden zum Zugreifen und Bearbeiten des Redux-Status bereitstellen.
 - Vermeiden, dass sich Addons untereinander behindern.
 - Doppelte Arbeit von verschiedenen Addons vermeiden.

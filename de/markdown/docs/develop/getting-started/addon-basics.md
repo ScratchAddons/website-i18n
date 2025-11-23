@@ -5,10 +5,10 @@ title: Addon-Basics
 ## Was ist ein Addon?
 Ein Addon ist ein Benutzerskript, ein Benutzerstil oder eine Kombination aus beidem, die auf der Scratch-Website oder dem Projekteditor ausgeführt wird, wenn dies aktiviert ist. Zum Beispiel hat das Addon "Editor Suchleiste" ein Benutzerskript, das dem Editor ein Suchfeld hinzufügt, und einen Benutzerstil, der dieses Feld gestaltet.
 
-## Was ist ein Userscript?
+## Was ist ein Benutzerskript?
 Ein [Benutzerskript](/docs/develop/userscripts) ist eine JavaScript-Datei, das jedes Mal ausgeführt wird, wenn der Benutzer eine Scratch-Seite lädt. Du kannst den HTML-Code des Dokuments ändern, neue Schaltflächen hinzufügen, das Verhalten des Scratch-Editors anpassen und vieles mehr.
 
-## Was ist ein Userstyle?
+## Was ist ein Benutzerstil?
 Ein [Benutzerstil](/docs/develop/userstyles) ähnelt einem Benutzerskript; du kannst URL-Muster für sie angeben. Benutzerstile injizieren jedoch CSS anstelle von JavaScript. Sie werden oft zusammen mit Benutzerskripten verwendet, um von ihnen hinzugefügte Elemente zu gestalten, aber sie können auch verwendet werden, um native Scratch-Elemente zu gestalten. Wenn das der Fall ist, nennen wir sie normalerweise "Themen".
 
 ## Was sollte ein Addon sein?

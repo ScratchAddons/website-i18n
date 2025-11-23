@@ -32,7 +32,7 @@ Was, wenn der Platzhalter eine Zahl ist? Wir können Mehrzahlen, wie `{platzhalt
 Transifex wird die Entwicklerkommentaraén zeigen, wenn ein Übersetzer einen bestimmten Text ausgewählt hat. Diese Kommentare werden normalerweise benutzt, um nach einer bestimmen Übersetzung zu fragen oder um weitere Informationen für Sprachen, die Groß- und Kleinbuchstaben nicht unterscheiden, zu geben.
 
 ## Die Übersetzungen verwenden
-Ändere die erste Zeile deines Userscripts von etwas wie:
+Ändere die erste Zeile deines Benutzerskriptes von etwas wie:
 ```
 export default async function ({ addon, console }) {
 ```

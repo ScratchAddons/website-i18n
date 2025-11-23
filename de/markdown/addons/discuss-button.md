@@ -10,7 +10,7 @@ Scratch hat im Juli 2017 die Diskussionsschaltfläche entfernt, die auf die Fore
 ## Features
 
 - Füge neue Links zu Scratch-Seiten oder anderen Websites hinzu.
-- Bestelle Links neu und ändere ihre Etiketten.
+- Sortiere Links neu und ändere ihre Etiketten.
 - Vorhandene Links entfernen.
 - Verhinder, dass die Navigationsleiste mit der Seite scrollt.
 - Den eingeloggten Benutzernamen aus dem Weg räumen.
@@ -28,7 +28,7 @@ Steuert die Links, die zwischen dem Scratch-Logo und der Suchleiste angezeigt we
 
 Verschiebt den Benutzernamen des eingeloggten Benutzers in das Profil-Dropdown-Element.
 
-### Halte dich an
+### An ... halten
 
 - Oben auf dem Bildschirm: Die Navigationsleiste bleibt sichtbar, auch wenn die Seite gescrollt wird. Dies ist das Standardverhalten von Scratch.
 - Oben auf der Seite: Die Navigationsleiste bleibt oben auf der Seite und scrollt mit.
@@ -42,9 +42,9 @@ Das ursprüngliche Addon wurde von WorldLanguages geschrieben, und TheColaber wa
 - **v1.0.0** Die erste Version, die die Schaltfläche "Diskutieren" hinzufügt und optional Ideen entfernt.
 - **v1.24.0**: Die Links wurden vollständig anpassbar gemacht.
 - **v1.28.0**: Die Dropdown-Einstellung für kompakte Benutzer wurde hinzugefügt.
-- **v1.32.0**: Die Einstellung "Stick to" wurde hinzugefügt.
+- **v1.32.0**: Die Einstellung "An ... halten" wurde hinzugefügt.
 
-## Banalität
+## Verschiedenes
 
 - Dies ist das erste Addon, das die Scratch-Website verändert.
 - Dies ist das erste und einzige Addon, das eine Tabelleneinstellung verwendet.

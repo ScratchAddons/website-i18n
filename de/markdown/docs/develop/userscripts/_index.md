@@ -1,16 +1,16 @@
 ---
 title: Benutzerskripte (Userscripts)
-description: Userscripts sind Javascript-Dateien, die jedes Mal, wenn der Benutzer eine Scratchseite öffnet, ausgeführt werden. Sie können das HTML des Dokumentes verändern, neue Schaltflächen hinzufügen, das Verhalten des Scratcheditors verändern, und so viel mehr.
+description: Benutzerskripte sind Javascript-Dateien, die jedes Mal, wenn der Benutzer eine Scratchseite öffnet, ausgeführt werden. Sie können das HTML des Dokumentes verändern, neue Schaltflächen hinzufügen, das Verhalten des Scratcheditors verändern, und so viel mehr.
 ---
 
-Userscripts sind Javascript-Dateien, die jedes Mal, wenn der Benutzer eine Scratchseite öffnet, ausgeführt werden. Sie können das HTML des Dokumentes verändern, neue Schaltflächen hinzufügen, das Verhalten des Scratcheditors verändern, und so viel mehr.
+Benutzerskripte sind Javascript-Dateien, die jedes Mal, wenn der Benutzer eine Scratchseite öffnet, ausgeführt werden. Sie können das HTML des Dokumentes verändern, neue Schaltflächen hinzufügen, das Verhalten des Scratcheditors verändern, und so viel mehr.
 
-Userscripts für Scratch Addons sind, ähnlich wie Userscripts die du vielleicht für Userscriptmanager wie Tampermonkey oder Greasemonkey runterlädst, JavaScript-Programme, die in dem selben Kontext wie der Javascript-Code von Scratch ausgeführt werden. In Browsererweiterungsworten wird dieser Kontext oft "Hauptwelt" genannt.
+Benutzerskripte für Scratch Addons sind, ähnlich wie Benutzerskripte die du vielleicht für Benutzerskript-Manager wie Tampermonkey oder Greasemonkey runterlädst, JavaScript-Programme, die in dem selben Kontext wie der Javascript-Code von Scratch ausgeführt werden. In Browsererweiterungsworten wird dieser Kontext oft "Hauptwelt" genannt.
 
 Obwohl Scratch Addons-Benutzerskripte Teil einer Browsererweiterung sind, können sie keine `chrome.*`- oder `browser.*`-APIs aufrufen. Stattdessen gibt Scratch Addons eine [`addon.*`-API](/docs/reference/addon-api) vor.
 
 
-## Userscripts im Addon-Manifest deklarieren
+## Benutzerskripte im Addon-Manifest deklarieren
 
 {{< admonition warning >}}
 **Einige Änderungen erfordern eine Erweiterungsneuladung** von `chrome://extensions`, um wirksam zu werden, wie z. B. die Aktualisierung der Addon-Manifestdatei.
@@ -18,11 +18,11 @@ Obwohl Scratch Addons-Benutzerskripte Teil einer Browsererweiterung sind, könne
 Es ist nicht nötig, die Erweiterung neu zu laden, wenn man den Code einer schon existierenden Javascriptdatei ändern. In diesem Fall kannst du einfach die Seite neu laden.
 {{< /admonition >}}
 
-Userscripts werden in einem "userscripts"-Array deklariert.
+Benutzerskripte werden in einem "userscripts"-Array deklariert.
 
 Jedes Element dieses Arrays muss die folgenden Elemente haben:
 - `"url"`: die relative URL zu einer Javascript-Datei
-- `"matches"`: Die Liste von Scratchseiten, wo das Userscript ausgeführt wird. Siehe [matches](/docs/reference/addon-manifest/#matches) für mehr Informationen.
+- `"matches"`: Die Liste von Scratchseiten, wo das Benutzerskript ausgeführt wird. Siehe [matches](/docs/reference/addon-manifest/#matches) für mehr Informationen.
 
 Beispielsmanifest:
 ```json
@@ -54,11 +54,11 @@ export default async function ({ addon, console }) {
 Denke daran, dass JavaScript es erlaubt, Funktionen innerhalb anderer Funktionen zu deklarieren, zum Beispiel:
 ```js
 export default async function ({ addon, console }) {
-  async function sayHelloToUser() {
+  async function sayHalloToUser() {
     console.log("Hallo, " + await addon.auth.fetchUsername());
   }
 
-  await sayHelloToUser();
+  await sayHalloToUser();
   console.log("Wie geht es dir heute?");
 }
 ```
@@ -123,12 +123,12 @@ Weitere Informationen zur Lokalisierung von Benutzerskripten findest du unter [d
 
 Jede Benutzerskriptdatei ist ein JavaScript-Modul, das eine Funktion exportiert. Scratch Addons importiert das Modul nur bei Bedarf und führt es aus, nachdem die Seite vollständig geladen wurde.
 
-Userscripts sind JavaScript-Module, daher laufen sie immer im ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Dies bedeutet auch, dass Benutzerskripte [Top-Level-Imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) verwenden können, um andere JavaScript-Dateien zu importieren.
+Benutzerskripte sind JavaScript-Module, daher laufen sie immer im ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Dies bedeutet auch, dass Benutzerskripte [Top-Level-Imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) verwenden können, um andere JavaScript-Dateien zu importieren.
 
-Die Reihenfolge, in der Userscripts ausgeführt werden, kann bei jedem Seitenladen variieren. Nach dem Laden der Seite aktiviert der Benutzer möglicherweise einige Add-Ons dynamisch in einer benutzerdefinierten Reihenfolge, sodass die Ausführungsreihenfolge nie garantiert ist. Einige APIs wie [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) versuchen, alle potenziellen Race Conditions und unerwarteten Verhaltensweisen beim dynamischen Aktivieren von Add-ons zu beheben.
+Die Reihenfolge, in der Benutzerskripte ausgeführt werden, kann bei jedem Seitenladen variieren. Nach dem Laden der Seite aktiviert der Benutzer möglicherweise einige Add-Ons dynamisch in einer benutzerdefinierten Reihenfolge, sodass die Ausführungsreihenfolge nie garantiert ist. Einige APIs wie [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) versuchen, alle potenziellen Race Conditions und unerwarteten Verhaltensweisen beim dynamischen Aktivieren von Add-ons zu beheben.
 
 ### runAtComplete
 
-Userscripts können sich dafür entscheiden, ausgeführt zu werden, bevor die Seite vollständig geladen ist, indem du im Addon-Manifest einmal für jedes Userscript `"runAtComplete": false` angibst.
+Benutzerskripte können sich dafür entscheiden, ausgeführt zu werden, bevor die Seite vollständig geladen ist, indem du im Addon-Manifest einmal für jedes Benutzerskripte `"runAtComplete": false` angibst.
 
-Derzeit ist nur die Existenz von `document.head` garantiert, wenn ein Benutzerskript frühzeitig ausgeführt wird. In Zukunft wird auch die Existenz von `document.body` garantiert sein, sodass nie Userscripts ausgeführt werden, bevor das HTML-Dokument ausreichend geladen ist, um `</head> <body>` zu erreichen.
+Derzeit ist nur die Existenz von `document.head` garantiert, wenn ein Benutzerskript frühzeitig ausgeführt wird. In Zukunft wird auch die Existenz von `document.body` garantiert sein, sodass nie Benutzerskripte ausgeführt werden, bevor das HTML-Dokument ausreichend geladen ist, um `</head> <body>` zu erreichen.

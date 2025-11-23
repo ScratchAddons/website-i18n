@@ -1,7 +1,7 @@
 ---
 ---
 
-**Blöcke suchen und einfügen** ist ein Addon, mit dem man schneller programmieren kann, indem Blöcke beim Eintippen ihrer Namen direkt beim Mauszeiger platziert werden, ohne dass in der Blockpalette nach ihnen gesucht werden muss. Das Popup wird mit einem Mittelklick auf den Codebereich oder durch Drücken von `Strg` + `Leertaste` geöffnet. Du kannst dann mit der Eingabe beginnen, um nach Blöcken zu suchen, und sie dann mit der Maus hinausziehen.
+**Blöcke suchen und einfügen** ist ein Addon, mit dem man schneller programmieren kann, indem Blöcke beim Eintippen ihrer Namen direkt beim Mauszeiger platziert werden, ohne dass in der Blockpalette nach ihnen gesucht werden muss. Das Popup kann mit einem Mittelklick auf den Codebereich oder durch Drücken von `Strg` + `Leertaste` geöffnet werden. Du kannst dann mit der Eingabe beginnen, um nach Blöcken zu suchen, und sie dann mit der Maus hinausziehen.
 
 ## Hintergrund
 
@@ -12,9 +12,9 @@ Die Originalversion wurde von Griffpatch für die Erweiterung "Developer Tools",
 - Die Suche unterstützt alle Blöcke des Codebereichs. Dies umfasst benutzerdefinierte Blöcke, Blöcke von Erweiterungen, Variablen / Listen usw.
 - Für ein noch schnelleres Sucherlebnis kannst du mit den Pfeiltasten und der Entertaste in den Suchergebnissen navigieren.
 - Wenn ein Ergebnis markiert ist, kannst du die Tabulator-Taste drücken, um deine Suche nach dem Block automatisch zu vervollständigen.
-- Das Popup kann mehrere verschachtelte Blöcke gleichzeitig einfügen, indem man etwas wie "meine Variable verschieben + 10 Schritte" eingibt.
+- Das Popup kann mehrere verschachtelte Blöcke gleichzeitig einfügen, indem man etwas wie "gehe meine Variable + 10 Schritte" eingibt.
 - Bei mathematischen Blöcken gilt standardmäßig die Reihenfolge der Operationen, aber du kannst die Reihenfolge in eckigen Klammern ändern.
-- Du kannst Text in doppelte Anführungszeichen umgeben, um den Sucher zu zwingen, Ihren Text nicht in Blöcke zu verwandeln. Dies ist nützlich für Situationen wie den Versuch, den Text "x-Position" anstelle der Variablen `x-Position` zu sagen, wo du sage "x-Position" eingeben kannst.
+- Du kannst Text in doppelte Anführungszeichen umgeben, um den Sucher zu zwingen, deinen Text nicht in Blöcke zu verwandeln. Dies ist nützlich für Situationen wie den Versuch, den Text "x-Position" anstelle der Variablen `x-Position` zu sagen, wo du sage "x-Position" eingeben kannst.
 
 ## Einstellungen
 
@@ -52,7 +52,7 @@ Tacodiva hat den größten Teil des Addons so gemacht, wie es heute aussieht. Da
 - **V1.31.0** Das Addon wurde komplett überarbeitet und ermöglichte das Verschachteln von Blöcken, das Hinzufügen der automatischen Vervollständigung und das Ändern der Art und Weise, wie die Blöcke im Popup angezeigt wurden.
 - **V1.31.1** Der Suchalgorithmus wurde geändert und mehrere Fehler wurden behoben.
 
-## Banalität
+## Unterschiedliches
 
 - Dies war die erste Addon-Seite, die für die Addon Docs geschrieben wurde!
 - Obwohl es erst vor kurzem zu einem eigenen Addon geworden ist, ist das mittlere Klick-Popup eine der ältesten Funktionen von Scratch Addons, die Teil der Entwicklertools sind.

@@ -1,9 +1,9 @@
 ---
 title: Empfohlene Vorgehensweisen
-description: Wenn du Code für Userscripts schreibst oder überprüfst, folge diesen empfohlenen Vorgehensweisen.
+description: Wenn du Code für Benutzerskripte schreibst oder überprüfst, folge diesen empfohlenen Vorgehensweisen.
 ---
 
-Wenn du Code für Userscripts schreibst oder überprüfst, folge diesen empfohlenen Vorgehensweisen.
+Wenn du Code für Benutzerskripte schreibst oder überprüfst, folge diesen empfohlenen Vorgehensweisen.
 
 
 ## Manipulation der DOM
@@ -80,7 +80,7 @@ document.querySelector(".remix-button").remove();
 // Mache das stattdessen
 document.querySelector(".remix-button").style.display = "none";
 
-// Oder das, mithilfe eines Userstyles:
+// Oder das, mithilfe eines Benutzerstils:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
@@ -88,7 +88,7 @@ document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ### Nur waitForElement nutzen, wenn nötig
 
 Nutze die `addon.tab.waitForElement`-API nur, wenn das Element garantiert existiert. Es wird immernoch funktionieren, und die Performance wird stark beeinflusst werden, aber es könnte andere Entwickler verwirren, die den Code lesen. waitForElement sollte bedeuten, dass es zumindest 1 Szenario gibt, an dem das Element nicht existiert, wenn der Code ausgeführt wird.
-Zum Beispiel ist es nicht wichtig, waitForElement zu nutzen, wenn man nach Forumposts sucht, außer wenn das Userscript mit `"runAtComplete": false` deklariert wurde. In diesen Fällen kann man einfach `document.querySelectorAll()` normal ausführen.
+Zum Beispiel ist es nicht wichtig, waitForElement zu nutzen, wenn man nach Forumposts sucht, außer wenn das Benutzerskript mit `"runAtComplete": false` deklariert wurde. In diesen Fällen kann man einfach `document.querySelectorAll()` normal ausführen.
 
 ### element.closest() verwenden, anstatt parentElement zu missbrauchen
 

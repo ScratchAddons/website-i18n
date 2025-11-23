@@ -25,7 +25,7 @@ Denke daran, dass in einigen Sprachen UI-Elemente wie Schaltflächen schmaler od
 
 Der Scratch-Projekteditor enthält normalerweise Klassennamen, die dem Format `class_name_{hash}` folgen. Zum Beispiel: `green-flag_green-flag_1kiAo`.
 
-Da sich die Hashes in der Zukunft ändern und sich zwischen den Scratch-Forks unterscheiden können, solltest du es vermeiden, sie in Benutzerstyles zu verwenden.
+Da sich die Hashes in der Zukunft ändern und sich zwischen den Scratch-Forks unterscheiden können, solltest du es vermeiden, sie in Benutzerstilen zu verwenden.
 
 {{< admonition error >}}
 ```css /* Tu dies nicht: */ .green-flag_green-flag_1kiAo { visibility: hidden; } ```

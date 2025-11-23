@@ -38,7 +38,7 @@ Addon-Manifeste befinden sich im Ordner jedes Addons und heißen `addon.json`.
 Hier ist ein minimales Addon-Manifest:
 ```json
 {
-  "name": "My addon",
+  "name": "Mein Addon",
   "description": "TODO",
   "tags": ["community"]
 }

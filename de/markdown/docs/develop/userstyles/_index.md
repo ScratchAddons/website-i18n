@@ -1,5 +1,5 @@
 ---
-title: Userstyles
+title: Benutzerstile
 description: Benutzerstile sind CSS-Regeln, die sich auf Scratch-Seiten auswirken. Sie können Stile auf die bestehende Scratch-Benutzeroberfläche sowie auf Elemente anwenden, die der Seite durch Addons hinzugefügt wurden.
 ---
 
@@ -66,7 +66,7 @@ In der Regel ist es nicht notwendig, ein JavaScript-Benutzerskript zu verwenden,
 
 ## Zugriff auf Addon-Einstellungen über CSS
 
-Userstyles können Farb- und numerische Einstellungen über CSS-Variablen leicht erhalten. Sie können auch auf Einstellungen von anderen aktivierten Addons zugreifen.
+Benutzerstile können Farb- und numerische Einstellungen über CSS-Variablen leicht erhalten. Sie können auch auf Einstellungen von anderen aktivierten Addons zugreifen.
 
 Die CSS-Variablen folgen immer dem Format `--addonId-settingId`. Einstellungs-IDs werden immer von Großbuchstaben in Kleinbuchstaben umgewandelt.
 
