@@ -6,7 +6,7 @@ Willkommen in der Scratch Addons-Dokumentation!
 
 Scratch Addons kombiniert neue und ältere Funktionen und Designs für Scratch in eine leicht zu verwendende und konfigurierbare Browsererweiterung. Unsere Mission besteht darin, eine einheitliche und aktuelle Plattform für die Entwicklung von Funktionen und Designs für Scratch seitens der Community-Mitglieder bereitzustellen.
 
-## Schnelle Links
+## Nützliche Links
 
 - Wenn du ein Addon entwickeln möchtest, [beginne auf dieser Seite](develop/getting-started/creating-an-addon).
 - Wenn du mithelfen möchtest, die Erweiterung auf deine Sprache zu übersetzen, [lies diese Seite](localization/joining-the-localization-team).

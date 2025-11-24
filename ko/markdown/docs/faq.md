@@ -116,21 +116,21 @@ To convert WebM files into MP4 or other formats, you can use a video conversion 
 
 ### 이스터에그 애드온을 어떻게 실행시키나요?
 
-To reveal the easter egg addons, do the Konami Code (↑↑↓↓←→←→BA) with your keyboard on the settings page. After that, the easter egg addons will be shown, letting you to activate them.
+이스터에그 애드온을 활성화시키려면 설정 창에서 키보드로 코나미 코드 (↑↑↓↓←→←→BA)를 입력하면 됩니다. 그러면 이스터에그 애드온 옵션이 설정 창에 보일 겁니다.
 
-Some of our easter egg addons are "Fix capitalization of Account Settings" and "Semicolon glitch". Check out [the addons tab](/addons) for a complete list.
+이스터에그 애드온은 "계정 설정 창에서 대문자 고치기" "세미콜론 버그"등이 있습니다. [애드온 탭](/addons)에서 모든 이스터에그 애드온을 확인해 보세요.
 
-## 기여
+## 기여하는 법
 
 ### 스크래치 애드온에 어떻게 기여할 수 있나요?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+먼저 스크래치 애드온 기여에 관심을 가져주셔서 감사합니다!
 
-As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
+오픈 소스 프로젝트로서, 어느 종류의 기여이든 좋습니다. 미리 물어볼 필요는 없어요 -- 누구든 괜찮거든요! 코딩 경력이 없어도 기여를 할 수 있는 다양한 방법이 있습니다.
 
-- **코드를 기여해 주세요**
+- **코드 기여하기**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  JavaScript, HTML, CSS를 알면 애드온을 수정, 추가 또는 버그를 고치는 식으로 기여해 줄 수 있습니다.
 
   To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
 
@@ -142,7 +142,7 @@ As an open source project, we welcome any kind of contribution. You don't need t
 
 - **버그를 신고해 주세요**
 
-  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  애드온이나 확장 프로그램에서 버그를 발견했나요?  [버그 리포트 보내기](#what-can-i-do-if-i-find-a-problem).
 
 - **스크래치 애드온을 번역해 주세요**
 
@@ -179,7 +179,7 @@ Read more about it [here](/docs/develop/getting-started).
 - [피드백 폼](/feedback)으로 보냅니다.
 - [레포지터리](https://github.com/ScratchAddons/ScratchAddons/issues)에서 이슈를 만듭니다.
 - Create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
+- [디스코드 서버](https://discord.gg/R5NBqwMjNc)에서 알려주세요.
 
 ### 제가 원하는 기능이 없는 것 같습니다. 어떻게 해야 하나요?
 

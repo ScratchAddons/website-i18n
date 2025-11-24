@@ -33,7 +33,7 @@ Scratch Addons wird offiziell auf den Desktop-Versionen von [Google Chrome](http
 
 **Für Android-Benutzer**: Ja, Scratch Addons können auf [Firefox für Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), jedoch sind nicht alle Addons für Touchscreens oder Umgebungen mit kleinen Bildschirmgrößen optimiert, so dass einige Funktionen möglicherweise nicht wie erwartet funktionieren.
 
-**Für iOS- und iPadOS-Benutzer**: Leider ist es das nicht. Die App Store-Richtlinie erlaubt das Hochladen von Browser-Implementierungen nicht, was bedeutet, dass alle auf dieser Plattform verfügbaren Browser nur neu gehäutet Safari sind. Dies verursacht einige Probleme (siehe unten).
+**Für iOS und iPadOS-Benutzer**: Leider nicht. Die App-Store-Regelungen erlauben es nicht, Browserimplementierungen hochzuladen, also sind alle Browser auf dieser Platform eigentlich nur Safari. Das macht ein paar Probleme (siehe unten).
 
 ### Kann ich Scratch Addons auf Safari nutzen?
 
@@ -64,11 +64,11 @@ Ja. Scratch Addons sollte keine Sicherheitsprobleme in den neueren Versionen hab
 
 Wenn du ein Sicherheitsproblem findest, kontaktiere bitte World_Languages privat durch `worldxlanguages (at) gmail.com`. Wenn du keine Antwort innerhalb 48 Stunden erhälst, bitte [erstelle ein Issue](https://github.com/ScratchAddons/ScratchAddons/issues/), in der du sagst, dass du eine E-Mail gesendet hast.
 
-Du kannst entweder [unsere Sicherheitsregeln lesen](https://github.com/ScratchAddons/ScratchAddons/security/policy) oder [unsere publizierten Sicherheitsratschläge ansehen](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published)..
+Du kannst entweder [unsere Sicherheitsregeln lesen](https://github.com/ScratchAddons/ScratchAddons/security/policy) oder [unsere publizierten Sicherheitsratschläge ansehen](https://github.com/ScratchAddons/ScratchAddons/security/advisories?state=published).
 
 ### Ist mein Konto sicher, wenn ich Scratch Addons verwende?
 
-Ja. Funktionen, die dein Scratchkonto betreffen, wurden von Scratch Addons-Mitwirkenden stark überprüft um sicherzustellen, dass sie deinem Konto nicht schaden. Scratch Addons hält deine Anmeldedaten sicher, und stellt sicher, dass keine Projekte oder Dateien von dir ohne deine Erlaubnis verändert werden.. Du darfst aber die Erweiterung ohne kontobasierende Funktionen nutzen, wenn du das willst.
+Ja. Funktionen, die dein Scratchkonto betreffen, wurden von Scratch Addons-Mitwirkenden stark überprüft um sicherzustellen, dass sie deinem Konto nicht schaden. Scratch Addons hält deine Anmeldedaten sicher, und stellt sicher, dass keine Projekte oder Dateien von dir ohne deine Erlaubnis verändert werden. Du darfst aber die Erweiterung ohne kontobasierende Funktionen nutzen, wenn du das willst.
 
 Addons auf Scratch Addons wurden auch von mehreren Mitwirkenden im Repository geprüft, sodass niemand nur böswilligen Code unter unsere Augen schieben kann.
 
