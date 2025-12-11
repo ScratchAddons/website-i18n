@@ -14,7 +14,7 @@ Prvotno različico je naredil Griffpatch kot del razširitve Orodje za razvijalc
 - Ko je rezultat označen, lahko pritisnite Tab, da dopolnite iskanje do tistega bloka.
 - Vstavite lahko več gnezdenih blokov naenkrat, tako da vnesete nekaj takega kot "pojdi moja spremenljivka + 10 korakov".
 - Pri matematičnih blokih se privzeto upošteva vrstni red operacij, vendar lahko uporabite oklepaje.
-- Besedilo lahko vnesete v narekovajih, da preprečite iskalniku, da bi ga spremenil v bloke. Na primer, če bi radi, da figura reče "položaj x" namesto vrednosti spremenljivke `položaj x`, lahko napišete reci "položaj x".
+- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for situations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
 ## Nastavitve
 
@@ -33,7 +33,7 @@ Določi, kako visoko je lahko okno, preden se doda drsna vrstica, kot odstotek v
 ## Načrti
 
 - Spreminjanje velikosti okna z vlečenjem enega od vogalov v urejevalniku, ne da bi bilo treba spremeniti nastavitev.
-- Zamenjava spremenljivk v nizih z narekovaji bi bila koristna v primerih, ko bi sicer bilo treba ročno sestaviti veliko blokov "združi".
+- Adding string interpolation for strings in quotes could really help out situations where a lot of join blocks would normally have to be tediously arranged.
 
 ## Znane napake
 

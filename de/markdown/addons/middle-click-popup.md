@@ -14,7 +14,7 @@ Die Originalversion wurde von Griffpatch für die Erweiterung "Developer Tools",
 - Wenn ein Ergebnis markiert ist, kannst du die Tabulator-Taste drücken, um deine Suche nach dem Block automatisch zu vervollständigen.
 - Das Popup kann mehrere verschachtelte Blöcke gleichzeitig einfügen, indem man etwas wie "gehe meine Variable + 10 Schritte" eingibt.
 - Bei mathematischen Blöcken gilt standardmäßig die Reihenfolge der Operationen, aber du kannst die Reihenfolge in eckigen Klammern ändern.
-- Du kannst Text in doppelte Anführungszeichen umgeben, um den Sucher zu zwingen, deinen Text nicht in Blöcke zu verwandeln. Dies ist nützlich für Situationen wie den Versuch, den Text "x-Position" anstelle der Variablen `x-Position` zu sagen, wo du sage "x-Position" eingeben kannst.
+- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for situations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
 
 ## Einstellungen
 
@@ -33,7 +33,7 @@ Steuert, wie hoch das Popup sein kann, bevor eine Bildlaufleiste angezeigt wird.
 ## Zukunftspläne
 
 - Das Popup sollte durch Ziehen einer der Ecken im Editor geändert werden können, anstatt eine Einstellung ändern zu müssen.
-- Das Hinzufügen von String-Interpolation für Zeichenfolgen in Anführungszeichen könnte wirklich bei Situationen helfen, in denen viele Verbindungsblöcke normalerweise mühsam angeordnet werden müssten.
+- Adding string interpolation for strings in quotes could really help out situations where a lot of join blocks would normally have to be tediously arranged.
 
 ## Bekannte Probleme
 

@@ -177,7 +177,6 @@ AddonDocs:
       Tags: Etiketler
       VersionAdded: Eklenen sürüm
       LatestUpdate: Son güncelleme
-      Informations: Bilgilendirmeler
     FeatureFlags:
       enabledByDefault: Varsayılan olarak etkin
       dynamicEnable: Dinamik etkinleştirme

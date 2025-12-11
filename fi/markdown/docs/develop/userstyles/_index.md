@@ -92,17 +92,28 @@ Nämä CSS-muuttujat ovat aina kaikkien lisäosien saatavilla, eikä manifest-ar
 Jos käyttäjätyylin täytyy valita kahden arvon väliltä taustavärin (tekstin kontrasti) tai lisäosan asetuksen perusteella, JavaScriptiä ei tarvita. Nämä ehdot, kuten monet muutkin, voidaan määritellä lisäosan manifest-tiedostossa [customCssVariables](/docs/reference/addon-manifest/#customcssvariables)-arvolla, jolloin käyttäjätyyli voi vain viitata määriteltyyn CSS-muuttujaan.
 
 
-## Tyylien kohdistaminen pelkästään editoriin
+## Applying styles based on the editor mode
 
-Laajennus vaihtaa automaattisesti `<body>`-elementin luokan nimeä, kun käyttäjä siirtyy projektieditoriin tai poistuu siitä.
+The extension automatically toggles a class name on the `<html>` element when the user enters or exits the project editor.
 
 Esimerkki, jossa `<input>`-elementeille on asettu eri tyylisäännöt editorin sisä- ja ulkopuolelle:
 ```css
-.sa-body-editor input {
-  /* Tulee voimaan vain, jos `addon.tab.editorMode` on `editor` tai `fullscreen` */
+.sa-editor input {
+  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
 }
 
-body:not(.sa-body-editor) input {
-  /* Tulee voimaan vain, jos `addon.tab.editorMode` EI ole `editor` eikä `fullscreen` */
+:root:not(.sa-editor) input {
+  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+}
+```
+
+Similarly, the `.sa-fullscreen` class is added to the `<html>` element when the project is in full screen mode:
+```css
+.sa-fullscreen [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is `fullscreen` */
+}
+
+:root:not(.sa-fullscreen) [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is NOT `fullscreen` */
 }
 ```

@@ -186,7 +186,6 @@ AddonDocs:
       Tags: Oznake
       VersionAdded: Dodan v različici
       LatestUpdate: Zadnja posodobitev
-      Informations: Informacije
     FeatureFlags:
       enabledByDefault: Privzeto vključen
       dynamicEnable: Dinamično vključen

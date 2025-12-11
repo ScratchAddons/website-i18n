@@ -92,17 +92,28 @@ Bu CSS değişkenleri etkin olan tüm eklentiler için her zaman mevcuttur ve bu
 Eğer bir userstyle bir arka plan rengine (metin kontrastı) veya bir eklenti ayarına göre iki değerden birini seçmesi gerekiyorsa, JavaScript gerekli değildir. Bu koşullar, diğerlerinin yanı sıra [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) üzerinden eklenti manifest'inden tanımlanabilir ve userstyle kolaylıkla bu CSS değişkenine referans verebilir.
 
 
-## Stilleri yalnızca düzenleyicinin içinde uygulamak
+## Applying styles based on the editor mode
 
-Uzantı, kullanıcı proje düzenleyicisine girdiğinde veya çıktığında `<body>` ögesinde sınıf adını otomatik olarak değiştirir.
+The extension automatically toggles a class name on the `<html>` element when the user enters or exits the project editor.
 
 Örneğin `<input>` elementleri, düzenleyicinin içinde ve dışında farklı stilize edilir:
 ```css
-.sa-body-editor input {
-  /* Yalnızca `addon.tab.editorMode` `editor` ya da `fullscreen` ise uygulanır */
+.sa-editor input {
+  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
 }
 
-body:not(.sa-body-editor) input {
-  /* Yalnızca `addon.tab.editorMode` ne `editor`, ne de `fullscreen` ise uygulanır */
+:root:not(.sa-editor) input {
+  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+}
+```
+
+Similarly, the `.sa-fullscreen` class is added to the `<html>` element when the project is in full screen mode:
+```css
+.sa-fullscreen [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is `fullscreen` */
+}
+
+:root:not(.sa-fullscreen) [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is NOT `fullscreen` */
 }
 ```

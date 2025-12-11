@@ -92,17 +92,28 @@ Questa variabili CSS sono sempre disponibili per tutti gli addon abilitati e non
 Se uno userstyle deve scegliere tra uno di due valori basandosi su un colore dello sfondo (o il contrasto del desto) o un'impostazione di un addon, non è necessario usare JavaScript. Queste condizioni, tra le altre, possono essere dichiarate nel manifesto dell'addon usando [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) e lo userstyle può semplicemente fare riferimento a quella variabile CSS.
 
 
-## Applicare gli stili solo dentro l'editor
+## Applying styles based on the editor mode
 
-L'estensione cambia automaticamente il nome della classe dell'elemento `<body>` quando l'utente entra o esce dall'editor dei progetti.
+The extension automatically toggles a class name on the `<html>` element when the user enters or exits the project editor.
 
 Ad esempio, dando un diverso stile agli elementi `<input>` fuori e dentro l'editor:
 ```css
-.sa-body-editor input {
-  /* Si applica soltanto se `addon.tab.editorMode` è `editor` o `fullscreen` */
+.sa-editor input {
+  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
 }
 
-body:not(.sa-body-editor) input {
-  /* Si applica soltanto se `addon.tab.editorMode` NON è `editor` né `fullscreen` */
+:root:not(.sa-editor) input {
+  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+}
+```
+
+Similarly, the `.sa-fullscreen` class is added to the `<html>` element when the project is in full screen mode:
+```css
+.sa-fullscreen [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is `fullscreen` */
+}
+
+:root:not(.sa-fullscreen) [class*="green-flag_green-flag_"] {
+  /* Only applies if `addon.tab.editorMode` is NOT `fullscreen` */
 }
 ```

@@ -173,7 +173,6 @@ AddonDocs:
       Description: Beschrijving
       VersionAdded: Versie toegevoegd
       LatestUpdate: Meest recente update
-      Informations: Informatie
       FeatureFlags: Functievlaggen
     LatestUpdate:
       Major: groot
