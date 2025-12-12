@@ -54,7 +54,7 @@ v1.13.0:
 v1.14.0:
   Highlights:
     Description: |
-      Einige neue Add-Ons dieses Updates sind "Gamepad-Unterstützung", "Katzenblöcke", "Editor-Soundeffekte" und "Runden Bühnenrand entfernen". Gehe zu den Einstellungen für Scratch Addons, um sie zu aktivieren.
+      Einige neue Addons dieses Updates sind "Gamepad-Unterstützung", "Katzenblöcke", "Editor-Soundeffekte" und "Runden Bühnenrand entfernen". Gehe zu den Einstellungen für Scratch Addons, um sie zu aktivieren.
 
       Dieses Update liefert auch eine besser organisierte Scratch-Addons-Einstellungsseite sowie Leistungsverbesserungen bei der Verwendung von Addons im Projekteditor.
 v1.15.0:
@@ -234,6 +234,12 @@ v1.42.0:
 v1.43.0:
   Highlights:
     Description: |
-      Das Add-on „Blöcke aufräumen +“, das zuvor Teil der „Entwicklertools“ war, kann jetzt in den Einstellungen für Scratch Addonsseparat umgeschaltet werden. Du kannst auch wählen, ob nicht verwendete Variablen und Listen entfernt werden sollen.
+      Das Addon „Blöcke aufräumen +“, das zuvor Teil der „Entwicklertools“ war, kann jetzt in den Einstellungen für Scratch Addons separat umgeschaltet werden. Du kannst auch wählen, ob nicht verwendete Variablen und Listen entfernt werden sollen.
 
       Weitere neue Funktionen in diesem Update sind neue Einstellungen für „Scratch 3.0 → 2.0“ und „volle Bereiche“ sowie eine verbesserte Unterstützung für mobile Geräte.
+v1.44.0:
+  Highlights:
+    Description: |
+      Das neue "Benutzerdefinierte Blöcke umfärben"-Addon fügt eine Option zum Wählen einer Benutzerdefienierten Farbe wenn ein Block erstellt oder bearbeitet wird. Gehe zu den Einstellubgen für Scratch Addons, um es zu aktivieren.
+
+      Dieses Update fügt ebenfalls Timing-Blöcke und Linie-für-Linie-Profiling zum "Debugger"-Addon hinzu.
