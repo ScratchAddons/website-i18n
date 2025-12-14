@@ -15,8 +15,13 @@ IndexPage:
   Features:
     Heading: विशेषताएँ
     AddonsHeading: ऐडऑन
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""
 AddonDocs:
   Infobox:
     Labels:
       Credits: क्रेडिट
-      Informations: ""

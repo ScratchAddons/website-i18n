@@ -129,6 +129,9 @@ FeedbackPage:
       Punishment:
         Heading: No podemos castigar gente. No somos el Equipo de Scratch.
         Description: Scratch Addons no está afiliado con el sitio web de Scratch ni con las organizaciones que lo mantienen. No tenemos control del contenido o la moderación del sitio web de Scratch. {{ .Tag1Start }}Hay muchas formas en las que puede reportar el el sitio web de Scratch.{{ .Tag1End }}
+      Folders:
+        Heading: ""
+        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Logo de Scratch Messaging Extension
 ChangelogPage:
@@ -158,4 +161,3 @@ AddonDocs:
   Infobox:
     Labels:
       Credits: Créditos
-      Informations: ""

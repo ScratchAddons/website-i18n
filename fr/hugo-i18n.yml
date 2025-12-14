@@ -127,6 +127,9 @@ FeedbackPage:
           Scratch Addons n'est pas affilié au site Web Scratch ou aux organisations qui le maintiennent. Nous n'avons aucun contrôle sur le contenu et la modération du site Scratch.{{ .Tag1Start }}Il existe de nombreuses façons de signaler sur le site Web de Scratch.{{ .Tag1End }}
            
            
+      Folders:
+        Heading: ""
+        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Logo de l'extension Scratch Messaging
 ChangelogPage:
@@ -155,4 +158,3 @@ AddonDocs:
   Infobox:
     Labels:
       Credits: Remerciements
-      Informations: ""

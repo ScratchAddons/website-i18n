@@ -25,7 +25,9 @@ DarkTheme:
 IndexPage:
   Install:
     Heading: Pasang
-AddonDocs:
-  Infobox:
-    Labels:
-      Informations: ""
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""

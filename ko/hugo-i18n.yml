@@ -144,6 +144,9 @@ FeedbackPage:
         Heading: 우리는 스크래치 팀이 아닙니다.
       Punishment:
         Heading: 우리는 사람들을 처벌할 수 없습니다. 우리는 스크래치 팀이 아닙니다.
+      Folders:
+        Heading: ""
+        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: 스크래치 메시지 확장 프로그램 로고
 ChangelogPage:
@@ -172,4 +175,3 @@ AddonDocs:
   Infobox:
     Labels:
       Credits: 기여자
-      Informations: ""

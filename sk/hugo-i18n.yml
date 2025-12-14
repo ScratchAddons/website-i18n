@@ -9,8 +9,13 @@ Footer:
 IndexPage:
   Features:
     AddonsHeading: Doplnky
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""
 AddonDocs:
   Infobox:
     Labels:
       Credits: Kredity
-      Informations: ""

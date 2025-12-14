@@ -142,6 +142,9 @@ FeedbackPage:
       Punishment:
         Heading: İnsanlara ceza veremeyiz. Biz Scratch Ekibi değiliz.
         Description: Scratch Eklentileri, Scratch sitesine veya onu ayakta tutan kuruluşlara bağlı değildir. Scratch sitesinde içerik ve denetim üzerinde hiçbir kontrolümüz yoktur. {{ .Tag1Start }}Scratch sitesinde raporda bulunmanın birçok yolu vardır.{{ .Tag1End }}
+      Folders:
+        Heading: ""
+        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Mesajlaşma Eklentisi logosu
 ChangelogPage:

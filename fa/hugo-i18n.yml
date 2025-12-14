@@ -6,7 +6,9 @@ Footer:
 IndexPage:
   Features:
     AddonsHeading: افزونه ها
-AddonDocs:
-  Infobox:
-    Labels:
-      Informations: ""
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""

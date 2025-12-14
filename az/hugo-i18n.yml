@@ -1,4 +1,6 @@
-AddonDocs:
-  Infobox:
-    Labels:
-      Informations: ""
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""

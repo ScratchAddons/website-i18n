@@ -42,12 +42,13 @@ IndexPage:
   Users: أسماء المستخدمين
 FeedbackPage:
   SubmitButton: إرسال
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""
 ChangelogPage:
   Links:
     Title: الروابط
 UnsupportedBrowserPage:
   Download: تحميل
-AddonDocs:
-  Infobox:
-    Labels:
-      Informations: ""

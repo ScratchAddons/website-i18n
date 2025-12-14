@@ -72,6 +72,12 @@ IndexPage:
     Heading: Điểm mạnh
   Install:
     Heading: Tải xuống
+FeedbackPage:
+  PreSendWarning:
+    Variations:
+      Folders:
+        Heading: ""
+        Description: ""
 ChangelogPage:
   Highlights:
     Title: Điểm mạnh
@@ -79,4 +85,3 @@ AddonDocs:
   Infobox:
     Labels:
       Credits: Tín dụng
-      Informations: ""
