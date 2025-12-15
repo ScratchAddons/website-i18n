@@ -1,13 +1,13 @@
 ---
-title: Send feedback to Scratch Addons developers
-description: How to send feedback to Scratch Addons.
+title: Gửi phản hồi cho nhà phát triển Scratch Addons
+description: Làm sao để gửi phản hồi cho Scratch Addons?
 ---
 
 Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
 
 {{< admonition warning >}}
 
-We can't help with issues related to Scratch moderation. Instead, use the Report button on the Scratch website, or reach Scratch through their official channels.
+Chúng tôi không thẻ giải quyết các vấn đề liên quan tới sự kiểm duyệt của Scratch. Thay vào đó, hãy sử dụng nút Báo cáo trên trang Scratch, hoặc liên hệ với Scratch thông qua các kênh chính thức của họ.
 
 {{</ admonition >}}
 
