@@ -135,9 +135,6 @@ FeedbackPage:
       Punishment:
         Heading: 私たちはScratch チームではないので、個別の事案には対応できません。
         Description: Scratch Addonsは、Scratchウェブサイトや運営団体と無関係です。Scratchウェブサイトの内容は一切コントロールしていません。{{ .Tag1Start }}Scratchウェブサイトにて、Scratchチームに報告してください。{{ .Tag1End }}
-      Folders:
-        Heading: ""
-        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Messaging Extension ロゴ
 ChangelogPage:

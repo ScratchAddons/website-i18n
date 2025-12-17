@@ -129,9 +129,6 @@ FeedbackPage:
     Variations:
       NotST:
         Heading: Nie jesteśmy Scratch Team.
-      Folders:
-        Heading: ""
-        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Logo dodatku Wiadomości Scratch
 ChangelogPage:

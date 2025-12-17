@@ -25,9 +25,3 @@ DarkTheme:
 IndexPage:
   Install:
     Heading: Pasang
-FeedbackPage:
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""

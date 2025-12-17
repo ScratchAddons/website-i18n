@@ -90,11 +90,6 @@ FeedbackPage:
   ContentLabel: 回饋
   ContentPlaceholder: 盡量讓我們知道更多細節。
   SubmitButton: 發送
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""
 ChangelogPage:
   Links:
     Title: 連結

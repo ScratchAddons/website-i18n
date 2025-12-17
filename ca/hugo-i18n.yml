@@ -114,11 +114,6 @@ FeedbackPage:
   ContentPlaceholder: Si us plau, proporciona tants detalls com pugis.
   SendEnabled: Envia una llista dels meus addons activats ara mateix (recomanat)
   SubmitButton: Envia
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""
 ChangelogPage:
   Highlights:
     Title: Destacats

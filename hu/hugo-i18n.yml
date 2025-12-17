@@ -121,11 +121,6 @@ FeedbackPage:
   ContentPlaceholder: Kérjük adjon meg annyi információt, amennyit csak tud.
   SendEnabled: Lista küldése a jelenlegi használatban lévő kiegészítőkről (javasolt)
   SubmitButton: Küldés
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Üzenetküldés bővítmény logója
 ChangelogPage:

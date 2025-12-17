@@ -59,12 +59,6 @@ IndexPage:
     InternationalParagraph: 除了英语，Scratch Addons 也有西班牙语、俄语、日语、法语， 和更多的语言
   Install:
     Heading: 下载
-FeedbackPage:
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""
 AddonDocs:
   Infobox:
     Labels:

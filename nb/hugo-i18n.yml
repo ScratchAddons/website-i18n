@@ -131,9 +131,6 @@ FeedbackPage:
       Punishment:
         Heading: Vi kan ikke straffe folk. Vi er ikke Scratch Team.
         Description: Scratch Addons er ikke tilknyttet Scratch-nettstedet eller organisasjonene som vedlikeholder det. Vi har ingen kontroll over innholdet og modereringen på Scratch-nettstedet. {{ .Tag1Start }}Det er mange måter du kan rapportere på Scratch-nettstedet.{{ .Tag1End }}
-      Folders:
-        Heading: ""
-        Description: ""
 SMTPage:
   ScratchMessagingLogoAlt: Scratch Melding Utvidelsen logo
 ChangelogPage:

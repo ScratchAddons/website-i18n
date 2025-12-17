@@ -49,12 +49,6 @@ IndexPage:
 AddonsPage:
   EasterEggAddon: Aceasta este o extensie ou de paște.
   RecommendedAddon: Aceasta este o extensie recomandată.
-FeedbackPage:
-  PreSendWarning:
-    Variations:
-      Folders:
-        Heading: ""
-        Description: ""
 ChangelogPage:
   Highlights:
     Title: Evidențieri
