@@ -13,7 +13,7 @@ Scratch Addons ist eine "All-in-One"-Browsererweiterung für die Scratch-Website
 
 ### Wer hat Scratch Addons gemacht?
 
-Scratch Addons ist ein Teamproject, das von World_Languages geleitet wird. Du kannst die Liste von Menschen, die zu uns beigetragen haben auf [der Dankaussagungensseite](/credits). Obwohl die "Scratch-Nachrichten" und "Entwicklertools" zuerst von griffpatch erstellt wurden, erhält er die Erweiterung nicht.
+Scratch Addons ist ein Teamprojekt, das von World_Languages geleitet wird. Du kannst die Liste von Menschen, die zu uns beigetragen haben auf [der Dankaussagungensseite](/credits). Obwohl die "Scratch-Nachrichten" und "Entwicklertools" zuerst von griffpatch erstellt wurden, hält er die Erweiterung nicht am laufen.
 
 ### Was enthält Scratch Addons?
 
