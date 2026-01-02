@@ -14,7 +14,7 @@ Griffpatch teki lisäosan alkuperäisen version Kehittäjän työkalut -laajennu
 - Kun hakutulos on korostettuna, voidaan haku automaattisesti täyttää vastaamaan kyseistä lohkoa painamalla sarkainta.
 - Ponnahdusikkunan avulla voidaan lisätä useita sisäkkäisiä lohkoja samaan aikaan kirjoittamalla esimerkiksi jotakin tällaista "liiku muuttujani + 10 askelta".
 - Matematiikkalohkoissa laskutoimitukset järjestellään oletuksen mukaan, mutta järjestystä voidaan muuttaa hakasulkeilla.
-- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for situations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
+- Hakutoiminto voidaan pakottaa olemaan muuttamatta tekstiä lohkoiksi ympäröimällä teksti kaksinkertaisilla lainausmerkeillä. Tästä on hyötyä tilanteissa, joissa yritetään sanoa teksti "x-sijainti" sen sijaan, että sanoittaisiin muuttuja `x-sijainti`, jolloin kirjoitettaisiin "x-sijainti".
 
 ## Asetukset
 
@@ -33,7 +33,7 @@ Määrittää, kuinka pitkä ponnahdusikkuna voi olla, kunnes vierityspalkki tul
 ## Tulevaisuuden suunnitelmat
 
 - Ponnahdusikkunan koon pitäisi olla muutettavissa editorissa yhtä sen kulmaa raahaamalla sen sijaan, että pitäisi muuttaa asetusta.
-- Adding string interpolation for strings in quotes could really help out situations where a lot of join blocks would normally have to be tediously arranged.
+- Merkkijonointerpoloinnin lisääminen lainausmerkeissä oleviin merkkijonoihin auttaisi erityisesti tilanteissa, joissa suuri määrä yhdistämislohkoja normaalisti järjestellään ikävällä tavalla.
 
 ## Havaitut viat
 
