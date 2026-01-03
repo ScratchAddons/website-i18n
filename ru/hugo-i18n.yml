@@ -189,6 +189,7 @@ AddonDocs:
       Tags: Метки
       VersionAdded: Версия добавлена
       LatestUpdate: Новейшее обновление
+      Information: Информация
       FeatureFlags: Флажки функций
     LatestUpdate:
       Major: важная
