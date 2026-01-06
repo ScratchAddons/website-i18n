@@ -1,41 +1,41 @@
 ---
 ---
 
-**Customizable navigation bar** is an addon that allows users to add, modify, or remove links in the Scratch website's navigation bar, as well as tweak the user dropdown and change the bar's page scrolling behavior.
+**Настраиваемая навигационная панель** — дополнение, которое позволяет пользователям добавлять, изменять, убирать ссылки в навигационной панели веб-сайта Scratch, а также подправлять выпадающий список аккаунта и изменять поведение навигационной панели при прокрутке страницы.
 
-## Background
+## Задний фон
 
-Scratch removed the discuss button that linked to the forums in July 2017.[^1] The original addon was introduced to bring it back and included an option to remove the ideas link.
+Scratch убрали кнопку дискуссии, которая вела на форумы в Июле 2017-ого.[^1] Оригинальное дополнение придумали для её возвращения и оно включало в себя опцию удаления ссылки идей.
 
 ## Особенности
 
-- Add new links to Scratch pages or other websites.
-- Re-order links and change their labels.
-- Remove existing links.
-- Prevent the navigation bar from scrolling with the page.
-- Move the logged-in username out of the way.
+- Добавить новые ссылки на страницы Scratch или прочие сайты.
+- Переупорядочить ссылки и изменить их названия.
+- Убрать существующие ссылки.
+- Остановить прокрутку навигационной панели вместе со страницей.
+- Переместить пользовательское имя подальше.
 
-## Settings
+## Настройки
 
-### Items
+### Предметы
 
-Controls the links displayed between the Scratch logo and search bar. Each item has the following inputs:
+Контролирует ссылки, показанные между логотипом Scratch и строкой поиска. Каждый предмет имеет следующие вводы:
 
-- Name: The link's label
-- URL: The page to link to which can be relative to the home page (e.g. /mystuff) or absolute (e.g. https://example.com).
+- Название: название ссылки
+- Гиперссылка: страница, которая может относиться к домашней странице (как /mystuff) или же ссылаться на любую другую (к примеру, https://example.com).
 
-### Compact user dropdown
+### Компактный выпадающий список пользователя
 
-Moves the username of the logged-in user into the profile dropdown item.
+Переносит пользовательское имя зарегистрированного пользователя в выпадающий список профиля.
 
-### Stick to
+### Прикрепиться
 
-- Top of screen: The navigation bar stays visible even when the page scrolls. This is Scratch's default behavior.
-- Top of page: The navigation bar stays at the top of the page and scrolls away with it.
+- Вверх экрана: навигационная строка остаётся видимой, даже при прокрутке страницы. Это поведение Scratch по умолчанию.
+- Вверх страницы: навигационная панель остаётся наверху страницы и остаётся там при прокрутке.
 
-## Credit
+## Титры
 
-The original addon was written by WorldLanguages, and TheColaber was the author of the rewrite.
+Оригинальное дополнение было написано WorldLanguages, и TheColaber был автором переписанной версии.
 
 ## Список изменений
 
