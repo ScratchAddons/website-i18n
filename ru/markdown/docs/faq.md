@@ -13,7 +13,7 @@ Scratch Addons — браузерное расширение «всё в одн�
 
 ### Кто создал Scratch Addons?
 
-Scratch Addons is a team project led by World_Languages. You can find the list of people who have contributed to us on [the Credits page](/credits). While the "Scratch Messaging" and "Developer tools" addons were initially created by griffpatch, he does not maintain the extension.
+Scratch Addons — командный проект под руководством World_Languages. Вы можете найти список людей, которые пожертвовали нам на [странице Титров](/credits). Даже если дополнения "Сообщения Scratch" и "Инструменты Разработчика" были изначала созданы griffpatch, он не занимается поддерживанием расширения.
 
 ### Что включает Scratch Addons?
 
@@ -27,13 +27,13 @@ Scratch Addons is a team project led by World_Languages. You can find the list o
 
 ### Какие системные требования у Scratch Addons?
 
-Scratch Addons is officially supported on the desktop versions of [Google Chrome](https://google.com/chrome/) (version 96 and up), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (version 96 and up), and [Mozilla Firefox](https://mozilla.org/firefox/) (version 109 and up), and should also work on other desktop browsers that are based on those browsers. Please check out [this page](../getting-started/installing/) for complete information.
+Scratch Addons официально поддерживается на компьютерных версиях [Google Chrome](https://google.com/chrome/) (версии 96 и выше), [Microsoft Edge](https://www.microsoft.com/en-us/edge) (версии 96), [Mozilla Firefox](https://mozilla.org/firefox/) (версии 109 и выше), а также должно работать на других компьютерных браузерах, основанных на вышеупомянутых. Пожалуйста, проверьте [эту страницу](../getting-started/installing/) для исчерпывающей информации.
 
 ### Могу ли я использовать Scratch Addons на мобильном устройстве?
 
-**For Android users**: Yes, Scratch Addons can be installed on [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), however not all addons are optimized for touchscreens or environments with small screen sizes so some features might not work as expected.
+**Для пользователей Android**: Да, Scratch Addons можно установить на [Firefox для Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox), но к сожалению, не все дополнения оптимизированы для сенсорных и маленьких экранов, поэтому некоторые возможности не могут быть раскрыты, как ожидалось.
 
-**For iOS and iPadOS users**: Sadly, it is not. App Store policy does not allow browser implementations to be uploaded, which means all browsers available on that platform are just re-skinned Safari. This causes some problems (see below).
+**Для пользователей iOS и iPadOS**: К сожалению, нельзя. Политика App Store не разрешает загружать браузерные реализации, то есть все браузеры на этой платформе — это перекрашенные Safari. Поэтому возникают немного проблем (подробнее внизу).
 
 ### Можно мне использовать Scratch Addons на Safari?
 
@@ -68,51 +68,51 @@ Scratch Addons нельзя использовать в официальном �
 
 ### Будет ли мой аккаунт безопасен во время использования Scratch Addons?
 
-Yes. Features related to your Scratch account are thoroughly reviewed by Scratch Addons contributors to ensure that they will not harm your Scratch account. Scratch Addons keeps your account credentials secure, and it will not modify or delete your projects or assets without your permission. However, you may use the extension without any account-related features if you so choose.
+Да. Возможности, связанные с Вашим аккаунтом Scratch тщательно проверяются жертвующими Scratch Addons для предотвращения вреда Вашему аккаунту Scratch. Scratch Addons хранит учётные данные вашего аккаунта и никогда ни за что не изменит или удалит Ваши проекты или ресурсы без Вашего разрешения. Но Вы всегда можете использовать расширение без любых возможностей, имеющих дело с Вашим аккаунтом, если так захотите.
 
 Аддоны на Scratch Addons также были редактированы некоторыми тех, кто внёс вклад на репозитории, так что никто не может просто засунуть вредоносный код под нашими глазами.
 
-We never send any confidential or personally identifying information outside of your browser. See [the extension privacy policy](/docs/privacy/policies/extension) for more information.
+Мы никогда не отправляем конфиденциальную или определяемую личность информацию из Вашего браузера. Посмотрите [политику конфиденциальности расширения](/docs/privacy/policies/extension) для большей информации.
 
-## Using Scratch Addons
+## Использование Scratch Addons
 
-### How do I enable addons?
+### Как активировать дополнения?
 
-To enable addons, first go to the settings by:
+Для включения дополнений, сначала перейдите в настройки с помощью:
 
-- opening the popup and clicking the gear icon on the top-right corner
-- going to https://scratch.mit.edu/scratch-addons-extension/settings. Note: you must have the extension installed for this link to work.
+- открытия всплывающего окна и нажатия на иконку шестерёнки в правом верхнем углу
+- перехода на https://scratch.mit.edu/scratch-addons-extension/settings. Заметка: для этого Вам понадобится установленное расширение.
 
-Then, find addons you'd like to enable using the sidebar or the search box. To enable an addon, click the switch on the right side of the addon tile.
+После, найдите дополнения, которые Вы бы хотели задействовать используя боковую панель или строку поиска. Для включения, воспользуйтесь переключателем на правой части дополнения.
 
 ### Могу ли я говорить людям о Scratch Addons на Scratch?
 
-You can't, and please don't. There is a policy that forbids mentioning browser extensions/userscripts [here](https://scratch.mit.edu/discuss/post/2907564/), and violations have resulted in Scratch Team removing posts or muting accounts. You may, however, use different methods to tell your friends about Scratch Addons.
+Вы не можете, и пожалуйста, не надо. Есть политика, которая запрещает упоминание браузерные расширения или пользовательские скрипты [здесь](https://scratch.mit.edu/discuss/post/2907564/), и нарушения могут следовать удалениям публикаций или заглушениям аккаунтов Командой Scratch. Вы можете, однако использовать другие методы рассказать друзьям о Scratch Addons.
 
 ### Мне кажется, Scratch Addons замедляет Scratch. Что я могу сделать?
 
-You can try disabling addons that you don't need, especially complex features such as the variables tab, debugger, and cat blocks that watch the mouse pointer. Most addons with a performance impact will provide a warning in the extended addon information.
+Вы можете попробовать отключить дополнения, которые Вам не нужны, особенно сложные способности, к примеру вкладка переменных, отладчик, а также котоблоки, следящие за курсором мыши. Большинство дополнений с воздействиями на производительность дают предупреждение в подробной информации дополнения.
 
-Some specific advices:
-- Turn off 60FPS addon. While the addon can increase the maximum speed a project can run, it does not reduce lags. To run such projects faster, use [TurboWarp](https://turbowarp.org/).
-- "Variable manager" addon should not be used while the project is running.
+Некоторые определённые советы:
+- Выключите дополнение 60FPS. Хоть дополнение и может повысить максимальную скорость проекта, оно не может заглушить зависания. Для более быстрого воспроизведения проектов, советуем [TurboWarp](https://turbowarp.org/).
+- Дополнение "Менеджер переменных" не должно быть использовано при воспроизведении проекта.
 
-### I cannot receive notifications. Why?
+### Я не могу получать уведомления. Почему?
 
-First, disable and re-enable the "Scratch Notifier" addon. This can fix some issues.
+Во-первых, отключите и снова включите дополнение "Уведомитель Scratch". Это может помочь с некоторыми проблемами.
 
-If the problem continues, then check the operating system's notification settings. You have to allow the browser - such as Google Chrome - to send notifications. 
+Если проблема сохранится, то проверьте настройки уведомлений операционной системы. Вы должны позволить браузеру — например, Google Chrome — отправлять уведомления.
 
-- Windows: Open Settings, open the "Notifications & actions" category, then find "Change notification settings for individual senders". Read [Microsoft's help article](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) for more detailed information.
-- macOS: Open System Preferences, then open the Notifications section. Select the browser (e.g. Google Chrome) on the left and enable notifications. Read [Apple's help article](https://support.apple.com/en-us/HT204079) for more detailed information.
+- Windows: Откройте Настройки, вскройте категорию "Уведомления и действия", после найдите "Изменить настройки уведомлений для индивидуальных отправителей". Прочитайте [статью помощи Microsoft](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) для более подробной информации.
+- macOS: Откройте Системные Предпочтения, а потом откройте секцию Уведомлений. Выберите браузер (к примеру, Google Chrome) слева и включите уведомления. Прочитайте [статью помощи Apple](https://support.apple.com/en-us/HT204079) для более детализированной информации.
 
-You should also make sure that "focus assist" (on Windows) or "Do Not Disturb" (on macOS) is disabled.
+Вы также должны увериться, что "ассистент концентрирования" (на Windows) или "Не Беспокоить" (на macOS) выключены.
 
-### How do I watch recordings made with the project video recorder addon?
+### Как мне смотреть записи, созданные с дополнением записи видео с проекта?
 
-Due to technical limitations, videos recorded with this addon are in the WebM format. You can view .webm files using your browser (by dragging and dropping the file) or by using a media player that supports it, such as [VLC Media Player](https://www.videolan.org/).
+Из-за технических лимитаций, видео, записанные используя это дополнение, записаны в формате WebM. Вы можете просматривать файлы .webm используя Ваш браузер (перетаскиванием и отпущением файла) или медиа-проигрыватель, который поддерживает такой формат, как [VLC Media Player](https://www.videolan.org/).
 
-To convert WebM files into MP4 or other formats, you can use a video conversion software that supports WebM, such as [HandBrake](https://handbrake.fr/) or [CloudConvert](https://cloudconvert.com/webm-to-mp4), although we recommend simply viewing these files with a browser or media player. Note that this can take a long time depending on the size of the video.
+Для конвертирования файлов WebM в MP4 или в другие форматы, Вы можете использовать программное обеспечение конверсии видео, которое поддерживает WebM, включая [HandBrake](https://handbrake.fr/) или [CloudConvert](https://cloudconvert.com/webm-to-mp4), но мы рекомендуем просто просматривать эти файлы с Вашего браузера или проигрывателя медиа. Замечаю, что это может занять долгое время, в зависимости от размера видео.
 
 ### Как можно активировать пасхальные аддоны?
 
@@ -124,13 +124,13 @@ To convert WebM files into MP4 or other formats, you can use a video conversion 
 
 ### Как я могу внести вклад в Scratch Addons?
 
-Firstly, we appreciate your interest in contributing to Scratch Addons!
+Во-первых, мы уважаем Ваш интерес в пожертвовании для Scratch Addons!
 
-As an open source project, we welcome any kind of contribution. You don't need to ask in advance -- everyone is welcome to contribute! You can contribute in many ways, many of which don't require programming knowledge.
+Как проект с открытым исходным кодом, мы приглашаем любые пожертвования. Вам не надо сначала ничего спрашивать — все приглашены жертвовать! Вы можете помочь многими способами, для большинства из которых знание программирования не обязательны.
 
 - **Помочь с кодом**
 
-  If you are familiar with JavaScript, HTML, and CSS, you can contribute by fixing bugs, making adjustments, or adding features.
+  Если Вы знакомы с JavaScript, HTML и CSS, то Вы можете пожертвовать исправлением ошибок, осуществлением корректировок или добавлением возможностей.
 
   To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
 
