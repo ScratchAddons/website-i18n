@@ -1,23 +1,23 @@
 ---
 title: Лучшие Практики
-description: Follow these best practices when writing or reviewing userscript code.
+description: Следуйте эти лучшие практики при написании или подтверждении кода пользовательских сценариев.
 ---
 
-Follow these best practices when writing or reviewing userscript code.
+Следуйте эти лучшие практики при написании или подтверждении кода пользовательских сценариев.
 
 
-## DOM manipulation
+## Манипуляция DOM
 
 
-### Use addEventListener instead of "onevent"
+### Используйте addEventListener вместо "onevent"
 
-Avoid setting "onevent" values on HTML elements, such as `onclick`. Instead, use `addEventListener`. This allows multiple addons to register the same event on the same element, without conflicting.  
-It is still valid to use "onevent", but only for elements that were created by the same addon that is registering the event.  
-In all cases, avoid setting "onevent" HTML attributes, for example `element.setAttribute("onclick", "don't do this")`.
+Избегайте настраивания значений "onevent" на элементах HTML, таких, как `onclick`. Вместо этого, используйте `addEventListener`. Это позволяет нескольким дополнениям регистрировать то же самое событие на том же самом элементе, без конфликтов.
+Всё ещё действительно использовать "onevent", но только для элементов, которые созданы регистрирующим дополнением.
+В любых случаях, избегайте настраивание атрибутов HTML "onevent", для примера `element.setAttribute("onclick", "не делайте так")`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Не делайте так:
 document.querySelector(".remix-button").onclick = () => {
   prompt("Are you sure you want to remix?");
 };
@@ -26,81 +26,80 @@ document.querySelector(".remix-button").onclick = () => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Лучше делайте так:
 document.querySelector(".remix-button").addEventListener("click", () => {
   prompt("Are you sure you want to remix?");
 });
 ```
 {{< /admonition >}}
 
-### Avoid using innerHTML
+### Избегайте использования innerHTML
 
-Avoid using `innerHTML`. Use `innerText` or `textContent` instead.  
-Other APIs that can potentially lead to XSS vulnerabilities should be avoided too, such as `insertAdjacentHTML`, `outerHTML`, `document.write()`, etc.
+Избегайте использования `innerHTML`. Лучше вместо этого использовать `innertext` или `textContent`. Другие интерфейсы, которые могут потенциально привести к уязвимостям XSS тоже надо избегать, такие, как `insertAdjacentHTML`, `outerHTML`, `document.write()` и т.д..
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Не рекомендовано:
 document.querySelector(".sa-remix-button").innerHTML = `<span>Remix ${projectTitle}</span>`;
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Лучший метод:
 const span = document.createElement("span");
 span.textContent = `Remix ${projectTitle}`;
 document.querySelector(".sa-remix-button").append(span);
 ```
 {{< /admonition >}}
 
-### Avoid using mousemove
+### Избегайте использования mousemove
 
-Avoid using `mousemove` and similar DOM events that trigger very often since they are bad for performance, especially when used on the body. Use an alternative event on a child element instead whenever possible.
+Не используйте `mousemove` и похожие события DOM, активирующиеся очень часто, ведь они ужасны для производительности, особенно при использовании на теле документа. Пользуйтесь альтернативными событиями на элементах потомках при любой возможности.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Не писать:
 body.addEventListener("mousemove", (event) => {
   // ...
 });
 ```
 {{< /admonition >}}
 
-### Hide elements instead of removing them
+### Прячьте элементы вместо их удаления
 
-Avoid calling `.remove()` on HTML elements, which in extreme cases, can cause the project page to crash.  
-Addons may only use it for elements they themselves created, in specific situations.
+Отходите от задействования `.remove()` на элементах HTML, которые в крайних случаях, могут привести к сбою всей страницы проекта.
+Дополнения могут использовать её для своих же элементов в определённых ситуациях.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Лучше не повторять:
 document.querySelector(".remix-button").remove();
 ```
 {{< /admonition >}}
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// А так лучше:
 document.querySelector(".remix-button").style.display = "none";
 
-// Or do this, with help from a userstyle:
+// Ну, или можно сделать вот так с помощью пользовательского скрипта:
 document.querySelector(".remix-button").classList.add("sa-remix-button-hidden");
 ```
 {{< /admonition >}}
 
-### Only use waitForElement when necessary
+### Используйте waitForElement только, когда необходимо
 
-Avoid using the `addon.tab.waitForElement` API if the element is guaranteed to exist. It will still work, and performance will not be heavily impacted, but it might confuse other developers that are reading the code. The usage of waitForElement should usually mean that there is at least 1 scenario where the element doesn't exist at that execution point.  
-For example, it's not necessary to use waitForElement when searching for forum posts, unless the userscript was declared with `"runAtComplete": false`. In those cases, simply use `document.querySelectorAll()` normally.
+Избегайте использования API `addon.tab.waitForElement`, если элемент гарантированно существует. Этот случай всё ещё работает, и производительность не сильно пострадает, но он всё ещё может запутать других разработчиков при прочтении и проверке кода. Использование waitForElement обычно означает, что есть хотя бы один сценарий, где элемент ещё не существует на том пункте воспроизведения.
+Для примера, необязательно использовать waitForElement при поиске публикаций на форуме, если пользовательский сценарий был определён с `"runAtComplete": false`. В тех случаях, просто используйте `document.querySelectorAll()`, как обычно.
 
-### Use element.closest() instead of abusing parentElement
+### Действуйте с element.closest(), а не злоупотребляйте parentElement
 
-Avoid overusing parentElement when traversing an element's ancestors. Instead, use `element.closest()`, which works very similarly to `element.querySelector()`.
+Избегайте переиспользования parentElement при проходе через предки элемента. Вместо этого, задействуйте `element.closest()`, что работает очень похожим способом на `element.querySelector()`.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Так не действуйте:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.parentElement.parentElement.parentElement.parentElement;
 })
@@ -109,7 +108,7 @@ reportButton.addEventListener("click", (event) => {
 
 {{< admonition success >}}
 ```js
-// Do this instead:
+// Так намного лучше:
 reportButton.addEventListener("click", (event) => {
   const commentElement = event.target.closest(".comment");
 })
@@ -117,14 +116,14 @@ reportButton.addEventListener("click", (event) => {
 {{< /admonition >}}
 
 
-## JavaScript best practices
+## Лучшие практики JavaScript
 
 
-### Use modern JavaScript
+### Используйте современный JavaScript
 
-- Prefer newer APIs, such as `fetch()` over `XMLHttpRequest`.
-- Never use `==` for comparisons. Use `===` instead.
-- When listening to keyboard events, accessing `event.key` is the preferred way to know which key was pressed. In general, you should avoid `event.code` and `event.keyCode`.
+- Предпочитайте новейшие интерфейсы API, например, `fetch()` вместо `XMLHttpRequest`.
+- Никогда не используйте `==` для сравнений. Используйте `===`.
+- При доступе к событиям клавиатуры, обращение к `event.key` — предпочитаемый путь узнавания нажатий кнопки. В общем, Вам советуется остерегаться `event.code` и `event.keyCode`.
 - Use optional chaining if an object can sometimes be `null`.  
 For example, `document.querySelector(".remix-button")?.textContent`.
 - Use `for ... of` loops or `.forEach()`.  
