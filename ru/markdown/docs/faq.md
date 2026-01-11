@@ -132,25 +132,25 @@ Scratch Addons нельзя использовать в официальном �
 
   Если Вы знакомы с JavaScript, HTML и CSS, то Вы можете пожертвовать исправлением ошибок, осуществлением корректировок или добавлением возможностей.
 
-  To incorporate your changes into the main extension, you need to create a pull request. You can do so by forking [the repository](https://github.com/ScratchAddons/ScratchAddons/), creating a branch, making the necessary changes, and then locating the option to create a pull request. We will review it and most likely make some changes before it gets merged.
+  Для встраивания Ваших изменений в главное расширение, Вам понадобится сделать запрос  на извлечение. Вы можете это сделать с помощью использования функции вилы на [репозитории](https://github.com/ScratchAddons/ScratchAddons/), создания ветви, проведения нужных изменений и нахождения выбора создания запроса на извлечении. Мы его рассмотрим и, наверно, сделаем несколько изменений до слияния.
 
-  You can also contribute to other aspects of the organization, such as our website. You can view all of our repositories on [our GitHub organization page](https://github.com/ScratchAddons).
+  Вы также можете пожертвовать и другим аспектам организации, как, например, нашему веб-сайту. Вы можете просмотреть все наши репозитории на [нашей странице GitHub организации](https://github.com/ScratchAddons).
 
 - **Предложить идею**  
 
-  Have an idea that you think would be a good addition to Scratch Addons? [Let us know!](#i-think-you-missed-a-feature-what-can-i-do)
+  Есть идея, которая, по Вашему мнению, послужит хорошим пополнением к Scratch Addons?[Дайте нам знать!](#i-think-you-missed-a-feature-what-can-i-do)
 
 - **Пожаловаться на баг**
 
-  Found a bug in one of our addons, the settings page, or anything else in our extension? [Send us a bug report](#what-can-i-do-if-i-find-a-problem).
+  Нашли ошибку в одном из наших дополнений, в странице настроек или в любом другом месте нашего расширения? [Отправьте рапорт о проблеме](#what-can-i-do-if-i-find-a-problem).
 
 - **Перевести Scratch Addons**  
 
-  If you are fluent in another language, you can help translate/localize Scratch Addons to said language. You can start by [joining the localization team](/docs/localization/joining-the-localization-team).
+  Если вы свободно владеете каким-либо языком, Вы можете помочь нам перевести/локализировать Scratch Addons на вышеупомянутый язык. Вы можете начать с [присоединения к команде локализации](/docs/localization/joining-the-localization-team).
 
 - **Написать документацию**
 
-  Are you familiar with the inner workings of Scratch Addons? If so, you can write the documentation for it. The documentation is located in [our website repo](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Feel free to open a pull request!
+  Знакомы ли Вы с внутренностями Scratch Addons? Если так, то Вы можете для него писать документацию. Документация находится в [нашем репозитории сайта](https://github.com/ScratchAddons/website-v2/tree/master/content/docs). Не стесняйтесь открывать запросы на извлечение!
 
 - **Отправить отзыв**
 
