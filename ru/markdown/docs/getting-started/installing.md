@@ -18,14 +18,14 @@ Scratch Addons доступно в этих магазинах.
 ## Из исходного кода
 
 {{< admonition info >}}
-Unlike the store releases, installing from source requires a browser based on Chromium 121+ or Firefox 121+.
+В отличии от магазинных выпусков, установка с помощью исходного кода требует браузера, основанного на Chromium 121+ или Firefox 121+.
 {{< /admonition >}}
 
 ### Клонирование репозитории
 
-This is the recommended way to install Scratch Addons for development purposes, assuming you have Git installed.
+Это рекомендуемый способ установить Scratch Addons для целей разработки, предполагая у Вас установлен Git.
 
-If you plan on contributing, fork the repository on GitHub first and then clone the fork, replacing `<username>` with your Github username.
+Если Вы планируете жертвовать, то сначала создайте вилку репозитория на GitHub и потом клонируйте вилку, заменяя `<username>` Вашим пользовательским именем Github.
 
 ```sh
 $ git clone https://github.com/<username>/ScratchAddons.git
@@ -37,19 +37,19 @@ $ git fetch
 $ git pull
 ```
 
-Remember to also update Scratch Addons from the browser.
+Не забудьте также обновить Scratch Addons из браузера.
 
 ### О релизах в GitHub
 
-[The releases page](https://github.com/ScratchAddons/ScratchAddons/releases) contains the code for all released versions of Scratch Addons, as well as a mirror of the store builds.
+[Страница релизов](https://github.com/ScratchAddons/ScratchAddons/releases) включает в себя код для Всех выпущенных версий Scratch Addons, а также зеркала магазинных сборок.
 
-### Downloading the Zip
+### Скачивание Zip-архива
 
 {{< admonition warning >}}
-  This method is not recommended for development unless Git cannot be installed on the system since it will need to be manually repeated every time you update Scratch Addons.
+  Этот метод не рекомендуем для разработки, за исключением случаев, в которых Git не может быть скачан на системе, ведь всё надо будет вручную повторять, каждый раз когда Вы обновляете Scratch Addons.
 {{< /admonition >}}
 
-If you do not have Git installed, use this method instead.
+Если у Вас не имеется Git, то используйте этот метод
 
 1. Зайдите в [репозиторию](https://github.com/ScratchAddons/ScratchAddons) и найдите кнопку для скачивания кода.
 
@@ -57,72 +57,72 @@ If you do not have Git installed, use this method instead.
 
 1. Разархивируйте архив в папку.
 
-### Installing on Google Chrome or Microsoft Edge
+### Скачивание на Google Chrome или Microsoft Edge
 
-To load the extension into Google Chrome and most Chromium-based browsers such as Microsoft Edge, Opera, Brave or Vivaldi:
+Для загрузки расширения в Google Chrome и в большинство браузеров, основанных на Chromium, как Microsoft Edge, Opera, Brave или Vivaldi:
 
-1. Go to [chrome://extensions](chrome://extensions)
+1. Перейдите по [chrome://extensions](chrome://extensions)
 
-1. Turn on "Developer mode" in the top-right corner
+1. Включите "Режим разработчика" в верхнем правом углу.
 
-1. Click "Load unpacked" and select the `ScratchAddons` folder.
+1. Щёлкните "Загрузить распакованное" и выберите папку `ScratchAddons`.
 
-To update the extension when testing, click the refresh icon on the extension's card.
+Для обновления расширения при тестировании, щёлкните иконку перезагрузки на карточке расширения.
 
 {{< admonition info >}}
-  The "Unrecognized manifest key" warnings may safely be ignored, since they are required by Firefox.
+  Предупреждения "Нераспознанный ключ манифеста" можно безопасно игнорировать, ведь они требуются Firefox.
 {{< /admonition >}}
 
 
 ### Установка на Mozilla Firefox
 
-To load the extension into Mozilla Firefox:
+Для загрузки расширения в Mozilla Firefox:
 
 {{< admonition info >}}
-  Extensions loaded into Firefox this way are temporary and must be reloaded every time the browser is restarted. Because of this Chrome is recommended for development, but everything is still expected to work on Firefox.
+  Расширения, загруженные в Firefox этим способом недолговременны и должны быть перезагружены каждый раз браузер перезапущен. Из-за этого Chrome более рекомендован для разработки, но ожидается, что всё будет работать корректно на Firefox.
 {{< /admonition >}}
 
-1. Type `about:debugging` into the address bar.
+1. Напечатайте `about:debugging` в адресную строку.
 
-1. Click "This Firefox" on the sidebar
+1. Нажмите на "Этот Firefox" на боковой панели
 
-1. Click "Load Temporary Add-on..."
+1. Щёлкните "Загрузить временное дополнение..."
 
-1. Select the `manifest.json` file in the `ScratchAddons` folder.
+1. Выберите файл `manifest.json` в папке `ScratchAddons`.
 
-To reload the extension when testing, click the "Reload" button on the extension's card.
+Для обновления расширения при тестировках, щёлкните кнопку "Перезагрузить" на карте расширения.
 
 {{< admonition info >}}
-  The unexpected WebExtension manifest property warnings may safely be ignored, since they are required by Chrome.
+  Неожиданные предупреждения свойств манифеста WebExtension можно со спокойствием игнорировать, ведь они требуются Chrome.
 {{< /admonition >}}
 
 
-### Installing on Firefox for Android
+### Установка на Firefox для Android
 
 {{< admonition info >}}
-  This is only recommended if there is a mobile specific issue that cannot be easily replicated with the browser's developer tools since extensions loaded this way are temporary and must be reinstalled over USB every time the app is restarted.
+  Это рекомендовано только если есть проблема, специфичная именно для мобильных устройств, которую трудно воспроизвести с помощью инструментов разработчика браузера, ведь расширения, загруженные этим методом временны, и должны быть переустановлены через USB каждую перезагрузку приложения.
 {{< /admonition >}}
 
-#### One time setup
+#### Одноразовая установка
 
-##### Desktop
+##### Рабочий сто
 
-1. Download and extract the Android SDK Platform Tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [MacOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
-1. Add the folder to the PATH environment variable.
-1. Install web-ext with NPM by running `npm install --global web-ext`.
+1. Скачайте и распакуйте Платформенные Инструменты Android SDK ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [MacOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)).
+1. Добавьте папку в переменную PATH среды
+1. Установите web-ext с помощью NPM воспроизведением `npm install --global web-ext`.
 
 ##### Android
 
-1. In the Android settings app, open the about page and tap the build number 7 times.
-1. Navigate to the "Developer options" page and enable "USB debugging".
-1. Install the standard Firefox app from the [Google Play store](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
-1. Open the Firefox app and enable "Remote debugging via USB" in its settings.
+1. В приложении настроек Android, откройте страницу О телефоне и нажмите число сборки 7 раз.
+1. Перейдите на страницу "Опции разработчика" и включите "Отладка USB".
+1. Установите стандартное приложение Firefox из [магазина Google Play](https://play.google.com/store/apps/details?id=org.mozilla.firefox).
+1. Откройте приложение Firefox и активируйте "Отдалённая отладка при помощи USB" в настройках.
 
-#### Loading the extension
+#### Загрузка расширения
 
-1. Plug in the Android device and tap allow on it.
-2. Navigate to the `ScratchAddons` folder.
-3. Run `adb devices` to get the device's serial number and ensure ADB is working.
+1. Подключите устройство Android и нажмите разрешить.
+2. Переместитесь в папку `ScratchAddons`.
+3. Воспроизведите команду `adb devices` для нахождения серийного номера устройства и уверьтесь в том, что ADB работает.
 4. Run the following command replacing `[serial number]` with the one from `adb devices`:
 ```
 web-ext run -t firefox-android --adb-device [serial number] --firefox-apk org.mozilla.firefox

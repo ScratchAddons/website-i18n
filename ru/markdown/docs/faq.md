@@ -154,69 +154,69 @@ Scratch Addons нельзя использовать в официальном �
 
 - **Отправить отзыв**
 
-  You can send feedback [on this page](/feedback). Your feedback may give us a different perspective in the extension development and help us know things needed attention and fix bugs.
+  Вы можете отправлять обратную связь [на той странице](/feedback). Ваша обратная связь может дать нам другую точку зрения в разработке расширения, помочь нам знать, что требует внимания, и исправлять проблемы.
 
 - **Написать отзыв на магазинах расширений**
 
-  You can leave a review about Scratch Addons on [the Chrome extension page](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [the Firefox addon page](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) or [the Microsoft Edge addon page](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). This is a great way to help convince others to install the extension!
+  Вы можете оставить отзыв о Scratch Addons на [странице расширения Chrome](https://chrome.google.com/webstore/detail/fbeffbjdlemaoicjdapfpikkikjoneco), [странице дополнения Firefox](https://addons.mozilla.org/firefox/addon/scratch-messaging-extension/) или же на [странице дополнения Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/scratch-addons/iliepgjnemckemgnledoipfiilhajdjj). Это прекрасный способ помочь другим решить установить расширение!
 
 - **Поставить звезду на нашей репозитории**
 
-  Basically, the GitHub star is similar to the Scratch star/favorite. You can do this by going to [our repository](https://github.com/ScratchAddons/ScratchAddons) and clicking the "Star" button on the top-right corner.
+  В простых словах, звезда GitHub похожа на звезду/избранность в Scratch. Вы можете это сделать, переходя на [наш репозиторий](https://github.com/ScratchAddons/ScratchAddons) и щёлкая кнопку "Star" в правом верхнем углу.
 
 - **Рассказать о Scratch Addons**
 
-  You can tell anyone about Scratch Addons, including your friends, relatives, and teachers. We're just asking you [not to do this on the Scratch website](#can-i-tell-people-about-scratch-addons-on-scratch).
+  Вы можете рассказать кому угодно о Scratch Addons, Вашим друзьям, знакомым, учителям. Мы только убедительно просим Вас [не делать этого на веб-сайте Scratch](#can-i-tell-people-about-scratch-addons-on-scratch).
 
 ### Как я могу сделать свой аддон?
 
-Read more about it [here](/docs/develop/getting-started).
+Почитайте больше об этом [здесь](/docs/develop/getting-started).
 
 ### Что я могу сделать, если я найду проблему?
 
 Вы можете сказать нам, используя одних из этих способов.
 
-- Send it through [our feedback form](/feedback).
+- Отправьте через [нашу форму обратной связи](/feedback).
 - Создать проблему (issue) в [репозитории](https://github.com/ScratchAddons/ScratchAddons/issues).
 - Создать пост в [нашей вкладке дискуссирования](https://github.com/ScratchAddons/ScratchAddons/discussions).
-- Tell us on [our support Discord server](https://discord.gg/R5NBqwMjNc).
+- Расскажите нам [на нашем Discord сервере поддержки](https://discord.gg/R5NBqwMjNc).
 
 ### Мне кажется, Вы пропустили особенность. Что я могу сделать?
 
-If you want to suggest an addon for the extension or have some other kind of good idea, tell us with [one of these methods](#what-can-i-do-if-i-find-a-problem).
+Если Вы желаете предложить дополнение для расширения, или если у Вас есть какая-нибудь другая хорошая идея, расскажите нам [одним из этих методов](#what-can-i-do-if-i-find-a-problem).
 
-### Where can I discuss Scratch Addons?
+### Где могу я обсуждать Scratch Addons?
 
-You can do it on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or [our support Discord server](https://discord.gg/R5NBqwMjNc). There, you can ask questions and engage with the Scratch Addons community.
+Вам позволяется обсуждать на нашей [вкладке Дискуссий](https://github.com/ScratchAddons/ScratchAddons/discussions) или [на нашем Discord сервере поддержки](https://discord.gg/R5NBqwMjNc). Там, Вы можете спрашивать любые вопросы и взаимодействовать с сообществом Scratch Addons.
 
-## Technical
+## Техническое
 
 ### Что такое «аддон»?
 
 Аддон похож на расширение или юзерскрипт, но они используют специальные API, которые даны расширением Scratch Addons. Эти API разрешают аддонам запускать скрипты на странице Scratch (юзерскрипты), запускать скрипты на фоне (постоянные скрипты) или добавлять стили к веб сайту Scratch (юзерстили).
 
-Userscripts can use the `addon.*` JavaScript APIs, which allow them to obtain Scratch-related information (for example, the currently logged in user) and use extension APIs (like sending notifications).
+Пользовательские скрипты могут использовать JavaScript интерфейсы API `addon.*`, которые позволяют им приобретать информацию, связанную со Scratch (к примеру, текущий пользователь) и использовать API расширения (например, отправление уведомлений).
 
 ### Если всё — это аддон, то что делает Scratch Addons?
 
-By itself, Scratch Addons is just an addon loader. Its main tasks are to:
+Само по себе, Scratch Addons — это просто загрузчик дополнений. Главные его задачи — это:
 
 - Позволять пользователям включать, выключать и настраивать аддоны.
 - Запускать аддоны и давать им различные API.
-- Provide useful data to addons (for example, the addon.auth API).
+- Предоставлять полезные данные дополнениям (как API addon.auth).
 - Создавать прототипы для испольщования с помощью юзерскриптов для аддонов.
 - Предоставлять способы, чтобы получить доступ к состоянию Redux и доступ к модифицированию состояния.
 - Избегайте тех случаев, когда аддоны мешают друг другу.
 - Избегайте скопированную работу из других аддонов.
 
-## Other 
+## Другое
 
-### How can I add/remove myself to/from the contributors page?
+### Как могу я присоединиться к/отсоединиться от страницы жертвующих?
 
-If you want your name to be on the page, please read and follow the instructions of [this issue](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
+Если бы Вы хотели Ваше имя на данной странице, то, пожалуйста, прочитайте и проследуйте инструкциям [этой проблемы](https://github.com/ScratchAddons/contributors/issues/{{< specifics/contributors-issue >}}).
 
-If you don’t want your name to be on the page, please tell us by creating an issue on our contributors repository, or by other means of contact. We’re sorry for the inconvenience.
+Если Вы не хотите Ваше имя на странице, то дайте нам знать, созданием проблемы на нашем репозитории жертвующих, или каким-либо другим способом контакта. Простите за беспокойство.
 
 ### У меня есть ещё вопросы!
 
-If you have more questions that need answers, you can create a post on [our Discussion tab](https://github.com/ScratchAddons/ScratchAddons/discussions) or send a message [on our support Discord server](https://discord.gg/R5NBqwMjNc). We will answer as best we can!
+Если у Вас имеется больше вопросов, нуждающихся в ответах, то Вы можете сделать публикацию на [нашей вкладке Дискуссий](https://github.com/ScratchAddons/ScratchAddons/discussions) или отправить сообщение [на нашем Discord сервере поддержки](https://discord.gg/R5NBqwMjNc). Мы постараемся как можно лучше ответить!
