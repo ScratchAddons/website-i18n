@@ -30,7 +30,7 @@ Controls how wide the popup is. This is a percentage of the width of the entire 
 
 Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
 
-## Future plans
+## Планы о будущем
 
 - The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
 - Adding string interpolation for strings in quotes could really help out situations where a lot of join blocks would normally have to be tediously arranged.

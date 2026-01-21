@@ -1,44 +1,44 @@
 ---
 ---
 
-**Higher project framerate mode** is an addon that allows customization of the project's run speed to be faster.
+**Режим повышенной частоты кадров проекта** — дополнение, которое позволяет настройку скорости воспроизведения проекта в быстрейшую сторону.
 
-Scratch normally iterates loops 30 times per second, resulting in a screen refresh rate of 30 frames per second (FPS). This addon can increase the iteration rate, thereby changing the framerate. This has the effect of making the project animate smoother but also run faster, relative to the custom FPS value; therefore, the default value of 60 FPS will essentially make the project run twice as fast.
+Обычно Scratch итерирует через циклы 30 раз в секунду, то есть с частотой в 30 Кадров в Секунду (FPS). Это дополнение может увеличить частоту итераций, в итоге изменяя частоту кадров. В результате имеем эффект более гладкого проекта, но ещё и более быстрого, по сравнению с выбранным значением FPS; следует, значение по умолчанию 60 FPS элементарно сделает проект дважды быстрым.
 
-Some projects adapt to framerate increases with techniques such as [delta time](https://en.wikipedia.org/wiki/Delta_timing), to run properly while maintaining smooth animations.
+Некоторые проекты могут адаптироваться к изменениям в частоте кадров с помощью техник как [изменение времени](https://en.wikipedia.org/wiki/Delta_timing), для исправного воспроизведения с гладкими анимациями.
 
-The feature can be toggled on/off by holding `alt` and clicking the green flag. The flag will turn blue and a yellow fast-forward icon will appear over it, indicating that the project is running at a faster speed.
+Возможность можно переключать с помощью зажатия клавиши `alt` и нажатия на зелёный флажок. Флажок должен стать синим и над ним должна появиться иконка перемотки, указывающая на повышенную скорость проекта.
 
 ## Особенности
 
-- The addon's functionality is only enabled when the user activates it by holding `alt` and clicking the green flag. The addon's functionality is turned off every time the page is opened/refreshed.
-- The addon works in both the project page and the editor.
-- By default, the addon (when activated) sets the project's framerate to 60 FPS. This value can be changed in the addon's settings to a whole number ranging from 31 to 240.
+- Функциональность дополнения только включена при её активации пользователем через зажатие клавиши `alt` и нажатии зелёного флажка. Эта возможность дополнения выключается при каждом открытии или обновлении страницы.
+- Дополнение теперь работает и на странице проектов, и в редакторе.
+- По умолчанию, дополнение (при активации) устанавливает частоту кадров проекта в 60 FPS. Это значение можно поменять в настройка дополнения на любое целое число от 31-ого до 240-ок.
 
 ## Настройки
 
-### Custom FPS
+### Пользовательская Частота Кадров
 
-Sets the value of the project's framerate when the addon is enabled.
+Устанавливает значение частоты кадров проекта при включённом дополнении.
 
-## Future plans
+## Планы о будущем
 
-- The addon might be marked as dangerous to curb projects that require this addon on the Scratch website. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
-- Because enabling the addon requires holding the `alt` key, it is not compatible with touchscreen devices. A proposed solution is to add a context menu to the green flag for this addon and several others. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
+- Дополнение могут объявить опасным для ограничения проектов, которые требуют это дополнение на веб-сайте Scratch. [#6860](https://github.com/ScratchAddons/ScratchAddons/issues/6860)
+- Так как включение дополнения требует зажимания клавиши `alt`, оно не совместимо с устройствами сенсорных экранов. Есть предложенное решение — добавить контекстное меню зелёному флажку для этого и многих других дополнений. [#7230](https://github.com/ScratchAddons/ScratchAddons/issues/7230)
 
 ## Титры
 
-Jeffalo created the original addon that only set the project player to 60 FPS. TheColaber added the custom FPS setting and various other bug fixes. The accessible green flag indicator was created by JoanRiosiPla before being tweaked by WorldLanguages.
+Jeffalo создал оригинальное дополнение, которое могло только увеличивать скорость проигрывателя проекта до значений 60 FPS. TheColaber добавил настройку FPS и много других исправлений. Удобный индикатор в зелёном флажке был создан JoanRiosiPla до того как он был подправлен WorldLanguages.
 
 ## Список изменений
 
-- **v1.1.0** The **60FPS Player Mode** addon was created.
-- **v1.3.0** The addon is now enabled by default for all users, and was given the Recommended tag.
-- **v1.7.0** Option added to customize the target FPS, which was locked to 60 before.
-- **v1.11.0** The addon was renamed to **Alt+GreenFlag 60FPS player mode**, and a brief information box was added. A limit was set on the custom FPS, which now ranges from 31 to 240.
-- **v1.13.0** `Alt` + green flag click detection was improved. The addon can now be dynamically enabled and disabled.
-- **v1.14.0** The addon was given the Project Player tag.
-- **v1.18.0** The addon was renamed to **60FPS project player mode**. The addon can now run in project embeds.
+- **v1.1.0** Дополнение **60FPS Режим Проигрывателя** было создано.
+- **v1.3.0** Дополнение теперь включено по умолчанию для всех пользователей, и отмечено биркой Рекомендуемо.
+- **v1.7.0** Добавлена настройка изменять конечные FPS, которые до этого были закреплены за 60.
+- **v1.11.0** Дополнение переименовано в **Alt+ЗелёныйФлажок 60FPS режим проигрывателя** и краткая информационная подсказка была добавлена. Был установлен лимит пользовательских FPS, который теперь лежит от 31-го до 240-ка.
+- **v1.13.0** Обнаружение нажатия `Alt` + Зелёного Флажка было улучшено. Дополнение теперь можно динамически включать и выключать.
+- **v1.14.0** Дополнение получило бирку Проигрыватель Проекта.
+- **v1.18.0** Дополнение переименовано в **60FPS режим проигрывателя проектов**. Оно теперь также может использоватеься во внедрениях проектов.
 - **v1.24.0** Bug fix: The addon no longer loses track of state when changing from project page to editor.
 - **v1.26.0** Bug fix: The addon no longer causes variables to not visually update in some cases.
 - **v1.30.0** The addon is no longer enabled by default for all users.
