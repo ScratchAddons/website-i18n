@@ -5,7 +5,7 @@
 
 ## Задний фон
 
-The addon was created under the philosophy that intermediate and advanced Scratchers rarely use assets from the Scratch library. It is common for these users to make a new sprite/costume/backdrop by hovering over the main button then navigating to the Paint option. As this is a timely maneuver, the addon's default settings change the default action of the main button to open the paint editor rather than opening the asset library.
+Дополнение создано под философией, что средние и продвинутые Скрэтчеры редко пользуются предметами из библиотеки Scratch. Часто для таких пользователей создавать новые спрайты/костюмы/задние фоны через нанесение курсора над главной кнопкой и выбора опции Рисовать. Так как это довольно долго, настройки дополнения по умолчанию изменяют стандартное действие главной кнопки на открытие редактора изображений, а не библиотеки.
 
 ## Особенности
 

@@ -1,13 +1,13 @@
 ---
-title: Send feedback to Scratch Addons developers
-description: How to send feedback to Scratch Addons.
+title: Отправить отзыв разработчикам Scratch Addons
+description: Как отправить отзыв Scratch Addons
 ---
 
-Have something to say about Scratch Addons, the browser extension? Let us know through the feedback form located on https://scratchaddons.com/feedback/.
+Есть мнения о Scratch Addons, расширении для браузера? Расскажите нам всё через форму обратной связи, расположенной на https://scratchaddons.com/feedback/.
 
 {{< admonition warning >}}
 
-We can't help with issues related to Scratch moderation. Instead, use the Report button on the Scratch website, or reach Scratch through their official channels.
+Мы не можем помочь с проблемами о модерации Scratch. Вместо этого используйте кнопку Пожаловаться на веб-сайте Scratch или достигните Scratch через их оффициальные каналы.
 
 {{</ admonition >}}
 
@@ -15,11 +15,11 @@ We can't help with issues related to Scratch moderation. Instead, use the Report
 
 Если Вам нужна альтернатива, вот несколько вариантов.
 
-- Create a issue on [the repository](https://github.com/ScratchAddons/ScratchAddons/issues).
-- Create a post on [our Discussions tab](https://github.com/ScratchAddons/ScratchAddons/discussions)
-- Send a message on [our support Discord server](https://discord.gg/R5NBqwMjNc)
+- Создайте проблему на [репозитории](https://github.com/ScratchAddons/ScratchAddons/issues).
+- Создайте публикацию на [нашей вкладке Дискуссий](https://github.com/ScratchAddons/ScratchAddons/discussions)
+- Отправьте сообщение на нашем [Discord сервере поддержки](https://discord.gg/R5NBqwMjNc)
 - Связаться напрямую с одному из разработчиков
 
-It is discouraged to contact one of the contributors through Scratch due to [the policy that forbids advertising extensions/userscripts](https://scratch.mit.edu/discuss/post/2907564/).
+Не рекомендовано связываться с одним из жертвующих через Scratch из-за [правила, которое запрещает рекламу расширений/пользовательских скриптов](https://scratch.mit.edu/discuss/post/2907564/).
 
-By the way, we have [a FAQ page](https://scratchaddons.com/docs/faq/) for your usual questions.
+Кстати, у нас есть [страница Вопросов и Ответов](https://scratchaddons.com/docs/faq/) для Ваших частых вопросов.

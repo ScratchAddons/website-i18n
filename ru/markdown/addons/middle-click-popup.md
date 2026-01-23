@@ -1,7 +1,7 @@
 ---
 ---
 
-**Insert blocks by name** is an addon which allows users to code more quickly by typing the name of blocks and inserting them at their mouse position, rather than having to search for them in the flyout. The popup is opened by middle clicking in the workspace or pressing `ctrl` + `space`. You can then type to search for blocks and using the mouse to grab one out of the popup.
+**Вставлять блоки по имени** — это дополнение, которое позволяет пользователям программировать быстрее, печатая имена блоков и вставляя их на положение курсора, вместо поиска их на списке блоков. Всплывающее окно можно открыть средним щелчком мыши, либо же нажатием `ctrl` + `space`. После этого, Вы можете печатать для поиска блоков и использовать мышь для выноса любого блока из всплывающего окна.
 
 ## Задний фон
 

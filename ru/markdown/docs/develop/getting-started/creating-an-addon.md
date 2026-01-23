@@ -62,13 +62,13 @@ See the [addon.settings](/docs/reference/addon-api/addon.settings) documentation
 
 ## Before contributing
 {{< admonition info >}}
-In case there is no existing GitHub issue in that repository related to your new addon idea, please create one. However, if there is already an issue related to your feature idea, we suggest that you leave a comment on it stating your intention to develop the addon. This will enable other contributors to provide feedback on whether the addon could be accepted, or if further discussion is required.
+В случае отсутствия существующей проблемы GitHub в том репозитории, которая связана с Вашей идеей нового дополнения, то пожалуйста, создадите свою. Ну а если уже есть проблема, касающаяся Вашей идеи возможности, то мы советует Вам оставить комментарий на ней, разглашающий Ваше намерение разработать дополнение. Это позволит другим жертвующим предоставить советы о приёме дополнения, или продолженное обсуждение.
 
 Also note that GitHub's terms of service require users to be 13+ to create an account with them.
 {{< /admonition >}}
 
-If you want to submit your addon to the Scratch Addons GitHub repository, so it can be added to the addon library, ensure the addon works as expected, with and without other addons enabled and that it does not break other addons. The addon's manifest should have a good name and description, `versionAdded` should be set to the next version of the extension and the addon should not be enabled by default. Addons should support dynamic enable and disable, but it is not required.
-Make sure the code is understandable; having unnecessary comments is better than no comments.
+Если вы хотите отправить ваше дополнение на GitHub репозиторий Scratch Addons для возможности его добавления к библиотеке дополнений, убедитесь, что дополнение работет как задумано и что оно не ломает другие дополнения. У манифеста дополнения должно быть хорошее имя и описание, `versionAdded` должно быть установлено на следующюю версию расширения, а также дополнение не должно быть включённым по умолчанию. Дополнения должны поддерживать динамическое включение и выключение, но это не строго обязательно.
+Удостоверьтесь в понятности кода, даже бесполезные комментарии лучше их отсутствия.
 
 ## Sending a pull request
 Follow the steps on our [contributing guidelines](https://github.com/ScratchAddons/ScratchAddons/blob/master/.github/CONTRIBUTING.md). Simply put, fork the repository if you haven't already, commit your new addon and send a pull request.
