@@ -140,9 +140,6 @@ FeedbackPage:
       Punishment:
         Heading: We kunnen mensen niet bestraffen. We zijn niet het Scratch Team.
         Description: Scratch Addons is niet verbonden aan de Scratch-website of de organisaties die deze onderhouden. We hebben geen invloed op de inhoud en moderatie op de Scratch-website. {{ .Tag1Start }}Er zijn veel manieren waarop je iets kan melden op de Scratch-website.{{ .Tag1End }}
-      Folders:
-        Heading: De problemen met de spritemappen worden binnenkort opgelost!
-        Description: We zijn ermee bezig
 SMTPage:
   ScratchMessagingLogoAlt: Logo van Scratch Messaging Extension
 ChangelogPage:

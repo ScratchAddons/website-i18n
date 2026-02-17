@@ -149,9 +149,6 @@ FeedbackPage:
       Punishment:
         Heading: Ne moremo kaznovati ljudi. Nismo Scratcheva ekipa.
         Description: Scratch Addons ni povezan s Scratchevo spletno stranjo ali z organizacijami, ki zanjo skrbijo. Nimamo vpliva na vsebino in moderacijo na Scratchevi spletni strani. {{ .Tag1Start }}Vsebino na Scratchu lahko prijavite na več načinov.{{ .Tag1End }}
-      Folders:
-        Heading: Dodatek Mape figur bomo kmalu popravili!
-        Description: Delamo na tem
 SMTPage:
   ScratchMessagingLogoAlt: Logotip razširitve Scratch Messaging Extension
 ChangelogPage:

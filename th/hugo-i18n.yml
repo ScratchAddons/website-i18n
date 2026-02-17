@@ -152,9 +152,6 @@ FeedbackPage:
       Punishment:
         Heading: เราไม่สามารถลงโทษใครได้ เราไม่ใช่ทีมงาน Scratch
         Description: ส่วนขยายสำหรับ Scratch ไม่มีส่วนเกี่ยวข้องอย่างเป็นทางการกับเว็บไซต์ Scratch หรือองกรณ์ที่ดูแล Scratch เราไม่สามารถควบคุมเนื้อหาและการกลั่นกรองบนเว็บไซต์ Scratch {{ .Tag1Start }}ยังมีอีกหลายวิธีที่จะรายงานบนเว็บไซต์ Scratch{{ .Tag1End }}
-      Folders:
-        Heading: คุณสมบัติโฟลเดอร์ตัวละครจะถูกซ่อมในไม่ช้า
-        Description: เรากำลังทำงานเรื่องนี้อยู่
 SMTPage:
   ScratchMessagingLogoAlt: โลโก้ส่วนขยายส่งข้อความสำหรับ Scratch
 ChangelogPage:

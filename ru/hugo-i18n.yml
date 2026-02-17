@@ -151,9 +151,6 @@ FeedbackPage:
       Punishment:
         Heading: Мы не можем наказывать людей. Мы не являемся Scratch Team.
         Description: Scratch Addons не связаны с вебсайтом Scratch или организациями которые поддерживают его. Мы не контролируем контент и модерацию на веб - сайте Scratch. {{ .Tag1Start }}Есть много способов пожаловаться на оффициальном веб - сайте Scratch.{{ .Tag1End }}
-      Folders:
-        Heading: Функия "Папки спрайтов" скоро будет исправлена!
-        Description: Мы над ней работаем.
 SMTPage:
   ScratchMessagingLogoAlt: Логотип расширения Scratch Messaging
 ChangelogPage:
