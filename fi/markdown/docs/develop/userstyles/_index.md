@@ -79,7 +79,7 @@ Nämä CSS-muuttujat ovat aina kaikkien lisäosien saatavilla, eikä manifest-ar
 
   /* Väriasetus, jolla on varmistusarvo */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Jos editorin tumma tila -lisäosa ei ole käytössä, koodi käyttää muuttujan varmistusarvoa. */
 
   /* Lukuasetus */
   height: calc(1px * var(--progressBar-height));
@@ -92,28 +92,28 @@ Nämä CSS-muuttujat ovat aina kaikkien lisäosien saatavilla, eikä manifest-ar
 Jos käyttäjätyylin täytyy valita kahden arvon väliltä taustavärin (tekstin kontrasti) tai lisäosan asetuksen perusteella, JavaScriptiä ei tarvita. Nämä ehdot, kuten monet muutkin, voidaan määritellä lisäosan manifest-tiedostossa [customCssVariables](/docs/reference/addon-manifest/#customcssvariables)-arvolla, jolloin käyttäjätyyli voi vain viitata määriteltyyn CSS-muuttujaan.
 
 
-## Applying styles based on the editor mode
+## Tyylien määrittäminen tiettyyn editorin tilaan
 
-The extension automatically toggles a class name on the `<html>` element when the user enters or exits the project editor.
+Laajennus vaihtaa `<html>`-elementin luokan nimeä automaattisesti, kun käyttäjä siirtyy projektieditoriin tai poistuu siitä.
 
 Esimerkki, jossa `<input>`-elementeille on asettu eri tyylisäännöt editorin sisä- ja ulkopuolelle:
 ```css
 .sa-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Nämä tyylisäännöt ovat voimassa vain, jos `addon.tab.editorMode` on arvoltaan `editor` tai `fullscreen`. */
 }
 
 :root:not(.sa-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Nämä tyylisäännöt ovat voimassa vain, jos `addon.tab.editorMode` EI ole arvoltaan `editor` eikä `fullscreen`. */
 }
 ```
 
-Similarly, the `.sa-fullscreen` class is added to the `<html>` element when the project is in full screen mode:
+Laajennus lisää `.sa-fullscreen`-luokan `<html>`-elementtiin vastaavasti, kun projekti on koko näytön tilassa:
 ```css
 .sa-fullscreen [class*="green-flag_green-flag_"] {
-  /* Only applies if `addon.tab.editorMode` is `fullscreen` */
+  /* Nämä tyylisäännöt ovat voimassa vain, jos `addon.tab.editorMode` on arvoltaan `fullscreen`. */
 }
 
 :root:not(.sa-fullscreen) [class*="green-flag_green-flag_"] {
-  /* Only applies if `addon.tab.editorMode` is NOT `fullscreen` */
+  /* Nämä tyylisäännöt ovat voimassa vain, jos `addon.tab.editorMode` EI ole arvoltaan `fullscreen`. */
 }
 ```
