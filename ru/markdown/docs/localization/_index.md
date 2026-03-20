@@ -9,9 +9,9 @@ title: Локализация
 - [Перевод Scratch Addons](translating-scratch-addons) _Needs writing_
 
 ## Для разработчиков
-- [Localizing Addons](localizing-addons)
-- [Localizing Background](localizing-background) _Needs writing_
-- [Technical specs of addons-l10n translation](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
+- [Локализация Дополнений](localizing-addons)
+- [Фон в Локализации](localizing-background) _Требуется письмо_
+- [Технические спецификации перевода addons-l10n](https://github.com/ScratchAddons/ScratchAddons/blob/master/addons-l10n/README.md)
 
-## For Transifex admins
-- [Pushing and Pulling Messages](pushing-and-pulling-messages) _Needs writing_
+## Для администраторов Transifex
+- [Отправление и Скачивание Сообщений](pushing-and-pulling-messages) _Требуется письмо_
