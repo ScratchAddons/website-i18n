@@ -13,7 +13,7 @@ Even though Scratch Addons userscripts are part of a browser extension, they can
 ## Declaring userscripts in the addon manifest
 
 {{< admonition warning >}}
-**Some changes require an extension reload** from `chrome://extensions` to take effect, such as updating the addon manifest file.
+**Некоторые изменения требуют перезагрузки расширения** со страницы `chrome://extensions` для применения, включая обновление файла манифеста дополнения.
 
 It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
 {{< /admonition >}}
