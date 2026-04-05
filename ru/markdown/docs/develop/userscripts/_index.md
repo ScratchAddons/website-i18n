@@ -20,11 +20,11 @@ It's not necessary to reload the extension when changing the source of an alread
 
 Userscripts are declared inside a "userscripts" array.
 
-Each item of the array must have the following properties:
+Каждый предмет массива должен иметь следующие свойства:
 - `"url"`: the relative URL to a JavaScript file.
 - `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
 
-Example manifest:
+Примерный манифест:
 ```json
 {
   "name": "Copy link to comment button",

@@ -11,17 +11,17 @@ description: Пользовательские стили — это правил
 {{< admonition warning >}}
 **Некоторые изменения требуют перезагрузки расширения** со страницы `chrome://extensions` для применения, включая обновление файла манифеста дополнения.
 
-It's not necessary to reload the extension when changing the source of an already existing userstyle CSS file. In those cases, reloading the page is enough.
+Не обязательно перезагружать расширение при изменении исходного кода уже существующего файла CSS пользовательского стиля. В тех случаях достаточно перезагрузки страницы.
 {{< /admonition >}}
 
-Userstyles are declared inside a "userstyles" array, similarly to userscripts.
+Пользовательские стили объявлены в массиве "userstyles", схоже пользовательским сценариям.
 
-Each item of the array must have the following properties:
-- `"url"`: the relative URL to a CSS file.
-- `"matches"`: the list of Scratch pages where the userstyle will be applied. See [matches](/docs/reference/addon-manifest/#matches) for more information.
-- `if`: a list of conditions that may toggle whether the userstyle is currently applied or not. See [userstyle.if](https://scratchaddons.com/docs/reference/addon-manifest/#if) for more information.
+Каждый предмет массива должен иметь следующие свойства:
+- `"url"`: относительная гиперссылка к файлу CSS.
+- `"matches"`: список страниц Scratch, где пользовательские стили будут применены. Смотрите [совпадения](/docs/reference/addon-manifest/#matches) для исчерпывающей информации.
+- `if`: список условий, которые могут переключать активность пользовательского стиля. Читайте [пользовательский стиль.если](https://scratchaddons.com/docs/reference/addon-manifest/#if) для большего объяснения.
 
-Example manifest:
+Примерный манифест:
 ```json
 {
   "name": "Scratch Messaging",
@@ -55,11 +55,11 @@ Example manifest:
 ```
 
 
-## Dynamically toggling userstyles after page load
+## Динамическое переключение пользовательских стилей после полной загрузки страницы
 
-It is usually unnecessary to use a JavaScript userscript to dynamically toggle whether a userstyle is active on the page in response to the user changing settings.
+Обычно не нужно использовать пользовательский сценарий JavaScript для динамического переключения активности пользовательского стиля в ответ изменения человеком настроек.
 
-- Including `dynamicEnable: true` in the addon manifest will allow the extension to dynamically inject userstyles if the addon has been enabled (for the first time) after loading the page.
+- Включение `dynamicEnable: true` в манифесте дополнения разрешит расширению динамически внедрять пользовательские стили если дополнение было включено (в первый раз) после загрузки страницы.
 - Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
 - Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
 
