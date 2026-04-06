@@ -52,7 +52,7 @@
 		"id": "animated-thumb",
 		"name": "Nalaganje sličic",
 		"description": "Zraven gumba \"Nastavi sličico\" na strani projekta doda spustni meni, s katerim lahko nastavite sličico projekta na poljubno sliko (tudi gif).",
-		"tags": ["community", "projectPage", "recommended"],
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "Spremeni izpostavljen projekt na profilu katerega koli uporabnika v naslovno sliko.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -868,7 +870,14 @@
 		"name": "Onemogoči samodejno shranjevanje",
 		"description": "Onemogoči samodejno shranjevanje projektov med urejanjem.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1440,6 +1449,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.28.0"
+	},
+	{
+		"id": "fix-costume-drag",
+		"name": "Izboljšano vlečenje videzov in zvokov",
+		"description": "Med vlečenjem videza ali zvoka samodejno drsi po seznamu in popravi Scratchevo napako, zaradi katere predmet po drsenju ni postavljen na pravo mesto.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -2456,7 +2482,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2588,16 +2617,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
-	},
-	{
-		"id": "remix-tree-button",
-		"name": "Gumb za drevo predelav",
-		"description": "Vrne gumb za drevo predelav na strani projektov, poleg gumba Kopiraj povezavo.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
@@ -2974,8 +2993,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Načini za urejevalnik",
+		"description": "Doda način 90. let ter starodobni in prazgodovinski način, ki so bili na voljo v Scratchevem urejevalniku za prvi april leta 2022, in skrivnostni način iz leta 2020.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "Prazgodovinski in skrivnostni način lahko vplivata na hitrost delovanja urejevalnika."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",

@@ -52,7 +52,7 @@
 		"id": "animated-thumb",
 		"name": "Caricatore di anteprima",
 		"description": "Aggiunge un menu al pulsante \"Personalizza Anteprima\" nella pagina dei progetti per impostare l'anteprima del tuo progetto usando un'immagine qualunque (incluse le immagini GIF).",
-		"tags": ["community", "projectPage", "recommended"],
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "Inserisce il progetto in evidenza in un banner visualizzato in tutte le pagine del profilo dell'utente.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -805,7 +807,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Aggiunge una nuova finestra \"debugger\" all'editor. Ti permette di registrare eventi nella scheda \"Log\" della finestra del debugger usando i blocchi \"log\", \"avviso\" e \"errore\". Il blocco \"breakpoint\" mette in pausa l'esecuzione del progetto. Tutti gli script in esecuzione sono visibili nella scheda \"Thread\" della finestra del debugger, e quando il progetto è in pausa è possibile usare il pulsante \"Passo\" per eseguire il blocco successivo. A grafo dei frame al secondo e del numero dei cloni è visibile nella scheda \"Performance\". Ti permette di cronometrare sezioni dei tuoi script incluse tra i blocchi \"avvia cronometro\" e \"ferma cronometro\". I risultati del cronometraggio e altro ancora è disponibile nella scheda \"Cronometraggio\".",
+		"description": "Aggiunge una nuova finestra \"debugger\" all'editor. Ti permette di registrare eventi nella scheda \"Log\" della finestra del debugger usando i blocchi \"annotazione\", \"avviso\" e \"errore\". Il blocco \"pausa\" mette in pausa l'esecuzione del progetto. Tutti gli script in esecuzione sono visibili nella scheda \"Thread\" della finestra del debugger, e quando il progetto è in pausa è possibile usare il pulsante \"Passo\" per eseguire il blocco successivo. A grafo dei frame al secondo e del numero dei cloni è visibile nella scheda \"Performance\". Ti permette di cronometrare sezioni dei tuoi script incluse tra i blocchi \"avvia cronometro\" e \"ferma cronometro\". I risultati del cronometraggio e altro ancora è disponibile nella scheda \"Cronometraggio\".",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -865,7 +867,14 @@
 		"name": "Disabilita salvataggio automatico",
 		"description": "Disabilita il salvataggio automatico dei progetti quando vengono modificati.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1437,6 +1446,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.28.0"
+	},
+	{
+		"id": "fix-costume-drag",
+		"name": "Trascinamento dei costumi e dei suoni migliorato",
+		"description": "Quando si trascina un costume o un suono, scorre automaticamente la lista e corregge inoltre un bug di Scratch che impedisce all'elemento trascinato di essere posizionato nella posizione corretta alla fine dello scorrimento",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -2453,7 +2479,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2585,16 +2614,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
-	},
-	{
-		"id": "remix-tree-button",
-		"name": "Pulsante albero remix",
-		"description": "Ripristina il pulsante Albero dei Remix nelle pagine dei progetti. vicino al pulsante Copia Link.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
@@ -2971,8 +2990,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Modalità dell'Editor",
+		"description": "Aggiunge le modalità '90, Vecchi tempi e Preistorica dell'1 Aprile 2022 è la Modalità Mistero del 2020.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "Le modalità Preistorica e Mistero possono avere impatto sulle performance quando si apre l'editor."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",

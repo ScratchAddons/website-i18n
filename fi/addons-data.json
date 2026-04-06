@@ -52,7 +52,7 @@
 		"id": "animated-thumb",
 		"name": "Omien pikkukuvien lataaminen",
 		"description": "Lisää projektisivun \"Aseta pikkukuva\" -painikkeen viereen pudotusvalikon, jonka avulla voit asettaa projektisi pikkukuvaksi minkä tahansa kuvan (myös GIF-animaation).",
-		"tags": ["community", "projectPage", "recommended"],
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "Muuttaa minkä tahansa käyttäjän profiilissa esitellyn projektin hienon näköiseksi banneriksi.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -862,10 +864,17 @@
 	},
 	{
 		"id": "disable-auto-save",
-		"name": "Ota automaattinen tallennus pois käytöstä",
+		"name": "Poista automaattinen tallennus käytöstä",
 		"description": "Ottaa projektin automaattisen tallenuksen pois käytöstä muokkaamisen ajaksi.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1437,6 +1446,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.28.0"
+	},
+	{
+		"id": "fix-costume-drag",
+		"name": "Paranneltu asusteiden ja äänten raahaaminen",
+		"description": "Vierittää luetteloa automaattisesti, kun asustetta tai ääntä raahataan. Korjaa Scratchin vian, jossa raahattu kohde ei mene oikeaan paikkaan vierittämisen jälkeen.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -2453,7 +2479,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2585,16 +2614,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
-	},
-	{
-		"id": "remix-tree-button",
-		"name": "Remiksauspuu-painike",
-		"description": "Palauttaa Remiksauspuu-painikkeen Kopioi linkki -painikkeen viereen projektisivuille.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
@@ -2971,8 +2990,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Editorin tilat",
+		"description": "Lisää 1990-luvun, antiikkisen ja esihistoriallisen tilan vuoden 2022 aprillipiloista ja mysteeritilan vuodelta 2020.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "Esihistoriallinen tila ja mysteeritila saattavat vaikuttaa suorituskykyyn editorin ollessa auki."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",

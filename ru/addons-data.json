@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "60fps",
-		"name": "Режим плеера проектов 60FPS",
-		"description": "Alt+Клик по зелёному флагу, для включения 60FPS.",
+		"name": "Режим повышенной частоты кадров проекта",
+		"description": "Позволяет Вам проигрывать проекты на преимущественной частоте кадров (FPS или Кадры в Секунду) для улучшения плавности изображения. Зажмите Alt и щёлкните по зелёному флажку для переключения между 30-ю Кадрами в Секунду, предоставленными Scratch и пользовательской частотой кадров, установленной ниже.",
 		"tags": ["player", "featured"],
 		"credits": [
 			{ "name": "Jeffalo", "link": "https://scratch.mit.edu/users/Jeffalo/" },
@@ -24,12 +24,12 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Changing the framerate of Scratch projects also affects the rate at which certain code (such as loops) runs, so most projects won't behave properly when run at a different framerate. Higher framerates are only meant to be used on projects that are designed to support them.",
+				"text": "Изменение частоты кадров проектов Scratch также меняют частоту выполнения кода (например, циклов), поэтому большинство проектов не будут работать корректно при воспроизведении на иной частоте. Более высокие частоты рекомендуются только для использования на проектах, которые для них предназначены.",
 				"id": "projectRunsFasterNotice"
 			},
 			{
 				"type": "notice",
-				"text": "If your browser is in energy saver mode (e.g. if your battery is low), it may limit the visible framerate and using this addon may not appear to make animations smoother.",
+				"text": "Если ваш браузер в режиме энергосбережения (когда заряд вашей батареи истощён), то он может ограничить видимую частоту кадров и при использовании это дополнение может не повлиять на плавность анимаций.",
 				"id": "powerSaver"
 			}
 		],
@@ -50,9 +50,9 @@
 	},
 	{
 		"id": "animated-thumb",
-		"name": "Thumbnail uploader",
-		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
-		"tags": ["community", "projectPage", "recommended"],
+		"name": "Загрузка пользовательских миниатюр проектов",
+		"description": "Добавляет выпадающий список рядом с кнопкой \"Установить Миниатюру\" на странице проекта для замены миниатюры Вашего проекта на любое изображение (даже на изображение GIF).",
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "Превращает рекомендованный проект на странице профиля любого пользователя в красивый баннер.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -181,7 +183,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Bitmap image copying",
+		"name": "Копирование растровых изображений",
 		"description": "Позволяет копировать растровое изображение из редактора костюмов в системный буфер обмена, чтобы его можно было вставить на другие веб-сайты или в программное обеспечение.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -310,7 +312,7 @@
 	{
 		"id": "cat-blocks",
 		"name": "Котоблоки",
-		"description": "Brings back editor cat hat blocks that were first introduced for April Fools' Day 2020.",
+		"description": "Возвращает шапочные блоки-коты которые впервые представили на День Дурака 2020-ого.",
 		"tags": ["editor", "codeEditor", "theme", "featured"],
 		"credits": [
 			{
@@ -462,7 +464,7 @@
 			},
 			{
 				"type": "info",
-				"text": "On profile pages, line breaks at the beginning or end of a comment do not appear.",
+				"text": "На страницах профилей, разрывы строки на начале или конце комментария не иллюстрируются.",
 				"id": "scratchr2Linebreaks"
 			}
 		],
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -868,7 +870,14 @@
 		"name": "Отключить автосохранение",
 		"description": "Отключает автоматическое сохранение проектов при редактировании.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1125,7 +1134,7 @@
 	{
 		"id": "editor-devtools",
 		"name": "Инструменты разработчика",
-		"description": "Adds options to copy/cut/paste blocks, swap variables, and make space to the right click context menu.",
+		"description": "Добавляет настройки для вырезания, копирования и вставления блоков, переставления переменных, а также для добавления места к контекстному меню правой кнопки мыши.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1206,8 +1215,8 @@
 	},
 	{
 		"id": "editor-searchable-dropdowns",
-		"name": "Block dropdown search",
-		"description": "Allows you to search the options in block dropdowns.",
+		"name": "Поиск в выпадающих списках блоков",
+		"description": "Позволяет Вам искать настройки в выпадающих списках блоков.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -1341,7 +1350,7 @@
 	{
 		"id": "exact-count",
 		"name": "Показывать точный счёт",
-		"description": "Shows exact numbers on profiles and the exact project count in studios.",
+		"description": "Показывает точные числа на профилях и точное количество проектов в студиях.",
 		"tags": ["community", "recommended", "profiles", "studios"],
 		"credits": [
 			{
@@ -1354,7 +1363,7 @@
 		"info": [
 			{
 				"id": "studioClick",
-				"text": "To see the exact number of projects in a studio, enable the \"exact count for studios\" setting below and click the \"100+\" label on the studio's Projects tab."
+				"text": "Чтобы увидеть точное количество проектов в студии, активируйте настройку \"точное количество для студий\" внизу и нажмите на метку \"100+\" на вкладке Проекты студии."
 			}
 		],
 		"dynamicEnable": true,
@@ -1440,6 +1449,23 @@
 		"dynamicDisable": true,
 		"enabledByDefault": true,
 		"versionAdded": "1.28.0"
+	},
+	{
+		"id": "fix-costume-drag",
+		"name": "Улучшенное перетаскивание костюмов и звуков",
+		"description": "Автоматически прокручивает список при перетаскивании костюма или звука, а также исправляет ошибку Scratch, в которой перетаскиваемый предмет сбрасывается не туда, куда наведён курсор после прокручивания.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
 	},
 	{
 		"id": "fix-editor-comments",
@@ -1762,7 +1788,7 @@
 	{
 		"id": "hide-flyout",
 		"name": "Автоскрытие палитры блоков",
-		"description": "Hides the block palette unless you're hovering over it. Click the lock icon to lock it in place temporarily. Or use the \"category click\" mode to show/hide it when you click a block category.",
+		"description": "Прячет палетку блоков если Вы не наведёте курсор на неё. Щёлкните на иконку замка для её временного закрепления. Или используйте режим \"категорического щелчка\" для показа или скрытия при нажатии на категорию блоков.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1930,8 +1956,8 @@
 	},
 	{
 		"id": "last-edit-tooltip",
-		"name": "Additional project dates",
-		"description": "Hover over a project's share date for information on when exactly it was created, shared and last edited.",
+		"name": "Дополнительные даты проекта",
+		"description": "Наведите над датой опубликования проекта для информации о точном создании, опубликовании и последнем изменении.",
 		"tags": ["community", "projectPage"],
 		"credits": [
 			{
@@ -1980,7 +2006,7 @@
 			{
 				"id": "privacy",
 				"type": "notice",
-				"text": "The \"Use Scratch username\" setting will send your Scratch username to TurboWarp.org for use in cloud data. TurboWarp has separate cloud data servers, so the cloud variables will be different than the ones on the Scratch player."
+				"text": "Настройка \"Использовать имя пользователя Scratch\" отправит ваше имя пользователя в TurboWarp.org для использования в облачных данных. У TurboWarp отдельные сервера облачных данных, поэтому облачные переменные будут различаться от переменных на проигрывателе Scratch."
 			}
 		],
 		"versionAdded": "1.3.0",
@@ -2009,7 +2035,7 @@
 	},
 	{
 		"id": "longer-wiwo",
-		"name": "Longer \"What I'm Working On\"",
+		"name": "Более Длинная \"Над Чем Я Работаю\"",
 		"description": "Позволяет ввести еще 55 символов в поле \"Над чем я работаю\" вашего профиля. Все на Scratch увидят дополнительные символы.",
 		"tags": ["community", "profiles"],
 		"credits": [{ "name": "cobalt", "link": "https://github.com/cobaltt7" }],
@@ -2049,7 +2075,7 @@
 	{
 		"id": "mediarecorder",
 		"name": "Запись проекта на видео",
-		"description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
+		"description": "Добавляет кнопку \"запись\" к строке меню редактора, которая позволяет Вам записывать сцену проекта на видео.",
 		"tags": ["editor", "editorMenuBar", "recommended"],
 		"enabledByDefault": false,
 		"versionAdded": "1.6.0",
@@ -2115,7 +2141,7 @@
 	},
 	{
 		"id": "mouse-pos",
-		"name": "Mouse position display",
+		"name": "Отображение положения курсора мыши",
 		"description": "Отображает координаты курсора мыши x/y в редакторе над сценой.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "Jeffalo" }],
@@ -2169,7 +2195,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily hide the message count.",
+				"text": "Вы можете использовать режим Не Беспокоить (правой кнопкой мыши по иконке расширения → Не Беспокоить) для временного скрытия количества сообщений.",
 				"id": "dndtohide"
 			}
 		],
@@ -2404,12 +2430,12 @@
 	{
 		"id": "pause",
 		"name": "Кнопка паузы",
-		"description": "Adds a button to pause the project next to the green flag.",
+		"description": "Добавляет кнопку паузы проекта рядом с зелёным флажком",
 		"tags": ["player", "recommended"],
 		"credits": [{ "name": "Jeffalo" }, { "name": "GarboMuffin" }],
 		"info": [
 			{
-				"text": "The project can also be paused with Alt+X (Option+X on macOS).",
+				"text": "Проект также можно поставить на паузу с помощью горячих клавиш Alt+X (Option+X на macOS).",
 				"id": "keybind"
 			}
 		],
@@ -2456,7 +2482,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2590,16 +2619,6 @@
 		"versionAdded": "1.20.0"
 	},
 	{
-		"id": "remix-tree-button",
-		"name": "Кнопка дерева ремиксов",
-		"description": "Возвращает кнопку дерева ремиксов на страницы проектов рядом с кнопкой Копировать ссылку.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
-	},
-	{
 		"id": "remove-curved-stage-border",
 		"name": "Убирает фигурную обводку сцены",
 		"description": "Убирает фигурную обводку вокруг сцены, позволяя увидеть углы.",
@@ -2704,7 +2723,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "You can use Do Not Disturb (right click extension icon → Do not disturb) to temporarily disable notifications.",
+				"text": "Вы можете использовать режим Не Беспокоить (правой кнопкой мыши по иконке расширения → Не Беспокоить) для временного отключения оповещений.",
 				"id": "dndtosilence"
 			}
 		],
@@ -2801,7 +2820,7 @@
 	},
 	{
 		"id": "search-profile",
-		"name": "Username search",
+		"name": "Поиск по имени пользователя",
 		"description": "Позволяет перейти к профилю пользователя при поиске его имени пользователя.",
 		"tags": ["community", "recommended", "profiles"],
 		"credits": [
@@ -2974,8 +2993,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Режимы редактора",
+		"description": "Добавляет режимы старомодный, доисторический и 90-ых из Дня Дурака 2022-ого и Загадочный Режим из 2020-ого.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "Доисторический и Загадочный режим могут повлиять на производительность при открытом редакторе."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",

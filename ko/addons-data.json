@@ -52,7 +52,7 @@
 		"id": "animated-thumb",
 		"name": "Thumbnail uploader",
 		"description": "Adds a dropdown next to the \"Set Thumbnail\" button on the project page to set the thumbnail of your project to any image (including gifs).",
-		"tags": ["community", "projectPage", "recommended"],
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "사용자의 프로필 페이지에 있는 추천 프로젝트를 보기 좋은 배너로 만듭니다.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -181,7 +183,7 @@
 	},
 	{
 		"id": "bitmap-copy",
-		"name": "Bitmap image copying",
+		"name": "비트맵 사진 복사",
 		"description": "다른 웹사이트나 소프트웨어에 붙여넣을 수 있도록 모양 편집기에서 비트맵 이미지를 시스템 클립보드에 복사합니다.",
 		"tags": ["editor", "costumeEditor"],
 		"info": [
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -865,7 +867,14 @@
 		"name": "자동 저장 끄기",
 		"description": "편집하는 중에 프로젝트의 자동 저장을 사용하지 않습니다.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1439,6 +1448,23 @@
 		"versionAdded": "1.28.0"
 	},
 	{
+		"id": "fix-costume-drag",
+		"name": "Improved dragging of costumes and sounds",
+		"description": "When dragging a costume or sound, automatically scrolls the list and fixes a Scratch bug where the dragged item isn't placed at the right position after scrolling.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
+	},
+	{
 		"id": "fix-editor-comments",
 		"name": "더 나은 편집기 주석",
 		"description": "스크래치 편집기에서 주석 관련 기능을 변경합니다. 블록에 달린 주석이 드래그한 후 위치가 올바르게 저장되지 않는 버그를 수정하고, 블록의 주석이 큰 스크립트에서 화면 밖으로 생성되지 않도록 방지하고, 블록 주석 연결을 그대로 유지하는 등의 작업을 수행합니다.",
@@ -1628,8 +1654,8 @@
 	},
 	{
 		"id": "fps",
-		"name": "FPS counter",
-		"description": "Adds an FPS counter above the stage.",
+		"name": "FPS 카운터",
+		"description": "스테이지에 FPS 카운터를 추가합니다.",
 		"tags": ["editor", "player", "featured"],
 		"credits": [{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" }],
 		"dynamicEnable": true,
@@ -1821,7 +1847,7 @@
 	},
 	{
 		"id": "hide-signatures",
-		"name": "Hide forum signatures",
+		"name": "포럼 서명 숨기기",
 		"description": "토론방에서 서명을 숨기고 \"서명 보이기\" 버튼을 추가합니다.",
 		"tags": ["community", "forums"],
 		"credits": [
@@ -2254,8 +2280,8 @@
 	},
 	{
 		"id": "no-sprite-confirm",
-		"name": "Delete sprites without confirmation",
-		"description": "Removes the confirmation prompt that asks if you are sure you want to delete a sprite.",
+		"name": "재확인 문구 없이 스프라이트 제거하기",
+		"description": "스프라이트를 지울 때 재확인 문구를 없앱니다.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
@@ -2453,7 +2479,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2523,7 +2552,7 @@
 	},
 	{
 		"id": "recolor-custom-blocks",
-		"name": "Recolor custom blocks",
+		"name": "커스터 블록 색깔 재지정",
 		"description": "Adds an option to choose a custom color when creating a block. This feature works by adding the color code or category name at the beginning of the block's label.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
@@ -2576,7 +2605,7 @@
 	},
 	{
 		"id": "remix-button",
-		"name": "Remix own projects",
+		"name": "자신의 프로젝트에서 리믹스하기",
 		"description": "자신의 프로젝트에 리믹스 버튼을 추가합니다.",
 		"tags": ["community", "projectPage"],
 		"credits": [
@@ -2585,16 +2614,6 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"versionAdded": "1.20.0"
-	},
-	{
-		"id": "remix-tree-button",
-		"name": "리믹스 트리 버튼",
-		"description": "프로젝트 페이지의 링크 복사하지 옆에 다시 리믹스 버튼을 표시합니다.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
 	},
 	{
 		"id": "remove-curved-stage-border",
@@ -2971,8 +2990,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Editor modes",
+		"description": "Adds the 90s, Old timey and Prehistoric modes from April Fools 2022 and the Mystery Mode from 2020.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "The Prehistoric and Mystery modes may impact performance when the editor is open."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",

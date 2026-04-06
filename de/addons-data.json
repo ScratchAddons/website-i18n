@@ -1,8 +1,8 @@
 [
 	{
 		"id": "2d-color-picker",
-		"name": "2D-Farbenwähler",
-		"description": "Ersetzt die Schattierungs- und Helligkeitsschieberegler im Kostümeditor durch einen 2D-Farbenwähler. Halte die Umschalttaste während dem Ziehen des Mauszeigers gedrückt, um die Werte auf einer einzigen Achse zu ändern.",
+		"name": "2D-Farbwähler",
+		"description": "Ersetzt die Schattierungs- und Helligkeitsschieberegler im Kostümeditor durch einen 2D-Farbwähler. Halte die Umschalttaste während dem Ziehen des Mauszeigers gedrückt, um die Werte auf einer einzigen Achse zu ändern.",
 		"tags": ["editor", "costumeEditor"],
 		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
 		"enabledByDefault": false,
@@ -52,7 +52,7 @@
 		"id": "animated-thumb",
 		"name": "Eigenes Vorschaubild hochladen",
 		"description": "Fügt ein Dropdown-Menü neben der Schaltfläche \"Vorschaubild setzen\" auf Projektseiten hinzu, mit dem du das Vorschaubild deines Projekts zu einem beliebigen Bild setzen kannst (einschließlich animierter gifs).",
-		"tags": ["community", "projectPage", "recommended"],
+		"tags": ["editor", "recommended"],
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"libraries": ["scratch-gui"],
@@ -109,6 +109,8 @@
 		"description": "Macht das vorgestellte Projekt auf der Profilseite jedes Nutzers zu einem gut aussehenden Banner.",
 		"tags": ["community", "featured", "profiles"],
 		"credits": [{ "name": "Wicycool", "link": "https://wicy.cool/" }],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
 		"versionAdded": "1.5.0"
 	},
 	{
@@ -158,7 +160,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "Der BBcode könnte nicht zu 100% genau sein. Um komplett genaue Zitierungen zu bekommen, zitiere als normal und lösche alle Teile, die du nicht brauchst.",
+				"text": "Der BBcode könnte nicht zu 100% genau sein. Um komplett genaue Zitierungen zu bekommen, zitiere, ohne zu Markieren, und lösche alle Teile, die du nicht brauchst.",
 				"id": "scratchblocks_notice"
 			}
 		],
@@ -187,7 +189,7 @@
 		"info": [
 			{
 				"type": "notice",
-				"text": "\"Rechtsklick → kopieren\" ist nicht unterstützt. Du musst Strg+C drücken, während ein Bitmap Bild ausgewählt ist.",
+				"text": "\"Rechtsklick → kopieren\" ist nicht unterstützt. Du musst Strg+C drücken, während ein Bitmap-Bild ausgewählt ist.",
 				"id": "norightclick"
 			}
 		],
@@ -238,7 +240,7 @@
 	{
 		"id": "block-duplicate",
 		"name": "Skripte mit Alt-Taste duplizieren",
-		"description": "Dupliziere schnell ein SKript, indem du es mit gedrückter Alt-Taste ziehst. Halte gleichzeitig auch Strg gedrückt, um nur den einzelnen Block zu duplizieren.",
+		"description": "Dupliziere schnell ein Skript, indem du es mit gedrückter Alt-Taste ziehst. Halte gleichzeitig auch Strg gedrückt, um nur den einzelnen Block zu duplizieren.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"info": [
@@ -509,7 +511,7 @@
 		"dynamicDisable": true,
 		"enabledByDefault": false,
 		"versionAdded": "1.4.0",
-		"latestUpdate": { "version": "1.28.0", "newSettings": ["removingprojects"] }
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["signingout"] }
 	},
 	{
 		"id": "copy-message-link",
@@ -538,7 +540,7 @@
 	{
 		"id": "costume-editor-shortcuts",
 		"name": "Tastaturkurzbefehle im Kostümeditor",
-		"description": "Ermöglicht das Wechseln zwischen Kostümen mit Strg+Links/Rechts und die Auswahl von Werkzeugen im Kostümeditor mithilfe von Tastenkürzeln (wie bei TurboWarp). Fahre mit der Maus über ein Werkzeug, um dessen Kürzel anzuzeigen.",
+		"description": "Ermöglicht das Wechseln zwischen Kostümen mit Strg+Links/Rechts und die Auswahl von Werkzeugen im Kostümeditor mithilfe von Tastenkürzeln (wie bei TurboWarp). Fahre mit der Maus über ein Werkzeug, um dessen Kürzel zu sehen.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [
 			{
@@ -808,7 +810,7 @@
 	{
 		"id": "debugger",
 		"name": "Debugger",
-		"description": "Fügt ein neues \"Debugger\"-Fenster zum Editor hinzu. Damit können mithilfe der Log-Blöcke bestimmte Ereignisse in den \"Logs\"-Tab protokolliert werden. Der Block \"unterbrechen\" pausiert das Projekt. Alle ausgeführten Blockstapel können im \"Threads\"-Tab angezeigt werden, und wenn das Project pausiert ist, kann die Schaltfläche \"Schritt\" den nächsten Block ausführen. Der Tab \"Leistung\" bietet eine Grafik mit der Bildwiederholrate und der Anzahl der Klone. Mit den \"Stoppuhr\"-Blöcken kann das Zeitverhalten bestimmter Codeabschnitte gemessen werden, Ergebnisse dazu und mehr sind im Tab \"Timing\" verfügbar.",
+		"description": "Fügt ein neues \"Debugger\"-Fenster zum Editor hinzu. Damit können mithilfe der Protoll-Blöcke bestimmte Ereignisse in dem \"Protokolle\"-Tab protokolliert werden. Der Block \"unterbrechen\" pausiert das Projekt. Alle ausgeführten Blockstapel können im \"Threads\"-Tab angezeigt werden, und wenn das Project pausiert ist, kann die Schaltfläche \"Schritt\" den nächsten Block ausführen. Der Tab \"Leistung\" bietet eine Grafik mit der Bildwiederholrate und der Anzahl der Klone. Mit den \"Stoppuhr\"-Blöcken kann das Zeitverhalten bestimmter Codeabschnitte gemessen werden, Ergebnisse dazu und mehr sind im Tab \"Timing\" verfügbar.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{ "name": "Tacodiva", "link": "https://github.com/Tacodiva" },
@@ -868,7 +870,14 @@
 		"name": "Automatisches Speichern deaktivieren",
 		"description": "Deaktiviert das automatische Speichern von Projekten während dem Bearbeiten.",
 		"tags": ["editor", "editorMenuBar", "danger"],
-		"credits": [{ "name": "RustingRobot" }],
+		"credits": [
+			{ "name": "RustingRobot" },
+			{ "name": "DNin01", "link": "https://github.com/DNin01" },
+			{
+				"name": "Chrome_Cat",
+				"link": "https://scratch.mit.edu/users/Chrome_Cat/"
+			}
+		],
 		"info": [
 			{
 				"type": "warning",
@@ -1002,7 +1011,7 @@
 	{
 		"id": "editor-cleanup-plus",
 		"name": "Verbessertes Aufräumwerkzeug",
-		"description": "Verbessert die Bereinigungsfunktion im Kontextmenü des Codebereichs mit dem Rechtsklick mit mehreren Spalten und Vorschlägen zum Entfernen ungenutzter Variablen und Listen.",
+		"description": "Verbessert die Aufräum-Funktion im Kontextmenü des Codebereichs mit dem Rechtsklick mit mehreren Spalten und Vorschlägen zum Entfernen ungenutzter Variablen und Listen.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{ "name": "griffpatch" },
@@ -1037,7 +1046,7 @@
 	{
 		"id": "editor-comment-previews",
 		"name": "Vorschau für Editorkommentare",
-		"description": "Ermöglicht das Anzeigen einer Vorschau, wenn die Maus über reduzierten Kommentaren und Blöcken. Du kannst dies verwenden, um Kommentare außerhalb des Bildschirms anzuzeigen, einen Schleifenblock von seiner Unterseite anhand der Vorschau zu identifizieren, mehrere lange Kommentare in einen kleinen Bereich anzupassen und mehr.",
+		"description": "Ermöglicht das Anzeigen einer Vorschau, wenn sich die Maus über reduzierten Kommentaren und Blöcken befindet. Du kannst dies verwenden, um Kommentare außerhalb des Bildschirms anzuzeigen, einen Schleifenblock von seiner Unterseite anhand der Vorschau zu identifizieren, mehrere lange Kommentare in einen kleinen Bereich anzupassen und mehr.",
 		"tags": ["editor", "codeEditor", "featured"],
 		"credits": [
 			{
@@ -1169,7 +1178,7 @@
 	{
 		"id": "editor-number-arrow-keys",
 		"name": "Erhöhen mit Pfeiltasten",
-		"description": "Nutze die Pfeiltasten nach oben und nach unten, um Werte in Zahleneingabefeldern zu ändern, zum Beispiel in Blöcken oder in den Figureneigenshaften.",
+		"description": "Nutze die Pfeiltasten nach oben und nach unten, um Werte in Zahleneingabefeldern zu ändern, zum Beispiel in Blöcken oder in den Figureneigenschaften.",
 		"tags": ["editor", "codeEditor", "recommended"],
 		"credits": [
 			{
@@ -1442,6 +1451,23 @@
 		"versionAdded": "1.28.0"
 	},
 	{
+		"id": "fix-costume-drag",
+		"name": "Verbessertes Ziehen von Kostümen und Klängen",
+		"description": "Wenn du ein Kostüm oder einen Klang ziehst, scrollt es automatisch die Liste und behebt einen Fehler in Scratch, dass das gezogene Item nach dem Scrollen nicht an der richtigen Stelle platziert ist.",
+		"tags": ["editor", "costumeEditor", "recommended"],
+		"credits": [
+			{
+				"name": "mysinginmonsters",
+				"link": "https://scratch.mit.edu/users/mysinginmonsters/"
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"enabledByDefault": true,
+		"libraries": ["scratch-gui"],
+		"versionAdded": "1.45.0"
+	},
+	{
 		"id": "fix-editor-comments",
 		"name": "Bessere Editorkommentare",
 		"description": "Nimmt zahlreiche Änderungen auf Kommentare im Scratch-Editor vor: löst einen Fehler, der an Blöcken hängende Kommentare nach dem Ziehen nicht an der richtigen Position speichert, fügt eine Scrolleiste auf Kommentaren mit geschnittenem Text hinzu, verhindert das Erstellen von Kommentaren außerhalb des sichtbaren Bereiches, und mehr.",
@@ -1535,7 +1561,7 @@
 	{
 		"id": "forum-live-preview",
 		"name": "Aktuelle Forumbeitrags-Vorschau",
-		"description": "Zeigt automatisch eine Vorschau an, sobald du aufhörst, in einem Forumbeitrag zu schreiben.",
+		"description": "Zeigt automatisch eine Vorschau an, sobald du aufhörst, einem Forumbeitrag zu schreiben.",
 		"tags": ["community", "forums"],
 		"credits": [
 			{
@@ -2156,7 +2182,7 @@
 	{
 		"id": "msg-count-badge",
 		"name": "Nachrichtenanzahl auf dem Erweiterungssymbol",
-		"description": "Zeigt die momentane Nachrichtenanzahl auf dem Scratch Addons-Symbol an.",
+		"description": "Zeigt die aktuelle Nachrichtenanzahl auf dem Scratch Addons-Symbol an.",
 		"tags": ["popup", "recommended"],
 		"credits": [
 			{ "name": "World_Languages" },
@@ -2169,7 +2195,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "Du kannst Bitte nicht stören (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um den Nachrichtenzähler vorübergehend auszublenden.",
+				"text": "Du kannst \"Bitte nicht stören\" (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um den Nachrichtenzähler vorübergehend auszublenden.",
 				"id": "dndtohide"
 			}
 		],
@@ -2208,7 +2234,7 @@
 	{
 		"id": "my-ocular",
 		"name": "ocular-Integration",
-		"description": "Zeigt ocular-Statuse und Forumpost-Reaktionen an. Erhält Daten von jeffalo.net.",
+		"description": "Zeigt ocular-Statuse und Forumpost-Reaktionen an. Erhält Daten von my-ocular.jeffalo.net.",
 		"tags": ["forums", "profiles", "community"],
 		"credits": [{ "name": "Jeffalo", "link": "https://github.com/jeffalo" }],
 		"dynamicEnable": true,
@@ -2258,7 +2284,7 @@
 	{
 		"id": "no-sprite-confirm",
 		"name": "Figuren ohne Bestätigung löschen",
-		"description": "Entfernt den Bestätigungsdialog, der fragt, ob du sicher bist, dass du die Figur löschen möchtest.",
+		"description": "Entfernt den Bestätigungsdialog, der fragt, ob du sicher bist, dass du eine Figur löschen möchtest.",
 		"tags": ["editor", "danger", "featured"],
 		"info": [
 			{
@@ -2322,7 +2348,7 @@
 	{
 		"id": "onion-skinning",
 		"name": "Onion Skinning",
-		"description": "Zeigt ein transparentes Bild des vorherigen oder nächsten Kostüms über dem aktuellen Kostüm im Maleditor an. Du kannst es mit Schaltflächen neben den Zoom-Schaltflächen steuern.",
+		"description": "Zeigt ein transparentes Bild des vorherigen oder nächsten Kostüms über dem aktuellen Kostüm im Maleditor an. Du kannst es mit Schaltflächen neben den Zoom-Schaltflächen steuern und anpassen.",
 		"tags": ["editor", "costumeEditor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2367,7 +2393,7 @@
 	{
 		"id": "paint-by-default",
 		"name": "Benutzerdefiniertes Verhalten von \"Hinzufügen\"-Schaltflächen",
-		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang wählen\"-Schaltflächen, die standardmäßig die Bibliothek öffnen.",
+		"description": "Ändert die Standardaktion von \"Figur/Kostüm/Hintergrund/Klang wählen\"-Schaltflächen, welche standardmäßig die Bibliothek öffnen.",
 		"tags": ["editor", "recommended"],
 		"credits": [{ "name": "GarboMuffin" }],
 		"dynamicEnable": true,
@@ -2456,7 +2482,10 @@
 				"link": "https://scratch.mit.edu/users/Maximouse/"
 			}
 		],
-		"versionAdded": "1.40.0"
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"versionAdded": "1.40.0",
+		"latestUpdate": { "version": "1.45.0", "newSettings": ["darken"] }
 	},
 	{
 		"id": "preview-project-description",
@@ -2590,16 +2619,6 @@
 		"versionAdded": "1.20.0"
 	},
 	{
-		"id": "remix-tree-button",
-		"name": "Remixbaum",
-		"description": "Bringt die Schaltfläche \"Remixbaum\" auf Projektseiten neben der Schaltfläche \"Link kopieren\" zurück.",
-		"tags": ["community", "recommended", "projectPage"],
-		"credits": [{ "name": "Ucrash", "link": "https://github.com/gducrash" }],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"versionAdded": "1.2.0"
-	},
-	{
 		"id": "remove-curved-stage-border",
 		"name": "Runden Bühnenrand entfernen",
 		"description": "Entfernt den runden Rand der Bühne, um die Ecken sichtbar zu machen.",
@@ -2662,7 +2681,7 @@
 	{
 		"id": "resizable-comment-input",
 		"name": "Größe der Kommentarbox ändern",
-		"description": "Ermöglicht das Ändern der Höhe der Kommentarbox auf Seiten, die Scratch 3.0-stilisiert sind.",
+		"description": "Ermöglicht das Ändern der Höhe der Kommentarbox auf Seiten, die den Stil von Scratch 3.0 besitzen.",
 		"tags": ["community", "comments", "recommended"],
 		"credits": [
 			{
@@ -2679,7 +2698,7 @@
 	{
 		"id": "scratch-messaging",
 		"name": "Scratch-Nachrichten",
-		"description": "Verfügbar, wenn auf das Scratch Addons-Icon geklickt wird. Bietet einfaches Lesen und Beantworten deiner Scratch-Nachrichten an: gruppiert Nachrichten nach Projekt, zeigt den vollständigen Kommentartext und Kontext an, ermöglicht das direkte Beantworten von Kommentaren.",
+		"description": "Verfügbar, wenn auf das Scratch Addons-Icon geklickt wird. Bietet einfaches Lesen und Beantworten deiner Scratch-Nachrichten an: gruppiert Nachrichten nach Projekt, zeigt den vollständigen Kommentartext und Kontext an und ermöglicht das direkte Beantworten von Kommentaren.",
 		"tags": ["popup", "recommended"],
 		"credits": [{ "name": "World_Languages" }, { "name": "griffpatch" }],
 		"dynamicEnable": true,
@@ -2704,7 +2723,7 @@
 		"info": [
 			{
 				"type": "info",
-				"text": "Du kannst Bitte nicht stören (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um Benachrichtigungen vorübergehend auszuschalten.",
+				"text": "Du kannst \"Bitte nicht stören\" (Rechtsklick auf Erweiterungsicon → Bitte nicht stören) aktivieren, um Benachrichtigungen vorübergehend auszuschalten.",
 				"id": "dndtosilence"
 			}
 		],
@@ -2902,7 +2921,7 @@
 	{
 		"id": "sprite-properties",
 		"name": "Figureneigenschaften ausblenden",
-		"description": "Versteckt die Eigenschaftenleiste von Figuren, wie in Scratch 2.0. Benutze die Info-Schaltfläche auf der aktuell ausgewählten FIgur oder doppelklicke auf eine Figur, um die Leiste anzuzeigen oder zu verstecken.",
+		"description": "Versteckt die Eigenschaftenleiste von Figuren, wie in Scratch 2.0. Benutze die Info-Schaltfläche auf der aktuell ausgewählten Figur oder doppelklicke auf eine Figur, um die Leiste anzuzeigen oder zu verstecken.",
 		"tags": ["editor", "recommended"],
 		"credits": [
 			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang/" }
@@ -2974,8 +2993,32 @@
 		"dynamicEnable": true,
 		"dynamicDisable": true,
 		"enabledByDefault": false,
-		"libraries": ["scratch-blocks"],
+		"libraries": ["blockly"],
 		"versionAdded": "1.22.0"
+	},
+	{
+		"id": "totally-normal-modes",
+		"name": "Editor-Modusauswahl",
+		"description": "Fügt die Editor-Modi \"90er\", \"Gute alte Zeit\" und \"Steinzeit\" vom Aprilscherz 2022 und den \"geheimnisvollen\" Modus von 2020 hinzu.",
+		"tags": ["editor", "easterEgg"],
+		"credits": [
+			{
+				"name": "Maximouse",
+				"link": "https://scratch.mit.edu/users/Maximouse/"
+			}
+		],
+		"info": [
+			{
+				"type": "notice",
+				"id": "performance",
+				"text": "Die Modi \"Steinzeit\" und \"Geheimnisvoll\" könnten im Editor die Leistung beeinträchtigen."
+			}
+		],
+		"dynamicEnable": true,
+		"dynamicDisable": true,
+		"libraries": ["scratch-gui", "scratch-render"],
+		"versionAdded": "1.44.0",
+		"updateUserstylesOnSettingsChange": true
 	},
 	{
 		"id": "transparent-orphans",
@@ -3037,7 +3080,7 @@
 	{
 		"id": "user-id",
 		"name": "Nutzer-IDs anzeigen",
-		"description": "Zeigt die ID des Benutzers neben seinem Benutzernamen oben in Profilseiten an.",
+		"description": "Zeigt die ID des Benutzers neben dem Benutzernamen oben in Profilseiten an.",
 		"tags": ["community", "profiles"],
 		"credits": [
 			{
