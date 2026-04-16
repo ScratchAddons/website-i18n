@@ -22,6 +22,7 @@ Links:
   Addons: Gli Addon
   Credits: Crediti
   PrivacyPolicy: Politica della Privacy
+  DiscordSupport: Supporto su Discord
   Discussion: Pagina di Discussione
   Community: Comunità
 Nav:
@@ -111,6 +112,13 @@ AddonsPage:
     L2: In questa pagina, troverai un addon a sorpresa con il simbolo di un uovo accanto al suo nome.
   NAddons: "{{.Count}} addon"
   SourceCodeLabel: Codice sorgente su GitHub
+  SourceCodeLink:
+    Title: Codice open source su GitHub
+  SASettingsLink:
+    Label: Impostazioni in Scratch Addons
+    Title: Aprire nelle impostazioni di Scratch Addons
+  AddonDocsLink:
+    Label: Documentazione dell'Addon
 FeedbackPage:
   Status:
     Sending: Invio in corso...
@@ -160,4 +168,5 @@ Comments:
 AddonDocs:
   Infobox:
     Labels:
+      Description: Descrizione
       Credits: Crediti
