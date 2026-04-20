@@ -2,7 +2,7 @@ v1.5.0:
   Highlights:
     Description: |
       Uusi ominaisuus: sipulin kuorinta mahdollistaa animoimisen editorissa. Ota se käyttöön siirtymällä Scratch-lisäosien asetuksiin.
-    ImageAlt: Koira asuste-editorissa, jossa sipulin kuorinta on käytössä. Hahmo on peräisin Scratchin hahmokirjastosta.
+    ImageAlt: "Koira asuste-editorissa, jossa sipulin kuorinta on käytössä. Hahmo on peräisin Scratchin hahmokirjastosta."
 v1.6.1:
   Highlights:
     Description: |
@@ -243,3 +243,9 @@ v1.44.0:
       Uusi "värjää mukautetut lohkot" -lisäosa lisää toiminnon, jolla voi valita mukautetulle lohkolle värin sitä luotaessa. Ota se käyttöön Scratch-lisäosien asetuksissa.
 
       Tässä päivityksesssä on lisätty myös ajastuslohkoja ja lohkottainen profilointi "virheenkorjaus"-lisäosaan.
+v1.45.0:
+  Highlights:
+    Description: |
+      Uusi ”Paranneltu asusteiden ja äänten raahaaminen” -lisäosa, joka on oletuksena käytössä, saa asuste- ja ääniluettelon vierittymään itsestään, kun järjestelet luettelon kohteita. Tutustu sen asetuksiin Scratch-lisäosien asetussivulla.
+
+      ”Vahvistukset”-lisäosaan on tässä päivityksessä lisätty uusi asetus, joka saa sen pyytämään vahvistuksen, kun yrität kirjautua ulos Scratchin verkkosivustolta.
