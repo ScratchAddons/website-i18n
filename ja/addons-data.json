@@ -1486,21 +1486,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "複製したブロックの実行禁止",
-		"description": "ブロックを複製したときに勝手に実行されるバグを修正する。",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVGアップロードの修正",
 		"description": "SVGアップロード時のバグを修正する。",

@@ -1491,21 +1491,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Не выполнять автоматически дублированные блоки",
-		"description": "Исправляет ошибку в редакторе Scratch, когда дублирование блока и присоединение его к стопке приводит к запуску стопки.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Исправление загрузки SVG",
 		"description": "Исправляет ошибку в редакторе Scratch, из-за которой загруженные файлы SVG, созданные с помощью некоторых графических редакторов, таких как Affinity Designer, не работали.",

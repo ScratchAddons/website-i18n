@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Çoğaltılan blokların otomatik olarak çalışmasını önle",
-		"description": "Scratch düzenleyicisinde, bir bloğun çoğaltılması ve bir koda eklenmesi sonucunda kodun çalışmasına neden olan bir hatayı düzeltir.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG yüklemelerini düzelt",
 		"description": "Affinity Designer gibi bazı resim düzenleyicilerle oluşturulan SVG dosyalarının bozulmasına neden olan Scratch düzenleyicisindeki bir hatayı düzeltir.",

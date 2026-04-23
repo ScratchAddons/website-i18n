@@ -1491,21 +1491,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Ne pas exécuter automatiquement les blocs dupliqués",
-		"description": "Corrige un bug dans l'éditeur Scratch, où dupliquer un bloc et l'attacher à un script entraîne l'exécution du script.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Corrige les uploads SVG",
 		"description": "Corrige un bug dans l'éditeur Scratch qui rend les fichiers SVG uploadés cassés quand ils sont créés avec certains éditeurs d'images, tels que Affinity Designer.",

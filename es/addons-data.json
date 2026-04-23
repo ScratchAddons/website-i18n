@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "No ejecutar bloques duplicados automáticamente ",
-		"description": "Arregla un error en el Scratch editor, en el que duplicar un bloque y engancharlo con una pila de bloques cause que la pila se ejecute.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Arreglo de subidas SVG",
 		"description": "Arregla un error en el editor de Scratch que provoca que algunos archivos SVG creados con ciertos editores de imagen, como Affinity Designer, no se suban correctamente.",

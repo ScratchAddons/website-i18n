@@ -1476,21 +1476,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "不要自动运行复制的积木",
-		"description": "修复了Scratch编辑器中的一个错误，即复制一个积木并将其附加到积木会导致积木运行。",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "修复SVG上传",
 		"description": "修复了Scratch编辑器中，使用Affinity Designer等图像编辑器创建的SVG文件在上传到作品中时损坏的bug。",

@@ -1491,21 +1491,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Ne izvedi podvojenih blokov samodejno",
-		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da dodajanje podvojenega bloka v skripto izvede skripto.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Popravljeno nalaganje SVG-jev",
 		"description": "Popravi napako v Scratchevem urejevalniku, ki povzroči, da se datoteke SVG, ustvarjene z nekaterimi urejevalniki, kot je Affinity Designer, ne naložijo pravilno.",

@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Non eseguire automaticamente blocchi duplicati",
-		"description": "Corregge un bug dell'editor di Scratch che causa l'esecuzione di uno script quando si duplica un blocco e lo si attacca allo script.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Correzione caricamento SVG",
 		"description": "Risolve un bug nell'editor di Scratch che causa il fallimento del caricamento di file SVG creati con alcuni editor di immagini, come ad esempio Affinity Designer.",

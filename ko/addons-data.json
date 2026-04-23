@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "블럭을 복제한 뒤 자동으로 실행되는 버그 고치기",
-		"description": "스크래치 편집기에서 복제 뒤 블럭이 다른 블럭에 붙을 경우 실행되는 버그를 고칩니다.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG 업로드 고치기",
 		"description": "Affinity Designer와 같은 일부 이미지 편집기로 생성된 SVG 파일을 제대로 업로드하지 못하는 버그를 스크래치 편집기에서 수정합니다.",

@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Älä suorita monistettuja lohkoja automaattisesti",
-		"description": "Korjaa Scratch-editorin bugin, jossa lohkon kopioiminen ja sen liittäminen skriptiin käynnistää skiriptin.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG-latausten korjaaminen",
 		"description": "Korjaa Scratch-editorin bugin, joka rikkoo ladatut SVG-tiedostot, jotka on luotu joillain kuvankäsittelyohjelmilla, kuten Affinity Designerilla.",

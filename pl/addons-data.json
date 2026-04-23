@@ -1491,21 +1491,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Nie uruchamiaj zduplikowanych bloków",
-		"description": "Naprawia błąd w Edytorze Scratch, kiedy kopiowanie bloku i przyczepianie go do kodu wywołuje ten kod.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Naprawienie wgrywania plików SVG",
 		"description": "Naprawia błąd w Edytorze Kostiumów powodujący, że pliki SVG są czasami zepsute.",

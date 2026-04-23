@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Voer gekopieerde blokken niet automatisch uit",
-		"description": "Lost een bug in de Scratcheditor op die een script uitvoert als je er gekopieerde blokken in plaatst.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG-uploads oplossen",
 		"description": "Lost een bug in de Scratcheditor op die geüploade SVG-bestanden gemaakt met enkele afbeeldingeditors, zoals Affinity Designer, kapotmaakt.",

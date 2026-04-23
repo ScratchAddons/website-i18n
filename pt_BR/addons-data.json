@@ -1488,21 +1488,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "Não rodar blocos duplicados automaticamente",
-		"description": "Conserta um bug do editor do Scratch onde se você duplicar um bloco e conectá-lo a uma pilha ela é executada.",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "Consertar uploads de SVG",
 		"description": "Conserta um bug no editor do Scratch que falha ao fazer upload de arquivos SVG criados com alguns editores de imagem, como o Affinity Designer.",

@@ -1486,21 +1486,6 @@
 		"updateUserstylesOnSettingsChange": true
 	},
 	{
-		"id": "fix-pasted-scripts",
-		"name": "複製積木後不要自動執行",
-		"description": "修復一個編輯器的已知問題，就是在複製了一個程式積木，把它貼合到一個程式區塊時，會造成程式會自動執行。",
-		"tags": ["editor", "recommended", "codeEditor"],
-		"credits": [
-			{ "name": "lisa_wolfgang", "link": "https://github.com/lisa-wolfgang" },
-			{ "name": "GarboMuffin", "link": "https://github.com/GarboMuffin" },
-			{ "name": "apple502j", "link": "https://github.com/apple502j" }
-		],
-		"dynamicEnable": true,
-		"dynamicDisable": true,
-		"enabledByDefault": false,
-		"versionAdded": "1.15.0"
-	},
-	{
 		"id": "fix-uploaded-svgs",
 		"name": "SVG 圖片上傳修復",
 		"description": "修復 Scratch 編輯器上的已知問題，如果上傳的是由 Affinity Designer 之類的圖像軟體製作的 SVG，圖像會損壞。",
