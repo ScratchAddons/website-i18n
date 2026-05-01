@@ -1,5 +1,5 @@
 ---
-title: Joining the Localization Team
+title: Присоединение к Команде Локализации
 description: Спасибо за заинтересованность в волонтёрстве перевода Scratch Addons на иностранные языки! Scratch Addons — некоммерческий проект с открытым исходным кодом, в котором веб-разработчики со всего мира поддерживают расширение и создают его дополнения.
 ---
 
@@ -9,15 +9,15 @@ description: Спасибо за заинтересованность в вол�
 
 Мы рады за Ваш интерес к помощи с локализацией Scratch Addons на другие языки! Scratch Addons доступно более чем на 15-ти языках именно благодаря бескорыстным волонтёрам по всему миру.
 
-Please read this page carefully to continue.
+Пожалуйста внимательно прочитайте эту страницу перед продолжением.
 
-## Requirements to join as a translator
+## Требования для присоединения как переводчик
 
-* You must be **FLUENT IN THE ENGLISH LANGUAGE**.
+* Вы должны **СВОБОДНО ГОВОРИТЬ НА АНГЛИЙСКОМ**.
 * К примеру, Вы свободно говорите на Английском если Вы можете пользоваться страницей настроек Scratch Addons на английском или если Вы подробно понимаете видео griffpatch'a. Если Вам трудно понимать предложения без переводчика, то увы, этого недостаточно.
-* You must be **a NATIVE SPEAKER** of the language you want to translate to.
-* You must have an email address, which you should ideally check at least once a week.
-* You must own an account on [scratch.mit.edu](https://scratch.mit.edu).
+* Вы должны быть **КОРЕННЫМ НОСИТЕЛЕМ** языка, на который Вы хотите переводить.
+* У Вас должен быть адрес электронной почты, который Вы проверяете хоть раз в неделю.
+* Вы должны иметь аккаунт на [scratch.mit.edu](https://scratch.mit.edu).
 
 {{< admonition info >}}
 **Следующие языки НЕ ПРИНИМАЮТ новых переводчиков:** Итальянский, Испанский. <!-- Этот список языков также находится внизу. Не забывать обновлять оба. -->
@@ -27,57 +27,57 @@ Please read this page carefully to continue.
 
 Мы поддерживаем только те языки, которые поддерживает сам Scratch. Мы также полностью поддерживаем языки, читающиеся справа налево, такие как Арабский и Иврит.
 
-## Content available for translation
+## Контент, предоставленный для перевода
 
-### Scratch Addons browser extension
+### Расширения для браузера Scratch Addons
 
 - **Общий Перевод.** Это ~150 текстовых строк, которые используются расширением. Пользователи могут видеть эти переводы для своего языка только если 90% таких строк переведены.
 
 - **Перевод Дополнений.** Эти текстовые строки включают в себя названия дополнений, описания, настройки и другие текстовые строки, используемые дополнениями. Пользователи могут видеть эти переводы только если основной перевод уже доступен и хотя бы 80% строк дополнения были переведены. Существует более 1000 строк дополнений, доступных для перевода.
 
-![Screenshot of the Scratch Addons extension in Japanese](/assets/img/docs/transifex-general-vs-addons.png)
+![Снимок экрана, показывающий расширение Scratch Addons на японском](/assets/img/docs/transifex-general-vs-addons.png)
 
-### Scratch Addons website
+### Сайт Scratch Addons
 
 Переводчики также имеют полномочия переводить контент сайта Scratch Addons. Для большей информации о переводе сайта, почитайте [Перевод](https://github.com/ScratchAddons/website-v2/wiki/Translating).
 
-## Supported languages
+## Поддерживаемые языки
 
-We support most languages that Scratch itself supports.
+Мы поддерживаем большинство языков, которые поддерживает сам Scratch.
 
 <details>
 <summary>Щёлкните; чтобы увидеть полный список поддерживаемых языков (50+ языков)</summary>
 Абхазский (ab); Африкаанс (af); Амхарский (am); Арагонский (an); Арабский (ar); Азербайджанский (az); Белорусский (be); Болгарский (bg); Бенгальский (bn); Каталанский (ca); Центральный Курдский (ckb); Чешский (cs); Валлийский (cy); Датский (da); Немецкий (de); Греческий (el); Испанский (es); Эстонский (et); Баскский (eu); Персидский (fa); Финский (fi); Французский (fr); Западно-Фризский (fy); Ирландский (ga); Гэльский, Шотландский (gd); Галисийский (gl); Иврит (he); Хинди (hi); Хорватский (hr); Гаитянскйи (Гаитянский Креольский) (ht); Венгерский (hu); Армянский (hy); Индонезийский (id); Исландский (is); Итальянский (it); Японский (ja); Грузинский (ka); Казахский (kk); Кхмерский (km); Корейский (ko); Курдский (ku); Литовский (lt); Латышский (lv); Маори (mi); Монгольский (mn); Норвежский Бокмол (nb); Голландский (nl); Норвежский Нюнорск (nn); Северный Сото (nso); Ория (or); Польский (pl); Португальский (Бразилия) (pt_BR); Кечуа (qu); Рапануйский (rap); Румынский (ro); Русский (ru); Словацкий (sk); Словенский (sl); Сербский (sr); Щвейцарский (sv); Суахилийский (sw); Тайский (th); Тсвана (tn); Турецкий (tr); Украинский (uk); Узбекский (uz); Вьетнамский (vi); Коса (xh); Китайский (Китай) (zh_CN); Китайский (Тайвань) (zh_TW); Зулусский (zu).
 </details>
 
-We do not support these languages yet: Asturianu (ast), Esperanto (eo), Español Latinoamericano (es_419), Filipino (fil), Hausa (ha), Japanese (Hiragana) (ja-Hira), Occitan (oc), Portuguese (Portugal) (pt_PT). If you're interested on becoming a translator for one of these languages we currently do not support, please send an email to `translation@scratchaddons.com`.
+Но мы пока ещё не поддерживаем следующие языки: Астурийский (ast), Эсперанто (eo), Латиноамериканский Испанский (es_419), Филиппинский (fil), Хауса (ha), Японский (Хирагана) (ja-Hira), Окситанский (oc), Португальский (Португалия) (pt_PT). Если Вы заинтересованы в становлением переводчиком на одном из этих языках, которые мы на настоящее время не поддерживаем, то пожалуйста отправьте нам письмо на адрес `translation@scratchaddons.com`.
 
 Следующие языки **не принимают** новых переводчиков: **Итальянский, Испанский.** <!-- Этот список языков также находится внизу. Не забывать обновлять оба. -->
 
-## Steps to join as a translator
+## Шаги для вступления как переводчик
 
-Please follow the steps below.
+Пожалуйста следуйте шагам, описанным ниже.
 
-### 1. Verify your Scratch account
-1. Visit this [Scratch studio](https://scratch.mit.edu/studios/33665222/comments) with your Scratch account.
-1. Send a studio comment indicating the language you want to translate to (for example, `Greek`).  
-![Screenshot of Scratch](/assets/img/docs/scratch-req-language.png)
+### 1. Подтвердите Ваш аккаунт Scratch
+1. Посетите эту [студию Scratch](https://scratch.mit.edu/studios/33665222/comments) с Вашего аккаунта.
+1. Отправьте комментарий на студии, указывающий язык, на который Вы хотите переводить (например, `Greek`).
+![Снимок Экрана Scratch](/assets/img/docs/scratch-req-language.png)
 
 **Если у Вас нет аккаунта Scratch**, то вместо этого отправьте письмо на электронный адрес `translation@scratchaddons.com`. Не создавайте новый аккаунт Scratch всего лишь для пополнения этой квоты. Новые Скретчерские аккаунты будут игнорированы.
 
-### 2. Create a Transifex account
-1. Go to [Transifex open-source Sign up](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
-1. You will be shown Transifex's "Sign up" screen. **DO NOT sign up with Google.**  
-1. In the "business email" field, enter your email (it can be Gmail, Outlook, or any other).
-1. In the "username" field, we highly recommend you enter your Scratch username, or a slight variation of it.  
-For example, if your Scratch username is `john_walker954`, your Transifex username can be exactly the same (`john_walker954`) or `john_walker954_scratch`.
-1. In the "password" field, enter a password.
-1. Click the "Sign up" button.
-1. You'll be asked for your First name and Last name.  
-\- In the **First name**, we recommend you enter your Scratch username.  
-\- In the **Last name**, we recommend you enter the language you want to translate to (for example, `Greek`).
-1. In the "languages you speak" field, select at least one language you're fluent with (for example, English).
-1. Click the "Let's get started" button.
+### 2. Создайте аккаунт Transifex
+1. Перейдите на [Transifex регистрацию открытого доступа](https://app.transifex.com/signup/open-source/?join_org=scratch-addons&join_project=scratch-addons-extension).  
+1. Вас встретит экран "Регистрация" Transifex. **НЕ РЕГИСТРИРУЙТЕСЬ с помощью Google.**
+1. В строке "служебная электронная почта" введите вашу электронную почту (можете пользоваться Gmail, Outlook, любой другой).
+1. В строке "пользовательское имя", мы настоятельно рекомендуем Вам ввести Ваше имя Scratch, ну или же близкую кличку к нему.
+К примеру, если Ваше имя пользователя — `john_walker954`, Ваше имя пользователя Transifex может быть точно такое же (`john_walker954`) или `john_walker954_scratch`.
+1. В строке "пароль", введите пароль.
+1. Щёлкните кнопку "Зарегистрироваться".
+1. У Вас спросят Ваше имя и фамилию.
+\- В **Имя**, лучше написать Ваше пользовательское имя Scratch.  
+\- В **Фамилия**, мы советуем Вам написать язык, на который Вы собираетесь переводить (к примеру, `Greek`).
+1. В поле "языки, на которых Вы говорите", выберите хотя бы один язык, с которым вы свободно обращаетесь (скажем, английский).
+1. Щёлкните кнопку "Давайте начнём".
 1. Continue with the "requesting a language" steps below.
 
 Если у Вас уже имеется аккаунт Transifex и Вы не хотите создавать новый, отправьте нам повестку на `translation@scratchaddons.com`, определяя пользовательское имя Вашего аккаунта Transifex. После, продолжите действия в секции "запрос языка" снизу.
