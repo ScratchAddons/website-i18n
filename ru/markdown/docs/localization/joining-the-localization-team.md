@@ -78,11 +78,11 @@ description: Спасибо за заинтересованность в вол�
 \- В **Фамилия**, мы советуем Вам написать язык, на который Вы собираетесь переводить (к примеру, `Greek`).
 1. В поле "языки, на которых Вы говорите", выберите хотя бы один язык, с которым вы свободно обращаетесь (скажем, английский).
 1. Щёлкните кнопку "Давайте начнём".
-1. Continue with the "requesting a language" steps below.
+1. Продолжайте по шагам "запрашивания языка" ниже.
 
 Если у Вас уже имеется аккаунт Transifex и Вы не хотите создавать новый, отправьте нам повестку на `translation@scratchaddons.com`, определяя пользовательское имя Вашего аккаунта Transifex. После, продолжите действия в секции "запрос языка" снизу.
 
-### 3. Requesting a language
+### 3. Запрашивание языка
 1. Make sure you're logged in to Transifex. If you just signed up, you are already logged in.
 1. Go to [Scratch Addons' Transifex page](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
 1. You'll be prompted to choose the language you want to translate to.
