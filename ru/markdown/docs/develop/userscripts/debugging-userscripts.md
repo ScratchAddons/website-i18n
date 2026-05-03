@@ -9,7 +9,7 @@ description: Советы для легкой отладки пользоват�
 
 ### Не всегда обязательно перезагружать расширение
 
-It's not necessary to reload the extension by going to `chrome://extensions` when changing the source of an already existing JavaScript or CSS files. In those cases, reloading the page is enough.
+Не обязательно перезагружать расширение через `chrome://extensions` при изменении уже существующих файлов JavaScript или CSS. В тех случаях, достаточно просто перезагрузить страницу.
 
 ### Use the addon.* API from the console
 

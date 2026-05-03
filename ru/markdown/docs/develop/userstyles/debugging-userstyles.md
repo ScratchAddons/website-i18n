@@ -1,19 +1,19 @@
 ---
 title: Советы для Отладки
-description: Tips to easily debug userstyles, and edge cases to consider.
+description: Советы для простой отладки пользовательских стилей, а также некоторые крайние случаи.
 ---
 
-Tips to easily debug userstyles, and edge cases to consider.
+Советы для простой отладки пользовательских стилей, а также некоторые крайние случаи.
 
 ## Советы
 
 ### Не всегда обязательно перезагружать расширение
 
-It's not necessary to reload the extension by going to `chrome://extensions` when changing the source of an already existing JavaScript or CSS files. In those cases, reloading the page is enough.
+Не обязательно перезагружать расширение через `chrome://extensions` при изменении уже существующих файлов JavaScript или CSS. В тех случаях, достаточно просто перезагрузить страницу.
 
-<!-- TODO: use injectAsStyleElt for addons that need to be injected quickly to avoid flashes (such as dark modes) -->
+<!-- TODO: используйте injectAsStyleElt для дополнений которые должны быть инъецированы быстро во имя избежания вспышек (как в тёмных режимах) -->
 
 
-<!-- ## Edge cases -->
+<!-- ## Крайние случаи -->
 
-<!-- None yet -->
+<!-- Пока ничего -->

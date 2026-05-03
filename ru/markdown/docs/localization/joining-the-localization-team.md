@@ -83,15 +83,15 @@ description: Спасибо за заинтересованность в вол�
 Если у Вас уже имеется аккаунт Transifex и Вы не хотите создавать новый, отправьте нам повестку на `translation@scratchaddons.com`, определяя пользовательское имя Вашего аккаунта Transifex. После, продолжите действия в секции "запрос языка" снизу.
 
 ### 3. Запрашивание языка
-1. Make sure you're logged in to Transifex. If you just signed up, you are already logged in.
-1. Go to [Scratch Addons' Transifex page](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
-1. You'll be prompted to choose the language you want to translate to.
+1. Удостоверьтесь, что Вы вошли в систему Transifex. Если Вы только что зарегистрировались, то Вас уже должны авторизовать автоматически.
+1. Посетите [страницу Transifex Scratch Addons](https://app.transifex.com/join/?o=scratch-addons&p=scratch-addons-extension&t=opensource).
+1. Вас спросят выбрать язык, на который Вы хотите переводить.
 1. Выберите один из языков **которые сейчас "открыты для присоединения"**. Мы не поддерживаем языки, которые не открыты для присоединения.
-![Screenshot of Transifex](/assets/img/docs/transifex-req-language.png)
-1. Click the "Join Project" button.
-1. Wait until your request is accepted.
+![Снимок экрана Transifex](/assets/img/docs/transifex-req-language.png)
+1. Щёлкните кнопку "Присоединиться к Проекту".
+1. Ждите, пока ваш запрос не одобрят.
 
-If you have a Discord account, we encourage you to join our [Development Discord server](https://discord.gg/Ak8sCDQ).
+Если у Вас есть аккаунт Discord, мы рекомендуем Вас присоединиться к нашему [серверу Разработки Discord](https://discord.gg/Ak8sCDQ).
 
 {{< admonition success >}}
 **Если Ваша заявка будет принята, то Вы получите электронное письмо от Transifex. Обычно мы просматриваем запросы каждые 96 часов.**
@@ -101,15 +101,15 @@ If you have a Discord account, we encourage you to join our [Development Discord
 Если Ваш запрос был отклонён, Вы получите электронное письмо. Конечно, эти решения никогда не конечны. Вы можете послать письмо на почту `translation@scratchaddons.com`, указывая Ваше пользовательское имя Transifex и Ваш запрос будет сильно переобдуман. Ниже указаны другие методы контакта.
 {{< /admonition >}}
 
-## Help or contact
+## Помощь или Связь
 
-If you have any questions about translating, you may choose one of the following options:
-- Send an email to `translation@scratchaddons.com`.
-- Join our [Development Discord](https://discord.gg/Ak8sCDQ) server.
-- [Open a discussion on GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (GitHub account required).
-- [Send feedback](/feedback) (make sure to specify your Scratch username in the form, we will reply in your profile).
+Если у Вас есть какие-нибудь вопросы о переводе, Вы можете выбрать один из следующих вариантов:
+- Отправить электронное письмо `translation@scratchaddons.com`.
+- Присоединиться к нашему серверу [Dicsord Разработки](https://discord.gg/Ak8sCDQ).
+- [Открыть обсуждение на GitHub](https://github.com/ScratchAddons/ScratchAddons/discussions) (требуется аккаунт GitHub).
+- [Отправить обратную связь](/feedback) (Не забудьте уточнить Ваше имя пользователя Scratch в форме, мы ответим в Вашем профиле).
 
 ## Благодарности
 
-- If you get accepted, you may add yourself (or be added) to [the website's credits page](/credits).
-- Your translations are licensed under the same license as Scratch Addons (GPL v3.0).
+- Если Вас нанимут, то Вы можете добавить себя (или быть добавленными) на [страницу титров нашего веб-сайта](/credits).
+- Ваши переводы лицензированны под той же лицензией, что и само расширение Scratch Addons (GPL v3.0).

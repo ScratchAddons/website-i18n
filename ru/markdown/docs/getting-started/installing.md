@@ -123,18 +123,18 @@ $ git pull
 1. Подключите устройство Android и нажмите разрешить.
 2. Переместитесь в папку `ScratchAddons`.
 3. Воспроизведите команду `adb devices` для нахождения серийного номера устройства и уверьтесь в том, что ADB работает.
-4. Run the following command replacing `[serial number]` with the one from `adb devices`:
+4. Воспроизведите следующую команду, заменяя `[серийный номер]` значением из `adb devices`:
 ```
 web-ext run -t firefox-android --adb-device [serial number] --firefox-apk org.mozilla.firefox
 ```
 
-The extension should install and automatically reload when changes are made, otherwise close the Firefox app and re-run the command.
+Расширение должно установляться и автоматически перезагружаться, в ином случае закройте приложение Firefox и заново выполните команду.
 
-#### Inspecting
+#### Всматривание
 
-Desktop Firefox can inspect extensions and active tabs running in the Firefox app over USB:
+Firefox для компьютера может всматриваться в расширения и действующие вкладки приложения Firefox через USB.
 
-1. On desktop Firefox type `about:debugging` into the address bar.
-1. Click "Enable USB Devices".
-1. Click connect on the device in the sidebar. If none appear, restart desktop Firefox.
-1. Click on the device again.
+1. В программе Firefox напечатайте `about:debugging` в адресную строку.
+1. Щёлкните "Включить Устройства USB".
+1. Щёлкните присоединиться на устройстве в боковой панели. Если ничто не появляется, то перезапустите Firefox.
+1. Щёлкните на устройство снова.
