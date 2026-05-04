@@ -60,60 +60,60 @@ description: Пользовательские стили — это правил
 Обычно не нужно использовать пользовательский сценарий JavaScript для динамического переключения активности пользовательского стиля в ответ изменения человеком настроек.
 
 - Включение `dynamicEnable: true` в манифесте дополнения разрешит расширению динамически внедрять пользовательские стили если дополнение было включено (в первый раз) после загрузки страницы.
-- Including `dynamicDisable: true` in the addon manifest will allow the extension to dynamically remove or reinject userstyles if the addon has been toggled, without requiring a page reload.
-- Including `updateUserstylesOnSettingsChange: true` in the addon manifest will re-evaluate "if" conditions that depend on user settings without requiring a page reload. The extension will remove or inject userstyles accordingly.
+- Включение `dynamicDisable: true` в манифесте дополнения позволит расширению динамически убирать или инъецировать пользовательские стили, если дополнение было переключено, без перезагрузки страницы.
+- Включение `updateUserstylesOnSettingsChange: true` в манифесте дополнения перепроверит условия "if", которые зависят от пользовательских настроек без перезагрузки страницы. Расширение будет соответственно извлекать или инъецировать пользовательские стили.
 
 
-## Accessing addon settings from CSS
+## Доступ к настройкам дополнения из CSS
 
-Userstyles can easily obtain color and numerical settings through CSS variables. They can also access settings from other enabled addons.
+Пользовательские стили могут легко обрести цветные и цифровые настройки через переменные CSS. Они также могут получить доступ к настройкам других активированных дополнений.
 
-The CSS variables always follow the `--addonId-settingId` format. Setting IDs are always converted from kebab-case to camelCase.
+Переменные CSS всегда следуют формату `--addonId-settingId`. Идентификаторы настроек всегда переводятся из формата-кебаб в форматВерблюд.
 
-These CSS variables are always available for all enabled addons and no manifest property is necessary to expose them. They are also synchronized with user settings without requiring a page reload.
+Эти переменные CSS всегда доступны для всех включенных дополнений и никакое свойство манифеста не требуется для их раскрытия. Они также синхронизированны с пользовательскими настройками без требования перезагрузки страницы.
 
 ```css
 .sa-progress-bar {
-  /* Color setting */
+  /* Настройка цвета */
   background-color: var(--progressBar-bgColor);
 
-  /* Color setting with fallback */
+  /* Настройка цвета с аварийным случаем */
   border-color: var(--editorDarkMode-border, #fc7c24);
-  /* If editor-dark-mode is disabled, the fallback will be used instead */
+  /* Если editor-dark-mode выключен, то вместо главного цвета будет использоваться аварийный */
 
-  /* Numerical setting */
+  /* Цифровая настройка */
   height: calc(1px * var(--progressBar-height));
 }
 ```
 
 
-## Custom CSS variables
+## Настраиваемые переменные CSS
 
-If a userstyle needs to choose between one of two values based on a background color (text contrast) or an addon setting, JavaScript isn't necessary. These conditions, among others, can be declared in the addon manifest through [customCssVariables](/docs/reference/addon-manifest/#customcssvariables), and the userstyle can simply reference that CSS variable.
+Если пользовательскому стилю надо выбрать одно из двух значений на основе фонового цвета (контраст текста) или настройки дополнения, JavaScript не обязателен. Эти случаи, помимо других, могут быть объявлены в манифесте дополнения через [customCssVariables](/docs/reference/addon-manifest/#customcssvariables) и пользовательский стиль может просто отсылаться на эту переменную CSS.
 
 
-## Applying styles based on the editor mode
+## Применение стилей, основанных на режиме редактора
 
-The extension automatically toggles a class name on the `<html>` element when the user enters or exits the project editor.
+Расширение автоматически переключает имя класса на элементе `<html>`, когда пользователь заходит или выходит из редактора проектов.
 
-For example, styling `<input>` elements inside and outside the editor differently:
+К примеру, вот различное стилизирование элементов `<input>` внутри и снаружи редактора:
 ```css
 .sa-editor input {
-  /* Only applies if `addon.tab.editorMode` is `editor` or `fullscreen` */
+  /* Применяется только если `addon.tab.editorMode` равно `editor` или `fullscreen` */
 }
 
 :root:not(.sa-editor) input {
-  /* Only applies if `addon.tab.editorMode` is NOT `editor` nor `fullscreen` */
+  /* Применяется лишь если `addon.tab.editorMode` НЕ равно `editor` или `fullscreen` */
 }
 ```
 
-Similarly, the `.sa-fullscreen` class is added to the `<html>` element when the project is in full screen mode:
+В похожей манере, класс `.sa-fullscreen` добавлен к элементу `<html>`, когда проект в полноэкранном режиме:
 ```css
 .sa-fullscreen [class*="green-flag_green-flag_"] {
-  /* Only applies if `addon.tab.editorMode` is `fullscreen` */
+  /* Применяется при `fullscreen` значении `addon.tab.editorMode` */
 }
 
 :root:not(.sa-fullscreen) [class*="green-flag_green-flag_"] {
-  /* Only applies if `addon.tab.editorMode` is NOT `fullscreen` */
+  /* НЕ применяется при `fullscreen` значении `addon.tab.editorMode` */
 }
 ```

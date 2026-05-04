@@ -1,28 +1,28 @@
 ---
 title: Пользовательские скрипты
-description: Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+description: Пользовательские сценарии — это файлы JavaScript, которые воспроизводятся каждый раз при загрузке страницы Scratch. Они могут изменять HTML документа, добавлять новые кнопки, персонализировать поведение редактора Scratch и многое другое.
 ---
 
-Userscripts are JavaScript files that are executed every time the user loads a Scratch page. They can modify the document's HTML, add new buttons, customize Scratch editor behavior, and so much more.
+Пользовательские сценарии — это файлы JavaScript, которые воспроизводятся каждый раз при загрузке страницы Scratch. Они могут изменять HTML документа, добавлять новые кнопки, персонализировать поведение редактора Scratch и многое другое.
 
-Similarly to userscripts that you might download for userscript managers like Tampermonkey or Greasemonkey, Scratch Addons userscripts consist of pieces of JavaScript that are executed in the same execution context as the JavaScript code from Scratch itself. In browser extension vocabulary, this execution context is often called the "main world".
+Также как и в пользовательских сценариях, которые Вы можете скачивать для таких менеджеров пользовательских сценариев, как Tampermonkey или Greasemonkey, пользовательские сценарии Scratch Addons составлены из кусочков JavaScript, исполняемых в том же контексте, что и код JavaScript из самого Scratch. В словаре браузерных расширений, этот контекст воспроизведения называют "основной мир".
 
-Even though Scratch Addons userscripts are part of a browser extension, they cannot access any `chrome.*` or `browser.*` APIs. Instead, Scratch Addons offers an [`addon.*` API](/docs/reference/addon-api/). 
+Несмотря на то, что пользовательские сценарии Scratch Addons являются частью браузерного расширения, они не имеют доступ к интерфейсам `chrome.*` или `browser.*`. Вместо этого, Scratch Addons предоставляет [интерфейс `addon.*`](/docs/reference/addon-api/). 
 
 
-## Declaring userscripts in the addon manifest
+## Объявление пользовательских сценариев в манифесте дополнения
 
 {{< admonition warning >}}
 **Некоторые изменения требуют перезагрузки расширения** со страницы `chrome://extensions` для применения, включая обновление файла манифеста дополнения.
 
-It's not necessary to reload the extension when changing the source of an already existing userscript JavaScript file. In those cases, reloading the page is enough.
+Не обязательно перезагружать расширение при изменении исходника уже существующего JavaScript файла пользовательского сценария. В тех случаях, перезагрузки страницы достаточно.
 {{< /admonition >}}
 
-Userscripts are declared inside a "userscripts" array.
+Пользовательские сценарии объявляются в массиве "userscripts"
 
 Каждый предмет массива должен иметь следующие свойства:
-- `"url"`: the relative URL to a JavaScript file.
-- `"matches"`: the list of Scratch pages where the userscript will run. See [matches](/docs/reference/addon-manifest/#matches) for more information.
+- `"url"`: относительная гиперссылка к файлу JavaScript.
+- `"matches"`: список страниц Scratch, где пользовательский сценарий будет воспроизводиться. Смотрите [совпадения](/docs/reference/addon-manifest/#matches) для исчерпывающей информации.
 
 Примерный манифест:
 ```json
@@ -40,7 +40,7 @@ Userscripts are declared inside a "userscripts" array.
 }
 ```
 
-## Creating your first userscript
+## Создание Вашего первого пользовательского сценария
 
 Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
 ```js

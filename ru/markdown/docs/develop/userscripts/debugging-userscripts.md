@@ -11,51 +11,51 @@ description: Советы для легкой отладки пользоват�
 
 Не обязательно перезагружать расширение через `chrome://extensions` при изменении уже существующих файлов JavaScript или CSS. В тех случаях, достаточно просто перезагрузить страницу.
 
-### Use the addon.* API from the console
+### Используйте интерфейс addon.* из консоли
 
-The `addon` object is accessible within the browser console through the `__addon` global variable when at least one addon is running.
+Объект `addon` доступен из консоли браузера через глобальную переменную `__addon`, если хотя бы одно дополнение включено.
 
-### Set breakpoints with the "debugger" keyword
+### Установка точек остановки с помощью ключевого слова "debugger"
 
-The `debugger;` keyword in JavaScript will freeze the page when ran, if the developer tools are open. Setting breakpoints is useful to inspect the value of local variables during execution.
+Ключевое слово `debugger;` в JavaScript заморозит страницу при использовании, если инструменты для разработчика открыты. Установление точек остановки довольно полезно для всматривания в значения локальных переменных при исполнении.
 
-### Filter console messages by addon ID
+### Фильтр консольных сообщений через идентификатор дополнения
 
-Enter the addon ID on the "filter" console search bar to only view logs and warnings, as well errors logged with `console.error()`. Keep in mind that this will hide all exceptions, unless you're explicitly logging them in your code.
-
-
-## Edge cases
+Введите ID дополнения на строке поиска консоли "фильтр" для просмотра сообщений, предупреждений, а также ошибок, отправленных в журнал с помощью `console.error()`. Важно помнить, что это спрячет все исключения, если Вы прямо не журналируете их в Вашем коде.
 
 
-### Scratch project page and editor
+## Крайние случаи
 
 
-#### The DOM is destroyed after going inside or outside the editor
-
-Scratch creates all HTML elements each time the user clicks "see inside" or "see project page", and destroys the old ones.  
-This can usually be fixed by using `addon.tab.waitForElement` or the `urlChange` event.
-
-#### The Scratch editor language can be changed without a reload
-
-Unlike the Scratch website, the Scratch editor will not reload when changing the language. When selecting a different language, Scratch might destroy and re-create some HTML elements.
-
-#### Other situations to consider
-
-- The project editor may be used without a defined project ID (for example, when logged out).
-- The editor might switch from LTR to RTL (or viceversa) without requiring a page reload.
+### Страница проектов Scratch и редактор
 
 
-### Scratch website
+#### DOM уничтожена после входа в и выхода из редактора
 
-#### scratch-www pages don't reload after logging in
+Scratch создаёт все элементы HTML каждый раз, когда пользователь щёлкает "посмотреть внутрь" или "посмотреть страницу проекта", уничтожая старые.
+Обычно это можно исправить использованием `addon.tab.waitForElement` или события `urlChange`.
 
-Unlike scratchr2 pages, scratch-www pages do not force a page reload after logging in. For example, if you go to a project page while being logged out, then log in, the page will not reload. This also affects studios, the messages page, etc.  
-In contrast, all Scratch pages reload after logging out.
+#### Язык редактора Scratch можно изменить без перезагрузки
 
-#### Project pages never return 404s
+В отличии от самого веб-сайта Scratch, редактор Scratch не перезагрузится при изменении языка. При избирании другого языка? Scratch может уничтожить и пересоздать некоторые элементы HTML.
 
-Even if the project is unshared or doesn't exist, Scratch returns a 200 HTTP status code. The "our server is Scratch'ing its head" message is added dynamically to the page by Scratch.
+#### Другие важные ситуации
 
-#### Other situations to consider
+- Редактор проектов можно использовать без определённого ID проекта (например, когда Вы не вошли в аккаунт).
+- Редактор может переключаться с LTR на RTL (также наоборот) без перезагрузки страницы.
 
-- Each of the 4 tabs inside studios have different URLs, but do not trigger a browser navigation. Addons that affect any of the 4 pages should run, no matter the initial URL.
+
+### Веб-сайт Scratch
+
+#### страницы scratch-www не перезагружаются после входа в аккаунт
+
+В отличии от страниц scratchr2, страницы scratch-www не требуют перезагрузки страницы после входа. К примеру, если Вы перейдёте на страницу проекта, не войдя в систему, а потом войдёте, то страница не перезагрузится. Это также случается со студиями, со страницой сообщений и так далее.
+Напротив, все страницы Scratch перезагружаются после выхода.
+
+#### Страницы проектов никогда не возвращают 404
+
+Даже если проект личен или не существует, Scratch отправляет статус 200. Сообщение "наш сервер в недоумении" Scratch добавляет на сайт динамически.
+
+#### Другие важные ситуации
+
+- Каждая из 4-ёх вкладок в студиях имеет свой URL, но не вызывает навигацию браузера. Дополнения, влияющие на любую из 4-ёх страниц должны воспроизводиться, несмотря на первоначальную гиперссылку.
