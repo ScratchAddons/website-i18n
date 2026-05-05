@@ -42,16 +42,16 @@ description: Пользовательские сценарии — это фай
 
 ## Создание Вашего первого пользовательского сценария
 
-Unlike extension content scripts and Tampermonkey userscripts, you must wrap all of your code inside a module default export:
+В отличии от расширений сценариев контента и пользовательских сценариев Tampermonkey, Вы должны упаковать весь Ваш код внутри основного экспорта модуля:
 ```js
-// Example userscript
+// Примерный пользовательский сценарий
 export default async function ({ addon, console }) {
   console.log("Hello, " + await addon.auth.fetchUsername());
   console.log("How are you today?");
 }
 ```
 
-Remember that JavaScript allows functions to be declared inside other functions, for example:
+Запомните, что JavaScript позволяет функциям объявляться внутри других функций, как здесь:
 ```js
 export default async function ({ addon, console }) {
   async function sayHelloToUser() {
@@ -64,15 +64,15 @@ export default async function ({ addon, console }) {
 ```
 
 {{< admonition info >}}
-You can access many `addon.*` API utilities from userscripts. For example, you can get the current username, wait until an element exists on the page, or get a reference to the Scratch VM object.
+Вы имеете доступ ко многим инструментам интерфейса `addon.*` из пользовательских сценариев. В качестве примера, Вы можете получить текущее пользовательское имя, подождать, пока элемент не начнёт существовать на странице или получить ссылку на объект виртуальной машины Scratch.
 
-For more information, check the [API reference](/docs/reference/addon-api/).
+Для исчерпывающей информации, Вы можете проверить [справочник по интерфейсу](/docs/reference/addon-api/).
 {{< /admonition >}}
 
 
-## Modifying the document HTML
+## Изменение HTML документа
 
-Use [browser DOM APIs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) to customize the HTML of the page.
+Используйте [интерфейсы DOM браузера](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API) для изменения HTML страницы.
 
 Вот пример:
 ```js
@@ -85,50 +85,50 @@ const myContainer = document.querySelector(".container");
 myContainer.append(myButton);
 ```
 
-## Localizing userscripts
+## Локализация пользовательских сценариев
 
-Addon userscripts sometimes need to reference English words or sentences. Make sure not to hardcode them, so that they can be part of the translation process.
+Пользовательским сценариям дополнениц иногда надо ссылаться на английские слова или предложения. Пожалуйста, не привязывайте из напрямую, чтобы они могли участвовать в процессе перевода.
 
 {{< admonition error >}}
 ```js
-// Don't do this:
+// Не делайте так:
 document.querySelector(".sa-find-bar").placeholder = "Find blocks";
 ```
 {{< /admonition >}}
 
-To create a translatable string, follow these steps:
-1. Create a file named `addon-id.json` inside the `/addon-l10n/en` folder.
-2. Provide an ID for every string:
+Чтобы создать переводимую строку, следуйте этим инструкциям:
+1. Создайте файл под названием `addon-id.json` внутри папки `/addon-l10n/en`.
+2. Дайте каждой строке идентификатор:
 ```json
 {
   "addon-id/find": "Find blocks"
 }
 ```
-3. Make sure to import the `msg()` function in your userscript. The first line of your userscript should look like this:
+3. Не забудьте импортировать функцию `msg()` в Вашем пользовательском сценарии. Первая строка вашего кода должна выглядеть примерно вот так:
 ```js
 export default async function ({ addon, console, msg  }) {
                                               // ^^^
 ```
-4. Use the `msg()` function in your code, instead of a hardcoded string:
+4. Используйте функцию `msg()` в Вашем коде, вместо прямой строки:
 ```js
 document.querySelector(".sa-find-bar").placeholder = msg("find");
 ```
 
 {{< admonition info >}}
-For more information about localizing userscripts, see [this page](/docs/localization/localizing-addons/).
+Для большей информации о локализации пользовательских сценариев, посмотрите [эту страницу](/docs/localization/localizing-addons/).
 {{</admonition >}}
 
 
-## Technical details
+## Технические детали
 
-Each userscript file is a JavaScript module that exports a function. Scratch Addons only imports the module if needed, and executes it after the page has fully loaded.
+Каждый файл пользовательского сценария — это модуль JavaScript, который экспортирует функцию. Scratch Addons импортирует модуль лишь при надобности и исполняет его код после полной загрузки страницы.
 
-Userscripts are JavaScript modules, so they always run on ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This also means that userscripts may use [top-level imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to import other JavaScript files.
+Пользовательские сценарии — это модули JavaScript, поэтому они всегда воспроизводятся на ["строгом режиме"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). Это также означает, что пользовательские сценарии могут использовать [высшие импортирования](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) других файлов JavaScript.
 
-The order in which userscripts run may vary on each page load. After page load, the user might dynamically enable some addons in a custom order, so order of execution is never guaranteed. Some APIs like [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) attempt to fix any potential race conditions and unexpected behavior when dynamically enabling addons.
+Порядок, в котором пользовательские сценарии исполняются может изменяться на каждой загрузке страницы. После загрузки страницы, пользователь может динамически включать некоторые дополнения вперемешку, поэтому порядок поспроизведения никогда не гарантирован. Такие интерфейсы, как [`addon.tab.appendToSharedSpace`](/docs/reference/addon-api/addon.tab/addon.tab.appendtosharedspace/) пытаются решить возможные крайние случаи обгона и неожиданное поведение при динамическом включении дополнений.
 
 ### runAtComplete
 
-Userscripts may opt-in into being executed before the page has fully loaded by specifying `"runAtComplete": false` in the addon manifest, once for each userscript.
+Пользовательские сценарии также могут попросить исполняться до полной загрузки страницы с помощью опции `"runAtComplete": false` в манифесте дополнения, раз для каждого пользовательского сценария.
 
-As of now, only `document.head` is guaranteed to exist when running a userscript early. In the future, `document.body` will also be guaranteed to exist, so no userscripts will ever run before the HTML document loaded enough to reach `</head> <body>`.
+Пока что только присутствие `document.head` гарантировано при воспроизведении пользовательского сценария раньше времени. В будущем, существование `document.body` тоже будет гарантироваться, чтобы никакие пользовательские сценарии не воспроизводились до того, как документ HTML загрузился до точки `</head> <body>`.
