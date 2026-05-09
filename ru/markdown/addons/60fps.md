@@ -46,18 +46,18 @@ Jeffalo создал оригинальное дополнение, которо
 - **v1.36.0** The addon was renamed to **Higher project framerate mode**. The addon's description and information box was rewritten for clarity.
 - **v1.37.0** A second information box was added that explains issues with user devices' power saving mode.
 
-## Trivia
+## Тривия
 
 - Although TurboWarp Addons does not have this addon, Turbowarp's advanced project settings allows you to customize the project's framerate in a similar way.
 - Despite the addon's setting for customizing the FPS is limited from 31 to 240, the Scratch project player is perfectly fine with values both lower and higher than these limits! There are several ways to bypass this limit, as only the setting's input field sets the limit.
 - Jeffalo added the addon because "its hecking cool"[^1]
 - There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
 
-## Gallery
+## Галерея
 
 {{< docs/stub-section >}}
 
-## Related
+## Связанное
 
 {{< docs/stub-section >}}
 

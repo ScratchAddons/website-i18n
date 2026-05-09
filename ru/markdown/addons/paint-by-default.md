@@ -1,7 +1,7 @@
 ---
 ---
 
-**Paint costume by default** is an addon that changes the functionality of buttons that add a new sprite, costume, backdrop, and sound. In vanila Scratch, pressing the main button will open Scratch's asset library. This addon allows the default action to be customized in the addon settings, allowing a choice between: library (Scratch's default), paint or record, surprise, or upload.
+**Перекрашивать костюмы по умолчанию** — дополнение, которое изменяет функцию кнопок добавления нового спрайта, костюма, фона и звука. В ванильном Scratch нажатие на главную кнопку откроет библиотеку ресурсов Scratch. Это дополнение позволяет изменять вышеупомянутое действие в настройках дополнения, предоставляя выбор между: библиотекой (действие, как в Scratch), рисованием/записью, сюрпризом или загрузкой.
 
 ## Задний фон
 
@@ -9,54 +9,54 @@
 
 ## Особенности
 
-- The addon allows users to customize the default action for each of the following buttons: "Choose a Sprite", "Choose a Costume", "Choose a Backdrop", and "Choose a Sound".
-- Each of the buttons above have the following four options, which are pulled from the vanilla button's list when hovered:
-  - Library: Opens the corresponding Scratch asset library, depending on which button was pressed(Scratch's default)
-  - Paint/Record: Immediately opens the costume editor, or opens the audio recorder for the "Choose a Sound" button
-  - Surprise: Randomly selects from the corresponding Scratch asset library
-  - Upload: Allows you to upload a file
-- The tooltip that appears when hovering over the main button also displays the correct default action.
+- Дополнение позволяет пользователям редактировать стандартное действие для каждой из следующих кнопок: "Выбрать Спрайт", "Выбрать Костюм", "Выбрать Фон", "Выбрать Звук".
+- Каждая кнопка сверху имеет следующие четыре настройки, которые взяты из обычного списка кнопки при наведении:
+  - Библиотека: Открывает связанную библиотеку ресурсов Scratch, смотря на какую кнопку нажали (как в Scratch)
+  - Рисовать/Записывать: Сразу открывает редактор костюмов, ну или диктофон для записи аудио при нажатии на кнопку "Выбрать Звук"
+  - Сюрприз: Случайно выбирает ресурс из текущей библиотеки Scratch
+  - Загрузить: Позволяет Вам загрузить файл
+- Подсказка, появляющаяся при наведении над главной кнопкой также отображает актуальное действие по умолчанию.
 
 ## Настройки
 
-### Add Sprite
+### Добавить Спрайт
 
-- Changes the default action of the "Choose a Sprite" button, which is located at the bottom right of the sprite pane.
+- Изменяет действие по умолчанию кнопки "Выбрать Спрайт", которая находится в нижнем правом углу панели спрайтов.
 
-### Add Costume
+### Добавить Костюм
 
-- Changes the default action of the "Choose a Costume" button, which is located at the bottom of the costume list in the costume editor for any sprite.
+- Изменяет стандартное действие кнопки "Выбрать Костюм", которая находится на шельфе списка костюмов в редакторе костюмов для любого спрайта.
 
-### Add Backdrop
+### Добавить Фон
 
-- Changes the default action of the "Choose a Backdrop" button, which is located at the bottom of the Backdrop pane and the bottom of the backdrop list in the stage's costume editor.
+- Изменяет штатное действие кнопки "Выбрать Фон", которая находится внизу панели Фонов и на дне списка фонов в редакторе костюмов сцены.
 
-### Add Sprite
+### Добавить Спрайт
 
-- Changes the default action of the "Choose a Sound" button, which is located at the bottom of the sound list in the sound editor for any sprite or the backdrop.
+- Изменяет оригинальное действие кнопки "Выбрать Звук", которая находится на основании списка звуков в редакторе костюмов для любого спрайта или фона
 
-## Known issues
+## Известные проблемы
 
-- You cannot set the default action to any custom actions added by a Scratch modification. This includes the "HD Upload" option added by the _HD image uploads_ addon.
-- The addon's name "Paint costume by default" does not represent its options to change the default actions for the sprite, backdrop, or sound buttons. This issue is not planned to be resolved. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
+- Вы не можете установить действие на любое произвольное, добавленное другой модификацией Scratch. Это включает в себя опцию "HD Загрузка" от дополнения _Загрузка изображений в высоком качестве_.
+- Имя дополнения "Перекрашивать костюмы по умолчанию" не отражает его способности изменять действия для кнопок спрайтов,  фонов или звуков. Эту проблему пока не планируют исправить. [#6076](https://github.com/ScratchAddons/ScratchAddons/issues/6076)
 
 ## Титры
 
-GarboMuffin developed the entirety of the addon. Its final name, description, settings, and tags were made by WorldLanguages.
+GarboMuffin полностью разработал это дополнение. Его окончательное имя, описание, настройки и тэги были созданы WorldLanguages.
 
 ## Список изменений
 
-- **v1.19.0** The **Paint costume by default** addon was created.
-- **v1.19.1** Bug fix: Addon no longer treats the "Choose a Sound" button like a "Choose a Costume" button if the current sprite had no sounds.
+- **v1.19.0** Дополнение **Перекрашивать костюмы по умолчанию** было создано.
+- **v1.19.1** Работа над ошибками: Дополнение больше не принимает кнопку "Выбрать Звук" как кнопку "Выбрать Костюм", если в текущем спрайте нет звуков.
 
-## Trivia
-
-{{< docs/stub-section >}}
-
-## Gallery
+## Тривия
 
 {{< docs/stub-section >}}
 
-## Related
+## Галерея
 
-- [Original pull request (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)
+{{< docs/stub-section >}}
+
+## Связанное
+
+- [Первоначальный запрос на слияние (#3199)](https://github.com/ScratchAddons/ScratchAddons/pull/3199)

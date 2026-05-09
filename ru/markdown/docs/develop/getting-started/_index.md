@@ -1,4 +1,4 @@
 ---
 title: Приступим
 ---
-Get started with making an addon for Scratch Addons!
+Приступим к созданию дополнения для Scratch Addons!

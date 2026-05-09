@@ -44,19 +44,19 @@ Scratch убрали кнопку дискуссии, которая вела н
 - **v1.28.0**: Added the compact user dropdown setting.
 - **v1.32.0**: Added the "stick to" setting.
 
-## Trivia
+## Тривия
 
 - This is the first addon to modify the Scratch website.
 - This is the first and only addon to use a table setting.
 - This is one of the few addons to have no credits.
 
-## Gallery
+## Галерея
 
 ![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
 
 The compact user dropdown.
 
-## Related
+## Связанное
 
 - [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
 - [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
