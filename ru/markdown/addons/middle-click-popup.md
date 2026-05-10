@@ -5,56 +5,56 @@
 
 ## Задний фон
 
-The original version was made by Griffpatch for the Developer Tools extension. As part of a work to separate features from the _Developer tools_ as individual addons, this addon has been made to its own addon.
+Первоначальная версия была создана Griffpatch для расширения Инструменты Разработчика. Как часть работы над распределением функций из _Инструментов для разработчика_ в отдельные дополнения, это дополнение было переработано в своё отдельное дополнение.
 
 ## Особенности
 
-- The searching supports any block in the workspace. This includes custom blocks, blocks from extensions and variable / lists.
-- You can use the arrow keys and enter to navigate the search results for even faster insertion.
-- When a result is highlighted, you can press tab to autocomplete your search to that block.
-- The popup can insert multiple nested blocks at the same time, by typing something like "move my variable + 10 steps".
-- For mathematical blocks, the order of operations applies by default, but you can use brackets to change the order.
-- You can surround text in double quotes to force the searcher not to turn your text into blocks. This is useful for situations like trying to say the text "x position" instead of the variable `x position`, where you could type say "x position".
+- Поиск поддерживает любой блок в рабочем пространстве. Это включает в себя пользовательские блоки, блоки из расширений и переменные/списки.
+- Вы можете использовать клавиши стрелок и Enter для навигации по результатам поиску для ещё более быстрой вставки.
+- Когда результат выделен, Вы можете нажать Tab для автозаполнения Вашего поиска на выбранный блок.
+- Всплывающее окно может вставлять несколько вложенных блоков в одно и тоже время через печатания чего-нибудь вроде "переместить моя переменная + 10 шагов"
+- Для математических блоков, порядок операций применяется по умолчанию, но Вы можете использовать скобки для его изменения.
+- Вы можете окружать текст в двойных кавычках, чтобы заставить поисковика не превращать Ваш текст в блоки. Это полезно для ситуаций, когда, например, Вы пытаетесь сказать "x позиция" вместо переменной `x позиция`, где Вы можете написать "x позиция".
 
 ## Настройки
 
-### Popup block size
+### Размер блоков всплывающего окна
 
-Controls how big the blocks inside the menu appear. It is the height in pixels of a single block.
+Контролирует, насколько большими блоки в меню являются. Это высота в пикселях одного блока.
 
-### Popup width
+### Ширина всплывающего окна
 
-Controls how wide the popup is. This is a percentage of the width of the entire window.
+Контролирует то, насколько широко всплывающее окно. Это есть процент ширины всего окна
 
-### Popup maximum height
+### Максимальная высота всплывающего окна
 
-Controls how tall the popup can be before a scrollbar appears. This is a percentage of the hight of the entire window.
+Регулирует, насколько высокое должно быть окно до появления полосы прокрутки. Это процент высоты всего окна.
 
 ## Планы о будущем
 
-- The popup should be resizable by dragging one of the corners in the editor instead of having to change a setting.
-- Adding string interpolation for strings in quotes could really help out situations where a lot of join blocks would normally have to be tediously arranged.
+- Всплывающее окно должно быть расширяемо с помощью передвижения одного из углов в редакторе без изменения настроек.
+- Добавление интерполяции для строк в кавычках сильно бы помогло ситуациям, где множество присоединённых блоков обычно должно было бы изнурительно расставлено.
 
 ## Известные проблемы
 
-- The blocks inside the popup of this addon will not respect the settings from the *Customizable block shapes* addon.
-- The alogithm for sorting the search results still needs a lot of work, and sometimes the result you are probably looking for is hidden below a mountain of worse results.
+- Блоки внутри всплывающего окна этого дополнения не будут уважать настройки дополнения *Пользовательские формы блоков*.
+- Алгоритм для сортироваки результатов поиска всё ещё требует много работы и иногда результат, который Вы, наверно, ищете, спрятан под горой мусорных находок.
 
 ## Титры
 
-Tacodiva made most of the addon as it stands today. Additionally, Griffpatch helped a lot by providing feedback and finding bugs in the overhauled version.
+Tacodiva создал большинство дополнения на настоящее время. Дополнительно, Griffpatch очень помог своими отзывами и исканием ошибок в переработанной версии.
 
 ## Список изменений
 
 {{< docs/outdated-section >}}
 
-- **v1.30.0** The insert blocks by name addon was created.
-- **v1.31.0** The addon was completely overhauled, allowing for nesting blocks, adding autocomplete and changing how the blocks where shown in the popup.
-- **v1.31.1** The algorithm for searching was altered and several bugs where fixed.
+- **v1.30.0** Дополнение Вставить блоки по имени было создано.
+- **v1.31.0** Дополнение было полностью переработано, позволяя добавление вложенных блоков, добавляя автозаполнение и изменяя как блоки были изображены во всплывающем окне.
+- **v1.31.1** Алгоритм для поиска был изменён и несколько ошибок были исправлены.
 
 ## Тривия
 
-- This was the first addon page written for the Addon Docs!
+- Это была первая написанная страница для Документации Дополнений!
 - Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.
 - The original code for the popup was created before Scratch Addons even existed by Griffpatch in 2019.
 - When Tacodiva overhauled the addon for v1.31.0, the code had almost 2,800 lines of code added and 149 commits!
