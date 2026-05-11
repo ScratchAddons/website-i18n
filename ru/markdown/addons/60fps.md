@@ -39,19 +39,19 @@ Jeffalo создал оригинальное дополнение, которо
 - **v1.13.0** Обнаружение нажатия `Alt` + Зелёного Флажка было улучшено. Дополнение теперь можно динамически включать и выключать.
 - **v1.14.0** Дополнение получило бирку Проигрыватель Проекта.
 - **v1.18.0** Дополнение переименовано в **60FPS режим проигрывателя проектов**. Оно теперь также может использоватеься во внедрениях проектов.
-- **v1.24.0** Bug fix: The addon no longer loses track of state when changing from project page to editor.
-- **v1.26.0** Bug fix: The addon no longer causes variables to not visually update in some cases.
-- **v1.30.0** The addon is no longer enabled by default for all users.
-- **v1.34.0** A more accessible yellow fast-forward icon was added to the green flag indicator whenever the addon is toggled on. Information box was rewritten to clarify that most projects will not behave properly when addon is enabled.
-- **v1.36.0** The addon was renamed to **Higher project framerate mode**. The addon's description and information box was rewritten for clarity.
-- **v1.37.0** A second information box was added that explains issues with user devices' power saving mode.
+- **v1.24.0** Работа над ошибками: Дополнение больше не теряет состояние при смене со страницы проекта к редактору.
+- **v1.26.0** Работа над ошибками: Дополнение больше не вызывает переменные визуально не обновляться в некоторых случаях.
+- **v1.30.0** Дополнение больше не включено по умолчанию для всех пользователей.
+- **v1.34.0** Более доступная жёлтая иконка перемотки была добавлена к индикатору зелёного флажка в любое время включения дополнения. Строчка информации была переписана для пояснения, что большинство проектов со включенным дополнением корректно работать не будут.
+- **v1.36.0** Дополнение было переименовано на **Режим высокой частоты проекта**. Описание и строка информации дополнения были переписаны для ясности.
+- **v1.37.0** Вторая строка информации было добавлена, которая объясняет проблемы с энергосберегающим режимом пользователей.
 
 ## Тривия
 
-- Although TurboWarp Addons does not have this addon, Turbowarp's advanced project settings allows you to customize the project's framerate in a similar way.
-- Despite the addon's setting for customizing the FPS is limited from 31 to 240, the Scratch project player is perfectly fine with values both lower and higher than these limits! There are several ways to bypass this limit, as only the setting's input field sets the limit.
-- Jeffalo added the addon because "its hecking cool"[^1]
-- There is a method that allows Scratch projects to roughly detect a custom FPS, which may indicate that the addon is enabled.[^2]
+- Хоть у Дополнений TurboWarp нет этого дополнения, продвинутые настройки проекта TurboWarp позволяют Вам изменять частоту кадров проекта в похожей манере.
+- Несмотря на то, что настройки изменённой частоты кадров ограничены от 31-ой до 240-ой, проигрыватель проектов Scratch ведёт себя прекрасно со значениями ниже и выше этих лимитов! Есть несколько способов обойти это ограничение, ведь только у строки ввода настройки оно устанавливается.
+- Jeffalo добавил дополнение, потому что оно "чёртово круто"[^1]
+- Есть метод который позволяет проектам примерно распознавать пользовательскую частоту кадров, что может обозначать включенное дополнение.[^2]
 
 ## Галерея
 

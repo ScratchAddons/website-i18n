@@ -55,11 +55,11 @@ Tacodiva создал большинство дополнения на наст�
 ## Тривия
 
 - Это была первая написанная страница для Документации Дополнений!
-- Despite only recently becoming its own addon, the middle click popup is one of the oldest features of Scratch Addons being a part of dev tools sense the beginning.
-- The original code for the popup was created before Scratch Addons even existed by Griffpatch in 2019.
-- When Tacodiva overhauled the addon for v1.31.0, the code had almost 2,800 lines of code added and 149 commits!
-- The name of the Git branch for the overhaul was `idk-what-im-doing`.
-- Tacodiva was struggling to fix an issue so much, that despite only contributing two lines of CSS to fix the problem, CST1229 is in the addon's credits!
+- Несмотря на лишь недавнее превращение в собственное дополнение, всплывающее окно на среднюю кнопку мыши является одним из самых старых особенностей Scratch Addons, будучи частью разработческих инструментов с самого начала.
+- Первоначальный код для всплывающего окна был создан до того, как Scratch Addons даже существовали, от Griffpatch в 2019.
+- Когда Tacodiva переделал дополнение к v1.31.0, код имел почти 2,8000 добавленных линий кода и 149 комментариев!
+- Имя Git ветке для переработки было `idk-what-im-doing`.
+- Tacodiva так сильно не мог исправить одну проблему настолько, что даже всего лишь жертвуя двумя линиями CSS на решение проблемы, CST1229 теперь в титрах дополнения!
 
 ## Галерея
 

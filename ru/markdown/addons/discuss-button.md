@@ -39,26 +39,26 @@ Scratch убрали кнопку дискуссии, которая вела н
 
 ## Список изменений
 
-- **v1.0.0** The first version that added the discuss button and optionally removed ideas.
-- **v1.24.0**: Made the links fully customizable.
-- **v1.28.0**: Added the compact user dropdown setting.
-- **v1.32.0**: Added the "stick to" setting.
+- **v1.0.0** Первая версия, добавляющаяя кнопку обсуждения и по желанию убирающаяя идеи.
+- **v1.24.0**: Сделаны полностью именяемыми сссылки.
+- **v1.28.0**: Добавлена настройка компактного выпадающего списка.
+- **v1.32.0**: Добавлена настройка "прилипать".
 
 ## Тривия
 
-- This is the first addon to modify the Scratch website.
-- This is the first and only addon to use a table setting.
-- This is one of the few addons to have no credits.
+- Это первое дополнение, изменяющее сам веб-сайт Scratch.
+- Это первое и единственное дополнение, использующее табличную настройку.
+- Это одно из немногих дополнений, у которых нет титров
 
 ## Галерея
 
-![Compact user dropdown](/assets/img/addons/docs/compact-nav-dropdown.png)
+![Компактный пользовательский выпадающий список](/assets/img/addons/docs/compact-nav-dropdown.png)
 
-The compact user dropdown.
+Компактный пользовательский выпадающий список.
 
 ## Связанное
 
-- [Table setting pull request (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
-- [Customizable editor menu bar](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
+- [Запрос на слияние с табличной настройкой (#2875)](https://github.com/ScratchAddons/ScratchAddons/pull/2875)
+- [Настраиваемая строка меню редактора](https://scratch.mit.edu/scratch-addons-extension/settings#addon-custom-menu-bar)
 
 [^1]: https://scratch.mit.edu/discuss/topic/269283/
