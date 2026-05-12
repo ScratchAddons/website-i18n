@@ -22,6 +22,10 @@ v1.8.0:
       Dodatek "snemanje videov projekta", ki je prej lahko posnel samo video, lahko zdaj posname do 5 minut videa in zvoka projekta.
 v1.9.1:
   Highlights:
+    Description: |
+      Nova funkcionalnost: na zavihku Sporočila poglejte, komu so vaši projekti všeč, tako da premaknete miško na število všečkov/priljubljenih. Zavihek Sporočila in dodatek Scratch obvestila zdaj podpirata sporočila o napredovanju v studiih.
+
+      Dodatek "Samodejno skrij paleto blokov" ima zdaj način "ko premaknem miško na kategorijo". Dodatek "Posnemi video projekta" lahko zdaj vključi zvok mikrofona.
     ImageAlt: Zaslonska slika nove funkcije v dodatku Scratch sporočila.
 v1.10.0:
   Highlights:
@@ -41,6 +45,18 @@ v1.12.0:
       Nova funkcija: dodatek "Povleci datoteke v urejevalnik", ki omogoča vlečenje slik in zvokov iz vašega upravitelja datotek v seznam figur, videzov ali zvokov. Pojdite v nastavitve Scratch Addons, da ga omogočite.
 
       Druga nova funkcija v tej posodobitvi je "prilagojena oblika blokov", ki omogoča spremembo velikosti, zaobljenosti robov in velikosti zareze blokov.
+v1.13.0:
+  Highlights:
+    Description: |
+      Nova funkcionalnost: dodatek "temni način v urejevalniku" je prenovljen in je zdaj omogoča več prilagoditev. Pojdite v nastavitve Scratch Addons, da spremenite posamezne barve ter vključite temne komentarje, temne drsne vrstice in druge možnosti!
+
+      Izpostavljena nova dodatka v tej posodobitvi sta "prilagojene nastavitve povečave skript" in "spremeni začetni položaj novih figur".
+v1.14.0:
+  Highlights:
+    Description: |
+      Nekateri novi dodatki v tej posodobitvi so "podpora igralnih ploščkov", "mačji bloki", "zvočni učinki v urejevalniku" in "odstrani zaobljen okvir odra". Pojdite v nastavitve Scratch Addons, da jih vključite.
+
+      Ta posodobitev prinaša tudi bolj urejeno stran z nastavitvami Scratch Addons in izboljšano učinkovitost dodatkov v urejevalniku projektov.
 v1.15.0:
   Highlights:
     Description: |
@@ -77,6 +93,18 @@ v1.20.0:
       Nov dodatek: "vleci posamezne bloke s tipko Ctrl", ki doda možnost, da iz sredine skripte potegnete en sam blok (namesto vseh blokov pod njim), medtem ko držite tipko Ctrl. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Dodatek "temni način in prilagoditev barv v urejevalniku" ima novo prednastavitev barv "Scratch 2.0". Druga nova dodatka v tej posodobitvi sta "skrij nove spremenljivke" in "premakni videz na vrh ali na dno".
+v1.21.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "podvoji skripto s tipko Alt", ki doda možnost, da hitro podvojite skripto tako, da jo potegnete, medtem ko držite tipko Alt. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Druga nova dodatka, dodana v tej posodobitvi, sta "izboljšan celozaslonski način" in "okno za dodajanje emoji v komentarje".
+v1.22.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "zamenjaj spremenljivke 'za vse figure' in 'samo za to figuro'", ki omogoča spremembo vidnosti spremenljivk in seznamov ter tega, ali so spremenljivke shranjene v oblaku. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Drugi novi dodatki, dodani v tej posodobitvi, so "boljši komentarji v urejevalniku", "seznam kategorij z dvema stolpcema"" in "vrstica za iskanje Mojih stvari".
 v1.23.0:
   Highlights:
     Description: |
@@ -119,6 +147,12 @@ v1.29.0:
       Nov dodatek: "drsnik za neprosojnost", ki v okno za izbiro barve v urejevalniku videzov doda drsnik za neprosojnost. Pojdite v nastavitve Scratch Addons, da ga vključite.
 
       Drugi novi dodatki v tej posodobitvi so "drsnik za glasnost projekta", "preimenovanje sporočil" in "izberi barve iz odra v urejevalniku videzov".
+v1.30.0:
+  Highlights:
+    Description: |
+      Nov dodatek: "pripenjanje v urejevalniku videzov", ki omogoča pripenjanje predmetov v urejevalniku videzov na okvirje predmetov in točke vektorskih oblik. Pojdite v nastavitve Scratch Addons, da ga vključite.
+
+      Drugi novi dodatki, dodani v tej posodobitvi, so "skrči lastnosti figure", "iskanje blokov" in "vedno pokaži številčnico".
 v1.33.0:
   Highlights:
     Description: |
