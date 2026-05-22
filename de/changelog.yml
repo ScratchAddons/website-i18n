@@ -13,7 +13,7 @@ v1.7.0:
       Neue Funktion: Datenkategorie-Optimierungen, mit Einstellungen für das Separieren von Listen und lokalen Variablen in ihre eigene Sektionen. Gehe zu den Einstellungen für Scratch Addons, um es zu aktivieren.
 
       Andere neue Funktionen: Import und Export von den Erweiterungseinstellungen, persönliche Gestaltung von Popup-Tabs, Aktivierung von Addons direkt in dem Erweiterungs-Popup, verschiedene Bugs behoben und verbesserte Leistung.
-    ImageAlt: Video, das das "Automatisches Ausblenden für Blockpalette"-Feature zeigt.
+    ImageAlt: "Video, das das \"Automatisches Ausblenden für Blockpalette\"-Feature zeigt."
 v1.8.0:
   Highlights:
     Description: |
@@ -243,3 +243,9 @@ v1.44.0:
       Das neue "Benutzerdefinierte Blöcke umfärben"-Addon fügt eine Option zum Wählen einer Benutzerdefienierten Farbe wenn ein Block erstellt oder bearbeitet wird. Gehe zu den Einstellubgen für Scratch Addons, um es zu aktivieren.
 
       Dieses Update fügt ebenfalls Timing-Blöcke und Linie-für-Linie-Profiling zum "Debugger"-Addon hinzu.
+v1.45.0:
+  Highlights:
+    Description: |
+      Das neue Addon "Verbessertes Ziehen von Kostümen und Geräuschen", das standardmäßig aktiviert ist, lässt die Kostüm- und Klanglisten automatisch scrollen, wenn Elemente neu angeordneten werden. Sieh es dir in den Scratch-Addons-Einstellungen an.
+
+      Dieses Update fügt auch eine optionale Bestätigung für die Abmeldung von der Scratch-Website im Addon "Bestätigungen" hinzu.
